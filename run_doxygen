@@ -1,0 +1,2 @@
+rm -r ./api/*
+/Applications/Doxygen.app/Contents/Resources/doxygen juce_api_config
