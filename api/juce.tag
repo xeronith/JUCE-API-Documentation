@@ -1372,6 +1372,13 @@
     <path>/Volumes/CODE/code/juce/modules/juce_core/text/</path>
     <filename>juce__LocalisedStrings_8h</filename>
     <class kind="class">LocalisedStrings</class>
+    <member kind="define">
+      <type>#define</type>
+      <name>TRANS</name>
+      <anchorfile>juce__LocalisedStrings_8h.html</anchorfile>
+      <anchor>af3c28ad27b0d8fa2f615888701e32b07</anchor>
+      <arglist>(stringLiteral)</arglist>
+    </member>
     <member kind="function">
       <type>String</type>
       <name>translate</name>
@@ -1751,6 +1758,13 @@
     <name>juce_Memory.h</name>
     <path>/Volumes/CODE/code/juce/modules/juce_core/memory/</path>
     <filename>juce__Memory_8h</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>juce_UseDebuggingNewOperator</name>
+      <anchorfile>juce__Memory_8h.html</anchorfile>
+      <anchor>a881926ad904a631336e5d4b15f05c548</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type>void</type>
       <name>zeromem</name>
@@ -2987,6 +3001,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>JUCE_API</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>a65961b3bfbda0ffb83750d914cee38fb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>JUCE_PUBLIC_FUNCTION</name>
       <anchorfile>juce__StandardHeader_8h.html</anchorfile>
       <anchor>a96fbdc03e0c892905daef7b47337c84e</anchor>
@@ -3030,6 +3051,13 @@
     <path>/Volumes/CODE/code/juce/modules/juce_core/text/</path>
     <filename>juce__String_8h</filename>
     <class kind="class">String</class>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_STRING_UTF_TYPE</name>
+      <anchorfile>juce__String_8h.html</anchorfile>
+      <anchor>abf84e9c5d914b5000483aa6c975aaf75</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type>JUCE_API String JUCE_CALLTYPE</type>
       <name>operator+</name>
@@ -8554,6 +8582,27 @@
       <name>isRecording</name>
       <anchorfile>structAudioPlayHead_1_1CurrentPositionInfo.html</anchorfile>
       <anchor>a26d4f8779d4f64ba6c3a0a0df5607a36</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>ppqLoopStart</name>
+      <anchorfile>structAudioPlayHead_1_1CurrentPositionInfo.html</anchorfile>
+      <anchor>ae56173fb2fdc1bf77094d5a507ad247c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>ppqLoopEnd</name>
+      <anchorfile>structAudioPlayHead_1_1CurrentPositionInfo.html</anchorfile>
+      <anchor>af3f8a3e1105700c28b2197635a64c9f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>isLooping</name>
+      <anchorfile>structAudioPlayHead_1_1CurrentPositionInfo.html</anchorfile>
+      <anchor>a69d7734277c893a624b2ea7392cb96e5</anchor>
       <arglist></arglist>
     </member>
   </compound>

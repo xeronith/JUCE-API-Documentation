@@ -25,6 +25,7 @@ var searchData=
   ['isinstrument',['isInstrument',['../classPluginDescription.html#ada0d12fe7d191f7cd315721f7b965720',1,'PluginDescription']]],
   ['isitalic',['isItalic',['../classCustomTypeface.html#a461ed100073dec515c55602adc258c66',1,'CustomTypeface']]],
   ['iskeydown',['isKeyDown',['../structApplicationCommandTarget_1_1InvocationInfo.html#a40f339e15279d78b003e3598f11c1424',1,'ApplicationCommandTarget::InvocationInfo']]],
+  ['islooping',['isLooping',['../structAudioPlayHead_1_1CurrentPositionInfo.html#a69d7734277c893a624b2ea7392cb96e5',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['isplaying',['isPlaying',['../structAudioPlayHead_1_1CurrentPositionInfo.html#a84105c58665f2daae7a18809c964b397',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['isradial',['isRadial',['../classColourGradient.html#a42c5382b7e7bda2b7efdb7b1a9258a44',1,'ColourGradient']]],
   ['isreadonly',['isReadOnly',['../structDirectoryContentsList_1_1FileInfo.html#a73e256209bd193d238465977d4493114',1,'DirectoryContentsList::FileInfo']]],

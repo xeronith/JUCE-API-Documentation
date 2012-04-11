@@ -29,6 +29,8 @@ var searchData=
   ['position',['position',['../classMarkerList_1_1Marker.html#a22c96e38c72f6b18a164ed0fa0b0eb0b',1,'MarkerList::Marker']]],
   ['posproperty',['posProperty',['../classMarkerList_1_1ValueTreeWrapper.html#aea00685271d757b553f1e4796b07156c',1,'MarkerList::ValueTreeWrapper']]],
   ['powderblue',['powderblue',['../classColours.html#aa913febd5348f64f92af7c4dac0b667c',1,'Colours']]],
+  ['ppqloopend',['ppqLoopEnd',['../structAudioPlayHead_1_1CurrentPositionInfo.html#af3f8a3e1105700c28b2197635a64c9f6',1,'AudioPlayHead::CurrentPositionInfo']]],
+  ['ppqloopstart',['ppqLoopStart',['../structAudioPlayHead_1_1CurrentPositionInfo.html#ae56173fb2fdc1bf77094d5a507ad247c',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['ppqposition',['ppqPosition',['../structAudioPlayHead_1_1CurrentPositionInfo.html#aae819730a8f2918f97b9869970ff8c3d',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['ppqpositionoflastbarstart',['ppqPositionOfLastBarStart',['../structAudioPlayHead_1_1CurrentPositionInfo.html#ad7967e1315115628cb35f93f389a3448',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['preferredheight',['preferredHeight',['../classPropertyComponent.html#ae912e7f6c12e76cf3dc2a9f0d210e4ed',1,'PropertyComponent']]],

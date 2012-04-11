@@ -145,6 +145,7 @@ var searchData=
   ['toutf8',['toUTF8',['../classMemoryOutputStream.html#ac148c479157c53b9c8133a3eef72c6e4',1,'MemoryOutputStream::toUTF8()'],['../classString.html#ae9e2c87c3ff8410e4f70a02288ece2dd',1,'String::toUTF8()']]],
   ['towidecharpointer',['toWideCharPointer',['../classString.html#ae79ca95309b6b8a7987e8b2f2efef297',1,'String']]],
   ['trackcolourid',['trackColourId',['../classScrollBar.html#a5cdce553497ae1b7fc7fcd3caa805167ab32d64c0802a57b8c50d138e00a4716e',1,'ScrollBar::trackColourId()'],['../classSlider.html#a1012002c53381ccc7c1fe7e604a75f44a1a7a91f54b703cf78f028edc0ed7786b',1,'Slider::trackColourId()']]],
+  ['trans',['TRANS',['../juce__LocalisedStrings_8h.html#af3c28ad27b0d8fa2f615888701e32b07',1,'juce_LocalisedStrings.h']]],
   ['transform',['transform',['../classFillType.html#a6302124b870bccda6a55b13a37a69744',1,'FillType']]],
   ['transformcontexttocorrectorigin',['transformContextToCorrectOrigin',['../classDrawable.html#a5677834b7ae237a1777080ff6d246c7a',1,'Drawable']]],
   ['transformed',['transformed',['../classFillType.html#a5750bc2f18b31abf87555c132334056b',1,'FillType::transformed()'],['../classRectangle.html#a9d9a2c2b0464a69e14d43da14724ab07',1,'Rectangle::transformed()']]],
