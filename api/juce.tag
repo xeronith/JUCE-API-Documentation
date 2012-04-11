@@ -514,13 +514,6 @@
       <anchor>a32ffe19f7697fad5b1febdce3b5fab4d</anchor>
       <arglist></arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>JUCE_T</name>
-      <anchorfile>juce__CharacterFunctions_8h.html</anchorfile>
-      <anchor>a3e89667edc0ad368c55bf35494ddbff8</anchor>
-      <arglist>(stringLiteral)</arglist>
-    </member>
     <member kind="typedef">
       <type>wchar_t</type>
       <name>juce_wchar</name>
@@ -1193,20 +1186,6 @@
     <name>juce_IncludeModuleHeaders.h</name>
     <path>/Volumes/CODE/code/juce/modules/juce_audio_plugin_client/utility/</path>
     <filename>juce__IncludeModuleHeaders_8h</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>Point</name>
-      <anchorfile>juce__IncludeModuleHeaders_8h.html</anchorfile>
-      <anchor>a264185c815a47814791f68e7c6da85ad</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>Component</name>
-      <anchorfile>juce__IncludeModuleHeaders_8h.html</anchorfile>
-      <anchor>a43f72e6eba2a77ceba6172bb1a5e35bf</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>juce_IncludeSystemHeaders.h</name>
@@ -1686,20 +1665,6 @@
       <arglist>(const int64 n) noexcept</arglist>
     </member>
     <member kind="function">
-      <type>Type</type>
-      <name>juce_negate</name>
-      <anchorfile>juce__MathsFunctions_8h.html</anchorfile>
-      <anchor>abe43d78567cf0362b20d97b460b4e328</anchor>
-      <arglist>(Type n) noexcept</arglist>
-    </member>
-    <member kind="function">
-      <type>Type *</type>
-      <name>juce_negate</name>
-      <anchorfile>juce__MathsFunctions_8h.html</anchorfile>
-      <anchor>a3c79ab8c4186e889ac5f05ad3aba41e0</anchor>
-      <arglist>(Type *n) noexcept</arglist>
-    </member>
-    <member kind="function">
       <type>bool</type>
       <name>juce_isfinite</name>
       <anchorfile>juce__MathsFunctions_8h.html</anchorfile>
@@ -1786,13 +1751,6 @@
     <name>juce_Memory.h</name>
     <path>/Volumes/CODE/code/juce/modules/juce_core/memory/</path>
     <filename>juce__Memory_8h</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>juce_ThreadLocal</name>
-      <anchorfile>juce__Memory_8h.html</anchorfile>
-      <anchor>a8298af7fde34e5703f9992366538d1ad</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="function">
       <type>void</type>
       <name>zeromem</name>
@@ -62722,15 +62680,15 @@
       <type></type>
       <name>Uuid</name>
       <anchorfile>classUuid.html</anchorfile>
-      <anchor>a9509abafb51da0ada115eee741e99400</anchor>
-      <arglist>(const Uuid &amp;other)</arglist>
+      <anchor>a89f27814d2c3bcb6e3328fa859ea22da</anchor>
+      <arglist>(const Uuid &amp;other) noexcept</arglist>
     </member>
     <member kind="function">
       <type>Uuid &amp;</type>
       <name>operator=</name>
       <anchorfile>classUuid.html</anchorfile>
-      <anchor>aa1ca1b6f8412ff1f383cd1b6c5f3606a</anchor>
-      <arglist>(const Uuid &amp;other)</arglist>
+      <anchor>ac15a4a676d1172c3607cf799dfbab333</anchor>
+      <arglist>(const Uuid &amp;other) noexcept</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -62743,15 +62701,15 @@
       <type>bool</type>
       <name>operator==</name>
       <anchorfile>classUuid.html</anchorfile>
-      <anchor>a94184c1d9e41399c88edd0afaab9e4cd</anchor>
-      <arglist>(const Uuid &amp;other) const </arglist>
+      <anchor>a6e1dfadbd35c43f22eb95da3f72e01b9</anchor>
+      <arglist>(const Uuid &amp;other) const noexcept</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>operator!=</name>
       <anchorfile>classUuid.html</anchorfile>
-      <anchor>ab27f506f8faf54649c325f1b1e15a231</anchor>
-      <arglist>(const Uuid &amp;other) const </arglist>
+      <anchor>a150b2f5cfa3be9fa586c8ec3c945d9d1</anchor>
+      <arglist>(const Uuid &amp;other) const noexcept</arglist>
     </member>
     <member kind="function">
       <type>String</type>
@@ -62792,8 +62750,8 @@
       <type>Uuid &amp;</type>
       <name>operator=</name>
       <anchorfile>classUuid.html</anchorfile>
-      <anchor>a1598df0e8e1e3bbc2b8ab2e758483728</anchor>
-      <arglist>(const uint8 *rawData)</arglist>
+      <anchor>ac2d2acb3301bbd3ab48cbc42d577b737</anchor>
+      <arglist>(const uint8 *rawData) noexcept</arglist>
     </member>
   </compound>
   <compound kind="class">

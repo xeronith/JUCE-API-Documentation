@@ -40,8 +40,6 @@ var searchData=
   ['juce_5fprevent_5fheap_5fallocation',['JUCE_PREVENT_HEAP_ALLOCATION',['../juce__PlatformDefs_8h.html#abe12fb8b712ed0602dd1678599a3167b',1,'juce_PlatformDefs.h']]],
   ['juce_5fpublic_5ffunction',['JUCE_PUBLIC_FUNCTION',['../juce__StandardHeader_8h.html#a96fbdc03e0c892905daef7b47337c84e',1,'juce_StandardHeader.h']]],
   ['juce_5fstringify',['JUCE_STRINGIFY',['../juce__PlatformDefs_8h.html#a7fab1bb48f05df367f0a57bc6cf3d12f',1,'juce_PlatformDefs.h']]],
-  ['juce_5ft',['JUCE_T',['../juce__CharacterFunctions_8h.html#a3e89667edc0ad368c55bf35494ddbff8',1,'juce_CharacterFunctions.h']]],
-  ['juce_5fthreadlocal',['juce_ThreadLocal',['../juce__Memory_8h.html#a8298af7fde34e5703f9992366538d1ad',1,'juce_Memory.h']]],
   ['juce_5ftry',['JUCE_TRY',['../juce__PlatformDefs_8h.html#a267fd4f83073fb084b389df70243c52e',1,'juce_PlatformDefs.h']]],
   ['juce_5fundenormalise',['JUCE_UNDENORMALISE',['../juce__MathsFunctions_8h.html#a339666bd60cc6cb0831cb79c8f1b07b6',1,'juce_MathsFunctions.h']]],
   ['juce_5fversion',['JUCE_VERSION',['../juce__StandardHeader_8h.html#a8e9e97736d05e318de09b9bedab1aaa0',1,'juce_StandardHeader.h']]]

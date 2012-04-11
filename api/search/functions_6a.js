@@ -14,7 +14,6 @@ var searchData=
   ['juce_5fisfinite',['juce_isfinite',['../juce__MathsFunctions_8h.html#a6f1d1715582be5ebe0e4efc72afddce3',1,'juce_MathsFunctions.h']]],
   ['juce_5fisrunningunderdebugger',['juce_isRunningUnderDebugger',['../juce__StandardHeader_8h.html#a1ae594ac7801c1936131b0512157c1dd',1,'juce_StandardHeader.h']]],
   ['juce_5fleak_5fdetector',['JUCE_LEAK_DETECTOR',['../classIIRFilter.html#a4a5724d22fb0a7b58b4d58df02b50798',1,'IIRFilter']]],
-  ['juce_5fnegate',['juce_negate',['../juce__MathsFunctions_8h.html#abe43d78567cf0362b20d97b460b4e328',1,'juce_negate(Type n) noexcept:&#160;juce_MathsFunctions.h'],['../juce__MathsFunctions_8h.html#a3c79ab8c4186e889ac5f05ad3aba41e0',1,'juce_negate(Type *n) noexcept:&#160;juce_MathsFunctions.h']]],
   ['juceapplication',['JUCEApplication',['../classJUCEApplication.html#a80e6dadf35b6954df90f2e11bb25ad8b',1,'JUCEApplication']]],
   ['juceapplicationbase',['JUCEApplicationBase',['../classJUCEApplicationBase.html#a3b64c47474ca9bf96c4ad7c0ee8cb3f5',1,'JUCEApplicationBase']]],
   ['justification',['Justification',['../classJustification.html#ad88054a89ce3ab6b2a4b2bf8990390ce',1,'Justification::Justification(int flags_) noexcept'],['../classJustification.html#a04002a24d0dea5eb7b893e364a12d0e7',1,'Justification::Justification(const Justification &amp;other) noexcept']]],

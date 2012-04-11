@@ -34,5 +34,5 @@ var searchData=
   ['usesanysymbols',['usesAnySymbols',['../classExpression.html#a0d3a456e6890d85965d6c78be8df7bc9',1,'Expression']]],
   ['usesnonzerowinding',['usesNonZeroWinding',['../classDrawablePath_1_1ValueTreeWrapper.html#a520c193d536d0ab53cd5de356b6996be',1,'DrawablePath::ValueTreeWrapper']]],
   ['usetimeslice',['useTimeSlice',['../classTimeSliceClient.html#a272b0868c9bd0b5c281cf09dbaa69a9c',1,'TimeSliceClient::useTimeSlice()'],['../classDirectoryContentsList.html#ad0b5149f13969cb3f5eef3a704a67645',1,'DirectoryContentsList::useTimeSlice()']]],
-  ['uuid',['Uuid',['../classUuid.html#a55663b31db8d26c71fa1b0258ccc34f9',1,'Uuid::Uuid()'],['../classUuid.html#a9509abafb51da0ada115eee741e99400',1,'Uuid::Uuid(const Uuid &amp;other)'],['../classUuid.html#a1c1c2279f664fb5ecd1c7a40a2427659',1,'Uuid::Uuid(const String &amp;uuidString)'],['../classUuid.html#a4408f0dbab7c668535128731befe7a5b',1,'Uuid::Uuid(const uint8 *rawData)']]]
+  ['uuid',['Uuid',['../classUuid.html#a55663b31db8d26c71fa1b0258ccc34f9',1,'Uuid::Uuid()'],['../classUuid.html#a89f27814d2c3bcb6e3328fa859ea22da',1,'Uuid::Uuid(const Uuid &amp;other) noexcept'],['../classUuid.html#a1c1c2279f664fb5ecd1c7a40a2427659',1,'Uuid::Uuid(const String &amp;uuidString)'],['../classUuid.html#a4408f0dbab7c668535128731befe7a5b',1,'Uuid::Uuid(const uint8 *rawData)']]]
 ];

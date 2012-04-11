@@ -78,17 +78,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="header">
   <div class="summary">
-<a href="#define-members">Defines</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">juce_Memory.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr><td colspan="2"><h2><a name="define-members"></a>
-Defines</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__Memory_8h.html#a8298af7fde34e5703f9992366538d1ad">juce_ThreadLocal</a>&#160;&#160;&#160;__declspec(thread)</td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a compiler-independent way of declaring a variable as being thread-local.  <a href="#a8298af7fde34e5703f9992366538d1ad"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__Memory_8h.html#a48fb9b158a3767e6573d27a8160956ea">zeromem</a> (void *memory, size_t numBytes) noexcept</td></tr>
@@ -109,24 +104,6 @@ Functions</h2></td></tr>
 <tr><td class="memTemplItemLeft" align="right" valign="top">Type *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="juce__Memory_8h.html#a607b18f00ee6152503a1c5352d4efeb8">createCopyIfNotNull</a> (Type *pointer)</td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">If a pointer is non-null, this returns a new copy of the object that it points to, or safely returns nullptr if the pointer is null.  <a href="#a607b18f00ee6152503a1c5352d4efeb8"></a><br/></td></tr>
 </table>
-<hr/><h2>Define Documentation</h2>
-<a class="anchor" id="a8298af7fde34e5703f9992366538d1ad"></a><!-- doxytag: member="juce_Memory.h::juce_ThreadLocal" ref="a8298af7fde34e5703f9992366538d1ad" args="" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define <a class="el" href="juce__Memory_8h.html#a8298af7fde34e5703f9992366538d1ad">juce_ThreadLocal</a>&#160;&#160;&#160;__declspec(thread)</td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>This is a compiler-independent way of declaring a variable as being thread-local. </p>
-<p>E.g. </p>
-<div class="fragment"><pre class="fragment">     <a class="code" href="juce__Memory_8h.html#a8298af7fde34e5703f9992366538d1ad" title="This is a compiler-independent way of declaring a variable as being thread-local.">juce_ThreadLocal</a> <span class="keywordtype">int</span> myVariable;
-</pre></div> 
-</div>
-</div>
 <hr/><h2>Function Documentation</h2>
 <a class="anchor" id="a48fb9b158a3767e6573d27a8160956ea"></a><!-- doxytag: member="juce_Memory.h::zeromem" ref="a48fb9b158a3767e6573d27a8160956ea" args="(void *memory, size_t numBytes) noexcept" -->
 <div class="memitem">
