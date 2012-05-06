@@ -33,6 +33,7 @@ var searchData=
   ['destchannelindex',['destChannelIndex',['../structAudioProcessorGraph_1_1Connection.html#a542e23f5e9b746d2b13485545cce791e',1,'AudioProcessorGraph::Connection']]],
   ['destnodeid',['destNodeId',['../structAudioProcessorGraph_1_1Connection.html#a7f1b8d717bcb7f30c1ebc45e553ba20a',1,'AudioProcessorGraph::Connection']]],
   ['dimgrey',['dimgrey',['../classColours.html#a737012c7670ba25ccc7bee5ba96c3d2b',1,'Colours']]],
+  ['displays',['displays',['../classDesktop_1_1Displays.html#af3bca6783a93f00366a068ea04c661b4',1,'Desktop::Displays']]],
   ['dodgerblue',['dodgerblue',['../classColours.html#a1a07cae34389d93d4b3817a14ef6efda',1,'Colours']]],
   ['double_5fpi',['double_Pi',['../juce__MathsFunctions_8h.html#aa929b9e10eedb3b7a6bd8f6ba2d9ddaa',1,'juce_MathsFunctions.h']]],
   ['downimage',['downImage',['../structImageButton_1_1Ids.html#a26a121e552603c7940a06db1c6a67728',1,'ImageButton::Ids']]],

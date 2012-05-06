@@ -351,7 +351,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae9e2c87c3ff8410e4f70a02288ece2dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCharPointer__UTF8.html">CharPointer_UTF8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#ae9e2c87c3ff8410e4f70a02288ece2dd">toUTF8</a> () const </td></tr>
 <tr class="memdesc:ae9e2c87c3ff8410e4f70a02288ece2dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to a UTF-8 version of this string.  <a href="#ae9e2c87c3ff8410e4f70a02288ece2dd"></a><br/></td></tr>
 <tr class="memitem:a42615fce86848058d0234dbc157d0529"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCharPointer__UTF16.html">CharPointer_UTF16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529">toUTF16</a> () const </td></tr>
-<tr class="memdesc:a42615fce86848058d0234dbc157d0529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to a UTF-32 version of this string.  <a href="#a42615fce86848058d0234dbc157d0529"></a><br/></td></tr>
+<tr class="memdesc:a42615fce86848058d0234dbc157d0529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to a UTF-16 version of this string.  <a href="#a42615fce86848058d0234dbc157d0529"></a><br/></td></tr>
 <tr class="memitem:aeaee566db302127fdea2d93f5464ccc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCharPointer__UTF32.html">CharPointer_UTF32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4">toUTF32</a> () const </td></tr>
 <tr class="memdesc:aeaee566db302127fdea2d93f5464ccc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to a UTF-32 version of this string.  <a href="#aeaee566db302127fdea2d93f5464ccc4"></a><br/></td></tr>
 <tr class="memitem:ae79ca95309b6b8a7987e8b2f2efef297"><td class="memItemLeft" align="right" valign="top">const wchar_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#ae79ca95309b6b8a7987e8b2f2efef297">toWideCharPointer</a> () const </td></tr>
@@ -363,7 +363,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a20a63dd4bf746d36c86341a9fca34faf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a20a63dd4bf746d36c86341a9fca34faf">copyToUTF16</a> (<a class="el" href="classCharPointer__UTF16.html#a28977ea8b479d3b2f3a8459594f88c58">CharPointer_UTF16::CharType</a> *destBuffer, int maxBufferSizeBytes) const noexcept</td></tr>
 <tr class="memdesc:a20a63dd4bf746d36c86341a9fca34faf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the string to a buffer as UTF-16 characters.  <a href="#a20a63dd4bf746d36c86341a9fca34faf"></a><br/></td></tr>
 <tr class="memitem:a616e9e69736ebc64a60f248314caea23"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a616e9e69736ebc64a60f248314caea23">copyToUTF32</a> (<a class="el" href="classCharPointer__UTF32.html#aec00e72e5c5324d92e97f17ff7cd70f1">CharPointer_UTF32::CharType</a> *destBuffer, int maxBufferSizeBytes) const noexcept</td></tr>
-<tr class="memdesc:a616e9e69736ebc64a60f248314caea23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the string to a buffer as UTF-16 characters.  <a href="#a616e9e69736ebc64a60f248314caea23"></a><br/></td></tr>
+<tr class="memdesc:a616e9e69736ebc64a60f248314caea23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the string to a buffer as UTF-32 characters.  <a href="#a616e9e69736ebc64a60f248314caea23"></a><br/></td></tr>
 <tr class="memitem:a050a97b5afa6e3dd774f10f1c616ee58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a050a97b5afa6e3dd774f10f1c616ee58">preallocateBytes</a> (size_t numBytesNeeded)</td></tr>
 <tr class="memdesc:a050a97b5afa6e3dd774f10f1c616ee58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increases the string's internally allocated storage.  <a href="#a050a97b5afa6e3dd774f10f1c616ee58"></a><br/></td></tr>
 <tr class="memitem:a3c9d0c0fa36976d1714e84ecd4be1156"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a3c9d0c0fa36976d1714e84ecd4be1156">swapWith</a> (<a class="el" href="classString.html">String</a> &amp;other) noexcept</td></tr>
@@ -417,7 +417,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>This is the character encoding type used internally to store the string. </p>
 <p>By setting the value of JUCE_STRING_UTF_TYPE to 8, 16, or 32, you can change the internal storage format of the <a class="el" href="classString.html" title="The JUCE String class!">String</a> class. UTF-8 uses the least space (if your strings contain few extended characters), but call operator[] involves iterating the string to find the required index. UTF-32 provides instant random access to its characters, but uses 4 bytes per character to store them. UTF-16 uses more space than UTF-8 and is also slow to index, but is the native wchar_t format used in Windows.</p>
-<p>It doesn't matter too much which format you pick, because the <a class="el" href="classString.html#ae9e2c87c3ff8410e4f70a02288ece2dd" title="Returns a pointer to a UTF-8 version of this string.">toUTF8()</a>, <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-32 version of this string.">toUTF16()</a> and <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string.">toUTF32()</a> methods let you access the string's content in any of the other formats. </p>
+<p>It doesn't matter too much which format you pick, because the <a class="el" href="classString.html#ae9e2c87c3ff8410e4f70a02288ece2dd" title="Returns a pointer to a UTF-8 version of this string.">toUTF8()</a>, <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-16 version of this string.">toUTF16()</a> and <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string.">toUTF32()</a> methods let you access the string's content in any of the other formats. </p>
 
 </div>
 </div>
@@ -3432,7 +3432,7 @@ template&lt;class CharPointer &gt; </div>
 <p>Returns a pointer to a UTF-8 version of this string. </p>
 <p>Because it returns a reference to the string's internal data, the pointer that is returned must not be stored anywhere, as it can be deleted whenever the string changes.</p>
 <p>To find out how many bytes you need to store this string as UTF-8, you can call <a class="el" href="classCharPointer__UTF8.html#af70d66750ea1b8be02f613592319059e" title="Returns the number of bytes that would be needed to represent the given unicode character in this enc...">CharPointer_UTF8::getBytesRequiredFor</a> (myString.getCharPointer())</p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classString.html#aab54e1ce9a7aa1f54ba3425e18bd6f24" title="Returns the character pointer currently being used to store this string.">getCharPointer</a>, <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-32 version of this string.">toUTF16</a>, <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string.">toUTF32</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classString.html#aab54e1ce9a7aa1f54ba3425e18bd6f24" title="Returns the character pointer currently being used to store this string.">getCharPointer</a>, <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-16 version of this string.">toUTF16</a>, <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string.">toUTF32</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="juce__String_8h.html#aeb8f16cdf7cbd9d5c2d9863767c6a300">operator&lt;&lt;()</a>.</p>
 
@@ -3452,7 +3452,7 @@ template&lt;class CharPointer &gt; </div>
 </div>
 <div class="memdoc">
 
-<p>Returns a pointer to a UTF-32 version of this string. </p>
+<p>Returns a pointer to a UTF-16 version of this string. </p>
 <p>Because it returns a reference to the string's internal data, the pointer that is returned must not be stored anywhere, as it can be deleted whenever the string changes.</p>
 <p>To find out how many bytes you need to store this string as UTF-16, you can call <a class="el" href="classCharPointer__UTF16.html#a2c7e013dd52871e441d013342ce4d82f" title="Returns the number of bytes that would be needed to represent the given unicode character in this enc...">CharPointer_UTF16::getBytesRequiredFor</a> (myString.getCharPointer())</p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classString.html#aab54e1ce9a7aa1f54ba3425e18bd6f24" title="Returns the character pointer currently being used to store this string.">getCharPointer</a>, <a class="el" href="classString.html#ae9e2c87c3ff8410e4f70a02288ece2dd" title="Returns a pointer to a UTF-8 version of this string.">toUTF8</a>, <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string.">toUTF32</a> </dd></dl>
@@ -3475,7 +3475,7 @@ template&lt;class CharPointer &gt; </div>
 
 <p>Returns a pointer to a UTF-32 version of this string. </p>
 <p>Because it returns a reference to the string's internal data, the pointer that is returned must not be stored anywhere, as it can be deleted whenever the string changes.</p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classString.html#aab54e1ce9a7aa1f54ba3425e18bd6f24" title="Returns the character pointer currently being used to store this string.">getCharPointer</a>, <a class="el" href="classString.html#ae9e2c87c3ff8410e4f70a02288ece2dd" title="Returns a pointer to a UTF-8 version of this string.">toUTF8</a>, <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-32 version of this string.">toUTF16</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classString.html#aab54e1ce9a7aa1f54ba3425e18bd6f24" title="Returns the character pointer currently being used to store this string.">getCharPointer</a>, <a class="el" href="classString.html#ae9e2c87c3ff8410e4f70a02288ece2dd" title="Returns a pointer to a UTF-8 version of this string.">toUTF8</a>, <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-16 version of this string.">toUTF16</a> </dd></dl>
 
 </div>
 </div>
@@ -3495,8 +3495,8 @@ template&lt;class CharPointer &gt; </div>
 
 <p>Returns a pointer to a wchar_t version of this string. </p>
 <p>Because it returns a reference to the string's internal data, the pointer that is returned must not be stored anywhere, as it can be deleted whenever the string changes.</p>
-<p>Bear in mind that the wchar_t type is different on different platforms, so on Windows, this will be equivalent to calling <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-32 version of this string.">toUTF16()</a>, on unix it'll be the same as calling <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string.">toUTF32()</a>, etc.</p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classString.html#aab54e1ce9a7aa1f54ba3425e18bd6f24" title="Returns the character pointer currently being used to store this string.">getCharPointer</a>, <a class="el" href="classString.html#ae9e2c87c3ff8410e4f70a02288ece2dd" title="Returns a pointer to a UTF-8 version of this string.">toUTF8</a>, <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-32 version of this string.">toUTF16</a>, <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string.">toUTF32</a> </dd></dl>
+<p>Bear in mind that the wchar_t type is different on different platforms, so on Windows, this will be equivalent to calling <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-16 version of this string.">toUTF16()</a>, on unix it'll be the same as calling <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string.">toUTF32()</a>, etc.</p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classString.html#aab54e1ce9a7aa1f54ba3425e18bd6f24" title="Returns the character pointer currently being used to store this string.">getCharPointer</a>, <a class="el" href="classString.html#ae9e2c87c3ff8410e4f70a02288ece2dd" title="Returns a pointer to a UTF-8 version of this string.">toUTF8</a>, <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-16 version of this string.">toUTF16</a>, <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string.">toUTF32</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="juce__String_8h.html#a658d972ca79f5270ac88b18de27f505e">operator&lt;&lt;()</a>.</p>
 
@@ -3655,7 +3655,7 @@ template&lt;class CharPointer &gt; </div>
 </div>
 <div class="memdoc">
 
-<p>Copies the string to a buffer as UTF-16 characters. </p>
+<p>Copies the string to a buffer as UTF-32 characters. </p>
 <p>Returns the number of bytes copied to the buffer, including the terminating null character.</p>
 <p>To find out how many bytes you need to store this string as UTF-32, you can call <a class="el" href="classCharPointer__UTF32.html#a8132e312b73ab73df7b990336b002b6d" title="Returns the number of bytes that would be needed to represent the given unicode character in this enc...">CharPointer_UTF32::getBytesRequiredFor</a> (myString.getCharPointer())</p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>

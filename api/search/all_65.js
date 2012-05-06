@@ -8,7 +8,7 @@ var searchData=
   ['editingmodeoutlinecolourid',['editingModeOutlineColourId',['../classToolbar.html#ae89655c1fc755d7648eedcefcb620bc9a783c2d3c7bee40ce820b9fc1b8450d6f',1,'Toolbar']]],
   ['editmode',['editMode',['../structLabel_1_1Ids.html#a8173e2849a2d620931725d89da801766',1,'Label::Ids']]],
   ['editorabouttobehidden',['editorAboutToBeHidden',['../classLabel.html#a0cb8d5ff136d2281df6dbb76330d868d',1,'Label']]],
-  ['editorbeingdeleted',['editorBeingDeleted',['../classAudioProcessor.html#af3836e86729f44464991c261ba7949b3',1,'AudioProcessor']]],
+  ['editorbeingdeleted',['editorBeingDeleted',['../classAudioProcessor.html#a78f4b83d4f5c8625cf1df93288142642',1,'AudioProcessor']]],
   ['editorigintime',['editOriginTime',['../structAudioPlayHead_1_1CurrentPositionInfo.html#a5a8c7375646228f378c4eb673f49a9e0',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['editorshown',['editorShown',['../classLabel.html#a7e0205075e382e2ae226655cedfdccba',1,'Label']]],
   ['ejectdisk',['ejectDisk',['../classAudioCDReader.html#a41f27ce866212984e7a657f316e63e24',1,'AudioCDReader']]],

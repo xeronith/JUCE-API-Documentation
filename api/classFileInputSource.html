@@ -110,7 +110,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9bf6fb87e9675c644bc98ccb141c8508"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileInputSource.html#a9bf6fb87e9675c644bc98ccb141c8508">FileInputSource</a> (const <a class="el" href="classFile.html">File</a> &amp;file, bool useFileTimeInHashGeneration=false)</td></tr>
+<tr class="memdesc:a9bf6fb87e9675c644bc98ccb141c8508"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classFileInputSource.html" title="A type of InputSource that represents a normal file.">FileInputSource</a> for a file.  <a href="#a9bf6fb87e9675c644bc98ccb141c8508"></a><br/></td></tr>
 <tr class="memitem:a02931f6b2178aaf377f014e279677793"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileInputSource.html#a02931f6b2178aaf377f014e279677793">~FileInputSource</a> ()</td></tr>
+<tr class="memdesc:a02931f6b2178aaf377f014e279677793"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a02931f6b2178aaf377f014e279677793"></a><br/></td></tr>
 <tr class="memitem:a0da92ee54e577fbd14352bc121d13c11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputStream.html">InputStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileInputSource.html#a0da92ee54e577fbd14352bc121d13c11">createInputStream</a> ()</td></tr>
 <tr class="memdesc:a0da92ee54e577fbd14352bc121d13c11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new <a class="el" href="classInputStream.html" title="The base class for streams that read data.">InputStream</a> to read this item.  <a href="#a0da92ee54e577fbd14352bc121d13c11"></a><br/></td></tr>
 <tr class="memitem:ac01db04a5397f2bd4da7f2bd9582ebae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputStream.html">InputStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileInputSource.html#ac01db04a5397f2bd4da7f2bd9582ebae">createInputStreamFor</a> (const <a class="el" href="classString.html">String</a> &amp;relatedItemPath)</td></tr>
@@ -147,6 +149,9 @@ Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
+<p>Creates a <a class="el" href="classFileInputSource.html" title="A type of InputSource that represents a normal file.">FileInputSource</a> for a file. </p>
+<p>If the useFileTimeInHashGeneration parameter is true, then this object's <a class="el" href="classFileInputSource.html#ad502d2d89937525cce7179cee2104be8" title="Returns a hash code that uniquely represents this item.">hashCode()</a> method will incorporate the file time into its hash code; if false, only the file name will be used for the hash. </p>
+
 </div>
 </div>
 <a class="anchor" id="a02931f6b2178aaf377f014e279677793"></a>
@@ -162,6 +167,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+
+<p>Destructor. </p>
 
 </div>
 </div>

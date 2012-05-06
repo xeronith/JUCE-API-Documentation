@@ -108,6 +108,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ab6cb8323683ddb2e9170c96aedfb4e6f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioSourceChannelInfo.html#ab6cb8323683ddb2e9170c96aedfb4e6f">AudioSourceChannelInfo</a> () noexcept</td></tr>
+<tr class="memdesc:ab6cb8323683ddb2e9170c96aedfb4e6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an uninitialised <a class="el" href="structAudioSourceChannelInfo.html" title="Used by AudioSource::getNextAudioBlock().">AudioSourceChannelInfo</a>.  <a href="#ab6cb8323683ddb2e9170c96aedfb4e6f"></a><br/></td></tr>
+<tr class="memitem:a0076062656d54e026c971aafc6051d50"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioSourceChannelInfo.html#a0076062656d54e026c971aafc6051d50">AudioSourceChannelInfo</a> (<a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> *bufferToUse, int startSampleOffset, int numSamplesToUse) noexcept</td></tr>
+<tr class="memdesc:a0076062656d54e026c971aafc6051d50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="structAudioSourceChannelInfo.html" title="Used by AudioSource::getNextAudioBlock().">AudioSourceChannelInfo</a>.  <a href="#a0076062656d54e026c971aafc6051d50"></a><br/></td></tr>
+<tr class="memitem:ae486e3eb8d0b4e53b279793d5d03dc19"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioSourceChannelInfo.html#ae486e3eb8d0b4e53b279793d5d03dc19">AudioSourceChannelInfo</a> (<a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;bufferToUse) noexcept</td></tr>
+<tr class="memdesc:ae486e3eb8d0b4e53b279793d5d03dc19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="structAudioSourceChannelInfo.html" title="Used by AudioSource::getNextAudioBlock().">AudioSourceChannelInfo</a> that uses the whole of a buffer.  <a href="#ae486e3eb8d0b4e53b279793d5d03dc19"></a><br/></td></tr>
 <tr class="memitem:a988b6665c085bf47b1b5fd4f1e6b7f8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioSourceChannelInfo.html#a988b6665c085bf47b1b5fd4f1e6b7f8b">clearActiveBufferRegion</a> () const </td></tr>
 <tr class="memdesc:a988b6665c085bf47b1b5fd4f1e6b7f8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenient method to clear the buffer if the source is not producing any data.  <a href="#a988b6665c085bf47b1b5fd4f1e6b7f8b"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
@@ -121,7 +127,81 @@ Public Attributes</h2></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Used by <a class="el" href="classAudioSource.html#a36fc2484ead8fb8dc03be57d09dd5735" title="Called repeatedly to fetch subsequent blocks of audio data.">AudioSource::getNextAudioBlock()</a>. </p>
-</div><hr/><h2>Member Function Documentation</h2>
+</div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ab6cb8323683ddb2e9170c96aedfb4e6f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structAudioSourceChannelInfo.html#ab6cb8323683ddb2e9170c96aedfb4e6f">AudioSourceChannelInfo::AudioSourceChannelInfo</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Creates an uninitialised <a class="el" href="structAudioSourceChannelInfo.html" title="Used by AudioSource::getNextAudioBlock().">AudioSourceChannelInfo</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0076062656d54e026c971aafc6051d50"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structAudioSourceChannelInfo.html#ab6cb8323683ddb2e9170c96aedfb4e6f">AudioSourceChannelInfo::AudioSourceChannelInfo</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> *&#160;</td>
+          <td class="paramname"><em>bufferToUse</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>startSampleOffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numSamplesToUse</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Creates an <a class="el" href="structAudioSourceChannelInfo.html" title="Used by AudioSource::getNextAudioBlock().">AudioSourceChannelInfo</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae486e3eb8d0b4e53b279793d5d03dc19"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structAudioSourceChannelInfo.html#ab6cb8323683ddb2e9170c96aedfb4e6f">AudioSourceChannelInfo::AudioSourceChannelInfo</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>bufferToUse</em></td><td>)</td>
+          <td><code> [explicit]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Creates an <a class="el" href="structAudioSourceChannelInfo.html" title="Used by AudioSource::getNextAudioBlock().">AudioSourceChannelInfo</a> that uses the whole of a buffer. </p>
+<p>Note that the buffer provided must not be deleted while the <a class="el" href="structAudioSourceChannelInfo.html" title="Used by AudioSource::getNextAudioBlock().">AudioSourceChannelInfo</a> is still using it. </p>
+
+</div>
+</div>
+<hr/><h2>Member Function Documentation</h2>
 <a class="anchor" id="a988b6665c085bf47b1b5fd4f1e6b7f8b"></a>
 <div class="memitem">
 <div class="memproto">

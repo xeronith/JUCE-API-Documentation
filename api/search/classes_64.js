@@ -11,6 +11,8 @@ var searchData=
   ['directorycontentslist',['DirectoryContentsList',['../classDirectoryContentsList.html',1,'']]],
   ['directoryiterator',['DirectoryIterator',['../classDirectoryIterator.html',1,'']]],
   ['directshowcomponent',['DirectShowComponent',['../classDirectShowComponent.html',1,'']]],
+  ['display',['Display',['../structDesktop_1_1Displays_1_1Display.html',1,'Desktop::Displays']]],
+  ['displays',['Displays',['../classDesktop_1_1Displays.html',1,'Desktop']]],
   ['documentwindow',['DocumentWindow',['../classDocumentWindow.html',1,'']]],
   ['draganddropcontainer',['DragAndDropContainer',['../classDragAndDropContainer.html',1,'']]],
   ['draganddroptarget',['DragAndDropTarget',['../classDragAndDropTarget.html',1,'']]],

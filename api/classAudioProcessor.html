@@ -132,10 +132,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae8fda9da6062e47181544a9ac25baaea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of input channels that the host will be sending the filter.  <a href="#ae8fda9da6062e47181544a9ac25baaea"></a><br/></td></tr>
 <tr class="memitem:ad628a9699d9b6c9859c8240e21ec9d90"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ad628a9699d9b6c9859c8240e21ec9d90">getNumOutputChannels</a> () const noexcept</td></tr>
 <tr class="memdesc:ad628a9699d9b6c9859c8240e21ec9d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of output channels that the host will be sending the filter.  <a href="#ad628a9699d9b6c9859c8240e21ec9d90"></a><br/></td></tr>
+<tr class="memitem:a8c85a22f6dac9e1aac8aafd97fad10f5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a8c85a22f6dac9e1aac8aafd97fad10f5">getInputSpeakerArrangement</a> () const noexcept</td></tr>
+<tr class="memdesc:a8c85a22f6dac9e1aac8aafd97fad10f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string containing a whitespace-separated list of speaker types corresponding to each input channel.  <a href="#a8c85a22f6dac9e1aac8aafd97fad10f5"></a><br/></td></tr>
+<tr class="memitem:a70d827af48e2eeef7df1ab233d031a04"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a70d827af48e2eeef7df1ab233d031a04">getOutputSpeakerArrangement</a> () const noexcept</td></tr>
+<tr class="memdesc:a70d827af48e2eeef7df1ab233d031a04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string containing a whitespace-separated list of speaker types corresponding to each output channel.  <a href="#a70d827af48e2eeef7df1ab233d031a04"></a><br/></td></tr>
 <tr class="memitem:a7b08160f29557954c03fd27c07a7380c"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a7b08160f29557954c03fd27c07a7380c">getInputChannelName</a> (int channelIndex) const =0</td></tr>
-<tr class="memdesc:a7b08160f29557954c03fd27c07a7380c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of one of the input channels, as returned by the host.  <a href="#a7b08160f29557954c03fd27c07a7380c"></a><br/></td></tr>
+<tr class="memdesc:a7b08160f29557954c03fd27c07a7380c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of one of the processor's input channels.  <a href="#a7b08160f29557954c03fd27c07a7380c"></a><br/></td></tr>
 <tr class="memitem:a13811b9a738bd6e807e186b1f9af7c2c"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a13811b9a738bd6e807e186b1f9af7c2c">getOutputChannelName</a> (int channelIndex) const =0</td></tr>
-<tr class="memdesc:a13811b9a738bd6e807e186b1f9af7c2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of one of the output channels, as returned by the host.  <a href="#a13811b9a738bd6e807e186b1f9af7c2c"></a><br/></td></tr>
+<tr class="memdesc:a13811b9a738bd6e807e186b1f9af7c2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of one of the processor's output channels.  <a href="#a13811b9a738bd6e807e186b1f9af7c2c"></a><br/></td></tr>
 <tr class="memitem:a1de55114a91badc007d1e389a81a14eb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a1de55114a91badc007d1e389a81a14eb">isInputChannelStereoPair</a> (int index) const =0</td></tr>
 <tr class="memdesc:a1de55114a91badc007d1e389a81a14eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the specified channel is part of a stereo pair with its neighbour.  <a href="#a1de55114a91badc007d1e389a81a14eb"></a><br/></td></tr>
 <tr class="memitem:aa429d156af1caf829627043615b5ede7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#aa429d156af1caf829627043615b5ede7">isOutputChannelStereoPair</a> (int index) const =0</td></tr>
@@ -214,10 +218,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a91515992e746561e526f5326a783f59e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a previously added listener.  <a href="#a91515992e746561e526f5326a783f59e"></a><br/></td></tr>
 <tr class="memitem:a9ccda997b638bf11d73a290944f6be17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a9ccda997b638bf11d73a290944f6be17">setPlayHead</a> (<a class="el" href="classAudioPlayHead.html">AudioPlayHead</a> *newPlayHead) noexcept</td></tr>
 <tr class="memdesc:a9ccda997b638bf11d73a290944f6be17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the processor to use this playhead object.  <a href="#a9ccda997b638bf11d73a290944f6be17"></a><br/></td></tr>
-<tr class="memitem:af3836e86729f44464991c261ba7949b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#af3836e86729f44464991c261ba7949b3">editorBeingDeleted</a> (<a class="el" href="classAudioProcessorEditor.html">AudioProcessorEditor</a> *editor) noexcept</td></tr>
-<tr class="memdesc:af3836e86729f44464991c261ba7949b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not for public use - this is called before deleting an editor component.  <a href="#af3836e86729f44464991c261ba7949b3"></a><br/></td></tr>
+<tr class="memitem:a78f4b83d4f5c8625cf1df93288142642"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a78f4b83d4f5c8625cf1df93288142642">editorBeingDeleted</a> (<a class="el" href="classAudioProcessorEditor.html">AudioProcessorEditor</a> *) noexcept</td></tr>
+<tr class="memdesc:a78f4b83d4f5c8625cf1df93288142642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not for public use - this is called before deleting an editor component.  <a href="#a78f4b83d4f5c8625cf1df93288142642"></a><br/></td></tr>
 <tr class="memitem:a8648014377dc6ee0476ceb45da113346"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a8648014377dc6ee0476ceb45da113346">setPlayConfigDetails</a> (int numIns, int numOuts, double sampleRate, int blockSize) noexcept</td></tr>
 <tr class="memdesc:a8648014377dc6ee0476ceb45da113346"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not for public use - this is called to initialise the processor before playing.  <a href="#a8648014377dc6ee0476ceb45da113346"></a><br/></td></tr>
+<tr class="memitem:a32373cce07683bdd38cf3b01eb1c4bdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a32373cce07683bdd38cf3b01eb1c4bdc">setSpeakerArrangement</a> (const <a class="el" href="classString.html">String</a> &amp;inputs, const <a class="el" href="classString.html">String</a> &amp;outputs)</td></tr>
+<tr class="memdesc:a32373cce07683bdd38cf3b01eb1c4bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not for public use - this is called to initialise the processor before playing.  <a href="#a32373cce07683bdd38cf3b01eb1c4bdc"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a8602919358f1bf8799abd0c179c5e03b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a8602919358f1bf8799abd0c179c5e03b">AudioProcessor</a> ()</td></tr>
@@ -493,6 +499,44 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a8c85a22f6dac9e1aac8aafd97fad10f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classString.html">String</a>&amp; <a class="el" href="classAudioProcessor.html#a8c85a22f6dac9e1aac8aafd97fad10f5">AudioProcessor::getInputSpeakerArrangement</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns a string containing a whitespace-separated list of speaker types corresponding to each input channel. </p>
+<p>For example in a 5.1 arrangement, the string may be "L R C Lfe Ls Rs" If the speaker arrangement is unknown, the returned string will be empty. </p>
+
+</div>
+</div>
+<a class="anchor" id="a70d827af48e2eeef7df1ab233d031a04"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classString.html">String</a>&amp; <a class="el" href="classAudioProcessor.html#a70d827af48e2eeef7df1ab233d031a04">AudioProcessor::getOutputSpeakerArrangement</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns a string containing a whitespace-separated list of speaker types corresponding to each output channel. </p>
+<p>For example in a 5.1 arrangement, the string may be "L R C Lfe Ls Rs" If the speaker arrangement is unknown, the returned string will be empty. </p>
+
+</div>
+</div>
 <a class="anchor" id="a7b08160f29557954c03fd27c07a7380c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -508,8 +552,8 @@ Protected Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Returns the name of one of the input channels, as returned by the host. </p>
-<p>The host might not supply very useful names for channels, and this might be something like "1", "2", "left", "right", etc. </p>
+<p>Returns the name of one of the processor's input channels. </p>
+<p>The processor might not supply very useful names for channels, and this might be something like "1", "2", "left", "right", etc. </p>
 
 <p>Implemented in <a class="el" href="classAudioProcessorGraph.html#a2c02079e4f67b24200632c7f105b94d6">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a1301212a850f07ef76cb1d4357817855">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
 
@@ -530,8 +574,8 @@ Protected Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Returns the name of one of the output channels, as returned by the host. </p>
-<p>The host might not supply very useful names for channels, and this might be something like "1", "2", "left", "right", etc. </p>
+<p>Returns the name of one of the processor's output channels. </p>
+<p>The processor might not supply very useful names for channels, and this might be something like "1", "2", "left", "right", etc. </p>
 
 <p>Implemented in <a class="el" href="classAudioProcessorGraph.html#a195f691636bd7978f71dfea5125297f2">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a4dd5e6f2cff8268e2680f86a6ea20546">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
 
@@ -858,7 +902,7 @@ Protected Attributes</h2></td></tr>
 <div class="memdoc">
 
 <p>Returns the active editor, if there is one. </p>
-<p>Bear in mind this can return 0, even if an editor has previously been opened. </p>
+<p>Bear in mind this can return nullptr, even if an editor has previously been opened. </p>
 
 </div>
 </div>
@@ -1424,15 +1468,15 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af3836e86729f44464991c261ba7949b3"></a>
+<a class="anchor" id="a78f4b83d4f5c8625cf1df93288142642"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classAudioProcessor.html#af3836e86729f44464991c261ba7949b3">AudioProcessor::editorBeingDeleted</a> </td>
+          <td class="memname">void <a class="el" href="classAudioProcessor.html#a78f4b83d4f5c8625cf1df93288142642">AudioProcessor::editorBeingDeleted</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioProcessorEditor.html">AudioProcessorEditor</a> *&#160;</td>
-          <td class="paramname"><em>editor</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1483,6 +1527,35 @@ Protected Attributes</h2></td></tr>
 <p>Not for public use - this is called to initialise the processor before playing. </p>
 
 <p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a25483b8451fcf2680b7e8d032a57fc24">StandaloneFilterWindow::StandaloneFilterWindow()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a32373cce07683bdd38cf3b01eb1c4bdc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classAudioProcessor.html#a32373cce07683bdd38cf3b01eb1c4bdc">AudioProcessor::setSpeakerArrangement</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>inputs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>outputs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Not for public use - this is called to initialise the processor before playing. </p>
 
 </div>
 </div>

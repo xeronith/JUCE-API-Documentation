@@ -27,6 +27,7 @@ var searchData=
   ['heapblock_3c_20commandmapping_20_2a_20_3e',['HeapBlock< CommandMapping * >',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20component_20_2a_20_3e',['HeapBlock< Component * >',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20connection_20_2a_20_3e',['HeapBlock< Connection * >',['../classHeapBlock.html',1,'']]],
+  ['heapblock_3c_20display_20_3e',['HeapBlock< Display >',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20drawablebutton_20_2a_20_3e',['HeapBlock< DrawableButton * >',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20elementbase_20_2a_20_3e',['HeapBlock< ElementBase * >',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20elementtype_20_3e',['HeapBlock< ElementType >',['../classHeapBlock.html',1,'']]],

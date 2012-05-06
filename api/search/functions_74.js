@@ -98,6 +98,6 @@ var searchData=
   ['tryenterwrite',['tryEnterWrite',['../classReadWriteLock.html#ac7f0b0aefca34943957ac1623b97a8a2',1,'ReadWriteLock']]],
   ['trytoclosedocument',['tryToCloseDocument',['../classMultiDocumentPanel.html#abc45cc74d6985f3df5afb907d731d4a7',1,'MultiDocumentPanel']]],
   ['tween',['tween',['../classPixelARGB.html#ae9961674c67b52486549b336095811da',1,'PixelARGB::tween()'],['../classPixelRGB.html#aa348334f49c9b85d88fb79d0332b1b90',1,'PixelRGB::tween()'],['../classPixelAlpha.html#ae3b6ad3857a462fceb79ad782fb8022d',1,'PixelAlpha::tween()']]],
-  ['typeface',['Typeface',['../classTypeface.html#a60d9e1f01324ceacaaf69c6e97920603',1,'Typeface']]],
+  ['typeface',['Typeface',['../classTypeface.html#aeff4239f1343ce0f80fb30c6bd52ed07',1,'Typeface']]],
   ['typehandler',['TypeHandler',['../classComponentBuilder_1_1TypeHandler.html#a17ef9f010b9beeb0d4161500fbe1e424',1,'ComponentBuilder::TypeHandler']]]
 ];

@@ -12,6 +12,7 @@ var searchData=
   ['url',['url',['../structHyperlinkButton_1_1Ids.html#aa9566b781654444fb7e51d1c0b0cc7f8',1,'HyperlinkButton::Ids']]],
   ['usedefaultinputchannels',['useDefaultInputChannels',['../structAudioDeviceManager_1_1AudioDeviceSetup.html#af4ee7e75cc152be926202c6a7a822d0c',1,'AudioDeviceManager::AudioDeviceSetup']]],
   ['usedefaultoutputchannels',['useDefaultOutputChannels',['../structAudioDeviceManager_1_1AudioDeviceSetup.html#a0506caa1460f630b207e1dcf1093f791',1,'AudioDeviceManager::AudioDeviceSetup']]],
+  ['userarea',['userArea',['../structDesktop_1_1Displays_1_1Display.html#a7b9601b6a4c7de297099ff4e3b8651ec',1,'Desktop::Displays::Display']]],
   ['userdata',['userData',['../classImagePixelData.html#a881fd3f8939e4994ca95c052b27221ae',1,'ImagePixelData']]],
   ['usesfloatingpointdata',['usesFloatingPointData',['../classAudioFormatReader.html#aed5e9ba760d519f110c18053d6adba7a',1,'AudioFormatReader::usesFloatingPointData()'],['../classAudioFormatWriter.html#a876800b982bbe25e583633d3876a9a02',1,'AudioFormatWriter::usesFloatingPointData()']]],
   ['usesnonzerowinding',['usesNonZeroWinding',['../classRelativePointPath.html#a31bd56da083920346e1f0742bd77ae8b',1,'RelativePointPath']]]

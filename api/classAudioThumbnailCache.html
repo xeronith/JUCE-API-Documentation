@@ -115,10 +115,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4fd600ae0247a18e13c9922d318799cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a4fd600ae0247a18e13c9922d318799cf"></a><br/></td></tr>
 <tr class="memitem:a52c8490b5df7c750822d9c15ca829dc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a52c8490b5df7c750822d9c15ca829dc2">clear</a> ()</td></tr>
 <tr class="memdesc:a52c8490b5df7c750822d9c15ca829dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears out any stored thumbnails.  <a href="#a52c8490b5df7c750822d9c15ca829dc2"></a><br/></td></tr>
-<tr class="memitem:a9a677aae9adc64dc8b834e4e14e847d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a9a677aae9adc64dc8b834e4e14e847d2">loadThumb</a> (<a class="el" href="classAudioThumbnail.html">AudioThumbnail</a> &amp;thumb, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> hashCode)</td></tr>
-<tr class="memdesc:a9a677aae9adc64dc8b834e4e14e847d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads the specified thumb if this cache contains the appropriate stored data.  <a href="#a9a677aae9adc64dc8b834e4e14e847d2"></a><br/></td></tr>
-<tr class="memitem:a8e4f02bbe7910c168040b57424fba45c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a8e4f02bbe7910c168040b57424fba45c">storeThumb</a> (const <a class="el" href="classAudioThumbnail.html">AudioThumbnail</a> &amp;thumb, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> hashCode)</td></tr>
-<tr class="memdesc:a8e4f02bbe7910c168040b57424fba45c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the cachable data from the specified thumb in this cache.  <a href="#a8e4f02bbe7910c168040b57424fba45c"></a><br/></td></tr>
+<tr class="memitem:a0c02c3ed2e7868c20e9d77c16915d818"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a0c02c3ed2e7868c20e9d77c16915d818">loadThumb</a> (<a class="el" href="classAudioThumbnailBase.html">AudioThumbnailBase</a> &amp;thumb, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> hashCode)</td></tr>
+<tr class="memdesc:a0c02c3ed2e7868c20e9d77c16915d818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads the specified thumb if this cache contains the appropriate stored data.  <a href="#a0c02c3ed2e7868c20e9d77c16915d818"></a><br/></td></tr>
+<tr class="memitem:a04e1fc8084a07fb926e22bbc62bfe4c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a04e1fc8084a07fb926e22bbc62bfe4c4">storeThumb</a> (const <a class="el" href="classAudioThumbnailBase.html">AudioThumbnailBase</a> &amp;thumb, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> hashCode)</td></tr>
+<tr class="memdesc:a04e1fc8084a07fb926e22bbc62bfe4c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the cachable data from the specified thumb in this cache.  <a href="#a04e1fc8084a07fb926e22bbc62bfe4c4"></a><br/></td></tr>
 <tr class="memitem:a4964efe9a66ded88c1224e2c0946c5e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a4964efe9a66ded88c1224e2c0946c5e9">readFromStream</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;source)</td></tr>
 <tr class="memdesc:a4964efe9a66ded88c1224e2c0946c5e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to re-load a saved cache of thumbnails from a stream.  <a href="#a4964efe9a66ded88c1224e2c0946c5e9"></a><br/></td></tr>
 <tr class="memitem:ae752aabe2829fb344c4e619d2819a3d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#ae752aabe2829fb344c4e619d2819a3d7">writeToStream</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;stream)</td></tr>
@@ -186,14 +186,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9a677aae9adc64dc8b834e4e14e847d2"></a>
+<a class="anchor" id="a0c02c3ed2e7868c20e9d77c16915d818"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classAudioThumbnailCache.html#a9a677aae9adc64dc8b834e4e14e847d2">AudioThumbnailCache::loadThumb</a> </td>
+          <td class="memname">bool <a class="el" href="classAudioThumbnailCache.html#a0c02c3ed2e7868c20e9d77c16915d818">AudioThumbnailCache::loadThumb</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classAudioThumbnail.html">AudioThumbnail</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classAudioThumbnailBase.html">AudioThumbnailBase</a> &amp;&#160;</td>
           <td class="paramname"><em>thumb</em>, </td>
         </tr>
         <tr>
@@ -216,14 +216,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8e4f02bbe7910c168040b57424fba45c"></a>
+<a class="anchor" id="a04e1fc8084a07fb926e22bbc62bfe4c4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classAudioThumbnailCache.html#a8e4f02bbe7910c168040b57424fba45c">AudioThumbnailCache::storeThumb</a> </td>
+          <td class="memname">void <a class="el" href="classAudioThumbnailCache.html#a04e1fc8084a07fb926e22bbc62bfe4c4">AudioThumbnailCache::storeThumb</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classAudioThumbnail.html">AudioThumbnail</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classAudioThumbnailBase.html">AudioThumbnailBase</a> &amp;&#160;</td>
           <td class="paramname"><em>thumb</em>, </td>
         </tr>
         <tr>

@@ -166,9 +166,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a65b1119b439500471cc77b295a00bace"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a65b1119b439500471cc77b295a00bace">processBlock</a> (<a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;, <a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;)</td></tr>
 <tr class="memdesc:a65b1119b439500471cc77b295a00bace"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the next block.  <a href="#a65b1119b439500471cc77b295a00bace"></a><br/></td></tr>
 <tr class="memitem:a2c02079e4f67b24200632c7f105b94d6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a2c02079e4f67b24200632c7f105b94d6">getInputChannelName</a> (int channelIndex) const </td></tr>
-<tr class="memdesc:a2c02079e4f67b24200632c7f105b94d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of one of the input channels, as returned by the host.  <a href="#a2c02079e4f67b24200632c7f105b94d6"></a><br/></td></tr>
+<tr class="memdesc:a2c02079e4f67b24200632c7f105b94d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of one of the processor's input channels.  <a href="#a2c02079e4f67b24200632c7f105b94d6"></a><br/></td></tr>
 <tr class="memitem:a195f691636bd7978f71dfea5125297f2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a195f691636bd7978f71dfea5125297f2">getOutputChannelName</a> (int channelIndex) const </td></tr>
-<tr class="memdesc:a195f691636bd7978f71dfea5125297f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of one of the output channels, as returned by the host.  <a href="#a195f691636bd7978f71dfea5125297f2"></a><br/></td></tr>
+<tr class="memdesc:a195f691636bd7978f71dfea5125297f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of one of the processor's output channels.  <a href="#a195f691636bd7978f71dfea5125297f2"></a><br/></td></tr>
 <tr class="memitem:ab182318b40d53198ea261e6418e66eea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#ab182318b40d53198ea261e6418e66eea">isInputChannelStereoPair</a> (int index) const </td></tr>
 <tr class="memdesc:ab182318b40d53198ea261e6418e66eea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the specified channel is part of a stereo pair with its neighbour.  <a href="#ab182318b40d53198ea261e6418e66eea"></a><br/></td></tr>
 <tr class="memitem:ac58be7ec9eb1daa64b7ab22dcf16496b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#ac58be7ec9eb1daa64b7ab22dcf16496b">isOutputChannelStereoPair</a> (int index) const </td></tr>
@@ -825,8 +825,8 @@ Static Public Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Returns the name of one of the input channels, as returned by the host. </p>
-<p>The host might not supply very useful names for channels, and this might be something like "1", "2", "left", "right", etc. </p>
+<p>Returns the name of one of the processor's input channels. </p>
+<p>The processor might not supply very useful names for channels, and this might be something like "1", "2", "left", "right", etc. </p>
 
 <p>Implements <a class="el" href="classAudioProcessor.html#a7b08160f29557954c03fd27c07a7380c">AudioProcessor</a>.</p>
 
@@ -847,8 +847,8 @@ Static Public Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Returns the name of one of the output channels, as returned by the host. </p>
-<p>The host might not supply very useful names for channels, and this might be something like "1", "2", "left", "right", etc. </p>
+<p>Returns the name of one of the processor's output channels. </p>
+<p>The processor might not supply very useful names for channels, and this might be something like "1", "2", "left", "right", etc. </p>
 
 <p>Implements <a class="el" href="classAudioProcessor.html#a13811b9a738bd6e807e186b1f9af7c2c">AudioProcessor</a>.</p>
 

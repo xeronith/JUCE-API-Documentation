@@ -63,7 +63,6 @@ var searchData=
   ['scopedpointer_3c_20opengltexture_20_3e',['ScopedPointer< OpenGLTexture >',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20outputstream_20_3e',['ScopedPointer< OutputStream >',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20pimpl_20_3e',['ScopedPointer< Pimpl >',['../classScopedPointer.html',1,'']]],
-  ['scopedpointer_3c_20popupdisplaycomponent_20_3e',['ScopedPointer< PopupDisplayComponent >',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20positionableaudiosource_20_3e',['ScopedPointer< PositionableAudioSource >',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20propertiesfile_20_3e',['ScopedPointer< PropertiesFile >',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20propertyset_20_3e',['ScopedPointer< PropertySet >',['../classScopedPointer.html',1,'']]],

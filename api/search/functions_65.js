@@ -2,7 +2,7 @@ var searchData=
 [
   ['edgetable',['EdgeTable',['../classEdgeTable.html#aa220ed166fa71ac953d39c6512588464',1,'EdgeTable::EdgeTable(const Rectangle&lt; int &gt; &amp;clipLimits, const Path &amp;pathToAdd, const AffineTransform &amp;transform)'],['../classEdgeTable.html#af1255353604f678892577a84414c7fe0',1,'EdgeTable::EdgeTable(const Rectangle&lt; int &gt; &amp;rectangleToAdd)'],['../classEdgeTable.html#a4cdc0bb4b999b7b3f60ba2ad9f792ec2',1,'EdgeTable::EdgeTable(const RectangleList &amp;rectanglesToAdd)'],['../classEdgeTable.html#ad1edf1a5e85ef52cddd76bfba0ad6014',1,'EdgeTable::EdgeTable(const Rectangle&lt; float &gt; &amp;rectangleToAdd)'],['../classEdgeTable.html#a43bfa6fe36cab8b5b1ad646fff8668fa',1,'EdgeTable::EdgeTable(const EdgeTable &amp;other)']]],
   ['editorabouttobehidden',['editorAboutToBeHidden',['../classLabel.html#a0cb8d5ff136d2281df6dbb76330d868d',1,'Label']]],
-  ['editorbeingdeleted',['editorBeingDeleted',['../classAudioProcessor.html#af3836e86729f44464991c261ba7949b3',1,'AudioProcessor']]],
+  ['editorbeingdeleted',['editorBeingDeleted',['../classAudioProcessor.html#a78f4b83d4f5c8625cf1df93288142642',1,'AudioProcessor']]],
   ['editorshown',['editorShown',['../classLabel.html#a7e0205075e382e2ae226655cedfdccba',1,'Label']]],
   ['ejectdisk',['ejectDisk',['../classAudioCDReader.html#a41f27ce866212984e7a657f316e63e24',1,'AudioCDReader']]],
   ['element',['Element',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html#a182bb0536be440f286655d58705ed912',1,'DrawablePath::ValueTreeWrapper::Element']]],

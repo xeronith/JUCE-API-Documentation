@@ -146,7 +146,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab1413e8056b7ad53f1ca1502e6c660ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#ab1413e8056b7ad53f1ca1502e6c660ed">setToggleState</a> (bool shouldBeOn, bool sendChangeNotification)</td></tr>
 <tr class="memdesc:ab1413e8056b7ad53f1ca1502e6c660ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">A button has an on/off state associated with it, and this changes that.  <a href="#ab1413e8056b7ad53f1ca1502e6c660ed"></a><br/></td></tr>
 <tr class="memitem:ae1723837340c174f0f212855d247b626"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#ae1723837340c174f0f212855d247b626">getToggleState</a> () const noexcept</td></tr>
-<tr class="memdesc:ae1723837340c174f0f212855d247b626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the button in 'on'.  <a href="#ae1723837340c174f0f212855d247b626"></a><br/></td></tr>
+<tr class="memdesc:ae1723837340c174f0f212855d247b626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the button is 'on'.  <a href="#ae1723837340c174f0f212855d247b626"></a><br/></td></tr>
 <tr class="memitem:a30d3104699bb64de1b6c2b78d20158a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValue.html">Value</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a30d3104699bb64de1b6c2b78d20158a5">getToggleStateValue</a> ()</td></tr>
 <tr class="memdesc:a30d3104699bb64de1b6c2b78d20158a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classValue.html" title="Represents a shared variant value.">Value</a> object that represents the botton's toggle state.  <a href="#a30d3104699bb64de1b6c2b78d20158a5"></a><br/></td></tr>
 <tr class="memitem:ab27f9e7a7fb11f90f531778ce26d9842"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#ab27f9e7a7fb11f90f531778ce26d9842">setClickingTogglesState</a> (bool shouldToggle) noexcept</td></tr>
@@ -449,7 +449,7 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classButton.html#ae1723837340c174f0f212855d247b626" title="Returns true if the button in &#39;on&#39;.">getToggleState</a>, <a class="el" href="classButton.html#a94f39a6f954ab585bda4281c965d73e0" title="Enables the button to act as a member of a mutually-exclusive group of &#39;radio buttons&#39;.">setRadioGroupId</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classButton.html#ae1723837340c174f0f212855d247b626" title="Returns true if the button is &#39;on&#39;.">getToggleState</a>, <a class="el" href="classButton.html#a94f39a6f954ab585bda4281c965d73e0" title="Enables the button to act as a member of a mutually-exclusive group of &#39;radio buttons&#39;.">setRadioGroupId</a> </dd></dl>
 
 </div>
 </div>
@@ -467,7 +467,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Returns true if the button in 'on'. </p>
+<p>Returns true if the button is 'on'. </p>
 <p>By default buttons are 'off' and for simple buttons that you click to perform an action you won't change this. Toggle buttons, however will want to change their state when turned on or off.</p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classButton.html#ab1413e8056b7ad53f1ca1502e6c660ed" title="A button has an on/off state associated with it, and this changes that.">setToggleState</a> </dd></dl>
 
@@ -489,7 +489,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Returns the <a class="el" href="classValue.html" title="Represents a shared variant value.">Value</a> object that represents the botton's toggle state. </p>
 <p>You can use this <a class="el" href="classValue.html" title="Represents a shared variant value.">Value</a> object to connect the button's state to external values or setters, either by taking a copy of the <a class="el" href="classValue.html" title="Represents a shared variant value.">Value</a>, or by using <a class="el" href="classValue.html#a127b52830b5d62b478224b670d9e78f9" title="Makes this object refer to the same underlying ValueSource as another one.">Value::referTo()</a> to make it point to your own <a class="el" href="classValue.html" title="Represents a shared variant value.">Value</a> object. </p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classButton.html#ae1723837340c174f0f212855d247b626" title="Returns true if the button in &#39;on&#39;.">getToggleState</a>, <a class="el" href="classValue.html" title="Represents a shared variant value.">Value</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classButton.html#ae1723837340c174f0f212855d247b626" title="Returns true if the button is &#39;on&#39;.">getToggleState</a>, <a class="el" href="classValue.html" title="Represents a shared variant value.">Value</a> </dd></dl>
 
 </div>
 </div>

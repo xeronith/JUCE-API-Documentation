@@ -118,8 +118,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aaa4cf6bbdb662b106cd44c203b8abb1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or disables the use of the GL context to perform 2D rendering of the component to which it is attached.  <a href="#aaa4cf6bbdb662b106cd44c203b8abb1a"></a><br/></td></tr>
 <tr class="memitem:aeb49920c5ee4e4694fa4cbd1700b2acb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#aeb49920c5ee4e4694fa4cbd1700b2acb">setPixelFormat</a> (const <a class="el" href="classOpenGLPixelFormat.html">OpenGLPixelFormat</a> &amp;preferredPixelFormat) noexcept</td></tr>
 <tr class="memdesc:aeb49920c5ee4e4694fa4cbd1700b2acb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the pixel format which you'd like to use for the target GL surface.  <a href="#aeb49920c5ee4e4694fa4cbd1700b2acb"></a><br/></td></tr>
-<tr class="memitem:a3f376e9f19b7848264714c767a977fa3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a3f376e9f19b7848264714c767a977fa3">setContextToShareWith</a> (const <a class="el" href="classOpenGLContext.html">OpenGLContext</a> *contextToShareWith) noexcept</td></tr>
-<tr class="memdesc:a3f376e9f19b7848264714c767a977fa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a context with which you'd like this context's resources to be shared.  <a href="#a3f376e9f19b7848264714c767a977fa3"></a><br/></td></tr>
+<tr class="memitem:a0129ecf603a0cc3034e4809a23812e4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a0129ecf603a0cc3034e4809a23812e4a">setNativeSharedContext</a> (void *nativeContextToShareWith) noexcept</td></tr>
+<tr class="memdesc:a0129ecf603a0cc3034e4809a23812e4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a context with which you'd like this context's resources to be shared.  <a href="#a0129ecf603a0cc3034e4809a23812e4a"></a><br/></td></tr>
 <tr class="memitem:ac2ea1a7ce8af65c40b5b8ab757cd7d38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#ac2ea1a7ce8af65c40b5b8ab757cd7d38">attachTo</a> (<a class="el" href="classComponent.html">Component</a> &amp;component)</td></tr>
 <tr class="memdesc:ac2ea1a7ce8af65c40b5b8ab757cd7d38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attaches the context to a target component.  <a href="#ac2ea1a7ce8af65c40b5b8ab757cd7d38"></a><br/></td></tr>
 <tr class="memitem:a7504aa8928c854732090ee9583e9f37d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a7504aa8928c854732090ee9583e9f37d">detach</a> ()</td></tr>
@@ -160,6 +160,8 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af7e84e07e6f1228a865915ca21500f7a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classOpenGLContext.html">OpenGLContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#af7e84e07e6f1228a865915ca21500f7a">getCurrentContext</a> ()</td></tr>
 <tr class="memdesc:af7e84e07e6f1228a865915ca21500f7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the context that's currently in active use by the calling thread, or nullptr if no context is active.  <a href="#af7e84e07e6f1228a865915ca21500f7a"></a><br/></td></tr>
+<tr class="memitem:a5a3ece9be728d97e0343ae17a71f6562"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a5a3ece9be728d97e0343ae17a71f6562">deactivateCurrentContext</a> ()</td></tr>
+<tr class="memdesc:a5a3ece9be728d97e0343ae17a71f6562"><td class="mdescLeft">&#160;</td><td class="mdescRight">If any context is active on the current thread, this deactivates it.  <a href="#a5a3ece9be728d97e0343ae17a71f6562"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a3e204724fd78bbc272023525226caad7"><td class="memItemLeft" align="right" valign="top">OpenGLExtensionFunctions&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a3e204724fd78bbc272023525226caad7">extensions</a></td></tr>
@@ -269,15 +271,15 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3f376e9f19b7848264714c767a977fa3"></a>
+<a class="anchor" id="a0129ecf603a0cc3034e4809a23812e4a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classOpenGLContext.html#a3f376e9f19b7848264714c767a977fa3">OpenGLContext::setContextToShareWith</a> </td>
+          <td class="memname">void <a class="el" href="classOpenGLContext.html#a0129ecf603a0cc3034e4809a23812e4a">OpenGLContext::setNativeSharedContext</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classOpenGLContext.html">OpenGLContext</a> *&#160;</td>
-          <td class="paramname"><em>contextToShareWith</em></td><td>)</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>nativeContextToShareWith</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -285,7 +287,7 @@ Public Attributes</h2></td></tr>
 <div class="memdoc">
 
 <p>Provides a context with which you'd like this context's resources to be shared. </p>
-<p>The object passed-in here must not be deleted while the context may still be using it! To turn off sharing, you can call this method with a null pointer. Note: This must be called BEFORE attaching your context to a target component! </p>
+<p>The object passed-in here is a platform-dependent native context object, and must not be deleted while this context may still be using it! To turn off sharing, you can call this method with a null pointer. Note: This must be called BEFORE attaching your context to a target component! </p>
 
 </div>
 </div>
@@ -560,6 +562,25 @@ Public Attributes</h2></td></tr>
 <div class="memdoc">
 
 <p>Returns true if this context is currently active for the calling thread. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5a3ece9be728d97e0343ae17a71f6562"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="classOpenGLContext.html#a5a3ece9be728d97e0343ae17a71f6562">OpenGLContext::deactivateCurrentContext</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>If any context is active on the current thread, this deactivates it. </p>
+<p>Note that on some platforms, like Android, this isn't possible. </p>
 
 </div>
 </div>

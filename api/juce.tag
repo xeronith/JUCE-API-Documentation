@@ -330,6 +330,12 @@
     <class kind="class">AudioThumbnail</class>
   </compound>
   <compound kind="file">
+    <name>juce_AudioThumbnailBase.h</name>
+    <path>/Volumes/CODE/code/juce/modules/juce_audio_utils/gui/</path>
+    <filename>juce__AudioThumbnailBase_8h</filename>
+    <class kind="class">AudioThumbnailBase</class>
+  </compound>
+  <compound kind="file">
     <name>juce_AudioThumbnailCache.h</name>
     <path>/Volumes/CODE/code/juce/modules/juce_audio_utils/gui/</path>
     <filename>juce__AudioThumbnailCache_8h</filename>
@@ -741,6 +747,8 @@
     <filename>juce__Desktop_8h</filename>
     <class kind="class">FocusChangeListener</class>
     <class kind="class">Desktop</class>
+    <class kind="class">Desktop::Displays</class>
+    <class kind="struct">Desktop::Displays::Display</class>
   </compound>
   <compound kind="file">
     <name>juce_DialogWindow.h</name>
@@ -8868,6 +8876,20 @@
       <anchor>ad628a9699d9b6c9859c8240e21ec9d90</anchor>
       <arglist>() const noexcept</arglist>
     </member>
+    <member kind="function">
+      <type>const String &amp;</type>
+      <name>getInputSpeakerArrangement</name>
+      <anchorfile>classAudioProcessor.html</anchorfile>
+      <anchor>a8c85a22f6dac9e1aac8aafd97fad10f5</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>const String &amp;</type>
+      <name>getOutputSpeakerArrangement</name>
+      <anchorfile>classAudioProcessor.html</anchorfile>
+      <anchor>a70d827af48e2eeef7df1ab233d031a04</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
     <member kind="function" virtualness="pure">
       <type>virtual const String</type>
       <name>getInputChannelName</name>
@@ -9159,8 +9181,8 @@
       <type>void</type>
       <name>editorBeingDeleted</name>
       <anchorfile>classAudioProcessor.html</anchorfile>
-      <anchor>af3836e86729f44464991c261ba7949b3</anchor>
-      <arglist>(AudioProcessorEditor *editor) noexcept</arglist>
+      <anchor>a78f4b83d4f5c8625cf1df93288142642</anchor>
+      <arglist>(AudioProcessorEditor *) noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -9168,6 +9190,13 @@
       <anchorfile>classAudioProcessor.html</anchorfile>
       <anchor>a8648014377dc6ee0476ceb45da113346</anchor>
       <arglist>(int numIns, int numOuts, double sampleRate, int blockSize) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setSpeakerArrangement</name>
+      <anchorfile>classAudioProcessor.html</anchorfile>
+      <anchor>a32373cce07683bdd38cf3b01eb1c4bdc</anchor>
+      <arglist>(const String &amp;inputs, const String &amp;outputs)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type></type>
@@ -10251,6 +10280,27 @@
     <name>AudioSourceChannelInfo</name>
     <filename>structAudioSourceChannelInfo.html</filename>
     <member kind="function">
+      <type></type>
+      <name>AudioSourceChannelInfo</name>
+      <anchorfile>structAudioSourceChannelInfo.html</anchorfile>
+      <anchor>ab6cb8323683ddb2e9170c96aedfb4e6f</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>AudioSourceChannelInfo</name>
+      <anchorfile>structAudioSourceChannelInfo.html</anchorfile>
+      <anchor>a0076062656d54e026c971aafc6051d50</anchor>
+      <arglist>(AudioSampleBuffer *bufferToUse, int startSampleOffset, int numSamplesToUse) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>AudioSourceChannelInfo</name>
+      <anchorfile>structAudioSourceChannelInfo.html</anchorfile>
+      <anchor>ae486e3eb8d0b4e53b279793d5d03dc19</anchor>
+      <arglist>(AudioSampleBuffer &amp;bufferToUse) noexcept</arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>clearActiveBufferRegion</name>
       <anchorfile>structAudioSourceChannelInfo.html</anchorfile>
@@ -10383,8 +10433,7 @@
   <compound kind="class">
     <name>AudioThumbnail</name>
     <filename>classAudioThumbnail.html</filename>
-    <base>ChangeBroadcaster</base>
-    <base>AudioFormatWriter::ThreadedWriter::IncomingDataReceiver</base>
+    <base>AudioThumbnailBase</base>
     <member kind="function">
       <type></type>
       <name>AudioThumbnail</name>
@@ -10513,6 +10562,124 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>AudioThumbnailBase</name>
+    <filename>classAudioThumbnailBase.html</filename>
+    <base>ChangeBroadcaster</base>
+    <base>AudioFormatWriter::ThreadedWriter::IncomingDataReceiver</base>
+    <member kind="function">
+      <type></type>
+      <name>AudioThumbnailBase</name>
+      <anchorfile>classAudioThumbnailBase.html</anchorfile>
+      <anchor>af7b4ebde2996de4bed6e1cf048b11467</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~AudioThumbnailBase</name>
+      <anchorfile>classAudioThumbnailBase.html</anchorfile>
+      <anchor>a2ef25f2c29e6363e346c2cb819e7a5b6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>clear</name>
+      <anchorfile>classAudioThumbnailBase.html</anchorfile>
+      <anchor>a53a5be624c9de79a672777d3697cfd48</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual bool</type>
+      <name>setSource</name>
+      <anchorfile>classAudioThumbnailBase.html</anchorfile>
+      <anchor>a8fd77ac3757e9eca141ab1cbc4e7d269</anchor>
+      <arglist>(InputSource *newSource)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>setReader</name>
+      <anchorfile>classAudioThumbnailBase.html</anchorfile>
+      <anchor>ad6960274ea876808fd2e6df6f0761e9c</anchor>
+      <arglist>(AudioFormatReader *newReader, int64 hashCode)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>loadFrom</name>
+      <anchorfile>classAudioThumbnailBase.html</anchorfile>
+      <anchor>a270f1fe9c27fda1953c9e1ea30fd9486</anchor>
+      <arglist>(InputStream &amp;input)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>saveTo</name>
+      <anchorfile>classAudioThumbnailBase.html</anchorfile>
+      <anchor>a9cb4b72aa47359c671f89fc25eae0a72</anchor>
+      <arglist>(OutputStream &amp;output) const =0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual int</type>
+      <name>getNumChannels</name>
+      <anchorfile>classAudioThumbnailBase.html</anchorfile>
+      <anchor>a6677b1ec042a69aa14ceec756d292671</anchor>
+      <arglist>() const noexcept=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual double</type>
+      <name>getTotalLength</name>
+      <anchorfile>classAudioThumbnailBase.html</anchorfile>
+      <anchor>aa668e0939708049e4ee3b203860037c9</anchor>
+      <arglist>() const noexcept=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>drawChannel</name>
+      <anchorfile>classAudioThumbnailBase.html</anchorfile>
+      <anchor>ab7e4df6d6c5e96943f3f6ca184235a57</anchor>
+      <arglist>(Graphics &amp;g, const Rectangle&lt; int &gt; &amp;area, double startTimeSeconds, double endTimeSeconds, int channelNum, float verticalZoomFactor)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>drawChannels</name>
+      <anchorfile>classAudioThumbnailBase.html</anchorfile>
+      <anchor>a7779a08868bbb6581acb904f200c7877</anchor>
+      <arglist>(Graphics &amp;g, const Rectangle&lt; int &gt; &amp;area, double startTimeSeconds, double endTimeSeconds, float verticalZoomFactor)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual bool</type>
+      <name>isFullyLoaded</name>
+      <anchorfile>classAudioThumbnailBase.html</anchorfile>
+      <anchor>aacffa9ccff66765ea16fad7aca98323e</anchor>
+      <arglist>() const noexcept=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual int64</type>
+      <name>getNumSamplesFinished</name>
+      <anchorfile>classAudioThumbnailBase.html</anchorfile>
+      <anchor>ad04c3c2c5a003df0296faab4f017081f</anchor>
+      <arglist>() const noexcept=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual float</type>
+      <name>getApproximatePeak</name>
+      <anchorfile>classAudioThumbnailBase.html</anchorfile>
+      <anchor>a8efca4beb3d0f32b65be53be933a8e81</anchor>
+      <arglist>() const =0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>getApproximateMinMax</name>
+      <anchorfile>classAudioThumbnailBase.html</anchorfile>
+      <anchor>ab3abc860ff8e4fda8234b54cbec3d137</anchor>
+      <arglist>(double startTime, double endTime, int channelIndex, float &amp;minValue, float &amp;maxValue) const noexcept=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual int64</type>
+      <name>getHashCode</name>
+      <anchorfile>classAudioThumbnailBase.html</anchorfile>
+      <anchor>a9a16ffaf872861903fdf2e97fcfe958f</anchor>
+      <arglist>() const =0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>AudioThumbnailCache</name>
     <filename>classAudioThumbnailCache.html</filename>
     <base>TimeSliceThread</base>
@@ -10541,15 +10708,15 @@
       <type>bool</type>
       <name>loadThumb</name>
       <anchorfile>classAudioThumbnailCache.html</anchorfile>
-      <anchor>a9a677aae9adc64dc8b834e4e14e847d2</anchor>
-      <arglist>(AudioThumbnail &amp;thumb, int64 hashCode)</arglist>
+      <anchor>a0c02c3ed2e7868c20e9d77c16915d818</anchor>
+      <arglist>(AudioThumbnailBase &amp;thumb, int64 hashCode)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>storeThumb</name>
       <anchorfile>classAudioThumbnailCache.html</anchorfile>
-      <anchor>a8e4f02bbe7910c168040b57424fba45c</anchor>
-      <arglist>(const AudioThumbnail &amp;thumb, int64 hashCode)</arglist>
+      <anchor>a04e1fc8084a07fb926e22bbc62bfe4c4</anchor>
+      <arglist>(const AudioThumbnailBase &amp;thumb, int64 hashCode)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -21149,8 +21316,15 @@
       <type>void</type>
       <name>setCharacteristics</name>
       <anchorfile>classCustomTypeface.html</anchorfile>
-      <anchor>a0a6b66191499dcc7c70b694ed33733b0</anchor>
-      <arglist>(const String &amp;name, float ascent, bool isBold, bool isItalic, juce_wchar defaultCharacter) noexcept</arglist>
+      <anchor>a7da2c0383a43ca73649aae749c3acc4f</anchor>
+      <arglist>(const String &amp;fontFamily, float ascent, bool isBold, bool isItalic, juce_wchar defaultCharacter) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setCharacteristics</name>
+      <anchorfile>classCustomTypeface.html</anchorfile>
+      <anchor>a0d2c31c8caaaec95299512e05988ed0a</anchor>
+      <arglist>(const String &amp;fontFamily, const String &amp;fontStyle, float ascent, juce_wchar defaultCharacter) noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -21241,20 +21415,6 @@
       <name>ascent</name>
       <anchorfile>classCustomTypeface.html</anchorfile>
       <anchor>ab5c74224ec102b6990481b658d189ac4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>bool</type>
-      <name>isBold</name>
-      <anchorfile>classCustomTypeface.html</anchorfile>
-      <anchor>ac7f0bc9dd3cc70a5e93ff5a6668c392b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>bool</type>
-      <name>isItalic</name>
-      <anchorfile>classCustomTypeface.html</anchorfile>
-      <anchor>a461ed100073dec515c55602adc258c66</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -21446,6 +21606,7 @@
     <base protection="private">DeletedAtShutdown</base>
     <base protection="private">Timer</base>
     <base protection="private">AsyncUpdater</base>
+    <class kind="class">Desktop::Displays</class>
     <member kind="enumeration">
       <name>DisplayOrientation</name>
       <anchorfile>classDesktop.html</anchorfile>
@@ -21481,27 +21642,6 @@
       <anchorfile>classDesktop.html</anchorfile>
       <anchor>a5e06947d2d1295bdb6f5c4fab7beb98aacb260a5600c352a166edd836a2305a06</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>RectangleList</type>
-      <name>getAllMonitorDisplayAreas</name>
-      <anchorfile>classDesktop.html</anchorfile>
-      <anchor>af3ed3182682ec3f52b1e87c65b16b7bd</anchor>
-      <arglist>(bool clippedToWorkArea=true) const </arglist>
-    </member>
-    <member kind="function">
-      <type>Rectangle&lt; int &gt;</type>
-      <name>getMainMonitorArea</name>
-      <anchorfile>classDesktop.html</anchorfile>
-      <anchor>aedd9d63905785bab10d1cd5fedc0c063</anchor>
-      <arglist>(bool clippedToWorkArea=true) const noexcept</arglist>
-    </member>
-    <member kind="function">
-      <type>Rectangle&lt; int &gt;</type>
-      <name>getMonitorAreaContaining</name>
-      <anchorfile>classDesktop.html</anchorfile>
-      <anchor>adef052e77ab5d3b4ccbab6a01dcf7333</anchor>
-      <arglist>(const Point&lt; int &gt; &amp;position, bool clippedToWorkArea=true) const </arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -21651,11 +21791,11 @@
       <arglist>(DisplayOrientation orientation) const noexcept</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
-      <name>refreshMonitorSizes</name>
+      <type>const Displays &amp;</type>
+      <name>getDisplays</name>
       <anchorfile>classDesktop.html</anchorfile>
-      <anchor>a21ba92edd2e03e9ca14208e2c19da967</anchor>
-      <arglist>()</arglist>
+      <anchor>aaf44cad873d28c06e2d22c9ee05387c3</anchor>
+      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static Desktop &amp;JUCE_CALLTYPE</type>
@@ -21712,6 +21852,78 @@
       <anchorfile>classDesktop.html</anchorfile>
       <anchor>af15bdf2abd33c022d88f9335a5b5d098</anchor>
       <arglist>() noexcept</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>Desktop::Displays</name>
+    <filename>classDesktop_1_1Displays.html</filename>
+    <class kind="struct">Desktop::Displays::Display</class>
+    <member kind="function">
+      <type>const Display &amp;</type>
+      <name>getMainDisplay</name>
+      <anchorfile>classDesktop_1_1Displays.html</anchorfile>
+      <anchor>ab330cfff5471512312e7017472276c8d</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>const Display &amp;</type>
+      <name>getDisplayContaining</name>
+      <anchorfile>classDesktop_1_1Displays.html</anchorfile>
+      <anchor>a25cc9545f04050f2f66428535ca3f4e8</anchor>
+      <arglist>(const Point&lt; int &gt; &amp;position) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>RectangleList</type>
+      <name>getRectangleList</name>
+      <anchorfile>classDesktop_1_1Displays.html</anchorfile>
+      <anchor>a89a45e8f84b41899944faa0cef7cb4ce</anchor>
+      <arglist>(bool userAreasOnly) const </arglist>
+    </member>
+    <member kind="function">
+      <type>Rectangle&lt; int &gt;</type>
+      <name>getTotalBounds</name>
+      <anchorfile>classDesktop_1_1Displays.html</anchorfile>
+      <anchor>a14668006cd63864b5ef4328cfa222f77</anchor>
+      <arglist>(bool userAreasOnly) const </arglist>
+    </member>
+    <member kind="variable">
+      <type>Array&lt; Display &gt;</type>
+      <name>displays</name>
+      <anchorfile>classDesktop_1_1Displays.html</anchorfile>
+      <anchor>af3bca6783a93f00366a068ea04c661b4</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>Desktop::Displays::Display</name>
+    <filename>structDesktop_1_1Displays_1_1Display.html</filename>
+    <member kind="variable">
+      <type>Rectangle&lt; int &gt;</type>
+      <name>userArea</name>
+      <anchorfile>structDesktop_1_1Displays_1_1Display.html</anchorfile>
+      <anchor>a7b9601b6a4c7de297099ff4e3b8651ec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Rectangle&lt; int &gt;</type>
+      <name>totalArea</name>
+      <anchorfile>structDesktop_1_1Displays_1_1Display.html</anchorfile>
+      <anchor>a90732ffebb1b91769b95400dec70f74f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>scale</name>
+      <anchorfile>structDesktop_1_1Displays_1_1Display.html</anchorfile>
+      <anchor>a1fa73b56829f21284aaf3ba95d64c227</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>isMain</name>
+      <anchorfile>structDesktop_1_1Displays_1_1Display.html</anchorfile>
+      <anchor>a392d751b64069c4b4a212e2f07f1766a</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -24518,6 +24730,13 @@
       <arglist>(const String &amp;newText)</arglist>
     </member>
     <member kind="function">
+      <type>const String &amp;</type>
+      <name>getText</name>
+      <anchorfile>classDrawableText.html</anchorfile>
+      <anchor>ab3a4ef75f8f80049d5bfc8016e4e67ac</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>setColour</name>
       <anchorfile>classDrawableText.html</anchorfile>
@@ -24539,11 +24758,25 @@
       <arglist>(const Font &amp;newFont, bool applySizeAndScale)</arglist>
     </member>
     <member kind="function">
+      <type>const Font &amp;</type>
+      <name>getFont</name>
+      <anchorfile>classDrawableText.html</anchorfile>
+      <anchor>aeb7642db1da8de0468a595a12d9a407e</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>setJustification</name>
       <anchorfile>classDrawableText.html</anchorfile>
       <anchor>a938f2cfc4ecd82032f99985090d82dde</anchor>
       <arglist>(const Justification &amp;newJustification)</arglist>
+    </member>
+    <member kind="function">
+      <type>const Justification &amp;</type>
+      <name>getJustification</name>
+      <anchorfile>classDrawableText.html</anchorfile>
+      <anchor>ab2543eda1a150035a70b3bccea95d4c3</anchor>
+      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
       <type>const RelativeParallelogram &amp;</type>
@@ -25686,8 +25919,8 @@
       <type></type>
       <name>File</name>
       <anchorfile>classFile.html</anchorfile>
-      <anchor>ae039af5807fc385f41b60644725d15d0</anchor>
-      <arglist>()</arglist>
+      <anchor>a51dc22c62ddf2fbeef8335300fc8e56a</anchor>
+      <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -25707,8 +25940,8 @@
       <type></type>
       <name>~File</name>
       <anchorfile>classFile.html</anchorfile>
-      <anchor>ac704ebdf5f57d7a1c5ddf409d797fb69</anchor>
-      <arglist>()</arglist>
+      <anchor>a5222c06f8d809438b51a7bd528760aaa</anchor>
+      <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
       <type>File &amp;</type>
@@ -26267,8 +26500,8 @@
       <type>static File</type>
       <name>createFileWithoutCheckingPath</name>
       <anchorfile>classFile.html</anchorfile>
-      <anchor>a7a0fc1d6dd3c4c3aeffa3d47bb3c8af2</anchor>
-      <arglist>(const String &amp;path)</arglist>
+      <anchor>a064195d0f75aebeb20eb070e10da72af</anchor>
+      <arglist>(const String &amp;path) noexcept</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static String</type>
@@ -28232,6 +28465,20 @@
       <type></type>
       <name>Font</name>
       <anchorfile>classFont.html</anchorfile>
+      <anchor>aa06c029ddf2e47279c95828581feaa10</anchor>
+      <arglist>(const String &amp;typefaceStyle, float fontHeight)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Font</name>
+      <anchorfile>classFont.html</anchorfile>
+      <anchor>ab41a1accb2fbbd96b2e35d5ef4c548c9</anchor>
+      <arglist>(const String &amp;typefaceName, const String &amp;typefaceStyle, float fontHeight)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Font</name>
+      <anchorfile>classFont.html</anchorfile>
       <anchor>a3b40611ef144d05c0126f7c69890b32b</anchor>
       <arglist>(const Font &amp;other) noexcept</arglist>
     </member>
@@ -28290,6 +28537,27 @@
       <anchorfile>classFont.html</anchorfile>
       <anchor>a66d068f203550181d57353649f8f694f</anchor>
       <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setTypefaceStyle</name>
+      <anchorfile>classFont.html</anchorfile>
+      <anchor>a5fae84c51db635e5fbe85c22530c64ee</anchor>
+      <arglist>(const String &amp;typefaceStyle)</arglist>
+    </member>
+    <member kind="function">
+      <type>const String &amp;</type>
+      <name>getTypefaceStyle</name>
+      <anchorfile>classFont.html</anchorfile>
+      <anchor>a5c7bb70dc22a35c23ebc4b685b679556</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>StringArray</type>
+      <name>getAvailableStyles</name>
+      <anchorfile>classFont.html</anchorfile>
+      <anchor>ae381cbed77eed2b1e69f735906b3bf26</anchor>
+      <arglist>() const </arglist>
     </member>
     <member kind="function">
       <type>float</type>
@@ -28460,6 +28728,13 @@
       <arglist>(float newHeight, int newStyleFlags, float newHorizontalScale, float newKerningAmount)</arglist>
     </member>
     <member kind="function">
+      <type>void</type>
+      <name>setSizeAndStyle</name>
+      <anchorfile>classFont.html</anchorfile>
+      <anchor>a405732674d98d90cb2948ea20ccbe67c</anchor>
+      <arglist>(float newHeight, const String &amp;newStyle, float newHorizontalScale, float newKerningAmount)</arglist>
+    </member>
+    <member kind="function">
       <type>int</type>
       <name>getStringWidth</name>
       <anchorfile>classFont.html</anchorfile>
@@ -28516,6 +28791,13 @@
       <arglist>()</arglist>
     </member>
     <member kind="function" static="yes">
+      <type>static const String &amp;</type>
+      <name>getDefaultStyle</name>
+      <anchorfile>classFont.html</anchorfile>
+      <anchor>a7f0dad8086009fad6e3d43b72442dc6a</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
       <type>static Typeface::Ptr</type>
       <name>getDefaultTypefaceForFont</name>
       <anchorfile>classFont.html</anchorfile>
@@ -28537,6 +28819,13 @@
       <arglist>()</arglist>
     </member>
     <member kind="function" static="yes">
+      <type>static StringArray</type>
+      <name>findAllTypefaceStyles</name>
+      <anchorfile>classFont.html</anchorfile>
+      <anchor>a4504ff88b0af4aec852736d267f837cc</anchor>
+      <arglist>(const String &amp;family)</arglist>
+    </member>
+    <member kind="function" static="yes">
       <type>static const String &amp;</type>
       <name>getFallbackFontName</name>
       <anchorfile>classFont.html</anchorfile>
@@ -28549,6 +28838,20 @@
       <anchorfile>classFont.html</anchorfile>
       <anchor>ad898e9741496ae8fe48aa27198732733</anchor>
       <arglist>(const String &amp;name)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static const String &amp;</type>
+      <name>getFallbackFontStyle</name>
+      <anchorfile>classFont.html</anchorfile>
+      <anchor>a51defec01a1b77bd50b70c452cc6e658</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>setFallbackFontStyle</name>
+      <anchorfile>classFont.html</anchorfile>
+      <anchor>aa58cbc471e7b0a24568526dabffc3672</anchor>
+      <arglist>(const String &amp;style)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static Font</type>
@@ -40199,10 +40502,10 @@
       <arglist>(int index) const </arglist>
     </member>
     <member kind="function">
-      <type>void</type>
+      <type>MidiEventHolder *</type>
       <name>addEvent</name>
       <anchorfile>classMidiMessageSequence.html</anchorfile>
-      <anchor>af9e3703649aad8017926c32b64eb6c3d</anchor>
+      <anchor>abcfb3b7334ccd8bf72fc95e5019cddd6</anchor>
       <arglist>(const MidiMessage &amp;newMessage, double timeAdjustment=0)</arglist>
     </member>
     <member kind="function">
@@ -42418,10 +42721,10 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>setContextToShareWith</name>
+      <name>setNativeSharedContext</name>
       <anchorfile>classOpenGLContext.html</anchorfile>
-      <anchor>a3f376e9f19b7848264714c767a977fa3</anchor>
-      <arglist>(const OpenGLContext *contextToShareWith) noexcept</arglist>
+      <anchor>a0129ecf603a0cc3034e4809a23812e4a</anchor>
+      <arglist>(void *nativeContextToShareWith) noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -42554,6 +42857,13 @@
       <name>getCurrentContext</name>
       <anchorfile>classOpenGLContext.html</anchorfile>
       <anchor>af7e84e07e6f1228a865915ca21500f7a</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>deactivateCurrentContext</name>
+      <anchorfile>classOpenGLContext.html</anchorfile>
+      <anchor>a5a3ece9be728d97e0343ae17a71f6562</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="variable">
@@ -52837,9 +53147,6 @@
     <filename>classSlider.html</filename>
     <base>Component</base>
     <base>SettableTooltipClient</base>
-    <base>AsyncUpdater</base>
-    <base>Label::Listener</base>
-    <base>Value::Listener</base>
     <class kind="struct">Slider::Ids</class>
     <class kind="class">Slider::Listener</class>
     <member kind="enumeration">
@@ -52915,36 +53222,6 @@
       <arglist></arglist>
     </member>
     <member kind="enumeration">
-      <name>IncDecButtonMode</name>
-      <anchorfile>classSlider.html</anchorfile>
-      <anchor>a0ceaddd29269b6ec5a41f35bbb2ff74a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <name>incDecButtonsNotDraggable</name>
-      <anchorfile>classSlider.html</anchorfile>
-      <anchor>a0ceaddd29269b6ec5a41f35bbb2ff74aabc5b1657cd94c709c9086a463b1d7094</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <name>incDecButtonsDraggable_AutoDirection</name>
-      <anchorfile>classSlider.html</anchorfile>
-      <anchor>a0ceaddd29269b6ec5a41f35bbb2ff74aa4877104d807899962ee036571ca93f52</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <name>incDecButtonsDraggable_Horizontal</name>
-      <anchorfile>classSlider.html</anchorfile>
-      <anchor>a0ceaddd29269b6ec5a41f35bbb2ff74aa19d0b1bdc13c1c673e382045c023868b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <name>incDecButtonsDraggable_Vertical</name>
-      <anchorfile>classSlider.html</anchorfile>
-      <anchor>a0ceaddd29269b6ec5a41f35bbb2ff74aae8e58e3ebb5b43e67e7de0071ba68ea5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumeration">
       <name>TextEntryBoxPosition</name>
       <anchorfile>classSlider.html</anchorfile>
       <anchor>ab6d7dff67151c029b9cb53fc40b4412f</anchor>
@@ -52978,6 +53255,36 @@
       <name>TextBoxBelow</name>
       <anchorfile>classSlider.html</anchorfile>
       <anchor>ab6d7dff67151c029b9cb53fc40b4412fa9a20474ba0850feb957b8cea91c6a456</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>IncDecButtonMode</name>
+      <anchorfile>classSlider.html</anchorfile>
+      <anchor>a0ceaddd29269b6ec5a41f35bbb2ff74a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>incDecButtonsNotDraggable</name>
+      <anchorfile>classSlider.html</anchorfile>
+      <anchor>a0ceaddd29269b6ec5a41f35bbb2ff74aabc5b1657cd94c709c9086a463b1d7094</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>incDecButtonsDraggable_AutoDirection</name>
+      <anchorfile>classSlider.html</anchorfile>
+      <anchor>a0ceaddd29269b6ec5a41f35bbb2ff74aa4877104d807899962ee036571ca93f52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>incDecButtonsDraggable_Horizontal</name>
+      <anchorfile>classSlider.html</anchorfile>
+      <anchor>a0ceaddd29269b6ec5a41f35bbb2ff74aa19d0b1bdc13c1c673e382045c023868b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>incDecButtonsDraggable_Vertical</name>
+      <anchorfile>classSlider.html</anchorfile>
+      <anchor>a0ceaddd29269b6ec5a41f35bbb2ff74aae8e58e3ebb5b43e67e7de0071ba68ea5</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
@@ -53044,8 +53351,22 @@
       <type></type>
       <name>Slider</name>
       <anchorfile>classSlider.html</anchorfile>
-      <anchor>afaf8e943b7729f722ccb18e9b64b1694</anchor>
-      <arglist>(const String &amp;componentName=String::empty)</arglist>
+      <anchor>a535033fada8e25ef7291d2a52e6e437b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Slider</name>
+      <anchorfile>classSlider.html</anchorfile>
+      <anchor>ae2c907adc5de6f127138f3f869f683ae</anchor>
+      <arglist>(const String &amp;componentName)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Slider</name>
+      <anchorfile>classSlider.html</anchorfile>
+      <anchor>ad0d654d54372b23671bfc28f179c339d</anchor>
+      <arglist>(SliderStyle style, TextEntryBoxPosition textBoxPosition)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -53174,10 +53495,10 @@
       <arglist>(TextEntryBoxPosition newPosition, bool isReadOnly, int textEntryBoxWidth, int textEntryBoxHeight)</arglist>
     </member>
     <member kind="function">
-      <type>const TextEntryBoxPosition</type>
+      <type>TextEntryBoxPosition</type>
       <name>getTextBoxPosition</name>
       <anchorfile>classSlider.html</anchorfile>
-      <anchor>ab58ad6409bec4c95bc488d1e6805d005</anchor>
+      <anchor>a6910e59cbc2aa25a8499a9c7e6593bb1</anchor>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -53205,8 +53526,8 @@
       <type>bool</type>
       <name>isTextBoxEditable</name>
       <anchorfile>classSlider.html</anchorfile>
-      <anchor>aa92882e0e3b0f6b313dea30b232f6f6b</anchor>
-      <arglist>() const </arglist>
+      <anchor>acd1590a901ef4a8240c8aae05c52e824</anchor>
+      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -53240,8 +53561,8 @@
       <type>Value &amp;</type>
       <name>getValueObject</name>
       <anchorfile>classSlider.html</anchorfile>
-      <anchor>afb8aa1465ed3962e646f7a431c22d535</anchor>
-      <arglist>()</arglist>
+      <anchor>a40ceae44fd94f912fc10d8a5803b9b01</anchor>
+      <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -53254,22 +53575,22 @@
       <type>double</type>
       <name>getMaximum</name>
       <anchorfile>classSlider.html</anchorfile>
-      <anchor>a686126cd0bfb07c4ba8a4904c592bf8b</anchor>
-      <arglist>() const </arglist>
+      <anchor>a9eb087c868550c699da26ee3df9ecd68</anchor>
+      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
       <type>double</type>
       <name>getMinimum</name>
       <anchorfile>classSlider.html</anchorfile>
-      <anchor>a573423d571b9989e0124f55d8a93f042</anchor>
-      <arglist>() const </arglist>
+      <anchor>acb7c7f0ca87e34da986ac7f9e732bab1</anchor>
+      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
       <type>double</type>
       <name>getInterval</name>
       <anchorfile>classSlider.html</anchorfile>
-      <anchor>a29c61ee33605972fdae606266530ddef</anchor>
-      <arglist>() const </arglist>
+      <anchor>a8b666bae0c68ff8af0bdb2381b97e89e</anchor>
+      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
       <type>double</type>
@@ -53492,15 +53813,15 @@
       <type>bool</type>
       <name>isHorizontal</name>
       <anchorfile>classSlider.html</anchorfile>
-      <anchor>a83d87d20e8081183cfcb1e3280de05e4</anchor>
-      <arglist>() const </arglist>
+      <anchor>a72da5afa45bfdcc642a53eb04c993f1e</anchor>
+      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>isVertical</name>
       <anchorfile>classSlider.html</anchorfile>
-      <anchor>a6d77e8d8a2510757f90df893209b7110</anchor>
-      <arglist>() const </arglist>
+      <anchor>a105d005078031e28d8e23d52d194bcde</anchor>
+      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -53511,17 +53832,10 @@
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
-      <name>labelTextChanged</name>
-      <anchorfile>classSlider.html</anchorfile>
-      <anchor>a542c4b33b36543dbf3d5c0ef6e5db0f6</anchor>
-      <arglist>(Label *)</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
       <name>paint</name>
       <anchorfile>classSlider.html</anchorfile>
-      <anchor>afc7b8c9ad851a142518c7b9a30414a49</anchor>
-      <arglist>(Graphics &amp;g)</arglist>
+      <anchor>a0d99114ab8dac759d06583726076f933</anchor>
+      <arglist>(Graphics &amp;)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
@@ -53534,50 +53848,43 @@
       <type>void</type>
       <name>mouseDown</name>
       <anchorfile>classSlider.html</anchorfile>
-      <anchor>a0367621ec730939018d0859921492157</anchor>
-      <arglist>(const MouseEvent &amp;e)</arglist>
+      <anchor>acf9834207bfa5ad4caf2d96bc37a3396</anchor>
+      <arglist>(const MouseEvent &amp;)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>mouseUp</name>
       <anchorfile>classSlider.html</anchorfile>
-      <anchor>a6f197704becde19ece3016030c556df6</anchor>
-      <arglist>(const MouseEvent &amp;e)</arglist>
+      <anchor>ac2b461a37e087d6e04ee0dcdf886ab0a</anchor>
+      <arglist>(const MouseEvent &amp;)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>mouseDrag</name>
       <anchorfile>classSlider.html</anchorfile>
-      <anchor>a08342669f07e585d17b8698ece946578</anchor>
-      <arglist>(const MouseEvent &amp;e)</arglist>
+      <anchor>ad39e4dbc45c746e8337784d650494263</anchor>
+      <arglist>(const MouseEvent &amp;)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>mouseDoubleClick</name>
       <anchorfile>classSlider.html</anchorfile>
-      <anchor>a79d43b25af9e3228dae0a652d3938901</anchor>
-      <arglist>(const MouseEvent &amp;e)</arglist>
+      <anchor>a57a74559c84517cb52d1dba45465ab27</anchor>
+      <arglist>(const MouseEvent &amp;)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>mouseWheelMove</name>
       <anchorfile>classSlider.html</anchorfile>
-      <anchor>ae0b72917ff9901138333e2696516d2b2</anchor>
-      <arglist>(const MouseEvent &amp;e, float wheelIncrementX, float wheelIncrementY)</arglist>
+      <anchor>a582340c5f5cfbab87b7a4090bf806b6d</anchor>
+      <arglist>(const MouseEvent &amp;, float wheelIncrementX, float wheelIncrementY)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>modifierKeysChanged</name>
       <anchorfile>classSlider.html</anchorfile>
-      <anchor>a6e19016a2cfada86e87863bb6f13a789</anchor>
-      <arglist>(const ModifierKeys &amp;modifiers)</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
-      <name>buttonClicked</name>
-      <anchorfile>classSlider.html</anchorfile>
-      <anchor>aa0cd35141f42413e9e629c24cf3ffca9</anchor>
-      <arglist>(Button *button)</arglist>
+      <anchor>a2e7c60b6e5ab7e160be293c6cff05b51</anchor>
+      <arglist>(const ModifierKeys &amp;)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
@@ -53597,15 +53904,8 @@
       <type>void</type>
       <name>focusOfChildComponentChanged</name>
       <anchorfile>classSlider.html</anchorfile>
-      <anchor>a21276bcb22f0cf37f142e87cdfa6efcf</anchor>
-      <arglist>(FocusChangeType cause)</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
-      <name>handleAsyncUpdate</name>
-      <anchorfile>classSlider.html</anchorfile>
-      <anchor>a67295d4567587b9ffb557df69d53888d</anchor>
-      <arglist>()</arglist>
+      <anchor>ab7bdb36d126d55d54bd7a80f83347666</anchor>
+      <arglist>(FocusChangeType)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
@@ -53613,13 +53913,6 @@
       <anchorfile>classSlider.html</anchorfile>
       <anchor>af9be12d2a11def84232f868bbcaa6d25</anchor>
       <arglist>()</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
-      <name>valueChanged</name>
-      <anchorfile>classSlider.html</anchorfile>
-      <anchor>a06ae697e6d5376071190fbabc3819dc0</anchor>
-      <arglist>(Value &amp;value)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>int</type>
@@ -56607,6 +56900,20 @@
       <name>getComputerName</name>
       <anchorfile>classSystemStats.html</anchorfile>
       <anchor>adac7b811d3c19571859a86087e720f67</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>getUserLanguage</name>
+      <anchorfile>classSystemStats.html</anchorfile>
+      <anchor>a6c845872735666a30a2a055d9b8607ec</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>getUserRegion</name>
+      <anchorfile>classSystemStats.html</anchorfile>
+      <anchor>a4ba9a4cd9c199ee1534d1edea8e786a7</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function" static="yes">
@@ -61948,6 +62255,13 @@
       <anchor>ab1996880b3e86b59828bf070902f47f9</anchor>
       <arglist>() const noexcept</arglist>
     </member>
+    <member kind="function">
+      <type>const String &amp;</type>
+      <name>getStyle</name>
+      <anchorfile>classTypeface.html</anchorfile>
+      <anchor>aca511c989e285e5a338f4f00d1d567ce</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
       <name>~Typeface</name>
@@ -62029,8 +62343,8 @@
       <type></type>
       <name>Typeface</name>
       <anchorfile>classTypeface.html</anchorfile>
-      <anchor>a60d9e1f01324ceacaaf69c6e97920603</anchor>
-      <arglist>(const String &amp;name) noexcept</arglist>
+      <anchor>aeff4239f1343ce0f80fb30c6bd52ed07</anchor>
+      <arglist>(const String &amp;name, const String &amp;style) noexcept</arglist>
     </member>
     <member kind="function" protection="protected" static="yes">
       <type>static Ptr</type>
@@ -62044,6 +62358,13 @@
       <name>name</name>
       <anchorfile>classTypeface.html</anchorfile>
       <anchor>adf2787d392df086aa81c1a831d1ca3f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>String</type>
+      <name>style</name>
+      <anchorfile>classTypeface.html</anchorfile>
+      <anchor>a4169174330e29936cda2170a51a36df8</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -65401,8 +65722,8 @@
       <type>bool</type>
       <name>writeToStream</name>
       <anchorfile>classZipFile_1_1Builder.html</anchorfile>
-      <anchor>a2e72eae3c96745ab88ed8973131194c2</anchor>
-      <arglist>(OutputStream &amp;target) const </arglist>
+      <anchor>a006051857dded0b5df8844c7f09f94d4</anchor>
+      <arglist>(OutputStream &amp;target, double *progress) const </arglist>
     </member>
   </compound>
   <compound kind="struct">

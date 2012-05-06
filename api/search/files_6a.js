@@ -47,6 +47,7 @@ var searchData=
   ['juce_5faudiosourceplayer_2eh',['juce_AudioSourcePlayer.h',['../juce__AudioSourcePlayer_8h.html',1,'']]],
   ['juce_5faudiosubsectionreader_2eh',['juce_AudioSubsectionReader.h',['../juce__AudioSubsectionReader_8h.html',1,'']]],
   ['juce_5faudiothumbnail_2eh',['juce_AudioThumbnail.h',['../juce__AudioThumbnail_8h.html',1,'']]],
+  ['juce_5faudiothumbnailbase_2eh',['juce_AudioThumbnailBase.h',['../juce__AudioThumbnailBase_8h.html',1,'']]],
   ['juce_5faudiothumbnailcache_2eh',['juce_AudioThumbnailCache.h',['../juce__AudioThumbnailCache_8h.html',1,'']]],
   ['juce_5faudiotransportsource_2eh',['juce_AudioTransportSource.h',['../juce__AudioTransportSource_8h.html',1,'']]],
   ['juce_5faudiounitpluginformat_2eh',['juce_AudioUnitPluginFormat.h',['../juce__AudioUnitPluginFormat_8h.html',1,'']]],

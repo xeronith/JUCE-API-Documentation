@@ -138,14 +138,14 @@ Public Types</h2></td></tr>
 <tr class="memdesc:a3e19cafabb03c5838160263a6e76313d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A set of types of location that can be passed to the <a class="el" href="classFile.html#a2a4396bc0e6f8b0430f6f54d029899e5" title="Finds the location of a special type of file or directory, such as a home folder or documents folder...">getSpecialLocation()</a> method.  <a href="classFile.html#a3e19cafabb03c5838160263a6e76313d">More...</a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae039af5807fc385f41b60644725d15d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#ae039af5807fc385f41b60644725d15d0">File</a> ()</td></tr>
-<tr class="memdesc:ae039af5807fc385f41b60644725d15d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an (invalid) file object.  <a href="#ae039af5807fc385f41b60644725d15d0"></a><br/></td></tr>
+<tr class="memitem:a51dc22c62ddf2fbeef8335300fc8e56a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a51dc22c62ddf2fbeef8335300fc8e56a">File</a> () noexcept</td></tr>
+<tr class="memdesc:a51dc22c62ddf2fbeef8335300fc8e56a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an (invalid) file object.  <a href="#a51dc22c62ddf2fbeef8335300fc8e56a"></a><br/></td></tr>
 <tr class="memitem:ae48b8a5611a11bf2d6e7c23551452421"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#ae48b8a5611a11bf2d6e7c23551452421">File</a> (const <a class="el" href="classString.html">String</a> &amp;path)</td></tr>
 <tr class="memdesc:ae48b8a5611a11bf2d6e7c23551452421"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a file from an absolute path.  <a href="#ae48b8a5611a11bf2d6e7c23551452421"></a><br/></td></tr>
 <tr class="memitem:ad1fbab59d996b3b3840986307eceb3ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#ad1fbab59d996b3b3840986307eceb3ee">File</a> (const <a class="el" href="classFile.html">File</a> &amp;other)</td></tr>
 <tr class="memdesc:ad1fbab59d996b3b3840986307eceb3ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a copy of another file object.  <a href="#ad1fbab59d996b3b3840986307eceb3ee"></a><br/></td></tr>
-<tr class="memitem:ac704ebdf5f57d7a1c5ddf409d797fb69"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#ac704ebdf5f57d7a1c5ddf409d797fb69">~File</a> ()</td></tr>
-<tr class="memdesc:ac704ebdf5f57d7a1c5ddf409d797fb69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ac704ebdf5f57d7a1c5ddf409d797fb69"></a><br/></td></tr>
+<tr class="memitem:a5222c06f8d809438b51a7bd528760aaa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a5222c06f8d809438b51a7bd528760aaa">~File</a> () noexcept</td></tr>
+<tr class="memdesc:a5222c06f8d809438b51a7bd528760aaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a5222c06f8d809438b51a7bd528760aaa"></a><br/></td></tr>
 <tr class="memitem:a117457fe9f7ded6dd0e1453603b2b272"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFile.html">File</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a117457fe9f7ded6dd0e1453603b2b272">operator=</a> (const <a class="el" href="classString.html">String</a> &amp;newFilePath)</td></tr>
 <tr class="memdesc:a117457fe9f7ded6dd0e1453603b2b272"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the file based on an absolute pathname.  <a href="#a117457fe9f7ded6dd0e1453603b2b272"></a><br/></td></tr>
 <tr class="memitem:a64fde399af107b07eed297920172e836"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFile.html">File</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a64fde399af107b07eed297920172e836">operator=</a> (const <a class="el" href="classFile.html">File</a> &amp;otherFile)</td></tr>
@@ -306,8 +306,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a35111cb43b1e49c523b67c65a337764c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether filenames are case-sensitive on the current operating system.  <a href="#a35111cb43b1e49c523b67c65a337764c"></a><br/></td></tr>
 <tr class="memitem:a9674737530eec6eeeba74576231aa815"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a9674737530eec6eeeba74576231aa815">isAbsolutePath</a> (const <a class="el" href="classString.html">String</a> &amp;path)</td></tr>
 <tr class="memdesc:a9674737530eec6eeeba74576231aa815"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the string seems to be a fully-specified absolute path.  <a href="#a9674737530eec6eeeba74576231aa815"></a><br/></td></tr>
-<tr class="memitem:a7a0fc1d6dd3c4c3aeffa3d47bb3c8af2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a7a0fc1d6dd3c4c3aeffa3d47bb3c8af2">createFileWithoutCheckingPath</a> (const <a class="el" href="classString.html">String</a> &amp;path)</td></tr>
-<tr class="memdesc:a7a0fc1d6dd3c4c3aeffa3d47bb3c8af2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a file that simply contains this string, without doing the sanity-checking that the normal constructors do.  <a href="#a7a0fc1d6dd3c4c3aeffa3d47bb3c8af2"></a><br/></td></tr>
+<tr class="memitem:a064195d0f75aebeb20eb070e10da72af"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a064195d0f75aebeb20eb070e10da72af">createFileWithoutCheckingPath</a> (const <a class="el" href="classString.html">String</a> &amp;path) noexcept</td></tr>
+<tr class="memdesc:a064195d0f75aebeb20eb070e10da72af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a file that simply contains this string, without doing the sanity-checking that the normal constructors do.  <a href="#a064195d0f75aebeb20eb070e10da72af"></a><br/></td></tr>
 <tr class="memitem:a7093f18070f9aec99e3bfd2857761514"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a7093f18070f9aec99e3bfd2857761514">addTrailingSeparator</a> (const <a class="el" href="classString.html">String</a> &amp;path)</td></tr>
 <tr class="memdesc:a7093f18070f9aec99e3bfd2857761514"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a separator character to the end of a path if it doesn't already have one.  <a href="#a7093f18070f9aec99e3bfd2857761514"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-attribs"></a>
@@ -428,12 +428,12 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ae039af5807fc385f41b60644725d15d0"></a>
+<a class="anchor" id="a51dc22c62ddf2fbeef8335300fc8e56a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classFile.html#ae039af5807fc385f41b60644725d15d0">File::File</a> </td>
+          <td class="memname"><a class="el" href="classFile.html#a51dc22c62ddf2fbeef8335300fc8e56a">File::File</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -453,7 +453,7 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classFile.html#ae039af5807fc385f41b60644725d15d0">File::File</a> </td>
+          <td class="memname"><a class="el" href="classFile.html#a51dc22c62ddf2fbeef8335300fc8e56a">File::File</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
@@ -474,7 +474,7 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classFile.html#ae039af5807fc385f41b60644725d15d0">File::File</a> </td>
+          <td class="memname"><a class="el" href="classFile.html#a51dc22c62ddf2fbeef8335300fc8e56a">File::File</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classFile.html">File</a> &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
@@ -488,12 +488,12 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac704ebdf5f57d7a1c5ddf409d797fb69"></a>
+<a class="anchor" id="a5222c06f8d809438b51a7bd528760aaa"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classFile.html#ac704ebdf5f57d7a1c5ddf409d797fb69">File::~File</a> </td>
+          <td class="memname"><a class="el" href="classFile.html#a5222c06f8d809438b51a7bd528760aaa">File::~File</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -2264,12 +2264,12 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7a0fc1d6dd3c4c3aeffa3d47bb3c8af2"></a>
+<a class="anchor" id="a064195d0f75aebeb20eb070e10da72af"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classFile.html">File</a> <a class="el" href="classFile.html#a7a0fc1d6dd3c4c3aeffa3d47bb3c8af2">File::createFileWithoutCheckingPath</a> </td>
+          <td class="memname">static <a class="el" href="classFile.html">File</a> <a class="el" href="classFile.html#a064195d0f75aebeb20eb070e10da72af">File::createFileWithoutCheckingPath</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>

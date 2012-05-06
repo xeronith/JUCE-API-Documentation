@@ -103,7 +103,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Makes it easy to quickly draw scaled views of the waveform shape of an audio file.  
  <a href="classAudioThumbnail.html#details">More...</a></p>
 
-<p>Inherits <a class="el" href="classChangeBroadcaster.html">ChangeBroadcaster</a>, and <a class="el" href="classAudioFormatWriter_1_1ThreadedWriter_1_1IncomingDataReceiver.html">AudioFormatWriter::ThreadedWriter::IncomingDataReceiver</a>.</p>
+<p>Inherits <a class="el" href="classAudioThumbnailBase.html">AudioThumbnailBase</a>.</p>
 
 <p><a href="classAudioThumbnail-members.html">List of all members.</a></p>
 <table class="memberdecls">
@@ -151,7 +151,7 @@ Public Member Functions</h2></td></tr>
 <p>To use this class, just create an AudioThumbNail class for the file you want to draw, call setSource to tell it which file or resource to use, then call <a class="el" href="classAudioThumbnail.html#ac461e6c816b5261ed3b519a9355220b5" title="Draws the waveform for a channel.">drawChannel()</a> to draw it.</p>
 <p>The class will asynchronously scan the wavefile to create its scaled-down view, so you should make your UI repaint itself as this data comes in. To do this, the <a class="el" href="classAudioThumbnail.html" title="Makes it easy to quickly draw scaled views of the waveform shape of an audio file.">AudioThumbnail</a> is a <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed.">ChangeBroadcaster</a>, and will broadcast a message when its listeners should repaint themselves.</p>
 <p>The thumbnail stores an internal low-res version of the wave data, and this can be loaded and saved to avoid having to scan the file again.</p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classAudioThumbnailCache.html" title="An instance of this class is used to manage multiple AudioThumbnail objects.">AudioThumbnailCache</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classAudioThumbnailCache.html" title="An instance of this class is used to manage multiple AudioThumbnail objects.">AudioThumbnailCache</a>, <a class="el" href="classAudioThumbnailBase.html" title="Provides a base for classes that can store and draw scaled views of an audio waveform.">AudioThumbnailBase</a> </dd></dl>
 </div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="abfa7516538eb0518cddeec4c71cf329d"></a>
 <div class="memitem">
@@ -223,13 +223,15 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void <a class="el" href="classAudioThumbnail.html#ac7bd10908fcaa78a9983e3946e711d3c">AudioThumbnail::clear</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td><code> [virtual]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
 <p>Clears and resets the thumbnail. </p>
+
+<p>Implements <a class="el" href="classAudioThumbnailBase.html#a53a5be624c9de79a672777d3697cfd48">AudioThumbnailBase</a>.</p>
 
 </div>
 </div>
@@ -242,7 +244,7 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classInputSource.html">InputSource</a> *&#160;</td>
           <td class="paramname"><em>newSource</em></td><td>)</td>
-          <td></td>
+          <td><code> [virtual]</code></td>
         </tr>
       </table>
 </div>
@@ -253,6 +255,8 @@ Public Member Functions</h2></td></tr>
 <div class="fragment"><pre class="fragment">        <a class="code" href="classAudioThumbnail.html#ae64db3922a07a85201dfac0c65725957" title="Specifies the file or stream that contains the audio file.">setSource</a> (<span class="keyword">new</span> <a class="code" href="classFileInputSource.html" title="A type of InputSource that represents a normal file.">FileInputSource</a> (file))
 </pre></div><p>You can pass a zero in here to clear the thumbnail. The source that is passed in will be deleted by this object when it is no longer needed. </p>
 <dl class="section return"><dt>Returns:</dt><dd>true if the source could be opened as a valid audio file, false if this failed for some reason. </dd></dl>
+
+<p>Implements <a class="el" href="classAudioThumbnailBase.html#a8fd77ac3757e9eca141ab1cbc4e7d269">AudioThumbnailBase</a>.</p>
 
 </div>
 </div>
@@ -275,7 +279,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td><code> [virtual]</code></td>
         </tr>
       </table>
 </div>
@@ -283,6 +287,8 @@ Public Member Functions</h2></td></tr>
 
 <p>Gives the thumbnail an <a class="el" href="classAudioFormatReader.html" title="Reads samples from an audio file stream.">AudioFormatReader</a> to use directly. </p>
 <p>This will start parsing the audio in a background thread (unless the hash code can be looked-up successfully in the thumbnail cache). Note that the reader object will be held by the thumbnail and deleted later when no longer needed. The thumbnail will actually keep hold of this reader until you clear the thumbnail or change the input source, so the file will be held open for all this time. If you don't want the thumbnail to keep a file handle open continuously, you should use the <a class="el" href="classAudioThumbnail.html#ae64db3922a07a85201dfac0c65725957" title="Specifies the file or stream that contains the audio file.">setSource()</a> method instead, which will only open the file when it needs to. </p>
+
+<p>Implements <a class="el" href="classAudioThumbnailBase.html#ad6960274ea876808fd2e6df6f0761e9c">AudioThumbnailBase</a>.</p>
 
 </div>
 </div>
@@ -377,7 +383,7 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classInputStream.html">InputStream</a> &amp;&#160;</td>
           <td class="paramname"><em>input</em></td><td>)</td>
-          <td></td>
+          <td><code> [virtual]</code></td>
         </tr>
       </table>
 </div>
@@ -386,6 +392,8 @@ Public Member Functions</h2></td></tr>
 <p>Reloads the low res thumbnail data from an input stream. </p>
 <p>This is not an audio file stream! It takes a stream of thumbnail data that would previously have been created by the <a class="el" href="classAudioThumbnail.html#adeb15dd8aa79320eccc122ed07488e9b" title="Saves the low res thumbnail data to an output stream.">saveTo()</a> method. </p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classAudioThumbnail.html#adeb15dd8aa79320eccc122ed07488e9b" title="Saves the low res thumbnail data to an output stream.">saveTo</a> </dd></dl>
+
+<p>Implements <a class="el" href="classAudioThumbnailBase.html#a270f1fe9c27fda1953c9e1ea30fd9486">AudioThumbnailBase</a>.</p>
 
 </div>
 </div>
@@ -398,7 +406,7 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classOutputStream.html">OutputStream</a> &amp;&#160;</td>
           <td class="paramname"><em>output</em></td><td>)</td>
-          <td> const</td>
+          <td> const<code> [virtual]</code></td>
         </tr>
       </table>
 </div>
@@ -407,6 +415,8 @@ Public Member Functions</h2></td></tr>
 <p>Saves the low res thumbnail data to an output stream. </p>
 <p>The data that is written can later be reloaded using <a class="el" href="classAudioThumbnail.html#a59680950d18da52b3342f65cd44d9ecd" title="Reloads the low res thumbnail data from an input stream.">loadFrom()</a>. </p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classAudioThumbnail.html#a59680950d18da52b3342f65cd44d9ecd" title="Reloads the low res thumbnail data from an input stream.">loadFrom</a> </dd></dl>
+
+<p>Implements <a class="el" href="classAudioThumbnailBase.html#a9cb4b72aa47359c671f89fc25eae0a72">AudioThumbnailBase</a>.</p>
 
 </div>
 </div>
@@ -418,13 +428,15 @@ Public Member Functions</h2></td></tr>
           <td class="memname">int <a class="el" href="classAudioThumbnail.html#a284472a69afc960e970ad75b2e3cfa08">AudioThumbnail::getNumChannels</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td> const<code> [virtual]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
 <p>Returns the number of channels in the file. </p>
+
+<p>Implements <a class="el" href="classAudioThumbnailBase.html#a6677b1ec042a69aa14ceec756d292671">AudioThumbnailBase</a>.</p>
 
 </div>
 </div>
@@ -436,13 +448,15 @@ Public Member Functions</h2></td></tr>
           <td class="memname">double <a class="el" href="classAudioThumbnail.html#aba82b9821fecfbb7efc88172f9c5a0c3">AudioThumbnail::getTotalLength</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td> const<code> [virtual]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
 <p>Returns the length of the audio file, in seconds. </p>
+
+<p>Implements <a class="el" href="classAudioThumbnailBase.html#aa668e0939708049e4ee3b203860037c9">AudioThumbnailBase</a>.</p>
 
 </div>
 </div>
@@ -489,7 +503,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td><code> [virtual]</code></td>
         </tr>
       </table>
 </div>
@@ -498,6 +512,8 @@ Public Member Functions</h2></td></tr>
 <p>Draws the waveform for a channel. </p>
 <p>The waveform will be drawn within the specified rectangle, where startTime and endTime specify the times within the audio file that should be positioned at the left and right edges of the rectangle.</p>
 <p>The waveform will be scaled vertically so that a full-volume sample will fill the rectangle vertically, but you can also specify an extra vertical scale factor with the verticalZoomFactor parameter. </p>
+
+<p>Implements <a class="el" href="classAudioThumbnailBase.html#ab7e4df6d6c5e96943f3f6ca184235a57">AudioThumbnailBase</a>.</p>
 
 </div>
 </div>
@@ -538,7 +554,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td><code> [virtual]</code></td>
         </tr>
       </table>
 </div>
@@ -547,6 +563,8 @@ Public Member Functions</h2></td></tr>
 <p>Draws the waveforms for all channels in the thumbnail. </p>
 <p>This will call <a class="el" href="classAudioThumbnail.html#ac461e6c816b5261ed3b519a9355220b5" title="Draws the waveform for a channel.">drawChannel()</a> to render each of the thumbnail's channels, stacked above each other within the specified area.</p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classAudioThumbnail.html#ac461e6c816b5261ed3b519a9355220b5" title="Draws the waveform for a channel.">drawChannel</a> </dd></dl>
+
+<p>Implements <a class="el" href="classAudioThumbnailBase.html#a7779a08868bbb6581acb904f200c7877">AudioThumbnailBase</a>.</p>
 
 </div>
 </div>
@@ -558,13 +576,15 @@ Public Member Functions</h2></td></tr>
           <td class="memname">bool <a class="el" href="classAudioThumbnail.html#a79cf1d2730f78d59307c3aadba1ab047">AudioThumbnail::isFullyLoaded</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td> const<code> [virtual]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
 <p>Returns true if the low res preview is fully generated. </p>
+
+<p>Implements <a class="el" href="classAudioThumbnailBase.html#aacffa9ccff66765ea16fad7aca98323e">AudioThumbnailBase</a>.</p>
 
 </div>
 </div>
@@ -576,13 +596,15 @@ Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> <a class="el" href="classAudioThumbnail.html#a09e6d388d7aee2e403a8aec5a1077a43">AudioThumbnail::getNumSamplesFinished</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td> const<code> [virtual]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
 <p>Returns the number of samples that have been set in the thumbnail. </p>
+
+<p>Implements <a class="el" href="classAudioThumbnailBase.html#ad04c3c2c5a003df0296faab4f017081f">AudioThumbnailBase</a>.</p>
 
 </div>
 </div>
@@ -594,7 +616,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">float <a class="el" href="classAudioThumbnail.html#a0381d43718a754be2546d9a7dfcaac32">AudioThumbnail::getApproximatePeak</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td> const<code> [virtual]</code></td>
         </tr>
       </table>
 </div>
@@ -602,6 +624,8 @@ Public Member Functions</h2></td></tr>
 
 <p>Returns the highest level in the thumbnail. </p>
 <p>Note that because the thumb only stores low-resolution data, this isn't an accurate representation of the highest value, it's only a rough approximation. </p>
+
+<p>Implements <a class="el" href="classAudioThumbnailBase.html#a8efca4beb3d0f32b65be53be933a8e81">AudioThumbnailBase</a>.</p>
 
 </div>
 </div>
@@ -642,7 +666,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> const</td>
+          <td></td><td> const<code> [virtual]</code></td>
         </tr>
       </table>
 </div>
@@ -650,6 +674,8 @@ Public Member Functions</h2></td></tr>
 
 <p>Reads the approximate min and max levels from a section of the thumbnail. </p>
 <p>The lowest and highest samples are returned in minValue and maxValue, but obviously because the thumb only stores low-resolution data, these numbers will only be a rough approximation of the true values. </p>
+
+<p>Implements <a class="el" href="classAudioThumbnailBase.html#ab3abc860ff8e4fda8234b54cbec3d137">AudioThumbnailBase</a>.</p>
 
 </div>
 </div>
@@ -661,13 +687,15 @@ Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> <a class="el" href="classAudioThumbnail.html#af2f69ffd83e1591fa026ac6dc6caa5e7">AudioThumbnail::getHashCode</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td> const<code> [virtual]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
 <p>Returns the hash code that was set by <a class="el" href="classAudioThumbnail.html#ae64db3922a07a85201dfac0c65725957" title="Specifies the file or stream that contains the audio file.">setSource()</a> or <a class="el" href="classAudioThumbnail.html#a1ddcdc952b6f5a8d488511541effc258" title="Gives the thumbnail an AudioFormatReader to use directly.">setReader()</a>. </p>
+
+<p>Implements <a class="el" href="classAudioThumbnailBase.html#a9a16ffaf872861903fdf2e97fcfe958f">AudioThumbnailBase</a>.</p>
 
 </div>
 </div>

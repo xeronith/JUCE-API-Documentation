@@ -1,7 +1,7 @@
 var searchData=
 [
   ['label',['Label',['../classLabel.html#aab39f7d5f34a8b407e21ba812434d2da',1,'Label']]],
-  ['labeltextchanged',['labelTextChanged',['../classComboBox.html#a35f467619dc12110c32fb90f3e7b76ab',1,'ComboBox::labelTextChanged()'],['../classLabel_1_1Listener.html#ad2a3e79ba106bfa64cab523e197b1514',1,'Label::Listener::labelTextChanged()'],['../classSlider.html#a542c4b33b36543dbf3d5c0ef6e5db0f6',1,'Slider::labelTextChanged()']]],
+  ['labeltextchanged',['labelTextChanged',['../classComboBox.html#a35f467619dc12110c32fb90f3e7b76ab',1,'ComboBox::labelTextChanged()'],['../classLabel_1_1Listener.html#ad2a3e79ba106bfa64cab523e197b1514',1,'Label::Listener::labelTextChanged()']]],
   ['lassocomponent',['LassoComponent',['../classLassoComponent.html#a16d6156cf00545c4645f09a13757ef0c',1,'LassoComponent']]],
   ['lastindexof',['lastIndexOf',['../classString.html#a041996f899e9ed8e0ef3d06a85bfc784',1,'String']]],
   ['lastindexofanyof',['lastIndexOfAnyOf',['../classString.html#a30142dae7b2f2b22c6f43e323a669ba2',1,'String']]],
@@ -39,7 +39,7 @@ var searchData=
   ['loaddrawablefromdata',['loadDrawableFromData',['../classLookAndFeel.html#ac1a42e3c43a627166232deb268dcd81b',1,'LookAndFeel']]],
   ['loadfileasdata',['loadFileAsData',['../classFile.html#a0fa017212282bc314ec2eab9dce135d0',1,'File']]],
   ['loadfileasstring',['loadFileAsString',['../classFile.html#aac8775e3a91375fe12ebe068194a2812',1,'File']]],
-  ['loadfrom',['loadFrom',['../classAudioThumbnail.html#a59680950d18da52b3342f65cd44d9ecd',1,'AudioThumbnail::loadFrom()'],['../classImageFileFormat.html#a1ce6ae82e06b40e9149d1ab73951ce1c',1,'ImageFileFormat::loadFrom(InputStream &amp;input)'],['../classImageFileFormat.html#a9e32b679760095924f3240372f2648b6',1,'ImageFileFormat::loadFrom(const File &amp;file)'],['../classImageFileFormat.html#a5a0d38a154faccbc0bbe245dadede62c',1,'ImageFileFormat::loadFrom(const void *rawData, size_t numBytesOfData)'],['../classFileBasedDocument.html#a306a20730d9affcc1cf744d8cfaacb27',1,'FileBasedDocument::loadFrom()']]],
+  ['loadfrom',['loadFrom',['../classAudioThumbnail.html#a59680950d18da52b3342f65cd44d9ecd',1,'AudioThumbnail::loadFrom()'],['../classAudioThumbnailBase.html#a270f1fe9c27fda1953c9e1ea30fd9486',1,'AudioThumbnailBase::loadFrom()'],['../classImageFileFormat.html#a1ce6ae82e06b40e9149d1ab73951ce1c',1,'ImageFileFormat::loadFrom(InputStream &amp;input)'],['../classImageFileFormat.html#a9e32b679760095924f3240372f2648b6',1,'ImageFileFormat::loadFrom(const File &amp;file)'],['../classImageFileFormat.html#a5a0d38a154faccbc0bbe245dadede62c',1,'ImageFileFormat::loadFrom(const void *rawData, size_t numBytesOfData)'],['../classFileBasedDocument.html#a306a20730d9affcc1cf744d8cfaacb27',1,'FileBasedDocument::loadFrom()']]],
   ['loadfromhexstring',['loadFromHexString',['../classMemoryBlock.html#a9e3a187895669b56e43f94a6811d39b9',1,'MemoryBlock']]],
   ['loadfrommemoryblock',['loadFromMemoryBlock',['../classBigInteger.html#af1ad0e8dcaaa34c7d14d01dca224a668',1,'BigInteger']]],
   ['loadfromstream',['loadFromStream',['../classCodeDocument.html#a666ae3cea6e96721b22176624bfa3881',1,'CodeDocument']]],
@@ -51,7 +51,7 @@ var searchData=
   ['loadpathfromdata',['loadPathFromData',['../classPath.html#a1f89b06ebcaac3150d8e6a1483ce1e28',1,'Path']]],
   ['loadpathfromstream',['loadPathFromStream',['../classPath.html#a00e0e38020c035feb29e498a0ab93433',1,'Path']]],
   ['loadstate',['loadState',['../classStandaloneFilterWindow.html#a8c425537a6d18a08cf81a9478c2335aa',1,'StandaloneFilterWindow']]],
-  ['loadthumb',['loadThumb',['../classAudioThumbnailCache.html#a9a677aae9adc64dc8b834e4e14e847d2',1,'AudioThumbnailCache']]],
+  ['loadthumb',['loadThumb',['../classAudioThumbnailCache.html#a0c02c3ed2e7868c20e9d77c16915d818',1,'AudioThumbnailCache']]],
   ['localareatoglobal',['localAreaToGlobal',['../classComponent.html#a9ad906ec22da2091eed7b65b21dc4ee9',1,'Component']]],
   ['localisedstrings',['LocalisedStrings',['../classLocalisedStrings.html#a12f939ad4557caada5822e7bb9025318',1,'LocalisedStrings::LocalisedStrings(const String &amp;fileContents)'],['../classLocalisedStrings.html#a11442a8ad64719a7f8cff9142fffb877',1,'LocalisedStrings::LocalisedStrings(const File &amp;fileToLoad)']]],
   ['localpointtoglobal',['localPointToGlobal',['../classComponent.html#a08a271abbc7c2cfb3c66a1cab1a715eb',1,'Component']]],

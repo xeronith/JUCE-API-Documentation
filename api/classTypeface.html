@@ -123,7 +123,9 @@ Public Types</h2></td></tr>
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab1996880b3e86b59828bf070902f47f9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#ab1996880b3e86b59828bf070902f47f9">getName</a> () const noexcept</td></tr>
-<tr class="memdesc:ab1996880b3e86b59828bf070902f47f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of the typeface.  <a href="#ab1996880b3e86b59828bf070902f47f9"></a><br/></td></tr>
+<tr class="memdesc:ab1996880b3e86b59828bf070902f47f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the font family of the typeface.  <a href="#ab1996880b3e86b59828bf070902f47f9"></a><br/></td></tr>
+<tr class="memitem:aca511c989e285e5a338f4f00d1d567ce"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#aca511c989e285e5a338f4f00d1d567ce">getStyle</a> () const noexcept</td></tr>
+<tr class="memdesc:aca511c989e285e5a338f4f00d1d567ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the font style of the typeface.  <a href="#aca511c989e285e5a338f4f00d1d567ce"></a><br/></td></tr>
 <tr class="memitem:ae3f6929dec75f834504478b6ab33dcbd"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#ae3f6929dec75f834504478b6ab33dcbd">~Typeface</a> ()</td></tr>
 <tr class="memdesc:ae3f6929dec75f834504478b6ab33dcbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ae3f6929dec75f834504478b6ab33dcbd"></a><br/></td></tr>
 <tr class="memitem:abb54f4e30a1e6ac3a1106c3fc20ce01b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#abb54f4e30a1e6ac3a1106c3fc20ce01b">isSuitableForFont</a> (const <a class="el" href="classFont.html">Font</a> &amp;) const </td></tr>
@@ -150,13 +152,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a873c4f902b5fbfa920a4ecd3dff7ee44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the number of fonts that are cached in memory.  <a href="#a873c4f902b5fbfa920a4ecd3dff7ee44"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a60d9e1f01324ceacaaf69c6e97920603"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#a60d9e1f01324ceacaaf69c6e97920603">Typeface</a> (const <a class="el" href="classString.html">String</a> &amp;<a class="el" href="classTypeface.html#adf2787d392df086aa81c1a831d1ca3f0">name</a>) noexcept</td></tr>
+<tr class="memitem:aeff4239f1343ce0f80fb30c6bd52ed07"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#aeff4239f1343ce0f80fb30c6bd52ed07">Typeface</a> (const <a class="el" href="classString.html">String</a> &amp;<a class="el" href="classTypeface.html#adf2787d392df086aa81c1a831d1ca3f0">name</a>, const <a class="el" href="classString.html">String</a> &amp;<a class="el" href="classTypeface.html#a4169174330e29936cda2170a51a36df8">style</a>) noexcept</td></tr>
 <tr><td colspan="2"><h2><a name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:a867faec01233e12690a6135a6ff08feb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classTypeface.html#a13053be679c87b7a72963e9ce60e34c9">Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#a867faec01233e12690a6135a6ff08feb">getFallbackTypeface</a> ()</td></tr>
 <tr><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:adf2787d392df086aa81c1a831d1ca3f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#adf2787d392df086aa81c1a831d1ca3f0">name</a></td></tr>
+<tr class="memitem:a4169174330e29936cda2170a51a36df8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#a4169174330e29936cda2170a51a36df8">style</a></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A typeface represents a size-independent font. </p>
@@ -199,16 +202,26 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a60d9e1f01324ceacaaf69c6e97920603"></a>
+<a class="anchor" id="aeff4239f1343ce0f80fb30c6bd52ed07"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classTypeface.html#a60d9e1f01324ceacaaf69c6e97920603">Typeface::Typeface</a> </td>
+          <td class="memname"><a class="el" href="classTypeface.html#aeff4239f1343ce0f80fb30c6bd52ed07">Typeface::Typeface</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td><code> [explicit, protected]</code></td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>style</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [protected]</code></td>
         </tr>
       </table>
 </div>
@@ -231,8 +244,27 @@ Protected Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Returns the name of the typeface. </p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classFont.html#a66d068f203550181d57353649f8f694f" title="Returns the name of the typeface family that this font uses.">Font::getTypefaceName</a> </dd></dl>
+<p>Returns the font family of the typeface. </p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classFont.html#a66d068f203550181d57353649f8f694f" title="Returns the font family of the typeface that this font uses.">Font::getTypefaceName</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aca511c989e285e5a338f4f00d1d567ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classString.html">String</a>&amp; <a class="el" href="classTypeface.html#aca511c989e285e5a338f4f00d1d567ce">Typeface::getStyle</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns the font style of the typeface. </p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classFont.html#a5c7bb70dc22a35c23ebc4b685b679556" title="Returns the font style of the typeface that this font uses.">Font::getTypefaceStyle</a> </dd></dl>
 
 </div>
 </div>
@@ -502,6 +534,19 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classString.html">String</a> <a class="el" href="classTypeface.html#adf2787d392df086aa81c1a831d1ca3f0">Typeface::name</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4169174330e29936cda2170a51a36df8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classString.html">String</a> <a class="el" href="classTypeface.html#a4169174330e29936cda2170a51a36df8">Typeface::style</a><code> [protected]</code></td>
         </tr>
       </table>
 </div>
