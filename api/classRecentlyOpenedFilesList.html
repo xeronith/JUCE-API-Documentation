@@ -94,7 +94,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">RecentlyOpenedFilesList Class Reference</div>  </div>
 </div><!--header-->
@@ -135,6 +136,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1415a5e0a07cdb3ff5186707546c8fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string that encapsulates all the files in the list.  <a href="#a1415a5e0a07cdb3ff5186707546c8fcf"></a><br/></td></tr>
 <tr class="memitem:ac1c8310d4a13cba8c0b7168b980e7e09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRecentlyOpenedFilesList.html#ac1c8310d4a13cba8c0b7168b980e7e09">restoreFromString</a> (const <a class="el" href="classString.html">String</a> &amp;stringifiedVersion)</td></tr>
 <tr class="memdesc:ac1c8310d4a13cba8c0b7168b980e7e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restores the list from a previously stringified version of the list.  <a href="#ac1c8310d4a13cba8c0b7168b980e7e09"></a><br/></td></tr>
+<tr><td colspan="2"><h2><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a8e4455fedda03b94a62fadec4a643cec"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRecentlyOpenedFilesList.html#a8e4455fedda03b94a62fadec4a643cec">registerRecentFileNatively</a> (const <a class="el" href="classFile.html">File</a> &amp;file)</td></tr>
+<tr class="memdesc:a8e4455fedda03b94a62fadec4a643cec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the OS to add a file to the OS-managed list of recent documents for this app.  <a href="#a8e4455fedda03b94a62fadec4a643cec"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Manages a set of files for use as a list of recently-opened documents. </p>
@@ -349,6 +354,26 @@ Public Member Functions</h2></td></tr>
 
 <p>Checks each of the files in the list, removing any that don't exist. </p>
 <p>You might want to call this after reloading a list of files, or before putting them on a menu. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8e4455fedda03b94a62fadec4a643cec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="classRecentlyOpenedFilesList.html#a8e4455fedda03b94a62fadec4a643cec">RecentlyOpenedFilesList::registerRecentFileNatively</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classFile.html">File</a> &amp;&#160;</td>
+          <td class="paramname"><em>file</em></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Tells the OS to add a file to the OS-managed list of recent documents for this app. </p>
+<p>Not all OSes maintain a list of recent files for an application, so this function will have no effect on some OSes. Currently it's just implemented for OSX. </p>
 
 </div>
 </div>

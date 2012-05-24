@@ -266,7 +266,8 @@ Public Member Functions</h2></td></tr>
 <p>If you don't need a custom component for the specified row, then return nullptr. (Bear in mind that even if you're not creating a new component, you may still need to delete existingComponentToUpdate if it's non-null).</p>
 <p>If you do want a custom component, and the existingComponentToUpdate is null, then this method must create a suitable new component and return it.</p>
 <p>If the existingComponentToUpdate is non-null, it will be a pointer to a component previously created by this method. In this case, the method must either update it to make sure it's correctly representing the given row (which may be different from the one that the component was created for), or it can delete this component and return a new one.</p>
-<p>The component that your method returns will be deleted by the <a class="el" href="classListBox.html" title="A list of items that can be scrolled vertically.">ListBox</a> when it is no longer needed. </p>
+<p>The component that your method returns will be deleted by the <a class="el" href="classListBox.html" title="A list of items that can be scrolled vertically.">ListBox</a> when it is no longer needed.</p>
+<p>Bear in mind that if you put a custom component inside the row but still want the listbox to automatically handle clicking, selection, etc, then you'll need to make sure your custom component doesn't intercept all the mouse events that land on it, e.g by using <a class="el" href="classComponent.html#ac9fdcb595c1878201a641de2e1159aec" title="Changes the default return value for the hitTest() method.">Component::setInterceptsMouseClicks()</a>. </p>
 
 <p>Reimplemented in <a class="el" href="classTableListBox.html#afb3e0d4dd6244908e273bff1e60c6408">TableListBox</a>, and <a class="el" href="classFileListComponent.html#ac3e5d364c6f601baba103c41aaafa691">FileListComponent</a>.</p>
 

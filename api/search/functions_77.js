@@ -16,6 +16,7 @@ var searchData=
   ['webbrowsercomponent',['WebBrowserComponent',['../classWebBrowserComponent.html#ad408275ac5ae9ec1e2f71d73fb0105ef',1,'WebBrowserComponent']]],
   ['weeks',['weeks',['../classRelativeTime.html#a3716770d0d29edd5c8ed0b6aae0bc6e2',1,'RelativeTime']]],
   ['wildcardfilefilter',['WildcardFileFilter',['../classWildcardFileFilter.html#af1f0c501f518c2dd803e77661fb42b9d',1,'WildcardFileFilter']]],
+  ['willdeleteobject',['willDeleteObject',['../classOptionalScopedPointer.html#a0eb696aae75b039bc1309dc7125bda7a',1,'OptionalScopedPointer']]],
   ['withalpha',['withAlpha',['../classColour.html#a0cd650ce4ce07bd594f3abb0c3fec5e6',1,'Colour::withAlpha(uint8 newAlpha) const noexcept'],['../classColour.html#a9d38dac3c093152c0c465116e99f2f93',1,'Colour::withAlpha(float newAlpha) const noexcept']]],
   ['withbottom',['withBottom',['../classRectangle.html#a9a2caa80567a4aa6360d1e4e4b43211f',1,'Rectangle']]],
   ['withbrightness',['withBrightness',['../classColour.html#a3854dde3b298ff71d7c1a5b93393ca29',1,'Colour']]],

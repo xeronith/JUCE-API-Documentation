@@ -126,10 +126,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0b4940acabc597922895c33aba06aacd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a listener for callbacks when the menu items in this model change.  <a href="#a0b4940acabc597922895c33aba06aacd"></a><br/></td></tr>
 <tr class="memitem:a2a7813e9ab8db041f974f42bf8e9695d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMenuBarModel.html#a2a7813e9ab8db041f974f42bf8e9695d">removeListener</a> (<a class="el" href="classMenuBarModel_1_1Listener.html">Listener</a> *listenerToRemove) noexcept</td></tr>
 <tr class="memdesc:a2a7813e9ab8db041f974f42bf8e9695d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a listener.  <a href="#a2a7813e9ab8db041f974f42bf8e9695d"></a><br/></td></tr>
-<tr class="memitem:a520278b157858b1938387e965a95fc94"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMenuBarModel.html#a520278b157858b1938387e965a95fc94">getMenuBarNames</a> ()=0</td></tr>
-<tr class="memdesc:a520278b157858b1938387e965a95fc94"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method must return a list of the names of the menus.  <a href="#a520278b157858b1938387e965a95fc94"></a><br/></td></tr>
-<tr class="memitem:aa0fdff8c9a01ee0893fa40e9f1df3f6e"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classPopupMenu.html">PopupMenu</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMenuBarModel.html#aa0fdff8c9a01ee0893fa40e9f1df3f6e">getMenuForIndex</a> (int topLevelMenuIndex, const <a class="el" href="classString.html">String</a> &amp;menuName)=0</td></tr>
-<tr class="memdesc:aa0fdff8c9a01ee0893fa40e9f1df3f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should return the popup menu to display for a given top-level menu.  <a href="#aa0fdff8c9a01ee0893fa40e9f1df3f6e"></a><br/></td></tr>
+<tr class="memitem:a2a42b27dc2d8e42b21b130d72b8d10c4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMenuBarModel.html#a2a42b27dc2d8e42b21b130d72b8d10c4">getMenuBarNames</a> ()=0</td></tr>
+<tr class="memdesc:a2a42b27dc2d8e42b21b130d72b8d10c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method must return a list of the names of the menus.  <a href="#a2a42b27dc2d8e42b21b130d72b8d10c4"></a><br/></td></tr>
+<tr class="memitem:a500e3714cf915d27cd37bf13a79511f4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classPopupMenu.html">PopupMenu</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMenuBarModel.html#a500e3714cf915d27cd37bf13a79511f4">getMenuForIndex</a> (int topLevelMenuIndex, const <a class="el" href="classString.html">String</a> &amp;menuName)=0</td></tr>
+<tr class="memdesc:a500e3714cf915d27cd37bf13a79511f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should return the popup menu to display for a given top-level menu.  <a href="#a500e3714cf915d27cd37bf13a79511f4"></a><br/></td></tr>
 <tr class="memitem:aa64b5b9bb4ea4e7bcdc49924659936cc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMenuBarModel.html#aa64b5b9bb4ea4e7bcdc49924659936cc">menuItemSelected</a> (int menuItemID, int topLevelMenuIndex)=0</td></tr>
 <tr class="memdesc:aa64b5b9bb4ea4e7bcdc49924659936cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called when a menu item has been clicked on.  <a href="#aa64b5b9bb4ea4e7bcdc49924659936cc"></a><br/></td></tr>
 <tr class="memitem:a0fe4486db7cfc54e7188cbe41916ad19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMenuBarModel.html#a0fe4486db7cfc54e7188cbe41916ad19">applicationCommandInvoked</a> (const <a class="el" href="structApplicationCommandTarget_1_1InvocationInfo.html">ApplicationCommandTarget::InvocationInfo</a> &amp;info)</td></tr>
@@ -264,12 +264,12 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a520278b157858b1938387e965a95fc94"></a>
+<a class="anchor" id="a2a42b27dc2d8e42b21b130d72b8d10c4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const <a class="el" href="classStringArray.html">StringArray</a> <a class="el" href="classMenuBarModel.html#a520278b157858b1938387e965a95fc94">MenuBarModel::getMenuBarNames</a> </td>
+          <td class="memname">virtual <a class="el" href="classStringArray.html">StringArray</a> <a class="el" href="classMenuBarModel.html#a2a42b27dc2d8e42b21b130d72b8d10c4">MenuBarModel::getMenuBarNames</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td><code> [pure virtual]</code></td>
@@ -282,12 +282,12 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa0fdff8c9a01ee0893fa40e9f1df3f6e"></a>
+<a class="anchor" id="a500e3714cf915d27cd37bf13a79511f4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const <a class="el" href="classPopupMenu.html">PopupMenu</a> <a class="el" href="classMenuBarModel.html#aa0fdff8c9a01ee0893fa40e9f1df3f6e">MenuBarModel::getMenuForIndex</a> </td>
+          <td class="memname">virtual <a class="el" href="classPopupMenu.html">PopupMenu</a> <a class="el" href="classMenuBarModel.html#a500e3714cf915d27cd37bf13a79511f4">MenuBarModel::getMenuForIndex</a> </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>topLevelMenuIndex</em>, </td>

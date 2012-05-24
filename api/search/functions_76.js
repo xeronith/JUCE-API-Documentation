@@ -1,7 +1,7 @@
 var searchData=
 [
   ['value',['Value',['../classValue.html#abc2a5a2e6484fac66dae2539cc955667',1,'Value::Value()'],['../classValue.html#acc427785c9007f762772d1dbe7535295',1,'Value::Value(const Value &amp;other)'],['../classValue.html#ad20df25aa8a6b58ae7220abb5abea977',1,'Value::Value(const var &amp;initialValue)'],['../classValue.html#a9ef2a029c366ec777e9485cb4aadcf8b',1,'Value::Value(ValueSource *valueSource)']]],
-  ['valuechanged',['valueChanged',['../classValue_1_1Listener.html#ab1f072eabd128b8e9a99b4926f2231a8',1,'Value::Listener::valueChanged()'],['../classButton.html#a4a97b7340319e3c0edce572d6f44f219',1,'Button::valueChanged()'],['../classComboBox.html#a76c62167633c14047c0f60f1ac8dd310',1,'ComboBox::valueChanged()'],['../classLabel.html#aec3e90374cfdbcda0fcb5c664f52cd02',1,'Label::valueChanged()'],['../classSlider.html#a5988f8e1b98cb0b28330522117d46c1c',1,'Slider::valueChanged()']]],
+  ['valuechanged',['valueChanged',['../classValue_1_1Listener.html#ab1f072eabd128b8e9a99b4926f2231a8',1,'Value::Listener::valueChanged()'],['../classButton.html#a19df6760ab31f16c4e82c8e6102f7b70',1,'Button::valueChanged()'],['../classComboBox.html#a76c62167633c14047c0f60f1ac8dd310',1,'ComboBox::valueChanged()'],['../classLabel.html#aec3e90374cfdbcda0fcb5c664f52cd02',1,'Label::valueChanged()'],['../classSlider.html#a5988f8e1b98cb0b28330522117d46c1c',1,'Slider::valueChanged()']]],
   ['valueexists',['valueExists',['../classWindowsRegistry.html#ac4fadd7f5d05f582ef8c71463d5aaabc',1,'WindowsRegistry']]],
   ['valuesource',['ValueSource',['../classValue_1_1ValueSource.html#a38f5ca1d8aed95c1d5caaa9c1c461626',1,'Value::ValueSource']]],
   ['valuetoproportionoflength',['valueToProportionOfLength',['../classSlider.html#a0549ec352b8dca4ca4ba1afa43263370',1,'Slider']]],

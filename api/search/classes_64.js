@@ -17,6 +17,7 @@ var searchData=
   ['draganddropcontainer',['DragAndDropContainer',['../classDragAndDropContainer.html',1,'']]],
   ['draganddroptarget',['DragAndDropTarget',['../classDragAndDropTarget.html',1,'']]],
   ['draggable3dorientation',['Draggable3DOrientation',['../classDraggable3DOrientation.html',1,'']]],
+  ['draginfo',['DragInfo',['../structComponentPeer_1_1DragInfo.html',1,'ComponentPeer']]],
   ['drawable',['Drawable',['../classDrawable.html',1,'']]],
   ['drawablebutton',['DrawableButton',['../classDrawableButton.html',1,'']]],
   ['drawablecomposite',['DrawableComposite',['../classDrawableComposite.html',1,'']]],

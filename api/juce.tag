@@ -681,6 +681,7 @@
     <path>/Volumes/CODE/code/juce/modules/juce_gui_basics/windows/</path>
     <filename>juce__ComponentPeer_8h</filename>
     <class kind="class">ComponentPeer</class>
+    <class kind="struct">ComponentPeer::DragInfo</class>
   </compound>
   <compound kind="file">
     <name>juce_CoreAudioFormat.h</name>
@@ -3483,6 +3484,12 @@
     <filename>juce__TextButton_8h</filename>
     <class kind="class">TextButton</class>
     <class kind="struct">TextButton::Ids</class>
+  </compound>
+  <compound kind="file">
+    <name>juce_TextDragAndDropTarget.h</name>
+    <path>/Volumes/CODE/code/juce/modules/juce_gui_basics/mouse/</path>
+    <filename>juce__TextDragAndDropTarget_8h</filename>
+    <class kind="class">TextDragAndDropTarget</class>
   </compound>
   <compound kind="file">
     <name>juce_TextEditor.h</name>
@@ -10037,15 +10044,15 @@
       <type></type>
       <name>AudioSampleBuffer</name>
       <anchorfile>classAudioSampleBuffer.html</anchorfile>
-      <anchor>afd4b8f33df04e7474f199f572436df95</anchor>
-      <arglist>(float **dataToReferTo, int numChannels, int numSamples) noexcept</arglist>
+      <anchor>af7f3359c37dd17cd421dcb2d6816dff8</anchor>
+      <arglist>(float *const *dataToReferTo, int numChannels, int numSamples) noexcept</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>AudioSampleBuffer</name>
       <anchorfile>classAudioSampleBuffer.html</anchorfile>
-      <anchor>aa0429382e9c6beb7fa95260a7b855f9a</anchor>
-      <arglist>(float **dataToReferTo, int numChannels, int startSample, int numSamples) noexcept</arglist>
+      <anchor>a0191943275c61ee0e06f8242a0338d25</anchor>
+      <arglist>(float *const *dataToReferTo, int numChannels, int startSample, int numSamples) noexcept</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -12324,64 +12331,64 @@
       <type>void</type>
       <name>mouseEnter</name>
       <anchorfile>classButton.html</anchorfile>
-      <anchor>ad0bc319ee92c0ebbe080e92baeb73128</anchor>
-      <arglist>(const MouseEvent &amp;e)</arglist>
+      <anchor>a4a07ef59b58090533833db50a649fa4f</anchor>
+      <arglist>(const MouseEvent &amp;)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>mouseExit</name>
       <anchorfile>classButton.html</anchorfile>
-      <anchor>aeb941925bb9f3417a0b4611a597c748f</anchor>
-      <arglist>(const MouseEvent &amp;e)</arglist>
+      <anchor>a196f0a247504184f8dc7b5a2760be089</anchor>
+      <arglist>(const MouseEvent &amp;)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>mouseDown</name>
       <anchorfile>classButton.html</anchorfile>
-      <anchor>a47fb0edf76c51305be496119c2f2ad69</anchor>
-      <arglist>(const MouseEvent &amp;e)</arglist>
+      <anchor>a9c09ad0c8badc0a12948fe4cb6da7aac</anchor>
+      <arglist>(const MouseEvent &amp;)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>mouseDrag</name>
       <anchorfile>classButton.html</anchorfile>
-      <anchor>a260a6fb18d7c9a6cffdfa50d26a7b1ca</anchor>
-      <arglist>(const MouseEvent &amp;e)</arglist>
+      <anchor>ade84ede3c9600a2a769035a9219b1d15</anchor>
+      <arglist>(const MouseEvent &amp;)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>mouseUp</name>
       <anchorfile>classButton.html</anchorfile>
-      <anchor>aa59fd470023f08b73aaacd894f199b6d</anchor>
-      <arglist>(const MouseEvent &amp;e)</arglist>
+      <anchor>a608ab51113d3f59ca5e5e989211f8622</anchor>
+      <arglist>(const MouseEvent &amp;)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>bool</type>
       <name>keyPressed</name>
       <anchorfile>classButton.html</anchorfile>
-      <anchor>a641310943b87f694fb34b3b238b159e1</anchor>
-      <arglist>(const KeyPress &amp;key)</arglist>
+      <anchor>a6721a97f1c1640999806f4049fc8bd2b</anchor>
+      <arglist>(const KeyPress &amp;)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>bool</type>
       <name>keyPressed</name>
       <anchorfile>classButton.html</anchorfile>
-      <anchor>adce9be9e1ab0ea62290578a8cb0e5506</anchor>
-      <arglist>(const KeyPress &amp;key, Component *originatingComponent)</arglist>
+      <anchor>a6111d9ccde5c94bc89feb280362493ed</anchor>
+      <arglist>(const KeyPress &amp;, Component *)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>bool</type>
       <name>keyStateChanged</name>
       <anchorfile>classButton.html</anchorfile>
-      <anchor>a9b70ad6bda583e098ecd4a10f1d8bf06</anchor>
-      <arglist>(bool isKeyDown, Component *originatingComponent)</arglist>
+      <anchor>aa729e40a60e7cd4fb342f0c887eb2cbe</anchor>
+      <arglist>(bool isKeyDown, Component *)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>paint</name>
       <anchorfile>classButton.html</anchorfile>
-      <anchor>a04a3d0af86e1706c5d668160c812ba97</anchor>
-      <arglist>(Graphics &amp;g)</arglist>
+      <anchor>a9fb46c037556e374d0ee9a4155a58898</anchor>
+      <arglist>(Graphics &amp;)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
@@ -12401,15 +12408,15 @@
       <type>void</type>
       <name>focusGained</name>
       <anchorfile>classButton.html</anchorfile>
-      <anchor>a37d610a5b83ad77f4229b528f21f8968</anchor>
-      <arglist>(FocusChangeType cause)</arglist>
+      <anchor>af701543a99c941f98ab45e381be4af63</anchor>
+      <arglist>(FocusChangeType)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>focusLost</name>
       <anchorfile>classButton.html</anchorfile>
-      <anchor>a4a5e7250e06ed2151b15b785a63513a8</anchor>
-      <arglist>(FocusChangeType cause)</arglist>
+      <anchor>a31520896c3ca020f3e6b3c2e3f1b79e6</anchor>
+      <arglist>(FocusChangeType)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
@@ -12436,8 +12443,8 @@
       <type>void</type>
       <name>valueChanged</name>
       <anchorfile>classButton.html</anchorfile>
-      <anchor>a4a97b7340319e3c0edce572d6f44f219</anchor>
-      <arglist>(Value &amp;value)</arglist>
+      <anchor>a19df6760ab31f16c4e82c8e6102f7b70</anchor>
+      <arglist>(Value &amp;)</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -18901,8 +18908,8 @@
       <type>TargetClass *</type>
       <name>findParentComponentOfClass</name>
       <anchorfile>classComponent.html</anchorfile>
-      <anchor>a861219d0cdab1d856e4889786d421a9a</anchor>
-      <arglist>(TargetClass *const dummyParameter=nullptr) const </arglist>
+      <anchor>a015b46a3de96f2de006437c04fec7378</anchor>
+      <arglist>() const </arglist>
     </member>
     <member kind="function">
       <type>Component *</type>
@@ -20471,6 +20478,7 @@
   <compound kind="class">
     <name>ComponentPeer</name>
     <filename>classComponentPeer.html</filename>
+    <class kind="struct">ComponentPeer::DragInfo</class>
     <member kind="enumeration">
       <name>StyleFlags</name>
       <anchorfile>classComponentPeer.html</anchorfile>
@@ -20915,24 +20923,24 @@
     </member>
     <member kind="function">
       <type>bool</type>
-      <name>handleFileDragMove</name>
+      <name>handleDragMove</name>
       <anchorfile>classComponentPeer.html</anchorfile>
-      <anchor>ac9b5b5b6ffe472f71f5c93d6fa86c378</anchor>
-      <arglist>(const StringArray &amp;files, const Point&lt; int &gt; &amp;position)</arglist>
+      <anchor>a6e44b78f7f2d4f813baffc7577a376f6</anchor>
+      <arglist>(const DragInfo &amp;)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
-      <name>handleFileDragExit</name>
+      <name>handleDragExit</name>
       <anchorfile>classComponentPeer.html</anchorfile>
-      <anchor>a7f18c67ff5085934f7f297ee0576e7a4</anchor>
-      <arglist>(const StringArray &amp;files)</arglist>
+      <anchor>a531d190202f98b79786f2b2b9885931a</anchor>
+      <arglist>(const DragInfo &amp;)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
-      <name>handleFileDragDrop</name>
+      <name>handleDragDrop</name>
       <anchorfile>classComponentPeer.html</anchorfile>
-      <anchor>a6ff5fd46c77c583d2acaca5a26aa41da</anchor>
-      <arglist>(const StringArray &amp;files, const Point&lt; int &gt; &amp;position)</arglist>
+      <anchor>a351c6a2ba20b0dfb55b3c11b7e5bfa9c</anchor>
+      <arglist>(const DragInfo &amp;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -21037,6 +21045,31 @@
       <name>constrainer</name>
       <anchorfile>classComponentPeer.html</anchorfile>
       <anchor>a75216f7f562c5bbf8b7758a1198d2744</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>ComponentPeer::DragInfo</name>
+    <filename>structComponentPeer_1_1DragInfo.html</filename>
+    <member kind="variable">
+      <type>StringArray</type>
+      <name>files</name>
+      <anchorfile>structComponentPeer_1_1DragInfo.html</anchorfile>
+      <anchor>addae08e58daceff162d5003254f393ed</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>String</type>
+      <name>text</name>
+      <anchorfile>structComponentPeer_1_1DragInfo.html</anchorfile>
+      <anchor>a9ef783609b4ae2ca44735a734759ccab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Point&lt; int &gt;</type>
+      <name>position</name>
+      <anchorfile>structComponentPeer_1_1DragInfo.html</anchorfile>
+      <anchor>ac83d9a513bd9e691d6b8afb1d33f9a3a</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -26652,31 +26685,31 @@
       <arglist>(const File &amp;newFile)</arglist>
     </member>
     <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual const String</type>
+      <type>virtual String</type>
       <name>getDocumentTitle</name>
       <anchorfile>classFileBasedDocument.html</anchorfile>
-      <anchor>a0da8b320335dfcff6925be5275f6610a</anchor>
+      <anchor>abf86feb0316f1d010c956bd687bc2bf8</anchor>
       <arglist>()=0</arglist>
     </member>
     <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual const String</type>
+      <type>virtual Result</type>
       <name>loadDocument</name>
       <anchorfile>classFileBasedDocument.html</anchorfile>
-      <anchor>a97740faec6ac2b08332c8c536d94ad9a</anchor>
+      <anchor>a88999864b31dbda9bb0be1e593428cef</anchor>
       <arglist>(const File &amp;file)=0</arglist>
     </member>
     <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual const String</type>
+      <type>virtual Result</type>
       <name>saveDocument</name>
       <anchorfile>classFileBasedDocument.html</anchorfile>
-      <anchor>a40c12c01d35346d7796c260eec1b54fc</anchor>
+      <anchor>a2042b565e85118d3a2b34f677f61cbd8</anchor>
       <arglist>(const File &amp;file)=0</arglist>
     </member>
     <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual const File</type>
+      <type>virtual File</type>
       <name>getLastDocumentOpened</name>
       <anchorfile>classFileBasedDocument.html</anchorfile>
-      <anchor>a1077e5784625e0faecdd0d064b50db64</anchor>
+      <anchor>a5d71efccf45d29de2c2dcbb801e8021a</anchor>
       <arglist>()=0</arglist>
     </member>
     <member kind="function" protection="protected" virtualness="pure">
@@ -36829,15 +36862,15 @@
       <type></type>
       <name>LowLevelGraphicsSoftwareRenderer</name>
       <anchorfile>classLowLevelGraphicsSoftwareRenderer.html</anchorfile>
-      <anchor>a6099e1ac4c4e1de709b0362c839f337b</anchor>
-      <arglist>(const Image &amp;imageToRenderOn)</arglist>
+      <anchor>a96db3b90ab25c63c03481269f946789f</anchor>
+      <arglist>(const Image &amp;imageToRenderOnto)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>LowLevelGraphicsSoftwareRenderer</name>
       <anchorfile>classLowLevelGraphicsSoftwareRenderer.html</anchorfile>
-      <anchor>a46cc9f302a77d3a3882f0c4df06570a2</anchor>
-      <arglist>(const Image &amp;imageToRenderOn, const Point&lt; int &gt; &amp;origin, const RectangleList &amp;initialClip)</arglist>
+      <anchor>a1dd0983ad9b83427309573ac0bb6be0a</anchor>
+      <arglist>(const Image &amp;imageToRenderOnto, const Point&lt; int &gt; &amp;origin, const RectangleList &amp;initialClip)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -37004,8 +37037,8 @@
       <type>void</type>
       <name>drawLine</name>
       <anchorfile>classLowLevelGraphicsSoftwareRenderer.html</anchorfile>
-      <anchor>a95438122f9299253fa5e59f7aad9401f</anchor>
-      <arglist>(const Line&lt; float &gt; &amp;line)</arglist>
+      <anchor>a3f874bae8c12e7b6f4e013dc50a9390c</anchor>
+      <arglist>(const Line&lt; float &gt; &amp;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -37057,10 +37090,10 @@
       <arglist>(LowLevelGraphicsSoftwareRenderer)</arglist>
     </member>
     <member kind="variable" protection="protected">
-      <type>RenderingHelpers::SavedStateStack&lt; SavedState &gt;</type>
+      <type>RenderingHelpers::SavedStateStack&lt; RenderingHelpers::SoftwareRendererSavedState &gt;</type>
       <name>savedState</name>
       <anchorfile>classLowLevelGraphicsSoftwareRenderer.html</anchorfile>
-      <anchor>abc75e9ae0bb309e895abaa8ff84e046b</anchor>
+      <anchor>ae8b6b909e4d296eae82dc074a3d0fe03</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -38196,17 +38229,17 @@
       <arglist>(Listener *listenerToRemove) noexcept</arglist>
     </member>
     <member kind="function" virtualness="pure">
-      <type>virtual const StringArray</type>
+      <type>virtual StringArray</type>
       <name>getMenuBarNames</name>
       <anchorfile>classMenuBarModel.html</anchorfile>
-      <anchor>a520278b157858b1938387e965a95fc94</anchor>
+      <anchor>a2a42b27dc2d8e42b21b130d72b8d10c4</anchor>
       <arglist>()=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
-      <type>virtual const PopupMenu</type>
+      <type>virtual PopupMenu</type>
       <name>getMenuForIndex</name>
       <anchorfile>classMenuBarModel.html</anchorfile>
-      <anchor>aa0fdff8c9a01ee0893fa40e9f1df3f6e</anchor>
+      <anchor>a500e3714cf915d27cd37bf13a79511f4</anchor>
       <arglist>(int topLevelMenuIndex, const String &amp;menuName)=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -43615,6 +43648,13 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
+      <type>bool</type>
+      <name>willDeleteObject</name>
+      <anchorfile>classOptionalScopedPointer.html</anchorfile>
+      <anchor>a0eb696aae75b039bc1309dc7125bda7a</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>swapWith</name>
       <anchorfile>classOptionalScopedPointer.html</anchorfile>
@@ -48433,6 +48473,13 @@
       <anchorfile>classRecentlyOpenedFilesList.html</anchorfile>
       <anchor>ac1c8310d4a13cba8c0b7168b980e7e09</anchor>
       <arglist>(const String &amp;stringifiedVersion)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>registerRecentFileNatively</name>
+      <anchorfile>classRecentlyOpenedFilesList.html</anchorfile>
+      <anchor>a8e4455fedda03b94a62fadec4a643cec</anchor>
+      <arglist>(const File &amp;file)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -58482,6 +58529,52 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>TextDragAndDropTarget</name>
+    <filename>classTextDragAndDropTarget.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~TextDragAndDropTarget</name>
+      <anchorfile>classTextDragAndDropTarget.html</anchorfile>
+      <anchor>a4fb1cc79ab921c63098cec4827af4c62</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual bool</type>
+      <name>isInterestedInTextDrag</name>
+      <anchorfile>classTextDragAndDropTarget.html</anchorfile>
+      <anchor>a43d8905fbfba1fbf2e1fb1ab5d0c9183</anchor>
+      <arglist>(const String &amp;text)=0</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>textDragEnter</name>
+      <anchorfile>classTextDragAndDropTarget.html</anchorfile>
+      <anchor>a1512abd580d1c2c4098dafebafb837ec</anchor>
+      <arglist>(const String &amp;text, int x, int y)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>textDragMove</name>
+      <anchorfile>classTextDragAndDropTarget.html</anchorfile>
+      <anchor>a9cbd6cd4e3e7549dbb10e89f1388b982</anchor>
+      <arglist>(const String &amp;text, int x, int y)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>textDragExit</name>
+      <anchorfile>classTextDragAndDropTarget.html</anchorfile>
+      <anchor>a6aca30f40684c602a5f4b43e25574f56</anchor>
+      <arglist>(const String &amp;text)</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>textDropped</name>
+      <anchorfile>classTextDragAndDropTarget.html</anchorfile>
+      <anchor>ab8d586cc52a71021c4fe1629b6410e69</anchor>
+      <arglist>(const String &amp;text, int x, int y)=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>TextEditor</name>
     <filename>classTextEditor.html</filename>
     <base>Component</base>
@@ -62240,7 +62333,7 @@
   <compound kind="class">
     <name>Typeface</name>
     <filename>classTypeface.html</filename>
-    <base>SingleThreadedReferenceCountedObject</base>
+    <base>ReferenceCountedObject</base>
     <member kind="typedef">
       <type>ReferenceCountedObjectPtr&lt; Typeface &gt;</type>
       <name>Ptr</name>

@@ -100,6 +100,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>This class contains some static methods for showing native alert windows.  
+ <a href="classNativeMessageBox.html#details">More...</a></p>
+
 <p><a href="classNativeMessageBox-members.html">List of all members.</a></p>
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-static-methods"></a>
@@ -111,7 +114,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aab0aca5c960cf8185314c4302e60c2df"><td class="memItemLeft" align="right" valign="top">static int <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeMessageBox.html#aab0aca5c960cf8185314c4302e60c2df">showYesNoCancelBox</a> (<a class="el" href="classAlertWindow.html#a2582d1f79937cb47a6a3764c7d9bdba3">AlertWindow::AlertIconType</a> iconType, const <a class="el" href="classString.html">String</a> &amp;title, const <a class="el" href="classString.html">String</a> &amp;message, <a class="el" href="classComponent.html">Component</a> *associatedComponent, <a class="el" href="classModalComponentManager_1_1Callback.html">ModalComponentManager::Callback</a> *callback)</td></tr>
 <tr class="memdesc:aab0aca5c960cf8185314c4302e60c2df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a dialog box with three buttons.  <a href="#aab0aca5c960cf8185314c4302e60c2df"></a><br/></td></tr>
 </table>
-<hr/><h2>Member Function Documentation</h2>
+<hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>This class contains some static methods for showing native alert windows. </p>
+</div><hr/><h2>Member Function Documentation</h2>
 <a class="anchor" id="a426e0c4004372a4bdc3caee486584870"></a>
 <div class="memitem">
 <div class="memproto">
@@ -150,7 +155,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Shows a dialog box that just has a message and a single 'ok' button to close it. </p>
-<p>If the callback parameter is null, the box is shown modally, and the method will block until the user has clicked the button (or pressed the escape or return keys). If the callback parameter is non-null, the box will be displayed and placed into a modal state, but this method will return immediately, and the callback will be invoked later when the user dismisses the box.</p>
+<p>The box is shown modally, and the method will block until the user has clicked its button (or pressed the escape or return keys).</p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">iconType</td><td>the type of icon to show </td></tr>
@@ -160,7 +165,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>If the callback parameter is null, the box is shown modally, and the method will block until the user has clicked the button (or pressed the escape or return keys). If the callback parameter is non-null, the box will be displayed and placed into a modal state, but this method will return immediately, and the callback will be invoked later when the user dismisses the box.</p>
+<p>The box will be displayed and placed into a modal state, but this method will return immediately, and the callback will be invoked later when the user dismisses the box.</p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">iconType</td><td>the type of icon to show </td></tr>
@@ -225,7 +230,7 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">title</td><td>the headline to show at the top of the box </td></tr>
     <tr><td class="paramname">message</td><td>a longer, more descriptive message to show underneath the title </td></tr>
     <tr><td class="paramname">associatedComponent</td><td>if this is non-null, it specifies the component that the alert window should be associated with. Depending on the look and feel, this might be used for positioning of the alert window. </td></tr>
-    <tr><td class="paramname">callback</td><td>if this is non-null, the menu will be launched asynchronously, returning immediately, and the callback will receive a call to its modalStateFinished() when the box is dismissed, with its parameter being 1 if the ok button was pressed, or 0 for cancel, The callback object will be owned and deleted by the system, so make sure that it works safely and doesn't keep any references to objects that might be deleted before it gets called. </td></tr>
+    <tr><td class="paramname">callback</td><td>if this is non-null, the box will be launched asynchronously, returning immediately, and the callback will receive a call to its modalStateFinished() when the box is dismissed, with its parameter being 1 if the ok button was pressed, or 0 for cancel, The callback object will be owned and deleted by the system, so make sure that it works safely and doesn't keep any references to objects that might be deleted before it gets called. </td></tr>
   </table>
   </dd>
 </dl>
@@ -286,7 +291,7 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">title</td><td>the headline to show at the top of the box </td></tr>
     <tr><td class="paramname">message</td><td>a longer, more descriptive message to show underneath the title </td></tr>
     <tr><td class="paramname">associatedComponent</td><td>if this is non-null, it specifies the component that the alert window should be associated with. Depending on the look and feel, this might be used for positioning of the alert window. </td></tr>
-    <tr><td class="paramname">callback</td><td>if this is non-null, the menu will be launched asynchronously, returning immediately, and the callback will receive a call to its modalStateFinished() when the box is dismissed, with its parameter being 1 if the "yes" button was pressed, 2 for the "no" button, or 0 if it was cancelled, The callback object will be owned and deleted by the system, so make sure that it works safely and doesn't keep any references to objects that might be deleted before it gets called.</td></tr>
+    <tr><td class="paramname">callback</td><td>if this is non-null, the box will be launched asynchronously, returning immediately, and the callback will receive a call to its modalStateFinished() when the box is dismissed, with its parameter being 1 if the "yes" button was pressed, 2 for the "no" button, or 0 if it was cancelled, The callback object will be owned and deleted by the system, so make sure that it works safely and doesn't keep any references to objects that might be deleted before it gets called.</td></tr>
   </table>
   </dd>
 </dl>

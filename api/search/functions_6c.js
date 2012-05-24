@@ -35,7 +35,7 @@ var searchData=
   ['loadargb',['loadARGB',['../classOpenGLTexture.html#a37149e28fdc88f6b035d69a8f2aa8cd1',1,'OpenGLTexture']]],
   ['loadargbflipped',['loadARGBFlipped',['../classOpenGLTexture.html#a7b59d2d5bca69d574c2c5a5ec7d231c6',1,'OpenGLTexture']]],
   ['loadcontent',['loadContent',['../classCodeEditorComponent.html#ad4c04d9757379b8205559c155f979ebd',1,'CodeEditorComponent']]],
-  ['loaddocument',['loadDocument',['../classFileBasedDocument.html#a97740faec6ac2b08332c8c536d94ad9a',1,'FileBasedDocument']]],
+  ['loaddocument',['loadDocument',['../classFileBasedDocument.html#a88999864b31dbda9bb0be1e593428cef',1,'FileBasedDocument']]],
   ['loaddrawablefromdata',['loadDrawableFromData',['../classLookAndFeel.html#ac1a42e3c43a627166232deb268dcd81b',1,'LookAndFeel']]],
   ['loadfileasdata',['loadFileAsData',['../classFile.html#a0fa017212282bc314ec2eab9dce135d0',1,'File']]],
   ['loadfileasstring',['loadFileAsString',['../classFile.html#aac8775e3a91375fe12ebe068194a2812',1,'File']]],
@@ -64,5 +64,5 @@ var searchData=
   ['lowerprivilege',['lowerPrivilege',['../classProcess.html#ac1c5bf1ab8c9b7b4cdd88203bdc10102',1,'Process']]],
   ['lowlevelgraphicscontext',['LowLevelGraphicsContext',['../classLowLevelGraphicsContext.html#a7bc641020d6f44a15a10bde2f22a8bab',1,'LowLevelGraphicsContext']]],
   ['lowlevelgraphicspostscriptrenderer',['LowLevelGraphicsPostScriptRenderer',['../classLowLevelGraphicsPostScriptRenderer.html#a08206c409e9491668e7d929fd06d5391',1,'LowLevelGraphicsPostScriptRenderer']]],
-  ['lowlevelgraphicssoftwarerenderer',['LowLevelGraphicsSoftwareRenderer',['../classLowLevelGraphicsSoftwareRenderer.html#a6099e1ac4c4e1de709b0362c839f337b',1,'LowLevelGraphicsSoftwareRenderer::LowLevelGraphicsSoftwareRenderer(const Image &amp;imageToRenderOn)'],['../classLowLevelGraphicsSoftwareRenderer.html#a46cc9f302a77d3a3882f0c4df06570a2',1,'LowLevelGraphicsSoftwareRenderer::LowLevelGraphicsSoftwareRenderer(const Image &amp;imageToRenderOn, const Point&lt; int &gt; &amp;origin, const RectangleList &amp;initialClip)']]]
+  ['lowlevelgraphicssoftwarerenderer',['LowLevelGraphicsSoftwareRenderer',['../classLowLevelGraphicsSoftwareRenderer.html#a96db3b90ab25c63c03481269f946789f',1,'LowLevelGraphicsSoftwareRenderer::LowLevelGraphicsSoftwareRenderer(const Image &amp;imageToRenderOnto)'],['../classLowLevelGraphicsSoftwareRenderer.html#a1dd0983ad9b83427309573ac0bb6be0a',1,'LowLevelGraphicsSoftwareRenderer::LowLevelGraphicsSoftwareRenderer(const Image &amp;imageToRenderOnto, const Point&lt; int &gt; &amp;origin, const RectangleList &amp;initialClip)']]]
 ];

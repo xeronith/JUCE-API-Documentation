@@ -399,6 +399,7 @@ var searchData=
   ['juce_5ftargetplatform_2eh',['juce_TargetPlatform.h',['../juce__TargetPlatform_8h.html',1,'']]],
   ['juce_5ftemporaryfile_2eh',['juce_TemporaryFile.h',['../juce__TemporaryFile_8h.html',1,'']]],
   ['juce_5ftextbutton_2eh',['juce_TextButton.h',['../juce__TextButton_8h.html',1,'']]],
+  ['juce_5ftextdraganddroptarget_2eh',['juce_TextDragAndDropTarget.h',['../juce__TextDragAndDropTarget_8h.html',1,'']]],
   ['juce_5ftexteditor_2eh',['juce_TextEditor.h',['../juce__TextEditor_8h.html',1,'']]],
   ['juce_5ftexteditorkeymapper_2eh',['juce_TextEditorKeyMapper.h',['../juce__TextEditorKeyMapper_8h.html',1,'']]],
   ['juce_5ftextinputtarget_2eh',['juce_TextInputTarget.h',['../juce__TextInputTarget_8h.html',1,'']]],

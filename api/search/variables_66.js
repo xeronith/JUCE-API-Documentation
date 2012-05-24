@@ -22,6 +22,7 @@ var searchData=
   ['filename',['filename',['../structZipFile_1_1ZipEntry.html#a77663bd8a97be2fbc840693ac653e78b',1,'ZipFile::ZipEntry::filename()'],['../structDirectoryContentsList_1_1FileInfo.html#a14b9647b7281512bbedddb25ebeee1b1',1,'DirectoryContentsList::FileInfo::filename()']]],
   ['filenamesuffix',['filenameSuffix',['../structPropertiesFile_1_1Options.html#a02ba3c3eee660d6ed9a8ce6637791f2d',1,'PropertiesFile::Options']]],
   ['fileoridentifier',['fileOrIdentifier',['../classPluginDescription.html#a067e44c64faac07ff146f65b375cec22',1,'PluginDescription']]],
+  ['files',['files',['../structComponentPeer_1_1DragInfo.html#addae08e58daceff162d5003254f393ed',1,'ComponentPeer::DragInfo']]],
   ['filesize',['fileSize',['../structDirectoryContentsList_1_1FileInfo.html#a0ef892081704ac1b7d4de84854b60a3c',1,'DirectoryContentsList::FileInfo']]],
   ['filetime',['fileTime',['../structZipFile_1_1ZipEntry.html#ae4ba65278656cea2fdf56636fa0c8476',1,'ZipFile::ZipEntry']]],
   ['fill',['fill',['../classDrawableShape_1_1RelativeFillType.html#a0026d1d9aa93d0ff94371b0d88dfd9e4',1,'DrawableShape::RelativeFillType::fill()'],['../classDrawableShape_1_1FillAndStrokeState.html#a1e913c8ccb288008352c13e904e6eca0',1,'DrawableShape::FillAndStrokeState::fill()']]],

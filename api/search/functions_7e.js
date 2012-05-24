@@ -347,6 +347,7 @@ var searchData=
   ['_7etablelistboxmodel',['~TableListBoxModel',['../classTableListBoxModel.html#a69fce53074484eb5388bf99239b1c9a8',1,'TableListBoxModel']]],
   ['_7etemporaryfile',['~TemporaryFile',['../classTemporaryFile.html#a7a0f828343c95d3a7e81d6d3587ad116',1,'TemporaryFile']]],
   ['_7etextbutton',['~TextButton',['../classTextButton.html#a497a17bb110e249c7eb88a98dad12192',1,'TextButton']]],
+  ['_7etextdraganddroptarget',['~TextDragAndDropTarget',['../classTextDragAndDropTarget.html#a4fb1cc79ab921c63098cec4827af4c62',1,'TextDragAndDropTarget']]],
   ['_7etexteditor',['~TextEditor',['../classTextEditor.html#aba5c4c4c412a24be39845b5a30bb555e',1,'TextEditor']]],
   ['_7etextinputtarget',['~TextInputTarget',['../classTextInputTarget.html#a77845e997bbe85a68ad77407a8f5bdfc',1,'TextInputTarget']]],
   ['_7etextlayout',['~TextLayout',['../classTextLayout.html#a2bbf2978fd2447c09adb2438185edd45',1,'TextLayout']]],

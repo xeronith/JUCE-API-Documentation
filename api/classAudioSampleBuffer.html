@@ -109,10 +109,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1901bdbbf14172dfbf0c1f3740a1c7f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a1901bdbbf14172dfbf0c1f3740a1c7f3">AudioSampleBuffer</a> (int numChannels, int numSamples) noexcept</td></tr>
 <tr class="memdesc:a1901bdbbf14172dfbf0c1f3740a1c7f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a buffer with a specified number of channels and samples.  <a href="#a1901bdbbf14172dfbf0c1f3740a1c7f3"></a><br/></td></tr>
-<tr class="memitem:afd4b8f33df04e7474f199f572436df95"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#afd4b8f33df04e7474f199f572436df95">AudioSampleBuffer</a> (float **dataToReferTo, int numChannels, int numSamples) noexcept</td></tr>
-<tr class="memdesc:afd4b8f33df04e7474f199f572436df95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a buffer using a pre-allocated block of memory.  <a href="#afd4b8f33df04e7474f199f572436df95"></a><br/></td></tr>
-<tr class="memitem:aa0429382e9c6beb7fa95260a7b855f9a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#aa0429382e9c6beb7fa95260a7b855f9a">AudioSampleBuffer</a> (float **dataToReferTo, int numChannels, int startSample, int numSamples) noexcept</td></tr>
-<tr class="memdesc:aa0429382e9c6beb7fa95260a7b855f9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a buffer using a pre-allocated block of memory.  <a href="#aa0429382e9c6beb7fa95260a7b855f9a"></a><br/></td></tr>
+<tr class="memitem:af7f3359c37dd17cd421dcb2d6816dff8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#af7f3359c37dd17cd421dcb2d6816dff8">AudioSampleBuffer</a> (float *const *dataToReferTo, int numChannels, int numSamples) noexcept</td></tr>
+<tr class="memdesc:af7f3359c37dd17cd421dcb2d6816dff8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a buffer using a pre-allocated block of memory.  <a href="#af7f3359c37dd17cd421dcb2d6816dff8"></a><br/></td></tr>
+<tr class="memitem:a0191943275c61ee0e06f8242a0338d25"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a0191943275c61ee0e06f8242a0338d25">AudioSampleBuffer</a> (float *const *dataToReferTo, int numChannels, int startSample, int numSamples) noexcept</td></tr>
+<tr class="memdesc:a0191943275c61ee0e06f8242a0338d25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a buffer using a pre-allocated block of memory.  <a href="#a0191943275c61ee0e06f8242a0338d25"></a><br/></td></tr>
 <tr class="memitem:a630b6327409dc0310511aee0df287de5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a630b6327409dc0310511aee0df287de5">AudioSampleBuffer</a> (const <a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;other) noexcept</td></tr>
 <tr class="memdesc:a630b6327409dc0310511aee0df287de5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies another buffer.  <a href="#a630b6327409dc0310511aee0df287de5"></a><br/></td></tr>
 <tr class="memitem:a4b76d7ef7e8ff1c3b5c432b51e247fae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a4b76d7ef7e8ff1c3b5c432b51e247fae">operator=</a> (const <a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;other) noexcept</td></tr>
@@ -202,14 +202,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afd4b8f33df04e7474f199f572436df95"></a>
+<a class="anchor" id="af7f3359c37dd17cd421dcb2d6816dff8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classAudioSampleBuffer.html#a1901bdbbf14172dfbf0c1f3740a1c7f3">AudioSampleBuffer::AudioSampleBuffer</a> </td>
           <td>(</td>
-          <td class="paramtype">float **&#160;</td>
+          <td class="paramtype">float *const *&#160;</td>
           <td class="paramname"><em>dataToReferTo</em>, </td>
         </tr>
         <tr>
@@ -246,14 +246,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa0429382e9c6beb7fa95260a7b855f9a"></a>
+<a class="anchor" id="a0191943275c61ee0e06f8242a0338d25"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classAudioSampleBuffer.html#a1901bdbbf14172dfbf0c1f3740a1c7f3">AudioSampleBuffer::AudioSampleBuffer</a> </td>
           <td>(</td>
-          <td class="paramtype">float **&#160;</td>
+          <td class="paramtype">float *const *&#160;</td>
           <td class="paramname"><em>dataToReferTo</em>, </td>
         </tr>
         <tr>
