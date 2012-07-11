@@ -113,10 +113,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac0509831c5e621abc5d1e8cc792f563d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeTokeniser.html#ac0509831c5e621abc5d1e8cc792f563d">~CodeTokeniser</a> ()</td></tr>
 <tr class="memitem:aeb723b767eed0ce44ae995c99ebc1c2f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeTokeniser.html#aeb723b767eed0ce44ae995c99ebc1c2f">readNextToken</a> (<a class="el" href="classCodeDocument_1_1Iterator.html">CodeDocument::Iterator</a> &amp;source)=0</td></tr>
 <tr class="memdesc:aeb723b767eed0ce44ae995c99ebc1c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the next token from the source and returns its token type.  <a href="#aeb723b767eed0ce44ae995c99ebc1c2f"></a><br/></td></tr>
-<tr class="memitem:a1730f1c3822be46454876bf416fc7de5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeTokeniser.html#a1730f1c3822be46454876bf416fc7de5">getTokenTypes</a> ()=0</td></tr>
-<tr class="memdesc:a1730f1c3822be46454876bf416fc7de5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of the names of the token types this analyser uses.  <a href="#a1730f1c3822be46454876bf416fc7de5"></a><br/></td></tr>
-<tr class="memitem:a109a2275151f845795278eb3401e84e9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classColour.html">Colour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeTokeniser.html#a109a2275151f845795278eb3401e84e9">getDefaultColour</a> (int tokenType)=0</td></tr>
-<tr class="memdesc:a109a2275151f845795278eb3401e84e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a suggested syntax highlighting colour for a specified token type.  <a href="#a109a2275151f845795278eb3401e84e9"></a><br/></td></tr>
+<tr class="memitem:a240c3d9ca2a5e7f4da5d895143b52b78"><td class="memItemLeft" align="right" valign="top">virtual <br class="typebreak"/>
+<a class="el" href="structCodeEditorComponent_1_1ColourScheme.html">CodeEditorComponent::ColourScheme</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeTokeniser.html#a240c3d9ca2a5e7f4da5d895143b52b78">getDefaultColourScheme</a> ()=0</td></tr>
+<tr class="memdesc:a240c3d9ca2a5e7f4da5d895143b52b78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a suggested syntax highlighting colour scheme.  <a href="#a240c3d9ca2a5e7f4da5d895143b52b78"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A base class for tokenising code so that the syntax can be displayed in a code editor. </p>
@@ -177,12 +176,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1730f1c3822be46454876bf416fc7de5"></a>
+<a class="anchor" id="a240c3d9ca2a5e7f4da5d895143b52b78"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classStringArray.html">StringArray</a> <a class="el" href="classCodeTokeniser.html#a1730f1c3822be46454876bf416fc7de5">CodeTokeniser::getTokenTypes</a> </td>
+          <td class="memname">virtual <a class="el" href="structCodeEditorComponent_1_1ColourScheme.html">CodeEditorComponent::ColourScheme</a> <a class="el" href="classCodeTokeniser.html#a240c3d9ca2a5e7f4da5d895143b52b78">CodeTokeniser::getDefaultColourScheme</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td><code> [pure virtual]</code></td>
@@ -191,31 +190,9 @@ Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Returns a list of the names of the token types this analyser uses. </p>
-<p>The index in this list must match the token type numbers that are returned by <a class="el" href="classCodeTokeniser.html#aeb723b767eed0ce44ae995c99ebc1c2f" title="Reads the next token from the source and returns its token type.">readNextToken()</a>. </p>
+<p>Returns a suggested syntax highlighting colour scheme. </p>
 
-<p>Implemented in <a class="el" href="classCPlusPlusCodeTokeniser.html#a3ac6d6331231fb15420634f546b036e6">CPlusPlusCodeTokeniser</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a109a2275151f845795278eb3401e84e9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="classColour.html">Colour</a> <a class="el" href="classCodeTokeniser.html#a109a2275151f845795278eb3401e84e9">CodeTokeniser::getDefaultColour</a> </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>tokenType</em></td><td>)</td>
-          <td><code> [pure virtual]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Returns a suggested syntax highlighting colour for a specified token type. </p>
-
-<p>Implemented in <a class="el" href="classCPlusPlusCodeTokeniser.html#a7d92b852ebb1bd9c04a190485e292df5">CPlusPlusCodeTokeniser</a>.</p>
+<p>Implemented in <a class="el" href="classCPlusPlusCodeTokeniser.html#a1c73177b3e41a4babf4b2cfb89287fb7">CPlusPlusCodeTokeniser</a>.</p>
 
 </div>
 </div>

@@ -115,7 +115,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a15493b06f02825726df3e69c6a5e4a40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a15493b06f02825726df3e69c6a5e4a40"></a><br/></td></tr>
 <tr class="memitem:ad34cee4100d109dbb29321c8696a1de8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGlowEffect.html#ad34cee4100d109dbb29321c8696a1de8">setGlowProperties</a> (float newRadius, const <a class="el" href="classColour.html">Colour</a> &amp;newColour)</td></tr>
 <tr class="memdesc:ad34cee4100d109dbb29321c8696a1de8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the glow's radius and colour.  <a href="#ad34cee4100d109dbb29321c8696a1de8"></a><br/></td></tr>
-<tr class="memitem:ae2fc41defdff16f40635d353dd8f7f0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGlowEffect.html#ae2fc41defdff16f40635d353dd8f7f0a">applyEffect</a> (<a class="el" href="classImage.html">Image</a> &amp;sourceImage, <a class="el" href="classGraphics.html">Graphics</a> &amp;destContext, float alpha)</td></tr>
+<tr class="memitem:a1addc87c44d02d6c864dd8d7c1cadf35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGlowEffect.html#a1addc87c44d02d6c864dd8d7c1cadf35">applyEffect</a> (<a class="el" href="classImage.html">Image</a> &amp;sourceImage, <a class="el" href="classGraphics.html">Graphics</a> &amp;destContext, float scaleFactor, float alpha)</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A component effect that adds a coloured blur around the component's contents. </p>
@@ -190,12 +190,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae2fc41defdff16f40635d353dd8f7f0a"></a>
+<a class="anchor" id="a1addc87c44d02d6c864dd8d7c1cadf35"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classGlowEffect.html#ae2fc41defdff16f40635d353dd8f7f0a">GlowEffect::applyEffect</a> </td>
+          <td class="memname">void <a class="el" href="classGlowEffect.html#a1addc87c44d02d6c864dd8d7c1cadf35">GlowEffect::applyEffect</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classImage.html">Image</a> &amp;&#160;</td>
           <td class="paramname"><em>sourceImage</em>, </td>
@@ -205,6 +205,12 @@ Public Member Functions</h2></td></tr>
           <td></td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
           <td class="paramname"><em>destContext</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaleFactor</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -221,7 +227,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Implements <a class="el" href="classImageEffectFilter.html#a8ff8eb4bfd3eb3835f8595003abb0520">ImageEffectFilter</a>.</p>
+<p>Implements <a class="el" href="classImageEffectFilter.html#afcdcb809146e0774b8d7ca24591771ad">ImageEffectFilter</a>.</p>
 
 </div>
 </div>

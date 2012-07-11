@@ -141,10 +141,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a79a3169e0685ade146aefe20b2250745"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the font family of the typeface.  <a href="#a79a3169e0685ade146aefe20b2250745"></a><br/></td></tr>
 <tr class="memitem:a66d068f203550181d57353649f8f694f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFont.html#a66d068f203550181d57353649f8f694f">getTypefaceName</a> () const noexcept</td></tr>
 <tr class="memdesc:a66d068f203550181d57353649f8f694f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the font family of the typeface that this font uses.  <a href="#a66d068f203550181d57353649f8f694f"></a><br/></td></tr>
-<tr class="memitem:a5fae84c51db635e5fbe85c22530c64ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFont.html#a5fae84c51db635e5fbe85c22530c64ee">setTypefaceStyle</a> (const <a class="el" href="classString.html">String</a> &amp;typefaceStyle)</td></tr>
-<tr class="memdesc:a5fae84c51db635e5fbe85c22530c64ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the font style of the typeface.  <a href="#a5fae84c51db635e5fbe85c22530c64ee"></a><br/></td></tr>
 <tr class="memitem:a5c7bb70dc22a35c23ebc4b685b679556"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFont.html#a5c7bb70dc22a35c23ebc4b685b679556">getTypefaceStyle</a> () const noexcept</td></tr>
 <tr class="memdesc:a5c7bb70dc22a35c23ebc4b685b679556"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the font style of the typeface that this font uses.  <a href="#a5c7bb70dc22a35c23ebc4b685b679556"></a><br/></td></tr>
+<tr class="memitem:a844b7f87922aabf01971921f44d2662f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFont.html#a844b7f87922aabf01971921f44d2662f">setTypefaceStyle</a> (const <a class="el" href="classString.html">String</a> &amp;newStyle)</td></tr>
+<tr class="memdesc:a844b7f87922aabf01971921f44d2662f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the font style of the typeface.  <a href="#a844b7f87922aabf01971921f44d2662f"></a><br/></td></tr>
+<tr class="memitem:a26442e5b4da40871d16a35497bb3126b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFont.html">Font</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFont.html#a26442e5b4da40871d16a35497bb3126b">withTypefaceStyle</a> (const <a class="el" href="classString.html">String</a> &amp;newStyle) const </td></tr>
+<tr class="memdesc:a26442e5b4da40871d16a35497bb3126b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of this font with a new typeface style.  <a href="#a26442e5b4da40871d16a35497bb3126b"></a><br/></td></tr>
 <tr class="memitem:ae381cbed77eed2b1e69f735906b3bf26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFont.html#ae381cbed77eed2b1e69f735906b3bf26">getAvailableStyles</a> () const </td></tr>
 <tr class="memdesc:ae381cbed77eed2b1e69f735906b3bf26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of the styles that this font can use.  <a href="#ae381cbed77eed2b1e69f735906b3bf26"></a><br/></td></tr>
 <tr class="memitem:a96e4ccc975ce4180c10107aa77ea8c7d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFont.html#a96e4ccc975ce4180c10107aa77ea8c7d">getHeight</a> () const noexcept</td></tr>
@@ -609,26 +611,6 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5fae84c51db635e5fbe85c22530c64ee"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classFont.html#a5fae84c51db635e5fbe85c22530c64ee">Font::setTypefaceStyle</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>typefaceStyle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Changes the font style of the typeface. </p>
-<p>e.g. "Regular", "Italic", etc. </p>
-
-</div>
-</div>
 <a class="anchor" id="a5c7bb70dc22a35c23ebc4b685b679556"></a>
 <div class="memitem">
 <div class="memproto">
@@ -644,7 +626,47 @@ Static Public Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Returns the font style of the typeface that this font uses. </p>
-<p>e.g. "Regular", "Italic", etc. </p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classFont.html#a26442e5b4da40871d16a35497bb3126b" title="Returns a copy of this font with a new typeface style.">withTypefaceStyle</a>, <a class="el" href="classFont.html#ae381cbed77eed2b1e69f735906b3bf26" title="Returns a list of the styles that this font can use.">getAvailableStyles()</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a844b7f87922aabf01971921f44d2662f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classFont.html#a844b7f87922aabf01971921f44d2662f">Font::setTypefaceStyle</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>newStyle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Changes the font style of the typeface. </p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classFont.html#ae381cbed77eed2b1e69f735906b3bf26" title="Returns a list of the styles that this font can use.">getAvailableStyles()</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a26442e5b4da40871d16a35497bb3126b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classFont.html">Font</a> <a class="el" href="classFont.html#a26442e5b4da40871d16a35497bb3126b">Font::withTypefaceStyle</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>newStyle</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns a copy of this font with a new typeface style. </p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classFont.html#ae381cbed77eed2b1e69f735906b3bf26" title="Returns a list of the styles that this font can use.">getAvailableStyles()</a> </dd></dl>
 
 </div>
 </div>
@@ -747,7 +769,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Returns a typeface font style that represents the default sans-serif font. </p>
 <p>Note that this method just returns a generic placeholder string that means "the default
         font style" - it's not the actual font style of this font.</p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classFont.html#a5fae84c51db635e5fbe85c22530c64ee" title="Changes the font style of the typeface.">setTypefaceStyle</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classFont.html#a844b7f87922aabf01971921f44d2662f" title="Changes the font style of the typeface.">setTypefaceStyle</a> </dd></dl>
 
 </div>
 </div>
@@ -1494,7 +1516,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Returns a list of all the available typeface font styles. </p>
-<p>The names returned can be passed into <a class="el" href="classFont.html#a5fae84c51db635e5fbe85c22530c64ee" title="Changes the font style of the typeface.">setTypefaceStyle()</a>.</p>
+<p>The names returned can be passed into <a class="el" href="classFont.html#a844b7f87922aabf01971921f44d2662f" title="Changes the font style of the typeface.">setTypefaceStyle()</a>.</p>
 <p>You can use this instead of <a class="el" href="classFont.html#a95f7587d2f1bb76329f4f09444b09cdb" title="Creates an array of Font objects to represent all the fonts on the system.">findFonts()</a> if you only need their styles, and not font objects. </p>
 
 </div>

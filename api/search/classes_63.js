@@ -23,6 +23,7 @@ var searchData=
   ['colour',['Colour',['../classColour.html',1,'']]],
   ['colourgradient',['ColourGradient',['../classColourGradient.html',1,'']]],
   ['colours',['Colours',['../classColours.html',1,'']]],
+  ['colourscheme',['ColourScheme',['../structCodeEditorComponent_1_1ColourScheme.html',1,'CodeEditorComponent']]],
   ['colourselector',['ColourSelector',['../classColourSelector.html',1,'']]],
   ['combobox',['ComboBox',['../classComboBox.html',1,'']]],
   ['component',['Component',['../classComponent.html',1,'']]],

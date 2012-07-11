@@ -111,6 +111,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab7643beefa078bb4692dbfff40f6f3bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classHeapBlock.html" title="Very simple container class to hold a pointer to some data on the heap.">HeapBlock</a> which is initially just a null pointer.  <a href="#ab7643beefa078bb4692dbfff40f6f3bb"></a><br/></td></tr>
 <tr class="memitem:a31427ded49cc996e6f894f124c4aa5ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeapBlock.html#a31427ded49cc996e6f894f124c4aa5ba">HeapBlock</a> (const size_t numElements)</td></tr>
 <tr class="memdesc:a31427ded49cc996e6f894f124c4aa5ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classHeapBlock.html" title="Very simple container class to hold a pointer to some data on the heap.">HeapBlock</a> containing a number of elements.  <a href="#a31427ded49cc996e6f894f124c4aa5ba"></a><br/></td></tr>
+<tr class="memitem:adcd966a89c09b50e2fa4efc1a7b20ca6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeapBlock.html#adcd966a89c09b50e2fa4efc1a7b20ca6">HeapBlock</a> (const size_t numElements, const bool initialiseToZero)</td></tr>
+<tr class="memdesc:adcd966a89c09b50e2fa4efc1a7b20ca6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classHeapBlock.html" title="Very simple container class to hold a pointer to some data on the heap.">HeapBlock</a> containing a number of elements.  <a href="#adcd966a89c09b50e2fa4efc1a7b20ca6"></a><br/></td></tr>
 <tr class="memitem:abf392fafab8530d45132eaeb81ff372d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeapBlock.html#abf392fafab8530d45132eaeb81ff372d">~HeapBlock</a> ()</td></tr>
 <tr class="memdesc:abf392fafab8530d45132eaeb81ff372d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#abf392fafab8530d45132eaeb81ff372d"></a><br/></td></tr>
 <tr class="memitem:af6d00012477feaaab90bcf100d05d08a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeapBlock.html#af6d00012477feaaab90bcf100d05d08a">operator ElementType *</a> () const noexcept</td></tr>
@@ -137,8 +139,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1a196c4ebdb6a5ff9517e262b91894cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates a specified amount of memory.  <a href="#a1a196c4ebdb6a5ff9517e262b91894cf"></a><br/></td></tr>
 <tr class="memitem:a59dc4dfb0d05906164f4362b2086cd50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeapBlock.html#a59dc4dfb0d05906164f4362b2086cd50">calloc</a> (const size_t newNumElements, const size_t elementSize=sizeof(ElementType))</td></tr>
 <tr class="memdesc:a59dc4dfb0d05906164f4362b2086cd50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates a specified amount of memory and clears it.  <a href="#a59dc4dfb0d05906164f4362b2086cd50"></a><br/></td></tr>
-<tr class="memitem:a6142bbfb0792bf92dea3046ec3eb8f7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeapBlock.html#a6142bbfb0792bf92dea3046ec3eb8f7a">allocate</a> (const size_t newNumElements, const bool initialiseToZero)</td></tr>
-<tr class="memdesc:a6142bbfb0792bf92dea3046ec3eb8f7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates a specified amount of memory and optionally clears it.  <a href="#a6142bbfb0792bf92dea3046ec3eb8f7a"></a><br/></td></tr>
+<tr class="memitem:a4e999ff1f7ed59dd4546596447059cc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeapBlock.html#a4e999ff1f7ed59dd4546596447059cc7">allocate</a> (const size_t newNumElements, bool initialiseToZero)</td></tr>
+<tr class="memdesc:a4e999ff1f7ed59dd4546596447059cc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates a specified amount of memory and optionally clears it.  <a href="#a4e999ff1f7ed59dd4546596447059cc7"></a><br/></td></tr>
 <tr class="memitem:a75f22feaa5bb7278e6a6234ec5d19778"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeapBlock.html#a75f22feaa5bb7278e6a6234ec5d19778">realloc</a> (const size_t newNumElements, const size_t elementSize=sizeof(ElementType))</td></tr>
 <tr class="memdesc:a75f22feaa5bb7278e6a6234ec5d19778"><td class="mdescLeft">&#160;</td><td class="mdescRight">Re-allocates a specified amount of memory.  <a href="#a75f22feaa5bb7278e6a6234ec5d19778"></a><br/></td></tr>
 <tr class="memitem:a5533b239d1c8d763064c196397bb839d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeapBlock.html#a5533b239d1c8d763064c196397bb839d">free</a> ()</td></tr>
@@ -215,7 +217,39 @@ template&lt;class ElementType, bool throwOnFailure = false&gt; </div>
 
 <p>Creates a <a class="el" href="classHeapBlock.html" title="Very simple container class to hold a pointer to some data on the heap.">HeapBlock</a> containing a number of elements. </p>
 <p>The contents of the block are undefined, as it will have been created by a malloc call.</p>
-<p>If you want an array of zero values, you can use the <a class="el" href="classHeapBlock.html#a59dc4dfb0d05906164f4362b2086cd50" title="Allocates a specified amount of memory and clears it.">calloc()</a> method instead. </p>
+<p>If you want an array of zero values, you can use the <a class="el" href="classHeapBlock.html#a59dc4dfb0d05906164f4362b2086cd50" title="Allocates a specified amount of memory and clears it.">calloc()</a> method or the other constructor that takes an InitialisationState parameter. </p>
+
+</div>
+</div>
+<a class="anchor" id="adcd966a89c09b50e2fa4efc1a7b20ca6"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ElementType, bool throwOnFailure = false&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classHeapBlock.html">HeapBlock</a>&lt; ElementType, throwOnFailure &gt;::<a class="el" href="classHeapBlock.html">HeapBlock</a> </td>
+          <td>(</td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>numElements</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>initialiseToZero</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Creates a <a class="el" href="classHeapBlock.html" title="Very simple container class to hold a pointer to some data on the heap.">HeapBlock</a> containing a number of elements. </p>
+<p>The initialiseToZero parameter determines whether the new memory should be cleared, or left uninitialised. </p>
 
 </div>
 </div>
@@ -472,7 +506,7 @@ template&lt;class ElementType, bool throwOnFailure = false&gt; </div>
 <p>The number of bytes allocated will be (newNumElements * elementSize). Normally you wouldn't need to specify the second parameter, but it can be handy if you need to allocate a size in bytes rather than in terms of the number of elements.</p>
 <p>The data that is allocated will be freed when this object is deleted, or when you call <a class="el" href="classHeapBlock.html#a5533b239d1c8d763064c196397bb839d" title="Frees any currently-allocated data.">free()</a> or any of the allocation methods. </p>
 
-<p>Referenced by <a class="el" href="classHeapBlock.html#a6142bbfb0792bf92dea3046ec3eb8f7a">HeapBlock&lt; ObjectClass * &gt;::allocate()</a>, <a class="el" href="classHeapBlock.html#a1a196c4ebdb6a5ff9517e262b91894cf">HeapBlock&lt; ObjectClass * &gt;::malloc()</a>, and <a class="el" href="classHeapBlock.html#a75f22feaa5bb7278e6a6234ec5d19778">HeapBlock&lt; ObjectClass * &gt;::realloc()</a>.</p>
+<p>Referenced by <a class="el" href="classHeapBlock.html#a4e999ff1f7ed59dd4546596447059cc7">HeapBlock&lt; ObjectClass * &gt;::allocate()</a>, <a class="el" href="classHeapBlock.html#a1a196c4ebdb6a5ff9517e262b91894cf">HeapBlock&lt; ObjectClass * &gt;::malloc()</a>, and <a class="el" href="classHeapBlock.html#a75f22feaa5bb7278e6a6234ec5d19778">HeapBlock&lt; ObjectClass * &gt;::realloc()</a>.</p>
 
 </div>
 </div>
@@ -506,18 +540,18 @@ template&lt;class ElementType, bool throwOnFailure = false&gt; </div>
 <p>Allocates a specified amount of memory and clears it. </p>
 <p>This does the same job as the <a class="el" href="classHeapBlock.html#a1a196c4ebdb6a5ff9517e262b91894cf" title="Allocates a specified amount of memory.">malloc()</a> method, but clears the memory that it allocates. </p>
 
-<p>Referenced by <a class="el" href="classHeapBlock.html#a6142bbfb0792bf92dea3046ec3eb8f7a">HeapBlock&lt; ObjectClass * &gt;::allocate()</a>, and <a class="el" href="classHeapBlock.html#a59dc4dfb0d05906164f4362b2086cd50">HeapBlock&lt; ObjectClass * &gt;::calloc()</a>.</p>
+<p>Referenced by <a class="el" href="classHeapBlock.html#a4e999ff1f7ed59dd4546596447059cc7">HeapBlock&lt; ObjectClass * &gt;::allocate()</a>, and <a class="el" href="classHeapBlock.html#a59dc4dfb0d05906164f4362b2086cd50">HeapBlock&lt; ObjectClass * &gt;::calloc()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6142bbfb0792bf92dea3046ec3eb8f7a"></a>
+<a class="anchor" id="a4e999ff1f7ed59dd4546596447059cc7"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class ElementType, bool throwOnFailure = false&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classHeapBlock.html">HeapBlock</a>&lt; ElementType, throwOnFailure &gt;::<a class="el" href="classHeapBlock.html#a6142bbfb0792bf92dea3046ec3eb8f7a">allocate</a> </td>
+          <td class="memname">void <a class="el" href="classHeapBlock.html">HeapBlock</a>&lt; ElementType, throwOnFailure &gt;::<a class="el" href="classHeapBlock.html#a4e999ff1f7ed59dd4546596447059cc7">allocate</a> </td>
           <td>(</td>
           <td class="paramtype">const size_t&#160;</td>
           <td class="paramname"><em>newNumElements</em>, </td>
@@ -525,7 +559,7 @@ template&lt;class ElementType, bool throwOnFailure = false&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const bool&#160;</td>
+          <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>initialiseToZero</em>&#160;</td>
         </tr>
         <tr>
@@ -595,7 +629,7 @@ template&lt;class ElementType, bool throwOnFailure = false&gt; </div>
 <p>Frees any currently-allocated data. </p>
 <p>This will free the data and reset this object to be a null pointer. </p>
 
-<p>Referenced by <a class="el" href="classHeapBlock.html#a6142bbfb0792bf92dea3046ec3eb8f7a">HeapBlock&lt; ObjectClass * &gt;::allocate()</a>, <a class="el" href="classHeapBlock.html#a59dc4dfb0d05906164f4362b2086cd50">HeapBlock&lt; ObjectClass * &gt;::calloc()</a>, <a class="el" href="classHeapBlock.html#a5533b239d1c8d763064c196397bb839d">HeapBlock&lt; ObjectClass * &gt;::free()</a>, <a class="el" href="classHeapBlock.html#a1a196c4ebdb6a5ff9517e262b91894cf">HeapBlock&lt; ObjectClass * &gt;::malloc()</a>, <a class="el" href="classArrayAllocationBase.html#a56354968cbfcf19977aae75b00768df6">ArrayAllocationBase&lt; ProgressBar *, DummyCriticalSection &gt;::setAllocatedSize()</a>, and <a class="el" href="classHeapBlock.html#abf392fafab8530d45132eaeb81ff372d">HeapBlock&lt; ObjectClass * &gt;::~HeapBlock()</a>.</p>
+<p>Referenced by <a class="el" href="classHeapBlock.html#a4e999ff1f7ed59dd4546596447059cc7">HeapBlock&lt; ObjectClass * &gt;::allocate()</a>, <a class="el" href="classHeapBlock.html#a59dc4dfb0d05906164f4362b2086cd50">HeapBlock&lt; ObjectClass * &gt;::calloc()</a>, <a class="el" href="classHeapBlock.html#a5533b239d1c8d763064c196397bb839d">HeapBlock&lt; ObjectClass * &gt;::free()</a>, <a class="el" href="classHeapBlock.html#a1a196c4ebdb6a5ff9517e262b91894cf">HeapBlock&lt; ObjectClass * &gt;::malloc()</a>, <a class="el" href="classArrayAllocationBase.html#a56354968cbfcf19977aae75b00768df6">ArrayAllocationBase&lt; ProgressBar *, DummyCriticalSection &gt;::setAllocatedSize()</a>, and <a class="el" href="classHeapBlock.html#abf392fafab8530d45132eaeb81ff372d">HeapBlock&lt; ObjectClass * &gt;::~HeapBlock()</a>.</p>
 
 </div>
 </div>

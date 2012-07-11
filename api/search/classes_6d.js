@@ -38,6 +38,7 @@ var searchData=
   ['mouseevent',['MouseEvent',['../classMouseEvent.html',1,'']]],
   ['mouseinputsource',['MouseInputSource',['../classMouseInputSource.html',1,'']]],
   ['mouselistener',['MouseListener',['../classMouseListener.html',1,'']]],
+  ['mousewheeldetails',['MouseWheelDetails',['../structMouseWheelDetails.html',1,'']]],
   ['multidocumentpanel',['MultiDocumentPanel',['../classMultiDocumentPanel.html',1,'']]],
   ['multidocumentpanelwindow',['MultiDocumentPanelWindow',['../classMultiDocumentPanelWindow.html',1,'']]],
   ['multitimer',['MultiTimer',['../classMultiTimer.html',1,'']]]

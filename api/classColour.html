@@ -192,6 +192,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9910d9b8385825a87ea0d62d96115872"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a darker version of this colour.  <a href="#a9910d9b8385825a87ea0d62d96115872"></a><br/></td></tr>
 <tr class="memitem:a50e8a45cda60f6853cb74ed1ff1fb7d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classColour.html">Colour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classColour.html#a50e8a45cda60f6853cb74ed1ff1fb7d7">contrasting</a> (float amount=1.0f) const noexcept</td></tr>
 <tr class="memdesc:a50e8a45cda60f6853cb74ed1ff1fb7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a colour that will be clearly visible against this colour.  <a href="#a50e8a45cda60f6853cb74ed1ff1fb7d7"></a><br/></td></tr>
+<tr class="memitem:ab16f40fd5c82c7ad9ff6df8ffe71ffc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classColour.html">Colour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classColour.html#ab16f40fd5c82c7ad9ff6df8ffe71ffc4">contrasting</a> (const <a class="el" href="classColour.html">Colour</a> &amp;targetColour, float minLuminosityDiff) const noexcept</td></tr>
+<tr class="memdesc:ab16f40fd5c82c7ad9ff6df8ffe71ffc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a colour that is as close as possible to a target colour whilst still being in contrast to this one.  <a href="#ab16f40fd5c82c7ad9ff6df8ffe71ffc4"></a><br/></td></tr>
 <tr class="memitem:a76b64c58ab48c2655c5632eb3e17d269"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classColour.html#a76b64c58ab48c2655c5632eb3e17d269">toString</a> () const </td></tr>
 <tr class="memdesc:a76b64c58ab48c2655c5632eb3e17d269"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a stringified version of this colour.  <a href="#a76b64c58ab48c2655c5632eb3e17d269"></a><br/></td></tr>
 <tr class="memitem:af67d6e061dcf0429339fe6b8b999ece6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classColour.html#af67d6e061dcf0429339fe6b8b999ece6">toDisplayString</a> (bool includeAlphaValue) const </td></tr>
@@ -1337,6 +1339,36 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab16f40fd5c82c7ad9ff6df8ffe71ffc4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classColour.html">Colour</a> <a class="el" href="classColour.html#a50e8a45cda60f6853cb74ed1ff1fb7d7">Colour::contrasting</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classColour.html">Colour</a> &amp;&#160;</td>
+          <td class="paramname"><em>targetColour</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>minLuminosityDiff</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns a colour that is as close as possible to a target colour whilst still being in contrast to this one. </p>
+<p>The colour that is returned will be the targetColour, but with its luminosity nudged up or down so that it differs from the luminosity of this colour by at least the amount specified by minLuminosityDiff. </p>
+
+</div>
+</div>
 <a class="anchor" id="a20014d32c528b4eeaaacf6c36973a845"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1363,8 +1395,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Returns a colour that contrasts against two colours. </p>
-<p>Looks for a colour that contrasts with both of the colours passed-in.</p>
-<p>Handy for things like choosing a highlight colour in text editors, etc. </p>
+<p>Looks for a colour that contrasts with both of the colours passed-in. Handy for things like choosing a highlight colour in text editors, etc. </p>
 
 </div>
 </div>

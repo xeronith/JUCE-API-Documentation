@@ -133,6 +133,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a01fcbe4292ce03cf988aa55996dabaab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObjectPtr.html#a01fcbe4292ce03cf988aa55996dabaab">operator ReferenceCountedObjectClass *</a> () const noexcept</td></tr>
 <tr class="memdesc:a01fcbe4292ce03cf988aa55996dabaab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the object that this pointer references.  <a href="#a01fcbe4292ce03cf988aa55996dabaab"></a><br/></td></tr>
 <tr class="memitem:aa053a26ba9a570e1be9687f38b1de901"><td class="memItemLeft" align="right" valign="top">ReferenceCountedObjectClass *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObjectPtr.html#aa053a26ba9a570e1be9687f38b1de901">operator-&gt;</a> () const noexcept</td></tr>
+<tr class="memitem:a2b6c2b16063894a07460d0cf02d8ab81"><td class="memItemLeft" align="right" valign="top">ReferenceCountedObjectClass *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObjectPtr.html#a2b6c2b16063894a07460d0cf02d8ab81">get</a> () const noexcept</td></tr>
+<tr class="memdesc:a2b6c2b16063894a07460d0cf02d8ab81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the object that this pointer references.  <a href="#a2b6c2b16063894a07460d0cf02d8ab81"></a><br/></td></tr>
 <tr class="memitem:a59d586eb8a3dcb9b64a5ac8bae1e8171"><td class="memItemLeft" align="right" valign="top">ReferenceCountedObjectClass *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObjectPtr.html#a59d586eb8a3dcb9b64a5ac8bae1e8171">getObject</a> () const noexcept</td></tr>
 <tr class="memdesc:a59d586eb8a3dcb9b64a5ac8bae1e8171"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the object that this pointer references.  <a href="#a59d586eb8a3dcb9b64a5ac8bae1e8171"></a><br/></td></tr>
 </table>
@@ -383,6 +385,29 @@ template&lt;class ReferenceCountedObjectClass&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a2b6c2b16063894a07460d0cf02d8ab81"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ReferenceCountedObjectClass&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">ReferenceCountedObjectClass* <a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a>&lt; ReferenceCountedObjectClass &gt;::<a class="el" href="classReferenceCountedObjectPtr.html#a2b6c2b16063894a07460d0cf02d8ab81">get</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns the object that this pointer references. </p>
+<p>The pointer returned may be zero, of course. </p>
+
+<p>Referenced by <a class="el" href="classWeakReference_1_1Master.html#a90365081e5448c6a7db4b5d21d877fed">WeakReference&lt; ObjectType, ReferenceCountingType &gt;::Master::getSharedPointer()</a>, <a class="el" href="classReferenceCountedObjectPtr.html#a07d0014669d6d3684113d6096dabc12d">ReferenceCountedObjectPtr&lt; ImagePixelData &gt;::operator=()</a>, and <a class="el" href="classWeakReference_1_1Master.html#aedb7f1e4346eea98cf52d9e4245d7515">WeakReference&lt; ObjectType, ReferenceCountingType &gt;::Master::~Master()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a59d586eb8a3dcb9b64a5ac8bae1e8171"></a>
 <div class="memitem">
 <div class="memproto">
@@ -401,8 +426,6 @@ template&lt;class ReferenceCountedObjectClass&gt; </div>
 
 <p>Returns the object that this pointer references. </p>
 <p>The pointer returned may be zero, of course. </p>
-
-<p>Referenced by <a class="el" href="classReferenceCountedObjectPtr.html#a07d0014669d6d3684113d6096dabc12d">ReferenceCountedObjectPtr&lt; ImagePixelData &gt;::operator=()</a>.</p>
 
 </div>
 </div>

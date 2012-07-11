@@ -94,7 +94,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">DropShadowEffect Class Reference</div>  </div>
 </div><!--header-->
@@ -115,7 +116,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab74475a46901a77353310c39c82af5bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ab74475a46901a77353310c39c82af5bd"></a><br/></td></tr>
 <tr class="memitem:adcfe0d311851f728cc68ef521d8e4f4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDropShadowEffect.html#adcfe0d311851f728cc68ef521d8e4f4a">setShadowProperties</a> (float newRadius, float newOpacity, int newShadowOffsetX, int newShadowOffsetY)</td></tr>
 <tr class="memdesc:adcfe0d311851f728cc68ef521d8e4f4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up parameters affecting the shadow's appearance.  <a href="#adcfe0d311851f728cc68ef521d8e4f4a"></a><br/></td></tr>
-<tr class="memitem:ab8098076d1123a44b4427135aa234f42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDropShadowEffect.html#ab8098076d1123a44b4427135aa234f42">applyEffect</a> (<a class="el" href="classImage.html">Image</a> &amp;sourceImage, <a class="el" href="classGraphics.html">Graphics</a> &amp;destContext, float alpha)</td></tr>
+<tr class="memitem:aeee3f19864372e9c6ef4623df4e5a686"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDropShadowEffect.html#aeee3f19864372e9c6ef4623df4e5a686">applyEffect</a> (<a class="el" href="classImage.html">Image</a> &amp;sourceImage, <a class="el" href="classGraphics.html">Graphics</a> &amp;destContext, float scaleFactor, float alpha)</td></tr>
+<tr><td colspan="2"><h2><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a68590ffb0c86dbee0530e843ea147aa4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDropShadowEffect.html#a68590ffb0c86dbee0530e843ea147aa4">drawShadow</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, const <a class="el" href="classImage.html">Image</a> &amp;srcImage, float radius, float alpha, int offsetX, int offsetY)</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>An effect filter that adds a drop-shadow behind the image's content. </p>
@@ -212,12 +216,63 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab8098076d1123a44b4427135aa234f42"></a>
+<a class="anchor" id="a68590ffb0c86dbee0530e843ea147aa4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classDropShadowEffect.html#ab8098076d1123a44b4427135aa234f42">DropShadowEffect::applyEffect</a> </td>
+          <td class="memname">static void <a class="el" href="classDropShadowEffect.html#a68590ffb0c86dbee0530e843ea147aa4">DropShadowEffect::drawShadow</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
+          <td class="paramname"><em>g</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classImage.html">Image</a> &amp;&#160;</td>
+          <td class="paramname"><em>srcImage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offsetX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offsetY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aeee3f19864372e9c6ef4623df4e5a686"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classDropShadowEffect.html#aeee3f19864372e9c6ef4623df4e5a686">DropShadowEffect::applyEffect</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classImage.html">Image</a> &amp;&#160;</td>
           <td class="paramname"><em>sourceImage</em>, </td>
@@ -227,6 +282,12 @@ Public Member Functions</h2></td></tr>
           <td></td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
           <td class="paramname"><em>destContext</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaleFactor</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -243,7 +304,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Implements <a class="el" href="classImageEffectFilter.html#a8ff8eb4bfd3eb3835f8595003abb0520">ImageEffectFilter</a>.</p>
+<p>Implements <a class="el" href="classImageEffectFilter.html#afcdcb809146e0774b8d7ca24591771ad">ImageEffectFilter</a>.</p>
 
 </div>
 </div>

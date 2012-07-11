@@ -199,8 +199,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5b7af4934f210ed155c05447d0dda5c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a polygon shape to the path.  <a href="#a5b7af4934f210ed155c05447d0dda5c3"></a><br/></td></tr>
 <tr class="memitem:ad80a7129c4583e170931a95ec33b68d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#ad80a7129c4583e170931a95ec33b68d0">addStar</a> (const <a class="el" href="classPoint.html">Point</a>&lt; float &gt; &amp;centre, int numberOfPoints, float innerRadius, float outerRadius, float startAngle=0.0f)</td></tr>
 <tr class="memdesc:ad80a7129c4583e170931a95ec33b68d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a star shape to the path.  <a href="#ad80a7129c4583e170931a95ec33b68d0"></a><br/></td></tr>
-<tr class="memitem:a2f04d8b05aad78f8624fe2d1a470d7d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#a2f04d8b05aad78f8624fe2d1a470d7d5">addBubble</a> (float bodyX, float bodyY, float bodyW, float bodyH, float cornerSize, float arrowTipX, float arrowTipY, int whichSide, float arrowPositionAlongEdgeProportional, float arrowWidth)</td></tr>
-<tr class="memdesc:a2f04d8b05aad78f8624fe2d1a470d7d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a speech-bubble shape to the path.  <a href="#a2f04d8b05aad78f8624fe2d1a470d7d5"></a><br/></td></tr>
+<tr class="memitem:ae3cb819923fd986f9101fd0097ffb023"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#ae3cb819923fd986f9101fd0097ffb023">addBubble</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;bodyArea, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;maximumArea, const <a class="el" href="classPoint.html">Point</a>&lt; float &gt; &amp;arrowTipPosition, const float cornerSize, const float arrowBaseWidth)</td></tr>
+<tr class="memdesc:ae3cb819923fd986f9101fd0097ffb023"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a speech-bubble shape to the path.  <a href="#ae3cb819923fd986f9101fd0097ffb023"></a><br/></td></tr>
 <tr class="memitem:ad2d6833a36f348ab33a83309e3956c00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#ad2d6833a36f348ab33a83309e3956c00">addPath</a> (const <a class="el" href="classPath.html">Path</a> &amp;pathToAppend)</td></tr>
 <tr class="memdesc:ad2d6833a36f348ab33a83309e3956c00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds another path to this one.  <a href="#ad2d6833a36f348ab33a83309e3956c00"></a><br/></td></tr>
 <tr class="memitem:a12aa38ff3ea67622b43bac7791257865"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#a12aa38ff3ea67622b43bac7791257865">addPath</a> (const <a class="el" href="classPath.html">Path</a> &amp;pathToAppend, const <a class="el" href="classAffineTransform.html">AffineTransform</a> &amp;transformToApply)</td></tr>
@@ -1780,69 +1780,39 @@ template&lt;typename ValueType &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a2f04d8b05aad78f8624fe2d1a470d7d5"></a>
+<a class="anchor" id="ae3cb819923fd986f9101fd0097ffb023"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classPath.html#a2f04d8b05aad78f8624fe2d1a470d7d5">Path::addBubble</a> </td>
+          <td class="memname">void <a class="el" href="classPath.html#ae3cb819923fd986f9101fd0097ffb023">Path::addBubble</a> </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>bodyX</em>, </td>
+          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>bodyArea</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>bodyY</em>, </td>
+          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>maximumArea</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>bodyW</em>, </td>
+          <td class="paramtype">const <a class="el" href="classPoint.html">Point</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>arrowTipPosition</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>bodyH</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype">const float&#160;</td>
           <td class="paramname"><em>cornerSize</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>arrowTipX</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>arrowTipY</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>whichSide</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>arrowPositionAlongEdgeProportional</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>arrowWidth</em>&#160;</td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>arrowBaseWidth</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1856,16 +1826,11 @@ template&lt;typename ValueType &gt; </div>
 <p>Adds a speech-bubble shape to the path. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname">bodyX</td><td>the left of the main body area of the bubble </td></tr>
-    <tr><td class="paramname">bodyY</td><td>the top of the main body area of the bubble </td></tr>
-    <tr><td class="paramname">bodyW</td><td>the width of the main body area of the bubble </td></tr>
-    <tr><td class="paramname">bodyH</td><td>the height of the main body area of the bubble </td></tr>
-    <tr><td class="paramname">cornerSize</td><td>the amount by which to round off the corners of the main body rectangle </td></tr>
-    <tr><td class="paramname">arrowTipX</td><td>the x position that the tip of the arrow should connect to </td></tr>
-    <tr><td class="paramname">arrowTipY</td><td>the y position that the tip of the arrow should connect to </td></tr>
-    <tr><td class="paramname">whichSide</td><td>the side to connect the arrow to: 0 = top, 1 = left, 2 = bottom, 3 = right </td></tr>
-    <tr><td class="paramname">arrowPositionAlongEdgeProportional</td><td>how far along the edge of the main rectangle the arrow's base should be - this is a proportional distance between 0 and 1.0 </td></tr>
-    <tr><td class="paramname">arrowWidth</td><td>how wide the base of the arrow should be where it joins the main rectangle </td></tr>
+    <tr><td class="paramname">bodyArea</td><td>the area of the body of the bubble shape </td></tr>
+    <tr><td class="paramname">maximumArea</td><td>an area which encloses the body area and defines the limits within which the arrow tip can be drawn - if the tip lies outside this area, the bubble will be drawn without an arrow </td></tr>
+    <tr><td class="paramname">arrowTipPosition</td><td>the location of the tip of the arrow </td></tr>
+    <tr><td class="paramname">cornerSize</td><td>the size of the rounded corners </td></tr>
+    <tr><td class="paramname">arrowBaseWidth</td><td>the width of the base of the arrow where it joins the main rectangle </td></tr>
   </table>
   </dd>
 </dl>

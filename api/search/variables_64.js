@@ -26,6 +26,8 @@ var searchData=
   ['defaultkeypresses',['defaultKeypresses',['../structApplicationCommandInfo.html#acae1903bdfd8214162adb8326d1ee9da',1,'ApplicationCommandInfo']]],
   ['defaulttolerance',['defaultTolerance',['../classPathFlatteningIterator.html#af803d3dccc84d7e2a71d77fcbadcd650',1,'PathFlatteningIterator']]],
   ['deletekey',['deleteKey',['../classKeyPress.html#ae568c9aba033acf0c24390f24304b9e5',1,'KeyPress']]],
+  ['deltax',['deltaX',['../structMouseWheelDetails.html#a09f65902f9a85a4c035cfdd350195666',1,'MouseWheelDetails']]],
+  ['deltay',['deltaY',['../structMouseWheelDetails.html#af2fbbe8a59ef8e84f7bbe5a2cd441fbe',1,'MouseWheelDetails']]],
   ['depthbufferbits',['depthBufferBits',['../classOpenGLPixelFormat.html#a9783fd7c1c9d5ade28eac2eb7c710be4',1,'OpenGLPixelFormat']]],
   ['descent',['descent',['../classTextLayout_1_1Line.html#af361532452a96a85ccd9098e5269fbcd',1,'TextLayout::Line']]],
   ['description',['description',['../classExpression_1_1ParseError.html#a76b05c714f501d1ea82859f190315ac4',1,'Expression::ParseError::description()'],['../structApplicationCommandInfo.html#a9d36981d292001925176c0be0d2e6b3a',1,'ApplicationCommandInfo::description()'],['../classFileFilter.html#a405f80abc17801d969bbaab30b4cec10',1,'FileFilter::description()'],['../classDragAndDropTarget_1_1SourceDetails.html#a48087c787b2d1f08f84ba7bd6c5c6eec',1,'DragAndDropTarget::SourceDetails::description()']]],

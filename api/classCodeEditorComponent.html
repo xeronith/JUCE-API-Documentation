@@ -94,6 +94,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a>  </div>
   <div class="headertitle">
@@ -108,11 +109,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p><a href="classCodeEditorComponent-members.html">List of all members.</a></p>
 <table class="memberdecls">
+<tr><td colspan="2"><h2><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCodeEditorComponent_1_1ColourScheme.html">ColourScheme</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCodeEditorComponent_1_1State.html">State</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be used to save and restore the editor's caret position, selection state, etc.  <a href="structCodeEditorComponent_1_1State.html#details">More...</a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a452d8416080619c9b4984bc97e85a596"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596">ColourIds</a> { <a class="el" href="classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596aab761a6dbaa4bf78a14e346dc2d416c8">backgroundColourId</a> =  0x1004500, 
+<tr class="memitem:a452d8416080619c9b4984bc97e85a596"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596">ColourIds</a> { <br/>
+&#160;&#160;<a class="el" href="classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596aab761a6dbaa4bf78a14e346dc2d416c8">backgroundColourId</a> =  0x1004500, 
 <a class="el" href="classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596ae30c71457d23fcf0ff18ce56195107cf">highlightColourId</a> =  0x1004502, 
-<a class="el" href="classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596aebfaf17bcdaf7960adf28fc44355a51d">defaultTextColourId</a> =  0x1004503
+<a class="el" href="classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596aebfaf17bcdaf7960adf28fc44355a51d">defaultTextColourId</a> =  0x1004503, 
+<a class="el" href="classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596ae61ab632da4a17cbbf39b5ca0c8d38eb">lineNumberBackgroundId</a> =  0x1004504, 
+<br/>
+&#160;&#160;<a class="el" href="classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596a09a47043a26cf39eb7f56e3f9596c8c2">lineNumberTextId</a> =  0x1004505
+<br/>
  }</td></tr>
 <tr class="memdesc:a452d8416080619c9b4984bc97e85a596"><td class="mdescLeft">&#160;</td><td class="mdescRight">A set of colour IDs to use to change the colour of various aspects of the editor.  <a href="classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596">More...</a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
@@ -131,6 +142,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a046f4031bd9d396e0e5f93f19c732aac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the height of a line of text, in pixels.  <a href="#a046f4031bd9d396e0e5f93f19c732aac"></a><br/></td></tr>
 <tr class="memitem:a5e0e2e440c0e05f5eb37aec7f5cc3ce7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a5e0e2e440c0e05f5eb37aec7f5cc3ce7">getNumLinesOnScreen</a> () const noexcept</td></tr>
 <tr class="memdesc:a5e0e2e440c0e05f5eb37aec7f5cc3ce7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of whole lines visible on the screen, This doesn't include a cut-off line that might be visible at the bottom if the component's height isn't an exact multiple of the line-height.  <a href="#a5e0e2e440c0e05f5eb37aec7f5cc3ce7"></a><br/></td></tr>
+<tr class="memitem:aefb5a9e2729d0f20db537861d7f451b0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#aefb5a9e2729d0f20db537861d7f451b0">getFirstLineOnScreen</a> () const noexcept</td></tr>
+<tr class="memdesc:aefb5a9e2729d0f20db537861d7f451b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the first line that's visible at the top of the editor.  <a href="#aefb5a9e2729d0f20db537861d7f451b0"></a><br/></td></tr>
 <tr class="memitem:a6dfa7f7cf2eabb1b58594bc37c640750"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a6dfa7f7cf2eabb1b58594bc37c640750">getNumColumnsOnScreen</a> () const noexcept</td></tr>
 <tr class="memdesc:a6dfa7f7cf2eabb1b58594bc37c640750"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of whole columns visible on the screen.  <a href="#a6dfa7f7cf2eabb1b58594bc37c640750"></a><br/></td></tr>
 <tr class="memitem:ad342ae37f8bf6093f46b2e9faccba948"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCodeDocument_1_1Position.html">CodeDocument::Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ad342ae37f8bf6093f46b2e9faccba948">getCaretPos</a> () const </td></tr>
@@ -143,6 +156,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a50ab6c77be869ef29afc004a64f55a32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the on-screen position of a character in the document.  <a href="#a50ab6c77be869ef29afc004a64f55a32"></a><br/></td></tr>
 <tr class="memitem:a05dedcb7ec163913bc7f907949306c17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCodeDocument_1_1Position.html">CodeDocument::Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a05dedcb7ec163913bc7f907949306c17">getPositionAt</a> (int x, int y)</td></tr>
 <tr class="memdesc:a05dedcb7ec163913bc7f907949306c17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the character at a given on-screen position.  <a href="#a05dedcb7ec163913bc7f907949306c17"></a><br/></td></tr>
+<tr class="memitem:a3408b92d61eac5cab4d14badf4b866d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a3408b92d61eac5cab4d14badf4b866d7">setLineNumbersShown</a> (bool shouldBeShown)</td></tr>
+<tr class="memdesc:a3408b92d61eac5cab4d14badf4b866d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or disables the line-number display in the gutter.  <a href="#a3408b92d61eac5cab4d14badf4b866d7"></a><br/></td></tr>
 <tr class="memitem:a632a51806070135fc19b2587d217f5db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a632a51806070135fc19b2587d217f5db">moveCaretLeft</a> (bool moveInWholeWordSteps, bool selecting)</td></tr>
 <tr class="memitem:abf7742e22a76538a728efb1037f18338"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#abf7742e22a76538a728efb1037f18338">moveCaretRight</a> (bool moveInWholeWordSteps, bool selecting)</td></tr>
 <tr class="memitem:afb9d164bf55a9332feb3f9cfeac9344a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#afb9d164bf55a9332feb3f9cfeac9344a">moveCaretUp</a> (bool selecting)</td></tr>
@@ -157,6 +172,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aac7f4faab383c6cf1179081055aaea6f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#aac7f4faab383c6cf1179081055aaea6f">moveCaretToEndOfLine</a> (bool selecting)</td></tr>
 <tr class="memitem:ae867bf29668d137a9d4edb3632dd01c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ae867bf29668d137a9d4edb3632dd01c4">deleteBackwards</a> (bool moveInWholeWordSteps)</td></tr>
 <tr class="memitem:a2fbd2473cca409c0faa16ad5d7493878"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a2fbd2473cca409c0faa16ad5d7493878">deleteForwards</a> (bool moveInWholeWordSteps)</td></tr>
+<tr class="memitem:ac283e6cf9449007138c21a84f07eaf0d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ac283e6cf9449007138c21a84f07eaf0d">deleteWhitespaceBackwardsToTabStop</a> ()</td></tr>
 <tr class="memitem:a5402fb1564c7681df6c2f8e16e0d4a99"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a5402fb1564c7681df6c2f8e16e0d4a99">copyToClipboard</a> ()</td></tr>
 <tr class="memitem:ad5d2d2bdd8a8d6afa11f64472d1ab2db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ad5d2d2bdd8a8d6afa11f64472d1ab2db">cutToClipboard</a> ()</td></tr>
 <tr class="memitem:a27d07e635b848cebdca7dfe388245a21"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a27d07e635b848cebdca7dfe388245a21">pasteFromClipboard</a> ()</td></tr>
@@ -171,6 +187,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a81419ae52c4ce4af175a4c9d330d584f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a81419ae52c4ce4af175a4c9d330d584f">insertTextAtCaret</a> (const <a class="el" href="classString.html">String</a> &amp;textToInsert)</td></tr>
 <tr class="memdesc:a81419ae52c4ce4af175a4c9d330d584f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts some text, overwriting the selected text region, if there is one.  <a href="#a81419ae52c4ce4af175a4c9d330d584f"></a><br/></td></tr>
 <tr class="memitem:a870a061b7ce31960f9c53b3214c25cf3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a870a061b7ce31960f9c53b3214c25cf3">insertTabAtCaret</a> ()</td></tr>
+<tr class="memitem:a0989f9ae06b61b843b4c5be9c9ce1a26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a0989f9ae06b61b843b4c5be9c9ce1a26">indentSelection</a> ()</td></tr>
+<tr class="memitem:ad96b0eadd14eee69dbbc4a691918d803"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ad96b0eadd14eee69dbbc4a691918d803">unindentSelection</a> ()</td></tr>
 <tr class="memitem:ad3b3054c274533d3517f9d8772c8a965"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRange.html">Range</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ad3b3054c274533d3517f9d8772c8a965">getHighlightedRegion</a> () const </td></tr>
 <tr class="memdesc:ad3b3054c274533d3517f9d8772c8a965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the extents of the selected text region, or an empty range if nothing is selected,.  <a href="#ad3b3054c274533d3517f9d8772c8a965"></a><br/></td></tr>
 <tr class="memitem:ac1f57ebd5104fac38f599a4ebbabe04a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ac1f57ebd5104fac38f599a4ebbabe04a">setHighlightedRegion</a> (const <a class="el" href="classRange.html">Range</a>&lt; int &gt; &amp;newRange)</td></tr>
@@ -187,30 +205,36 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9804e73700fc3d18c178d7138510f32d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the font.  <a href="#a9804e73700fc3d18c178d7138510f32d"></a><br/></td></tr>
 <tr class="memitem:a23600a4b29aa908c5e9d19a39a3f1c99"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classFont.html">Font</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a23600a4b29aa908c5e9d19a39a3f1c99">getFont</a> () const noexcept</td></tr>
 <tr class="memdesc:a23600a4b29aa908c5e9d19a39a3f1c99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the font that the editor is using.  <a href="#a23600a4b29aa908c5e9d19a39a3f1c99"></a><br/></td></tr>
-<tr class="memitem:a9bea10875d46eb9fdcb5a415dfda3c7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a9bea10875d46eb9fdcb5a415dfda3c7b">resetToDefaultColours</a> ()</td></tr>
-<tr class="memdesc:a9bea10875d46eb9fdcb5a415dfda3c7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the syntax highlighting colours to the default ones provided by the code tokeniser.  <a href="#a9bea10875d46eb9fdcb5a415dfda3c7b"></a><br/></td></tr>
-<tr class="memitem:ae9163b69ff2f0750313870988ce75ece"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ae9163b69ff2f0750313870988ce75ece">setColourForTokenType</a> (int tokenType, const <a class="el" href="classColour.html">Colour</a> &amp;colour)</td></tr>
-<tr class="memdesc:ae9163b69ff2f0750313870988ce75ece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes one of the syntax highlighting colours.  <a href="#ae9163b69ff2f0750313870988ce75ece"></a><br/></td></tr>
-<tr class="memitem:a120ed24ab68f677c86a4b44bde5f9426"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classColour.html">Colour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a120ed24ab68f677c86a4b44bde5f9426">getColourForTokenType</a> (int tokenType) const </td></tr>
-<tr class="memdesc:a120ed24ab68f677c86a4b44bde5f9426"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the syntax highlighting colours.  <a href="#a120ed24ab68f677c86a4b44bde5f9426"></a><br/></td></tr>
+<tr class="memitem:a4faca1aad5f908a0e35a71ca25e784b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a4faca1aad5f908a0e35a71ca25e784b1">setColourScheme</a> (const <a class="el" href="structCodeEditorComponent_1_1ColourScheme.html">ColourScheme</a> &amp;scheme)</td></tr>
+<tr class="memdesc:a4faca1aad5f908a0e35a71ca25e784b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the syntax highlighting scheme.  <a href="#a4faca1aad5f908a0e35a71ca25e784b1"></a><br/></td></tr>
+<tr class="memitem:a29d1b0b3ae5ebaa7a46bac9d912ec220"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structCodeEditorComponent_1_1ColourScheme.html">ColourScheme</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a29d1b0b3ae5ebaa7a46bac9d912ec220">getColourScheme</a> () const noexcept</td></tr>
+<tr class="memdesc:a29d1b0b3ae5ebaa7a46bac9d912ec220"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current syntax highlighting colour scheme.  <a href="#a29d1b0b3ae5ebaa7a46bac9d912ec220"></a><br/></td></tr>
+<tr class="memitem:a4eaf749ef56d7e73aa829d8abf41b49a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classColour.html">Colour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a4eaf749ef56d7e73aa829d8abf41b49a">getColourForTokenType</a> (const int tokenType) const </td></tr>
+<tr class="memdesc:a4eaf749ef56d7e73aa829d8abf41b49a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one the syntax highlighting colour for the given token.  <a href="#a4eaf749ef56d7e73aa829d8abf41b49a"></a><br/></td></tr>
 <tr class="memitem:a75ac5d9c886a72d925d62417d1171c65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a75ac5d9c886a72d925d62417d1171c65">setScrollbarThickness</a> (int thickness)</td></tr>
 <tr class="memdesc:a75ac5d9c886a72d925d62417d1171c65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the size of the scrollbars.  <a href="#a75ac5d9c886a72d925d62417d1171c65"></a><br/></td></tr>
 <tr class="memitem:ade6e0f9d0aabef8392e2bb9b41b64e92"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ade6e0f9d0aabef8392e2bb9b41b64e92">getScrollbarThickness</a> () const noexcept</td></tr>
 <tr class="memdesc:ade6e0f9d0aabef8392e2bb9b41b64e92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the thickness of the scrollbars.  <a href="#ade6e0f9d0aabef8392e2bb9b41b64e92"></a><br/></td></tr>
+<tr class="memitem:ae9512581845c99d157e793af6db9e08f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ae9512581845c99d157e793af6db9e08f">handleReturnKey</a> ()</td></tr>
+<tr class="memdesc:ae9512581845c99d157e793af6db9e08f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the return key is pressed - this can be overridden for custom behaviour.  <a href="#ae9512581845c99d157e793af6db9e08f"></a><br/></td></tr>
+<tr class="memitem:a7efe69631b0e73a50d42c117fa35c7b8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a7efe69631b0e73a50d42c117fa35c7b8">handleTabKey</a> ()</td></tr>
+<tr class="memdesc:a7efe69631b0e73a50d42c117fa35c7b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the tab key is pressed - this can be overridden for custom behaviour.  <a href="#a7efe69631b0e73a50d42c117fa35c7b8"></a><br/></td></tr>
+<tr class="memitem:a873ae3e9eb99f551754adc85ae738acb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a873ae3e9eb99f551754adc85ae738acb">handleEscapeKey</a> ()</td></tr>
+<tr class="memdesc:a873ae3e9eb99f551754adc85ae738acb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the escape key is pressed - this can be overridden for custom behaviour.  <a href="#a873ae3e9eb99f551754adc85ae738acb"></a><br/></td></tr>
+<tr class="memitem:ad53b2fb7fb3f1af076fc280d30df0785"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ad53b2fb7fb3f1af076fc280d30df0785">addPopupMenuItems</a> (<a class="el" href="classPopupMenu.html">PopupMenu</a> &amp;menuToAddTo, const <a class="el" href="classMouseEvent.html">MouseEvent</a> *mouseClickEvent)</td></tr>
+<tr class="memdesc:ad53b2fb7fb3f1af076fc280d30df0785"><td class="mdescLeft">&#160;</td><td class="mdescRight">This adds the items to the popup menu.  <a href="#ad53b2fb7fb3f1af076fc280d30df0785"></a><br/></td></tr>
+<tr class="memitem:a8472c804d4666a0c1988362895a47f22"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a8472c804d4666a0c1988362895a47f22">performPopupMenuAction</a> (int menuItemID)</td></tr>
+<tr class="memdesc:a8472c804d4666a0c1988362895a47f22"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called to perform one of the items that was shown on the popup menu.  <a href="#a8472c804d4666a0c1988362895a47f22"></a><br/></td></tr>
+<tr class="memitem:a72992760cb3666b61a54ad85ae78d2a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a72992760cb3666b61a54ad85ae78d2a6">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;)</td></tr>
 <tr class="memitem:aa74c48e652e498b6b889b90a6ecf9c89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#aa74c48e652e498b6b889b90a6ecf9c89">resized</a> ()</td></tr>
-<tr class="memitem:a7d6fc5fe3146e8b658e09437036d7c35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a7d6fc5fe3146e8b658e09437036d7c35">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g)</td></tr>
-<tr class="memitem:a339747aacfeed5eaa6759c06aea39a1e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a339747aacfeed5eaa6759c06aea39a1e">keyPressed</a> (const <a class="el" href="classKeyPress.html">KeyPress</a> &amp;key)</td></tr>
-<tr class="memitem:a272571a3330a383df691913c868b9f2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a272571a3330a383df691913c868b9f2f">mouseDown</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;e)</td></tr>
-<tr class="memitem:ab44f4aa4ec0046a660a691c9d8570ea1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ab44f4aa4ec0046a660a691c9d8570ea1">mouseDrag</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;e)</td></tr>
-<tr class="memitem:a17d6ef0d2cee0b7ec44d3b898de4a7ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a17d6ef0d2cee0b7ec44d3b898de4a7ff">mouseUp</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;e)</td></tr>
-<tr class="memitem:a1129e8a6af96e5791f270de2b4331c08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a1129e8a6af96e5791f270de2b4331c08">mouseDoubleClick</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;e)</td></tr>
-<tr class="memitem:ab1ce9252159a3648ad33646876e386f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ab1ce9252159a3648ad33646876e386f5">mouseWheelMove</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;e, float wheelIncrementX, float wheelIncrementY)</td></tr>
-<tr class="memitem:ad56b63d33678aaba1cff5b0b6386ab4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ad56b63d33678aaba1cff5b0b6386ab4f">focusGained</a> (<a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac">FocusChangeType</a> cause)</td></tr>
-<tr class="memitem:ab2b492951639827e4e1ac15db9c6a19f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ab2b492951639827e4e1ac15db9c6a19f">focusLost</a> (<a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac">FocusChangeType</a> cause)</td></tr>
-<tr class="memitem:a1b89a41143da5a250c19f96ff21b95d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a1b89a41143da5a250c19f96ff21b95d4">timerCallback</a> ()</td></tr>
-<tr class="memitem:a83bdf1f50ee4c00f19434439d6aade2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a83bdf1f50ee4c00f19434439d6aade2a">scrollBarMoved</a> (<a class="el" href="classScrollBar.html">ScrollBar</a> *scrollBarThatHasMoved, double newRangeStart)</td></tr>
-<tr class="memitem:adbf2b44811c100bff50881d2bb8e743c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#adbf2b44811c100bff50881d2bb8e743c">handleAsyncUpdate</a> ()</td></tr>
-<tr class="memitem:a31cdb82ffdc6e780257485824c47b69b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a31cdb82ffdc6e780257485824c47b69b">codeDocumentChanged</a> (const <a class="el" href="classCodeDocument_1_1Position.html">CodeDocument::Position</a> &amp;affectedTextStart, const <a class="el" href="classCodeDocument_1_1Position.html">CodeDocument::Position</a> &amp;affectedTextEnd)</td></tr>
+<tr class="memitem:aafb2585d224d04a6299546eb7496ed74"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#aafb2585d224d04a6299546eb7496ed74">keyPressed</a> (const <a class="el" href="classKeyPress.html">KeyPress</a> &amp;)</td></tr>
+<tr class="memitem:abb729a23459459f38b568304d5dfa7be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#abb729a23459459f38b568304d5dfa7be">mouseDown</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;)</td></tr>
+<tr class="memitem:a4bbe997c399f20916e128cc22353438d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a4bbe997c399f20916e128cc22353438d">mouseDrag</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;)</td></tr>
+<tr class="memitem:a22b51f31ae25fdab38e9a3d3a1acfa7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a22b51f31ae25fdab38e9a3d3a1acfa7e">mouseUp</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;)</td></tr>
+<tr class="memitem:a179e23dd0061ef4cb4076f335b5e4ea3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a179e23dd0061ef4cb4076f335b5e4ea3">mouseDoubleClick</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;)</td></tr>
+<tr class="memitem:afbe7a92f8c33b0a6d9905688831b7aab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#afbe7a92f8c33b0a6d9905688831b7aab">mouseWheelMove</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;, const <a class="el" href="structMouseWheelDetails.html">MouseWheelDetails</a> &amp;)</td></tr>
+<tr class="memitem:a5efe269e3dd97cc615bc395d5f1bf9d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a5efe269e3dd97cc615bc395d5f1bf9d2">focusGained</a> (<a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac">FocusChangeType</a>)</td></tr>
+<tr class="memitem:a57e63827ef9db2f4021a17b66452b72f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a57e63827ef9db2f4021a17b66452b72f">focusLost</a> (<a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac">FocusChangeType</a>)</td></tr>
 <tr class="memitem:a266e95c35849726666a70242556f9222"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a266e95c35849726666a70242556f9222">isTextInputActive</a> () const </td></tr>
 <tr class="memitem:a8b2b35a1abddc3b6b7a84ef6e930fea0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a8b2b35a1abddc3b6b7a84ef6e930fea0">setTemporaryUnderlining</a> (const <a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="classRange.html">Range</a>&lt; int &gt; &gt; &amp;)</td></tr>
 </table>
@@ -241,6 +265,12 @@ Public Member Functions</h2></td></tr>
 </td></tr>
 <tr><td valign="top"><em><a class="anchor" id="a452d8416080619c9b4984bc97e85a596aebfaf17bcdaf7960adf28fc44355a51d"></a>defaultTextColourId</em>&nbsp;</td><td>
 <p>The colour to use for text when no syntax colouring is enabled. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a452d8416080619c9b4984bc97e85a596ae61ab632da4a17cbbf39b5ca0c8d38eb"></a>lineNumberBackgroundId</em>&nbsp;</td><td>
+<p>The colour to use for filling the background of the line-number gutter. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a452d8416080619c9b4984bc97e85a596a09a47043a26cf39eb7f56e3f9596c8c2"></a>lineNumberTextId</em>&nbsp;</td><td>
+<p>The colour to use for drawing the line numbers. </p>
 </td></tr>
 </table>
 </dd>
@@ -275,7 +305,7 @@ Public Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Creates an editor for a document. </p>
-<p>The tokeniser object is optional - pass 0 to disable syntax highlighting. The object that you pass in is not owned or deleted by the editor - you must make sure that it doesn't get deleted while this component is still using it.</p>
+<p>The tokeniser object is optional - pass nullptr to disable syntax highlighting. The object that you pass in is not owned or deleted by the editor - you must make sure that it doesn't get deleted while this component is still using it.</p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classCodeDocument.html" title="A class for storing and manipulating a source code file.">CodeDocument</a> </dd></dl>
 
 </div>
@@ -388,6 +418,24 @@ Public Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Returns the number of whole lines visible on the screen, This doesn't include a cut-off line that might be visible at the bottom if the component's height isn't an exact multiple of the line-height. </p>
+
+</div>
+</div>
+<a class="anchor" id="aefb5a9e2729d0f20db537861d7f451b0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classCodeEditorComponent.html#aefb5a9e2729d0f20db537861d7f451b0">CodeEditorComponent::getFirstLineOnScreen</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns the index of the first line that's visible at the top of the editor. </p>
 
 </div>
 </div>
@@ -525,6 +573,25 @@ Public Member Functions</h2></td></tr>
 
 <p>Finds the character at a given on-screen position. </p>
 <p>The co-ordinates are relative to this component's top-left origin. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3408b92d61eac5cab4d14badf4b866d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#a3408b92d61eac5cab4d14badf4b866d7">CodeEditorComponent::setLineNumbersShown</a> </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>shouldBeShown</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Enables or disables the line-number display in the gutter. </p>
 
 </div>
 </div>
@@ -784,6 +851,22 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac283e6cf9449007138c21a84f07eaf0d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classCodeEditorComponent.html#ac283e6cf9449007138c21a84f07eaf0d">CodeEditorComponent::deleteWhitespaceBackwardsToTabStop</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a5402fb1564c7681df6c2f8e16e0d4a99"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1000,6 +1083,38 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a0989f9ae06b61b843b4c5be9c9ce1a26"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#a0989f9ae06b61b843b4c5be9c9ce1a26">CodeEditorComponent::indentSelection</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad96b0eadd14eee69dbbc4a691918d803"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#ad96b0eadd14eee69dbbc4a691918d803">CodeEditorComponent::unindentSelection</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ad3b3054c274533d3517f9d8772c8a965"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1168,64 +1283,53 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9bea10875d46eb9fdcb5a415dfda3c7b"></a>
+<a class="anchor" id="a4faca1aad5f908a0e35a71ca25e784b1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#a9bea10875d46eb9fdcb5a415dfda3c7b">CodeEditorComponent::resetToDefaultColours</a> </td>
+          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#a4faca1aad5f908a0e35a71ca25e784b1">CodeEditorComponent::setColourScheme</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structCodeEditorComponent_1_1ColourScheme.html">ColourScheme</a> &amp;&#160;</td>
+          <td class="paramname"><em>scheme</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Changes the syntax highlighting scheme. </p>
+<p>The token type values are dependent on the tokeniser being used - use CodeTokeniser::getTokenTypes() to get a list of the token types. </p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classCodeEditorComponent.html#a4eaf749ef56d7e73aa829d8abf41b49a" title="Returns one the syntax highlighting colour for the given token.">getColourForTokenType</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a29d1b0b3ae5ebaa7a46bac9d912ec220"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structCodeEditorComponent_1_1ColourScheme.html">ColourScheme</a>&amp; <a class="el" href="classCodeEditorComponent.html#a29d1b0b3ae5ebaa7a46bac9d912ec220">CodeEditorComponent::getColourScheme</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>Resets the syntax highlighting colours to the default ones provided by the code tokeniser. </p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classCodeTokeniser.html#a109a2275151f845795278eb3401e84e9" title="Returns a suggested syntax highlighting colour for a specified token type.">CodeTokeniser::getDefaultColour</a> </dd></dl>
+<p>Returns the current syntax highlighting colour scheme. </p>
 
 </div>
 </div>
-<a class="anchor" id="ae9163b69ff2f0750313870988ce75ece"></a>
+<a class="anchor" id="a4eaf749ef56d7e73aa829d8abf41b49a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#ae9163b69ff2f0750313870988ce75ece">CodeEditorComponent::setColourForTokenType</a> </td>
+          <td class="memname"><a class="el" href="classColour.html">Colour</a> <a class="el" href="classCodeEditorComponent.html#a4eaf749ef56d7e73aa829d8abf41b49a">CodeEditorComponent::getColourForTokenType</a> </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>tokenType</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classColour.html">Colour</a> &amp;&#160;</td>
-          <td class="paramname"><em>colour</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Changes one of the syntax highlighting colours. </p>
-<p>The token type values are dependent on the tokeniser being used - use <a class="el" href="classCodeTokeniser.html#a1730f1c3822be46454876bf416fc7de5" title="Returns a list of the names of the token types this analyser uses.">CodeTokeniser::getTokenTypes()</a> to get a list of the token types. </p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classCodeEditorComponent.html#a120ed24ab68f677c86a4b44bde5f9426" title="Returns one of the syntax highlighting colours.">getColourForTokenType</a> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a120ed24ab68f677c86a4b44bde5f9426"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classColour.html">Colour</a> <a class="el" href="classCodeEditorComponent.html#a120ed24ab68f677c86a4b44bde5f9426">CodeEditorComponent::getColourForTokenType</a> </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>tokenType</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1233,9 +1337,9 @@ Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Returns one of the syntax highlighting colours. </p>
-<p>The token type values are dependent on the tokeniser being used - use <a class="el" href="classCodeTokeniser.html#a1730f1c3822be46454876bf416fc7de5" title="Returns a list of the names of the token types this analyser uses.">CodeTokeniser::getTokenTypes()</a> to get a list of the token types. </p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classCodeEditorComponent.html#ae9163b69ff2f0750313870988ce75ece" title="Changes one of the syntax highlighting colours.">setColourForTokenType</a> </dd></dl>
+<p>Returns one the syntax highlighting colour for the given token. </p>
+<p>The token type values are dependent on the tokeniser being used. </p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classCodeEditorComponent.html#a4faca1aad5f908a0e35a71ca25e784b1" title="Changes the syntax highlighting scheme.">setColourScheme</a> </dd></dl>
 
 </div>
 </div>
@@ -1276,6 +1380,135 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ae9512581845c99d157e793af6db9e08f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classCodeEditorComponent.html#ae9512581845c99d157e793af6db9e08f">CodeEditorComponent::handleReturnKey</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Called when the return key is pressed - this can be overridden for custom behaviour. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7efe69631b0e73a50d42c117fa35c7b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classCodeEditorComponent.html#a7efe69631b0e73a50d42c117fa35c7b8">CodeEditorComponent::handleTabKey</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Called when the tab key is pressed - this can be overridden for custom behaviour. </p>
+
+</div>
+</div>
+<a class="anchor" id="a873ae3e9eb99f551754adc85ae738acb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classCodeEditorComponent.html#a873ae3e9eb99f551754adc85ae738acb">CodeEditorComponent::handleEscapeKey</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Called when the escape key is pressed - this can be overridden for custom behaviour. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad53b2fb7fb3f1af076fc280d30df0785"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classCodeEditorComponent.html#ad53b2fb7fb3f1af076fc280d30df0785">CodeEditorComponent::addPopupMenuItems</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPopupMenu.html">PopupMenu</a> &amp;&#160;</td>
+          <td class="paramname"><em>menuToAddTo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMouseEvent.html">MouseEvent</a> *&#160;</td>
+          <td class="paramname"><em>mouseClickEvent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>This adds the items to the popup menu. </p>
+<p>By default it adds the cut/copy/paste items, but you can override this if you need to replace these with your own items.</p>
+<p>If you want to add your own items to the existing ones, you can override this, call the base class's <a class="el" href="classCodeEditorComponent.html#ad53b2fb7fb3f1af076fc280d30df0785" title="This adds the items to the popup menu.">addPopupMenuItems()</a> method, then append your own items.</p>
+<p>When the menu has been shown, <a class="el" href="classCodeEditorComponent.html#a8472c804d4666a0c1988362895a47f22" title="This is called to perform one of the items that was shown on the popup menu.">performPopupMenuAction()</a> will be called to perform the item that the user has chosen.</p>
+<p>If this was triggered by a mouse-click, the mouseClickEvent parameter will be a pointer to the info about it, or may be null if the menu is being triggered by some other means.</p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classCodeEditorComponent.html#a8472c804d4666a0c1988362895a47f22" title="This is called to perform one of the items that was shown on the popup menu.">performPopupMenuAction</a>, setPopupMenuEnabled, isPopupMenuEnabled </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8472c804d4666a0c1988362895a47f22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classCodeEditorComponent.html#a8472c804d4666a0c1988362895a47f22">CodeEditorComponent::performPopupMenuAction</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>menuItemID</em></td><td>)</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>This is called to perform one of the items that was shown on the popup menu. </p>
+<p>If you've overridden <a class="el" href="classCodeEditorComponent.html#ad53b2fb7fb3f1af076fc280d30df0785" title="This adds the items to the popup menu.">addPopupMenuItems()</a>, you should also override this to perform the actions that you've added.</p>
+<p>If you've overridden <a class="el" href="classCodeEditorComponent.html#ad53b2fb7fb3f1af076fc280d30df0785" title="This adds the items to the popup menu.">addPopupMenuItems()</a> but have still left the default items on the menu, remember to call the superclass's <a class="el" href="classCodeEditorComponent.html#a8472c804d4666a0c1988362895a47f22" title="This is called to perform one of the items that was shown on the popup menu.">performPopupMenuAction()</a> so that it can perform the default actions if that's what the user clicked on.</p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classCodeEditorComponent.html#ad53b2fb7fb3f1af076fc280d30df0785" title="This adds the items to the popup menu.">addPopupMenuItems</a>, setPopupMenuEnabled, isPopupMenuEnabled </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a72992760cb3666b61a54ad85ae78d2a6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#a72992760cb3666b61a54ad85ae78d2a6">CodeEditorComponent::paint</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classComponent.html#a7cf1862f4af5909ea72827898114a182">Component</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aa74c48e652e498b6b889b90a6ecf9c89"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1294,34 +1527,15 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7d6fc5fe3146e8b658e09437036d7c35"></a>
+<a class="anchor" id="aafb2585d224d04a6299546eb7496ed74"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#a7d6fc5fe3146e8b658e09437036d7c35">CodeEditorComponent::paint</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em></td><td>)</td>
-          <td><code> [virtual]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classComponent.html#a7cf1862f4af5909ea72827898114a182">Component</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a339747aacfeed5eaa6759c06aea39a1e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="classCodeEditorComponent.html#a339747aacfeed5eaa6759c06aea39a1e">CodeEditorComponent::keyPressed</a> </td>
+          <td class="memname">bool <a class="el" href="classCodeEditorComponent.html#aafb2585d224d04a6299546eb7496ed74">CodeEditorComponent::keyPressed</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classKeyPress.html">KeyPress</a> &amp;&#160;</td>
-          <td class="paramname"><em>key</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td><code> [virtual]</code></td>
         </tr>
       </table>
@@ -1332,103 +1546,97 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a272571a3330a383df691913c868b9f2f"></a>
+<a class="anchor" id="abb729a23459459f38b568304d5dfa7be"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#a272571a3330a383df691913c868b9f2f">CodeEditorComponent::mouseDown</a> </td>
+          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#abb729a23459459f38b568304d5dfa7be">CodeEditorComponent::mouseDown</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td><code> [virtual]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classComponent.html#aba7f25d9b0dc026fe5e99be03ebe7818">Component</a>.</p>
+<p>Reimplemented from <a class="el" href="classComponent.html#a26b61c6a353109dd3d445ef5d54a2238">Component</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab44f4aa4ec0046a660a691c9d8570ea1"></a>
+<a class="anchor" id="a4bbe997c399f20916e128cc22353438d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#ab44f4aa4ec0046a660a691c9d8570ea1">CodeEditorComponent::mouseDrag</a> </td>
+          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#a4bbe997c399f20916e128cc22353438d">CodeEditorComponent::mouseDrag</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td><code> [virtual]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classComponent.html#a278d48430f7a5b97086276d76144f6c2">Component</a>.</p>
+<p>Reimplemented from <a class="el" href="classComponent.html#aa5543364d5fcf87e0db7f9aba3c0e26d">Component</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a17d6ef0d2cee0b7ec44d3b898de4a7ff"></a>
+<a class="anchor" id="a22b51f31ae25fdab38e9a3d3a1acfa7e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#a17d6ef0d2cee0b7ec44d3b898de4a7ff">CodeEditorComponent::mouseUp</a> </td>
+          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#a22b51f31ae25fdab38e9a3d3a1acfa7e">CodeEditorComponent::mouseUp</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td><code> [virtual]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classComponent.html#acd76ad602a226a8bcab9a1edd33742cf">Component</a>.</p>
+<p>Reimplemented from <a class="el" href="classComponent.html#a6b5306e64f955194cbcff52b7e4b4fcb">Component</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1129e8a6af96e5791f270de2b4331c08"></a>
+<a class="anchor" id="a179e23dd0061ef4cb4076f335b5e4ea3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#a1129e8a6af96e5791f270de2b4331c08">CodeEditorComponent::mouseDoubleClick</a> </td>
+          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#a179e23dd0061ef4cb4076f335b5e4ea3">CodeEditorComponent::mouseDoubleClick</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td><code> [virtual]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classComponent.html#a0f0fb18dd076ada3b720bf6e6ea652a9">Component</a>.</p>
+<p>Reimplemented from <a class="el" href="classComponent.html#a8d7c63f3509e6c4cef9e2e003c16d731">Component</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab1ce9252159a3648ad33646876e386f5"></a>
+<a class="anchor" id="afbe7a92f8c33b0a6d9905688831b7aab"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#ab1ce9252159a3648ad33646876e386f5">CodeEditorComponent::mouseWheelMove</a> </td>
+          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#afbe7a92f8c33b0a6d9905688831b7aab">CodeEditorComponent::mouseWheelMove</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;&#160;</td>
-          <td class="paramname"><em>e</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>wheelIncrementX</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>wheelIncrementY</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMouseWheelDetails.html">MouseWheelDetails</a> &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1439,19 +1647,19 @@ Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classComponent.html#abcffdc4b8deb3b985f76f42039f54a56">Component</a>.</p>
+<p>Reimplemented from <a class="el" href="classComponent.html#a05cb3d0faaa97273799540b67d0929f3">Component</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad56b63d33678aaba1cff5b0b6386ab4f"></a>
+<a class="anchor" id="a5efe269e3dd97cc615bc395d5f1bf9d2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#ad56b63d33678aaba1cff5b0b6386ab4f">CodeEditorComponent::focusGained</a> </td>
+          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#a5efe269e3dd97cc615bc395d5f1bf9d2">CodeEditorComponent::focusGained</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac">FocusChangeType</a>&#160;</td>
-          <td class="paramname"><em>cause</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td><code> [virtual]</code></td>
         </tr>
       </table>
@@ -1462,15 +1670,15 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab2b492951639827e4e1ac15db9c6a19f"></a>
+<a class="anchor" id="a57e63827ef9db2f4021a17b66452b72f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#ab2b492951639827e4e1ac15db9c6a19f">CodeEditorComponent::focusLost</a> </td>
+          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#a57e63827ef9db2f4021a17b66452b72f">CodeEditorComponent::focusLost</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac">FocusChangeType</a>&#160;</td>
-          <td class="paramname"><em>cause</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td><code> [virtual]</code></td>
         </tr>
       </table>
@@ -1478,100 +1686,6 @@ Public Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classComponent.html#a36456ea9d5a14172d6e96527ec1f59c8">Component</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1b89a41143da5a250c19f96ff21b95d4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#a1b89a41143da5a250c19f96ff21b95d4">CodeEditorComponent::timerCallback</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td><code> [virtual]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Implements <a class="el" href="classTimer.html#a8adc40ca0fb4170737ba12e30481b9d8">Timer</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a83bdf1f50ee4c00f19434439d6aade2a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#a83bdf1f50ee4c00f19434439d6aade2a">CodeEditorComponent::scrollBarMoved</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classScrollBar.html">ScrollBar</a> *&#160;</td>
-          <td class="paramname"><em>scrollBarThatHasMoved</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>newRangeStart</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td><code> [virtual]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Implements <a class="el" href="classScrollBar_1_1Listener.html#a2fb3f2cdec354939ba4282fc4631fc1f">ScrollBar::Listener</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="adbf2b44811c100bff50881d2bb8e743c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#adbf2b44811c100bff50881d2bb8e743c">CodeEditorComponent::handleAsyncUpdate</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td><code> [virtual]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Implements <a class="el" href="classAsyncUpdater.html#a446f3af793131f8772329f1f8b526578">AsyncUpdater</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a31cdb82ffdc6e780257485824c47b69b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#a31cdb82ffdc6e780257485824c47b69b">CodeEditorComponent::codeDocumentChanged</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classCodeDocument_1_1Position.html">CodeDocument::Position</a> &amp;&#160;</td>
-          <td class="paramname"><em>affectedTextStart</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classCodeDocument_1_1Position.html">CodeDocument::Position</a> &amp;&#160;</td>
-          <td class="paramname"><em>affectedTextEnd</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td><code> [virtual]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Implements <a class="el" href="classCodeDocument_1_1Listener.html#aa97b98fcfa06712471b0724d2c20c11c">CodeDocument::Listener</a>.</p>
 
 </div>
 </div>

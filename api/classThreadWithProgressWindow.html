@@ -109,8 +109,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5a0d8daa741f141d28478936c4db20f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadWithProgressWindow.html#a5a0d8daa741f141d28478936c4db20f0">ThreadWithProgressWindow</a> (const <a class="el" href="classString.html">String</a> &amp;windowTitle, bool hasProgressBar, bool hasCancelButton, int timeOutMsWhenCancelling=10000, const <a class="el" href="classString.html">String</a> &amp;cancelButtonText=&quot;Cancel&quot;)</td></tr>
-<tr class="memdesc:a5a0d8daa741f141d28478936c4db20f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the thread.  <a href="#a5a0d8daa741f141d28478936c4db20f0"></a><br/></td></tr>
+<tr class="memitem:accaf17146b5ae598f6bea243b3502468"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadWithProgressWindow.html#accaf17146b5ae598f6bea243b3502468">ThreadWithProgressWindow</a> (const <a class="el" href="classString.html">String</a> &amp;windowTitle, bool hasProgressBar, bool hasCancelButton, int timeOutMsWhenCancelling=10000, const <a class="el" href="classString.html">String</a> &amp;cancelButtonText=&quot;Cancel&quot;, Component *componentToCentreAround=nullptr)</td></tr>
+<tr class="memdesc:accaf17146b5ae598f6bea243b3502468"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the thread.  <a href="#accaf17146b5ae598f6bea243b3502468"></a><br/></td></tr>
 <tr class="memitem:a04c322fd5b4eb2612ab5118565ee4d29"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadWithProgressWindow.html#a04c322fd5b4eb2612ab5118565ee4d29">~ThreadWithProgressWindow</a> ()</td></tr>
 <tr class="memdesc:a04c322fd5b4eb2612ab5118565ee4d29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a04c322fd5b4eb2612ab5118565ee4d29"></a><br/></td></tr>
 <tr class="memitem:a5337ebd946038ac2a2dc36b7939db9cd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadWithProgressWindow.html#a5337ebd946038ac2a2dc36b7939db9cd">runThread</a> (int threadPriority=5)</td></tr>
@@ -166,12 +166,12 @@ Public Member Functions</h2></td></tr>
     }
 </pre></div><dl class="section see"><dt>See also:</dt><dd><a class="el" href="classThread.html" title="Encapsulates a thread.">Thread</a>, <a class="el" href="classAlertWindow.html" title="A window that displays a message and has buttons for the user to react to it.">AlertWindow</a> </dd></dl>
 </div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a5a0d8daa741f141d28478936c4db20f0"></a>
+<a class="anchor" id="accaf17146b5ae598f6bea243b3502468"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classThreadWithProgressWindow.html#a5a0d8daa741f141d28478936c4db20f0">ThreadWithProgressWindow::ThreadWithProgressWindow</a> </td>
+          <td class="memname"><a class="el" href="classThreadWithProgressWindow.html#accaf17146b5ae598f6bea243b3502468">ThreadWithProgressWindow::ThreadWithProgressWindow</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
           <td class="paramname"><em>windowTitle</em>, </td>
@@ -198,7 +198,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>cancelButtonText</em> = <code>&quot;Cancel&quot;</code>&#160;</td>
+          <td class="paramname"><em>cancelButtonText</em> = <code>&quot;Cancel&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classComponent.html">Component</a> *&#160;</td>
+          <td class="paramname"><em>componentToCentreAround</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -218,6 +224,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">hasCancelButton</td><td>whether the dialog box should have a cancel button </td></tr>
     <tr><td class="paramname">timeOutMsWhenCancelling</td><td>when 'cancel' is pressed, this is how long to wait for the thread to stop before killing it forcibly (see <a class="el" href="classThread.html#a7814b4dfaa6935f418c2baeb25c08cc0" title="Attempts to stop the thread running.">Thread::stopThread()</a> ) </td></tr>
     <tr><td class="paramname">cancelButtonText</td><td>the text that should be shown in the cancel button (if it has one) </td></tr>
+    <tr><td class="paramname">componentToCentreAround</td><td>if this is non-null, the window will be positioned so that it's centred around this component. </td></tr>
   </table>
   </dd>
 </dl>

@@ -113,10 +113,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a17b34a71669df21e5632440d1a43b844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a bubble component.  <a href="#a17b34a71669df21e5632440d1a43b844"></a><br/></td></tr>
 <tr class="memitem:aae5d8029a52bbb1d677adbfda80a978e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBubbleMessageComponent.html#aae5d8029a52bbb1d677adbfda80a978e">~BubbleMessageComponent</a> ()</td></tr>
 <tr class="memdesc:aae5d8029a52bbb1d677adbfda80a978e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#aae5d8029a52bbb1d677adbfda80a978e"></a><br/></td></tr>
-<tr class="memitem:ad4e709979e32cc9a6758c52ed77184c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBubbleMessageComponent.html#ad4e709979e32cc9a6758c52ed77184c6">showAt</a> (int x, int y, const <a class="el" href="classString.html">String</a> &amp;message, int numMillisecondsBeforeRemoving, bool removeWhenMouseClicked=true, bool deleteSelfAfterUse=false)</td></tr>
-<tr class="memdesc:ad4e709979e32cc9a6758c52ed77184c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a message bubble at a particular position.  <a href="#ad4e709979e32cc9a6758c52ed77184c6"></a><br/></td></tr>
-<tr class="memitem:a8829c7ccc74e9429d1c3612e0c15d116"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBubbleMessageComponent.html#a8829c7ccc74e9429d1c3612e0c15d116">showAt</a> (<a class="el" href="classComponent.html">Component</a> *component, const <a class="el" href="classString.html">String</a> &amp;message, int numMillisecondsBeforeRemoving, bool removeWhenMouseClicked=true, bool deleteSelfAfterUse=false)</td></tr>
-<tr class="memdesc:a8829c7ccc74e9429d1c3612e0c15d116"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a message bubble next to a particular component.  <a href="#a8829c7ccc74e9429d1c3612e0c15d116"></a><br/></td></tr>
+<tr class="memitem:accf152caac1319d8a05d145a94fc7022"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBubbleMessageComponent.html#accf152caac1319d8a05d145a94fc7022">showAt</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;position, const <a class="el" href="classAttributedString.html">AttributedString</a> &amp;message, int numMillisecondsBeforeRemoving, bool removeWhenMouseClicked=true, bool deleteSelfAfterUse=false)</td></tr>
+<tr class="memdesc:accf152caac1319d8a05d145a94fc7022"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a message bubble at a particular position.  <a href="#accf152caac1319d8a05d145a94fc7022"></a><br/></td></tr>
+<tr class="memitem:a578aec6fc92df2b9a70f29250b4ea243"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBubbleMessageComponent.html#a578aec6fc92df2b9a70f29250b4ea243">showAt</a> (<a class="el" href="classComponent.html">Component</a> *component, const <a class="el" href="classAttributedString.html">AttributedString</a> &amp;message, int numMillisecondsBeforeRemoving, bool removeWhenMouseClicked=true, bool deleteSelfAfterUse=false)</td></tr>
+<tr class="memdesc:a578aec6fc92df2b9a70f29250b4ea243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a message bubble next to a particular component.  <a href="#a578aec6fc92df2b9a70f29250b4ea243"></a><br/></td></tr>
 <tr class="memitem:a68991e5ad34d560640b5de73e740ac47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBubbleMessageComponent.html#a68991e5ad34d560640b5de73e740ac47">getContentSize</a> (int &amp;w, int &amp;h)</td></tr>
 <tr class="memitem:a6a7f7977a122d92d0ad9729db6e4b3c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBubbleMessageComponent.html#a6a7f7977a122d92d0ad9729db6e4b3c6">paintContent</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int w, int h)</td></tr>
 <tr class="memitem:a8847ef165716b306d142907d03c6a916"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBubbleMessageComponent.html#a8847ef165716b306d142907d03c6a916">timerCallback</a> ()</td></tr>
@@ -145,8 +145,8 @@ Public Member Functions</h2></td></tr>
 <p>After creating one a <a class="el" href="classBubbleComponent.html" title="A component for showing a message or other graphics inside a speech-bubble-shaped outline...">BubbleComponent</a>, do the following:</p>
 <ul>
 <li>add it to an appropriate parent component, or put it on the desktop with <a class="el" href="classComponent.html#ad717da76012d971197fd8cf943f3e721" title="Makes this component appear as a window on the desktop.">Component::addToDesktop</a> (0).</li>
-<li>use the <a class="el" href="classBubbleMessageComponent.html#ad4e709979e32cc9a6758c52ed77184c6" title="Shows a message bubble at a particular position.">showAt()</a> method to show a message.</li>
-<li>it will make itself invisible after it times-out (and can optionally also delete itself), or you can reuse it somewhere else by calling <a class="el" href="classBubbleMessageComponent.html#ad4e709979e32cc9a6758c52ed77184c6" title="Shows a message bubble at a particular position.">showAt()</a> again. </li>
+<li>use the <a class="el" href="classBubbleMessageComponent.html#accf152caac1319d8a05d145a94fc7022" title="Shows a message bubble at a particular position.">showAt()</a> method to show a message.</li>
+<li>it will make itself invisible after it times-out (and can optionally also delete itself), or you can reuse it somewhere else by calling <a class="el" href="classBubbleMessageComponent.html#accf152caac1319d8a05d145a94fc7022" title="Shows a message bubble at a particular position.">showAt()</a> again. </li>
 </ul>
 
 </div>
@@ -170,26 +170,20 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="ad4e709979e32cc9a6758c52ed77184c6"></a>
+<a class="anchor" id="accf152caac1319d8a05d145a94fc7022"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classBubbleMessageComponent.html#ad4e709979e32cc9a6758c52ed77184c6">BubbleMessageComponent::showAt</a> </td>
+          <td class="memname">void <a class="el" href="classBubbleMessageComponent.html#accf152caac1319d8a05d145a94fc7022">BubbleMessageComponent::showAt</a> </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
+          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classAttributedString.html">AttributedString</a> &amp;&#160;</td>
           <td class="paramname"><em>message</em>, </td>
         </tr>
         <tr>
@@ -224,8 +218,7 @@ Public Member Functions</h2></td></tr>
 <p>For details about exactly how it decides where to position itself, see BubbleComponent::updatePosition().</p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>the x co-ordinate of end of the bubble's tail </td></tr>
-    <tr><td class="paramname">y</td><td>the y co-ordinate of end of the bubble's tail </td></tr>
+    <tr><td class="paramname">position</td><td>the coords of the object to point to </td></tr>
     <tr><td class="paramname">message</td><td>the text to display </td></tr>
     <tr><td class="paramname">numMillisecondsBeforeRemoving</td><td>how long to leave it on the screen before removing itself from its parent compnent. If this is 0 or less, it will stay there until manually removed. </td></tr>
     <tr><td class="paramname">removeWhenMouseClicked</td><td>if this is true, the bubble will disappear as soon as a mouse button is pressed (anywhere on the screen) </td></tr>
@@ -236,12 +229,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8829c7ccc74e9429d1c3612e0c15d116"></a>
+<a class="anchor" id="a578aec6fc92df2b9a70f29250b4ea243"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classBubbleMessageComponent.html#ad4e709979e32cc9a6758c52ed77184c6">BubbleMessageComponent::showAt</a> </td>
+          <td class="memname">void <a class="el" href="classBubbleMessageComponent.html#accf152caac1319d8a05d145a94fc7022">BubbleMessageComponent::showAt</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classComponent.html">Component</a> *&#160;</td>
           <td class="paramname"><em>component</em>, </td>
@@ -249,7 +242,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classAttributedString.html">AttributedString</a> &amp;&#160;</td>
           <td class="paramname"><em>message</em>, </td>
         </tr>
         <tr>

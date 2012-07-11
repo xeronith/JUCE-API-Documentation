@@ -125,6 +125,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af1fc945005ae8a218d30c3281e0b64bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#af1fc945005ae8a218d30c3281e0b64bd"></a><br/></td></tr>
 <tr class="memitem:ab8e3f64e6c4d318b7fa7f9e79217fe41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classStringArray.html">StringArray</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#ab8e3f64e6c4d318b7fa7f9e79217fe41">operator=</a> (const <a class="el" href="classStringArray.html">StringArray</a> &amp;other)</td></tr>
 <tr class="memdesc:ab8e3f64e6c4d318b7fa7f9e79217fe41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the contents of another string array into this one.  <a href="#ab8e3f64e6c4d318b7fa7f9e79217fe41"></a><br/></td></tr>
+<tr class="memitem:a507efe01bdda5e1bc492145b53e18fba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#a507efe01bdda5e1bc492145b53e18fba">swapWith</a> (<a class="el" href="classStringArray.html">StringArray</a> &amp;other) noexcept</td></tr>
+<tr class="memdesc:a507efe01bdda5e1bc492145b53e18fba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps the contents of this and another <a class="el" href="classStringArray.html" title="A special array for holding a list of strings.">StringArray</a>.  <a href="#a507efe01bdda5e1bc492145b53e18fba"></a><br/></td></tr>
 <tr class="memitem:aa6f6b1af57bbe062ed660f5b2058207f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#aa6f6b1af57bbe062ed660f5b2058207f">operator==</a> (const <a class="el" href="classStringArray.html">StringArray</a> &amp;other) const noexcept</td></tr>
 <tr class="memdesc:aa6f6b1af57bbe062ed660f5b2058207f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two arrays.  <a href="#aa6f6b1af57bbe062ed660f5b2058207f"></a><br/></td></tr>
 <tr class="memitem:a4fd90a094c0c026ee975bc69b1d46d5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#a4fd90a094c0c026ee975bc69b1d46d5b">operator!=</a> (const <a class="el" href="classStringArray.html">StringArray</a> &amp;other) const noexcept</td></tr>
@@ -135,6 +137,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4e1e61c92ae6fc44c3a6226584c09db1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the strings from the array.  <a href="#a4e1e61c92ae6fc44c3a6226584c09db1"></a><br/></td></tr>
 <tr class="memitem:a9fcafc44085fa930f009adfabad70faf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#a9fcafc44085fa930f009adfabad70faf">getReference</a> (int index) noexcept</td></tr>
 <tr class="memdesc:a9fcafc44085fa930f009adfabad70faf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to one of the strings in the array.  <a href="#a9fcafc44085fa930f009adfabad70faf"></a><br/></td></tr>
+<tr class="memitem:a8b297798829a0196e0c45abf75b7cc4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#a8b297798829a0196e0c45abf75b7cc4c">begin</a> () const noexcept</td></tr>
+<tr class="memdesc:a8b297798829a0196e0c45abf75b7cc4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first <a class="el" href="classString.html" title="The JUCE String class!">String</a> in the array.  <a href="#a8b297798829a0196e0c45abf75b7cc4c"></a><br/></td></tr>
+<tr class="memitem:aed7e07d0f7c696caa7f62be5416d66e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#aed7e07d0f7c696caa7f62be5416d66e3">end</a> () const noexcept</td></tr>
+<tr class="memdesc:aed7e07d0f7c696caa7f62be5416d66e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the <a class="el" href="classString.html" title="The JUCE String class!">String</a> which follows the last element in the array.  <a href="#aed7e07d0f7c696caa7f62be5416d66e3"></a><br/></td></tr>
 <tr class="memitem:adc4da83582a4b67981d97c5e568b8e59"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#adc4da83582a4b67981d97c5e568b8e59">contains</a> (const <a class="el" href="classString.html">String</a> &amp;stringToLookFor, bool ignoreCase=false) const </td></tr>
 <tr class="memdesc:adc4da83582a4b67981d97c5e568b8e59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for a string in the array.  <a href="#adc4da83582a4b67981d97c5e568b8e59"></a><br/></td></tr>
 <tr class="memitem:aaad95afdc99eb15d43a3cd7ad18cccb2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#aaad95afdc99eb15d43a3cd7ad18cccb2">indexOf</a> (const <a class="el" href="classString.html">String</a> &amp;stringToLookFor, bool ignoreCase=false, int startIndex=0) const </td></tr>
@@ -390,6 +396,25 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a507efe01bdda5e1bc492145b53e18fba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classStringArray.html#a507efe01bdda5e1bc492145b53e18fba">StringArray::swapWith</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classStringArray.html">StringArray</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Swaps the contents of this and another <a class="el" href="classStringArray.html" title="A special array for holding a list of strings.">StringArray</a>. </p>
+
+</div>
+</div>
 <a class="anchor" id="aa6f6b1af57bbe062ed660f5b2058207f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -488,6 +513,44 @@ Public Member Functions</h2></td></tr>
 
 <p>Returns a reference to one of the strings in the array. </p>
 <p>This lets you modify a string in-place in the array, but you must be sure that the index is in-range. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8b297798829a0196e0c45abf75b7cc4c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classString.html">String</a>* <a class="el" href="classStringArray.html#a8b297798829a0196e0c45abf75b7cc4c">StringArray::begin</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns a pointer to the first <a class="el" href="classString.html" title="The JUCE String class!">String</a> in the array. </p>
+<p>This method is provided for compatibility with standard C++ iteration mechanisms. </p>
+
+</div>
+</div>
+<a class="anchor" id="aed7e07d0f7c696caa7f62be5416d66e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classString.html">String</a>* <a class="el" href="classStringArray.html#aed7e07d0f7c696caa7f62be5416d66e3">StringArray::end</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns a pointer to the <a class="el" href="classString.html" title="The JUCE String class!">String</a> which follows the last element in the array. </p>
+<p>This method is provided for compatibility with standard C++ iteration mechanisms. </p>
 
 </div>
 </div>

@@ -140,6 +140,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af1a5b9c93434edf34464d4fd5b046df5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the entire memory block with a repeated byte value.  <a href="#af1a5b9c93434edf34464d4fd5b046df5"></a><br/></td></tr>
 <tr class="memitem:af54e9ebd64519e0b5e67ebc483a26200"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryBlock.html#af54e9ebd64519e0b5e67ebc483a26200">append</a> (const void *data, size_t numBytes)</td></tr>
 <tr class="memdesc:af54e9ebd64519e0b5e67ebc483a26200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds another block of data to the end of this one.  <a href="#af54e9ebd64519e0b5e67ebc483a26200"></a><br/></td></tr>
+<tr class="memitem:ad396877d63f2a45095535895a9b5071f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryBlock.html#ad396877d63f2a45095535895a9b5071f">replaceWith</a> (const void *data, size_t numBytes)</td></tr>
+<tr class="memdesc:ad396877d63f2a45095535895a9b5071f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes this block to the given size and fills its contents from the supplied buffer.  <a href="#ad396877d63f2a45095535895a9b5071f"></a><br/></td></tr>
 <tr class="memitem:af5c3c4addd27e9c7a9adfbc0466080e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryBlock.html#af5c3c4addd27e9c7a9adfbc0466080e2">insert</a> (const void *dataToInsert, size_t numBytesToInsert, size_t insertPosition)</td></tr>
 <tr class="memdesc:af5c3c4addd27e9c7a9adfbc0466080e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts some data into the block.  <a href="#af5c3c4addd27e9c7a9adfbc0466080e2"></a><br/></td></tr>
 <tr class="memitem:a7fb654675288d40483f9150ffd38e16a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryBlock.html#a7fb654675288d40483f9150ffd38e16a">removeSection</a> (size_t startByte, size_t numBytesToRemove)</td></tr>
@@ -568,6 +570,36 @@ template&lt;typename Type &gt; </div>
 
 <p>Adds another block of data to the end of this one. </p>
 <p>The data pointer must not be null. This block's size will be increased accordingly. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad396877d63f2a45095535895a9b5071f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classMemoryBlock.html#ad396877d63f2a45095535895a9b5071f">MemoryBlock::replaceWith</a> </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>numBytes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Resizes this block to the given size and fills its contents from the supplied buffer. </p>
+<p>The data pointer must not be null. </p>
 
 </div>
 </div>

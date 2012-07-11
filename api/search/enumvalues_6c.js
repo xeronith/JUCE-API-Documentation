@@ -14,6 +14,8 @@ var searchData=
   ['linearbar',['LinearBar',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a0092c810419dab80d4692363d9564c5d',1,'Slider']]],
   ['linearhorizontal',['LinearHorizontal',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a0fa5cefcd508c8f26ac9a458272844f9',1,'Slider']]],
   ['linearvertical',['LinearVertical',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a31f9134048fa90fbc4a72b69c6f553d5',1,'Slider']]],
+  ['linenumberbackgroundid',['lineNumberBackgroundId',['../classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596ae61ab632da4a17cbbf39b5ca0c8d38eb',1,'CodeEditorComponent']]],
+  ['linenumbertextid',['lineNumberTextId',['../classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596a09a47043a26cf39eb7f56e3f9596c8c2',1,'CodeEditorComponent']]],
   ['linescolourid',['linesColourId',['../classTreeView.html#abeebe6dbdc6ae466495aabc64eb51d6aa129ebbdc625406f6dd26047aaa3f082a',1,'TreeView']]],
   ['lineto',['lineTo',['../classPath_1_1Iterator.html#a62b1a329e3fdbcbdad78bb6c90c7bcfdabbd031b257d50abb77ee0c755f31b8e0',1,'Path::Iterator']]],
   ['linetoelement',['lineToElement',['../classRelativePointPath.html#a741fbc9bca4a156a84514f20987483e9a8cb9d49f56ecf8367671130fc2a838d7',1,'RelativePointPath']]],

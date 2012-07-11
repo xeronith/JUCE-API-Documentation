@@ -187,13 +187,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab827e9edc0da7c919fd0e49ff2e7af0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a new element into the array, assuming that the array is sorted.  <a href="#ab827e9edc0da7c919fd0e49ff2e7af0e"></a><br/></td></tr>
 <tr class="memitem:a98f0f3de328039fe3f9f194268805348"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a98f0f3de328039fe3f9f194268805348">addUsingDefaultSort</a> (ParameterType newElement)</td></tr>
 <tr class="memdesc:a98f0f3de328039fe3f9f194268805348"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a new element into the array, assuming that the array is sorted.  <a href="#a98f0f3de328039fe3f9f194268805348"></a><br/></td></tr>
-<tr class="memitem:af0eb9bf352c5fad7dedf2482860b9d7b"><td class="memTemplParams" colspan="2">template&lt;class ElementComparator &gt; </td></tr>
-<tr class="memitem:af0eb9bf352c5fad7dedf2482860b9d7b"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#af0eb9bf352c5fad7dedf2482860b9d7b">indexOfSorted</a> (ElementComparator &amp;comparator, ParameterType elementToLookFor) const </td></tr>
-<tr class="memdesc:af0eb9bf352c5fad7dedf2482860b9d7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the index of an element in the array, assuming that the array is sorted.  <a href="#af0eb9bf352c5fad7dedf2482860b9d7b"></a><br/></td></tr>
+<tr class="memitem:ab0981b8908f562462cd4e31590f10159"><td class="memTemplParams" colspan="2">template&lt;typename ElementComparator , typename TargetValueType &gt; </td></tr>
+<tr class="memitem:ab0981b8908f562462cd4e31590f10159"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#ab0981b8908f562462cd4e31590f10159">indexOfSorted</a> (ElementComparator &amp;comparator, TargetValueType elementToLookFor) const </td></tr>
+<tr class="memdesc:ab0981b8908f562462cd4e31590f10159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the index of an element in the array, assuming that the array is sorted.  <a href="#ab0981b8908f562462cd4e31590f10159"></a><br/></td></tr>
 <tr class="memitem:ae4b625b7ef05f179b051845debaf8462"><td class="memItemLeft" align="right" valign="top">ElementType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462">remove</a> (const int indexToRemove)</td></tr>
 <tr class="memdesc:ae4b625b7ef05f179b051845debaf8462"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an element from the array.  <a href="#ae4b625b7ef05f179b051845debaf8462"></a><br/></td></tr>
-<tr class="memitem:a33c7a37ab4dae2be6f820225c289bff5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a33c7a37ab4dae2be6f820225c289bff5">removeValue</a> (ParameterType valueToRemove)</td></tr>
-<tr class="memdesc:a33c7a37ab4dae2be6f820225c289bff5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an item from the array.  <a href="#a33c7a37ab4dae2be6f820225c289bff5"></a><br/></td></tr>
+<tr class="memitem:ab86840694333856573dc2383175b5caa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#ab86840694333856573dc2383175b5caa">removeFirstMatchingValue</a> (ParameterType valueToRemove)</td></tr>
+<tr class="memdesc:ab86840694333856573dc2383175b5caa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an item from the array.  <a href="#ab86840694333856573dc2383175b5caa"></a><br/></td></tr>
+<tr class="memitem:ac00a09169231ebd084267105b7fc85e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#ac00a09169231ebd084267105b7fc85e1">removeAllInstancesOf</a> (ParameterType valueToRemove)</td></tr>
+<tr class="memdesc:ac00a09169231ebd084267105b7fc85e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an item from the array.  <a href="#ac00a09169231ebd084267105b7fc85e1"></a><br/></td></tr>
 <tr class="memitem:a76aff614d2a99bbeffbc7234f61da108"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108">removeRange</a> (int startIndex, int numberToRemove)</td></tr>
 <tr class="memdesc:a76aff614d2a99bbeffbc7234f61da108"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a range of elements from the array.  <a href="#a76aff614d2a99bbeffbc7234f61da108"></a><br/></td></tr>
 <tr class="memitem:a6fa7c7c47f86781b474e222656fbb23a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a6fa7c7c47f86781b474e222656fbb23a">removeLast</a> (int howManyToRemove=1)</td></tr>
@@ -602,7 +604,7 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 </dl>
 <dl class="section see"><dt>See also:</dt><dd>operator[], <a class="el" href="classArray.html#aa428610d7f1bd9dd2de313b39403bd4f" title="Returns the first element in the array, or 0 if the array is empty.">getFirst</a>, <a class="el" href="classArray.html#adef4469c2868dbf4b22dc352cd179e4f" title="Returns the last element in the array, or 0 if the array is empty.">getLast</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classHashMap.html#a5c05298ac37d90e8ae6b944cf9ef90a7">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::clear()</a>, <a class="el" href="classSparseSet.html#a012b4ce66f31a8666bd818e18a6081de">SparseSet&lt; int &gt;::contains()</a>, <a class="el" href="classHashMap.html#a5c46356ec0825277b52729dd6c650c85">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::contains()</a>, <a class="el" href="classSparseSet.html#ae0677cc1437e82cbf48a6b1559385271">SparseSet&lt; int &gt;::containsRange()</a>, <a class="el" href="classHashMap.html#ad5b7794228bc73ed367a656c7354e0ef">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::containsValue()</a>, <a class="el" href="classSparseSet.html#a77a4314241f40c4c3be84687eb2d61cb">SparseSet&lt; int &gt;::getRange()</a>, <a class="el" href="classSparseSet.html#aa243e3ee99df5bfe41983c031d4b148a">SparseSet&lt; int &gt;::getTotalRange()</a>, <a class="el" href="classHashMap_1_1Iterator.html#a926563d924a70859451fb30256d2d75c">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::Iterator::next()</a>, <a class="el" href="classSparseSet.html#a54f3d84e61a754674f62981216013254">SparseSet&lt; int &gt;::operator[]()</a>, <a class="el" href="classHashMap.html#a220d4bfae756fd521e1f253c44a0c7fe">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::operator[]()</a>, <a class="el" href="classSparseSet.html#a46572885b4491c60c61e761b51268cb0">SparseSet&lt; int &gt;::overlapsRange()</a>, <a class="el" href="classHashMap.html#a2520099a7f8ebd6b7921b9d6a3eedb1c">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::remapTable()</a>, <a class="el" href="classHashMap.html#a9a2ced849c2687f6bf93c8e311d23b32">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::remove()</a>, <a class="el" href="classSparseSet.html#a998d2921632e1135cf1983584d931181">SparseSet&lt; int &gt;::removeRange()</a>, <a class="el" href="classHashMap.html#a69fffa7da6512b84a990d471600c5c3e">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::removeValue()</a>, <a class="el" href="classHashMap.html#a0eef18aeb766505db7721b895ecd5654">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::set()</a>, and <a class="el" href="classSparseSet.html#abb774559c4dd7fa498095539c22e9df1">SparseSet&lt; int &gt;::size()</a>.</p>
+<p>Referenced by <a class="el" href="classHashMap.html#a5c05298ac37d90e8ae6b944cf9ef90a7">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::clear()</a>, <a class="el" href="classSparseSet.html#a012b4ce66f31a8666bd818e18a6081de">SparseSet&lt; int &gt;::contains()</a>, <a class="el" href="classHashMap.html#a5c46356ec0825277b52729dd6c650c85">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::contains()</a>, <a class="el" href="classSparseSet.html#ae0677cc1437e82cbf48a6b1559385271">SparseSet&lt; int &gt;::containsRange()</a>, <a class="el" href="classHashMap.html#ad5b7794228bc73ed367a656c7354e0ef">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::containsValue()</a>, <a class="el" href="classSparseSet.html#a77a4314241f40c4c3be84687eb2d61cb">SparseSet&lt; int &gt;::getRange()</a>, <a class="el" href="classSparseSet.html#aa243e3ee99df5bfe41983c031d4b148a">SparseSet&lt; int &gt;::getTotalRange()</a>, <a class="el" href="classHashMap_1_1Iterator.html#a926563d924a70859451fb30256d2d75c">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::Iterator::next()</a>, <a class="el" href="classSparseSet.html#a54f3d84e61a754674f62981216013254">SparseSet&lt; int &gt;::operator[]()</a>, <a class="el" href="classHashMap.html#a7dbed3ff20a43f4f6997f40b15a8ae5c">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::operator[]()</a>, <a class="el" href="classSparseSet.html#a46572885b4491c60c61e761b51268cb0">SparseSet&lt; int &gt;::overlapsRange()</a>, <a class="el" href="classHashMap.html#a2520099a7f8ebd6b7921b9d6a3eedb1c">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::remapTable()</a>, <a class="el" href="classHashMap.html#a9a2ced849c2687f6bf93c8e311d23b32">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::remove()</a>, <a class="el" href="classSparseSet.html#a998d2921632e1135cf1983584d931181">SparseSet&lt; int &gt;::removeRange()</a>, <a class="el" href="classHashMap.html#a69fffa7da6512b84a990d471600c5c3e">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::removeValue()</a>, <a class="el" href="classHashMap.html#a0eef18aeb766505db7721b895ecd5654">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::set()</a>, and <a class="el" href="classSparseSet.html#abb774559c4dd7fa498095539c22e9df1">SparseSet&lt; int &gt;::size()</a>.</p>
 
 </div>
 </div>
@@ -1290,16 +1292,16 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 
 </div>
 </div>
-<a class="anchor" id="af0eb9bf352c5fad7dedf2482860b9d7b"></a>
+<a class="anchor" id="ab0981b8908f562462cd4e31590f10159"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
 <div class="memtemplate">
-template&lt;class ElementComparator &gt; </div>
+template&lt;typename ElementComparator , typename TargetValueType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classArray.html#af0eb9bf352c5fad7dedf2482860b9d7b">indexOfSorted</a> </td>
+          <td class="memname">int <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classArray.html#ab0981b8908f562462cd4e31590f10159">indexOfSorted</a> </td>
           <td>(</td>
           <td class="paramtype">ElementComparator &amp;&#160;</td>
           <td class="paramname"><em>comparator</em>, </td>
@@ -1307,7 +1309,7 @@ template&lt;class ElementComparator &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ParameterType&#160;</td>
+          <td class="paramtype">TargetValueType&#160;</td>
           <td class="paramname"><em>elementToLookFor</em>&#160;</td>
         </tr>
         <tr>
@@ -1359,20 +1361,49 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </dd>
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>the element that has been removed </dd></dl>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classArray.html#a33c7a37ab4dae2be6f820225c289bff5" title="Removes an item from the array.">removeValue</a>, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd>removeValue, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classSparseSet.html#a998d2921632e1135cf1983584d931181">SparseSet&lt; int &gt;::removeRange()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a33c7a37ab4dae2be6f820225c289bff5"></a>
+<a class="anchor" id="ab86840694333856573dc2383175b5caa"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classArray.html#a33c7a37ab4dae2be6f820225c289bff5">removeValue</a> </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classArray.html#ab86840694333856573dc2383175b5caa">removeFirstMatchingValue</a> </td>
+          <td>(</td>
+          <td class="paramtype">ParameterType&#160;</td>
+          <td class="paramname"><em>valueToRemove</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Removes an item from the array. </p>
+<p>This will remove the first occurrence of the given element from the array. If the item isn't found, no action is taken.</p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">valueToRemove</td><td>the object to try to remove </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462" title="Removes an element from the array.">remove</a>, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac00a09169231ebd084267105b7fc85e1"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classArray.html#ac00a09169231ebd084267105b7fc85e1">removeAllInstancesOf</a> </td>
           <td>(</td>
           <td class="paramtype">ParameterType&#160;</td>
           <td class="paramname"><em>valueToRemove</em></td><td>)</td>
@@ -1431,7 +1462,7 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462" title="Removes an element from the array.">remove</a>, <a class="el" href="classArray.html#a33c7a37ab4dae2be6f820225c289bff5" title="Removes an item from the array.">removeValue</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462" title="Removes an element from the array.">remove</a>, removeValue </dd></dl>
 
 <p>Referenced by <a class="el" href="classArray.html#a9f74d12a28cc9ac953013242eb1fafe6">Array&lt; Glyph &gt;::resize()</a>.</p>
 
@@ -1461,7 +1492,7 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462" title="Removes an element from the array.">remove</a>, <a class="el" href="classArray.html#a33c7a37ab4dae2be6f820225c289bff5" title="Removes an item from the array.">removeValue</a>, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462" title="Removes an element from the array.">remove</a>, removeValue, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
 
 </div>
 </div>
@@ -1491,7 +1522,7 @@ template&lt;class OtherArrayType &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classArray.html#a8e32b0f434c970c4275f28c68d2b3f10" title="Removes any elements which are not found in another array.">removeValuesNotIn</a>, <a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462" title="Removes an element from the array.">remove</a>, <a class="el" href="classArray.html#a33c7a37ab4dae2be6f820225c289bff5" title="Removes an item from the array.">removeValue</a>, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classArray.html#a8e32b0f434c970c4275f28c68d2b3f10" title="Removes any elements which are not found in another array.">removeValuesNotIn</a>, <a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462" title="Removes an element from the array.">remove</a>, removeValue, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classLassoComponent.html#a4aca7f9f28ecef2834bfabe648ba6959">LassoComponent&lt; SelectableItemType &gt;::dragLasso()</a>.</p>
 
@@ -1524,7 +1555,7 @@ template&lt;class OtherArrayType &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classArray.html#ab1aac8e57e79c1426763bba43151dfb7" title="Removes any elements which are also in another array.">removeValuesIn</a>, <a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462" title="Removes an element from the array.">remove</a>, <a class="el" href="classArray.html#a33c7a37ab4dae2be6f820225c289bff5" title="Removes an item from the array.">removeValue</a>, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classArray.html#ab1aac8e57e79c1426763bba43151dfb7" title="Removes any elements which are also in another array.">removeValuesIn</a>, <a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462" title="Removes an element from the array.">remove</a>, removeValue, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
 
 </div>
 </div>
@@ -1696,7 +1727,7 @@ template&lt;class ElementComparator &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classArray.html#ab827e9edc0da7c919fd0e49ff2e7af0e" title="Inserts a new element into the array, assuming that the array is sorted.">addSorted</a>, <a class="el" href="classArray.html#af0eb9bf352c5fad7dedf2482860b9d7b" title="Finds the index of an element in the array, assuming that the array is sorted.">indexOfSorted</a>, sortArray </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classArray.html#ab827e9edc0da7c919fd0e49ff2e7af0e" title="Inserts a new element into the array, assuming that the array is sorted.">addSorted</a>, <a class="el" href="classArray.html#ab0981b8908f562462cd4e31590f10159" title="Finds the index of an element in the array, assuming that the array is sorted.">indexOfSorted</a>, sortArray </dd></dl>
 
 </div>
 </div>
@@ -1719,7 +1750,7 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 <p>Returns the <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> that locks this array. </p>
 <p>To lock, you can call <a class="el" href="classArray.html#a5bccac2768da58b06ce691cde2b52b88" title="Returns the CriticalSection that locks this array.">getLock()</a>.enter() and <a class="el" href="classArray.html#a5bccac2768da58b06ce691cde2b52b88" title="Returns the CriticalSection that locks this array.">getLock()</a>.exit(), or preferably use an object of ScopedLockType as an RAII lock for it. </p>
 
-<p>Referenced by <a class="el" href="classArray.html#a561fa77f1c1b1333a0b0a4aa4bbe97e8">Array&lt; Glyph &gt;::add()</a>, <a class="el" href="classArray.html#a2a08583b99a5d56cba633211ac46cc95">Array&lt; Glyph &gt;::addArray()</a>, <a class="el" href="classArray.html#a66a7dd59118110a1fff8f346af478d4a">Array&lt; Glyph &gt;::addIfNotAlreadyThere()</a>, <a class="el" href="classArray.html#ab827e9edc0da7c919fd0e49ff2e7af0e">Array&lt; Glyph &gt;::addSorted()</a>, <a class="el" href="classArray.html#ae603294033a54425cb6533893c8ea51c">Array&lt; Glyph &gt;::Array()</a>, <a class="el" href="classArray.html#a6bd7485bde05c4218a26d4f98b3ffca2">Array&lt; Glyph &gt;::clear()</a>, <a class="el" href="classArray.html#ab7f0aefd80fc3a88310ac9931bafd8e8">Array&lt; Glyph &gt;::clearQuick()</a>, <a class="el" href="classArray.html#a5fce70ec38c3d7c200cf35a73429f61b">Array&lt; Glyph &gt;::contains()</a>, <a class="el" href="classArray.html#a9ea4982f49ac5ec83e967c82de49edbf">Array&lt; Glyph &gt;::ensureStorageAllocated()</a>, <a class="el" href="classArray.html#aa428610d7f1bd9dd2de313b39403bd4f">Array&lt; Glyph &gt;::getFirst()</a>, <a class="el" href="classArray.html#adef4469c2868dbf4b22dc352cd179e4f">Array&lt; Glyph &gt;::getLast()</a>, <a class="el" href="classArray.html#aa45cd743a3659e71331730efe9967fdc">Array&lt; Glyph &gt;::getReference()</a>, <a class="el" href="classArray.html#a35cf8b22e29926f5206f72ceb4c44a91">Array&lt; Glyph &gt;::getUnchecked()</a>, <a class="el" href="classArray.html#a797a78ba08e023c46813902f98f8bee8">Array&lt; Glyph &gt;::indexOf()</a>, <a class="el" href="classArray.html#af0eb9bf352c5fad7dedf2482860b9d7b">Array&lt; Glyph &gt;::indexOfSorted()</a>, <a class="el" href="classArray.html#a06ca3a23fb5cc785febb054ad806cd32">Array&lt; Glyph &gt;::insert()</a>, <a class="el" href="classArray.html#afa66359a31f0c05315bf27e1819ace0f">Array&lt; Glyph &gt;::insertArray()</a>, <a class="el" href="classArray.html#a214123e46743df1830c33de5ec1c16e7">Array&lt; Glyph &gt;::insertMultiple()</a>, <a class="el" href="classArray.html#a21753e1704c1a8a5028ce0fd5d166e6d">Array&lt; Glyph &gt;::minimiseStorageOverheads()</a>, <a class="el" href="classArray.html#a7d9614d4db53e48145f63e099d608bcc">Array&lt; Glyph &gt;::move()</a>, <a class="el" href="classArray.html#a66b0bb233d3c2791c51a7652fd0bf2f2">Array&lt; Glyph &gt;::operator==()</a>, <a class="el" href="classArray.html#a2b9999cb713e0c71f7dbb430a9361948">Array&lt; Glyph &gt;::operator[]()</a>, <a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462">Array&lt; Glyph &gt;::remove()</a>, <a class="el" href="classArray.html#a6fa7c7c47f86781b474e222656fbb23a">Array&lt; Glyph &gt;::removeLast()</a>, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108">Array&lt; Glyph &gt;::removeRange()</a>, <a class="el" href="classArray.html#a33c7a37ab4dae2be6f820225c289bff5">Array&lt; Glyph &gt;::removeValue()</a>, <a class="el" href="classArray.html#ab1aac8e57e79c1426763bba43151dfb7">Array&lt; Glyph &gt;::removeValuesIn()</a>, <a class="el" href="classArray.html#a8e32b0f434c970c4275f28c68d2b3f10">Array&lt; Glyph &gt;::removeValuesNotIn()</a>, <a class="el" href="classArray.html#a311e3be8a59826e972ec981e9d719ace">Array&lt; Glyph &gt;::set()</a>, <a class="el" href="classArray.html#a0a6a1de585acb2d4c63a5b3b18a6530e">Array&lt; Glyph &gt;::setUnchecked()</a>, <a class="el" href="classArray.html#ac1dca4ab2895315dd85e25eaca2fcab1">Array&lt; Glyph &gt;::sort()</a>, <a class="el" href="classArray.html#aa719aa8439aab1cb265845002c8e3322">Array&lt; Glyph &gt;::swap()</a>, and <a class="el" href="classArray.html#a12532b278db4e9889d38d24f9d0f9720">Array&lt; Glyph &gt;::swapWithArray()</a>.</p>
+<p>Referenced by <a class="el" href="classArray.html#a561fa77f1c1b1333a0b0a4aa4bbe97e8">Array&lt; Glyph &gt;::add()</a>, <a class="el" href="classArray.html#a2a08583b99a5d56cba633211ac46cc95">Array&lt; Glyph &gt;::addArray()</a>, <a class="el" href="classArray.html#a66a7dd59118110a1fff8f346af478d4a">Array&lt; Glyph &gt;::addIfNotAlreadyThere()</a>, <a class="el" href="classArray.html#ab827e9edc0da7c919fd0e49ff2e7af0e">Array&lt; Glyph &gt;::addSorted()</a>, <a class="el" href="classArray.html#ae603294033a54425cb6533893c8ea51c">Array&lt; Glyph &gt;::Array()</a>, <a class="el" href="classArray.html#a6bd7485bde05c4218a26d4f98b3ffca2">Array&lt; Glyph &gt;::clear()</a>, <a class="el" href="classArray.html#ab7f0aefd80fc3a88310ac9931bafd8e8">Array&lt; Glyph &gt;::clearQuick()</a>, <a class="el" href="classArray.html#a5fce70ec38c3d7c200cf35a73429f61b">Array&lt; Glyph &gt;::contains()</a>, <a class="el" href="classArray.html#a9ea4982f49ac5ec83e967c82de49edbf">Array&lt; Glyph &gt;::ensureStorageAllocated()</a>, <a class="el" href="classArray.html#aa428610d7f1bd9dd2de313b39403bd4f">Array&lt; Glyph &gt;::getFirst()</a>, <a class="el" href="classArray.html#adef4469c2868dbf4b22dc352cd179e4f">Array&lt; Glyph &gt;::getLast()</a>, <a class="el" href="classArray.html#aa45cd743a3659e71331730efe9967fdc">Array&lt; Glyph &gt;::getReference()</a>, <a class="el" href="classArray.html#a35cf8b22e29926f5206f72ceb4c44a91">Array&lt; Glyph &gt;::getUnchecked()</a>, <a class="el" href="classArray.html#a797a78ba08e023c46813902f98f8bee8">Array&lt; Glyph &gt;::indexOf()</a>, <a class="el" href="classArray.html#ab0981b8908f562462cd4e31590f10159">Array&lt; Glyph &gt;::indexOfSorted()</a>, <a class="el" href="classArray.html#a06ca3a23fb5cc785febb054ad806cd32">Array&lt; Glyph &gt;::insert()</a>, <a class="el" href="classArray.html#afa66359a31f0c05315bf27e1819ace0f">Array&lt; Glyph &gt;::insertArray()</a>, <a class="el" href="classArray.html#a214123e46743df1830c33de5ec1c16e7">Array&lt; Glyph &gt;::insertMultiple()</a>, <a class="el" href="classArray.html#a21753e1704c1a8a5028ce0fd5d166e6d">Array&lt; Glyph &gt;::minimiseStorageOverheads()</a>, <a class="el" href="classArray.html#a7d9614d4db53e48145f63e099d608bcc">Array&lt; Glyph &gt;::move()</a>, <a class="el" href="classArray.html#a66b0bb233d3c2791c51a7652fd0bf2f2">Array&lt; Glyph &gt;::operator==()</a>, <a class="el" href="classArray.html#a2b9999cb713e0c71f7dbb430a9361948">Array&lt; Glyph &gt;::operator[]()</a>, <a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462">Array&lt; Glyph &gt;::remove()</a>, <a class="el" href="classArray.html#ac00a09169231ebd084267105b7fc85e1">Array&lt; Glyph &gt;::removeAllInstancesOf()</a>, <a class="el" href="classArray.html#ab86840694333856573dc2383175b5caa">Array&lt; Glyph &gt;::removeFirstMatchingValue()</a>, <a class="el" href="classArray.html#a6fa7c7c47f86781b474e222656fbb23a">Array&lt; Glyph &gt;::removeLast()</a>, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108">Array&lt; Glyph &gt;::removeRange()</a>, <a class="el" href="classArray.html#ab1aac8e57e79c1426763bba43151dfb7">Array&lt; Glyph &gt;::removeValuesIn()</a>, <a class="el" href="classArray.html#a8e32b0f434c970c4275f28c68d2b3f10">Array&lt; Glyph &gt;::removeValuesNotIn()</a>, <a class="el" href="classArray.html#a311e3be8a59826e972ec981e9d719ace">Array&lt; Glyph &gt;::set()</a>, <a class="el" href="classArray.html#a0a6a1de585acb2d4c63a5b3b18a6530e">Array&lt; Glyph &gt;::setUnchecked()</a>, <a class="el" href="classArray.html#ac1dca4ab2895315dd85e25eaca2fcab1">Array&lt; Glyph &gt;::sort()</a>, <a class="el" href="classArray.html#aa719aa8439aab1cb265845002c8e3322">Array&lt; Glyph &gt;::swap()</a>, and <a class="el" href="classArray.html#a12532b278db4e9889d38d24f9d0f9720">Array&lt; Glyph &gt;::swapWithArray()</a>.</p>
 
 </div>
 </div>

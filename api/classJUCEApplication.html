@@ -125,14 +125,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a951c761fef742f6d7020907d6073a6eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that the user has tried to start up another instance of the app.  <a href="#a951c761fef742f6d7020907d6073a6eb"></a><br/></td></tr>
 <tr class="memitem:a508f46d93a9355c2dc984c7f12c3abbb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplication.html#a508f46d93a9355c2dc984c7f12c3abbb">systemRequestedQuit</a> ()</td></tr>
 <tr class="memdesc:a508f46d93a9355c2dc984c7f12c3abbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the operating system is trying to close the application.  <a href="#a508f46d93a9355c2dc984c7f12c3abbb"></a><br/></td></tr>
+<tr class="memitem:a523435f7aaf8663bc78d00261c684de5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplication.html#a523435f7aaf8663bc78d00261c684de5">suspended</a> ()</td></tr>
+<tr class="memdesc:a523435f7aaf8663bc78d00261c684de5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called when the application is being put into background mode by the operating system.  <a href="#a523435f7aaf8663bc78d00261c684de5"></a><br/></td></tr>
+<tr class="memitem:a121ca0380aada6ce6638ad1c5f789ff0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplication.html#a121ca0380aada6ce6638ad1c5f789ff0">resumed</a> ()</td></tr>
+<tr class="memdesc:a121ca0380aada6ce6638ad1c5f789ff0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called when the application is being woken from background mode by the operating system.  <a href="#a121ca0380aada6ce6638ad1c5f789ff0"></a><br/></td></tr>
 <tr class="memitem:af4b96f97305d972bc9c3f1cc7157af29"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplication.html#af4b96f97305d972bc9c3f1cc7157af29">unhandledException</a> (const std::exception *e, const <a class="el" href="classString.html">String</a> &amp;sourceFilename, int lineNumber)</td></tr>
 <tr class="memdesc:af4b96f97305d972bc9c3f1cc7157af29"><td class="mdescLeft">&#160;</td><td class="mdescRight">If any unhandled exceptions make it through to the message dispatch loop, this callback will be triggered, in case you want to log them or do some other type of error-handling.  <a href="#af4b96f97305d972bc9c3f1cc7157af29"></a><br/></td></tr>
 <tr class="memitem:a0fee97d4e78a41773873b54f1e75a68d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplication.html#a0fee97d4e78a41773873b54f1e75a68d">setApplicationReturnValue</a> (int newReturnValue) noexcept</td></tr>
 <tr class="memdesc:a0fee97d4e78a41773873b54f1e75a68d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value that should be returned as the application's exit code when the app quits.  <a href="#a0fee97d4e78a41773873b54f1e75a68d"></a><br/></td></tr>
 <tr class="memitem:a9589d48062e6c253e9f708ce24de231a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplication.html#a9589d48062e6c253e9f708ce24de231a">getApplicationReturnValue</a> () const noexcept</td></tr>
 <tr class="memdesc:a9589d48062e6c253e9f708ce24de231a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value that has been set as the application's exit code.  <a href="#a9589d48062e6c253e9f708ce24de231a"></a><br/></td></tr>
-<tr class="memitem:ad711ea007b3fbd390794485595f04e90"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplication.html#ad711ea007b3fbd390794485595f04e90">getCommandLineParameters</a> () const noexcept</td></tr>
-<tr class="memdesc:ad711ea007b3fbd390794485595f04e90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the application's command line parameters.  <a href="#ad711ea007b3fbd390794485595f04e90"></a><br/></td></tr>
 <tr class="memitem:a53eb2460c6147646ceefe65db2c01931"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classApplicationCommandTarget.html">ApplicationCommandTarget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplication.html#a53eb2460c6147646ceefe65db2c01931">getNextCommandTarget</a> ()</td></tr>
 <tr class="memitem:acf6b2c78fa3d4a05b7203fd02d101c32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplication.html#acf6b2c78fa3d4a05b7203fd02d101c32">getCommandInfo</a> (<a class="el" href="juce__ApplicationCommandID_8h.html#afd69b5d28aad07b587b693925e09308b">CommandID</a>, <a class="el" href="structApplicationCommandInfo.html">ApplicationCommandInfo</a> &amp;)</td></tr>
 <tr class="memitem:a772c13187c7362f188b4c2117aec8ef3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplication.html#a772c13187c7362f188b4c2117aec8ef3">getAllCommands</a> (<a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="juce__ApplicationCommandID_8h.html#afd69b5d28aad07b587b693925e09308b">CommandID</a> &gt; &amp;)</td></tr>
@@ -143,6 +145,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a742b0cd37ba47f08ac7d765e3a9d1b7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the global instance of the application object being run.  <a href="#a742b0cd37ba47f08ac7d765e3a9d1b7a"></a><br/></td></tr>
 <tr class="memitem:a618b5238c20a1590c12ffe20d15e999a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplication.html#a618b5238c20a1590c12ffe20d15e999a">quit</a> ()</td></tr>
 <tr class="memdesc:a618b5238c20a1590c12ffe20d15e999a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signals that the main message loop should stop and the application should terminate.  <a href="#a618b5238c20a1590c12ffe20d15e999a"></a><br/></td></tr>
+<tr class="memitem:a89bb36beea2a9173d79ed503eff27d88"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classStringArray.html">StringArray</a> <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplication.html#a89bb36beea2a9173d79ed503eff27d88">getCommandLineParameterArray</a> ()</td></tr>
+<tr class="memdesc:a89bb36beea2a9173d79ed503eff27d88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the application's command line parameters as a set of strings.  <a href="#a89bb36beea2a9173d79ed503eff27d88"></a><br/></td></tr>
+<tr class="memitem:aa6478f1fde2de46834a8a000df6f8967"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a> <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplication.html#aa6478f1fde2de46834a8a000df6f8967">getCommandLineParameters</a> ()</td></tr>
+<tr class="memdesc:aa6478f1fde2de46834a8a000df6f8967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the application's command line parameters as a single string.  <a href="#aa6478f1fde2de46834a8a000df6f8967"></a><br/></td></tr>
 <tr class="memitem:af4811fa78fc392744a9d4e92b85c424d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplication.html#af4811fa78fc392744a9d4e92b85c424d">isStandaloneApp</a> () noexcept</td></tr>
 <tr class="memdesc:af4811fa78fc392744a9d4e92b85c424d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this executable is running as an app (as opposed to being a plugin or other kind of shared library.  <a href="#af4811fa78fc392744a9d4e92b85c424d"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
@@ -383,6 +389,46 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a523435f7aaf8663bc78d00261c684de5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classJUCEApplication.html#a523435f7aaf8663bc78d00261c684de5">JUCEApplication::suspended</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>This method is called when the application is being put into background mode by the operating system. </p>
+
+<p>Implements <a class="el" href="classJUCEApplicationBase.html#ac641cfe5fd77b0f7ffb7b21e0d30f114">JUCEApplicationBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a121ca0380aada6ce6638ad1c5f789ff0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classJUCEApplication.html#a121ca0380aada6ce6638ad1c5f789ff0">JUCEApplication::resumed</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>This method is called when the application is being woken from background mode by the operating system. </p>
+
+<p>Implements <a class="el" href="classJUCEApplicationBase.html#a3d6b5a8c46caa068a61fa775df38d014">JUCEApplicationBase</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="af4b96f97305d972bc9c3f1cc7157af29"></a>
 <div class="memitem">
 <div class="memproto">
@@ -484,21 +530,41 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad711ea007b3fbd390794485595f04e90"></a>
+<a class="anchor" id="a89bb36beea2a9173d79ed503eff27d88"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classString.html">String</a>&amp; <a class="el" href="classJUCEApplication.html#ad711ea007b3fbd390794485595f04e90">JUCEApplication::getCommandLineParameters</a> </td>
+          <td class="memname">static <a class="el" href="classStringArray.html">StringArray</a> <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> <a class="el" href="classJUCEApplication.html#a89bb36beea2a9173d79ed503eff27d88">JUCEApplication::getCommandLineParameterArray</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td><code> [static]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>Returns the application's command line parameters. </p>
+<p>Returns the application's command line parameters as a set of strings. </p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classJUCEApplication.html#aa6478f1fde2de46834a8a000df6f8967" title="Returns the application&#39;s command line parameters as a single string.">getCommandLineParameters</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa6478f1fde2de46834a8a000df6f8967"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classString.html">String</a> <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> <a class="el" href="classJUCEApplication.html#aa6478f1fde2de46834a8a000df6f8967">JUCEApplication::getCommandLineParameters</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns the application's command line parameters as a single string. </p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classJUCEApplication.html#a89bb36beea2a9173d79ed503eff27d88" title="Returns the application&#39;s command line parameters as a set of strings.">getCommandLineParameterArray</a> </dd></dl>
 
 </div>
 </div>

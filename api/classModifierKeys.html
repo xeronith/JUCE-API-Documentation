@@ -122,7 +122,8 @@ Public Types</h2></td></tr>
 <br/>
 &#160;&#160;<a class="el" href="classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678ba95a2100e9a4b1a5786b253c065936627">popupMenuClickModifier</a> =  rightButtonModifier | ctrlModifier, 
 <a class="el" href="classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678bad234b97b656e78e1b0c500bff2618126">allKeyboardModifiers</a> =  shiftModifier | ctrlModifier | altModifier | commandModifier, 
-<a class="el" href="classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678bac6eb27985ac385d33aa8c8ea9a261dc8">allMouseButtonModifiers</a> =  leftButtonModifier | rightButtonModifier | middleButtonModifier
+<a class="el" href="classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678bac6eb27985ac385d33aa8c8ea9a261dc8">allMouseButtonModifiers</a> =  leftButtonModifier | rightButtonModifier | middleButtonModifier, 
+<a class="el" href="classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678ba2647f9ed4b2db164973d8b735f3b216a">ctrlAltCommandModifiers</a> =  ctrlModifier | altModifier | commandModifier
 <br/>
  }</td></tr>
 <tr class="memdesc:acdd2a85defa6a705d74e1a63d193678b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags that represent the different keys.  <a href="classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678b">More...</a><br/></td></tr>
@@ -163,8 +164,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af7f6cb23f9d76e0548d34c5c33480475"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModifierKeys.html#af7f6cb23f9d76e0548d34c5c33480475">operator!=</a> (const <a class="el" href="classModifierKeys.html">ModifierKeys</a> &amp;other) const noexcept</td></tr>
 <tr class="memitem:ae503d7f23c5d3fa5b0318a090935d9ce"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModifierKeys.html#ae503d7f23c5d3fa5b0318a090935d9ce">getRawFlags</a> () const noexcept</td></tr>
 <tr class="memdesc:ae503d7f23c5d3fa5b0318a090935d9ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the raw flags for direct testing.  <a href="#ae503d7f23c5d3fa5b0318a090935d9ce"></a><br/></td></tr>
-<tr class="memitem:a8fab04f1d8579a6f5ebb1c074e10bcd7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classModifierKeys.html">ModifierKeys</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModifierKeys.html#a8fab04f1d8579a6f5ebb1c074e10bcd7">withoutFlags</a> (int rawFlagsToClear) const noexcept</td></tr>
-<tr class="memitem:a7ddfd00b92b64dd48dd4eb57b5f178a4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classModifierKeys.html">ModifierKeys</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModifierKeys.html#a7ddfd00b92b64dd48dd4eb57b5f178a4">withFlags</a> (int rawFlagsToSet) const noexcept</td></tr>
+<tr class="memitem:a00ef202e1fad8edda50b9f4632bb64e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classModifierKeys.html">ModifierKeys</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModifierKeys.html#a00ef202e1fad8edda50b9f4632bb64e0">withoutFlags</a> (int rawFlagsToClear) const noexcept</td></tr>
+<tr class="memitem:a34d981c0d9431e661b84f4685f1e37ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classModifierKeys.html">ModifierKeys</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModifierKeys.html#a34d981c0d9431e661b84f4685f1e37ee">withFlags</a> (int rawFlagsToSet) const noexcept</td></tr>
 <tr class="memitem:a3bc69d9f9ec0939a79cd01992f45e1c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModifierKeys.html#a3bc69d9f9ec0939a79cd01992f45e1c0">testFlags</a> (const int flagsToTest) const noexcept</td></tr>
 <tr class="memdesc:a3bc69d9f9ec0939a79cd01992f45e1c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests a combination of flags and returns true if any of them are set.  <a href="#a3bc69d9f9ec0939a79cd01992f45e1c0"></a><br/></td></tr>
 <tr class="memitem:a2adc41db5a9ff04b6527bc6c1a656005"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModifierKeys.html#a2adc41db5a9ff04b6527bc6c1a656005">getNumMouseButtonsDown</a> () const noexcept</td></tr>
@@ -226,6 +227,9 @@ Static Public Member Functions</h2></td></tr>
 </td></tr>
 <tr><td valign="top"><em><a class="anchor" id="acdd2a85defa6a705d74e1a63d193678bac6eb27985ac385d33aa8c8ea9a261dc8"></a>allMouseButtonModifiers</em>&nbsp;</td><td>
 <p>Represents a combination of all the mouse buttons at once. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="acdd2a85defa6a705d74e1a63d193678ba2647f9ed4b2db164973d8b735f3b216a"></a>ctrlAltCommandModifiers</em>&nbsp;</td><td>
+<p>Represents a combination of all the alt, ctrl and command key modifiers. </p>
 </td></tr>
 </table>
 </dd>
@@ -599,12 +603,12 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8fab04f1d8579a6f5ebb1c074e10bcd7"></a>
+<a class="anchor" id="a00ef202e1fad8edda50b9f4632bb64e0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classModifierKeys.html">ModifierKeys</a> <a class="el" href="classModifierKeys.html#a8fab04f1d8579a6f5ebb1c074e10bcd7">ModifierKeys::withoutFlags</a> </td>
+          <td class="memname"><a class="el" href="classModifierKeys.html">ModifierKeys</a> <a class="el" href="classModifierKeys.html#a00ef202e1fad8edda50b9f4632bb64e0">ModifierKeys::withoutFlags</a> </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>rawFlagsToClear</em></td><td>)</td>
@@ -616,12 +620,12 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7ddfd00b92b64dd48dd4eb57b5f178a4"></a>
+<a class="anchor" id="a34d981c0d9431e661b84f4685f1e37ee"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classModifierKeys.html">ModifierKeys</a> <a class="el" href="classModifierKeys.html#a7ddfd00b92b64dd48dd4eb57b5f178a4">ModifierKeys::withFlags</a> </td>
+          <td class="memname"><a class="el" href="classModifierKeys.html">ModifierKeys</a> <a class="el" href="classModifierKeys.html#a34d981c0d9431e661b84f4685f1e37ee">ModifierKeys::withFlags</a> </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>rawFlagsToSet</em></td><td>)</td>

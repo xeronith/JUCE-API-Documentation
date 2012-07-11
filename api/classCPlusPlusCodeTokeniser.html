@@ -94,7 +94,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a>  </div>
   <div class="headertitle">
@@ -109,34 +108,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p><a href="classCPlusPlusCodeTokeniser-members.html">List of all members.</a></p>
 <table class="memberdecls">
-<tr><td colspan="2"><h2><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a757e9a2599a0e15b536754f99aeb0257"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257">TokenType</a> { <br/>
-&#160;&#160;<a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257a96ec7cd93a85eb494ff478b2531ca6dc">tokenType_error</a> =  0, 
-<a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257a7052a5bb03e836c04d591110776f201e">tokenType_comment</a>, 
-<a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257a5baffc954faef7ee66df46b7062559b7">tokenType_builtInKeyword</a>, 
-<a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257a34e6424d83c728aabcae3b322c236b52">tokenType_identifier</a>, 
-<br/>
-&#160;&#160;<a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257ae4a4bf2d7b5b1de8144bd8cedfda13a3">tokenType_integerLiteral</a>, 
-<a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257a0e6ebd923bb9da336e1a776fc716b862">tokenType_floatLiteral</a>, 
-<a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257aa182870ae94f2955468dc4d03dd57a19">tokenType_stringLiteral</a>, 
-<a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257a539da9fffe49f181c22173b47d57fdb2">tokenType_operator</a>, 
-<br/>
-&#160;&#160;<a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257a290668e5b4167e765b849c977c697384">tokenType_bracket</a>, 
-<a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257aa2ac45a2c81f2d202df78cb9ab01c311">tokenType_punctuation</a>, 
-<a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257a0f86221be32d125f9827b9439c545702">tokenType_preprocessor</a>
-<br/>
- }</td></tr>
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a469ad5768ee42ef25442571d4b6ab5e9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPlusPlusCodeTokeniser.html#a469ad5768ee42ef25442571d4b6ab5e9">CPlusPlusCodeTokeniser</a> ()</td></tr>
 <tr class="memitem:ab8ea32248dbb8039233da1006a9cd6f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPlusPlusCodeTokeniser.html#ab8ea32248dbb8039233da1006a9cd6f8">~CPlusPlusCodeTokeniser</a> ()</td></tr>
 <tr class="memitem:a3206c4de8f2e12109fbdc474c4d858b7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPlusPlusCodeTokeniser.html#a3206c4de8f2e12109fbdc474c4d858b7">readNextToken</a> (<a class="el" href="classCodeDocument_1_1Iterator.html">CodeDocument::Iterator</a> &amp;source)</td></tr>
 <tr class="memdesc:a3206c4de8f2e12109fbdc474c4d858b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the next token from the source and returns its token type.  <a href="#a3206c4de8f2e12109fbdc474c4d858b7"></a><br/></td></tr>
-<tr class="memitem:a3ac6d6331231fb15420634f546b036e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPlusPlusCodeTokeniser.html#a3ac6d6331231fb15420634f546b036e6">getTokenTypes</a> ()</td></tr>
-<tr class="memdesc:a3ac6d6331231fb15420634f546b036e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of the names of the token types this analyser uses.  <a href="#a3ac6d6331231fb15420634f546b036e6"></a><br/></td></tr>
-<tr class="memitem:a7d92b852ebb1bd9c04a190485e292df5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classColour.html">Colour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPlusPlusCodeTokeniser.html#a7d92b852ebb1bd9c04a190485e292df5">getDefaultColour</a> (int tokenType)</td></tr>
-<tr class="memdesc:a7d92b852ebb1bd9c04a190485e292df5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a suggested syntax highlighting colour for a specified token type.  <a href="#a7d92b852ebb1bd9c04a190485e292df5"></a><br/></td></tr>
+<tr class="memitem:a1c73177b3e41a4babf4b2cfb89287fb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCodeEditorComponent_1_1ColourScheme.html">CodeEditorComponent::ColourScheme</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPlusPlusCodeTokeniser.html#a1c73177b3e41a4babf4b2cfb89287fb7">getDefaultColourScheme</a> ()</td></tr>
+<tr class="memdesc:a1c73177b3e41a4babf4b2cfb89287fb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a suggested syntax highlighting colour scheme.  <a href="#a1c73177b3e41a4babf4b2cfb89287fb7"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aaeae35807604c0f8941f4ed821e07642"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPlusPlusCodeTokeniser.html#aaeae35807604c0f8941f4ed821e07642">isReservedKeyword</a> (const <a class="el" href="classString.html">String</a> &amp;token) noexcept</td></tr>
@@ -145,47 +124,7 @@ Static Public Member Functions</h2></td></tr>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A simple lexical analyser for syntax colouring of C++ code. </p>
 <dl class="section see"><dt>See also:</dt><dd>SyntaxAnalyser, <a class="el" href="classCodeEditorComponent.html" title="A text editor component designed specifically for source code.">CodeEditorComponent</a>, <a class="el" href="classCodeDocument.html" title="A class for storing and manipulating a source code file.">CodeDocument</a> </dd></dl>
-</div><hr/><h2>Member Enumeration Documentation</h2>
-<a class="anchor" id="a757e9a2599a0e15b536754f99aeb0257"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257">CPlusPlusCodeTokeniser::TokenType</a></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-<dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
-<tr><td valign="top"><em><a class="anchor" id="a757e9a2599a0e15b536754f99aeb0257a96ec7cd93a85eb494ff478b2531ca6dc"></a>tokenType_error</em>&nbsp;</td><td>
-</td></tr>
-<tr><td valign="top"><em><a class="anchor" id="a757e9a2599a0e15b536754f99aeb0257a7052a5bb03e836c04d591110776f201e"></a>tokenType_comment</em>&nbsp;</td><td>
-</td></tr>
-<tr><td valign="top"><em><a class="anchor" id="a757e9a2599a0e15b536754f99aeb0257a5baffc954faef7ee66df46b7062559b7"></a>tokenType_builtInKeyword</em>&nbsp;</td><td>
-</td></tr>
-<tr><td valign="top"><em><a class="anchor" id="a757e9a2599a0e15b536754f99aeb0257a34e6424d83c728aabcae3b322c236b52"></a>tokenType_identifier</em>&nbsp;</td><td>
-</td></tr>
-<tr><td valign="top"><em><a class="anchor" id="a757e9a2599a0e15b536754f99aeb0257ae4a4bf2d7b5b1de8144bd8cedfda13a3"></a>tokenType_integerLiteral</em>&nbsp;</td><td>
-</td></tr>
-<tr><td valign="top"><em><a class="anchor" id="a757e9a2599a0e15b536754f99aeb0257a0e6ebd923bb9da336e1a776fc716b862"></a>tokenType_floatLiteral</em>&nbsp;</td><td>
-</td></tr>
-<tr><td valign="top"><em><a class="anchor" id="a757e9a2599a0e15b536754f99aeb0257aa182870ae94f2955468dc4d03dd57a19"></a>tokenType_stringLiteral</em>&nbsp;</td><td>
-</td></tr>
-<tr><td valign="top"><em><a class="anchor" id="a757e9a2599a0e15b536754f99aeb0257a539da9fffe49f181c22173b47d57fdb2"></a>tokenType_operator</em>&nbsp;</td><td>
-</td></tr>
-<tr><td valign="top"><em><a class="anchor" id="a757e9a2599a0e15b536754f99aeb0257a290668e5b4167e765b849c977c697384"></a>tokenType_bracket</em>&nbsp;</td><td>
-</td></tr>
-<tr><td valign="top"><em><a class="anchor" id="a757e9a2599a0e15b536754f99aeb0257aa2ac45a2c81f2d202df78cb9ab01c311"></a>tokenType_punctuation</em>&nbsp;</td><td>
-</td></tr>
-<tr><td valign="top"><em><a class="anchor" id="a757e9a2599a0e15b536754f99aeb0257a0f86221be32d125f9827b9439c545702"></a>tokenType_preprocessor</em>&nbsp;</td><td>
-</td></tr>
-</table>
-</dd>
-</dl>
-
-</div>
-</div>
-<hr/><h2>Constructor &amp; Destructor Documentation</h2>
+</div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a469ad5768ee42ef25442571d4b6ab5e9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -241,12 +180,12 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3ac6d6331231fb15420634f546b036e6"></a>
+<a class="anchor" id="a1c73177b3e41a4babf4b2cfb89287fb7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classStringArray.html">StringArray</a> <a class="el" href="classCPlusPlusCodeTokeniser.html#a3ac6d6331231fb15420634f546b036e6">CPlusPlusCodeTokeniser::getTokenTypes</a> </td>
+          <td class="memname"><a class="el" href="structCodeEditorComponent_1_1ColourScheme.html">CodeEditorComponent::ColourScheme</a> <a class="el" href="classCPlusPlusCodeTokeniser.html#a1c73177b3e41a4babf4b2cfb89287fb7">CPlusPlusCodeTokeniser::getDefaultColourScheme</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td><code> [virtual]</code></td>
@@ -255,31 +194,9 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Returns a list of the names of the token types this analyser uses. </p>
-<p>The index in this list must match the token type numbers that are returned by <a class="el" href="classCPlusPlusCodeTokeniser.html#a3206c4de8f2e12109fbdc474c4d858b7" title="Reads the next token from the source and returns its token type.">readNextToken()</a>. </p>
+<p>Returns a suggested syntax highlighting colour scheme. </p>
 
-<p>Implements <a class="el" href="classCodeTokeniser.html#a1730f1c3822be46454876bf416fc7de5">CodeTokeniser</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a7d92b852ebb1bd9c04a190485e292df5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classColour.html">Colour</a> <a class="el" href="classCPlusPlusCodeTokeniser.html#a7d92b852ebb1bd9c04a190485e292df5">CPlusPlusCodeTokeniser::getDefaultColour</a> </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>tokenType</em></td><td>)</td>
-          <td><code> [virtual]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Returns a suggested syntax highlighting colour for a specified token type. </p>
-
-<p>Implements <a class="el" href="classCodeTokeniser.html#a109a2275151f845795278eb3401e84e9">CodeTokeniser</a>.</p>
+<p>Implements <a class="el" href="classCodeTokeniser.html#a240c3d9ca2a5e7f4da5d895143b52b78">CodeTokeniser</a>.</p>
 
 </div>
 </div>

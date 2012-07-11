@@ -136,8 +136,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a763ea233d7b7c8e45e33c7ea8030ff48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the current fill settings.  <a href="#a763ea233d7b7c8e45e33c7ea8030ff48"></a><br/></td></tr>
 <tr class="memitem:a1fbdb321975d90c45243027a61ac2be9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a1fbdb321975d90c45243027a61ac2be9">setFont</a> (const <a class="el" href="classFont.html">Font</a> &amp;newFont)</td></tr>
 <tr class="memdesc:a1fbdb321975d90c45243027a61ac2be9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the font to use for subsequent text-drawing functions.  <a href="#a1fbdb321975d90c45243027a61ac2be9"></a><br/></td></tr>
-<tr class="memitem:af6e07de35e7d2777f9152633b0932fbd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#af6e07de35e7d2777f9152633b0932fbd">setFont</a> (float newFontHeight, int fontStyleFlags=<a class="el" href="classFont.html#a52a35b5dc1e6f782e25283c9283bae4fa99039e6bb438434f9bccde132132dd99">Font::plain</a>)</td></tr>
-<tr class="memdesc:af6e07de35e7d2777f9152633b0932fbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the size and style of the currently-selected font.  <a href="#af6e07de35e7d2777f9152633b0932fbd"></a><br/></td></tr>
+<tr class="memitem:a8c9a73240eab843cbf93393956910e72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a8c9a73240eab843cbf93393956910e72">setFont</a> (float newFontHeight)</td></tr>
+<tr class="memdesc:a8c9a73240eab843cbf93393956910e72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the size of the currently-selected font.  <a href="#a8c9a73240eab843cbf93393956910e72"></a><br/></td></tr>
 <tr class="memitem:abb972f0d801630b6e02d335cfa9da28a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFont.html">Font</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#abb972f0d801630b6e02d335cfa9da28a">getCurrentFont</a> () const </td></tr>
 <tr class="memdesc:abb972f0d801630b6e02d335cfa9da28a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the currently selected font.  <a href="#abb972f0d801630b6e02d335cfa9da28a"></a><br/></td></tr>
 <tr class="memitem:ade61955c11b56c91232b350dbfbf1b81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#ade61955c11b56c91232b350dbfbf1b81">drawSingleLineText</a> (const <a class="el" href="classString.html">String</a> &amp;text, int startX, int baselineY, const <a class="el" href="classJustification.html">Justification</a> &amp;justification=<a class="el" href="classJustification.html#a4b9db354585c335c96baecf1a14c2db5a56156bb2892e32febf8011af9c5da653">Justification::left</a>) const </td></tr>
@@ -496,7 +496,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af6e07de35e7d2777f9152633b0932fbd"></a>
+<a class="anchor" id="a8c9a73240eab843cbf93393956910e72"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -504,25 +504,15 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void <a class="el" href="classGraphics.html#a1fbdb321975d90c45243027a61ac2be9">Graphics::setFont</a> </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>newFontHeight</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>newFontHeight</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>fontStyleFlags</em> = <code><a class="el" href="classFont.html#a52a35b5dc1e6f782e25283c9283bae4fa99039e6bb438434f9bccde132132dd99">Font::plain</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>Changes the size and style of the currently-selected font. </p>
-<p>This is a convenient shortcut that changes the context's current font to a different size or style. The typeface won't be changed.</p>
+<p>Changes the size of the currently-selected font. </p>
+<p>This is a convenient shortcut that changes the context's current font to a different size. The typeface won't be changed. </p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classFont.html" title="Represents a particular font, including its size, style, etc.">Font</a> </dd></dl>
 
 </div>

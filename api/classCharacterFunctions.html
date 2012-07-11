@@ -169,9 +169,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a88c1a470b8d453d8fd790c99406b1828"><td class="memTemplParams" colspan="2">template&lt;typename CharPointerType1 , typename CharPointerType2 &gt; </td></tr>
 <tr class="memitem:a88c1a470b8d453d8fd790c99406b1828"><td class="memTemplItemLeft" align="right" valign="top">static int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharacterFunctions.html#a88c1a470b8d453d8fd790c99406b1828">compareIgnoreCaseUpTo</a> (CharPointerType1 s1, CharPointerType2 s2, int maxChars) noexcept</td></tr>
 <tr class="memdesc:a88c1a470b8d453d8fd790c99406b1828"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two null-terminated character strings, using a case-independent match.  <a href="#a88c1a470b8d453d8fd790c99406b1828"></a><br/></td></tr>
-<tr class="memitem:ab843cf636aeb3998a3ccbf0d46974725"><td class="memTemplParams" colspan="2">template&lt;typename CharPointerType1 , typename CharPointerType2 &gt; </td></tr>
-<tr class="memitem:ab843cf636aeb3998a3ccbf0d46974725"><td class="memTemplItemLeft" align="right" valign="top">static int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharacterFunctions.html#ab843cf636aeb3998a3ccbf0d46974725">indexOf</a> (CharPointerType1 haystack, const CharPointerType2 &amp;needle) noexcept</td></tr>
-<tr class="memdesc:ab843cf636aeb3998a3ccbf0d46974725"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the character index of a given substring in another string.  <a href="#ab843cf636aeb3998a3ccbf0d46974725"></a><br/></td></tr>
+<tr class="memitem:aa02f3a3ce7945430026ccdb78d591be3"><td class="memTemplParams" colspan="2">template&lt;typename CharPointerType1 , typename CharPointerType2 &gt; </td></tr>
+<tr class="memitem:aa02f3a3ce7945430026ccdb78d591be3"><td class="memTemplItemLeft" align="right" valign="top">static int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharacterFunctions.html#aa02f3a3ce7945430026ccdb78d591be3">indexOf</a> (CharPointerType1 textToSearch, const CharPointerType2 &amp;substringToLookFor) noexcept</td></tr>
+<tr class="memdesc:aa02f3a3ce7945430026ccdb78d591be3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the character index of a given substring in another string.  <a href="#aa02f3a3ce7945430026ccdb78d591be3"></a><br/></td></tr>
+<tr class="memitem:aba55f95c614a4dd34238f0a18a274e48"><td class="memTemplParams" colspan="2">template&lt;typename CharPointerType1 , typename CharPointerType2 &gt; </td></tr>
+<tr class="memitem:aba55f95c614a4dd34238f0a18a274e48"><td class="memTemplItemLeft" align="right" valign="top">static CharPointerType1&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharacterFunctions.html#aba55f95c614a4dd34238f0a18a274e48">find</a> (CharPointerType1 textToSearch, const CharPointerType2 &amp;substringToLookFor) noexcept</td></tr>
+<tr class="memdesc:aba55f95c614a4dd34238f0a18a274e48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first occurrence of a substring in a string.  <a href="#aba55f95c614a4dd34238f0a18a274e48"></a><br/></td></tr>
 <tr class="memitem:a26cda5a0f1d5ee2a254de5e56d394bd3"><td class="memTemplParams" colspan="2">template&lt;typename CharPointerType1 , typename CharPointerType2 &gt; </td></tr>
 <tr class="memitem:a26cda5a0f1d5ee2a254de5e56d394bd3"><td class="memTemplItemLeft" align="right" valign="top">static int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharacterFunctions.html#a26cda5a0f1d5ee2a254de5e56d394bd3">indexOfIgnoreCase</a> (CharPointerType1 haystack, const CharPointerType2 &amp;needle) noexcept</td></tr>
 <tr class="memdesc:a26cda5a0f1d5ee2a254de5e56d394bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the character index of a given substring in another string, using a case-independent match.  <a href="#a26cda5a0f1d5ee2a254de5e56d394bd3"></a><br/></td></tr>
@@ -819,23 +822,23 @@ template&lt;typename CharPointerType1 , typename CharPointerType2 &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ab843cf636aeb3998a3ccbf0d46974725"></a>
+<a class="anchor" id="aa02f3a3ce7945430026ccdb78d591be3"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename CharPointerType1 , typename CharPointerType2 &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">static int <a class="el" href="classCharacterFunctions.html#ab843cf636aeb3998a3ccbf0d46974725">CharacterFunctions::indexOf</a> </td>
+          <td class="memname">static int <a class="el" href="classCharacterFunctions.html#aa02f3a3ce7945430026ccdb78d591be3">CharacterFunctions::indexOf</a> </td>
           <td>(</td>
           <td class="paramtype">CharPointerType1&#160;</td>
-          <td class="paramname"><em>haystack</em>, </td>
+          <td class="paramname"><em>textToSearch</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const CharPointerType2 &amp;&#160;</td>
-          <td class="paramname"><em>needle</em>&#160;</td>
+          <td class="paramname"><em>substringToLookFor</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -848,6 +851,38 @@ template&lt;typename CharPointerType1 , typename CharPointerType2 &gt; </div>
 
 <p>Finds the character index of a given substring in another string. </p>
 <p>Returns -1 if the substring is not found. </p>
+
+</div>
+</div>
+<a class="anchor" id="aba55f95c614a4dd34238f0a18a274e48"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharPointerType1 , typename CharPointerType2 &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">static CharPointerType1 <a class="el" href="classCharacterFunctions.html#aba55f95c614a4dd34238f0a18a274e48">CharacterFunctions::find</a> </td>
+          <td>(</td>
+          <td class="paramtype">CharPointerType1&#160;</td>
+          <td class="paramname"><em>textToSearch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const CharPointerType2 &amp;&#160;</td>
+          <td class="paramname"><em>substringToLookFor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns a pointer to the first occurrence of a substring in a string. </p>
+<p>If the substring is not found, this will return a pointer to the string's null terminator. </p>
 
 </div>
 </div>

@@ -233,7 +233,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1394fc9e9e2c0d059709d55c557c18c3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a1394fc9e9e2c0d059709d55c557c18c3">setAlpha</a> (float newAlpha)=0</td></tr>
 <tr class="memdesc:a1394fc9e9e2c0d059709d55c557c18c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the window's transparency.  <a href="#a1394fc9e9e2c0d059709d55c557c18c3"></a><br/></td></tr>
 <tr class="memitem:a523ce64402f640acad96c4db22fee84c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a523ce64402f640acad96c4db22fee84c">handleMouseEvent</a> (int touchIndex, const <a class="el" href="classPoint.html">Point</a>&lt; int &gt; &amp;positionWithinPeer, const <a class="el" href="classModifierKeys.html">ModifierKeys</a> &amp;newMods, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> time)</td></tr>
-<tr class="memitem:a74d390c3ec99a4f67ad99262b18274be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a74d390c3ec99a4f67ad99262b18274be">handleMouseWheel</a> (int touchIndex, const <a class="el" href="classPoint.html">Point</a>&lt; int &gt; &amp;positionWithinPeer, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> time, float x, float y)</td></tr>
+<tr class="memitem:a07d0bfaef2741c481211b4e8745cab88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a07d0bfaef2741c481211b4e8745cab88">handleMouseWheel</a> (int touchIndex, const <a class="el" href="classPoint.html">Point</a>&lt; int &gt; &amp;positionWithinPeer, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> time, const <a class="el" href="structMouseWheelDetails.html">MouseWheelDetails</a> &amp;)</td></tr>
 <tr class="memitem:a13b9987266c93f3e73148c7c3e83da64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a13b9987266c93f3e73148c7c3e83da64">handleUserClosingWindow</a> ()</td></tr>
 <tr class="memitem:a6e44b78f7f2d4f813baffc7577a376f6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a6e44b78f7f2d4f813baffc7577a376f6">handleDragMove</a> (const <a class="el" href="structComponentPeer_1_1DragInfo.html">DragInfo</a> &amp;)</td></tr>
 <tr class="memitem:a531d190202f98b79786f2b2b9885931a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a531d190202f98b79786f2b2b9885931a">handleDragExit</a> (const <a class="el" href="structComponentPeer_1_1DragInfo.html">DragInfo</a> &amp;)</td></tr>
@@ -1372,12 +1372,12 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a74d390c3ec99a4f67ad99262b18274be"></a>
+<a class="anchor" id="a07d0bfaef2741c481211b4e8745cab88"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classComponentPeer.html#a74d390c3ec99a4f67ad99262b18274be">ComponentPeer::handleMouseWheel</a> </td>
+          <td class="memname">void <a class="el" href="classComponentPeer.html#a07d0bfaef2741c481211b4e8745cab88">ComponentPeer::handleMouseWheel</a> </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>touchIndex</em>, </td>
@@ -1397,14 +1397,8 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMouseWheelDetails.html">MouseWheelDetails</a> &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>

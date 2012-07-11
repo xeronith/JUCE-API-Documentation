@@ -89,6 +89,7 @@ var searchData=
   ['heapblock_3c_20thumbdata_20_2a_20_3e',['HeapBlock< ThumbData * >',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20thumbnailcacheentry_20_2a_20_3e',['HeapBlock< ThumbnailCacheEntry * >',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20timesliceclient_20_2a_20_3e',['HeapBlock< TimeSliceClient * >',['../classHeapBlock.html',1,'']]],
+  ['heapblock_3c_20tokentype_20_3e',['HeapBlock< TokenType >',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20toolbaritemcomponent_20_2a_20_3e',['HeapBlock< ToolbarItemComponent * >',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20treeviewitem_20_2a_20_3e',['HeapBlock< TreeViewItem * >',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20type_20_3e',['HeapBlock< Type >',['../classHeapBlock.html',1,'']]],

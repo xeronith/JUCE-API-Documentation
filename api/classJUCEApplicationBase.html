@@ -126,6 +126,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a77dc328a5400d0866b03a96684c0d9c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that the user has tried to start up another instance of the app.  <a href="#a77dc328a5400d0866b03a96684c0d9c4"></a><br/></td></tr>
 <tr class="memitem:aa4ae0dcc3467f4927d8365b4814b1396"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplicationBase.html#aa4ae0dcc3467f4927d8365b4814b1396">systemRequestedQuit</a> ()=0</td></tr>
 <tr class="memdesc:aa4ae0dcc3467f4927d8365b4814b1396"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the operating system is trying to close the application.  <a href="#aa4ae0dcc3467f4927d8365b4814b1396"></a><br/></td></tr>
+<tr class="memitem:ac641cfe5fd77b0f7ffb7b21e0d30f114"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplicationBase.html#ac641cfe5fd77b0f7ffb7b21e0d30f114">suspended</a> ()=0</td></tr>
+<tr class="memdesc:ac641cfe5fd77b0f7ffb7b21e0d30f114"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called when the application is being put into background mode by the operating system.  <a href="#ac641cfe5fd77b0f7ffb7b21e0d30f114"></a><br/></td></tr>
+<tr class="memitem:a3d6b5a8c46caa068a61fa775df38d014"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplicationBase.html#a3d6b5a8c46caa068a61fa775df38d014">resumed</a> ()=0</td></tr>
+<tr class="memdesc:a3d6b5a8c46caa068a61fa775df38d014"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called when the application is being woken from background mode by the operating system.  <a href="#a3d6b5a8c46caa068a61fa775df38d014"></a><br/></td></tr>
 <tr class="memitem:adb182f77016ee90f8d5443abcb0bb3f0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplicationBase.html#adb182f77016ee90f8d5443abcb0bb3f0">unhandledException</a> (const std::exception *, const <a class="el" href="classString.html">String</a> &amp;sourceFilename, int lineNumber)=0</td></tr>
 <tr class="memdesc:adb182f77016ee90f8d5443abcb0bb3f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">If any unhandled exceptions make it through to the message dispatch loop, this callback will be triggered, in case you want to log them or do some other type of error-handling.  <a href="#adb182f77016ee90f8d5443abcb0bb3f0"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-methods"></a>
@@ -284,7 +288,7 @@ Protected Member Functions</h2></td></tr>
 <p>If during the <a class="el" href="classJUCEApplicationBase.html#ad584bed05116674a1e68f60a1ac546f5" title="Called when the application starts.">initialise()</a> method, the application decides not to start-up after all, it can just call the quit() method and the event loop won't be run.</p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname">commandLineParameters</td><td>the line passed in does not include the name of the executable, just the parameter list. </td></tr>
+    <tr><td class="paramname">commandLineParameters</td><td>the line passed in does not include the name of the executable, just the parameter list. To get the parameters as an array, you can call <a class="el" href="classJUCEApplication.html#aa6478f1fde2de46834a8a000df6f8967" title="Returns the application&#39;s command line parameters as a single string.">JUCEApplication::getCommandLineParameters()</a> </td></tr>
   </table>
   </dd>
 </dl>
@@ -349,6 +353,46 @@ Protected Member Functions</h2></td></tr>
 <p>If you want to send a quit signal to your app, this is the correct method to call, because it means that requests that come from the system get handled in the same way as those from your own application code. So e.g. you'd call this method from a "quit" item on a menu bar. </p>
 
 <p>Implemented in <a class="el" href="classJUCEApplication.html#a508f46d93a9355c2dc984c7f12c3abbb">JUCEApplication</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac641cfe5fd77b0f7ffb7b21e0d30f114"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classJUCEApplicationBase.html#ac641cfe5fd77b0f7ffb7b21e0d30f114">JUCEApplicationBase::suspended</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>This method is called when the application is being put into background mode by the operating system. </p>
+
+<p>Implemented in <a class="el" href="classJUCEApplication.html#a523435f7aaf8663bc78d00261c684de5">JUCEApplication</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3d6b5a8c46caa068a61fa775df38d014"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classJUCEApplicationBase.html#a3d6b5a8c46caa068a61fa775df38d014">JUCEApplicationBase::resumed</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>This method is called when the application is being woken from background mode by the operating system. </p>
+
+<p>Implemented in <a class="el" href="classJUCEApplication.html#a121ca0380aada6ce6638ad1c5f789ff0">JUCEApplication</a>.</p>
 
 </div>
 </div>

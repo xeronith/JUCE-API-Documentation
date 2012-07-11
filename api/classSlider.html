@@ -312,7 +312,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ac2b461a37e087d6e04ee0dcdf886ab0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#ac2b461a37e087d6e04ee0dcdf886ab0a">mouseUp</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;)</td></tr>
 <tr class="memitem:ad39e4dbc45c746e8337784d650494263"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#ad39e4dbc45c746e8337784d650494263">mouseDrag</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;)</td></tr>
 <tr class="memitem:a57a74559c84517cb52d1dba45465ab27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a57a74559c84517cb52d1dba45465ab27">mouseDoubleClick</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;)</td></tr>
-<tr class="memitem:a582340c5f5cfbab87b7a4090bf806b6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a582340c5f5cfbab87b7a4090bf806b6d">mouseWheelMove</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;, float wheelIncrementX, float wheelIncrementY)</td></tr>
+<tr class="memitem:a09e8afb03036d1ffe8de3e25221267ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a09e8afb03036d1ffe8de3e25221267ae">mouseWheelMove</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;, const <a class="el" href="structMouseWheelDetails.html">MouseWheelDetails</a> &amp;)</td></tr>
 <tr class="memitem:a2e7c60b6e5ab7e160be293c6cff05b51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a2e7c60b6e5ab7e160be293c6cff05b51">modifierKeysChanged</a> (const <a class="el" href="classModifierKeys.html">ModifierKeys</a> &amp;)</td></tr>
 <tr class="memitem:a8655306c7d410d02b4531458de51b666"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a8655306c7d410d02b4531458de51b666">lookAndFeelChanged</a> ()</td></tr>
 <tr class="memitem:a57d0b08c020cf7d71b9e5b028d859e59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a57d0b08c020cf7d71b9e5b028d859e59">enablementChanged</a> ()</td></tr>
@@ -2222,7 +2222,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classComponent.html#aba7f25d9b0dc026fe5e99be03ebe7818">Component</a>.</p>
+<p>Reimplemented from <a class="el" href="classComponent.html#a26b61c6a353109dd3d445ef5d54a2238">Component</a>.</p>
 
 </div>
 </div>
@@ -2241,7 +2241,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classComponent.html#acd76ad602a226a8bcab9a1edd33742cf">Component</a>.</p>
+<p>Reimplemented from <a class="el" href="classComponent.html#a6b5306e64f955194cbcff52b7e4b4fcb">Component</a>.</p>
 
 </div>
 </div>
@@ -2260,7 +2260,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classComponent.html#a278d48430f7a5b97086276d76144f6c2">Component</a>.</p>
+<p>Reimplemented from <a class="el" href="classComponent.html#aa5543364d5fcf87e0db7f9aba3c0e26d">Component</a>.</p>
 
 </div>
 </div>
@@ -2279,16 +2279,16 @@ Protected Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classComponent.html#a0f0fb18dd076ada3b720bf6e6ea652a9">Component</a>.</p>
+<p>Reimplemented from <a class="el" href="classComponent.html#a8d7c63f3509e6c4cef9e2e003c16d731">Component</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a582340c5f5cfbab87b7a4090bf806b6d"></a>
+<a class="anchor" id="a09e8afb03036d1ffe8de3e25221267ae"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classSlider.html#a582340c5f5cfbab87b7a4090bf806b6d">Slider::mouseWheelMove</a> </td>
+          <td class="memname">void <a class="el" href="classSlider.html#a09e8afb03036d1ffe8de3e25221267ae">Slider::mouseWheelMove</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;&#160;</td>
           <td class="paramname">, </td>
@@ -2296,14 +2296,8 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>wheelIncrementX</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>wheelIncrementY</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMouseWheelDetails.html">MouseWheelDetails</a> &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2314,7 +2308,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classComponent.html#abcffdc4b8deb3b985f76f42039f54a56">Component</a>.</p>
+<p>Reimplemented from <a class="el" href="classComponent.html#a05cb3d0faaa97273799540b67d0929f3">Component</a>.</p>
 
 </div>
 </div>

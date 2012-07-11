@@ -153,8 +153,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a75c31f53d17ea048bf83e19e8b051ba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this mouse can be moved indefinitely in any direction without running out of space.  <a href="#a75c31f53d17ea048bf83e19e8b051ba2"></a><br/></td></tr>
 <tr class="memitem:a8289b45acc8783feb0d83898885a70b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a8289b45acc8783feb0d83898885a70b3">enableUnboundedMouseMovement</a> (bool isEnabled, bool keepCursorVisibleUntilOffscreen=false)</td></tr>
 <tr class="memdesc:a8289b45acc8783feb0d83898885a70b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows the mouse to move beyond the edges of the screen.  <a href="#a8289b45acc8783feb0d83898885a70b3"></a><br/></td></tr>
-<tr class="memitem:aabcc1a5fce26f1f96f8305d58c194df8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#aabcc1a5fce26f1f96f8305d58c194df8">handleEvent</a> (<a class="el" href="classComponentPeer.html">ComponentPeer</a> *peer, const <a class="el" href="classPoint.html">Point</a>&lt; int &gt; &amp;positionWithinPeer, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> time, const <a class="el" href="classModifierKeys.html">ModifierKeys</a> &amp;mods)</td></tr>
-<tr class="memitem:a2e84d58ffe52b35e7b7463fa0aad4e04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a2e84d58ffe52b35e7b7463fa0aad4e04">handleWheel</a> (<a class="el" href="classComponentPeer.html">ComponentPeer</a> *peer, const <a class="el" href="classPoint.html">Point</a>&lt; int &gt; &amp;positionWithinPeer, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> time, float x, float y)</td></tr>
+<tr class="memitem:a7948ed80ff3aea9e605620823232eb6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a7948ed80ff3aea9e605620823232eb6d">handleEvent</a> (<a class="el" href="classComponentPeer.html">ComponentPeer</a> *, const <a class="el" href="classPoint.html">Point</a>&lt; int &gt; &amp;positionWithinPeer, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> time, const <a class="el" href="classModifierKeys.html">ModifierKeys</a> &amp;)</td></tr>
+<tr class="memitem:a9aacf0e288001bdc933ec2639d2922ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a9aacf0e288001bdc933ec2639d2922ac">handleWheel</a> (<a class="el" href="classComponentPeer.html">ComponentPeer</a> *, const <a class="el" href="classPoint.html">Point</a>&lt; int &gt; &amp;positionWithinPeer, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> time, const <a class="el" href="structMouseWheelDetails.html">MouseWheelDetails</a> &amp;)</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Represents a linear source of mouse events from a mouse device or individual finger in a multi-touch environment. </p>
@@ -616,15 +616,15 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aabcc1a5fce26f1f96f8305d58c194df8"></a>
+<a class="anchor" id="a7948ed80ff3aea9e605620823232eb6d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMouseInputSource.html#aabcc1a5fce26f1f96f8305d58c194df8">MouseInputSource::handleEvent</a> </td>
+          <td class="memname">void <a class="el" href="classMouseInputSource.html#a7948ed80ff3aea9e605620823232eb6d">MouseInputSource::handleEvent</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classComponentPeer.html">ComponentPeer</a> *&#160;</td>
-          <td class="paramname"><em>peer</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -642,7 +642,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classModifierKeys.html">ModifierKeys</a> &amp;&#160;</td>
-          <td class="paramname"><em>mods</em>&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -655,15 +655,15 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2e84d58ffe52b35e7b7463fa0aad4e04"></a>
+<a class="anchor" id="a9aacf0e288001bdc933ec2639d2922ac"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMouseInputSource.html#a2e84d58ffe52b35e7b7463fa0aad4e04">MouseInputSource::handleWheel</a> </td>
+          <td class="memname">void <a class="el" href="classMouseInputSource.html#a9aacf0e288001bdc933ec2639d2922ac">MouseInputSource::handleWheel</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classComponentPeer.html">ComponentPeer</a> *&#160;</td>
-          <td class="paramname"><em>peer</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -680,14 +680,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMouseWheelDetails.html">MouseWheelDetails</a> &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>

@@ -115,8 +115,8 @@ TypeOfCriticalSectionToUse::ScopedLockType&#160;</td><td class="memItemRight" va
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a32a61b722cdb83c4a91eb99b82a3583b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#a32a61b722cdb83c4a91eb99b82a3583b">SortedSet</a> () noexcept</td></tr>
 <tr class="memdesc:a32a61b722cdb83c4a91eb99b82a3583b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty set.  <a href="#a32a61b722cdb83c4a91eb99b82a3583b"></a><br/></td></tr>
-<tr class="memitem:a7e1d2e145bcc21e8114c78d5e5d325fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#a7e1d2e145bcc21e8114c78d5e5d325fd">SortedSet</a> (const <a class="el" href="classSortedSet.html">SortedSet</a> &amp;other) noexcept</td></tr>
-<tr class="memdesc:a7e1d2e145bcc21e8114c78d5e5d325fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a copy of another set.  <a href="#a7e1d2e145bcc21e8114c78d5e5d325fd"></a><br/></td></tr>
+<tr class="memitem:af8461e46cb255507bf2650240a63e4a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#af8461e46cb255507bf2650240a63e4a4">SortedSet</a> (const <a class="el" href="classSortedSet.html">SortedSet</a> &amp;other)</td></tr>
+<tr class="memdesc:af8461e46cb255507bf2650240a63e4a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a copy of another set.  <a href="#af8461e46cb255507bf2650240a63e4a4"></a><br/></td></tr>
 <tr class="memitem:a3a3337e308c30652d555df85949aa73f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#a3a3337e308c30652d555df85949aa73f">~SortedSet</a> () noexcept</td></tr>
 <tr class="memdesc:a3a3337e308c30652d555df85949aa73f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a3a3337e308c30652d555df85949aa73f"></a><br/></td></tr>
 <tr class="memitem:ac25e3122d81c9a82216cca1b385fc8c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSortedSet.html">SortedSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#ac25e3122d81c9a82216cca1b385fc8c6">operator=</a> (const <a class="el" href="classSortedSet.html">SortedSet</a> &amp;other) noexcept</td></tr>
@@ -145,12 +145,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4546d1c39aca9b8105b1934c0546774b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first element in the set.  <a href="#a4546d1c39aca9b8105b1934c0546774b"></a><br/></td></tr>
 <tr class="memitem:ac616e72c4fad8919f19b486320555326"><td class="memItemLeft" align="right" valign="top">ElementType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#ac616e72c4fad8919f19b486320555326">end</a> () const noexcept</td></tr>
 <tr class="memdesc:ac616e72c4fad8919f19b486320555326"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the element which follows the last element in the set.  <a href="#ac616e72c4fad8919f19b486320555326"></a><br/></td></tr>
-<tr class="memitem:af81f9b16cb5ab2b0ccc4d9e4af77a689"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#af81f9b16cb5ab2b0ccc4d9e4af77a689">indexOf</a> (const ElementType elementToLookFor) const noexcept</td></tr>
-<tr class="memdesc:af81f9b16cb5ab2b0ccc4d9e4af77a689"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the index of the first element which matches the value passed in.  <a href="#af81f9b16cb5ab2b0ccc4d9e4af77a689"></a><br/></td></tr>
-<tr class="memitem:aa41dd080c4b601f528b656cbea4642d5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#aa41dd080c4b601f528b656cbea4642d5">contains</a> (const ElementType elementToLookFor) const noexcept</td></tr>
-<tr class="memdesc:aa41dd080c4b601f528b656cbea4642d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the set contains at least one occurrence of an object.  <a href="#aa41dd080c4b601f528b656cbea4642d5"></a><br/></td></tr>
-<tr class="memitem:a3333fdba043d40c49d081709f0d5af1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#a3333fdba043d40c49d081709f0d5af1e">add</a> (const ElementType newElement) noexcept</td></tr>
-<tr class="memdesc:a3333fdba043d40c49d081709f0d5af1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new element to the set, (as long as it's not already in there).  <a href="#a3333fdba043d40c49d081709f0d5af1e"></a><br/></td></tr>
+<tr class="memitem:ac51e0a933c5902a55f68ee8eef9cba00"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#ac51e0a933c5902a55f68ee8eef9cba00">indexOf</a> (const ElementType &amp;elementToLookFor) const noexcept</td></tr>
+<tr class="memdesc:ac51e0a933c5902a55f68ee8eef9cba00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the index of the first element which matches the value passed in.  <a href="#ac51e0a933c5902a55f68ee8eef9cba00"></a><br/></td></tr>
+<tr class="memitem:ae1e68e73d12e73d1cd4d63b4ee7fa791"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#ae1e68e73d12e73d1cd4d63b4ee7fa791">contains</a> (const ElementType &amp;elementToLookFor) const noexcept</td></tr>
+<tr class="memdesc:ae1e68e73d12e73d1cd4d63b4ee7fa791"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the set contains at least one occurrence of an object.  <a href="#ae1e68e73d12e73d1cd4d63b4ee7fa791"></a><br/></td></tr>
+<tr class="memitem:acfa575e890f94ebc4e06113a53cb3ef3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#acfa575e890f94ebc4e06113a53cb3ef3">add</a> (const ElementType &amp;newElement) noexcept</td></tr>
+<tr class="memdesc:acfa575e890f94ebc4e06113a53cb3ef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new element to the set, (as long as it's not already in there).  <a href="#acfa575e890f94ebc4e06113a53cb3ef3"></a><br/></td></tr>
 <tr class="memitem:a8b84c2248ee6e7bc18a3cb6bd235e4ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#a8b84c2248ee6e7bc18a3cb6bd235e4ea">addArray</a> (const ElementType *elementsToAdd, int numElementsToAdd) noexcept</td></tr>
 <tr class="memdesc:a8b84c2248ee6e7bc18a3cb6bd235e4ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds elements from an array to this set.  <a href="#a8b84c2248ee6e7bc18a3cb6bd235e4ea"></a><br/></td></tr>
 <tr class="memitem:ad0879c462c30f89f5c09458f46b8d35f"><td class="memTemplParams" colspan="2">template&lt;class OtherSetType &gt; </td></tr>
@@ -166,6 +166,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a44266b927f68b51086f56a8732fd3190"><td class="memTemplParams" colspan="2">template&lt;class OtherSetType &gt; </td></tr>
 <tr class="memitem:a44266b927f68b51086f56a8732fd3190"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classSortedSet.html#a44266b927f68b51086f56a8732fd3190">removeValuesNotIn</a> (const OtherSetType &amp;otherSet) noexcept</td></tr>
 <tr class="memdesc:a44266b927f68b51086f56a8732fd3190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes any elements which are not found in another set.  <a href="#a44266b927f68b51086f56a8732fd3190"></a><br/></td></tr>
+<tr class="memitem:a99e7648112d5120fd5954c10b6870a26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#a99e7648112d5120fd5954c10b6870a26">swapWith</a> (<a class="el" href="classSortedSet.html">SortedSet</a> &amp;otherSet) noexcept</td></tr>
+<tr class="memdesc:a99e7648112d5120fd5954c10b6870a26"><td class="mdescLeft">&#160;</td><td class="mdescRight">This swaps the contents of this array with those of another array.  <a href="#a99e7648112d5120fd5954c10b6870a26"></a><br/></td></tr>
 <tr class="memitem:a259f41879ab086bde96eb90bbe9c4cd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#a259f41879ab086bde96eb90bbe9c4cd8">minimiseStorageOverheads</a> () noexcept</td></tr>
 <tr class="memdesc:a259f41879ab086bde96eb90bbe9c4cd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reduces the amount of storage being used by the set.  <a href="#a259f41879ab086bde96eb90bbe9c4cd8"></a><br/></td></tr>
 <tr class="memitem:a8104c54b46a0ffbe8f54395f5cf44b72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#a8104c54b46a0ffbe8f54395f5cf44b72">ensureStorageAllocated</a> (const int minNumElements)</td></tr>
@@ -222,7 +224,7 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
 
 </div>
 </div>
-<a class="anchor" id="a7e1d2e145bcc21e8114c78d5e5d325fd"></a>
+<a class="anchor" id="af8461e46cb255507bf2650240a63e4a4"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -315,7 +317,7 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
 <div class="memdoc">
 
 <p>Compares this set to another one. </p>
-<p>Two sets are considered equal if they both contain the same set of elements.</p>
+<p>Two sets are considered equal if they both contain the same set of elements. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">other</td><td>the other set to compare with </td></tr>
@@ -345,7 +347,7 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
 <div class="memdoc">
 
 <p>Compares this set to another one. </p>
-<p>Two sets are considered equal if they both contain the same set of elements.</p>
+<p>Two sets are considered equal if they both contain the same set of elements. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">other</td><td>the other set to compare with </td></tr>
@@ -591,16 +593,16 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
 
 </div>
 </div>
-<a class="anchor" id="af81f9b16cb5ab2b0ccc4d9e4af77a689"></a>
+<a class="anchor" id="ac51e0a933c5902a55f68ee8eef9cba00"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="classSortedSet.html">SortedSet</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classSortedSet.html#af81f9b16cb5ab2b0ccc4d9e4af77a689">indexOf</a> </td>
+          <td class="memname">int <a class="el" href="classSortedSet.html">SortedSet</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classSortedSet.html#ac51e0a933c5902a55f68ee8eef9cba00">indexOf</a> </td>
           <td>(</td>
-          <td class="paramtype">const ElementType&#160;</td>
+          <td class="paramtype">const ElementType &amp;&#160;</td>
           <td class="paramname"><em>elementToLookFor</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -618,20 +620,20 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>the index of the object, or -1 if it's not found </dd></dl>
 
-<p>Referenced by <a class="el" href="classSortedSet.html#a21b0da9c6e547485feecc3b91d28164c">SortedSet&lt; ActionListener * &gt;::removeValue()</a>.</p>
+<p>Referenced by <a class="el" href="classSortedSet.html#ae1e68e73d12e73d1cd4d63b4ee7fa791">SortedSet&lt; ActionListener * &gt;::contains()</a>, and <a class="el" href="classSortedSet.html#a21b0da9c6e547485feecc3b91d28164c">SortedSet&lt; ActionListener * &gt;::removeValue()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa41dd080c4b601f528b656cbea4642d5"></a>
+<a class="anchor" id="ae1e68e73d12e73d1cd4d63b4ee7fa791"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classSortedSet.html">SortedSet</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classSortedSet.html#aa41dd080c4b601f528b656cbea4642d5">contains</a> </td>
+          <td class="memname">bool <a class="el" href="classSortedSet.html">SortedSet</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classSortedSet.html#ae1e68e73d12e73d1cd4d63b4ee7fa791">contains</a> </td>
           <td>(</td>
-          <td class="paramtype">const ElementType&#160;</td>
+          <td class="paramtype">const ElementType &amp;&#160;</td>
           <td class="paramname"><em>elementToLookFor</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -650,16 +652,16 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
 
 </div>
 </div>
-<a class="anchor" id="a3333fdba043d40c49d081709f0d5af1e"></a>
+<a class="anchor" id="acfa575e890f94ebc4e06113a53cb3ef3"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classSortedSet.html">SortedSet</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classSortedSet.html#a3333fdba043d40c49d081709f0d5af1e">add</a> </td>
+          <td class="memname">void <a class="el" href="classSortedSet.html">SortedSet</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classSortedSet.html#acfa575e890f94ebc4e06113a53cb3ef3">add</a> </td>
           <td>(</td>
-          <td class="paramtype">const ElementType&#160;</td>
+          <td class="paramtype">const ElementType &amp;&#160;</td>
           <td class="paramname"><em>newElement</em></td><td>)</td>
           <td></td>
         </tr>
@@ -715,7 +717,7 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classSortedSet.html#a3333fdba043d40c49d081709f0d5af1e" title="Adds a new element to the set, (as long as it&#39;s not already in there).">add</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classSortedSet.html#acfa575e890f94ebc4e06113a53cb3ef3" title="Adds a new element to the set, (as long as it&#39;s not already in there).">add</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classSortedSet.html#ad0879c462c30f89f5c09458f46b8d35f">SortedSet&lt; ActionListener * &gt;::addSet()</a>.</p>
 
@@ -765,7 +767,7 @@ template&lt;class OtherSetType &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classSortedSet.html#a3333fdba043d40c49d081709f0d5af1e" title="Adds a new element to the set, (as long as it&#39;s not already in there).">add</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classSortedSet.html#acfa575e890f94ebc4e06113a53cb3ef3" title="Adds a new element to the set, (as long as it&#39;s not already in there).">add</a> </dd></dl>
 
 </div>
 </div>
@@ -889,6 +891,28 @@ template&lt;class OtherSetType &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a99e7648112d5120fd5954c10b6870a26"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classSortedSet.html">SortedSet</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classSortedSet.html#a99e7648112d5120fd5954c10b6870a26">swapWith</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSortedSet.html">SortedSet</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>otherSet</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>This swaps the contents of this array with those of another array. </p>
+<p>If you need to exchange two arrays, this is vastly quicker than using copy-by-value because it just swaps their internal pointers. </p>
+
+</div>
+</div>
 <a class="anchor" id="a259f41879ab086bde96eb90bbe9c4cd8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -907,8 +931,6 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
 
 <p>Reduces the amount of storage being used by the set. </p>
 <p>Sets typically allocate slightly more storage than they need, and after removing elements, they may have quite a lot of unused space allocated. This method will reduce the amount of allocated storage to a minimum. </p>
-
-<p>Referenced by <a class="el" href="classSortedSet.html#ac25e3122d81c9a82216cca1b385fc8c6">SortedSet&lt; ActionListener * &gt;::operator=()</a>, and <a class="el" href="classSortedSet.html#a86602918644c684fd72d239980a83d84">SortedSet&lt; ActionListener * &gt;::remove()</a>.</p>
 
 </div>
 </div>
@@ -953,7 +975,7 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
 <p>Returns the <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> that locks this array. </p>
 <p>To lock, you can call <a class="el" href="classSortedSet.html#a5a0b04e366f0a1faa768d05e400208ca" title="Returns the CriticalSection that locks this array.">getLock()</a>.enter() and <a class="el" href="classSortedSet.html#a5a0b04e366f0a1faa768d05e400208ca" title="Returns the CriticalSection that locks this array.">getLock()</a>.exit(), or preferably use an object of ScopedLockType as an RAII lock for it. </p>
 
-<p>Referenced by <a class="el" href="classSortedSet.html#a3333fdba043d40c49d081709f0d5af1e">SortedSet&lt; ActionListener * &gt;::add()</a>, <a class="el" href="classSortedSet.html#a8b84c2248ee6e7bc18a3cb6bd235e4ea">SortedSet&lt; ActionListener * &gt;::addArray()</a>, <a class="el" href="classSortedSet.html#ad0879c462c30f89f5c09458f46b8d35f">SortedSet&lt; ActionListener * &gt;::addSet()</a>, <a class="el" href="classSortedSet.html#a0cc4c313458f6d87513fda77d31eaa71">SortedSet&lt; ActionListener * &gt;::clear()</a>, <a class="el" href="classSortedSet.html#a792064a68e61905a9ee6968e2cbc4ee6">SortedSet&lt; ActionListener * &gt;::clearQuick()</a>, <a class="el" href="classSortedSet.html#aa41dd080c4b601f528b656cbea4642d5">SortedSet&lt; ActionListener * &gt;::contains()</a>, <a class="el" href="classSortedSet.html#a8104c54b46a0ffbe8f54395f5cf44b72">SortedSet&lt; ActionListener * &gt;::ensureStorageAllocated()</a>, <a class="el" href="classSortedSet.html#a44bdd0240e337b2f8197629aa1334230">SortedSet&lt; ActionListener * &gt;::getFirst()</a>, <a class="el" href="classSortedSet.html#a2289698c4c183d6554f99760c1348d02">SortedSet&lt; ActionListener * &gt;::getLast()</a>, <a class="el" href="classSortedSet.html#aee801e5bbc1d6fc894156e102237ca14">SortedSet&lt; ActionListener * &gt;::getReference()</a>, <a class="el" href="classSortedSet.html#a931d3c86921cd13c2ca30316eb5dc8c2">SortedSet&lt; ActionListener * &gt;::getUnchecked()</a>, <a class="el" href="classSortedSet.html#af81f9b16cb5ab2b0ccc4d9e4af77a689">SortedSet&lt; ActionListener * &gt;::indexOf()</a>, <a class="el" href="classSortedSet.html#a259f41879ab086bde96eb90bbe9c4cd8">SortedSet&lt; ActionListener * &gt;::minimiseStorageOverheads()</a>, <a class="el" href="classSortedSet.html#ac25e3122d81c9a82216cca1b385fc8c6">SortedSet&lt; ActionListener * &gt;::operator=()</a>, <a class="el" href="classSortedSet.html#a0c7eea00d2ac22afa1fcd70aa0d7d920">SortedSet&lt; ActionListener * &gt;::operator==()</a>, <a class="el" href="classSortedSet.html#a06f73ea7834733c5697e87644b60341b">SortedSet&lt; ActionListener * &gt;::operator[]()</a>, <a class="el" href="classSortedSet.html#a86602918644c684fd72d239980a83d84">SortedSet&lt; ActionListener * &gt;::remove()</a>, <a class="el" href="classSortedSet.html#a21b0da9c6e547485feecc3b91d28164c">SortedSet&lt; ActionListener * &gt;::removeValue()</a>, <a class="el" href="classSortedSet.html#a87ad10e1f49afe6fbcbf4170e84bf95e">SortedSet&lt; ActionListener * &gt;::removeValuesIn()</a>, and <a class="el" href="classSortedSet.html#a44266b927f68b51086f56a8732fd3190">SortedSet&lt; ActionListener * &gt;::removeValuesNotIn()</a>.</p>
+<p>Referenced by <a class="el" href="classSortedSet.html#acfa575e890f94ebc4e06113a53cb3ef3">SortedSet&lt; ActionListener * &gt;::add()</a>, <a class="el" href="classSortedSet.html#a8b84c2248ee6e7bc18a3cb6bd235e4ea">SortedSet&lt; ActionListener * &gt;::addArray()</a>, <a class="el" href="classSortedSet.html#ad0879c462c30f89f5c09458f46b8d35f">SortedSet&lt; ActionListener * &gt;::addSet()</a>, <a class="el" href="classSortedSet.html#a21b0da9c6e547485feecc3b91d28164c">SortedSet&lt; ActionListener * &gt;::removeValue()</a>, <a class="el" href="classSortedSet.html#a87ad10e1f49afe6fbcbf4170e84bf95e">SortedSet&lt; ActionListener * &gt;::removeValuesIn()</a>, and <a class="el" href="classSortedSet.html#a44266b927f68b51086f56a8732fd3190">SortedSet&lt; ActionListener * &gt;::removeValuesNotIn()</a>.</p>
 
 </div>
 </div>
