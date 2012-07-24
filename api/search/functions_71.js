@@ -6,5 +6,5 @@ var searchData=
   ['queryinterface',['queryInterface',['../classActiveXControlComponent.html#aec74d476e939d707b578c32cdd5cebd3',1,'ActiveXControlComponent']]],
   ['quicktimemoviecomponent',['QuickTimeMovieComponent',['../classQuickTimeMovieComponent.html#affdb8f0235f6256d8330c4d336818ea7',1,'QuickTimeMovieComponent']]],
   ['quit',['quit',['../classJUCEApplication.html#a618b5238c20a1590c12ffe20d15e999a',1,'JUCEApplication']]],
-  ['quoted',['quoted',['../classString.html#adca0932895bcd08c3b3c489a5c564b4b',1,'String']]]
+  ['quoted',['quoted',['../classjuce_1_1String.html#ab705bff8e7d864c89d6659f45710c8bb',1,'juce::String::quoted(juce_wchar quoteCharacter= &apos;&quot;&apos;) const '],['../classjuce_1_1String.html#ab705bff8e7d864c89d6659f45710c8bb',1,'juce::String::quoted(juce_wchar quoteCharacter= &apos;&quot;&apos;) const '],['../classString.html#adca0932895bcd08c3b3c489a5c564b4b',1,'String::quoted()']]]
 ];

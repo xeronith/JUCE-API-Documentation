@@ -14,7 +14,6 @@ var searchData=
   ['seashell',['seashell',['../classColours.html#a59caf9dbbe04dd428b7253273ec14ca3',1,'Colours']]],
   ['separator',['separator',['../classFile.html#a03d104ec7dd9600dbfb8cfdd25585135',1,'File']]],
   ['separatorstring',['separatorString',['../classFile.html#a66e8bff47d42f5b093b88eacacb573ce',1,'File']]],
-  ['shadow',['shadow',['../classTabBarButton.html#ac4fdae8ea4ef5a1196befdb6fdcb3963',1,'TabBarButton']]],
   ['shortname',['shortName',['../structApplicationCommandInfo.html#a2da18de634cf7794fcd0b26e4121e3ec',1,'ApplicationCommandInfo']]],
   ['showscrollbarh',['showScrollBarH',['../structViewport_1_1Ids.html#afc82dc4b9cad82ebd7ac175333e43c0c',1,'Viewport::Ids']]],
   ['showscrollbarv',['showScrollBarV',['../structViewport_1_1Ids.html#aba801e0e3aed24b69157c3e5b074ceb0',1,'Viewport::Ids']]],

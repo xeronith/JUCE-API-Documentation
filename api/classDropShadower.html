@@ -109,81 +109,46 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ade4cff3b353cd000e0ce6b7faff94edd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDropShadower.html#ade4cff3b353cd000e0ce6b7faff94edd">DropShadower</a> (float alpha=0.5f, int xOffset=1, int yOffset=5, float blurRadius=10.0f)</td></tr>
-<tr class="memdesc:ade4cff3b353cd000e0ce6b7faff94edd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classDropShadower.html" title="Adds a drop-shadow to a component.">DropShadower</a>.  <a href="#ade4cff3b353cd000e0ce6b7faff94edd"></a><br/></td></tr>
-<tr class="memitem:a2b5a83d99a56e76c6294c075ce0f5c66"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDropShadower.html#a2b5a83d99a56e76c6294c075ce0f5c66">~DropShadower</a> ()</td></tr>
-<tr class="memdesc:a2b5a83d99a56e76c6294c075ce0f5c66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a2b5a83d99a56e76c6294c075ce0f5c66"></a><br/></td></tr>
+<tr class="memitem:a14c45e01c95902e0a8f5a975c1519d69"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDropShadower.html#a14c45e01c95902e0a8f5a975c1519d69">DropShadower</a> (const <a class="el" href="structDropShadow.html">DropShadow</a> &amp;shadowType)</td></tr>
+<tr class="memdesc:a14c45e01c95902e0a8f5a975c1519d69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classDropShadower.html" title="Adds a drop-shadow to a component.">DropShadower</a>.  <a href="#a14c45e01c95902e0a8f5a975c1519d69"></a><br/></td></tr>
+<tr class="memitem:ab4880dc6ddeae4e94bdb9e36e4f59ae0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDropShadower.html#ab4880dc6ddeae4e94bdb9e36e4f59ae0">~DropShadower</a> ()</td></tr>
+<tr class="memdesc:ab4880dc6ddeae4e94bdb9e36e4f59ae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ab4880dc6ddeae4e94bdb9e36e4f59ae0"></a><br/></td></tr>
 <tr class="memitem:aa66afaff8ac325df14206e274589769f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDropShadower.html#aa66afaff8ac325df14206e274589769f">setOwner</a> (<a class="el" href="classComponent.html">Component</a> *componentToFollow)</td></tr>
 <tr class="memdesc:aa66afaff8ac325df14206e274589769f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attaches the <a class="el" href="classDropShadower.html" title="Adds a drop-shadow to a component.">DropShadower</a> to the component you want to shadow.  <a href="#aa66afaff8ac325df14206e274589769f"></a><br/></td></tr>
-<tr class="memitem:a71feda9735f257a78408132cee6c7797"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDropShadower.html#a71feda9735f257a78408132cee6c7797">componentMovedOrResized</a> (<a class="el" href="classComponent.html">Component</a> &amp;component, bool wasMoved, bool wasResized)</td></tr>
-<tr class="memitem:a5ba61ab0dfb8faf0257342dcd89c81f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDropShadower.html#a5ba61ab0dfb8faf0257342dcd89c81f7">componentBroughtToFront</a> (<a class="el" href="classComponent.html">Component</a> &amp;component)</td></tr>
-<tr class="memitem:a93f46d56e551e10250efaf86d755fc5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDropShadower.html#a93f46d56e551e10250efaf86d755fc5c">componentParentHierarchyChanged</a> (<a class="el" href="classComponent.html">Component</a> &amp;component)</td></tr>
-<tr class="memitem:abc142844a970d0c1f4867796103c14e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDropShadower.html#abc142844a970d0c1f4867796103c14e9">componentVisibilityChanged</a> (<a class="el" href="classComponent.html">Component</a> &amp;component)</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Adds a drop-shadow to a component. </p>
 <p>This object creates and manages a set of components which sit around a component, creating a gaussian shadow around it. The components will track the position of the component and if it's brought to the front they'll also follow this.</p>
 <p>For desktop windows you don't need to use this class directly - just set the Component::windowHasDropShadow flag when calling <a class="el" href="classComponent.html#ad717da76012d971197fd8cf943f3e721" title="Makes this component appear as a window on the desktop.">Component::addToDesktop()</a>, and the system will create one of these if it's needed (which it obviously isn't on the Mac, for example). </p>
 </div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ade4cff3b353cd000e0ce6b7faff94edd"></a>
+<a class="anchor" id="a14c45e01c95902e0a8f5a975c1519d69"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classDropShadower.html#ade4cff3b353cd000e0ce6b7faff94edd">DropShadower::DropShadower</a> </td>
+          <td class="memname"><a class="el" href="classDropShadower.html#a14c45e01c95902e0a8f5a975c1519d69">DropShadower::DropShadower</a> </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>alpha</em> = <code>0.5f</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="structDropShadow.html">DropShadow</a> &amp;&#160;</td>
+          <td class="paramname"><em>shadowType</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>xOffset</em> = <code>1</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>yOffset</em> = <code>5</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>blurRadius</em> = <code>10.0f</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
 <p>Creates a <a class="el" href="classDropShadower.html" title="Adds a drop-shadow to a component.">DropShadower</a>. </p>
-<dl class="params"><dt><b>Parameters:</b></dt><dd>
-  <table class="params">
-    <tr><td class="paramname">alpha</td><td>the opacity of the shadows, from 0 to 1.0 </td></tr>
-    <tr><td class="paramname">xOffset</td><td>the horizontal displacement of the shadow, in pixels </td></tr>
-    <tr><td class="paramname">yOffset</td><td>the vertical displacement of the shadow, in pixels </td></tr>
-    <tr><td class="paramname">blurRadius</td><td>the radius of the blur to use for creating the shadow </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
-<a class="anchor" id="a2b5a83d99a56e76c6294c075ce0f5c66"></a>
+<a class="anchor" id="ab4880dc6ddeae4e94bdb9e36e4f59ae0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classDropShadower.html#a2b5a83d99a56e76c6294c075ce0f5c66">DropShadower::~DropShadower</a> </td>
+          <td class="memname"><a class="el" href="classDropShadower.html#ab4880dc6ddeae4e94bdb9e36e4f59ae0">DropShadower::~DropShadower</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td><code> [virtual]</code></td>
+          <td></td>
         </tr>
       </table>
 </div>
@@ -210,98 +175,6 @@ Public Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Attaches the <a class="el" href="classDropShadower.html" title="Adds a drop-shadow to a component.">DropShadower</a> to the component you want to shadow. </p>
-
-</div>
-</div>
-<a class="anchor" id="a71feda9735f257a78408132cee6c7797"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classDropShadower.html#a71feda9735f257a78408132cee6c7797">DropShadower::componentMovedOrResized</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classComponent.html">Component</a> &amp;&#160;</td>
-          <td class="paramname"><em>component</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>wasMoved</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>wasResized</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td><code> [virtual]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classComponentListener.html#ac5d2c3c7290cbde571403fd5d3112978">ComponentListener</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5ba61ab0dfb8faf0257342dcd89c81f7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classDropShadower.html#a5ba61ab0dfb8faf0257342dcd89c81f7">DropShadower::componentBroughtToFront</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classComponent.html">Component</a> &amp;&#160;</td>
-          <td class="paramname"><em>component</em></td><td>)</td>
-          <td><code> [virtual]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classComponentListener.html#a68fd2e94bbac54a480ada6b0fdd3c3d4">ComponentListener</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a93f46d56e551e10250efaf86d755fc5c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classDropShadower.html#a93f46d56e551e10250efaf86d755fc5c">DropShadower::componentParentHierarchyChanged</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classComponent.html">Component</a> &amp;&#160;</td>
-          <td class="paramname"><em>component</em></td><td>)</td>
-          <td><code> [virtual]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classComponentListener.html#a84b23253fe18f447472652452b1858e6">ComponentListener</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="abc142844a970d0c1f4867796103c14e9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classDropShadower.html#abc142844a970d0c1f4867796103c14e9">DropShadower::componentVisibilityChanged</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classComponent.html">Component</a> &amp;&#160;</td>
-          <td class="paramname"><em>component</em></td><td>)</td>
-          <td><code> [virtual]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classComponentListener.html#aaacf63f35f26733d615be2258e57fd69">ComponentListener</a>.</p>
 
 </div>
 </div>

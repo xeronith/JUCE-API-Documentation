@@ -103,8 +103,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>An instance of this class is used to manage multiple <a class="el" href="classAudioThumbnail.html" title="Makes it easy to quickly draw scaled views of the waveform shape of an audio file.">AudioThumbnail</a> objects.  
  <a href="classAudioThumbnailCache.html#details">More...</a></p>
 
-<p>Inherits <a class="el" href="classTimeSliceThread.html">TimeSliceThread</a>.</p>
-
 <p><a href="classAudioThumbnailCache-members.html">List of all members.</a></p>
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
@@ -123,6 +121,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4964efe9a66ded88c1224e2c0946c5e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to re-load a saved cache of thumbnails from a stream.  <a href="#a4964efe9a66ded88c1224e2c0946c5e9"></a><br/></td></tr>
 <tr class="memitem:ae752aabe2829fb344c4e619d2819a3d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#ae752aabe2829fb344c4e619d2819a3d7">writeToStream</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;stream)</td></tr>
 <tr class="memdesc:ae752aabe2829fb344c4e619d2819a3d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes all currently-loaded cache data to a stream.  <a href="#ae752aabe2829fb344c4e619d2819a3d7"></a><br/></td></tr>
+<tr class="memitem:a3b4a7387c73aa4163ddc236e8b104023"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTimeSliceThread.html">TimeSliceThread</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a3b4a7387c73aa4163ddc236e8b104023">getTimeSliceThread</a> () noexcept</td></tr>
+<tr class="memdesc:a3b4a7387c73aa4163ddc236e8b104023"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the thread that client thumbnails can use.  <a href="#a3b4a7387c73aa4163ddc236e8b104023"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>An instance of this class is used to manage multiple <a class="el" href="classAudioThumbnail.html" title="Makes it easy to quickly draw scaled views of the waveform shape of an audio file.">AudioThumbnail</a> objects. </p>
@@ -283,6 +283,24 @@ Public Member Functions</h2></td></tr>
 
 <p>Writes all currently-loaded cache data to a stream. </p>
 <p>The resulting data can be re-loaded with <a class="el" href="classAudioThumbnailCache.html#a4964efe9a66ded88c1224e2c0946c5e9" title="Attempts to re-load a saved cache of thumbnails from a stream.">readFromStream()</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3b4a7387c73aa4163ddc236e8b104023"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classTimeSliceThread.html">TimeSliceThread</a>&amp; <a class="el" href="classAudioThumbnailCache.html#a3b4a7387c73aa4163ddc236e8b104023">AudioThumbnailCache::getTimeSliceThread</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns the thread that client thumbnails can use. </p>
 
 </div>
 </div>

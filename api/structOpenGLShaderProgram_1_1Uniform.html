@@ -130,6 +130,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a71fa625325e9803862e19c99ce8bd4e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets an ivec4 uniform.  <a href="#a71fa625325e9803862e19c99ce8bd4e5"></a><br/></td></tr>
 <tr class="memitem:a67b7aef1b7fb35f9e41e7ce5d3659321"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenGLShaderProgram_1_1Uniform.html#a67b7aef1b7fb35f9e41e7ce5d3659321">set</a> (const GLfloat *values, int numValues) const noexcept</td></tr>
 <tr class="memdesc:a67b7aef1b7fb35f9e41e7ce5d3659321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a vector float uniform.  <a href="#a67b7aef1b7fb35f9e41e7ce5d3659321"></a><br/></td></tr>
+<tr class="memitem:a6ee26d6692dc8a72244afdc6ca44512d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenGLShaderProgram_1_1Uniform.html#a6ee26d6692dc8a72244afdc6ca44512d">setMatrix2</a> (const GLfloat *values, GLint count, GLboolean transpose) const noexcept</td></tr>
+<tr class="memdesc:a6ee26d6692dc8a72244afdc6ca44512d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a 2x2 matrix float uniform.  <a href="#a6ee26d6692dc8a72244afdc6ca44512d"></a><br/></td></tr>
+<tr class="memitem:ac5fd866b096eb5d7be7fe3be30ec7e74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenGLShaderProgram_1_1Uniform.html#ac5fd866b096eb5d7be7fe3be30ec7e74">setMatrix3</a> (const GLfloat *values, GLint count, GLboolean transpose) const noexcept</td></tr>
+<tr class="memdesc:ac5fd866b096eb5d7be7fe3be30ec7e74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a 3x3 matrix float uniform.  <a href="#ac5fd866b096eb5d7be7fe3be30ec7e74"></a><br/></td></tr>
+<tr class="memitem:af82a0fb6af884ad2bb5fe3459a7ef409"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenGLShaderProgram_1_1Uniform.html#af82a0fb6af884ad2bb5fe3459a7ef409">setMatrix4</a> (const GLfloat *values, GLint count, GLboolean transpose) const noexcept</td></tr>
+<tr class="memdesc:af82a0fb6af884ad2bb5fe3459a7ef409"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a 4x4 matrix float uniform.  <a href="#af82a0fb6af884ad2bb5fe3459a7ef409"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ab2cb023f92dbba1890dea2f659a1a2be"><td class="memItemLeft" align="right" valign="top">GLint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOpenGLShaderProgram_1_1Uniform.html#ab2cb023f92dbba1890dea2f659a1a2be">uniformID</a></td></tr>
@@ -381,6 +387,111 @@ Public Attributes</h2></td></tr>
 <div class="memdoc">
 
 <p>Sets a vector float uniform. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6ee26d6692dc8a72244afdc6ca44512d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structOpenGLShaderProgram_1_1Uniform.html#a6ee26d6692dc8a72244afdc6ca44512d">OpenGLShaderProgram::Uniform::setMatrix2</a> </td>
+          <td>(</td>
+          <td class="paramtype">const GLfloat *&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLboolean&#160;</td>
+          <td class="paramname"><em>transpose</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Sets a 2x2 matrix float uniform. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac5fd866b096eb5d7be7fe3be30ec7e74"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structOpenGLShaderProgram_1_1Uniform.html#ac5fd866b096eb5d7be7fe3be30ec7e74">OpenGLShaderProgram::Uniform::setMatrix3</a> </td>
+          <td>(</td>
+          <td class="paramtype">const GLfloat *&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLboolean&#160;</td>
+          <td class="paramname"><em>transpose</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Sets a 3x3 matrix float uniform. </p>
+
+</div>
+</div>
+<a class="anchor" id="af82a0fb6af884ad2bb5fe3459a7ef409"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structOpenGLShaderProgram_1_1Uniform.html#af82a0fb6af884ad2bb5fe3459a7ef409">OpenGLShaderProgram::Uniform::setMatrix4</a> </td>
+          <td>(</td>
+          <td class="paramtype">const GLfloat *&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLboolean&#160;</td>
+          <td class="paramname"><em>transpose</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Sets a 4x4 matrix float uniform. </p>
 
 </div>
 </div>

@@ -140,7 +140,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8c9a73240eab843cbf93393956910e72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the size of the currently-selected font.  <a href="#a8c9a73240eab843cbf93393956910e72"></a><br/></td></tr>
 <tr class="memitem:abb972f0d801630b6e02d335cfa9da28a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFont.html">Font</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#abb972f0d801630b6e02d335cfa9da28a">getCurrentFont</a> () const </td></tr>
 <tr class="memdesc:abb972f0d801630b6e02d335cfa9da28a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the currently selected font.  <a href="#abb972f0d801630b6e02d335cfa9da28a"></a><br/></td></tr>
-<tr class="memitem:ade61955c11b56c91232b350dbfbf1b81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#ade61955c11b56c91232b350dbfbf1b81">drawSingleLineText</a> (const <a class="el" href="classString.html">String</a> &amp;text, int startX, int baselineY, const <a class="el" href="classJustification.html">Justification</a> &amp;justification=<a class="el" href="classJustification.html#a4b9db354585c335c96baecf1a14c2db5a56156bb2892e32febf8011af9c5da653">Justification::left</a>) const </td></tr>
+<tr class="memitem:ade61955c11b56c91232b350dbfbf1b81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#ade61955c11b56c91232b350dbfbf1b81">drawSingleLineText</a> (const <a class="el" href="classString.html">String</a> &amp;text, int startX, int baselineY, const <a class="el" href="classJustification.html">Justification</a> &amp;justification=<a class="el" href="classJustification.html#a2e0d86f7f4f1a05b0581af05d70e84bda56156bb2892e32febf8011af9c5da653">Justification::left</a>) const </td></tr>
 <tr class="memdesc:ade61955c11b56c91232b350dbfbf1b81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a one-line text string.  <a href="#ade61955c11b56c91232b350dbfbf1b81"></a><br/></td></tr>
 <tr class="memitem:a37c017a9d2f32bcd677f61f5de97ab9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a37c017a9d2f32bcd677f61f5de97ab9a">drawMultiLineText</a> (const <a class="el" href="classString.html">String</a> &amp;text, int startX, int baselineY, int maximumLineWidth) const </td></tr>
 <tr class="memdesc:a37c017a9d2f32bcd677f61f5de97ab9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws text across multiple lines.  <a href="#a37c017a9d2f32bcd677f61f5de97ab9a"></a><br/></td></tr>
@@ -148,8 +148,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a837821b4bab764d76df560350e069b45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders a string of text as a vector path.  <a href="#a837821b4bab764d76df560350e069b45"></a><br/></td></tr>
 <tr class="memitem:aa03c871748cf584b548663b79da7926c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#aa03c871748cf584b548663b79da7926c">drawText</a> (const <a class="el" href="classString.html">String</a> &amp;text, int x, int y, int width, int height, const <a class="el" href="classJustification.html">Justification</a> &amp;justificationType, bool useEllipsesIfTooBig) const </td></tr>
 <tr class="memdesc:aa03c871748cf584b548663b79da7926c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a line of text within a specified rectangle.  <a href="#aa03c871748cf584b548663b79da7926c"></a><br/></td></tr>
+<tr class="memitem:a84311fce34d51ada6738d3118f38a0b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a84311fce34d51ada6738d3118f38a0b1">drawText</a> (const <a class="el" href="classString.html">String</a> &amp;text, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;area, const <a class="el" href="classJustification.html">Justification</a> &amp;justificationType, bool useEllipsesIfTooBig) const </td></tr>
+<tr class="memdesc:a84311fce34d51ada6738d3118f38a0b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a line of text within a specified rectangle.  <a href="#a84311fce34d51ada6738d3118f38a0b1"></a><br/></td></tr>
 <tr class="memitem:ad2c56e11c42bc7404233b9a23e939ede"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#ad2c56e11c42bc7404233b9a23e939ede">drawFittedText</a> (const <a class="el" href="classString.html">String</a> &amp;text, int x, int y, int width, int height, const <a class="el" href="classJustification.html">Justification</a> &amp;justificationFlags, int maximumNumberOfLines, float minimumHorizontalScale=0.7f) const </td></tr>
 <tr class="memdesc:ad2c56e11c42bc7404233b9a23e939ede"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to draw a text string inside a given space.  <a href="#ad2c56e11c42bc7404233b9a23e939ede"></a><br/></td></tr>
+<tr class="memitem:a278d7ad0e7697198003e2393d2331eb6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a278d7ad0e7697198003e2393d2331eb6">drawFittedText</a> (const <a class="el" href="classString.html">String</a> &amp;text, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;area, const <a class="el" href="classJustification.html">Justification</a> &amp;justificationFlags, int maximumNumberOfLines, float minimumHorizontalScale=0.7f) const </td></tr>
+<tr class="memdesc:a278d7ad0e7697198003e2393d2331eb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to draw a text string inside a given space.  <a href="#a278d7ad0e7697198003e2393d2331eb6"></a><br/></td></tr>
 <tr class="memitem:a516a7795e6e0c6c70eb982a83ea0b8c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a516a7795e6e0c6c70eb982a83ea0b8c3">fillAll</a> () const </td></tr>
 <tr class="memdesc:a516a7795e6e0c6c70eb982a83ea0b8c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the context's entire clip region with the current colour or brush.  <a href="#a516a7795e6e0c6c70eb982a83ea0b8c3"></a><br/></td></tr>
 <tr class="memitem:a29e9bc174cf54be0f423172e24d5cf78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a29e9bc174cf54be0f423172e24d5cf78">fillAll</a> (const <a class="el" href="classColour.html">Colour</a> &amp;colourToUse) const </td></tr>
@@ -176,12 +180,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a78541e36136eb040c4b8c81d4b8db8dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses the current colour or brush to draw the outline of a rectangle with rounded corners.  <a href="#a78541e36136eb040c4b8c81d4b8db8dd"></a><br/></td></tr>
 <tr class="memitem:a91706e86b7120523346fee8f2161d48f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a91706e86b7120523346fee8f2161d48f">drawRoundedRectangle</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;rectangle, float cornerSize, float lineThickness) const </td></tr>
 <tr class="memdesc:a91706e86b7120523346fee8f2161d48f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses the current colour or brush to draw the outline of a rectangle with rounded corners.  <a href="#a91706e86b7120523346fee8f2161d48f"></a><br/></td></tr>
-<tr class="memitem:a9785e9e0d63e8576db415decc7f5b2cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a9785e9e0d63e8576db415decc7f5b2cd">drawBevel</a> (int x, int y, int width, int height, int bevelThickness, const <a class="el" href="classColour.html">Colour</a> &amp;topLeftColour=<a class="el" href="classColours.html#a9e57055bbdf8261e776d2ea8bb44514a">Colours::white</a>, const <a class="el" href="classColour.html">Colour</a> &amp;bottomRightColour=<a class="el" href="classColours.html#aad3910013bf00a80305c082284cd5ee2">Colours::black</a>, bool useGradient=true, bool sharpEdgeOnOutside=true) const </td></tr>
-<tr class="memdesc:a9785e9e0d63e8576db415decc7f5b2cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a 3D raised (or indented) bevel using two colours.  <a href="#a9785e9e0d63e8576db415decc7f5b2cd"></a><br/></td></tr>
 <tr class="memitem:a69e70db1afc03d58f9055f8f45d8e5d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a69e70db1afc03d58f9055f8f45d8e5d1">setPixel</a> (int x, int y) const </td></tr>
-<tr class="memdesc:a69e70db1afc03d58f9055f8f45d8e5d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a pixel using the current colour or brush.  <a href="#a69e70db1afc03d58f9055f8f45d8e5d1"></a><br/></td></tr>
+<tr class="memdesc:a69e70db1afc03d58f9055f8f45d8e5d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a 1x1 pixel using the current colour or brush.  <a href="#a69e70db1afc03d58f9055f8f45d8e5d1"></a><br/></td></tr>
 <tr class="memitem:ab6fdfd1cb32b32d52b6b30df36321f70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#ab6fdfd1cb32b32d52b6b30df36321f70">fillEllipse</a> (float x, float y, float width, float height) const </td></tr>
 <tr class="memdesc:ab6fdfd1cb32b32d52b6b30df36321f70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills an ellipse with the current colour or brush.  <a href="#ab6fdfd1cb32b32d52b6b30df36321f70"></a><br/></td></tr>
+<tr class="memitem:a4f58ce68f75ec835a4863e756ec11bed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a4f58ce68f75ec835a4863e756ec11bed">fillEllipse</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;area) const </td></tr>
+<tr class="memdesc:a4f58ce68f75ec835a4863e756ec11bed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills an ellipse with the current colour or brush.  <a href="#a4f58ce68f75ec835a4863e756ec11bed"></a><br/></td></tr>
 <tr class="memitem:ac88110d5407539aa1be841a89d5170b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#ac88110d5407539aa1be841a89d5170b0">drawEllipse</a> (float x, float y, float width, float height, float lineThickness) const </td></tr>
 <tr class="memdesc:ac88110d5407539aa1be841a89d5170b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws an elliptical stroke using the current colour or brush.  <a href="#ac88110d5407539aa1be841a89d5170b0"></a><br/></td></tr>
 <tr class="memitem:a0911bf63fd6c0d3e35b2b701fcbc7728"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a0911bf63fd6c0d3e35b2b701fcbc7728">drawLine</a> (float startX, float startY, float endX, float endY) const </td></tr>
@@ -248,9 +252,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab8b7cd49bf1ff738c5ff848727e3bc75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the current colour, brush, and font to default settings.  <a href="#ab8b7cd49bf1ff738c5ff848727e3bc75"></a><br/></td></tr>
 <tr class="memitem:ae584e8878455891d9010addb384425cd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#ae584e8878455891d9010addb384425cd">isVectorDevice</a> () const </td></tr>
 <tr class="memdesc:ae584e8878455891d9010addb384425cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this context is drawing to a vector-based device, such as a printer.  <a href="#ae584e8878455891d9010addb384425cd"></a><br/></td></tr>
-<tr class="memitem:ac2f451095caee3a7262f135dfd9ed93d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#ac2f451095caee3a7262f135dfd9ed93d">Graphics</a> (<a class="el" href="classLowLevelGraphicsContext.html">LowLevelGraphicsContext</a> *internalContext) noexcept</td></tr>
-<tr class="memdesc:ac2f451095caee3a7262f135dfd9ed93d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a graphics that uses a given low-level renderer.  <a href="#ac2f451095caee3a7262f135dfd9ed93d"></a><br/></td></tr>
-<tr class="memitem:a56d2788fe6978ee9da3b58864767e74a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLowLevelGraphicsContext.html">LowLevelGraphicsContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a56d2788fe6978ee9da3b58864767e74a">getInternalContext</a> () const noexcept</td></tr>
+<tr class="memitem:a1987cd53996367fd894885033ec39612"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a1987cd53996367fd894885033ec39612">Graphics</a> (<a class="el" href="classLowLevelGraphicsContext.html">LowLevelGraphicsContext</a> *) noexcept</td></tr>
+<tr class="memdesc:a1987cd53996367fd894885033ec39612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a graphics that uses a given low-level renderer.  <a href="#a1987cd53996367fd894885033ec39612"></a><br/></td></tr>
+<tr class="memitem:a504995c303f45cce740dda9fa67f1a64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLowLevelGraphicsContext.html">LowLevelGraphicsContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a504995c303f45cce740dda9fa67f1a64">getInternalContext</a> () const noexcept</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A graphics context, used for drawing a component or image. </p>
@@ -327,7 +331,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac2f451095caee3a7262f135dfd9ed93d"></a>
+<a class="anchor" id="a1987cd53996367fd894885033ec39612"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -335,7 +339,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="classGraphics.html#ada6375a2e6bf68758a2191acb4d62c65">Graphics::Graphics</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classLowLevelGraphicsContext.html">LowLevelGraphicsContext</a> *&#160;</td>
-          <td class="paramname"><em>internalContext</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -367,8 +371,6 @@ Public Member Functions</h2></td></tr>
 <p>This sets the colour that will now be used for drawing operations - it also sets the opacity to that of the colour passed-in.</p>
 <p>If a brush is being used when this method is called, the brush will be deselected, and any subsequent drawing will be done with a solid colour brush instead.</p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classGraphics.html#a1ce91a31ec1258a73ace93b6c337dbb2" title="Changes the opacity to use with the current colour.">setOpacity</a> </dd></dl>
-
-<p>Referenced by <a class="el" href="classLassoComponent.html#aa2b05e6a36b1ab1f9bbdc52d27bb1c08">LassoComponent&lt; SelectableItemType &gt;::paint()</a>.</p>
 
 </div>
 </div>
@@ -561,7 +563,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classJustification.html">Justification</a> &amp;&#160;</td>
-          <td class="paramname"><em>justification</em> = <code><a class="el" href="classJustification.html#a4b9db354585c335c96baecf1a14c2db5a56156bb2892e32febf8011af9c5da653">Justification::left</a></code>&#160;</td>
+          <td class="paramname"><em>justification</em> = <code><a class="el" href="classJustification.html#a2e0d86f7f4f1a05b0581af05d70e84bda56156bb2892e32febf8011af9c5da653">Justification::left</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -722,6 +724,49 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a84311fce34d51ada6738d3118f38a0b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classGraphics.html#aa03c871748cf584b548663b79da7926c">Graphics::drawText</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>area</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classJustification.html">Justification</a> &amp;&#160;</td>
+          <td class="paramname"><em>justificationType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>useEllipsesIfTooBig</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Draws a line of text within a specified rectangle. </p>
+<p>The text will be positioned within the rectangle based on the justification flags passed-in. If the string is too long to fit inside the rectangle, it will either be truncated or will have ellipsis added to its end (if the useEllipsesIfTooBig flag is true).</p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classGraphics.html#ade61955c11b56c91232b350dbfbf1b81" title="Draws a one-line text string.">drawSingleLineText</a>, <a class="el" href="classGraphics.html#ad2c56e11c42bc7404233b9a23e939ede" title="Tries to draw a text string inside a given space.">drawFittedText</a>, <a class="el" href="classGraphics.html#a37c017a9d2f32bcd677f61f5de97ab9a" title="Draws text across multiple lines.">drawMultiLineText</a>, <a class="el" href="classGlyphArrangement.html#a5cc600b28d93cb972baf14d3be08859f" title="Adds some multi-line text, breaking lines at word-boundaries if they are too wide.">GlyphArrangement::addJustifiedText</a> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ad2c56e11c42bc7404233b9a23e939ede"></a>
 <div class="memitem">
 <div class="memproto">
@@ -792,6 +837,58 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a278d7ad0e7697198003e2393d2331eb6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classGraphics.html#ad2c56e11c42bc7404233b9a23e939ede">Graphics::drawFittedText</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>area</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classJustification.html">Justification</a> &amp;&#160;</td>
+          <td class="paramname"><em>justificationFlags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maximumNumberOfLines</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>minimumHorizontalScale</em> = <code>0.7f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Tries to draw a text string inside a given space. </p>
+<p>This does its best to make the given text readable within the specified rectangle, so it useful for labelling things.</p>
+<p>If the text is too big, it'll be squashed horizontally or broken over multiple lines if the maximumLinesToUse value allows this. If the text just won't fit into the space, it'll cram as much as possible in there, and put some ellipsis at the end to show that it's been truncated.</p>
+<p>A <a class="el" href="classJustification.html" title="Represents a type of justification to be used when positioning graphical items.">Justification</a> parameter lets you specify how the text is laid out within the rectangle, both horizontally and vertically.</p>
+<p>The minimumHorizontalScale parameter specifies how much the text can be squashed horizontally to try to squeeze it into the space. If you don't want any horizontal scaling to occur, you can set this value to 1.0f.</p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classGlyphArrangement.html#a18cfbfb3481a8f6d498e58be4f1c438b" title="Tries to fit some text withing a given space.">GlyphArrangement::addFittedText</a> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a516a7795e6e0c6c70eb982a83ea0b8c3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -808,8 +905,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Fills the context's entire clip region with the current colour or brush. </p>
 <p>(See also the fillAll (const <a class="el" href="classColour.html" title="Represents a colour, also including a transparency value.">Colour</a>&amp;) method which is a quick way of filling it with a given colour). </p>
-
-<p>Referenced by <a class="el" href="classLassoComponent.html#aa2b05e6a36b1ab1f9bbdc52d27bb1c08">LassoComponent&lt; SelectableItemType &gt;::paint()</a>.</p>
 
 </div>
 </div>
@@ -1108,8 +1203,6 @@ Public Member Functions</h2></td></tr>
 <p>The lines are drawn inside the given rectangle, and greater line thicknesses extend inwards.</p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classGraphics.html#ac2202ef993b53d77d8646ed4ce3ea9d1" title="Fills a rectangle with the current colour or brush.">fillRect</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classLassoComponent.html#aa2b05e6a36b1ab1f9bbdc52d27bb1c08">LassoComponent&lt; SelectableItemType &gt;::paint()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a7b8a15c73c5d797cd169852224236f4f"></a>
@@ -1282,80 +1375,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9785e9e0d63e8576db415decc7f5b2cd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classGraphics.html#a9785e9e0d63e8576db415decc7f5b2cd">Graphics::drawBevel</a> </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>height</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>bevelThickness</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classColour.html">Colour</a> &amp;&#160;</td>
-          <td class="paramname"><em>topLeftColour</em> = <code><a class="el" href="classColours.html#a9e57055bbdf8261e776d2ea8bb44514a">Colours::white</a></code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classColour.html">Colour</a> &amp;&#160;</td>
-          <td class="paramname"><em>bottomRightColour</em> = <code><a class="el" href="classColours.html#aad3910013bf00a80305c082284cd5ee2">Colours::black</a></code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>useGradient</em> = <code>true</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>sharpEdgeOnOutside</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Draws a 3D raised (or indented) bevel using two colours. </p>
-<p>The bevel is drawn inside the given rectangle, and greater bevel thicknesses extend inwards.</p>
-<p>The top-left colour is used for the top- and left-hand edges of the bevel; the bottom-right colour is used for the bottom- and right-hand edges.</p>
-<p>If useGradient is true, then the bevel fades out to make it look more curved and less angular. If sharpEdgeOnOutside is true, the outside of the bevel is sharp, and it fades towards the centre; if sharpEdgeOnOutside is false, then the centre edges are sharp and it fades towards the outside. </p>
-
-</div>
-</div>
 <a class="anchor" id="a69e70db1afc03d58f9055f8f45d8e5d1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1381,7 +1400,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Draws a pixel using the current colour or brush. </p>
+<p>Draws a 1x1 pixel using the current colour or brush. </p>
 
 </div>
 </div>
@@ -1423,7 +1442,28 @@ Public Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Fills an ellipse with the current colour or brush. </p>
-<p>The ellipse is drawn to fit inside the given rectangle.</p>
+<p>The ellipse is drawn to fit inside the given rectangle. </p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classGraphics.html#ac88110d5407539aa1be841a89d5170b0" title="Draws an elliptical stroke using the current colour or brush.">drawEllipse</a>, <a class="el" href="classPath.html#a7514c5eaa928b64121490a7f0ce3088c" title="Adds an ellipse to the path.">Path::addEllipse</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4f58ce68f75ec835a4863e756ec11bed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classGraphics.html#ab6fdfd1cb32b32d52b6b30df36321f70">Graphics::fillEllipse</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>area</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Fills an ellipse with the current colour or brush. </p>
+<p>The ellipse is drawn to fit inside the given rectangle. </p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classGraphics.html#ac88110d5407539aa1be841a89d5170b0" title="Draws an elliptical stroke using the current colour or brush.">drawEllipse</a>, <a class="el" href="classPath.html#a7514c5eaa928b64121490a7f0ce3088c" title="Adds an ellipse to the path.">Path::addEllipse</a> </dd></dl>
 
 </div>
@@ -2533,12 +2573,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a56d2788fe6978ee9da3b58864767e74a"></a>
+<a class="anchor" id="a504995c303f45cce740dda9fa67f1a64"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classLowLevelGraphicsContext.html">LowLevelGraphicsContext</a>* <a class="el" href="classGraphics.html#a56d2788fe6978ee9da3b58864767e74a">Graphics::getInternalContext</a> </td>
+          <td class="memname"><a class="el" href="classLowLevelGraphicsContext.html">LowLevelGraphicsContext</a>&amp; <a class="el" href="classGraphics.html#a504995c303f45cce740dda9fa67f1a64">Graphics::getInternalContext</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

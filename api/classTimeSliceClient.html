@@ -103,7 +103,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Used by the <a class="el" href="classTimeSliceThread.html" title="A thread that keeps a list of clients, and calls each one in turn, giving them all a chance to run so...">TimeSliceThread</a> class.  
  <a href="classTimeSliceClient.html#details">More...</a></p>
 
-<p>Inherited by <a class="el" href="classBufferingAudioSource.html">BufferingAudioSource</a><code> [private]</code>, and <a class="el" href="classDirectoryContentsList.html">DirectoryContentsList</a>.</p>
+<p>Inherited by <a class="el" href="classBufferingAudioSource.html">BufferingAudioSource</a><code> [private]</code>, and <a class="el" href="classDirectoryContentsList.html">DirectoryContentsList</a><code> [private]</code>.</p>
 
 <p><a href="classTimeSliceClient-members.html">List of all members.</a></p>
 <table class="memberdecls">
@@ -157,8 +157,6 @@ Public Member Functions</h2></td></tr>
 <p>When you register this class with it, a <a class="el" href="classTimeSliceThread.html" title="A thread that keeps a list of clients, and calls each one in turn, giving them all a chance to run so...">TimeSliceThread</a> will repeatedly call this method.</p>
 <p>The implementation of this method should use its time-slice to do something that's quick - never block for longer than absolutely necessary.</p>
 <dl class="section return"><dt>Returns:</dt><dd>Your method should return the number of milliseconds which it would like to wait before being called again. Returning 0 will make the thread call again as soon as possible (after possibly servicing other busy clients). If you return a value below zero, your client will be removed from the list of clients, and won't be called again. The value you specify isn't a guaranteee, and is only used as a hint by the thread - the actual time before the next callback may be more or less than specified. You can force the <a class="el" href="classTimeSliceThread.html" title="A thread that keeps a list of clients, and calls each one in turn, giving them all a chance to run so...">TimeSliceThread</a> to wake up and poll again immediately by calling its notify() method. </dd></dl>
-
-<p>Implemented in <a class="el" href="classDirectoryContentsList.html#ad0b5149f13969cb3f5eef3a704a67645">DirectoryContentsList</a>.</p>
 
 </div>
 </div>

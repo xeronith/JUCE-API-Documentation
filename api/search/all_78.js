@@ -5,10 +5,10 @@ var searchData=
   ['x2',['x2',['../classIIRFilter.html#adef45ab67e66dd710429c50dc5cdcb41',1,'IIRFilter::x2()'],['../classPath_1_1Iterator.html#a2f5da180f00bd2e9356d65b2c241d52e',1,'Path::Iterator::x2()'],['../classPathFlatteningIterator.html#a88aeb6be633806b5b6e2e8cc7172e1e0',1,'PathFlatteningIterator::x2()']]],
   ['x3',['x3',['../classPath_1_1Iterator.html#afb477336904d08b7869a536444071df0',1,'Path::Iterator']]],
   ['xaxis',['xAxis',['../classVector3D.html#a686d4ba2447a671bab0cdf2e65636309',1,'Vector3D']]],
-  ['xleft',['xLeft',['../classRectanglePlacement.html#aa57d215a0f6418947d8b45ba039c842cae2539f35e48e3c7396cffeb8079e27dd',1,'RectanglePlacement']]],
-  ['xmid',['xMid',['../classRectanglePlacement.html#aa57d215a0f6418947d8b45ba039c842cad1348e06780084037a29fc0621d10392',1,'RectanglePlacement']]],
+  ['xleft',['xLeft',['../classRectanglePlacement.html#afc290f699baa6a217056e4c3e7c6f6a7ae2539f35e48e3c7396cffeb8079e27dd',1,'RectanglePlacement']]],
+  ['xmid',['xMid',['../classRectanglePlacement.html#afc290f699baa6a217056e4c3e7c6f6a7ad1348e06780084037a29fc0621d10392',1,'RectanglePlacement']]],
   ['xmldocument',['XmlDocument',['../classXmlDocument.html',1,'XmlDocument'],['../classXmlDocument.html#a87ad794c62c8ee9ac78961af99b2f30d',1,'XmlDocument::XmlDocument(const String &amp;documentText)'],['../classXmlDocument.html#a0bb84c6d5a591e3ab53199b081766901',1,'XmlDocument::XmlDocument(const File &amp;file)']]],
   ['xmlelement',['XmlElement',['../classXmlElement.html',1,'XmlElement'],['../classXmlElement.html#a1ef4128e361ff77d1661a16282f9b844',1,'XmlElement::XmlElement(const String &amp;tagName) noexcept'],['../classXmlElement.html#af7194adb8ea1694ab8f5a9810ae54920',1,'XmlElement::XmlElement(const XmlElement &amp;other)']]],
   ['xoffset',['xOffset',['../structLowLevelGraphicsPostScriptRenderer_1_1SavedState.html#a10d46be69faae4c3c27ae95dfac5a713',1,'LowLevelGraphicsPostScriptRenderer::SavedState']]],
-  ['xright',['xRight',['../classRectanglePlacement.html#aa57d215a0f6418947d8b45ba039c842ca72a92773894d10ec3b4ff55b56d08915',1,'RectanglePlacement']]]
+  ['xright',['xRight',['../classRectanglePlacement.html#afc290f699baa6a217056e4c3e7c6f6a7a72a92773894d10ec3b4ff55b56d08915',1,'RectanglePlacement']]]
 ];

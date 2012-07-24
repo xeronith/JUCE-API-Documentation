@@ -2,6 +2,7 @@ var searchData=
 [
   ['radial',['radial',['../classDrawableShape_1_1FillAndStrokeState.html#a35b2d94ae6a13721f581b582400007bb',1,'DrawableShape::FillAndStrokeState']]],
   ['radiogroup',['radioGroup',['../structButton_1_1Ids.html#a24ecfdec627dc53a81d9104936447075',1,'Button::Ids']]],
+  ['radius',['radius',['../structDropShadow.html#a96cbbc37579f9a2627f342a7dc6be568',1,'DropShadow']]],
   ['range',['range',['../classAttributedString_1_1Attribute.html#aadd39f43e26b6c0a36dca6bf36537818',1,'AttributedString::Attribute']]],
   ['readonly',['readOnly',['../structTextEditor_1_1Ids.html#a2bb3f3e704de6b8eedf9472692638fd7',1,'TextEditor::Ids']]],
   ['red',['red',['../classColours.html#a5056e7857f2bc211569dfc89512244dd',1,'Colours']]],

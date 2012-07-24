@@ -6,6 +6,7 @@ var searchData=
   ['abletonlivegeneric',['AbletonLiveGeneric',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a665226cd0a77007d5e3a8673f6e91dd4',1,'PluginHostType']]],
   ['above',['above',['../classBubbleComponent.html#aba96d481d723fd2549f497ccd7ed41a3a46398aeabcf45a9b397beca92dcf85b1',1,'BubbleComponent']]],
   ['adobepremierepro',['AdobePremierePro',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8aba59eb46b76ef7fb9b0d2b0a5a370e9b',1,'PluginHostType']]],
+  ['aftertext',['afterText',['../classTabBarButton.html#a9ff26e542aa2f688e6c5609ab4d3899aaee8f78f95528103403371a9964950484',1,'TabBarButton']]],
   ['allbuttons',['allButtons',['../classDocumentWindow.html#a104d68bc145157c6ce79169a36fc3c31af4a9b49869cebf7e8cecaf7f6dd93420',1,'DocumentWindow']]],
   ['allcustomisationoptionsenabled',['allCustomisationOptionsEnabled',['../classToolbar.html#a9036434be5b014285c69d2b87841fb3fa52d229dd720fe17da7cffa8aec5e70c8',1,'Toolbar']]],
   ['allkeyboardmodifiers',['allKeyboardModifiers',['../classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678bad234b97b656e78e1b0c500bff2618126',1,'ModifierKeys']]],

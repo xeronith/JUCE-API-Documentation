@@ -117,8 +117,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ade6aa6208f77515710222e81c6b49412"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classSplashScreen.html" title="A component for showing a splash screen while your app starts up.">SplashScreen</a> object that will display an image.  <a href="#ade6aa6208f77515710222e81c6b49412"></a><br/></td></tr>
 <tr class="memitem:ae893e7677d1fd7bbdb88bce1552f0473"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSplashScreen.html#ae893e7677d1fd7bbdb88bce1552f0473">show</a> (const <a class="el" href="classString.html">String</a> &amp;title, int width, int height, int minimumTimeToDisplayFor, bool useDropShadow, bool removeOnMouseClick=true)</td></tr>
 <tr class="memdesc:ae893e7677d1fd7bbdb88bce1552f0473"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classSplashScreen.html" title="A component for showing a splash screen while your app starts up.">SplashScreen</a> object with a specified size.  <a href="#ae893e7677d1fd7bbdb88bce1552f0473"></a><br/></td></tr>
-<tr class="memitem:a34808c6296a967dc30df803befbd95f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSplashScreen.html#a34808c6296a967dc30df803befbd95f4">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g)</td></tr>
-<tr class="memitem:a7e815c2cd0b6db55ca65e275af05a5c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSplashScreen.html#a7e815c2cd0b6db55ca65e275af05a5c8">timerCallback</a> ()</td></tr>
+<tr class="memitem:af5096367b0e2411101d110ceb5361b24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSplashScreen.html#af5096367b0e2411101d110ceb5361b24">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;)</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A component for showing a splash screen while your app starts up. </p>
@@ -282,7 +281,7 @@ Public Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Creates a <a class="el" href="classSplashScreen.html" title="A component for showing a splash screen while your app starts up.">SplashScreen</a> object with a specified size. </p>
-<p>For a custom splash screen, you can use this method to display it at a certain size and then override the <a class="el" href="classSplashScreen.html#a34808c6296a967dc30df803befbd95f4">paint()</a> method yourself to do whatever's necessary.</p>
+<p>For a custom splash screen, you can use this method to display it at a certain size and then override the <a class="el" href="classSplashScreen.html#af5096367b0e2411101d110ceb5361b24">paint()</a> method yourself to do whatever's necessary.</p>
 <p>As soon as this is called, the <a class="el" href="classSplashScreen.html" title="A component for showing a splash screen while your app starts up.">SplashScreen</a> will be displayed in the centre of the screen. This method will also dispatch any pending messages to make sure that when it returns, the splash screen has been completely drawn, and your initialisation code can carry on.</p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
@@ -298,32 +297,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a34808c6296a967dc30df803befbd95f4"></a>
+<a class="anchor" id="af5096367b0e2411101d110ceb5361b24"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classSplashScreen.html#a34808c6296a967dc30df803befbd95f4">SplashScreen::paint</a> </td>
+          <td class="memname">void <a class="el" href="classSplashScreen.html#af5096367b0e2411101d110ceb5361b24">SplashScreen::paint</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em></td><td>)</td>
-          <td><code> [virtual]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classComponent.html#a7cf1862f4af5909ea72827898114a182">Component</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a7e815c2cd0b6db55ca65e275af05a5c8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classSplashScreen.html#a7e815c2cd0b6db55ca65e275af05a5c8">SplashScreen::timerCallback</a> </td>
-          <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td><code> [virtual]</code></td>
         </tr>
@@ -331,7 +312,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Implements <a class="el" href="classTimer.html#a8adc40ca0fb4170737ba12e30481b9d8">Timer</a>.</p>
+<p>Reimplemented from <a class="el" href="classComponent.html#a7cf1862f4af5909ea72827898114a182">Component</a>.</p>
 
 </div>
 </div>

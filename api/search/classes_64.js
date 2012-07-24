@@ -26,6 +26,7 @@ var searchData=
   ['drawablerectangle',['DrawableRectangle',['../classDrawableRectangle.html',1,'']]],
   ['drawableshape',['DrawableShape',['../classDrawableShape.html',1,'']]],
   ['drawabletext',['DrawableText',['../classDrawableText.html',1,'']]],
+  ['dropshadow',['DropShadow',['../structDropShadow.html',1,'']]],
   ['dropshadoweffect',['DropShadowEffect',['../classDropShadowEffect.html',1,'']]],
   ['dropshadower',['DropShadower',['../classDropShadower.html',1,'']]],
   ['dummybailoutchecker',['DummyBailOutChecker',['../classListenerList_1_1DummyBailOutChecker.html',1,'ListenerList']]],

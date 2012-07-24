@@ -141,6 +141,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a89a9be444a16742b03c66a525baa6061"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the OS is 64-bit, or false for a 32-bit OS.  <a href="#a89a9be444a16742b03c66a525baa6061"></a><br/></td></tr>
 <tr class="memitem:aa13fa950a6863b7e915aab91cfed4645"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#aa13fa950a6863b7e915aab91cfed4645">getOSXMinorVersionNumber</a> ()</td></tr>
 <tr class="memdesc:aa13fa950a6863b7e915aab91cfed4645"><td class="mdescLeft">&#160;</td><td class="mdescRight">OSX ONLY - Returns the current OS version number.  <a href="#aa13fa950a6863b7e915aab91cfed4645"></a><br/></td></tr>
+<tr class="memitem:a6b2eecc484dd4955cfac7b81981b16e3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a6b2eecc484dd4955cfac7b81981b16e3">getEnvironmentVariable</a> (const <a class="el" href="classString.html">String</a> &amp;name, const <a class="el" href="classString.html">String</a> &amp;defaultValue)</td></tr>
+<tr class="memdesc:a6b2eecc484dd4955cfac7b81981b16e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an environment variable.  <a href="#a6b2eecc484dd4955cfac7b81981b16e3"></a><br/></td></tr>
 <tr class="memitem:a49ba1a8f55ab9331a036658c363fd28e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a49ba1a8f55ab9331a036658c363fd28e">getLogonName</a> ()</td></tr>
 <tr class="memdesc:a49ba1a8f55ab9331a036658c363fd28e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current user's name, if available.  <a href="#a49ba1a8f55ab9331a036658c363fd28e"></a><br/></td></tr>
 <tr class="memitem:a61c5b29c388c6cbc3bc6354f1be3c48d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a61c5b29c388c6cbc3bc6354f1be3c48d">getFullUserName</a> ()</td></tr>
@@ -317,6 +319,36 @@ Static Public Member Functions</h2></td></tr>
 
 <p>OSX ONLY - Returns the current OS version number. </p>
 <p>E.g. if it's running on 10.4, this will be 4, 10.5 will return 5, etc. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6b2eecc484dd4955cfac7b81981b16e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classString.html">String</a> <a class="el" href="classSystemStats.html#a6b2eecc484dd4955cfac7b81981b16e3">SystemStats::getEnvironmentVariable</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>defaultValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns an environment variable. </p>
+<p>If the named value isn't set, this will return the defaultValue string instead. </p>
 
 </div>
 </div>

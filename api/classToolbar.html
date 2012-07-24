@@ -96,7 +96,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a>  </div>
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">Toolbar Class Reference</div>  </div>
 </div><!--header-->
@@ -179,7 +180,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa1a6e1e20211d3601a86a508bd2428eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restores a set of items that was previously stored in a string by the <a class="el" href="classToolbar.html#a3214b0e02faeee9aba0ba61e56d2abcf" title="Returns a string that represents the toolbar&#39;s current set of items.">toString()</a> method.  <a href="#aa1a6e1e20211d3601a86a508bd2428eb"></a><br/></td></tr>
 <tr class="memitem:a048d9bf461473e5bc0a34c2e7997a62e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbar.html#a048d9bf461473e5bc0a34c2e7997a62e">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g)</td></tr>
 <tr class="memitem:a365f2e386045b3b6b9ad072223074c23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbar.html#a365f2e386045b3b6b9ad072223074c23">resized</a> ()</td></tr>
-<tr class="memitem:a9129fb36710cae8e817a03e091c2ce6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbar.html#a9129fb36710cae8e817a03e091c2ce6e">buttonClicked</a> (<a class="el" href="classButton.html">Button</a> *)</td></tr>
 <tr class="memitem:aa49d618b15fc84a398c6afb776cf500c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbar.html#aa49d618b15fc84a398c6afb776cf500c">mouseDown</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;)</td></tr>
 <tr class="memitem:a0f3a2689ee3528427ce57f4ff2f3bfe7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbar.html#a0f3a2689ee3528427ce57f4ff2f3bfe7">isInterestedInDragSource</a> (const <a class="el" href="classDragAndDropTarget_1_1SourceDetails.html">SourceDetails</a> &amp;)</td></tr>
 <tr class="memitem:a82e544022dd6ba0f31b22114bd497a66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbar.html#a82e544022dd6ba0f31b22114bd497a66">itemDragMove</a> (const <a class="el" href="classDragAndDropTarget_1_1SourceDetails.html">SourceDetails</a> &amp;)</td></tr>
@@ -189,6 +189,9 @@ Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6be97d7376f983903a859f6585c9e0e0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classToolbarItemComponent.html">ToolbarItemComponent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbar.html#a6be97d7376f983903a859f6585c9e0e0">createItem</a> (<a class="el" href="classToolbarItemFactory.html">ToolbarItemFactory</a> &amp;, int itemId)</td></tr>
+<tr><td colspan="2"><h2><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a087aff29b1bcec3d33863de71aacf0f8"><td class="memItemLeft" align="right" valign="top">static const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbar.html#a087aff29b1bcec3d33863de71aacf0f8">toolbarDragDescriptor</a></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A toolbar component. </p>
@@ -757,23 +760,6 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9129fb36710cae8e817a03e091c2ce6e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classToolbar.html#a9129fb36710cae8e817a03e091c2ce6e">Toolbar::buttonClicked</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classButton.html">Button</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="aa49d618b15fc84a398c6afb776cf500c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -906,6 +892,20 @@ Static Public Member Functions</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<hr/><h2>Member Data Documentation</h2>
+<a class="anchor" id="a087aff29b1bcec3d33863de71aacf0f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* const <a class="el" href="classToolbar.html#a087aff29b1bcec3d33863de71aacf0f8">Toolbar::toolbarDragDescriptor</a><code> [static]</code></td>
         </tr>
       </table>
 </div>

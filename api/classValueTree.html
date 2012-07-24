@@ -158,6 +158,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a14517f03840bf3fe5e2cdfc5c2f07588"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the identifier of the property with a given index.  <a href="#a14517f03840bf3fe5e2cdfc5c2f07588"></a><br/></td></tr>
 <tr class="memitem:aa36d40c533583c723be757c77ade1a5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValue.html">Value</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#aa36d40c533583c723be757c77ade1a5c">getPropertyAsValue</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;name, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
 <tr class="memdesc:aa36d40c533583c723be757c77ade1a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classValue.html" title="Represents a shared variant value.">Value</a> object that can be used to control and respond to one of the tree's properties.  <a href="#aa36d40c533583c723be757c77ade1a5c"></a><br/></td></tr>
+<tr class="memitem:ad2596a93fa05a1a0c95cd6c275e77982"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ad2596a93fa05a1a0c95cd6c275e77982">copyPropertiesFrom</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;source, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
+<tr class="memdesc:ad2596a93fa05a1a0c95cd6c275e77982"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overwrites all the properties in this tree with the properties of the source tree.  <a href="#ad2596a93fa05a1a0c95cd6c275e77982"></a><br/></td></tr>
 <tr class="memitem:ab4e869902306be8d60d056a4192383c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ab4e869902306be8d60d056a4192383c2">getNumChildren</a> () const </td></tr>
 <tr class="memdesc:ab4e869902306be8d60d056a4192383c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of child nodes belonging to this one.  <a href="#ab4e869902306be8d60d056a4192383c2"></a><br/></td></tr>
 <tr class="memitem:ae3c7ef24e903b145e7885820898240cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ae3c7ef24e903b145e7885820898240cb">getChild</a> (int index) const </td></tr>
@@ -188,8 +190,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aeaad7cad64013775bdf12b871c07abb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of this node's siblings in its parent's child list.  <a href="#aeaad7cad64013775bdf12b871c07abb7"></a><br/></td></tr>
 <tr class="memitem:ad4b6941292f6ba19b1f4c7a91b82f957"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ad4b6941292f6ba19b1f4c7a91b82f957">createXml</a> () const </td></tr>
 <tr class="memdesc:ad4b6941292f6ba19b1f4c7a91b82f957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document.">XmlElement</a> that holds a complete image of this node and all its children.  <a href="#ad4b6941292f6ba19b1f4c7a91b82f957"></a><br/></td></tr>
-<tr class="memitem:a4030330dde3b8e95e706336627d278c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a4030330dde3b8e95e706336627d278c3">writeToStream</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;output)</td></tr>
-<tr class="memdesc:a4030330dde3b8e95e706336627d278c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores this tree (and all its children) in a binary format.  <a href="#a4030330dde3b8e95e706336627d278c3"></a><br/></td></tr>
+<tr class="memitem:a0a2a0fa2cf051fef99cab56db74a4266"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a0a2a0fa2cf051fef99cab56db74a4266">writeToStream</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;output) const </td></tr>
+<tr class="memdesc:a0a2a0fa2cf051fef99cab56db74a4266"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores this tree (and all its children) in a binary format.  <a href="#a0a2a0fa2cf051fef99cab56db74a4266"></a><br/></td></tr>
 <tr class="memitem:a0a0d82471cb1119fc1a7b7018e3af394"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a0a0d82471cb1119fc1a7b7018e3af394">addListener</a> (<a class="el" href="classValueTree_1_1Listener.html">Listener</a> *listener)</td></tr>
 <tr class="memdesc:a0a0d82471cb1119fc1a7b7018e3af394"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a listener to receive callbacks when this node is changed.  <a href="#a0a0d82471cb1119fc1a7b7018e3af394"></a><br/></td></tr>
 <tr class="memitem:ac8930aa94cb6e3714ef9e7449d08e5f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ac8930aa94cb6e3714ef9e7449d08e5f6">removeListener</a> (<a class="el" href="classValueTree_1_1Listener.html">Listener</a> *listener)</td></tr>
@@ -204,11 +206,11 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0d2f1bdd6313e53f256ed015986f837a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a0d2f1bdd6313e53f256ed015986f837a">fromXml</a> (const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;xml)</td></tr>
 <tr class="memdesc:a0d2f1bdd6313e53f256ed015986f837a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to recreate a node from its XML representation.  <a href="#a0d2f1bdd6313e53f256ed015986f837a"></a><br/></td></tr>
 <tr class="memitem:ad41a9e45b2d15699b4e27bed3b31109c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ad41a9e45b2d15699b4e27bed3b31109c">readFromStream</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;input)</td></tr>
-<tr class="memdesc:ad41a9e45b2d15699b4e27bed3b31109c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads a tree from a stream that was written with <a class="el" href="classValueTree.html#a4030330dde3b8e95e706336627d278c3" title="Stores this tree (and all its children) in a binary format.">writeToStream()</a>.  <a href="#ad41a9e45b2d15699b4e27bed3b31109c"></a><br/></td></tr>
+<tr class="memdesc:ad41a9e45b2d15699b4e27bed3b31109c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads a tree from a stream that was written with <a class="el" href="classValueTree.html#a0a2a0fa2cf051fef99cab56db74a4266" title="Stores this tree (and all its children) in a binary format.">writeToStream()</a>.  <a href="#ad41a9e45b2d15699b4e27bed3b31109c"></a><br/></td></tr>
 <tr class="memitem:a9481d856db653baecf76032703858ca5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a9481d856db653baecf76032703858ca5">readFromData</a> (const void *data, size_t numBytes)</td></tr>
-<tr class="memdesc:a9481d856db653baecf76032703858ca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads a tree from a data block that was written with <a class="el" href="classValueTree.html#a4030330dde3b8e95e706336627d278c3" title="Stores this tree (and all its children) in a binary format.">writeToStream()</a>.  <a href="#a9481d856db653baecf76032703858ca5"></a><br/></td></tr>
+<tr class="memdesc:a9481d856db653baecf76032703858ca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads a tree from a data block that was written with <a class="el" href="classValueTree.html#a0a2a0fa2cf051fef99cab56db74a4266" title="Stores this tree (and all its children) in a binary format.">writeToStream()</a>.  <a href="#a9481d856db653baecf76032703858ca5"></a><br/></td></tr>
 <tr class="memitem:ab5a0858a2f15fef8b61adb6aa2aadc63"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ab5a0858a2f15fef8b61adb6aa2aadc63">readFromGZIPData</a> (const void *data, size_t numBytes)</td></tr>
-<tr class="memdesc:ab5a0858a2f15fef8b61adb6aa2aadc63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads a tree from a data block that was written with <a class="el" href="classValueTree.html#a4030330dde3b8e95e706336627d278c3" title="Stores this tree (and all its children) in a binary format.">writeToStream()</a> and then zipped using <a class="el" href="classGZIPCompressorOutputStream.html" title="A stream which uses zlib to compress the data written into it.">GZIPCompressorOutputStream</a>.  <a href="#ab5a0858a2f15fef8b61adb6aa2aadc63"></a><br/></td></tr>
+<tr class="memdesc:ab5a0858a2f15fef8b61adb6aa2aadc63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads a tree from a data block that was written with <a class="el" href="classValueTree.html#a0a2a0fa2cf051fef99cab56db74a4266" title="Stores this tree (and all its children) in a binary format.">writeToStream()</a> and then zipped using <a class="el" href="classGZIPCompressorOutputStream.html" title="A stream which uses zlib to compress the data written into it.">GZIPCompressorOutputStream</a>.  <a href="#ab5a0858a2f15fef8b61adb6aa2aadc63"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:af49e8bf1c5072d0722dff9ef81b84f68"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#af49e8bf1c5072d0722dff9ef81b84f68">invalid</a></td></tr>
@@ -709,6 +711,36 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad2596a93fa05a1a0c95cd6c275e77982"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classValueTree.html#ad2596a93fa05a1a0c95cd6c275e77982">ValueTree::copyPropertiesFrom</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classUndoManager.html">UndoManager</a> *&#160;</td>
+          <td class="paramname"><em>undoManager</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Overwrites all the properties in this tree with the properties of the source tree. </p>
+<p>Any properties that already exist will be updated; and new ones will be added, and any that are not present in the source tree will be removed. </p>
+
+</div>
+</div>
 <a class="anchor" id="ab4e869902306be8d60d056a4192383c2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1112,16 +1144,16 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4030330dde3b8e95e706336627d278c3"></a>
+<a class="anchor" id="a0a2a0fa2cf051fef99cab56db74a4266"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classValueTree.html#a4030330dde3b8e95e706336627d278c3">ValueTree::writeToStream</a> </td>
+          <td class="memname">void <a class="el" href="classValueTree.html#a0a2a0fa2cf051fef99cab56db74a4266">ValueTree::writeToStream</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classOutputStream.html">OutputStream</a> &amp;&#160;</td>
           <td class="paramname"><em>output</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div>
@@ -1148,7 +1180,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Reloads a tree from a stream that was written with <a class="el" href="classValueTree.html#a4030330dde3b8e95e706336627d278c3" title="Stores this tree (and all its children) in a binary format.">writeToStream()</a>. </p>
+<p>Reloads a tree from a stream that was written with <a class="el" href="classValueTree.html#a0a2a0fa2cf051fef99cab56db74a4266" title="Stores this tree (and all its children) in a binary format.">writeToStream()</a>. </p>
 
 </div>
 </div>
@@ -1177,7 +1209,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Reloads a tree from a data block that was written with <a class="el" href="classValueTree.html#a4030330dde3b8e95e706336627d278c3" title="Stores this tree (and all its children) in a binary format.">writeToStream()</a>. </p>
+<p>Reloads a tree from a data block that was written with <a class="el" href="classValueTree.html#a0a2a0fa2cf051fef99cab56db74a4266" title="Stores this tree (and all its children) in a binary format.">writeToStream()</a>. </p>
 
 </div>
 </div>
@@ -1206,7 +1238,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Reloads a tree from a data block that was written with <a class="el" href="classValueTree.html#a4030330dde3b8e95e706336627d278c3" title="Stores this tree (and all its children) in a binary format.">writeToStream()</a> and then zipped using <a class="el" href="classGZIPCompressorOutputStream.html" title="A stream which uses zlib to compress the data written into it.">GZIPCompressorOutputStream</a>. </p>
+<p>Reloads a tree from a data block that was written with <a class="el" href="classValueTree.html#a0a2a0fa2cf051fef99cab56db74a4266" title="Stores this tree (and all its children) in a binary format.">writeToStream()</a> and then zipped using <a class="el" href="classGZIPCompressorOutputStream.html" title="A stream which uses zlib to compress the data written into it.">GZIPCompressorOutputStream</a>. </p>
 
 </div>
 </div>

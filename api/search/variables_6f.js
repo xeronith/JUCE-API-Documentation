@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['offset',['offset',['../structDropShadow.html#af2c204224ab00ac6614f1b67701ca68a',1,'DropShadow']]],
   ['oldlace',['oldlace',['../classColours.html#a8854bc208ff4c18d1359d48061801eed',1,'Colours']]],
   ['olive',['olive',['../classColours.html#afa863de7d2e3c645092e981ef4b47349',1,'Colours']]],
   ['olivedrab',['olivedrab',['../classColours.html#a470482f79ccbabc1cfe7c44e4123acfd',1,'Colours']]],

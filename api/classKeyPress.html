@@ -123,6 +123,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af0f5939d677fd996b3d25f9a8fb50643"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two <a class="el" href="classKeyPress.html" title="Represents a key press, including any modifier keys that are needed.">KeyPress</a> objects.  <a href="#af0f5939d677fd996b3d25f9a8fb50643"></a><br/></td></tr>
 <tr class="memitem:afb86f08e6db034fbd3f143ffa31e4777"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyPress.html#afb86f08e6db034fbd3f143ffa31e4777">operator!=</a> (const <a class="el" href="classKeyPress.html">KeyPress</a> &amp;other) const noexcept</td></tr>
 <tr class="memdesc:afb86f08e6db034fbd3f143ffa31e4777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two <a class="el" href="classKeyPress.html" title="Represents a key press, including any modifier keys that are needed.">KeyPress</a> objects.  <a href="#afb86f08e6db034fbd3f143ffa31e4777"></a><br/></td></tr>
+<tr class="memitem:a9957d43aaa85003e6e0da06cdf874582"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyPress.html#a9957d43aaa85003e6e0da06cdf874582">operator==</a> (int keyCode) const noexcept</td></tr>
+<tr class="memdesc:a9957d43aaa85003e6e0da06cdf874582"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this keypress is for the given keycode without any modifiers.  <a href="#a9957d43aaa85003e6e0da06cdf874582"></a><br/></td></tr>
+<tr class="memitem:aff3aa01ed93293ecbc3b13ca910532fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyPress.html#aff3aa01ed93293ecbc3b13ca910532fe">operator!=</a> (int keyCode) const noexcept</td></tr>
+<tr class="memdesc:aff3aa01ed93293ecbc3b13ca910532fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this keypress is not for the given keycode without any modifiers.  <a href="#aff3aa01ed93293ecbc3b13ca910532fe"></a><br/></td></tr>
 <tr class="memitem:ab4f51e1cc6e423380fa7e77f105eef0c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyPress.html#ab4f51e1cc6e423380fa7e77f105eef0c">isValid</a> () const noexcept</td></tr>
 <tr class="memdesc:ab4f51e1cc6e423380fa7e77f105eef0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is a valid <a class="el" href="classKeyPress.html" title="Represents a key press, including any modifier keys that are needed.">KeyPress</a>.  <a href="#ab4f51e1cc6e423380fa7e77f105eef0c"></a><br/></td></tr>
 <tr class="memitem:a4cfa514c624628995ce687dcdc6518fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyPress.html#a4cfa514c624628995ce687dcdc6518fe">getKeyCode</a> () const noexcept</td></tr>
@@ -332,7 +336,7 @@ Static Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>keyCode</em></td><td>)</td>
-          <td></td>
+          <td><code> [explicit]</code></td>
         </tr>
       </table>
 </div>
@@ -416,6 +420,44 @@ Static Public Attributes</h2></td></tr>
 <div class="memdoc">
 
 <p>Compares two <a class="el" href="classKeyPress.html" title="Represents a key press, including any modifier keys that are needed.">KeyPress</a> objects. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9957d43aaa85003e6e0da06cdf874582"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyPress::operator== </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>keyCode</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns true if this keypress is for the given keycode without any modifiers. </p>
+
+</div>
+</div>
+<a class="anchor" id="aff3aa01ed93293ecbc3b13ca910532fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyPress::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>keyCode</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns true if this keypress is not for the given keycode without any modifiers. </p>
 
 </div>
 </div>

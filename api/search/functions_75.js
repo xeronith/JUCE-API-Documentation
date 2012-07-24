@@ -14,7 +14,7 @@ var searchData=
   ['unittest',['UnitTest',['../classUnitTest.html#a3fb00e56f1df45efabba981f84e5a578',1,'UnitTest']]],
   ['unittestrunner',['UnitTestRunner',['../classUnitTestRunner.html#ae0e3c870085be83f4821127b99269d78',1,'UnitTestRunner']]],
   ['unpremultiply',['unpremultiply',['../classPixelARGB.html#a6270aec4f8b98a22f3487be2b8db4dc2',1,'PixelARGB::unpremultiply()'],['../classPixelRGB.html#a43bd818ac8d55e02b8b3e14cc865a1b7',1,'PixelRGB::unpremultiply()'],['../classPixelAlpha.html#a739f660b3d4b93d86bf99e791aea1999',1,'PixelAlpha::unpremultiply()']]],
-  ['unquoted',['unquoted',['../classString.html#a3f11c24fd2d9f5d2ba5d964a7f69dd63',1,'String']]],
+  ['unquoted',['unquoted',['../classjuce_1_1String.html#aa4556fc62e1990ed78d89d558942f26f',1,'juce::String::unquoted() const '],['../classjuce_1_1String.html#aa4556fc62e1990ed78d89d558942f26f',1,'juce::String::unquoted() const '],['../classString.html#a3f11c24fd2d9f5d2ba5d964a7f69dd63',1,'String::unquoted()']]],
   ['updateallitempositions',['updateAllItemPositions',['../classToolbar.html#a754c6bad431c7e3a2fa35c6edda41ab5',1,'Toolbar']]],
   ['updatechildcomponents',['updateChildComponents',['../classComponentBuilder.html#ada58c44d9f924f56b43f9552c537f30a',1,'ComponentBuilder']]],
   ['updatecomponentfromstate',['updateComponentFromState',['../classComponentBuilder_1_1TypeHandler.html#a8ca3a127f43eef2849300856a2a0017a',1,'ComponentBuilder::TypeHandler']]],
@@ -25,8 +25,8 @@ var searchData=
   ['updatemousecursor',['updateMouseCursor',['../classComponent.html#a03057aba4ac79272f105e8839582309c',1,'Component']]],
   ['updateposition',['updatePosition',['../classCallOutBox.html#a19e7a01bb331faba5196e3aa3df07e40',1,'CallOutBox']]],
   ['updatetext',['updateText',['../classSlider.html#acec04f6f7cca814b66c23ae5cf4a7b6a',1,'Slider']]],
-  ['uptofirstoccurrenceof',['upToFirstOccurrenceOf',['../classString.html#ac40a17190e633f51c64d27e9a1bac386',1,'String']]],
-  ['uptolastoccurrenceof',['upToLastOccurrenceOf',['../classString.html#a9f9b52dc0f06e3c7fbdd9e39d0fbff70',1,'String']]],
+  ['uptofirstoccurrenceof',['upToFirstOccurrenceOf',['../classjuce_1_1String.html#aa7fb355e1b849436803192342f360cea',1,'juce::String::upToFirstOccurrenceOf(const String &amp;substringToEndWith, bool includeSubStringInResult, bool ignoreCase) const '],['../classjuce_1_1String.html#aa7fb355e1b849436803192342f360cea',1,'juce::String::upToFirstOccurrenceOf(const String &amp;substringToEndWith, bool includeSubStringInResult, bool ignoreCase) const '],['../classString.html#ac40a17190e633f51c64d27e9a1bac386',1,'String::upToFirstOccurrenceOf()']]],
+  ['uptolastoccurrenceof',['upToLastOccurrenceOf',['../classjuce_1_1String.html#afb6a85802ec953f64c7d1915f9417a63',1,'juce::String::upToLastOccurrenceOf(const String &amp;substringToFind, bool includeSubStringInResult, bool ignoreCase) const '],['../classjuce_1_1String.html#afb6a85802ec953f64c7d1915f9417a63',1,'juce::String::upToLastOccurrenceOf(const String &amp;substringToFind, bool includeSubStringInResult, bool ignoreCase) const '],['../classString.html#a9f9b52dc0f06e3c7fbdd9e39d0fbff70',1,'String::upToLastOccurrenceOf()']]],
   ['url',['URL',['../classURL.html#ad6ecb93e145465c5b20f2e90f2f1163a',1,'URL::URL()'],['../classURL.html#aa00fab54fc95a6a9a468228150c034d6',1,'URL::URL(const String &amp;url)'],['../classURL.html#af069bf0e7621be7f0eec3f1c80f5560a',1,'URL::URL(const URL &amp;other)']]],
   ['use',['use',['../classOpenGLShaderProgram.html#a13af8ca28514261f1ca5252300d3c620',1,'OpenGLShaderProgram']]],
   ['usefullscreenwhenonedocument',['useFullscreenWhenOneDocument',['../classMultiDocumentPanel.html#aae57bc01df58759446d1ad745b1dd0ee',1,'MultiDocumentPanel']]],
@@ -34,6 +34,6 @@ var searchData=
   ['usertriedtoclosewindow',['userTriedToCloseWindow',['../classComponent.html#a543e70d5a3ff75cc3facb476f4cdb131',1,'Component::userTriedToCloseWindow()'],['../classAlertWindow.html#a8d1f8e4fadd01bdc6067d8a8f619b04f',1,'AlertWindow::userTriedToCloseWindow()']]],
   ['usesanysymbols',['usesAnySymbols',['../classExpression.html#a0d3a456e6890d85965d6c78be8df7bc9',1,'Expression']]],
   ['usesnonzerowinding',['usesNonZeroWinding',['../classDrawablePath_1_1ValueTreeWrapper.html#a520c193d536d0ab53cd5de356b6996be',1,'DrawablePath::ValueTreeWrapper']]],
-  ['usetimeslice',['useTimeSlice',['../classTimeSliceClient.html#a272b0868c9bd0b5c281cf09dbaa69a9c',1,'TimeSliceClient::useTimeSlice()'],['../classDirectoryContentsList.html#ad0b5149f13969cb3f5eef3a704a67645',1,'DirectoryContentsList::useTimeSlice()']]],
+  ['usetimeslice',['useTimeSlice',['../classTimeSliceClient.html#a272b0868c9bd0b5c281cf09dbaa69a9c',1,'TimeSliceClient']]],
   ['uuid',['Uuid',['../classUuid.html#a55663b31db8d26c71fa1b0258ccc34f9',1,'Uuid::Uuid()'],['../classUuid.html#a89f27814d2c3bcb6e3328fa859ea22da',1,'Uuid::Uuid(const Uuid &amp;other) noexcept'],['../classUuid.html#a1c1c2279f664fb5ecd1c7a40a2427659',1,'Uuid::Uuid(const String &amp;uuidString)'],['../classUuid.html#a4408f0dbab7c668535128731befe7a5b',1,'Uuid::Uuid(const uint8 *rawData)']]]
 ];

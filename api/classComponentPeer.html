@@ -135,12 +135,12 @@ Public Types</h2></td></tr>
 <tr class="memdesc:a94a21f91c61f8211774d6f43243a6ddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">A combination of these flags is passed to the <a class="el" href="classComponentPeer.html" title="The Component class uses a ComponentPeer internally to create and manage a real operating-system wind...">ComponentPeer</a> constructor.  <a href="classComponentPeer.html#a94a21f91c61f8211774d6f43243a6ddc">More...</a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a81ea849fd12c79f7cc12409fb6de1820"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a81ea849fd12c79f7cc12409fb6de1820">ComponentPeer</a> (<a class="el" href="classComponent.html">Component</a> *<a class="el" href="classComponentPeer.html#a964794337b7b639b52be0827f74394c9">component</a>, int <a class="el" href="classComponentPeer.html#a8322b7cdb134bc52f443cd587ffc3f75">styleFlags</a>)</td></tr>
-<tr class="memdesc:a81ea849fd12c79f7cc12409fb6de1820"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a peer.  <a href="#a81ea849fd12c79f7cc12409fb6de1820"></a><br/></td></tr>
+<tr class="memitem:a65015932f2b6b2777d5da63c267d828d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a65015932f2b6b2777d5da63c267d828d">ComponentPeer</a> (<a class="el" href="classComponent.html">Component</a> &amp;<a class="el" href="classComponentPeer.html#a597272f3a78e8f1d02471692c2e2932a">component</a>, int <a class="el" href="classComponentPeer.html#a8322b7cdb134bc52f443cd587ffc3f75">styleFlags</a>)</td></tr>
+<tr class="memdesc:a65015932f2b6b2777d5da63c267d828d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a peer.  <a href="#a65015932f2b6b2777d5da63c267d828d"></a><br/></td></tr>
 <tr class="memitem:a582ed1de9b220645c16c67e0124e18e4"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a582ed1de9b220645c16c67e0124e18e4">~ComponentPeer</a> ()</td></tr>
 <tr class="memdesc:a582ed1de9b220645c16c67e0124e18e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a582ed1de9b220645c16c67e0124e18e4"></a><br/></td></tr>
-<tr class="memitem:afc8cc843ea17e10c7472c0f359856faf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComponent.html">Component</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#afc8cc843ea17e10c7472c0f359856faf">getComponent</a> () const noexcept</td></tr>
-<tr class="memdesc:afc8cc843ea17e10c7472c0f359856faf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the component being represented by this peer.  <a href="#afc8cc843ea17e10c7472c0f359856faf"></a><br/></td></tr>
+<tr class="memitem:a4b8bf87ff4901951dcb5b3f80b24dae2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComponent.html">Component</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a4b8bf87ff4901951dcb5b3f80b24dae2">getComponent</a> () noexcept</td></tr>
+<tr class="memdesc:a4b8bf87ff4901951dcb5b3f80b24dae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the component being represented by this peer.  <a href="#a4b8bf87ff4901951dcb5b3f80b24dae2"></a><br/></td></tr>
 <tr class="memitem:a47edec896c72e39f36e1be2bc03659cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a47edec896c72e39f36e1be2bc03659cf">getStyleFlags</a> () const noexcept</td></tr>
 <tr class="memdesc:a47edec896c72e39f36e1be2bc03659cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the set of style flags that were set when the window was created.  <a href="#a47edec896c72e39f36e1be2bc03659cf"></a><br/></td></tr>
 <tr class="memitem:af7797e064a137afcb3f72a35b95da7f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="juce__MathsFunctions_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#af7797e064a137afcb3f72a35b95da7f6">getUniqueID</a> () const noexcept</td></tr>
@@ -258,7 +258,7 @@ Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:abcfdbb05801c08b01c1bc8fad2cdc215"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#abcfdbb05801c08b01c1bc8fad2cdc215">updateCurrentModifiers</a> () noexcept</td></tr>
 <tr><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a964794337b7b639b52be0827f74394c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComponent.html">Component</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a964794337b7b639b52be0827f74394c9">component</a></td></tr>
+<tr class="memitem:a597272f3a78e8f1d02471692c2e2932a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComponent.html">Component</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a597272f3a78e8f1d02471692c2e2932a">component</a></td></tr>
 <tr class="memitem:a8322b7cdb134bc52f443cd587ffc3f75"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a8322b7cdb134bc52f443cd587ffc3f75">styleFlags</a></td></tr>
 <tr class="memitem:a3395d1d6b50bff458d288d6bab251859"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangleList.html">RectangleList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a3395d1d6b50bff458d288d6bab251859">maskedRegion</a></td></tr>
 <tr class="memitem:a2aee1a16331876b88555838cd75caeda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a2aee1a16331876b88555838cd75caeda">lastNonFullscreenBounds</a></td></tr>
@@ -329,14 +329,14 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a81ea849fd12c79f7cc12409fb6de1820"></a>
+<a class="anchor" id="a65015932f2b6b2777d5da63c267d828d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classComponentPeer.html#a81ea849fd12c79f7cc12409fb6de1820">ComponentPeer::ComponentPeer</a> </td>
+          <td class="memname"><a class="el" href="classComponentPeer.html#a65015932f2b6b2777d5da63c267d828d">ComponentPeer::ComponentPeer</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classComponent.html">Component</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classComponent.html">Component</a> &amp;&#160;</td>
           <td class="paramname"><em>component</em>, </td>
         </tr>
         <tr>
@@ -378,15 +378,15 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="afc8cc843ea17e10c7472c0f359856faf"></a>
+<a class="anchor" id="a4b8bf87ff4901951dcb5b3f80b24dae2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classComponent.html">Component</a>* <a class="el" href="classComponentPeer.html#afc8cc843ea17e10c7472c0f359856faf">ComponentPeer::getComponent</a> </td>
+          <td class="memname"><a class="el" href="classComponent.html">Component</a>&amp; <a class="el" href="classComponentPeer.html#a4b8bf87ff4901951dcb5b3f80b24dae2">ComponentPeer::getComponent</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
 </div>
@@ -1493,7 +1493,7 @@ Protected Attributes</h2></td></tr>
 <div class="memdoc">
 
 <p>Resets the masking region. </p>
-<p>The subclass should call this every time it's about to call the handlePaint method.</p>
+<p>The subclass should call this every time it's about to call the handlePaint method. </p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classComponentPeer.html#a8dc34e44261b7829f4d0b34f9ec28076" title="Adds a rectangle to the set of areas not to paint over.">addMaskedRegion</a> </dd></dl>
 
 </div>
@@ -1644,12 +1644,12 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Data Documentation</h2>
-<a class="anchor" id="a964794337b7b639b52be0827f74394c9"></a>
+<a class="anchor" id="a597272f3a78e8f1d02471692c2e2932a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classComponent.html">Component</a>* const <a class="el" href="classComponentPeer.html#a964794337b7b639b52be0827f74394c9">ComponentPeer::component</a><code> [protected]</code></td>
+          <td class="memname"><a class="el" href="classComponent.html">Component</a>&amp; <a class="el" href="classComponentPeer.html#a597272f3a78e8f1d02471692c2e2932a">ComponentPeer::component</a><code> [protected]</code></td>
         </tr>
       </table>
 </div>

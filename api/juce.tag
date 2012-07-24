@@ -148,6 +148,69 @@
       <anchor>a1b526d9ae416f2ae30d7f84da12db6bc</anchor>
       <arglist></arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_ATOMICS_MAC</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>a17506b18b29f9a6d3a797274baf66b73</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_MAC_ATOMICS_VOLATILE</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>a72cf91413b9b045ccbb73042b2c079b1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_64BIT_ATOMICS_UNAVAILABLE</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>a1b526d9ae416f2ae30d7f84da12db6bc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_ATOMICS_MAC</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>a17506b18b29f9a6d3a797274baf66b73</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_MAC_ATOMICS_VOLATILE</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>a72cf91413b9b045ccbb73042b2c079b1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_64BIT_ATOMICS_UNAVAILABLE</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>a1b526d9ae416f2ae30d7f84da12db6bc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_ATOMICS_MAC</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>a17506b18b29f9a6d3a797274baf66b73</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_MAC_ATOMICS_VOLATILE</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>a72cf91413b9b045ccbb73042b2c079b1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_64BIT_ATOMICS_UNAVAILABLE</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>a1b526d9ae416f2ae30d7f84da12db6bc</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>juce_AttributedString.h</name>
@@ -499,6 +562,48 @@
     <path>/Volumes/CODE/code/juce/modules/juce_core/text/</path>
     <filename>juce__CharacterFunctions_8h</filename>
     <class kind="class">CharacterFunctions</class>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_NATIVE_WCHAR_IS_UTF8</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>adee5e9cf98ee0bd0a2e5a91fb479f640</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_NATIVE_WCHAR_IS_UTF16</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>a8472d1d49a6a5a7692e2ec94e17ce63c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_NATIVE_WCHAR_IS_UTF32</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>a32ffe19f7697fad5b1febdce3b5fab4d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_NATIVE_WCHAR_IS_UTF8</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>adee5e9cf98ee0bd0a2e5a91fb479f640</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_NATIVE_WCHAR_IS_UTF16</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>a8472d1d49a6a5a7692e2ec94e17ce63c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_NATIVE_WCHAR_IS_UTF32</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>a32ffe19f7697fad5b1febdce3b5fab4d</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="define">
       <type>#define</type>
       <name>JUCE_NATIVE_WCHAR_IS_UTF8</name>
@@ -876,6 +981,7 @@
     <name>juce_DropShadowEffect.h</name>
     <path>/Volumes/CODE/code/juce/modules/juce_graphics/effects/</path>
     <filename>juce__DropShadowEffect_8h</filename>
+    <class kind="struct">DropShadow</class>
     <class kind="class">DropShadowEffect</class>
   </compound>
   <compound kind="file">
@@ -1349,6 +1455,13 @@
       <anchor>ab3639a79598b35f2116f4572af0d93f1</anchor>
       <arglist>(OwnerClass)</arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_LEAK_DETECTOR</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>ab3639a79598b35f2116f4572af0d93f1</anchor>
+      <arglist>(OwnerClass)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>juce_Line.h</name>
@@ -1484,6 +1597,27 @@
       <type>#define</type>
       <name>PARAMETER_TYPE</name>
       <anchorfile>juce__MathsFunctions_8h.html</anchorfile>
+      <anchor>ab17e68e410cbcdaf3074214aed490ec8</anchor>
+      <arglist>(a)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>literal64bit</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>a2a04225a9df1324513c2913f2d184abc</anchor>
+      <arglist>(longLiteral)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_UNDENORMALISE</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>a339666bd60cc6cb0831cb79c8f1b07b6</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PARAMETER_TYPE</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
       <anchor>ab17e68e410cbcdaf3074214aed490ec8</anchor>
       <arglist>(a)</arglist>
     </member>
@@ -1770,11 +1904,26 @@
     <name>juce_Memory.h</name>
     <path>/Volumes/CODE/code/juce/modules/juce_core/memory/</path>
     <filename>juce__Memory_8h</filename>
+    <class kind="class">ScopedAutoReleasePool</class>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_AUTORELEASEPOOL</name>
+      <anchorfile>juce__Memory_8h.html</anchorfile>
+      <anchor>ad73fadcd76040b11a626d5bdf833ad49</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="define">
       <type>#define</type>
       <name>juce_UseDebuggingNewOperator</name>
       <anchorfile>juce__Memory_8h.html</anchorfile>
       <anchor>a881926ad904a631336e5d4b15f05c548</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>JUCE_AUTORELEASEPOOL</name>
+      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
+      <anchor>ad73fadcd76040b11a626d5bdf833ad49</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -2990,7 +3139,28 @@
     <name>juce_StandardHeader.h</name>
     <path>/Volumes/CODE/code/juce/modules/juce_core/system/</path>
     <filename>juce__StandardHeader_8h</filename>
-    <class kind="class">ScopedAutoReleasePool</class>
+    <class kind="class">juce::ScopedAutoReleasePool</class>
+    <class kind="struct">juce::TypeHelpers::ParameterType</class>
+    <class kind="struct">juce::TypeHelpers::SmallestFloatType</class>
+    <class kind="struct">juce::TypeHelpers::SmallestFloatType&lt; double &gt;</class>
+    <class kind="class">juce::ByteOrder</class>
+    <class kind="class">juce::CharacterFunctions</class>
+    <class kind="class">juce::Atomic</class>
+    <class kind="class">juce::CharPointer_UTF8</class>
+    <class kind="class">juce::CharPointer_UTF16</class>
+    <class kind="class">juce::CharPointer_UTF32</class>
+    <class kind="class">juce::CharPointer_ASCII</class>
+    <class kind="class">juce::String</class>
+    <class kind="class">juce::Logger</class>
+    <class kind="class">juce::CharacterFunctions</class>
+    <class kind="class">juce::Atomic</class>
+    <class kind="class">juce::CharPointer_UTF8</class>
+    <class kind="class">juce::CharPointer_UTF16</class>
+    <class kind="class">juce::CharPointer_UTF32</class>
+    <class kind="class">juce::CharPointer_ASCII</class>
+    <class kind="class">juce::String</class>
+    <class kind="class">juce::Atomic</class>
+    <class kind="class">juce::LeakedObjectDetector</class>
     <member kind="define">
       <type>#define</type>
       <name>JUCE_MAJOR_VERSION</name>
@@ -3033,19 +3203,600 @@
       <anchor>a96fbdc03e0c892905daef7b47337c84e</anchor>
       <arglist></arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>JUCE_AUTORELEASEPOOL</name>
-      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
-      <anchor>ad73fadcd76040b11a626d5bdf833ad49</anchor>
+    <member kind="typedef">
+      <type>signed char</type>
+      <name>int8</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a1a206ff711b50ad916f1526f9b080b34</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>unsigned char</type>
+      <name>uint8</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a797694035bfad19a34cc6ab058ba1e12</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>signed short</type>
+      <name>int16</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a65745cd11b9c44a8bbcc05481ff34118</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>unsigned short</type>
+      <name>uint16</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a05bed2f5209971cef4ea323aabb5b55e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>signed int</type>
+      <name>int32</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a219be4b9f6d0c1afe52fe6e0cf9c7c18</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>unsigned int</type>
+      <name>uint32</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a9c13f39daaa50b986489e39f22b8a9ee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>long long</type>
+      <name>int64</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a1f96c7e229e063e19a9590a52b1f97a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>unsigned long long</type>
+      <name>uint64</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>aae917ec7c857bdbcbf65c5ae0df3697d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>int</type>
+      <name>pointer_sized_int</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a012b9f25c5aa83013ce540dce4e77136</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>unsigned int</type>
+      <name>pointer_sized_uint</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>ac2ee5123ad6afedd59b2513ffa167605</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>wchar_t</type>
+      <name>juce_wchar</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a24adf15ebd65588ea0f0078cc9767d13</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
-      <type>BEGIN_JUCE_NAMESPACE JUCE_API bool JUCE_CALLTYPE</type>
+      <type>JUCE_API bool JUCE_CALLTYPE</type>
       <name>juce_isRunningUnderDebugger</name>
-      <anchorfile>juce__StandardHeader_8h.html</anchorfile>
-      <anchor>a1ae594ac7801c1936131b0512157c1dd</anchor>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a55ca0411455710ecca963f6666cc1a20</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>zeromem</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>af98f1c01dcdb77b71fbd0c4cab285321</anchor>
+      <arglist>(void *memory, size_t numBytes) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>zerostruct</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a11d8fa1921494e90708d443dea17a1b8</anchor>
+      <arglist>(Type &amp;structure) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>deleteAndZero</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>aa4426beeb515d695c582eb4a9f0180ba</anchor>
+      <arglist>(Type &amp;pointer)</arglist>
+    </member>
+    <member kind="function">
+      <type>Type *</type>
+      <name>addBytesToPointer</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a1da3ca44c0351ce2b36c7e44b8ad96e8</anchor>
+      <arglist>(Type *pointer, int bytes) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getAddressDifference</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a615b02f323ec622a1f8acd9aa481c671</anchor>
+      <arglist>(Type1 *pointer1, Type2 *pointer2) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type *</type>
+      <name>createCopyIfNotNull</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>aaade7a6bd2aec0b91922fd54abfcd37c</anchor>
+      <arglist>(Type *pointer)</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>jmax</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a3af2a98f8934da6e34a1b3812fe430ab</anchor>
+      <arglist>(const Type a, const Type b)</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>jmax</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>ae2e4061326e294d9412ff93a4a4071df</anchor>
+      <arglist>(const Type a, const Type b, const Type c)</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>jmax</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>ad9212c4ae474bdfe8b01a814a9bf0784</anchor>
+      <arglist>(const Type a, const Type b, const Type c, const Type d)</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>jmin</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a2bd0a63fada8d9fe2eacc322f615ea0f</anchor>
+      <arglist>(const Type a, const Type b)</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>jmin</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a7e56af4b0879c07c7a6352488780ea57</anchor>
+      <arglist>(const Type a, const Type b, const Type c)</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>jmin</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>aa76dfd428f401d6af9c064e4e8623207</anchor>
+      <arglist>(const Type a, const Type b, const Type c, const Type d)</arglist>
+    </member>
+    <member kind="function">
+      <type>const Type</type>
+      <name>findMinimum</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a4759125a7a336c202559ea1775b272b7</anchor>
+      <arglist>(const Type *data, int numValues)</arglist>
+    </member>
+    <member kind="function">
+      <type>const Type</type>
+      <name>findMaximum</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a954251822c8463049b85116fc361d4c7</anchor>
+      <arglist>(const Type *values, int numValues)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>findMinAndMax</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a35842fd5760cf0d0062e60fa3b12cdc7</anchor>
+      <arglist>(const Type *values, int numValues, Type &amp;lowest, Type &amp;highest)</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>jlimit</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>aabc397c2b2fccb933f20e269725bb138</anchor>
+      <arglist>(const Type lowerLimit, const Type upperLimit, const Type valueToConstrain) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isPositiveAndBelow</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a137d4bbe886b9a976f3a9773aea7b5f6</anchor>
+      <arglist>(Type valueToTest, Type upperLimit) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isPositiveAndBelow</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a0a2c6beed826660cbee7b64a09cd7289</anchor>
+      <arglist>(const int valueToTest, const int upperLimit) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isPositiveAndNotGreaterThan</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a1835c8ecaba5ffca0eb325f37cdc3383</anchor>
+      <arglist>(Type valueToTest, Type upperLimit) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isPositiveAndNotGreaterThan</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>ad46abb0ba076a41baa58664e74eedb01</anchor>
+      <arglist>(const int valueToTest, const int upperLimit) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>swapVariables</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a424d09fe773b9b957facfd15d02f5e6f</anchor>
+      <arglist>(Type &amp;variable1, Type &amp;variable2)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>numElementsInArray</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a46a89b991f583581ff3d5080441a2780</anchor>
+      <arglist>(Type(&amp;array)[N])</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>juce_hypot</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a9c035fae28919df676315ff52cbe93c5</anchor>
+      <arglist>(Type a, Type b) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int64</type>
+      <name>abs64</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a8e56b9613c0139a98c44f3c9064204bd</anchor>
+      <arglist>(const int64 n) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>juce_isfinite</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>ab0f1dbe8fdbb5ea22052e6ae133ea6d0</anchor>
+      <arglist>(FloatingPointType value)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>roundToInt</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>af0e7f88f33180df5f8f74d53290e11fc</anchor>
+      <arglist>(const FloatType value) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>roundToIntAccurate</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a4924cc249f06b93814f106b08422ef78</anchor>
+      <arglist>(const double value) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>roundDoubleToInt</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a96d372b788c53714f68a300653b7fa49</anchor>
+      <arglist>(const double value) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>roundFloatToInt</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>afb88127f26f48cdc9fea53ff0a0a80ed</anchor>
+      <arglist>(const float value) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isPowerOfTwo</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>ae1d1faae5196d92560139328c962df11</anchor>
+      <arglist>(IntegerType value)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>nextPowerOfTwo</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a662705b6a3d6c4ae9aa32cb82525caa3</anchor>
+      <arglist>(int n) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>negativeAwareModulo</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>ad253b16352278addc1e5c7c6e7617085</anchor>
+      <arglist>(IntegerType dividend, const IntegerType divisor) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String JUCE_CALLTYPE</type>
+      <name>operator+</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a693ce57b5b48d3e5bed16c9a0c455ab5</anchor>
+      <arglist>(const char *string1, const String &amp;string2)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String JUCE_CALLTYPE</type>
+      <name>operator+</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a60de4ca35c333b9234ad5963caeacb15</anchor>
+      <arglist>(const wchar_t *string1, const String &amp;string2)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String JUCE_CALLTYPE</type>
+      <name>operator+</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a4b9d1bf3633958dfb1ce9897da0bae6d</anchor>
+      <arglist>(char string1, const String &amp;string2)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String JUCE_CALLTYPE</type>
+      <name>operator+</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a1f87cb342e7862e860c66b9646d33fd6</anchor>
+      <arglist>(wchar_t string1, const String &amp;string2)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String JUCE_CALLTYPE</type>
+      <name>operator+</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a5dda3c9fdab2593252a365c7532c2d2b</anchor>
+      <arglist>(String string1, const String &amp;string2)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String JUCE_CALLTYPE</type>
+      <name>operator+</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>aabbdc34c40fa783d545299e312db6444</anchor>
+      <arglist>(String string1, const char *string2)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String JUCE_CALLTYPE</type>
+      <name>operator+</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a3492bbd45dfdce08e13a68621fdc66ee</anchor>
+      <arglist>(String string1, const wchar_t *string2)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String JUCE_CALLTYPE</type>
+      <name>operator+</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a1d5387f9690299bbe41901d380c9319f</anchor>
+      <arglist>(String string1, char characterToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String JUCE_CALLTYPE</type>
+      <name>operator+</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>aa50a909572f40aa1704ffdeefc411b65</anchor>
+      <arglist>(String string1, wchar_t characterToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String &amp;JUCE_CALLTYPE</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>ab732ef32f5380bb6f71b50f0f54cab04</anchor>
+      <arglist>(String &amp;string1, char characterToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String &amp;JUCE_CALLTYPE</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a59396ef65f911242c2d453e0a01b94a5</anchor>
+      <arglist>(String &amp;string1, wchar_t characterToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String &amp;JUCE_CALLTYPE</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>af5f659b6f3df3f728118998578b9ef0d</anchor>
+      <arglist>(String &amp;string1, const char *string2)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String &amp;JUCE_CALLTYPE</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a22b968e752dc2bce433b2e7fd29f4831</anchor>
+      <arglist>(String &amp;string1, const wchar_t *string2)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String &amp;JUCE_CALLTYPE</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a1de9cd5b43eb8ec14c09d90a80b42ffa</anchor>
+      <arglist>(String &amp;string1, const String &amp;string2)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String &amp;JUCE_CALLTYPE</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a37a4b23de9caef4832b546cacc417bb6</anchor>
+      <arglist>(String &amp;string1, short number)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String &amp;JUCE_CALLTYPE</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a0998ecaeb739c3de04da82eedac5a7d5</anchor>
+      <arglist>(String &amp;string1, int number)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String &amp;JUCE_CALLTYPE</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a45f5e9deeb5698e74d68622bb1694a61</anchor>
+      <arglist>(String &amp;string1, long number)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String &amp;JUCE_CALLTYPE</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>aa2626f92d03814317e1a652f265bfefc</anchor>
+      <arglist>(String &amp;string1, int64 number)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String &amp;JUCE_CALLTYPE</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a8bfacd33051485bd3c97847aa6b548f3</anchor>
+      <arglist>(String &amp;string1, float number)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String &amp;JUCE_CALLTYPE</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>ac2e8862ba6c574ad1cd795b8f031ff7d</anchor>
+      <arglist>(String &amp;string1, double number)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API bool JUCE_CALLTYPE</type>
+      <name>operator==</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>ad1341b8f4054a1bfae16927f1739976d</anchor>
+      <arglist>(const String &amp;string1, const String &amp;string2) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API bool JUCE_CALLTYPE</type>
+      <name>operator==</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a6cb464853bb21e94a4eac7d6f7bd1338</anchor>
+      <arglist>(const String &amp;string1, const char *string2) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API bool JUCE_CALLTYPE</type>
+      <name>operator==</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a1c0311273a940894b5220f84ef6aa294</anchor>
+      <arglist>(const String &amp;string1, const wchar_t *string2) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API bool JUCE_CALLTYPE</type>
+      <name>operator==</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a78929e58ad0c9488b4d02b312855e602</anchor>
+      <arglist>(const String &amp;string1, const CharPointer_UTF8 &amp;string2) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API bool JUCE_CALLTYPE</type>
+      <name>operator==</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a4c1de371c5517c1c7d0432c4815e01e7</anchor>
+      <arglist>(const String &amp;string1, const CharPointer_UTF16 &amp;string2) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API bool JUCE_CALLTYPE</type>
+      <name>operator==</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a93730eff893d47fe41cbc5c866cc971c</anchor>
+      <arglist>(const String &amp;string1, const CharPointer_UTF32 &amp;string2) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API bool JUCE_CALLTYPE</type>
+      <name>operator!=</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a6de607e3c400c5ff961ca8aa47f1b644</anchor>
+      <arglist>(const String &amp;string1, const String &amp;string2) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API bool JUCE_CALLTYPE</type>
+      <name>operator!=</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a9359c791f86af78f6aec3f59fe302100</anchor>
+      <arglist>(const String &amp;string1, const char *string2) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API bool JUCE_CALLTYPE</type>
+      <name>operator!=</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a3202120ab24e58c7a8b55f860c0e0661</anchor>
+      <arglist>(const String &amp;string1, const wchar_t *string2) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API bool JUCE_CALLTYPE</type>
+      <name>operator!=</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>adef8d765d48bb54d66d256c6a91c48a1</anchor>
+      <arglist>(const String &amp;string1, const CharPointer_UTF8 &amp;string2) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API bool JUCE_CALLTYPE</type>
+      <name>operator!=</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>ae0bf42ccf009bc610220986086c8fd4e</anchor>
+      <arglist>(const String &amp;string1, const CharPointer_UTF16 &amp;string2) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API bool JUCE_CALLTYPE</type>
+      <name>operator!=</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a2f4354cf7a84f83a6ab47a8ddaacd9ef</anchor>
+      <arglist>(const String &amp;string1, const CharPointer_UTF32 &amp;string2) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API bool JUCE_CALLTYPE</type>
+      <name>operator&gt;</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a395f623f5e84a61200dfc61b074b8b77</anchor>
+      <arglist>(const String &amp;string1, const String &amp;string2) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API bool JUCE_CALLTYPE</type>
+      <name>operator&lt;</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>ad1074c9febf150de1496e42c25300b59</anchor>
+      <arglist>(const String &amp;string1, const String &amp;string2) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API bool JUCE_CALLTYPE</type>
+      <name>operator&gt;=</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a9bd2d900f553e990c6e445afe6ca5151</anchor>
+      <arglist>(const String &amp;string1, const String &amp;string2) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API bool JUCE_CALLTYPE</type>
+      <name>operator&lt;=</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a9f1356ad7d732cf165be88d8781d6ebb</anchor>
+      <arglist>(const String &amp;string1, const String &amp;string2) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>std::basic_ostream&lt; char, traits &gt; &amp;JUCE_CALLTYPE</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a158561f9ae3601a004fc774a1a441eb6</anchor>
+      <arglist>(std::basic_ostream&lt; char, traits &gt; &amp;stream, const String &amp;stringToWrite)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::basic_ostream&lt; wchar_t, traits &gt; &amp;JUCE_CALLTYPE</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>ae3f7428e837901a3a6930f367408a601</anchor>
+      <arglist>(std::basic_ostream&lt; wchar_t, traits &gt; &amp;stream, const String &amp;stringToWrite)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API OutputStream &amp;JUCE_CALLTYPE</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>ab8fe7921b0d87c4e1212258284672858</anchor>
+      <arglist>(OutputStream &amp;stream, const String &amp;stringToWrite)</arglist>
+    </member>
+    <member kind="variable">
+      <type>const double</type>
+      <name>double_Pi</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>ac186fb6c96b71c704058b5a23b5af68b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const float</type>
+      <name>float_Pi</name>
+      <anchorfile>namespacejuce.html</anchorfile>
+      <anchor>a7a3a0de70354de4badeac8063d198178</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -3196,6 +3947,13 @@
       <anchorfile>juce__String_8h.html</anchorfile>
       <anchor>adf6e4e4381e9443bd029d6c2fc6ec58b</anchor>
       <arglist>(String &amp;string1, long number)</arglist>
+    </member>
+    <member kind="function">
+      <type>JUCE_API String &amp;JUCE_CALLTYPE</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>juce__String_8h.html</anchorfile>
+      <anchor>aa63100aa19309480c9650073ace12a6b</anchor>
+      <arglist>(String &amp;string1, int64 number)</arglist>
     </member>
     <member kind="function">
       <type>JUCE_API String &amp;JUCE_CALLTYPE</type>
@@ -5900,19 +6658,12 @@
       <anchor>a9198279ce75060e66f9f4a52510bc76a</anchor>
       <arglist>()</arglist>
     </member>
-    <member kind="function" protection="protected">
+    <member kind="function">
       <type>void</type>
       <name>paintButton</name>
       <anchorfile>classArrowButton.html</anchorfile>
-      <anchor>a3b06635408cb843e1e58a427a1eaf604</anchor>
-      <arglist>(Graphics &amp;g, bool isMouseOverButton, bool isButtonDown)</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
-      <name>buttonStateChanged</name>
-      <anchorfile>classArrowButton.html</anchorfile>
-      <anchor>a0840541f1d0964758ab2c663cbf51495</anchor>
-      <arglist>()</arglist>
+      <anchor>a1ab818a89d7b2913b6dd71ad699f7948</anchor>
+      <arglist>(Graphics &amp;, bool isMouseOverButton, bool isButtonDown)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -7374,8 +8125,8 @@
     <name>AudioDeviceSelectorComponent</name>
     <filename>classAudioDeviceSelectorComponent.html</filename>
     <base>Component</base>
-    <base>ComboBox::Listener</base>
-    <base>ChangeListener</base>
+    <base protection="private">ComboBox::Listener</base>
+    <base protection="private">ChangeListener</base>
     <member kind="function">
       <type></type>
       <name>AudioDeviceSelectorComponent</name>
@@ -7396,20 +8147,6 @@
       <anchorfile>classAudioDeviceSelectorComponent.html</anchorfile>
       <anchor>af1520a5a4ecbdf773b8e48a5d8c8755e</anchor>
       <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>comboBoxChanged</name>
-      <anchorfile>classAudioDeviceSelectorComponent.html</anchorfile>
-      <anchor>a2da65a07b27350be0aed9b6d7a3e3ce5</anchor>
-      <arglist>(ComboBox *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>changeListenerCallback</name>
-      <anchorfile>classAudioDeviceSelectorComponent.html</anchorfile>
-      <anchor>ad88026598422045cc8492769684e745a</anchor>
-      <arglist>(ChangeBroadcaster *)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -8723,7 +9460,6 @@
   <compound kind="class">
     <name>AudioPluginFormatManager</name>
     <filename>classAudioPluginFormatManager.html</filename>
-    <base>DeletedAtShutdown</base>
     <member kind="function">
       <type></type>
       <name>AudioPluginFormatManager</name>
@@ -8737,13 +9473,6 @@
       <anchorfile>classAudioPluginFormatManager.html</anchorfile>
       <anchor>af665e2e901d438a93a75282df73dd1b2</anchor>
       <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>juce_DeclareSingleton_SingleThreaded</name>
-      <anchorfile>classAudioPluginFormatManager.html</anchorfile>
-      <anchor>a6d325582d6292ade88c91b0a9b915c6a</anchor>
-      <arglist>(AudioPluginFormatManager, false)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -9289,7 +10018,7 @@
     <name>AudioProcessorGraph</name>
     <filename>classAudioProcessorGraph.html</filename>
     <base>AudioProcessor</base>
-    <base>AsyncUpdater</base>
+    <base protection="private">AsyncUpdater</base>
     <class kind="class">AudioProcessorGraph::AudioGraphIOProcessor</class>
     <class kind="struct">AudioProcessorGraph::Connection</class>
     <class kind="class">AudioProcessorGraph::Node</class>
@@ -9593,13 +10322,6 @@
       <anchorfile>classAudioProcessorGraph.html</anchorfile>
       <anchor>ad1953b78a5b717d234ba953c016ce26c</anchor>
       <arglist>(const void *data, int sizeInBytes)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>handleAsyncUpdate</name>
-      <anchorfile>classAudioProcessorGraph.html</anchorfile>
-      <anchor>a13aae03ced87afaca564ac27dd35f2a1</anchor>
-      <arglist>()</arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static const int</type>
@@ -10707,7 +11429,6 @@
   <compound kind="class">
     <name>AudioThumbnailCache</name>
     <filename>classAudioThumbnailCache.html</filename>
-    <base>TimeSliceThread</base>
     <member kind="function">
       <type></type>
       <name>AudioThumbnailCache</name>
@@ -10756,6 +11477,13 @@
       <anchorfile>classAudioThumbnailCache.html</anchorfile>
       <anchor>ae752aabe2829fb344c4e619d2819a3d7</anchor>
       <arglist>(OutputStream &amp;stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>TimeSliceThread &amp;</type>
+      <name>getTimeSliceThread</name>
+      <anchorfile>classAudioThumbnailCache.html</anchorfile>
+      <anchor>a3b4a7387c73aa4163ddc236e8b104023</anchor>
+      <arglist>() noexcept</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -12873,6 +13601,13 @@
       <anchor>a89c6d582f95613f306a3cd20a3522740</anchor>
       <arglist>(int commandId)</arglist>
     </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>launchAsynchronously</name>
+      <anchorfile>classCallOutBox.html</anchorfile>
+      <anchor>a478bba74c26f2f875227a0e3bba1036f</anchor>
+      <arglist>(Component &amp;componentToPointTo, Component *contentComponent, Component *parentComponent)</arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>CameraDevice</name>
@@ -12985,7 +13720,7 @@
     <name>CaretComponent</name>
     <filename>classCaretComponent.html</filename>
     <base>Component</base>
-    <base>Timer</base>
+    <base protection="private">Timer</base>
     <member kind="enumeration">
       <name>ColourIds</name>
       <anchorfile>classCaretComponent.html</anchorfile>
@@ -13025,13 +13760,6 @@
       <anchorfile>classCaretComponent.html</anchorfile>
       <anchor>a42c4c45c695b137a43095606972b98b4</anchor>
       <arglist>(Graphics &amp;g)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timerCallback</name>
-      <anchorfile>classCaretComponent.html</anchorfile>
-      <anchor>a681d7f30bb08e0d128a4bb1872862827</anchor>
-      <arglist>()</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -13880,25 +14608,25 @@
     <member kind="enumvalue">
       <name>byteOrderMarkBE1</name>
       <anchorfile>classCharPointer__UTF16.html</anchorfile>
-      <anchor>a7048cdbb9ebcb89333c8656a30c4bed9aec96c813c427ded95e8d412690c08c9a</anchor>
+      <anchor>a8d49f02d46b0749a666e8064372427b1aec96c813c427ded95e8d412690c08c9a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>byteOrderMarkBE2</name>
       <anchorfile>classCharPointer__UTF16.html</anchorfile>
-      <anchor>a7048cdbb9ebcb89333c8656a30c4bed9a0e9e3e062cd6caa2ddbd9861763a5aef</anchor>
+      <anchor>a8d49f02d46b0749a666e8064372427b1a0e9e3e062cd6caa2ddbd9861763a5aef</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>byteOrderMarkLE1</name>
       <anchorfile>classCharPointer__UTF16.html</anchorfile>
-      <anchor>a7048cdbb9ebcb89333c8656a30c4bed9ae1379594854299323a3c64115026d288</anchor>
+      <anchor>a8d49f02d46b0749a666e8064372427b1ae1379594854299323a3c64115026d288</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>byteOrderMarkLE2</name>
       <anchorfile>classCharPointer__UTF16.html</anchorfile>
-      <anchor>a7048cdbb9ebcb89333c8656a30c4bed9ae603365b2895acc018233efeb0da3d6b</anchor>
+      <anchor>a8d49f02d46b0749a666e8064372427b1ae603365b2895acc018233efeb0da3d6b</anchor>
       <arglist></arglist>
     </member>
     <member kind="typedef">
@@ -14745,19 +15473,19 @@
     <member kind="enumvalue">
       <name>byteOrderMark1</name>
       <anchorfile>classCharPointer__UTF8.html</anchorfile>
-      <anchor>a4382bf4437d56e7aa7a15a56b787e5a8a8085c34bfa20125556249baba7268ebc</anchor>
+      <anchor>a9e1918f5a986b2fdb64b4eb59b045c56a8085c34bfa20125556249baba7268ebc</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>byteOrderMark2</name>
       <anchorfile>classCharPointer__UTF8.html</anchorfile>
-      <anchor>a4382bf4437d56e7aa7a15a56b787e5a8a2e5a169828d5d53f24d89f12ea14d308</anchor>
+      <anchor>a9e1918f5a986b2fdb64b4eb59b045c56a2e5a169828d5d53f24d89f12ea14d308</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>byteOrderMark3</name>
       <anchorfile>classCharPointer__UTF8.html</anchorfile>
-      <anchor>a4382bf4437d56e7aa7a15a56b787e5a8aa535790ae396383e305fbf9af74624f7</anchor>
+      <anchor>a9e1918f5a986b2fdb64b4eb59b045c56aa535790ae396383e305fbf9af74624f7</anchor>
       <arglist></arglist>
     </member>
     <member kind="typedef">
@@ -15288,13 +16016,6 @@
       <anchor>a596cfdff4aacee564c686e0910b011e1</anchor>
       <arglist>()</arglist>
     </member>
-    <member kind="function">
-      <type>void</type>
-      <name>comboBoxChanged</name>
-      <anchorfile>classChoicePropertyComponent.html</anchorfile>
-      <anchor>a99290b7e8969cc3dea7ad5440464db6b</anchor>
-      <arglist>(ComboBox *)</arglist>
-    </member>
     <member kind="function" protection="protected">
       <type></type>
       <name>ChoicePropertyComponent</name>
@@ -15506,15 +16227,15 @@
       <type></type>
       <name>Iterator</name>
       <anchorfile>classCodeDocument_1_1Iterator.html</anchorfile>
-      <anchor>a3ee6a4135b4581b9b3d72a08f6bcb491</anchor>
-      <arglist>(CodeDocument *document)</arglist>
+      <anchor>a350e1a7a64043f010e5467a1d862830f</anchor>
+      <arglist>(const CodeDocument &amp;document) noexcept</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>Iterator</name>
       <anchorfile>classCodeDocument_1_1Iterator.html</anchorfile>
-      <anchor>a0d520b10dde056899742b1fe24084f02</anchor>
-      <arglist>(const Iterator &amp;other)</arglist>
+      <anchor>ad96c135bfd54bedf7800255bb3b52213</anchor>
+      <arglist>(const Iterator &amp;other) noexcept</arglist>
     </member>
     <member kind="function">
       <type>Iterator &amp;</type>
@@ -15534,22 +16255,22 @@
       <type>juce_wchar</type>
       <name>nextChar</name>
       <anchorfile>classCodeDocument_1_1Iterator.html</anchorfile>
-      <anchor>aac4e6ccbc3ce08f7c05315713edda5b9</anchor>
-      <arglist>()</arglist>
+      <anchor>a21dd834cc9809e8c64c1d351fd956735</anchor>
+      <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
       <type>juce_wchar</type>
       <name>peekNextChar</name>
       <anchorfile>classCodeDocument_1_1Iterator.html</anchorfile>
-      <anchor>ac20737d780e9bc7d9c5666d618b54785</anchor>
-      <arglist>() const </arglist>
+      <anchor>a9e5a711b7cc71c199436d0a6f37f5213</anchor>
+      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>skip</name>
       <anchorfile>classCodeDocument_1_1Iterator.html</anchorfile>
-      <anchor>ae29beec45949ba2279e0097f5514c376</anchor>
-      <arglist>()</arglist>
+      <anchor>a794f99491b06e4648b800f826769da06</anchor>
+      <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
       <type>int</type>
@@ -15562,15 +16283,15 @@
       <type>void</type>
       <name>skipWhitespace</name>
       <anchorfile>classCodeDocument_1_1Iterator.html</anchorfile>
-      <anchor>a36292d34f318f2bd778759e85dbb1adb</anchor>
-      <arglist>()</arglist>
+      <anchor>abc24c310cf990a0caf19bc3bf475f3c5</anchor>
+      <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>skipToEndOfLine</name>
       <anchorfile>classCodeDocument_1_1Iterator.html</anchorfile>
-      <anchor>af022bef3ac374a43f3b88776f2131036</anchor>
-      <arglist>()</arglist>
+      <anchor>a98a02afbe6bc5d3d034c258ce0b606c8</anchor>
+      <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
       <type>int</type>
@@ -15626,15 +16347,15 @@
       <type></type>
       <name>Position</name>
       <anchorfile>classCodeDocument_1_1Position.html</anchorfile>
-      <anchor>ac3bdb106a542a8452ff051588c994c17</anchor>
-      <arglist>(const CodeDocument *ownerDocument, int line, int indexInLine) noexcept</arglist>
+      <anchor>ab75b3df0bb0307b50979be99e74848a2</anchor>
+      <arglist>(const CodeDocument &amp;ownerDocument, int line, int indexInLine) noexcept</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>Position</name>
       <anchorfile>classCodeDocument_1_1Position.html</anchorfile>
-      <anchor>a86f88233eb2babd78f3ffa79c80e1cb4</anchor>
-      <arglist>(const CodeDocument *ownerDocument, int charactersFromStartOfDocument) noexcept</arglist>
+      <anchor>ae43f0043e69f22e0e1e1af9f4721653e</anchor>
+      <arglist>(const CodeDocument &amp;ownerDocument, int charactersFromStartOfDocument) noexcept</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -15721,24 +16442,24 @@
       <arglist>(int characterDelta)</arglist>
     </member>
     <member kind="function">
-      <type>const Position</type>
+      <type>Position</type>
       <name>movedBy</name>
       <anchorfile>classCodeDocument_1_1Position.html</anchorfile>
-      <anchor>ad52afbee85589364a2543aab4c06c233</anchor>
+      <anchor>a59543ea662ac12a61babeaa13351a1ec</anchor>
       <arglist>(int characterDelta) const </arglist>
     </member>
     <member kind="function">
-      <type>const Position</type>
+      <type>Position</type>
       <name>movedByLines</name>
       <anchorfile>classCodeDocument_1_1Position.html</anchorfile>
-      <anchor>a9bca63b5c8b56a5b9c59222eea3d0313</anchor>
+      <anchor>a55669800547700638bc09b391f86f68b</anchor>
       <arglist>(int deltaLines) const </arglist>
     </member>
     <member kind="function">
-      <type>const juce_wchar</type>
+      <type>juce_wchar</type>
       <name>getCharacter</name>
       <anchorfile>classCodeDocument_1_1Position.html</anchorfile>
-      <anchor>a47a11d7d78ad657d5716a22491a01583</anchor>
+      <anchor>af6dab414dcad09f9250700558fc29b66</anchor>
       <arglist>() const </arglist>
     </member>
     <member kind="function">
@@ -16152,6 +16873,13 @@
       <anchorfile>classCodeEditorComponent.html</anchorfile>
       <anchor>a79befaff281e3c097f5586889ec7014c</anchor>
       <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>getTabString</name>
+      <anchorfile>classCodeEditorComponent.html</anchorfile>
+      <anchor>a31ab335a3475b4bca51f49a5ad698bec</anchor>
+      <arglist>(int numSpaces) const </arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -20683,8 +21411,8 @@
       <type></type>
       <name>ComponentPeer</name>
       <anchorfile>classComponentPeer.html</anchorfile>
-      <anchor>a81ea849fd12c79f7cc12409fb6de1820</anchor>
-      <arglist>(Component *component, int styleFlags)</arglist>
+      <anchor>a65015932f2b6b2777d5da63c267d828d</anchor>
+      <arglist>(Component &amp;component, int styleFlags)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
@@ -20694,11 +21422,11 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>Component *</type>
+      <type>Component &amp;</type>
       <name>getComponent</name>
       <anchorfile>classComponentPeer.html</anchorfile>
-      <anchor>afc8cc843ea17e10c7472c0f359856faf</anchor>
-      <arglist>() const noexcept</arglist>
+      <anchor>a4b8bf87ff4901951dcb5b3f80b24dae2</anchor>
+      <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
       <type>int</type>
@@ -21128,10 +21856,10 @@
       <arglist>() noexcept</arglist>
     </member>
     <member kind="variable" protection="protected">
-      <type>Component *const</type>
+      <type>Component &amp;</type>
       <name>component</name>
       <anchorfile>classComponentPeer.html</anchorfile>
-      <anchor>a964794337b7b639b52be0827f74394c9</anchor>
+      <anchor>a597272f3a78e8f1d02471692c2e2932a</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
@@ -21720,6 +22448,20 @@
       <arglist></arglist>
     </member>
     <member kind="function">
+      <type>int</type>
+      <name>getMouseButtonClickCounter</name>
+      <anchorfile>classDesktop.html</anchorfile>
+      <anchor>aedc0ee3a5d19297c0163bc5a160b2ee4</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getMouseWheelMoveCounter</name>
+      <anchorfile>classDesktop.html</anchorfile>
+      <anchor>aca2d34fe675f71a0ba3a7335fd169e0e</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>addGlobalMouseListener</name>
       <anchorfile>classDesktop.html</anchorfile>
@@ -21899,13 +22641,6 @@
       <name>getLastMouseDownPosition</name>
       <anchorfile>classDesktop.html</anchorfile>
       <anchor>a876e731f99d9a6646c7fc5722e421baf</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static int</type>
-      <name>getMouseButtonClickCounter</name>
-      <anchorfile>classDesktop.html</anchorfile>
-      <anchor>a4d94b8b70d2342a4eb966d6ef0ed069d</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function" static="yes">
@@ -22166,7 +22901,7 @@
     <name>DirectoryContentsList</name>
     <filename>classDirectoryContentsList.html</filename>
     <base>ChangeBroadcaster</base>
-    <base>TimeSliceClient</base>
+    <base protection="private">TimeSliceClient</base>
     <class kind="struct">DirectoryContentsList::FileInfo</class>
     <member kind="function">
       <type></type>
@@ -22265,13 +23000,6 @@
       <anchorfile>classDirectoryContentsList.html</anchorfile>
       <anchor>adfaf512db80b808d00a6c14b70e1fe51</anchor>
       <arglist>(const File &amp;) const </arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>useTimeSlice</name>
-      <anchorfile>classDirectoryContentsList.html</anchorfile>
-      <anchor>ad0b5149f13969cb3f5eef3a704a67645</anchor>
-      <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>TimeSliceThread &amp;</type>
@@ -25126,6 +25854,59 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="struct">
+    <name>DropShadow</name>
+    <filename>structDropShadow.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>DropShadow</name>
+      <anchorfile>structDropShadow.html</anchorfile>
+      <anchor>a4ed8af89cfe25cfbd823ce0a70413aa3</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DropShadow</name>
+      <anchorfile>structDropShadow.html</anchorfile>
+      <anchor>a203dccd8df512cf9022de648b2251946</anchor>
+      <arglist>(const Colour &amp;shadowColour, int radius, const Point&lt; int &gt; &amp;offset) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>drawForImage</name>
+      <anchorfile>structDropShadow.html</anchorfile>
+      <anchor>aa0d35d4315229ffb6e6a14145efd2c03</anchor>
+      <arglist>(Graphics &amp;g, const Image &amp;srcImage) const </arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>drawForPath</name>
+      <anchorfile>structDropShadow.html</anchorfile>
+      <anchor>afa7eedb505b8e6e66bfa257875ac972a</anchor>
+      <arglist>(Graphics &amp;g, const Path &amp;path) const </arglist>
+    </member>
+    <member kind="variable">
+      <type>Colour</type>
+      <name>colour</name>
+      <anchorfile>structDropShadow.html</anchorfile>
+      <anchor>ad8031be7a935da40c11f2ede9b9f2a44</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>radius</name>
+      <anchorfile>structDropShadow.html</anchorfile>
+      <anchor>a96cbbc37579f9a2627f342a7dc6be568</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Point&lt; int &gt;</type>
+      <name>offset</name>
+      <anchorfile>structDropShadow.html</anchorfile>
+      <anchor>af2c204224ab00ac6614f1b67701ca68a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="class">
     <name>DropShadowEffect</name>
     <filename>classDropShadowEffect.html</filename>
@@ -25148,8 +25929,8 @@
       <type>void</type>
       <name>setShadowProperties</name>
       <anchorfile>classDropShadowEffect.html</anchorfile>
-      <anchor>adcfe0d311851f728cc68ef521d8e4f4a</anchor>
-      <arglist>(float newRadius, float newOpacity, int newShadowOffsetX, int newShadowOffsetY)</arglist>
+      <anchor>acf199925c902f335d7751eb568715b84</anchor>
+      <arglist>(const DropShadow &amp;newShadow)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -25158,30 +25939,23 @@
       <anchor>aeee3f19864372e9c6ef4623df4e5a686</anchor>
       <arglist>(Image &amp;sourceImage, Graphics &amp;destContext, float scaleFactor, float alpha)</arglist>
     </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>drawShadow</name>
-      <anchorfile>classDropShadowEffect.html</anchorfile>
-      <anchor>a68590ffb0c86dbee0530e843ea147aa4</anchor>
-      <arglist>(Graphics &amp;g, const Image &amp;srcImage, float radius, float alpha, int offsetX, int offsetY)</arglist>
-    </member>
   </compound>
   <compound kind="class">
     <name>DropShadower</name>
     <filename>classDropShadower.html</filename>
-    <base>ComponentListener</base>
+    <base protection="private">ComponentListener</base>
     <member kind="function">
       <type></type>
       <name>DropShadower</name>
       <anchorfile>classDropShadower.html</anchorfile>
-      <anchor>ade4cff3b353cd000e0ce6b7faff94edd</anchor>
-      <arglist>(float alpha=0.5f, int xOffset=1, int yOffset=5, float blurRadius=10.0f)</arglist>
+      <anchor>a14c45e01c95902e0a8f5a975c1519d69</anchor>
+      <arglist>(const DropShadow &amp;shadowType)</arglist>
     </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual</type>
+    <member kind="function">
+      <type></type>
       <name>~DropShadower</name>
       <anchorfile>classDropShadower.html</anchorfile>
-      <anchor>a2b5a83d99a56e76c6294c075ce0f5c66</anchor>
+      <anchor>ab4880dc6ddeae4e94bdb9e36e4f59ae0</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -25190,34 +25964,6 @@
       <anchorfile>classDropShadower.html</anchorfile>
       <anchor>aa66afaff8ac325df14206e274589769f</anchor>
       <arglist>(Component *componentToFollow)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>componentMovedOrResized</name>
-      <anchorfile>classDropShadower.html</anchorfile>
-      <anchor>a71feda9735f257a78408132cee6c7797</anchor>
-      <arglist>(Component &amp;component, bool wasMoved, bool wasResized)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>componentBroughtToFront</name>
-      <anchorfile>classDropShadower.html</anchorfile>
-      <anchor>a5ba61ab0dfb8faf0257342dcd89c81f7</anchor>
-      <arglist>(Component &amp;component)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>componentParentHierarchyChanged</name>
-      <anchorfile>classDropShadower.html</anchorfile>
-      <anchor>a93f46d56e551e10250efaf86d755fc5c</anchor>
-      <arglist>(Component &amp;component)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>componentVisibilityChanged</name>
-      <anchorfile>classDropShadower.html</anchorfile>
-      <anchor>abc142844a970d0c1f4867796103c14e9</anchor>
-      <arglist>(Component &amp;component)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -27189,7 +27935,7 @@
     <name>FileChooserDialogBox</name>
     <filename>classFileChooserDialogBox.html</filename>
     <base>ResizableWindow</base>
-    <base>FileBrowserListener</base>
+    <base protection="private">FileBrowserListener</base>
     <member kind="enumeration">
       <name>ColourIds</name>
       <anchorfile>classFileChooserDialogBox.html</anchorfile>
@@ -27220,50 +27966,8 @@
       <type>void</type>
       <name>centreWithDefaultSize</name>
       <anchorfile>classFileChooserDialogBox.html</anchorfile>
-      <anchor>ae0c981acf5b79619d1d80a1fc07b6cce</anchor>
-      <arglist>(Component *componentToCentreAround=0)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>buttonClicked</name>
-      <anchorfile>classFileChooserDialogBox.html</anchorfile>
-      <anchor>a199e1af34103940149d9634918a634f5</anchor>
-      <arglist>(Button *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>closeButtonPressed</name>
-      <anchorfile>classFileChooserDialogBox.html</anchorfile>
-      <anchor>a9e15f6562f7b236c017f59772a398694</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>selectionChanged</name>
-      <anchorfile>classFileChooserDialogBox.html</anchorfile>
-      <anchor>a8e15c4cefdb60b4a4a2938e978ae9fed</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>fileClicked</name>
-      <anchorfile>classFileChooserDialogBox.html</anchorfile>
-      <anchor>ae0842516d561b9cf13cbf8874fa7bd74</anchor>
-      <arglist>(const File &amp;, const MouseEvent &amp;)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>fileDoubleClicked</name>
-      <anchorfile>classFileChooserDialogBox.html</anchorfile>
-      <anchor>a045f910c4a1c54dd7bfa2d2188498320</anchor>
-      <arglist>(const File &amp;)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>browserRootChanged</name>
-      <anchorfile>classFileChooserDialogBox.html</anchorfile>
-      <anchor>af3675eea60c76b1109828f8dc482ffec</anchor>
-      <arglist>(const File &amp;)</arglist>
+      <anchor>adc36f20b224f7fd0d399a83394a83d0f</anchor>
+      <arglist>(Component *componentToCentreAround=nullptr)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -27535,55 +28239,6 @@
       <anchorfile>classFileListComponent.html</anchorfile>
       <anchor>a075e3754b55e1db6fea4f9599635263a</anchor>
       <arglist>(const File &amp;)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>changeListenerCallback</name>
-      <anchorfile>classFileListComponent.html</anchorfile>
-      <anchor>a8c1f1804bef2a8fdb6d82a5bd0e8d25b</anchor>
-      <arglist>(ChangeBroadcaster *)</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>getNumRows</name>
-      <anchorfile>classFileListComponent.html</anchorfile>
-      <anchor>a727944ea3e06b211c0115eb792e9cfe4</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>paintListBoxItem</name>
-      <anchorfile>classFileListComponent.html</anchorfile>
-      <anchor>ac009e675d2b4446550b18345b0e64b1e</anchor>
-      <arglist>(int, Graphics &amp;, int, int, bool)</arglist>
-    </member>
-    <member kind="function">
-      <type>Component *</type>
-      <name>refreshComponentForRow</name>
-      <anchorfile>classFileListComponent.html</anchorfile>
-      <anchor>ac3e5d364c6f601baba103c41aaafa691</anchor>
-      <arglist>(int rowNumber, bool isRowSelected, Component *existingComponentToUpdate)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>selectedRowsChanged</name>
-      <anchorfile>classFileListComponent.html</anchorfile>
-      <anchor>a5e9d674b21ee66c45daf19fc9193505c</anchor>
-      <arglist>(int lastRowSelected)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>deleteKeyPressed</name>
-      <anchorfile>classFileListComponent.html</anchorfile>
-      <anchor>a3ca7e3d202f0a695eab38628b4c3a68e</anchor>
-      <arglist>(int currentSelectedRow)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>returnKeyPressed</name>
-      <anchorfile>classFileListComponent.html</anchorfile>
-      <anchor>a446f729961a0f3c4f1adb28e1554ab4e</anchor>
-      <arglist>(int currentSelectedRow)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -28548,13 +29203,6 @@
       <type></type>
       <name>Font</name>
       <anchorfile>classFont.html</anchorfile>
-      <anchor>aa06c029ddf2e47279c95828581feaa10</anchor>
-      <arglist>(const String &amp;typefaceStyle, float fontHeight)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>Font</name>
-      <anchorfile>classFont.html</anchorfile>
       <anchor>ab41a1accb2fbbd96b2e35d5ef4c548c9</anchor>
       <arglist>(const String &amp;typefaceName, const String &amp;typefaceStyle, float fontHeight)</arglist>
     </member>
@@ -29170,8 +29818,8 @@
       <type>PositionedGlyph &amp;</type>
       <name>getGlyph</name>
       <anchorfile>classGlyphArrangement.html</anchorfile>
-      <anchor>ae5d54fc2b1b0da9c7e973594a85442d7</anchor>
-      <arglist>(int index) const </arglist>
+      <anchor>a1de5322443e538fdd34c46b3fa570df6</anchor>
+      <arglist>(int index) const noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -29414,10 +30062,24 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>drawText</name>
+      <anchorfile>classGraphics.html</anchorfile>
+      <anchor>a84311fce34d51ada6738d3118f38a0b1</anchor>
+      <arglist>(const String &amp;text, const Rectangle&lt; int &gt; &amp;area, const Justification &amp;justificationType, bool useEllipsesIfTooBig) const </arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>drawFittedText</name>
       <anchorfile>classGraphics.html</anchorfile>
       <anchor>ad2c56e11c42bc7404233b9a23e939ede</anchor>
       <arglist>(const String &amp;text, int x, int y, int width, int height, const Justification &amp;justificationFlags, int maximumNumberOfLines, float minimumHorizontalScale=0.7f) const </arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>drawFittedText</name>
+      <anchorfile>classGraphics.html</anchorfile>
+      <anchor>a278d7ad0e7697198003e2393d2331eb6</anchor>
+      <arglist>(const String &amp;text, const Rectangle&lt; int &gt; &amp;area, const Justification &amp;justificationFlags, int maximumNumberOfLines, float minimumHorizontalScale=0.7f) const </arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -29512,13 +30174,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>drawBevel</name>
-      <anchorfile>classGraphics.html</anchorfile>
-      <anchor>a9785e9e0d63e8576db415decc7f5b2cd</anchor>
-      <arglist>(int x, int y, int width, int height, int bevelThickness, const Colour &amp;topLeftColour=Colours::white, const Colour &amp;bottomRightColour=Colours::black, bool useGradient=true, bool sharpEdgeOnOutside=true) const </arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>setPixel</name>
       <anchorfile>classGraphics.html</anchorfile>
       <anchor>a69e70db1afc03d58f9055f8f45d8e5d1</anchor>
@@ -29530,6 +30185,13 @@
       <anchorfile>classGraphics.html</anchorfile>
       <anchor>ab6fdfd1cb32b32d52b6b30df36321f70</anchor>
       <arglist>(float x, float y, float width, float height) const </arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>fillEllipse</name>
+      <anchorfile>classGraphics.html</anchorfile>
+      <anchor>a4f58ce68f75ec835a4863e756ec11bed</anchor>
+      <arglist>(const Rectangle&lt; float &gt; &amp;area) const </arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -29766,14 +30428,14 @@
       <type></type>
       <name>Graphics</name>
       <anchorfile>classGraphics.html</anchorfile>
-      <anchor>ac2f451095caee3a7262f135dfd9ed93d</anchor>
-      <arglist>(LowLevelGraphicsContext *internalContext) noexcept</arglist>
+      <anchor>a1987cd53996367fd894885033ec39612</anchor>
+      <arglist>(LowLevelGraphicsContext *) noexcept</arglist>
     </member>
     <member kind="function">
-      <type>LowLevelGraphicsContext *</type>
+      <type>LowLevelGraphicsContext &amp;</type>
       <name>getInternalContext</name>
       <anchorfile>classGraphics.html</anchorfile>
-      <anchor>a56d2788fe6978ee9da3b58864767e74a</anchor>
+      <anchor>a504995c303f45cce740dda9fa67f1a64</anchor>
       <arglist>() const noexcept</arglist>
     </member>
   </compound>
@@ -31652,6 +32314,13 @@
     <name>ImagePixelData</name>
     <filename>classImagePixelData.html</filename>
     <base>ReferenceCountedObject</base>
+    <member kind="typedef">
+      <type>ReferenceCountedObjectPtr&lt; ImagePixelData &gt;</type>
+      <name>Ptr</name>
+      <anchorfile>classImagePixelData.html</anchorfile>
+      <anchor>a527acdc2f531f479fc535f1137f06ad0</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type></type>
       <name>ImagePixelData</name>
@@ -31782,10 +32451,10 @@
       <arglist>()</arglist>
     </member>
     <member kind="function" virtualness="pure">
-      <type>virtual ImagePixelData *</type>
+      <type>virtual ImagePixelData::Ptr</type>
       <name>create</name>
       <anchorfile>classImageType.html</anchorfile>
-      <anchor>a277b62d0a8e48920678cd40983d65854</anchor>
+      <anchor>a157f39c75b1f5ad1cf660a2d3ed7d91e</anchor>
       <arglist>(Image::PixelFormat format, int width, int height, bool shouldClearImage) const =0</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -32031,7 +32700,7 @@
   <compound kind="class">
     <name>InterprocessConnection</name>
     <filename>classInterprocessConnection.html</filename>
-    <base>Thread</base>
+    <base protection="private">Thread</base>
     <member kind="function">
       <type></type>
       <name>InterprocessConnection</name>
@@ -32057,15 +32726,15 @@
       <type>bool</type>
       <name>connectToPipe</name>
       <anchorfile>classInterprocessConnection.html</anchorfile>
-      <anchor>af55a39c96e49248340800c122c622653</anchor>
-      <arglist>(const String &amp;pipeName, int pipeReceiveMessageTimeoutMs=-1)</arglist>
+      <anchor>abafb2228ed136a2b34e2de03709eb9a7</anchor>
+      <arglist>(const String &amp;pipeName, int pipeReceiveMessageTimeoutMs)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>createPipe</name>
       <anchorfile>classInterprocessConnection.html</anchorfile>
-      <anchor>a7ddea65e7dbb25d1d471db7355743276</anchor>
-      <arglist>(const String &amp;pipeName, int pipeReceiveMessageTimeoutMs=-1)</arglist>
+      <anchor>af8829bccc00c891ba85cd1bc587d6aa5</anchor>
+      <arglist>(const String &amp;pipeName, int pipeReceiveMessageTimeoutMs)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -32597,97 +33266,97 @@
     <member kind="enumvalue">
       <name>left</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a4b9db354585c335c96baecf1a14c2db5a56156bb2892e32febf8011af9c5da653</anchor>
+      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda56156bb2892e32febf8011af9c5da653</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>right</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a4b9db354585c335c96baecf1a14c2db5a92d0fe0a466b35d67e1b7b91f971d7bb</anchor>
+      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda92d0fe0a466b35d67e1b7b91f971d7bb</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>horizontallyCentred</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a4b9db354585c335c96baecf1a14c2db5ac9fd148cf8547fab0e3aeee306223ab2</anchor>
+      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bdac9fd148cf8547fab0e3aeee306223ab2</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>top</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a4b9db354585c335c96baecf1a14c2db5aba34337f0f6a8cfcaf472a72f6d46649</anchor>
+      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bdaba34337f0f6a8cfcaf472a72f6d46649</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>bottom</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a4b9db354585c335c96baecf1a14c2db5ac77cede28d3cecdc46227f503446207b</anchor>
+      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bdac77cede28d3cecdc46227f503446207b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>verticallyCentred</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a4b9db354585c335c96baecf1a14c2db5a8a4ec09c32a9a1111e72ec7a9b6f9411</anchor>
+      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda8a4ec09c32a9a1111e72ec7a9b6f9411</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>horizontallyJustified</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a4b9db354585c335c96baecf1a14c2db5a0881c08fa2d58e9d6f36ab8bbea4b800</anchor>
+      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda0881c08fa2d58e9d6f36ab8bbea4b800</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>centred</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a4b9db354585c335c96baecf1a14c2db5af9d9adde20dce1aa38ff9a69be2b4384</anchor>
+      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bdaf9d9adde20dce1aa38ff9a69be2b4384</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>centredLeft</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a4b9db354585c335c96baecf1a14c2db5a66eba21caedb3d6bfbeff74c610628b4</anchor>
+      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda66eba21caedb3d6bfbeff74c610628b4</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>centredRight</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a4b9db354585c335c96baecf1a14c2db5aea1dc507ac46f0c7417666ba14d9ad5e</anchor>
+      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bdaea1dc507ac46f0c7417666ba14d9ad5e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>centredTop</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a4b9db354585c335c96baecf1a14c2db5a3a44a2451bf933ef23b99d19c53db3a5</anchor>
+      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda3a44a2451bf933ef23b99d19c53db3a5</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>centredBottom</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a4b9db354585c335c96baecf1a14c2db5a392a10b2805345384ac0589b1261cea9</anchor>
+      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda392a10b2805345384ac0589b1261cea9</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>topLeft</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a4b9db354585c335c96baecf1a14c2db5af2d7cc575db9d4d9a1305407625b7afd</anchor>
+      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bdaf2d7cc575db9d4d9a1305407625b7afd</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>topRight</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a4b9db354585c335c96baecf1a14c2db5a36ad3c72f605613650333cc78d1e0b44</anchor>
+      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda36ad3c72f605613650333cc78d1e0b44</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>bottomLeft</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a4b9db354585c335c96baecf1a14c2db5a3597930eb27b2d7aed0a929816a10ec0</anchor>
+      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda3597930eb27b2d7aed0a929816a10ec0</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>bottomRight</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a4b9db354585c335c96baecf1a14c2db5a397027445c8ee878b4f4871f10ba58d9</anchor>
+      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda397027445c8ee878b4f4871f10ba58d9</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -32969,6 +33638,20 @@
       <anchorfile>classKeyPress.html</anchorfile>
       <anchor>afb86f08e6db034fbd3f143ffa31e4777</anchor>
       <arglist>(const KeyPress &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>classKeyPress.html</anchorfile>
+      <anchor>a9957d43aaa85003e6e0da06cdf874582</anchor>
+      <arglist>(int keyCode) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>classKeyPress.html</anchorfile>
+      <anchor>aff3aa01ed93293ecbc3b13ca910532fe</anchor>
+      <arglist>(int keyCode) const noexcept</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -33417,7 +34100,7 @@
     <filename>classKeyPressMappingSet.html</filename>
     <base>KeyListener</base>
     <base>ChangeBroadcaster</base>
-    <base>FocusChangeListener</base>
+    <base protection="private">FocusChangeListener</base>
     <member kind="function">
       <type></type>
       <name>KeyPressMappingSet</name>
@@ -33673,8 +34356,8 @@
       <type>void</type>
       <name>scanAndAddDragAndDroppedFiles</name>
       <anchorfile>classKnownPluginList.html</anchorfile>
-      <anchor>a213f3e5fde4c3c0d31244c6b3e6ad172</anchor>
-      <arglist>(const StringArray &amp;filenames, OwnedArray&lt; PluginDescription &gt; &amp;typesFound)</arglist>
+      <anchor>ac7eeaf55798843613c61e44204ac4b83</anchor>
+      <arglist>(AudioPluginFormatManager &amp;formatManager, const StringArray &amp;filenames, OwnedArray&lt; PluginDescription &gt; &amp;typesFound)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -34188,8 +34871,8 @@
       <type></type>
       <name>LassoComponent</name>
       <anchorfile>classLassoComponent.html</anchorfile>
-      <anchor>a16d6156cf00545c4645f09a13757ef0c</anchor>
-      <arglist>(const int outlineThickness_=1)</arglist>
+      <anchor>aafd85f80827d8ca420fe6cfbb2c4ad68</anchor>
+      <arglist>()</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -35763,6 +36446,13 @@
       <arglist>(Graphics &amp;g, const Colour &amp;colour, int x, int y, int w, int h)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
+      <type>virtual bool</type>
+      <name>areScrollbarButtonsVisible</name>
+      <anchorfile>classLookAndFeel.html</anchorfile>
+      <anchor>a72ff5997ee0485717a14a1def423e65b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
       <type>virtual void</type>
       <name>drawScrollbarButton</name>
       <anchorfile>classLookAndFeel.html</anchorfile>
@@ -35894,6 +36584,13 @@
       <anchorfile>classLookAndFeel.html</anchorfile>
       <anchor>a290c9c86050db87f5ea6779030826ded</anchor>
       <arglist>(Graphics &amp;g, float tipX, float tipY, float boxX, float boxY, float boxW, float boxH)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>drawLasso</name>
+      <anchorfile>classLookAndFeel.html</anchorfile>
+      <anchor>a920372a6d198f6f1710ddef4ab739892</anchor>
+      <arglist>(Graphics &amp;g, Component &amp;lassoComp)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual void</type>
@@ -36162,25 +36859,11 @@
       <arglist>(Graphics &amp;g, int w, int h, const String &amp;text, const Justification &amp;position, GroupComponent &amp;group)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>createTabButtonShape</name>
+      <type>virtual int</type>
+      <name>getTabButtonSpaceAroundImage</name>
       <anchorfile>classLookAndFeel.html</anchorfile>
-      <anchor>a2658988ac7e09488762d3a76a0d5ff3e</anchor>
-      <arglist>(Path &amp;p, int width, int height, int tabIndex, const String &amp;text, Button &amp;button, TabbedButtonBar::Orientation orientation, bool isMouseOver, bool isMouseDown, bool isFrontTab)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>fillTabButtonShape</name>
-      <anchorfile>classLookAndFeel.html</anchorfile>
-      <anchor>a1f3c2d68322f937465327408f1f06d0a</anchor>
-      <arglist>(Graphics &amp;g, const Path &amp;path, const Colour &amp;preferredBackgroundColour, int tabIndex, const String &amp;text, Button &amp;button, TabbedButtonBar::Orientation orientation, bool isMouseOver, bool isMouseDown, bool isFrontTab)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>drawTabButtonText</name>
-      <anchorfile>classLookAndFeel.html</anchorfile>
-      <anchor>aa21ca6362973ac302435e335b7c14548</anchor>
-      <arglist>(Graphics &amp;g, int x, int y, int w, int h, const Colour &amp;preferredBackgroundColour, int tabIndex, const String &amp;text, Button &amp;button, TabbedButtonBar::Orientation orientation, bool isMouseOver, bool isMouseDown, bool isFrontTab)</arglist>
+      <anchor>a3a25d9b9d0aa131940ac3c48ac46811e</anchor>
+      <arglist>()</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual int</type>
@@ -36191,31 +36874,52 @@
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual int</type>
-      <name>getTabButtonSpaceAroundImage</name>
-      <anchorfile>classLookAndFeel.html</anchorfile>
-      <anchor>a3a25d9b9d0aa131940ac3c48ac46811e</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual int</type>
       <name>getTabButtonBestWidth</name>
       <anchorfile>classLookAndFeel.html</anchorfile>
-      <anchor>a7f01a8d7922574e167cee0c0ec46f476</anchor>
-      <arglist>(int tabIndex, const String &amp;text, int tabDepth, Button &amp;button)</arglist>
+      <anchor>aeaf1606cd94cdb99ddaa681f31b3f5c6</anchor>
+      <arglist>(TabBarButton &amp;, int tabDepth)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual Rectangle&lt; int &gt;</type>
+      <name>getTabButtonExtraComponentBounds</name>
+      <anchorfile>classLookAndFeel.html</anchorfile>
+      <anchor>a002930258d993a4e34e9e340b157ce3f</anchor>
+      <arglist>(const TabBarButton &amp;, Rectangle&lt; int &gt; &amp;textArea, Component &amp;extraComp)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual void</type>
       <name>drawTabButton</name>
       <anchorfile>classLookAndFeel.html</anchorfile>
-      <anchor>ae21968f086967bf3571248c08bdabf3a</anchor>
-      <arglist>(Graphics &amp;g, int w, int h, const Colour &amp;preferredColour, int tabIndex, const String &amp;text, Button &amp;button, TabbedButtonBar::Orientation orientation, bool isMouseOver, bool isMouseDown, bool isFrontTab)</arglist>
+      <anchor>a212012b2c9653354e8ad3b62c649f9d3</anchor>
+      <arglist>(TabBarButton &amp;, Graphics &amp;g, bool isMouseOver, bool isMouseDown)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>drawTabButtonText</name>
+      <anchorfile>classLookAndFeel.html</anchorfile>
+      <anchor>a522651374ac3ca5efc481da9ca41ccbf</anchor>
+      <arglist>(TabBarButton &amp;, Graphics &amp;g, bool isMouseOver, bool isMouseDown)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual void</type>
       <name>drawTabAreaBehindFrontButton</name>
       <anchorfile>classLookAndFeel.html</anchorfile>
-      <anchor>a5b56a42509e1650b52bd9ae6af78e7da</anchor>
-      <arglist>(Graphics &amp;g, int w, int h, TabbedButtonBar &amp;tabBar, TabbedButtonBar::Orientation orientation)</arglist>
+      <anchor>a19062b841dc84ec7cd8d7946b0535868</anchor>
+      <arglist>(TabbedButtonBar &amp;, Graphics &amp;g, int w, int h)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>createTabButtonShape</name>
+      <anchorfile>classLookAndFeel.html</anchorfile>
+      <anchor>ae9735921d520b85e84be3e64e5d770db</anchor>
+      <arglist>(TabBarButton &amp;, Path &amp;path, bool isMouseOver, bool isMouseDown)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>fillTabButtonShape</name>
+      <anchorfile>classLookAndFeel.html</anchorfile>
+      <anchor>a58f507d0cae1da1b1f83c57775ec9db9</anchor>
+      <arglist>(TabBarButton &amp;, Graphics &amp;g, const Path &amp;path, bool isMouseOver, bool isMouseDown)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual Button *</type>
@@ -36342,6 +37046,13 @@
       <anchorfile>classLookAndFeel.html</anchorfile>
       <anchor>a0d2cc7f39cb3804d68a6fd2a723d05a4</anchor>
       <arglist>(LookAndFeel *newDefaultLookAndFeel) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>drawBevel</name>
+      <anchorfile>classLookAndFeel.html</anchorfile>
+      <anchor>addc0f5a5cd49d029aefd940c9add6f64</anchor>
+      <arglist>(Graphics &amp;g, int x, int y, int width, int height, int bevelThickness, const Colour &amp;topLeftColour=Colours::white, const Colour &amp;bottomRightColour=Colours::black, bool useGradient=true, bool sharpEdgeOnOutside=true)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
@@ -40977,8 +41688,8 @@
   <compound kind="class">
     <name>ModalComponentManager</name>
     <filename>classModalComponentManager.html</filename>
-    <base>AsyncUpdater</base>
-    <base>DeletedAtShutdown</base>
+    <base protection="private">AsyncUpdater</base>
+    <base protection="private">DeletedAtShutdown</base>
     <class kind="class">ModalComponentManager::Callback</class>
     <member kind="function">
       <type>int</type>
@@ -42367,15 +43078,15 @@
       <type>int</type>
       <name>read</name>
       <anchorfile>classNamedPipe.html</anchorfile>
-      <anchor>a8b81c89f81044602748c81fc073c9ac3</anchor>
-      <arglist>(void *destBuffer, int maxBytesToRead, int timeOutMilliseconds=5000)</arglist>
+      <anchor>a5223fb46357279d84e2f97d43291b3a8</anchor>
+      <arglist>(void *destBuffer, int maxBytesToRead, int timeOutMilliseconds)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>write</name>
       <anchorfile>classNamedPipe.html</anchorfile>
-      <anchor>a5f46a13f1bf91790ff4d063220e312b5</anchor>
-      <arglist>(const void *sourceBuffer, int numBytesToWrite, int timeOutMilliseconds=2000)</arglist>
+      <anchor>aa091d109e18d5b9ae5fb0f4a03cdf743</anchor>
+      <arglist>(const void *sourceBuffer, int numBytesToWrite, int timeOutMilliseconds)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -42534,10 +43245,10 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>ImagePixelData *</type>
+      <type>ImagePixelData::Ptr</type>
       <name>create</name>
       <anchorfile>classNativeImageType.html</anchorfile>
-      <anchor>aebeee9c8acd83a5cca8f06cb45d7d715</anchor>
+      <anchor>a5bbfb7f5588ebf04d481cd7dfee54a70</anchor>
       <arglist>(Image::PixelFormat, int width, int height, bool clearImage) const </arglist>
     </member>
     <member kind="function">
@@ -43288,10 +43999,10 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>ImagePixelData *</type>
+      <type>ImagePixelData::Ptr</type>
       <name>create</name>
       <anchorfile>classOpenGLImageType.html</anchorfile>
-      <anchor>a30b4d8d38bec8cbbf3e12a86c4aab381</anchor>
+      <anchor>a0a9ac2b1c2b57e4c43ed20dd6be218e7</anchor>
       <arglist>(Image::PixelFormat, int width, int height, bool shouldClearImage) const </arglist>
     </member>
     <member kind="function">
@@ -43588,6 +44299,27 @@
       <anchorfile>structOpenGLShaderProgram_1_1Uniform.html</anchorfile>
       <anchor>a67b7aef1b7fb35f9e41e7ce5d3659321</anchor>
       <arglist>(const GLfloat *values, int numValues) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setMatrix2</name>
+      <anchorfile>structOpenGLShaderProgram_1_1Uniform.html</anchorfile>
+      <anchor>a6ee26d6692dc8a72244afdc6ca44512d</anchor>
+      <arglist>(const GLfloat *values, GLint count, GLboolean transpose) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setMatrix3</name>
+      <anchorfile>structOpenGLShaderProgram_1_1Uniform.html</anchorfile>
+      <anchor>ac5fd866b096eb5d7be7fe3be30ec7e74</anchor>
+      <arglist>(const GLfloat *values, GLint count, GLboolean transpose) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setMatrix4</name>
+      <anchorfile>structOpenGLShaderProgram_1_1Uniform.html</anchorfile>
+      <anchor>af82a0fb6af884ad2bb5fe3459a7ef409</anchor>
+      <arglist>(const GLfloat *values, GLint count, GLboolean transpose) const noexcept</arglist>
     </member>
     <member kind="variable">
       <type>GLint</type>
@@ -44143,6 +44875,13 @@
       <anchorfile>classOwnedArray.html</anchorfile>
       <anchor>aae6986493146739cdb0cd464b9c802e4</anchor>
       <arglist>(int indexToInsertAt, const ObjectClass *const newObject) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>insertArray</name>
+      <anchorfile>classOwnedArray.html</anchorfile>
+      <anchor>ac56956aeefcbbaeea2f4d143eb78f633</anchor>
+      <arglist>(int indexToInsertAt, ObjectClass *const *newObjects, int numberOfElements)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -45075,7 +45814,7 @@
     <member kind="enumvalue">
       <name>indexA</name>
       <anchorfile>classPixelAlpha.html</anchorfile>
-      <anchor>a890de282dcb881090e46c379e15e63b2a31d54b036f46396c28eb848b84ee6ba7</anchor>
+      <anchor>ab43d6dd273798cfd816d5d68f5d3ba36a31d54b036f46396c28eb848b84ee6ba7</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -45133,6 +45872,13 @@
       <anchorfile>classPixelAlpha.html</anchorfile>
       <anchor>af52357a6af759e4c14f2241ee65658db</anchor>
       <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>forcedinline uint8 &amp;</type>
+      <name>getAlpha</name>
+      <anchorfile>classPixelAlpha.html</anchorfile>
+      <anchor>a1af0c7d95b50f35083a750bba0d63e59</anchor>
+      <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
       <type>forcedinline uint8</type>
@@ -45239,25 +45985,25 @@
     <member kind="enumvalue">
       <name>indexA</name>
       <anchorfile>classPixelARGB.html</anchorfile>
-      <anchor>aacb94d9d49db4feae316eb2c1d3900c1ae2c758a6eebfdf52dde60687f68a68ab</anchor>
+      <anchor>a633593b275dd46e6e20ac8af693aa47aae2c758a6eebfdf52dde60687f68a68ab</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>indexR</name>
       <anchorfile>classPixelARGB.html</anchorfile>
-      <anchor>aacb94d9d49db4feae316eb2c1d3900c1a5d38bdd8f5ffaa9917b6fff622ddb23f</anchor>
+      <anchor>a633593b275dd46e6e20ac8af693aa47aa5d38bdd8f5ffaa9917b6fff622ddb23f</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>indexG</name>
       <anchorfile>classPixelARGB.html</anchorfile>
-      <anchor>aacb94d9d49db4feae316eb2c1d3900c1a9f00e7f7cddc8b6d27053806abb1630a</anchor>
+      <anchor>a633593b275dd46e6e20ac8af693aa47aa9f00e7f7cddc8b6d27053806abb1630a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>indexB</name>
       <anchorfile>classPixelARGB.html</anchorfile>
-      <anchor>aacb94d9d49db4feae316eb2c1d3900c1a7eab5933695a1fcdfee5a25cb5ef60ea</anchor>
+      <anchor>a633593b275dd46e6e20ac8af693aa47aa7eab5933695a1fcdfee5a25cb5ef60ea</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -45343,6 +46089,34 @@
       <anchorfile>classPixelARGB.html</anchorfile>
       <anchor>a7dbf874cf5e5e876c87ed25c65014e59</anchor>
       <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>forcedinline uint8 &amp;</type>
+      <name>getAlpha</name>
+      <anchorfile>classPixelARGB.html</anchorfile>
+      <anchor>a22db13fce3d18107c47ee3187f9b49d3</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>forcedinline uint8 &amp;</type>
+      <name>getRed</name>
+      <anchorfile>classPixelARGB.html</anchorfile>
+      <anchor>a6d47db1b0f0c41954c1be8a249956967</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>forcedinline uint8 &amp;</type>
+      <name>getGreen</name>
+      <anchorfile>classPixelARGB.html</anchorfile>
+      <anchor>a2197789e3dc167f7404a5d7642ee80b4</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>forcedinline uint8 &amp;</type>
+      <name>getBlue</name>
+      <anchorfile>classPixelARGB.html</anchorfile>
+      <anchor>a3687dc1f7b48d10fe0a56699a4039986</anchor>
+      <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
       <type>forcedinline void</type>
@@ -45442,19 +46216,19 @@
     <member kind="enumvalue">
       <name>indexR</name>
       <anchorfile>classPixelRGB.html</anchorfile>
-      <anchor>a9a48e245f98306471df3cf47997c9648a2725faa86a75bea4242137ab8b9fb128</anchor>
+      <anchor>adae98b6ebf3f875e7f370f68c4bed5e2a2725faa86a75bea4242137ab8b9fb128</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>indexG</name>
       <anchorfile>classPixelRGB.html</anchorfile>
-      <anchor>a9a48e245f98306471df3cf47997c9648ae889bdfe358ad3b6395e1bf584e198f8</anchor>
+      <anchor>adae98b6ebf3f875e7f370f68c4bed5e2ae889bdfe358ad3b6395e1bf584e198f8</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>indexB</name>
       <anchorfile>classPixelRGB.html</anchorfile>
-      <anchor>a9a48e245f98306471df3cf47997c9648a59222359427902da4ec4353ee7d7c431</anchor>
+      <anchor>adae98b6ebf3f875e7f370f68c4bed5e2a59222359427902da4ec4353ee7d7c431</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -45533,6 +46307,27 @@
       <anchorfile>classPixelRGB.html</anchorfile>
       <anchor>a415a25dcd36ef2c0d569b39d603487ac</anchor>
       <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>forcedinline uint8 &amp;</type>
+      <name>getRed</name>
+      <anchorfile>classPixelRGB.html</anchorfile>
+      <anchor>af0bbabe8374a710ff177077a7b32c763</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>forcedinline uint8 &amp;</type>
+      <name>getGreen</name>
+      <anchorfile>classPixelRGB.html</anchorfile>
+      <anchor>a2272e79903e1e88b49b08d96e08882df</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>forcedinline uint8 &amp;</type>
+      <name>getBlue</name>
+      <anchorfile>classPixelRGB.html</anchorfile>
+      <anchor>aab22bbea80150e8e2a0104a87b968349</anchor>
+      <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
       <type>forcedinline void</type>
@@ -46119,8 +46914,8 @@
       <type></type>
       <name>PluginListComponent</name>
       <anchorfile>classPluginListComponent.html</anchorfile>
-      <anchor>a7c2a7e42374dad1122f10b846e0c0300</anchor>
-      <arglist>(KnownPluginList &amp;listToRepresent, const File &amp;deadMansPedalFile, PropertiesFile *propertiesToUse)</arglist>
+      <anchor>a6c9e9e84636bbdd7ea02e3fb4fc0198a</anchor>
+      <arglist>(AudioPluginFormatManager &amp;formatManager, KnownPluginList &amp;listToRepresent, const File &amp;deadMansPedalFile, PropertiesFile *propertiesToUse)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -46951,6 +47746,13 @@
       <type></type>
       <name>PositionedGlyph</name>
       <anchorfile>classPositionedGlyph.html</anchorfile>
+      <anchor>a1956f18b8fb408c98ce03f168cf5cf97</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>PositionedGlyph</name>
+      <anchorfile>classPositionedGlyph.html</anchorfile>
       <anchor>a20e870cfa8b3cd35b934a6d56ae118a6</anchor>
       <arglist>(const Font &amp;font, juce_wchar character, int glyphNumber, float anchorX, float baselineY, float width, bool isWhitespace)</arglist>
     </member>
@@ -47276,6 +48078,13 @@
       <anchorfile>classProcess.html</anchorfile>
       <anchor>a82a86c921a568fe5af4968de5c42adb7</anchor>
       <arglist>(void *newHandle) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>setDockIconVisible</name>
+      <anchorfile>classProcess.html</anchorfile>
+      <anchor>abce4be274d956bdb4f7c36398e776bfb</anchor>
+      <arglist>(bool isVisible)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -49465,73 +50274,73 @@
     <member kind="enumvalue">
       <name>xLeft</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>aa57d215a0f6418947d8b45ba039c842cae2539f35e48e3c7396cffeb8079e27dd</anchor>
+      <anchor>afc290f699baa6a217056e4c3e7c6f6a7ae2539f35e48e3c7396cffeb8079e27dd</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>xRight</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>aa57d215a0f6418947d8b45ba039c842ca72a92773894d10ec3b4ff55b56d08915</anchor>
+      <anchor>afc290f699baa6a217056e4c3e7c6f6a7a72a92773894d10ec3b4ff55b56d08915</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>xMid</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>aa57d215a0f6418947d8b45ba039c842cad1348e06780084037a29fc0621d10392</anchor>
+      <anchor>afc290f699baa6a217056e4c3e7c6f6a7ad1348e06780084037a29fc0621d10392</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>yTop</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>aa57d215a0f6418947d8b45ba039c842ca1b650115227b059f9eb2c07ecdfcb3ad</anchor>
+      <anchor>afc290f699baa6a217056e4c3e7c6f6a7a1b650115227b059f9eb2c07ecdfcb3ad</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>yBottom</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>aa57d215a0f6418947d8b45ba039c842ca467435011959541ca61cc362640db547</anchor>
+      <anchor>afc290f699baa6a217056e4c3e7c6f6a7a467435011959541ca61cc362640db547</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>yMid</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>aa57d215a0f6418947d8b45ba039c842ca8bfb9c8cceb359b4f00a9839168a7769</anchor>
+      <anchor>afc290f699baa6a217056e4c3e7c6f6a7a8bfb9c8cceb359b4f00a9839168a7769</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>stretchToFit</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>aa57d215a0f6418947d8b45ba039c842ca592b34ff9ad1d85db16f2e02c6252b8b</anchor>
+      <anchor>afc290f699baa6a217056e4c3e7c6f6a7a592b34ff9ad1d85db16f2e02c6252b8b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>fillDestination</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>aa57d215a0f6418947d8b45ba039c842caace05e9cfe83bb3dbbef781d3622cd62</anchor>
+      <anchor>afc290f699baa6a217056e4c3e7c6f6a7aace05e9cfe83bb3dbbef781d3622cd62</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>onlyReduceInSize</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>aa57d215a0f6418947d8b45ba039c842ca32d2c8f0142b82c188af878548f4d238</anchor>
+      <anchor>afc290f699baa6a217056e4c3e7c6f6a7a32d2c8f0142b82c188af878548f4d238</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>onlyIncreaseInSize</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>aa57d215a0f6418947d8b45ba039c842ca54aea49f09ca4f2ac6e5c81859067b7d</anchor>
+      <anchor>afc290f699baa6a217056e4c3e7c6f6a7a54aea49f09ca4f2ac6e5c81859067b7d</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>doNotResize</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>aa57d215a0f6418947d8b45ba039c842ca1b4035a6dd90fd7ecf4b2014f33bf16f</anchor>
+      <anchor>afc290f699baa6a217056e4c3e7c6f6a7a1b4035a6dd90fd7ecf4b2014f33bf16f</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>centred</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>aa57d215a0f6418947d8b45ba039c842cadf52ee04f4f43cfcc6049d49833dd946</anchor>
+      <anchor>afc290f699baa6a217056e4c3e7c6f6a7adf52ee04f4f43cfcc6049d49833dd946</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -52724,7 +53533,7 @@
     <name>ScrollBar</name>
     <filename>classScrollBar.html</filename>
     <base>Component</base>
-    <base>AsyncUpdater</base>
+    <base protection="private">AsyncUpdater</base>
     <base protection="private">Timer</base>
     <class kind="class">ScrollBar::Listener</class>
     <member kind="enumeration">
@@ -52755,8 +53564,8 @@
       <type></type>
       <name>ScrollBar</name>
       <anchorfile>classScrollBar.html</anchorfile>
-      <anchor>a220c88af4b7d04fa9312db133fd1bf58</anchor>
-      <arglist>(bool isVertical, bool buttonsAreVisible=true)</arglist>
+      <anchor>acf801150166a66875c170bc93d241ea6</anchor>
+      <arglist>(bool isVertical)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -52778,13 +53587,6 @@
       <anchorfile>classScrollBar.html</anchorfile>
       <anchor>a5676d739d423d3daeeffd3d4176ef8ef</anchor>
       <arglist>(bool shouldBeVertical)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>setButtonVisibility</name>
-      <anchorfile>classScrollBar.html</anchorfile>
-      <anchor>a33c1faef1b0994f48c991e8726c2e874</anchor>
-      <arglist>(bool buttonsAreVisible)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -52815,10 +53617,10 @@
       <arglist>(double minimum, double maximum)</arglist>
     </member>
     <member kind="function">
-      <type>const Range&lt; double &gt;</type>
+      <type>Range&lt; double &gt;</type>
       <name>getRangeLimit</name>
       <anchorfile>classScrollBar.html</anchorfile>
-      <anchor>acf638287e3cb82ab910d2a40bb5fddf0</anchor>
+      <anchor>ae0d378e1ee665ce796a10a500d97240e</anchor>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -52836,10 +53638,10 @@
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
+      <type>bool</type>
       <name>setCurrentRange</name>
       <anchorfile>classScrollBar.html</anchorfile>
-      <anchor>ad769708041476ee2b06a2527c9f9129c</anchor>
+      <anchor>aafbb5cf20181f82037ea5f1823c5eddf</anchor>
       <arglist>(const Range&lt; double &gt; &amp;newRange)</arglist>
     </member>
     <member kind="function">
@@ -52857,10 +53659,10 @@
       <arglist>(double newStart)</arglist>
     </member>
     <member kind="function">
-      <type>const Range&lt; double &gt;</type>
+      <type>Range&lt; double &gt;</type>
       <name>getCurrentRange</name>
       <anchorfile>classScrollBar.html</anchorfile>
-      <anchor>aa33d5eab49214156ce9e730f40523fa5</anchor>
+      <anchor>ad146a51e99ac465f05d0196f23573f24</anchor>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -52881,35 +53683,35 @@
       <type>void</type>
       <name>setSingleStepSize</name>
       <anchorfile>classScrollBar.html</anchorfile>
-      <anchor>a7bac17aaa9153040248fa3823b222ce4</anchor>
-      <arglist>(double newSingleStepSize)</arglist>
+      <anchor>a4aa3ea30550b8b8a4bea07f1a2ce1ca7</anchor>
+      <arglist>(double newSingleStepSize) noexcept</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
+      <type>bool</type>
       <name>moveScrollbarInSteps</name>
       <anchorfile>classScrollBar.html</anchorfile>
-      <anchor>af12b60e44891ea8df20e74c20f313ae6</anchor>
+      <anchor>a6bd8acd944e7f2ce7e275f698e12b99e</anchor>
       <arglist>(int howManySteps)</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
+      <type>bool</type>
       <name>moveScrollbarInPages</name>
       <anchorfile>classScrollBar.html</anchorfile>
-      <anchor>a35660932575fc4f3a119ff8f04f0a184</anchor>
+      <anchor>afa69373bae4b9295f47462ad68d10595</anchor>
       <arglist>(int howManyPages)</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
+      <type>bool</type>
       <name>scrollToTop</name>
       <anchorfile>classScrollBar.html</anchorfile>
-      <anchor>a4eab64006ff387591f5b2bcaa36ea606</anchor>
+      <anchor>af7f3b25c7f9a338672b45f32898a9f9e</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
+      <type>bool</type>
       <name>scrollToBottom</name>
       <anchorfile>classScrollBar.html</anchorfile>
-      <anchor>a0b8db83230715f312faa9264ae74a07b</anchor>
+      <anchor>aa9aebaacd2143f89d515dbcd41db9bb3</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -52952,13 +53754,6 @@
       <name>lookAndFeelChanged</name>
       <anchorfile>classScrollBar.html</anchorfile>
       <anchor>ae8384e9d82268d14fb56ba5f74de39e3</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>handleAsyncUpdate</name>
-      <anchorfile>classScrollBar.html</anchorfile>
-      <anchor>a5c5c5cf1f16b0f623e0ca95644556075</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -53328,12 +54123,12 @@
       <anchor>ad0e04a24dd13d84076db8e6579aa4569</anchor>
       <arglist>(const Colour &amp;outlineColour, float outlineStrokeWidth)</arglist>
     </member>
-    <member kind="function" protection="protected">
+    <member kind="function">
       <type>void</type>
       <name>paintButton</name>
       <anchorfile>classShapeButton.html</anchorfile>
-      <anchor>a9796c0407cf4ebfb518132aa50aac694</anchor>
-      <arglist>(Graphics &amp;g, bool isMouseOverButton, bool isButtonDown)</arglist>
+      <anchor>a5d0af67956b91469daca7833c7ad68b1</anchor>
+      <arglist>(Graphics &amp;, bool isMouseOverButton, bool isButtonDown)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -54342,10 +55137,10 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>ImagePixelData *</type>
+      <type>ImagePixelData::Ptr</type>
       <name>create</name>
       <anchorfile>classSoftwareImageType.html</anchorfile>
-      <anchor>a8a3db615052fc56b37ebb1bb1b3261b7</anchor>
+      <anchor>a69b1fdcb332fc8ceb334daf3bb90057a</anchor>
       <arglist>(Image::PixelFormat, int width, int height, bool clearImage) const </arglist>
     </member>
     <member kind="function">
@@ -54753,7 +55548,7 @@
     <name>SplashScreen</name>
     <filename>classSplashScreen.html</filename>
     <base>Component</base>
-    <base>Timer</base>
+    <base protection="private">Timer</base>
     <base protection="private">DeletedAtShutdown</base>
     <member kind="function">
       <type></type>
@@ -54787,15 +55582,8 @@
       <type>void</type>
       <name>paint</name>
       <anchorfile>classSplashScreen.html</anchorfile>
-      <anchor>a34808c6296a967dc30df803befbd95f4</anchor>
-      <arglist>(Graphics &amp;g)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timerCallback</name>
-      <anchorfile>classSplashScreen.html</anchorfile>
-      <anchor>a7e815c2cd0b6db55ca65e275af05a5c8</anchor>
-      <arglist>()</arglist>
+      <anchor>af5096367b0e2411101d110ceb5361b24</anchor>
+      <arglist>(Graphics &amp;)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -57144,6 +57932,13 @@
     </member>
     <member kind="function" static="yes">
       <type>static String</type>
+      <name>getEnvironmentVariable</name>
+      <anchorfile>classSystemStats.html</anchorfile>
+      <anchor>a6b2eecc484dd4955cfac7b81981b16e3</anchor>
+      <arglist>(const String &amp;name, const String &amp;defaultValue)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
       <name>getLogonName</name>
       <anchorfile>classSystemStats.html</anchorfile>
       <anchor>a49ba1a8f55ab9331a036658c363fd28e</anchor>
@@ -57285,6 +58080,24 @@
     <name>TabBarButton</name>
     <filename>classTabBarButton.html</filename>
     <base>Button</base>
+    <member kind="enumeration">
+      <name>ExtraComponentPlacement</name>
+      <anchorfile>classTabBarButton.html</anchorfile>
+      <anchor>a9ff26e542aa2f688e6c5609ab4d3899a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>beforeText</name>
+      <anchorfile>classTabBarButton.html</anchorfile>
+      <anchor>a9ff26e542aa2f688e6c5609ab4d3899aad3a4a0ee41e997a76addab8e681cd940</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>afterText</name>
+      <anchorfile>classTabBarButton.html</anchorfile>
+      <anchor>a9ff26e542aa2f688e6c5609ab4d3899aaee8f78f95528103403371a9964950484</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type></type>
       <name>TabBarButton</name>
@@ -57299,6 +58112,69 @@
       <anchor>af8eaf5f5e850408b584be1631f52865a</anchor>
       <arglist>()</arglist>
     </member>
+    <member kind="function">
+      <type>TabbedButtonBar &amp;</type>
+      <name>getTabbedButtonBar</name>
+      <anchorfile>classTabBarButton.html</anchorfile>
+      <anchor>a1316e4d599b4ab8dea412aefe460835f</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setExtraComponent</name>
+      <anchorfile>classTabBarButton.html</anchorfile>
+      <anchor>a8f306307c81563d3b8f0d0442e1e8972</anchor>
+      <arglist>(Component *extraTabComponent, ExtraComponentPlacement extraComponentPlacement)</arglist>
+    </member>
+    <member kind="function">
+      <type>Component *</type>
+      <name>getExtraComponent</name>
+      <anchorfile>classTabBarButton.html</anchorfile>
+      <anchor>a2d98290ac7cdf97e086953aa492bbf21</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>ExtraComponentPlacement</type>
+      <name>getExtraComponentPlacement</name>
+      <anchorfile>classTabBarButton.html</anchorfile>
+      <anchor>af889e5e2548f8da167c6b2dd751a4867</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Rectangle&lt; int &gt;</type>
+      <name>getActiveArea</name>
+      <anchorfile>classTabBarButton.html</anchorfile>
+      <anchor>a370343b272450e12b61860bbe4f66448</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>Rectangle&lt; int &gt;</type>
+      <name>getTextArea</name>
+      <anchorfile>classTabBarButton.html</anchorfile>
+      <anchor>ab946ec8cf082b32137545cd84d243668</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getIndex</name>
+      <anchorfile>classTabBarButton.html</anchorfile>
+      <anchor>aecb89633a27186956d116a1099a57bb0</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>Colour</type>
+      <name>getTabBackgroundColour</name>
+      <anchorfile>classTabBarButton.html</anchorfile>
+      <anchor>a9612e79ff60d96d118a3b8a309e15b8d</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isFrontTab</name>
+      <anchorfile>classTabBarButton.html</anchorfile>
+      <anchor>a7f0b2de2d048406fe589443414c75c65</anchor>
+      <arglist>() const </arglist>
+    </member>
     <member kind="function" virtualness="virtual">
       <type>virtual int</type>
       <name>getBestTabLength</name>
@@ -57310,15 +58186,15 @@
       <type>void</type>
       <name>paintButton</name>
       <anchorfile>classTabBarButton.html</anchorfile>
-      <anchor>aad8666f920df985c250238a2163a4ed3</anchor>
-      <arglist>(Graphics &amp;g, bool isMouseOverButton, bool isButtonDown)</arglist>
+      <anchor>acf97c09fa38adda6abb12b4b27e2b520</anchor>
+      <arglist>(Graphics &amp;, bool isMouseOverButton, bool isButtonDown)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>clicked</name>
       <anchorfile>classTabBarButton.html</anchorfile>
-      <anchor>ab292704fd4b9ddf07b7d9901a66b0565</anchor>
-      <arglist>(const ModifierKeys &amp;mods)</arglist>
+      <anchor>a88737868edadc1828e0e716e5d70edfb</anchor>
+      <arglist>(const ModifierKeys &amp;)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -57327,19 +58203,19 @@
       <anchor>aa6138221e3b2143d1f8dfb18b2874674</anchor>
       <arglist>(int x, int y)</arglist>
     </member>
-    <member kind="function" protection="protected">
-      <type>Rectangle&lt; int &gt;</type>
-      <name>getActiveArea</name>
+    <member kind="function">
+      <type>void</type>
+      <name>resized</name>
       <anchorfile>classTabBarButton.html</anchorfile>
-      <anchor>a52a9fb6be8189c2a2aa93407376ba5a6</anchor>
+      <anchor>a90917147bab2e7c072b476de89e3413b</anchor>
       <arglist>()</arglist>
     </member>
-    <member kind="function" protection="protected">
-      <type>int</type>
-      <name>getIndex</name>
+    <member kind="function">
+      <type>void</type>
+      <name>childBoundsChanged</name>
       <anchorfile>classTabBarButton.html</anchorfile>
-      <anchor>aecb89633a27186956d116a1099a57bb0</anchor>
-      <arglist>() const </arglist>
+      <anchor>a75d598b72891647e9e2b6d1eca564af9</anchor>
+      <arglist>(Component *)</arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>TabbedButtonBar &amp;</type>
@@ -57356,10 +58232,17 @@
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
-      <type>DropShadowEffect</type>
-      <name>shadow</name>
+      <type>ScopedPointer&lt; Component &gt;</type>
+      <name>extraComponent</name>
       <anchorfile>classTabBarButton.html</anchorfile>
-      <anchor>ac4fdae8ea4ef5a1196befdb6fdcb3963</anchor>
+      <anchor>ac4408d42f00d2f84fc6a43a4a125d929</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>ExtraComponentPlacement</type>
+      <name>extraCompPlacement</name>
+      <anchorfile>classTabBarButton.html</anchorfile>
+      <anchor>a3f80996350cf67bf9fa08e9777ae4fff</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -57457,6 +58340,20 @@
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
+      <type>bool</type>
+      <name>isVertical</name>
+      <anchorfile>classTabbedButtonBar.html</anchorfile>
+      <anchor>a934df0eba879391671c70e884e06414c</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getThickness</name>
+      <anchorfile>classTabbedButtonBar.html</anchorfile>
+      <anchor>a44df869b4403b979c451a0cab3f4f5b8</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>setMinimumTabScaleFactor</name>
       <anchorfile>classTabbedButtonBar.html</anchorfile>
@@ -57474,8 +58371,8 @@
       <type>void</type>
       <name>addTab</name>
       <anchorfile>classTabbedButtonBar.html</anchorfile>
-      <anchor>a22e484173a42134924bfce754d8a5d30</anchor>
-      <arglist>(const String &amp;tabName, const Colour &amp;tabBackgroundColour, int insertIndex=-1)</arglist>
+      <anchor>ad0e4670007dcb45c88b6b8e376885a3c</anchor>
+      <arglist>(const String &amp;tabName, const Colour &amp;tabBackgroundColour, int insertIndex)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -57791,8 +58688,8 @@
       <type>void</type>
       <name>paint</name>
       <anchorfile>classTabbedComponent.html</anchorfile>
-      <anchor>a5827a8cfc3881a7ea1cbd6866c21a684</anchor>
-      <arglist>(Graphics &amp;g)</arglist>
+      <anchor>a8836b69f1a50a1031d84266e552e963e</anchor>
+      <arglist>(Graphics &amp;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -59028,13 +59925,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>setScrollBarButtonVisibility</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a62c667a7b38f6ada99afaa2c689ae68d</anchor>
-      <arglist>(bool buttonsVisible)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>addListener</name>
       <anchorfile>classTextEditor.html</anchorfile>
       <anchor>a393bac9005237b946c8ef81bd783477d</anchor>
@@ -60080,13 +60970,6 @@
       <name>refresh</name>
       <anchorfile>classTextPropertyComponent.html</anchorfile>
       <anchor>acf48da948233b0d10435cc2a4a7c52f1</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>textWasEdited</name>
-      <anchorfile>classTextPropertyComponent.html</anchorfile>
-      <anchor>a8c5ef860b25f29f1f69c4571cd39a4ea</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function" protection="protected">
@@ -61361,13 +62244,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>buttonClicked</name>
-      <anchorfile>classToolbar.html</anchorfile>
-      <anchor>a9129fb36710cae8e817a03e091c2ce6e</anchor>
-      <arglist>(Button *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>mouseDown</name>
       <anchorfile>classToolbar.html</anchorfile>
       <anchor>aa49d618b15fc84a398c6afb776cf500c</anchor>
@@ -61414,6 +62290,13 @@
       <anchorfile>classToolbar.html</anchorfile>
       <anchor>a6be97d7376f983903a859f6585c9e0e0</anchor>
       <arglist>(ToolbarItemFactory &amp;, int itemId)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *const</type>
+      <name>toolbarDragDescriptor</name>
+      <anchorfile>classToolbar.html</anchorfile>
+      <anchor>a087aff29b1bcec3d33863de71aacf0f8</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -63592,7 +64475,7 @@
     <name>Value::ValueSource</name>
     <filename>classValue_1_1ValueSource.html</filename>
     <base>SingleThreadedReferenceCountedObject</base>
-    <base>AsyncUpdater</base>
+    <base protection="private">AsyncUpdater</base>
     <member kind="function">
       <type></type>
       <name>ValueSource</name>
@@ -63809,6 +64692,13 @@
       <arglist>(const Identifier &amp;name, UndoManager *undoManager)</arglist>
     </member>
     <member kind="function">
+      <type>void</type>
+      <name>copyPropertiesFrom</name>
+      <anchorfile>classValueTree.html</anchorfile>
+      <anchor>ad2596a93fa05a1a0c95cd6c275e77982</anchor>
+      <arglist>(const ValueTree &amp;source, UndoManager *undoManager)</arglist>
+    </member>
+    <member kind="function">
       <type>int</type>
       <name>getNumChildren</name>
       <anchorfile>classValueTree.html</anchorfile>
@@ -63917,8 +64807,8 @@
       <type>void</type>
       <name>writeToStream</name>
       <anchorfile>classValueTree.html</anchorfile>
-      <anchor>a4030330dde3b8e95e706336627d278c3</anchor>
-      <arglist>(OutputStream &amp;output)</arglist>
+      <anchor>a0a2a0fa2cf051fef99cab56db74a4266</anchor>
+      <arglist>(OutputStream &amp;output) const </arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -64871,13 +65761,6 @@
       <anchorfile>classViewport.html</anchorfile>
       <anchor>a4a0510b81764f1d6899ad7be124bb56f</anchor>
       <arglist>(int stepX, int stepY)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>setScrollBarButtonVisibility</name>
-      <anchorfile>classViewport.html</anchorfile>
-      <anchor>a25e8d38748090e01d092b095feca5851</anchor>
-      <arglist>(bool buttonsVisible)</arglist>
     </member>
     <member kind="function">
       <type>ScrollBar *</type>
@@ -66075,6 +66958,6492 @@
   <compound kind="class">
     <name>TypeOfCriticalSectionToUse</name>
     <filename>classTypeOfCriticalSectionToUse.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>juce::ScopedAutoReleasePool</name>
+    <filename>classjuce_1_1ScopedAutoReleasePool.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>ScopedAutoReleasePool</name>
+      <anchorfile>classjuce_1_1ScopedAutoReleasePool.html</anchorfile>
+      <anchor>acb840573b7843b39d74ce1e0995710c9</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~ScopedAutoReleasePool</name>
+      <anchorfile>classjuce_1_1ScopedAutoReleasePool.html</anchorfile>
+      <anchor>ad1db4fce0acde15413e2a1c7e7242c8c</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>juce::ByteOrder</name>
+    <filename>classjuce_1_1ByteOrder.html</filename>
+    <member kind="function" static="yes">
+      <type>static uint16</type>
+      <name>swap</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>ad7f27038bd5a2454a2737c747da005c0</anchor>
+      <arglist>(uint16 value)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static uint32</type>
+      <name>swap</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>a1e8c8283251256fc5ee507d6832b5f6e</anchor>
+      <arglist>(uint32 value)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static uint64</type>
+      <name>swap</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>ab8ccdd097d3afa83b7664d6db337fc2f</anchor>
+      <arglist>(uint64 value)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static uint16</type>
+      <name>swapIfBigEndian</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>aaa5098c1fe0e8ef9a1b84504df560b1f</anchor>
+      <arglist>(uint16 value)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static uint32</type>
+      <name>swapIfBigEndian</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>a14c5f1662a389b2f33729ef41aa6bbd3</anchor>
+      <arglist>(uint32 value)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static uint64</type>
+      <name>swapIfBigEndian</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>a73bc9ac7015e4b43d780ac556dfdc93f</anchor>
+      <arglist>(uint64 value)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static uint16</type>
+      <name>swapIfLittleEndian</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>a1103519b49f0e4cc7b0fb711288da632</anchor>
+      <arglist>(uint16 value)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static uint32</type>
+      <name>swapIfLittleEndian</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>a20d29ea3aaa4bf73c0552e2dc78da29c</anchor>
+      <arglist>(uint32 value)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static uint64</type>
+      <name>swapIfLittleEndian</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>a2eb0203392d0b832448de74233220420</anchor>
+      <arglist>(uint64 value)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static uint32</type>
+      <name>littleEndianInt</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>abe147f36b014922497a6c0b322cf2be6</anchor>
+      <arglist>(const void *bytes)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static uint16</type>
+      <name>littleEndianShort</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>a6a9ba604abff4f9a13c83c8630042d7f</anchor>
+      <arglist>(const void *bytes)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static uint32</type>
+      <name>bigEndianInt</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>ab56f5bb7f972b3727c4dce5e9988e11f</anchor>
+      <arglist>(const void *bytes)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static uint16</type>
+      <name>bigEndianShort</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>a2c28f1597c0d539b60df1fffb2004124</anchor>
+      <arglist>(const void *bytes)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>littleEndian24Bit</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>a8e0a93af21e6d1b5ec1299d6db465b99</anchor>
+      <arglist>(const char *bytes)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>bigEndian24Bit</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>aeaa8651018c78f620f26b4772ff315c0</anchor>
+      <arglist>(const char *bytes)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>littleEndian24BitToChars</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>a8efdab6e96d009859e80eb7897e9891c</anchor>
+      <arglist>(int value, char *destBytes)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>bigEndian24BitToChars</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>a69368ae641ae20d4019b86b3cbc26043</anchor>
+      <arglist>(int value, char *destBytes)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isBigEndian</name>
+      <anchorfile>classjuce_1_1ByteOrder.html</anchorfile>
+      <anchor>a3f1fa53d69bcbb29fb4de11eb1de63fc</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>juce::CharacterFunctions</name>
+    <filename>classjuce_1_1CharacterFunctions.html</filename>
+    <member kind="function" static="yes">
+      <type>static juce_wchar</type>
+      <name>toUpperCase</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>ad7ef46f478393ca4d39edf58921ee52b</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static juce_wchar</type>
+      <name>toLowerCase</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a038aa6e82fc4c303b68928905a0b9f78</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isUpperCase</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a1f25f7012c74d561e2a5b4e778760ac5</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isLowerCase</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a1371bcabb7844342ea61d024cad58c5f</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isWhitespace</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a64d9579af733e5dea2203aaeda04f5fc</anchor>
+      <arglist>(char character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isWhitespace</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a3110ad3e5d379afe6f3e8b2642d3b38e</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isDigit</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>ad684228e9db011e004c886c75fb6c601</anchor>
+      <arglist>(char character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isDigit</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>adc34a68939a8d918e46077efe14cca42</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isLetter</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a5dd114cf006e141d2692dbc03eed7c2b</anchor>
+      <arglist>(char character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isLetter</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a04b0c0e872815c8024fac20332ff99b6</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isLetterOrDigit</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a7ff4c79f1ed7eeef4989d2c418dbe0ce</anchor>
+      <arglist>(char character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isLetterOrDigit</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>aeff1dfa4ec39d977ddf2f64232c6791d</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>getHexDigitValue</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>af749d243a3e25f2739fdcfb61d944d1b</anchor>
+      <arglist>(juce_wchar digit) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static double</type>
+      <name>readDoubleValue</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>aa7ec0db23d49947f7076a83641ad2604</anchor>
+      <arglist>(CharPointerType &amp;text) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static double</type>
+      <name>getDoubleValue</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>addee0e3c84cdd47c953246c08ae85939</anchor>
+      <arglist>(CharPointerType text) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static IntType</type>
+      <name>getIntValue</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a438feaba4f8b923e42dcf134824c5eed</anchor>
+      <arglist>(const CharPointerType &amp;text) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a94a4185f5601428778342478522595fc</anchor>
+      <arglist>(CharPointerType text, const size_t maxCharsToCount) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a908e6f784e5a53adf3df6688e75c4d80</anchor>
+      <arglist>(CharPointerType start, const CharPointerType &amp;end) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>copyAll</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>aea03b59bcd69208c50d11f75ba2b02d4</anchor>
+      <arglist>(DestCharPointerType &amp;dest, SrcCharPointerType src) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>copyWithDestByteLimit</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a7b44d5777fac4976d165da4c6ee076bf</anchor>
+      <arglist>(DestCharPointerType &amp;dest, SrcCharPointerType src, int maxBytes) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>copyWithCharLimit</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>ac424ede1c7733aa92e6476201ac7c1de</anchor>
+      <arglist>(DestCharPointerType &amp;dest, SrcCharPointerType src, int maxChars) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a5c3206db8882b8c040312fc642a6b97f</anchor>
+      <arglist>(CharPointerType1 s1, CharPointerType2 s2) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>compareUpTo</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>aed9c9083a04fe6d6020fc683359fa42e</anchor>
+      <arglist>(CharPointerType1 s1, CharPointerType2 s2, int maxChars) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>compareIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>ada9048ff6409d4fb4e512ff035345c7a</anchor>
+      <arglist>(CharPointerType1 s1, CharPointerType2 s2) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>compareIgnoreCaseUpTo</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a3e75c8696a60d8d6933dfb5faeae5096</anchor>
+      <arglist>(CharPointerType1 s1, CharPointerType2 s2, int maxChars) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a6aa6d433a2359535601397c6a578cb98</anchor>
+      <arglist>(CharPointerType1 textToSearch, const CharPointerType2 &amp;substringToLookFor) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static CharPointerType1</type>
+      <name>find</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a51d2a60bf9f67dbf5651bd47c227d421</anchor>
+      <arglist>(CharPointerType1 textToSearch, const CharPointerType2 &amp;substringToLookFor) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>indexOfIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>aa5a603b7b4247d56c40ba53e43beb61e</anchor>
+      <arglist>(CharPointerType1 haystack, const CharPointerType2 &amp;needle) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>indexOfChar</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a4fcf20d696790316ad0e1ec56acca13b</anchor>
+      <arglist>(Type text, const juce_wchar charToFind) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>indexOfCharIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a319b55f8f4f8be6876baa2ac40d4eda3</anchor>
+      <arglist>(Type text, juce_wchar charToFind) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static Type</type>
+      <name>findEndOfWhitespace</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a03fc05d8c5d5f131c23d74ffff52284c</anchor>
+      <arglist>(const Type &amp;text) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static Type</type>
+      <name>findEndOfToken</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>afb13cde7d7b6ef6856ffcfdba66e0dc1</anchor>
+      <arglist>(const Type &amp;text, const Type &amp;breakCharacters, const Type &amp;quoteCharacters)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static juce_wchar</type>
+      <name>toUpperCase</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>ad7ef46f478393ca4d39edf58921ee52b</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static juce_wchar</type>
+      <name>toLowerCase</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a038aa6e82fc4c303b68928905a0b9f78</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isUpperCase</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a1f25f7012c74d561e2a5b4e778760ac5</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isLowerCase</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a1371bcabb7844342ea61d024cad58c5f</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isWhitespace</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a64d9579af733e5dea2203aaeda04f5fc</anchor>
+      <arglist>(char character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isWhitespace</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a3110ad3e5d379afe6f3e8b2642d3b38e</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isDigit</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>ad684228e9db011e004c886c75fb6c601</anchor>
+      <arglist>(char character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isDigit</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>adc34a68939a8d918e46077efe14cca42</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isLetter</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a5dd114cf006e141d2692dbc03eed7c2b</anchor>
+      <arglist>(char character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isLetter</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a04b0c0e872815c8024fac20332ff99b6</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isLetterOrDigit</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a7ff4c79f1ed7eeef4989d2c418dbe0ce</anchor>
+      <arglist>(char character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isLetterOrDigit</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>aeff1dfa4ec39d977ddf2f64232c6791d</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>getHexDigitValue</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>af749d243a3e25f2739fdcfb61d944d1b</anchor>
+      <arglist>(juce_wchar digit) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static double</type>
+      <name>readDoubleValue</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>aa7ec0db23d49947f7076a83641ad2604</anchor>
+      <arglist>(CharPointerType &amp;text) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static double</type>
+      <name>getDoubleValue</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>addee0e3c84cdd47c953246c08ae85939</anchor>
+      <arglist>(CharPointerType text) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static IntType</type>
+      <name>getIntValue</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a438feaba4f8b923e42dcf134824c5eed</anchor>
+      <arglist>(const CharPointerType &amp;text) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a94a4185f5601428778342478522595fc</anchor>
+      <arglist>(CharPointerType text, const size_t maxCharsToCount) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a908e6f784e5a53adf3df6688e75c4d80</anchor>
+      <arglist>(CharPointerType start, const CharPointerType &amp;end) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>copyAll</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>aea03b59bcd69208c50d11f75ba2b02d4</anchor>
+      <arglist>(DestCharPointerType &amp;dest, SrcCharPointerType src) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>copyWithDestByteLimit</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a7b44d5777fac4976d165da4c6ee076bf</anchor>
+      <arglist>(DestCharPointerType &amp;dest, SrcCharPointerType src, int maxBytes) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>copyWithCharLimit</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>ac424ede1c7733aa92e6476201ac7c1de</anchor>
+      <arglist>(DestCharPointerType &amp;dest, SrcCharPointerType src, int maxChars) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a5c3206db8882b8c040312fc642a6b97f</anchor>
+      <arglist>(CharPointerType1 s1, CharPointerType2 s2) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>compareUpTo</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>aed9c9083a04fe6d6020fc683359fa42e</anchor>
+      <arglist>(CharPointerType1 s1, CharPointerType2 s2, int maxChars) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>compareIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>ada9048ff6409d4fb4e512ff035345c7a</anchor>
+      <arglist>(CharPointerType1 s1, CharPointerType2 s2) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>compareIgnoreCaseUpTo</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a3e75c8696a60d8d6933dfb5faeae5096</anchor>
+      <arglist>(CharPointerType1 s1, CharPointerType2 s2, int maxChars) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a6aa6d433a2359535601397c6a578cb98</anchor>
+      <arglist>(CharPointerType1 textToSearch, const CharPointerType2 &amp;substringToLookFor) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static CharPointerType1</type>
+      <name>find</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a51d2a60bf9f67dbf5651bd47c227d421</anchor>
+      <arglist>(CharPointerType1 textToSearch, const CharPointerType2 &amp;substringToLookFor) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>indexOfIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>aa5a603b7b4247d56c40ba53e43beb61e</anchor>
+      <arglist>(CharPointerType1 haystack, const CharPointerType2 &amp;needle) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>indexOfChar</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a4fcf20d696790316ad0e1ec56acca13b</anchor>
+      <arglist>(Type text, const juce_wchar charToFind) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>indexOfCharIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a319b55f8f4f8be6876baa2ac40d4eda3</anchor>
+      <arglist>(Type text, juce_wchar charToFind) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static Type</type>
+      <name>findEndOfWhitespace</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>a03fc05d8c5d5f131c23d74ffff52284c</anchor>
+      <arglist>(const Type &amp;text) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static Type</type>
+      <name>findEndOfToken</name>
+      <anchorfile>classjuce_1_1CharacterFunctions.html</anchorfile>
+      <anchor>afb13cde7d7b6ef6856ffcfdba66e0dc1</anchor>
+      <arglist>(const Type &amp;text, const Type &amp;breakCharacters, const Type &amp;quoteCharacters)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>juce::Atomic</name>
+    <filename>classjuce_1_1Atomic.html</filename>
+    <templarg>Type</templarg>
+    <member kind="function">
+      <type></type>
+      <name>Atomic</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a459b9e13543a9023b48f0bb0cfa9664b</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Atomic</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a7716a59ef9fc6a2082e3edf9d4c590eb</anchor>
+      <arglist>(const Type initialValue) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Atomic</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>af5a2f88f6b85c8c64bf4e6adce02c496</anchor>
+      <arglist>(const Atomic &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~Atomic</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>ac372b4bbce1c8aa1b8092d4ff4a1c6d2</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>get</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>ad39856229e8d4e3da9088d31bad55b9e</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Atomic &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>ae90ffcac05ea3c0fb00925be3c6483d3</anchor>
+      <arglist>(const Atomic &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Atomic &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>ab9480d1229d958bb182c133d83708454</anchor>
+      <arglist>(const Type newValue) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a437684cebe232d1a49587e046984f393</anchor>
+      <arglist>(Type newValue) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>exchange</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a98405cfea37d5635bdddf47e92da81ea</anchor>
+      <arglist>(Type value) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>ab5c7b49a22075389a3edac358c83c92e</anchor>
+      <arglist>(Type amountToAdd) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>operator-=</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>af9803bc3177c75dbaf00c3a34eb3556c</anchor>
+      <arglist>(Type amountToSubtract) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a9cc5a6c2e1f07cc097317fe1685819dd</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>operator--</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>adf3a3f87cb87e822d678dfb67f458895</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>compareAndSetBool</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a9c0966a21db3a9d4649f8c869bb38fa0</anchor>
+      <arglist>(Type newValue, Type valueToCompare) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>compareAndSetValue</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a9d80abdbdf76b8afd9cbf9baf8851910</anchor>
+      <arglist>(Type newValue, Type valueToCompare) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Atomic</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a459b9e13543a9023b48f0bb0cfa9664b</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Atomic</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a7716a59ef9fc6a2082e3edf9d4c590eb</anchor>
+      <arglist>(const Type initialValue) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Atomic</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>af5a2f88f6b85c8c64bf4e6adce02c496</anchor>
+      <arglist>(const Atomic &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~Atomic</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>ac372b4bbce1c8aa1b8092d4ff4a1c6d2</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>get</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a0e1b7e32436a880fe41485aa02807642</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Atomic &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>ae90ffcac05ea3c0fb00925be3c6483d3</anchor>
+      <arglist>(const Atomic &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Atomic &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>ab9480d1229d958bb182c133d83708454</anchor>
+      <arglist>(const Type newValue) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a437684cebe232d1a49587e046984f393</anchor>
+      <arglist>(Type newValue) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>exchange</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>ad4cd01fb35d29832e74a03a7f0b3489b</anchor>
+      <arglist>(Type value) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a4a6daf4cd7a291dfe46529c5b4765dcd</anchor>
+      <arglist>(Type amountToAdd) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>operator-=</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a29a661a4667c14572372651d242a67ce</anchor>
+      <arglist>(Type amountToSubtract) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>acc33701c8a603821834269c6851efb9d</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>operator--</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a9c0fada7714c5f5eb141415b43c5e2af</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>compareAndSetBool</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a74563f568c7d09b608fcff07368447db</anchor>
+      <arglist>(Type newValue, Type valueToCompare) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>compareAndSetValue</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>ae67c356b447b3d85abd31c522a8863a1</anchor>
+      <arglist>(Type newValue, Type valueToCompare) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Atomic</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a459b9e13543a9023b48f0bb0cfa9664b</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Atomic</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a7716a59ef9fc6a2082e3edf9d4c590eb</anchor>
+      <arglist>(const Type initialValue) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Atomic</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>af5a2f88f6b85c8c64bf4e6adce02c496</anchor>
+      <arglist>(const Atomic &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~Atomic</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>ac372b4bbce1c8aa1b8092d4ff4a1c6d2</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>get</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a0e1b7e32436a880fe41485aa02807642</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Atomic &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>ae90ffcac05ea3c0fb00925be3c6483d3</anchor>
+      <arglist>(const Atomic &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Atomic &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>ab9480d1229d958bb182c133d83708454</anchor>
+      <arglist>(const Type newValue) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a437684cebe232d1a49587e046984f393</anchor>
+      <arglist>(Type newValue) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>exchange</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>ad4cd01fb35d29832e74a03a7f0b3489b</anchor>
+      <arglist>(Type value) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a4a6daf4cd7a291dfe46529c5b4765dcd</anchor>
+      <arglist>(Type amountToAdd) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>operator-=</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a29a661a4667c14572372651d242a67ce</anchor>
+      <arglist>(Type amountToSubtract) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>acc33701c8a603821834269c6851efb9d</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>operator--</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a9c0fada7714c5f5eb141415b43c5e2af</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>compareAndSetBool</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a74563f568c7d09b608fcff07368447db</anchor>
+      <arglist>(Type newValue, Type valueToCompare) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Type</type>
+      <name>compareAndSetValue</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>ae67c356b447b3d85abd31c522a8863a1</anchor>
+      <arglist>(Type newValue, Type valueToCompare) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>memoryBarrier</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a33a7257fe866463a370c8e92a208be01</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>memoryBarrier</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a7e0c2ac37290157923017bf48dd249ef</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>memoryBarrier</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a7e0c2ac37290157923017bf48dd249ef</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile Type</type>
+      <name>value</name>
+      <anchorfile>classjuce_1_1Atomic.html</anchorfile>
+      <anchor>a4c042c01777b1efe30266a45b7df36f4</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>juce::CharPointer_UTF8</name>
+    <filename>classjuce_1_1CharPointer__UTF8.html</filename>
+    <member kind="enumvalue">
+      <name>byteOrderMark1</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a0414c8c63097d8015612fb6ba7c759f3af4ab8635520e82d3d9a470db7c56083f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>byteOrderMark2</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a0414c8c63097d8015612fb6ba7c759f3ad19426c7656a2aedba7e1c3dc3dafb01</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>byteOrderMark3</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a0414c8c63097d8015612fb6ba7c759f3acb15bb82f48ec0aae8e77680e7fbced7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>byteOrderMark1</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a0414c8c63097d8015612fb6ba7c759f3af4ab8635520e82d3d9a470db7c56083f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>byteOrderMark2</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a0414c8c63097d8015612fb6ba7c759f3ad19426c7656a2aedba7e1c3dc3dafb01</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>byteOrderMark3</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a0414c8c63097d8015612fb6ba7c759f3acb15bb82f48ec0aae8e77680e7fbced7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>char</type>
+      <name>CharType</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a467d8e8e49cca40da21975ea729fbad8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>char</type>
+      <name>CharType</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a467d8e8e49cca40da21975ea729fbad8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>CharPointer_UTF8</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a7ca5a36503338fdf2f7e74c0dc17d90c</anchor>
+      <arglist>(const CharType *const rawPointer) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>CharPointer_UTF8</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a7448dbe85a29e3efe4e7138a9406465f</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8 &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a3a2304f89050ccc9fa1f549381a49938</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8 &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a24cb9096346569991820edcc72c45458</anchor>
+      <arglist>(const CharType *text) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a39b9b8e6e7274a2139da02dd9fafc3d6</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a26ade287ef7afd29f1ffee0692354be4</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&lt;=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>abddce31ae36b10ee54b9bf88d3dc6e86</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&lt;</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>aff2c11120962adde1f9ae7ebdf800b0d</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&gt;=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a1fcb137d7f175dcf6534bb9275324482</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&gt;</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a354f07f4eac6c9097d056e1c7a3d1b21</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharType *</type>
+      <name>getAddress</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ad48c4851c71a7f954695e253d599eab7</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>operator const CharType *</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ade6812a6fdae7a1a1a2bfb94590ac342</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isEmpty</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a8e3c686cc0dad97a0127721adccd4a24</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>operator*</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a37963a7ff3b8750240aa85b983b359fe</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8 &amp;</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>aac943e11282f24e83bccf1de1bfc9120</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8 &amp;</type>
+      <name>operator--</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a8cb8cfc73ec2852b41fc6a455c6059c9</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>getAndAdvance</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a44449a833c3776ccf2fe31e153abd8be</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ac9bc0907b4b219cf80a2ed70030f4357</anchor>
+      <arglist>(int) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a320d759be982fbe5ebc89ba4e882e6b3</anchor>
+      <arglist>(int numToSkip) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>operator-=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a5f5a4b88bbe2282a5ad90996135d60e6</anchor>
+      <arglist>(int numToSkip) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>operator[]</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>adcfd0a8bc620a169bc602db46791bab8</anchor>
+      <arglist>(int characterIndex) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8</type>
+      <name>operator+</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>adf54b48e338a1f64d4412a79964cf754</anchor>
+      <arglist>(int numToSkip) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8</type>
+      <name>operator-</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a59f2a9d8070497e69c0060db5319c836</anchor>
+      <arglist>(int numToSkip) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>length</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>affd04ca6e38e2f39f7c69a700ed21d02</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a599bce65875fd23ec9aba8a8d5bd113a</anchor>
+      <arglist>(const size_t maxCharsToCount) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a99176509c24cc39eb9fbf14d353fad7d</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;end) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>sizeInBytes</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a7d96b7e71381f73776b696c26da70306</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8</type>
+      <name>findTerminatingNull</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a0d45952161840f41613f378bd61249cb</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>write</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>af3f9307a86832aa930c2ae354e35a321</anchor>
+      <arglist>(const juce_wchar charToWrite) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeNull</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a8e2f3d882924ae93f2153077db9802a8</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeAll</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a8e42e0f26d47831f9a0af59224fa319d</anchor>
+      <arglist>(const CharPointer &amp;src) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeAll</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a42c13b8ec9e4a09c365839af9e8ff327</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;src) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>writeWithDestByteLimit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ab4df8fce94d0a6cb243f5de998f6970b</anchor>
+      <arglist>(const CharPointer &amp;src, const int maxDestBytes) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeWithCharLimit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>aa04a680b74c99b816edbda26a0f09a8f</anchor>
+      <arglist>(const CharPointer &amp;src, const int maxChars) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>acf6e67be9eab76558c26ce318f3e0ae1</anchor>
+      <arglist>(const CharPointer &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ab2d1e9850d0f0030ed82636d8edb544e</anchor>
+      <arglist>(const CharPointer &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ad989aad0a038e351cc2c6c10ea2e717e</anchor>
+      <arglist>(const CharPointer &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a89ccbf2bfcf83b0b256f036c1e3ae476</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCaseUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>aac0860a35a26c7e41be9d65639485d78</anchor>
+      <arglist>(const CharPointer &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ad8fc147f73949376776869e7d140fcbf</anchor>
+      <arglist>(const CharPointer &amp;stringToFind) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a073ca6b6f93e5e22328aa9a9e89fd95e</anchor>
+      <arglist>(const juce_wchar charToFind) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ac0318b1751f9161f81c632730839aece</anchor>
+      <arglist>(const juce_wchar charToFind, const bool ignoreCase) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isWhitespace</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ae092ef8bebc8ba9dcec8f73848e593d9</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isDigit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>af0c1cdf239becd788ccf989b866984d4</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLetter</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a39f965355aa23456f3f22f16b3de921c</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLetterOrDigit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a32ef291f9807b193b67934baf9e7cd99</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isUpperCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>acda8b8b62f809872c936d67f1d5f02e1</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLowerCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ad6f79c98b822f977bb4b8b56c12c30ef</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>toUpperCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a94d02f9676c3d73a115c7d5f1795b576</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>toLowerCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>adc7960b77d3f427b7e1fb7f18e23e46f</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getIntValue32</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ac17c4414a515571b3c4770ca6619855b</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int64</type>
+      <name>getIntValue64</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ab26fc2c3868c5deefe2a44f297a796df</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>getDoubleValue</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a76df34cb5ac759eec021782937f0a6cd</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8</type>
+      <name>findEndOfWhitespace</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ae98f3ef9f85771340067ed25f0c7ca1b</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8</type>
+      <name>atomicSwap</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a0137866fe8fc98de48dd368a336e488a</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;newValue)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>CharPointer_UTF8</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a7ca5a36503338fdf2f7e74c0dc17d90c</anchor>
+      <arglist>(const CharType *const rawPointer) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>CharPointer_UTF8</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a7448dbe85a29e3efe4e7138a9406465f</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8 &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a3a2304f89050ccc9fa1f549381a49938</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8 &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a24cb9096346569991820edcc72c45458</anchor>
+      <arglist>(const CharType *text) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a39b9b8e6e7274a2139da02dd9fafc3d6</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a26ade287ef7afd29f1ffee0692354be4</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&lt;=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>abddce31ae36b10ee54b9bf88d3dc6e86</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&lt;</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>aff2c11120962adde1f9ae7ebdf800b0d</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&gt;=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a1fcb137d7f175dcf6534bb9275324482</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&gt;</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a354f07f4eac6c9097d056e1c7a3d1b21</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharType *</type>
+      <name>getAddress</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ad48c4851c71a7f954695e253d599eab7</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>operator const CharType *</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ade6812a6fdae7a1a1a2bfb94590ac342</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isEmpty</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a8e3c686cc0dad97a0127721adccd4a24</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>operator*</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a37963a7ff3b8750240aa85b983b359fe</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8 &amp;</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>aac943e11282f24e83bccf1de1bfc9120</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8 &amp;</type>
+      <name>operator--</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a8cb8cfc73ec2852b41fc6a455c6059c9</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>getAndAdvance</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a44449a833c3776ccf2fe31e153abd8be</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ac9bc0907b4b219cf80a2ed70030f4357</anchor>
+      <arglist>(int) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a320d759be982fbe5ebc89ba4e882e6b3</anchor>
+      <arglist>(int numToSkip) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>operator-=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a5f5a4b88bbe2282a5ad90996135d60e6</anchor>
+      <arglist>(int numToSkip) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>operator[]</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>adcfd0a8bc620a169bc602db46791bab8</anchor>
+      <arglist>(int characterIndex) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8</type>
+      <name>operator+</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>adf54b48e338a1f64d4412a79964cf754</anchor>
+      <arglist>(int numToSkip) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8</type>
+      <name>operator-</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a59f2a9d8070497e69c0060db5319c836</anchor>
+      <arglist>(int numToSkip) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>length</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>affd04ca6e38e2f39f7c69a700ed21d02</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a599bce65875fd23ec9aba8a8d5bd113a</anchor>
+      <arglist>(const size_t maxCharsToCount) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a99176509c24cc39eb9fbf14d353fad7d</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;end) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>sizeInBytes</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a7d96b7e71381f73776b696c26da70306</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8</type>
+      <name>findTerminatingNull</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a0d45952161840f41613f378bd61249cb</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>write</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>af3f9307a86832aa930c2ae354e35a321</anchor>
+      <arglist>(const juce_wchar charToWrite) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeNull</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a8e2f3d882924ae93f2153077db9802a8</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeAll</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a8e42e0f26d47831f9a0af59224fa319d</anchor>
+      <arglist>(const CharPointer &amp;src) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeAll</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a42c13b8ec9e4a09c365839af9e8ff327</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;src) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>writeWithDestByteLimit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ab4df8fce94d0a6cb243f5de998f6970b</anchor>
+      <arglist>(const CharPointer &amp;src, const int maxDestBytes) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeWithCharLimit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>aa04a680b74c99b816edbda26a0f09a8f</anchor>
+      <arglist>(const CharPointer &amp;src, const int maxChars) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>acf6e67be9eab76558c26ce318f3e0ae1</anchor>
+      <arglist>(const CharPointer &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ab2d1e9850d0f0030ed82636d8edb544e</anchor>
+      <arglist>(const CharPointer &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ad989aad0a038e351cc2c6c10ea2e717e</anchor>
+      <arglist>(const CharPointer &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a89ccbf2bfcf83b0b256f036c1e3ae476</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCaseUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>aac0860a35a26c7e41be9d65639485d78</anchor>
+      <arglist>(const CharPointer &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ad8fc147f73949376776869e7d140fcbf</anchor>
+      <arglist>(const CharPointer &amp;stringToFind) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a073ca6b6f93e5e22328aa9a9e89fd95e</anchor>
+      <arglist>(const juce_wchar charToFind) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ac0318b1751f9161f81c632730839aece</anchor>
+      <arglist>(const juce_wchar charToFind, const bool ignoreCase) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isWhitespace</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ae092ef8bebc8ba9dcec8f73848e593d9</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isDigit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>af0c1cdf239becd788ccf989b866984d4</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLetter</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a39f965355aa23456f3f22f16b3de921c</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLetterOrDigit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a32ef291f9807b193b67934baf9e7cd99</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isUpperCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>acda8b8b62f809872c936d67f1d5f02e1</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLowerCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ad6f79c98b822f977bb4b8b56c12c30ef</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>toUpperCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a94d02f9676c3d73a115c7d5f1795b576</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>toLowerCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>adc7960b77d3f427b7e1fb7f18e23e46f</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getIntValue32</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ac17c4414a515571b3c4770ca6619855b</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int64</type>
+      <name>getIntValue64</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ab26fc2c3868c5deefe2a44f297a796df</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>getDoubleValue</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a76df34cb5ac759eec021782937f0a6cd</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8</type>
+      <name>findEndOfWhitespace</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ae98f3ef9f85771340067ed25f0c7ca1b</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8</type>
+      <name>atomicSwap</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a0137866fe8fc98de48dd368a336e488a</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;newValue)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>getBytesRequiredFor</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a9719e1f880af475d524fbf8d62c78f52</anchor>
+      <arglist>(const juce_wchar charToWrite) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>getBytesRequiredFor</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a2e05b3b8140a7e7f61462ad6d53a3762</anchor>
+      <arglist>(CharPointer text) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>canRepresent</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>abc37a1d940637d66ed1b509d79b15572</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isValidString</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ada71151ddf8d7807bf9f06e377693f80</anchor>
+      <arglist>(const CharType *dataToTest, int maxBytesToRead)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>getBytesRequiredFor</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a9719e1f880af475d524fbf8d62c78f52</anchor>
+      <arglist>(const juce_wchar charToWrite) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>getBytesRequiredFor</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>a2e05b3b8140a7e7f61462ad6d53a3762</anchor>
+      <arglist>(CharPointer text) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>canRepresent</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>abc37a1d940637d66ed1b509d79b15572</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isValidString</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF8.html</anchorfile>
+      <anchor>ada71151ddf8d7807bf9f06e377693f80</anchor>
+      <arglist>(const CharType *dataToTest, int maxBytesToRead)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>juce::CharPointer_UTF16</name>
+    <filename>classjuce_1_1CharPointer__UTF16.html</filename>
+    <member kind="enumvalue">
+      <name>byteOrderMarkBE1</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a57f38120c6db15efc91a1fed29560076ac989263f6757d030c52eb9f6bfec3efc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>byteOrderMarkBE2</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a57f38120c6db15efc91a1fed29560076a38e7d6d0bf59c70da5366b713fcab3e7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>byteOrderMarkLE1</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a57f38120c6db15efc91a1fed29560076aa95435c915f0cb8eb47c8c610fadb419</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>byteOrderMarkLE2</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a57f38120c6db15efc91a1fed29560076ac4df327a002058661ec79e6cccecab73</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>byteOrderMarkBE1</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a57f38120c6db15efc91a1fed29560076ac989263f6757d030c52eb9f6bfec3efc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>byteOrderMarkBE2</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a57f38120c6db15efc91a1fed29560076a38e7d6d0bf59c70da5366b713fcab3e7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>byteOrderMarkLE1</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a57f38120c6db15efc91a1fed29560076aa95435c915f0cb8eb47c8c610fadb419</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>byteOrderMarkLE2</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a57f38120c6db15efc91a1fed29560076ac4df327a002058661ec79e6cccecab73</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>int16</type>
+      <name>CharType</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>ad4844197627eaa264d738e7c477b5dba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>int16</type>
+      <name>CharType</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>ad4844197627eaa264d738e7c477b5dba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>CharPointer_UTF16</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>aa06e5d59a7e5a4ffa62cdeedd671622c</anchor>
+      <arglist>(const CharType *const rawPointer) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>CharPointer_UTF16</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a5f44ce2152aa5144088ac7eaa73e0193</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16 &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a60400e581133c285ffacc3a2c13b1b9d</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16 &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a79b9813ef4cc2521e6c8f2ea14b9f187</anchor>
+      <arglist>(const CharType *text) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a6d6f707c2c0ff64ad4e07fa608487fca</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>ae9618a9128952d3dfe12e58b5d998be3</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&lt;=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a2be89f5ee55b5f221808d992f2a370b1</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&lt;</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a2b71bab21a7d00ac55e7dc41a421f3b2</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&gt;=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a08d2d4d6b2db1caa66d04238e44c8a4b</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&gt;</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a7c603f7ed6bc98fdd0dfd4dc7453cf92</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharType *</type>
+      <name>getAddress</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a0e9b011f372225ec6288ed5a308c6601</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>operator const CharType *</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a937f4946947e1b51121c5eb9f9dc94ec</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isEmpty</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>abb1be77129c18097b691a9b832b59b79</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>operator*</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a0ac6531868de67f75313df677ccc25a8</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16 &amp;</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a23b28998eaa2c845d1d42bd383ee4607</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16 &amp;</type>
+      <name>operator--</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a02173021baab7d27a1b77de749053194</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>getAndAdvance</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a9ccb89c6870f03681be499f845d67c12</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a601e1b32ff232b5ad3d711178bffff87</anchor>
+      <arglist>(int) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>afda0bb4f590e8d673c82b58dbff2aca2</anchor>
+      <arglist>(int numToSkip) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>operator-=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>af186cb33526fd844e209d54995f3dbf9</anchor>
+      <arglist>(int numToSkip) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>operator[]</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a63c67bce471631621492f120a5d92ceb</anchor>
+      <arglist>(const int characterIndex) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16</type>
+      <name>operator+</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>af3c9bf14523da389c9f65fe2f42cf490</anchor>
+      <arglist>(const int numToSkip) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16</type>
+      <name>operator-</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a590264a33c0cc6418b6af820646474b6</anchor>
+      <arglist>(const int numToSkip) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>write</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>ad41c400b1b77b02f06e6032c8086be18</anchor>
+      <arglist>(juce_wchar charToWrite) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeNull</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a2b7bf2e502e6a07ce29b5f0c63100139</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>length</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a7e91be1fb14a44b599b95359cc7432b9</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>aaaa34b9be8f79c25aa49a973e50169ad</anchor>
+      <arglist>(const size_t maxCharsToCount) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a1f728e515e2cfc1bcd161b97e3d2269f</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;end) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>sizeInBytes</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a913f364c0d0f941e6e0ad5e2904ce35b</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16</type>
+      <name>findTerminatingNull</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a7ef615a22b111598985c9067805e1137</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeAll</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a87c3dc6373c85496f8c11819bb1de692</anchor>
+      <arglist>(const CharPointer &amp;src) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeAll</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a71ffd5895730a3db0a9246a27329e770</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;src) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>writeWithDestByteLimit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a75012c23b8e965efc2bfeb7ab7fc7328</anchor>
+      <arglist>(const CharPointer &amp;src, const int maxDestBytes) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeWithCharLimit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>aa094f601c107a5a0d4a0dd2853cbb611</anchor>
+      <arglist>(const CharPointer &amp;src, const int maxChars) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>ac9d48ce47d352b5539e0f2fee4ec0509</anchor>
+      <arglist>(const CharPointer &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a82592727251d0c840ba22b2873798dda</anchor>
+      <arglist>(const CharPointer &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>ae5d905411c51aa0c67282e900d5d7781</anchor>
+      <arglist>(const CharPointer &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCaseUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a79fb8e37b0ee419472831d46c7345015</anchor>
+      <arglist>(const CharPointer &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>ae534c838f42f95e5f3067d0817b92554</anchor>
+      <arglist>(const CharPointer &amp;stringToFind) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>adfdd11ab8f99298e68a2eadbe0b4b90f</anchor>
+      <arglist>(const juce_wchar charToFind) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a491218acca3893f318a22279be26013b</anchor>
+      <arglist>(const juce_wchar charToFind, const bool ignoreCase) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isWhitespace</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>aefeaf6988124d995c82e1063920fa48d</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isDigit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a9da25ff75f4fe4d8a53be473ce431171</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLetter</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a3a3a5bc64aafb8642962fc52a626e3aa</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLetterOrDigit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>ad0999d124e4f4655b16b98219d922501</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isUpperCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a326ec6be0c8e63f4fd6bb6a3f095951b</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLowerCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>aaeff2fb55c82b04150829cc1962c656c</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>toUpperCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a073296a4c58e405c053c137d252003fb</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>toLowerCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a31ea0c1fbd5ac4ea17d3567ab3194b36</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getIntValue32</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a07333cad0685ba4f78cde3223c7d2444</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int64</type>
+      <name>getIntValue64</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a35ddc4793fb901e4da0d08468bdeb7c6</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>getDoubleValue</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a6ab602475c2534b5bb330532b9b19d7b</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16</type>
+      <name>findEndOfWhitespace</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a9c17a5878323b97fe8123f86d1848963</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16</type>
+      <name>atomicSwap</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a31add31e54c1addb121f643b8fc28ff1</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;newValue)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>CharPointer_UTF16</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>aa06e5d59a7e5a4ffa62cdeedd671622c</anchor>
+      <arglist>(const CharType *const rawPointer) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>CharPointer_UTF16</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a5f44ce2152aa5144088ac7eaa73e0193</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16 &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a60400e581133c285ffacc3a2c13b1b9d</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16 &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a79b9813ef4cc2521e6c8f2ea14b9f187</anchor>
+      <arglist>(const CharType *text) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a6d6f707c2c0ff64ad4e07fa608487fca</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>ae9618a9128952d3dfe12e58b5d998be3</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&lt;=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a2be89f5ee55b5f221808d992f2a370b1</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&lt;</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a2b71bab21a7d00ac55e7dc41a421f3b2</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&gt;=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a08d2d4d6b2db1caa66d04238e44c8a4b</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&gt;</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a7c603f7ed6bc98fdd0dfd4dc7453cf92</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharType *</type>
+      <name>getAddress</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a0e9b011f372225ec6288ed5a308c6601</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>operator const CharType *</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a937f4946947e1b51121c5eb9f9dc94ec</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isEmpty</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>abb1be77129c18097b691a9b832b59b79</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>operator*</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a0ac6531868de67f75313df677ccc25a8</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16 &amp;</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a23b28998eaa2c845d1d42bd383ee4607</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16 &amp;</type>
+      <name>operator--</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a02173021baab7d27a1b77de749053194</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>getAndAdvance</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a9ccb89c6870f03681be499f845d67c12</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a601e1b32ff232b5ad3d711178bffff87</anchor>
+      <arglist>(int) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>afda0bb4f590e8d673c82b58dbff2aca2</anchor>
+      <arglist>(int numToSkip) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>operator-=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>af186cb33526fd844e209d54995f3dbf9</anchor>
+      <arglist>(int numToSkip) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>operator[]</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a63c67bce471631621492f120a5d92ceb</anchor>
+      <arglist>(const int characterIndex) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16</type>
+      <name>operator+</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>af3c9bf14523da389c9f65fe2f42cf490</anchor>
+      <arglist>(const int numToSkip) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16</type>
+      <name>operator-</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a590264a33c0cc6418b6af820646474b6</anchor>
+      <arglist>(const int numToSkip) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>write</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>ad41c400b1b77b02f06e6032c8086be18</anchor>
+      <arglist>(juce_wchar charToWrite) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeNull</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a2b7bf2e502e6a07ce29b5f0c63100139</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>length</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a7e91be1fb14a44b599b95359cc7432b9</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>aaaa34b9be8f79c25aa49a973e50169ad</anchor>
+      <arglist>(const size_t maxCharsToCount) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a1f728e515e2cfc1bcd161b97e3d2269f</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;end) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>sizeInBytes</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a913f364c0d0f941e6e0ad5e2904ce35b</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16</type>
+      <name>findTerminatingNull</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a7ef615a22b111598985c9067805e1137</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeAll</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a87c3dc6373c85496f8c11819bb1de692</anchor>
+      <arglist>(const CharPointer &amp;src) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeAll</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a71ffd5895730a3db0a9246a27329e770</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;src) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>writeWithDestByteLimit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a75012c23b8e965efc2bfeb7ab7fc7328</anchor>
+      <arglist>(const CharPointer &amp;src, const int maxDestBytes) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeWithCharLimit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>aa094f601c107a5a0d4a0dd2853cbb611</anchor>
+      <arglist>(const CharPointer &amp;src, const int maxChars) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>ac9d48ce47d352b5539e0f2fee4ec0509</anchor>
+      <arglist>(const CharPointer &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a82592727251d0c840ba22b2873798dda</anchor>
+      <arglist>(const CharPointer &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>ae5d905411c51aa0c67282e900d5d7781</anchor>
+      <arglist>(const CharPointer &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCaseUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a79fb8e37b0ee419472831d46c7345015</anchor>
+      <arglist>(const CharPointer &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>ae534c838f42f95e5f3067d0817b92554</anchor>
+      <arglist>(const CharPointer &amp;stringToFind) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>adfdd11ab8f99298e68a2eadbe0b4b90f</anchor>
+      <arglist>(const juce_wchar charToFind) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a491218acca3893f318a22279be26013b</anchor>
+      <arglist>(const juce_wchar charToFind, const bool ignoreCase) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isWhitespace</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>aefeaf6988124d995c82e1063920fa48d</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isDigit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a9da25ff75f4fe4d8a53be473ce431171</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLetter</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a3a3a5bc64aafb8642962fc52a626e3aa</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLetterOrDigit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>ad0999d124e4f4655b16b98219d922501</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isUpperCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a326ec6be0c8e63f4fd6bb6a3f095951b</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLowerCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>aaeff2fb55c82b04150829cc1962c656c</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>toUpperCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a073296a4c58e405c053c137d252003fb</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>toLowerCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a31ea0c1fbd5ac4ea17d3567ab3194b36</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getIntValue32</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a07333cad0685ba4f78cde3223c7d2444</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int64</type>
+      <name>getIntValue64</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a35ddc4793fb901e4da0d08468bdeb7c6</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>getDoubleValue</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a6ab602475c2534b5bb330532b9b19d7b</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16</type>
+      <name>findEndOfWhitespace</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a9c17a5878323b97fe8123f86d1848963</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16</type>
+      <name>atomicSwap</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a31add31e54c1addb121f643b8fc28ff1</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;newValue)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>getBytesRequiredFor</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>af706ad5627d71f009fbf369ca59f789f</anchor>
+      <arglist>(const juce_wchar charToWrite) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>getBytesRequiredFor</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a47a1f9ce856257cfaa6545e700cb821e</anchor>
+      <arglist>(CharPointer text) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>canRepresent</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a24e91f356ffc636f27dbe4b6f6a71f6a</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isValidString</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>ae208ba0441546876a7d9638c71204b82</anchor>
+      <arglist>(const CharType *dataToTest, int maxBytesToRead)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>getBytesRequiredFor</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>af706ad5627d71f009fbf369ca59f789f</anchor>
+      <arglist>(const juce_wchar charToWrite) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>getBytesRequiredFor</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a47a1f9ce856257cfaa6545e700cb821e</anchor>
+      <arglist>(CharPointer text) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>canRepresent</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>a24e91f356ffc636f27dbe4b6f6a71f6a</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isValidString</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF16.html</anchorfile>
+      <anchor>ae208ba0441546876a7d9638c71204b82</anchor>
+      <arglist>(const CharType *dataToTest, int maxBytesToRead)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>juce::CharPointer_UTF32</name>
+    <filename>classjuce_1_1CharPointer__UTF32.html</filename>
+    <member kind="typedef">
+      <type>juce_wchar</type>
+      <name>CharType</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>aa77f98a2fc3cd7c1eb001408ac17881e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>juce_wchar</type>
+      <name>CharType</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>aa77f98a2fc3cd7c1eb001408ac17881e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>CharPointer_UTF32</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a02979cf34c8548af11510c61c0ad7e2d</anchor>
+      <arglist>(const CharType *const rawPointer) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>CharPointer_UTF32</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>acf4258e1783f53f57ee6ae3a097f81a4</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32 &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a76ea2f33c874a5000a606f8c5424899d</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32 &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a8d1b724630fc3777e022f5a9fbee6ac8</anchor>
+      <arglist>(const CharType *text) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a42972ad61834a7294ff7f94a22180edd</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>adb1d6ec589be410c204f1fccb5cf5137</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&lt;=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>aea85652a5d8451914940c5ab8c57457a</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&lt;</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a0ccfd4d331e8cf58752b028d50594c89</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&gt;=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a12962b8f2f4f1c1fc915f4e58e74b257</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&gt;</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a68a1856fd3c29c6640996b67be0d9b2d</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharType *</type>
+      <name>getAddress</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a1a5aaf03de84d5d24e4c946ee7589f3e</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>operator const CharType *</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a826ddb352c7b21e56bde0fbe0d3354d4</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isEmpty</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a5744ccb4d6dabaa78d2df13d65d7b650</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>operator*</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>ab6fdbc6eb56edcc7298749dfc82f7b42</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32 &amp;</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>ada878c4d6ba8bdc9f57f65a09708aafe</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32 &amp;</type>
+      <name>operator--</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a4ef8719527a684d2047a39916f7a064c</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>getAndAdvance</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>aaca5d475e0f557fbe0000cb0cc0b1cb9</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a6023ab109dca75943ea26ad13df30f89</anchor>
+      <arglist>(int) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a3fc8812aeeda962bdbcad89fadbe873f</anchor>
+      <arglist>(const int numToSkip) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>operator-=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a1d7b6fb9c5580ceae72bc39dc444bd75</anchor>
+      <arglist>(const int numToSkip) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>ab9b1645d3b286eeaf7297d6b2b0e6165</anchor>
+      <arglist>(const int characterIndex) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32</type>
+      <name>operator+</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a41e029013b53a4712fd7da1a83116568</anchor>
+      <arglist>(const int numToSkip) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32</type>
+      <name>operator-</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>afef8f090df09473659d2f06fb2665811</anchor>
+      <arglist>(const int numToSkip) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>write</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>ab6e430e5559b3bd476b582194f030ccb</anchor>
+      <arglist>(const juce_wchar charToWrite) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>replaceChar</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>ab541a2ade9ac120c256b2b9945e7d51c</anchor>
+      <arglist>(const juce_wchar newChar) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeNull</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a04536fe8f1b023fe709c94997fe06909</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>length</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a6bdb2e818683ff69520086b994ee2484</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a90245898b7805215c4114fc45cac84d6</anchor>
+      <arglist>(const size_t maxCharsToCount) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a51864c69a9e4163fd2952fadd56d0010</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;end) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>sizeInBytes</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a63ba6119c81ddf0c41cf1ef442ccfe2b</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32</type>
+      <name>findTerminatingNull</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a25ad9c740bbacfea5b1f9a8b714f5a6f</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeAll</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a032acc015166cb39dcb84e2737fb479b</anchor>
+      <arglist>(const CharPointer &amp;src) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeAll</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>af50485bc3b2d2a4b41372f82cc2df874</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;src) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>writeWithDestByteLimit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a5054e6bc4be70eb71de26d85e46a4a77</anchor>
+      <arglist>(const CharPointer &amp;src, const int maxDestBytes) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeWithCharLimit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a402c7c338c7f28dcf80aa8ff76590303</anchor>
+      <arglist>(const CharPointer &amp;src, const int maxChars) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>abc9c42253a635df4af18c4fb42b985ee</anchor>
+      <arglist>(const CharPointer &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a8a22521754788363b60ea3c91200fa22</anchor>
+      <arglist>(const CharPointer &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a2404d93bb46a779ac9de7462970bb021</anchor>
+      <arglist>(const CharPointer &amp;other) const </arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCaseUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a3a963095ca3b5e73a563c0ed37f05392</anchor>
+      <arglist>(const CharPointer &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a7224b530d5a4b7f85a84c233730617b4</anchor>
+      <arglist>(const CharPointer &amp;stringToFind) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a832650f9582ea556c0a082ea0b3ab359</anchor>
+      <arglist>(const juce_wchar charToFind) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a92fdeefb673a21cd6feb866a95d6a651</anchor>
+      <arglist>(const juce_wchar charToFind, const bool ignoreCase) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isWhitespace</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a7cb7b7deb5197c2bd4f8db89ea02b45f</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isDigit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a7293ac13a2d3f063cff6c235207d89c1</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLetter</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>aa229aec7420a0b7c40f7b9fe59cdad59</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLetterOrDigit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a0835958353f7e65b278b697ff42910f2</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isUpperCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a76c08de30b13e8b2422403cd420138dc</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLowerCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a08e6bd667c0e87819f890bd8c105af2a</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>toUpperCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a84fcd7f5e75061b104a5d3098d40602a</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>toLowerCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a46bdbda22ea0fd7617ae7202bd5d56e8</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getIntValue32</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a871eb9db869f288b024d6d7dc71c6538</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int64</type>
+      <name>getIntValue64</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a2614974564aecb92e575684a20506a19</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>getDoubleValue</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>aeb5f68430d1ee9d19e93bb04561c75e7</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32</type>
+      <name>findEndOfWhitespace</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a64a542ef0ff8188768305110b7cbf032</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32</type>
+      <name>atomicSwap</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>afbc4c1ddf9e46b50e818afb0a997862c</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;newValue)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>CharPointer_UTF32</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a02979cf34c8548af11510c61c0ad7e2d</anchor>
+      <arglist>(const CharType *const rawPointer) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>CharPointer_UTF32</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>acf4258e1783f53f57ee6ae3a097f81a4</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32 &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a76ea2f33c874a5000a606f8c5424899d</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32 &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a8d1b724630fc3777e022f5a9fbee6ac8</anchor>
+      <arglist>(const CharType *text) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a42972ad61834a7294ff7f94a22180edd</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>adb1d6ec589be410c204f1fccb5cf5137</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&lt;=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>aea85652a5d8451914940c5ab8c57457a</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&lt;</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a0ccfd4d331e8cf58752b028d50594c89</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&gt;=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a12962b8f2f4f1c1fc915f4e58e74b257</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&gt;</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a68a1856fd3c29c6640996b67be0d9b2d</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharType *</type>
+      <name>getAddress</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a1a5aaf03de84d5d24e4c946ee7589f3e</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>operator const CharType *</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a826ddb352c7b21e56bde0fbe0d3354d4</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isEmpty</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a5744ccb4d6dabaa78d2df13d65d7b650</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>operator*</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>ab6fdbc6eb56edcc7298749dfc82f7b42</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32 &amp;</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>ada878c4d6ba8bdc9f57f65a09708aafe</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32 &amp;</type>
+      <name>operator--</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a4ef8719527a684d2047a39916f7a064c</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>getAndAdvance</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>aaca5d475e0f557fbe0000cb0cc0b1cb9</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a6023ab109dca75943ea26ad13df30f89</anchor>
+      <arglist>(int) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a3fc8812aeeda962bdbcad89fadbe873f</anchor>
+      <arglist>(const int numToSkip) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>operator-=</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a1d7b6fb9c5580ceae72bc39dc444bd75</anchor>
+      <arglist>(const int numToSkip) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>ab9b1645d3b286eeaf7297d6b2b0e6165</anchor>
+      <arglist>(const int characterIndex) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32</type>
+      <name>operator+</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a41e029013b53a4712fd7da1a83116568</anchor>
+      <arglist>(const int numToSkip) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32</type>
+      <name>operator-</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>afef8f090df09473659d2f06fb2665811</anchor>
+      <arglist>(const int numToSkip) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>write</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>ab6e430e5559b3bd476b582194f030ccb</anchor>
+      <arglist>(const juce_wchar charToWrite) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>replaceChar</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>ab541a2ade9ac120c256b2b9945e7d51c</anchor>
+      <arglist>(const juce_wchar newChar) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeNull</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a04536fe8f1b023fe709c94997fe06909</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>length</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a6bdb2e818683ff69520086b994ee2484</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a90245898b7805215c4114fc45cac84d6</anchor>
+      <arglist>(const size_t maxCharsToCount) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a51864c69a9e4163fd2952fadd56d0010</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;end) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>sizeInBytes</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a63ba6119c81ddf0c41cf1ef442ccfe2b</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32</type>
+      <name>findTerminatingNull</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a25ad9c740bbacfea5b1f9a8b714f5a6f</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeAll</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a032acc015166cb39dcb84e2737fb479b</anchor>
+      <arglist>(const CharPointer &amp;src) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeAll</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>af50485bc3b2d2a4b41372f82cc2df874</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;src) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>writeWithDestByteLimit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a5054e6bc4be70eb71de26d85e46a4a77</anchor>
+      <arglist>(const CharPointer &amp;src, const int maxDestBytes) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeWithCharLimit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a402c7c338c7f28dcf80aa8ff76590303</anchor>
+      <arglist>(const CharPointer &amp;src, const int maxChars) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>abc9c42253a635df4af18c4fb42b985ee</anchor>
+      <arglist>(const CharPointer &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a8a22521754788363b60ea3c91200fa22</anchor>
+      <arglist>(const CharPointer &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a2404d93bb46a779ac9de7462970bb021</anchor>
+      <arglist>(const CharPointer &amp;other) const </arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCaseUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a3a963095ca3b5e73a563c0ed37f05392</anchor>
+      <arglist>(const CharPointer &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a7224b530d5a4b7f85a84c233730617b4</anchor>
+      <arglist>(const CharPointer &amp;stringToFind) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a832650f9582ea556c0a082ea0b3ab359</anchor>
+      <arglist>(const juce_wchar charToFind) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a92fdeefb673a21cd6feb866a95d6a651</anchor>
+      <arglist>(const juce_wchar charToFind, const bool ignoreCase) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isWhitespace</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a7cb7b7deb5197c2bd4f8db89ea02b45f</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isDigit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a7293ac13a2d3f063cff6c235207d89c1</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLetter</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>aa229aec7420a0b7c40f7b9fe59cdad59</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLetterOrDigit</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a0835958353f7e65b278b697ff42910f2</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isUpperCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a76c08de30b13e8b2422403cd420138dc</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLowerCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a08e6bd667c0e87819f890bd8c105af2a</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>toUpperCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a84fcd7f5e75061b104a5d3098d40602a</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>toLowerCase</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a46bdbda22ea0fd7617ae7202bd5d56e8</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getIntValue32</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a871eb9db869f288b024d6d7dc71c6538</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int64</type>
+      <name>getIntValue64</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a2614974564aecb92e575684a20506a19</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>getDoubleValue</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>aeb5f68430d1ee9d19e93bb04561c75e7</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32</type>
+      <name>findEndOfWhitespace</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a64a542ef0ff8188768305110b7cbf032</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32</type>
+      <name>atomicSwap</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>afbc4c1ddf9e46b50e818afb0a997862c</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;newValue)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>getBytesRequiredFor</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a88f8b371472a8e7272c084d5f3270773</anchor>
+      <arglist>(const juce_wchar) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>getBytesRequiredFor</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a82f6e2a7b127b235292922ebc11cdbf5</anchor>
+      <arglist>(const CharPointer &amp;text) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>canRepresent</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a89580c0aff9e7255c0fc76ad30cce7fd</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isValidString</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a05e1ad8b21dfecbac7cbbf90e873d4d1</anchor>
+      <arglist>(const CharType *dataToTest, int maxBytesToRead)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>getBytesRequiredFor</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a88f8b371472a8e7272c084d5f3270773</anchor>
+      <arglist>(const juce_wchar) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>getBytesRequiredFor</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a82f6e2a7b127b235292922ebc11cdbf5</anchor>
+      <arglist>(const CharPointer &amp;text) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>canRepresent</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a89580c0aff9e7255c0fc76ad30cce7fd</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isValidString</name>
+      <anchorfile>classjuce_1_1CharPointer__UTF32.html</anchorfile>
+      <anchor>a05e1ad8b21dfecbac7cbbf90e873d4d1</anchor>
+      <arglist>(const CharType *dataToTest, int maxBytesToRead)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>juce::CharPointer_ASCII</name>
+    <filename>classjuce_1_1CharPointer__ASCII.html</filename>
+    <member kind="typedef">
+      <type>char</type>
+      <name>CharType</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a457aefaf766c9d5b01c6fe4626ac3b4d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>char</type>
+      <name>CharType</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a457aefaf766c9d5b01c6fe4626ac3b4d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>CharPointer_ASCII</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ad814d414bf16bc61e90c934ec8909c26</anchor>
+      <arglist>(const CharType *const rawPointer) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>CharPointer_ASCII</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a265ce8691c9625a4d0e83269c826cacc</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a34b9b476e961d8060eb8d1d47df785f5</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a7bce11c197f0372ea6bb6a6ee76dba62</anchor>
+      <arglist>(const CharType *text) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a9530294334be06d64eff32023110360c</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>afa9c94790d7310f60d25c4f3698f5dcc</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&lt;=</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>aec06f38116e85b9856d60e54fde133bd</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&lt;</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ab1effec34fbd877439ffe56b60333a75</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&gt;=</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a4908753c220a3606448134de5e1d0d37</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&gt;</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ac0ed8b2588c452d54a3fedd57e796a3d</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharType *</type>
+      <name>getAddress</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a298437a21ec87c88900a7b5b2411d8ee</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>operator const CharType *</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a96f76eac36387ae310fe861e3185f22f</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isEmpty</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ac86d3896439fc80e83e192b2c612fae6</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>operator*</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>aa016bac03d53cb4d7ff2393324b5b800</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII &amp;</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a2d144e4b8e9cc490068741f301a24b44</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII &amp;</type>
+      <name>operator--</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ade1fa2daefed4de239a116df91d42bf2</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>getAndAdvance</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>acb78c6bc748173ec84ce5a6fb87d22fb</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ac677ec99cc2f0ccac6df60016ba9a020</anchor>
+      <arglist>(int) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>aa94d480f053ca336c48c3cc9f138686b</anchor>
+      <arglist>(const int numToSkip) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>operator-=</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a87b7629634195686b57a6d9b9c333bf1</anchor>
+      <arglist>(const int numToSkip) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>operator[]</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a8f1d8543808b84bc4bbe835b151c9e80</anchor>
+      <arglist>(const int characterIndex) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII</type>
+      <name>operator+</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a2a0bfc862552a871e8f9e4082b8862be</anchor>
+      <arglist>(const int numToSkip) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII</type>
+      <name>operator-</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a9109609d69b0100c66719870b2959362</anchor>
+      <arglist>(const int numToSkip) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>write</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a838cad58da46dd8b42192bb2073b0a1a</anchor>
+      <arglist>(const juce_wchar charToWrite) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>replaceChar</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>acc899889364e6db8ad21cb560ccfc565</anchor>
+      <arglist>(const juce_wchar newChar) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeNull</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a837da45f8bc8e81abd5dc6fa5400a770</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>length</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a24879aa4ea256bc88330378fab294141</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>af5b39795628e49609f590ad413d01bb9</anchor>
+      <arglist>(const size_t maxCharsToCount) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a347e8e9a88ecfd515a2c092d8eee3ca9</anchor>
+      <arglist>(const CharPointer_ASCII &amp;end) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>sizeInBytes</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a269e58450acb29fc73d6c845fdd121ce</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII</type>
+      <name>findTerminatingNull</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>af3a8a9da7fce97e6c67f9db4f9c158d9</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeAll</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ab980f41eff816fa175517e4d7ab4fe4e</anchor>
+      <arglist>(const CharPointer &amp;src) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeAll</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a00426f124d6c536803fc4f6f9244fe91</anchor>
+      <arglist>(const CharPointer_ASCII &amp;src) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>writeWithDestByteLimit</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a99892da9d80e006fbcfd94937744cfa5</anchor>
+      <arglist>(const CharPointer &amp;src, const int maxDestBytes) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeWithCharLimit</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ae198d94cd0af040d140196754f1d1a62</anchor>
+      <arglist>(const CharPointer &amp;src, const int maxChars) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>aaa9dc3b5124757b5024a3fed0a224c75</anchor>
+      <arglist>(const CharPointer &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a9fcf9956ea69efe213d570bb72ac7e9d</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a87ab18e6d6e349ecf00945a01c0b3830</anchor>
+      <arglist>(const CharPointer &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>aafd5b135e53151c2ee7fb70e327f4937</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a982106baf1ec7eba2253a9fc9d9bd9a5</anchor>
+      <arglist>(const CharPointer &amp;other) const </arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a5374c8357d4f1977618d8505fff5a6cd</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) const </arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCaseUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>aff2d9ed36b955484f2a2398f5a11bae5</anchor>
+      <arglist>(const CharPointer &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>aad8cc54865ad3601670cf6c93601e0a3</anchor>
+      <arglist>(const CharPointer &amp;stringToFind) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ab4fb47b7f0b38291320cbe8550102ea8</anchor>
+      <arglist>(const juce_wchar charToFind) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a72a2cf223cc77c9ad8c7e57faa5dca06</anchor>
+      <arglist>(const juce_wchar charToFind, const bool ignoreCase) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isWhitespace</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ac03a3dc2b47acf8c4080d3207cfe32e4</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isDigit</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a2779cc4ba81cac83005df6cccc6130b7</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLetter</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a6a4f174ecc970d3c517fa89d0969dca7</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLetterOrDigit</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a75dbc1aba06f5589e34e889946ce16ab</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isUpperCase</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>aa4600517915b6d78aaba90be9ae681a3</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLowerCase</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>af2406bd3030b47c63fd3f46810e6009f</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>toUpperCase</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a5b0539210ef84785ef1cf90c2b732394</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>toLowerCase</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a6df92a510d375de9a2fb945c5512b436</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getIntValue32</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a04ce14114a0b788884516b49d4acdb06</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int64</type>
+      <name>getIntValue64</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ae0acfd196d6866f79590f40d181e9543</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>getDoubleValue</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a1cb2d1d921139387cafbbe8be308fdea</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII</type>
+      <name>findEndOfWhitespace</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a98c57c732f995f5e288fd467c7001d63</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>CharPointer_ASCII</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ad814d414bf16bc61e90c934ec8909c26</anchor>
+      <arglist>(const CharType *const rawPointer) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>CharPointer_ASCII</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a265ce8691c9625a4d0e83269c826cacc</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a34b9b476e961d8060eb8d1d47df785f5</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a7bce11c197f0372ea6bb6a6ee76dba62</anchor>
+      <arglist>(const CharType *text) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a9530294334be06d64eff32023110360c</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>afa9c94790d7310f60d25c4f3698f5dcc</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&lt;=</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>aec06f38116e85b9856d60e54fde133bd</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&lt;</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ab1effec34fbd877439ffe56b60333a75</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&gt;=</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a4908753c220a3606448134de5e1d0d37</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&gt;</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ac0ed8b2588c452d54a3fedd57e796a3d</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharType *</type>
+      <name>getAddress</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a298437a21ec87c88900a7b5b2411d8ee</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>operator const CharType *</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a96f76eac36387ae310fe861e3185f22f</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isEmpty</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ac86d3896439fc80e83e192b2c612fae6</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>operator*</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>aa016bac03d53cb4d7ff2393324b5b800</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII &amp;</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a2d144e4b8e9cc490068741f301a24b44</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII &amp;</type>
+      <name>operator--</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ade1fa2daefed4de239a116df91d42bf2</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>getAndAdvance</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>acb78c6bc748173ec84ce5a6fb87d22fb</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII</type>
+      <name>operator++</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ac677ec99cc2f0ccac6df60016ba9a020</anchor>
+      <arglist>(int) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>aa94d480f053ca336c48c3cc9f138686b</anchor>
+      <arglist>(const int numToSkip) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>operator-=</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a87b7629634195686b57a6d9b9c333bf1</anchor>
+      <arglist>(const int numToSkip) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>operator[]</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a8f1d8543808b84bc4bbe835b151c9e80</anchor>
+      <arglist>(const int characterIndex) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII</type>
+      <name>operator+</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a2a0bfc862552a871e8f9e4082b8862be</anchor>
+      <arglist>(const int numToSkip) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII</type>
+      <name>operator-</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a9109609d69b0100c66719870b2959362</anchor>
+      <arglist>(const int numToSkip) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>write</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a838cad58da46dd8b42192bb2073b0a1a</anchor>
+      <arglist>(const juce_wchar charToWrite) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>replaceChar</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>acc899889364e6db8ad21cb560ccfc565</anchor>
+      <arglist>(const juce_wchar newChar) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeNull</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a837da45f8bc8e81abd5dc6fa5400a770</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>length</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a24879aa4ea256bc88330378fab294141</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>af5b39795628e49609f590ad413d01bb9</anchor>
+      <arglist>(const size_t maxCharsToCount) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>lengthUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a347e8e9a88ecfd515a2c092d8eee3ca9</anchor>
+      <arglist>(const CharPointer_ASCII &amp;end) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>sizeInBytes</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a269e58450acb29fc73d6c845fdd121ce</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII</type>
+      <name>findTerminatingNull</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>af3a8a9da7fce97e6c67f9db4f9c158d9</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeAll</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ab980f41eff816fa175517e4d7ab4fe4e</anchor>
+      <arglist>(const CharPointer &amp;src) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeAll</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a00426f124d6c536803fc4f6f9244fe91</anchor>
+      <arglist>(const CharPointer_ASCII &amp;src) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>writeWithDestByteLimit</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a99892da9d80e006fbcfd94937744cfa5</anchor>
+      <arglist>(const CharPointer &amp;src, const int maxDestBytes) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeWithCharLimit</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ae198d94cd0af040d140196754f1d1a62</anchor>
+      <arglist>(const CharPointer &amp;src, const int maxChars) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>aaa9dc3b5124757b5024a3fed0a224c75</anchor>
+      <arglist>(const CharPointer &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a9fcf9956ea69efe213d570bb72ac7e9d</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a87ab18e6d6e349ecf00945a01c0b3830</anchor>
+      <arglist>(const CharPointer &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>aafd5b135e53151c2ee7fb70e327f4937</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a982106baf1ec7eba2253a9fc9d9bd9a5</anchor>
+      <arglist>(const CharPointer &amp;other) const </arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCase</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a5374c8357d4f1977618d8505fff5a6cd</anchor>
+      <arglist>(const CharPointer_ASCII &amp;other) const </arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCaseUpTo</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>aff2d9ed36b955484f2a2398f5a11bae5</anchor>
+      <arglist>(const CharPointer &amp;other, const int maxChars) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>aad8cc54865ad3601670cf6c93601e0a3</anchor>
+      <arglist>(const CharPointer &amp;stringToFind) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ab4fb47b7f0b38291320cbe8550102ea8</anchor>
+      <arglist>(const juce_wchar charToFind) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a72a2cf223cc77c9ad8c7e57faa5dca06</anchor>
+      <arglist>(const juce_wchar charToFind, const bool ignoreCase) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isWhitespace</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ac03a3dc2b47acf8c4080d3207cfe32e4</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isDigit</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a2779cc4ba81cac83005df6cccc6130b7</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLetter</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a6a4f174ecc970d3c517fa89d0969dca7</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLetterOrDigit</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a75dbc1aba06f5589e34e889946ce16ab</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isUpperCase</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>aa4600517915b6d78aaba90be9ae681a3</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isLowerCase</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>af2406bd3030b47c63fd3f46810e6009f</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>toUpperCase</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a5b0539210ef84785ef1cf90c2b732394</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>toLowerCase</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a6df92a510d375de9a2fb945c5512b436</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getIntValue32</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a04ce14114a0b788884516b49d4acdb06</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int64</type>
+      <name>getIntValue64</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>ae0acfd196d6866f79590f40d181e9543</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>getDoubleValue</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a1cb2d1d921139387cafbbe8be308fdea</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_ASCII</type>
+      <name>findEndOfWhitespace</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a98c57c732f995f5e288fd467c7001d63</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>getBytesRequiredFor</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a3afc0a23a52ca2dbd568cb352a191738</anchor>
+      <arglist>(const juce_wchar) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>getBytesRequiredFor</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a2db45de3cc6e2789e9d65e7e58edc96c</anchor>
+      <arglist>(const CharPointer &amp;text) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>canRepresent</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a83c0be8180370cf5921816abc311bb4d</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isValidString</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a2532f98827dee44a6555c6a3743caae6</anchor>
+      <arglist>(const CharType *dataToTest, int maxBytesToRead)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>getBytesRequiredFor</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a3afc0a23a52ca2dbd568cb352a191738</anchor>
+      <arglist>(const juce_wchar) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static size_t</type>
+      <name>getBytesRequiredFor</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a2db45de3cc6e2789e9d65e7e58edc96c</anchor>
+      <arglist>(const CharPointer &amp;text) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>canRepresent</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a83c0be8180370cf5921816abc311bb4d</anchor>
+      <arglist>(juce_wchar character) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isValidString</name>
+      <anchorfile>classjuce_1_1CharPointer__ASCII.html</anchorfile>
+      <anchor>a2532f98827dee44a6555c6a3743caae6</anchor>
+      <arglist>(const CharType *dataToTest, int maxBytesToRead)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>juce::String</name>
+    <filename>classjuce_1_1String.html</filename>
+    <member kind="typedef">
+      <type>CharPointer_UTF8</type>
+      <name>CharPointerType</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aa0f328075b652b35de9597200fe178f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>CharPointer_UTF8</type>
+      <name>CharPointerType</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aa0f328075b652b35de9597200fe178f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a203891929610ecf14243a4f8ebb6cf59</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a7adb0bf2c06ac04647cb7e9a0475b2a3</anchor>
+      <arglist>(const String &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a57a5722c8e81ff78bf40ecdf8f3c5223</anchor>
+      <arglist>(const char *text)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>af7cb7dde1bbd487222da271447b33640</anchor>
+      <arglist>(const char *text, size_t maxChars)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a7eac4e9660b7e47116d300ff475d160d</anchor>
+      <arglist>(const wchar_t *text)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>abdc94823b8c7b37dd214fa70555c749a</anchor>
+      <arglist>(const wchar_t *text, size_t maxChars)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a048e404cc2cdd1e9addf1b0a7adc067a</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;text)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ac8fc7a3def624ab87d4bfa7d037ee3a7</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;text, size_t maxChars)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a8611381ed7dced8148ca72b7299456ff</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;start, const CharPointer_UTF8 &amp;end)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>acaf2d155ad97dddf5db4b7203282688a</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;text)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a4ba3238b690ff67dcc690a82fe484c61</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;text, size_t maxChars)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a5ebf3346c0803045a8b9415d3c4ba5cb</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;start, const CharPointer_UTF16 &amp;end)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>afd3a87085aa7b99170fd4444fb3d2b99</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;text)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a785f927b5b2a398e5f5249900e1da1d1</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;text, size_t maxChars)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a6b10bff83ac6b21e3b3a8351d8f88277</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;start, const CharPointer_UTF32 &amp;end)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a0a3dac1462b3c45175ab2d23bac381a3</anchor>
+      <arglist>(const CharPointer_ASCII &amp;text)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a23ceec93d765b5cadb6c56726d044f20</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>hashCode</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>abf0ac0bc6f63431b9f9427874c3e173a</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int64</type>
+      <name>hashCode64</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a3371bcdd88f8d51e0dff24ace767cb21</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>length</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a163b79b6dce5dc959a80faa9851c7de2</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>String &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ab09252359a1ea5fffd39f3eb5c82afb2</anchor>
+      <arglist>(const String &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>String &amp;</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a4e024fdaf6d8699f822bb7c872b5f78d</anchor>
+      <arglist>(const String &amp;stringToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>String &amp;</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a63adc6f821e1837325ddb96aeb2cd6b9</anchor>
+      <arglist>(const char *textToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>String &amp;</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a18f6f69fbe1e2152c7d9f0c08bc4e053</anchor>
+      <arglist>(const wchar_t *textToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>String &amp;</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a48c0c4fa6617934198639449883812fb</anchor>
+      <arglist>(int numberToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>String &amp;</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ab94d0d68d0e1a46cfaade0acd53bcc07</anchor>
+      <arglist>(char characterToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>String &amp;</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a15c2ff6be1e2b83bdee58815ba88b4ca</anchor>
+      <arglist>(wchar_t characterToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>append</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a23649e13534f0da1a9fc1a826e63eaa5</anchor>
+      <arglist>(const String &amp;textToAppend, size_t maxCharsToTake)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>appendCharPointer</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a5ce3105f370a6650c04bcc5622d0b3cb</anchor>
+      <arglist>(const CharPointer &amp;textToAppend, size_t maxCharsToTake)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>appendCharPointer</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>afbc8b461d5e3c63d0e0e42eefde3af78</anchor>
+      <arglist>(const CharPointer &amp;textToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isEmpty</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a1f0c785b3834720c20a115ff82f138de</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isNotEmpty</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>af5084463343819f82187154ccb62ea3a</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>equalsIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a0279405517381144c1210c5f892f1e06</anchor>
+      <arglist>(const String &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>equalsIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a1ecc8093e19c082f83fc82bdc08b0e99</anchor>
+      <arglist>(const wchar_t *other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>equalsIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a1ab50c76f5cac9918bf88869ccb67c69</anchor>
+      <arglist>(const char *other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ae9c98d84e716c102f00330b3f1ccd4be</anchor>
+      <arglist>(const String &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ae4df400668bff1676bebab9127f01163</anchor>
+      <arglist>(const char *other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a5691cef4224d74268ad6032e5071308a</anchor>
+      <arglist>(const wchar_t *other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a4a5f154675634195b389f485a03ff5b5</anchor>
+      <arglist>(const String &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareLexicographically</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a622fa5aa9d92c97078d3a5c025f043f9</anchor>
+      <arglist>(const String &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>startsWith</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a3b702de37b81467dc16b46860ad778dc</anchor>
+      <arglist>(const String &amp;text) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>startsWithChar</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a2dce5c77936d2dd9e65cc31bceebf239</anchor>
+      <arglist>(juce_wchar character) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>startsWithIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aaedc9febcd96530c905fe7c077baa1d3</anchor>
+      <arglist>(const String &amp;text) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>endsWith</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a35fede1c1255cdc7c0772de37c71490d</anchor>
+      <arglist>(const String &amp;text) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>endsWithChar</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a18e1b322e765165367422d0548ccd651</anchor>
+      <arglist>(juce_wchar character) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>endsWithIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ae4607cd1b31f0b3831a437e2cfc0fc96</anchor>
+      <arglist>(const String &amp;text) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>contains</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a05cd63d0488aec881fd86d8dfe986b7b</anchor>
+      <arglist>(const String &amp;text) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>containsChar</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a36435f4e4d2cdc51401c09cc9d62b0e7</anchor>
+      <arglist>(juce_wchar character) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>containsIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>acb702f6edc7e1c1110975950194adef1</anchor>
+      <arglist>(const String &amp;text) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>containsWholeWord</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ac816dacc310b2ffaae88b5127d35dddf</anchor>
+      <arglist>(const String &amp;wordToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>containsWholeWordIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a9703bda5cefd7b84f4cd855eb8bdd33a</anchor>
+      <arglist>(const String &amp;wordToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOfWholeWord</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a3c13fbaa5396fffbf183aee53ad27aab</anchor>
+      <arglist>(const String &amp;wordToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOfWholeWordIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a6c76612f6433a162057205e1f565fd6e</anchor>
+      <arglist>(const String &amp;wordToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>containsAnyOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ae6af914e2ce8d58aedf058f6047d9fd3</anchor>
+      <arglist>(const String &amp;charactersItMightContain) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>containsOnly</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>adc9f57f6bcf0a0bf23484be892970742</anchor>
+      <arglist>(const String &amp;charactersItMightContain) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>containsNonWhitespaceChars</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ac16803fdd63253b9df20d27f24bf22db</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>matchesWildcard</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a6fca495def8c9c8f1eb498d7f1be1260</anchor>
+      <arglist>(const String &amp;wildcard, bool ignoreCase) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOfChar</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a10184f1eb2efe351353fb265ea0c741f</anchor>
+      <arglist>(juce_wchar characterToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOfChar</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a0d26dd802c4c94fbf8a2bb5beafa3d21</anchor>
+      <arglist>(int startIndex, juce_wchar characterToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOfAnyOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a9bd95181d0788faee0ce9732e5c30322</anchor>
+      <arglist>(const String &amp;charactersToLookFor, int startIndex=0, bool ignoreCase=false) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a2afc13f717891c544c82e424c7d3cdac</anchor>
+      <arglist>(const String &amp;textToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a8d2b4c39150adb0b59e29acee0e018d7</anchor>
+      <arglist>(int startIndex, const String &amp;textToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOfIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a6c5436e10ea997b508b9ae7df02e86b9</anchor>
+      <arglist>(const String &amp;textToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOfIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a6a57f8252627c30bcf3989f9541bac0b</anchor>
+      <arglist>(int startIndex, const String &amp;textToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>lastIndexOfChar</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a97e754c6002722cb73edbbe79c27f3bd</anchor>
+      <arglist>(juce_wchar character) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>lastIndexOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>abf4582c4af8f96a3bbeb80e29b6b3559</anchor>
+      <arglist>(const String &amp;textToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>lastIndexOfIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a4450d1153f61307f3c3527fb1da5c2fa</anchor>
+      <arglist>(const String &amp;textToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>lastIndexOfAnyOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ad05bbdbb8f6ed425fcabce57165f5ce4</anchor>
+      <arglist>(const String &amp;charactersToLookFor, bool ignoreCase=false) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>const juce_wchar</type>
+      <name>operator[]</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aa321361b1bea7fc1efad89a965ad7118</anchor>
+      <arglist>(int index) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>getLastCharacter</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>abd4f0f4591c12ecc0f7736847ed513d6</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>substring</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a7fb5fd1d776ed76556671f6af09b7518</anchor>
+      <arglist>(int startIndex, int endIndex) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>substring</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aebd3237e79c710fef795aad3a72629ea</anchor>
+      <arglist>(int startIndex) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>dropLastCharacters</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aa17cca32071b791398f57b3a6ec30651</anchor>
+      <arglist>(int numberToDrop) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>getLastCharacters</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ab3cd53b7a1ade274720ff49e4160f6e3</anchor>
+      <arglist>(int numCharacters) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>fromFirstOccurrenceOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a420dc78fb331daf5011aecf5bdacf6a1</anchor>
+      <arglist>(const String &amp;substringToStartFrom, bool includeSubStringInResult, bool ignoreCase) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>fromLastOccurrenceOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a8ed8b09a2128ed718f4b22d2791ca549</anchor>
+      <arglist>(const String &amp;substringToFind, bool includeSubStringInResult, bool ignoreCase) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>upToFirstOccurrenceOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aa7fb355e1b849436803192342f360cea</anchor>
+      <arglist>(const String &amp;substringToEndWith, bool includeSubStringInResult, bool ignoreCase) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>upToLastOccurrenceOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>afb6a85802ec953f64c7d1915f9417a63</anchor>
+      <arglist>(const String &amp;substringToFind, bool includeSubStringInResult, bool ignoreCase) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>trim</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a43408dc2a5039b38d21f9829d4d1c563</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>trimStart</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>af55ba33076a51e741bdcb0a620a9a42c</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>trimEnd</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a7e7b29c8dd80664803ccc38995514fb9</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>trimCharactersAtStart</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ac28a77380dd4069862ecea51675f77b2</anchor>
+      <arglist>(const String &amp;charactersToTrim) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>trimCharactersAtEnd</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a20af25c00eccf14c4939a274efbabfa2</anchor>
+      <arglist>(const String &amp;charactersToTrim) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>toUpperCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a3871dac93fcf9bd57ccf00da31d61388</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>toLowerCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>afa8d4660a38314373187cf63d4eb0c2d</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>replaceSection</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a0dd9f1d6a79e259f5efea38d9e57209e</anchor>
+      <arglist>(int startIndex, int numCharactersToReplace, const String &amp;stringToInsert) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>replace</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a473dd25483880992005db0e324c3ab3c</anchor>
+      <arglist>(const String &amp;stringToReplace, const String &amp;stringToInsertInstead, bool ignoreCase=false) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>replaceCharacter</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aec846df683b203c314815d2c2de7ee5c</anchor>
+      <arglist>(juce_wchar characterToReplace, juce_wchar characterToInsertInstead) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>replaceCharacters</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a3526d0b6c4097fd89c56b4589450b1a3</anchor>
+      <arglist>(const String &amp;charactersToReplace, const String &amp;charactersToInsertInstead) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>retainCharacters</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a9248f814b6e8dcdaf42994986c56ef97</anchor>
+      <arglist>(const String &amp;charactersToRetain) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>removeCharacters</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a17f8b0ee9e1a03d1abef0bf6f724f0c9</anchor>
+      <arglist>(const String &amp;charactersToRemove) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>initialSectionContainingOnly</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ab674555ec7747bc11d8d01a02f2b84fa</anchor>
+      <arglist>(const String &amp;permittedCharacters) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>initialSectionNotContaining</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a2edfb9efbbd0bfe979d2f845b9a02265</anchor>
+      <arglist>(const String &amp;charactersToStopAt) const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isQuotedString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>afbd283f4416ada7ad6259b50e946b1ad</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>unquoted</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aa4556fc62e1990ed78d89d558942f26f</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>quoted</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ab705bff8e7d864c89d6659f45710c8bb</anchor>
+      <arglist>(juce_wchar quoteCharacter= &apos;&quot;&apos;) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>paddedLeft</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a01269b61b75e3d08a2e0579472806b79</anchor>
+      <arglist>(juce_wchar padCharacter, int minimumLength) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>paddedRight</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>afc8b02852b541afbab481159f4e6071d</anchor>
+      <arglist>(juce_wchar padCharacter, int minimumLength) const </arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a0f9e1d66b0ef338c02d0df78898160e2</anchor>
+      <arglist>(int decimalInteger)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a37cad6a80675ef07bdf8c37e8e72813d</anchor>
+      <arglist>(unsigned int decimalInteger)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a63955e882b95acd3e43cbf21dbf61c0e</anchor>
+      <arglist>(short decimalInteger)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a3658d4f4a152dfa6f3c81475d899ec7c</anchor>
+      <arglist>(unsigned short decimalInteger)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a03d12d9b95af659cd4ba6a9636a939c5</anchor>
+      <arglist>(int64 largeIntegerValue)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ae924e6b97d6df45135d6e157b3050a07</anchor>
+      <arglist>(uint64 largeIntegerValue)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a1db570c98439727752bf5379017fd14e</anchor>
+      <arglist>(float floatValue)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>af7c7ae001ce99d585cb668ea829fcbfa</anchor>
+      <arglist>(double doubleValue)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>af9eb447b81d87e924006e249c1f060dc</anchor>
+      <arglist>(float floatValue, int numberOfDecimalPlaces)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a518484aef81ea7555c8560d102910b3f</anchor>
+      <arglist>(double doubleValue, int numberOfDecimalPlaces)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getIntValue</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aeafb68fbf9400407a73b39fdaef6e0b0</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int64</type>
+      <name>getLargeIntValue</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ad7ba4430be82b121fb4a6bd8f4dc6ee7</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getTrailingIntValue</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a93714573ad6a70c4b092926063e23442</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>float</type>
+      <name>getFloatValue</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a2734b3c18e07a6ef67eb6183860425f8</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>getDoubleValue</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a8c57a1e6bb3d6b5e69f74ac7dbabd66f</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getHexValue32</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>afa860df49321c5d7c5dc5a8606bd1250</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int64</type>
+      <name>getHexValue64</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ada0b8c3c5cf68291ea75d3c3b86d7889</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>const CharPointerType &amp;</type>
+      <name>getCharPointer</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a29baad653b5252e56c2040925106a269</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8</type>
+      <name>toUTF8</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a2b2616c71a1873d0e05ad633f9b2847e</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16</type>
+      <name>toUTF16</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a12f6379dd01d6d6365fc502009376672</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32</type>
+      <name>toUTF32</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>abd3f1f79210d48e3ef0b747348068af5</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const wchar_t *</type>
+      <name>toWideCharPointer</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a7ad59974ea5e7c34c5cd2e3332b5390c</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getNumBytesAsUTF8</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a6ff186cb242e1324aeb167df7985e991</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>copyToUTF8</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a6d6bbbab248d8e5b60637033551d6f0a</anchor>
+      <arglist>(CharPointer_UTF8::CharType *destBuffer, int maxBufferSizeBytes) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>copyToUTF16</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a22a3a0e130227acda921458a94a4c720</anchor>
+      <arglist>(CharPointer_UTF16::CharType *destBuffer, int maxBufferSizeBytes) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>copyToUTF32</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a1c15f2dbfdcab0fce09b3f5f91bb75ce</anchor>
+      <arglist>(CharPointer_UTF32::CharType *destBuffer, int maxBufferSizeBytes) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>preallocateBytes</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a7363ce9a7c6cc1517cb7ed5ab027eb9d</anchor>
+      <arglist>(size_t numBytesNeeded)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>swapWith</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>af9aa8059795335ee9406d297287eff10</anchor>
+      <arglist>(String &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CFStringRef</type>
+      <name>toCFString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aeb6090130f36e5ec78715058547742f8</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>convertToPrecomposedUnicode</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aa8b54b66613677356a36c1a5d6b34b83</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a203891929610ecf14243a4f8ebb6cf59</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a7adb0bf2c06ac04647cb7e9a0475b2a3</anchor>
+      <arglist>(const String &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a57a5722c8e81ff78bf40ecdf8f3c5223</anchor>
+      <arglist>(const char *text)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>af7cb7dde1bbd487222da271447b33640</anchor>
+      <arglist>(const char *text, size_t maxChars)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a7eac4e9660b7e47116d300ff475d160d</anchor>
+      <arglist>(const wchar_t *text)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>abdc94823b8c7b37dd214fa70555c749a</anchor>
+      <arglist>(const wchar_t *text, size_t maxChars)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a048e404cc2cdd1e9addf1b0a7adc067a</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;text)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ac8fc7a3def624ab87d4bfa7d037ee3a7</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;text, size_t maxChars)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a8611381ed7dced8148ca72b7299456ff</anchor>
+      <arglist>(const CharPointer_UTF8 &amp;start, const CharPointer_UTF8 &amp;end)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>acaf2d155ad97dddf5db4b7203282688a</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;text)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a4ba3238b690ff67dcc690a82fe484c61</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;text, size_t maxChars)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a5ebf3346c0803045a8b9415d3c4ba5cb</anchor>
+      <arglist>(const CharPointer_UTF16 &amp;start, const CharPointer_UTF16 &amp;end)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>afd3a87085aa7b99170fd4444fb3d2b99</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;text)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a785f927b5b2a398e5f5249900e1da1d1</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;text, size_t maxChars)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a6b10bff83ac6b21e3b3a8351d8f88277</anchor>
+      <arglist>(const CharPointer_UTF32 &amp;start, const CharPointer_UTF32 &amp;end)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a0a3dac1462b3c45175ab2d23bac381a3</anchor>
+      <arglist>(const CharPointer_ASCII &amp;text)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a23ceec93d765b5cadb6c56726d044f20</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>hashCode</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>abf0ac0bc6f63431b9f9427874c3e173a</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int64</type>
+      <name>hashCode64</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a3371bcdd88f8d51e0dff24ace767cb21</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>length</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a163b79b6dce5dc959a80faa9851c7de2</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>String &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ab09252359a1ea5fffd39f3eb5c82afb2</anchor>
+      <arglist>(const String &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>String &amp;</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a4e024fdaf6d8699f822bb7c872b5f78d</anchor>
+      <arglist>(const String &amp;stringToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>String &amp;</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a63adc6f821e1837325ddb96aeb2cd6b9</anchor>
+      <arglist>(const char *textToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>String &amp;</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a18f6f69fbe1e2152c7d9f0c08bc4e053</anchor>
+      <arglist>(const wchar_t *textToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>String &amp;</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a48c0c4fa6617934198639449883812fb</anchor>
+      <arglist>(int numberToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>String &amp;</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ab94d0d68d0e1a46cfaade0acd53bcc07</anchor>
+      <arglist>(char characterToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>String &amp;</type>
+      <name>operator+=</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a15c2ff6be1e2b83bdee58815ba88b4ca</anchor>
+      <arglist>(wchar_t characterToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>append</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a23649e13534f0da1a9fc1a826e63eaa5</anchor>
+      <arglist>(const String &amp;textToAppend, size_t maxCharsToTake)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>appendCharPointer</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a5ce3105f370a6650c04bcc5622d0b3cb</anchor>
+      <arglist>(const CharPointer &amp;textToAppend, size_t maxCharsToTake)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>appendCharPointer</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>afbc8b461d5e3c63d0e0e42eefde3af78</anchor>
+      <arglist>(const CharPointer &amp;textToAppend)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isEmpty</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a1f0c785b3834720c20a115ff82f138de</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isNotEmpty</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>af5084463343819f82187154ccb62ea3a</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>equalsIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a0279405517381144c1210c5f892f1e06</anchor>
+      <arglist>(const String &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>equalsIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a1ecc8093e19c082f83fc82bdc08b0e99</anchor>
+      <arglist>(const wchar_t *other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>equalsIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a1ab50c76f5cac9918bf88869ccb67c69</anchor>
+      <arglist>(const char *other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ae9c98d84e716c102f00330b3f1ccd4be</anchor>
+      <arglist>(const String &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ae4df400668bff1676bebab9127f01163</anchor>
+      <arglist>(const char *other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compare</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a5691cef4224d74268ad6032e5071308a</anchor>
+      <arglist>(const wchar_t *other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a4a5f154675634195b389f485a03ff5b5</anchor>
+      <arglist>(const String &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>compareLexicographically</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a622fa5aa9d92c97078d3a5c025f043f9</anchor>
+      <arglist>(const String &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>startsWith</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a3b702de37b81467dc16b46860ad778dc</anchor>
+      <arglist>(const String &amp;text) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>startsWithChar</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a2dce5c77936d2dd9e65cc31bceebf239</anchor>
+      <arglist>(juce_wchar character) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>startsWithIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aaedc9febcd96530c905fe7c077baa1d3</anchor>
+      <arglist>(const String &amp;text) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>endsWith</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a35fede1c1255cdc7c0772de37c71490d</anchor>
+      <arglist>(const String &amp;text) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>endsWithChar</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a18e1b322e765165367422d0548ccd651</anchor>
+      <arglist>(juce_wchar character) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>endsWithIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ae4607cd1b31f0b3831a437e2cfc0fc96</anchor>
+      <arglist>(const String &amp;text) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>contains</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a05cd63d0488aec881fd86d8dfe986b7b</anchor>
+      <arglist>(const String &amp;text) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>containsChar</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a36435f4e4d2cdc51401c09cc9d62b0e7</anchor>
+      <arglist>(juce_wchar character) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>containsIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>acb702f6edc7e1c1110975950194adef1</anchor>
+      <arglist>(const String &amp;text) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>containsWholeWord</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ac816dacc310b2ffaae88b5127d35dddf</anchor>
+      <arglist>(const String &amp;wordToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>containsWholeWordIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a9703bda5cefd7b84f4cd855eb8bdd33a</anchor>
+      <arglist>(const String &amp;wordToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOfWholeWord</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a3c13fbaa5396fffbf183aee53ad27aab</anchor>
+      <arglist>(const String &amp;wordToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOfWholeWordIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a6c76612f6433a162057205e1f565fd6e</anchor>
+      <arglist>(const String &amp;wordToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>containsAnyOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ae6af914e2ce8d58aedf058f6047d9fd3</anchor>
+      <arglist>(const String &amp;charactersItMightContain) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>containsOnly</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>adc9f57f6bcf0a0bf23484be892970742</anchor>
+      <arglist>(const String &amp;charactersItMightContain) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>containsNonWhitespaceChars</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ac16803fdd63253b9df20d27f24bf22db</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>matchesWildcard</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a6fca495def8c9c8f1eb498d7f1be1260</anchor>
+      <arglist>(const String &amp;wildcard, bool ignoreCase) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOfChar</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a10184f1eb2efe351353fb265ea0c741f</anchor>
+      <arglist>(juce_wchar characterToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOfChar</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a0d26dd802c4c94fbf8a2bb5beafa3d21</anchor>
+      <arglist>(int startIndex, juce_wchar characterToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOfAnyOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a9bd95181d0788faee0ce9732e5c30322</anchor>
+      <arglist>(const String &amp;charactersToLookFor, int startIndex=0, bool ignoreCase=false) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a2afc13f717891c544c82e424c7d3cdac</anchor>
+      <arglist>(const String &amp;textToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a8d2b4c39150adb0b59e29acee0e018d7</anchor>
+      <arglist>(int startIndex, const String &amp;textToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOfIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a6c5436e10ea997b508b9ae7df02e86b9</anchor>
+      <arglist>(const String &amp;textToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>indexOfIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a6a57f8252627c30bcf3989f9541bac0b</anchor>
+      <arglist>(int startIndex, const String &amp;textToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>lastIndexOfChar</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a97e754c6002722cb73edbbe79c27f3bd</anchor>
+      <arglist>(juce_wchar character) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>lastIndexOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>abf4582c4af8f96a3bbeb80e29b6b3559</anchor>
+      <arglist>(const String &amp;textToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>lastIndexOfIgnoreCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a4450d1153f61307f3c3527fb1da5c2fa</anchor>
+      <arglist>(const String &amp;textToLookFor) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>lastIndexOfAnyOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ad05bbdbb8f6ed425fcabce57165f5ce4</anchor>
+      <arglist>(const String &amp;charactersToLookFor, bool ignoreCase=false) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>const juce_wchar</type>
+      <name>operator[]</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aa321361b1bea7fc1efad89a965ad7118</anchor>
+      <arglist>(int index) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>getLastCharacter</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>abd4f0f4591c12ecc0f7736847ed513d6</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>substring</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a7fb5fd1d776ed76556671f6af09b7518</anchor>
+      <arglist>(int startIndex, int endIndex) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>substring</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aebd3237e79c710fef795aad3a72629ea</anchor>
+      <arglist>(int startIndex) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>dropLastCharacters</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aa17cca32071b791398f57b3a6ec30651</anchor>
+      <arglist>(int numberToDrop) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>getLastCharacters</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ab3cd53b7a1ade274720ff49e4160f6e3</anchor>
+      <arglist>(int numCharacters) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>fromFirstOccurrenceOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a420dc78fb331daf5011aecf5bdacf6a1</anchor>
+      <arglist>(const String &amp;substringToStartFrom, bool includeSubStringInResult, bool ignoreCase) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>fromLastOccurrenceOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a8ed8b09a2128ed718f4b22d2791ca549</anchor>
+      <arglist>(const String &amp;substringToFind, bool includeSubStringInResult, bool ignoreCase) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>upToFirstOccurrenceOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aa7fb355e1b849436803192342f360cea</anchor>
+      <arglist>(const String &amp;substringToEndWith, bool includeSubStringInResult, bool ignoreCase) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>upToLastOccurrenceOf</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>afb6a85802ec953f64c7d1915f9417a63</anchor>
+      <arglist>(const String &amp;substringToFind, bool includeSubStringInResult, bool ignoreCase) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>trim</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a43408dc2a5039b38d21f9829d4d1c563</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>trimStart</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>af55ba33076a51e741bdcb0a620a9a42c</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>trimEnd</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a7e7b29c8dd80664803ccc38995514fb9</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>trimCharactersAtStart</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ac28a77380dd4069862ecea51675f77b2</anchor>
+      <arglist>(const String &amp;charactersToTrim) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>trimCharactersAtEnd</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a20af25c00eccf14c4939a274efbabfa2</anchor>
+      <arglist>(const String &amp;charactersToTrim) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>toUpperCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a3871dac93fcf9bd57ccf00da31d61388</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>toLowerCase</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>afa8d4660a38314373187cf63d4eb0c2d</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>replaceSection</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a0dd9f1d6a79e259f5efea38d9e57209e</anchor>
+      <arglist>(int startIndex, int numCharactersToReplace, const String &amp;stringToInsert) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>replace</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a473dd25483880992005db0e324c3ab3c</anchor>
+      <arglist>(const String &amp;stringToReplace, const String &amp;stringToInsertInstead, bool ignoreCase=false) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>replaceCharacter</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aec846df683b203c314815d2c2de7ee5c</anchor>
+      <arglist>(juce_wchar characterToReplace, juce_wchar characterToInsertInstead) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>replaceCharacters</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a3526d0b6c4097fd89c56b4589450b1a3</anchor>
+      <arglist>(const String &amp;charactersToReplace, const String &amp;charactersToInsertInstead) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>retainCharacters</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a9248f814b6e8dcdaf42994986c56ef97</anchor>
+      <arglist>(const String &amp;charactersToRetain) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>removeCharacters</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a17f8b0ee9e1a03d1abef0bf6f724f0c9</anchor>
+      <arglist>(const String &amp;charactersToRemove) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>initialSectionContainingOnly</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ab674555ec7747bc11d8d01a02f2b84fa</anchor>
+      <arglist>(const String &amp;permittedCharacters) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>initialSectionNotContaining</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a2edfb9efbbd0bfe979d2f845b9a02265</anchor>
+      <arglist>(const String &amp;charactersToStopAt) const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isQuotedString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>afbd283f4416ada7ad6259b50e946b1ad</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>unquoted</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aa4556fc62e1990ed78d89d558942f26f</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>quoted</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ab705bff8e7d864c89d6659f45710c8bb</anchor>
+      <arglist>(juce_wchar quoteCharacter= &apos;&quot;&apos;) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>paddedLeft</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a01269b61b75e3d08a2e0579472806b79</anchor>
+      <arglist>(juce_wchar padCharacter, int minimumLength) const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>paddedRight</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>afc8b02852b541afbab481159f4e6071d</anchor>
+      <arglist>(juce_wchar padCharacter, int minimumLength) const </arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a0f9e1d66b0ef338c02d0df78898160e2</anchor>
+      <arglist>(int decimalInteger)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a37cad6a80675ef07bdf8c37e8e72813d</anchor>
+      <arglist>(unsigned int decimalInteger)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a63955e882b95acd3e43cbf21dbf61c0e</anchor>
+      <arglist>(short decimalInteger)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a3658d4f4a152dfa6f3c81475d899ec7c</anchor>
+      <arglist>(unsigned short decimalInteger)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a03d12d9b95af659cd4ba6a9636a939c5</anchor>
+      <arglist>(int64 largeIntegerValue)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ae924e6b97d6df45135d6e157b3050a07</anchor>
+      <arglist>(uint64 largeIntegerValue)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a1db570c98439727752bf5379017fd14e</anchor>
+      <arglist>(float floatValue)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>af7c7ae001ce99d585cb668ea829fcbfa</anchor>
+      <arglist>(double doubleValue)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>af9eb447b81d87e924006e249c1f060dc</anchor>
+      <arglist>(float floatValue, int numberOfDecimalPlaces)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>String</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a518484aef81ea7555c8560d102910b3f</anchor>
+      <arglist>(double doubleValue, int numberOfDecimalPlaces)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getIntValue</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aeafb68fbf9400407a73b39fdaef6e0b0</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int64</type>
+      <name>getLargeIntValue</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ad7ba4430be82b121fb4a6bd8f4dc6ee7</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getTrailingIntValue</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a93714573ad6a70c4b092926063e23442</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>float</type>
+      <name>getFloatValue</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a2734b3c18e07a6ef67eb6183860425f8</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>getDoubleValue</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a8c57a1e6bb3d6b5e69f74ac7dbabd66f</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getHexValue32</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>afa860df49321c5d7c5dc5a8606bd1250</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int64</type>
+      <name>getHexValue64</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ada0b8c3c5cf68291ea75d3c3b86d7889</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>const CharPointerType &amp;</type>
+      <name>getCharPointer</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a29baad653b5252e56c2040925106a269</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF8</type>
+      <name>toUTF8</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a2b2616c71a1873d0e05ad633f9b2847e</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF16</type>
+      <name>toUTF16</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a12f6379dd01d6d6365fc502009376672</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>CharPointer_UTF32</type>
+      <name>toUTF32</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>abd3f1f79210d48e3ef0b747348068af5</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>const wchar_t *</type>
+      <name>toWideCharPointer</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a7ad59974ea5e7c34c5cd2e3332b5390c</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getNumBytesAsUTF8</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a6ff186cb242e1324aeb167df7985e991</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>copyToUTF8</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a6d6bbbab248d8e5b60637033551d6f0a</anchor>
+      <arglist>(CharPointer_UTF8::CharType *destBuffer, int maxBufferSizeBytes) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>copyToUTF16</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a22a3a0e130227acda921458a94a4c720</anchor>
+      <arglist>(CharPointer_UTF16::CharType *destBuffer, int maxBufferSizeBytes) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>copyToUTF32</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a1c15f2dbfdcab0fce09b3f5f91bb75ce</anchor>
+      <arglist>(CharPointer_UTF32::CharType *destBuffer, int maxBufferSizeBytes) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>preallocateBytes</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a7363ce9a7c6cc1517cb7ed5ab027eb9d</anchor>
+      <arglist>(size_t numBytesNeeded)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>swapWith</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>af9aa8059795335ee9406d297287eff10</anchor>
+      <arglist>(String &amp;other) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>CFStringRef</type>
+      <name>toCFString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aeb6090130f36e5ec78715058547742f8</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>convertToPrecomposedUnicode</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aa8b54b66613677356a36c1a5d6b34b83</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>charToString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a128e862810bc5e3f16cb70c3c9751867</anchor>
+      <arglist>(juce_wchar character)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>repeatedString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aa9136c289c3531407c5cc830a49bc75c</anchor>
+      <arglist>(const String &amp;stringToRepeat, int numberOfTimesToRepeat)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>createStringFromData</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a327ddbc31e9379e4bbfa234cd226bd79</anchor>
+      <arglist>(const void *data, int size)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>formatted</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a604d1f8379712f17f0f3520178e8bd28</anchor>
+      <arglist>(const String formatString,...)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>toHexString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a013b0553a527783148a76143dc5cdcee</anchor>
+      <arglist>(int number)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>toHexString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ae8e333fe0c430d9a2d44fd721be343af</anchor>
+      <arglist>(int64 number)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>toHexString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a0e88610649cb340a6b95ec79f3075bb2</anchor>
+      <arglist>(short number)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>toHexString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a831b895153095cdb2ccaabb85c86a5dc</anchor>
+      <arglist>(const void *data, int size, int groupSize=1)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>fromUTF8</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ae26e2af88f5237fd0b23de58cb168223</anchor>
+      <arglist>(const char *utf8buffer, int bufferSizeBytes=-1)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>fromCFString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>acf5516d689837942002ce40d753dcfb5</anchor>
+      <arglist>(CFStringRef cfString)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>charToString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a128e862810bc5e3f16cb70c3c9751867</anchor>
+      <arglist>(juce_wchar character)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>repeatedString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>aa9136c289c3531407c5cc830a49bc75c</anchor>
+      <arglist>(const String &amp;stringToRepeat, int numberOfTimesToRepeat)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>createStringFromData</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a327ddbc31e9379e4bbfa234cd226bd79</anchor>
+      <arglist>(const void *data, int size)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>formatted</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a604d1f8379712f17f0f3520178e8bd28</anchor>
+      <arglist>(const String formatString,...)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>toHexString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a013b0553a527783148a76143dc5cdcee</anchor>
+      <arglist>(int number)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>toHexString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ae8e333fe0c430d9a2d44fd721be343af</anchor>
+      <arglist>(int64 number)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>toHexString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a0e88610649cb340a6b95ec79f3075bb2</anchor>
+      <arglist>(short number)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>toHexString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>a831b895153095cdb2ccaabb85c86a5dc</anchor>
+      <arglist>(const void *data, int size, int groupSize=1)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>fromUTF8</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>ae26e2af88f5237fd0b23de58cb168223</anchor>
+      <arglist>(const char *utf8buffer, int bufferSizeBytes=-1)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static String</type>
+      <name>fromCFString</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>acf5516d689837942002ce40d753dcfb5</anchor>
+      <arglist>(CFStringRef cfString)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const String</type>
+      <name>empty</name>
+      <anchorfile>classjuce_1_1String.html</anchorfile>
+      <anchor>adb71950e23edb0413a99b55962773fd9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>juce::Logger</name>
+    <filename>classjuce_1_1Logger.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~Logger</name>
+      <anchorfile>classjuce_1_1Logger.html</anchorfile>
+      <anchor>aa4baf591d5097163ad95cd0fa541b99c</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void JUCE_CALLTYPE</type>
+      <name>setCurrentLogger</name>
+      <anchorfile>classjuce_1_1Logger.html</anchorfile>
+      <anchor>af5fa755bfffac871437a4abbaafb912f</anchor>
+      <arglist>(Logger *newLogger, bool deleteOldLogger=false)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void JUCE_CALLTYPE</type>
+      <name>writeToLog</name>
+      <anchorfile>classjuce_1_1Logger.html</anchorfile>
+      <anchor>a3432c0fe0d5862abf9825e399ab0380e</anchor>
+      <arglist>(const String &amp;message)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void JUCE_CALLTYPE</type>
+      <name>outputDebugString</name>
+      <anchorfile>classjuce_1_1Logger.html</anchorfile>
+      <anchor>a31a17ec22a9d30a705bedbb6bf2e083e</anchor>
+      <arglist>(const String &amp;text)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>Logger</name>
+      <anchorfile>classjuce_1_1Logger.html</anchorfile>
+      <anchor>ab2ef8853d1b414db705cb1c874a1ebb7</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>logMessage</name>
+      <anchorfile>classjuce_1_1Logger.html</anchorfile>
+      <anchor>a1fc4c80279a26845af6dd67a2e6617f1</anchor>
+      <arglist>(const String &amp;message)=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>juce::LeakedObjectDetector</name>
+    <filename>classjuce_1_1LeakedObjectDetector.html</filename>
+    <templarg></templarg>
+    <member kind="function">
+      <type></type>
+      <name>LeakedObjectDetector</name>
+      <anchorfile>classjuce_1_1LeakedObjectDetector.html</anchorfile>
+      <anchor>a635069feb3e54f5cb9a53a95a14aec01</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>LeakedObjectDetector</name>
+      <anchorfile>classjuce_1_1LeakedObjectDetector.html</anchorfile>
+      <anchor>a2f2d502bada27aee1513a58964374696</anchor>
+      <arglist>(const LeakedObjectDetector &amp;) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~LeakedObjectDetector</name>
+      <anchorfile>classjuce_1_1LeakedObjectDetector.html</anchorfile>
+      <anchor>ab8b2a6a92f1a335563a5b148f98d3370</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>juce::TypeHelpers::ParameterType</name>
+    <filename>structjuce_1_1TypeHelpers_1_1ParameterType.html</filename>
+    <templarg></templarg>
+    <member kind="typedef">
+      <type>const Type &amp;</type>
+      <name>type</name>
+      <anchorfile>structjuce_1_1TypeHelpers_1_1ParameterType.html</anchorfile>
+      <anchor>aafdf4727ad33d696876d68d2e36fceec</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>juce::TypeHelpers::SmallestFloatType</name>
+    <filename>structjuce_1_1TypeHelpers_1_1SmallestFloatType.html</filename>
+    <templarg></templarg>
+    <member kind="typedef">
+      <type>float</type>
+      <name>type</name>
+      <anchorfile>structjuce_1_1TypeHelpers_1_1SmallestFloatType.html</anchorfile>
+      <anchor>a562d17a15e8e0a93267a55d9b32e2d40</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>juce::TypeHelpers::SmallestFloatType&lt; double &gt;</name>
+    <filename>structjuce_1_1TypeHelpers_1_1SmallestFloatType_3_01double_01_4.html</filename>
+    <member kind="typedef">
+      <type>double</type>
+      <name>type</name>
+      <anchorfile>structjuce_1_1TypeHelpers_1_1SmallestFloatType_3_01double_01_4.html</anchorfile>
+      <anchor>ad3a259acae6597f728a25dda5d72dff3</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="struct">
     <name>TypeHelpers::ParameterType</name>

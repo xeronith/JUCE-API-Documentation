@@ -126,19 +126,23 @@ Public Types</h2></td></tr>
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6daef9753356e71accab672577947992"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#a6daef9753356e71accab672577947992">TabbedButtonBar</a> (<a class="el" href="classTabbedButtonBar.html#a63e34dd62f1b80ec99412c6115b39afb">Orientation</a> orientation)</td></tr>
-<tr class="memdesc:a6daef9753356e71accab672577947992"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classTabbedButtonBar.html" title="A vertical or horizontal bar containing tabs that you can select.">TabbedButtonBar</a> with a given placement.  <a href="#a6daef9753356e71accab672577947992"></a><br/></td></tr>
+<tr class="memdesc:a6daef9753356e71accab672577947992"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classTabbedButtonBar.html" title="A vertical or horizontal bar containing tabs that you can select.">TabbedButtonBar</a> with a given orientation.  <a href="#a6daef9753356e71accab672577947992"></a><br/></td></tr>
 <tr class="memitem:a4fbf98a176d5239f95b973e8e194c12f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#a4fbf98a176d5239f95b973e8e194c12f">~TabbedButtonBar</a> ()</td></tr>
 <tr class="memdesc:a4fbf98a176d5239f95b973e8e194c12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a4fbf98a176d5239f95b973e8e194c12f"></a><br/></td></tr>
 <tr class="memitem:af3ab3b5919eae222903e948ca85e3bd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#af3ab3b5919eae222903e948ca85e3bd9">setOrientation</a> (<a class="el" href="classTabbedButtonBar.html#a63e34dd62f1b80ec99412c6115b39afb">Orientation</a> orientation)</td></tr>
 <tr class="memdesc:af3ab3b5919eae222903e948ca85e3bd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the bar's orientation.  <a href="#af3ab3b5919eae222903e948ca85e3bd9"></a><br/></td></tr>
 <tr class="memitem:a098c87b282112a9dbf6246a17a3bc954"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTabbedButtonBar.html#a63e34dd62f1b80ec99412c6115b39afb">Orientation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#a098c87b282112a9dbf6246a17a3bc954">getOrientation</a> () const noexcept</td></tr>
-<tr class="memdesc:a098c87b282112a9dbf6246a17a3bc954"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current orientation.  <a href="#a098c87b282112a9dbf6246a17a3bc954"></a><br/></td></tr>
+<tr class="memdesc:a098c87b282112a9dbf6246a17a3bc954"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bar's current orientation.  <a href="#a098c87b282112a9dbf6246a17a3bc954"></a><br/></td></tr>
+<tr class="memitem:a934df0eba879391671c70e884e06414c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#a934df0eba879391671c70e884e06414c">isVertical</a> () const noexcept</td></tr>
+<tr class="memdesc:a934df0eba879391671c70e884e06414c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the orientation is TabsAtLeft or TabsAtRight.  <a href="#a934df0eba879391671c70e884e06414c"></a><br/></td></tr>
+<tr class="memitem:a44df869b4403b979c451a0cab3f4f5b8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#a44df869b4403b979c451a0cab3f4f5b8">getThickness</a> () const noexcept</td></tr>
+<tr class="memdesc:a44df869b4403b979c451a0cab3f4f5b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the thickness of the bar, which may be its width or height, depending on the orientation.  <a href="#a44df869b4403b979c451a0cab3f4f5b8"></a><br/></td></tr>
 <tr class="memitem:a80abbd24572569d9c3442665161d2b77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#a80abbd24572569d9c3442665161d2b77">setMinimumTabScaleFactor</a> (double newMinimumScale)</td></tr>
 <tr class="memdesc:a80abbd24572569d9c3442665161d2b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the minimum scale factor to which the tabs can be compressed when trying to fit a lot of tabs on-screen.  <a href="#a80abbd24572569d9c3442665161d2b77"></a><br/></td></tr>
 <tr class="memitem:a984f83d6e5a2e33cffa4772c838b2ecb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#a984f83d6e5a2e33cffa4772c838b2ecb">clearTabs</a> ()</td></tr>
 <tr class="memdesc:a984f83d6e5a2e33cffa4772c838b2ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all the tabs from the bar.  <a href="#a984f83d6e5a2e33cffa4772c838b2ecb"></a><br/></td></tr>
-<tr class="memitem:a22e484173a42134924bfce754d8a5d30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#a22e484173a42134924bfce754d8a5d30">addTab</a> (const <a class="el" href="classString.html">String</a> &amp;tabName, const <a class="el" href="classColour.html">Colour</a> &amp;tabBackgroundColour, int insertIndex=-1)</td></tr>
-<tr class="memdesc:a22e484173a42134924bfce754d8a5d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a tab to the bar.  <a href="#a22e484173a42134924bfce754d8a5d30"></a><br/></td></tr>
+<tr class="memitem:ad0e4670007dcb45c88b6b8e376885a3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#ad0e4670007dcb45c88b6b8e376885a3c">addTab</a> (const <a class="el" href="classString.html">String</a> &amp;tabName, const <a class="el" href="classColour.html">Colour</a> &amp;tabBackgroundColour, int insertIndex)</td></tr>
+<tr class="memdesc:ad0e4670007dcb45c88b6b8e376885a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a tab to the bar.  <a href="#ad0e4670007dcb45c88b6b8e376885a3c"></a><br/></td></tr>
 <tr class="memitem:a81bb9c90e85698fbc3ffc713954a6151"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#a81bb9c90e85698fbc3ffc713954a6151">setTabName</a> (int tabIndex, const <a class="el" href="classString.html">String</a> &amp;newName)</td></tr>
 <tr class="memdesc:a81bb9c90e85698fbc3ffc713954a6151"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the name of one of the tabs.  <a href="#a81bb9c90e85698fbc3ffc713954a6151"></a><br/></td></tr>
 <tr class="memitem:a076010c009909a444f84129a69ac61d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#a076010c009909a444f84129a69ac61d4">removeTab</a> (int tabIndex)</td></tr>
@@ -192,7 +196,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>The placement of the tab-bar. </p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTabbedButtonBar.html#af3ab3b5919eae222903e948ca85e3bd9" title="Changes the bar&#39;s orientation.">setOrientation</a>, <a class="el" href="classTabbedButtonBar.html#a098c87b282112a9dbf6246a17a3bc954" title="Returns the current orientation.">getOrientation</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTabbedButtonBar.html#af3ab3b5919eae222903e948ca85e3bd9" title="Changes the bar&#39;s orientation.">setOrientation</a>, <a class="el" href="classTabbedButtonBar.html#a098c87b282112a9dbf6246a17a3bc954" title="Returns the bar&#39;s current orientation.">getOrientation</a> </dd></dl>
 <dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
 <tr><td valign="top"><em><a class="anchor" id="a63e34dd62f1b80ec99412c6115b39afbae2743948018b19a1834ec236df4876b1"></a>TabsAtTop</em>&nbsp;</td><td>
 </td></tr>
@@ -259,7 +263,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Creates a <a class="el" href="classTabbedButtonBar.html" title="A vertical or horizontal bar containing tabs that you can select.">TabbedButtonBar</a> with a given placement. </p>
+<p>Creates a <a class="el" href="classTabbedButtonBar.html" title="A vertical or horizontal bar containing tabs that you can select.">TabbedButtonBar</a> with a given orientation. </p>
 <p>You can change the orientation later if you need to. </p>
 
 </div>
@@ -317,8 +321,46 @@ Protected Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Returns the current orientation. </p>
+<p>Returns the bar's current orientation. </p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTabbedButtonBar.html#af3ab3b5919eae222903e948ca85e3bd9" title="Changes the bar&#39;s orientation.">setOrientation</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a934df0eba879391671c70e884e06414c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classTabbedButtonBar.html#a934df0eba879391671c70e884e06414c">TabbedButtonBar::isVertical</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns true if the orientation is TabsAtLeft or TabsAtRight. </p>
+
+</div>
+</div>
+<a class="anchor" id="a44df869b4403b979c451a0cab3f4f5b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classTabbedButtonBar.html#a44df869b4403b979c451a0cab3f4f5b8">TabbedButtonBar::getThickness</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns the thickness of the bar, which may be its width or height, depending on the orientation. </p>
+
+<p>References <a class="el" href="classComponent.html#a42c61c2d914e55b2395f6a84cf8e8aa2">Component::getHeight()</a>, and <a class="el" href="classComponent.html#a146a947eb5d4b2e08f8e91b2e3f706c1">Component::getWidth()</a>.</p>
 
 </div>
 </div>
@@ -356,16 +398,16 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Deletes all the tabs from the bar. </p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTabbedButtonBar.html#a22e484173a42134924bfce754d8a5d30" title="Adds a tab to the bar.">addTab</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTabbedButtonBar.html#ad0e4670007dcb45c88b6b8e376885a3c" title="Adds a tab to the bar.">addTab</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a22e484173a42134924bfce754d8a5d30"></a>
+<a class="anchor" id="ad0e4670007dcb45c88b6b8e376885a3c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classTabbedButtonBar.html#a22e484173a42134924bfce754d8a5d30">TabbedButtonBar::addTab</a> </td>
+          <td class="memname">void <a class="el" href="classTabbedButtonBar.html#ad0e4670007dcb45c88b6b8e376885a3c">TabbedButtonBar::addTab</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
           <td class="paramname"><em>tabName</em>, </td>
@@ -380,7 +422,7 @@ Protected Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>insertIndex</em> = <code>-1</code>&#160;</td>
+          <td class="paramname"><em>insertIndex</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -392,8 +434,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Adds a tab to the bar. </p>
-<p>Tabs are added in left-to-right reading order.</p>
-<p>If this is the first tab added, it'll also be automatically selected. </p>
+<p>Tabs are added in left-to-right reading order. If this is the first tab added, it'll also be automatically selected. </p>
 
 </div>
 </div>
@@ -675,7 +716,6 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Callback method to indicate that the user has right-clicked on a tab. </p>
-<p>(Or ctrl-clicked on the Mac) </p>
 
 </div>
 </div>
@@ -695,7 +735,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Returns the colour of a tab. </p>
-<p>This is the colour that was specified in <a class="el" href="classTabbedButtonBar.html#a22e484173a42134924bfce754d8a5d30" title="Adds a tab to the bar.">addTab()</a>. </p>
+<p>This is the colour that was specified in <a class="el" href="classTabbedButtonBar.html#ad0e4670007dcb45c88b6b8e376885a3c" title="Adds a tab to the bar.">addTab()</a>. </p>
 
 </div>
 </div>
@@ -725,7 +765,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Changes the background colour of a tab. </p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTabbedButtonBar.html#a22e484173a42134924bfce754d8a5d30" title="Adds a tab to the bar.">addTab</a>, <a class="el" href="classTabbedButtonBar.html#a4835727f2e8eda1a09694c3eb46baa32" title="Returns the colour of a tab.">getTabBackgroundColour</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTabbedButtonBar.html#ad0e4670007dcb45c88b6b8e376885a3c" title="Adds a tab to the bar.">addTab</a>, <a class="el" href="classTabbedButtonBar.html#a4835727f2e8eda1a09694c3eb46baa32" title="Returns the colour of a tab.">getTabBackgroundColour</a> </dd></dl>
 
 </div>
 </div>

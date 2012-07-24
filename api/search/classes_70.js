@@ -2,6 +2,7 @@ var searchData=
 [
   ['parameters',['Parameters',['../structReverb_1_1Parameters.html',1,'Reverb']]],
   ['parametertype',['ParameterType',['../structTypeHelpers_1_1ParameterType.html',1,'TypeHelpers']]],
+  ['parametertype',['ParameterType',['../structjuce_1_1TypeHelpers_1_1ParameterType.html',1,'juce::TypeHelpers']]],
   ['parseerror',['ParseError',['../classExpression_1_1ParseError.html',1,'Expression']]],
   ['path',['Path',['../classPath.html',1,'']]],
   ['pathflatteningiterator',['PathFlatteningIterator',['../classPathFlatteningIterator.html',1,'']]],

@@ -135,6 +135,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a89a3cbef850679516bccdab10e9a5305"><td class="mdescLeft">&#160;</td><td class="mdescRight">WINDOWS ONLY - This returns the HINSTANCE of the current module.  <a href="#a89a3cbef850679516bccdab10e9a5305"></a><br/></td></tr>
 <tr class="memitem:a82a86c921a568fe5af4968de5c42adb7"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#a82a86c921a568fe5af4968de5c42adb7">setCurrentModuleInstanceHandle</a> (void *newHandle) noexcept</td></tr>
 <tr class="memdesc:a82a86c921a568fe5af4968de5c42adb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">WINDOWS ONLY - Sets a new module handle to be used by the library.  <a href="#a82a86c921a568fe5af4968de5c42adb7"></a><br/></td></tr>
+<tr class="memitem:abce4be274d956bdb4f7c36398e776bfb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#abce4be274d956bdb4f7c36398e776bfb">setDockIconVisible</a> (bool isVisible)</td></tr>
+<tr class="memdesc:abce4be274d956bdb4f7c36398e776bfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">OSX ONLY - Shows or hides the OSX dock icon for this app.  <a href="#abce4be274d956bdb4f7c36398e776bfb"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Represents the current executable's process. </p>
@@ -395,6 +397,25 @@ Static Public Member Functions</h2></td></tr>
 <p>WINDOWS ONLY - Sets a new module handle to be used by the library. </p>
 <p>The parameter type is a void* to avoid being dependent on windows.h, but it actually expects a HINSTANCE value.</p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classProcess.html#a89a3cbef850679516bccdab10e9a5305" title="WINDOWS ONLY - This returns the HINSTANCE of the current module.">getCurrentModuleInstanceHandle()</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abce4be274d956bdb4f7c36398e776bfb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="classProcess.html#abce4be274d956bdb4f7c36398e776bfb">Process::setDockIconVisible</a> </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isVisible</em></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>OSX ONLY - Shows or hides the OSX dock icon for this app. </p>
 
 </div>
 </div>

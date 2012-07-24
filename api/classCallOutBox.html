@@ -94,7 +94,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">CallOutBox Class Reference</div>  </div>
 </div><!--header-->
@@ -125,6 +126,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a76f7ef8ceb74d8c5bacfa674eb12c5b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCallOutBox.html#a76f7ef8ceb74d8c5bacfa674eb12c5b3">inputAttemptWhenModal</a> ()</td></tr>
 <tr class="memitem:ae9112142c41bb4a32a77f3403522513e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCallOutBox.html#ae9112142c41bb4a32a77f3403522513e">keyPressed</a> (const <a class="el" href="classKeyPress.html">KeyPress</a> &amp;key)</td></tr>
 <tr class="memitem:a89c6d582f95613f306a3cd20a3522740"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCallOutBox.html#a89c6d582f95613f306a3cd20a3522740">handleCommandMessage</a> (int commandId)</td></tr>
+<tr><td colspan="2"><h2><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a478bba74c26f2f875227a0e3bba1036f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCallOutBox.html#a478bba74c26f2f875227a0e3bba1036f">launchAsynchronously</a> (<a class="el" href="classComponent.html">Component</a> &amp;componentToPointTo, <a class="el" href="classComponent.html">Component</a> *contentComponent, <a class="el" href="classComponent.html">Component</a> *parentComponent)</td></tr>
+<tr class="memdesc:a478bba74c26f2f875227a0e3bba1036f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will launch a callout box containing the given content, pointing to the specified target component.  <a href="#a478bba74c26f2f875227a0e3bba1036f"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A box with a small arrow that can be used as a temporary pop-up window to show extra controls when a button or other component is clicked. </p>
@@ -255,6 +260,44 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a478bba74c26f2f875227a0e3bba1036f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="classCallOutBox.html#a478bba74c26f2f875227a0e3bba1036f">CallOutBox::launchAsynchronously</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classComponent.html">Component</a> &amp;&#160;</td>
+          <td class="paramname"><em>componentToPointTo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classComponent.html">Component</a> *&#160;</td>
+          <td class="paramname"><em>contentComponent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classComponent.html">Component</a> *&#160;</td>
+          <td class="paramname"><em>parentComponent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>This will launch a callout box containing the given content, pointing to the specified target component. </p>
+<p>This method will create and display a callout, returning immediately, after which the box will continue to run modally until the user clicks on some other component, at which point it will be dismissed automatically.</p>
+<p>The content component that is passed-in will be owned by the callout, which will delete it when it is dismissed.</p>
+<p>The parentComponent parameter can be a nullptr if you want the window to appear on the desktop. </p>
 
 </div>
 </div>

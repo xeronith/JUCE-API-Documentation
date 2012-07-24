@@ -17,5 +17,6 @@ var searchData=
   ['burnprogresslistener',['BurnProgressListener',['../classAudioCDBurner_1_1BurnProgressListener.html',1,'AudioCDBurner']]],
   ['button',['Button',['../classButton.html',1,'']]],
   ['buttonpropertycomponent',['ButtonPropertyComponent',['../classButtonPropertyComponent.html',1,'']]],
-  ['byteorder',['ByteOrder',['../classByteOrder.html',1,'']]]
+  ['byteorder',['ByteOrder',['../classByteOrder.html',1,'']]],
+  ['byteorder',['ByteOrder',['../classjuce_1_1ByteOrder.html',1,'juce']]]
 ];

@@ -166,7 +166,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5f938165e7ccc943c4503b817c31d89f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback method to indicate that the user has right-clicked on a tab.  <a href="#a5f938165e7ccc943c4503b817c31d89f"></a><br/></td></tr>
 <tr class="memitem:adc33f7646d65444aed8fa6e02413ebdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTabbedButtonBar.html">TabbedButtonBar</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedComponent.html#adc33f7646d65444aed8fa6e02413ebdd">getTabbedButtonBar</a> () const noexcept</td></tr>
 <tr class="memdesc:adc33f7646d65444aed8fa6e02413ebdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the tab button bar component that is being used.  <a href="#adc33f7646d65444aed8fa6e02413ebdd"></a><br/></td></tr>
-<tr class="memitem:a5827a8cfc3881a7ea1cbd6866c21a684"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedComponent.html#a5827a8cfc3881a7ea1cbd6866c21a684">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g)</td></tr>
+<tr class="memitem:a8836b69f1a50a1031d84266e552e963e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedComponent.html#a8836b69f1a50a1031d84266e552e963e">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;)</td></tr>
 <tr class="memitem:afc4c6c4183b5ebeedec65a9d5a0344d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedComponent.html#afc4c6c4183b5ebeedec65a9d5a0344d4">resized</a> ()</td></tr>
 <tr class="memitem:a6a2d9006dc83b22be300f6a9411f1d01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedComponent.html#a6a2d9006dc83b22be300f6a9411f1d01">lookAndFeelChanged</a> ()</td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
@@ -286,7 +286,7 @@ Protected Attributes</h2></td></tr>
 <div class="memdoc">
 
 <p>Returns the current tab placement. </p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTabbedComponent.html#ad982540d7f5a188fa012550971ebb4d5" title="Changes the placement of the tabs.">setOrientation</a>, <a class="el" href="classTabbedButtonBar.html#a098c87b282112a9dbf6246a17a3bc954" title="Returns the current orientation.">TabbedButtonBar::getOrientation</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTabbedComponent.html#ad982540d7f5a188fa012550971ebb4d5" title="Changes the placement of the tabs.">setOrientation</a>, <a class="el" href="classTabbedButtonBar.html#a098c87b282112a9dbf6246a17a3bc954" title="Returns the bar&#39;s current orientation.">TabbedButtonBar::getOrientation</a> </dd></dl>
 
 </div>
 </div>
@@ -433,8 +433,8 @@ Protected Attributes</h2></td></tr>
 <div class="memdoc">
 
 <p>Adds a tab to the tab-bar. </p>
-<p>The component passed in will be shown for the tab, and if deleteComponentWhenNotNeeded is true, it will be deleted when the tab is removed or when this object is deleted.</p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTabbedButtonBar.html#a22e484173a42134924bfce754d8a5d30" title="Adds a tab to the bar.">TabbedButtonBar::addTab</a> </dd></dl>
+<p>The component passed in will be shown for the tab. If deleteComponentWhenNotNeeded is true, then the <a class="el" href="classTabbedComponent.html" title="A component with a TabbedButtonBar along one of its sides.">TabbedComponent</a> will take ownership of the component and will delete it when the tab is removed or when this object is deleted.</p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTabbedButtonBar.html#ad0e4670007dcb45c88b6b8e376885a3c" title="Adds a tab to the bar.">TabbedButtonBar::addTab</a> </dd></dl>
 
 </div>
 </div>
@@ -538,7 +538,7 @@ Protected Attributes</h2></td></tr>
 <div class="memdoc">
 
 <p>Returns the content component that was added for the given index. </p>
-<p>Be sure not to use or delete the components that are returned, as this may interfere with the <a class="el" href="classTabbedComponent.html" title="A component with a TabbedButtonBar along one of its sides.">TabbedComponent</a>'s use of them. </p>
+<p>Be careful not to reposition or delete the components that are returned, as this will interfere with the <a class="el" href="classTabbedComponent.html" title="A component with a TabbedButtonBar along one of its sides.">TabbedComponent</a>'s behaviour. </p>
 
 </div>
 </div>
@@ -616,7 +616,7 @@ Protected Attributes</h2></td></tr>
 <div class="memdoc">
 
 <p>Changes the currently-selected tab. </p>
-<p>To deselect all the tabs, pass -1 as the index.</p>
+<p>To deselect all the tabs, pass -1 as the index. </p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTabbedButtonBar.html#aac30b6472d94b57198623499feeba069" title="Changes the currently selected tab.">TabbedButtonBar::setCurrentTabIndex</a> </dd></dl>
 
 </div>
@@ -674,7 +674,7 @@ Protected Attributes</h2></td></tr>
 <div class="memdoc">
 
 <p>Returns the current component that's filling the panel. </p>
-<p>This will return 0 if there isn't one. </p>
+<p>This will return nullptr if there isn't one. </p>
 
 </div>
 </div>
@@ -734,7 +734,6 @@ Protected Attributes</h2></td></tr>
 <div class="memdoc">
 
 <p>Callback method to indicate that the user has right-clicked on a tab. </p>
-<p>(Or ctrl-clicked on the Mac) </p>
 
 </div>
 </div>
@@ -756,15 +755,15 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5827a8cfc3881a7ea1cbd6866c21a684"></a>
+<a class="anchor" id="a8836b69f1a50a1031d84266e552e963e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classTabbedComponent.html#a5827a8cfc3881a7ea1cbd6866c21a684">TabbedComponent::paint</a> </td>
+          <td class="memname">void <a class="el" href="classTabbedComponent.html#a8836b69f1a50a1031d84266e552e963e">TabbedComponent::paint</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td><code> [virtual]</code></td>
         </tr>
       </table>

@@ -144,8 +144,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8364ba510d676c59677c997a7f89235c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for all types that can be loaded from a given file, and adds them to the list.  <a href="#a8364ba510d676c59677c997a7f89235c"></a><br/></td></tr>
 <tr class="memitem:aee17a685ddb53a81e3d660619b32c1a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList.html#aee17a685ddb53a81e3d660619b32c1a1">isListingUpToDate</a> (const <a class="el" href="classString.html">String</a> &amp;possiblePluginFileOrIdentifier) const </td></tr>
 <tr class="memdesc:aee17a685ddb53a81e3d660619b32c1a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the specified file is already known about and if it hasn't been modified since our entry was created.  <a href="#aee17a685ddb53a81e3d660619b32c1a1"></a><br/></td></tr>
-<tr class="memitem:a213f3e5fde4c3c0d31244c6b3e6ad172"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList.html#a213f3e5fde4c3c0d31244c6b3e6ad172">scanAndAddDragAndDroppedFiles</a> (const <a class="el" href="classStringArray.html">StringArray</a> &amp;filenames, <a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; <a class="el" href="classPluginDescription.html">PluginDescription</a> &gt; &amp;typesFound)</td></tr>
-<tr class="memdesc:a213f3e5fde4c3c0d31244c6b3e6ad172"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scans and adds a bunch of files that might have been dragged-and-dropped.  <a href="#a213f3e5fde4c3c0d31244c6b3e6ad172"></a><br/></td></tr>
+<tr class="memitem:ac7eeaf55798843613c61e44204ac4b83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList.html#ac7eeaf55798843613c61e44204ac4b83">scanAndAddDragAndDroppedFiles</a> (<a class="el" href="classAudioPluginFormatManager.html">AudioPluginFormatManager</a> &amp;formatManager, const <a class="el" href="classStringArray.html">StringArray</a> &amp;filenames, <a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; <a class="el" href="classPluginDescription.html">PluginDescription</a> &gt; &amp;typesFound)</td></tr>
+<tr class="memdesc:ac7eeaf55798843613c61e44204ac4b83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scans and adds a bunch of files that might have been dragged-and-dropped.  <a href="#ac7eeaf55798843613c61e44204ac4b83"></a><br/></td></tr>
 <tr class="memitem:abdf4797df0f108759d2a6cbf2278521a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList.html#abdf4797df0f108759d2a6cbf2278521a">addToMenu</a> (<a class="el" href="classPopupMenu.html">PopupMenu</a> &amp;menu, const <a class="el" href="classKnownPluginList.html#a6beabfccc86796527f663f30f3514098">SortMethod</a> sortMethod) const </td></tr>
 <tr class="memdesc:abdf4797df0f108759d2a6cbf2278521a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds all the plugin types to a popup menu so that the user can select one.  <a href="#abdf4797df0f108759d2a6cbf2278521a"></a><br/></td></tr>
 <tr class="memitem:a39129b712d42d4ae13b9a2209014e88b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList.html#a39129b712d42d4ae13b9a2209014e88b">getIndexChosenByMenu</a> (int menuResultCode) const </td></tr>
@@ -425,13 +425,19 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a213f3e5fde4c3c0d31244c6b3e6ad172"></a>
+<a class="anchor" id="ac7eeaf55798843613c61e44204ac4b83"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classKnownPluginList.html#a213f3e5fde4c3c0d31244c6b3e6ad172">KnownPluginList::scanAndAddDragAndDroppedFiles</a> </td>
+          <td class="memname">void <a class="el" href="classKnownPluginList.html#ac7eeaf55798843613c61e44204ac4b83">KnownPluginList::scanAndAddDragAndDroppedFiles</a> </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="classAudioPluginFormatManager.html">AudioPluginFormatManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>formatManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const <a class="el" href="classStringArray.html">StringArray</a> &amp;&#160;</td>
           <td class="paramname"><em>filenames</em>, </td>
         </tr>
