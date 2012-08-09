@@ -181,8 +181,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a038f9f882f1829362c23c22a9577e22d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes all the colours to be shades of grey, based on their current luminosity.  <a href="#a038f9f882f1829362c23c22a9577e22d"></a><br/></td></tr>
 <tr class="memitem:a5e90b1777a505f16e3f9d2a6da674a36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a5e90b1777a505f16e3f9d2a6da674a36">moveImageSection</a> (int destX, int destY, int sourceX, int sourceY, int width, int height)</td></tr>
 <tr class="memdesc:a5e90b1777a505f16e3f9d2a6da674a36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a section of the image to somewhere else within itself.  <a href="#a5e90b1777a505f16e3f9d2a6da674a36"></a><br/></td></tr>
-<tr class="memitem:a7879a00425ea9c79fa30a67740ca1ca1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a7879a00425ea9c79fa30a67740ca1ca1">createSolidAreaMask</a> (<a class="el" href="classRectangleList.html">RectangleList</a> &amp;result, float alphaThreshold=0.5f) const </td></tr>
-<tr class="memdesc:a7879a00425ea9c79fa30a67740ca1ca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classRectangleList.html" title="Maintains a set of rectangles as a complex region.">RectangleList</a> containing rectangles for all non-transparent pixels of the image.  <a href="#a7879a00425ea9c79fa30a67740ca1ca1"></a><br/></td></tr>
+<tr class="memitem:a3689d7648398f4cf8ed9759eb1336ed1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a3689d7648398f4cf8ed9759eb1336ed1">createSolidAreaMask</a> (<a class="el" href="classRectangleList.html">RectangleList</a> &amp;result, float alphaThreshold) const </td></tr>
+<tr class="memdesc:a3689d7648398f4cf8ed9759eb1336ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classRectangleList.html" title="Maintains a set of rectangles as a complex region.">RectangleList</a> containing rectangles for all non-transparent pixels of the image.  <a href="#a3689d7648398f4cf8ed9759eb1336ed1"></a><br/></td></tr>
 <tr class="memitem:a7d92d7dc5d490da7f2dee52dfd787ba6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNamedValueSet.html">NamedValueSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a7d92d7dc5d490da7f2dee52dfd787ba6">getProperties</a> () const </td></tr>
 <tr class="memdesc:a7d92d7dc5d490da7f2dee52dfd787ba6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classNamedValueSet.html" title="Holds a set of named var objects.">NamedValueSet</a> that is attached to the image and which can be used for associating custom values with it.  <a href="#a7d92d7dc5d490da7f2dee52dfd787ba6"></a><br/></td></tr>
 <tr class="memitem:aa7465ae26c9af5f0bdf8d759c53886e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLowLevelGraphicsContext.html">LowLevelGraphicsContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#aa7465ae26c9af5f0bdf8d759c53886e8">createLowLevelContext</a> () const </td></tr>
@@ -1018,12 +1018,12 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7879a00425ea9c79fa30a67740ca1ca1"></a>
+<a class="anchor" id="a3689d7648398f4cf8ed9759eb1336ed1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classImage.html#a7879a00425ea9c79fa30a67740ca1ca1">Image::createSolidAreaMask</a> </td>
+          <td class="memname">void <a class="el" href="classImage.html#a3689d7648398f4cf8ed9759eb1336ed1">Image::createSolidAreaMask</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classRectangleList.html">RectangleList</a> &amp;&#160;</td>
           <td class="paramname"><em>result</em>, </td>
@@ -1032,7 +1032,7 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>alphaThreshold</em> = <code>0.5f</code>&#160;</td>
+          <td class="paramname"><em>alphaThreshold</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

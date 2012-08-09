@@ -94,6 +94,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">HeapBlock&lt; ElementType, throwOnFailure &gt; Class Template Reference</div>  </div>
@@ -105,6 +106,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p><a href="classHeapBlock-members.html">List of all members.</a></p>
 <table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a5757b5bd325d4addb907186b08e6849e"><td class="memItemLeft" align="right" valign="top">typedef ElementType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeapBlock.html#a5757b5bd325d4addb907186b08e6849e">Type</a></td></tr>
+<tr class="memdesc:a5757b5bd325d4addb907186b08e6849e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This typedef can be used to get the type of the heapblock's elements.  <a href="#a5757b5bd325d4addb907186b08e6849e"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab7643beefa078bb4692dbfff40f6f3bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeapBlock.html#ab7643beefa078bb4692dbfff40f6f3bb">HeapBlock</a> () noexcept</td></tr>
@@ -176,7 +181,25 @@ class HeapBlock&lt; ElementType, throwOnFailure &gt;</h3>
 </pre></div><p>The class is extremely lightweight, containing only a pointer to the data, and exposes malloc/realloc/calloc/free methods that do the same jobs as their less object-oriented counterparts. Despite adding safety, you probably won't sacrifice any performance by using this in place of normal pointers.</p>
 <p>The throwOnFailure template parameter can be set to true if you'd like the class to throw a std::bad_alloc exception when an allocation fails. If this is false, then a failed allocation will just leave the heapblock with a null pointer (assuming that the system's <a class="el" href="classHeapBlock.html#a1a196c4ebdb6a5ff9517e262b91894cf" title="Allocates a specified amount of memory.">malloc()</a> function doesn't throw).</p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects.">Array</a>, <a class="el" href="classOwnedArray.html" title="An array designed for holding objects.">OwnedArray</a>, <a class="el" href="classMemoryBlock.html" title="A class to hold a resizable block of raw data.">MemoryBlock</a> </dd></dl>
-</div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
+</div><hr/><h2>Member Typedef Documentation</h2>
+<a class="anchor" id="a5757b5bd325d4addb907186b08e6849e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ElementType, bool throwOnFailure = false&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef ElementType <a class="el" href="classHeapBlock.html">HeapBlock</a>&lt; ElementType, throwOnFailure &gt;::<a class="el" href="classHeapBlock.html#a5757b5bd325d4addb907186b08e6849e">Type</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>This typedef can be used to get the type of the heapblock's elements. </p>
+
+</div>
+</div>
+<hr/><h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ab7643beefa078bb4692dbfff40f6f3bb"></a>
 <div class="memitem">
 <div class="memproto">

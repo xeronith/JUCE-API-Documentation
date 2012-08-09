@@ -112,7 +112,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSlider_1_1Ids.html">Ids</a></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider_1_1Listener.html">Listener</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class for receiving callbacks from a <a class="el" href="classSlider.html" title="A slider control for changing a value.">Slider</a>.  <a href="classSlider_1_1Listener.html#details">More...</a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-types"></a>
@@ -125,10 +124,11 @@ Public Types</h2></td></tr>
 <br/>
 &#160;&#160;<a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a8c359e2cb456e39665bec067273df5fe">RotaryHorizontalDrag</a>, 
 <a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a46ac50fdae2ac4df9a2f3ad630589224">RotaryVerticalDrag</a>, 
+<a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a6d72c2ed67c43d22785fe271d3684075">RotaryHorizontalVerticalDrag</a>, 
 <a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888adcb7bc12a443e3c6cdf598ab3c5e2171">IncDecButtons</a>, 
-<a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a2ce77695813bb317c2d1863d2e71213b">TwoValueHorizontal</a>, 
 <br/>
-&#160;&#160;<a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a7477c3163edc14c8740d464e523e5ac8">TwoValueVertical</a>, 
+&#160;&#160;<a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a2ce77695813bb317c2d1863d2e71213b">TwoValueHorizontal</a>, 
+<a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a7477c3163edc14c8740d464e523e5ac8">TwoValueVertical</a>, 
 <a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888ad74f46a4848b6c1b3e3cc59da103f504">ThreeValueHorizontal</a>, 
 <a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888aa2c50364a9dd891a0e5e8022570c8e13">ThreeValueVertical</a>
 <br/>
@@ -303,7 +303,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a72da5afa45bfdcc642a53eb04c993f1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the slider moves horizontally.  <a href="#a72da5afa45bfdcc642a53eb04c993f1e"></a><br/></td></tr>
 <tr class="memitem:a105d005078031e28d8e23d52d194bcde"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a105d005078031e28d8e23d52d194bcde">isVertical</a> () const noexcept</td></tr>
 <tr class="memdesc:a105d005078031e28d8e23d52d194bcde"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the slider moves vertically.  <a href="#a105d005078031e28d8e23d52d194bcde"></a><br/></td></tr>
-<tr class="memitem:a98bd534b780c99b2fbe7878dfe50b2f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a98bd534b780c99b2fbe7878dfe50b2f9">refreshFromValueTree</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;, <a class="el" href="classComponentBuilder.html">ComponentBuilder</a> &amp;)</td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a0d99114ab8dac759d06583726076f933"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a0d99114ab8dac759d06583726076f933">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;)</td></tr>
@@ -363,6 +362,10 @@ Protected Member Functions</h2></td></tr>
 </td></tr>
 <tr><td valign="top"><em><a class="anchor" id="af1caee82552143dd9ff0fc9f0cdc0888a46ac50fdae2ac4df9a2f3ad630589224"></a>RotaryVerticalDrag</em>&nbsp;</td><td>
 <p>A rotary control that you move by dragging the mouse up-and-down. </p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classSlider.html#a6fad4379a38262e28820213c7ffd26fb" title="Changes the properties of a rotary slider.">setRotaryParameters</a> </dd></dl>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="af1caee82552143dd9ff0fc9f0cdc0888a6d72c2ed67c43d22785fe271d3684075"></a>RotaryHorizontalVerticalDrag</em>&nbsp;</td><td>
+<p>A rotary control that you move by dragging the mouse up-and-down or left-to-right. </p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classSlider.html#a6fad4379a38262e28820213c7ffd26fb" title="Changes the properties of a rotary slider.">setRotaryParameters</a> </dd></dl>
 </td></tr>
 <tr><td valign="top"><em><a class="anchor" id="af1caee82552143dd9ff0fc9f0cdc0888adcb7bc12a443e3c6cdf598ab3c5e2171"></a>IncDecButtons</em>&nbsp;</td><td>
@@ -2140,33 +2143,6 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>True if the slider moves vertically. </p>
-
-</div>
-</div>
-<a class="anchor" id="a98bd534b780c99b2fbe7878dfe50b2f9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classSlider.html#a98bd534b780c99b2fbe7878dfe50b2f9">Slider::refreshFromValueTree</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classComponentBuilder.html">ComponentBuilder</a> &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
 
 </div>
 </div>

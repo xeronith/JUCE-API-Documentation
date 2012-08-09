@@ -67,6 +67,7 @@ var searchData=
   ['heapblock_3c_20node_20_2a_20_3e',['HeapBlock< Node * >',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20objectclass_20_2a_20_3e',['HeapBlock< ObjectClass * >',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20ownedarray_3c_20undoableaction_20_3e_20_2a_20_3e',['HeapBlock< OwnedArray< UndoableAction > * >',['../classHeapBlock.html',1,'']]],
+  ['heapblock_3c_20panelholder_20_2a_20_3e',['HeapBlock< PanelHolder * >',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20plugindescription_20_2a_20_3e',['HeapBlock< PluginDescription * >',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20position_20_2a_20_3e',['HeapBlock< Position * >',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20positionedglyph_20_3e',['HeapBlock< PositionedGlyph >',['../classHeapBlock.html',1,'']]],

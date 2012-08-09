@@ -124,6 +124,7 @@ var searchData=
   ['juce_5fcomponentlistener_2eh',['juce_ComponentListener.h',['../juce__ComponentListener_8h.html',1,'']]],
   ['juce_5fcomponentmovementwatcher_2eh',['juce_ComponentMovementWatcher.h',['../juce__ComponentMovementWatcher_8h.html',1,'']]],
   ['juce_5fcomponentpeer_2eh',['juce_ComponentPeer.h',['../juce__ComponentPeer_8h.html',1,'']]],
+  ['juce_5fconcertinapanel_2eh',['juce_ConcertinaPanel.h',['../juce__ConcertinaPanel_8h.html',1,'']]],
   ['juce_5fcoreaudioformat_2eh',['juce_CoreAudioFormat.h',['../juce__CoreAudioFormat_8h.html',1,'']]],
   ['juce_5fcpluspluscodetokeniser_2eh',['juce_CPlusPlusCodeTokeniser.h',['../juce__CPlusPlusCodeTokeniser_8h.html',1,'']]],
   ['juce_5fcriticalsection_2eh',['juce_CriticalSection.h',['../juce__CriticalSection_8h.html',1,'']]],
@@ -453,6 +454,6 @@ var searchData=
   ['juce_5fzipfile_2eh',['juce_ZipFile.h',['../juce__ZipFile_8h.html',1,'']]],
   ['juceapplication',['JUCEApplication',['../classJUCEApplication.html',1,'JUCEApplication'],['../classJUCEApplication.html#a80e6dadf35b6954df90f2e11bb25ad8b',1,'JUCEApplication::JUCEApplication()']]],
   ['juceapplicationbase',['JUCEApplicationBase',['../classJUCEApplicationBase.html',1,'JUCEApplicationBase'],['../classJUCEApplicationBase.html#a3b64c47474ca9bf96c4ad7c0ee8cb3f5',1,'JUCEApplicationBase::JUCEApplicationBase()']]],
-  ['justification',['Justification',['../classJustification.html',1,'Justification'],['../classDrawableText_1_1ValueTreeWrapper.html#a568480e7695b8c4be65f179e34fc1b61',1,'DrawableText::ValueTreeWrapper::justification()'],['../structGroupComponent_1_1Ids.html#a856dfc6b5c1c7148ccf40f7e515917be',1,'GroupComponent::Ids::justification()'],['../structLabel_1_1Ids.html#abd43e4f19dd8e843b5e80d2dd0d0731f',1,'Label::Ids::justification()'],['../classJustification.html#ad88054a89ce3ab6b2a4b2bf8990390ce',1,'Justification::Justification(int flags_) noexcept'],['../classJustification.html#a04002a24d0dea5eb7b893e364a12d0e7',1,'Justification::Justification(const Justification &amp;other) noexcept']]],
+  ['justification',['Justification',['../classJustification.html',1,'Justification'],['../classDrawableText_1_1ValueTreeWrapper.html#a568480e7695b8c4be65f179e34fc1b61',1,'DrawableText::ValueTreeWrapper::justification()'],['../classJustification.html#ad88054a89ce3ab6b2a4b2bf8990390ce',1,'Justification::Justification(int flags_) noexcept'],['../classJustification.html#a04002a24d0dea5eb7b893e364a12d0e7',1,'Justification::Justification(const Justification &amp;other) noexcept']]],
   ['justifyglyphs',['justifyGlyphs',['../classGlyphArrangement.html#a4f5a5b4bfea37fb1bcfc4747b0f4bbc5',1,'GlyphArrangement']]]
 ];

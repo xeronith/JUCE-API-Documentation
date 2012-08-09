@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['editable',['editable',['../structComboBox_1_1Ids.html#a41f865535cb29a470ee49b506539cc11',1,'ComboBox::Ids::editable()'],['../structSlider_1_1Ids.html#affaa68793efb32ad09f80514a2258fb4',1,'Slider::Ids::editable()']]],
-  ['editmode',['editMode',['../structLabel_1_1Ids.html#a8173e2849a2d620931725d89da801766',1,'Label::Ids']]],
   ['editorigintime',['editOriginTime',['../structAudioPlayHead_1_1CurrentPositionInfo.html#a5a8c7375646228f378c4eb673f49a9e0',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['elements',['elements',['../classArrayAllocationBase.html#a68e9e3954a47f3a9b0721c979d4d9fe7',1,'ArrayAllocationBase::elements()'],['../classRelativePointPath.html#a975cc963b8500afa8d33dac6d7c7ac50',1,'RelativePointPath::elements()']]],
   ['elementtype',['elementType',['../classPath_1_1Iterator.html#a3b33636d181ff130a4c0e475da2824db',1,'Path::Iterator']]],

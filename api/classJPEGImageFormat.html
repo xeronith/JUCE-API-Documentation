@@ -115,6 +115,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad4388095c291a86f073d511ddfa8607e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies the quality to be used when writing a JPEG file.  <a href="#ad4388095c291a86f073d511ddfa8607e"></a><br/></td></tr>
 <tr class="memitem:a480b8359659b767a48bf861182a47fff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJPEGImageFormat.html#a480b8359659b767a48bf861182a47fff">getFormatName</a> ()</td></tr>
 <tr class="memdesc:a480b8359659b767a48bf861182a47fff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a description of this file format.  <a href="#a480b8359659b767a48bf861182a47fff"></a><br/></td></tr>
+<tr class="memitem:acd71eabdcba45217a477f9a39d87ad10"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJPEGImageFormat.html#acd71eabdcba45217a477f9a39d87ad10">usesFileExtension</a> (const <a class="el" href="classFile.html">File</a> &amp;possibleFile)</td></tr>
+<tr class="memdesc:acd71eabdcba45217a477f9a39d87ad10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this format uses the file extension of the given file.  <a href="#acd71eabdcba45217a477f9a39d87ad10"></a><br/></td></tr>
 <tr class="memitem:affbf9cfed2bb92a27d8feaa5cca3152f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJPEGImageFormat.html#affbf9cfed2bb92a27d8feaa5cca3152f">canUnderstand</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;input)</td></tr>
 <tr class="memdesc:affbf9cfed2bb92a27d8feaa5cca3152f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given stream seems to contain data that this format understands.  <a href="#affbf9cfed2bb92a27d8feaa5cca3152f"></a><br/></td></tr>
 <tr class="memitem:a16249c51337029127b625233d49ae0e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classImage.html">Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJPEGImageFormat.html#a16249c51337029127b625233d49ae0e7">decodeImage</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;input)</td></tr>
@@ -202,6 +204,27 @@ Public Member Functions</h2></td></tr>
 <p>E.g. "JPEG", "PNG" </p>
 
 <p>Implements <a class="el" href="classImageFileFormat.html#a141e61162c688d5497e1b6391970fa7a">ImageFileFormat</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acd71eabdcba45217a477f9a39d87ad10"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classJPEGImageFormat.html#acd71eabdcba45217a477f9a39d87ad10">JPEGImageFormat::usesFileExtension</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classFile.html">File</a> &amp;&#160;</td>
+          <td class="paramname"><em>possibleFile</em></td><td>)</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns true if this format uses the file extension of the given file. </p>
+
+<p>Implements <a class="el" href="classImageFileFormat.html#a9eb5f897a01aa14b136944eee2c7f684">ImageFileFormat</a>.</p>
 
 </div>
 </div>

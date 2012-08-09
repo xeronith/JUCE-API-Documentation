@@ -94,9 +94,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">ImageComponent Class Reference</div>  </div>
 </div><!--header-->
@@ -109,9 +107,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p><a href="classImageComponent-members.html">List of all members.</a></p>
 <table class="memberdecls">
-<tr><td colspan="2"><h2><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structImageComponent_1_1Ids.html">Ids</a></td></tr>
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a335e328ee5a7ce054405b1a6f123cabb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageComponent.html#a335e328ee5a7ce054405b1a6f123cabb">ImageComponent</a> (const <a class="el" href="classString.html">String</a> &amp;componentName=<a class="el" href="classString.html#afd02116a5571fcc8bc1e6fdabe132a85">String::empty</a>)</td></tr>
@@ -128,11 +123,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8e7e4f97db89aa97a6db186b445116d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the method of positioning that will be used to fit the image within the component's bounds.  <a href="#a8e7e4f97db89aa97a6db186b445116d5"></a><br/></td></tr>
 <tr class="memitem:a34019a76da30f0664b4e15509c57a99b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRectanglePlacement.html">RectanglePlacement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageComponent.html#a34019a76da30f0664b4e15509c57a99b">getImagePlacement</a> () const </td></tr>
 <tr class="memdesc:a34019a76da30f0664b4e15509c57a99b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current image placement.  <a href="#a34019a76da30f0664b4e15509c57a99b"></a><br/></td></tr>
-<tr class="memitem:a0dc544cb46ca57f0923a3ac70555e708"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageComponent.html#a0dc544cb46ca57f0923a3ac70555e708">refreshFromValueTree</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;, <a class="el" href="classComponentBuilder.html">ComponentBuilder</a> &amp;)</td></tr>
 <tr class="memitem:a497a808dcc68e715a75b179f4ae7aeec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageComponent.html#a497a808dcc68e715a75b179f4ae7aeec">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g)</td></tr>
-<tr><td colspan="2"><h2><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a583b3f6e9b6b507c50fb8a6d5e133cd9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classRectanglePlacement.html">RectanglePlacement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageComponent.html#a583b3f6e9b6b507c50fb8a6d5e133cd9">getPlacement</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;state)</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A component that simply displays an image. </p>
@@ -277,50 +268,6 @@ Static Public Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Returns the current image placement. </p>
-
-</div>
-</div>
-<a class="anchor" id="a0dc544cb46ca57f0923a3ac70555e708"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classImageComponent.html#a0dc544cb46ca57f0923a3ac70555e708">ImageComponent::refreshFromValueTree</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classComponentBuilder.html">ComponentBuilder</a> &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a583b3f6e9b6b507c50fb8a6d5e133cd9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="classRectanglePlacement.html">RectanglePlacement</a> <a class="el" href="classImageComponent.html#a583b3f6e9b6b507c50fb8a6d5e133cd9">ImageComponent::getPlacement</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td>
-          <td class="paramname"><em>state</em></td><td>)</td>
-          <td><code> [static]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
 
 </div>
 </div>

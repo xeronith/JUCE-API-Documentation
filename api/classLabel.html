@@ -112,7 +112,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLabel_1_1Ids.html">Ids</a></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel_1_1Listener.html">Listener</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class for receiving events from a <a class="el" href="classLabel.html" title="A component that displays a text string, and can optionally become a text editor when clicked...">Label</a>.  <a href="classLabel_1_1Listener.html#details">More...</a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-types"></a>
@@ -162,7 +161,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7dd9288cdac6891c5c3a4c38df30c2b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#a7dd9288cdac6891c5c3a4c38df30c2b9">removeListener</a> (<a class="el" href="classLabel_1_1Listener.html">Listener</a> *listener)</td></tr>
 <tr class="memdesc:a7dd9288cdac6891c5c3a4c38df30c2b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deregisters a previously-registered listener.  <a href="#a7dd9288cdac6891c5c3a4c38df30c2b9"></a><br/></td></tr>
 <tr class="memitem:a9342a397932d82bb1d196ebf9a8969d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#a9342a397932d82bb1d196ebf9a8969d8">setEditable</a> (bool editOnSingleClick, bool editOnDoubleClick=false, bool lossOfFocusDiscardsChanges=false)</td></tr>
-<tr class="memdesc:a9342a397932d82bb1d196ebf9a8969d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes the label turn into a <a class="el" href="classTextEditor.html" title="A component containing text that can be edited.">TextEditor</a> when clicked.  <a href="#a9342a397932d82bb1d196ebf9a8969d8"></a><br/></td></tr>
+<tr class="memdesc:a9342a397932d82bb1d196ebf9a8969d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes the label turn into a <a class="el" href="classTextEditor.html" title="An editable text box.">TextEditor</a> when clicked.  <a href="#a9342a397932d82bb1d196ebf9a8969d8"></a><br/></td></tr>
 <tr class="memitem:a466283689e98cc6d1d3d521ab8d383e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#a466283689e98cc6d1d3d521ab8d383e2">isEditableOnSingleClick</a> () const noexcept</td></tr>
 <tr class="memdesc:a466283689e98cc6d1d3d521ab8d383e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this option was set using <a class="el" href="classLabel.html#a9342a397932d82bb1d196ebf9a8969d8" title="Makes the label turn into a TextEditor when clicked.">setEditable()</a>.  <a href="#a466283689e98cc6d1d3d521ab8d383e2"></a><br/></td></tr>
 <tr class="memitem:a05a999148537f67b9cb676f3940bb3f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#a05a999148537f67b9cb676f3940bb3f7">isEditableOnDoubleClick</a> () const noexcept</td></tr>
@@ -177,11 +176,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6f5fd9653da51af4720d1ac5e54f18d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hides the editor if it was being shown.  <a href="#a6f5fd9653da51af4720d1ac5e54f18d8"></a><br/></td></tr>
 <tr class="memitem:a4a96b4b788e9bc056b513d6f7f89686e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#a4a96b4b788e9bc056b513d6f7f89686e">isBeingEdited</a> () const noexcept</td></tr>
 <tr class="memdesc:a4a96b4b788e9bc056b513d6f7f89686e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the editor is currently focused and active.  <a href="#a4a96b4b788e9bc056b513d6f7f89686e"></a><br/></td></tr>
-<tr class="memitem:a9fd9c7ba17bfb93505818dab8a8324c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#a9fd9c7ba17bfb93505818dab8a8324c9">refreshFromValueTree</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;, <a class="el" href="classComponentBuilder.html">ComponentBuilder</a> &amp;)</td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a87b2717e5c855b64346b70a908eabc13"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classTextEditor.html">TextEditor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#a87b2717e5c855b64346b70a908eabc13">createEditorComponent</a> ()</td></tr>
-<tr class="memdesc:a87b2717e5c855b64346b70a908eabc13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the <a class="el" href="classTextEditor.html" title="A component containing text that can be edited.">TextEditor</a> component that will be used when the user has clicked on the label.  <a href="#a87b2717e5c855b64346b70a908eabc13"></a><br/></td></tr>
+<tr class="memdesc:a87b2717e5c855b64346b70a908eabc13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the <a class="el" href="classTextEditor.html" title="An editable text box.">TextEditor</a> component that will be used when the user has clicked on the label.  <a href="#a87b2717e5c855b64346b70a908eabc13"></a><br/></td></tr>
 <tr class="memitem:ac25aabade178c65badaaf2773e0c26b4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#ac25aabade178c65badaaf2773e0c26b4">textWasEdited</a> ()</td></tr>
 <tr class="memdesc:ac25aabade178c65badaaf2773e0c26b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called after the user changes the text.  <a href="#ac25aabade178c65badaaf2773e0c26b4"></a><br/></td></tr>
 <tr class="memitem:a2bc26840c05560b6c17a719c0a2537b7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#a2bc26840c05560b6c17a719c0a2537b7">textWasChanged</a> ()</td></tr>
@@ -696,7 +694,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Makes the label turn into a <a class="el" href="classTextEditor.html" title="A component containing text that can be edited.">TextEditor</a> when clicked. </p>
+<p>Makes the label turn into a <a class="el" href="classTextEditor.html" title="An editable text box.">TextEditor</a> when clicked. </p>
 <p>By default this is turned off.</p>
 <p>If turned on, then single- or double-clicking will turn the label into an editor. If the user then changes the text, then the <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed.">ChangeBroadcaster</a> base class will be used to send change messages to any listeners that have registered.</p>
 <p>If the user changes the text, the <a class="el" href="classLabel.html#ac25aabade178c65badaaf2773e0c26b4" title="Called after the user changes the text.">textWasEdited()</a> method will be called afterwards, and subclasses can override this if they need to do anything special.</p>
@@ -708,7 +706,7 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classLabel.html#a7e8a44e4664b3d3e774e78d29b4b558b" title="Makes the editor appear as if the label had been clicked by the user.">showEditor</a>, setEditorColours, <a class="el" href="classTextEditor.html" title="A component containing text that can be edited.">TextEditor</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classLabel.html#a7e8a44e4664b3d3e774e78d29b4b558b" title="Makes the editor appear as if the label had been clicked by the user.">showEditor</a>, setEditorColours, <a class="el" href="classTextEditor.html" title="An editable text box.">TextEditor</a> </dd></dl>
 
 </div>
 </div>
@@ -846,33 +844,6 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9fd9c7ba17bfb93505818dab8a8324c9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classLabel.html#a9fd9c7ba17bfb93505818dab8a8324c9">Label::refreshFromValueTree</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classComponentBuilder.html">ComponentBuilder</a> &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a87b2717e5c855b64346b70a908eabc13"></a>
 <div class="memitem">
 <div class="memproto">
@@ -887,7 +858,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Creates the <a class="el" href="classTextEditor.html" title="A component containing text that can be edited.">TextEditor</a> component that will be used when the user has clicked on the label. </p>
+<p>Creates the <a class="el" href="classTextEditor.html" title="An editable text box.">TextEditor</a> component that will be used when the user has clicked on the label. </p>
 <p>Subclasses can override this if they need to customise this component in some way. </p>
 
 </div>

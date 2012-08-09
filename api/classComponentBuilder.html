@@ -96,7 +96,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a>  </div>
   <div class="headertitle">
@@ -145,11 +144,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a52784294955a92a505ecdff6347d46e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current image provider that this builder is using, or 0 if none has been set.  <a href="#a52784294955a92a505ecdff6347d46e3"></a><br/></td></tr>
 <tr class="memitem:ada58c44d9f924f56b43f9552c537f30a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentBuilder.html#ada58c44d9f924f56b43f9552c537f30a">updateChildComponents</a> (<a class="el" href="classComponent.html">Component</a> &amp;parent, const <a class="el" href="classValueTree.html">ValueTree</a> &amp;children)</td></tr>
 <tr class="memdesc:ada58c44d9f924f56b43f9552c537f30a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the children of a parent component by updating them from the children of a given <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a>.  <a href="#ada58c44d9f924f56b43f9552c537f30a"></a><br/></td></tr>
-<tr><td colspan="2"><h2><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ab0e78c5c3a22a2545709ab9d26a36348"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentBuilder.html#ab0e78c5c3a22a2545709ab9d26a36348">initialiseFromValueTree</a> (<a class="el" href="classComponent.html">Component</a> &amp;component, const <a class="el" href="classValueTree.html">ValueTree</a> &amp;<a class="el" href="classComponentBuilder.html#af09fdfb8bb0edf0a6c2f19d5d54563f4">state</a>, <a class="el" href="classComponentBuilder_1_1ImageProvider.html">ImageProvider</a> *imageProvider)</td></tr>
-<tr class="memitem:adc01e5add6366479a2bf01b96e8eca48"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentBuilder.html#adc01e5add6366479a2bf01b96e8eca48">refreshBasicComponentProperties</a> (<a class="el" href="classComponent.html">Component</a> &amp;, const <a class="el" href="classValueTree.html">ValueTree</a> &amp;)</td></tr>
-<tr class="memitem:af8a294f4d159c48c820b7085508045ed"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classRelativeRectangle.html">RelativeRectangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentBuilder.html#af8a294f4d159c48c820b7085508045ed">getComponentBounds</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;)</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:af09fdfb8bb0edf0a6c2f19d5d54563f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentBuilder.html#af09fdfb8bb0edf0a6c2f19d5d54563f4">state</a></td></tr>
@@ -421,83 +415,6 @@ Static Public Attributes</h2></td></tr>
 <div class="memdoc">
 
 <p>Updates the children of a parent component by updating them from the children of a given <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a>. </p>
-
-</div>
-</div>
-<a class="anchor" id="ab0e78c5c3a22a2545709ab9d26a36348"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void <a class="el" href="classComponentBuilder.html#ab0e78c5c3a22a2545709ab9d26a36348">ComponentBuilder::initialiseFromValueTree</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classComponent.html">Component</a> &amp;&#160;</td>
-          <td class="paramname"><em>component</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td>
-          <td class="paramname"><em>state</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classComponentBuilder_1_1ImageProvider.html">ImageProvider</a> *&#160;</td>
-          <td class="paramname"><em>imageProvider</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td><code> [static]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="adc01e5add6366479a2bf01b96e8eca48"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void <a class="el" href="classComponentBuilder.html#adc01e5add6366479a2bf01b96e8eca48">ComponentBuilder::refreshBasicComponentProperties</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classComponent.html">Component</a> &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td><code> [static]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af8a294f4d159c48c820b7085508045ed"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="classRelativeRectangle.html">RelativeRectangle</a> <a class="el" href="classComponentBuilder.html#af8a294f4d159c48c820b7085508045ed">ComponentBuilder::getComponentBounds</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td><code> [static]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
 
 </div>
 </div>

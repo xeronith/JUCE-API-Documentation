@@ -40,6 +40,7 @@ var searchData=
   ['componentmovementwatcher',['ComponentMovementWatcher',['../classComponentMovementWatcher.html',1,'']]],
   ['componentpeer',['ComponentPeer',['../classComponentPeer.html',1,'']]],
   ['componentscope',['ComponentScope',['../classRelativeCoordinatePositionerBase_1_1ComponentScope.html',1,'RelativeCoordinatePositionerBase']]],
+  ['concertinapanel',['ConcertinaPanel',['../classConcertinaPanel.html',1,'']]],
   ['connection',['Connection',['../structAudioProcessorGraph_1_1Connection.html',1,'AudioProcessorGraph']]],
   ['converter',['Converter',['../classAudioData_1_1Converter.html',1,'AudioData']]],
   ['converterinstance',['ConverterInstance',['../classAudioData_1_1ConverterInstance.html',1,'AudioData']]],

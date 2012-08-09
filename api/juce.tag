@@ -482,7 +482,6 @@
     <filename>juce__Button_8h</filename>
     <class kind="class">Button</class>
     <class kind="class">Button::Listener</class>
-    <class kind="struct">Button::Ids</class>
   </compound>
   <compound kind="file">
     <name>juce_ButtonPropertyComponent.h</name>
@@ -728,7 +727,6 @@
     <filename>juce__ComboBox_8h</filename>
     <class kind="class">ComboBox</class>
     <class kind="class">ComboBox::Listener</class>
-    <class kind="struct">ComboBox::Ids</class>
     <member kind="typedef">
       <type>ComboBox::Listener</type>
       <name>ComboBoxListener</name>
@@ -790,6 +788,12 @@
     <filename>juce__ComponentPeer_8h</filename>
     <class kind="class">ComponentPeer</class>
     <class kind="struct">ComponentPeer::DragInfo</class>
+  </compound>
+  <compound kind="file">
+    <name>juce_ConcertinaPanel.h</name>
+    <path>/Volumes/CODE/code/juce/modules/juce_gui_basics/layout/</path>
+    <filename>juce__ConcertinaPanel_8h</filename>
+    <class kind="class">ConcertinaPanel</class>
   </compound>
   <compound kind="file">
     <name>juce_CoreAudioFormat.h</name>
@@ -1188,7 +1192,6 @@
     <path>/Volumes/CODE/code/juce/modules/juce_gui_basics/layout/</path>
     <filename>juce__GroupComponent_8h</filename>
     <class kind="class">GroupComponent</class>
-    <class kind="struct">GroupComponent::Ids</class>
   </compound>
   <compound kind="file">
     <name>juce_GZIPCompressorOutputStream.h</name>
@@ -1221,7 +1224,6 @@
     <path>/Volumes/CODE/code/juce/modules/juce_gui_basics/buttons/</path>
     <filename>juce__HyperlinkButton_8h</filename>
     <class kind="class">HyperlinkButton</class>
-    <class kind="struct">HyperlinkButton::Ids</class>
   </compound>
   <compound kind="file">
     <name>juce_Identifier.h</name>
@@ -1258,7 +1260,6 @@
     <path>/Volumes/CODE/code/juce/modules/juce_gui_basics/buttons/</path>
     <filename>juce__ImageButton_8h</filename>
     <class kind="class">ImageButton</class>
-    <class kind="struct">ImageButton::Ids</class>
   </compound>
   <compound kind="file">
     <name>juce_ImageCache.h</name>
@@ -1271,7 +1272,6 @@
     <path>/Volumes/CODE/code/juce/modules/juce_gui_basics/widgets/</path>
     <filename>juce__ImageComponent_8h</filename>
     <class kind="class">ImageComponent</class>
-    <class kind="struct">ImageComponent::Ids</class>
   </compound>
   <compound kind="file">
     <name>juce_ImageConvolutionKernel.h</name>
@@ -1422,7 +1422,6 @@
     <filename>juce__Label_8h</filename>
     <class kind="class">Label</class>
     <class kind="class">Label::Listener</class>
-    <class kind="struct">Label::Ids</class>
     <member kind="typedef">
       <type>Label::Listener</type>
       <name>LabelListener</name>
@@ -1482,7 +1481,6 @@
     <filename>juce__ListBox_8h</filename>
     <class kind="class">ListBoxModel</class>
     <class kind="class">ListBox</class>
-    <class kind="struct">ListBox::Ids</class>
   </compound>
   <compound kind="file">
     <name>juce_ListenerList.h</name>
@@ -1965,8 +1963,8 @@
       <type>Type *</type>
       <name>createCopyIfNotNull</name>
       <anchorfile>juce__Memory_8h.html</anchorfile>
-      <anchor>a607b18f00ee6152503a1c5352d4efeb8</anchor>
-      <arglist>(Type *pointer)</arglist>
+      <anchor>ae48595e0e1150db352b0c6cb744a0839</anchor>
+      <arglist>(const Type *pointer)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -3076,7 +3074,6 @@
     <filename>juce__Slider_8h</filename>
     <class kind="class">Slider</class>
     <class kind="class">Slider::Listener</class>
-    <class kind="struct">Slider::Ids</class>
     <member kind="typedef">
       <type>Slider::Listener</type>
       <name>SliderListener</name>
@@ -3326,8 +3323,8 @@
       <type>Type *</type>
       <name>createCopyIfNotNull</name>
       <anchorfile>namespacejuce.html</anchorfile>
-      <anchor>aaade7a6bd2aec0b91922fd54abfcd37c</anchor>
-      <arglist>(Type *pointer)</arglist>
+      <anchor>abf6d1eb4827db3da2040191b3557fe30</anchor>
+      <arglist>(const Type *pointer)</arglist>
     </member>
     <member kind="function">
       <type>Type</type>
@@ -4252,7 +4249,6 @@
     <path>/Volumes/CODE/code/juce/modules/juce_gui_basics/buttons/</path>
     <filename>juce__TextButton_8h</filename>
     <class kind="class">TextButton</class>
-    <class kind="struct">TextButton::Ids</class>
   </compound>
   <compound kind="file">
     <name>juce_TextDragAndDropTarget.h</name>
@@ -4266,7 +4262,6 @@
     <filename>juce__TextEditor_8h</filename>
     <class kind="class">TextEditor</class>
     <class kind="class">TextEditor::Listener</class>
-    <class kind="struct">TextEditor::Ids</class>
     <member kind="typedef">
       <type>TextEditor::Listener</type>
       <name>TextEditorListener</name>
@@ -4429,7 +4424,6 @@
     <path>/Volumes/CODE/code/juce/modules/juce_gui_basics/buttons/</path>
     <filename>juce__ToggleButton_8h</filename>
     <class kind="class">ToggleButton</class>
-    <class kind="struct">ToggleButton::Ids</class>
   </compound>
   <compound kind="file">
     <name>juce_ToneGeneratorAudioSource.h</name>
@@ -4626,7 +4620,6 @@
     <path>/Volumes/CODE/code/juce/modules/juce_gui_basics/layout/</path>
     <filename>juce__Viewport_8h</filename>
     <class kind="class">Viewport</class>
-    <class kind="struct">Viewport::Ids</class>
   </compound>
   <compound kind="file">
     <name>juce_VSTMidiEventList.h</name>
@@ -8154,6 +8147,13 @@
       <anchorfile>classAudioDeviceSelectorComponent.html</anchorfile>
       <anchor>a2fc15473fd8832a825d81ba34b5615ca</anchor>
       <arglist>(Component *)</arglist>
+    </member>
+    <member kind="variable">
+      <type>AudioDeviceManager &amp;</type>
+      <name>deviceManager</name>
+      <anchorfile>classAudioDeviceSelectorComponent.html</anchorfile>
+      <anchor>a1d55ccd0985a42f37b5683f609b65386</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -11793,15 +11793,15 @@
       <type>int</type>
       <name>findNextSetBit</name>
       <anchorfile>classBigInteger.html</anchorfile>
-      <anchor>a1e7ddb846639744c2e5c0881e749ff1e</anchor>
-      <arglist>(int startIndex=0) const noexcept</arglist>
+      <anchor>a288fc79aa972d1fd11fc4ff57b4b4d99</anchor>
+      <arglist>(int startIndex) const noexcept</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>findNextClearBit</name>
       <anchorfile>classBigInteger.html</anchorfile>
-      <anchor>a2f82159907a1b7db80d161b36537810a</anchor>
-      <arglist>(int startIndex=0) const noexcept</arglist>
+      <anchor>acf68c12ba8881226f8d9da54635964c5</anchor>
+      <arglist>(int startIndex) const noexcept</arglist>
     </member>
     <member kind="function">
       <type>int</type>
@@ -12452,6 +12452,24 @@
       <anchor>aba96d481d723fd2549f497ccd7ed41a3a2dee448ac06c9b0186287c5f7e071b33</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumeration">
+      <name>ColourIds</name>
+      <anchorfile>classBubbleComponent.html</anchorfile>
+      <anchor>acd4f589f242a148462d90a2ada86a999</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>backgroundColourId</name>
+      <anchorfile>classBubbleComponent.html</anchorfile>
+      <anchor>acd4f589f242a148462d90a2ada86a999a56755cadccae478be8ee4a7cd1d82e4f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>outlineColourId</name>
+      <anchorfile>classBubbleComponent.html</anchorfile>
+      <anchor>acd4f589f242a148462d90a2ada86a999ade450dde688dbb5680ce965966c8486d</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type></type>
       <name>~BubbleComponent</name>
@@ -12716,7 +12734,6 @@
     <base>ApplicationCommandManagerListener</base>
     <base>Value::Listener</base>
     <base protection="private">KeyListener</base>
-    <class kind="struct">Button::Ids</class>
     <class kind="class">Button::Listener</class>
     <member kind="enumeration">
       <name>ConnectedEdgeFlags</name>
@@ -12997,13 +13014,6 @@
       <arglist>(const ButtonState newState)</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
-      <name>refreshFromValueTree</name>
-      <anchorfile>classButton.html</anchorfile>
-      <anchor>a6e32e64b920671d54e845b6a6718f73b</anchor>
-      <arglist>(const ValueTree &amp;, ComponentBuilder &amp;)</arglist>
-    </member>
-    <member kind="function">
       <type></type>
       <name>JUCE_DEPRECATED</name>
       <anchorfile>classButton.html</anchorfile>
@@ -13016,13 +13026,6 @@
       <anchorfile>classButton.html</anchorfile>
       <anchor>a1e549fee63e10617d44c8fb17bd15166</anchor>
       <arglist>(void removeButtonListener(Listener *))</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static int</type>
-      <name>getConnectedFlags</name>
-      <anchorfile>classButton.html</anchorfile>
-      <anchor>a3c7661c9f612617e4be693983302ad17</anchor>
-      <arglist>(const ValueTree &amp;state)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type></type>
@@ -13191,52 +13194,6 @@
       <anchorfile>classButton.html</anchorfile>
       <anchor>a19df6760ab31f16c4e82c8e6102f7b70</anchor>
       <arglist>(Value &amp;)</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>Button::Ids</name>
-    <filename>structButton_1_1Ids.html</filename>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>text</name>
-      <anchorfile>structButton_1_1Ids.html</anchorfile>
-      <anchor>a3e7c3ecc54a7cd5cb561ad0c63ce2e8e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>radioGroup</name>
-      <anchorfile>structButton_1_1Ids.html</anchorfile>
-      <anchor>a24ecfdec627dc53a81d9104936447075</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>connectedLeft</name>
-      <anchorfile>structButton_1_1Ids.html</anchorfile>
-      <anchor>a08f7e097666940ba88396e7d9527cc3d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>connectedRight</name>
-      <anchorfile>structButton_1_1Ids.html</anchorfile>
-      <anchor>a9c1d84d2d786f68cdb7adab4b1546589</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>connectedTop</name>
-      <anchorfile>structButton_1_1Ids.html</anchorfile>
-      <anchor>a5756654411e5ad90a404ff074cbb69e6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>connectedBottom</name>
-      <anchorfile>structButton_1_1Ids.html</anchorfile>
-      <anchor>a457bc71d601be70319df558317c6f383</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -18773,7 +18730,6 @@
     <base>Label::Listener</base>
     <base>Value::Listener</base>
     <base protection="private">AsyncUpdater</base>
-    <class kind="struct">ComboBox::Ids</class>
     <class kind="class">ComboBox::Listener</class>
     <member kind="enumeration">
       <name>ColourIds</name>
@@ -19051,13 +19007,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>refreshFromValueTree</name>
-      <anchorfile>classComboBox.html</anchorfile>
-      <anchor>ad4be3486938aebb90b0b107e2a16d32f</anchor>
-      <arglist>(const ValueTree &amp;, ComponentBuilder &amp;)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>labelTextChanged</name>
       <anchorfile>classComboBox.html</anchorfile>
       <anchor>a35f467619dc12110c32fb90f3e7b76ab</anchor>
@@ -19167,52 +19116,6 @@
       <anchorfile>classComboBox.html</anchorfile>
       <anchor>a76c62167633c14047c0f60f1ac8dd310</anchor>
       <arglist>(Value &amp;)</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>ComboBox::Ids</name>
-    <filename>structComboBox_1_1Ids.html</filename>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>tagType</name>
-      <anchorfile>structComboBox_1_1Ids.html</anchorfile>
-      <anchor>a14b24e18d54d442b24fadf0accc204d9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>items</name>
-      <anchorfile>structComboBox_1_1Ids.html</anchorfile>
-      <anchor>a43c9313232e8b55cb29e0b96be57f837</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>editable</name>
-      <anchorfile>structComboBox_1_1Ids.html</anchorfile>
-      <anchor>a41f865535cb29a470ee49b506539cc11</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>textJustification</name>
-      <anchorfile>structComboBox_1_1Ids.html</anchorfile>
-      <anchor>a8a472975e345f7a1b57acd27df314d35</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>unselectedText</name>
-      <anchorfile>structComboBox_1_1Ids.html</anchorfile>
-      <anchor>a70b129e37cdd17d5a662a9ff7e60e7d0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>noItemsText</name>
-      <anchorfile>structComboBox_1_1Ids.html</anchorfile>
-      <anchor>a59e2f9b87b5ec4cdd8f3b96d9f354139</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -21044,27 +20947,6 @@
       <anchor>ada58c44d9f924f56b43f9552c537f30a</anchor>
       <arglist>(Component &amp;parent, const ValueTree &amp;children)</arglist>
     </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>initialiseFromValueTree</name>
-      <anchorfile>classComponentBuilder.html</anchorfile>
-      <anchor>ab0e78c5c3a22a2545709ab9d26a36348</anchor>
-      <arglist>(Component &amp;component, const ValueTree &amp;state, ImageProvider *imageProvider)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>refreshBasicComponentProperties</name>
-      <anchorfile>classComponentBuilder.html</anchorfile>
-      <anchor>adc01e5add6366479a2bf01b96e8eca48</anchor>
-      <arglist>(Component &amp;, const ValueTree &amp;)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static RelativeRectangle</type>
-      <name>getComponentBounds</name>
-      <anchorfile>classComponentBuilder.html</anchorfile>
-      <anchor>af8a294f4d159c48c820b7085508045ed</anchor>
-      <arglist>(const ValueTree &amp;)</arglist>
-    </member>
     <member kind="variable">
       <type>ValueTree</type>
       <name>state</name>
@@ -21921,6 +21803,81 @@
       <anchorfile>structComponentPeer_1_1DragInfo.html</anchorfile>
       <anchor>ac83d9a513bd9e691d6b8afb1d33f9a3a</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>ConcertinaPanel</name>
+    <filename>classConcertinaPanel.html</filename>
+    <base>Component</base>
+    <member kind="function">
+      <type></type>
+      <name>ConcertinaPanel</name>
+      <anchorfile>classConcertinaPanel.html</anchorfile>
+      <anchor>a2920a5c550d59485bf73088618cf1cb6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~ConcertinaPanel</name>
+      <anchorfile>classConcertinaPanel.html</anchorfile>
+      <anchor>a1453c3ab3121c4e1c7c7d526f8763c33</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>addPanel</name>
+      <anchorfile>classConcertinaPanel.html</anchorfile>
+      <anchor>ac619903630bdc5ee60e1ed5f616955b6</anchor>
+      <arglist>(int insertIndex, Component *component, bool takeOwnership)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>removePanel</name>
+      <anchorfile>classConcertinaPanel.html</anchorfile>
+      <anchor>a681cff380bcf2574c7d73ac2b69e6c60</anchor>
+      <arglist>(Component *panelComponent)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getNumPanels</name>
+      <anchorfile>classConcertinaPanel.html</anchorfile>
+      <anchor>a8b1d01c01a0632e900cdb19e0b2b8d96</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Component *</type>
+      <name>getPanel</name>
+      <anchorfile>classConcertinaPanel.html</anchorfile>
+      <anchor>afc0460a5c2c4db59c7bbdb27ceca6ca5</anchor>
+      <arglist>(int index) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>setPanelSize</name>
+      <anchorfile>classConcertinaPanel.html</anchorfile>
+      <anchor>a99abf7cb8b65cc81060113d854aa9735</anchor>
+      <arglist>(Component *panelComponent, int newHeight, bool animate)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>expandPanelFully</name>
+      <anchorfile>classConcertinaPanel.html</anchorfile>
+      <anchor>a16b938d66a2239279f9ad56a547a8f34</anchor>
+      <arglist>(Component *panelComponent, const bool animate)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setMaximumPanelSize</name>
+      <anchorfile>classConcertinaPanel.html</anchorfile>
+      <anchor>a5574d0d41278fd51113b82256bfd4453</anchor>
+      <arglist>(Component *panelComponent, int maximumSize)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setPanelHeaderSize</name>
+      <anchorfile>classConcertinaPanel.html</anchorfile>
+      <anchor>a70823aaec07b0fc92fcf420c36c2c704</anchor>
+      <arglist>(Component *panelComponent, int headerSize)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -29723,6 +29680,13 @@
     </member>
     <member kind="function">
       <type>bool</type>
+      <name>usesFileExtension</name>
+      <anchorfile>classGIFImageFormat.html</anchorfile>
+      <anchor>ad0580130800051e86bf8170740947c99</anchor>
+      <arglist>(const File &amp;possibleFile)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
       <name>canUnderstand</name>
       <anchorfile>classGIFImageFormat.html</anchorfile>
       <anchor>a482ca505b61af3903820411546015681</anchor>
@@ -30461,7 +30425,6 @@
     <name>GroupComponent</name>
     <filename>classGroupComponent.html</filename>
     <base>Component</base>
-    <class kind="struct">GroupComponent::Ids</class>
     <member kind="enumeration">
       <name>ColourIds</name>
       <anchorfile>classGroupComponent.html</anchorfile>
@@ -30524,13 +30487,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>refreshFromValueTree</name>
-      <anchorfile>classGroupComponent.html</anchorfile>
-      <anchor>a866bb8513ebf57625eaa7f0df86b45ea</anchor>
-      <arglist>(const ValueTree &amp;, ComponentBuilder &amp;)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>paint</name>
       <anchorfile>classGroupComponent.html</anchorfile>
       <anchor>a683b8eada2fd402d353b2caece5568fe</anchor>
@@ -30549,31 +30505,6 @@
       <anchorfile>classGroupComponent.html</anchorfile>
       <anchor>a4d2a952995b5853ce5b93eeae031e29f</anchor>
       <arglist>()</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>GroupComponent::Ids</name>
-    <filename>structGroupComponent_1_1Ids.html</filename>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>tagType</name>
-      <anchorfile>structGroupComponent_1_1Ids.html</anchorfile>
-      <anchor>ad44f355b79ff308e86bfe0607bc095f6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>text</name>
-      <anchorfile>structGroupComponent_1_1Ids.html</anchorfile>
-      <anchor>a0a03b8ad91cfdb7e3882eaa7428ca632</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>justification</name>
-      <anchorfile>structGroupComponent_1_1Ids.html</anchorfile>
-      <anchor>a856dfc6b5c1c7148ccf40f7e515917be</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -30853,6 +30784,13 @@
     <filename>classHeapBlock.html</filename>
     <templarg>ElementType</templarg>
     <templarg>throwOnFailure</templarg>
+    <member kind="typedef">
+      <type>ElementType</type>
+      <name>Type</name>
+      <anchorfile>classHeapBlock.html</anchorfile>
+      <anchor>a5757b5bd325d4addb907186b08e6849e</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type></type>
       <name>HeapBlock</name>
@@ -30998,7 +30936,6 @@
     <name>HyperlinkButton</name>
     <filename>classHyperlinkButton.html</filename>
     <base>Button</base>
-    <class kind="struct">HyperlinkButton::Ids</class>
     <member kind="enumeration">
       <name>ColourIds</name>
       <anchorfile>classHyperlinkButton.html</anchorfile>
@@ -31060,13 +30997,6 @@
       <anchor>adab11697af1e6c4c886537e03cedd8ef</anchor>
       <arglist>()</arglist>
     </member>
-    <member kind="function">
-      <type>void</type>
-      <name>refreshFromValueTree</name>
-      <anchorfile>classHyperlinkButton.html</anchorfile>
-      <anchor>a4d2e2b974af9af23e75c8c0855acbeee</anchor>
-      <arglist>(const ValueTree &amp;, ComponentBuilder &amp;)</arglist>
-    </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>clicked</name>
@@ -31087,31 +31017,6 @@
       <anchorfile>classHyperlinkButton.html</anchorfile>
       <anchor>a7eab0c8a05e56b8f2c078dc2b58a16d1</anchor>
       <arglist>(Graphics &amp;g, bool isMouseOverButton, bool isButtonDown)</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>HyperlinkButton::Ids</name>
-    <filename>structHyperlinkButton_1_1Ids.html</filename>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>tagType</name>
-      <anchorfile>structHyperlinkButton_1_1Ids.html</anchorfile>
-      <anchor>ac3218e1bd60cfdeb5a9c1e89a58f7ca3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>text</name>
-      <anchorfile>structHyperlinkButton_1_1Ids.html</anchorfile>
-      <anchor>a6a49dd9f884c750b10deab41d0a3cb8e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>url</name>
-      <anchorfile>structHyperlinkButton_1_1Ids.html</anchorfile>
-      <anchor>aa9566b781654444fb7e51d1c0b0cc7f8</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -31662,8 +31567,8 @@
       <type>void</type>
       <name>createSolidAreaMask</name>
       <anchorfile>classImage.html</anchorfile>
-      <anchor>a7879a00425ea9c79fa30a67740ca1ca1</anchor>
-      <arglist>(RectangleList &amp;result, float alphaThreshold=0.5f) const </arglist>
+      <anchor>a3689d7648398f4cf8ed9759eb1336ed1</anchor>
+      <arglist>(RectangleList &amp;result, float alphaThreshold) const </arglist>
     </member>
     <member kind="function">
       <type>NamedValueSet *</type>
@@ -31792,6 +31697,13 @@
       <anchor>a7dfdcbe67a205792670691b8ed68ae1f</anchor>
       <arglist>(int x, int y, const Colour &amp;colour) const noexcept</arglist>
     </member>
+    <member kind="function">
+      <type>Rectangle&lt; int &gt;</type>
+      <name>getBounds</name>
+      <anchorfile>classImage_1_1BitmapData.html</anchorfile>
+      <anchor>a6eb8ae898ff48b27b7c4fd4551326f9d</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
     <member kind="variable">
       <type>uint8 *</type>
       <name>data</name>
@@ -31864,7 +31776,6 @@
     <name>ImageButton</name>
     <filename>classImageButton.html</filename>
     <base>Button</base>
-    <class kind="struct">ImageButton::Ids</class>
     <member kind="function">
       <type></type>
       <name>ImageButton</name>
@@ -31907,13 +31818,6 @@
       <anchor>adb12b3d33c65d8022e4fe12c235ebb36</anchor>
       <arglist>() const </arglist>
     </member>
-    <member kind="function">
-      <type>void</type>
-      <name>refreshFromValueTree</name>
-      <anchorfile>classImageButton.html</anchorfile>
-      <anchor>a212a4a69370e50e726c0fac5e174cfc3</anchor>
-      <arglist>(const ValueTree &amp;, ComponentBuilder &amp;)</arglist>
-    </member>
     <member kind="function" protection="protected">
       <type>bool</type>
       <name>hitTest</name>
@@ -31927,80 +31831,6 @@
       <anchorfile>classImageButton.html</anchorfile>
       <anchor>aa52c5f0822b68a2e2d64053a169daa0a</anchor>
       <arglist>(Graphics &amp;g, bool isMouseOverButton, bool isButtonDown)</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>ImageButton::Ids</name>
-    <filename>structImageButton_1_1Ids.html</filename>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>tagType</name>
-      <anchorfile>structImageButton_1_1Ids.html</anchorfile>
-      <anchor>ae42466b65ec63f718cff197686cfc2d5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>upImage</name>
-      <anchorfile>structImageButton_1_1Ids.html</anchorfile>
-      <anchor>a1a81e96106d1d993f7353c72f49685d7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>overImage</name>
-      <anchorfile>structImageButton_1_1Ids.html</anchorfile>
-      <anchor>a58ea269f353d473f71cbfa5d1bc4486c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>downImage</name>
-      <anchorfile>structImageButton_1_1Ids.html</anchorfile>
-      <anchor>a26a121e552603c7940a06db1c6a67728</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>upOverlay</name>
-      <anchorfile>structImageButton_1_1Ids.html</anchorfile>
-      <anchor>a13b11212f8793da53022a33e0df4e044</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>overOverlay</name>
-      <anchorfile>structImageButton_1_1Ids.html</anchorfile>
-      <anchor>a9413f857382ed3b3f6f7a1fa5c69ef88</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>downOverlay</name>
-      <anchorfile>structImageButton_1_1Ids.html</anchorfile>
-      <anchor>abd85ebf218c02a2bdd55ff45d33fae00</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>upOpacity</name>
-      <anchorfile>structImageButton_1_1Ids.html</anchorfile>
-      <anchor>ac63022eb635d1aa9df17d81ae3a6a8b5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>overOpacity</name>
-      <anchorfile>structImageButton_1_1Ids.html</anchorfile>
-      <anchor>a1d6206cc708a3a7a3cb41fe346042823</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>downOpacity</name>
-      <anchorfile>structImageButton_1_1Ids.html</anchorfile>
-      <anchor>afc6b5ef653312630168b6a24c86b9661</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -32047,7 +31877,6 @@
     <filename>classImageComponent.html</filename>
     <base>Component</base>
     <base>SettableTooltipClient</base>
-    <class kind="struct">ImageComponent::Ids</class>
     <member kind="function">
       <type></type>
       <name>ImageComponent</name>
@@ -32099,49 +31928,10 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>refreshFromValueTree</name>
-      <anchorfile>classImageComponent.html</anchorfile>
-      <anchor>a0dc544cb46ca57f0923a3ac70555e708</anchor>
-      <arglist>(const ValueTree &amp;, ComponentBuilder &amp;)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>paint</name>
       <anchorfile>classImageComponent.html</anchorfile>
       <anchor>a497a808dcc68e715a75b179f4ae7aeec</anchor>
       <arglist>(Graphics &amp;g)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static RectanglePlacement</type>
-      <name>getPlacement</name>
-      <anchorfile>classImageComponent.html</anchorfile>
-      <anchor>a583b3f6e9b6b507c50fb8a6d5e133cd9</anchor>
-      <arglist>(const ValueTree &amp;state)</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>ImageComponent::Ids</name>
-    <filename>structImageComponent_1_1Ids.html</filename>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>tagType</name>
-      <anchorfile>structImageComponent_1_1Ids.html</anchorfile>
-      <anchor>a89001d5709e5512dae4099ddc3afef5c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>image</name>
-      <anchorfile>structImageComponent_1_1Ids.html</anchorfile>
-      <anchor>ac5a87c2344e2dc496f35ed3bddd2b656</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>placement</name>
-      <anchorfile>structImageComponent_1_1Ids.html</anchorfile>
-      <anchor>adf4dfb69e6e3cbc9cd51f52bafaf71e3</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -32261,6 +32051,13 @@
       <arglist>(InputStream &amp;input)=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
+      <type>virtual bool</type>
+      <name>usesFileExtension</name>
+      <anchorfile>classImageFileFormat.html</anchorfile>
+      <anchor>a9eb5f897a01aa14b136944eee2c7f684</anchor>
+      <arglist>(const File &amp;possibleFile)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
       <type>virtual Image</type>
       <name>decodeImage</name>
       <anchorfile>classImageFileFormat.html</anchorfile>
@@ -32280,6 +32077,13 @@
       <anchorfile>classImageFileFormat.html</anchorfile>
       <anchor>a7fcb93b4c52f931ec437674c731c9c04</anchor>
       <arglist>(InputStream &amp;input)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static ImageFileFormat *</type>
+      <name>findImageFormatForFileExtension</name>
+      <anchorfile>classImageFileFormat.html</anchorfile>
+      <anchor>ae8ffab7e17eaf28a09d4248d9dec1a70</anchor>
+      <arglist>(const File &amp;file)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static Image</type>
@@ -32929,6 +32733,13 @@
       <anchorfile>classJPEGImageFormat.html</anchorfile>
       <anchor>a480b8359659b767a48bf861182a47fff</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>usesFileExtension</name>
+      <anchorfile>classJPEGImageFormat.html</anchorfile>
+      <anchor>acd71eabdcba45217a477f9a39d87ad10</anchor>
+      <arglist>(const File &amp;possibleFile)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -34403,7 +34214,6 @@
     <base protection="protected">TextEditor::Listener</base>
     <base protection="private">ComponentListener</base>
     <base protection="private">Value::Listener</base>
-    <class kind="struct">Label::Ids</class>
     <class kind="class">Label::Listener</class>
     <member kind="enumeration">
       <name>ColourIds</name>
@@ -34618,13 +34428,6 @@
       <anchor>a4a96b4b788e9bc056b513d6f7f89686e</anchor>
       <arglist>() const noexcept</arglist>
     </member>
-    <member kind="function">
-      <type>void</type>
-      <name>refreshFromValueTree</name>
-      <anchorfile>classLabel.html</anchorfile>
-      <anchor>a9fd9c7ba17bfb93505818dab8a8324c9</anchor>
-      <arglist>(const ValueTree &amp;, ComponentBuilder &amp;)</arglist>
-    </member>
     <member kind="function" protection="protected" virtualness="virtual">
       <type>virtual TextEditor *</type>
       <name>createEditorComponent</name>
@@ -34778,52 +34581,6 @@
       <anchorfile>classLabel.html</anchorfile>
       <anchor>aec3e90374cfdbcda0fcb5c664f52cd02</anchor>
       <arglist>(Value &amp;)</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>Label::Ids</name>
-    <filename>structLabel_1_1Ids.html</filename>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>tagType</name>
-      <anchorfile>structLabel_1_1Ids.html</anchorfile>
-      <anchor>a4f3017024c9f8f2cb187dc13f14b2b97</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>text</name>
-      <anchorfile>structLabel_1_1Ids.html</anchorfile>
-      <anchor>abfabcee03b3affb685a7cf548a9b1fe4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>font</name>
-      <anchorfile>structLabel_1_1Ids.html</anchorfile>
-      <anchor>a5c28a60eefe69fb534fc09a6daedc254</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>editMode</name>
-      <anchorfile>structLabel_1_1Ids.html</anchorfile>
-      <anchor>a8173e2849a2d620931725d89da801766</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>justification</name>
-      <anchorfile>structLabel_1_1Ids.html</anchorfile>
-      <anchor>abd43e4f19dd8e843b5e80d2dd0d0731f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>focusLossDiscardsChanges</name>
-      <anchorfile>structLabel_1_1Ids.html</anchorfile>
-      <anchor>a267449a553b3d064334e1cc89659e453</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -35395,7 +35152,6 @@
     <filename>classListBox.html</filename>
     <base>Component</base>
     <base>SettableTooltipClient</base>
-    <class kind="struct">ListBox::Ids</class>
     <member kind="enumeration">
       <name>ColourIds</name>
       <anchorfile>classListBox.html</anchorfile>
@@ -35708,13 +35464,6 @@
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
-      <name>refreshFromValueTree</name>
-      <anchorfile>classListBox.html</anchorfile>
-      <anchor>af2f2f0817886d94bdcdf12ba3eb9af85</anchor>
-      <arglist>(const ValueTree &amp;, ComponentBuilder &amp;)</arglist>
-    </member>
-    <member kind="function">
       <type>bool</type>
       <name>keyPressed</name>
       <anchorfile>classListBox.html</anchorfile>
@@ -35797,24 +35546,6 @@
       <anchorfile>classListBox.html</anchorfile>
       <anchor>ae812d8ed4df3b8439d4b139c2a9f195d</anchor>
       <arglist>(const MouseEvent &amp;, const var &amp;dragDescription, bool allowDraggingToOtherWindows)</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>ListBox::Ids</name>
-    <filename>structListBox_1_1Ids.html</filename>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>rowHeight</name>
-      <anchorfile>structListBox_1_1Ids.html</anchorfile>
-      <anchor>a66f20519ec5da251c275905459bdf18d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>borderThickness</name>
-      <anchorfile>structListBox_1_1Ids.html</anchorfile>
-      <anchor>a65315c938bf4d3bf79b6ec1b4f989043</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -36404,17 +36135,17 @@
       <arglist>()</arglist>
     </member>
     <member kind="function" virtualness="virtual">
-      <type>virtual const Font</type>
+      <type>virtual Font</type>
       <name>getAlertWindowMessageFont</name>
       <anchorfile>classLookAndFeel.html</anchorfile>
-      <anchor>aac3594c16cb7ee4778c4fd613685bc2b</anchor>
+      <anchor>a81dfb50dd519bf4f10645e8b0300aa4d</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function" virtualness="virtual">
-      <type>virtual const Font</type>
+      <type>virtual Font</type>
       <name>getAlertWindowFont</name>
       <anchorfile>classLookAndFeel.html</anchorfile>
-      <anchor>af3a91f996021475a8f22e1f421f2b43f</anchor>
+      <anchor>a702e290d3219a237954a4050b8b6ae03</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -36495,17 +36226,17 @@
       <arglist>(ScrollBar &amp;scrollbar)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
-      <type>virtual const Path</type>
+      <type>virtual Path</type>
       <name>getTickShape</name>
       <anchorfile>classLookAndFeel.html</anchorfile>
-      <anchor>a59b9be0688bae8e46c927b9b1ba5ff50</anchor>
+      <anchor>a997a0a41bdcc4a152c7594e059b316d5</anchor>
       <arglist>(float height)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
-      <type>virtual const Path</type>
+      <type>virtual Path</type>
       <name>getCrossShape</name>
       <anchorfile>classLookAndFeel.html</anchorfile>
-      <anchor>ac7ef8f5c24356c91c56be8089b90342b</anchor>
+      <anchor>ae03959d3a1843f245e77cdc3a30f0136</anchor>
       <arglist>(float height)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
@@ -36582,8 +36313,8 @@
       <type>virtual void</type>
       <name>drawBubble</name>
       <anchorfile>classLookAndFeel.html</anchorfile>
-      <anchor>a290c9c86050db87f5ea6779030826ded</anchor>
-      <arglist>(Graphics &amp;g, float tipX, float tipY, float boxX, float boxY, float boxW, float boxH)</arglist>
+      <anchor>a7d79f09809e664f100b7177ad2ac73ab</anchor>
+      <arglist>(Graphics &amp;g, BubbleComponent &amp;, const Point&lt; float &gt; &amp;tip, const Rectangle&lt; float &gt; &amp;body)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual void</type>
@@ -36780,6 +36511,13 @@
       <anchorfile>classLookAndFeel.html</anchorfile>
       <anchor>a812441cc621a83202e9e7381e696c55c</anchor>
       <arglist>(FilenameComponent &amp;filenameComp, ComboBox *filenameBox, Button *browseButton)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>drawConcertinaPanelHeader</name>
+      <anchorfile>classLookAndFeel.html</anchorfile>
+      <anchor>ab391976d73d53b45634af1b3994ce4dd</anchor>
+      <arglist>(Graphics &amp;g, const Rectangle&lt; int &gt; &amp;area, bool isMouseOver, bool isMouseDown, ConcertinaPanel &amp;concertina, Component &amp;panel)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual void</type>
@@ -37898,6 +37636,20 @@
       <anchorfile>classLowLevelGraphicsSoftwareRenderer.html</anchorfile>
       <anchor>a0de997a9f597de846cf2738ccf929b2f</anchor>
       <arglist>(int glyphNumber, const AffineTransform &amp;)</arglist>
+    </member>
+    <member kind="function">
+      <type>const Image &amp;</type>
+      <name>getImage</name>
+      <anchorfile>classLowLevelGraphicsSoftwareRenderer.html</anchorfile>
+      <anchor>a1bc4000b3fe07b92451775e49dd07c87</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>const RenderingHelpers::TranslationOrTransform &amp;</type>
+      <name>getTransform</name>
+      <anchorfile>classLowLevelGraphicsSoftwareRenderer.html</anchorfile>
+      <anchor>ac6159577ef1ad8e295dc25d386f62dce</anchor>
+      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function" protection="protected">
       <type></type>
@@ -46994,6 +46746,13 @@
     </member>
     <member kind="function">
       <type>bool</type>
+      <name>usesFileExtension</name>
+      <anchorfile>classPNGImageFormat.html</anchorfile>
+      <anchor>a92da382df4b60b06e9268ba868d0e7c9</anchor>
+      <arglist>(const File &amp;possibleFile)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
       <name>canUnderstand</name>
       <anchorfile>classPNGImageFormat.html</anchorfile>
       <anchor>a898aeff02c886e2a26ddfffe2dbe7eee</anchor>
@@ -47380,8 +47139,8 @@
       <type>void</type>
       <name>addItem</name>
       <anchorfile>classPopupMenu.html</anchorfile>
-      <anchor>ae7cea826221af9e05f99406fe6057962</anchor>
-      <arglist>(int itemResultId, const String &amp;itemText, bool isEnabled=true, bool isTicked=false, const Image &amp;iconToUse=Image::null)</arglist>
+      <anchor>a2eff16ff28a8802d589a233055879273</anchor>
+      <arglist>(int itemResultID, const String &amp;itemText, bool isEnabled=true, bool isTicked=false, const Image &amp;iconToUse=Image::null)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -47394,22 +47153,22 @@
       <type>void</type>
       <name>addColouredItem</name>
       <anchorfile>classPopupMenu.html</anchorfile>
-      <anchor>a4948280ff994d458294121c64a630ed0</anchor>
-      <arglist>(int itemResultId, const String &amp;itemText, const Colour &amp;itemTextColour, bool isEnabled=true, bool isTicked=false, const Image &amp;iconToUse=Image::null)</arglist>
+      <anchor>ad66cf971ac98f73ad76108947029f3c6</anchor>
+      <arglist>(int itemResultID, const String &amp;itemText, const Colour &amp;itemTextColour, bool isEnabled=true, bool isTicked=false, const Image &amp;iconToUse=Image::null)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>addCustomItem</name>
       <anchorfile>classPopupMenu.html</anchorfile>
-      <anchor>aa46db86411df083f051bc0f16ff6c53b</anchor>
-      <arglist>(int itemResultId, Component *customComponent, int idealWidth, int idealHeight, bool triggerMenuItemAutomaticallyWhenClicked)</arglist>
+      <anchor>ada00f2e6df7ffc9d0e5ac15889588345</anchor>
+      <arglist>(int itemResultID, Component *customComponent, int idealWidth, int idealHeight, bool triggerMenuItemAutomaticallyWhenClicked)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>addSubMenu</name>
       <anchorfile>classPopupMenu.html</anchorfile>
-      <anchor>aaa016bb4dc1a37e042f7cf4bdbf7c4dc</anchor>
-      <arglist>(const String &amp;subMenuName, const PopupMenu &amp;subMenu, bool isEnabled=true, const Image &amp;iconToUse=Image::null, bool isTicked=false)</arglist>
+      <anchor>aa19efbf7204911ed65a482735bfa8ad4</anchor>
+      <arglist>(const String &amp;subMenuName, const PopupMenu &amp;subMenu, bool isEnabled=true, const Image &amp;iconToUse=Image::null, bool isTicked=false, int itemResultID=0)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -47464,8 +47223,8 @@
       <type>void</type>
       <name>addCustomItem</name>
       <anchorfile>classPopupMenu.html</anchorfile>
-      <anchor>ab29d248b3ab77e2a7be201aa113bbc4d</anchor>
-      <arglist>(int itemResultId, CustomComponent *customComponent)</arglist>
+      <anchor>a81dcc274205a59f200f25e1f122cfca9</anchor>
+      <arglist>(int itemResultID, CustomComponent *customComponent)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool JUCE_CALLTYPE</type>
@@ -48028,6 +47787,13 @@
       <name>isForegroundProcess</name>
       <anchorfile>classProcess.html</anchorfile>
       <anchor>aabc25470371b03373c7b3ca0704b545e</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>makeForegroundProcess</name>
+      <anchorfile>classProcess.html</anchorfile>
+      <anchor>ab6a1ad5775f82a820df3c9993ba67054</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function" static="yes">
@@ -49860,6 +49626,13 @@
       <arglist>(const ValueType deltaX, const ValueType deltaY) const noexcept</arglist>
     </member>
     <member kind="function">
+      <type>Rectangle</type>
+      <name>expanded</name>
+      <anchorfile>classRectangle.html</anchorfile>
+      <anchor>afd91a9777fe72be6a1dcf984cd24c49d</anchor>
+      <arglist>(const ValueType delta) const noexcept</arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>reduce</name>
       <anchorfile>classRectangle.html</anchorfile>
@@ -49872,6 +49645,13 @@
       <anchorfile>classRectangle.html</anchorfile>
       <anchor>a3944059d01cbe84fd6e826a9ae478135</anchor>
       <arglist>(const ValueType deltaX, const ValueType deltaY) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>Rectangle</type>
+      <name>reduced</name>
+      <anchorfile>classRectangle.html</anchorfile>
+      <anchor>a3e882e4d451a116c550115e458522496</anchor>
+      <arglist>(const ValueType delta) const noexcept</arglist>
     </member>
     <member kind="function">
       <type>Rectangle</type>
@@ -54175,7 +53955,6 @@
     <filename>classSlider.html</filename>
     <base>Component</base>
     <base>SettableTooltipClient</base>
-    <class kind="struct">Slider::Ids</class>
     <class kind="class">Slider::Listener</class>
     <member kind="enumeration">
       <name>SliderStyle</name>
@@ -54217,6 +53996,12 @@
       <name>RotaryVerticalDrag</name>
       <anchorfile>classSlider.html</anchorfile>
       <anchor>af1caee82552143dd9ff0fc9f0cdc0888a46ac50fdae2ac4df9a2f3ad630589224</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RotaryHorizontalVerticalDrag</name>
+      <anchorfile>classSlider.html</anchorfile>
+      <anchor>af1caee82552143dd9ff0fc9f0cdc0888a6d72c2ed67c43d22785fe271d3684075</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
@@ -54851,13 +54636,6 @@
       <anchor>a105d005078031e28d8e23d52d194bcde</anchor>
       <arglist>() const noexcept</arglist>
     </member>
-    <member kind="function">
-      <type>void</type>
-      <name>refreshFromValueTree</name>
-      <anchorfile>classSlider.html</anchorfile>
-      <anchor>a98bd534b780c99b2fbe7878dfe50b2f9</anchor>
-      <arglist>(const ValueTree &amp;, ComponentBuilder &amp;)</arglist>
-    </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>paint</name>
@@ -54948,80 +54726,6 @@
       <anchorfile>classSlider.html</anchorfile>
       <anchor>aa5bb046cc2276f034f8ad8a67054057b</anchor>
       <arglist>() const noexcept</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>Slider::Ids</name>
-    <filename>structSlider_1_1Ids.html</filename>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>tagType</name>
-      <anchorfile>structSlider_1_1Ids.html</anchorfile>
-      <anchor>a413608eec50b448a17ee0ed964279068</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>min</name>
-      <anchorfile>structSlider_1_1Ids.html</anchorfile>
-      <anchor>a4b4fb8c7d73fb9390158f5c07a355d89</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>max</name>
-      <anchorfile>structSlider_1_1Ids.html</anchorfile>
-      <anchor>aded87e993ab131dd276c34a88742f218</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>interval</name>
-      <anchorfile>structSlider_1_1Ids.html</anchorfile>
-      <anchor>a4ef66c6bc65214938c35bf7767fad9f3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>type</name>
-      <anchorfile>structSlider_1_1Ids.html</anchorfile>
-      <anchor>a993ac1a32b05096b14dc529ea45525e1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>editable</name>
-      <anchorfile>structSlider_1_1Ids.html</anchorfile>
-      <anchor>affaa68793efb32ad09f80514a2258fb4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>textBoxPos</name>
-      <anchorfile>structSlider_1_1Ids.html</anchorfile>
-      <anchor>a2ed3d114f38ed706ad7935511b6281ef</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>textBoxWidth</name>
-      <anchorfile>structSlider_1_1Ids.html</anchorfile>
-      <anchor>ac837382ce9713d5e88a96d927c3f8031</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>textBoxHeight</name>
-      <anchorfile>structSlider_1_1Ids.html</anchorfile>
-      <anchor>a908d5b0b741ed3c84d3be5140e2346c2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>skew</name>
-      <anchorfile>structSlider_1_1Ids.html</anchorfile>
-      <anchor>a49dbf6c5cf39305558bf3d44360fd2f6</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -55290,10 +54994,10 @@
       <arglist>(const ElementType &amp;elementToLookFor) const noexcept</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
+      <type>bool</type>
       <name>add</name>
       <anchorfile>classSortedSet.html</anchorfile>
-      <anchor>acfa575e890f94ebc4e06113a53cb3ef3</anchor>
+      <anchor>a861274cee3723b88dc742aef24ba65d5</anchor>
       <arglist>(const ElementType &amp;newElement) noexcept</arglist>
     </member>
     <member kind="function">
@@ -57818,12 +57522,6 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <name>MacOSX</name>
-      <anchorfile>classSystemStats.html</anchorfile>
-      <anchor>a7697c468b5f6c391096ab483690b68eaa7b97455dbb0979156c038ccf4bebe545</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
       <name>Linux</name>
       <anchorfile>classSystemStats.html</anchorfile>
       <anchor>a7697c468b5f6c391096ab483690b68eaa2d87a056c510cc59626e6df7be6fe72d</anchor>
@@ -57836,27 +57534,39 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <name>Win95</name>
+      <name>iOS</name>
       <anchorfile>classSystemStats.html</anchorfile>
-      <anchor>a7697c468b5f6c391096ab483690b68eaa3f11da9304cdc767e3e9dfcd9e9c8099</anchor>
+      <anchor>a7697c468b5f6c391096ab483690b68eaac9450b81876366666cc4ef6dbaa7496e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <name>Win98</name>
+      <name>MacOSX_10_4</name>
       <anchorfile>classSystemStats.html</anchorfile>
-      <anchor>a7697c468b5f6c391096ab483690b68eaac292d976b319648c6b7afc9163685614</anchor>
+      <anchor>a7697c468b5f6c391096ab483690b68eaa1ce7cc1fe386e7fa87013cbddf52543f</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <name>WinNT351</name>
+      <name>MacOSX_10_5</name>
       <anchorfile>classSystemStats.html</anchorfile>
-      <anchor>a7697c468b5f6c391096ab483690b68eaa2b72add67b0109c203085ed82f31b335</anchor>
+      <anchor>a7697c468b5f6c391096ab483690b68eaa12c47314def418879ea14c9d7b3c7245</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <name>WinNT40</name>
+      <name>MacOSX_10_6</name>
       <anchorfile>classSystemStats.html</anchorfile>
-      <anchor>a7697c468b5f6c391096ab483690b68eaaa9d6a3f43519091d606c5aed1ac2dbf2</anchor>
+      <anchor>a7697c468b5f6c391096ab483690b68eaa23c2a4b9a33a4b5dccb9d89491aff8ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>MacOSX_10_7</name>
+      <anchorfile>classSystemStats.html</anchorfile>
+      <anchor>a7697c468b5f6c391096ab483690b68eaa73d61823d6a922d10c2f85b796de7a44</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>MacOSX_10_8</name>
+      <anchorfile>classSystemStats.html</anchorfile>
+      <anchor>a7697c468b5f6c391096ab483690b68eaa61eb1fabeb6408094768af66ae88b877</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
@@ -57884,15 +57594,15 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <name>Windows</name>
+      <name>Windows8</name>
       <anchorfile>classSystemStats.html</anchorfile>
-      <anchor>a7697c468b5f6c391096ab483690b68eaae300f2fc8f4c69f639d7b066ccdc6a64</anchor>
+      <anchor>a7697c468b5f6c391096ab483690b68eaa6c35072e034f00f65fa5740243d65445</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <name>WindowsNT</name>
+      <name>Windows</name>
       <anchorfile>classSystemStats.html</anchorfile>
-      <anchor>a7697c468b5f6c391096ab483690b68eaa46b8cd255af2f2255cb4657d1693fa1b</anchor>
+      <anchor>a7697c468b5f6c391096ab483690b68eaae300f2fc8f4c69f639d7b066ccdc6a64</anchor>
       <arglist></arglist>
     </member>
     <member kind="function" static="yes">
@@ -57921,13 +57631,6 @@
       <name>isOperatingSystem64Bit</name>
       <anchorfile>classSystemStats.html</anchorfile>
       <anchor>a89a9be444a16742b03c66a525baa6061</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static int</type>
-      <name>getOSXMinorVersionNumber</name>
-      <anchorfile>classSystemStats.html</anchorfile>
-      <anchor>aa13fa950a6863b7e915aab91cfed4645</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function" static="yes">
@@ -59554,7 +59257,6 @@
     <name>TextButton</name>
     <filename>classTextButton.html</filename>
     <base>Button</base>
-    <class kind="struct">TextButton::Ids</class>
     <member kind="enumeration">
       <name>ColourIds</name>
       <anchorfile>classTextButton.html</anchorfile>
@@ -59628,17 +59330,6 @@
       <arglist>()</arglist>
     </member>
   </compound>
-  <compound kind="struct">
-    <name>TextButton::Ids</name>
-    <filename>structTextButton_1_1Ids.html</filename>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>tagType</name>
-      <anchorfile>structTextButton_1_1Ids.html</anchorfile>
-      <anchor>a7310f2646051e269410c02f8663dd5a9</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
   <compound kind="class">
     <name>TextDragAndDropTarget</name>
     <filename>classTextDragAndDropTarget.html</filename>
@@ -59691,7 +59382,6 @@
     <base>Component</base>
     <base>TextInputTarget</base>
     <base>SettableTooltipClient</base>
-    <class kind="struct">TextEditor::Ids</class>
     <class kind="class">TextEditor::Listener</class>
     <member kind="enumeration">
       <name>ColourIds</name>
@@ -59748,11 +59438,11 @@
       <anchor>a3424ad2eb6fe2540de745865cdc3da94</anchor>
       <arglist>(const String &amp;componentName=String::empty, juce_wchar passwordCharacter=0)</arglist>
     </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual</type>
+    <member kind="function">
+      <type></type>
       <name>~TextEditor</name>
       <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>aba5c4c4c412a24be39845b5a30bb555e</anchor>
+      <anchor>a67cc14c174c7b66738c40f844d4dd7d7</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -59822,8 +59512,8 @@
       <type>bool</type>
       <name>isCaretVisible</name>
       <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a257371f72c0cdcc0d792fd70c68ad046</anchor>
-      <arglist>() const </arglist>
+      <anchor>ae489b45147c4fbfb8fdc9bf2c2946415</anchor>
+      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -59836,8 +59526,8 @@
       <type>bool</type>
       <name>areScrollbarsShown</name>
       <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>ac03200efc2166a2df1365c97b5a594e0</anchor>
-      <arglist>() const </arglist>
+      <anchor>aa30f090abb8e9c8804f35f4fd45e8bb7</anchor>
+      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -59850,8 +59540,8 @@
       <type>juce_wchar</type>
       <name>getPasswordCharacter</name>
       <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a1dacee4d819cb06af6b868b049d1a7f8</anchor>
-      <arglist>() const </arglist>
+      <anchor>ad77f87717c15cc311d21ec4e01c9f52f</anchor>
+      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -59864,15 +59554,15 @@
       <type>bool</type>
       <name>isPopupMenuEnabled</name>
       <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a52bd87caec3707bd6d664d80befed562</anchor>
-      <arglist>() const </arglist>
+      <anchor>ac6480b421592f4d2cd4dd309193d8dff</anchor>
+      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>isPopupMenuCurrentlyActive</name>
       <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a3ab25788df359c70698c8151f08bd121</anchor>
-      <arglist>() const </arglist>
+      <anchor>a7dd76244ccf284b367d6bef080f20746</anchor>
+      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -59892,15 +59582,15 @@
       <type>const Font &amp;</type>
       <name>getFont</name>
       <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a488e9dbe9fda0fcc3a8fdd8fc7d2620f</anchor>
-      <arglist>() const </arglist>
+      <anchor>ab7bf7ea7c0c2b72b0382e12a02c9ea92</anchor>
+      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>setSelectAllWhenFocused</name>
       <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a8b3de01c35af2c92adf5f11c7c9d6d5e</anchor>
-      <arglist>(bool b)</arglist>
+      <anchor>a12de680fb05a19ca5d20107787ec73cf</anchor>
+      <arglist>(bool shouldSelectAll)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -60120,125 +59810,6 @@
       <arglist>(bool shouldScrollToShowCaret)</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
-      <name>paint</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a57096adad12dd494b376fe52a7238b72</anchor>
-      <arglist>(Graphics &amp;g)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>paintOverChildren</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a5e1267facaee9350c9bce6ed693b456b</anchor>
-      <arglist>(Graphics &amp;g)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>mouseDown</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a191a572d43603cfe9a11ff265f98a1d8</anchor>
-      <arglist>(const MouseEvent &amp;e)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>mouseUp</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>ab20245851c152d488c01a7b01fe3900e</anchor>
-      <arglist>(const MouseEvent &amp;e)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>mouseDrag</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a28dec1f37373401d9e4c253ec049eeef</anchor>
-      <arglist>(const MouseEvent &amp;e)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>mouseDoubleClick</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>ab2aba4989001da32ba205ec24937a351</anchor>
-      <arglist>(const MouseEvent &amp;e)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>mouseWheelMove</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a0c66aa10d4e8dc7eff7eac39d7cdd08e</anchor>
-      <arglist>(const MouseEvent &amp;, const MouseWheelDetails &amp;)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>keyPressed</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>aaff4916bb211609884f60f46fc4a9a03</anchor>
-      <arglist>(const KeyPress &amp;key)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>keyStateChanged</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a945d8203649fbe39fd4968c36180ad25</anchor>
-      <arglist>(bool isKeyDown)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>focusGained</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>abff01c5d96b88a81116ab5ec6349fe5f</anchor>
-      <arglist>(FocusChangeType cause)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>focusLost</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a7a5eeded9a541d00314ecc053d66b63e</anchor>
-      <arglist>(FocusChangeType cause)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>resized</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a9b69edcc74257d7193f5347da9d76acf</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>enablementChanged</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>aa63b1dc3f533db8b6d637ee832f32f27</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>colourChanged</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a103f49d397c32c29e948ede41e595d15</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>lookAndFeelChanged</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a250916b71e6d567ebdb0c884d374d2c8</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>isTextInputActive</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>ae97078d1e77664170bff2265f4f25c8b</anchor>
-      <arglist>() const </arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>setTemporaryUnderlining</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a2e60eb0b17c0ed33f447beec80c605de</anchor>
-      <arglist>(const Array&lt; Range&lt; int &gt; &gt; &amp;)</arglist>
-    </member>
-    <member kind="function">
       <type>bool</type>
       <name>moveCaretLeft</name>
       <anchorfile>classTextEditor.html</anchorfile>
@@ -60394,10 +59965,122 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>refreshFromValueTree</name>
+      <name>paint</name>
       <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>ac17bdfcd4d1c1a9432423733e2543bcc</anchor>
-      <arglist>(const ValueTree &amp;, ComponentBuilder &amp;)</arglist>
+      <anchor>a57096adad12dd494b376fe52a7238b72</anchor>
+      <arglist>(Graphics &amp;g)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>paintOverChildren</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>a5e1267facaee9350c9bce6ed693b456b</anchor>
+      <arglist>(Graphics &amp;g)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>mouseDown</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>a191a572d43603cfe9a11ff265f98a1d8</anchor>
+      <arglist>(const MouseEvent &amp;e)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>mouseUp</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>ab20245851c152d488c01a7b01fe3900e</anchor>
+      <arglist>(const MouseEvent &amp;e)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>mouseDrag</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>a28dec1f37373401d9e4c253ec049eeef</anchor>
+      <arglist>(const MouseEvent &amp;e)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>mouseDoubleClick</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>ab2aba4989001da32ba205ec24937a351</anchor>
+      <arglist>(const MouseEvent &amp;e)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>mouseWheelMove</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>a0c66aa10d4e8dc7eff7eac39d7cdd08e</anchor>
+      <arglist>(const MouseEvent &amp;, const MouseWheelDetails &amp;)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>keyPressed</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>aaff4916bb211609884f60f46fc4a9a03</anchor>
+      <arglist>(const KeyPress &amp;key)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>keyStateChanged</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>a945d8203649fbe39fd4968c36180ad25</anchor>
+      <arglist>(bool isKeyDown)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>focusGained</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>ab4a14d8976d2e6274a7539900819f8eb</anchor>
+      <arglist>(FocusChangeType)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>focusLost</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>ada59a673c55e3b5e00259b46554036ac</anchor>
+      <arglist>(FocusChangeType)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>resized</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>a9b69edcc74257d7193f5347da9d76acf</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>enablementChanged</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>aa63b1dc3f533db8b6d637ee832f32f27</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>colourChanged</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>a103f49d397c32c29e948ede41e595d15</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>lookAndFeelChanged</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>a250916b71e6d567ebdb0c884d374d2c8</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isTextInputActive</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>ae97078d1e77664170bff2265f4f25c8b</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setTemporaryUnderlining</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>a2e60eb0b17c0ed33f447beec80c605de</anchor>
+      <arglist>(const Array&lt; Range&lt; int &gt; &gt; &amp;)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
@@ -60461,66 +60144,6 @@
       <anchorfile>classTextEditor.html</anchorfile>
       <anchor>abd1d897359ee82289b967648c54ca90c</anchor>
       <arglist>(int commandId)</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>TextEditor::Ids</name>
-    <filename>structTextEditor_1_1Ids.html</filename>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>tagType</name>
-      <anchorfile>structTextEditor_1_1Ids.html</anchorfile>
-      <anchor>ae3aa4f24495e3683b0f8c1cfca007a2d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>text</name>
-      <anchorfile>structTextEditor_1_1Ids.html</anchorfile>
-      <anchor>a51e2b2a9910082282b4a4dd1d374a5e3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>font</name>
-      <anchorfile>structTextEditor_1_1Ids.html</anchorfile>
-      <anchor>a788110cc39254e0f70bc17bbf1ef66eb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>mode</name>
-      <anchorfile>structTextEditor_1_1Ids.html</anchorfile>
-      <anchor>a7b29112eaa9f60d5f7b8220db863364a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>readOnly</name>
-      <anchorfile>structTextEditor_1_1Ids.html</anchorfile>
-      <anchor>a2bb3f3e704de6b8eedf9472692638fd7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>scrollbarsShown</name>
-      <anchorfile>structTextEditor_1_1Ids.html</anchorfile>
-      <anchor>afedb95e013d9f6e06c4ee05467f949b8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>caretVisible</name>
-      <anchorfile>structTextEditor_1_1Ids.html</anchorfile>
-      <anchor>a9d11ba2351971f1eeeaba41b78c67ddb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>popupMenuEnabled</name>
-      <anchorfile>structTextEditor_1_1Ids.html</anchorfile>
-      <anchor>ac72425af10acbab40c7e16ba6984b192</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -60937,6 +60560,30 @@
     <name>TextPropertyComponent</name>
     <filename>classTextPropertyComponent.html</filename>
     <base>PropertyComponent</base>
+    <member kind="enumeration">
+      <name>ColourIds</name>
+      <anchorfile>classTextPropertyComponent.html</anchorfile>
+      <anchor>a6521dd39eb1ffa9c41b520284d5cc4ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>backgroundColourId</name>
+      <anchorfile>classTextPropertyComponent.html</anchorfile>
+      <anchor>a6521dd39eb1ffa9c41b520284d5cc4acaefe5e5cdbc22a11411edd6088ae39534</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>textColourId</name>
+      <anchorfile>classTextPropertyComponent.html</anchorfile>
+      <anchor>a6521dd39eb1ffa9c41b520284d5cc4aca545fcb8366b11af2690778d08507787a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>outlineColourId</name>
+      <anchorfile>classTextPropertyComponent.html</anchorfile>
+      <anchor>a6521dd39eb1ffa9c41b520284d5cc4aca21db2ae08a79538ba2a85b1426185673</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type></type>
       <name>TextPropertyComponent</name>
@@ -61873,7 +61520,6 @@
     <name>ToggleButton</name>
     <filename>classToggleButton.html</filename>
     <base>Button</base>
-    <class kind="struct">ToggleButton::Ids</class>
     <member kind="enumeration">
       <name>ColourIds</name>
       <anchorfile>classToggleButton.html</anchorfile>
@@ -61890,8 +61536,15 @@
       <type></type>
       <name>ToggleButton</name>
       <anchorfile>classToggleButton.html</anchorfile>
-      <anchor>a95eb63ad97c06a947c03afea405af09e</anchor>
-      <arglist>(const String &amp;buttonText=String::empty)</arglist>
+      <anchor>aa978ecd118f11987b5a8060072b407f0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>ToggleButton</name>
+      <anchorfile>classToggleButton.html</anchorfile>
+      <anchor>a96fc9c7af4c32810296c6d91c8d0fc86</anchor>
+      <arglist>(const String &amp;buttonText)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -61911,8 +61564,8 @@
       <type>void</type>
       <name>paintButton</name>
       <anchorfile>classToggleButton.html</anchorfile>
-      <anchor>ae94a4795bb53980775ea3472b65e85b4</anchor>
-      <arglist>(Graphics &amp;g, bool isMouseOverButton, bool isButtonDown)</arglist>
+      <anchor>a3109840657f440caf23945ba7f25b1f9</anchor>
+      <arglist>(Graphics &amp;, bool isMouseOverButton, bool isButtonDown)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
@@ -61920,17 +61573,6 @@
       <anchorfile>classToggleButton.html</anchorfile>
       <anchor>a4674ff5bf92e39b55ba54a4051b01f64</anchor>
       <arglist>()</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>ToggleButton::Ids</name>
-    <filename>structToggleButton_1_1Ids.html</filename>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>tagType</name>
-      <anchorfile>structToggleButton_1_1Ids.html</anchorfile>
-      <anchor>a1ca1c1b34912623bd3b823097886aee3</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -63300,8 +62942,22 @@
       <type>virtual void</type>
       <name>paintOpenCloseButton</name>
       <anchorfile>classTreeViewItem.html</anchorfile>
-      <anchor>a387bbc6f7f268498d31f17bb2aee8d63</anchor>
-      <arglist>(Graphics &amp;g, int width, int height, bool isMouseOver)</arglist>
+      <anchor>af88a1f11fd464d8e667d9a31d701087d</anchor>
+      <arglist>(Graphics &amp;, int width, int height, bool isMouseOver)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>paintHorizontalConnectingLine</name>
+      <anchorfile>classTreeViewItem.html</anchorfile>
+      <anchor>ac1d9a9fb29727496e4149d9f5593f16e</anchor>
+      <arglist>(Graphics &amp;, const Line&lt; float &gt; &amp;line)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>paintVerticalConnectingLine</name>
+      <anchorfile>classTreeViewItem.html</anchorfile>
+      <anchor>aef65553f9c368989185c07be261c3dbd</anchor>
+      <arglist>(Graphics &amp;, const Line&lt; float &gt; &amp;line)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual void</type>
@@ -63377,15 +63033,15 @@
       <type>XmlElement *</type>
       <name>getOpennessState</name>
       <anchorfile>classTreeViewItem.html</anchorfile>
-      <anchor>a684aff0e07a592baac86eff96ededfc2</anchor>
-      <arglist>() const noexcept</arglist>
+      <anchor>a55bec44dbc8442b4389b282f02f2a441</anchor>
+      <arglist>() const </arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>restoreOpennessState</name>
       <anchorfile>classTreeViewItem.html</anchorfile>
-      <anchor>a8c5209f463a39420bcfd759cbd345590</anchor>
-      <arglist>(const XmlElement &amp;xml) noexcept</arglist>
+      <anchor>a2543807283072980a45ba62f4f0eed46</anchor>
+      <arglist>(const XmlElement &amp;xml)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
@@ -65600,7 +65256,6 @@
     <base>Component</base>
     <base protection="private">ComponentListener</base>
     <base protection="private">ScrollBar::Listener</base>
-    <class kind="struct">Viewport::Ids</class>
     <member kind="function">
       <type></type>
       <name>Viewport</name>
@@ -65778,13 +65433,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>refreshFromValueTree</name>
-      <anchorfile>classViewport.html</anchorfile>
-      <anchor>a477f0457878aabaceccfba61ee3af8a0</anchor>
-      <arglist>(const ValueTree &amp;, ComponentBuilder &amp;)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>resized</name>
       <anchorfile>classViewport.html</anchorfile>
       <anchor>a3089beb136b24bdcfc22a18cfa290350</anchor>
@@ -65824,31 +65472,6 @@
       <anchorfile>classViewport.html</anchorfile>
       <anchor>a563d893ae0d00dd9b1c0e293826cdc8e</anchor>
       <arglist>(const MouseEvent &amp;, const MouseWheelDetails &amp;)</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>Viewport::Ids</name>
-    <filename>structViewport_1_1Ids.html</filename>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>showScrollBarV</name>
-      <anchorfile>structViewport_1_1Ids.html</anchorfile>
-      <anchor>aba801e0e3aed24b69157c3e5b074ceb0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>showScrollBarH</name>
-      <anchorfile>structViewport_1_1Ids.html</anchorfile>
-      <anchor>afc82dc4b9cad82ebd7ac175333e43c0c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static const Identifier</type>
-      <name>scrollBarWidth</name>
-      <anchorfile>structViewport_1_1Ids.html</anchorfile>
-      <anchor>a77603dd2fc1facce298b5df9e9a1210d</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">

@@ -2,7 +2,6 @@ var searchData=
 [
   ['cadetblue',['cadetblue',['../classColours.html#af5bca16acd0235fa3c63859465d53f7f',1,'Colours']]],
   ['capstyle',['capStyle',['../classDrawableShape_1_1FillAndStrokeState.html#abab2633ea9f8a934e8507f4881d2aade',1,'DrawableShape::FillAndStrokeState']]],
-  ['caretvisible',['caretVisible',['../structTextEditor_1_1Ids.html#a9d11ba2351971f1eeeaba41b78c67ddb',1,'TextEditor::Ids']]],
   ['category',['category',['../classPluginDescription.html#a744b7d9bd85c5b670905ce6c411fa815',1,'PluginDescription']]],
   ['categoryname',['categoryName',['../structApplicationCommandInfo.html#a38af85def791bf7f344d18ddb6f65f66',1,'ApplicationCommandInfo']]],
   ['chartreuse',['chartreuse',['../classColours.html#aadcaa70cc7028fee7c6dba0a04926b6d',1,'Colours']]],
@@ -20,10 +19,6 @@ var searchData=
   ['commontoallusers',['commonToAllUsers',['../structPropertiesFile_1_1Options.html#a1b4a530664906ebeadce842431f6f681',1,'PropertiesFile::Options']]],
   ['component',['component',['../classRelativeCoordinatePositionerBase_1_1ComponentScope.html#a26a2cebf33c19aebbfccddaba42e81cc',1,'RelativeCoordinatePositionerBase::ComponentScope::component()'],['../classComponentPeer.html#a597272f3a78e8f1d02471692c2e2932a',1,'ComponentPeer::component()']]],
   ['components',['components',['../classPixelARGB.html#a6c24be1323d796c9835c7554dbb58e66',1,'PixelARGB']]],
-  ['connectedbottom',['connectedBottom',['../structButton_1_1Ids.html#a457bc71d601be70319df558317c6f383',1,'Button::Ids']]],
-  ['connectedleft',['connectedLeft',['../structButton_1_1Ids.html#a08f7e097666940ba88396e7d9527cc3d',1,'Button::Ids']]],
-  ['connectedright',['connectedRight',['../structButton_1_1Ids.html#a9c1d84d2d786f68cdb7adab4b1546589',1,'Button::Ids']]],
-  ['connectedtop',['connectedTop',['../structButton_1_1Ids.html#a5756654411e5ad90a404ff074cbb69e6',1,'Button::Ids']]],
   ['constrainer',['constrainer',['../classComponentPeer.html#a75216f7f562c5bbf8b7758a1198d2744',1,'ComponentPeer']]],
   ['contentbottommarkername',['contentBottomMarkerName',['../classDrawableComposite.html#ac2b79e5eba11fb1e28c4970f17ec4a97',1,'DrawableComposite']]],
   ['contentleftmarkername',['contentLeftMarkerName',['../classDrawableComposite.html#aec7b41e0b8a05908a76dfef64c24696e',1,'DrawableComposite']]],

@@ -153,10 +153,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac78d23b9c93713430758df01c0a68f48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shifts a section of bits left or right.  <a href="#ac78d23b9c93713430758df01c0a68f48"></a><br/></td></tr>
 <tr class="memitem:a0db5dd578089614b40127b093a7cac7f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigInteger.html#a0db5dd578089614b40127b093a7cac7f">countNumberOfSetBits</a> () const noexcept</td></tr>
 <tr class="memdesc:a0db5dd578089614b40127b093a7cac7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the total number of set bits in the value.  <a href="#a0db5dd578089614b40127b093a7cac7f"></a><br/></td></tr>
-<tr class="memitem:a1e7ddb846639744c2e5c0881e749ff1e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigInteger.html#a1e7ddb846639744c2e5c0881e749ff1e">findNextSetBit</a> (int startIndex=0) const noexcept</td></tr>
-<tr class="memdesc:a1e7ddb846639744c2e5c0881e749ff1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for the index of the next set bit after a given starting point.  <a href="#a1e7ddb846639744c2e5c0881e749ff1e"></a><br/></td></tr>
-<tr class="memitem:a2f82159907a1b7db80d161b36537810a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigInteger.html#a2f82159907a1b7db80d161b36537810a">findNextClearBit</a> (int startIndex=0) const noexcept</td></tr>
-<tr class="memdesc:a2f82159907a1b7db80d161b36537810a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for the index of the next clear bit after a given starting point.  <a href="#a2f82159907a1b7db80d161b36537810a"></a><br/></td></tr>
+<tr class="memitem:a288fc79aa972d1fd11fc4ff57b4b4d99"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigInteger.html#a288fc79aa972d1fd11fc4ff57b4b4d99">findNextSetBit</a> (int startIndex) const noexcept</td></tr>
+<tr class="memdesc:a288fc79aa972d1fd11fc4ff57b4b4d99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for the index of the next set bit after a given starting point.  <a href="#a288fc79aa972d1fd11fc4ff57b4b4d99"></a><br/></td></tr>
+<tr class="memitem:acf68c12ba8881226f8d9da54635964c5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigInteger.html#acf68c12ba8881226f8d9da54635964c5">findNextClearBit</a> (int startIndex) const noexcept</td></tr>
+<tr class="memdesc:acf68c12ba8881226f8d9da54635964c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for the index of the next clear bit after a given starting point.  <a href="#acf68c12ba8881226f8d9da54635964c5"></a><br/></td></tr>
 <tr class="memitem:a42579f711d8dcd205a87cf5b32a2b9d2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigInteger.html#a42579f711d8dcd205a87cf5b32a2b9d2">getHighestBit</a> () const noexcept</td></tr>
 <tr class="memdesc:a42579f711d8dcd205a87cf5b32a2b9d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the highest set bit in the number.  <a href="#a42579f711d8dcd205a87cf5b32a2b9d2"></a><br/></td></tr>
 <tr class="memitem:ac15ac09922b91bdb8ae4d5b50e20eaa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classBigInteger.html">BigInteger</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigInteger.html#ac15ac09922b91bdb8ae4d5b50e20eaa1">operator+=</a> (const <a class="el" href="classBigInteger.html">BigInteger</a> &amp;other)</td></tr>
@@ -760,15 +760,15 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1e7ddb846639744c2e5c0881e749ff1e"></a>
+<a class="anchor" id="a288fc79aa972d1fd11fc4ff57b4b4d99"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="classBigInteger.html#a1e7ddb846639744c2e5c0881e749ff1e">BigInteger::findNextSetBit</a> </td>
+          <td class="memname">int <a class="el" href="classBigInteger.html#a288fc79aa972d1fd11fc4ff57b4b4d99">BigInteger::findNextSetBit</a> </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>startIndex</em> = <code>0</code></td><td>)</td>
+          <td class="paramname"><em>startIndex</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -780,15 +780,15 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2f82159907a1b7db80d161b36537810a"></a>
+<a class="anchor" id="acf68c12ba8881226f8d9da54635964c5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="classBigInteger.html#a2f82159907a1b7db80d161b36537810a">BigInteger::findNextClearBit</a> </td>
+          <td class="memname">int <a class="el" href="classBigInteger.html#acf68c12ba8881226f8d9da54635964c5">BigInteger::findNextClearBit</a> </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>startIndex</em> = <code>0</code></td><td>)</td>
+          <td class="paramname"><em>startIndex</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>

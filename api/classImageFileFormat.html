@@ -117,6 +117,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a141e61162c688d5497e1b6391970fa7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a description of this file format.  <a href="#a141e61162c688d5497e1b6391970fa7a"></a><br/></td></tr>
 <tr class="memitem:a5ff3f240860ae444a7eaafb708b563e2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageFileFormat.html#a5ff3f240860ae444a7eaafb708b563e2">canUnderstand</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;input)=0</td></tr>
 <tr class="memdesc:a5ff3f240860ae444a7eaafb708b563e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given stream seems to contain data that this format understands.  <a href="#a5ff3f240860ae444a7eaafb708b563e2"></a><br/></td></tr>
+<tr class="memitem:a9eb5f897a01aa14b136944eee2c7f684"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageFileFormat.html#a9eb5f897a01aa14b136944eee2c7f684">usesFileExtension</a> (const <a class="el" href="classFile.html">File</a> &amp;possibleFile)=0</td></tr>
+<tr class="memdesc:a9eb5f897a01aa14b136944eee2c7f684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this format uses the file extension of the given file.  <a href="#a9eb5f897a01aa14b136944eee2c7f684"></a><br/></td></tr>
 <tr class="memitem:a7ece13108d27014ff96e67ce80dd4092"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classImage.html">Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageFileFormat.html#a7ece13108d27014ff96e67ce80dd4092">decodeImage</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;input)=0</td></tr>
 <tr class="memdesc:a7ece13108d27014ff96e67ce80dd4092"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to decode and return an image from the given stream.  <a href="#a7ece13108d27014ff96e67ce80dd4092"></a><br/></td></tr>
 <tr class="memitem:af70bdf60c3cea3a6806d225706670a63"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageFileFormat.html#af70bdf60c3cea3a6806d225706670a63">writeImageToStream</a> (const <a class="el" href="classImage.html">Image</a> &amp;sourceImage, <a class="el" href="classOutputStream.html">OutputStream</a> &amp;destStream)=0</td></tr>
@@ -124,7 +126,9 @@ Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7fcb93b4c52f931ec437674c731c9c04"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classImageFileFormat.html">ImageFileFormat</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageFileFormat.html#a7fcb93b4c52f931ec437674c731c9c04">findImageFormatForStream</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;input)</td></tr>
-<tr class="memdesc:a7fcb93b4c52f931ec437674c731c9c04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries the built-in decoders to see if it can find one to read this stream.  <a href="#a7fcb93b4c52f931ec437674c731c9c04"></a><br/></td></tr>
+<tr class="memdesc:a7fcb93b4c52f931ec437674c731c9c04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries the built-in formats to see if it can find one to read this stream.  <a href="#a7fcb93b4c52f931ec437674c731c9c04"></a><br/></td></tr>
+<tr class="memitem:ae8ffab7e17eaf28a09d4248d9dec1a70"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classImageFileFormat.html">ImageFileFormat</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageFileFormat.html#ae8ffab7e17eaf28a09d4248d9dec1a70">findImageFormatForFileExtension</a> (const <a class="el" href="classFile.html">File</a> &amp;file)</td></tr>
+<tr class="memdesc:ae8ffab7e17eaf28a09d4248d9dec1a70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for a format that can handle the given file extension.  <a href="#ae8ffab7e17eaf28a09d4248d9dec1a70"></a><br/></td></tr>
 <tr class="memitem:a1ce6ae82e06b40e9149d1ab73951ce1c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classImage.html">Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageFileFormat.html#a1ce6ae82e06b40e9149d1ab73951ce1c">loadFrom</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;input)</td></tr>
 <tr class="memdesc:a1ce6ae82e06b40e9149d1ab73951ce1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to load an image from a stream.  <a href="#a1ce6ae82e06b40e9149d1ab73951ce1c"></a><br/></td></tr>
 <tr class="memitem:a9e32b679760095924f3240372f2648b6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classImage.html">Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageFileFormat.html#a9e32b679760095924f3240372f2648b6">loadFrom</a> (const <a class="el" href="classFile.html">File</a> &amp;file)</td></tr>
@@ -222,6 +226,27 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a9eb5f897a01aa14b136944eee2c7f684"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool <a class="el" href="classImageFileFormat.html#a9eb5f897a01aa14b136944eee2c7f684">ImageFileFormat::usesFileExtension</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classFile.html">File</a> &amp;&#160;</td>
+          <td class="paramname"><em>possibleFile</em></td><td>)</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns true if this format uses the file extension of the given file. </p>
+
+<p>Implemented in <a class="el" href="classGIFImageFormat.html#ad0580130800051e86bf8170740947c99">GIFImageFormat</a>, <a class="el" href="classJPEGImageFormat.html#acd71eabdcba45217a477f9a39d87ad10">JPEGImageFormat</a>, and <a class="el" href="classPNGImageFormat.html#a92da382df4b60b06e9268ba868d0e7c9">PNGImageFormat</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a7ece13108d27014ff96e67ce80dd4092"></a>
 <div class="memitem">
 <div class="memproto">
@@ -300,10 +325,29 @@ Protected Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Tries the built-in decoders to see if it can find one to read this stream. </p>
-<p>There are currently built-in decoders for PNG, JPEG and GIF formats.</p>
-<p>The object that is returned should not be deleted by the caller.</p>
+<p>Tries the built-in formats to see if it can find one to read this stream. </p>
+<p>There are currently built-in decoders for PNG, JPEG and GIF formats. The object that is returned should not be deleted by the caller. </p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classImageFileFormat.html#a5ff3f240860ae444a7eaafb708b563e2" title="Returns true if the given stream seems to contain data that this format understands.">canUnderstand</a>, <a class="el" href="classImageFileFormat.html#a7ece13108d27014ff96e67ce80dd4092" title="Tries to decode and return an image from the given stream.">decodeImage</a>, <a class="el" href="classImageFileFormat.html#a1ce6ae82e06b40e9149d1ab73951ce1c" title="Tries to load an image from a stream.">loadFrom</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae8ffab7e17eaf28a09d4248d9dec1a70"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classImageFileFormat.html">ImageFileFormat</a>* <a class="el" href="classImageFileFormat.html#ae8ffab7e17eaf28a09d4248d9dec1a70">ImageFileFormat::findImageFormatForFileExtension</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classFile.html">File</a> &amp;&#160;</td>
+          <td class="paramname"><em>file</em></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Looks for a format that can handle the given file extension. </p>
+<p>There are currently built-in formats for PNG, JPEG and GIF formats. The object that is returned should not be deleted by the caller. </p>
 
 </div>
 </div>
@@ -323,7 +367,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Tries to load an image from a stream. </p>
-<p>This will use the <a class="el" href="classImageFileFormat.html#a7fcb93b4c52f931ec437674c731c9c04" title="Tries the built-in decoders to see if it can find one to read this stream.">findImageFormatForStream()</a> method to locate a suitable codec, and use that to load the image.</p>
+<p>This will use the <a class="el" href="classImageFileFormat.html#a7fcb93b4c52f931ec437674c731c9c04" title="Tries the built-in formats to see if it can find one to read this stream.">findImageFormatForStream()</a> method to locate a suitable codec, and use that to load the image.</p>
 <dl class="section return"><dt>Returns:</dt><dd>the image that was decoded, or an invalid image if it fails. </dd></dl>
 
 </div>
@@ -344,7 +388,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Tries to load an image from a file. </p>
-<p>This will use the <a class="el" href="classImageFileFormat.html#a7fcb93b4c52f931ec437674c731c9c04" title="Tries the built-in decoders to see if it can find one to read this stream.">findImageFormatForStream()</a> method to locate a suitable codec, and use that to load the image.</p>
+<p>This will use the <a class="el" href="classImageFileFormat.html#a7fcb93b4c52f931ec437674c731c9c04" title="Tries the built-in formats to see if it can find one to read this stream.">findImageFormatForStream()</a> method to locate a suitable codec, and use that to load the image.</p>
 <dl class="section return"><dt>Returns:</dt><dd>the image that was decoded, or an invalid image if it fails. </dd></dl>
 
 </div>
@@ -375,7 +419,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Tries to load an image from a block of raw image data. </p>
-<p>This will use the <a class="el" href="classImageFileFormat.html#a7fcb93b4c52f931ec437674c731c9c04" title="Tries the built-in decoders to see if it can find one to read this stream.">findImageFormatForStream()</a> method to locate a suitable codec, and use that to load the image.</p>
+<p>This will use the <a class="el" href="classImageFileFormat.html#a7fcb93b4c52f931ec437674c731c9c04" title="Tries the built-in formats to see if it can find one to read this stream.">findImageFormatForStream()</a> method to locate a suitable codec, and use that to load the image.</p>
 <dl class="section return"><dt>Returns:</dt><dd>the image that was decoded, or an invalid image if it fails. </dd></dl>
 
 </div>

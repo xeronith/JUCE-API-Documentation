@@ -121,6 +121,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3b22cbfbc52842975770de5d3e3d96e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kills the current process immediately.  <a href="#a3b22cbfbc52842975770de5d3e3d96e3"></a><br/></td></tr>
 <tr class="memitem:aabc25470371b03373c7b3ca0704b545e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#aabc25470371b03373c7b3ca0704b545e">isForegroundProcess</a> ()</td></tr>
 <tr class="memdesc:aabc25470371b03373c7b3ca0704b545e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this application process is the one that the user is currently using.  <a href="#aabc25470371b03373c7b3ca0704b545e"></a><br/></td></tr>
+<tr class="memitem:ab6a1ad5775f82a820df3c9993ba67054"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#ab6a1ad5775f82a820df3c9993ba67054">makeForegroundProcess</a> ()</td></tr>
+<tr class="memdesc:ab6a1ad5775f82a820df3c9993ba67054"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to make the current process the active one.  <a href="#ab6a1ad5775f82a820df3c9993ba67054"></a><br/></td></tr>
 <tr class="memitem:aaa4816a26a8c37b9a84e63c6e3d2415f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#aaa4816a26a8c37b9a84e63c6e3d2415f">raisePrivilege</a> ()</td></tr>
 <tr class="memdesc:aaa4816a26a8c37b9a84e63c6e3d2415f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raises the current process's privilege level.  <a href="#aaa4816a26a8c37b9a84e63c6e3d2415f"></a><br/></td></tr>
 <tr class="memitem:ac1c5bf1ab8c9b7b4cdd88203bdc10102"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#ac1c5bf1ab8c9b7b4cdd88203bdc10102">lowerPrivilege</a> ()</td></tr>
@@ -229,6 +231,25 @@ Static Public Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Returns true if this application process is the one that the user is currently using. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab6a1ad5775f82a820df3c9993ba67054"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="classProcess.html#ab6a1ad5775f82a820df3c9993ba67054">Process::makeForegroundProcess</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Attempts to make the current process the active one. </p>
+<p>(This is not possible on some platforms). </p>
 
 </div>
 </div>

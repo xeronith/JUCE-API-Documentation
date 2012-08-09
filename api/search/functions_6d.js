@@ -5,6 +5,7 @@ var searchData=
   ['makebandpass',['makeBandPass',['../classIIRFilter.html#a3e7be2dfa4f83fefb049825ef7c067ce',1,'IIRFilter']]],
   ['makecurrentandclear',['makeCurrentAndClear',['../classOpenGLFrameBuffer.html#a7b3c717399bd4e547c7197566a4e8f4b',1,'OpenGLFrameBuffer']]],
   ['makecurrentrenderingtarget',['makeCurrentRenderingTarget',['../classOpenGLFrameBuffer.html#a12be24f97f7201217e15c938976c1d9a',1,'OpenGLFrameBuffer']]],
+  ['makeforegroundprocess',['makeForegroundProcess',['../classProcess.html#ab6a1ad5775f82a820df3c9993ba67054',1,'Process']]],
   ['makehighpass',['makeHighPass',['../classIIRFilter.html#af258472c8eb2c4f975f175049cddf9e5',1,'IIRFilter']]],
   ['makehighshelf',['makeHighShelf',['../classIIRFilter.html#a52947f798c6f401e1ea4bf7fbc0ce8ef',1,'IIRFilter']]],
   ['makeinactive',['makeInactive',['../classIIRFilter.html#a5c72ccd292a66e9e53b845362c700094',1,'IIRFilter']]],

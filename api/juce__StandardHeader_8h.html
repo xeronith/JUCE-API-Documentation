@@ -152,7 +152,7 @@ Defines</h2></td></tr>
 <tr class="memitem:ad39afa9c8302295c83a3c431c553bc8b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__StandardHeader_8h.html#ad39afa9c8302295c83a3c431c553bc8b">JUCE_MAJOR_VERSION</a>&#160;&#160;&#160;2</td></tr>
 <tr class="memdesc:ad39afa9c8302295c83a3c431c553bc8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current JUCE version number.  <a href="#ad39afa9c8302295c83a3c431c553bc8b"></a><br/></td></tr>
 <tr class="memitem:a2a583ff83063cc1e7f9abeb35a21dff1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__StandardHeader_8h.html#a2a583ff83063cc1e7f9abeb35a21dff1">JUCE_MINOR_VERSION</a>&#160;&#160;&#160;0</td></tr>
-<tr class="memitem:a9ac1dc104cd00f4cc2ff6dece8711f32"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__StandardHeader_8h.html#a9ac1dc104cd00f4cc2ff6dece8711f32">JUCE_BUILDNUMBER</a>&#160;&#160;&#160;24</td></tr>
+<tr class="memitem:a9ac1dc104cd00f4cc2ff6dece8711f32"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__StandardHeader_8h.html#a9ac1dc104cd00f4cc2ff6dece8711f32">JUCE_BUILDNUMBER</a>&#160;&#160;&#160;25</td></tr>
 <tr class="memitem:a8e9e97736d05e318de09b9bedab1aaa0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__StandardHeader_8h.html#a8e9e97736d05e318de09b9bedab1aaa0">JUCE_VERSION</a>&#160;&#160;&#160;((<a class="el" href="juce__StandardHeader_8h.html#ad39afa9c8302295c83a3c431c553bc8b">JUCE_MAJOR_VERSION</a> &lt;&lt; 16) + (<a class="el" href="juce__StandardHeader_8h.html#a2a583ff83063cc1e7f9abeb35a21dff1">JUCE_MINOR_VERSION</a> &lt;&lt; 8) + <a class="el" href="juce__StandardHeader_8h.html#a9ac1dc104cd00f4cc2ff6dece8711f32">JUCE_BUILDNUMBER</a>)</td></tr>
 <tr class="memdesc:a8e9e97736d05e318de09b9bedab1aaa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current Juce version number.  <a href="#a8e9e97736d05e318de09b9bedab1aaa0"></a><br/></td></tr>
 <tr class="memitem:a65961b3bfbda0ffb83750d914cee38fb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__StandardHeader_8h.html#a65961b3bfbda0ffb83750d914cee38fb">JUCE_API</a></td></tr>
@@ -200,9 +200,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a615b02f323ec622a1f8acd9aa481c671"><td class="memTemplParams" colspan="2">template&lt;typename Type1 , typename Type2 &gt; </td></tr>
 <tr class="memitem:a615b02f323ec622a1f8acd9aa481c671"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>juce::getAddressDifference</b> (Type1 *pointer1, Type2 *pointer2) noexcept</td></tr>
 <tr class="memdesc:a615b02f323ec622a1f8acd9aa481c671"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handy function which returns the difference between any two pointers, in bytes.  <a href="#a615b02f323ec622a1f8acd9aa481c671"></a><br/></td></tr>
-<tr class="memitem:aaade7a6bd2aec0b91922fd54abfcd37c"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
-<tr class="memitem:aaade7a6bd2aec0b91922fd54abfcd37c"><td class="memTemplItemLeft" align="right" valign="top">Type *&#160;</td><td class="memTemplItemRight" valign="bottom"><b>juce::createCopyIfNotNull</b> (Type *pointer)</td></tr>
-<tr class="memdesc:aaade7a6bd2aec0b91922fd54abfcd37c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If a pointer is non-null, this returns a new copy of the object that it points to, or safely returns nullptr if the pointer is null.  <a href="#aaade7a6bd2aec0b91922fd54abfcd37c"></a><br/></td></tr>
+<tr class="memitem:abf6d1eb4827db3da2040191b3557fe30"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
+<tr class="memitem:abf6d1eb4827db3da2040191b3557fe30"><td class="memTemplItemLeft" align="right" valign="top">Type *&#160;</td><td class="memTemplItemRight" valign="bottom"><b>juce::createCopyIfNotNull</b> (const Type *pointer)</td></tr>
+<tr class="memdesc:abf6d1eb4827db3da2040191b3557fe30"><td class="mdescLeft">&#160;</td><td class="mdescRight">If a pointer is non-null, this returns a new copy of the object that it points to, or safely returns nullptr if the pointer is null.  <a href="#abf6d1eb4827db3da2040191b3557fe30"></a><br/></td></tr>
 <tr class="memitem:a3af2a98f8934da6e34a1b3812fe430ab"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
 <tr class="memitem:a3af2a98f8934da6e34a1b3812fe430ab"><td class="memTemplItemLeft" align="right" valign="top">Type&#160;</td><td class="memTemplItemRight" valign="bottom"><b>juce::jmax</b> (const Type a, const Type b)</td></tr>
 <tr class="memdesc:a3af2a98f8934da6e34a1b3812fe430ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the larger of two values.  <a href="#a3af2a98f8934da6e34a1b3812fe430ab"></a><br/></td></tr>
@@ -377,7 +377,7 @@ Variables</h2></td></tr>
 <div class="memdoc">
 
 <p>Current JUCE version number. </p>
-<p>See also <a class="el" href="classSystemStats.html#a59b2a0ca0ab347f50675730e042c62fa" title="Returns the current version of JUCE,.">SystemStats::getJUCEVersion()</a> for a string version. </p>
+<p>See also <a class="el" href="classSystemStats.html#a59b2a0ca0ab347f50675730e042c62fa" title="Returns the current version of JUCE, See also the JUCE_VERSION, JUCE_MAJOR_VERSION and JUCE_MINOR_VER...">SystemStats::getJUCEVersion()</a> for a string version. </p>
 
 </div>
 </div>
@@ -399,7 +399,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define <a class="el" href="juce__StandardHeader_8h.html#a9ac1dc104cd00f4cc2ff6dece8711f32">JUCE_BUILDNUMBER</a>&#160;&#160;&#160;24</td>
+          <td class="memname">#define <a class="el" href="juce__StandardHeader_8h.html#a9ac1dc104cd00f4cc2ff6dece8711f32">JUCE_BUILDNUMBER</a>&#160;&#160;&#160;25</td>
         </tr>
       </table>
 </div>
@@ -420,7 +420,7 @@ Variables</h2></td></tr>
 
 <p>Current Juce version number. </p>
 <p>Bits 16 to 32 = major version. Bits 8 to 16 = minor version. Bits 0 to 8 = point release.</p>
-<p>See also <a class="el" href="classSystemStats.html#a59b2a0ca0ab347f50675730e042c62fa" title="Returns the current version of JUCE,.">SystemStats::getJUCEVersion()</a> for a string version. </p>
+<p>See also <a class="el" href="classSystemStats.html#a59b2a0ca0ab347f50675730e042c62fa" title="Returns the current version of JUCE, See also the JUCE_VERSION, JUCE_MAJOR_VERSION and JUCE_MINOR_VER...">SystemStats::getJUCEVersion()</a> for a string version. </p>
 
 </div>
 </div>

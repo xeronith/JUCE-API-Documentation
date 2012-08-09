@@ -166,8 +166,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af821a303a31a9256e00b94ff8fe2595d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a component that will be used to represent this item.  <a href="#af821a303a31a9256e00b94ff8fe2595d"></a><br/></td></tr>
 <tr class="memitem:adc3e3a7c09443e28b1f48fe10b9569b2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#adc3e3a7c09443e28b1f48fe10b9569b2">paintItem</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height)</td></tr>
 <tr class="memdesc:adc3e3a7c09443e28b1f48fe10b9569b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the item's contents.  <a href="#adc3e3a7c09443e28b1f48fe10b9569b2"></a><br/></td></tr>
-<tr class="memitem:a387bbc6f7f268498d31f17bb2aee8d63"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#a387bbc6f7f268498d31f17bb2aee8d63">paintOpenCloseButton</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height, bool isMouseOver)</td></tr>
-<tr class="memdesc:a387bbc6f7f268498d31f17bb2aee8d63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the item's open/close button.  <a href="#a387bbc6f7f268498d31f17bb2aee8d63"></a><br/></td></tr>
+<tr class="memitem:af88a1f11fd464d8e667d9a31d701087d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#af88a1f11fd464d8e667d9a31d701087d">paintOpenCloseButton</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, bool isMouseOver)</td></tr>
+<tr class="memdesc:af88a1f11fd464d8e667d9a31d701087d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the item's open/close button.  <a href="#af88a1f11fd464d8e667d9a31d701087d"></a><br/></td></tr>
+<tr class="memitem:ac1d9a9fb29727496e4149d9f5593f16e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#ac1d9a9fb29727496e4149d9f5593f16e">paintHorizontalConnectingLine</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, const <a class="el" href="classLine.html">Line</a>&lt; float &gt; &amp;line)</td></tr>
+<tr class="memdesc:ac1d9a9fb29727496e4149d9f5593f16e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the line that connects this item to the vertical line extending below its parent.  <a href="#ac1d9a9fb29727496e4149d9f5593f16e"></a><br/></td></tr>
+<tr class="memitem:aef65553f9c368989185c07be261c3dbd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#aef65553f9c368989185c07be261c3dbd">paintVerticalConnectingLine</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, const <a class="el" href="classLine.html">Line</a>&lt; float &gt; &amp;line)</td></tr>
+<tr class="memdesc:aef65553f9c368989185c07be261c3dbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the line that extends vertically up towards one of its parents, or down to one of its children.  <a href="#aef65553f9c368989185c07be261c3dbd"></a><br/></td></tr>
 <tr class="memitem:a1d16cbc797adba8e7dda4db01f868f72"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#a1d16cbc797adba8e7dda4db01f868f72">itemClicked</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;e)</td></tr>
 <tr class="memdesc:a1d16cbc797adba8e7dda4db01f868f72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the user clicks on this item.  <a href="#a1d16cbc797adba8e7dda4db01f868f72"></a><br/></td></tr>
 <tr class="memitem:a44f6bac320a0ed884006e25558c6b513"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#a44f6bac320a0ed884006e25558c6b513">itemDoubleClicked</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;e)</td></tr>
@@ -188,10 +192,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:afade9c99b85939fe8521d55b0b2ab285"><td class="mdescLeft">&#160;</td><td class="mdescRight">When a things are dropped into this item, this callback is invoked.  <a href="#afade9c99b85939fe8521d55b0b2ab285"></a><br/></td></tr>
 <tr class="memitem:a5ad6617d063e99ca170d2726ca87c8b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#a5ad6617d063e99ca170d2726ca87c8b1">setDrawsInLeftMargin</a> (bool canDrawInLeftMargin) noexcept</td></tr>
 <tr class="memdesc:a5ad6617d063e99ca170d2726ca87c8b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a flag to indicate that the item wants to be allowed to draw all the way across to the left edge of the treeview.  <a href="#a5ad6617d063e99ca170d2726ca87c8b1"></a><br/></td></tr>
-<tr class="memitem:a684aff0e07a592baac86eff96ededfc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#a684aff0e07a592baac86eff96ededfc2">getOpennessState</a> () const noexcept</td></tr>
-<tr class="memdesc:a684aff0e07a592baac86eff96ededfc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the current state of open/closed nodes so it can be restored later.  <a href="#a684aff0e07a592baac86eff96ededfc2"></a><br/></td></tr>
-<tr class="memitem:a8c5209f463a39420bcfd759cbd345590"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#a8c5209f463a39420bcfd759cbd345590">restoreOpennessState</a> (const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;xml) noexcept</td></tr>
-<tr class="memdesc:a8c5209f463a39420bcfd759cbd345590"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restores the openness of this item and all its sub-items from a saved state.  <a href="#a8c5209f463a39420bcfd759cbd345590"></a><br/></td></tr>
+<tr class="memitem:a55bec44dbc8442b4389b282f02f2a441"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#a55bec44dbc8442b4389b282f02f2a441">getOpennessState</a> () const </td></tr>
+<tr class="memdesc:a55bec44dbc8442b4389b282f02f2a441"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the current state of open/closed nodes so it can be restored later.  <a href="#a55bec44dbc8442b4389b282f02f2a441"></a><br/></td></tr>
+<tr class="memitem:a2543807283072980a45ba62f4f0eed46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#a2543807283072980a45ba62f4f0eed46">restoreOpennessState</a> (const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;xml)</td></tr>
+<tr class="memdesc:a2543807283072980a45ba62f4f0eed46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restores the openness of this item and all its sub-items from a saved state.  <a href="#a2543807283072980a45ba62f4f0eed46"></a><br/></td></tr>
 <tr class="memitem:ad16ec5ae6dd02ed690001ac9a664fa44"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#ad16ec5ae6dd02ed690001ac9a664fa44">getIndexInParent</a> () const noexcept</td></tr>
 <tr class="memdesc:ad16ec5ae6dd02ed690001ac9a664fa44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of this item in its parent's sub-items.  <a href="#ad16ec5ae6dd02ed690001ac9a664fa44"></a><br/></td></tr>
 <tr class="memitem:ab5a379de4cea292f0b66d6c9f4f3da42"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#ab5a379de4cea292f0b66d6c9f4f3da42">isLastOfSiblings</a> () const noexcept</td></tr>
@@ -801,15 +805,15 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a387bbc6f7f268498d31f17bb2aee8d63"></a>
+<a class="anchor" id="af88a1f11fd464d8e667d9a31d701087d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void <a class="el" href="classTreeViewItem.html#a387bbc6f7f268498d31f17bb2aee8d63">TreeViewItem::paintOpenCloseButton</a> </td>
+          <td class="memname">virtual void <a class="el" href="classTreeViewItem.html#af88a1f11fd464d8e667d9a31d701087d">TreeViewItem::paintOpenCloseButton</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -840,6 +844,64 @@ Public Member Functions</h2></td></tr>
 
 <p>Draws the item's open/close button. </p>
 <p>If you don't implement this method, the default behaviour is to call <a class="el" href="classLookAndFeel.html#afa9575ddeeaa4b946fff1cf474606518" title="Draws the + or - box in a treeview.">LookAndFeel::drawTreeviewPlusMinusBox()</a>, but you can override it for custom effects. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac1d9a9fb29727496e4149d9f5593f16e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classTreeViewItem.html#ac1d9a9fb29727496e4149d9f5593f16e">TreeViewItem::paintHorizontalConnectingLine</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classLine.html">Line</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>line</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Draws the line that connects this item to the vertical line extending below its parent. </p>
+
+</div>
+</div>
+<a class="anchor" id="aef65553f9c368989185c07be261c3dbd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classTreeViewItem.html#aef65553f9c368989185c07be261c3dbd">TreeViewItem::paintVerticalConnectingLine</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classLine.html">Line</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>line</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Draws the line that extends vertically up towards one of its parents, or down to one of its children. </p>
 
 </div>
 </div>
@@ -1075,12 +1137,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a684aff0e07a592baac86eff96ededfc2"></a>
+<a class="anchor" id="a55bec44dbc8442b4389b282f02f2a441"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classXmlElement.html">XmlElement</a>* <a class="el" href="classTreeViewItem.html#a684aff0e07a592baac86eff96ededfc2">TreeViewItem::getOpennessState</a> </td>
+          <td class="memname"><a class="el" href="classXmlElement.html">XmlElement</a>* <a class="el" href="classTreeViewItem.html#a55bec44dbc8442b4389b282f02f2a441">TreeViewItem::getOpennessState</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1092,17 +1154,18 @@ Public Member Functions</h2></td></tr>
 <p>Saves the current state of open/closed nodes so it can be restored later. </p>
 <p>This takes a snapshot of which sub-nodes have been explicitly opened or closed, and records it as XML. To identify node objects it uses the <a class="el" href="classTreeViewItem.html#a9ae7c529cc762a33ebcb4a14f8cee620" title="Returns a string to uniquely identify this item.">TreeViewItem::getUniqueName()</a> method to create named paths. This means that the same state of open/closed nodes can be restored to a completely different instance of the tree, as long as it contains nodes whose unique names are the same.</p>
 <p>You'd normally want to use <a class="el" href="classTreeView.html#ae442d9c17f9dddbf745ddb57b9332919" title="Saves the current state of open/closed nodes so it can be restored later.">TreeView::getOpennessState()</a> rather than call it for a specific item, but this can be handy if you need to briefly save the state for a section of the tree.</p>
-<p>The caller is responsible for deleting the object that is returned. </p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTreeView.html#ae442d9c17f9dddbf745ddb57b9332919" title="Saves the current state of open/closed nodes so it can be restored later.">TreeView::getOpennessState</a>, <a class="el" href="classTreeViewItem.html#a8c5209f463a39420bcfd759cbd345590" title="Restores the openness of this item and all its sub-items from a saved state.">restoreOpennessState</a> </dd></dl>
+<p>The caller is responsible for deleting the object that is returned.</p>
+<p>Note that if all nodes of the tree are in their default state, then this may return a nullptr.</p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTreeView.html#ae442d9c17f9dddbf745ddb57b9332919" title="Saves the current state of open/closed nodes so it can be restored later.">TreeView::getOpennessState</a>, <a class="el" href="classTreeViewItem.html#a2543807283072980a45ba62f4f0eed46" title="Restores the openness of this item and all its sub-items from a saved state.">restoreOpennessState</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a8c5209f463a39420bcfd759cbd345590"></a>
+<a class="anchor" id="a2543807283072980a45ba62f4f0eed46"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classTreeViewItem.html#a8c5209f463a39420bcfd759cbd345590">TreeViewItem::restoreOpennessState</a> </td>
+          <td class="memname">void <a class="el" href="classTreeViewItem.html#a2543807283072980a45ba62f4f0eed46">TreeViewItem::restoreOpennessState</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;&#160;</td>
           <td class="paramname"><em>xml</em></td><td>)</td>
@@ -1115,7 +1178,7 @@ Public Member Functions</h2></td></tr>
 <p>Restores the openness of this item and all its sub-items from a saved state. </p>
 <p>See <a class="el" href="classTreeView.html#a0e88906665c57b672def512e355af4f8" title="Restores a previously saved arrangement of open/closed nodes.">TreeView::restoreOpennessState</a> for more details.</p>
 <p>You'd normally want to use <a class="el" href="classTreeView.html#a0e88906665c57b672def512e355af4f8" title="Restores a previously saved arrangement of open/closed nodes.">TreeView::restoreOpennessState()</a> rather than call it for a specific item, but this can be handy if you need to briefly save the state for a section of the tree.</p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTreeView.html#a0e88906665c57b672def512e355af4f8" title="Restores a previously saved arrangement of open/closed nodes.">TreeView::restoreOpennessState</a>, <a class="el" href="classTreeViewItem.html#a684aff0e07a592baac86eff96ededfc2" title="Saves the current state of open/closed nodes so it can be restored later.">getOpennessState</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTreeView.html#a0e88906665c57b672def512e355af4f8" title="Restores a previously saved arrangement of open/closed nodes.">TreeView::restoreOpennessState</a>, <a class="el" href="classTreeViewItem.html#a55bec44dbc8442b4389b282f02f2a441" title="Saves the current state of open/closed nodes so it can be restored later.">getOpennessState</a> </dd></dl>
 
 </div>
 </div>

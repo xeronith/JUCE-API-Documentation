@@ -3,7 +3,7 @@ var searchData=
   ['identity',['identity',['../classAffineTransform.html#a2173017e6300f667a23467505ca36276',1,'AffineTransform']]],
   ['idproperty',['idProperty',['../classComponentBuilder.html#aded44aa66f9f06a544e758dc6391664e',1,'ComponentBuilder']]],
   ['ignorecaseofkeynames',['ignoreCaseOfKeyNames',['../structPropertiesFile_1_1Options.html#a430d4a3168ac0be324f7a5c8a40f514a',1,'PropertiesFile::Options']]],
-  ['image',['image',['../classFillType.html#a10bd0d13433133545b26ea3894b3c641',1,'FillType::image()'],['../classDrawableImage_1_1ValueTreeWrapper.html#a2926330f303d36706fe0f2fa865bd798',1,'DrawableImage::ValueTreeWrapper::image()'],['../structImageComponent_1_1Ids.html#ac5a87c2344e2dc496f35ed3bddd2b656',1,'ImageComponent::Ids::image()']]],
+  ['image',['image',['../classFillType.html#a10bd0d13433133545b26ea3894b3c641',1,'FillType::image()'],['../classDrawableImage_1_1ValueTreeWrapper.html#a2926330f303d36706fe0f2fa865bd798',1,'DrawableImage::ValueTreeWrapper::image()']]],
   ['imageheight',['imageHeight',['../classOpenGLTextureFromImage.html#adb466272b48daf5b2677f0a436c1f150',1,'OpenGLTextureFromImage']]],
   ['imageid',['imageId',['../classDrawableShape_1_1FillAndStrokeState.html#ad5d1a76e523f00264b9e44b26552772d',1,'DrawableShape::FillAndStrokeState']]],
   ['imageopacity',['imageOpacity',['../classDrawableShape_1_1FillAndStrokeState.html#a5103d236724f9a2757d7ae78f058dbf6',1,'DrawableShape::FillAndStrokeState']]],
@@ -15,7 +15,6 @@ var searchData=
   ['inputdevicename',['inputDeviceName',['../structAudioDeviceManager_1_1AudioDeviceSetup.html#af1c134f5280bec722facace7c9fa0f1d',1,'AudioDeviceManager::AudioDeviceSetup']]],
   ['insertkey',['insertKey',['../classKeyPress.html#af62c3ffd333fc440eca6596b56df48b8',1,'KeyPress']]],
   ['internal',['internal',['../classMidiInput.html#a2dafd2f0852e544ae9ea2f2a34c90762',1,'MidiInput::internal()'],['../classMidiOutput.html#a0910f2de4bc5576874b5c6716d336c86',1,'MidiOutput::internal()']]],
-  ['interval',['interval',['../structSlider_1_1Ids.html#a4ef66c6bc65214938c35bf7767fad9f3',1,'Slider::Ids']]],
   ['invalid',['invalid',['../classValueTree.html#af49e8bf1c5072d0722dff9ef81b84f68',1,'ValueTree']]],
   ['invocationmethod',['invocationMethod',['../structApplicationCommandTarget_1_1InvocationInfo.html#a4e4ea7fee8feb65189634b26003e0fbb',1,'ApplicationCommandTarget::InvocationInfo']]],
   ['iscustomcomponent',['isCustomComponent',['../classPopupMenu_1_1MenuItemIterator.html#a01ff00f5ed747469652ab57f7baba10d',1,'PopupMenu::MenuItemIterator']]],
@@ -36,6 +35,5 @@ var searchData=
   ['isticked',['isTicked',['../classPopupMenu_1_1MenuItemIterator.html#a9e22397470a1baaf9834faad6738585a',1,'PopupMenu::MenuItemIterator']]],
   ['itemid',['itemId',['../classPopupMenu_1_1MenuItemIterator.html#ab696747fd973bc5c35afe47906ed98c4',1,'PopupMenu::MenuItemIterator']]],
   ['itemname',['itemName',['../classPopupMenu_1_1MenuItemIterator.html#a75e8d47cfdf5781ff07a08b4838d15e6',1,'PopupMenu::MenuItemIterator']]],
-  ['items',['items',['../structComboBox_1_1Ids.html#a43c9313232e8b55cb29e0b96be57f837',1,'ComboBox::Ids']]],
   ['ivory',['ivory',['../classColours.html#a97ea5f64838c6c2d1301c32108e830d3',1,'Colours']]]
 ];

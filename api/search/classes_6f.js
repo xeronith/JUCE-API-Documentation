@@ -56,6 +56,7 @@ var searchData=
   ['ownedarray_3c_20mouseinputsource_20_3e',['OwnedArray< MouseInputSource >',['../classOwnedArray.html',1,'']]],
   ['ownedarray_3c_20multitimercallback_20_3e',['OwnedArray< MultiTimerCallback >',['../classOwnedArray.html',1,'']]],
   ['ownedarray_3c_20ownedarray_3c_20undoableaction_20_3e_20_3e',['OwnedArray< OwnedArray< UndoableAction > >',['../classOwnedArray.html',1,'']]],
+  ['ownedarray_3c_20panelholder_20_3e',['OwnedArray< PanelHolder >',['../classOwnedArray.html',1,'']]],
   ['ownedarray_3c_20plugindescription_20_3e',['OwnedArray< PluginDescription >',['../classOwnedArray.html',1,'']]],
   ['ownedarray_3c_20progressbar_20_3e',['OwnedArray< ProgressBar >',['../classOwnedArray.html',1,'']]],
   ['ownedarray_3c_20run_20_3e',['OwnedArray< Run >',['../classOwnedArray.html',1,'']]],

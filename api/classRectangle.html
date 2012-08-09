@@ -217,10 +217,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a438d27a0850e9af450376dc0444e7509"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expands the rectangle by a given amount.  <a href="#a438d27a0850e9af450376dc0444e7509"></a><br/></td></tr>
 <tr class="memitem:aef5d52ca6d0374cad679174067513cb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#aef5d52ca6d0374cad679174067513cb4">expanded</a> (const ValueType deltaX, const ValueType deltaY) const noexcept</td></tr>
 <tr class="memdesc:aef5d52ca6d0374cad679174067513cb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a rectangle that is larger than this one by a given amount.  <a href="#aef5d52ca6d0374cad679174067513cb4"></a><br/></td></tr>
+<tr class="memitem:afd91a9777fe72be6a1dcf984cd24c49d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#afd91a9777fe72be6a1dcf984cd24c49d">expanded</a> (const ValueType delta) const noexcept</td></tr>
+<tr class="memdesc:afd91a9777fe72be6a1dcf984cd24c49d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a rectangle that is larger than this one by a given amount.  <a href="#afd91a9777fe72be6a1dcf984cd24c49d"></a><br/></td></tr>
 <tr class="memitem:aa19b50beadd6b93bb1ba6e91b7610b6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#aa19b50beadd6b93bb1ba6e91b7610b6f">reduce</a> (const ValueType deltaX, const ValueType deltaY) noexcept</td></tr>
 <tr class="memdesc:aa19b50beadd6b93bb1ba6e91b7610b6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shrinks the rectangle by a given amount.  <a href="#aa19b50beadd6b93bb1ba6e91b7610b6f"></a><br/></td></tr>
 <tr class="memitem:a3944059d01cbe84fd6e826a9ae478135"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#a3944059d01cbe84fd6e826a9ae478135">reduced</a> (const ValueType deltaX, const ValueType deltaY) const noexcept</td></tr>
 <tr class="memdesc:a3944059d01cbe84fd6e826a9ae478135"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a rectangle that is smaller than this one by a given amount.  <a href="#a3944059d01cbe84fd6e826a9ae478135"></a><br/></td></tr>
+<tr class="memitem:a3e882e4d451a116c550115e458522496"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#a3e882e4d451a116c550115e458522496">reduced</a> (const ValueType delta) const noexcept</td></tr>
+<tr class="memdesc:a3e882e4d451a116c550115e458522496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a rectangle that is smaller than this one by a given amount.  <a href="#a3e882e4d451a116c550115e458522496"></a><br/></td></tr>
 <tr class="memitem:a6e1fc3d8668683234c2284b9ea12c7bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#a6e1fc3d8668683234c2284b9ea12c7bf">removeFromTop</a> (const ValueType amountToRemove) noexcept</td></tr>
 <tr class="memdesc:a6e1fc3d8668683234c2284b9ea12c7bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a strip from the top of this rectangle, reducing this rectangle by the specified amount and returning the section that was removed.  <a href="#a6e1fc3d8668683234c2284b9ea12c7bf"></a><br/></td></tr>
 <tr class="memitem:ae84d6639ce7a5e72aa1369ba1a973635"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#ae84d6639ce7a5e72aa1369ba1a973635">removeFromLeft</a> (const ValueType amountToRemove) noexcept</td></tr>
@@ -1645,7 +1649,30 @@ template&lt;typename ValueType&gt; </div>
 <p>Effectively, the rectangle returned is (x - deltaX, y - deltaY, w + deltaX * 2, h + deltaY * 2). </p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classRectangle.html#a438d27a0850e9af450376dc0444e7509" title="Expands the rectangle by a given amount.">expand</a>, <a class="el" href="classRectangle.html#aa19b50beadd6b93bb1ba6e91b7610b6f" title="Shrinks the rectangle by a given amount.">reduce</a>, <a class="el" href="classRectangle.html#a3944059d01cbe84fd6e826a9ae478135" title="Returns a rectangle that is smaller than this one by a given amount.">reduced</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classRectangle.html#a3944059d01cbe84fd6e826a9ae478135">Rectangle&lt; int &gt;::reduced()</a>.</p>
+<p>Referenced by <a class="el" href="classRectangle.html#afd91a9777fe72be6a1dcf984cd24c49d">Rectangle&lt; int &gt;::expanded()</a>, and <a class="el" href="classRectangle.html#a3944059d01cbe84fd6e826a9ae478135">Rectangle&lt; int &gt;::reduced()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afd91a9777fe72be6a1dcf984cd24c49d"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classRectangle.html">Rectangle</a> <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt;::<a class="el" href="classRectangle.html#aef5d52ca6d0374cad679174067513cb4">expanded</a> </td>
+          <td>(</td>
+          <td class="paramtype">const ValueType&#160;</td>
+          <td class="paramname"><em>delta</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns a rectangle that is larger than this one by a given amount. </p>
+<p>Effectively, the rectangle returned is (x - delta, y - delta, w + delta * 2, h + delta * 2). </p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classRectangle.html#a438d27a0850e9af450376dc0444e7509" title="Expands the rectangle by a given amount.">expand</a>, <a class="el" href="classRectangle.html#aa19b50beadd6b93bb1ba6e91b7610b6f" title="Shrinks the rectangle by a given amount.">reduce</a>, <a class="el" href="classRectangle.html#a3944059d01cbe84fd6e826a9ae478135" title="Returns a rectangle that is smaller than this one by a given amount.">reduced</a> </dd></dl>
 
 </div>
 </div>
@@ -1711,6 +1738,31 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns a rectangle that is smaller than this one by a given amount. </p>
 <p>Effectively, the rectangle returned is (x + deltaX, y + deltaY, w - deltaX * 2, h - deltaY * 2). </p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classRectangle.html#aa19b50beadd6b93bb1ba6e91b7610b6f" title="Shrinks the rectangle by a given amount.">reduce</a>, <a class="el" href="classRectangle.html#a438d27a0850e9af450376dc0444e7509" title="Expands the rectangle by a given amount.">expand</a>, <a class="el" href="classRectangle.html#aef5d52ca6d0374cad679174067513cb4" title="Returns a rectangle that is larger than this one by a given amount.">expanded</a> </dd></dl>
+
+<p>Referenced by <a class="el" href="classRectangle.html#a3e882e4d451a116c550115e458522496">Rectangle&lt; int &gt;::reduced()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3e882e4d451a116c550115e458522496"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classRectangle.html">Rectangle</a> <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt;::<a class="el" href="classRectangle.html#a3944059d01cbe84fd6e826a9ae478135">reduced</a> </td>
+          <td>(</td>
+          <td class="paramtype">const ValueType&#160;</td>
+          <td class="paramname"><em>delta</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns a rectangle that is smaller than this one by a given amount. </p>
+<p>Effectively, the rectangle returned is (x + delta, y + delta, w - delta * 2, h - delta * 2). </p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classRectangle.html#aa19b50beadd6b93bb1ba6e91b7610b6f" title="Shrinks the rectangle by a given amount.">reduce</a>, <a class="el" href="classRectangle.html#a438d27a0850e9af450376dc0444e7509" title="Expands the rectangle by a given amount.">expand</a>, <a class="el" href="classRectangle.html#aef5d52ca6d0374cad679174067513cb4" title="Returns a rectangle that is larger than this one by a given amount.">expanded</a> </dd></dl>
 
 </div>

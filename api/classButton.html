@@ -97,7 +97,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Button Class Reference</div>  </div>
@@ -115,7 +114,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structButton_1_1Ids.html">Ids</a></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton_1_1Listener.html">Listener</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to receive callbacks when a button is clicked.  <a href="classButton_1_1Listener.html#details">More...</a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-types"></a>
@@ -197,12 +195,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a802fe07b98ca56f1e2138f306c596aa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the button adjoins another one on its bottom edge.  <a href="#a802fe07b98ca56f1e2138f306c596aa6"></a><br/></td></tr>
 <tr class="memitem:aa53d62ecda7a4658968b41e3f6a57f2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#aa53d62ecda7a4658968b41e3f6a57f2a">setState</a> (const <a class="el" href="classButton.html#ad8312db93093c21df8b1d2be74ae1957">ButtonState</a> newState)</td></tr>
 <tr class="memdesc:aa53d62ecda7a4658968b41e3f6a57f2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be used to force the button into a particular state.  <a href="#aa53d62ecda7a4658968b41e3f6a57f2a"></a><br/></td></tr>
-<tr class="memitem:a6e32e64b920671d54e845b6a6718f73b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a6e32e64b920671d54e845b6a6718f73b">refreshFromValueTree</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;, <a class="el" href="classComponentBuilder.html">ComponentBuilder</a> &amp;)</td></tr>
 <tr class="memitem:a4608a4116088533a72c0a9ae56f151ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a4608a4116088533a72c0a9ae56f151ca">JUCE_DEPRECATED</a> (void addButtonListener(<a class="el" href="classButton_1_1Listener.html">Listener</a> *))</td></tr>
 <tr class="memitem:a1e549fee63e10617d44c8fb17bd15166"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a1e549fee63e10617d44c8fb17bd15166">JUCE_DEPRECATED</a> (void removeButtonListener(<a class="el" href="classButton_1_1Listener.html">Listener</a> *))</td></tr>
-<tr><td colspan="2"><h2><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a3c7661c9f612617e4be693983302ad17"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a3c7661c9f612617e4be693983302ad17">getConnectedFlags</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;state)</td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a37f37f35bbcb27d88fc508be94dba87e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a37f37f35bbcb27d88fc508be94dba87e">Button</a> (const <a class="el" href="classString.html">String</a> &amp;buttonName)</td></tr>
@@ -1018,52 +1012,6 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6e32e64b920671d54e845b6a6718f73b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classButton.html#a6e32e64b920671d54e845b6a6718f73b">Button::refreshFromValueTree</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classComponentBuilder.html">ComponentBuilder</a> &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classImageButton.html#a212a4a69370e50e726c0fac5e174cfc3">ImageButton</a>, and <a class="el" href="classHyperlinkButton.html#a4d2e2b974af9af23e75c8c0855acbeee">HyperlinkButton</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3c7661c9f612617e4be693983302ad17"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">static int <a class="el" href="classButton.html#a3c7661c9f612617e4be693983302ad17">Button::getConnectedFlags</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td>
-          <td class="paramname"><em>state</em></td><td>)</td>
-          <td><code> [static]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a4608a4116088533a72c0a9ae56f151ca"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1186,7 +1134,7 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classToolbarItemComponent.html#a9133b9cad2374a608e50f345e6fceee7">ToolbarItemComponent</a>, <a class="el" href="classDrawableButton.html#a41b96d4fc2cd66b2325fa89310491a5a">DrawableButton</a>, <a class="el" href="classImageButton.html#aa52c5f0822b68a2e2d64053a169daa0a">ImageButton</a>, <a class="el" href="classHyperlinkButton.html#a7eab0c8a05e56b8f2c078dc2b58a16d1">HyperlinkButton</a>, <a class="el" href="classTabBarButton.html#acf97c09fa38adda6abb12b4b27e2b520">TabBarButton</a>, <a class="el" href="classTextButton.html#a782af0085adb8c87049dbd0c151623a0">TextButton</a>, <a class="el" href="classShapeButton.html#a5d0af67956b91469daca7833c7ad68b1">ShapeButton</a>, <a class="el" href="classToggleButton.html#ae94a4795bb53980775ea3472b65e85b4">ToggleButton</a>, and <a class="el" href="classArrowButton.html#a1ab818a89d7b2913b6dd71ad699f7948">ArrowButton</a>.</p>
+<p>Implemented in <a class="el" href="classToolbarItemComponent.html#a9133b9cad2374a608e50f345e6fceee7">ToolbarItemComponent</a>, <a class="el" href="classDrawableButton.html#a41b96d4fc2cd66b2325fa89310491a5a">DrawableButton</a>, <a class="el" href="classImageButton.html#aa52c5f0822b68a2e2d64053a169daa0a">ImageButton</a>, <a class="el" href="classTabBarButton.html#acf97c09fa38adda6abb12b4b27e2b520">TabBarButton</a>, <a class="el" href="classHyperlinkButton.html#a7eab0c8a05e56b8f2c078dc2b58a16d1">HyperlinkButton</a>, <a class="el" href="classTextButton.html#a782af0085adb8c87049dbd0c151623a0">TextButton</a>, <a class="el" href="classShapeButton.html#a5d0af67956b91469daca7833c7ad68b1">ShapeButton</a>, <a class="el" href="classToggleButton.html#a3109840657f440caf23945ba7f25b1f9">ToggleButton</a>, and <a class="el" href="classArrowButton.html#a1ab818a89d7b2913b6dd71ad699f7948">ArrowButton</a>.</p>
 
 </div>
 </div>

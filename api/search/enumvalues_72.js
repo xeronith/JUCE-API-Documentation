@@ -17,6 +17,7 @@ var searchData=
   ['righttoleft',['rightToLeft',['../classAttributedString.html#a254fea6774b4e74f786cc5ad3abac400a455f62330ea6e3aca5353d09216fff72',1,'AttributedString']]],
   ['rotary',['Rotary',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a2043125f6f74c8ceae38baf3fb514f18',1,'Slider']]],
   ['rotaryhorizontaldrag',['RotaryHorizontalDrag',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a8c359e2cb456e39665bec067273df5fe',1,'Slider']]],
+  ['rotaryhorizontalverticaldrag',['RotaryHorizontalVerticalDrag',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a6d72c2ed67c43d22785fe271d3684075',1,'Slider']]],
   ['rotarysliderfillcolourid',['rotarySliderFillColourId',['../classSlider.html#a1012002c53381ccc7c1fe7e604a75f44ad6ece790078ea74733dfa2a0d99905a8',1,'Slider']]],
   ['rotaryslideroutlinecolourid',['rotarySliderOutlineColourId',['../classSlider.html#a1012002c53381ccc7c1fe7e604a75f44abc955b1201e3f12967cb3ff472ba86d8',1,'Slider']]],
   ['rotaryverticaldrag',['RotaryVerticalDrag',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a46ac50fdae2ac4df9a2f3ad630589224',1,'Slider']]],

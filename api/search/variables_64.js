@@ -34,13 +34,11 @@ var searchData=
   ['descriptivename',['descriptiveName',['../classPluginDescription.html#a93ddf8b86e68316fc4746eb89c00b52c',1,'PluginDescription']]],
   ['destchannelindex',['destChannelIndex',['../structAudioProcessorGraph_1_1Connection.html#a542e23f5e9b746d2b13485545cce791e',1,'AudioProcessorGraph::Connection']]],
   ['destnodeid',['destNodeId',['../structAudioProcessorGraph_1_1Connection.html#a7f1b8d717bcb7f30c1ebc45e553ba20a',1,'AudioProcessorGraph::Connection']]],
+  ['devicemanager',['deviceManager',['../classAudioDeviceSelectorComponent.html#a1d55ccd0985a42f37b5683f609b65386',1,'AudioDeviceSelectorComponent']]],
   ['dimgrey',['dimgrey',['../classColours.html#a737012c7670ba25ccc7bee5ba96c3d2b',1,'Colours']]],
   ['displays',['displays',['../classDesktop_1_1Displays.html#af3bca6783a93f00366a068ea04c661b4',1,'Desktop::Displays']]],
   ['dodgerblue',['dodgerblue',['../classColours.html#a1a07cae34389d93d4b3817a14ef6efda',1,'Colours']]],
   ['double_5fpi',['double_Pi',['../juce__MathsFunctions_8h.html#aa929b9e10eedb3b7a6bd8f6ba2d9ddaa',1,'juce_MathsFunctions.h']]],
-  ['downimage',['downImage',['../structImageButton_1_1Ids.html#a26a121e552603c7940a06db1c6a67728',1,'ImageButton::Ids']]],
   ['downkey',['downKey',['../classKeyPress.html#aeb9a20dd50b39f66d7d778d31b6b5f88',1,'KeyPress']]],
-  ['downopacity',['downOpacity',['../structImageButton_1_1Ids.html#afc6b5ef653312630168b6a24c86b9661',1,'ImageButton::Ids']]],
-  ['downoverlay',['downOverlay',['../structImageButton_1_1Ids.html#abd85ebf218c02a2bdd55ff45d33fae00',1,'ImageButton::Ids']]],
   ['drylevel',['dryLevel',['../structReverb_1_1Parameters.html#add75191e7a163d95cd807cbc72fa192c',1,'Reverb::Parameters']]]
 ];

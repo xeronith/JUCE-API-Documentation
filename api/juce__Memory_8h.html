@@ -127,9 +127,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a667897ead2d6fd7f9f682bd8f75da26a"><td class="memTemplParams" colspan="2">template&lt;typename Type1 , typename Type2 &gt; </td></tr>
 <tr class="memitem:a667897ead2d6fd7f9f682bd8f75da26a"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="juce__Memory_8h.html#a667897ead2d6fd7f9f682bd8f75da26a">getAddressDifference</a> (Type1 *pointer1, Type2 *pointer2) noexcept</td></tr>
 <tr class="memdesc:a667897ead2d6fd7f9f682bd8f75da26a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handy function which returns the difference between any two pointers, in bytes.  <a href="#a667897ead2d6fd7f9f682bd8f75da26a"></a><br/></td></tr>
-<tr class="memitem:a607b18f00ee6152503a1c5352d4efeb8"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
-<tr class="memitem:a607b18f00ee6152503a1c5352d4efeb8"><td class="memTemplItemLeft" align="right" valign="top">Type *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="juce__Memory_8h.html#a607b18f00ee6152503a1c5352d4efeb8">createCopyIfNotNull</a> (Type *pointer)</td></tr>
-<tr class="memdesc:a607b18f00ee6152503a1c5352d4efeb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">If a pointer is non-null, this returns a new copy of the object that it points to, or safely returns nullptr if the pointer is null.  <a href="#a607b18f00ee6152503a1c5352d4efeb8"></a><br/></td></tr>
+<tr class="memitem:ae48595e0e1150db352b0c6cb744a0839"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
+<tr class="memitem:ae48595e0e1150db352b0c6cb744a0839"><td class="memTemplItemLeft" align="right" valign="top">Type *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="juce__Memory_8h.html#ae48595e0e1150db352b0c6cb744a0839">createCopyIfNotNull</a> (const Type *pointer)</td></tr>
+<tr class="memdesc:ae48595e0e1150db352b0c6cb744a0839"><td class="mdescLeft">&#160;</td><td class="mdescRight">If a pointer is non-null, this returns a new copy of the object that it points to, or safely returns nullptr if the pointer is null.  <a href="#ae48595e0e1150db352b0c6cb744a0839"></a><br/></td></tr>
 </table>
 <hr/><h2>Define Documentation</h2>
 <a class="anchor" id="ad73fadcd76040b11a626d5bdf833ad49"></a>
@@ -318,16 +318,16 @@ template&lt;typename Type1 , typename Type2 &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a607b18f00ee6152503a1c5352d4efeb8"></a>
+<a class="anchor" id="ae48595e0e1150db352b0c6cb744a0839"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class Type &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">Type* <a class="el" href="juce__Memory_8h.html#a607b18f00ee6152503a1c5352d4efeb8">createCopyIfNotNull</a> </td>
+          <td class="memname">Type* <a class="el" href="juce__Memory_8h.html#ae48595e0e1150db352b0c6cb744a0839">createCopyIfNotNull</a> </td>
           <td>(</td>
-          <td class="paramtype">Type *&#160;</td>
+          <td class="paramtype">const Type *&#160;</td>
           <td class="paramname"><em>pointer</em></td><td>)</td>
           <td></td>
         </tr>
