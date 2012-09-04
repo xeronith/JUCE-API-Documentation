@@ -31,6 +31,7 @@ var searchData=
   ['numberpadseparator',['numberPadSeparator',['../classKeyPress.html#a53df5e582959f3ae2e3c75f383f251e1',1,'KeyPress']]],
   ['numberpadsubtract',['numberPadSubtract',['../classKeyPress.html#a3587df27be497fb3d805dc6ac8eadc5b',1,'KeyPress']]],
   ['numchannels',['numChannels',['../classAudioFormatReader.html#a2a7c577b4ececb03d3658fd0625c5b70',1,'AudioFormatReader::numChannels()'],['../classAudioFormatWriter.html#af33e6836e6dbbcd774ac166453c5446c',1,'AudioFormatWriter::numChannels()']]],
+  ['numchars',['numChars',['../structCppTokeniserFunctions_1_1StringIterator.html#a87c5f347ec1afcfa2594b15892002c99',1,'CppTokeniserFunctions::StringIterator']]],
   ['numinputchannels',['numInputChannels',['../classPluginDescription.html#aae10fb65ec4fcbfcf35aed5d46b98932',1,'PluginDescription']]],
   ['numoutputchannels',['numOutputChannels',['../classPluginDescription.html#a3b04bfe9e7ede6557b7de388c70a8888',1,'PluginDescription']]],
   ['numsamples',['numSamples',['../structAudioSourceChannelInfo.html#a6669c809cf3b47afa94af63d4fa48101',1,'AudioSourceChannelInfo']]]

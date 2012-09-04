@@ -11,6 +11,7 @@ var searchData=
   ['left',['left',['../structRelativeCoordinate_1_1Strings.html#ad3b2d7198a43883ea4c4b64f44e0faf5',1,'RelativeCoordinate::Strings::left()'],['../classRelativeRectangle.html#a4418206ad8d8830d55d37a3bdefbe085',1,'RelativeRectangle::left()']]],
   ['leftkey',['leftKey',['../classKeyPress.html#ad2961244072158eee77e11844a968f61',1,'KeyPress']]],
   ['lemonchiffon',['lemonchiffon',['../classColours.html#aac8ef45b16855e5990afa7efca9a19cf',1,'Colours']]],
+  ['length',['length',['../structTextDiff_1_1Change.html#a82c0c693885a3e9c43d5e3f88b4175a8',1,'TextDiff::Change']]],
   ['lengthinsamples',['lengthInSamples',['../classAudioFormatReader.html#af7373fd7e45ed1f026647fc8671e997f',1,'AudioFormatReader']]],
   ['lightblue',['lightblue',['../classColours.html#a7c6d7f45d8e84964320b3c510b15ac29',1,'Colours']]],
   ['lightcoral',['lightcoral',['../classColours.html#ac7ec898bf0d0e640c2272479e4e83262',1,'Colours']]],

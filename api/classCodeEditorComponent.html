@@ -105,7 +105,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>A text editor component designed specifically for source code.  
  <a href="classCodeEditorComponent.html#details">More...</a></p>
 
-<p>Inherits <a class="el" href="classComponent.html">Component</a>, <a class="el" href="classTextInputTarget.html">TextInputTarget</a>, <a class="el" href="classTimer.html">Timer</a>, <a class="el" href="classScrollBar_1_1Listener.html">ScrollBar::Listener</a>, <a class="el" href="classCodeDocument_1_1Listener.html">CodeDocument::Listener</a>, and <a class="el" href="classAsyncUpdater.html">AsyncUpdater</a>.</p>
+<p>Inherits <a class="el" href="classComponent.html">Component</a>, and <a class="el" href="classTextInputTarget.html">TextInputTarget</a>.</p>
 
 <p><a href="classCodeEditorComponent-members.html">List of all members.</a></p>
 <table class="memberdecls">
@@ -178,6 +178,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a27d07e635b848cebdca7dfe388245a21"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a27d07e635b848cebdca7dfe388245a21">pasteFromClipboard</a> ()</td></tr>
 <tr class="memitem:af9a84573dbbe88fe4c1cf0691e4246ba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#af9a84573dbbe88fe4c1cf0691e4246ba">undo</a> ()</td></tr>
 <tr class="memitem:af21b33268573e1f76ef4edd07f8c9163"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#af21b33268573e1f76ef4edd07f8c9163">redo</a> ()</td></tr>
+<tr class="memitem:aae1302c724b2ac3e0c5fa4df6a3144f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#aae1302c724b2ac3e0c5fa4df6a3144f8">selectRegion</a> (const <a class="el" href="classCodeDocument_1_1Position.html">CodeDocument::Position</a> &amp;start, const <a class="el" href="classCodeDocument_1_1Position.html">CodeDocument::Position</a> &amp;end)</td></tr>
 <tr class="memitem:ae6e04934e2a725465dc7c60928650c3f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ae6e04934e2a725465dc7c60928650c3f">selectAll</a> ()</td></tr>
 <tr class="memitem:a17ed61aa9155a012f96dd6ff5c7c6b1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a17ed61aa9155a012f96dd6ff5c7c6b1e">deselectAll</a> ()</td></tr>
 <tr class="memitem:aa334176d889fd98af33c7c8aa08f6ee2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#aa334176d889fd98af33c7c8aa08f6ee2">scrollToLine</a> (int newFirstLineOnScreen)</td></tr>
@@ -191,6 +192,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad96b0eadd14eee69dbbc4a691918d803"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ad96b0eadd14eee69dbbc4a691918d803">unindentSelection</a> ()</td></tr>
 <tr class="memitem:ad3b3054c274533d3517f9d8772c8a965"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRange.html">Range</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ad3b3054c274533d3517f9d8772c8a965">getHighlightedRegion</a> () const </td></tr>
 <tr class="memdesc:ad3b3054c274533d3517f9d8772c8a965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the extents of the selected text region, or an empty range if nothing is selected,.  <a href="#ad3b3054c274533d3517f9d8772c8a965"></a><br/></td></tr>
+<tr class="memitem:a7f1f3b2a0cb4ac22634bf2740364b0b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a7f1f3b2a0cb4ac22634bf2740364b0b7">isHighlightActive</a> () const noexcept</td></tr>
 <tr class="memitem:ac1f57ebd5104fac38f599a4ebbabe04a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ac1f57ebd5104fac38f599a4ebbabe04a">setHighlightedRegion</a> (const <a class="el" href="classRange.html">Range</a>&lt; int &gt; &amp;newRange)</td></tr>
 <tr class="memdesc:ac1f57ebd5104fac38f599a4ebbabe04a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the currently-selected text region.  <a href="#ac1f57ebd5104fac38f599a4ebbabe04a"></a><br/></td></tr>
 <tr class="memitem:a50a1ddcc0312b86c43a075f3c8ba184d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a50a1ddcc0312b86c43a075f3c8ba184d">getTextInRange</a> (const <a class="el" href="classRange.html">Range</a>&lt; int &gt; &amp;range) const </td></tr>
@@ -949,6 +951,33 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aae1302c724b2ac3e0c5fa4df6a3144f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classCodeEditorComponent.html#aae1302c724b2ac3e0c5fa4df6a3144f8">CodeEditorComponent::selectRegion</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classCodeDocument_1_1Position.html">CodeDocument::Position</a> &amp;&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classCodeDocument_1_1Position.html">CodeDocument::Position</a> &amp;&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ae6e04934e2a725465dc7c60928650c3f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1134,6 +1163,22 @@ Public Member Functions</h2></td></tr>
 <p>Returns the extents of the selected text region, or an empty range if nothing is selected,. </p>
 
 <p>Implements <a class="el" href="classTextInputTarget.html#ae1cab69d8e1a8ac375a73d1229cd64ba">TextInputTarget</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7f1f3b2a0cb4ac22634bf2740364b0b7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classCodeEditorComponent.html#a7f1f3b2a0cb4ac22634bf2740364b0b7">CodeEditorComponent::isHighlightActive</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
 
 </div>
 </div>

@@ -277,7 +277,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Returns true if the <a class="el" href="classFileBasedDocument.html#a3a058b73776404d76b828205ca058e42" title="Called to indicate that the document has changed and needs saving.">changed()</a> method has been called since the file was last saved or loaded. </p>
-<dl class="section see"><dt>See also:</dt><dd>resetChangedFlag, <a class="el" href="classFileBasedDocument.html#a3a058b73776404d76b828205ca058e42" title="Called to indicate that the document has changed and needs saving.">changed</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classFileBasedDocument.html#a60543bfd5b8889f23714e1b5cc72c44a" title="Sets the state of the &#39;changed&#39; flag.">setChangedFlag</a>, <a class="el" href="classFileBasedDocument.html#a3a058b73776404d76b828205ca058e42" title="Called to indicate that the document has changed and needs saving.">changed</a> </dd></dl>
 
 </div>
 </div>
@@ -297,8 +297,8 @@ Protected Member Functions</h2></td></tr>
 
 <p>Called to indicate that the document has changed and needs saving. </p>
 <p>This method will also trigger a change message to be sent out using the <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed.">ChangeBroadcaster</a> base class.</p>
-<p>After calling the method, the <a class="el" href="classFileBasedDocument.html#a8a12cf36feeaec35c7d9cf4d7823bf72" title="Returns true if the changed() method has been called since the file was last saved or loaded...">hasChangedSinceSaved()</a> method will return true, until it is reset either by saving to a file or using the resetChangedFlag() method.</p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classFileBasedDocument.html#a8a12cf36feeaec35c7d9cf4d7823bf72" title="Returns true if the changed() method has been called since the file was last saved or loaded...">hasChangedSinceSaved</a>, resetChangedFlag </dd></dl>
+<p>After calling the method, the <a class="el" href="classFileBasedDocument.html#a8a12cf36feeaec35c7d9cf4d7823bf72" title="Returns true if the changed() method has been called since the file was last saved or loaded...">hasChangedSinceSaved()</a> method will return true, until it is reset either by saving to a file or using the <a class="el" href="classFileBasedDocument.html#a60543bfd5b8889f23714e1b5cc72c44a" title="Sets the state of the &#39;changed&#39; flag.">setChangedFlag()</a> method.</p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classFileBasedDocument.html#a8a12cf36feeaec35c7d9cf4d7823bf72" title="Returns true if the changed() method has been called since the file was last saved or loaded...">hasChangedSinceSaved</a>, <a class="el" href="classFileBasedDocument.html#a60543bfd5b8889f23714e1b5cc72c44a" title="Sets the state of the &#39;changed&#39; flag.">setChangedFlag</a> </dd></dl>
 
 </div>
 </div>

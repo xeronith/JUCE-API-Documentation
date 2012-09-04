@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['t',['t',['../structCppTokeniserFunctions_1_1StringIterator.html#a720692c1a876c915654d05df723fe77e',1,'CppTokeniserFunctions::StringIterator']]],
   ['tabkey',['tabKey',['../classKeyPress.html#a2a3d96e0f2602106a3855a34a2e1dbb8',1,'KeyPress']]],
   ['tabs',['tabs',['../classTabbedComponent.html#a7bc26c338bf06c47c28165f5b891c87d',1,'TabbedComponent']]],
   ['tan',['tan',['../classColours.html#ae8816a5fc45532eff9ba5884de8902f6',1,'Colours']]],
@@ -7,6 +8,7 @@ var searchData=
   ['text',['text',['../classDrawableText_1_1ValueTreeWrapper.html#a286747f134e7fe4579075f71781d62cf',1,'DrawableText::ValueTreeWrapper::text()'],['../structComponentPeer_1_1DragInfo.html#a9ef783609b4ae2ca44735a734759ccab',1,'ComponentPeer::DragInfo::text()']]],
   ['textureid',['textureID',['../classOpenGLTextureFromImage.html#accd4019f24dad0cdbac308f39582aa02',1,'OpenGLTextureFromImage']]],
   ['thistle',['thistle',['../classColours.html#ab84edf5bce8e53629326721524ce3b9e',1,'Colours']]],
+  ['timeinsamples',['timeInSamples',['../structAudioPlayHead_1_1CurrentPositionInfo.html#a6cc14e975100cd474bc37971a6b9e460',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['timeinseconds',['timeInSeconds',['../structAudioPlayHead_1_1CurrentPositionInfo.html#a9da5cfbe320a2e6bf67c3a064ab34fd7',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['timesigdenominator',['timeSigDenominator',['../structAudioPlayHead_1_1CurrentPositionInfo.html#a953c3ad29ef6e0ced883e15f901b0a15',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['timesignumerator',['timeSigNumerator',['../structAudioPlayHead_1_1CurrentPositionInfo.html#aaf8ad36ef3b2d39d401542ae5ca0100c',1,'AudioPlayHead::CurrentPositionInfo']]],

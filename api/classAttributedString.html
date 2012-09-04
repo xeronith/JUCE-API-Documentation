@@ -145,6 +145,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a62e00c713dfe7619d7dfb05af14972f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends some text, with a specified colour, and the default font.  <a href="#a62e00c713dfe7619d7dfb05af14972f5"></a><br/></td></tr>
 <tr class="memitem:a0dcad2dccc3833cf94ae3425e98cad66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAttributedString.html#a0dcad2dccc3833cf94ae3425e98cad66">append</a> (const <a class="el" href="classString.html">String</a> &amp;textToAppend, const <a class="el" href="classFont.html">Font</a> &amp;font, const <a class="el" href="classColour.html">Colour</a> &amp;colour)</td></tr>
 <tr class="memdesc:a0dcad2dccc3833cf94ae3425e98cad66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends some text, with a specified font and colour.  <a href="#a0dcad2dccc3833cf94ae3425e98cad66"></a><br/></td></tr>
+<tr class="memitem:acc8257dab05c592118659e1a80594338"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAttributedString.html#acc8257dab05c592118659e1a80594338">append</a> (const <a class="el" href="classAttributedString.html">AttributedString</a> &amp;other)</td></tr>
+<tr class="memdesc:acc8257dab05c592118659e1a80594338"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends another <a class="el" href="classAttributedString.html" title="A text string with a set of colour/font settings that are associated with sub-ranges of the text...">AttributedString</a> to this one.  <a href="#acc8257dab05c592118659e1a80594338"></a><br/></td></tr>
 <tr class="memitem:aff77725b28cb06f1ddb0b3b38ad7c076"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAttributedString.html#aff77725b28cb06f1ddb0b3b38ad7c076">clear</a> ()</td></tr>
 <tr class="memdesc:aff77725b28cb06f1ddb0b3b38ad7c076"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the string, clearing all text and attributes.  <a href="#aff77725b28cb06f1ddb0b3b38ad7c076"></a><br/></td></tr>
 <tr class="memitem:a7b100c5427c311b0f8d8a426c96b24a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAttributedString.html#a7b100c5427c311b0f8d8a426c96b24a3">draw</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;area) const </td></tr>
@@ -476,6 +478,26 @@ Public Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Appends some text, with a specified font and colour. </p>
+
+</div>
+</div>
+<a class="anchor" id="acc8257dab05c592118659e1a80594338"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classAttributedString.html#a1755f63ee5d540df2aa64d7697ff0ef8">AttributedString::append</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classAttributedString.html">AttributedString</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Appends another <a class="el" href="classAttributedString.html" title="A text string with a set of colour/font settings that are associated with sub-ranges of the text...">AttributedString</a> to this one. </p>
+<p>Note that this will only append the text, fonts, and colours - it won't copy any other properties such as justification, line-spacing, etc from the other object. </p>
 
 </div>
 </div>

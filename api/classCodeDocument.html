@@ -134,10 +134,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:acdf7d662f21054059b8180f124e7ef85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of characters in the longest line of the document.  <a href="#acdf7d662f21054059b8180f124e7ef85"></a><br/></td></tr>
 <tr class="memitem:a8618046d22c26326da18c0f372c330d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#a8618046d22c26326da18c0f372c330d8">deleteSection</a> (const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;startPosition, const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;endPosition)</td></tr>
 <tr class="memdesc:a8618046d22c26326da18c0f372c330d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a section of the text.  <a href="#a8618046d22c26326da18c0f372c330d8"></a><br/></td></tr>
+<tr class="memitem:a7ecc088f32162bb34897d3cbfe653b8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#a7ecc088f32162bb34897d3cbfe653b8f">deleteSection</a> (int startIndex, int endIndex)</td></tr>
+<tr class="memdesc:a7ecc088f32162bb34897d3cbfe653b8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a section of the text.  <a href="#a7ecc088f32162bb34897d3cbfe653b8f"></a><br/></td></tr>
 <tr class="memitem:a52039d2d208e30688478dbe2f31640e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#a52039d2d208e30688478dbe2f31640e4">insertText</a> (const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;position, const <a class="el" href="classString.html">String</a> &amp;text)</td></tr>
 <tr class="memdesc:a52039d2d208e30688478dbe2f31640e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts some text into the document at a given position.  <a href="#a52039d2d208e30688478dbe2f31640e4"></a><br/></td></tr>
+<tr class="memitem:affb956a29f9708767046bdfbdde99077"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#affb956a29f9708767046bdfbdde99077">insertText</a> (int insertIndex, const <a class="el" href="classString.html">String</a> &amp;text)</td></tr>
+<tr class="memdesc:affb956a29f9708767046bdfbdde99077"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts some text into the document at a given position.  <a href="#affb956a29f9708767046bdfbdde99077"></a><br/></td></tr>
+<tr class="memitem:ae6ec45481f08161ffcb222eafba21c32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#ae6ec45481f08161ffcb222eafba21c32">replaceSection</a> (int startIndex, int endIndex, const <a class="el" href="classString.html">String</a> &amp;newText)</td></tr>
+<tr class="memdesc:ae6ec45481f08161ffcb222eafba21c32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces a section of the text with a new string.  <a href="#ae6ec45481f08161ffcb222eafba21c32"></a><br/></td></tr>
 <tr class="memitem:a621939da95a3a245a9474c003b59f65e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#a621939da95a3a245a9474c003b59f65e">replaceAllContent</a> (const <a class="el" href="classString.html">String</a> &amp;newContent)</td></tr>
 <tr class="memdesc:a621939da95a3a245a9474c003b59f65e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the document and replaces it with some new text.  <a href="#a621939da95a3a245a9474c003b59f65e"></a><br/></td></tr>
+<tr class="memitem:a6ce285d0b51126f464791407ea9b3e60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#a6ce285d0b51126f464791407ea9b3e60">applyChanges</a> (const <a class="el" href="classString.html">String</a> &amp;newContent)</td></tr>
+<tr class="memdesc:a6ce285d0b51126f464791407ea9b3e60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Analyses the changes between the current content and some new text, and applies those changes.  <a href="#a6ce285d0b51126f464791407ea9b3e60"></a><br/></td></tr>
 <tr class="memitem:a666ae3cea6e96721b22176624bfa3881"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#a666ae3cea6e96721b22176624bfa3881">loadFromStream</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;stream)</td></tr>
 <tr class="memdesc:a666ae3cea6e96721b22176624bfa3881"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the editor's contents with the contents of a stream.  <a href="#a666ae3cea6e96721b22176624bfa3881"></a><br/></td></tr>
 <tr class="memitem:ae31f276f6445c5a6dc32cc12c4589b98"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#ae31f276f6445c5a6dc32cc12c4589b98">writeToStream</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;stream)</td></tr>
@@ -160,10 +168,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad76824d16b674adf90193e8286ad0a89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a note that the document's current state matches the one that is saved.  <a href="#ad76824d16b674adf90193e8286ad0a89"></a><br/></td></tr>
 <tr class="memitem:a4c3047eee0dad38555cf546c3ea3c15f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#a4c3047eee0dad38555cf546c3ea3c15f">hasChangedSinceSavePoint</a> () const noexcept</td></tr>
 <tr class="memdesc:a4c3047eee0dad38555cf546c3ea3c15f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the state of the document differs from the state it was in when <a class="el" href="classCodeDocument.html#ad76824d16b674adf90193e8286ad0a89" title="Makes a note that the document&#39;s current state matches the one that is saved.">setSavePoint()</a> was last called.  <a href="#a4c3047eee0dad38555cf546c3ea3c15f"></a><br/></td></tr>
-<tr class="memitem:a0045b9d756666e02c7b290576444c2c6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classCodeDocument_1_1Position.html">Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#a0045b9d756666e02c7b290576444c2c6">findWordBreakAfter</a> (const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;position) const noexcept</td></tr>
-<tr class="memdesc:a0045b9d756666e02c7b290576444c2c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for a word-break.  <a href="#a0045b9d756666e02c7b290576444c2c6"></a><br/></td></tr>
-<tr class="memitem:a437ab93e6d2a23a08f8222043d05442e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classCodeDocument_1_1Position.html">Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#a437ab93e6d2a23a08f8222043d05442e">findWordBreakBefore</a> (const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;position) const noexcept</td></tr>
-<tr class="memdesc:a437ab93e6d2a23a08f8222043d05442e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for a word-break.  <a href="#a437ab93e6d2a23a08f8222043d05442e"></a><br/></td></tr>
+<tr class="memitem:a26c7afab579aea79440f02ba126ed2eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCodeDocument_1_1Position.html">Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#a26c7afab579aea79440f02ba126ed2eb">findWordBreakAfter</a> (const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;position) const noexcept</td></tr>
+<tr class="memdesc:a26c7afab579aea79440f02ba126ed2eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for a word-break.  <a href="#a26c7afab579aea79440f02ba126ed2eb"></a><br/></td></tr>
+<tr class="memitem:aa86e626eb2e919c675afa2317d4aada2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCodeDocument_1_1Position.html">Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#aa86e626eb2e919c675afa2317d4aada2">findWordBreakBefore</a> (const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;position) const noexcept</td></tr>
+<tr class="memdesc:aa86e626eb2e919c675afa2317d4aada2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for a word-break.  <a href="#aa86e626eb2e919c675afa2317d4aada2"></a><br/></td></tr>
+<tr class="memitem:a8506a8a409cc12de12ce7734b1e66ff4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#a8506a8a409cc12de12ce7734b1e66ff4">findTokenContaining</a> (const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;pos, <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;start, <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;end) const noexcept</td></tr>
+<tr class="memdesc:a8506a8a409cc12de12ce7734b1e66ff4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the token that contains the given position.  <a href="#a8506a8a409cc12de12ce7734b1e66ff4"></a><br/></td></tr>
+<tr class="memitem:a33c6c59951845799410ce84fd41abf06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#a33c6c59951845799410ce84fd41abf06">findLineContaining</a> (const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;pos, <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;start, <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;end) const noexcept</td></tr>
+<tr class="memdesc:a33c6c59951845799410ce84fd41abf06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the line that contains the given position.  <a href="#a33c6c59951845799410ce84fd41abf06"></a><br/></td></tr>
 <tr class="memitem:a449f7459c2784ac56c24ddb0e5bb9d41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#a449f7459c2784ac56c24ddb0e5bb9d41">addListener</a> (<a class="el" href="classCodeDocument_1_1Listener.html">Listener</a> *listener) noexcept</td></tr>
 <tr class="memdesc:a449f7459c2784ac56c24ddb0e5bb9d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a listener object to receive callbacks when the document changes.  <a href="#a449f7459c2784ac56c24ddb0e5bb9d41"></a><br/></td></tr>
 <tr class="memitem:acaf96503a0445a145f50667ce33d6cad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument.html#acaf96503a0445a145f50667ce33d6cad">removeListener</a> (<a class="el" href="classCodeDocument_1_1Listener.html">Listener</a> *listener) noexcept</td></tr>
@@ -362,6 +374,36 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a7ecc088f32162bb34897d3cbfe653b8f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classCodeDocument.html#a8618046d22c26326da18c0f372c330d8">CodeDocument::deleteSection</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>startIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>endIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Deletes a section of the text. </p>
+<p>This operation is undoable. </p>
+
+</div>
+</div>
 <a class="anchor" id="a52039d2d208e30688478dbe2f31640e4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -392,6 +434,72 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="affb956a29f9708767046bdfbdde99077"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classCodeDocument.html#a52039d2d208e30688478dbe2f31640e4">CodeDocument::insertText</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>insertIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>text</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Inserts some text into the document at a given position. </p>
+<p>This operation is undoable. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae6ec45481f08161ffcb222eafba21c32"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classCodeDocument.html#ae6ec45481f08161ffcb222eafba21c32">CodeDocument::replaceSection</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>startIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>endIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>newText</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Replaces a section of the text with a new string. </p>
+<p>This operation is undoable. </p>
+
+</div>
+</div>
 <a class="anchor" id="a621939da95a3a245a9474c003b59f65e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -409,6 +517,25 @@ Public Member Functions</h2></td></tr>
 
 <p>Clears the document and replaces it with some new text. </p>
 <p>This operation is undoable - if you're trying to completely reset the document, you might want to also call <a class="el" href="classCodeDocument.html#a14e3cfa2635a240eb8f5f378caab00f9" title="Clears the undo history.">clearUndoHistory()</a> and <a class="el" href="classCodeDocument.html#ad76824d16b674adf90193e8286ad0a89" title="Makes a note that the document&#39;s current state matches the one that is saved.">setSavePoint()</a> after using this method. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6ce285d0b51126f464791407ea9b3e60"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classCodeDocument.html#a6ce285d0b51126f464791407ea9b3e60">CodeDocument::applyChanges</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>newContent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Analyses the changes between the current content and some new text, and applies those changes. </p>
 
 </div>
 </div>
@@ -626,12 +753,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0045b9d756666e02c7b290576444c2c6"></a>
+<a class="anchor" id="a26c7afab579aea79440f02ba126ed2eb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> <a class="el" href="classCodeDocument.html#a0045b9d756666e02c7b290576444c2c6">CodeDocument::findWordBreakAfter</a> </td>
+          <td class="memname"><a class="el" href="classCodeDocument_1_1Position.html">Position</a> <a class="el" href="classCodeDocument.html#a26c7afab579aea79440f02ba126ed2eb">CodeDocument::findWordBreakAfter</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;&#160;</td>
           <td class="paramname"><em>position</em></td><td>)</td>
@@ -645,12 +772,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a437ab93e6d2a23a08f8222043d05442e"></a>
+<a class="anchor" id="aa86e626eb2e919c675afa2317d4aada2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> <a class="el" href="classCodeDocument.html#a437ab93e6d2a23a08f8222043d05442e">CodeDocument::findWordBreakBefore</a> </td>
+          <td class="memname"><a class="el" href="classCodeDocument_1_1Position.html">Position</a> <a class="el" href="classCodeDocument.html#aa86e626eb2e919c675afa2317d4aada2">CodeDocument::findWordBreakBefore</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;&#160;</td>
           <td class="paramname"><em>position</em></td><td>)</td>
@@ -661,6 +788,76 @@ Public Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Searches for a word-break. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8506a8a409cc12de12ce7734b1e66ff4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classCodeDocument.html#a8506a8a409cc12de12ce7734b1e66ff4">CodeDocument::findTokenContaining</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Finds the token that contains the given position. </p>
+
+</div>
+</div>
+<a class="anchor" id="a33c6c59951845799410ce84fd41abf06"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classCodeDocument.html#a33c6c59951845799410ce84fd41abf06">CodeDocument::findLineContaining</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Finds the line that contains the given position. </p>
 
 </div>
 </div>

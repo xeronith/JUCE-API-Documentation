@@ -131,6 +131,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae30fe3a7e3ff51f427056ab155dbafd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets this pointer to null, possibly deleting the object that it holds, if it has ownership of it.  <a href="#ae30fe3a7e3ff51f427056ab155dbafd0"></a><br/></td></tr>
 <tr class="memitem:ae526986fb0292d7b3623687e52b96fb7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionalScopedPointer.html#ae526986fb0292d7b3623687e52b96fb7">set</a> (ObjectType *newObject, bool takeOwnership)</td></tr>
 <tr class="memdesc:ae526986fb0292d7b3623687e52b96fb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes this <a class="el" href="classOptionalScopedPointer.html" title="Holds a pointer to an object which can optionally be deleted when this pointer goes out of scope...">OptionalScopedPointer</a> point at a new object, specifying whether the <a class="el" href="classOptionalScopedPointer.html" title="Holds a pointer to an object which can optionally be deleted when this pointer goes out of scope...">OptionalScopedPointer</a> will take ownership of the object.  <a href="#ae526986fb0292d7b3623687e52b96fb7"></a><br/></td></tr>
+<tr class="memitem:a44d17e536c3584231f3ded73499cf09b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionalScopedPointer.html#a44d17e536c3584231f3ded73499cf09b">setOwned</a> (ObjectType *newObject)</td></tr>
+<tr class="memdesc:a44d17e536c3584231f3ded73499cf09b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes this <a class="el" href="classOptionalScopedPointer.html" title="Holds a pointer to an object which can optionally be deleted when this pointer goes out of scope...">OptionalScopedPointer</a> point at a new object, and take ownership of that object.  <a href="#a44d17e536c3584231f3ded73499cf09b"></a><br/></td></tr>
+<tr class="memitem:ad002438efbea088d4114470c78cf77da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionalScopedPointer.html#ad002438efbea088d4114470c78cf77da">setNonOwned</a> (ObjectType *newObject)</td></tr>
+<tr class="memdesc:ad002438efbea088d4114470c78cf77da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes this <a class="el" href="classOptionalScopedPointer.html" title="Holds a pointer to an object which can optionally be deleted when this pointer goes out of scope...">OptionalScopedPointer</a> point at a new object, but will not take ownership of that object.  <a href="#ad002438efbea088d4114470c78cf77da"></a><br/></td></tr>
 <tr class="memitem:a0eb696aae75b039bc1309dc7125bda7a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionalScopedPointer.html#a0eb696aae75b039bc1309dc7125bda7a">willDeleteObject</a> () const noexcept</td></tr>
 <tr class="memdesc:a0eb696aae75b039bc1309dc7125bda7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the target object will be deleted when this pointer object is deleted.  <a href="#a0eb696aae75b039bc1309dc7125bda7a"></a><br/></td></tr>
 <tr class="memitem:a378381bc4cb56b452de6eb198a796fbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionalScopedPointer.html#a378381bc4cb56b452de6eb198a796fbb">swapWith</a> (<a class="el" href="classOptionalScopedPointer.html">OptionalScopedPointer</a>&lt; ObjectType &gt; &amp;other) noexcept</td></tr>
@@ -415,6 +419,50 @@ template&lt;class ObjectType&gt; </div>
 
 <p>Makes this <a class="el" href="classOptionalScopedPointer.html" title="Holds a pointer to an object which can optionally be deleted when this pointer goes out of scope...">OptionalScopedPointer</a> point at a new object, specifying whether the <a class="el" href="classOptionalScopedPointer.html" title="Holds a pointer to an object which can optionally be deleted when this pointer goes out of scope...">OptionalScopedPointer</a> will take ownership of the object. </p>
 <p>If takeOwnership is true, then the <a class="el" href="classOptionalScopedPointer.html" title="Holds a pointer to an object which can optionally be deleted when this pointer goes out of scope...">OptionalScopedPointer</a> will act like a <a class="el" href="classScopedPointer.html" title="This class holds a pointer which is automatically deleted when this object goes out of scope...">ScopedPointer</a>, deleting the object when it is itself deleted. If this parameter is false, then the <a class="el" href="classOptionalScopedPointer.html" title="Holds a pointer to an object which can optionally be deleted when this pointer goes out of scope...">OptionalScopedPointer</a> just holds a normal pointer to the object, and won't delete it. </p>
+
+</div>
+</div>
+<a class="anchor" id="a44d17e536c3584231f3ded73499cf09b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ObjectType&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classOptionalScopedPointer.html">OptionalScopedPointer</a>&lt; ObjectType &gt;::<a class="el" href="classOptionalScopedPointer.html#a44d17e536c3584231f3ded73499cf09b">setOwned</a> </td>
+          <td>(</td>
+          <td class="paramtype">ObjectType *&#160;</td>
+          <td class="paramname"><em>newObject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Makes this <a class="el" href="classOptionalScopedPointer.html" title="Holds a pointer to an object which can optionally be deleted when this pointer goes out of scope...">OptionalScopedPointer</a> point at a new object, and take ownership of that object. </p>
+
+<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#ab6b2829788f62cd54abe1670e86f26bd">StandaloneFilterWindow::showAudioSettingsDialog()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad002438efbea088d4114470c78cf77da"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ObjectType&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classOptionalScopedPointer.html">OptionalScopedPointer</a>&lt; ObjectType &gt;::<a class="el" href="classOptionalScopedPointer.html#ad002438efbea088d4114470c78cf77da">setNonOwned</a> </td>
+          <td>(</td>
+          <td class="paramtype">ObjectType *&#160;</td>
+          <td class="paramname"><em>newObject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Makes this <a class="el" href="classOptionalScopedPointer.html" title="Holds a pointer to an object which can optionally be deleted when this pointer goes out of scope...">OptionalScopedPointer</a> point at a new object, but will not take ownership of that object. </p>
 
 </div>
 </div>

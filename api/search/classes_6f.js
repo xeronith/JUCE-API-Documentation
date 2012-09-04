@@ -15,6 +15,7 @@ var searchData=
   ['optionalscopedpointer',['OptionalScopedPointer',['../classOptionalScopedPointer.html',1,'']]],
   ['optionalscopedpointer_3c_20audioformatreader_20_3e',['OptionalScopedPointer< AudioFormatReader >',['../classOptionalScopedPointer.html',1,'']]],
   ['optionalscopedpointer_3c_20audiosource_20_3e',['OptionalScopedPointer< AudioSource >',['../classOptionalScopedPointer.html',1,'']]],
+  ['optionalscopedpointer_3c_20component_20_3e',['OptionalScopedPointer< Component >',['../classOptionalScopedPointer.html',1,'']]],
   ['optionalscopedpointer_3c_20inputstream_20_3e',['OptionalScopedPointer< InputStream >',['../classOptionalScopedPointer.html',1,'']]],
   ['optionalscopedpointer_3c_20outputstream_20_3e',['OptionalScopedPointer< OutputStream >',['../classOptionalScopedPointer.html',1,'']]],
   ['optionalscopedpointer_3c_20positionableaudiosource_20_3e',['OptionalScopedPointer< PositionableAudioSource >',['../classOptionalScopedPointer.html',1,'']]],

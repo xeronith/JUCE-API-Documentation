@@ -109,16 +109,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>An object that receives callbacks from the <a class="el" href="classCodeDocument.html" title="A class for storing and manipulating a source code file.">CodeDocument</a> when its text changes.  
  <a href="classCodeDocument_1_1Listener.html#details">More...</a></p>
 
-<p>Inherited by <a class="el" href="classCodeEditorComponent.html">CodeEditorComponent</a><code> [private]</code>.</p>
-
 <p><a href="classCodeDocument_1_1Listener-members.html">List of all members.</a></p>
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a13e5b679bd0f71d05debd7d450228460"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument_1_1Listener.html#a13e5b679bd0f71d05debd7d450228460">Listener</a> ()</td></tr>
 <tr class="memitem:aff508f04d66863de7bfabcfff8dd4ab7"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument_1_1Listener.html#aff508f04d66863de7bfabcfff8dd4ab7">~Listener</a> ()</td></tr>
-<tr class="memitem:aa97b98fcfa06712471b0724d2c20c11c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument_1_1Listener.html#aa97b98fcfa06712471b0724d2c20c11c">codeDocumentChanged</a> (const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;affectedTextStart, const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;affectedTextEnd)=0</td></tr>
-<tr class="memdesc:aa97b98fcfa06712471b0724d2c20c11c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by a <a class="el" href="classCodeDocument.html" title="A class for storing and manipulating a source code file.">CodeDocument</a> when it is altered.  <a href="#aa97b98fcfa06712471b0724d2c20c11c"></a><br/></td></tr>
+<tr class="memitem:a145cb6afbd34c2d85c179dad9b35cf92"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument_1_1Listener.html#a145cb6afbd34c2d85c179dad9b35cf92">codeDocumentTextInserted</a> (const <a class="el" href="classString.html">String</a> &amp;newText, int insertIndex)=0</td></tr>
+<tr class="memdesc:a145cb6afbd34c2d85c179dad9b35cf92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by a <a class="el" href="classCodeDocument.html" title="A class for storing and manipulating a source code file.">CodeDocument</a> when text is added.  <a href="#a145cb6afbd34c2d85c179dad9b35cf92"></a><br/></td></tr>
+<tr class="memitem:a694f66b037c76039ac82dd39e67570b8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeDocument_1_1Listener.html#a694f66b037c76039ac82dd39e67570b8">codeDocumentTextDeleted</a> (int startIndex, int endIndex)=0</td></tr>
+<tr class="memdesc:a694f66b037c76039ac82dd39e67570b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by a <a class="el" href="classCodeDocument.html" title="A class for storing and manipulating a source code file.">CodeDocument</a> when text is deleted.  <a href="#a694f66b037c76039ac82dd39e67570b8"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>An object that receives callbacks from the <a class="el" href="classCodeDocument.html" title="A class for storing and manipulating a source code file.">CodeDocument</a> when its text changes. </p>
@@ -157,21 +157,21 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="aa97b98fcfa06712471b0724d2c20c11c"></a>
+<a class="anchor" id="a145cb6afbd34c2d85c179dad9b35cf92"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void <a class="el" href="classCodeDocument_1_1Listener.html#aa97b98fcfa06712471b0724d2c20c11c">CodeDocument::Listener::codeDocumentChanged</a> </td>
+          <td class="memname">virtual void <a class="el" href="classCodeDocument_1_1Listener.html#a145cb6afbd34c2d85c179dad9b35cf92">CodeDocument::Listener::codeDocumentTextInserted</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;&#160;</td>
-          <td class="paramname"><em>affectedTextStart</em>, </td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>newText</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classCodeDocument_1_1Position.html">Position</a> &amp;&#160;</td>
-          <td class="paramname"><em>affectedTextEnd</em>&#160;</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>insertIndex</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -182,7 +182,36 @@ Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Called by a <a class="el" href="classCodeDocument.html" title="A class for storing and manipulating a source code file.">CodeDocument</a> when it is altered. </p>
+<p>Called by a <a class="el" href="classCodeDocument.html" title="A class for storing and manipulating a source code file.">CodeDocument</a> when text is added. </p>
+
+</div>
+</div>
+<a class="anchor" id="a694f66b037c76039ac82dd39e67570b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classCodeDocument_1_1Listener.html#a694f66b037c76039ac82dd39e67570b8">CodeDocument::Listener::codeDocumentTextDeleted</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>startIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>endIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Called by a <a class="el" href="classCodeDocument.html" title="A class for storing and manipulating a source code file.">CodeDocument</a> when text is deleted. </p>
 
 </div>
 </div>

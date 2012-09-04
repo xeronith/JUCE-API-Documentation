@@ -35,6 +35,8 @@ var searchData=
   ['destchannelindex',['destChannelIndex',['../structAudioProcessorGraph_1_1Connection.html#a542e23f5e9b746d2b13485545cce791e',1,'AudioProcessorGraph::Connection']]],
   ['destnodeid',['destNodeId',['../structAudioProcessorGraph_1_1Connection.html#a7f1b8d717bcb7f30c1ebc45e553ba20a',1,'AudioProcessorGraph::Connection']]],
   ['devicemanager',['deviceManager',['../classAudioDeviceSelectorComponent.html#a1d55ccd0985a42f37b5683f609b65386',1,'AudioDeviceSelectorComponent']]],
+  ['dialogbackgroundcolour',['dialogBackgroundColour',['../structDialogWindow_1_1LaunchOptions.html#a301462bfb1591667490f392113225083',1,'DialogWindow::LaunchOptions']]],
+  ['dialogtitle',['dialogTitle',['../structDialogWindow_1_1LaunchOptions.html#ac9b19e68e10b4d64b2bb9c37b460afbf',1,'DialogWindow::LaunchOptions']]],
   ['dimgrey',['dimgrey',['../classColours.html#a737012c7670ba25ccc7bee5ba96c3d2b',1,'Colours']]],
   ['displays',['displays',['../classDesktop_1_1Displays.html#af3bca6783a93f00366a068ea04c661b4',1,'Desktop::Displays']]],
   ['dodgerblue',['dodgerblue',['../classColours.html#a1a07cae34389d93d4b3817a14ef6efda',1,'Colours']]],

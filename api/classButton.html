@@ -145,8 +145,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab1413e8056b7ad53f1ca1502e6c660ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">A button has an on/off state associated with it, and this changes that.  <a href="#ab1413e8056b7ad53f1ca1502e6c660ed"></a><br/></td></tr>
 <tr class="memitem:ae1723837340c174f0f212855d247b626"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#ae1723837340c174f0f212855d247b626">getToggleState</a> () const noexcept</td></tr>
 <tr class="memdesc:ae1723837340c174f0f212855d247b626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the button is 'on'.  <a href="#ae1723837340c174f0f212855d247b626"></a><br/></td></tr>
-<tr class="memitem:a30d3104699bb64de1b6c2b78d20158a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValue.html">Value</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a30d3104699bb64de1b6c2b78d20158a5">getToggleStateValue</a> ()</td></tr>
-<tr class="memdesc:a30d3104699bb64de1b6c2b78d20158a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classValue.html" title="Represents a shared variant value.">Value</a> object that represents the botton's toggle state.  <a href="#a30d3104699bb64de1b6c2b78d20158a5"></a><br/></td></tr>
+<tr class="memitem:a2a487362f5ea3691f7e38e1f2e064caf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValue.html">Value</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a2a487362f5ea3691f7e38e1f2e064caf">getToggleStateValue</a> () noexcept</td></tr>
+<tr class="memdesc:a2a487362f5ea3691f7e38e1f2e064caf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classValue.html" title="Represents a shared variant value.">Value</a> object that represents the botton's toggle state.  <a href="#a2a487362f5ea3691f7e38e1f2e064caf"></a><br/></td></tr>
 <tr class="memitem:ab27f9e7a7fb11f90f531778ce26d9842"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#ab27f9e7a7fb11f90f531778ce26d9842">setClickingTogglesState</a> (bool shouldToggle) noexcept</td></tr>
 <tr class="memdesc:ab27f9e7a7fb11f90f531778ce26d9842"><td class="mdescLeft">&#160;</td><td class="mdescRight">This tells the button to automatically flip the toggle state when the button is clicked.  <a href="#ab27f9e7a7fb11f90f531778ce26d9842"></a><br/></td></tr>
 <tr class="memitem:a8cf8327c247a9c1fa1c82c20ce69bded"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a8cf8327c247a9c1fa1c82c20ce69bded">getClickingTogglesState</a> () const noexcept</td></tr>
@@ -195,8 +195,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a802fe07b98ca56f1e2138f306c596aa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the button adjoins another one on its bottom edge.  <a href="#a802fe07b98ca56f1e2138f306c596aa6"></a><br/></td></tr>
 <tr class="memitem:aa53d62ecda7a4658968b41e3f6a57f2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#aa53d62ecda7a4658968b41e3f6a57f2a">setState</a> (const <a class="el" href="classButton.html#ad8312db93093c21df8b1d2be74ae1957">ButtonState</a> newState)</td></tr>
 <tr class="memdesc:aa53d62ecda7a4658968b41e3f6a57f2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be used to force the button into a particular state.  <a href="#aa53d62ecda7a4658968b41e3f6a57f2a"></a><br/></td></tr>
-<tr class="memitem:a4608a4116088533a72c0a9ae56f151ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a4608a4116088533a72c0a9ae56f151ca">JUCE_DEPRECATED</a> (void addButtonListener(<a class="el" href="classButton_1_1Listener.html">Listener</a> *))</td></tr>
-<tr class="memitem:a1e549fee63e10617d44c8fb17bd15166"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a1e549fee63e10617d44c8fb17bd15166">JUCE_DEPRECATED</a> (void removeButtonListener(<a class="el" href="classButton_1_1Listener.html">Listener</a> *))</td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a37f37f35bbcb27d88fc508be94dba87e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a37f37f35bbcb27d88fc508be94dba87e">Button</a> (const <a class="el" href="classString.html">String</a> &amp;buttonName)</td></tr>
@@ -209,7 +207,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:a42622e1dc165f718a9835c0ef94aacca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subclasses should override this to actually paint the button's contents.  <a href="#a42622e1dc165f718a9835c0ef94aacca"></a><br/></td></tr>
 <tr class="memitem:aa0e5a9bb6117baa8b6df29a47db861c5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#aa0e5a9bb6117baa8b6df29a47db861c5">buttonStateChanged</a> ()</td></tr>
 <tr class="memdesc:aa0e5a9bb6117baa8b6df29a47db861c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the button's up/down/over state changes.  <a href="#aa0e5a9bb6117baa8b6df29a47db861c5"></a><br/></td></tr>
-<tr class="memitem:aed53c392941728d6b4260db5e9271a19"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#aed53c392941728d6b4260db5e9271a19">internalClickCallback</a> (const <a class="el" href="classModifierKeys.html">ModifierKeys</a> &amp;modifiers)</td></tr>
+<tr class="memitem:aaee88dac6fc8ca689a0bd642d7b1489d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#aaee88dac6fc8ca689a0bd642d7b1489d">internalClickCallback</a> (const <a class="el" href="classModifierKeys.html">ModifierKeys</a> &amp;)</td></tr>
 <tr class="memitem:aae12ae7871c6ea88c0175fba8b529a3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#aae12ae7871c6ea88c0175fba8b529a3b">handleCommandMessage</a> (int commandId)</td></tr>
 <tr class="memitem:a4a07ef59b58090533833db50a649fa4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a4a07ef59b58090533833db50a649fa4f">mouseEnter</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;)</td></tr>
 <tr class="memitem:a196f0a247504184f8dc7b5a2760be089"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a196f0a247504184f8dc7b5a2760be089">mouseExit</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;)</td></tr>
@@ -404,7 +402,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Returns true if the mouse is currently over the button. </p>
-<p>This will be also be true if the mouse is being held down.</p>
+<p>This will be also be true if the mouse is being held down. </p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classButton.html#a88a0adf236ac93613a8b2b36d7a74f9d" title="Returns true if the button is currently being held down by the mouse.">isDown</a> </dd></dl>
 
 </div>
@@ -467,12 +465,12 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a30d3104699bb64de1b6c2b78d20158a5"></a>
+<a class="anchor" id="a2a487362f5ea3691f7e38e1f2e064caf"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classValue.html">Value</a>&amp; <a class="el" href="classButton.html#a30d3104699bb64de1b6c2b78d20158a5">Button::getToggleStateValue</a> </td>
+          <td class="memname"><a class="el" href="classValue.html">Value</a>&amp; <a class="el" href="classButton.html#a2a487362f5ea3691f7e38e1f2e064caf">Button::getToggleStateValue</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1012,40 +1010,6 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4608a4116088533a72c0a9ae56f151ca"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classButton.html#a4608a4116088533a72c0a9ae56f151ca">Button::JUCE_DEPRECATED</a> </td>
-          <td>(</td>
-          <td class="paramtype">void &#160;</td>
-          <td class="paramname"><em>addButtonListener</em>Listener *</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1e549fee63e10617d44c8fb17bd15166"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classButton.html#a4608a4116088533a72c0a9ae56f151ca">Button::JUCE_DEPRECATED</a> </td>
-          <td>(</td>
-          <td class="paramtype">void &#160;</td>
-          <td class="paramname"><em>removeButtonListener</em>Listener *</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a149ef29188b0519c3e39624c7b4d9400"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1134,7 +1098,7 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classToolbarItemComponent.html#a9133b9cad2374a608e50f345e6fceee7">ToolbarItemComponent</a>, <a class="el" href="classDrawableButton.html#a41b96d4fc2cd66b2325fa89310491a5a">DrawableButton</a>, <a class="el" href="classImageButton.html#aa52c5f0822b68a2e2d64053a169daa0a">ImageButton</a>, <a class="el" href="classTabBarButton.html#acf97c09fa38adda6abb12b4b27e2b520">TabBarButton</a>, <a class="el" href="classHyperlinkButton.html#a7eab0c8a05e56b8f2c078dc2b58a16d1">HyperlinkButton</a>, <a class="el" href="classTextButton.html#a782af0085adb8c87049dbd0c151623a0">TextButton</a>, <a class="el" href="classShapeButton.html#a5d0af67956b91469daca7833c7ad68b1">ShapeButton</a>, <a class="el" href="classToggleButton.html#a3109840657f440caf23945ba7f25b1f9">ToggleButton</a>, and <a class="el" href="classArrowButton.html#a1ab818a89d7b2913b6dd71ad699f7948">ArrowButton</a>.</p>
+<p>Implemented in <a class="el" href="classToolbarItemComponent.html#a9133b9cad2374a608e50f345e6fceee7">ToolbarItemComponent</a>, <a class="el" href="classDrawableButton.html#ae0ebdd60d48f8b407c2ec2c824a5a9f3">DrawableButton</a>, <a class="el" href="classImageButton.html#aa52c5f0822b68a2e2d64053a169daa0a">ImageButton</a>, <a class="el" href="classTabBarButton.html#acf97c09fa38adda6abb12b4b27e2b520">TabBarButton</a>, <a class="el" href="classHyperlinkButton.html#a7eab0c8a05e56b8f2c078dc2b58a16d1">HyperlinkButton</a>, <a class="el" href="classTextButton.html#a782af0085adb8c87049dbd0c151623a0">TextButton</a>, <a class="el" href="classShapeButton.html#a5d0af67956b91469daca7833c7ad68b1">ShapeButton</a>, <a class="el" href="classToggleButton.html#a3109840657f440caf23945ba7f25b1f9">ToggleButton</a>, and <a class="el" href="classArrowButton.html#a1ab818a89d7b2913b6dd71ad699f7948">ArrowButton</a>.</p>
 
 </div>
 </div>
@@ -1160,15 +1124,15 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aed53c392941728d6b4260db5e9271a19"></a>
+<a class="anchor" id="aaee88dac6fc8ca689a0bd642d7b1489d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void <a class="el" href="classButton.html#aed53c392941728d6b4260db5e9271a19">Button::internalClickCallback</a> </td>
+          <td class="memname">virtual void <a class="el" href="classButton.html#aaee88dac6fc8ca689a0bd642d7b1489d">Button::internalClickCallback</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classModifierKeys.html">ModifierKeys</a> &amp;&#160;</td>
-          <td class="paramname"><em>modifiers</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td><code> [protected, virtual]</code></td>
         </tr>
       </table>

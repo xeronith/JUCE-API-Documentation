@@ -13,6 +13,7 @@ var searchData=
   ['input',['input',['../classAudioFormatReader.html#a81797ede6915ec762408d8ed23ec4d10',1,'AudioFormatReader']]],
   ['inputchannels',['inputChannels',['../structAudioDeviceManager_1_1AudioDeviceSetup.html#a9365767334c0819bb45754100c743fae',1,'AudioDeviceManager::AudioDeviceSetup']]],
   ['inputdevicename',['inputDeviceName',['../structAudioDeviceManager_1_1AudioDeviceSetup.html#af1c134f5280bec722facace7c9fa0f1d',1,'AudioDeviceManager::AudioDeviceSetup']]],
+  ['insertedtext',['insertedText',['../structTextDiff_1_1Change.html#a6ddf900c18c62706054a85342c100f9a',1,'TextDiff::Change']]],
   ['insertkey',['insertKey',['../classKeyPress.html#af62c3ffd333fc440eca6596b56df48b8',1,'KeyPress']]],
   ['internal',['internal',['../classMidiInput.html#a2dafd2f0852e544ae9ea2f2a34c90762',1,'MidiInput::internal()'],['../classMidiOutput.html#a0910f2de4bc5576874b5c6716d336c86',1,'MidiOutput::internal()']]],
   ['invalid',['invalid',['../classValueTree.html#af49e8bf1c5072d0722dff9ef81b84f68',1,'ValueTree']]],

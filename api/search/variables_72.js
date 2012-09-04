@@ -5,6 +5,7 @@ var searchData=
   ['range',['range',['../classAttributedString_1_1Attribute.html#aadd39f43e26b6c0a36dca6bf36537818',1,'AttributedString::Attribute']]],
   ['red',['red',['../classColours.html#a5056e7857f2bc211569dfc89512244dd',1,'Colours']]],
   ['redbits',['redBits',['../classOpenGLPixelFormat.html#ae35395197ac66ebfed1a94d1748a20b8',1,'OpenGLPixelFormat']]],
+  ['resizable',['resizable',['../structDialogWindow_1_1LaunchOptions.html#a07bc81d41581d3d5bc1d05be03a5b4b6',1,'DialogWindow::LaunchOptions']]],
   ['resizableborder',['resizableBorder',['../classResizableWindow.html#a4d0b53ec83fe41125b1223bb92171543',1,'ResizableWindow']]],
   ['resizablecorner',['resizableCorner',['../classResizableWindow.html#a99d4f438dba8740a09fbeb832450013f',1,'ResizableWindow']]],
   ['returnkey',['returnKey',['../classKeyPress.html#a1cfe46412c3af08250ddc14bfaef1205',1,'KeyPress']]],

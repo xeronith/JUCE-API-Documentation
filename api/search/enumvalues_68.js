@@ -9,7 +9,7 @@ var searchData=
   ['highpriority',['HighPriority',['../classProcess.html#ad7b18ceb7a8c0a2b6b71856894feb6efaa72f09a6d0e30d394c6fe7095372a711',1,'Process']]],
   ['highresamplingquality',['highResamplingQuality',['../classGraphics.html#a5da218e649d1b5ac3d67443ae77caf87ae3c4b3cdf28f0aefc035977522675e8e',1,'Graphics']]],
   ['horizontalkeyboard',['horizontalKeyboard',['../classMidiKeyboardComponent.html#a6f6844672df93f8f631fa7e22cf0cdafa0b62143bbab080673411400a14d6abd0',1,'MidiKeyboardComponent']]],
-  ['horizontallycentred',['horizontallyCentred',['../classJustification.html#a2e0d86f7f4f1a05b0581af05d70e84bdac9fd148cf8547fab0e3aeee306223ab2',1,'Justification']]],
-  ['horizontallyjustified',['horizontallyJustified',['../classJustification.html#a2e0d86f7f4f1a05b0581af05d70e84bda0881c08fa2d58e9d6f36ab8bbea4b800',1,'Justification']]],
+  ['horizontallycentred',['horizontallyCentred',['../classJustification.html#a1f8c07756c56fe8f31ed44964e51bfbcac9fd148cf8547fab0e3aeee306223ab2',1,'Justification']]],
+  ['horizontallyjustified',['horizontallyJustified',['../classJustification.html#a1f8c07756c56fe8f31ed44964e51bfbca0881c08fa2d58e9d6f36ab8bbea4b800',1,'Justification']]],
   ['hostapplicationpath',['hostApplicationPath',['../classFile.html#a3e19cafabb03c5838160263a6e76313dafab1d75c642d3f8eb23564f1cfb408a3',1,'File']]]
 ];

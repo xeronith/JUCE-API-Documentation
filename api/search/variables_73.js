@@ -27,6 +27,7 @@ var searchData=
   ['sourcenodeid',['sourceNodeId',['../structAudioProcessorGraph_1_1Connection.html#aeffe3c3426cd49761f8dbf0e01b8be97',1,'AudioProcessorGraph::Connection']]],
   ['spacekey',['spaceKey',['../classKeyPress.html#a60f802af5aff465d7ff910009608e343',1,'KeyPress']]],
   ['springgreen',['springgreen',['../classColours.html#a3e179fc221c9922880646454e451562b',1,'Colours']]],
+  ['start',['start',['../structTextDiff_1_1Change.html#ac72e9e25d35530fac7837a2d22c31958',1,'TextDiff::Change']]],
   ['startpos',['startPos',['../classRelativePointPath_1_1StartSubPath.html#afcaa4975b6ef2fcc78e99b873a38d2d2',1,'RelativePointPath::StartSubPath']]],
   ['startsample',['startSample',['../structAudioSourceChannelInfo.html#a42e88ccc05d4893015e2415785390259',1,'AudioSourceChannelInfo']]],
   ['startsubpathelement',['startSubPathElement',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html#a2b07436db001bf677a70b81eae3311ae',1,'DrawablePath::ValueTreeWrapper::Element']]],

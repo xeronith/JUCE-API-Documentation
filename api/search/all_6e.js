@@ -18,7 +18,7 @@ var searchData=
   ['newtransaction',['newTransaction',['../classTextEditor.html#ac1cdc461e88ca484f3528d74a7e1d27c',1,'TextEditor::newTransaction()'],['../classCodeDocument.html#a507bca2d6747323276b938670584f354',1,'CodeDocument::newTransaction()']]],
   ['next',['next',['../classHashMap_1_1Iterator.html#a926563d924a70859451fb30256d2d75c',1,'HashMap::Iterator::next()'],['../classDirectoryIterator.html#a4d38dc126a3b4855dbbef96d8b31ae76',1,'DirectoryIterator::next()'],['../classDirectoryIterator.html#a544868520b233c98d4ecc8322aec8333',1,'DirectoryIterator::next(bool *isDirectory, bool *isHidden, int64 *fileSize, Time *modTime, Time *creationTime, bool *isReadOnly)'],['../classListenerList_1_1Iterator.html#a9791ff087b9d8f7978fd9e3a68d713b6',1,'ListenerList::Iterator::next() noexcept'],['../classListenerList_1_1Iterator.html#ae1c1247ae0215416f493b46f4a386eb9',1,'ListenerList::Iterator::next(const BailOutCheckerType &amp;bailOutChecker) noexcept'],['../classPath_1_1Iterator.html#a1100558e4ab2610789a95606a116fbbc',1,'Path::Iterator::next()'],['../classPathFlatteningIterator.html#a39a62cacf05fae6d38a0df4f250e5538',1,'PathFlatteningIterator::next()'],['../classRectangleList_1_1Iterator.html#a0e1ee3741ed6b633f02d4abdee4a7654',1,'RectangleList::Iterator::next()'],['../classPopupMenu_1_1MenuItemIterator.html#abac12feb2943d217501fc92d4a6009a4',1,'PopupMenu::MenuItemIterator::next()']]],
   ['nextbool',['nextBool',['../classRandom.html#aa360f04c653725ec92b3173af338ed37',1,'Random']]],
-  ['nextchar',['nextChar',['../classCodeDocument_1_1Iterator.html#a21dd834cc9809e8c64c1d351fd956735',1,'CodeDocument::Iterator']]],
+  ['nextchar',['nextChar',['../classCodeDocument_1_1Iterator.html#a21dd834cc9809e8c64c1d351fd956735',1,'CodeDocument::Iterator::nextChar()'],['../structCppTokeniserFunctions_1_1StringIterator.html#ad59265b3d4b07ab77064446c23afa127',1,'CppTokeniserFunctions::StringIterator::nextChar()']]],
   ['nextdouble',['nextDouble',['../classRandom.html#a764eba8fe3386554268f395ff1c4e7ea',1,'Random']]],
   ['nextfloat',['nextFloat',['../classRandom.html#aec88d4e5cf44faaa038f6cfb41e96406',1,'Random']]],
   ['nextint',['nextInt',['../classRandom.html#a69dd2014564478eb13ca41c03679c8f9',1,'Random::nextInt() noexcept'],['../classRandom.html#a6ba948a9d1935253f9770d848f57412f',1,'Random::nextInt(int maxValue) noexcept']]],
@@ -70,8 +70,10 @@ var searchData=
   ['numberpadseparator',['numberPadSeparator',['../classKeyPress.html#a53df5e582959f3ae2e3c75f383f251e1',1,'KeyPress']]],
   ['numberpadsubtract',['numberPadSubtract',['../classKeyPress.html#a3587df27be497fb3d805dc6ac8eadc5b',1,'KeyPress']]],
   ['numchannels',['numChannels',['../classAudioFormatReader.html#a2a7c577b4ececb03d3658fd0625c5b70',1,'AudioFormatReader::numChannels()'],['../classAudioFormatWriter.html#af33e6836e6dbbcd774ac166453c5446c',1,'AudioFormatWriter::numChannels()']]],
+  ['numchars',['numChars',['../structCppTokeniserFunctions_1_1StringIterator.html#a87c5f347ec1afcfa2594b15892002c99',1,'CppTokeniserFunctions::StringIterator']]],
   ['numelementsinarray',['numElementsInArray',['../juce__MathsFunctions_8h.html#a53205e331c49a67a9a7af0710d44d65e',1,'juce_MathsFunctions.h']]],
   ['numinputchannels',['numInputChannels',['../classPluginDescription.html#aae10fb65ec4fcbfcf35aed5d46b98932',1,'PluginDescription']]],
   ['numoutputchannels',['numOutputChannels',['../classPluginDescription.html#a3b04bfe9e7ede6557b7de388c70a8888',1,'PluginDescription']]],
-  ['numsamples',['numSamples',['../structAudioSourceChannelInfo.html#a6669c809cf3b47afa94af63d4fa48101',1,'AudioSourceChannelInfo']]]
+  ['numsamples',['numSamples',['../structAudioSourceChannelInfo.html#a6669c809cf3b47afa94af63d4fa48101',1,'AudioSourceChannelInfo']]],
+  ['numstandardcursortypes',['NumStandardCursorTypes',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97a48398e8dcad5bee53f6319d3f9b7f012',1,'MouseCursor']]]
 ];

@@ -808,6 +808,13 @@
     <class kind="class">CPlusPlusCodeTokeniser</class>
   </compound>
   <compound kind="file">
+    <name>juce_CPlusPlusCodeTokeniserFunctions.h</name>
+    <path>/Volumes/CODE/code/juce/modules/juce_gui_extra/code_editor/</path>
+    <filename>juce__CPlusPlusCodeTokeniserFunctions_8h</filename>
+    <class kind="struct">CppTokeniserFunctions</class>
+    <class kind="struct">CppTokeniserFunctions::StringIterator</class>
+  </compound>
+  <compound kind="file">
     <name>juce_CriticalSection.h</name>
     <path>/Volumes/CODE/code/juce/modules/juce_core/threads/</path>
     <filename>juce__CriticalSection_8h</filename>
@@ -868,6 +875,7 @@
     <path>/Volumes/CODE/code/juce/modules/juce_gui_basics/windows/</path>
     <filename>juce__DialogWindow_8h</filename>
     <class kind="class">DialogWindow</class>
+    <class kind="struct">DialogWindow::LaunchOptions</class>
   </compound>
   <compound kind="file">
     <name>juce_DirectoryContentsDisplayComponent.h</name>
@@ -4251,6 +4259,13 @@
     <class kind="class">TextButton</class>
   </compound>
   <compound kind="file">
+    <name>juce_TextDiff.h</name>
+    <path>/Volumes/CODE/code/juce/modules/juce_core/text/</path>
+    <filename>juce__TextDiff_8h</filename>
+    <class kind="class">TextDiff</class>
+    <class kind="struct">TextDiff::Change</class>
+  </compound>
+  <compound kind="file">
     <name>juce_TextDragAndDropTarget.h</name>
     <path>/Volumes/CODE/code/juce/modules/juce_gui_basics/mouse/</path>
     <filename>juce__TextDragAndDropTarget_8h</filename>
@@ -6967,6 +6982,13 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>append</name>
+      <anchorfile>classAttributedString.html</anchorfile>
+      <anchor>acc8257dab05c592118659e1a80594338</anchor>
+      <arglist>(const AttributedString &amp;other)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>clear</name>
       <anchorfile>classAttributedString.html</anchorfile>
       <anchor>aff77725b28cb06f1ddb0b3b38ad7c076</anchor>
@@ -9303,6 +9325,13 @@
       <name>timeSigDenominator</name>
       <anchorfile>structAudioPlayHead_1_1CurrentPositionInfo.html</anchorfile>
       <anchor>a953c3ad29ef6e0ced883e15f901b0a15</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>int64</type>
+      <name>timeInSamples</name>
+      <anchorfile>structAudioPlayHead_1_1CurrentPositionInfo.html</anchorfile>
+      <anchor>a6cc14e975100cd474bc37971a6b9e460</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -12842,8 +12871,8 @@
       <type>Value &amp;</type>
       <name>getToggleStateValue</name>
       <anchorfile>classButton.html</anchorfile>
-      <anchor>a30d3104699bb64de1b6c2b78d20158a5</anchor>
-      <arglist>()</arglist>
+      <anchor>a2a487362f5ea3691f7e38e1f2e064caf</anchor>
+      <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -13013,20 +13042,6 @@
       <anchor>aa53d62ecda7a4658968b41e3f6a57f2a</anchor>
       <arglist>(const ButtonState newState)</arglist>
     </member>
-    <member kind="function">
-      <type></type>
-      <name>JUCE_DEPRECATED</name>
-      <anchorfile>classButton.html</anchorfile>
-      <anchor>a4608a4116088533a72c0a9ae56f151ca</anchor>
-      <arglist>(void addButtonListener(Listener *))</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>JUCE_DEPRECATED</name>
-      <anchorfile>classButton.html</anchorfile>
-      <anchor>a1e549fee63e10617d44c8fb17bd15166</anchor>
-      <arglist>(void removeButtonListener(Listener *))</arglist>
-    </member>
     <member kind="function" protection="protected">
       <type></type>
       <name>Button</name>
@@ -13066,8 +13081,8 @@
       <type>virtual void</type>
       <name>internalClickCallback</name>
       <anchorfile>classButton.html</anchorfile>
-      <anchor>aed53c392941728d6b4260db5e9271a19</anchor>
-      <arglist>(const ModifierKeys &amp;modifiers)</arglist>
+      <anchor>aaee88dac6fc8ca689a0bd642d7b1489d</anchor>
+      <arglist>(const ModifierKeys &amp;)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
@@ -13478,8 +13493,8 @@
       <type></type>
       <name>CallOutBox</name>
       <anchorfile>classCallOutBox.html</anchorfile>
-      <anchor>a3be6d06c04eb0a820b239c83c34a97c0</anchor>
-      <arglist>(Component &amp;contentComponent, Component &amp;componentToPointTo, Component *parentComponent)</arglist>
+      <anchor>adc9b58efa3aab3fa31964fad95b08c23</anchor>
+      <arglist>(Component &amp;contentComponent, const Rectangle&lt; int &gt; &amp;areaToPointTo, Component *parentComponent)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -13559,11 +13574,11 @@
       <arglist>(int commandId)</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static void</type>
+      <type>static CallOutBox &amp;</type>
       <name>launchAsynchronously</name>
       <anchorfile>classCallOutBox.html</anchorfile>
-      <anchor>a478bba74c26f2f875227a0e3bba1036f</anchor>
-      <arglist>(Component &amp;componentToPointTo, Component *contentComponent, Component *parentComponent)</arglist>
+      <anchor>a55dd3c214fc70d1ee94a3e501b85e02d</anchor>
+      <arglist>(Component *contentComponent, const Rectangle&lt; int &gt; &amp;areaToPointTo, Component *parentComponent)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -16059,6 +16074,13 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>deleteSection</name>
+      <anchorfile>classCodeDocument.html</anchorfile>
+      <anchor>a7ecc088f32162bb34897d3cbfe653b8f</anchor>
+      <arglist>(int startIndex, int endIndex)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>insertText</name>
       <anchorfile>classCodeDocument.html</anchorfile>
       <anchor>a52039d2d208e30688478dbe2f31640e4</anchor>
@@ -16066,9 +16088,30 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>insertText</name>
+      <anchorfile>classCodeDocument.html</anchorfile>
+      <anchor>affb956a29f9708767046bdfbdde99077</anchor>
+      <arglist>(int insertIndex, const String &amp;text)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>replaceSection</name>
+      <anchorfile>classCodeDocument.html</anchorfile>
+      <anchor>ae6ec45481f08161ffcb222eafba21c32</anchor>
+      <arglist>(int startIndex, int endIndex, const String &amp;newText)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>replaceAllContent</name>
       <anchorfile>classCodeDocument.html</anchorfile>
       <anchor>a621939da95a3a245a9474c003b59f65e</anchor>
+      <arglist>(const String &amp;newContent)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>applyChanges</name>
+      <anchorfile>classCodeDocument.html</anchorfile>
+      <anchor>a6ce285d0b51126f464791407ea9b3e60</anchor>
       <arglist>(const String &amp;newContent)</arglist>
     </member>
     <member kind="function">
@@ -16149,18 +16192,32 @@
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
-      <type>const Position</type>
+      <type>Position</type>
       <name>findWordBreakAfter</name>
       <anchorfile>classCodeDocument.html</anchorfile>
-      <anchor>a0045b9d756666e02c7b290576444c2c6</anchor>
+      <anchor>a26c7afab579aea79440f02ba126ed2eb</anchor>
       <arglist>(const Position &amp;position) const noexcept</arglist>
     </member>
     <member kind="function">
-      <type>const Position</type>
+      <type>Position</type>
       <name>findWordBreakBefore</name>
       <anchorfile>classCodeDocument.html</anchorfile>
-      <anchor>a437ab93e6d2a23a08f8222043d05442e</anchor>
+      <anchor>aa86e626eb2e919c675afa2317d4aada2</anchor>
       <arglist>(const Position &amp;position) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>findTokenContaining</name>
+      <anchorfile>classCodeDocument.html</anchorfile>
+      <anchor>a8506a8a409cc12de12ce7734b1e66ff4</anchor>
+      <arglist>(const Position &amp;pos, Position &amp;start, Position &amp;end) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>findLineContaining</name>
+      <anchorfile>classCodeDocument.html</anchorfile>
+      <anchor>a33c6c59951845799410ce84fd41abf06</anchor>
+      <arglist>(const Position &amp;pos, Position &amp;start, Position &amp;end) const noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -16284,10 +16341,17 @@
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual void</type>
-      <name>codeDocumentChanged</name>
+      <name>codeDocumentTextInserted</name>
       <anchorfile>classCodeDocument_1_1Listener.html</anchorfile>
-      <anchor>aa97b98fcfa06712471b0724d2c20c11c</anchor>
-      <arglist>(const Position &amp;affectedTextStart, const Position &amp;affectedTextEnd)=0</arglist>
+      <anchor>a145cb6afbd34c2d85c179dad9b35cf92</anchor>
+      <arglist>(const String &amp;newText, int insertIndex)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>codeDocumentTextDeleted</name>
+      <anchorfile>classCodeDocument_1_1Listener.html</anchorfile>
+      <anchor>a694f66b037c76039ac82dd39e67570b8</anchor>
+      <arglist>(int startIndex, int endIndex)=0</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -16432,10 +16496,6 @@
     <filename>classCodeEditorComponent.html</filename>
     <base>Component</base>
     <base>TextInputTarget</base>
-    <base protection="private">Timer</base>
-    <base protection="private">ScrollBar::Listener</base>
-    <base protection="private">CodeDocument::Listener</base>
-    <base protection="private">AsyncUpdater</base>
     <class kind="struct">CodeEditorComponent::ColourScheme</class>
     <class kind="struct">CodeEditorComponent::State</class>
     <member kind="enumeration">
@@ -16720,6 +16780,13 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
+      <type>void</type>
+      <name>selectRegion</name>
+      <anchorfile>classCodeEditorComponent.html</anchorfile>
+      <anchor>aae1302c724b2ac3e0c5fa4df6a3144f8</anchor>
+      <arglist>(const CodeDocument::Position &amp;start, const CodeDocument::Position &amp;end)</arglist>
+    </member>
+    <member kind="function">
       <type>bool</type>
       <name>selectAll</name>
       <anchorfile>classCodeEditorComponent.html</anchorfile>
@@ -16795,6 +16862,13 @@
       <anchorfile>classCodeEditorComponent.html</anchorfile>
       <anchor>ad3b3054c274533d3517f9d8772c8a965</anchor>
       <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isHighlightActive</name>
+      <anchorfile>classCodeEditorComponent.html</anchorfile>
+      <anchor>a7f1f3b2a0cb4ac22634bf2740364b0b7</anchor>
+      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -21945,6 +22019,78 @@
     <name>CPlusPlusCodeTokeniser</name>
     <filename>classCPlusPlusCodeTokeniser.html</filename>
     <base>CodeTokeniser</base>
+    <member kind="enumeration">
+      <name>TokenType</name>
+      <anchorfile>classCPlusPlusCodeTokeniser.html</anchorfile>
+      <anchor>a757e9a2599a0e15b536754f99aeb0257</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>tokenType_error</name>
+      <anchorfile>classCPlusPlusCodeTokeniser.html</anchorfile>
+      <anchor>a757e9a2599a0e15b536754f99aeb0257a96ec7cd93a85eb494ff478b2531ca6dc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>tokenType_comment</name>
+      <anchorfile>classCPlusPlusCodeTokeniser.html</anchorfile>
+      <anchor>a757e9a2599a0e15b536754f99aeb0257a7052a5bb03e836c04d591110776f201e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>tokenType_keyword</name>
+      <anchorfile>classCPlusPlusCodeTokeniser.html</anchorfile>
+      <anchor>a757e9a2599a0e15b536754f99aeb0257a07505083d25d615f0147afdebc315523</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>tokenType_operator</name>
+      <anchorfile>classCPlusPlusCodeTokeniser.html</anchorfile>
+      <anchor>a757e9a2599a0e15b536754f99aeb0257a539da9fffe49f181c22173b47d57fdb2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>tokenType_identifier</name>
+      <anchorfile>classCPlusPlusCodeTokeniser.html</anchorfile>
+      <anchor>a757e9a2599a0e15b536754f99aeb0257a34e6424d83c728aabcae3b322c236b52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>tokenType_integer</name>
+      <anchorfile>classCPlusPlusCodeTokeniser.html</anchorfile>
+      <anchor>a757e9a2599a0e15b536754f99aeb0257a2e52758c8cb50924da51149bc5b4c755</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>tokenType_float</name>
+      <anchorfile>classCPlusPlusCodeTokeniser.html</anchorfile>
+      <anchor>a757e9a2599a0e15b536754f99aeb0257a1998f95edfbf5e071de632e2e2b26994</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>tokenType_string</name>
+      <anchorfile>classCPlusPlusCodeTokeniser.html</anchorfile>
+      <anchor>a757e9a2599a0e15b536754f99aeb0257aa21476a798b64fd4fef6961e258df548</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>tokenType_bracket</name>
+      <anchorfile>classCPlusPlusCodeTokeniser.html</anchorfile>
+      <anchor>a757e9a2599a0e15b536754f99aeb0257a290668e5b4167e765b849c977c697384</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>tokenType_punctuation</name>
+      <anchorfile>classCPlusPlusCodeTokeniser.html</anchorfile>
+      <anchor>a757e9a2599a0e15b536754f99aeb0257aa2ac45a2c81f2d202df78cb9ab01c311</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>tokenType_preprocessor</name>
+      <anchorfile>classCPlusPlusCodeTokeniser.html</anchorfile>
+      <anchor>a757e9a2599a0e15b536754f99aeb0257a0f86221be32d125f9827b9439c545702</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type></type>
       <name>CPlusPlusCodeTokeniser</name>
@@ -21979,6 +22125,218 @@
       <anchorfile>classCPlusPlusCodeTokeniser.html</anchorfile>
       <anchor>aaeae35807604c0f8941f4ed821e07642</anchor>
       <arglist>(const String &amp;token) noexcept</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>CppTokeniserFunctions</name>
+    <filename>structCppTokeniserFunctions.html</filename>
+    <class kind="struct">CppTokeniserFunctions::StringIterator</class>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isIdentifierStart</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>a13364f0e29c090497fa4b9971c55ed09</anchor>
+      <arglist>(const juce_wchar c) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isIdentifierBody</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>a9a1c08ad4564d75d4226a8df6abd5500</anchor>
+      <arglist>(const juce_wchar c) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isReservedKeyword</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>aa3b33648bc0a23789c3e53221cfb09d7</anchor>
+      <arglist>(String::CharPointerType token, const int tokenLength) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>parseIdentifier</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>aea69e827e335f754cb4e9c9c46a07ac5</anchor>
+      <arglist>(Iterator &amp;source) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>skipNumberSuffix</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>abd84f7c1b1b5df145e88819cf0ccd0d0</anchor>
+      <arglist>(Iterator &amp;source)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isHexDigit</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>acc6491811e5ae41ee52840b0d6576b1d</anchor>
+      <arglist>(const juce_wchar c) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>parseHexLiteral</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>adba962733aa284e276817e8e0bd4c30a</anchor>
+      <arglist>(Iterator &amp;source) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isOctalDigit</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>a3fea938ab1c80d3dae78df5e95dcb42b</anchor>
+      <arglist>(const juce_wchar c) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>parseOctalLiteral</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>af3b1bfdb9719b6547c92d40e28f7ee1d</anchor>
+      <arglist>(Iterator &amp;source) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>isDecimalDigit</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>ae9b9ca8de1201e8e9c96d37a93879f79</anchor>
+      <arglist>(const juce_wchar c) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>parseDecimalLiteral</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>aac227ebdba41534a0bba3b399d1d542d</anchor>
+      <arglist>(Iterator &amp;source) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>parseFloatLiteral</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>a5915487dcb8ba2aa54ac733299cc732d</anchor>
+      <arglist>(Iterator &amp;source) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>parseNumber</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>aa7d38384c966aae354723f534dae49d6</anchor>
+      <arglist>(Iterator &amp;source)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>skipQuotedString</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>a8c64db97036cde3a9774945c39361ea5</anchor>
+      <arglist>(Iterator &amp;source) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>skipComment</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>acc20b010695f2ea7cba36da65c606219</anchor>
+      <arglist>(Iterator &amp;source) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>skipPreprocessorLine</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>a905f50dc9cdd44e54772c3ab69538338</anchor>
+      <arglist>(Iterator &amp;source) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>skipIfNextCharMatches</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>a537b688c16a211d4826bcccf338aad79</anchor>
+      <arglist>(Iterator &amp;source, const juce_wchar c) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>skipIfNextCharMatches</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>a6a7fb9d8843cda49644b5c9c0e7ea352</anchor>
+      <arglist>(Iterator &amp;source, const juce_wchar c1, const juce_wchar c2) noexcept</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>readNextToken</name>
+      <anchorfile>structCppTokeniserFunctions.html</anchorfile>
+      <anchor>a0052d25ba400cf3e01f5f5bc95e03ce4</anchor>
+      <arglist>(Iterator &amp;source)</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>CppTokeniserFunctions::StringIterator</name>
+    <filename>structCppTokeniserFunctions_1_1StringIterator.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>StringIterator</name>
+      <anchorfile>structCppTokeniserFunctions_1_1StringIterator.html</anchorfile>
+      <anchor>a089130ee2986c1244d60db647c46e8a8</anchor>
+      <arglist>(const String &amp;s) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>StringIterator</name>
+      <anchorfile>structCppTokeniserFunctions_1_1StringIterator.html</anchorfile>
+      <anchor>a6d5eb0e4b978ab1f4021132670359871</anchor>
+      <arglist>(const String::CharPointerType &amp;s) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>nextChar</name>
+      <anchorfile>structCppTokeniserFunctions_1_1StringIterator.html</anchorfile>
+      <anchor>ad59265b3d4b07ab77064446c23afa127</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>juce_wchar</type>
+      <name>peekNextChar</name>
+      <anchorfile>structCppTokeniserFunctions_1_1StringIterator.html</anchorfile>
+      <anchor>a9e2e1628f424c225d6a6af64d10b8b47</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>skip</name>
+      <anchorfile>structCppTokeniserFunctions_1_1StringIterator.html</anchorfile>
+      <anchor>a6f0be3a6790cd989e58773263851b68c</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>skipWhitespace</name>
+      <anchorfile>structCppTokeniserFunctions_1_1StringIterator.html</anchorfile>
+      <anchor>a595bfe927e3e8a2f50adc510c7eee7f3</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>skipToEndOfLine</name>
+      <anchorfile>structCppTokeniserFunctions_1_1StringIterator.html</anchorfile>
+      <anchor>a859ddc9ab65b8a98c86a2c3074415085</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isEOF</name>
+      <anchorfile>structCppTokeniserFunctions_1_1StringIterator.html</anchorfile>
+      <anchor>aaf1d54f7436605fc2869ffa53a467ec2</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="variable">
+      <type>String::CharPointerType</type>
+      <name>t</name>
+      <anchorfile>structCppTokeniserFunctions_1_1StringIterator.html</anchorfile>
+      <anchor>a720692c1a876c915654d05df723fe77e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>numChars</name>
+      <anchorfile>structCppTokeniserFunctions_1_1StringIterator.html</anchorfile>
+      <anchor>a87c5f347ec1afcfa2594b15892002c99</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -22698,6 +23056,7 @@
     <name>DialogWindow</name>
     <filename>classDialogWindow.html</filename>
     <base>DocumentWindow</base>
+    <class kind="struct">DialogWindow::LaunchOptions</class>
     <member kind="function">
       <type></type>
       <name>DialogWindow</name>
@@ -22732,6 +23091,94 @@
       <anchorfile>classDialogWindow.html</anchorfile>
       <anchor>ad898e97178b1df5687f01d51655f5aa3</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>bool</type>
+      <name>keyPressed</name>
+      <anchorfile>classDialogWindow.html</anchorfile>
+      <anchor>a9884e52f6b46ba573ea5a83be8ecc7ea</anchor>
+      <arglist>(const KeyPress &amp;)</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>DialogWindow::LaunchOptions</name>
+    <filename>structDialogWindow_1_1LaunchOptions.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>LaunchOptions</name>
+      <anchorfile>structDialogWindow_1_1LaunchOptions.html</anchorfile>
+      <anchor>a801f59545b377317060adddc492ba4bf</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>DialogWindow *</type>
+      <name>launchAsync</name>
+      <anchorfile>structDialogWindow_1_1LaunchOptions.html</anchorfile>
+      <anchor>ade02f0c6ea259f9a37ab15474159ca11</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>runModal</name>
+      <anchorfile>structDialogWindow_1_1LaunchOptions.html</anchorfile>
+      <anchor>a22a6deb2f2f4b87a0190fdc4a0025d82</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <type>String</type>
+      <name>dialogTitle</name>
+      <anchorfile>structDialogWindow_1_1LaunchOptions.html</anchorfile>
+      <anchor>ac9b19e68e10b4d64b2bb9c37b460afbf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Colour</type>
+      <name>dialogBackgroundColour</name>
+      <anchorfile>structDialogWindow_1_1LaunchOptions.html</anchorfile>
+      <anchor>a301462bfb1591667490f392113225083</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>OptionalScopedPointer&lt; Component &gt;</type>
+      <name>content</name>
+      <anchorfile>structDialogWindow_1_1LaunchOptions.html</anchorfile>
+      <anchor>afb8d6fb02aec1a20e787de456556067a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Component *</type>
+      <name>componentToCentreAround</name>
+      <anchorfile>structDialogWindow_1_1LaunchOptions.html</anchorfile>
+      <anchor>a42f82232312ecb770ab5bf9fa03936a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>escapeKeyTriggersCloseButton</name>
+      <anchorfile>structDialogWindow_1_1LaunchOptions.html</anchorfile>
+      <anchor>a65c71187b9ebcfa96056aa1bbc77534a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>useNativeTitleBar</name>
+      <anchorfile>structDialogWindow_1_1LaunchOptions.html</anchorfile>
+      <anchor>a8a67e5ca3f075102c1dc40aee20856b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>resizable</name>
+      <anchorfile>structDialogWindow_1_1LaunchOptions.html</anchorfile>
+      <anchor>a07bc81d41581d3d5bc1d05be03a5b4b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>useBottomRightCornerResizer</name>
+      <anchorfile>structDialogWindow_1_1LaunchOptions.html</anchorfile>
+      <anchor>af76a62b12b7dd7e42d6e8374462b5906</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -23879,6 +24326,18 @@
       <anchor>a469961782a284aae38a2234a7f3fd37fabc6adc2de607e8eae04f999765ecf4ac</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>backgroundColourId</name>
+      <anchorfile>classDrawableButton.html</anchorfile>
+      <anchor>a469961782a284aae38a2234a7f3fd37fa353e16cf4710b875cb88b374776e00d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>backgroundOnColourId</name>
+      <anchorfile>classDrawableButton.html</anchorfile>
+      <anchor>a469961782a284aae38a2234a7f3fd37fae1fbb02269d41c17e9a503a5b09e5d3c</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type></type>
       <name>DrawableButton</name>
@@ -23906,20 +24365,6 @@
       <anchorfile>classDrawableButton.html</anchorfile>
       <anchor>a5858b272f7062972f23eecfa4bb39362</anchor>
       <arglist>(ButtonStyle newStyle)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>setBackgroundColours</name>
-      <anchorfile>classDrawableButton.html</anchorfile>
-      <anchor>ab4f4cfb653551478adf5a57aa327a1aa</anchor>
-      <arglist>(const Colour &amp;toggledOffColour, const Colour &amp;toggledOnColour)</arglist>
-    </member>
-    <member kind="function">
-      <type>const Colour &amp;</type>
-      <name>getBackgroundColour</name>
-      <anchorfile>classDrawableButton.html</anchorfile>
-      <anchor>a9a776a06325e64e710c08f83bb37df0a</anchor>
-      <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -23956,32 +24401,39 @@
       <anchor>a36fcdc9874414f34b173a2421a75c971</anchor>
       <arglist>() const noexcept</arglist>
     </member>
-    <member kind="function" protection="protected">
+    <member kind="function">
       <type>void</type>
       <name>paintButton</name>
       <anchorfile>classDrawableButton.html</anchorfile>
-      <anchor>a41b96d4fc2cd66b2325fa89310491a5a</anchor>
-      <arglist>(Graphics &amp;g, bool isMouseOverButton, bool isButtonDown)</arglist>
+      <anchor>ae0ebdd60d48f8b407c2ec2c824a5a9f3</anchor>
+      <arglist>(Graphics &amp;, bool isMouseOverButton, bool isButtonDown)</arglist>
     </member>
-    <member kind="function" protection="protected">
+    <member kind="function">
       <type>void</type>
       <name>buttonStateChanged</name>
       <anchorfile>classDrawableButton.html</anchorfile>
       <anchor>ac7e055f7fcb1b2b75c08988a8578a243</anchor>
       <arglist>()</arglist>
     </member>
-    <member kind="function" protection="protected">
+    <member kind="function">
       <type>void</type>
       <name>resized</name>
       <anchorfile>classDrawableButton.html</anchorfile>
       <anchor>af5e967b4d5866b6163f5bf3d01eb6fc0</anchor>
       <arglist>()</arglist>
     </member>
-    <member kind="function" protection="protected">
+    <member kind="function">
       <type>void</type>
       <name>enablementChanged</name>
       <anchorfile>classDrawableButton.html</anchorfile>
       <anchor>abcfe109859c5f919c62af20da3ed15cd</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>colourChanged</name>
+      <anchorfile>classDrawableButton.html</anchorfile>
+      <anchor>a7e389ea46219c2516b0d47bbae8ee753</anchor>
       <arglist>()</arglist>
     </member>
   </compound>
@@ -33074,108 +33526,114 @@
   <compound kind="class">
     <name>Justification</name>
     <filename>classJustification.html</filename>
+    <member kind="enumeration">
+      <name>Flags</name>
+      <anchorfile>classJustification.html</anchorfile>
+      <anchor>a1f8c07756c56fe8f31ed44964e51bfbc</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumvalue">
       <name>left</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda56156bb2892e32febf8011af9c5da653</anchor>
+      <anchor>a1f8c07756c56fe8f31ed44964e51bfbca56156bb2892e32febf8011af9c5da653</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>right</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda92d0fe0a466b35d67e1b7b91f971d7bb</anchor>
+      <anchor>a1f8c07756c56fe8f31ed44964e51bfbca92d0fe0a466b35d67e1b7b91f971d7bb</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>horizontallyCentred</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bdac9fd148cf8547fab0e3aeee306223ab2</anchor>
+      <anchor>a1f8c07756c56fe8f31ed44964e51bfbcac9fd148cf8547fab0e3aeee306223ab2</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>top</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bdaba34337f0f6a8cfcaf472a72f6d46649</anchor>
+      <anchor>a1f8c07756c56fe8f31ed44964e51bfbcaba34337f0f6a8cfcaf472a72f6d46649</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>bottom</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bdac77cede28d3cecdc46227f503446207b</anchor>
+      <anchor>a1f8c07756c56fe8f31ed44964e51bfbcac77cede28d3cecdc46227f503446207b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>verticallyCentred</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda8a4ec09c32a9a1111e72ec7a9b6f9411</anchor>
+      <anchor>a1f8c07756c56fe8f31ed44964e51bfbca8a4ec09c32a9a1111e72ec7a9b6f9411</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>horizontallyJustified</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda0881c08fa2d58e9d6f36ab8bbea4b800</anchor>
+      <anchor>a1f8c07756c56fe8f31ed44964e51bfbca0881c08fa2d58e9d6f36ab8bbea4b800</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>centred</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bdaf9d9adde20dce1aa38ff9a69be2b4384</anchor>
+      <anchor>a1f8c07756c56fe8f31ed44964e51bfbcaf9d9adde20dce1aa38ff9a69be2b4384</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>centredLeft</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda66eba21caedb3d6bfbeff74c610628b4</anchor>
+      <anchor>a1f8c07756c56fe8f31ed44964e51bfbca66eba21caedb3d6bfbeff74c610628b4</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>centredRight</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bdaea1dc507ac46f0c7417666ba14d9ad5e</anchor>
+      <anchor>a1f8c07756c56fe8f31ed44964e51bfbcaea1dc507ac46f0c7417666ba14d9ad5e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>centredTop</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda3a44a2451bf933ef23b99d19c53db3a5</anchor>
+      <anchor>a1f8c07756c56fe8f31ed44964e51bfbca3a44a2451bf933ef23b99d19c53db3a5</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>centredBottom</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda392a10b2805345384ac0589b1261cea9</anchor>
+      <anchor>a1f8c07756c56fe8f31ed44964e51bfbca392a10b2805345384ac0589b1261cea9</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>topLeft</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bdaf2d7cc575db9d4d9a1305407625b7afd</anchor>
+      <anchor>a1f8c07756c56fe8f31ed44964e51bfbcaf2d7cc575db9d4d9a1305407625b7afd</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>topRight</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda36ad3c72f605613650333cc78d1e0b44</anchor>
+      <anchor>a1f8c07756c56fe8f31ed44964e51bfbca36ad3c72f605613650333cc78d1e0b44</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>bottomLeft</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda3597930eb27b2d7aed0a929816a10ec0</anchor>
+      <anchor>a1f8c07756c56fe8f31ed44964e51bfbca3597930eb27b2d7aed0a929816a10ec0</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>bottomRight</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>a2e0d86f7f4f1a05b0581af05d70e84bda397027445c8ee878b4f4871f10ba58d9</anchor>
+      <anchor>a1f8c07756c56fe8f31ed44964e51bfbca397027445c8ee878b4f4871f10ba58d9</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>Justification</name>
       <anchorfile>classJustification.html</anchorfile>
-      <anchor>ad88054a89ce3ab6b2a4b2bf8990390ce</anchor>
-      <arglist>(int flags_) noexcept</arglist>
+      <anchor>a98e01ea7f8af9ea1cbf27bf8c8139b76</anchor>
+      <arglist>(int justificationFlags) noexcept</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -35832,8 +36290,8 @@
       <type></type>
       <name>Iterator</name>
       <anchorfile>classListenerList_1_1Iterator.html</anchorfile>
-      <anchor>ada44697ba9cb8a9a212b65ff2bfe6025</anchor>
-      <arglist>(const ListType &amp;list_) noexcept</arglist>
+      <anchor>aec6ff5dcf548392d46dd38b26168c79d</anchor>
+      <arglist>(const ListType &amp;listToIterate) noexcept</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -41806,6 +42264,12 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
+      <name>ParentCursor</name>
+      <anchorfile>classMouseCursor.html</anchorfile>
+      <anchor>a5de22a8c3eb06827ac11352e76eb9a97a3364299bb07ea51c887232310feb8b36</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
       <name>NoCursor</name>
       <anchorfile>classMouseCursor.html</anchorfile>
       <anchor>a5de22a8c3eb06827ac11352e76eb9a97a765994c253a794c44b2a919f39738917</anchor>
@@ -41919,6 +42383,12 @@
       <anchor>a5de22a8c3eb06827ac11352e76eb9a97aa1bc9fcfb9b9e0f39e513ca1fcb8392b</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>NumStandardCursorTypes</name>
+      <anchorfile>classMouseCursor.html</anchorfile>
+      <anchor>a5de22a8c3eb06827ac11352e76eb9a97a48398e8dcad5bee53f6319d3f9b7f012</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type></type>
       <name>MouseCursor</name>
@@ -41974,6 +42444,20 @@
       <anchorfile>classMouseCursor.html</anchorfile>
       <anchor>af5779ebdab2bfe8351d1501d5fe7718e</anchor>
       <arglist>(const MouseCursor &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>classMouseCursor.html</anchorfile>
+      <anchor>a4bad7195dc81ff3fd569e1a0757b4de0</anchor>
+      <arglist>(StandardCursorType type) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>classMouseCursor.html</anchorfile>
+      <anchor>a11a838b423d84ffd68c790de1bc0bbb4</anchor>
+      <arglist>(StandardCursorType type) const noexcept</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
@@ -44318,6 +44802,20 @@
       <arglist>(ObjectType *newObject, bool takeOwnership)</arglist>
     </member>
     <member kind="function">
+      <type>void</type>
+      <name>setOwned</name>
+      <anchorfile>classOptionalScopedPointer.html</anchorfile>
+      <anchor>a44d17e536c3584231f3ded73499cf09b</anchor>
+      <arglist>(ObjectType *newObject)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setNonOwned</name>
+      <anchorfile>classOptionalScopedPointer.html</anchorfile>
+      <anchor>ad002438efbea088d4114470c78cf77da</anchor>
+      <arglist>(ObjectType *newObject)</arglist>
+    </member>
+    <member kind="function">
       <type>bool</type>
       <name>willDeleteObject</name>
       <anchorfile>classOptionalScopedPointer.html</anchorfile>
@@ -45776,8 +46274,8 @@
       <type></type>
       <name>PixelARGB</name>
       <anchorfile>classPixelARGB.html</anchorfile>
-      <anchor>abd950dafba1a83081c94a7a9e1cc320f</anchor>
-      <arglist>(const uint32 argb_) noexcept</arglist>
+      <anchor>a5bd54b0487d00066d08296384521437e</anchor>
+      <arglist>(const uint32 argbValue) noexcept</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -46141,8 +46639,8 @@
       <type>void</type>
       <name>setARGB</name>
       <anchorfile>classPixelRGB.html</anchorfile>
-      <anchor>a8e3ff22c903405eb543e1aea82bec234</anchor>
-      <arglist>(const uint8, const uint8 r_, const uint8 g_, const uint8 b_) noexcept</arglist>
+      <anchor>a552e68cc721bc088f6c972763420d051</anchor>
+      <arglist>(const uint8, const uint8 red, const uint8 green, const uint8 blue) noexcept</arglist>
     </member>
     <member kind="function">
       <type>forcedinline void</type>
@@ -46637,6 +47135,13 @@
       <name>isDigitalPerformer</name>
       <anchorfile>classPluginHostType.html</anchorfile>
       <anchor>a4e4b15c2bc66b521ae348abf939124fe</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isReaper</name>
+      <anchorfile>classPluginHostType.html</anchorfile>
+      <anchor>a45050d5c2f5aca3be1e675912b9b9411</anchor>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function" static="yes">
@@ -48483,8 +48988,8 @@
       <type></type>
       <name>Quaternion</name>
       <anchorfile>classQuaternion.html</anchorfile>
-      <anchor>a07b610b5cb16d11da218c438ebfcede1</anchor>
-      <arglist>(const Vector3D&lt; Type &gt; &amp;vector_, const Type &amp;scalar_) noexcept</arglist>
+      <anchor>a1c0a4306858134afa6ed91655880a0a4</anchor>
+      <arglist>(const Vector3D&lt; Type &gt; &amp;vectorPart, const Type &amp;scalarPart) noexcept</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -48860,8 +49365,8 @@
       <type></type>
       <name>Range</name>
       <anchorfile>classRange.html</anchorfile>
-      <anchor>a55d4a6e6a9b5baa908e2adeb574585f5</anchor>
-      <arglist>(const ValueType start_, const ValueType end_) noexcept</arglist>
+      <anchor>aa8bd30569eac42c002fad4d9f1cdcaa2</anchor>
+      <arglist>(const ValueType startValue, const ValueType endValue) noexcept</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -50051,84 +50556,90 @@
   <compound kind="class">
     <name>RectanglePlacement</name>
     <filename>classRectanglePlacement.html</filename>
+    <member kind="enumeration">
+      <name>Flags</name>
+      <anchorfile>classRectanglePlacement.html</anchorfile>
+      <anchor>afd5464553fd6bb41d697f3fc1d7427ed</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumvalue">
       <name>xLeft</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>afc290f699baa6a217056e4c3e7c6f6a7ae2539f35e48e3c7396cffeb8079e27dd</anchor>
+      <anchor>afd5464553fd6bb41d697f3fc1d7427edae2539f35e48e3c7396cffeb8079e27dd</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>xRight</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>afc290f699baa6a217056e4c3e7c6f6a7a72a92773894d10ec3b4ff55b56d08915</anchor>
+      <anchor>afd5464553fd6bb41d697f3fc1d7427eda72a92773894d10ec3b4ff55b56d08915</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>xMid</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>afc290f699baa6a217056e4c3e7c6f6a7ad1348e06780084037a29fc0621d10392</anchor>
+      <anchor>afd5464553fd6bb41d697f3fc1d7427edad1348e06780084037a29fc0621d10392</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>yTop</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>afc290f699baa6a217056e4c3e7c6f6a7a1b650115227b059f9eb2c07ecdfcb3ad</anchor>
+      <anchor>afd5464553fd6bb41d697f3fc1d7427eda1b650115227b059f9eb2c07ecdfcb3ad</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>yBottom</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>afc290f699baa6a217056e4c3e7c6f6a7a467435011959541ca61cc362640db547</anchor>
+      <anchor>afd5464553fd6bb41d697f3fc1d7427eda467435011959541ca61cc362640db547</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>yMid</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>afc290f699baa6a217056e4c3e7c6f6a7a8bfb9c8cceb359b4f00a9839168a7769</anchor>
+      <anchor>afd5464553fd6bb41d697f3fc1d7427eda8bfb9c8cceb359b4f00a9839168a7769</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>stretchToFit</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>afc290f699baa6a217056e4c3e7c6f6a7a592b34ff9ad1d85db16f2e02c6252b8b</anchor>
+      <anchor>afd5464553fd6bb41d697f3fc1d7427eda592b34ff9ad1d85db16f2e02c6252b8b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>fillDestination</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>afc290f699baa6a217056e4c3e7c6f6a7aace05e9cfe83bb3dbbef781d3622cd62</anchor>
+      <anchor>afd5464553fd6bb41d697f3fc1d7427edaace05e9cfe83bb3dbbef781d3622cd62</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>onlyReduceInSize</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>afc290f699baa6a217056e4c3e7c6f6a7a32d2c8f0142b82c188af878548f4d238</anchor>
+      <anchor>afd5464553fd6bb41d697f3fc1d7427eda32d2c8f0142b82c188af878548f4d238</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>onlyIncreaseInSize</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>afc290f699baa6a217056e4c3e7c6f6a7a54aea49f09ca4f2ac6e5c81859067b7d</anchor>
+      <anchor>afd5464553fd6bb41d697f3fc1d7427eda54aea49f09ca4f2ac6e5c81859067b7d</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>doNotResize</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>afc290f699baa6a217056e4c3e7c6f6a7a1b4035a6dd90fd7ecf4b2014f33bf16f</anchor>
+      <anchor>afd5464553fd6bb41d697f3fc1d7427eda1b4035a6dd90fd7ecf4b2014f33bf16f</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>centred</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>afc290f699baa6a217056e4c3e7c6f6a7adf52ee04f4f43cfcc6049d49833dd946</anchor>
+      <anchor>afd5464553fd6bb41d697f3fc1d7427edadf52ee04f4f43cfcc6049d49833dd946</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>RectanglePlacement</name>
       <anchorfile>classRectanglePlacement.html</anchorfile>
-      <anchor>a7c0287e45535fcd281f8a0ea4c5aac85</anchor>
-      <arglist>(int flags_) noexcept</arglist>
+      <anchor>af614522b9cccb64e01cec1d369883327</anchor>
+      <arglist>(int placementFlags) noexcept</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -50916,8 +51427,8 @@
       <type></type>
       <name>RelativeCoordinatePositionerBase</name>
       <anchorfile>classRelativeCoordinatePositionerBase.html</anchorfile>
-      <anchor>a5710b13058cb269e6bb409df6786eac4</anchor>
-      <arglist>(Component &amp;component_)</arglist>
+      <anchor>a230959223a8375a554c244c654e039b5</anchor>
+      <arglist>(Component &amp;component)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -51012,8 +51523,8 @@
       <type></type>
       <name>ComponentScope</name>
       <anchorfile>classRelativeCoordinatePositionerBase_1_1ComponentScope.html</anchorfile>
-      <anchor>a288b622e4011d65d5f68855f6385c0e3</anchor>
-      <arglist>(Component &amp;component_)</arglist>
+      <anchor>a412aff63dd65bd8d8bd540835216bcb3</anchor>
+      <arglist>(Component &amp;component)</arglist>
     </member>
     <member kind="function">
       <type>Expression</type>
@@ -53712,6 +54223,20 @@
       <name>getItemArray</name>
       <anchorfile>classSelectedItemSet.html</anchorfile>
       <anchor>a13ce49e6d5f91ded6be4e1520be36b82</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>SelectableItemType *</type>
+      <name>begin</name>
+      <anchorfile>classSelectedItemSet.html</anchorfile>
+      <anchor>a8820df35449af865aaecf107cad4a653</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>SelectableItemType *</type>
+      <name>end</name>
+      <anchorfile>classSelectedItemSet.html</anchorfile>
+      <anchor>aea029db3e198aebd6a58a8e9ecd9b779</anchor>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function" virtualness="virtual">
@@ -57676,6 +58201,13 @@
       <arglist>()</arglist>
     </member>
     <member kind="function" static="yes">
+      <type>static String</type>
+      <name>getDisplayLanguage</name>
+      <anchorfile>classSystemStats.html</anchorfile>
+      <anchor>a5b230572d54a15ce412f8d5357f40649</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
       <type>static int</type>
       <name>getNumCpus</name>
       <anchorfile>classSystemStats.html</anchorfile>
@@ -59331,6 +59863,71 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>TextDiff</name>
+    <filename>classTextDiff.html</filename>
+    <class kind="struct">TextDiff::Change</class>
+    <member kind="function">
+      <type></type>
+      <name>TextDiff</name>
+      <anchorfile>classTextDiff.html</anchorfile>
+      <anchor>a3d5bbdb193c431b7145e477954a35de8</anchor>
+      <arglist>(const String &amp;original, const String &amp;target)</arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>appliedTo</name>
+      <anchorfile>classTextDiff.html</anchorfile>
+      <anchor>ab5e55f6d26de229937e1685442d657ed</anchor>
+      <arglist>(String text) const </arglist>
+    </member>
+    <member kind="variable">
+      <type>Array&lt; Change &gt;</type>
+      <name>changes</name>
+      <anchorfile>classTextDiff.html</anchorfile>
+      <anchor>af3d45ea829e24a3ab37460646778bf82</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>TextDiff::Change</name>
+    <filename>structTextDiff_1_1Change.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>isDeletion</name>
+      <anchorfile>structTextDiff_1_1Change.html</anchorfile>
+      <anchor>a2db8fd1ed38a7607f06afc3ea034d620</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>String</type>
+      <name>appliedTo</name>
+      <anchorfile>structTextDiff_1_1Change.html</anchorfile>
+      <anchor>a8a3a03a16ef2380217dcc8e404e8fbb5</anchor>
+      <arglist>(const String &amp;original) const noexcept</arglist>
+    </member>
+    <member kind="variable">
+      <type>String</type>
+      <name>insertedText</name>
+      <anchorfile>structTextDiff_1_1Change.html</anchorfile>
+      <anchor>a6ddf900c18c62706054a85342c100f9a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>start</name>
+      <anchorfile>structTextDiff_1_1Change.html</anchorfile>
+      <anchor>ac72e9e25d35530fac7837a2d22c31958</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>length</name>
+      <anchorfile>structTextDiff_1_1Change.html</anchorfile>
+      <anchor>a82c0c693885a3e9c43d5e3f88b4175a8</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>TextDragAndDropTarget</name>
     <filename>classTextDragAndDropTarget.html</filename>
     <member kind="function" virtualness="virtual">
@@ -59486,6 +60083,13 @@
       <anchorfile>classTextEditor.html</anchorfile>
       <anchor>a71c61570fe0974966d94bc7e0a805136</anchor>
       <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setEscapeAndReturnKeysConsumed</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>a60a856b5c49ff27fb5f2a00f92bd251f</anchor>
+      <arglist>(bool shouldBeConsumed) noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -59713,13 +60317,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>moveCaretToEnd</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>af6410ba48e5c16b668d83e2f661a6b54</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>scrollEditorToPositionCaret</name>
       <anchorfile>classTextEditor.html</anchorfile>
       <anchor>a98c2a07e4f2d75014005ea2a343d30e8</anchor>
@@ -59808,6 +60405,13 @@
       <anchorfile>classTextEditor.html</anchorfile>
       <anchor>ac263b589275580c0a2a89de9e02f0061</anchor>
       <arglist>(bool shouldScrollToShowCaret)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>moveCaretToEnd</name>
+      <anchorfile>classTextEditor.html</anchorfile>
+      <anchor>af6410ba48e5c16b668d83e2f661a6b54</anchor>
+      <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -59967,43 +60571,43 @@
       <type>void</type>
       <name>paint</name>
       <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a57096adad12dd494b376fe52a7238b72</anchor>
-      <arglist>(Graphics &amp;g)</arglist>
+      <anchor>a58bf7a0215fe3d4e04907eb6f0c4a34f</anchor>
+      <arglist>(Graphics &amp;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>paintOverChildren</name>
       <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a5e1267facaee9350c9bce6ed693b456b</anchor>
-      <arglist>(Graphics &amp;g)</arglist>
+      <anchor>ad70784b82737b81c0c3749de5b609ba3</anchor>
+      <arglist>(Graphics &amp;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>mouseDown</name>
       <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a191a572d43603cfe9a11ff265f98a1d8</anchor>
-      <arglist>(const MouseEvent &amp;e)</arglist>
+      <anchor>a6516ba7d679a865f6b8099aaadd856df</anchor>
+      <arglist>(const MouseEvent &amp;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>mouseUp</name>
       <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>ab20245851c152d488c01a7b01fe3900e</anchor>
-      <arglist>(const MouseEvent &amp;e)</arglist>
+      <anchor>a2a1494680d368293f8998adb2cc5426b</anchor>
+      <arglist>(const MouseEvent &amp;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>mouseDrag</name>
       <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a28dec1f37373401d9e4c253ec049eeef</anchor>
-      <arglist>(const MouseEvent &amp;e)</arglist>
+      <anchor>ac36a0e1c82fd9c6c6ccfa48c0edb5399</anchor>
+      <arglist>(const MouseEvent &amp;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>mouseDoubleClick</name>
       <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>ab2aba4989001da32ba205ec24937a351</anchor>
-      <arglist>(const MouseEvent &amp;e)</arglist>
+      <anchor>a1f919a682a00838d27a2cd68c65436b2</anchor>
+      <arglist>(const MouseEvent &amp;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -60016,8 +60620,8 @@
       <type>bool</type>
       <name>keyPressed</name>
       <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>aaff4916bb211609884f60f46fc4a9a03</anchor>
-      <arglist>(const KeyPress &amp;key)</arglist>
+      <anchor>a675da0486a338427ed96f35127675cf0</anchor>
+      <arglist>(const KeyPress &amp;)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -60091,20 +60695,6 @@
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
-      <name>moveCaret</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>aee391f5db9b0ffd4306656f69a67a5da</anchor>
-      <arglist>(int newCaretPos)</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
-      <name>moveCaretTo</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>a1f01aefd3688a18f149052e9a46b083c</anchor>
-      <arglist>(int newPosition, bool isSelecting)</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
       <name>textChanged</name>
       <anchorfile>classTextEditor.html</anchorfile>
       <anchor>a34e3b8ad5395d493da6fee6ce9775dc1</anchor>
@@ -60116,13 +60706,6 @@
       <anchorfile>classTextEditor.html</anchorfile>
       <anchor>ac1cdc461e88ca484f3528d74a7e1d27c</anchor>
       <arglist>()</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
-      <name>doUndoRedo</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>abec9c336069b13b8274216d5d16b0de9</anchor>
-      <arglist>(bool isRedo)</arglist>
     </member>
     <member kind="function" protection="protected" virtualness="virtual">
       <type>virtual void</type>
@@ -60137,13 +60720,6 @@
       <anchorfile>classTextEditor.html</anchorfile>
       <anchor>a113d5961e0129c872f606492dc0e8fab</anchor>
       <arglist>()</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
-      <name>handleCommandMessage</name>
-      <anchorfile>classTextEditor.html</anchorfile>
-      <anchor>abd1d897359ee82289b967648c54ca90c</anchor>
-      <arglist>(int commandId)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -64460,6 +65036,13 @@
       <arglist>() const </arglist>
     </member>
     <member kind="function">
+      <type>String</type>
+      <name>toXmlString</name>
+      <anchorfile>classValueTree.html</anchorfile>
+      <anchor>a4ac1da90e499eea7233b6eb7d0d7d190</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>writeToStream</name>
       <anchorfile>classValueTree.html</anchorfile>
@@ -65775,8 +66358,8 @@
       <type></type>
       <name>SharedPointer</name>
       <anchorfile>classWeakReference_1_1SharedPointer.html</anchorfile>
-      <anchor>a04e530668341603447c712c44ab8e42e</anchor>
-      <arglist>(ObjectType *const owner_) noexcept</arglist>
+      <anchor>a55668b07c81143ebc4b06ab95f97febf</anchor>
+      <arglist>(ObjectType *const obj) noexcept</arglist>
     </member>
     <member kind="function">
       <type>ObjectType *</type>

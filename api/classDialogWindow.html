@@ -94,6 +94,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a>  </div>
@@ -109,6 +110,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p><a href="classDialogWindow-members.html">List of all members.</a></p>
 <table class="memberdecls">
+<tr><td colspan="2"><h2><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDialogWindow_1_1LaunchOptions.html">LaunchOptions</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class defines a collection of settings to be used to open a <a class="el" href="classDialogWindow.html" title="A dialog-box style window.">DialogWindow</a>.  <a href="structDialogWindow_1_1LaunchOptions.html#details">More...</a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad73dba9ea7a57b5b9f8bb0d3ffd8c0a0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDialogWindow.html#ad73dba9ea7a57b5b9f8bb0d3ffd8c0a0">DialogWindow</a> (const <a class="el" href="classString.html">String</a> &amp;name, const <a class="el" href="classColour.html">Colour</a> &amp;backgroundColour, bool escapeKeyTriggersCloseButton, bool <a class="el" href="classResizableWindow.html#a84ef5e28f42d5e489f5a7240e2475722">addToDesktop</a>=true)</td></tr>
@@ -124,13 +129,14 @@ Static Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:ad898e97178b1df5687f01d51655f5aa3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDialogWindow.html#ad898e97178b1df5687f01d51655f5aa3">resized</a> ()</td></tr>
+<tr class="memitem:a9884e52f6b46ba573ea5a83be8ecc7ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDialogWindow.html#a9884e52f6b46ba573ea5a83be8ecc7ea">keyPressed</a> (const <a class="el" href="classKeyPress.html">KeyPress</a> &amp;)</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A dialog-box style window. </p>
 <p>This class is a convenient way of creating a <a class="el" href="classDocumentWindow.html" title="A resizable window with a title bar and maximise, minimise and close buttons.">DocumentWindow</a> with a close button that can be triggered by pressing the escape key.</p>
 <p>Any of the methods available to a <a class="el" href="classDocumentWindow.html" title="A resizable window with a title bar and maximise, minimise and close buttons.">DocumentWindow</a> or <a class="el" href="classResizableWindow.html" title="A base class for top-level windows that can be dragged around and resized.">ResizableWindow</a> are also available to this, so it can be made resizable, have a menu bar, etc.</p>
-<p>To add items to the box, see the <a class="el" href="classResizableWindow.html#a97940f07b6014bac018cbe9330abc769" title="Changes the current content component.">ResizableWindow::setContentOwned()</a> or <a class="el" href="classResizableWindow.html#ad6c44adc91ca926e9c0a6ecb4cf1bfa7" title="Changes the current content component.">ResizableWindow::setContentNonOwned()</a> methods. Don't add components directly to this class - always put them in a content component!</p>
-<p>You'll need to override the <a class="el" href="classDocumentWindow.html#a71c46283a6fe63f2cad49d01997e16d5" title="This method is called when the user tries to close the window.">DocumentWindow::closeButtonPressed()</a> method to handle the user clicking the close button - for more info, see the <a class="el" href="classDocumentWindow.html" title="A resizable window with a title bar and maximise, minimise and close buttons.">DocumentWindow</a> help.</p>
+<p>You can either override or use an instance of the <a class="el" href="classDialogWindow.html" title="A dialog-box style window.">DialogWindow</a> class directly, or you can use a <a class="el" href="structDialogWindow_1_1LaunchOptions.html" title="This class defines a collection of settings to be used to open a DialogWindow.">DialogWindow::LaunchOptions</a> structure to quickly set up and launch a box containing a content component.</p>
+<p>If you use the class directly, you'll need to override the <a class="el" href="classDocumentWindow.html#a71c46283a6fe63f2cad49d01997e16d5" title="This method is called when the user tries to close the window.">DocumentWindow::closeButtonPressed()</a> method to handle the user clicking the close button - for more info, see the <a class="el" href="classDocumentWindow.html" title="A resizable window with a title bar and maximise, minimise and close buttons.">DocumentWindow</a> help.</p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classDocumentWindow.html" title="A resizable window with a title bar and maximise, minimise and close buttons.">DocumentWindow</a>, <a class="el" href="classResizableWindow.html" title="A base class for top-level windows that can be dragged around and resized.">ResizableWindow</a> </dd></dl>
 </div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ad73dba9ea7a57b5b9f8bb0d3ffd8c0a0"></a>
@@ -259,6 +265,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Easy way of quickly showing a dialog box containing a given component. </p>
+<p>Note: this method has been superceded by the <a class="el" href="structDialogWindow_1_1LaunchOptions.html" title="This class defines a collection of settings to be used to open a DialogWindow.">DialogWindow::LaunchOptions</a> structure, which does the same job with some extra flexibility. The showDialog method is here for backwards compatibility, but please use <a class="el" href="structDialogWindow_1_1LaunchOptions.html" title="This class defines a collection of settings to be used to open a DialogWindow.">DialogWindow::LaunchOptions</a> in new code.</p>
 <p>This will open and display a <a class="el" href="classDialogWindow.html" title="A dialog-box style window.">DialogWindow</a> containing a given component, making it modal, but returning immediately to allow the dialog to finish in its own time. If you want to block and run a modal loop until the dialog is dismissed, use <a class="el" href="classDialogWindow.html#a1391bb79781bfeac27944931dd91673b" title="Easy way of quickly showing a dialog box containing a given component.">showModalDialog()</a> instead.</p>
 <p>To close the dialog programatically, you should call exitModalState (returnValue) on the <a class="el" href="classDialogWindow.html" title="A dialog-box style window.">DialogWindow</a> that is created. To find a pointer to this window from your contentComponent, you can do something like this: </p>
 <div class="fragment"><pre class="fragment">        Dialogwindow* dw = contentComponent-&gt;findParentComponentOfClass&lt;<a class="code" href="classDialogWindow.html" title="A dialog-box style window.">DialogWindow</a>&gt;();
@@ -336,6 +343,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Easy way of quickly showing a dialog box containing a given component. </p>
+<p>Note: this method has been superceded by the <a class="el" href="structDialogWindow_1_1LaunchOptions.html" title="This class defines a collection of settings to be used to open a DialogWindow.">DialogWindow::LaunchOptions</a> structure, which does the same job with some extra flexibility. The showDialog method is here for backwards compatibility, but please use <a class="el" href="structDialogWindow_1_1LaunchOptions.html" title="This class defines a collection of settings to be used to open a DialogWindow.">DialogWindow::LaunchOptions</a> in new code.</p>
 <p>This will open and display a <a class="el" href="classDialogWindow.html" title="A dialog-box style window.">DialogWindow</a> containing a given component, returning when the user clicks its close button.</p>
 <p>It returns the value that was returned by the dialog box's runModalLoop() call.</p>
 <p>To close the dialog programatically, you should call exitModalState (returnValue) on the <a class="el" href="classDialogWindow.html" title="A dialog-box style window.">DialogWindow</a> that is created. To find a pointer to this window from your contentComponent, you can do something like this: </p>
@@ -356,8 +364,6 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#ab6b2829788f62cd54abe1670e86f26bd">StandaloneFilterWindow::showAudioSettingsDialog()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ad898e97178b1df5687f01d51655f5aa3"></a>
@@ -375,6 +381,25 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classResizableWindow.html#a80c869e583794bc6d8659b9f9393430c">ResizableWindow</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9884e52f6b46ba573ea5a83be8ecc7ea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classDialogWindow.html#a9884e52f6b46ba573ea5a83be8ecc7ea">DialogWindow::keyPressed</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classKeyPress.html">KeyPress</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [protected, virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classComponent.html#ab063a5c631854864da09106abec78a86">Component</a>.</p>
 
 </div>
 </div>

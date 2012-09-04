@@ -149,9 +149,11 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:adac7b811d3c19571859a86087e720f67"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#adac7b811d3c19571859a86087e720f67">getComputerName</a> ()</td></tr>
 <tr class="memdesc:adac7b811d3c19571859a86087e720f67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the host-name of the computer.  <a href="#adac7b811d3c19571859a86087e720f67"></a><br/></td></tr>
 <tr class="memitem:a6c845872735666a30a2a055d9b8607ec"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a6c845872735666a30a2a055d9b8607ec">getUserLanguage</a> ()</td></tr>
-<tr class="memdesc:a6c845872735666a30a2a055d9b8607ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the user's language.  <a href="#a6c845872735666a30a2a055d9b8607ec"></a><br/></td></tr>
+<tr class="memdesc:a6c845872735666a30a2a055d9b8607ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the language of the user's locale.  <a href="#a6c845872735666a30a2a055d9b8607ec"></a><br/></td></tr>
 <tr class="memitem:a4ba9a4cd9c199ee1534d1edea8e786a7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a4ba9a4cd9c199ee1534d1edea8e786a7">getUserRegion</a> ()</td></tr>
-<tr class="memdesc:a4ba9a4cd9c199ee1534d1edea8e786a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the user's region.  <a href="#a4ba9a4cd9c199ee1534d1edea8e786a7"></a><br/></td></tr>
+<tr class="memdesc:a4ba9a4cd9c199ee1534d1edea8e786a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the region of the user's locale.  <a href="#a4ba9a4cd9c199ee1534d1edea8e786a7"></a><br/></td></tr>
+<tr class="memitem:a5b230572d54a15ce412f8d5357f40649"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a5b230572d54a15ce412f8d5357f40649">getDisplayLanguage</a> ()</td></tr>
+<tr class="memdesc:a5b230572d54a15ce412f8d5357f40649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the user's display language.  <a href="#a5b230572d54a15ce412f8d5357f40649"></a><br/></td></tr>
 <tr class="memitem:a2fa9257a60a26848174b2b8bd6cbb970"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a2fa9257a60a26848174b2b8bd6cbb970">getNumCpus</a> () noexcept</td></tr>
 <tr class="memdesc:a2fa9257a60a26848174b2b8bd6cbb970"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of CPUs.  <a href="#a2fa9257a60a26848174b2b8bd6cbb970"></a><br/></td></tr>
 <tr class="memitem:a50852f1e0c28d06eeebbd18af4559770"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a50852f1e0c28d06eeebbd18af4559770">getCpuSpeedInMegaherz</a> ()</td></tr>
@@ -402,7 +404,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Returns the user's language. </p>
+<p>Returns the language of the user's locale. </p>
 <p>The return value is a 2 or 3 letter language code (ISO 639-1 or ISO 639-2) </p>
 
 </div>
@@ -421,8 +423,27 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Returns the user's region. </p>
+<p>Returns the region of the user's locale. </p>
 <p>The return value is a 2 letter country code (ISO 3166-1 alpha-2). </p>
+
+</div>
+</div>
+<a class="anchor" id="a5b230572d54a15ce412f8d5357f40649"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classString.html">String</a> <a class="el" href="classSystemStats.html#a5b230572d54a15ce412f8d5357f40649">SystemStats::getDisplayLanguage</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Returns the user's display language. </p>
+<p>The return value is a 2 or 3 letter language code (ISO 639-1 or ISO 639-2) </p>
 
 </div>
 </div>

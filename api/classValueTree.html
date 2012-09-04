@@ -190,6 +190,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aeaad7cad64013775bdf12b871c07abb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of this node's siblings in its parent's child list.  <a href="#aeaad7cad64013775bdf12b871c07abb7"></a><br/></td></tr>
 <tr class="memitem:ad4b6941292f6ba19b1f4c7a91b82f957"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ad4b6941292f6ba19b1f4c7a91b82f957">createXml</a> () const </td></tr>
 <tr class="memdesc:ad4b6941292f6ba19b1f4c7a91b82f957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document.">XmlElement</a> that holds a complete image of this node and all its children.  <a href="#ad4b6941292f6ba19b1f4c7a91b82f957"></a><br/></td></tr>
+<tr class="memitem:a4ac1da90e499eea7233b6eb7d0d7d190"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a4ac1da90e499eea7233b6eb7d0d7d190">toXmlString</a> () const </td></tr>
+<tr class="memdesc:a4ac1da90e499eea7233b6eb7d0d7d190"><td class="mdescLeft">&#160;</td><td class="mdescRight">This returns a string containing an XML representation of the tree.  <a href="#a4ac1da90e499eea7233b6eb7d0d7d190"></a><br/></td></tr>
 <tr class="memitem:a0a2a0fa2cf051fef99cab56db74a4266"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a0a2a0fa2cf051fef99cab56db74a4266">writeToStream</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;output) const </td></tr>
 <tr class="memdesc:a0a2a0fa2cf051fef99cab56db74a4266"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores this tree (and all its children) in a binary format.  <a href="#a0a2a0fa2cf051fef99cab56db74a4266"></a><br/></td></tr>
 <tr class="memitem:a0a0d82471cb1119fc1a7b7018e3af394"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a0a0d82471cb1119fc1a7b7018e3af394">addListener</a> (<a class="el" href="classValueTree_1_1Listener.html">Listener</a> *listener)</td></tr>
@@ -1141,6 +1143,25 @@ Static Public Attributes</h2></td></tr>
 
 <p>Tries to recreate a node from its XML representation. </p>
 <p>This isn't designed to cope with random XML data - for a sensible result, it should only be fed XML that was created by the <a class="el" href="classValueTree.html#ad4b6941292f6ba19b1f4c7a91b82f957" title="Creates an XmlElement that holds a complete image of this node and all its children.">createXml()</a> method. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4ac1da90e499eea7233b6eb7d0d7d190"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classString.html">String</a> <a class="el" href="classValueTree.html#a4ac1da90e499eea7233b6eb7d0d7d190">ValueTree::toXmlString</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>This returns a string containing an XML representation of the tree. </p>
+<p>This is quite handy for debugging purposes, as it provides a quick way to view a tree. </p>
 
 </div>
 </div>

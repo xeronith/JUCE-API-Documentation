@@ -13,5 +13,6 @@ var searchData=
   ['notresizable',['notResizable',['../classTableHeaderComponent.html#abfee3b5ccd3289efb38e7b7dd1162831a47ed9632de25c7632a34942aa1b266bb',1,'TableHeaderComponent']]],
   ['notresizableorsortable',['notResizableOrSortable',['../classTableHeaderComponent.html#abfee3b5ccd3289efb38e7b7dd1162831a722f75fc5f1b33f07ee2ca106bd0e9f2',1,'TableHeaderComponent']]],
   ['notsortable',['notSortable',['../classTableHeaderComponent.html#abfee3b5ccd3289efb38e7b7dd1162831abd10990c4c70636a0b969b7dcdad112d',1,'TableHeaderComponent']]],
-  ['nullelement',['nullElement',['../classRelativePointPath.html#a741fbc9bca4a156a84514f20987483e9ae971a25058687b29600ebb7c9a038437',1,'RelativePointPath']]]
+  ['nullelement',['nullElement',['../classRelativePointPath.html#a741fbc9bca4a156a84514f20987483e9ae971a25058687b29600ebb7c9a038437',1,'RelativePointPath']]],
+  ['numstandardcursortypes',['NumStandardCursorTypes',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97a48398e8dcad5bee53f6319d3f9b7f012',1,'MouseCursor']]]
 ];

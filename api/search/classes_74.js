@@ -9,6 +9,7 @@ var searchData=
   ['temporaryfile',['TemporaryFile',['../classTemporaryFile.html',1,'']]],
   ['testresult',['TestResult',['../structUnitTestRunner_1_1TestResult.html',1,'UnitTestRunner']]],
   ['textbutton',['TextButton',['../classTextButton.html',1,'']]],
+  ['textdiff',['TextDiff',['../classTextDiff.html',1,'']]],
   ['textdraganddroptarget',['TextDragAndDropTarget',['../classTextDragAndDropTarget.html',1,'']]],
   ['texteditor',['TextEditor',['../classTextEditor.html',1,'']]],
   ['texteditorkeymapper',['TextEditorKeyMapper',['../structTextEditorKeyMapper.html',1,'']]],

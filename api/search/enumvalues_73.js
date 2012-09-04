@@ -35,7 +35,7 @@ var searchData=
   ['storeasbinary',['storeAsBinary',['../classPropertiesFile.html#ac4d1ac9a6b624f7e0de7787de46dc05eadd1552fd266d926522dfa0e162de5328',1,'PropertiesFile']]],
   ['storeascompressedbinary',['storeAsCompressedBinary',['../classPropertiesFile.html#ac4d1ac9a6b624f7e0de7787de46dc05eab1ddcaf9fc8d45b4141749e325844f42',1,'PropertiesFile']]],
   ['storeasxml',['storeAsXML',['../classPropertiesFile.html#ac4d1ac9a6b624f7e0de7787de46dc05eab0145370e12c4174bd36dc6ac6ccc147',1,'PropertiesFile']]],
-  ['stretchtofit',['stretchToFit',['../classRectanglePlacement.html#afc290f699baa6a217056e4c3e7c6f6a7a592b34ff9ad1d85db16f2e02c6252b8b',1,'RectanglePlacement']]],
+  ['stretchtofit',['stretchToFit',['../classRectanglePlacement.html#afd5464553fd6bb41d697f3fc1d7427eda592b34ff9ad1d85db16f2e02c6252b8b',1,'RectanglePlacement']]],
   ['switched',['switched',['../classAppleRemoteDevice.html#a63ccce128a48e63972e2d71a8de5f8d0ae278b856f84c176f8a1628c118e902fc',1,'AppleRemoteDevice']]],
   ['symboltype',['symbolType',['../classExpression.html#aa416ac50fdbe8bdea9c59f5c78f0c85baef74a77024f2e22f163d3b2346b99162',1,'Expression']]]
 ];

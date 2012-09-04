@@ -127,6 +127,7 @@ var searchData=
   ['juce_5fconcertinapanel_2eh',['juce_ConcertinaPanel.h',['../juce__ConcertinaPanel_8h.html',1,'']]],
   ['juce_5fcoreaudioformat_2eh',['juce_CoreAudioFormat.h',['../juce__CoreAudioFormat_8h.html',1,'']]],
   ['juce_5fcpluspluscodetokeniser_2eh',['juce_CPlusPlusCodeTokeniser.h',['../juce__CPlusPlusCodeTokeniser_8h.html',1,'']]],
+  ['juce_5fcpluspluscodetokeniserfunctions_2eh',['juce_CPlusPlusCodeTokeniserFunctions.h',['../juce__CPlusPlusCodeTokeniserFunctions_8h.html',1,'']]],
   ['juce_5fcriticalsection_2eh',['juce_CriticalSection.h',['../juce__CriticalSection_8h.html',1,'']]],
   ['juce_5fcustomtypeface_2eh',['juce_CustomTypeface.h',['../juce__CustomTypeface_8h.html',1,'']]],
   ['juce_5fdebug',['JUCE_DEBUG',['../juce__TargetPlatform_8h.html#a5f55c9671da5cfdf8377deba11c06044',1,'juce_TargetPlatform.h']]],
@@ -137,7 +138,7 @@ var searchData=
   ['juce_5fdeclaresingleton_5fsinglethreaded',['juce_DeclareSingleton_SingleThreaded',['../juce__Singleton_8h.html#a253f51f3a9ac2b4795e2ce08b2a756d9',1,'juce_Singleton.h']]],
   ['juce_5fdeclaresingleton_5fsinglethreaded_5fminimal',['juce_DeclareSingleton_SingleThreaded_Minimal',['../classModalComponentManager.html#a60dd56d888e33d633d06f878562a59e6',1,'ModalComponentManager::juce_DeclareSingleton_SingleThreaded_Minimal()'],['../juce__Singleton_8h.html#a354e37d287b39d02097f4f74be14af51',1,'juce_DeclareSingleton_SingleThreaded_Minimal():&#160;juce_Singleton.h']]],
   ['juce_5fdeletedatshutdown_2eh',['juce_DeletedAtShutdown.h',['../juce__DeletedAtShutdown_8h.html',1,'']]],
-  ['juce_5fdeprecated',['JUCE_DEPRECATED',['../classButton.html#a4608a4116088533a72c0a9ae56f151ca',1,'Button::JUCE_DEPRECATED(void addButtonListener(Listener *))'],['../classButton.html#a1e549fee63e10617d44c8fb17bd15166',1,'Button::JUCE_DEPRECATED(void removeButtonListener(Listener *))'],['../classResizableWindow.html#abb26a60ce095d44d5a54639c977cb29a',1,'ResizableWindow::JUCE_DEPRECATED()'],['../juce__PlatformDefs_8h.html#af25d2cb3e6d1124146f7f1fcd8648016',1,'JUCE_DEPRECATED():&#160;juce_PlatformDefs.h']]],
+  ['juce_5fdeprecated',['JUCE_DEPRECATED',['../classResizableWindow.html#abb26a60ce095d44d5a54639c977cb29a',1,'ResizableWindow::JUCE_DEPRECATED()'],['../juce__PlatformDefs_8h.html#af25d2cb3e6d1124146f7f1fcd8648016',1,'JUCE_DEPRECATED():&#160;juce_PlatformDefs.h']]],
   ['juce_5fdesktop_2eh',['juce_Desktop.h',['../juce__Desktop_8h.html',1,'']]],
   ['juce_5fdialogwindow_2eh',['juce_DialogWindow.h',['../juce__DialogWindow_8h.html',1,'']]],
   ['juce_5fdirectorycontentsdisplaycomponent_2eh',['juce_DirectoryContentsDisplayComponent.h',['../juce__DirectoryContentsDisplayComponent_8h.html',1,'']]],
@@ -399,6 +400,7 @@ var searchData=
   ['juce_5ftargetplatform_2eh',['juce_TargetPlatform.h',['../juce__TargetPlatform_8h.html',1,'']]],
   ['juce_5ftemporaryfile_2eh',['juce_TemporaryFile.h',['../juce__TemporaryFile_8h.html',1,'']]],
   ['juce_5ftextbutton_2eh',['juce_TextButton.h',['../juce__TextButton_8h.html',1,'']]],
+  ['juce_5ftextdiff_2eh',['juce_TextDiff.h',['../juce__TextDiff_8h.html',1,'']]],
   ['juce_5ftextdraganddroptarget_2eh',['juce_TextDragAndDropTarget.h',['../juce__TextDragAndDropTarget_8h.html',1,'']]],
   ['juce_5ftexteditor_2eh',['juce_TextEditor.h',['../juce__TextEditor_8h.html',1,'']]],
   ['juce_5ftexteditorkeymapper_2eh',['juce_TextEditorKeyMapper.h',['../juce__TextEditorKeyMapper_8h.html',1,'']]],
@@ -454,6 +456,6 @@ var searchData=
   ['juce_5fzipfile_2eh',['juce_ZipFile.h',['../juce__ZipFile_8h.html',1,'']]],
   ['juceapplication',['JUCEApplication',['../classJUCEApplication.html',1,'JUCEApplication'],['../classJUCEApplication.html#a80e6dadf35b6954df90f2e11bb25ad8b',1,'JUCEApplication::JUCEApplication()']]],
   ['juceapplicationbase',['JUCEApplicationBase',['../classJUCEApplicationBase.html',1,'JUCEApplicationBase'],['../classJUCEApplicationBase.html#a3b64c47474ca9bf96c4ad7c0ee8cb3f5',1,'JUCEApplicationBase::JUCEApplicationBase()']]],
-  ['justification',['Justification',['../classJustification.html',1,'Justification'],['../classDrawableText_1_1ValueTreeWrapper.html#a568480e7695b8c4be65f179e34fc1b61',1,'DrawableText::ValueTreeWrapper::justification()'],['../classJustification.html#ad88054a89ce3ab6b2a4b2bf8990390ce',1,'Justification::Justification(int flags_) noexcept'],['../classJustification.html#a04002a24d0dea5eb7b893e364a12d0e7',1,'Justification::Justification(const Justification &amp;other) noexcept']]],
+  ['justification',['Justification',['../classJustification.html',1,'Justification'],['../classDrawableText_1_1ValueTreeWrapper.html#a568480e7695b8c4be65f179e34fc1b61',1,'DrawableText::ValueTreeWrapper::justification()'],['../classJustification.html#a98e01ea7f8af9ea1cbf27bf8c8139b76',1,'Justification::Justification(int justificationFlags) noexcept'],['../classJustification.html#a04002a24d0dea5eb7b893e364a12d0e7',1,'Justification::Justification(const Justification &amp;other) noexcept']]],
   ['justifyglyphs',['justifyGlyphs',['../classGlyphArrangement.html#a4f5a5b4bfea37fb1bcfc4747b0f4bbc5',1,'GlyphArrangement']]]
 ];

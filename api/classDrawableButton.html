@@ -95,8 +95,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">DrawableButton Class Reference</div>  </div>
 </div><!--header-->
@@ -116,7 +115,9 @@ Public Types</h2></td></tr>
 <a class="el" href="classDrawableButton.html#a7da653337d7329405ef9865cc35f612ea062ae670bdd4925a0a708dbaca8ebc2b">ImageAboveTextLabel</a>, 
 <a class="el" href="classDrawableButton.html#a7da653337d7329405ef9865cc35f612eaff968e270892fae0fee459da811d6a03">ImageOnButtonBackground</a>
  }</td></tr>
-<tr class="memitem:a469961782a284aae38a2234a7f3fd37f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#a469961782a284aae38a2234a7f3fd37f">ColourIds</a> { <a class="el" href="classDrawableButton.html#a469961782a284aae38a2234a7f3fd37fabc6adc2de607e8eae04f999765ecf4ac">textColourId</a> =  0x1004010
+<tr class="memitem:a469961782a284aae38a2234a7f3fd37f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#a469961782a284aae38a2234a7f3fd37f">ColourIds</a> { <a class="el" href="classDrawableButton.html#a469961782a284aae38a2234a7f3fd37fabc6adc2de607e8eae04f999765ecf4ac">textColourId</a> =  0x1004010, 
+<a class="el" href="classDrawableButton.html#a469961782a284aae38a2234a7f3fd37fa353e16cf4710b875cb88b374776e00d3">backgroundColourId</a> =  0x1004011, 
+<a class="el" href="classDrawableButton.html#a469961782a284aae38a2234a7f3fd37fae1fbb02269d41c17e9a503a5b09e5d3c">backgroundOnColourId</a> =  0x1004012
  }</td></tr>
 <tr class="memdesc:a469961782a284aae38a2234a7f3fd37f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A set of colour IDs to use to change the colour of various aspects of the link.  <a href="classDrawableButton.html#a469961782a284aae38a2234a7f3fd37f">More...</a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
@@ -129,23 +130,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a234fdfb0b05c4b2fe42b22366377829a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up the images to draw for the various button states.  <a href="#a234fdfb0b05c4b2fe42b22366377829a"></a><br/></td></tr>
 <tr class="memitem:a5858b272f7062972f23eecfa4bb39362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#a5858b272f7062972f23eecfa4bb39362">setButtonStyle</a> (<a class="el" href="classDrawableButton.html#a7da653337d7329405ef9865cc35f612e">ButtonStyle</a> newStyle)</td></tr>
 <tr class="memdesc:a5858b272f7062972f23eecfa4bb39362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the button's style.  <a href="#a5858b272f7062972f23eecfa4bb39362"></a><br/></td></tr>
-<tr class="memitem:ab4f4cfb653551478adf5a57aa327a1aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#ab4f4cfb653551478adf5a57aa327a1aa">setBackgroundColours</a> (const <a class="el" href="classColour.html">Colour</a> &amp;toggledOffColour, const <a class="el" href="classColour.html">Colour</a> &amp;toggledOnColour)</td></tr>
-<tr class="memdesc:ab4f4cfb653551478adf5a57aa327a1aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the button's background colours.  <a href="#ab4f4cfb653551478adf5a57aa327a1aa"></a><br/></td></tr>
-<tr class="memitem:a9a776a06325e64e710c08f83bb37df0a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classColour.html">Colour</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#a9a776a06325e64e710c08f83bb37df0a">getBackgroundColour</a> () const noexcept</td></tr>
-<tr class="memdesc:a9a776a06325e64e710c08f83bb37df0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current background colour being used.  <a href="#a9a776a06325e64e710c08f83bb37df0a"></a><br/></td></tr>
 <tr class="memitem:a92a1179fe613504e1c0286bea62f9d7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#a92a1179fe613504e1c0286bea62f9d7b">setEdgeIndent</a> (int numPixelsIndent)</td></tr>
 <tr class="memdesc:a92a1179fe613504e1c0286bea62f9d7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gives the button an optional amount of space around the edge of the drawable.  <a href="#a92a1179fe613504e1c0286bea62f9d7b"></a><br/></td></tr>
 <tr class="memitem:ad35d7da94a1e273ed5ac02d3591cfbb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDrawable.html">Drawable</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#ad35d7da94a1e273ed5ac02d3591cfbb6">getCurrentImage</a> () const noexcept</td></tr>
 <tr class="memdesc:ad35d7da94a1e273ed5ac02d3591cfbb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the image that the button is currently displaying.  <a href="#ad35d7da94a1e273ed5ac02d3591cfbb6"></a><br/></td></tr>
 <tr class="memitem:aa7c619db8754f604683b142683ab3afa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDrawable.html">Drawable</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#aa7c619db8754f604683b142683ab3afa">getNormalImage</a> () const noexcept</td></tr>
+<tr class="memdesc:aa7c619db8754f604683b142683ab3afa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the image that the button will use for its normal state.  <a href="#aa7c619db8754f604683b142683ab3afa"></a><br/></td></tr>
 <tr class="memitem:a178db462442745dba519dd884c90e6da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDrawable.html">Drawable</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#a178db462442745dba519dd884c90e6da">getOverImage</a> () const noexcept</td></tr>
+<tr class="memdesc:a178db462442745dba519dd884c90e6da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the image that the button will use when the mouse is over it.  <a href="#a178db462442745dba519dd884c90e6da"></a><br/></td></tr>
 <tr class="memitem:a36fcdc9874414f34b173a2421a75c971"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDrawable.html">Drawable</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#a36fcdc9874414f34b173a2421a75c971">getDownImage</a> () const noexcept</td></tr>
-<tr><td colspan="2"><h2><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a41b96d4fc2cd66b2325fa89310491a5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#a41b96d4fc2cd66b2325fa89310491a5a">paintButton</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, bool isMouseOverButton, bool isButtonDown)</td></tr>
+<tr class="memdesc:a36fcdc9874414f34b173a2421a75c971"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the image that the button will use when the mouse is held down on it.  <a href="#a36fcdc9874414f34b173a2421a75c971"></a><br/></td></tr>
+<tr class="memitem:ae0ebdd60d48f8b407c2ec2c824a5a9f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#ae0ebdd60d48f8b407c2ec2c824a5a9f3">paintButton</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, bool isMouseOverButton, bool isButtonDown)</td></tr>
 <tr class="memitem:ac7e055f7fcb1b2b75c08988a8578a243"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#ac7e055f7fcb1b2b75c08988a8578a243">buttonStateChanged</a> ()</td></tr>
 <tr class="memitem:af5e967b4d5866b6163f5bf3d01eb6fc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#af5e967b4d5866b6163f5bf3d01eb6fc0">resized</a> ()</td></tr>
 <tr class="memitem:abcfe109859c5f919c62af20da3ed15cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#abcfe109859c5f919c62af20da3ed15cd">enablementChanged</a> ()</td></tr>
+<tr class="memitem:a7e389ea46219c2516b0d47bbae8ee753"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#a7e389ea46219c2516b0d47bbae8ee753">colourChanged</a> ()</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A button that displays a <a class="el" href="classDrawable.html" title="The base class for objects which can draw themselves, e.g.">Drawable</a>. </p>
@@ -175,6 +174,7 @@ Protected Member Functions</h2></td></tr>
 </td></tr>
 <tr><td valign="top"><em><a class="anchor" id="a7da653337d7329405ef9865cc35f612eaff968e270892fae0fee459da811d6a03"></a>ImageOnButtonBackground</em>&nbsp;</td><td>
 <p>Draws the button as a standard rounded-rectangle button with the image on top. </p>
+<p>Note that if you use this style, the colour IDs that control the button colour are <a class="el" href="classTextButton.html#afb6c1da587aebb63b58a2569bed70c2caf54542fa0ebadc194ffebbf3f26f5413" title="The colour used to fill the button shape (when the button is toggled &#39;off&#39;).">TextButton::buttonColourId</a> and <a class="el" href="classTextButton.html#afb6c1da587aebb63b58a2569bed70c2cab5c464bb61172a02ca81f629bbb42ace" title="The colour used to fill the button shape (when the button is toggled &#39;on&#39;).">TextButton::buttonOnColourId</a>. </p>
 </td></tr>
 </table>
 </dd>
@@ -195,10 +195,19 @@ Protected Member Functions</h2></td></tr>
 
 <p>A set of colour IDs to use to change the colour of various aspects of the link. </p>
 <p>These constants can be used either via the <a class="el" href="classComponent.html#afab36809574d5a4d17f1b9da3d804a3b" title="Registers a colour to be used for a particular purpose.">Component::setColour()</a>, or <a class="el" href="classLookAndFeel.html#a817beefa430ae0028d6bec566e151d9f" title="Registers a colour to be used for a particular purpose.">LookAndFeel::setColour()</a> methods.</p>
+<p>Note that when the ImageOnButtonBackground style is used, the colour IDs that control the button colour are <a class="el" href="classTextButton.html#afb6c1da587aebb63b58a2569bed70c2caf54542fa0ebadc194ffebbf3f26f5413" title="The colour used to fill the button shape (when the button is toggled &#39;off&#39;).">TextButton::buttonColourId</a> and <a class="el" href="classTextButton.html#afb6c1da587aebb63b58a2569bed70c2cab5c464bb61172a02ca81f629bbb42ace" title="The colour used to fill the button shape (when the button is toggled &#39;on&#39;).">TextButton::buttonOnColourId</a>.</p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classComponent.html#afab36809574d5a4d17f1b9da3d804a3b" title="Registers a colour to be used for a particular purpose.">Component::setColour</a>, <a class="el" href="classComponent.html#a5e4c30e25faebe1d0854f96623d6d890" title="Looks for a colour that has been registered with the given colour ID number.">Component::findColour</a>, <a class="el" href="classLookAndFeel.html#a817beefa430ae0028d6bec566e151d9f" title="Registers a colour to be used for a particular purpose.">LookAndFeel::setColour</a>, <a class="el" href="classLookAndFeel.html#aa7f9faa480c9ec9d61b66672425f380b" title="Looks for a colour that has been registered with the given colour ID number.">LookAndFeel::findColour</a> </dd></dl>
 <dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
 <tr><td valign="top"><em><a class="anchor" id="a469961782a284aae38a2234a7f3fd37fabc6adc2de607e8eae04f999765ecf4ac"></a>textColourId</em>&nbsp;</td><td>
-<p>The colour to use for the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a> text. </p>
+<p>The colour to use for the button's text label. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a469961782a284aae38a2234a7f3fd37fa353e16cf4710b875cb88b374776e00d3"></a>backgroundColourId</em>&nbsp;</td><td>
+<p>The colour used to fill the button's background (when the button is toggled 'off'). </p>
+<p>Note that if you use the ImageOnButtonBackground style, you should use <a class="el" href="classTextButton.html#afb6c1da587aebb63b58a2569bed70c2caf54542fa0ebadc194ffebbf3f26f5413" title="The colour used to fill the button shape (when the button is toggled &#39;off&#39;).">TextButton::buttonColourId</a> to change the button's colour. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a469961782a284aae38a2234a7f3fd37fae1fbb02269d41c17e9a503a5b09e5d3c"></a>backgroundOnColourId</em>&nbsp;</td><td>
+<p>The colour used to fill the button's background (when the button is toggled 'on'). </p>
+<p>Note that if you use the ImageOnButtonBackground style, you should use <a class="el" href="classTextButton.html#afb6c1da587aebb63b58a2569bed70c2cab5c464bb61172a02ca81f629bbb42ace" title="The colour used to fill the button shape (when the button is toggled &#39;on&#39;).">TextButton::buttonOnColourId</a> to change the button's colour. </p>
 </td></tr>
 </table>
 </dd>
@@ -333,10 +342,10 @@ Protected Member Functions</h2></td></tr>
     <tr><td class="paramname">overImage</td><td>the thing to draw for the button's 'over' state - if this is zero, the button's normal image will be used when the mouse is over it. An internal copy will be made of the object passed-in if it is non-zero. </td></tr>
     <tr><td class="paramname">downImage</td><td>the thing to draw for the button's 'down' state - if this is zero, the 'over' image will be used instead (or the normal image as a last resort). An internal copy will be made of the object passed-in if it is non-zero. </td></tr>
     <tr><td class="paramname">disabledImage</td><td>an image to draw when the button is disabled. If this is zero, the normal image will be drawn with a reduced opacity instead. An internal copy will be made of the object passed-in if it is non-zero. </td></tr>
-    <tr><td class="paramname">normalImageOn</td><td>same as the normalImage, but this is used when the button's toggle state is 'on'. If this is 0, the normal image is used instead </td></tr>
-    <tr><td class="paramname">overImageOn</td><td>same as the overImage, but this is used when the button's toggle state is 'on'. If this is 0, the normalImageOn is drawn instead </td></tr>
-    <tr><td class="paramname">downImageOn</td><td>same as the downImage, but this is used when the button's toggle state is 'on'. If this is 0, the overImageOn is drawn instead </td></tr>
-    <tr><td class="paramname">disabledImageOn</td><td>same as the disabledImage, but this is used when the button's toggle state is 'on'. If this is 0, the normal image will be drawn instead with a reduced opacity </td></tr>
+    <tr><td class="paramname">normalImageOn</td><td>same as the normalImage, but this is used when the button's toggle state is 'on'. If this is nullptr, the normal image is used instead </td></tr>
+    <tr><td class="paramname">overImageOn</td><td>same as the overImage, but this is used when the button's toggle state is 'on'. If this is nullptr, the normalImageOn is drawn instead </td></tr>
+    <tr><td class="paramname">downImageOn</td><td>same as the downImage, but this is used when the button's toggle state is 'on'. If this is nullptr, the overImageOn is drawn instead </td></tr>
+    <tr><td class="paramname">disabledImageOn</td><td>same as the disabledImage, but this is used when the button's toggle state is 'on'. If this is nullptr, the normal image will be drawn instead with a reduced opacity </td></tr>
   </table>
   </dd>
 </dl>
@@ -363,57 +372,6 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab4f4cfb653551478adf5a57aa327a1aa"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classDrawableButton.html#ab4f4cfb653551478adf5a57aa327a1aa">DrawableButton::setBackgroundColours</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classColour.html">Colour</a> &amp;&#160;</td>
-          <td class="paramname"><em>toggledOffColour</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classColour.html">Colour</a> &amp;&#160;</td>
-          <td class="paramname"><em>toggledOnColour</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Changes the button's background colours. </p>
-<p>The toggledOffColour is the colour to use when the button's toggle state is off, and toggledOnColour when it's on.</p>
-<p>For an ImageOnly or ImageAboveTextLabel style, the background colour is used to fill the background of the component.</p>
-<p>For an ImageOnButtonBackground style, the colour is used to draw the button's lozenge shape and exactly how the colour's used will depend on the <a class="el" href="classLookAndFeel.html" title="LookAndFeel objects define the appearance of all the JUCE widgets, and subclasses can be used to appl...">LookAndFeel</a>. </p>
-
-</div>
-</div>
-<a class="anchor" id="a9a776a06325e64e710c08f83bb37df0a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classColour.html">Colour</a>&amp; <a class="el" href="classDrawableButton.html#a9a776a06325e64e710c08f83bb37df0a">DrawableButton::getBackgroundColour</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Returns the current background colour being used. </p>
-<dl class="section see"><dt>See also:</dt><dd>setBackgroundColour </dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="a92a1179fe613504e1c0286bea62f9d7b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -430,7 +388,6 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Gives the button an optional amount of space around the edge of the drawable. </p>
-<p>This will only apply to ImageFitted or ImageRaw styles, it won't affect the ones on a button background. If the button is too small for the given gap, a smaller gap will be used.</p>
 <p>By default there's a gap of about 3 pixels. </p>
 
 </div>
@@ -467,6 +424,8 @@ Protected Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
+<p>Returns the image that the button will use for its normal state. </p>
+
 </div>
 </div>
 <a class="anchor" id="a178db462442745dba519dd884c90e6da"></a>
@@ -482,6 +441,8 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+
+<p>Returns the image that the button will use when the mouse is over it. </p>
 
 </div>
 </div>
@@ -499,17 +460,19 @@ Protected Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 
+<p>Returns the image that the button will use when the mouse is held down on it. </p>
+
 </div>
 </div>
-<a class="anchor" id="a41b96d4fc2cd66b2325fa89310491a5a"></a>
+<a class="anchor" id="ae0ebdd60d48f8b407c2ec2c824a5a9f3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classDrawableButton.html#a41b96d4fc2cd66b2325fa89310491a5a">DrawableButton::paintButton</a> </td>
+          <td class="memname">void <a class="el" href="classDrawableButton.html#ae0ebdd60d48f8b407c2ec2c824a5a9f3">DrawableButton::paintButton</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -526,7 +489,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td><code> [protected, virtual]</code></td>
+          <td></td><td><code> [virtual]</code></td>
         </tr>
       </table>
 </div>
@@ -544,7 +507,7 @@ Protected Member Functions</h2></td></tr>
           <td class="memname">void <a class="el" href="classDrawableButton.html#ac7e055f7fcb1b2b75c08988a8578a243">DrawableButton::buttonStateChanged</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td><code> [protected, virtual]</code></td>
+          <td><code> [virtual]</code></td>
         </tr>
       </table>
 </div>
@@ -562,7 +525,7 @@ Protected Member Functions</h2></td></tr>
           <td class="memname">void <a class="el" href="classDrawableButton.html#af5e967b4d5866b6163f5bf3d01eb6fc0">DrawableButton::resized</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td><code> [protected, virtual]</code></td>
+          <td><code> [virtual]</code></td>
         </tr>
       </table>
 </div>
@@ -580,13 +543,31 @@ Protected Member Functions</h2></td></tr>
           <td class="memname">void <a class="el" href="classDrawableButton.html#abcfe109859c5f919c62af20da3ed15cd">DrawableButton::enablementChanged</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td><code> [protected, virtual]</code></td>
+          <td><code> [virtual]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classButton.html#a521509e4561e750d65385601be52396b">Button</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7e389ea46219c2516b0d47bbae8ee753"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classDrawableButton.html#a7e389ea46219c2516b0d47bbae8ee753">DrawableButton::colourChanged</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classComponent.html#adfab11b32c622b327a823c6565f637f4">Component</a>.</p>
 
 </div>
 </div>

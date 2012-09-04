@@ -146,6 +146,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac2ac11e5eab2ec09cf47a26d84f5bf85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the tab key should be accepted and used to input a tab character, or whether it gets ignored.  <a href="#ac2ac11e5eab2ec09cf47a26d84f5bf85"></a><br/></td></tr>
 <tr class="memitem:a71c61570fe0974966d94bc7e0a805136"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a71c61570fe0974966d94bc7e0a805136">isTabKeyUsedAsCharacter</a> () const </td></tr>
 <tr class="memdesc:a71c61570fe0974966d94bc7e0a805136"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the tab key is being used for input.  <a href="#a71c61570fe0974966d94bc7e0a805136"></a><br/></td></tr>
+<tr class="memitem:a60a856b5c49ff27fb5f2a00f92bd251f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a60a856b5c49ff27fb5f2a00f92bd251f">setEscapeAndReturnKeysConsumed</a> (bool shouldBeConsumed) noexcept</td></tr>
+<tr class="memdesc:a60a856b5c49ff27fb5f2a00f92bd251f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be used to change whether escape and return keypress events are propagated up to the parent component.  <a href="#a60a856b5c49ff27fb5f2a00f92bd251f"></a><br/></td></tr>
 <tr class="memitem:a046d359a0f6709b02a21d45c5958817a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a046d359a0f6709b02a21d45c5958817a">setReadOnly</a> (bool shouldBeReadOnly)</td></tr>
 <tr class="memdesc:a046d359a0f6709b02a21d45c5958817a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the editor to read-only mode.  <a href="#a046d359a0f6709b02a21d45c5958817a"></a><br/></td></tr>
 <tr class="memitem:a30d837f2545c1d5ee6de5545733e3b16"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a30d837f2545c1d5ee6de5545733e3b16">isReadOnly</a> () const </td></tr>
@@ -210,8 +212,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4eb79165443145bf31bc64100c590684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current index of the caret.  <a href="#a4eb79165443145bf31bc64100c590684"></a><br/></td></tr>
 <tr class="memitem:ae83d8245dfe738d0b2d05d0501c5e39e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#ae83d8245dfe738d0b2d05d0501c5e39e">setCaretPosition</a> (int newIndex)</td></tr>
 <tr class="memdesc:ae83d8245dfe738d0b2d05d0501c5e39e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the caret to be in front of a given character.  <a href="#ae83d8245dfe738d0b2d05d0501c5e39e"></a><br/></td></tr>
-<tr class="memitem:af6410ba48e5c16b668d83e2f661a6b54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#af6410ba48e5c16b668d83e2f661a6b54">moveCaretToEnd</a> ()</td></tr>
-<tr class="memdesc:af6410ba48e5c16b668d83e2f661a6b54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the caret to be the end of all the text.  <a href="#af6410ba48e5c16b668d83e2f661a6b54"></a><br/></td></tr>
 <tr class="memitem:a98c2a07e4f2d75014005ea2a343d30e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a98c2a07e4f2d75014005ea2a343d30e8">scrollEditorToPositionCaret</a> (int desiredCaretX, int desiredCaretY)</td></tr>
 <tr class="memdesc:a98c2a07e4f2d75014005ea2a343d30e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to scroll the text editor so that the caret ends up at a specified position.  <a href="#a98c2a07e4f2d75014005ea2a343d30e8"></a><br/></td></tr>
 <tr class="memitem:a329ce100de4c807e16f228affe75c5da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a329ce100de4c807e16f228affe75c5da">getCaretRectangle</a> ()</td></tr>
@@ -238,6 +238,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a248878c91365a6244ba6be35afaeb27f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of border around the edge of the component.  <a href="#a248878c91365a6244ba6be35afaeb27f"></a><br/></td></tr>
 <tr class="memitem:ac263b589275580c0a2a89de9e02f0061"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#ac263b589275580c0a2a89de9e02f0061">setScrollToShowCursor</a> (bool shouldScrollToShowCaret)</td></tr>
 <tr class="memdesc:ac263b589275580c0a2a89de9e02f0061"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to disable the auto-scrolling which keeps the caret visible.  <a href="#ac263b589275580c0a2a89de9e02f0061"></a><br/></td></tr>
+<tr class="memitem:af6410ba48e5c16b668d83e2f661a6b54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#af6410ba48e5c16b668d83e2f661a6b54">moveCaretToEnd</a> ()</td></tr>
 <tr class="memitem:ab707c995a249a259d27d86c271ed2822"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#ab707c995a249a259d27d86c271ed2822">moveCaretLeft</a> (bool moveInWholeWordSteps, bool selecting)</td></tr>
 <tr class="memitem:a4020204e5c9bb2afbca36981d396b9de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a4020204e5c9bb2afbca36981d396b9de">moveCaretRight</a> (bool moveInWholeWordSteps, bool selecting)</td></tr>
 <tr class="memitem:ac823fa08b0a21a2edb100f91e3c82d57"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#ac823fa08b0a21a2edb100f91e3c82d57">moveCaretUp</a> (bool selecting)</td></tr>
@@ -262,14 +263,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5887eae43a0517c2c986d54b0f02e9bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">This adds the items to the popup menu.  <a href="#a5887eae43a0517c2c986d54b0f02e9bd"></a><br/></td></tr>
 <tr class="memitem:ac90236dab0312511ba8bc38b2507a575"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#ac90236dab0312511ba8bc38b2507a575">performPopupMenuAction</a> (int menuItemID)</td></tr>
 <tr class="memdesc:ac90236dab0312511ba8bc38b2507a575"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called to perform one of the items that was shown on the popup menu.  <a href="#ac90236dab0312511ba8bc38b2507a575"></a><br/></td></tr>
-<tr class="memitem:a57096adad12dd494b376fe52a7238b72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a57096adad12dd494b376fe52a7238b72">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g)</td></tr>
-<tr class="memitem:a5e1267facaee9350c9bce6ed693b456b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a5e1267facaee9350c9bce6ed693b456b">paintOverChildren</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g)</td></tr>
-<tr class="memitem:a191a572d43603cfe9a11ff265f98a1d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a191a572d43603cfe9a11ff265f98a1d8">mouseDown</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;e)</td></tr>
-<tr class="memitem:ab20245851c152d488c01a7b01fe3900e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#ab20245851c152d488c01a7b01fe3900e">mouseUp</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;e)</td></tr>
-<tr class="memitem:a28dec1f37373401d9e4c253ec049eeef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a28dec1f37373401d9e4c253ec049eeef">mouseDrag</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;e)</td></tr>
-<tr class="memitem:ab2aba4989001da32ba205ec24937a351"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#ab2aba4989001da32ba205ec24937a351">mouseDoubleClick</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;e)</td></tr>
+<tr class="memitem:a58bf7a0215fe3d4e04907eb6f0c4a34f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a58bf7a0215fe3d4e04907eb6f0c4a34f">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;)</td></tr>
+<tr class="memitem:ad70784b82737b81c0c3749de5b609ba3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#ad70784b82737b81c0c3749de5b609ba3">paintOverChildren</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;)</td></tr>
+<tr class="memitem:a6516ba7d679a865f6b8099aaadd856df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a6516ba7d679a865f6b8099aaadd856df">mouseDown</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;)</td></tr>
+<tr class="memitem:a2a1494680d368293f8998adb2cc5426b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a2a1494680d368293f8998adb2cc5426b">mouseUp</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;)</td></tr>
+<tr class="memitem:ac36a0e1c82fd9c6c6ccfa48c0edb5399"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#ac36a0e1c82fd9c6c6ccfa48c0edb5399">mouseDrag</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;)</td></tr>
+<tr class="memitem:a1f919a682a00838d27a2cd68c65436b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a1f919a682a00838d27a2cd68c65436b2">mouseDoubleClick</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;)</td></tr>
 <tr class="memitem:a0c66aa10d4e8dc7eff7eac39d7cdd08e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a0c66aa10d4e8dc7eff7eac39d7cdd08e">mouseWheelMove</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;, const <a class="el" href="structMouseWheelDetails.html">MouseWheelDetails</a> &amp;)</td></tr>
-<tr class="memitem:aaff4916bb211609884f60f46fc4a9a03"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#aaff4916bb211609884f60f46fc4a9a03">keyPressed</a> (const <a class="el" href="classKeyPress.html">KeyPress</a> &amp;key)</td></tr>
+<tr class="memitem:a675da0486a338427ed96f35127675cf0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a675da0486a338427ed96f35127675cf0">keyPressed</a> (const <a class="el" href="classKeyPress.html">KeyPress</a> &amp;)</td></tr>
 <tr class="memitem:a945d8203649fbe39fd4968c36180ad25"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a945d8203649fbe39fd4968c36180ad25">keyStateChanged</a> (bool isKeyDown)</td></tr>
 <tr class="memitem:ab4a14d8976d2e6274a7539900819f8eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#ab4a14d8976d2e6274a7539900819f8eb">focusGained</a> (<a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac">FocusChangeType</a>)</td></tr>
 <tr class="memitem:ada59a673c55e3b5e00259b46554036ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#ada59a673c55e3b5e00259b46554036ac">focusLost</a> (<a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac">FocusChangeType</a>)</td></tr>
@@ -283,19 +284,14 @@ Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:aa8f2e41661dec5b6584cb655b3622475"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#aa8f2e41661dec5b6584cb655b3622475">scrollToMakeSureCursorIsVisible</a> ()</td></tr>
 <tr class="memdesc:aa8f2e41661dec5b6584cb655b3622475"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scrolls the minimum distance needed to get the caret into view.  <a href="#aa8f2e41661dec5b6584cb655b3622475"></a><br/></td></tr>
-<tr class="memitem:aee391f5db9b0ffd4306656f69a67a5da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#aee391f5db9b0ffd4306656f69a67a5da">moveCaret</a> (int newCaretPos)</td></tr>
-<tr class="memitem:a1f01aefd3688a18f149052e9a46b083c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a1f01aefd3688a18f149052e9a46b083c">moveCaretTo</a> (int newPosition, bool isSelecting)</td></tr>
 <tr class="memitem:a34e3b8ad5395d493da6fee6ce9775dc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a34e3b8ad5395d493da6fee6ce9775dc1">textChanged</a> ()</td></tr>
 <tr class="memdesc:a34e3b8ad5395d493da6fee6ce9775dc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used internally to dispatch a text-change message.  <a href="#a34e3b8ad5395d493da6fee6ce9775dc1"></a><br/></td></tr>
 <tr class="memitem:ac1cdc461e88ca484f3528d74a7e1d27c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#ac1cdc461e88ca484f3528d74a7e1d27c">newTransaction</a> ()</td></tr>
 <tr class="memdesc:ac1cdc461e88ca484f3528d74a7e1d27c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begins a new transaction in the <a class="el" href="classUndoManager.html" title="Manages a list of undo/redo commands.">UndoManager</a>.  <a href="#ac1cdc461e88ca484f3528d74a7e1d27c"></a><br/></td></tr>
-<tr class="memitem:abec9c336069b13b8274216d5d16b0de9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#abec9c336069b13b8274216d5d16b0de9">doUndoRedo</a> (bool isRedo)</td></tr>
-<tr class="memdesc:abec9c336069b13b8274216d5d16b0de9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used internally to trigger an undo or redo.  <a href="#abec9c336069b13b8274216d5d16b0de9"></a><br/></td></tr>
 <tr class="memitem:aea9150456f5680f7a83c54e1aa561155"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#aea9150456f5680f7a83c54e1aa561155">returnPressed</a> ()</td></tr>
 <tr class="memdesc:aea9150456f5680f7a83c54e1aa561155"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be overridden to intercept return key presses directly.  <a href="#aea9150456f5680f7a83c54e1aa561155"></a><br/></td></tr>
 <tr class="memitem:a113d5961e0129c872f606492dc0e8fab"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a113d5961e0129c872f606492dc0e8fab">escapePressed</a> ()</td></tr>
 <tr class="memdesc:a113d5961e0129c872f606492dc0e8fab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be overridden to intercept escape key presses directly.  <a href="#a113d5961e0129c872f606492dc0e8fab"></a><br/></td></tr>
-<tr class="memitem:abd1d897359ee82289b967648c54ca90c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#abd1d897359ee82289b967648c54ca90c">handleCommandMessage</a> (int commandId)</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>An editable text box. </p>
@@ -526,6 +522,26 @@ Protected Member Functions</h2></td></tr>
 
 <p>Returns true if the tab key is being used for input. </p>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTextEditor.html#ac2ac11e5eab2ec09cf47a26d84f5bf85" title="Indicates whether the tab key should be accepted and used to input a tab character, or whether it gets ignored.">setTabKeyUsedAsCharacter</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a60a856b5c49ff27fb5f2a00f92bd251f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classTextEditor.html#a60a856b5c49ff27fb5f2a00f92bd251f">TextEditor::setEscapeAndReturnKeysConsumed</a> </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>shouldBeConsumed</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>This can be used to change whether escape and return keypress events are propagated up to the parent component. </p>
+<p>The default here is true, meaning that these events are not allowed to reach the parent, but you may want to allow them through so that they can trigger other actions, e.g. closing a dialog box, etc. </p>
 
 </div>
 </div>
@@ -1210,26 +1226,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Moves the caret to be in front of a given character. </p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTextEditor.html#a4eb79165443145bf31bc64100c590684" title="Returns the current index of the caret.">getCaretPosition</a>, <a class="el" href="classTextEditor.html#af6410ba48e5c16b668d83e2f661a6b54" title="Moves the caret to be the end of all the text.">moveCaretToEnd</a> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="af6410ba48e5c16b668d83e2f661a6b54"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classTextEditor.html#af6410ba48e5c16b668d83e2f661a6b54">TextEditor::moveCaretToEnd</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Moves the caret to be the end of all the text. </p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTextEditor.html#ae83d8245dfe738d0b2d05d0501c5e39e" title="Moves the caret to be in front of a given character.">setCaretPosition</a> </dd></dl>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="classTextEditor.html#a4eb79165443145bf31bc64100c590684" title="Returns the current index of the caret.">getCaretPosition</a>, <a class="el" href="classTextEditor.html#af6410ba48e5c16b668d83e2f661a6b54">moveCaretToEnd</a> </dd></dl>
 
 </div>
 </div>
@@ -1520,6 +1517,22 @@ Protected Member Functions</h2></td></tr>
 
 <p>Used to disable the auto-scrolling which keeps the caret visible. </p>
 <p>If true (the default), the editor will scroll when the caret moves offscreen. If set to false, it won't. </p>
+
+</div>
+</div>
+<a class="anchor" id="af6410ba48e5c16b668d83e2f661a6b54"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classTextEditor.html#af6410ba48e5c16b668d83e2f661a6b54">TextEditor::moveCaretToEnd</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
 
 </div>
 </div>
@@ -1932,15 +1945,15 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a57096adad12dd494b376fe52a7238b72"></a>
+<a class="anchor" id="a58bf7a0215fe3d4e04907eb6f0c4a34f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classTextEditor.html#a57096adad12dd494b376fe52a7238b72">TextEditor::paint</a> </td>
+          <td class="memname">void <a class="el" href="classTextEditor.html#a58bf7a0215fe3d4e04907eb6f0c4a34f">TextEditor::paint</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td><code> [virtual]</code></td>
         </tr>
       </table>
@@ -1951,15 +1964,15 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5e1267facaee9350c9bce6ed693b456b"></a>
+<a class="anchor" id="ad70784b82737b81c0c3749de5b609ba3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classTextEditor.html#a5e1267facaee9350c9bce6ed693b456b">TextEditor::paintOverChildren</a> </td>
+          <td class="memname">void <a class="el" href="classTextEditor.html#ad70784b82737b81c0c3749de5b609ba3">TextEditor::paintOverChildren</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td><code> [virtual]</code></td>
         </tr>
       </table>
@@ -1970,15 +1983,15 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a191a572d43603cfe9a11ff265f98a1d8"></a>
+<a class="anchor" id="a6516ba7d679a865f6b8099aaadd856df"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classTextEditor.html#a191a572d43603cfe9a11ff265f98a1d8">TextEditor::mouseDown</a> </td>
+          <td class="memname">void <a class="el" href="classTextEditor.html#a6516ba7d679a865f6b8099aaadd856df">TextEditor::mouseDown</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td><code> [virtual]</code></td>
         </tr>
       </table>
@@ -1989,15 +2002,15 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab20245851c152d488c01a7b01fe3900e"></a>
+<a class="anchor" id="a2a1494680d368293f8998adb2cc5426b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classTextEditor.html#ab20245851c152d488c01a7b01fe3900e">TextEditor::mouseUp</a> </td>
+          <td class="memname">void <a class="el" href="classTextEditor.html#a2a1494680d368293f8998adb2cc5426b">TextEditor::mouseUp</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td><code> [virtual]</code></td>
         </tr>
       </table>
@@ -2008,15 +2021,15 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a28dec1f37373401d9e4c253ec049eeef"></a>
+<a class="anchor" id="ac36a0e1c82fd9c6c6ccfa48c0edb5399"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classTextEditor.html#a28dec1f37373401d9e4c253ec049eeef">TextEditor::mouseDrag</a> </td>
+          <td class="memname">void <a class="el" href="classTextEditor.html#ac36a0e1c82fd9c6c6ccfa48c0edb5399">TextEditor::mouseDrag</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td><code> [virtual]</code></td>
         </tr>
       </table>
@@ -2027,15 +2040,15 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab2aba4989001da32ba205ec24937a351"></a>
+<a class="anchor" id="a1f919a682a00838d27a2cd68c65436b2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classTextEditor.html#ab2aba4989001da32ba205ec24937a351">TextEditor::mouseDoubleClick</a> </td>
+          <td class="memname">void <a class="el" href="classTextEditor.html#a1f919a682a00838d27a2cd68c65436b2">TextEditor::mouseDoubleClick</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td><code> [virtual]</code></td>
         </tr>
       </table>
@@ -2075,15 +2088,15 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aaff4916bb211609884f60f46fc4a9a03"></a>
+<a class="anchor" id="a675da0486a338427ed96f35127675cf0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classTextEditor.html#aaff4916bb211609884f60f46fc4a9a03">TextEditor::keyPressed</a> </td>
+          <td class="memname">bool <a class="el" href="classTextEditor.html#a675da0486a338427ed96f35127675cf0">TextEditor::keyPressed</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classKeyPress.html">KeyPress</a> &amp;&#160;</td>
-          <td class="paramname"><em>key</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td><code> [virtual]</code></td>
         </tr>
       </table>
@@ -2278,50 +2291,6 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aee391f5db9b0ffd4306656f69a67a5da"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classTextEditor.html#aee391f5db9b0ffd4306656f69a67a5da">TextEditor::moveCaret</a> </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>newCaretPos</em></td><td>)</td>
-          <td><code> [protected]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1f01aefd3688a18f149052e9a46b083c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classTextEditor.html#a1f01aefd3688a18f149052e9a46b083c">TextEditor::moveCaretTo</a> </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>newPosition</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isSelecting</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td><code> [protected]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a34e3b8ad5395d493da6fee6ce9775dc1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2358,25 +2327,6 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abec9c336069b13b8274216d5d16b0de9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classTextEditor.html#abec9c336069b13b8274216d5d16b0de9">TextEditor::doUndoRedo</a> </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isRedo</em></td><td>)</td>
-          <td><code> [protected]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Used internally to trigger an undo or redo. </p>
-
-</div>
-</div>
 <a class="anchor" id="aea9150456f5680f7a83c54e1aa561155"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2410,25 +2360,6 @@ Protected Member Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Can be overridden to intercept escape key presses directly. </p>
-
-</div>
-</div>
-<a class="anchor" id="abd1d897359ee82289b967648c54ca90c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classTextEditor.html#abd1d897359ee82289b967648c54ca90c">TextEditor::handleCommandMessage</a> </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>commandId</em></td><td>)</td>
-          <td><code> [protected, virtual]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classComponent.html#a9ba6fa31d1397c7e90050b2cd4f2089b">Component</a>.</p>
 
 </div>
 </div>
