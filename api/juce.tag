@@ -45485,6 +45485,13 @@
       <type>void</type>
       <name>addRoundedRectangle</name>
       <anchorfile>classPath.html</anchorfile>
+      <anchor>ae99d7f45ea1ba9481a82d9e8ac3b76ab</anchor>
+      <arglist>(float x, float y, float width, float height, float cornerSizeX, float cornerSizeY, bool curveTopLeft, bool curveTopRight, bool curveBottomLeft, bool curveBottomRight)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>addRoundedRectangle</name>
+      <anchorfile>classPath.html</anchorfile>
       <anchor>a8e76921426b35e65345bc76ca462ecf8</anchor>
       <arglist>(const Rectangle&lt; ValueType &gt; &amp;rectangle, float cornerSizeX, float cornerSizeY)</arglist>
     </member>
