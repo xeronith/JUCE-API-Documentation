@@ -175,6 +175,7 @@ var searchData=
   ['_7eimageprovider',['~ImageProvider',['../classComponentBuilder_1_1ImageProvider.html#a9589cd277ddb9c7d544550a135b025ce',1,'ComponentBuilder::ImageProvider']]],
   ['_7eimagetype',['~ImageType',['../classImageType.html#a35b3b765a517eac3b617d014764cda35',1,'ImageType']]],
   ['_7eincomingdatareceiver',['~IncomingDataReceiver',['../classAudioFormatWriter_1_1ThreadedWriter_1_1IncomingDataReceiver.html#a0728c19886518197e280cc5318197295',1,'AudioFormatWriter::ThreadedWriter::IncomingDataReceiver']]],
+  ['_7einputfilter',['~InputFilter',['../classTextEditor_1_1InputFilter.html#a9e3b60623d6e180770655266931001b7',1,'TextEditor::InputFilter']]],
   ['_7einputsource',['~InputSource',['../classInputSource.html#a09958a0275a39a619a5b64b3e86e76ed',1,'InputSource']]],
   ['_7einputstream',['~InputStream',['../classInputStream.html#a8c49246dd62e559578732f518f159432',1,'InputStream']]],
   ['_7einterprocessconnection',['~InterprocessConnection',['../classInterprocessConnection.html#ad4e4b9a6f85226f1015c6620009456c7',1,'InterprocessConnection']]],

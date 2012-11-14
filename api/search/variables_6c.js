@@ -3,7 +3,6 @@ var searchData=
   ['lastcolour',['lastColour',['../classLowLevelGraphicsPostScriptRenderer.html#af380fa0611c3ca97a4cb2925a228bbd6',1,'LowLevelGraphicsPostScriptRenderer']]],
   ['lastfilemodtime',['lastFileModTime',['../classPluginDescription.html#aa7143b1df0c657008ab9f3f196e63471',1,'PluginDescription']]],
   ['lastnonfullscreenbounds',['lastNonFullscreenBounds',['../classComponentPeer.html#a2aee1a16331876b88555838cd75caeda',1,'ComponentPeer']]],
-  ['lastpainttime',['lastPaintTime',['../classComponentPeer.html#ad6426137107729ca4ef5bb9532929922',1,'ComponentPeer']]],
   ['lastpitchwheelvalues',['lastPitchWheelValues',['../classSynthesiser.html#acceafe04420ce625e025e4a73c370ce4',1,'Synthesiser']]],
   ['lavender',['lavender',['../classColours.html#a42bdd3828e3e453f1aacd8e129d7ba4c',1,'Colours']]],
   ['lavenderblush',['lavenderblush',['../classColours.html#a189b1d3e8c5a8f324de759efc8325496',1,'Colours']]],

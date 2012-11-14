@@ -7,7 +7,7 @@ var searchData=
   ['blowfish',['BlowFish',['../classBlowFish.html',1,'']]],
   ['booleanpropertycomponent',['BooleanPropertyComponent',['../classBooleanPropertyComponent.html',1,'']]],
   ['bordersize',['BorderSize',['../classBorderSize.html',1,'']]],
-  ['bordersize_3c_20int_20_3e',['BorderSize< int >',['../classBorderSize.html',1,'']]],
+  ['bordersize_3c_20int_20_3e',['BorderSize&lt; int &gt;',['../classBorderSize.html',1,'']]],
   ['browserplugincomponent',['BrowserPluginComponent',['../classBrowserPluginComponent.html',1,'']]],
   ['bubblecomponent',['BubbleComponent',['../classBubbleComponent.html',1,'']]],
   ['bubblemessagecomponent',['BubbleMessageComponent',['../classBubbleMessageComponent.html',1,'']]],

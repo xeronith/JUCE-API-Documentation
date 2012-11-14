@@ -12,6 +12,7 @@ var searchData=
   ['leftrightresizecursor',['LeftRightResizeCursor',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97a17de630b8e7ac48222b7d4a47e80bbf7',1,'MouseCursor']]],
   ['lefttoright',['leftToRight',['../classAttributedString.html#a254fea6774b4e74f786cc5ad3abac400a0ea06be4944f880c21db20dd073a979e',1,'AttributedString']]],
   ['linearbar',['LinearBar',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a0092c810419dab80d4692363d9564c5d',1,'Slider']]],
+  ['linearbarvertical',['LinearBarVertical',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a8a942813d4d457e0344e725bd9faffc5',1,'Slider']]],
   ['linearhorizontal',['LinearHorizontal',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a0fa5cefcd508c8f26ac9a458272844f9',1,'Slider']]],
   ['linearvertical',['LinearVertical',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a31f9134048fa90fbc4a72b69c6f553d5',1,'Slider']]],
   ['linenumberbackgroundid',['lineNumberBackgroundId',['../classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596ae61ab632da4a17cbbf39b5ca0c8d38eb',1,'CodeEditorComponent']]],

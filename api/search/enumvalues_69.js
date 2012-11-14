@@ -8,6 +8,7 @@ var searchData=
   ['imagefitted',['ImageFitted',['../classDrawableButton.html#a7da653337d7329405ef9865cc35f612ea79a05e8e03a639da1e34dd2bc76a4a26',1,'DrawableButton']]],
   ['imageonbuttonbackground',['ImageOnButtonBackground',['../classDrawableButton.html#a7da653337d7329405ef9865cc35f612eaff968e270892fae0fee459da811d6a03',1,'DrawableButton']]],
   ['imageraw',['ImageRaw',['../classDrawableButton.html#a7da653337d7329405ef9865cc35f612eadeca41061a457668e1b73bcea58f437f',1,'DrawableButton']]],
+  ['imagestretched',['ImageStretched',['../classDrawableButton.html#a7da653337d7329405ef9865cc35f612eab4f49e1f7275ae00388b7b18e0648976',1,'DrawableButton']]],
   ['incdecbuttons',['IncDecButtons',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888adcb7bc12a443e3c6cdf598ab3c5e2171',1,'Slider']]],
   ['incdecbuttonsdraggable_5fautodirection',['incDecButtonsDraggable_AutoDirection',['../classSlider.html#a0ceaddd29269b6ec5a41f35bbb2ff74aa4877104d807899962ee036571ca93f52',1,'Slider']]],
   ['incdecbuttonsdraggable_5fhorizontal',['incDecButtonsDraggable_Horizontal',['../classSlider.html#a0ceaddd29269b6ec5a41f35bbb2ff74aa19d0b1bdc13c1c673e382045c023868b',1,'Slider']]],

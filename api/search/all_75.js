@@ -1,10 +1,10 @@
 var searchData=
 [
   ['uid',['uid',['../classPluginDescription.html#a6bddaeaf4147bb0827c18724cbc7bd4b',1,'PluginDescription']]],
-  ['uint16',['uint16',['../juce__MathsFunctions_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e',1,'juce_MathsFunctions.h']]],
-  ['uint32',['uint32',['../juce__MathsFunctions_8h.html#a1134b580f8da4de94ca6b1de4d37975e',1,'juce_MathsFunctions.h']]],
-  ['uint64',['uint64',['../juce__MathsFunctions_8h.html#a29940ae63ec06c9998bba873e25407ad',1,'juce_MathsFunctions.h']]],
-  ['uint8',['uint8',['../juce__MathsFunctions_8h.html#adde6aaee8457bee49c2a92621fe22b79',1,'juce_MathsFunctions.h']]],
+  ['uint16',['uint16',['../juce__MathsFunctions_8h.html#a05f6b0ae8f6a6e135b0e290c25fe0e4e',1,'uint16():&#160;juce_MathsFunctions.h'],['../namespacejuce.html#a05bed2f5209971cef4ea323aabb5b55e',1,'juce::uint16()']]],
+  ['uint32',['uint32',['../juce__MathsFunctions_8h.html#a1134b580f8da4de94ca6b1de4d37975e',1,'uint32():&#160;juce_MathsFunctions.h'],['../namespacejuce.html#a9c13f39daaa50b986489e39f22b8a9ee',1,'juce::uint32()']]],
+  ['uint64',['uint64',['../juce__MathsFunctions_8h.html#a29940ae63ec06c9998bba873e25407ad',1,'uint64():&#160;juce_MathsFunctions.h'],['../namespacejuce.html#aae917ec7c857bdbcbf65c5ae0df3697d',1,'juce::uint64()']]],
+  ['uint8',['uint8',['../juce__MathsFunctions_8h.html#adde6aaee8457bee49c2a92621fe22b79',1,'uint8():&#160;juce_MathsFunctions.h'],['../namespacejuce.html#a797694035bfad19a34cc6ab058ba1e12',1,'juce::uint8()']]],
   ['uiviewcomponent',['UIViewComponent',['../classUIViewComponent.html',1,'UIViewComponent'],['../classUIViewComponent.html#a1c3bf91efaf6bd073c4649b07f555e20',1,'UIViewComponent::UIViewComponent()']]],
   ['unbind',['unbind',['../classOpenGLTexture.html#a1965be2042f9295215da58be76fc4b18',1,'OpenGLTexture']]],
   ['uncompressedsize',['uncompressedSize',['../structZipFile_1_1ZipEntry.html#a5788ff509e208d0a1fa68c6c1a424e2f',1,'ZipFile::ZipEntry']]],
@@ -66,6 +66,7 @@ var searchData=
   ['userhomedirectory',['userHomeDirectory',['../classFile.html#a3e19cafabb03c5838160263a6e76313da8620eabc38cfbd921a52d10157463c5e',1,'File']]],
   ['usermoviesdirectory',['userMoviesDirectory',['../classFile.html#a3e19cafabb03c5838160263a6e76313dadcb6e6c19c350d8020615417b0505da8',1,'File']]],
   ['usermusicdirectory',['userMusicDirectory',['../classFile.html#a3e19cafabb03c5838160263a6e76313dad0662607d7763c1940693b9f80673567',1,'File']]],
+  ['userpicturesdirectory',['userPicturesDirectory',['../classFile.html#a3e19cafabb03c5838160263a6e76313daa8e7ec352e54ab4efcae250eba502313',1,'File']]],
   ['usertriedtoclosewindow',['userTriedToCloseWindow',['../classComponent.html#a543e70d5a3ff75cc3facb476f4cdb131',1,'Component::userTriedToCloseWindow()'],['../classAlertWindow.html#a8d1f8e4fadd01bdc6067d8a8f619b04f',1,'AlertWindow::userTriedToCloseWindow()']]],
   ['usesanysymbols',['usesAnySymbols',['../classExpression.html#a0d3a456e6890d85965d6c78be8df7bc9',1,'Expression']]],
   ['usesfileextension',['usesFileExtension',['../classImageFileFormat.html#a9eb5f897a01aa14b136944eee2c7f684',1,'ImageFileFormat::usesFileExtension()'],['../classPNGImageFormat.html#a92da382df4b60b06e9268ba868d0e7c9',1,'PNGImageFormat::usesFileExtension()'],['../classJPEGImageFormat.html#acd71eabdcba45217a477f9a39d87ad10',1,'JPEGImageFormat::usesFileExtension()'],['../classGIFImageFormat.html#ad0580130800051e86bf8170740947c99',1,'GIFImageFormat::usesFileExtension()']]],

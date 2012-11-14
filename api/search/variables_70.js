@@ -20,6 +20,7 @@ var searchData=
   ['playhead',['playHead',['../classAudioProcessor.html#a78d1c3e1cabecff818b93de44891d973',1,'AudioProcessor']]],
   ['playkey',['playKey',['../classKeyPress.html#a08e1a3281e1a772f1e6227f70d117622',1,'KeyPress']]],
   ['pluginformatname',['pluginFormatName',['../classPluginDescription.html#a619a03af08e3904725e0255a28388a19',1,'PluginDescription']]],
+  ['plugins',['plugins',['../structKnownPluginList_1_1PluginTree.html#a6e1ef3fe0e6dbfd59363889dceed0ef7',1,'KnownPluginList::PluginTree']]],
   ['plum',['plum',['../classColours.html#ac02c6bea8fac05b5c050a3ec6b4fd924',1,'Colours']]],
   ['point1',['point1',['../classColourGradient.html#ac016d8472f6ce47c16d1df1e49c39dfc',1,'ColourGradient::point1()'],['../classDrawablePath_1_1ValueTreeWrapper.html#aea7b6ab1d84a3a683d07bd40ad82d0bc',1,'DrawablePath::ValueTreeWrapper::point1()']]],
   ['point2',['point2',['../classColourGradient.html#a218351e8768cb2f956d2186d85710787',1,'ColourGradient::point2()'],['../classDrawablePath_1_1ValueTreeWrapper.html#a5376b890660e14bce30c42e3ec2d2f2e',1,'DrawablePath::ValueTreeWrapper::point2()']]],

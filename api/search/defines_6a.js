@@ -40,6 +40,7 @@ var searchData=
   ['juce_5fno_5fcompiler_5fthread_5flocal',['JUCE_NO_COMPILER_THREAD_LOCAL',['../juce__ThreadLocalValue_8h.html#ace6df6344d7f87952a787d9c35dd159d',1,'juce_ThreadLocalValue.h']]],
   ['juce_5fprevent_5fheap_5fallocation',['JUCE_PREVENT_HEAP_ALLOCATION',['../juce__PlatformDefs_8h.html#abe12fb8b712ed0602dd1678599a3167b',1,'juce_PlatformDefs.h']]],
   ['juce_5fpublic_5ffunction',['JUCE_PUBLIC_FUNCTION',['../juce__StandardHeader_8h.html#a96fbdc03e0c892905daef7b47337c84e',1,'juce_StandardHeader.h']]],
+  ['juce_5fpublic_5fin_5fdll_5fbuild',['JUCE_PUBLIC_IN_DLL_BUILD',['../juce__StandardHeader_8h.html#a8d339dd1e85e6fbefaf7638692d085c2',1,'juce_StandardHeader.h']]],
   ['juce_5fstring_5futf_5ftype',['JUCE_STRING_UTF_TYPE',['../juce__String_8h.html#abf84e9c5d914b5000483aa6c975aaf75',1,'juce_String.h']]],
   ['juce_5fstringify',['JUCE_STRINGIFY',['../juce__PlatformDefs_8h.html#a7fab1bb48f05df367f0a57bc6cf3d12f',1,'juce_PlatformDefs.h']]],
   ['juce_5ftry',['JUCE_TRY',['../juce__PlatformDefs_8h.html#a267fd4f83073fb084b389df70243c52e',1,'juce_PlatformDefs.h']]],

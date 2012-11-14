@@ -241,6 +241,7 @@ var searchData=
   ['juce_5fnamedvalueset_2eh',['juce_NamedValueSet.h',['../juce__NamedValueSet_8h.html',1,'']]],
   ['juce_5fnativemessagebox_2eh',['juce_NativeMessageBox.h',['../juce__NativeMessageBox_8h.html',1,'']]],
   ['juce_5fnewline_2eh',['juce_NewLine.h',['../juce__NewLine_8h.html',1,'']]],
+  ['juce_5fnotificationtype_2eh',['juce_NotificationType.h',['../juce__NotificationType_8h.html',1,'']]],
   ['juce_5fnsviewcomponent_2eh',['juce_NSViewComponent.h',['../juce__NSViewComponent_8h.html',1,'']]],
   ['juce_5foggvorbisaudioformat_2eh',['juce_OggVorbisAudioFormat.h',['../juce__OggVorbisAudioFormat_8h.html',1,'']]],
   ['juce_5foldschoollookandfeel_2eh',['juce_OldSchoolLookAndFeel.h',['../juce__OldSchoolLookAndFeel_8h.html',1,'']]],

@@ -45,6 +45,7 @@ var searchData=
   ['style',['style',['../classTypeface.html#a4169174330e29936cda2170a51a36df8',1,'Typeface']]],
   ['styleflags',['styleFlags',['../classComponentPeer.html#a8322b7cdb134bc52f443cd587ffc3f75',1,'ComponentPeer']]],
   ['subcategoryname',['subcategoryName',['../structUnitTestRunner_1_1TestResult.html#af0a632786980a63693a86bb9942959c0',1,'UnitTestRunner::TestResult']]],
+  ['subfolders',['subFolders',['../structKnownPluginList_1_1PluginTree.html#a46a202981e3ec6943e51ddbe2866a8d0',1,'KnownPluginList::PluginTree']]],
   ['submenu',['subMenu',['../classPopupMenu_1_1MenuItemIterator.html#afb6d899fe8d2ac3244c81df9c5f41868',1,'PopupMenu::MenuItemIterator']]],
   ['subpathindex',['subPathIndex',['../classPathFlatteningIterator.html#a96ac386608cfe18dde7de5a433aac417',1,'PathFlatteningIterator']]],
   ['symbolname',['symbolName',['../structExpression_1_1Symbol.html#a8ea461b91478b99e10a04956c38f5d68',1,'Expression::Symbol']]],

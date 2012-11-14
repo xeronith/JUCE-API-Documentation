@@ -1,5 +1,12 @@
 var searchData=
 [
+  ['id3album',['id3album',['../classOggVorbisAudioFormat.html#ab00862fe52a02021c8f34df09002a7e7',1,'OggVorbisAudioFormat']]],
+  ['id3artist',['id3artist',['../classOggVorbisAudioFormat.html#ac88645d7fd07e48cd71ee8ad7b559e95',1,'OggVorbisAudioFormat']]],
+  ['id3comment',['id3comment',['../classOggVorbisAudioFormat.html#a9bcec7c7659b16b1f2852a10e4a93b4c',1,'OggVorbisAudioFormat']]],
+  ['id3date',['id3date',['../classOggVorbisAudioFormat.html#a5c0daf3110deb3dad23ac1666b0b542d',1,'OggVorbisAudioFormat']]],
+  ['id3genre',['id3genre',['../classOggVorbisAudioFormat.html#a847fe9bee42986db987526a470c9656a',1,'OggVorbisAudioFormat']]],
+  ['id3title',['id3title',['../classOggVorbisAudioFormat.html#a531f4523711824414005c291cb9c697b',1,'OggVorbisAudioFormat']]],
+  ['id3tracknumber',['id3trackNumber',['../classOggVorbisAudioFormat.html#a8e62f3cf046edc5ac4d859fd27f30c51',1,'OggVorbisAudioFormat']]],
   ['identity',['identity',['../classAffineTransform.html#a2173017e6300f667a23467505ca36276',1,'AffineTransform']]],
   ['idproperty',['idProperty',['../classComponentBuilder.html#aded44aa66f9f06a544e758dc6391664e',1,'ComponentBuilder']]],
   ['ignorecaseofkeynames',['ignoreCaseOfKeyNames',['../structPropertiesFile_1_1Options.html#a430d4a3168ac0be324f7a5c8a40f514a',1,'PropertiesFile::Options']]],
