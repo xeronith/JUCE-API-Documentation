@@ -147,9 +147,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad66cf971ac98f73ad76108947029f3c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopupMenu.html#ad66cf971ac98f73ad76108947029f3c6">addColouredItem</a> (int itemResultID, const <a class="el" href="classString.html">String</a> &amp;itemText, const <a class="el" href="classColour.html">Colour</a> &amp;itemTextColour, bool isEnabled=true, bool isTicked=false, const <a class="el" href="classImage.html">Image</a> &amp;iconToUse=<a class="el" href="classImage.html#af20f6e6962f885e2142520f18ca4ee17">Image::null</a>)</td></tr>
 <tr class="memdesc:ad66cf971ac98f73ad76108947029f3c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a text item with a special colour.  <a href="#ad66cf971ac98f73ad76108947029f3c6"></a><br/></td></tr>
 <tr class="separator:ad66cf971ac98f73ad76108947029f3c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada00f2e6df7ffc9d0e5ac15889588345"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopupMenu.html#ada00f2e6df7ffc9d0e5ac15889588345">addCustomItem</a> (int itemResultID, <a class="el" href="classComponent.html">Component</a> *customComponent, int idealWidth, int idealHeight, bool triggerMenuItemAutomaticallyWhenClicked)</td></tr>
-<tr class="memdesc:ada00f2e6df7ffc9d0e5ac15889588345"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a custom menu item that can't be used to trigger a result.  <a href="#ada00f2e6df7ffc9d0e5ac15889588345"></a><br/></td></tr>
-<tr class="separator:ada00f2e6df7ffc9d0e5ac15889588345"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b463a49cd883ab9b5ef3584b66378c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopupMenu.html#a5b463a49cd883ab9b5ef3584b66378c3">addCustomItem</a> (int itemResultID, <a class="el" href="classComponent.html">Component</a> *customComponent, int idealWidth, int idealHeight, bool triggerMenuItemAutomaticallyWhenClicked, const <a class="el" href="classPopupMenu.html">PopupMenu</a> *optionalSubMenu=nullptr)</td></tr>
+<tr class="memdesc:a5b463a49cd883ab9b5ef3584b66378c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a custom menu item that can't be used to trigger a result.  <a href="#a5b463a49cd883ab9b5ef3584b66378c3"></a><br/></td></tr>
+<tr class="separator:a5b463a49cd883ab9b5ef3584b66378c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa19efbf7204911ed65a482735bfa8ad4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopupMenu.html#aa19efbf7204911ed65a482735bfa8ad4">addSubMenu</a> (const <a class="el" href="classString.html">String</a> &amp;subMenuName, const <a class="el" href="classPopupMenu.html">PopupMenu</a> &amp;subMenu, bool isEnabled=true, const <a class="el" href="classImage.html">Image</a> &amp;iconToUse=<a class="el" href="classImage.html#af20f6e6962f885e2142520f18ca4ee17">Image::null</a>, bool isTicked=false, int itemResultID=0)</td></tr>
 <tr class="memdesc:aa19efbf7204911ed65a482735bfa8ad4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a sub-menu.  <a href="#aa19efbf7204911ed65a482735bfa8ad4"></a><br/></td></tr>
 <tr class="separator:aa19efbf7204911ed65a482735bfa8ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -402,7 +402,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPopupMenu.html#a9c411d5c29fe887e4e961a402dd43944" title="Appends a separator to the menu, to help break it up into sections.">addSeparator</a>, <a class="el" href="classPopupMenu.html#ad66cf971ac98f73ad76108947029f3c6" title="Appends a text item with a special colour.">addColouredItem</a>, <a class="el" href="classPopupMenu.html#ada00f2e6df7ffc9d0e5ac15889588345" title="Appends a custom menu item that can&#39;t be used to trigger a result.">addCustomItem</a>, <a class="el" href="classPopupMenu.html#aa19efbf7204911ed65a482735bfa8ad4" title="Appends a sub-menu.">addSubMenu</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPopupMenu.html#a9c411d5c29fe887e4e961a402dd43944" title="Appends a separator to the menu, to help break it up into sections.">addSeparator</a>, <a class="el" href="classPopupMenu.html#ad66cf971ac98f73ad76108947029f3c6" title="Appends a text item with a special colour.">addColouredItem</a>, <a class="el" href="classPopupMenu.html#a5b463a49cd883ab9b5ef3584b66378c3" title="Appends a custom menu item that can&#39;t be used to trigger a result.">addCustomItem</a>, <a class="el" href="classPopupMenu.html#aa19efbf7204911ed65a482735bfa8ad4" title="Appends a sub-menu.">addSubMenu</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a0e7c6b06043ccf3930ebc27a8d3b740e">StandaloneFilterWindow::buttonClicked()</a>.</p>
 
@@ -503,7 +503,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ada00f2e6df7ffc9d0e5ac15889588345"></a>
+<a class="anchor" id="a5b463a49cd883ab9b5ef3584b66378c3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -535,7 +535,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>triggerMenuItemAutomaticallyWhenClicked</em>&#160;</td>
+          <td class="paramname"><em>triggerMenuItemAutomaticallyWhenClicked</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPopupMenu.html">PopupMenu</a> *&#160;</td>
+          <td class="paramname"><em>optionalSubMenu</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -546,7 +552,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Appends a custom menu item that can't be used to trigger a result. </p>
-<p>This will add a user-defined component to use as a menu item. Unlike the <a class="el" href="classPopupMenu.html#ada00f2e6df7ffc9d0e5ac15889588345" title="Appends a custom menu item that can&#39;t be used to trigger a result.">addCustomItem()</a> method that takes a <a class="el" href="classPopupMenu_1_1CustomComponent.html" title="A user-defined copmonent that can be used as an item in a popup menu.">PopupMenu::CustomComponent</a>, this version can't trigger a result from it, so doesn't take a menu ID. It also doesn't delete the component when it's finished, so it's the caller's responsibility to manage the component that is passed-in.</p>
+<p>This will add a user-defined component to use as a menu item. Unlike the <a class="el" href="classPopupMenu.html#a5b463a49cd883ab9b5ef3584b66378c3" title="Appends a custom menu item that can&#39;t be used to trigger a result.">addCustomItem()</a> method that takes a <a class="el" href="classPopupMenu_1_1CustomComponent.html" title="A user-defined copmonent that can be used as an item in a popup menu.">PopupMenu::CustomComponent</a>, this version can't trigger a result from it, so doesn't take a menu ID. It also doesn't delete the component when it's finished, so it's the caller's responsibility to manage the component that is passed-in.</p>
 <p>if triggerMenuItemAutomaticallyWhenClicked is true, the menu itself will handle detection of a mouse-click on your component, and use that to trigger the menu ID specified in itemResultID. If this is false, the menu item can't be triggered, so itemResultID is not used.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPopupMenu_1_1CustomComponent.html" title="A user-defined copmonent that can be used as an item in a popup menu.">CustomComponent</a> </dd></dl>
 

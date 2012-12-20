@@ -304,7 +304,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">className (<span class="keyword">const</span> className&amp;);\</div>
-<div class="line">    className&amp; operator= (<span class="keyword">const</span> className&amp;)</div>
+<div class="line">    className&amp; operator= (<span class="keyword">const</span> className&amp;);</div>
 </div><!-- fragment -->
 <p>This is a shorthand macro for declaring stubs for a class's copy constructor and operator=. </p>
 <p>For example, instead of </p>
@@ -322,7 +322,7 @@ Macros</h2></td></tr>
 <div class="line">    etc..</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">private</span>:</div>
-<div class="line">    <a class="code" href="juce__PlatformDefs_8h.html#a6ab7a603bf4435c7cb286b1744366eb2" title="This is a shorthand macro for declaring stubs for a class&#39;s copy constructor and operator=.">JUCE_DECLARE_NON_COPYABLE</a> (MyClass);</div>
+<div class="line">    <a class="code" href="juce__PlatformDefs_8h.html#a6ab7a603bf4435c7cb286b1744366eb2" title="This is a shorthand macro for declaring stubs for a class&#39;s copy constructor and operator=.">JUCE_DECLARE_NON_COPYABLE</a> (MyClass)</div>
 <div class="line">};</div>
 </div><!-- fragment --> 
 </div>
@@ -340,7 +340,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="juce__PlatformDefs_8h.html#a6ab7a603bf4435c7cb286b1744366eb2" title="This is a shorthand macro for declaring stubs for a class&#39;s copy constructor and operator=.">JUCE_DECLARE_NON_COPYABLE</a>(className);\</div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="juce__PlatformDefs_8h.html#a6ab7a603bf4435c7cb286b1744366eb2" title="This is a shorthand macro for declaring stubs for a class&#39;s copy constructor and operator=.">JUCE_DECLARE_NON_COPYABLE</a>(className) \</div>
 <div class="line">    JUCE_LEAK_DETECTOR(className)</div>
 </div><!-- fragment -->
 <p>This is a shorthand way of writing both a JUCE_DECLARE_NON_COPYABLE and JUCE_LEAK_DETECTOR macro for a class. </p>

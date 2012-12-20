@@ -43,6 +43,7 @@ var searchData=
   ['withoutmousebuttons',['withoutMouseButtons',['../classModifierKeys.html#a3721a2e2f7aa8f34a3c28caa804c8356',1,'ModifierKeys']]],
   ['withparam',['withParam',['../classModalCallbackFunction.html#a2330d0069d39bbb844ec75cb09bc7868',1,'ModalCallbackFunction']]],
   ['withparameter',['withParameter',['../classURL.html#a3974f5b9d28d360ac657df3b42082f5d',1,'URL']]],
+  ['withpointheight',['withPointHeight',['../classFont.html#a88283e79e56f4ec57dfe66f174996f2f',1,'Font']]],
   ['withposition',['withPosition',['../classRectangle.html#a536dd687b3882eb6c0e76b8009328797',1,'Rectangle::withPosition(const ValueType newX, const ValueType newY) const noexcept'],['../classRectangle.html#a2896c59e139a261cc4c157eb0a979295',1,'Rectangle::withPosition(const Point&lt; ValueType &gt; &amp;newPos) const noexcept']]],
   ['withpostdata',['withPOSTData',['../classURL.html#a9fe9f66a50ff9f6d6d1bcb47ad3ead2a',1,'URL']]],
   ['withrenamedsymbol',['withRenamedSymbol',['../classExpression.html#a598b92aa6528a3c3d25a54095b0b9595',1,'Expression']]],

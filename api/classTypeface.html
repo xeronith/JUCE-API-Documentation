@@ -129,6 +129,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a47d0adeb19ac659b54cad34a832192c9"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#a47d0adeb19ac659b54cad34a832192c9">getDescent</a> () const =0</td></tr>
 <tr class="memdesc:a47d0adeb19ac659b54cad34a832192c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the descent of the font, as a proportion of its height.  <a href="#a47d0adeb19ac659b54cad34a832192c9"></a><br/></td></tr>
 <tr class="separator:a47d0adeb19ac659b54cad34a832192c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37a6b9c6f2221722d42673af813a4d0c"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#a37a6b9c6f2221722d42673af813a4d0c">getHeightToPointsFactor</a> () const =0</td></tr>
+<tr class="memdesc:a37a6b9c6f2221722d42673af813a4d0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value by which you should multiply a juce font-height value to convert it to the equivalent point-size.  <a href="#a37a6b9c6f2221722d42673af813a4d0c"></a><br/></td></tr>
+<tr class="separator:a37a6b9c6f2221722d42673af813a4d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb8c05c634392c892c0068011e888d0f"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#acb8c05c634392c892c0068011e888d0f">getStringWidth</a> (const <a class="el" href="classString.html">String</a> &amp;text)=0</td></tr>
 <tr class="memdesc:acb8c05c634392c892c0068011e888d0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measures the width of a line of text.  <a href="#acb8c05c634392c892c0068011e888d0f"></a><br/></td></tr>
 <tr class="separator:acb8c05c634392c892c0068011e888d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -437,6 +440,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a37a6b9c6f2221722d42673af813a4d0c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual float Typeface::getHeightToPointsFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the value by which you should multiply a juce font-height value to convert it to the equivalent point-size. </p>
+
+<p>Implemented in <a class="el" href="classCustomTypeface.html#a9e60cad78184f2169c5815a0b955fe1c">CustomTypeface</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="acb8c05c634392c892c0068011e888d0f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -460,8 +490,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Measures the width of a line of text. </p>
-<p>The distance returned is based on the font having an normalised height of 1.0.</p>
-<p>You should never need to call this directly! Use <a class="el" href="classFont.html#aed4d0579fb11ca1bba6c68e5bd02e1b2" title="Returns the total width of a string as it would be drawn using this font.">Font::getStringWidth()</a> instead! </p>
+<p>The distance returned is based on the font having an normalised height of 1.0. You should never need to call this directly! Use <a class="el" href="classFont.html#aed4d0579fb11ca1bba6c68e5bd02e1b2" title="Returns the total width of a string as it would be drawn using this font.">Font::getStringWidth()</a> instead! </p>
 
 <p>Implemented in <a class="el" href="classCustomTypeface.html#a8bce0d61aab0ab6ffb8cfed27c20de40">CustomTypeface</a>.</p>
 
@@ -506,8 +535,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Converts a line of text into its glyph numbers and their positions. </p>
-<p>The distances returned are based on the font having an normalised height of 1.0.</p>
-<p>You should never need to call this directly! Use <a class="el" href="classFont.html#a6040a5e844539fb75c720b1d6d0ae053" title="Returns the series of glyph numbers and their x offsets needed to represent a string.">Font::getGlyphPositions()</a> instead! </p>
+<p>The distances returned are based on the font having an normalised height of 1.0. You should never need to call this directly! Use <a class="el" href="classFont.html#a6040a5e844539fb75c720b1d6d0ae053" title="Returns the series of glyph numbers and their x offsets needed to represent a string.">Font::getGlyphPositions()</a> instead! </p>
 
 <p>Implemented in <a class="el" href="classCustomTypeface.html#a60167813f5a8cb3e0fe94c490099cb9c">CustomTypeface</a>.</p>
 

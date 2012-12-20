@@ -53,7 +53,7 @@ var searchData=
   ['addcopyoflist',['addCopyOfList',['../classLinkedListPointer.html#a471a609ef0b2d61ccfdada1aaf5eb73f',1,'LinkedListPointer']]],
   ['addcurtailedlineoftext',['addCurtailedLineOfText',['../classGlyphArrangement.html#a7bd1c1d0e03dfd9ecc19a826b78975aa',1,'GlyphArrangement']]],
   ['addcustomcomponent',['addCustomComponent',['../classAlertWindow.html#a18e5456aa067a106f8ecbb03dc01f032',1,'AlertWindow']]],
-  ['addcustomitem',['addCustomItem',['../classPopupMenu.html#ada00f2e6df7ffc9d0e5ac15889588345',1,'PopupMenu::addCustomItem(int itemResultID, Component *customComponent, int idealWidth, int idealHeight, bool triggerMenuItemAutomaticallyWhenClicked)'],['../classPopupMenu.html#a81dcc274205a59f200f25e1f122cfca9',1,'PopupMenu::addCustomItem(int itemResultID, CustomComponent *customComponent)']]],
+  ['addcustomitem',['addCustomItem',['../classPopupMenu.html#a5b463a49cd883ab9b5ef3584b66378c3',1,'PopupMenu::addCustomItem(int itemResultID, Component *customComponent, int idealWidth, int idealHeight, bool triggerMenuItemAutomaticallyWhenClicked, const PopupMenu *optionalSubMenu=nullptr)'],['../classPopupMenu.html#a81dcc274205a59f200f25e1f122cfca9',1,'PopupMenu::addCustomItem(int itemResultID, CustomComponent *customComponent)']]],
   ['adddefaultformats',['addDefaultFormats',['../classAudioPluginFormatManager.html#a43c3c16e48f1c50069573c8aede0b776',1,'AudioPluginFormatManager']]],
   ['adddefaultitems',['addDefaultItems',['../classToolbar.html#ae9fdaea1b76bc158f8a9b22866911b6f',1,'Toolbar']]],
   ['adddefaultkeypress',['addDefaultKeypress',['../structApplicationCommandInfo.html#a881e809ef15becd0732afe0799ce25ad',1,'ApplicationCommandInfo']]],

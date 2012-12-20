@@ -160,6 +160,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac4843d9a7d9cc7481c6d2b6cd5af3f7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::FloatType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLine.html#ac4843d9a7d9cc7481c6d2b6cd5af3f7e">getAngle</a> () const noexcept</td></tr>
 <tr class="memdesc:ac4843d9a7d9cc7481c6d2b6cd5af3f7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the line's angle.  <a href="#ac4843d9a7d9cc7481c6d2b6cd5af3f7e"></a><br/></td></tr>
 <tr class="separator:ac4843d9a7d9cc7481c6d2b6cd5af3f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accd599a7394efc17cde02c3df1ff6eb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLine.html">Line</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLine.html#accd599a7394efc17cde02c3df1ff6eb7">toFloat</a> () const noexcept</td></tr>
+<tr class="memdesc:accd599a7394efc17cde02c3df1ff6eb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casts this line to float coordinates.  <a href="#accd599a7394efc17cde02c3df1ff6eb7"></a><br/></td></tr>
+<tr class="separator:accd599a7394efc17cde02c3df1ff6eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbfed230f1a83b399812a4889122ef68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLine.html">Line</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLine.html#adbfed230f1a83b399812a4889122ef68">toDouble</a> () const noexcept</td></tr>
+<tr class="memdesc:adbfed230f1a83b399812a4889122ef68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casts this line to double coordinates.  <a href="#adbfed230f1a83b399812a4889122ef68"></a><br/></td></tr>
+<tr class="separator:adbfed230f1a83b399812a4889122ef68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3974f999e9c76f5ca90ac332ad37c86b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLine.html#a3974f999e9c76f5ca90ac332ad37c86b">operator==</a> (const <a class="el" href="classLine.html">Line</a> &amp;other) const noexcept</td></tr>
 <tr class="memdesc:a3974f999e9c76f5ca90ac332ad37c86b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two lines.  <a href="#a3974f999e9c76f5ca90ac332ad37c86b"></a><br/></td></tr>
 <tr class="separator:a3974f999e9c76f5ca90ac332ad37c86b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -869,6 +875,60 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns the line's angle. </p>
 <p>This value is the number of radians clockwise from the 12 o'clock direction, where the line's start point is considered to be at the centre. </p>
+
+</div>
+</div>
+<a class="anchor" id="accd599a7394efc17cde02c3df1ff6eb7"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classLine.html">Line</a>&lt;float&gt; <a class="el" href="classLine.html">Line</a>&lt; ValueType &gt;::toFloat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Casts this line to float coordinates. </p>
+
+</div>
+</div>
+<a class="anchor" id="adbfed230f1a83b399812a4889122ef68"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classLine.html">Line</a>&lt;double&gt; <a class="el" href="classLine.html">Line</a>&lt; ValueType &gt;::toDouble </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Casts this line to double coordinates. </p>
 
 </div>
 </div>

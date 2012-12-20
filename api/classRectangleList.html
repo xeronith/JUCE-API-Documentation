@@ -179,9 +179,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac5f3ae4d7faddaf5ec042b4f39038d0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#ac5f3ae4d7faddaf5ec042b4f39038d0b">offsetAll</a> (int dx, int dy) noexcept</td></tr>
 <tr class="memdesc:ac5f3ae4d7faddaf5ec042b4f39038d0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an x and y value to all the co-ordinates.  <a href="#ac5f3ae4d7faddaf5ec042b4f39038d0b"></a><br/></td></tr>
 <tr class="separator:ac5f3ae4d7faddaf5ec042b4f39038d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba34a373e37ddd0b3bd6cf0e3019dbe2"><td class="memTemplParams" colspan="2">template&lt;typename ScaleType &gt; </td></tr>
+<tr class="memitem:aba34a373e37ddd0b3bd6cf0e3019dbe2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classRectangleList.html#aba34a373e37ddd0b3bd6cf0e3019dbe2">scaleAll</a> (ScaleType scaleFactor) noexcept</td></tr>
+<tr class="memdesc:aba34a373e37ddd0b3bd6cf0e3019dbe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scales all the co-ordinates.  <a href="#aba34a373e37ddd0b3bd6cf0e3019dbe2"></a><br/></td></tr>
+<tr class="separator:aba34a373e37ddd0b3bd6cf0e3019dbe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a577e67a56c9c7b17afe3c2c3fe30d7a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPath.html">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a577e67a56c9c7b17afe3c2c3fe30d7a5">toPath</a> () const </td></tr>
 <tr class="memdesc:a577e67a56c9c7b17afe3c2c3fe30d7a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classPath.html" title="A path is a sequence of lines and curves that may either form a closed shape or be open-ended...">Path</a> object to represent this region.  <a href="#a577e67a56c9c7b17afe3c2c3fe30d7a5"></a><br/></td></tr>
 <tr class="separator:a577e67a56c9c7b17afe3c2c3fe30d7a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2db69b5c372d8da85b799f8fb1af48a6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a2db69b5c372d8da85b799f8fb1af48a6">begin</a> () const noexcept</td></tr>
+<tr class="memdesc:a2db69b5c372d8da85b799f8fb1af48a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard method for iterating the rectangles in the list.  <a href="#a2db69b5c372d8da85b799f8fb1af48a6"></a><br/></td></tr>
+<tr class="separator:a2db69b5c372d8da85b799f8fb1af48a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1389798b3eca84f427c1a9e1336d7487"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a1389798b3eca84f427c1a9e1336d7487">end</a> () const noexcept</td></tr>
+<tr class="memdesc:a1389798b3eca84f427c1a9e1336d7487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard method for iterating the rectangles in the list.  <a href="#a1389798b3eca84f427c1a9e1336d7487"></a><br/></td></tr>
+<tr class="separator:a1389798b3eca84f427c1a9e1336d7487"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Maintains a set of rectangles as a complex region. </p>
@@ -807,6 +817,34 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aba34a373e37ddd0b3bd6cf0e3019dbe2"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ScaleType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RectangleList::scaleAll </td>
+          <td>(</td>
+          <td class="paramtype">ScaleType&#160;</td>
+          <td class="paramname"><em>scaleFactor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Scales all the co-ordinates. </p>
+
+</div>
+</div>
 <a class="anchor" id="a577e67a56c9c7b17afe3c2c3fe30d7a5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -821,6 +859,56 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a <a class="el" href="classPath.html" title="A path is a sequence of lines and curves that may either form a closed shape or be open-ended...">Path</a> object to represent this region. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2db69b5c372d8da85b799f8fb1af48a6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classRectangle.html">Rectangle</a>&lt;int&gt;* RectangleList::begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Standard method for iterating the rectangles in the list. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1389798b3eca84f427c1a9e1336d7487"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classRectangle.html">Rectangle</a>&lt;int&gt;* RectangleList::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Standard method for iterating the rectangles in the list. </p>
 
 </div>
 </div>

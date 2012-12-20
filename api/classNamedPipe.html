@@ -121,9 +121,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa091d109e18d5b9ae5fb0f4a03cdf743"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNamedPipe.html#aa091d109e18d5b9ae5fb0f4a03cdf743">write</a> (const void *sourceBuffer, int numBytesToWrite, int timeOutMilliseconds)</td></tr>
 <tr class="memdesc:aa091d109e18d5b9ae5fb0f4a03cdf743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes some data to the pipe.  <a href="#aa091d109e18d5b9ae5fb0f4a03cdf743"></a><br/></td></tr>
 <tr class="separator:aa091d109e18d5b9ae5fb0f4a03cdf743"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4521d38b599081da3f02e1468dac6445"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNamedPipe.html#a4521d38b599081da3f02e1468dac6445">cancelPendingReads</a> ()</td></tr>
-<tr class="memdesc:a4521d38b599081da3f02e1468dac6445"><td class="mdescLeft">&#160;</td><td class="mdescRight">If any threads are currently blocked on a read operation, this tells them to abort.  <a href="#a4521d38b599081da3f02e1468dac6445"></a><br/></td></tr>
-<tr class="separator:a4521d38b599081da3f02e1468dac6445"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A cross-process pipe that can have data written to and read from it. </p>
@@ -285,7 +282,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reads data from the pipe. </p>
-<p>This will block until another thread has written enough data into the pipe to fill the number of bytes specified, or until another thread calls the <a class="el" href="classNamedPipe.html#a4521d38b599081da3f02e1468dac6445" title="If any threads are currently blocked on a read operation, this tells them to abort.">cancelPendingReads()</a> method.</p>
+<p>This will block until another thread has written enough data into the pipe to fill the number of bytes specified, or until another thread calls the cancelPendingReads() method.</p>
 <p>If the operation fails, it returns -1, otherwise, it will return the number of bytes read.</p>
 <p>If timeOutMilliseconds is less than zero, it will wait indefinitely, otherwise this is a maximum timeout for reading from the pipe. </p>
 
@@ -323,23 +320,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Writes some data to the pipe. </p>
 <dl class="section return"><dt>Returns</dt><dd>the number of bytes written, or -1 on failure. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a4521d38b599081da3f02e1468dac6445"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void NamedPipe::cancelPendingReads </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>If any threads are currently blocked on a read operation, this tells them to abort. </p>
 
 </div>
 </div>

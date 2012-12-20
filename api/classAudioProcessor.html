@@ -84,6 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
@@ -131,6 +132,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7d8c56f45dfd03b507e120eeca7435dd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a7d8c56f45dfd03b507e120eeca7435dd">processBlock</a> (<a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;buffer, <a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;midiMessages)=0</td></tr>
 <tr class="memdesc:a7d8c56f45dfd03b507e120eeca7435dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the next block.  <a href="#a7d8c56f45dfd03b507e120eeca7435dd"></a><br/></td></tr>
 <tr class="separator:a7d8c56f45dfd03b507e120eeca7435dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65ce0a6bc2aedf40bf7d37519d095e93"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a65ce0a6bc2aedf40bf7d37519d095e93">processBlockBypassed</a> (<a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;buffer, <a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;midiMessages)</td></tr>
+<tr class="memdesc:a65ce0a6bc2aedf40bf7d37519d095e93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the next block when the processor is being bypassed.  <a href="#a65ce0a6bc2aedf40bf7d37519d095e93"></a><br/></td></tr>
+<tr class="separator:a65ce0a6bc2aedf40bf7d37519d095e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3000c867da8b04866a4f91c8103956ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioPlayHead.html">AudioPlayHead</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a3000c867da8b04866a4f91c8103956ac">getPlayHead</a> () const noexcept</td></tr>
 <tr class="memdesc:a3000c867da8b04866a4f91c8103956ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current <a class="el" href="classAudioPlayHead.html" title="A subclass of AudioPlayHead can supply information about the position and status of a moving play hea...">AudioPlayHead</a> object that should be used to find out the state and position of the playhead.  <a href="#a3000c867da8b04866a4f91c8103956ac"></a><br/></td></tr>
 <tr class="separator:a3000c867da8b04866a4f91c8103956ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -294,6 +298,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a32373cce07683bdd38cf3b01eb1c4bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not for public use - this is called to initialise the processor before playing.  <a href="#a32373cce07683bdd38cf3b01eb1c4bdc"></a><br/></td></tr>
 <tr class="separator:a32373cce07683bdd38cf3b01eb1c4bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:adbd911f75ad7cbe659a26bd3a2b05a30"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#adbd911f75ad7cbe659a26bd3a2b05a30">setTypeOfNextNewPlugin</a> (<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">WrapperType</a>)</td></tr>
+<tr class="separator:adbd911f75ad7cbe659a26bd3a2b05a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a7bf4a5cf41e84de51aab7ccb75d1f897"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">WrapperType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a7bf4a5cf41e84de51aab7ccb75d1f897">wrapperType</a></td></tr>
@@ -326,7 +335,7 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><p>Base class for audio processing filters or plugins. </p>
 <p>This is intended to act as a base class of audio filter that is general enough to be wrapped as a VST, AU, RTAS, etc, or used internally.</p>
 <p>It is also used by the plugin hosting code as the wrapper around an instance of a loaded plugin.</p>
-<p>Derive your filter class from this base class, and if you're building a plugin, you should implement a global function called <a class="el" href="juce__StandaloneFilterWindow_8h.html#a803761ea8219833514254308e552a8d3" title="Somewhere in the codebase of your plugin, you need to implement this function and make it create an i...">createPluginFilter()</a> which creates and returns a new instance of your subclass. </p>
+<p>Derive your filter class from this base class, and if you're building a plugin, you should implement a global function called createPluginFilter() which creates and returns a new instance of your subclass. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="a2e1b21b8831ac529965abffc96223dcf"></a>
 <div class="memitem">
@@ -549,6 +558,43 @@ Protected Attributes</h2></td></tr>
 <p>Be very careful about what you do in this callback - it's going to be called by the audio thread, so any kind of interaction with the UI is absolutely out of the question. If you change a parameter in here and need to tell your UI to update itself, the best way is probably to inherit from a <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed.">ChangeBroadcaster</a>, let the UI components register as listeners, and then call sendChangeMessage() inside the <a class="el" href="classAudioProcessor.html#a7d8c56f45dfd03b507e120eeca7435dd" title="Renders the next block.">processBlock()</a> method to send out an asynchronous message. You could also use the <a class="el" href="classAsyncUpdater.html" title="Has a callback method that is triggered asynchronously.">AsyncUpdater</a> class in a similar way. </p>
 
 <p>Implemented in <a class="el" href="classAudioProcessorGraph.html#a65b1119b439500471cc77b295a00bace">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a30fb712f9a7b9eb1ecf2cf3afdec76a2">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a65ce0a6bc2aedf40bf7d37519d095e93"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AudioProcessor::processBlockBypassed </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>midiMessages</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Renders the next block when the processor is being bypassed. </p>
+<p>The default implementation of this method will pass-through any incoming audio, but you may override this method e.g. to add latency compensation to the data to match the processor's latency characteristics. This will avoid situations where bypassing will shift the signal forward in time, possibly creating pre-echo effects and odd timings. Another use for this method would be to cross-fade or morph between the wet (not bypassed) and dry (bypassed) signals. </p>
 
 </div>
 </div>
@@ -2069,6 +2115,30 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="adbd911f75ad7cbe659a26bd3a2b05a30"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void AudioProcessor::setTypeOfNextNewPlugin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">WrapperType</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a6d0c1c945bebbc967d187c0f08b42c4b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2190,8 +2260,6 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>When loaded by a plugin wrapper, this flag will be set to indicate the type of plugin within which the processor is running. </p>
-
-<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a25483b8451fcf2680b7e8d032a57fc24">StandaloneFilterWindow::StandaloneFilterWindow()</a>.</p>
 
 </div>
 </div>
