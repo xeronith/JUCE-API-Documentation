@@ -98,7 +98,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopupMenu_1_1CustomComponent.html">CustomComponent</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A user-defined copmonent that can be used as an item in a popup menu.  <a href="classPopupMenu_1_1CustomComponent.html#details">More...</a><br/></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A user-defined component that can be used as an item in a popup menu.  <a href="classPopupMenu_1_1CustomComponent.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopupMenu_1_1MenuItemIterator.html">MenuItemIterator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows you to iterate through the items in a pop-up menu, and examine their properties.  <a href="classPopupMenu_1_1MenuItemIterator.html#details">More...</a><br/></td></tr>
@@ -174,9 +174,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a449653121fdc2a2b7f3e77d663266d00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopupMenu.html#a449653121fdc2a2b7f3e77d663266d00">setLookAndFeel</a> (<a class="el" href="classLookAndFeel.html">LookAndFeel</a> *newLookAndFeel)</td></tr>
 <tr class="memdesc:a449653121fdc2a2b7f3e77d663266d00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies a look-and-feel for the menu and any sub-menus that it has.  <a href="#a449653121fdc2a2b7f3e77d663266d00"></a><br/></td></tr>
 <tr class="separator:a449653121fdc2a2b7f3e77d663266d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81dcc274205a59f200f25e1f122cfca9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopupMenu.html#a81dcc274205a59f200f25e1f122cfca9">addCustomItem</a> (int itemResultID, <a class="el" href="classPopupMenu_1_1CustomComponent.html">CustomComponent</a> *customComponent)</td></tr>
-<tr class="memdesc:a81dcc274205a59f200f25e1f122cfca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a custom menu item.  <a href="#a81dcc274205a59f200f25e1f122cfca9"></a><br/></td></tr>
-<tr class="separator:a81dcc274205a59f200f25e1f122cfca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3420fb5dc0dc01786ffc056892509efd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopupMenu.html#a3420fb5dc0dc01786ffc056892509efd">addCustomItem</a> (int itemResultID, <a class="el" href="classPopupMenu_1_1CustomComponent.html">CustomComponent</a> *customComponent, const <a class="el" href="classPopupMenu.html">PopupMenu</a> *optionalSubMenu=nullptr)</td></tr>
+<tr class="memdesc:a3420fb5dc0dc01786ffc056892509efd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a custom menu item.  <a href="#a3420fb5dc0dc01786ffc056892509efd"></a><br/></td></tr>
+<tr class="separator:a3420fb5dc0dc01786ffc056892509efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -552,9 +552,9 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Appends a custom menu item that can't be used to trigger a result. </p>
-<p>This will add a user-defined component to use as a menu item. Unlike the <a class="el" href="classPopupMenu.html#a5b463a49cd883ab9b5ef3584b66378c3" title="Appends a custom menu item that can&#39;t be used to trigger a result.">addCustomItem()</a> method that takes a <a class="el" href="classPopupMenu_1_1CustomComponent.html" title="A user-defined copmonent that can be used as an item in a popup menu.">PopupMenu::CustomComponent</a>, this version can't trigger a result from it, so doesn't take a menu ID. It also doesn't delete the component when it's finished, so it's the caller's responsibility to manage the component that is passed-in.</p>
+<p>This will add a user-defined component to use as a menu item. Unlike the <a class="el" href="classPopupMenu.html#a5b463a49cd883ab9b5ef3584b66378c3" title="Appends a custom menu item that can&#39;t be used to trigger a result.">addCustomItem()</a> method that takes a <a class="el" href="classPopupMenu_1_1CustomComponent.html" title="A user-defined component that can be used as an item in a popup menu.">PopupMenu::CustomComponent</a>, this version can't trigger a result from it, so doesn't take a menu ID. It also doesn't delete the component when it's finished, so it's the caller's responsibility to manage the component that is passed-in.</p>
 <p>if triggerMenuItemAutomaticallyWhenClicked is true, the menu itself will handle detection of a mouse-click on your component, and use that to trigger the menu ID specified in itemResultID. If this is false, the menu item can't be triggered, so itemResultID is not used.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPopupMenu_1_1CustomComponent.html" title="A user-defined copmonent that can be used as an item in a popup menu.">CustomComponent</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPopupMenu_1_1CustomComponent.html" title="A user-defined component that can be used as an item in a popup menu.">CustomComponent</a> </dd></dl>
 
 </div>
 </div>
@@ -792,7 +792,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a81dcc274205a59f200f25e1f122cfca9"></a>
+<a class="anchor" id="a3420fb5dc0dc01786ffc056892509efd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -806,7 +806,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classPopupMenu_1_1CustomComponent.html">CustomComponent</a> *&#160;</td>
-          <td class="paramname"><em>customComponent</em>&#160;</td>
+          <td class="paramname"><em>customComponent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPopupMenu.html">PopupMenu</a> *&#160;</td>
+          <td class="paramname"><em>optionalSubMenu</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -818,7 +824,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Appends a custom menu item. </p>
 <p>This will add a user-defined component to use as a menu item. The component passed in will be deleted by this menu when it's no longer needed.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPopupMenu_1_1CustomComponent.html" title="A user-defined copmonent that can be used as an item in a popup menu.">CustomComponent</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPopupMenu_1_1CustomComponent.html" title="A user-defined component that can be used as an item in a popup menu.">CustomComponent</a> </dd></dl>
 
 </div>
 </div>

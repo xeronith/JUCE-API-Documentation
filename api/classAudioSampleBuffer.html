@@ -151,6 +151,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab48050b2a3f5068723c16025392e72d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#ab48050b2a3f5068723c16025392e72d5">applyGainRamp</a> (int channel, int startSample, int numSamples, float startGain, float endGain) noexcept</td></tr>
 <tr class="memdesc:ab48050b2a3f5068723c16025392e72d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a range of gains to a region of a channel.  <a href="#ab48050b2a3f5068723c16025392e72d5"></a><br/></td></tr>
 <tr class="separator:ab48050b2a3f5068723c16025392e72d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf012223a9728e8d2087d54389a7022a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#aaf012223a9728e8d2087d54389a7022a">applyGainRamp</a> (int startSample, int numSamples, float startGain, float endGain) noexcept</td></tr>
+<tr class="memdesc:aaf012223a9728e8d2087d54389a7022a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a range of gains to a region of all channels.  <a href="#aaf012223a9728e8d2087d54389a7022a"></a><br/></td></tr>
+<tr class="separator:aaf012223a9728e8d2087d54389a7022a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a613b252e78c775969bcce8a68a0f2dc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a613b252e78c775969bcce8a68a0f2dc7">addFrom</a> (int destChannel, int destStartSample, const <a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;source, int sourceChannel, int sourceStartSample, int numSamples, float gainToApplyToSource=1.0f) noexcept</td></tr>
 <tr class="memdesc:a613b252e78c775969bcce8a68a0f2dc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds samples from another buffer to this one.  <a href="#a613b252e78c775969bcce8a68a0f2dc7"></a><br/></td></tr>
 <tr class="separator:a613b252e78c775969bcce8a68a0f2dc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -921,6 +924,56 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Applies a range of gains to a region of a channel. </p>
+<p>The gain that is applied to each sample will vary from startGain on the first sample to endGain on the last Sample, so it can be used to do basic fades.</p>
+<p>For speed, this doesn't check whether the sample numbers are in-range, so be careful! </p>
+
+</div>
+</div>
+<a class="anchor" id="aaf012223a9728e8d2087d54389a7022a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSampleBuffer::applyGainRamp </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>startSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>startGain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>endGain</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Applies a range of gains to a region of all channels. </p>
 <p>The gain that is applied to each sample will vary from startGain on the first sample to endGain on the last Sample, so it can be used to do basic fades.</p>
 <p>For speed, this doesn't check whether the sample numbers are in-range, so be careful! </p>
 

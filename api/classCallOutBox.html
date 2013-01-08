@@ -844,7 +844,7 @@ Additional Inherited Members</h2></td></tr>
 <p>This method will create and display a callout, returning immediately, after which the box will continue to run modally until the user clicks on some other component, at which point it will be dismissed automatically.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">contentComponent</td><td>the component to display inside the call-out. This should already have a size set (although the call-out will also update itself when the component's size is changed later). This copmonent will be owned by the callout box and deleted later when the box is dismissed. </td></tr>
+    <tr><td class="paramname">contentComponent</td><td>the component to display inside the call-out. This should already have a size set (although the call-out will also update itself when the component's size is changed later). This component will be owned by the callout box and deleted later when the box is dismissed. </td></tr>
     <tr><td class="paramname">areaToPointTo</td><td>the area that the call-out's arrow should point towards. If a parentComponent is supplied, then this is relative to that parent; otherwise, it's a global screen coord. </td></tr>
     <tr><td class="paramname">parentComponent</td><td>if non-zero, this is the component to add the call-out to. If this is a nullptr, the call-out will be added to the desktop. </td></tr>
   </table>
