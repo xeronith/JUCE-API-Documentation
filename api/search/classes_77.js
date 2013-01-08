@@ -11,6 +11,7 @@ var searchData=
   ['weakreference_3c_20messagelistener_20_3e',['WeakReference&lt; MessageListener &gt;',['../classWeakReference.html',1,'']]],
   ['webbrowsercomponent',['WebBrowserComponent',['../classWebBrowserComponent.html',1,'']]],
   ['wildcardfilefilter',['WildcardFileFilter',['../classWildcardFileFilter.html',1,'']]],
+  ['windowsmediaaudioformat',['WindowsMediaAudioFormat',['../classWindowsMediaAudioFormat.html',1,'']]],
   ['windowsregistry',['WindowsRegistry',['../classWindowsRegistry.html',1,'']]],
   ['writehelper',['WriteHelper',['../structAudioFormatWriter_1_1WriteHelper.html',1,'AudioFormatWriter']]]
 ];

@@ -114,6 +114,7 @@ var searchData=
   ['movetoabsolute',['moveToAbsolute',['../classRelativeCoordinate.html#aeb0b2ff1ac54cb6cd697c9345d579af2',1,'RelativeCoordinate::moveToAbsolute()'],['../classRelativePoint.html#a63494e10f98e6f1c694b41d9fb52059e',1,'RelativePoint::moveToAbsolute()'],['../classRelativeRectangle.html#af76a1248976d6b6e04d24ae3d93e3654',1,'RelativeRectangle::moveToAbsolute()']]],
   ['movetofrontofqueue',['moveToFrontOfQueue',['../classTimeSliceThread.html#a58c97295da5d454c299b9252a7a0999d',1,'TimeSliceThread']]],
   ['movetotrash',['moveToTrash',['../classFile.html#ad5657b8a600ed241a204656811c9522f',1,'File']]],
+  ['mp3audioformat',['MP3AudioFormat',['../classMP3AudioFormat.html#a886e1c528284a83a2a74974038617441',1,'MP3AudioFormat']]],
   ['multidocumentpanel',['MultiDocumentPanel',['../classMultiDocumentPanel.html#a2a3d7d745dd5cd11709ecee4102fa154',1,'MultiDocumentPanel']]],
   ['multidocumentpanelwindow',['MultiDocumentPanelWindow',['../classMultiDocumentPanelWindow.html#a498c18de5829f4206b6a5ba878a5da52',1,'MultiDocumentPanelWindow']]],
   ['multiplyallalphas',['multiplyAllAlphas',['../classImage.html#a9d1febd93213f92b50af58ce731cdabf',1,'Image']]],

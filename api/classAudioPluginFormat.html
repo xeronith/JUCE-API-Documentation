@@ -92,6 +92,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>The base class for a type of plugin format, such as VST, AudioUnit, LADSPA, etc.  
  <a href="classAudioPluginFormat.html#details">More...</a></p>
+
+<p>Inherited by <a class="el" href="classAudioUnitPluginFormat.html">AudioUnitPluginFormat</a>, and <a class="el" href="classVSTPluginFormat.html">VSTPluginFormat</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -208,6 +210,8 @@ Protected Member Functions</h2></td></tr>
 <p>Returns the format name. </p>
 <p>E.g. "VST", "AudioUnit", etc. </p>
 
+<p>Implemented in <a class="el" href="classVSTPluginFormat.html#a6ce32a4f95bd8066ba09b9edb2560b38">VSTPluginFormat</a>, and <a class="el" href="classAudioUnitPluginFormat.html#a428ab775706b775a9a3309e1434491b9">AudioUnitPluginFormat</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a9d23e71b2c2429cad9775a14e021abd6"></a>
@@ -246,6 +250,8 @@ Protected Member Functions</h2></td></tr>
 <p>The file will be some kind of DLL or bundle.</p>
 <p>Normally there will only be one type returned, but some plugins (e.g. VST shells) can use a single DLL to create a set of different plugin subtypes, so in that case, each subtype is returned as a separate object. </p>
 
+<p>Implemented in <a class="el" href="classVSTPluginFormat.html#a75f3f6f1dfd8d0e6ae8f5fe845744b8d">VSTPluginFormat</a>, and <a class="el" href="classAudioUnitPluginFormat.html#a55d672b1afcb47aeb96c21edfd1f8464">AudioUnitPluginFormat</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a8efba8d029ae6b22a88cc6d7c84e5ec0"></a>
@@ -272,6 +278,8 @@ Protected Member Functions</h2></td></tr>
 
 <p>Tries to recreate a type from a previously generated <a class="el" href="classPluginDescription.html" title="A small class to represent some facts about a particular type of plugin.">PluginDescription</a>. </p>
 <dl class="section see"><dt>See Also</dt><dd>PluginDescription::createInstance </dd></dl>
+
+<p>Implemented in <a class="el" href="classVSTPluginFormat.html#a67502de6a1459406de9b959f30bd53d2">VSTPluginFormat</a>, and <a class="el" href="classAudioUnitPluginFormat.html#aa883a2541faddaf2aa17935410f24240">AudioUnitPluginFormat</a>.</p>
 
 </div>
 </div>
@@ -300,6 +308,8 @@ Protected Member Functions</h2></td></tr>
 <p>Should do a quick check to see if this file or directory might be a plugin of this format. </p>
 <p>This is for searching for potential files, so it shouldn't actually try to load the plugin or do anything time-consuming. </p>
 
+<p>Implemented in <a class="el" href="classVSTPluginFormat.html#ad3bef28f811dcdbe9611fccb490bb98a">VSTPluginFormat</a>, and <a class="el" href="classAudioUnitPluginFormat.html#a1e7401bde9c00725f006803935692e47">AudioUnitPluginFormat</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a8e8251e287c4829606dda2f1730a1c32"></a>
@@ -325,6 +335,8 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a readable version of the name of the plugin that this identifier refers to. </p>
+
+<p>Implemented in <a class="el" href="classVSTPluginFormat.html#a596d349d64c1636e14288b89146c8474">VSTPluginFormat</a>, and <a class="el" href="classAudioUnitPluginFormat.html#a623858b900eba81fa3646fdc57890702">AudioUnitPluginFormat</a>.</p>
 
 </div>
 </div>
@@ -353,6 +365,8 @@ Protected Member Functions</h2></td></tr>
 <p>Checks whether this plugin could possibly be loaded. </p>
 <p>It doesn't actually need to load it, just to check whether the file or component still exists. </p>
 
+<p>Implemented in <a class="el" href="classVSTPluginFormat.html#a74cb2d2c3b600ba8bc2f6df755a29b5c">VSTPluginFormat</a>, and <a class="el" href="classAudioUnitPluginFormat.html#afde1ba364f7006896a141aa875aa83ed">AudioUnitPluginFormat</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a9bded73bfc877952f9f092ae13ae8816"></a>
@@ -377,6 +391,8 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns true if this format needs to run a scan to find its list of plugins. </p>
+
+<p>Implemented in <a class="el" href="classVSTPluginFormat.html#a11283fcb93e7fe8a3bc734fdeb95e7c5">VSTPluginFormat</a>, and <a class="el" href="classAudioUnitPluginFormat.html#a5ee5ad00789df9f280e00634e88747ba">AudioUnitPluginFormat</a>.</p>
 
 </div>
 </div>
@@ -415,6 +431,8 @@ Protected Member Functions</h2></td></tr>
 <p>Searches a suggested set of directories for any plugins in this format. </p>
 <p>The path might be ignored, e.g. by AUs, which are found by the OS rather than manually. </p>
 
+<p>Implemented in <a class="el" href="classVSTPluginFormat.html#a576b996995b305e3e2d0cc35900bd41a">VSTPluginFormat</a>, and <a class="el" href="classAudioUnitPluginFormat.html#af7ea28feb61dbf77ccb35e18b700dc40">AudioUnitPluginFormat</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="aa7d194ad3abdad8da5e37d2557579430"></a>
@@ -440,6 +458,8 @@ Protected Member Functions</h2></td></tr>
 
 <p>Returns the typical places to look for this kind of plugin. </p>
 <p>Note that if this returns no paths, it means that the format doesn't search in files or folders, e.g. AudioUnits. </p>
+
+<p>Implemented in <a class="el" href="classVSTPluginFormat.html#a575f91055ffe0f635fe0d9a17bd41d6e">VSTPluginFormat</a>, and <a class="el" href="classAudioUnitPluginFormat.html#a38648cfea7c4c48e990a84219c8a0795">AudioUnitPluginFormat</a>.</p>
 
 </div>
 </div>

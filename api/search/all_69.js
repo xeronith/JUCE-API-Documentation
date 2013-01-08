@@ -174,7 +174,7 @@ var searchData=
   ['iscommandactive',['isCommandActive',['../classApplicationCommandTarget.html#ab5ee995932e10bd18dc6fff111f3835e',1,'ApplicationCommandTarget']]],
   ['iscommanddown',['isCommandDown',['../classModifierKeys.html#a88f9e02beb40f6461d6ed8b655b7ebb3',1,'ModifierKeys']]],
   ['iscommandreadonly',['isCommandReadOnly',['../classKeyMappingEditorComponent.html#aa62cc07cddf842c855c577fbd118958c',1,'KeyMappingEditorComponent']]],
-  ['iscompressed',['isCompressed',['../classFlacAudioFormat.html#a3f1df9dc90113b19635266689a843040',1,'FlacAudioFormat::isCompressed()'],['../classOggVorbisAudioFormat.html#a436e1078eeef3c51cc79821687265bd5',1,'OggVorbisAudioFormat::isCompressed()'],['../classAudioFormat.html#a507f233bee0df2059b74d032460de870',1,'AudioFormat::isCompressed()']]],
+  ['iscompressed',['isCompressed',['../classFlacAudioFormat.html#a3f1df9dc90113b19635266689a843040',1,'FlacAudioFormat::isCompressed()'],['../classMP3AudioFormat.html#a4d43ccb4adb911919b13a5a6ce53b20a',1,'MP3AudioFormat::isCompressed()'],['../classOggVorbisAudioFormat.html#a436e1078eeef3c51cc79821687265bd5',1,'OggVorbisAudioFormat::isCompressed()'],['../classAudioFormat.html#a507f233bee0df2059b74d032460de870',1,'AudioFormat::isCompressed()']]],
   ['isconnected',['isConnected',['../classAudioProcessorGraph.html#a9f52ec181d8aabf723170d69b4bf4d7d',1,'AudioProcessorGraph::isConnected()'],['../classStreamingSocket.html#a22d32e5442ccae9033278729aaa3e075',1,'StreamingSocket::isConnected()'],['../classDatagramSocket.html#a965b875f8b0e97485a374d75349eccb6',1,'DatagramSocket::isConnected()'],['../classInterprocessConnection.html#a2c3d425edefb392a174f01a4e8e4c83a',1,'InterprocessConnection::isConnected()']]],
   ['isconnectedonbottom',['isConnectedOnBottom',['../classButton.html#a802fe07b98ca56f1e2138f306c596aa6',1,'Button']]],
   ['isconnectedonleft',['isConnectedOnLeft',['../classButton.html#a925cf41750a30bbd39d052af8ae37e20',1,'Button']]],
@@ -458,8 +458,8 @@ var searchData=
   ['iterator',['Iterator',['../classRectangleList_1_1Iterator.html',1,'RectangleList']]],
   ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html',1,'MidiBuffer']]],
   ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html#a19578e82fbfed6f1a84539a35d68dc4d',1,'MidiBuffer::Iterator::Iterator()'],['../classHashMap_1_1Iterator.html#ac41c61c6d2266cbd5c4458129a376aa4',1,'HashMap::Iterator::Iterator()'],['../classListenerList_1_1Iterator.html#aec6ff5dcf548392d46dd38b26168c79d',1,'ListenerList::Iterator::Iterator()'],['../classPath_1_1Iterator.html#a53108f853b4af5f975d870f24ad79f83',1,'Path::Iterator::Iterator()'],['../classRectangleList_1_1Iterator.html#a02f527d1bad199fa04a9a1f3ce8a3148',1,'RectangleList::Iterator::Iterator()'],['../classCodeDocument_1_1Iterator.html#a350e1a7a64043f010e5467a1d862830f',1,'CodeDocument::Iterator::Iterator(const CodeDocument &amp;document) noexcept'],['../classCodeDocument_1_1Iterator.html#ad96c135bfd54bedf7800255bb3b52213',1,'CodeDocument::Iterator::Iterator(const Iterator &amp;other) noexcept']]],
-  ['iterator',['Iterator',['../classPath_1_1Iterator.html',1,'Path']]],
-  ['iterator',['Iterator',['../classCodeDocument_1_1Iterator.html',1,'CodeDocument']]],
   ['iterator',['Iterator',['../classListenerList_1_1Iterator.html',1,'ListenerList']]],
+  ['iterator',['Iterator',['../classCodeDocument_1_1Iterator.html',1,'CodeDocument']]],
+  ['iterator',['Iterator',['../classPath_1_1Iterator.html',1,'Path']]],
   ['ivory',['ivory',['../classColours.html#a97ea5f64838c6c2d1301c32108e830d3',1,'Colours']]]
 ];

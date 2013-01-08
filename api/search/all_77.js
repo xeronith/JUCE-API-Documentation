@@ -52,6 +52,7 @@ var searchData=
   ['windows',['Windows',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaae300f2fc8f4c69f639d7b066ccdc6a64',1,'SystemStats']]],
   ['windows7',['Windows7',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaad260305d49564b976ea39d057c71d490',1,'SystemStats']]],
   ['windows8',['Windows8',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaa6c35072e034f00f65fa5740243d65445',1,'SystemStats']]],
+  ['windowsmediaaudioformat',['WindowsMediaAudioFormat',['../classWindowsMediaAudioFormat.html',1,'WindowsMediaAudioFormat'],['../classWindowsMediaAudioFormat.html#a5ee8404f972e60f9396233690df54aa6',1,'WindowsMediaAudioFormat::WindowsMediaAudioFormat()']]],
   ['windowsregistry',['WindowsRegistry',['../classWindowsRegistry.html',1,'']]],
   ['winvista',['WinVista',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaae9197b9bc532344d2641a414036a35f0',1,'SystemStats']]],
   ['winxp',['WinXP',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaad72958e105bc6eb69321f2696a74aa51',1,'SystemStats']]],

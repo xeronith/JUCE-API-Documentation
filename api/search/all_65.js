@@ -12,8 +12,8 @@ var searchData=
   ['ejectdisk',['ejectDisk',['../classAudioCDReader.html#a41f27ce866212984e7a657f316e63e24',1,'AudioCDReader']]],
   ['element',['Element',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html',1,'DrawablePath::ValueTreeWrapper']]],
   ['element',['Element',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html#a182bb0536be440f286655d58705ed912',1,'DrawablePath::ValueTreeWrapper::Element']]],
-  ['elementbase',['ElementBase',['../classRelativePointPath_1_1ElementBase.html',1,'RelativePointPath']]],
   ['elementbase',['ElementBase',['../classRelativePointPath_1_1ElementBase.html#a984c9e13c832207c94420fcffc2d4de6',1,'RelativePointPath::ElementBase']]],
+  ['elementbase',['ElementBase',['../classRelativePointPath_1_1ElementBase.html',1,'RelativePointPath']]],
   ['elements',['elements',['../classArrayAllocationBase.html#a68e9e3954a47f3a9b0721c979d4d9fe7',1,'ArrayAllocationBase::elements()'],['../classRelativePointPath.html#a975cc963b8500afa8d33dac6d7c7ac50',1,'RelativePointPath::elements()']]],
   ['elementtype',['elementType',['../classPath_1_1Iterator.html#a3b33636d181ff130a4c0e475da2824db',1,'Path::Iterator::elementType()'],['../classRelativePointPath.html#a741fbc9bca4a156a84514f20987483e9',1,'RelativePointPath::ElementType()']]],
   ['emagiclogic',['EmagicLogic',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a80d4f48afc7a55bd087144b92e27bc88',1,'PluginHostType']]],
@@ -78,5 +78,6 @@ var searchData=
   ['extracomponentplacement',['ExtraComponentPlacement',['../classTabBarButton.html#a9ff26e542aa2f688e6c5609ab4d3899a',1,'TabBarButton']]],
   ['extracompplacement',['extraCompPlacement',['../classTabBarButton.html#a3f80996350cf67bf9fa08e9777ae4fff',1,'TabBarButton']]],
   ['extractmidichannelmessages',['extractMidiChannelMessages',['../classMidiMessageSequence.html#aef3f5fde8115f9fd4b46603f54076038',1,'MidiMessageSequence']]],
-  ['extractsysexmessages',['extractSysExMessages',['../classMidiMessageSequence.html#abf6f7bd5e449976caf1541a880d185b0',1,'MidiMessageSequence']]]
+  ['extractsysexmessages',['extractSysExMessages',['../classMidiMessageSequence.html#abf6f7bd5e449976caf1541a880d185b0',1,'MidiMessageSequence']]],
+  ['extrafunctions',['ExtraFunctions',['../classVSTPluginFormat_1_1ExtraFunctions.html',1,'VSTPluginFormat']]]
 ];

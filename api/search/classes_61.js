@@ -159,12 +159,12 @@ var searchData=
   ['arrayallocationbase_3c_20zipentryholder_20_2a_2c_20dummycriticalsection_20_3e',['ArrayAllocationBase&lt; ZipEntryHolder *, DummyCriticalSection &gt;',['../classArrayAllocationBase.html',1,'']]],
   ['arrowbutton',['ArrowButton',['../classArrowButton.html',1,'']]],
   ['asyncupdater',['AsyncUpdater',['../classAsyncUpdater.html',1,'']]],
-  ['atomic',['Atomic',['../classjuce_1_1Atomic.html',1,'juce']]],
   ['atomic',['Atomic',['../classAtomic.html',1,'']]],
+  ['atomic',['Atomic',['../classjuce_1_1Atomic.html',1,'juce']]],
   ['atomic_3c_20int_20_3e',['Atomic&lt; int &gt;',['../classAtomic.html',1,'Atomic&lt; int &gt;'],['../classjuce_1_1Atomic.html',1,'juce::Atomic&lt; int &gt;']]],
   ['atomic_3c_20objectholder_20_2a_20_3e',['Atomic&lt; ObjectHolder * &gt;',['../classAtomic.html',1,'']]],
-  ['attribute',['Attribute',['../structOpenGLShaderProgram_1_1Attribute.html',1,'OpenGLShaderProgram']]],
   ['attribute',['Attribute',['../classAttributedString_1_1Attribute.html',1,'AttributedString']]],
+  ['attribute',['Attribute',['../structOpenGLShaderProgram_1_1Attribute.html',1,'OpenGLShaderProgram']]],
   ['attributedstring',['AttributedString',['../classAttributedString.html',1,'']]],
   ['audiocdburner',['AudioCDBurner',['../classAudioCDBurner.html',1,'']]],
   ['audiocdreader',['AudioCDReader',['../classAudioCDReader.html',1,'']]],
@@ -199,5 +199,6 @@ var searchData=
   ['audiothumbnail',['AudioThumbnail',['../classAudioThumbnail.html',1,'']]],
   ['audiothumbnailbase',['AudioThumbnailBase',['../classAudioThumbnailBase.html',1,'']]],
   ['audiothumbnailcache',['AudioThumbnailCache',['../classAudioThumbnailCache.html',1,'']]],
-  ['audiotransportsource',['AudioTransportSource',['../classAudioTransportSource.html',1,'']]]
+  ['audiotransportsource',['AudioTransportSource',['../classAudioTransportSource.html',1,'']]],
+  ['audiounitpluginformat',['AudioUnitPluginFormat',['../classAudioUnitPluginFormat.html',1,'']]]
 ];

@@ -54,7 +54,7 @@ var searchData=
   ['divideby',['divideBy',['../classBigInteger.html#a9c0bd824652adc58adec98eafa452963',1,'BigInteger']]],
   ['documentwindow',['DocumentWindow',['../classDocumentWindow.html#a79d8474b5d0d8e1bfe2713dc1841063d',1,'DocumentWindow']]],
   ['doeslossoffocusdiscardchanges',['doesLossOfFocusDiscardChanges',['../classLabel.html#aac0b01b91b21112f397fcde2d5942bc9',1,'Label']]],
-  ['doespluginstillexist',['doesPluginStillExist',['../classAudioPluginFormat.html#aa75ed0f5726f88ca1276208f0c42da41',1,'AudioPluginFormat::doesPluginStillExist()'],['../classAudioPluginFormatManager.html#aa72ffaa8d7fa00a3b510a75064bcb913',1,'AudioPluginFormatManager::doesPluginStillExist()']]],
+  ['doespluginstillexist',['doesPluginStillExist',['../classAudioPluginFormat.html#aa75ed0f5726f88ca1276208f0c42da41',1,'AudioPluginFormat::doesPluginStillExist()'],['../classAudioPluginFormatManager.html#aa72ffaa8d7fa00a3b510a75064bcb913',1,'AudioPluginFormatManager::doesPluginStillExist()'],['../classAudioUnitPluginFormat.html#afde1ba364f7006896a141aa875aa83ed',1,'AudioUnitPluginFormat::doesPluginStillExist()'],['../classVSTPluginFormat.html#a74cb2d2c3b600ba8bc2f6df755a29b5c',1,'VSTPluginFormat::doesPluginStillExist()']]],
   ['draganddropcontainer',['DragAndDropContainer',['../classDragAndDropContainer.html#af5236c188d64a8ac0103754ee676f339',1,'DragAndDropContainer']]],
   ['dragcomponent',['dragComponent',['../classComponentDragger.html#af2ebcd662f3279b373bfaf035f2c269e',1,'ComponentDragger']]],
   ['draggable3dorientation',['Draggable3DOrientation',['../classDraggable3DOrientation.html#a926f24463e2a332a31897be82726e780',1,'Draggable3DOrientation']]],
