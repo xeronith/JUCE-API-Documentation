@@ -192,6 +192,7 @@ var searchData=
   ['juce_5fknownpluginlist_2eh',['juce_KnownPluginList.h',['../juce__KnownPluginList_8h.html',1,'']]],
   ['juce_5flabel_2eh',['juce_Label.h',['../juce__Label_8h.html',1,'']]],
   ['juce_5fladspapluginformat_2eh',['juce_LADSPAPluginFormat.h',['../juce__LADSPAPluginFormat_8h.html',1,'']]],
+  ['juce_5flagrangeinterpolator_2eh',['juce_LagrangeInterpolator.h',['../juce__LagrangeInterpolator_8h.html',1,'']]],
   ['juce_5flameencoderaudioformat_2eh',['juce_LAMEEncoderAudioFormat.h',['../juce__LAMEEncoderAudioFormat_8h.html',1,'']]],
   ['juce_5flassocomponent_2eh',['juce_LassoComponent.h',['../juce__LassoComponent_8h.html',1,'']]],
   ['juce_5fleakedobjectdetector_2eh',['juce_LeakedObjectDetector.h',['../juce__LeakedObjectDetector_8h.html',1,'']]],

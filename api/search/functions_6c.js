@@ -2,6 +2,7 @@ var searchData=
 [
   ['label',['Label',['../classLabel.html#aab39f7d5f34a8b407e21ba812434d2da',1,'Label']]],
   ['labeltextchanged',['labelTextChanged',['../classComboBox.html#a35f467619dc12110c32fb90f3e7b76ab',1,'ComboBox::labelTextChanged()'],['../classLabel_1_1Listener.html#ad2a3e79ba106bfa64cab523e197b1514',1,'Label::Listener::labelTextChanged()']]],
+  ['lagrangeinterpolator',['LagrangeInterpolator',['../classLagrangeInterpolator.html#a16e4fa3589ac989d7082c58c2fe1b2e2',1,'LagrangeInterpolator']]],
   ['lameencoderaudioformat',['LAMEEncoderAudioFormat',['../classLAMEEncoderAudioFormat.html#a467bccad969a5a09bf4ba0f2c3a50866',1,'LAMEEncoderAudioFormat']]],
   ['lassocomponent',['LassoComponent',['../classLassoComponent.html#aafd85f80827d8ca420fe6cfbb2c4ad68',1,'LassoComponent']]],
   ['lastindexof',['lastIndexOf',['../classjuce_1_1String.html#abf4582c4af8f96a3bbeb80e29b6b3559',1,'juce::String::lastIndexOf(const String &amp;textToLookFor) const noexcept'],['../classjuce_1_1String.html#abf4582c4af8f96a3bbeb80e29b6b3559',1,'juce::String::lastIndexOf(const String &amp;textToLookFor) const noexcept'],['../classString.html#a041996f899e9ed8e0ef3d06a85bfc784',1,'String::lastIndexOf()']]],

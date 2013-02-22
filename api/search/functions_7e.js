@@ -196,6 +196,7 @@ var searchData=
   ['_7ekeypressmappingset',['~KeyPressMappingSet',['../classKeyPressMappingSet.html#adae95f518172adb938d30d38cf361743',1,'KeyPressMappingSet']]],
   ['_7eknownpluginlist',['~KnownPluginList',['../classKnownPluginList.html#a62cbb85f1fe910f1197f078b90dfac61',1,'KnownPluginList']]],
   ['_7elabel',['~Label',['../classLabel.html#a39e1167a9b5827afd888780973d88894',1,'Label']]],
+  ['_7elagrangeinterpolator',['~LagrangeInterpolator',['../classLagrangeInterpolator.html#a186007aafd5b5b40c2712342e5621c1f',1,'LagrangeInterpolator']]],
   ['_7elameencoderaudioformat',['~LAMEEncoderAudioFormat',['../classLAMEEncoderAudioFormat.html#aa610c6c67b9c705b8ed3977f67f5f14d',1,'LAMEEncoderAudioFormat']]],
   ['_7elassocomponent',['~LassoComponent',['../classLassoComponent.html#a4b5fcd45216fac0717e4d7c968975dd4',1,'LassoComponent']]],
   ['_7elassosource',['~LassoSource',['../classLassoSource.html#a852e8a3012d3590f1eaaa4d01683fc99',1,'LassoSource']]],

@@ -83,6 +83,8 @@ var searchData=
   ['preparetoread',['prepareToRead',['../classAbstractFifo.html#a880ae9f1e0a08f3c0cfe95f03b279f96',1,'AbstractFifo']]],
   ['preparetowrite',['prepareToWrite',['../classAbstractFifo.html#a9f32996a86817773a7165be823f80c87',1,'AbstractFifo']]],
   ['printstatistics',['printStatistics',['../classPerformanceCounter.html#a4be98835cd71c8b7bdd6bf93f9b83000',1,'PerformanceCounter']]],
+  ['process',['process',['../classLagrangeInterpolator.html#a5ff714ff9e0431addd2270956dd17cef',1,'LagrangeInterpolator']]],
+  ['processadding',['processAdding',['../classLagrangeInterpolator.html#a9a742fafa453e8484df89e5d102aaaf4',1,'LagrangeInterpolator']]],
   ['processblock',['processBlock',['../classAudioProcessor.html#a7d8c56f45dfd03b507e120eeca7435dd',1,'AudioProcessor::processBlock()'],['../classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a30fb712f9a7b9eb1ecf2cf3afdec76a2',1,'AudioProcessorGraph::AudioGraphIOProcessor::processBlock()'],['../classAudioProcessorGraph.html#a65b1119b439500471cc77b295a00bace',1,'AudioProcessorGraph::processBlock()']]],
   ['processblockbypassed',['processBlockBypassed',['../classAudioProcessor.html#a65ce0a6bc2aedf40bf7d37519d095e93',1,'AudioProcessor']]],
   ['processmono',['processMono',['../classReverb.html#a04c43dc7b91788df75f434a957499e2d',1,'Reverb']]],
