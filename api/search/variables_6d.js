@@ -2,6 +2,8 @@ var searchData=
 [
   ['magenta',['magenta',['../classColours.html#a9a33de3ccb10690341256154909b390e',1,'Colours']]],
   ['manufacturername',['manufacturerName',['../classPluginDescription.html#aa8c02c784dc999a1043877b29795fff0',1,'PluginDescription']]],
+  ['map',['map',['../classMemoryMappedAudioFormatReader.html#a6b88bdb8bd8d5b5acf75cda6fac75f31',1,'MemoryMappedAudioFormatReader']]],
+  ['mappedsection',['mappedSection',['../classMemoryMappedAudioFormatReader.html#a33d4ab9328d5a4e588053c894b7a8c45',1,'MemoryMappedAudioFormatReader']]],
   ['markertag',['markerTag',['../classMarkerList_1_1ValueTreeWrapper.html#a6ee3f514e213161c74b047b9bc6011d2',1,'MarkerList::ValueTreeWrapper']]],
   ['maroon',['maroon',['../classColours.html#a4790622961dd6a1eff7179d89cc78617',1,'Colours']]],
   ['maskedregion',['maskedRegion',['../classComponentPeer.html#a3395d1d6b50bff458d288d6bab251859',1,'ComponentPeer']]],

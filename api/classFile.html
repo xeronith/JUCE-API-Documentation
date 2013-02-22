@@ -1701,7 +1701,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a stream to read from this file. </p>
-<dl class="section return"><dt>Returns</dt><dd>a stream that will read from this file (initially positioned at the start of the file), or 0 if the file can't be opened for some reason </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>a stream that will read from this file (initially positioned at the start of the file), or nullptr if the file can't be opened for some reason </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#a55d5c85da1368d04c9a649d0753e5962" title="Creates a stream to write to this file.">createOutputStream</a>, <a class="el" href="classFile.html#a0fa017212282bc314ec2eab9dce135d0" title="Loads a file&#39;s contents into memory as a block of binary data.">loadFileAsData</a> </dd></dl>
 
 </div>
@@ -1722,7 +1722,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Creates a stream to write to this file. </p>
 <p>If the file exists, the stream that is returned will be positioned ready for writing at the end of the file, so you might want to use <a class="el" href="classFile.html#acca30337faecf8c3d97a1e70c725db23" title="Deletes a file.">deleteFile()</a> first to write to an empty file.</p>
-<dl class="section return"><dt>Returns</dt><dd>a stream that will write to this file (initially positioned at the end of the file), or 0 if the file can't be opened for some reason </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>a stream that will write to this file (initially positioned at the end of the file), or nullptr if the file can't be opened for some reason </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#aebd0de51f5df7da86749c90b68e5bc53" title="Creates a stream to read from this file.">createInputStream</a>, <a class="el" href="classFile.html#a17e0a2c302c88ab8ea2d5acc7bbc0051" title="Appends a block of binary data to the end of the file.">appendData</a>, <a class="el" href="classFile.html#a7908b0272d7564eb1f5a7505a5bc7351" title="Appends a string to the end of the file.">appendText</a> </dd></dl>
 
 </div>

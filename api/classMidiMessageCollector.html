@@ -236,7 +236,8 @@ Public Member Functions</h2></td></tr>
 <p>Removes all the pending messages from the queue as a buffer. </p>
 <p>This will also correct the messages' timestamps to make sure they're in the range 0 to numSamples - 1.</p>
 <p>This call should be made regularly by something like an audio processing callback, because the time that it happens is used in calculating the midi event positions.</p>
-<p>This method is fully thread-safe when overlapping calls are made with <a class="el" href="classMidiMessageCollector.html#ad1d42045ccbc9bbc4256d08a632a8fe2" title="Takes an incoming real-time message and adds it to the queue.">addMessageToQueue()</a>. </p>
+<p>This method is fully thread-safe when overlapping calls are made with <a class="el" href="classMidiMessageCollector.html#ad1d42045ccbc9bbc4256d08a632a8fe2" title="Takes an incoming real-time message and adds it to the queue.">addMessageToQueue()</a>.</p>
+<p>Precondition: numSamples must be greater than 0. </p>
 
 </div>
 </div>

@@ -646,7 +646,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the component that is currently being used in kiosk-mode. </p>
-<p>This is the component that was last set by <a class="el" href="classDesktop.html#a8fa4033714b5a9cd0714c9b9633b3366" title="Takes a component and makes it full-screen, removing the taskbar, dock, etc.">setKioskModeComponent()</a>. If none has been set, this returns 0. </p>
+<p>This is the component that was last set by <a class="el" href="classDesktop.html#a8fa4033714b5a9cd0714c9b9633b3366" title="Takes a component and makes it full-screen, removing the taskbar, dock, etc.">setKioskModeComponent()</a>. If none has been set, this returns nullptr. </p>
 
 </div>
 </div>
@@ -720,7 +720,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Finds the component at a given screen location. </p>
 <p>This will drill down into top-level windows to find the child component at the given position.</p>
-<p>Returns 0 if the co-ordinates are inside a non-Juce window. </p>
+<p>Returns nullptr if the co-ordinates are inside a non-Juce window. </p>
 
 </div>
 </div>
@@ -824,7 +824,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the number of <a class="el" href="classMouseInputSource.html" title="Represents a linear source of mouse events from a mouse device or individual finger in a multi-touch ...">MouseInputSource</a> objects the system has at its disposal. </p>
-<p>In a traditional single-mouse system, there might be only one object. On a multi-touch system, there could be one input source per potential finger. To find out how many mouse events are currently happening, use <a class="el" href="classDesktop.html#ab58864358ece4bdfea451efc7a308379" title="Returns the number of mouse-sources that are currently being dragged.">getNumDraggingMouseSources()</a>. </p>
+<p>In a traditional single-mouse system, there might be only one object. On a multi-touch system, there could be one input source per potential finger. The number of mouse sources returned here may increase dynamically as the program runs. To find out how many mouse events are currently happening, use <a class="el" href="classDesktop.html#ab58864358ece4bdfea451efc7a308379" title="Returns the number of mouse-sources that are currently being dragged.">getNumDraggingMouseSources()</a>. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classDesktop.html#acab109fe14b5337c5a3129c746ba17e5" title="Returns one of the system&#39;s MouseInputSource objects.">getMouseSource</a> </dd></dl>
 
 </div>

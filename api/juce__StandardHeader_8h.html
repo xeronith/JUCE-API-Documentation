@@ -178,7 +178,7 @@ Macros</h2></td></tr>
 <tr class="separator:ad39afa9c8302295c83a3c431c553bc8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a583ff83063cc1e7f9abeb35a21dff1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__StandardHeader_8h.html#a2a583ff83063cc1e7f9abeb35a21dff1">JUCE_MINOR_VERSION</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a2a583ff83063cc1e7f9abeb35a21dff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ac1dc104cd00f4cc2ff6dece8711f32"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__StandardHeader_8h.html#a9ac1dc104cd00f4cc2ff6dece8711f32">JUCE_BUILDNUMBER</a>&#160;&#160;&#160;31</td></tr>
+<tr class="memitem:a9ac1dc104cd00f4cc2ff6dece8711f32"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__StandardHeader_8h.html#a9ac1dc104cd00f4cc2ff6dece8711f32">JUCE_BUILDNUMBER</a>&#160;&#160;&#160;33</td></tr>
 <tr class="separator:a9ac1dc104cd00f4cc2ff6dece8711f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e9e97736d05e318de09b9bedab1aaa0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__StandardHeader_8h.html#a8e9e97736d05e318de09b9bedab1aaa0">JUCE_VERSION</a>&#160;&#160;&#160;((<a class="el" href="juce__StandardHeader_8h.html#ad39afa9c8302295c83a3c431c553bc8b">JUCE_MAJOR_VERSION</a> &lt;&lt; 16) + (<a class="el" href="juce__StandardHeader_8h.html#a2a583ff83063cc1e7f9abeb35a21dff1">JUCE_MINOR_VERSION</a> &lt;&lt; 8) + <a class="el" href="juce__StandardHeader_8h.html#a9ac1dc104cd00f4cc2ff6dece8711f32">JUCE_BUILDNUMBER</a>)</td></tr>
 <tr class="memdesc:a8e9e97736d05e318de09b9bedab1aaa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current Juce version number.  <a href="#a8e9e97736d05e318de09b9bedab1aaa0"></a><br/></td></tr>
@@ -348,10 +348,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a662705b6a3d6c4ae9aa32cb82525caa3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejuce.html#a662705b6a3d6c4ae9aa32cb82525caa3">juce::nextPowerOfTwo</a> (int n) noexcept</td></tr>
 <tr class="memdesc:a662705b6a3d6c4ae9aa32cb82525caa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the smallest power-of-two which is equal to or greater than the given integer.  <a href="#a662705b6a3d6c4ae9aa32cb82525caa3"></a><br/></td></tr>
 <tr class="separator:a662705b6a3d6c4ae9aa32cb82525caa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad253b16352278addc1e5c7c6e7617085"><td class="memTemplParams" colspan="2">template&lt;typename IntegerType &gt; </td></tr>
-<tr class="memitem:ad253b16352278addc1e5c7c6e7617085"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacejuce.html#ad253b16352278addc1e5c7c6e7617085">juce::negativeAwareModulo</a> (IntegerType dividend, const IntegerType divisor) noexcept</td></tr>
-<tr class="memdesc:ad253b16352278addc1e5c7c6e7617085"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a modulo operation, but can cope with the dividend being negative.  <a href="#ad253b16352278addc1e5c7c6e7617085"></a><br/></td></tr>
-<tr class="separator:ad253b16352278addc1e5c7c6e7617085"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3f33c2c399f0ce0108bec076cdf005c"><td class="memTemplParams" colspan="2">template&lt;typename IntegerType &gt; </td></tr>
+<tr class="memitem:ae3f33c2c399f0ce0108bec076cdf005c"><td class="memTemplItemLeft" align="right" valign="top">IntegerType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacejuce.html#ae3f33c2c399f0ce0108bec076cdf005c">juce::negativeAwareModulo</a> (IntegerType dividend, const IntegerType divisor) noexcept</td></tr>
+<tr class="memdesc:ae3f33c2c399f0ce0108bec076cdf005c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a modulo operation, but can cope with the dividend being negative.  <a href="#ae3f33c2c399f0ce0108bec076cdf005c"></a><br/></td></tr>
+<tr class="separator:ae3f33c2c399f0ce0108bec076cdf005c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a693ce57b5b48d3e5bed16c9a0c455ab5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="juce__StandardHeader_8h.html#a65961b3bfbda0ffb83750d914cee38fb">JUCE_API</a> <a class="el" href="classString.html">String</a> <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejuce.html#a693ce57b5b48d3e5bed16c9a0c455ab5">juce::operator+</a> (const char *string1, const <a class="el" href="classString.html">String</a> &amp;string2)</td></tr>
 <tr class="memdesc:a693ce57b5b48d3e5bed16c9a0c455ab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concatenates two strings.  <a href="#a693ce57b5b48d3e5bed16c9a0c455ab5"></a><br/></td></tr>
 <tr class="separator:a693ce57b5b48d3e5bed16c9a0c455ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -517,7 +517,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define JUCE_BUILDNUMBER&#160;&#160;&#160;31</td>
+          <td class="memname">#define JUCE_BUILDNUMBER&#160;&#160;&#160;33</td>
         </tr>
       </table>
 </div><div class="memdoc">

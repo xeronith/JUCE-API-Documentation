@@ -83,6 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classAudioThumbnailCache-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">AudioThumbnailCache Class Reference</div>  </div>
@@ -97,9 +98,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8b337276f3ec8979475e1884e9dde170"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a8b337276f3ec8979475e1884e9dde170">AudioThumbnailCache</a> (int maxNumThumbsToStore)</td></tr>
 <tr class="memdesc:a8b337276f3ec8979475e1884e9dde170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a cache object.  <a href="#a8b337276f3ec8979475e1884e9dde170"></a><br/></td></tr>
 <tr class="separator:a8b337276f3ec8979475e1884e9dde170"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fd600ae0247a18e13c9922d318799cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a4fd600ae0247a18e13c9922d318799cf">~AudioThumbnailCache</a> ()</td></tr>
-<tr class="memdesc:a4fd600ae0247a18e13c9922d318799cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a4fd600ae0247a18e13c9922d318799cf"></a><br/></td></tr>
-<tr class="separator:a4fd600ae0247a18e13c9922d318799cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8064df47de6982ee3629e2f849542c1b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a8064df47de6982ee3629e2f849542c1b">~AudioThumbnailCache</a> ()</td></tr>
+<tr class="memdesc:a8064df47de6982ee3629e2f849542c1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a8064df47de6982ee3629e2f849542c1b"></a><br/></td></tr>
+<tr class="separator:a8064df47de6982ee3629e2f849542c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52c8490b5df7c750822d9c15ca829dc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a52c8490b5df7c750822d9c15ca829dc2">clear</a> ()</td></tr>
 <tr class="memdesc:a52c8490b5df7c750822d9c15ca829dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears out any stored thumbnails.  <a href="#a52c8490b5df7c750822d9c15ca829dc2"></a><br/></td></tr>
 <tr class="separator:a52c8490b5df7c750822d9c15ca829dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -118,6 +119,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3b4a7387c73aa4163ddc236e8b104023"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTimeSliceThread.html">TimeSliceThread</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a3b4a7387c73aa4163ddc236e8b104023">getTimeSliceThread</a> () noexcept</td></tr>
 <tr class="memdesc:a3b4a7387c73aa4163ddc236e8b104023"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the thread that client thumbnails can use.  <a href="#a3b4a7387c73aa4163ddc236e8b104023"></a><br/></td></tr>
 <tr class="separator:a3b4a7387c73aa4163ddc236e8b104023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a2b314d8449a4387722f83f1771aab200"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a2b314d8449a4387722f83f1771aab200">saveNewlyFinishedThumbnail</a> (const <a class="el" href="classAudioThumbnailBase.html">AudioThumbnailBase</a> &amp;, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> hashCode)</td></tr>
+<tr class="separator:a2b314d8449a4387722f83f1771aab200"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70a034bb9341604fe41b7bcfe613ba12"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a70a034bb9341604fe41b7bcfe613ba12">loadNewThumb</a> (<a class="el" href="classAudioThumbnailBase.html">AudioThumbnailBase</a> &amp;, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> hashCode)</td></tr>
+<tr class="separator:a70a034bb9341604fe41b7bcfe613ba12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An instance of this class is used to manage multiple <a class="el" href="classAudioThumbnail.html" title="Makes it easy to quickly draw scaled views of the waveform shape of an audio file.">AudioThumbnail</a> objects. </p>
@@ -151,17 +159,25 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4fd600ae0247a18e13c9922d318799cf"></a>
+<a class="anchor" id="a8064df47de6982ee3629e2f849542c1b"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">AudioThumbnailCache::~AudioThumbnailCache </td>
+          <td class="memname">virtual AudioThumbnailCache::~AudioThumbnailCache </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Destructor. </p>
@@ -304,6 +320,74 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the thread that client thumbnails can use. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2b314d8449a4387722f83f1771aab200"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AudioThumbnailCache::saveNewlyFinishedThumbnail </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classAudioThumbnailBase.html">AudioThumbnailBase</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td>
+          <td class="paramname"><em>hashCode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a70a034bb9341604fe41b7bcfe613ba12"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AudioThumbnailCache::loadNewThumb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAudioThumbnailBase.html">AudioThumbnailBase</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td>
+          <td class="paramname"><em>hashCode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

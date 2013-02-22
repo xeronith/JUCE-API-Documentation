@@ -111,6 +111,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3b51c7c37417fea8c4f47ebb7913ddba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageManager.html#a3b51c7c37417fea8c4f47ebb7913ddba">hasStopMessageBeenSent</a> () const noexcept</td></tr>
 <tr class="memdesc:a3b51c7c37417fea8c4f47ebb7913ddba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the <a class="el" href="classMessageManager.html#a283b20c2b3786537b31952670d2df7bf" title="Sends a signal that the dispatch loop should terminate.">stopDispatchLoop()</a> method has been called.  <a href="#a3b51c7c37417fea8c4f47ebb7913ddba"></a><br/></td></tr>
 <tr class="separator:a3b51c7c37417fea8c4f47ebb7913ddba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ddde5289b71c37a3a4a4bb9d673a0de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageManager.html#a0ddde5289b71c37a3a4a4bb9d673a0de">runDispatchLoopUntil</a> (int millisecondsToRunFor)</td></tr>
+<tr class="memdesc:a0ddde5289b71c37a3a4a4bb9d673a0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Synchronously dispatches messages until a given time has elapsed.  <a href="#a0ddde5289b71c37a3a4a4bb9d673a0de"></a><br/></td></tr>
+<tr class="separator:a0ddde5289b71c37a3a4a4bb9d673a0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a554f81587d57127c9cb5be72aced11c1"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageManager.html#a554f81587d57127c9cb5be72aced11c1">callFunctionOnMessageThread</a> (<a class="el" href="juce__MessageManager_8h.html#a107bb4f42cc6661a36a13b0fad22196d">MessageCallbackFunction</a> *callback, void *userData)</td></tr>
 <tr class="memdesc:a554f81587d57127c9cb5be72aced11c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls a function using the message-thread.  <a href="#a554f81587d57127c9cb5be72aced11c1"></a><br/></td></tr>
 <tr class="separator:a554f81587d57127c9cb5be72aced11c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -261,7 +264,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sends a signal that the dispatch loop should terminate. </p>
-<p>After this is called, the <a class="el" href="classMessageManager.html#a3084a3a75717db0f7f05604f2956ff65" title="Runs the event dispatch loop until a stop message is posted.">runDispatchLoop()</a> or runDispatchLoopUntil() methods will be interrupted and will return.</p>
+<p>After this is called, the <a class="el" href="classMessageManager.html#a3084a3a75717db0f7f05604f2956ff65" title="Runs the event dispatch loop until a stop message is posted.">runDispatchLoop()</a> or <a class="el" href="classMessageManager.html#a0ddde5289b71c37a3a4a4bb9d673a0de" title="Synchronously dispatches messages until a given time has elapsed.">runDispatchLoopUntil()</a> methods will be interrupted and will return.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMessageManager.html#a3084a3a75717db0f7f05604f2956ff65" title="Runs the event dispatch loop until a stop message is posted.">runDispatchLoop</a> </dd></dl>
 
 </div>
@@ -288,6 +291,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns true if the <a class="el" href="classMessageManager.html#a283b20c2b3786537b31952670d2df7bf" title="Sends a signal that the dispatch loop should terminate.">stopDispatchLoop()</a> method has been called. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0ddde5289b71c37a3a4a4bb9d673a0de"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MessageManager::runDispatchLoopUntil </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>millisecondsToRunFor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Synchronously dispatches messages until a given time has elapsed. </p>
+<p>Returns false if a quit message has been posted by a call to <a class="el" href="classMessageManager.html#a283b20c2b3786537b31952670d2df7bf" title="Sends a signal that the dispatch loop should terminate.">stopDispatchLoop()</a>, otherwise returns true. </p>
 
 </div>
 </div>

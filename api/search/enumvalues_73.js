@@ -30,6 +30,8 @@ var searchData=
   ['steinbergcubase4',['SteinbergCubase4',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8ac364901a67009772e9870bfcae9d7090',1,'PluginHostType']]],
   ['steinbergcubase5',['SteinbergCubase5',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8afddd08fe15ce7ccf7781dd0dd4cd0cbd',1,'PluginHostType']]],
   ['steinbergcubase5bridged',['SteinbergCubase5Bridged',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a5f89e0578cf0b6bbfc5d90460890c2eb',1,'PluginHostType']]],
+  ['steinbergcubase6',['SteinbergCubase6',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a9368af61e64c127344b0d69634644a55',1,'PluginHostType']]],
+  ['steinbergcubase7',['SteinbergCubase7',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a743ff11b546c1b490db6963c58455187',1,'PluginHostType']]],
   ['steinbergcubasegeneric',['SteinbergCubaseGeneric',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a5b569e91a90410048fe9103eb9187d28',1,'PluginHostType']]],
   ['steinbergwavelab5',['SteinbergWavelab5',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a64bf12c0c44b9f5ec70c1c140f8e7f5c',1,'PluginHostType']]],
   ['steinbergwavelab6',['SteinbergWavelab6',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8af3715fe76036928476bec3b649f533dd',1,'PluginHostType']]],
@@ -39,6 +41,7 @@ var searchData=
   ['storeascompressedbinary',['storeAsCompressedBinary',['../classPropertiesFile.html#ac4d1ac9a6b624f7e0de7787de46dc05eab1ddcaf9fc8d45b4141749e325844f42',1,'PropertiesFile']]],
   ['storeasxml',['storeAsXML',['../classPropertiesFile.html#ac4d1ac9a6b624f7e0de7787de46dc05eab0145370e12c4174bd36dc6ac6ccc147',1,'PropertiesFile']]],
   ['stretchtofit',['stretchToFit',['../classRectanglePlacement.html#afd5464553fd6bb41d697f3fc1d7427eda592b34ff9ad1d85db16f2e02c6252b8b',1,'RectanglePlacement']]],
+  ['studioone',['StudioOne',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8abd93d9b41b6e92a2fac2dc3a0800c150',1,'PluginHostType']]],
   ['switched',['switched',['../classAppleRemoteDevice.html#a63ccce128a48e63972e2d71a8de5f8d0ae278b856f84c176f8a1628c118e902fc',1,'AppleRemoteDevice']]],
   ['symboltype',['symbolType',['../classExpression.html#aa416ac50fdbe8bdea9c59f5c78f0c85baef74a77024f2e22f163d3b2346b99162',1,'Expression']]]
 ];

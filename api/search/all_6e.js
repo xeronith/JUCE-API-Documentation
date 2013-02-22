@@ -12,7 +12,7 @@ var searchData=
   ['needstobesaved',['needsToBeSaved',['../classPropertiesFile.html#af9e77e3bde952ed5face05c19cd51ed4',1,'PropertiesFile']]],
   ['needtoclip',['needToClip',['../classLowLevelGraphicsPostScriptRenderer.html#a75772619fb8c5d185cd82b48ee46822e',1,'LowLevelGraphicsPostScriptRenderer']]],
   ['negate',['negate',['../classBigInteger.html#a2f597f0f63ffc2410423626c5a850e60',1,'BigInteger']]],
-  ['negativeawaremodulo',['negativeAwareModulo',['../juce__MathsFunctions_8h.html#a676484e2e5fb03b9863b97c182ba46d9',1,'negativeAwareModulo():&#160;juce_MathsFunctions.h'],['../namespacejuce.html#ad253b16352278addc1e5c7c6e7617085',1,'juce::negativeAwareModulo()']]],
+  ['negativeawaremodulo',['negativeAwareModulo',['../juce__MathsFunctions_8h.html#a3cfa905495cba62bd9ad2b73d2dc3f1c',1,'negativeAwareModulo():&#160;juce_MathsFunctions.h'],['../namespacejuce.html#ae3f33c2c399f0ce0108bec076cdf005c',1,'juce::negativeAwareModulo()']]],
   ['newline',['NewLine',['../classNewLine.html',1,'NewLine'],['../juce__NewLine_8h.html#abd231b88341c3e2c328178d34f3ce8fb',1,'newLine():&#160;juce_NewLine.h']]],
   ['newopenglcontextcreated',['newOpenGLContextCreated',['../classOpenGLRenderer.html#a59d6279104b47109cf2042b13ae5b61d',1,'OpenGLRenderer']]],
   ['newtransaction',['newTransaction',['../classTextEditor.html#ac1cdc461e88ca484f3528d74a7e1d27c',1,'TextEditor::newTransaction()'],['../classCodeDocument.html#a507bca2d6747323276b938670584f354',1,'CodeDocument::newTransaction()']]],

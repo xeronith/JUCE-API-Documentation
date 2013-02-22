@@ -52,5 +52,6 @@ var searchData=
   ['cubicto',['CubicTo',['../classRelativePointPath_1_1CubicTo.html',1,'RelativePointPath']]],
   ['currentpositioninfo',['CurrentPositionInfo',['../structAudioPlayHead_1_1CurrentPositionInfo.html',1,'AudioPlayHead']]],
   ['customcomponent',['CustomComponent',['../classPopupMenu_1_1CustomComponent.html',1,'PopupMenu']]],
+  ['customscanner',['CustomScanner',['../classKnownPluginList_1_1CustomScanner.html',1,'KnownPluginList']]],
   ['customtypeface',['CustomTypeface',['../classCustomTypeface.html',1,'']]]
 ];

@@ -19,6 +19,8 @@ var searchData=
   ['darkturquoise',['darkturquoise',['../classColours.html#a3cab3c29a15b8f727b4915512c7f0c63',1,'Colours']]],
   ['darkviolet',['darkviolet',['../classColours.html#a157085bc9d4d0bc75966b238b51a7ee3',1,'Colours']]],
   ['data',['data',['../classImage_1_1BitmapData.html#a20783df25b604990685fe8cbb0f1cf91',1,'Image::BitmapData']]],
+  ['datachunkstart',['dataChunkStart',['../classMemoryMappedAudioFormatReader.html#a50ccc5aaa756180f865ad1b6ff43bf0d',1,'MemoryMappedAudioFormatReader']]],
+  ['datalength',['dataLength',['../classMemoryMappedAudioFormatReader.html#ac19c1cd6d4aff52e7820ec40e1e4d271',1,'MemoryMappedAudioFormatReader']]],
   ['datareleaser',['dataReleaser',['../classImage_1_1BitmapData.html#af6357aea98c90de8dcbbaadbd4969d2a',1,'Image::BitmapData']]],
   ['deeppink',['deeppink',['../classColours.html#a28f6cc1ccf53cef009f33f982100453f',1,'Colours']]],
   ['deepskyblue',['deepskyblue',['../classColours.html#ae7932af011b21184ce06f33c30396d69',1,'Colours']]],

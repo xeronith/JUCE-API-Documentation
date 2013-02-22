@@ -4,6 +4,7 @@ var searchData=
   ['range',['Range',['../classRange.html',1,'']]],
   ['range_3c_20double_20_3e',['Range&lt; double &gt;',['../classRange.html',1,'']]],
   ['range_3c_20int_20_3e',['Range&lt; int &gt;',['../classRange.html',1,'']]],
+  ['range_3c_20int64_20_3e',['Range&lt; int64 &gt;',['../classRange.html',1,'']]],
   ['readhelper',['ReadHelper',['../structAudioFormatReader_1_1ReadHelper.html',1,'AudioFormatReader']]],
   ['readwritelock',['ReadWriteLock',['../classReadWriteLock.html',1,'']]],
   ['recentlyopenedfileslist',['RecentlyOpenedFilesList',['../classRecentlyOpenedFilesList.html',1,'']]],

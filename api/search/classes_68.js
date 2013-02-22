@@ -107,5 +107,6 @@ var searchData=
   ['heapblock_3c_20void_20_2a_20_3e',['HeapBlock&lt; void * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20weakreference_3c_20component_20_3e_20_3e',['HeapBlock&lt; WeakReference&lt; Component &gt; &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20zipentryholder_20_2a_20_3e',['HeapBlock&lt; ZipEntryHolder * &gt;',['../classHeapBlock.html',1,'']]],
+  ['highresolutiontimer',['HighResolutionTimer',['../classHighResolutionTimer.html',1,'']]],
   ['hyperlinkbutton',['HyperlinkButton',['../classHyperlinkButton.html',1,'']]]
 ];

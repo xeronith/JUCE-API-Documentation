@@ -22,5 +22,6 @@ var searchData=
   ['bwavoriginationtime',['bwavOriginationTime',['../classWavAudioFormat.html#a6ba890f1df411a643efe13d3b02ff130',1,'WavAudioFormat']]],
   ['bwavoriginator',['bwavOriginator',['../classWavAudioFormat.html#aeb655b312ca07a2c89d6f1c86fe69455',1,'WavAudioFormat']]],
   ['bwavoriginatorref',['bwavOriginatorRef',['../classWavAudioFormat.html#a678c3b819d78ea687ddba590a4e73891',1,'WavAudioFormat']]],
-  ['bwavtimereference',['bwavTimeReference',['../classWavAudioFormat.html#a6722c8d061d70bbd7a843e4ac213d588',1,'WavAudioFormat']]]
+  ['bwavtimereference',['bwavTimeReference',['../classWavAudioFormat.html#a6722c8d061d70bbd7a843e4ac213d588',1,'WavAudioFormat']]],
+  ['bytesperframe',['bytesPerFrame',['../classMemoryMappedAudioFormatReader.html#adb3838802e7d3633b1bf31095bf139e9',1,'MemoryMappedAudioFormatReader']]]
 ];

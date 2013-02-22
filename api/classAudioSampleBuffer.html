@@ -148,6 +148,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaa5fff32e66e2d40e4200c023c0336a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#aaa5fff32e66e2d40e4200c023c0336a1">applyGain</a> (int startSample, int numSamples, float gain) noexcept</td></tr>
 <tr class="memdesc:aaa5fff32e66e2d40e4200c023c0336a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a gain multiple to a region of all the channels.  <a href="#aaa5fff32e66e2d40e4200c023c0336a1"></a><br/></td></tr>
 <tr class="separator:aaa5fff32e66e2d40e4200c023c0336a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5142315ffcda2bc3d30b1494421c57ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a5142315ffcda2bc3d30b1494421c57ba">applyGain</a> (float gain) noexcept</td></tr>
+<tr class="memdesc:a5142315ffcda2bc3d30b1494421c57ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a gain multiple to all the audio data.  <a href="#a5142315ffcda2bc3d30b1494421c57ba"></a><br/></td></tr>
+<tr class="separator:a5142315ffcda2bc3d30b1494421c57ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab48050b2a3f5068723c16025392e72d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#ab48050b2a3f5068723c16025392e72d5">applyGainRamp</a> (int channel, int startSample, int numSamples, float startGain, float endGain) noexcept</td></tr>
 <tr class="memdesc:ab48050b2a3f5068723c16025392e72d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a range of gains to a region of a channel.  <a href="#ab48050b2a3f5068723c16025392e72d5"></a><br/></td></tr>
 <tr class="separator:ab48050b2a3f5068723c16025392e72d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -870,6 +873,32 @@ Public Member Functions</h2></td></tr>
 
 <p>Applies a gain multiple to a region of all the channels. </p>
 <p>For speed, this doesn't check whether the sample numbers are in-range, so be careful! </p>
+
+</div>
+</div>
+<a class="anchor" id="a5142315ffcda2bc3d30b1494421c57ba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSampleBuffer::applyGain </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>gain</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Applies a gain multiple to all the audio data. </p>
 
 </div>
 </div>

@@ -143,6 +143,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8b123e357446ef1faa6731790d421969"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioData_1_1Pointer.html#a8b123e357446ef1faa6731790d421969">clearSamples</a> (int numSamples) const noexcept</td></tr>
 <tr class="memdesc:a8b123e357446ef1faa6731790d421969"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a number of samples to zero.  <a href="#a8b123e357446ef1faa6731790d421969"></a><br/></td></tr>
 <tr class="separator:a8b123e357446ef1faa6731790d421969"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a373335e595058583a100bfa70a469518"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioData_1_1Pointer.html#a373335e595058583a100bfa70a469518">findMinAndMax</a> (size_t numSamples, float &amp;minValue, float &amp;maxValue) const noexcept</td></tr>
+<tr class="memdesc:a373335e595058583a100bfa70a469518"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scans a block of data, returning the lowest and highest levels as floats.  <a href="#a373335e595058583a100bfa70a469518"></a><br/></td></tr>
+<tr class="separator:a373335e595058583a100bfa70a469518"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0684a61827cea250a1e3009a6e505250"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioData_1_1Pointer.html#a0684a61827cea250a1e3009a6e505250">getNumInterleavedChannels</a> () const noexcept</td></tr>
 <tr class="memdesc:a0684a61827cea250a1e3009a6e505250"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of interleaved channels in the format.  <a href="#a0684a61827cea250a1e3009a6e505250"></a><br/></td></tr>
 <tr class="separator:a0684a61827cea250a1e3009a6e505250"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -340,6 +343,8 @@ template&lt;typename SampleFormat , typename Endianness , typename InterleavingT
 <p>Returns the value of the first sample as a floating point value. </p>
 <p>The value will be in the range -1.0 to 1.0 for integer formats. For floating point formats, the value could be outside that range, although -1 to 1 is the standard range. </p>
 
+<p>Referenced by <a class="el" href="classAudioData_1_1Pointer.html#a373335e595058583a100bfa70a469518">AudioData::Pointer&lt; SampleFormat, Endianness, InterleavingType, Constness &gt;::findMinAndMax()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a8fde1bbe33eee07dc6bb973e765ed9f5"></a>
@@ -398,6 +403,8 @@ template&lt;typename SampleFormat , typename Endianness , typename InterleavingT
 
 <p>Returns the value of the first sample as a 32-bit integer. </p>
 <p>The value returned will be in the range 0x80000000 to 0x7fffffff, and shorter values will be shifted to fill this range (e.g. if you're reading from 24-bit data, the values will be shifted up by 8 bits when returned here). If the source data is floating point, values beyond -1.0 to 1.0 will be clipped so that -1.0 maps onto -0x7fffffff and 1.0 maps to 0x7fffffff. </p>
+
+<p>Referenced by <a class="el" href="classAudioData_1_1Pointer.html#a373335e595058583a100bfa70a469518">AudioData::Pointer&lt; SampleFormat, Endianness, InterleavingType, Constness &gt;::findMinAndMax()</a>.</p>
 
 </div>
 </div>
@@ -553,7 +560,7 @@ template&lt;typename SampleFormat , typename Endianness , typename InterleavingT
 
 <p>References <a class="el" href="juce__PlatformDefs_8h.html#a0eb872d7ee75ed5bb25589dd175af725">static_jassert</a>.</p>
 
-<p>Referenced by <a class="el" href="structAudioFormatReader_1_1ReadHelper.html#a8d3def6acef71b6a1430935fa0dd7804">AudioFormatReader::ReadHelper&lt; DestSampleType, SourceSampleType, SourceEndianness &gt;::read()</a>, and <a class="el" href="structAudioFormatWriter_1_1WriteHelper.html#ac94423abb88f2c1d10c3493c8891a2c5">AudioFormatWriter::WriteHelper&lt; DestSampleType, SourceSampleType, DestEndianness &gt;::write()</a>.</p>
+<p>Referenced by <a class="el" href="structAudioFormatReader_1_1ReadHelper.html#ab1158f4802796adedd47088948930c7d">AudioFormatReader::ReadHelper&lt; DestSampleType, SourceSampleType, SourceEndianness &gt;::read()</a>, and <a class="el" href="structAudioFormatWriter_1_1WriteHelper.html#ac94423abb88f2c1d10c3493c8891a2c5">AudioFormatWriter::WriteHelper&lt; DestSampleType, SourceSampleType, DestEndianness &gt;::write()</a>.</p>
 
 </div>
 </div>
@@ -626,7 +633,53 @@ template&lt;typename SampleFormat , typename Endianness , typename InterleavingT
 
 <p>Sets a number of samples to zero. </p>
 
-<p>Referenced by <a class="el" href="structAudioFormatReader_1_1ReadHelper.html#a8d3def6acef71b6a1430935fa0dd7804">AudioFormatReader::ReadHelper&lt; DestSampleType, SourceSampleType, SourceEndianness &gt;::read()</a>, and <a class="el" href="structAudioFormatWriter_1_1WriteHelper.html#ac94423abb88f2c1d10c3493c8891a2c5">AudioFormatWriter::WriteHelper&lt; DestSampleType, SourceSampleType, DestEndianness &gt;::write()</a>.</p>
+<p>Referenced by <a class="el" href="structAudioFormatReader_1_1ReadHelper.html#ab1158f4802796adedd47088948930c7d">AudioFormatReader::ReadHelper&lt; DestSampleType, SourceSampleType, SourceEndianness &gt;::read()</a>, and <a class="el" href="structAudioFormatWriter_1_1WriteHelper.html#ac94423abb88f2c1d10c3493c8891a2c5">AudioFormatWriter::WriteHelper&lt; DestSampleType, SourceSampleType, DestEndianness &gt;::write()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a373335e595058583a100bfa70a469518"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SampleFormat , typename Endianness , typename InterleavingType , typename Constness &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a>&lt; SampleFormat, Endianness, InterleavingType, Constness &gt;::findMinAndMax </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>numSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>minValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>maxValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Scans a block of data, returning the lowest and highest levels as floats. </p>
+
+<p>References <a class="el" href="classAudioData_1_1Pointer.html#aaffec0dba3ee56e9b53217d4ede7ab8f">AudioData::Pointer&lt; SampleFormat, Endianness, InterleavingType, Constness &gt;::getAsFloat()</a>, and <a class="el" href="classAudioData_1_1Pointer.html#a9719e315da69912c0ab7c38d64cb2ca6">AudioData::Pointer&lt; SampleFormat, Endianness, InterleavingType, Constness &gt;::getAsInt32()</a>.</p>
 
 </div>
 </div>

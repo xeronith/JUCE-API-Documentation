@@ -120,6 +120,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abd541b1de13da60cfbd65959e45c0c74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioFormatReader.html">AudioFormatReader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAiffAudioFormat.html#abd541b1de13da60cfbd65959e45c0c74">createReaderFor</a> (<a class="el" href="classInputStream.html">InputStream</a> *sourceStream, bool deleteStreamIfOpeningFails)</td></tr>
 <tr class="memdesc:abd541b1de13da60cfbd65959e45c0c74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to create an object that can read from a stream containing audio data in this format.  <a href="#abd541b1de13da60cfbd65959e45c0c74"></a><br/></td></tr>
 <tr class="separator:abd541b1de13da60cfbd65959e45c0c74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19b164d6f2f8abf0bfcb408441276c5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMemoryMappedAudioFormatReader.html">MemoryMappedAudioFormatReader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAiffAudioFormat.html#a19b164d6f2f8abf0bfcb408441276c5f">createMemoryMappedReader</a> (const <a class="el" href="classFile.html">File</a> &amp;)</td></tr>
+<tr class="memdesc:a19b164d6f2f8abf0bfcb408441276c5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to create a <a class="el" href="classMemoryMappedAudioFormatReader.html" title="A specialised type of AudioFormatReader that uses a MemoryMappedFile to read directly from an audio f...">MemoryMappedAudioFormatReader</a>, if possible for this format.  <a href="#a19b164d6f2f8abf0bfcb408441276c5f"></a><br/></td></tr>
+<tr class="separator:a19b164d6f2f8abf0bfcb408441276c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09862b7e1ada5906805f4b6f0d56a1c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioFormatWriter.html">AudioFormatWriter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAiffAudioFormat.html#a09862b7e1ada5906805f4b6f0d56a1c8">createWriterFor</a> (<a class="el" href="classOutputStream.html">OutputStream</a> *streamToWriteTo, double sampleRateToUse, unsigned int numberOfChannels, int bitsPerSample, const <a class="el" href="classStringPairArray.html">StringPairArray</a> &amp;metadataValues, int qualityOptionIndex)</td></tr>
 <tr class="memdesc:a09862b7e1ada5906805f4b6f0d56a1c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to create an object that can write to a stream with this audio format.  <a href="#a09862b7e1ada5906805f4b6f0d56a1c8"></a><br/></td></tr>
 <tr class="separator:a09862b7e1ada5906805f4b6f0d56a1c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -367,6 +370,35 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html" title="Reads samples from an audio file stream.">AudioFormatReader</a> </dd></dl>
 
 <p>Implements <a class="el" href="classAudioFormat.html#a18536136744af7eeaf69800ccb98a9a9">AudioFormat</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a19b164d6f2f8abf0bfcb408441276c5f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMemoryMappedAudioFormatReader.html">MemoryMappedAudioFormatReader</a>* AiffAudioFormat::createMemoryMappedReader </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classFile.html">File</a> &amp;&#160;</td>
+          <td class="paramname"><em>file</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attempts to create a <a class="el" href="classMemoryMappedAudioFormatReader.html" title="A specialised type of AudioFormatReader that uses a MemoryMappedFile to read directly from an audio f...">MemoryMappedAudioFormatReader</a>, if possible for this format. </p>
+<p>If the format does not support this, the method will return nullptr; </p>
+
+<p>Reimplemented from <a class="el" href="classAudioFormat.html#a3f307a62245c7457877d934e2ff1ceed">AudioFormat</a>.</p>
 
 </div>
 </div>

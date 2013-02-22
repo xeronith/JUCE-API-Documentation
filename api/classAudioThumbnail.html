@@ -138,6 +138,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a79cf1d2730f78d59307c3aadba1ab047"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a79cf1d2730f78d59307c3aadba1ab047">isFullyLoaded</a> () const noexcept</td></tr>
 <tr class="memdesc:a79cf1d2730f78d59307c3aadba1ab047"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the low res preview is fully generated.  <a href="#a79cf1d2730f78d59307c3aadba1ab047"></a><br/></td></tr>
 <tr class="separator:a79cf1d2730f78d59307c3aadba1ab047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a054d995aa7d9765b695a642bb250ff12"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a054d995aa7d9765b695a642bb250ff12">getProportionComplete</a> () const noexcept</td></tr>
+<tr class="memdesc:a054d995aa7d9765b695a642bb250ff12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a value between 0 and 1 to indicate the progress towards loading the entire file.  <a href="#a054d995aa7d9765b695a642bb250ff12"></a><br/></td></tr>
+<tr class="separator:a054d995aa7d9765b695a642bb250ff12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09e6d388d7aee2e403a8aec5a1077a43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a09e6d388d7aee2e403a8aec5a1077a43">getNumSamplesFinished</a> () const noexcept</td></tr>
 <tr class="memdesc:a09e6d388d7aee2e403a8aec5a1077a43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of samples that have been set in the thumbnail.  <a href="#a09e6d388d7aee2e403a8aec5a1077a43"></a><br/></td></tr>
 <tr class="separator:a09e6d388d7aee2e403a8aec5a1077a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -707,6 +710,31 @@ Public Member Functions</h2></td></tr>
 <p>Returns true if the low res preview is fully generated. </p>
 
 <p>Implements <a class="el" href="classAudioThumbnailBase.html#aacffa9ccff66765ea16fad7aca98323e">AudioThumbnailBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a054d995aa7d9765b695a642bb250ff12"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AudioThumbnail::getProportionComplete </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a value between 0 and 1 to indicate the progress towards loading the entire file. </p>
 
 </div>
 </div>

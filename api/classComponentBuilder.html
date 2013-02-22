@@ -142,7 +142,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4eac18667dc404ad636bb72d8e836667"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gives the builder an <a class="el" href="classComponentBuilder_1_1ImageProvider.html" title="This class is used when references to images need to be stored in ValueTrees.">ImageProvider</a> object that the type handlers can use when loading images from stored references.  <a href="#a4eac18667dc404ad636bb72d8e836667"></a><br/></td></tr>
 <tr class="separator:a4eac18667dc404ad636bb72d8e836667"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52784294955a92a505ecdff6347d46e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComponentBuilder_1_1ImageProvider.html">ImageProvider</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentBuilder.html#a52784294955a92a505ecdff6347d46e3">getImageProvider</a> () const noexcept</td></tr>
-<tr class="memdesc:a52784294955a92a505ecdff6347d46e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current image provider that this builder is using, or 0 if none has been set.  <a href="#a52784294955a92a505ecdff6347d46e3"></a><br/></td></tr>
+<tr class="memdesc:a52784294955a92a505ecdff6347d46e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current image provider that this builder is using, or nullptr if none has been set.  <a href="#a52784294955a92a505ecdff6347d46e3"></a><br/></td></tr>
 <tr class="separator:a52784294955a92a505ecdff6347d46e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada58c44d9f924f56b43f9552c537f30a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentBuilder.html#ada58c44d9f924f56b43f9552c537f30a">updateChildComponents</a> (<a class="el" href="classComponent.html">Component</a> &amp;parent, const <a class="el" href="classValueTree.html">ValueTree</a> &amp;children)</td></tr>
 <tr class="memdesc:ada58c44d9f924f56b43f9552c537f30a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the children of a parent component by updating them from the children of a given <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a>.  <a href="#ada58c44d9f924f56b43f9552c537f30a"></a><br/></td></tr>
@@ -251,7 +251,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the builder's component (creating it if necessary). </p>
-<p>The first time that this method is called, the builder will attempt to create a component from the <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a>, so you must have registered some suitable type handlers before calling this. If there's a problem and the component can't be created, this method returns 0.</p>
+<p>The first time that this method is called, the builder will attempt to create a component from the <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a>, so you must have registered some suitable type handlers before calling this. If there's a problem and the component can't be created, this method returns nullptr.</p>
 <p>The component that is returned is owned by this <a class="el" href="classComponentBuilder.html" title="Loads and maintains a tree of Components from a ValueTree that represents them.">ComponentBuilder</a>, so you can put it inside your own parent components, but don't delete it! The <a class="el" href="classComponentBuilder.html" title="Loads and maintains a tree of Components from a ValueTree that represents them.">ComponentBuilder</a> will delete it automatically when the builder is destroyed. If you want to get a component that you can delete yourself, call <a class="el" href="classComponentBuilder.html#a8758d00b4832dfe9447b0cfa352e8270" title="Creates and returns a new instance of the component that the ValueTree represents.">createComponent()</a> instead.</p>
 <p>The <a class="el" href="classComponentBuilder.html" title="Loads and maintains a tree of Components from a ValueTree that represents them.">ComponentBuilder</a> will update this component if any changes are made to the <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a>, so if there's a chance that the tree might change, be careful not to keep any pointers to sub-components, as they may be changed or removed. </p>
 
@@ -430,7 +430,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the current image provider that this builder is using, or 0 if none has been set. </p>
+<p>Returns the current image provider that this builder is using, or nullptr if none has been set. </p>
 
 </div>
 </div>

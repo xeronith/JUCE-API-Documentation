@@ -8,6 +8,7 @@ var searchData=
   ['md5',['MD5',['../classMD5.html',1,'']]],
   ['memoryblock',['MemoryBlock',['../classMemoryBlock.html',1,'']]],
   ['memoryinputstream',['MemoryInputStream',['../classMemoryInputStream.html',1,'']]],
+  ['memorymappedaudioformatreader',['MemoryMappedAudioFormatReader',['../classMemoryMappedAudioFormatReader.html',1,'']]],
   ['memorymappedfile',['MemoryMappedFile',['../classMemoryMappedFile.html',1,'']]],
   ['memoryoutputstream',['MemoryOutputStream',['../classMemoryOutputStream.html',1,'']]],
   ['menubarcomponent',['MenuBarComponent',['../classMenuBarComponent.html',1,'']]],
