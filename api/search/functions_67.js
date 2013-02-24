@@ -643,7 +643,7 @@ var searchData=
   ['getnumberofunitstakenupbystoredcommands',['getNumberOfUnitsTakenUpByStoredCommands',['../classUndoManager.html#a20655846f23dbbcc3401debf7c6f3866',1,'UndoManager']]],
   ['getnumbuffersizesavailable',['getNumBufferSizesAvailable',['../classAudioIODevice.html#ae0e9207ed5fdcbd753cc51674f5c28e8',1,'AudioIODevice']]],
   ['getnumbuttons',['getNumButtons',['../classAlertWindow.html#a4a13402031851ad78b07909d41ae5c4e',1,'AlertWindow']]],
-  ['getnumbytesasutf8',['getNumBytesAsUTF8',['../classjuce_1_1String.html#a6ff186cb242e1324aeb167df7985e991',1,'juce::String::getNumBytesAsUTF8() const noexcept'],['../classjuce_1_1String.html#a6ff186cb242e1324aeb167df7985e991',1,'juce::String::getNumBytesAsUTF8() const noexcept'],['../classString.html#a6255d6ebbb5e77bdf5c525790b868053',1,'String::getNumBytesAsUTF8()']]],
+  ['getnumbytesasutf8',['getNumBytesAsUTF8',['../classjuce_1_1String.html#a60dc23fc1259cfc4e14bacf6dc40ad47',1,'juce::String::getNumBytesAsUTF8() const noexcept'],['../classjuce_1_1String.html#a60dc23fc1259cfc4e14bacf6dc40ad47',1,'juce::String::getNumBytesAsUTF8() const noexcept'],['../classString.html#a3c49b0a5273b24e4b287a9f12b757514',1,'String::getNumBytesAsUTF8()']]],
   ['getnumbytesbetweensamples',['getNumBytesBetweenSamples',['../classAudioData_1_1Pointer.html#aa7a0811a9ec22b0fb98cbf83177f7ed4',1,'AudioData::Pointer']]],
   ['getnumbytesremaining',['getNumBytesRemaining',['../classInputStream.html#adc989306067e47deabad840d05846290',1,'InputStream']]],
   ['getnumbytesused',['getNumBytesUsed',['../classMemoryMappedAudioFormatReader.html#ad5e8029ea7f2d672ea0553cb3286d03e',1,'MemoryMappedAudioFormatReader']]],

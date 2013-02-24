@@ -215,7 +215,7 @@ var searchData=
   ['replacenext',['replaceNext',['../classLinkedListPointer.html#a52ef66e128a22c2f2f89b2090320312d',1,'LinkedListPointer']]],
   ['replacesection',['replaceSection',['../classjuce_1_1String.html#a0dd9f1d6a79e259f5efea38d9e57209e',1,'juce::String::replaceSection(int startIndex, int numCharactersToReplace, const String &amp;stringToInsert) const '],['../classjuce_1_1String.html#a0dd9f1d6a79e259f5efea38d9e57209e',1,'juce::String::replaceSection(int startIndex, int numCharactersToReplace, const String &amp;stringToInsert) const '],['../classString.html#a74c0e6c0891abc938b43c9d67f873fdf',1,'String::replaceSection()'],['../classCodeDocument.html#ae6ec45481f08161ffcb222eafba21c32',1,'CodeDocument::replaceSection()']]],
   ['replacewith',['replaceWith',['../classMemoryBlock.html#ad396877d63f2a45095535895a9b5071f',1,'MemoryBlock']]],
-  ['replacewithdata',['replaceWithData',['../classFile.html#af60949e7051260cdfb8a5a146b1a6115',1,'File']]],
+  ['replacewithdata',['replaceWithData',['../classFile.html#ac1828d341ded515c7606984aabd4614f',1,'File']]],
   ['replacewithtext',['replaceWithText',['../classFile.html#ab3476536a97b787f00b5988cdb326816',1,'File']]],
   ['resamplingaudiosource',['ResamplingAudioSource',['../classResamplingAudioSource.html',1,'ResamplingAudioSource'],['../classResamplingAudioSource.html#a05d6ab55db4fe93572d4801e4c547220',1,'ResamplingAudioSource::ResamplingAudioSource()']]],
   ['resamplingquality',['ResamplingQuality',['../classGraphics.html#a5da218e649d1b5ac3d67443ae77caf87',1,'Graphics']]],

@@ -157,10 +157,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aeb4fe8347d3df6ac1a09e3342517041c"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharacterFunctions.html#aeb4fe8347d3df6ac1a09e3342517041c">copyAll</a> (DestCharPointerType &amp;dest, SrcCharPointerType src) noexcept</td></tr>
 <tr class="memdesc:aeb4fe8347d3df6ac1a09e3342517041c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies null-terminated characters from one string to another.  <a href="#aeb4fe8347d3df6ac1a09e3342517041c"></a><br/></td></tr>
 <tr class="separator:aeb4fe8347d3df6ac1a09e3342517041c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62e42ef534d11e641cdf909e3dc5ded6"><td class="memTemplParams" colspan="2">template&lt;typename DestCharPointerType , typename SrcCharPointerType &gt; </td></tr>
-<tr class="memitem:a62e42ef534d11e641cdf909e3dc5ded6"><td class="memTemplItemLeft" align="right" valign="top">static int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharacterFunctions.html#a62e42ef534d11e641cdf909e3dc5ded6">copyWithDestByteLimit</a> (DestCharPointerType &amp;dest, SrcCharPointerType src, int maxBytes) noexcept</td></tr>
-<tr class="memdesc:a62e42ef534d11e641cdf909e3dc5ded6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies characters from one string to another, up to a null terminator or a given byte size limit.  <a href="#a62e42ef534d11e641cdf909e3dc5ded6"></a><br/></td></tr>
-<tr class="separator:a62e42ef534d11e641cdf909e3dc5ded6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5732566217c2fbeb0830f605f90c989"><td class="memTemplParams" colspan="2">template&lt;typename DestCharPointerType , typename SrcCharPointerType &gt; </td></tr>
+<tr class="memitem:af5732566217c2fbeb0830f605f90c989"><td class="memTemplItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharacterFunctions.html#af5732566217c2fbeb0830f605f90c989">copyWithDestByteLimit</a> (DestCharPointerType &amp;dest, SrcCharPointerType src, size_t maxBytesToWrite) noexcept</td></tr>
+<tr class="memdesc:af5732566217c2fbeb0830f605f90c989"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies characters from one string to another, up to a null terminator or a given byte size limit.  <a href="#af5732566217c2fbeb0830f605f90c989"></a><br/></td></tr>
+<tr class="separator:af5732566217c2fbeb0830f605f90c989"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6926024e6276580b38d81b432a2261a2"><td class="memTemplParams" colspan="2">template&lt;typename DestCharPointerType , typename SrcCharPointerType &gt; </td></tr>
 <tr class="memitem:a6926024e6276580b38d81b432a2261a2"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharacterFunctions.html#a6926024e6276580b38d81b432a2261a2">copyWithCharLimit</a> (DestCharPointerType &amp;dest, SrcCharPointerType src, int maxChars) noexcept</td></tr>
 <tr class="memdesc:a6926024e6276580b38d81b432a2261a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies characters from one string to another, up to a null terminator or a given maximum number of characters.  <a href="#a6926024e6276580b38d81b432a2261a2"></a><br/></td></tr>
@@ -776,7 +776,7 @@ template&lt;typename DestCharPointerType , typename SrcCharPointerType &gt; </di
 
 </div>
 </div>
-<a class="anchor" id="a62e42ef534d11e641cdf909e3dc5ded6"></a>
+<a class="anchor" id="af5732566217c2fbeb0830f605f90c989"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -786,7 +786,7 @@ template&lt;typename DestCharPointerType , typename SrcCharPointerType &gt; </di
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static int CharacterFunctions::copyWithDestByteLimit </td>
+          <td class="memname">static size_t CharacterFunctions::copyWithDestByteLimit </td>
           <td>(</td>
           <td class="paramtype">DestCharPointerType &amp;&#160;</td>
           <td class="paramname"><em>dest</em>, </td>
@@ -800,8 +800,8 @@ template&lt;typename DestCharPointerType , typename SrcCharPointerType &gt; </di
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>maxBytes</em>&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>maxBytesToWrite</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -820,7 +820,7 @@ template&lt;typename DestCharPointerType , typename SrcCharPointerType &gt; </di
 
 <p>References <a class="el" href="juce__Memory_8h.html#a667897ead2d6fd7f9f682bd8f75da26a">getAddressDifference()</a>.</p>
 
-<p>Referenced by <a class="el" href="classCharPointer__ASCII.html#ae837a30ba1f5eace601a4210be1296f8">CharPointer_ASCII::writeWithDestByteLimit()</a>, <a class="el" href="classCharPointer__UTF32.html#a07cfcbae857f8c97def7fdcaf1c3ace3">CharPointer_UTF32::writeWithDestByteLimit()</a>, <a class="el" href="classCharPointer__UTF16.html#a631fd1fadbacdcece60db164d90e71dd">CharPointer_UTF16::writeWithDestByteLimit()</a>, and <a class="el" href="classCharPointer__UTF8.html#a1f4d93c44d3edf2f6ad9210bdbae053e">CharPointer_UTF8::writeWithDestByteLimit()</a>.</p>
+<p>Referenced by <a class="el" href="classCharPointer__ASCII.html#ad3e1cbb51c36e9f89861e6bc6c5eb3a4">CharPointer_ASCII::writeWithDestByteLimit()</a>, <a class="el" href="classCharPointer__UTF32.html#a2a934d1cf8e0e7e61e56fba92df31a50">CharPointer_UTF32::writeWithDestByteLimit()</a>, <a class="el" href="classCharPointer__UTF16.html#ab9937ba729d2297f0d512c9f103d9420">CharPointer_UTF16::writeWithDestByteLimit()</a>, and <a class="el" href="classCharPointer__UTF8.html#abd7206385add5cec5dd81b3bc9204679">CharPointer_UTF8::writeWithDestByteLimit()</a>.</p>
 
 </div>
 </div>

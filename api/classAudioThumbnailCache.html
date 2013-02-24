@@ -123,8 +123,10 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a2b314d8449a4387722f83f1771aab200"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a2b314d8449a4387722f83f1771aab200">saveNewlyFinishedThumbnail</a> (const <a class="el" href="classAudioThumbnailBase.html">AudioThumbnailBase</a> &amp;, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> hashCode)</td></tr>
+<tr class="memdesc:a2b314d8449a4387722f83f1771aab200"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be overridden to provide a custom callback for saving thumbnails once they have finished being loaded.  <a href="#a2b314d8449a4387722f83f1771aab200"></a><br/></td></tr>
 <tr class="separator:a2b314d8449a4387722f83f1771aab200"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70a034bb9341604fe41b7bcfe613ba12"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a70a034bb9341604fe41b7bcfe613ba12">loadNewThumb</a> (<a class="el" href="classAudioThumbnailBase.html">AudioThumbnailBase</a> &amp;, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> hashCode)</td></tr>
+<tr class="memdesc:a70a034bb9341604fe41b7bcfe613ba12"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be overridden to provide a custom callback for loading thumbnails from pre-saved files to save the cache the trouble of having to create them.  <a href="#a70a034bb9341604fe41b7bcfe613ba12"></a><br/></td></tr>
 <tr class="separator:a70a034bb9341604fe41b7bcfe613ba12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -355,6 +357,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>This can be overridden to provide a custom callback for saving thumbnails once they have finished being loaded. </p>
+
 </div>
 </div>
 <a class="anchor" id="a70a034bb9341604fe41b7bcfe613ba12"></a>
@@ -388,6 +392,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>This can be overridden to provide a custom callback for loading thumbnails from pre-saved files to save the cache the trouble of having to create them. </p>
 
 </div>
 </div>

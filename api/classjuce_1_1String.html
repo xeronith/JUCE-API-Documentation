@@ -472,18 +472,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7ad59974ea5e7c34c5cd2e3332b5390c"><td class="memItemLeft" align="right" valign="top">const wchar_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a7ad59974ea5e7c34c5cd2e3332b5390c">toWideCharPointer</a> () const </td></tr>
 <tr class="memdesc:a7ad59974ea5e7c34c5cd2e3332b5390c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to a wchar_t version of this string.  <a href="#a7ad59974ea5e7c34c5cd2e3332b5390c"></a><br/></td></tr>
 <tr class="separator:a7ad59974ea5e7c34c5cd2e3332b5390c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ff186cb242e1324aeb167df7985e991"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a6ff186cb242e1324aeb167df7985e991">getNumBytesAsUTF8</a> () const noexcept</td></tr>
-<tr class="memdesc:a6ff186cb242e1324aeb167df7985e991"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of bytes required to represent this string as UTF8.  <a href="#a6ff186cb242e1324aeb167df7985e991"></a><br/></td></tr>
-<tr class="separator:a6ff186cb242e1324aeb167df7985e991"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d6bbbab248d8e5b60637033551d6f0a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a6d6bbbab248d8e5b60637033551d6f0a">copyToUTF8</a> (<a class="el" href="classjuce_1_1CharPointer__UTF8.html#a467d8e8e49cca40da21975ea729fbad8">CharPointer_UTF8::CharType</a> *destBuffer, int maxBufferSizeBytes) const noexcept</td></tr>
-<tr class="memdesc:a6d6bbbab248d8e5b60637033551d6f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the string to a buffer as UTF-8 characters.  <a href="#a6d6bbbab248d8e5b60637033551d6f0a"></a><br/></td></tr>
-<tr class="separator:a6d6bbbab248d8e5b60637033551d6f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22a3a0e130227acda921458a94a4c720"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a22a3a0e130227acda921458a94a4c720">copyToUTF16</a> (<a class="el" href="classjuce_1_1CharPointer__UTF16.html#ad4844197627eaa264d738e7c477b5dba">CharPointer_UTF16::CharType</a> *destBuffer, int maxBufferSizeBytes) const noexcept</td></tr>
-<tr class="memdesc:a22a3a0e130227acda921458a94a4c720"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the string to a buffer as UTF-16 characters.  <a href="#a22a3a0e130227acda921458a94a4c720"></a><br/></td></tr>
-<tr class="separator:a22a3a0e130227acda921458a94a4c720"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c15f2dbfdcab0fce09b3f5f91bb75ce"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a1c15f2dbfdcab0fce09b3f5f91bb75ce">copyToUTF32</a> (<a class="el" href="classjuce_1_1CharPointer__UTF32.html#aa77f98a2fc3cd7c1eb001408ac17881e">CharPointer_UTF32::CharType</a> *destBuffer, int maxBufferSizeBytes) const noexcept</td></tr>
-<tr class="memdesc:a1c15f2dbfdcab0fce09b3f5f91bb75ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the string to a buffer as UTF-32 characters.  <a href="#a1c15f2dbfdcab0fce09b3f5f91bb75ce"></a><br/></td></tr>
-<tr class="separator:a1c15f2dbfdcab0fce09b3f5f91bb75ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60dc23fc1259cfc4e14bacf6dc40ad47"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a60dc23fc1259cfc4e14bacf6dc40ad47">getNumBytesAsUTF8</a> () const noexcept</td></tr>
+<tr class="memdesc:a60dc23fc1259cfc4e14bacf6dc40ad47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of bytes required to represent this string as UTF8.  <a href="#a60dc23fc1259cfc4e14bacf6dc40ad47"></a><br/></td></tr>
+<tr class="separator:a60dc23fc1259cfc4e14bacf6dc40ad47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa153306170afa89d0ca22d046dd9a873"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#aa153306170afa89d0ca22d046dd9a873">copyToUTF8</a> (<a class="el" href="classjuce_1_1CharPointer__UTF8.html#a467d8e8e49cca40da21975ea729fbad8">CharPointer_UTF8::CharType</a> *destBuffer, size_t maxBufferSizeBytes) const noexcept</td></tr>
+<tr class="memdesc:aa153306170afa89d0ca22d046dd9a873"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the string to a buffer as UTF-8 characters.  <a href="#aa153306170afa89d0ca22d046dd9a873"></a><br/></td></tr>
+<tr class="separator:aa153306170afa89d0ca22d046dd9a873"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d82df515c06caa6c5125a64e07524aa"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a6d82df515c06caa6c5125a64e07524aa">copyToUTF16</a> (<a class="el" href="classjuce_1_1CharPointer__UTF16.html#ad4844197627eaa264d738e7c477b5dba">CharPointer_UTF16::CharType</a> *destBuffer, size_t maxBufferSizeBytes) const noexcept</td></tr>
+<tr class="memdesc:a6d82df515c06caa6c5125a64e07524aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the string to a buffer as UTF-16 characters.  <a href="#a6d82df515c06caa6c5125a64e07524aa"></a><br/></td></tr>
+<tr class="separator:a6d82df515c06caa6c5125a64e07524aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e4517298a304ea09929ed6efde3e781"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a9e4517298a304ea09929ed6efde3e781">copyToUTF32</a> (<a class="el" href="classjuce_1_1CharPointer__UTF32.html#aa77f98a2fc3cd7c1eb001408ac17881e">CharPointer_UTF32::CharType</a> *destBuffer, size_t maxBufferSizeBytes) const noexcept</td></tr>
+<tr class="memdesc:a9e4517298a304ea09929ed6efde3e781"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the string to a buffer as UTF-32 characters.  <a href="#a9e4517298a304ea09929ed6efde3e781"></a><br/></td></tr>
+<tr class="separator:a9e4517298a304ea09929ed6efde3e781"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7363ce9a7c6cc1517cb7ed5ab027eb9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a7363ce9a7c6cc1517cb7ed5ab027eb9d">preallocateBytes</a> (size_t numBytesNeeded)</td></tr>
 <tr class="memdesc:a7363ce9a7c6cc1517cb7ed5ab027eb9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increases the string's internally allocated storage.  <a href="#a7363ce9a7c6cc1517cb7ed5ab027eb9d"></a><br/></td></tr>
 <tr class="separator:a7363ce9a7c6cc1517cb7ed5ab027eb9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -858,18 +858,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7ad59974ea5e7c34c5cd2e3332b5390c"><td class="memItemLeft" align="right" valign="top">const wchar_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a7ad59974ea5e7c34c5cd2e3332b5390c">toWideCharPointer</a> () const </td></tr>
 <tr class="memdesc:a7ad59974ea5e7c34c5cd2e3332b5390c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to a wchar_t version of this string.  <a href="#a7ad59974ea5e7c34c5cd2e3332b5390c"></a><br/></td></tr>
 <tr class="separator:a7ad59974ea5e7c34c5cd2e3332b5390c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ff186cb242e1324aeb167df7985e991"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a6ff186cb242e1324aeb167df7985e991">getNumBytesAsUTF8</a> () const noexcept</td></tr>
-<tr class="memdesc:a6ff186cb242e1324aeb167df7985e991"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of bytes required to represent this string as UTF8.  <a href="#a6ff186cb242e1324aeb167df7985e991"></a><br/></td></tr>
-<tr class="separator:a6ff186cb242e1324aeb167df7985e991"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d6bbbab248d8e5b60637033551d6f0a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a6d6bbbab248d8e5b60637033551d6f0a">copyToUTF8</a> (<a class="el" href="classjuce_1_1CharPointer__UTF8.html#a467d8e8e49cca40da21975ea729fbad8">CharPointer_UTF8::CharType</a> *destBuffer, int maxBufferSizeBytes) const noexcept</td></tr>
-<tr class="memdesc:a6d6bbbab248d8e5b60637033551d6f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the string to a buffer as UTF-8 characters.  <a href="#a6d6bbbab248d8e5b60637033551d6f0a"></a><br/></td></tr>
-<tr class="separator:a6d6bbbab248d8e5b60637033551d6f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22a3a0e130227acda921458a94a4c720"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a22a3a0e130227acda921458a94a4c720">copyToUTF16</a> (<a class="el" href="classjuce_1_1CharPointer__UTF16.html#ad4844197627eaa264d738e7c477b5dba">CharPointer_UTF16::CharType</a> *destBuffer, int maxBufferSizeBytes) const noexcept</td></tr>
-<tr class="memdesc:a22a3a0e130227acda921458a94a4c720"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the string to a buffer as UTF-16 characters.  <a href="#a22a3a0e130227acda921458a94a4c720"></a><br/></td></tr>
-<tr class="separator:a22a3a0e130227acda921458a94a4c720"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c15f2dbfdcab0fce09b3f5f91bb75ce"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a1c15f2dbfdcab0fce09b3f5f91bb75ce">copyToUTF32</a> (<a class="el" href="classjuce_1_1CharPointer__UTF32.html#aa77f98a2fc3cd7c1eb001408ac17881e">CharPointer_UTF32::CharType</a> *destBuffer, int maxBufferSizeBytes) const noexcept</td></tr>
-<tr class="memdesc:a1c15f2dbfdcab0fce09b3f5f91bb75ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the string to a buffer as UTF-32 characters.  <a href="#a1c15f2dbfdcab0fce09b3f5f91bb75ce"></a><br/></td></tr>
-<tr class="separator:a1c15f2dbfdcab0fce09b3f5f91bb75ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60dc23fc1259cfc4e14bacf6dc40ad47"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a60dc23fc1259cfc4e14bacf6dc40ad47">getNumBytesAsUTF8</a> () const noexcept</td></tr>
+<tr class="memdesc:a60dc23fc1259cfc4e14bacf6dc40ad47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of bytes required to represent this string as UTF8.  <a href="#a60dc23fc1259cfc4e14bacf6dc40ad47"></a><br/></td></tr>
+<tr class="separator:a60dc23fc1259cfc4e14bacf6dc40ad47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa153306170afa89d0ca22d046dd9a873"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#aa153306170afa89d0ca22d046dd9a873">copyToUTF8</a> (<a class="el" href="classjuce_1_1CharPointer__UTF8.html#a467d8e8e49cca40da21975ea729fbad8">CharPointer_UTF8::CharType</a> *destBuffer, size_t maxBufferSizeBytes) const noexcept</td></tr>
+<tr class="memdesc:aa153306170afa89d0ca22d046dd9a873"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the string to a buffer as UTF-8 characters.  <a href="#aa153306170afa89d0ca22d046dd9a873"></a><br/></td></tr>
+<tr class="separator:aa153306170afa89d0ca22d046dd9a873"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d82df515c06caa6c5125a64e07524aa"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a6d82df515c06caa6c5125a64e07524aa">copyToUTF16</a> (<a class="el" href="classjuce_1_1CharPointer__UTF16.html#ad4844197627eaa264d738e7c477b5dba">CharPointer_UTF16::CharType</a> *destBuffer, size_t maxBufferSizeBytes) const noexcept</td></tr>
+<tr class="memdesc:a6d82df515c06caa6c5125a64e07524aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the string to a buffer as UTF-16 characters.  <a href="#a6d82df515c06caa6c5125a64e07524aa"></a><br/></td></tr>
+<tr class="separator:a6d82df515c06caa6c5125a64e07524aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e4517298a304ea09929ed6efde3e781"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a9e4517298a304ea09929ed6efde3e781">copyToUTF32</a> (<a class="el" href="classjuce_1_1CharPointer__UTF32.html#aa77f98a2fc3cd7c1eb001408ac17881e">CharPointer_UTF32::CharType</a> *destBuffer, size_t maxBufferSizeBytes) const noexcept</td></tr>
+<tr class="memdesc:a9e4517298a304ea09929ed6efde3e781"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the string to a buffer as UTF-32 characters.  <a href="#a9e4517298a304ea09929ed6efde3e781"></a><br/></td></tr>
+<tr class="separator:a9e4517298a304ea09929ed6efde3e781"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7363ce9a7c6cc1517cb7ed5ab027eb9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1String.html#a7363ce9a7c6cc1517cb7ed5ab027eb9d">preallocateBytes</a> (size_t numBytesNeeded)</td></tr>
 <tr class="memdesc:a7363ce9a7c6cc1517cb7ed5ab027eb9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increases the string's internally allocated storage.  <a href="#a7363ce9a7c6cc1517cb7ed5ab027eb9d"></a><br/></td></tr>
 <tr class="separator:a7363ce9a7c6cc1517cb7ed5ab027eb9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5253,7 +5253,7 @@ template&lt;class CharPointer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a6ff186cb242e1324aeb167df7985e991"></a>
+<a class="anchor" id="a60dc23fc1259cfc4e14bacf6dc40ad47"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -5261,7 +5261,7 @@ template&lt;class CharPointer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int juce::String::getNumBytesAsUTF8 </td>
+          <td class="memname">size_t juce::String::getNumBytesAsUTF8 </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -5276,11 +5276,11 @@ template&lt;class CharPointer &gt; </div>
 
 <p>Returns the number of bytes required to represent this string as UTF8. </p>
 <p>The number returned does NOT include the trailing zero. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1String.html#a2b2616c71a1873d0e05ad633f9b2847e" title="Returns a pointer to a UTF-8 version of this string.">toUTF8</a>, <a class="el" href="classjuce_1_1String.html#a6d6bbbab248d8e5b60637033551d6f0a" title="Copies the string to a buffer as UTF-8 characters.">copyToUTF8</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1String.html#a2b2616c71a1873d0e05ad633f9b2847e" title="Returns a pointer to a UTF-8 version of this string.">toUTF8</a>, <a class="el" href="classjuce_1_1String.html#aa153306170afa89d0ca22d046dd9a873" title="Copies the string to a buffer as UTF-8 characters.">copyToUTF8</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a6d6bbbab248d8e5b60637033551d6f0a"></a>
+<a class="anchor" id="aa153306170afa89d0ca22d046dd9a873"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -5288,7 +5288,7 @@ template&lt;class CharPointer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int juce::String::copyToUTF8 </td>
+          <td class="memname">size_t juce::String::copyToUTF8 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classjuce_1_1CharPointer__UTF8.html#a467d8e8e49cca40da21975ea729fbad8">CharPointer_UTF8::CharType</a> *&#160;</td>
           <td class="paramname"><em>destBuffer</em>, </td>
@@ -5296,7 +5296,7 @@ template&lt;class CharPointer &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>maxBufferSizeBytes</em>&#160;</td>
         </tr>
         <tr>
@@ -5322,11 +5322,11 @@ template&lt;class CharPointer &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1CharPointer__UTF8.html#ab4df8fce94d0a6cb243f5de998f6970b" title="Copies a source string to this pointer, advancing this pointer as it goes.">CharPointer_UTF8::writeWithDestByteLimit</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1CharPointer__UTF8.html#ad898d2ce2cc9f541dbe24fad358548d9" title="Copies a source string to this pointer, advancing this pointer as it goes.">CharPointer_UTF8::writeWithDestByteLimit</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a22a3a0e130227acda921458a94a4c720"></a>
+<a class="anchor" id="a6d82df515c06caa6c5125a64e07524aa"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -5334,7 +5334,7 @@ template&lt;class CharPointer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int juce::String::copyToUTF16 </td>
+          <td class="memname">size_t juce::String::copyToUTF16 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classjuce_1_1CharPointer__UTF16.html#ad4844197627eaa264d738e7c477b5dba">CharPointer_UTF16::CharType</a> *&#160;</td>
           <td class="paramname"><em>destBuffer</em>, </td>
@@ -5342,7 +5342,7 @@ template&lt;class CharPointer &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>maxBufferSizeBytes</em>&#160;</td>
         </tr>
         <tr>
@@ -5368,11 +5368,11 @@ template&lt;class CharPointer &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1CharPointer__UTF16.html#a75012c23b8e965efc2bfeb7ab7fc7328" title="Copies a source string to this pointer, advancing this pointer as it goes.">CharPointer_UTF16::writeWithDestByteLimit</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1CharPointer__UTF16.html#ad8c586c5f297269f83ddfcc0e2b55244" title="Copies a source string to this pointer, advancing this pointer as it goes.">CharPointer_UTF16::writeWithDestByteLimit</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a1c15f2dbfdcab0fce09b3f5f91bb75ce"></a>
+<a class="anchor" id="a9e4517298a304ea09929ed6efde3e781"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -5380,7 +5380,7 @@ template&lt;class CharPointer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int juce::String::copyToUTF32 </td>
+          <td class="memname">size_t juce::String::copyToUTF32 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classjuce_1_1CharPointer__UTF32.html#aa77f98a2fc3cd7c1eb001408ac17881e">CharPointer_UTF32::CharType</a> *&#160;</td>
           <td class="paramname"><em>destBuffer</em>, </td>
@@ -5388,7 +5388,7 @@ template&lt;class CharPointer &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>maxBufferSizeBytes</em>&#160;</td>
         </tr>
         <tr>
@@ -5414,7 +5414,7 @@ template&lt;class CharPointer &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1CharPointer__UTF32.html#a5054e6bc4be70eb71de26d85e46a4a77" title="Copies a source string to this pointer, advancing this pointer as it goes.">CharPointer_UTF32::writeWithDestByteLimit</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1CharPointer__UTF32.html#a383a578fb06a1755836edca867e48bd3" title="Copies a source string to this pointer, advancing this pointer as it goes.">CharPointer_UTF32::writeWithDestByteLimit</a> </dd></dl>
 
 </div>
 </div>
@@ -8362,7 +8362,7 @@ template&lt;class CharPointer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a6ff186cb242e1324aeb167df7985e991"></a>
+<a class="anchor" id="a60dc23fc1259cfc4e14bacf6dc40ad47"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -8370,7 +8370,7 @@ template&lt;class CharPointer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int juce::String::getNumBytesAsUTF8 </td>
+          <td class="memname">size_t juce::String::getNumBytesAsUTF8 </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -8385,11 +8385,11 @@ template&lt;class CharPointer &gt; </div>
 
 <p>Returns the number of bytes required to represent this string as UTF8. </p>
 <p>The number returned does NOT include the trailing zero. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1String.html#a2b2616c71a1873d0e05ad633f9b2847e" title="Returns a pointer to a UTF-8 version of this string.">toUTF8</a>, <a class="el" href="classjuce_1_1String.html#a6d6bbbab248d8e5b60637033551d6f0a" title="Copies the string to a buffer as UTF-8 characters.">copyToUTF8</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1String.html#a2b2616c71a1873d0e05ad633f9b2847e" title="Returns a pointer to a UTF-8 version of this string.">toUTF8</a>, <a class="el" href="classjuce_1_1String.html#aa153306170afa89d0ca22d046dd9a873" title="Copies the string to a buffer as UTF-8 characters.">copyToUTF8</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a6d6bbbab248d8e5b60637033551d6f0a"></a>
+<a class="anchor" id="aa153306170afa89d0ca22d046dd9a873"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -8397,7 +8397,7 @@ template&lt;class CharPointer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int juce::String::copyToUTF8 </td>
+          <td class="memname">size_t juce::String::copyToUTF8 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classjuce_1_1CharPointer__UTF8.html#a467d8e8e49cca40da21975ea729fbad8">CharPointer_UTF8::CharType</a> *&#160;</td>
           <td class="paramname"><em>destBuffer</em>, </td>
@@ -8405,7 +8405,7 @@ template&lt;class CharPointer &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>maxBufferSizeBytes</em>&#160;</td>
         </tr>
         <tr>
@@ -8431,11 +8431,11 @@ template&lt;class CharPointer &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1CharPointer__UTF8.html#ab4df8fce94d0a6cb243f5de998f6970b" title="Copies a source string to this pointer, advancing this pointer as it goes.">CharPointer_UTF8::writeWithDestByteLimit</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1CharPointer__UTF8.html#ad898d2ce2cc9f541dbe24fad358548d9" title="Copies a source string to this pointer, advancing this pointer as it goes.">CharPointer_UTF8::writeWithDestByteLimit</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a22a3a0e130227acda921458a94a4c720"></a>
+<a class="anchor" id="a6d82df515c06caa6c5125a64e07524aa"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -8443,7 +8443,7 @@ template&lt;class CharPointer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int juce::String::copyToUTF16 </td>
+          <td class="memname">size_t juce::String::copyToUTF16 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classjuce_1_1CharPointer__UTF16.html#ad4844197627eaa264d738e7c477b5dba">CharPointer_UTF16::CharType</a> *&#160;</td>
           <td class="paramname"><em>destBuffer</em>, </td>
@@ -8451,7 +8451,7 @@ template&lt;class CharPointer &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>maxBufferSizeBytes</em>&#160;</td>
         </tr>
         <tr>
@@ -8477,11 +8477,11 @@ template&lt;class CharPointer &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1CharPointer__UTF16.html#a75012c23b8e965efc2bfeb7ab7fc7328" title="Copies a source string to this pointer, advancing this pointer as it goes.">CharPointer_UTF16::writeWithDestByteLimit</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1CharPointer__UTF16.html#ad8c586c5f297269f83ddfcc0e2b55244" title="Copies a source string to this pointer, advancing this pointer as it goes.">CharPointer_UTF16::writeWithDestByteLimit</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a1c15f2dbfdcab0fce09b3f5f91bb75ce"></a>
+<a class="anchor" id="a9e4517298a304ea09929ed6efde3e781"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -8489,7 +8489,7 @@ template&lt;class CharPointer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int juce::String::copyToUTF32 </td>
+          <td class="memname">size_t juce::String::copyToUTF32 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classjuce_1_1CharPointer__UTF32.html#aa77f98a2fc3cd7c1eb001408ac17881e">CharPointer_UTF32::CharType</a> *&#160;</td>
           <td class="paramname"><em>destBuffer</em>, </td>
@@ -8497,7 +8497,7 @@ template&lt;class CharPointer &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>maxBufferSizeBytes</em>&#160;</td>
         </tr>
         <tr>
@@ -8523,7 +8523,7 @@ template&lt;class CharPointer &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1CharPointer__UTF32.html#a5054e6bc4be70eb71de26d85e46a4a77" title="Copies a source string to this pointer, advancing this pointer as it goes.">CharPointer_UTF32::writeWithDestByteLimit</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1CharPointer__UTF32.html#a383a578fb06a1755836edca867e48bd3" title="Copies a source string to this pointer, advancing this pointer as it goes.">CharPointer_UTF32::writeWithDestByteLimit</a> </dd></dl>
 
 </div>
 </div>

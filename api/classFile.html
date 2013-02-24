@@ -297,12 +297,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a155785c6bd5e36a11be9c2451f8bb8f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a155785c6bd5e36a11be9c2451f8bb8f2">readLines</a> (<a class="el" href="classStringArray.html">StringArray</a> &amp;destLines) const </td></tr>
 <tr class="memdesc:a155785c6bd5e36a11be9c2451f8bb8f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the contents of this file as text and splits it into lines, which are appended to the given <a class="el" href="classStringArray.html" title="A special array for holding a list of strings.">StringArray</a>.  <a href="#a155785c6bd5e36a11be9c2451f8bb8f2"></a><br/></td></tr>
 <tr class="separator:a155785c6bd5e36a11be9c2451f8bb8f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17e0a2c302c88ab8ea2d5acc7bbc0051"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a17e0a2c302c88ab8ea2d5acc7bbc0051">appendData</a> (const void *dataToAppend, int numberOfBytes) const </td></tr>
-<tr class="memdesc:a17e0a2c302c88ab8ea2d5acc7bbc0051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a block of binary data to the end of the file.  <a href="#a17e0a2c302c88ab8ea2d5acc7bbc0051"></a><br/></td></tr>
-<tr class="separator:a17e0a2c302c88ab8ea2d5acc7bbc0051"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af60949e7051260cdfb8a5a146b1a6115"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#af60949e7051260cdfb8a5a146b1a6115">replaceWithData</a> (const void *dataToWrite, int numberOfBytes) const </td></tr>
-<tr class="memdesc:af60949e7051260cdfb8a5a146b1a6115"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces this file's contents with a given block of data.  <a href="#af60949e7051260cdfb8a5a146b1a6115"></a><br/></td></tr>
-<tr class="separator:af60949e7051260cdfb8a5a146b1a6115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f2ea9b52874cb710b3d3f27e7722cc6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a1f2ea9b52874cb710b3d3f27e7722cc6">appendData</a> (const void *dataToAppend, size_t numberOfBytes) const </td></tr>
+<tr class="memdesc:a1f2ea9b52874cb710b3d3f27e7722cc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a block of binary data to the end of the file.  <a href="#a1f2ea9b52874cb710b3d3f27e7722cc6"></a><br/></td></tr>
+<tr class="separator:a1f2ea9b52874cb710b3d3f27e7722cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1828d341ded515c7606984aabd4614f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#ac1828d341ded515c7606984aabd4614f">replaceWithData</a> (const void *dataToWrite, size_t numberOfBytes) const </td></tr>
+<tr class="memdesc:ac1828d341ded515c7606984aabd4614f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces this file's contents with a given block of data.  <a href="#ac1828d341ded515c7606984aabd4614f"></a><br/></td></tr>
+<tr class="separator:ac1828d341ded515c7606984aabd4614f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7908b0272d7564eb1f5a7505a5bc7351"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a7908b0272d7564eb1f5a7505a5bc7351">appendText</a> (const <a class="el" href="classString.html">String</a> &amp;textToAppend, bool asUnicode=false, bool writeUnicodeHeaderBytes=false) const </td></tr>
 <tr class="memdesc:a7908b0272d7564eb1f5a7505a5bc7351"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a string to the end of the file.  <a href="#a7908b0272d7564eb1f5a7505a5bc7351"></a><br/></td></tr>
 <tr class="separator:a7908b0272d7564eb1f5a7505a5bc7351"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1723,7 +1723,7 @@ Static Public Attributes</h2></td></tr>
 <p>Creates a stream to write to this file. </p>
 <p>If the file exists, the stream that is returned will be positioned ready for writing at the end of the file, so you might want to use <a class="el" href="classFile.html#acca30337faecf8c3d97a1e70c725db23" title="Deletes a file.">deleteFile()</a> first to write to an empty file.</p>
 <dl class="section return"><dt>Returns</dt><dd>a stream that will write to this file (initially positioned at the end of the file), or nullptr if the file can't be opened for some reason </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#aebd0de51f5df7da86749c90b68e5bc53" title="Creates a stream to read from this file.">createInputStream</a>, <a class="el" href="classFile.html#a17e0a2c302c88ab8ea2d5acc7bbc0051" title="Appends a block of binary data to the end of the file.">appendData</a>, <a class="el" href="classFile.html#a7908b0272d7564eb1f5a7505a5bc7351" title="Appends a string to the end of the file.">appendText</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#aebd0de51f5df7da86749c90b68e5bc53" title="Creates a stream to read from this file.">createInputStream</a>, <a class="el" href="classFile.html#a1f2ea9b52874cb710b3d3f27e7722cc6" title="Appends a block of binary data to the end of the file.">appendData</a>, <a class="el" href="classFile.html#a7908b0272d7564eb1f5a7505a5bc7351" title="Appends a string to the end of the file.">appendText</a> </dd></dl>
 
 </div>
 </div>
@@ -1792,7 +1792,7 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a17e0a2c302c88ab8ea2d5acc7bbc0051"></a>
+<a class="anchor" id="a1f2ea9b52874cb710b3d3f27e7722cc6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1805,7 +1805,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>numberOfBytes</em>&#160;</td>
         </tr>
         <tr>
@@ -1822,7 +1822,7 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af60949e7051260cdfb8a5a146b1a6115"></a>
+<a class="anchor" id="ac1828d341ded515c7606984aabd4614f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1835,7 +1835,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>numberOfBytes</em>&#160;</td>
         </tr>
         <tr>

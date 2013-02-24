@@ -190,10 +190,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abe8d466d181a0e08d1b4f9cc1b719108"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCharPointer__UTF32.html#abe8d466d181a0e08d1b4f9cc1b719108">writeAll</a> (const <a class="el" href="classCharPointer__UTF32.html">CharPointer_UTF32</a> &amp;src) noexcept</td></tr>
 <tr class="memdesc:abe8d466d181a0e08d1b4f9cc1b719108"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a source string to this pointer, advancing this pointer as it goes.  <a href="#abe8d466d181a0e08d1b4f9cc1b719108"></a><br/></td></tr>
 <tr class="separator:abe8d466d181a0e08d1b4f9cc1b719108"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07cfcbae857f8c97def7fdcaf1c3ace3"><td class="memTemplParams" colspan="2">template&lt;typename CharPointer &gt; </td></tr>
-<tr class="memitem:a07cfcbae857f8c97def7fdcaf1c3ace3"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharPointer__UTF32.html#a07cfcbae857f8c97def7fdcaf1c3ace3">writeWithDestByteLimit</a> (const CharPointer &amp;src, const int maxDestBytes) noexcept</td></tr>
-<tr class="memdesc:a07cfcbae857f8c97def7fdcaf1c3ace3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a source string to this pointer, advancing this pointer as it goes.  <a href="#a07cfcbae857f8c97def7fdcaf1c3ace3"></a><br/></td></tr>
-<tr class="separator:a07cfcbae857f8c97def7fdcaf1c3ace3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a934d1cf8e0e7e61e56fba92df31a50"><td class="memTemplParams" colspan="2">template&lt;typename CharPointer &gt; </td></tr>
+<tr class="memitem:a2a934d1cf8e0e7e61e56fba92df31a50"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharPointer__UTF32.html#a2a934d1cf8e0e7e61e56fba92df31a50">writeWithDestByteLimit</a> (const CharPointer &amp;src, const size_t maxDestBytes) noexcept</td></tr>
+<tr class="memdesc:a2a934d1cf8e0e7e61e56fba92df31a50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a source string to this pointer, advancing this pointer as it goes.  <a href="#a2a934d1cf8e0e7e61e56fba92df31a50"></a><br/></td></tr>
+<tr class="separator:a2a934d1cf8e0e7e61e56fba92df31a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa289cda8f588a2b13469227f9b4a863e"><td class="memTemplParams" colspan="2">template&lt;typename CharPointer &gt; </td></tr>
 <tr class="memitem:aa289cda8f588a2b13469227f9b4a863e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharPointer__UTF32.html#aa289cda8f588a2b13469227f9b4a863e">writeWithCharLimit</a> (const CharPointer &amp;src, const int maxChars) noexcept</td></tr>
 <tr class="memdesc:aa289cda8f588a2b13469227f9b4a863e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a source string to this pointer, advancing this pointer as it goes.  <a href="#aa289cda8f588a2b13469227f9b4a863e"></a><br/></td></tr>
@@ -1199,7 +1199,7 @@ template&lt;typename CharPointer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a07cfcbae857f8c97def7fdcaf1c3ace3"></a>
+<a class="anchor" id="a2a934d1cf8e0e7e61e56fba92df31a50"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -1209,7 +1209,7 @@ template&lt;typename CharPointer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int CharPointer_UTF32::writeWithDestByteLimit </td>
+          <td class="memname">size_t CharPointer_UTF32::writeWithDestByteLimit </td>
           <td>(</td>
           <td class="paramtype">const CharPointer &amp;&#160;</td>
           <td class="paramname"><em>src</em>, </td>
@@ -1217,7 +1217,7 @@ template&lt;typename CharPointer &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int&#160;</td>
+          <td class="paramtype">const size_t&#160;</td>
           <td class="paramname"><em>maxDestBytes</em>&#160;</td>
         </tr>
         <tr>
@@ -1236,7 +1236,7 @@ template&lt;typename CharPointer &gt; </div>
 <p>Copies a source string to this pointer, advancing this pointer as it goes. </p>
 <p>The maxDestBytes parameter specifies the maximum number of bytes that can be written to the destination buffer before stopping. </p>
 
-<p>References <a class="el" href="classCharacterFunctions.html#a62e42ef534d11e641cdf909e3dc5ded6">CharacterFunctions::copyWithDestByteLimit()</a>.</p>
+<p>References <a class="el" href="classCharacterFunctions.html#af5732566217c2fbeb0830f605f90c989">CharacterFunctions::copyWithDestByteLimit()</a>.</p>
 
 </div>
 </div>

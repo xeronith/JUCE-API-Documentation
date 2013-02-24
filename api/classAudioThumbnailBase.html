@@ -111,9 +111,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad6960274ea876808fd2e6df6f0761e9c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailBase.html#ad6960274ea876808fd2e6df6f0761e9c">setReader</a> (<a class="el" href="classAudioFormatReader.html">AudioFormatReader</a> *newReader, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> hashCode)=0</td></tr>
 <tr class="memdesc:ad6960274ea876808fd2e6df6f0761e9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gives the thumbnail an <a class="el" href="classAudioFormatReader.html" title="Reads samples from an audio file stream.">AudioFormatReader</a> to use directly.  <a href="#ad6960274ea876808fd2e6df6f0761e9c"></a><br/></td></tr>
 <tr class="separator:ad6960274ea876808fd2e6df6f0761e9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a270f1fe9c27fda1953c9e1ea30fd9486"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailBase.html#a270f1fe9c27fda1953c9e1ea30fd9486">loadFrom</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;input)=0</td></tr>
-<tr class="memdesc:a270f1fe9c27fda1953c9e1ea30fd9486"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads the low res thumbnail data from an input stream.  <a href="#a270f1fe9c27fda1953c9e1ea30fd9486"></a><br/></td></tr>
-<tr class="separator:a270f1fe9c27fda1953c9e1ea30fd9486"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84319e0027a1d0b98a38b51c00fa2d5c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailBase.html#a84319e0027a1d0b98a38b51c00fa2d5c">loadFrom</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;input)=0</td></tr>
+<tr class="memdesc:a84319e0027a1d0b98a38b51c00fa2d5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads the low res thumbnail data from an input stream.  <a href="#a84319e0027a1d0b98a38b51c00fa2d5c"></a><br/></td></tr>
+<tr class="separator:a84319e0027a1d0b98a38b51c00fa2d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cb4b72aa47359c671f89fc25eae0a72"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailBase.html#a9cb4b72aa47359c671f89fc25eae0a72">saveTo</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;output) const =0</td></tr>
 <tr class="memdesc:a9cb4b72aa47359c671f89fc25eae0a72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the low res thumbnail data to an output stream.  <a href="#a9cb4b72aa47359c671f89fc25eae0a72"></a><br/></td></tr>
 <tr class="separator:a9cb4b72aa47359c671f89fc25eae0a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -321,7 +321,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a270f1fe9c27fda1953c9e1ea30fd9486"></a>
+<a class="anchor" id="a84319e0027a1d0b98a38b51c00fa2d5c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -329,7 +329,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioThumbnailBase::loadFrom </td>
+          <td class="memname">virtual bool AudioThumbnailBase::loadFrom </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classInputStream.html">InputStream</a> &amp;&#160;</td>
           <td class="paramname"><em>input</em></td><td>)</td>
@@ -347,7 +347,7 @@ Public Member Functions</h2></td></tr>
 <p>This is not an audio file stream! It takes a stream of thumbnail data that would previously have been created by the <a class="el" href="classAudioThumbnailBase.html#a9cb4b72aa47359c671f89fc25eae0a72" title="Saves the low res thumbnail data to an output stream.">saveTo()</a> method. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioThumbnailBase.html#a9cb4b72aa47359c671f89fc25eae0a72" title="Saves the low res thumbnail data to an output stream.">saveTo</a> </dd></dl>
 
-<p>Implemented in <a class="el" href="classAudioThumbnail.html#a59680950d18da52b3342f65cd44d9ecd">AudioThumbnail</a>.</p>
+<p>Implemented in <a class="el" href="classAudioThumbnail.html#a488b2903fcc22f0726db73d26d02e04a">AudioThumbnail</a>.</p>
 
 </div>
 </div>
@@ -374,8 +374,8 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Saves the low res thumbnail data to an output stream. </p>
-<p>The data that is written can later be reloaded using <a class="el" href="classAudioThumbnailBase.html#a270f1fe9c27fda1953c9e1ea30fd9486" title="Reloads the low res thumbnail data from an input stream.">loadFrom()</a>. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioThumbnailBase.html#a270f1fe9c27fda1953c9e1ea30fd9486" title="Reloads the low res thumbnail data from an input stream.">loadFrom</a> </dd></dl>
+<p>The data that is written can later be reloaded using <a class="el" href="classAudioThumbnailBase.html#a84319e0027a1d0b98a38b51c00fa2d5c" title="Reloads the low res thumbnail data from an input stream.">loadFrom()</a>. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioThumbnailBase.html#a84319e0027a1d0b98a38b51c00fa2d5c" title="Reloads the low res thumbnail data from an input stream.">loadFrom</a> </dd></dl>
 
 <p>Implemented in <a class="el" href="classAudioThumbnail.html#adeb15dd8aa79320eccc122ed07488e9b">AudioThumbnail</a>.</p>
 
