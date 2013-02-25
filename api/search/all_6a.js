@@ -187,6 +187,7 @@ var searchData=
   ['juce_5ffiletreecomponent_2eh',['juce_FileTreeComponent.h',['../juce__FileTreeComponent_8h.html',1,'']]],
   ['juce_5ffilltype_2eh',['juce_FillType.h',['../juce__FillType_8h.html',1,'']]],
   ['juce_5fflacaudioformat_2eh',['juce_FlacAudioFormat.h',['../juce__FlacAudioFormat_8h.html',1,'']]],
+  ['juce_5ffloatvectoroperations_2eh',['juce_FloatVectorOperations.h',['../juce__FloatVectorOperations_8h.html',1,'']]],
   ['juce_5ffont_2eh',['juce_Font.h',['../juce__Font_8h.html',1,'']]],
   ['juce_5fgenericaudioprocessoreditor_2eh',['juce_GenericAudioProcessorEditor.h',['../juce__GenericAudioProcessorEditor_8h.html',1,'']]],
   ['juce_5fgloweffect_2eh',['juce_GlowEffect.h',['../juce__GlowEffect_8h.html',1,'']]],

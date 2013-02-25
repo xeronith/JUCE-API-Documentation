@@ -24,6 +24,7 @@ var searchData=
   ['fillandstrokestate',['FillAndStrokeState',['../classDrawableShape_1_1FillAndStrokeState.html',1,'DrawableShape']]],
   ['filltype',['FillType',['../classFillType.html',1,'']]],
   ['flacaudioformat',['FlacAudioFormat',['../classFlacAudioFormat.html',1,'']]],
+  ['floatvectoroperations',['FloatVectorOperations',['../classFloatVectorOperations.html',1,'']]],
   ['focuschangelistener',['FocusChangeListener',['../classFocusChangeListener.html',1,'']]],
   ['font',['Font',['../classFont.html',1,'']]]
 ];
