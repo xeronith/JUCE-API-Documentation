@@ -175,8 +175,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac902e27eb0950adac57bb69680b6e709"><td class="mdescLeft">&#160;</td><td class="mdescRight">The filter should call this to set the number of samples delay that it introduces.  <a href="#ac902e27eb0950adac57bb69680b6e709"></a><br/></td></tr>
 <tr class="separator:ac902e27eb0950adac57bb69680b6e709"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbf0119e1ab826b7acbe01eb3f060968"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#abbf0119e1ab826b7acbe01eb3f060968">silenceInProducesSilenceOut</a> () const =0</td></tr>
-<tr class="memdesc:abbf0119e1ab826b7acbe01eb3f060968"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a silent input always produces a silent output (i.e.  <a href="#abbf0119e1ab826b7acbe01eb3f060968"></a><br/></td></tr>
+<tr class="memdesc:abbf0119e1ab826b7acbe01eb3f060968"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a silent input always produces a silent output.  <a href="#abbf0119e1ab826b7acbe01eb3f060968"></a><br/></td></tr>
 <tr class="separator:abbf0119e1ab826b7acbe01eb3f060968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a358db82650c6423968091f8b4d22b09a"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a358db82650c6423968091f8b4d22b09a">getTailLengthSeconds</a> () const =0</td></tr>
+<tr class="memdesc:a358db82650c6423968091f8b4d22b09a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of the filter's tail, in seconds.  <a href="#a358db82650c6423968091f8b4d22b09a"></a><br/></td></tr>
+<tr class="separator:a358db82650c6423968091f8b4d22b09a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae482a0c2928bfe77de821e6824ffaee6"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ae482a0c2928bfe77de821e6824ffaee6">acceptsMidi</a> () const =0</td></tr>
 <tr class="memdesc:ae482a0c2928bfe77de821e6824ffaee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the processor wants midi messages.  <a href="#ae482a0c2928bfe77de821e6824ffaee6"></a><br/></td></tr>
 <tr class="separator:ae482a0c2928bfe77de821e6824ffaee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -300,8 +303,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:adbd911f75ad7cbe659a26bd3a2b05a30"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#adbd911f75ad7cbe659a26bd3a2b05a30">setTypeOfNextNewPlugin</a> (<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">WrapperType</a>)</td></tr>
-<tr class="separator:adbd911f75ad7cbe659a26bd3a2b05a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a406ae17bd699349d5da8510aa8af1b"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a2a406ae17bd699349d5da8510aa8af1b">setTypeOfNextNewPlugin</a> (<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">WrapperType</a>)</td></tr>
+<tr class="separator:a2a406ae17bd699349d5da8510aa8af1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -968,10 +971,36 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns true if a silent input always produces a silent output (i.e. </p>
-<p>it has no tail). </p>
+<p>Returns true if a silent input always produces a silent output. </p>
 
 <p>Implemented in <a class="el" href="classAudioProcessorGraph.html#a587bbfb98a0c5fc8b4f3fee63e2321bf">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#ad916b7b2f8a9e883bd0037b45b76b887">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a358db82650c6423968091f8b4d22b09a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double AudioProcessor::getTailLengthSeconds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the length of the filter's tail, in seconds. </p>
+
+<p>Implemented in <a class="el" href="classAudioProcessorGraph.html#a3764ce2440c263c416787b5760b51251">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a4191c435eb3c9a1d5ac372ad5076c745">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
 
 </div>
 </div>
@@ -2116,7 +2145,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adbd911f75ad7cbe659a26bd3a2b05a30"></a>
+<a class="anchor" id="a2a406ae17bd699349d5da8510aa8af1b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2124,7 +2153,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void AudioProcessor::setTypeOfNextNewPlugin </td>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> AudioProcessor::setTypeOfNextNewPlugin </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">WrapperType</a>&#160;</td>
           <td class="paramname"></td><td>)</td>

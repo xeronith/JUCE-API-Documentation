@@ -110,6 +110,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a04e1fc8084a07fb926e22bbc62bfe4c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a04e1fc8084a07fb926e22bbc62bfe4c4">storeThumb</a> (const <a class="el" href="classAudioThumbnailBase.html">AudioThumbnailBase</a> &amp;thumb, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> hashCode)</td></tr>
 <tr class="memdesc:a04e1fc8084a07fb926e22bbc62bfe4c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the cachable data from the specified thumb in this cache.  <a href="#a04e1fc8084a07fb926e22bbc62bfe4c4"></a><br/></td></tr>
 <tr class="separator:a04e1fc8084a07fb926e22bbc62bfe4c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd26c87085118697efd805fd57b26b99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#afd26c87085118697efd805fd57b26b99">removeThumb</a> (<a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> hashCode)</td></tr>
+<tr class="memdesc:afd26c87085118697efd805fd57b26b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the cache to forget about the thumb with the given hashcode.  <a href="#afd26c87085118697efd805fd57b26b99"></a><br/></td></tr>
+<tr class="separator:afd26c87085118697efd805fd57b26b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4964efe9a66ded88c1224e2c0946c5e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnailCache.html#a4964efe9a66ded88c1224e2c0946c5e9">readFromStream</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;source)</td></tr>
 <tr class="memdesc:a4964efe9a66ded88c1224e2c0946c5e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to re-load a saved cache of thumbnails from a stream.  <a href="#a4964efe9a66ded88c1224e2c0946c5e9"></a><br/></td></tr>
 <tr class="separator:a4964efe9a66ded88c1224e2c0946c5e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -259,6 +262,24 @@ Protected Member Functions</h2></td></tr>
 
 <p>Stores the cachable data from the specified thumb in this cache. </p>
 <p>This is called automatically by the <a class="el" href="classAudioThumbnail.html" title="Makes it easy to quickly draw scaled views of the waveform shape of an audio file.">AudioThumbnail</a> class, so you shouldn't normally need to call it directly. </p>
+
+</div>
+</div>
+<a class="anchor" id="afd26c87085118697efd805fd57b26b99"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioThumbnailCache::removeThumb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td>
+          <td class="paramname"><em>hashCode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tells the cache to forget about the thumb with the given hashcode. </p>
 
 </div>
 </div>

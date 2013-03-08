@@ -126,6 +126,7 @@ var searchData=
   ['writefromaudioreader',['writeFromAudioReader',['../classAudioFormatWriter.html#a3a691c94e9609383c915af71cbf760db',1,'AudioFormatWriter']]],
   ['writefromaudiosamplebuffer',['writeFromAudioSampleBuffer',['../classAudioFormatWriter.html#a62f00db8e716c1d253d70be4c9d753a1',1,'AudioFormatWriter']]],
   ['writefromaudiosource',['writeFromAudioSource',['../classAudioFormatWriter.html#a4d09d96836ebe2779d2e82a090d0b29f',1,'AudioFormatWriter']]],
+  ['writefromfloatarrays',['writeFromFloatArrays',['../classAudioFormatWriter.html#a368cbeab701e51c78335f64f4874b997',1,'AudioFormatWriter']]],
   ['writefrominputstream',['writeFromInputStream',['../classMemoryOutputStream.html#af6f80197eb18078445c6c1c394defe8e',1,'MemoryOutputStream::writeFromInputStream()'],['../classOutputStream.html#a220fce5b31ad69ecdb896980a615dbf0',1,'OutputStream::writeFromInputStream()']]],
   ['writehelper',['WriteHelper',['../structAudioFormatWriter_1_1WriteHelper.html',1,'AudioFormatWriter']]],
   ['writeimage',['writeImage',['../classLowLevelGraphicsPostScriptRenderer.html#acf0d11d1eff9fdc8f70a9c377c076269',1,'LowLevelGraphicsPostScriptRenderer']]],

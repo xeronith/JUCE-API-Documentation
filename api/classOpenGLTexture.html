@@ -219,7 +219,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a texture from a raw array of pixels. </p>
-<p>The width and height provided must be valid - i.e. power-of-two unless the underlying GL system allows otherwise. The data is sent directly to the OpenGL driver without being flipped vertically, so the first pixel will be mapped onto texture coordinate (0, 0). bottom-left corner of the texture </p>
+<p>If width and height are not powers-of-two, the texture will be created with a larger size, and only the subsection (0, 0, width, height) will be initialised. The data is sent directly to the OpenGL driver without being flipped vertically, so the first pixel will be mapped onto texture coordinate (0, 0). </p>
 
 </div>
 </div>
@@ -289,7 +289,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates an alpha-channel texture from an array of alpha values. </p>
-<p>The width and height provided must be valid - i.e. power-of-two unless the underlying GL system allows otherwise. The data is sent directly to the OpenGL driver without being flipped vertically, so the first pixel will be mapped onto texture coordinate (0, 0). bottom-left corner of the texture </p>
+<p>If width and height are not powers-of-two, the texture will be created with a larger size, and only the subsection (0, 0, width, height) will be initialised. The data is sent directly to the OpenGL driver without being flipped vertically, so the first pixel will be mapped onto texture coordinate (0, 0). </p>
 
 </div>
 </div>

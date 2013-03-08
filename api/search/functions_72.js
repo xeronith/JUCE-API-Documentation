@@ -160,6 +160,7 @@ var searchData=
   ['removestring',['removeString',['../classStringArray.html#ad4b81b9cdbf6bd2beac62abb9ee0d71b',1,'StringArray']]],
   ['removesubitem',['removeSubItem',['../classTreeViewItem.html#a80b8910184619d952841a1b93d4b75c4',1,'TreeViewItem']]],
   ['removetab',['removeTab',['../classTabbedButtonBar.html#a076010c009909a444f84129a69ac61d4',1,'TabbedButtonBar::removeTab()'],['../classTabbedComponent.html#ac9a7f7fc03a69fa286772fb0589d9388',1,'TabbedComponent::removeTab()']]],
+  ['removethumb',['removeThumb',['../classAudioThumbnailCache.html#afd26c87085118697efd805fd57b26b99',1,'AudioThumbnailCache']]],
   ['removetimesliceclient',['removeTimeSliceClient',['../classTimeSliceThread.html#a07b538bee2ba11da5b66bd59af25f153',1,'TimeSliceThread']]],
   ['removetoolbaritem',['removeToolbarItem',['../classToolbar.html#a458f8ab507f5c63b4cb0ab82f8e59ae0',1,'Toolbar']]],
   ['removetype',['removeType',['../classKnownPluginList.html#a4ec98afce586dfbef03a3098b8c73038',1,'KnownPluginList']]],

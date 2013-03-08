@@ -79,6 +79,7 @@ var searchData=
   ['writefromaudioreader',['writeFromAudioReader',['../classAudioFormatWriter.html#a3a691c94e9609383c915af71cbf760db',1,'AudioFormatWriter']]],
   ['writefromaudiosamplebuffer',['writeFromAudioSampleBuffer',['../classAudioFormatWriter.html#a62f00db8e716c1d253d70be4c9d753a1',1,'AudioFormatWriter']]],
   ['writefromaudiosource',['writeFromAudioSource',['../classAudioFormatWriter.html#a4d09d96836ebe2779d2e82a090d0b29f',1,'AudioFormatWriter']]],
+  ['writefromfloatarrays',['writeFromFloatArrays',['../classAudioFormatWriter.html#a368cbeab701e51c78335f64f4874b997',1,'AudioFormatWriter']]],
   ['writefrominputstream',['writeFromInputStream',['../classMemoryOutputStream.html#af6f80197eb18078445c6c1c394defe8e',1,'MemoryOutputStream::writeFromInputStream()'],['../classOutputStream.html#a220fce5b31ad69ecdb896980a615dbf0',1,'OutputStream::writeFromInputStream()']]],
   ['writeimage',['writeImage',['../classLowLevelGraphicsPostScriptRenderer.html#acf0d11d1eff9fdc8f70a9c377c076269',1,'LowLevelGraphicsPostScriptRenderer']]],
   ['writeimagetostream',['writeImageToStream',['../classImageFileFormat.html#af70bdf60c3cea3a6806d225706670a63',1,'ImageFileFormat::writeImageToStream()'],['../classPNGImageFormat.html#ae2dcd3a90cf8d395e1d6cf43c0d09fdc',1,'PNGImageFormat::writeImageToStream()'],['../classJPEGImageFormat.html#a4d41f19c27e81243677780a10a15b567',1,'JPEGImageFormat::writeImageToStream()'],['../classGIFImageFormat.html#a25fa8ee423088f8dc7300997093ab512',1,'GIFImageFormat::writeImageToStream()']]],

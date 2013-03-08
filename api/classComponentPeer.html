@@ -153,6 +153,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3288b2b0df69ef748513219d0a01f78d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a3288b2b0df69ef748513219d0a01f78d">setDocumentEditedStatus</a> (bool edited)</td></tr>
 <tr class="memdesc:a3288b2b0df69ef748513219d0a01f78d"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this type of window is capable of indicating that the document in it has been edited, then this changes its status.  <a href="#a3288b2b0df69ef748513219d0a01f78d"></a><br/></td></tr>
 <tr class="separator:a3288b2b0df69ef748513219d0a01f78d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1eb29e57a210ad9fb626326c4a97a1a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#ad1eb29e57a210ad9fb626326c4a97a1a">setRepresentedFile</a> (const <a class="el" href="classFile.html">File</a> &amp;)</td></tr>
+<tr class="memdesc:ad1eb29e57a210ad9fb626326c4a97a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this type of window is capable of indicating that it represents a file, then this lets you set the file.  <a href="#ad1eb29e57a210ad9fb626326c4a97a1a"></a><br/></td></tr>
+<tr class="separator:ad1eb29e57a210ad9fb626326c4a97a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3231325f3a9952c78db5cc1d7e585363"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a3231325f3a9952c78db5cc1d7e585363">setPosition</a> (int x, int y)=0</td></tr>
 <tr class="memdesc:a3231325f3a9952c78db5cc1d7e585363"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the window without changing its size.  <a href="#a3231325f3a9952c78db5cc1d7e585363"></a><br/></td></tr>
 <tr class="separator:a3231325f3a9952c78db5cc1d7e585363"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -631,6 +634,33 @@ Protected Attributes</h2></td></tr>
 <p>If this type of window is capable of indicating that the document in it has been edited, then this changes its status. </p>
 <p>For example in OSX, this changes the appearance of the close button. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if the window has a mechanism for showing this, or false if not. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad1eb29e57a210ad9fb626326c4a97a1a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ComponentPeer::setRepresentedFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classFile.html">File</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If this type of window is capable of indicating that it represents a file, then this lets you set the file. </p>
+<p>E.g. in OSX it'll show an icon for the file in the title bar. </p>
 
 </div>
 </div>

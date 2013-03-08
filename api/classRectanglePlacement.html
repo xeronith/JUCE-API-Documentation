@@ -139,13 +139,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1d2340aa383cee6dc141805ae680369d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectanglePlacement.html#a1d2340aa383cee6dc141805ae680369d">applyTo</a> (double &amp;sourceX, double &amp;sourceY, double &amp;sourceW, double &amp;sourceH, double destinationX, double destinationY, double destinationW, double destinationH) const noexcept</td></tr>
 <tr class="memdesc:a1d2340aa383cee6dc141805ae680369d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adjusts the position and size of a rectangle to fit it into a space.  <a href="#a1d2340aa383cee6dc141805ae680369d"></a><br/></td></tr>
 <tr class="separator:a1d2340aa383cee6dc141805ae680369d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a633155110b234e84a5f381b9f5fd75ee"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a633155110b234e84a5f381b9f5fd75ee"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classRectanglePlacement.html#a633155110b234e84a5f381b9f5fd75ee">appliedTo</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt; &amp;source, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt; &amp;destination) const noexcept</td></tr>
-<tr class="memdesc:a633155110b234e84a5f381b9f5fd75ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the transform that should be applied to these source co-ordinates to fit them into the destination rectangle using the current flags.  <a href="#a633155110b234e84a5f381b9f5fd75ee"></a><br/></td></tr>
-<tr class="separator:a633155110b234e84a5f381b9f5fd75ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86311fd8cff2e4ca2940616434610743"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classAffineTransform.html">AffineTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectanglePlacement.html#a86311fd8cff2e4ca2940616434610743">getTransformToFit</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;source, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;destination) const noexcept</td></tr>
-<tr class="memdesc:a86311fd8cff2e4ca2940616434610743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the transform that should be applied to these source co-ordinates to fit them into the destination rectangle using the current flags.  <a href="#a86311fd8cff2e4ca2940616434610743"></a><br/></td></tr>
-<tr class="separator:a86311fd8cff2e4ca2940616434610743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ff073c34db65b921d8202300b9c115c"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:a9ff073c34db65b921d8202300b9c115c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classRectanglePlacement.html#a9ff073c34db65b921d8202300b9c115c">appliedTo</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt; &amp;source, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt; &amp;destination) const noexcept</td></tr>
+<tr class="memdesc:a9ff073c34db65b921d8202300b9c115c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the rectangle that should be used to fit the given source rectangle into the destination rectangle using the current flags.  <a href="#a9ff073c34db65b921d8202300b9c115c"></a><br/></td></tr>
+<tr class="separator:a9ff073c34db65b921d8202300b9c115c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27ee84d4a5b441246af03be6c20763df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAffineTransform.html">AffineTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectanglePlacement.html#a27ee84d4a5b441246af03be6c20763df">getTransformToFit</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;source, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;destination) const noexcept</td></tr>
+<tr class="memdesc:a27ee84d4a5b441246af03be6c20763df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the transform that should be applied to these source co-ordinates to fit them into the destination rectangle using the current flags.  <a href="#a27ee84d4a5b441246af03be6c20763df"></a><br/></td></tr>
+<tr class="separator:a27ee84d4a5b441246af03be6c20763df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines the method used to postion some kind of rectangular object within a rectangular viewport. </p>
@@ -460,7 +460,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a633155110b234e84a5f381b9f5fd75ee"></a>
+<a class="anchor" id="a9ff073c34db65b921d8202300b9c115c"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -470,7 +470,7 @@ template&lt;typename ValueType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classRectangle.html">Rectangle</a>&lt;ValueType&gt; RectanglePlacement::appliedTo </td>
+          <td class="memname"><a class="el" href="classRectangle.html">Rectangle</a>&lt;ValueType&gt; RectanglePlacement::appliedTo </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt; &amp;&#160;</td>
           <td class="paramname"><em>source</em>, </td>
@@ -494,13 +494,13 @@ template&lt;typename ValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the transform that should be applied to these source co-ordinates to fit them into the destination rectangle using the current flags. </p>
+<p>Returns the rectangle that should be used to fit the given source rectangle into the destination rectangle using the current flags. </p>
 
 <p>References <a class="el" href="classRectangle.html#a4b8223fb659d6c7f95a72e8d3fbe793d">Rectangle&lt; ValueType &gt;::getX()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a86311fd8cff2e4ca2940616434610743"></a>
+<a class="anchor" id="a27ee84d4a5b441246af03be6c20763df"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -508,7 +508,7 @@ template&lt;typename ValueType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classAffineTransform.html">AffineTransform</a> RectanglePlacement::getTransformToFit </td>
+          <td class="memname"><a class="el" href="classAffineTransform.html">AffineTransform</a> RectanglePlacement::getTransformToFit </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;&#160;</td>
           <td class="paramname"><em>source</em>, </td>

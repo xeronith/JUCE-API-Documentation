@@ -158,9 +158,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9b9d12cc339f3f12124f4a3e54d5502c"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a9b9d12cc339f3f12124f4a3e54d5502c">getRawContext</a> () const noexcept</td></tr>
 <tr class="memdesc:a9b9d12cc339f3f12124f4a3e54d5502c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an OS-dependent handle to some kind of underlting OS-provided GL context.  <a href="#a9b9d12cc339f3f12124f4a3e54d5502c"></a><br/></td></tr>
 <tr class="separator:a9b9d12cc339f3f12124f4a3e54d5502c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a741c7ec4a5663cb1262b5866e474051d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a741c7ec4a5663cb1262b5866e474051d">copyTexture</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;targetClipArea, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;anchorPosAndTextureSize, int contextWidth, int contextHeight)</td></tr>
-<tr class="memdesc:a741c7ec4a5663cb1262b5866e474051d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the currently selected texture into this context at its original size.  <a href="#a741c7ec4a5663cb1262b5866e474051d"></a><br/></td></tr>
-<tr class="separator:a741c7ec4a5663cb1262b5866e474051d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0bf3594cb79029af5ee5eb66a14f152"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#ac0bf3594cb79029af5ee5eb66a14f152">copyTexture</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;targetClipArea, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;anchorPosAndTextureSize, int contextWidth, int contextHeight, bool textureOriginIsBottomLeft)</td></tr>
+<tr class="memdesc:ac0bf3594cb79029af5ee5eb66a14f152"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the currently selected texture into this context at its original size.  <a href="#ac0bf3594cb79029af5ee5eb66a14f152"></a><br/></td></tr>
+<tr class="separator:ac0bf3594cb79029af5ee5eb66a14f152"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -709,7 +709,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a741c7ec4a5663cb1262b5866e474051d"></a>
+<a class="anchor" id="ac0bf3594cb79029af5ee5eb66a14f152"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -735,7 +735,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>contextHeight</em>&#160;</td>
+          <td class="paramname"><em>contextHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>textureOriginIsBottomLeft</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -752,6 +758,7 @@ Public Attributes</h2></td></tr>
     <tr><td class="paramname">anchorPosAndTextureSize</td><td>the position of this rectangle is the texture's top-left anchor position in the target space, and the size must be the total size of the texture. </td></tr>
     <tr><td class="paramname">contextWidth</td><td>the width of the context or framebuffer that is being drawn into, used for scaling of the coordinates. </td></tr>
     <tr><td class="paramname">contextHeight</td><td>the height of the context or framebuffer that is being drawn into, used for vertical flipping of the y coordinates. </td></tr>
+    <tr><td class="paramname">textureOriginIsBottomLeft</td><td>if true, the texture's origin is treated as being at (0, 0). If false, it is assumed to be (0, 1) </td></tr>
   </table>
   </dd>
 </dl>
