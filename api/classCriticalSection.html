@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>A mutex class.  
+<p>A re-entrant mutex.  
  <a href="classCriticalSection.html#details">More...</a></p>
 
 <p>Inherited by <a class="el" href="classArrayAllocationBase.html">ArrayAllocationBase&lt; TestResult *, CriticalSection &gt;</a>.</p>
@@ -99,21 +99,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Types</h2></td></tr>
 <tr class="memitem:a586568fcce3a9c6a0f1547518fd6ddb6"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classGenericScopedLock.html">GenericScopedLock</a><br class="typebreak"/>
 &lt; <a class="el" href="classCriticalSection.html">CriticalSection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCriticalSection.html#a586568fcce3a9c6a0f1547518fd6ddb6">ScopedLockType</a></td></tr>
-<tr class="memdesc:a586568fcce3a9c6a0f1547518fd6ddb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the type of scoped lock to use with a <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a>.  <a href="#a586568fcce3a9c6a0f1547518fd6ddb6"></a><br/></td></tr>
+<tr class="memdesc:a586568fcce3a9c6a0f1547518fd6ddb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the type of scoped lock to use with a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>.  <a href="#a586568fcce3a9c6a0f1547518fd6ddb6"></a><br/></td></tr>
 <tr class="separator:a586568fcce3a9c6a0f1547518fd6ddb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69d6b613f2638fbae341cfd06df478c7"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classGenericScopedUnlock.html">GenericScopedUnlock</a><br class="typebreak"/>
 &lt; <a class="el" href="classCriticalSection.html">CriticalSection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCriticalSection.html#a69d6b613f2638fbae341cfd06df478c7">ScopedUnlockType</a></td></tr>
-<tr class="memdesc:a69d6b613f2638fbae341cfd06df478c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the type of scoped unlocker to use with a <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a>.  <a href="#a69d6b613f2638fbae341cfd06df478c7"></a><br/></td></tr>
+<tr class="memdesc:a69d6b613f2638fbae341cfd06df478c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the type of scoped unlocker to use with a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>.  <a href="#a69d6b613f2638fbae341cfd06df478c7"></a><br/></td></tr>
 <tr class="separator:a69d6b613f2638fbae341cfd06df478c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a745e5e36d8c6a33ea1fcbbfa2fff00a3"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classGenericScopedTryLock.html">GenericScopedTryLock</a><br class="typebreak"/>
 &lt; <a class="el" href="classCriticalSection.html">CriticalSection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCriticalSection.html#a745e5e36d8c6a33ea1fcbbfa2fff00a3">ScopedTryLockType</a></td></tr>
-<tr class="memdesc:a745e5e36d8c6a33ea1fcbbfa2fff00a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the type of scoped try-locker to use with a <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a>.  <a href="#a745e5e36d8c6a33ea1fcbbfa2fff00a3"></a><br/></td></tr>
+<tr class="memdesc:a745e5e36d8c6a33ea1fcbbfa2fff00a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the type of scoped try-locker to use with a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>.  <a href="#a745e5e36d8c6a33ea1fcbbfa2fff00a3"></a><br/></td></tr>
 <tr class="separator:a745e5e36d8c6a33ea1fcbbfa2fff00a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aaa4d9ea166cd7ce8ef369a7934e26b97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCriticalSection.html#aaa4d9ea166cd7ce8ef369a7934e26b97">CriticalSection</a> () noexcept</td></tr>
-<tr class="memdesc:aaa4d9ea166cd7ce8ef369a7934e26b97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> object.  <a href="#aaa4d9ea166cd7ce8ef369a7934e26b97"></a><br/></td></tr>
+<tr class="memdesc:aaa4d9ea166cd7ce8ef369a7934e26b97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> object.  <a href="#aaa4d9ea166cd7ce8ef369a7934e26b97"></a><br/></td></tr>
 <tr class="separator:aaa4d9ea166cd7ce8ef369a7934e26b97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1ed672427d129fb5102459354d33422"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCriticalSection.html#ae1ed672427d129fb5102459354d33422">~CriticalSection</a> () noexcept</td></tr>
 <tr class="memdesc:ae1ed672427d129fb5102459354d33422"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ae1ed672427d129fb5102459354d33422"></a><br/></td></tr>
@@ -129,8 +129,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a856bbcc18f0367ae231f7277d9cb33f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A mutex class. </p>
-<p>A <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> acts as a re-entrant mutex lock. The best way to lock and unlock one of these is by using RAII in the form of a local ScopedLock object - have a look through the codebase for many examples of how to do this.</p>
+<div class="textblock"><p>A re-entrant mutex. </p>
+<p>A <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> acts as a re-entrant mutex object. The best way to lock and unlock one of these is by using RAII in the form of a local ScopedLock object - have a look through the codebase for many examples of how to do this.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="juce__CriticalSection_8h.html#acedaa6fb1373c96d2d15e7a617a5cec8" title="Automatically locks and unlocks a CriticalSection object.">ScopedLock</a>, <a class="el" href="juce__CriticalSection_8h.html#a5d3ed387d4c09d8fbfb8ad1f2db610df" title="Automatically tries to lock and unlock a CriticalSection object.">ScopedTryLock</a>, <a class="el" href="juce__CriticalSection_8h.html#a4cc435f24ace2a8f59b488ed66d9cf2c" title="Automatically unlocks and re-locks a CriticalSection object.">ScopedUnlock</a>, <a class="el" href="classSpinLock.html" title="A simple spin-lock class that can be used as a simple, low-overhead mutex for uncontended situations...">SpinLock</a>, <a class="el" href="classReadWriteLock.html" title="A critical section that allows multiple simultaneous readers.">ReadWriteLock</a>, <a class="el" href="classThread.html" title="Encapsulates a thread.">Thread</a>, <a class="el" href="classInterProcessLock.html" title="Acts as a critical section which processes can use to block each other.">InterProcessLock</a> </dd></dl>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a586568fcce3a9c6a0f1547518fd6ddb6"></a>
@@ -143,7 +143,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Provides the type of scoped lock to use with a <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a>. </p>
+<p>Provides the type of scoped lock to use with a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>. </p>
 
 </div>
 </div>
@@ -157,7 +157,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Provides the type of scoped unlocker to use with a <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a>. </p>
+<p>Provides the type of scoped unlocker to use with a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>. </p>
 
 </div>
 </div>
@@ -171,7 +171,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Provides the type of scoped try-locker to use with a <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a>. </p>
+<p>Provides the type of scoped try-locker to use with a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>. </p>
 
 </div>
 </div>
@@ -197,7 +197,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Creates a <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> object. </p>
+<p>Creates a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> object. </p>
 
 </div>
 </div>

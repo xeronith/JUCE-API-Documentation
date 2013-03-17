@@ -32,6 +32,7 @@ var searchData=
   ['ownedarray_3c_20audioformat_20_3e',['OwnedArray&lt; AudioFormat &gt;',['../classOwnedArray.html',1,'']]],
   ['ownedarray_3c_20audioiodevicetype_20_3e',['OwnedArray&lt; AudioIODeviceType &gt;',['../classOwnedArray.html',1,'']]],
   ['ownedarray_3c_20audiopluginformat_20_3e',['OwnedArray&lt; AudioPluginFormat &gt;',['../classOwnedArray.html',1,'']]],
+  ['ownedarray_3c_20bufferedblock_20_3e',['OwnedArray&lt; BufferedBlock &gt;',['../classOwnedArray.html',1,'']]],
   ['ownedarray_3c_20codedocument_3a_3aiterator_20_3e',['OwnedArray&lt; CodeDocument::Iterator &gt;',['../classOwnedArray.html',1,'']]],
   ['ownedarray_3c_20codedocumentline_20_3e',['OwnedArray&lt; CodeDocumentLine &gt;',['../classOwnedArray.html',1,'']]],
   ['ownedarray_3c_20codeeditorline_20_3e',['OwnedArray&lt; CodeEditorLine &gt;',['../classOwnedArray.html',1,'']]],

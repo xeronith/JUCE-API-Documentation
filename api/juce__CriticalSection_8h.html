@@ -94,10 +94,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCriticalSection.html">CriticalSection</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A mutex class.  <a href="classCriticalSection.html#details">More...</a><br/></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A re-entrant mutex.  <a href="classCriticalSection.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDummyCriticalSection.html">DummyCriticalSection</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class that can be used in place of a real <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> object, but which doesn't perform any locking.  <a href="classDummyCriticalSection.html#details">More...</a><br/></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class that can be used in place of a real <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> object, but which doesn't perform any locking.  <a href="classDummyCriticalSection.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDummyCriticalSection_1_1ScopedLockType.html">DummyCriticalSection::ScopedLockType</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dummy scoped-lock type to use with a dummy critical section.  <a href="structDummyCriticalSection_1_1ScopedLockType.html#details">More...</a><br/></td></tr>
@@ -107,15 +107,15 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:acedaa6fb1373c96d2d15e7a617a5cec8"><td class="memItemLeft" align="right" valign="top">typedef <br class="typebreak"/>
 <a class="el" href="classCriticalSection.html#a586568fcce3a9c6a0f1547518fd6ddb6">CriticalSection::ScopedLockType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__CriticalSection_8h.html#acedaa6fb1373c96d2d15e7a617a5cec8">ScopedLock</a></td></tr>
-<tr class="memdesc:acedaa6fb1373c96d2d15e7a617a5cec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Automatically locks and unlocks a <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> object.  <a href="#acedaa6fb1373c96d2d15e7a617a5cec8"></a><br/></td></tr>
+<tr class="memdesc:acedaa6fb1373c96d2d15e7a617a5cec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Automatically locks and unlocks a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> object.  <a href="#acedaa6fb1373c96d2d15e7a617a5cec8"></a><br/></td></tr>
 <tr class="separator:acedaa6fb1373c96d2d15e7a617a5cec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cc435f24ace2a8f59b488ed66d9cf2c"><td class="memItemLeft" align="right" valign="top">typedef <br class="typebreak"/>
 <a class="el" href="classCriticalSection.html#a69d6b613f2638fbae341cfd06df478c7">CriticalSection::ScopedUnlockType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__CriticalSection_8h.html#a4cc435f24ace2a8f59b488ed66d9cf2c">ScopedUnlock</a></td></tr>
-<tr class="memdesc:a4cc435f24ace2a8f59b488ed66d9cf2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Automatically unlocks and re-locks a <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> object.  <a href="#a4cc435f24ace2a8f59b488ed66d9cf2c"></a><br/></td></tr>
+<tr class="memdesc:a4cc435f24ace2a8f59b488ed66d9cf2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Automatically unlocks and re-locks a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> object.  <a href="#a4cc435f24ace2a8f59b488ed66d9cf2c"></a><br/></td></tr>
 <tr class="separator:a4cc435f24ace2a8f59b488ed66d9cf2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d3ed387d4c09d8fbfb8ad1f2db610df"><td class="memItemLeft" align="right" valign="top">typedef <br class="typebreak"/>
 <a class="el" href="classCriticalSection.html#a745e5e36d8c6a33ea1fcbbfa2fff00a3">CriticalSection::ScopedTryLockType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__CriticalSection_8h.html#a5d3ed387d4c09d8fbfb8ad1f2db610df">ScopedTryLock</a></td></tr>
-<tr class="memdesc:a5d3ed387d4c09d8fbfb8ad1f2db610df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Automatically tries to lock and unlock a <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> object.  <a href="#a5d3ed387d4c09d8fbfb8ad1f2db610df"></a><br/></td></tr>
+<tr class="memdesc:a5d3ed387d4c09d8fbfb8ad1f2db610df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Automatically tries to lock and unlock a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> object.  <a href="#a5d3ed387d4c09d8fbfb8ad1f2db610df"></a><br/></td></tr>
 <tr class="separator:a5d3ed387d4c09d8fbfb8ad1f2db610df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -129,10 +129,10 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Automatically locks and unlocks a <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> object. </p>
-<p>Use one of these as a local variable to provide RAII-based locking of a <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a>.</p>
+<p>Automatically locks and unlocks a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> object. </p>
+<p>Use one of these as a local variable to provide RAII-based locking of a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>.</p>
 <p>e.g. </p>
-<div class="fragment"><div class="line"><a class="code" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> myCriticalSection;</div>
+<div class="fragment"><div class="line"><a class="code" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> myCriticalSection;</div>
 <div class="line"></div>
 <div class="line"><span class="keywordflow">for</span> (;;)</div>
 <div class="line">{</div>
@@ -143,7 +143,7 @@ Typedefs</h2></td></tr>
 <div class="line"></div>
 <div class="line">    <span class="comment">// myCriticalSection gets unlocked here.</span></div>
 <div class="line">}</div>
-</div><!-- fragment --><dl class="section see"><dt>See Also</dt><dd><a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a>, <a class="el" href="juce__CriticalSection_8h.html#a4cc435f24ace2a8f59b488ed66d9cf2c" title="Automatically unlocks and re-locks a CriticalSection object.">ScopedUnlock</a> </dd></dl>
+</div><!-- fragment --><dl class="section see"><dt>See Also</dt><dd><a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>, <a class="el" href="juce__CriticalSection_8h.html#a4cc435f24ace2a8f59b488ed66d9cf2c" title="Automatically unlocks and re-locks a CriticalSection object.">ScopedUnlock</a> </dd></dl>
 
 </div>
 </div>
@@ -157,11 +157,11 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Automatically unlocks and re-locks a <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> object. </p>
+<p>Automatically unlocks and re-locks a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> object. </p>
 <p>This is the reverse of a ScopedLock object - instead of locking the critical section for the lifetime of this object, it unlocks it.</p>
 <p>Make sure you don't try to unlock critical sections that aren't actually locked!</p>
 <p>e.g. </p>
-<div class="fragment"><div class="line"><a class="code" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> myCriticalSection;</div>
+<div class="fragment"><div class="line"><a class="code" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> myCriticalSection;</div>
 <div class="line"></div>
 <div class="line"><span class="keywordflow">for</span> (;;)</div>
 <div class="line">{</div>
@@ -184,7 +184,7 @@ Typedefs</h2></td></tr>
 <div class="line"></div>
 <div class="line">    <span class="comment">// myCriticalSection gets unlocked here.</span></div>
 <div class="line">}</div>
-</div><!-- fragment --><dl class="section see"><dt>See Also</dt><dd><a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a>, <a class="el" href="juce__CriticalSection_8h.html#acedaa6fb1373c96d2d15e7a617a5cec8" title="Automatically locks and unlocks a CriticalSection object.">ScopedLock</a> </dd></dl>
+</div><!-- fragment --><dl class="section see"><dt>See Also</dt><dd><a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>, <a class="el" href="juce__CriticalSection_8h.html#acedaa6fb1373c96d2d15e7a617a5cec8" title="Automatically locks and unlocks a CriticalSection object.">ScopedLock</a> </dd></dl>
 
 </div>
 </div>
@@ -198,10 +198,10 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Automatically tries to lock and unlock a <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> object. </p>
-<p>Use one of these as a local variable to control access to a <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a>.</p>
+<p>Automatically tries to lock and unlock a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> object. </p>
+<p>Use one of these as a local variable to control access to a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>.</p>
 <p>e.g. </p>
-<div class="fragment"><div class="line"><a class="code" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> myCriticalSection;</div>
+<div class="fragment"><div class="line"><a class="code" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> myCriticalSection;</div>
 <div class="line"></div>
 <div class="line"><span class="keywordflow">for</span> (;;)</div>
 <div class="line">{</div>

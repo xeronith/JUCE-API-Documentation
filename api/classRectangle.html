@@ -309,6 +309,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae8c31259b4537d09e65e56857b224456"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#ae8c31259b4537d09e65e56857b224456">getConstrainedPoint</a> (const <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt; &amp;point) const noexcept</td></tr>
 <tr class="memdesc:ae8c31259b4537d09e65e56857b224456"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the nearest point to the specified point that lies within this rectangle.  <a href="#ae8c31259b4537d09e65e56857b224456"></a><br/></td></tr>
 <tr class="separator:ae8c31259b4537d09e65e56857b224456"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab45aa7999d06e719593676774027bb37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#ab45aa7999d06e719593676774027bb37">getRelativePoint</a> (double relativeX, double relativeY) const noexcept</td></tr>
+<tr class="memdesc:ab45aa7999d06e719593676774027bb37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a point within this rectangle, specified as proportional coordinates.  <a href="#ab45aa7999d06e719593676774027bb37"></a><br/></td></tr>
+<tr class="separator:ab45aa7999d06e719593676774027bb37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55ba80762b504054c3aaa02ae833f350"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#a55ba80762b504054c3aaa02ae833f350">intersects</a> (const <a class="el" href="classRectangle.html">Rectangle</a> &amp;other) const noexcept</td></tr>
 <tr class="memdesc:a55ba80762b504054c3aaa02ae833f350"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if any part of another rectangle overlaps this one.  <a href="#a55ba80762b504054c3aaa02ae833f350"></a><br/></td></tr>
 <tr class="separator:a55ba80762b504054c3aaa02ae833f350"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1641,7 +1644,7 @@ template&lt;typename ValueType&gt; </div>
 <p>If the x is moved to be on the right of the current right-hand edge, the width will be set to zero. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangle.html#a251a8abab9c44e5f069e317a0b0e73d4" title="Returns a new rectangle with a different x position, but the same right-hand edge as this one...">withLeft</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classResizableBorderComponent_1_1Zone.html#a8dede75108a25b27e2ec186e00cecd73">ResizableBorderComponent::Zone::resizeRectangleBy()</a>.</p>
+<p>Referenced by <a class="el" href="classResizableBorderComponent_1_1Zone.html#acc3054a16f6d88c07b1db439ddf20d69">ResizableBorderComponent::Zone::resizeRectangleBy()</a>.</p>
 
 </div>
 </div>
@@ -2624,6 +2627,45 @@ template&lt;typename ValueType&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the nearest point to the specified point that lies within this rectangle. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab45aa7999d06e719593676774027bb37"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPoint.html">Point</a>&lt;ValueType&gt; <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt;::getRelativePoint </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>relativeX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>relativeY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a point within this rectangle, specified as proportional coordinates. </p>
+<p>The relative X and Y values should be between 0 and 1, where 0 is the left or top of this rectangle, and 1 is the right or bottom. (Out-of-bounds values will return a point outside the rectangle). </p>
 
 </div>
 </div>

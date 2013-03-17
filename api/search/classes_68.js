@@ -15,6 +15,7 @@ var searchData=
   ['heapblock_3c_20audiopluginformat_20_2a_20_3e',['HeapBlock&lt; AudioPluginFormat * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20audioprocessorlistener_20_2a_20_3e',['HeapBlock&lt; AudioProcessorListener * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20audiosource_20_2a_20_3e',['HeapBlock&lt; AudioSource * &gt;',['../classHeapBlock.html',1,'']]],
+  ['heapblock_3c_20bufferedblock_20_2a_20_3e',['HeapBlock&lt; BufferedBlock * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20change_20_3e',['HeapBlock&lt; Change &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20changelistener_20_2a_20_3e',['HeapBlock&lt; ChangeListener * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20char_20_3e',['HeapBlock&lt; char &gt;',['../classHeapBlock.html',1,'']]],

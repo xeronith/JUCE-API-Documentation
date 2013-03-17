@@ -12,6 +12,7 @@ var searchData=
   ['bubblecomponent',['BubbleComponent',['../classBubbleComponent.html',1,'']]],
   ['bubblemessagecomponent',['BubbleMessageComponent',['../classBubbleMessageComponent.html',1,'']]],
   ['bufferedinputstream',['BufferedInputStream',['../classBufferedInputStream.html',1,'']]],
+  ['bufferingaudioreader',['BufferingAudioReader',['../classBufferingAudioReader.html',1,'']]],
   ['bufferingaudiosource',['BufferingAudioSource',['../classBufferingAudioSource.html',1,'']]],
   ['builder',['Builder',['../classZipFile_1_1Builder.html',1,'ZipFile']]],
   ['burnprogresslistener',['BurnProgressListener',['../classAudioCDBurner_1_1BurnProgressListener.html',1,'AudioCDBurner']]],

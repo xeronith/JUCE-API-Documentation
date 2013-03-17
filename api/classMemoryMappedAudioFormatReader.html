@@ -145,11 +145,18 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:a127960954592065ea578535aad801222"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classMemoryMappedAudioFormatReader.html" title="A specialised type of AudioFormatReader that uses a MemoryMappedFile to read directly from an audio f...">MemoryMappedAudioFormatReader</a> object.  <a href="#a127960954592065ea578535aad801222"></a><br/></td></tr>
 <tr class="separator:a127960954592065ea578535aad801222"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a2fef8b3633ab717fede24ed46b414f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryMappedAudioFormatReader.html#a7a2fef8b3633ab717fede24ed46b414f">sampleToFilePos</a> (<a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> sample) const noexcept</td></tr>
+<tr class="memdesc:a7a2fef8b3633ab717fede24ed46b414f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a sample index to a byte position in the file.  <a href="#a7a2fef8b3633ab717fede24ed46b414f"></a><br/></td></tr>
 <tr class="separator:a7a2fef8b3633ab717fede24ed46b414f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61e9279c6d815d9be5b9cf177b8932c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryMappedAudioFormatReader.html#a61e9279c6d815d9be5b9cf177b8932c1">filePosToSample</a> (<a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> filePos) const noexcept</td></tr>
+<tr class="memdesc:a61e9279c6d815d9be5b9cf177b8932c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a byte position in the file to a sample index.  <a href="#a61e9279c6d815d9be5b9cf177b8932c1"></a><br/></td></tr>
 <tr class="separator:a61e9279c6d815d9be5b9cf177b8932c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24f42faedcc80c376351a60de55593e9"><td class="memItemLeft" align="right" valign="top">const void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryMappedAudioFormatReader.html#a24f42faedcc80c376351a60de55593e9">sampleToPointer</a> (<a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> sample) const noexcept</td></tr>
+<tr class="memdesc:a24f42faedcc80c376351a60de55593e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a sample index to a pointer to the mapped file memory.  <a href="#a24f42faedcc80c376351a60de55593e9"></a><br/></td></tr>
 <tr class="separator:a24f42faedcc80c376351a60de55593e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81f25442fb927ef36b28d25ebcd24d44"><td class="memTemplParams" colspan="2">template&lt;typename SampleType , typename Endianness &gt; </td></tr>
+<tr class="memitem:a81f25442fb927ef36b28d25ebcd24d44"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMemoryMappedAudioFormatReader.html#a81f25442fb927ef36b28d25ebcd24d44">scanMinAndMaxInterleaved</a> (int channel, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> startSampleInFile, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> numSamples, float &amp;mn, float &amp;mx) const noexcept</td></tr>
+<tr class="memdesc:a81f25442fb927ef36b28d25ebcd24d44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by <a class="el" href="classAudioFormatReader.html" title="Reads samples from an audio file stream.">AudioFormatReader</a> subclasses to scan for min/max ranges in interleaved data.  <a href="#a81f25442fb927ef36b28d25ebcd24d44"></a><br/></td></tr>
+<tr class="separator:a81f25442fb927ef36b28d25ebcd24d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classAudioFormatReader"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classAudioFormatReader')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classAudioFormatReader.html">AudioFormatReader</a></td></tr>
 <tr class="memitem:a2dfb6080eb01440fa8e8dde6b7baf5c6 inherit pro_methods_classAudioFormatReader"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatReader.html#a2dfb6080eb01440fa8e8dde6b7baf5c6">AudioFormatReader</a> (<a class="el" href="classInputStream.html">InputStream</a> *sourceStream, const <a class="el" href="classString.html">String</a> &amp;formatName)</td></tr>
 <tr class="memdesc:a2dfb6080eb01440fa8e8dde6b7baf5c6 inherit pro_methods_classAudioFormatReader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classAudioFormatReader.html" title="Reads samples from an audio file stream.">AudioFormatReader</a> object.  <a href="#a2dfb6080eb01440fa8e8dde6b7baf5c6"></a><br/></td></tr>
@@ -411,6 +418,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Converts a sample index to a byte position in the file. </p>
+
 </div>
 </div>
 <a class="anchor" id="a61e9279c6d815d9be5b9cf177b8932c1"></a>
@@ -434,6 +443,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Converts a byte position in the file to a sample index. </p>
 
 </div>
 </div>
@@ -459,7 +470,67 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Converts a sample index to a pointer to the mapped file memory. </p>
+
 <p>References <a class="el" href="juce__Memory_8h.html#a418069960514b421791c78ce44ec5e28">addBytesToPointer()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a81f25442fb927ef36b28d25ebcd24d44"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SampleType , typename Endianness &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MemoryMappedAudioFormatReader::scanMinAndMaxInterleaved </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td>
+          <td class="paramname"><em>startSampleInFile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td>
+          <td class="paramname"><em>numSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>mn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>mx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used by <a class="el" href="classAudioFormatReader.html" title="Reads samples from an audio file stream.">AudioFormatReader</a> subclasses to scan for min/max ranges in interleaved data. </p>
+
+<p>References <a class="el" href="juce__Memory_8h.html#a418069960514b421791c78ce44ec5e28">addBytesToPointer()</a>, and <a class="el" href="classAudioData_1_1Pointer.html#a373335e595058583a100bfa70a469518">AudioData::Pointer&lt; SampleFormat, Endianness, InterleavingType, Constness &gt;::findMinAndMax()</a>.</p>
 
 </div>
 </div>

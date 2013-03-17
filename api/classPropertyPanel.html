@@ -114,6 +114,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4879227d607dc41ac4f767f27299570c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertyPanel.html#a4879227d607dc41ac4f767f27299570c">refreshAll</a> () const </td></tr>
 <tr class="memdesc:a4879227d607dc41ac4f767f27299570c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the refresh() method of all PropertyComponents in the panel.  <a href="#a4879227d607dc41ac4f767f27299570c"></a><br/></td></tr>
 <tr class="separator:a4879227d607dc41ac4f767f27299570c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0960c91f26e84afdb3a5f61f6f1ef5f6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertyPanel.html#a0960c91f26e84afdb3a5f61f6f1ef5f6">isEmpty</a> () const </td></tr>
+<tr class="memdesc:a0960c91f26e84afdb3a5f61f6f1ef5f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if there no properties have been added.  <a href="#a0960c91f26e84afdb3a5f61f6f1ef5f6"></a><br/></td></tr>
+<tr class="separator:a0960c91f26e84afdb3a5f61f6f1ef5f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62970c587b749da9e7847b453536ebc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertyPanel.html#a62970c587b749da9e7847b453536ebc6">getSectionNames</a> () const </td></tr>
 <tr class="memdesc:a62970c587b749da9e7847b453536ebc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of all the names of sections in the panel.  <a href="#a62970c587b749da9e7847b453536ebc6"></a><br/></td></tr>
 <tr class="separator:a62970c587b749da9e7847b453536ebc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -382,7 +385,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a83f298a05d7f26a6e50e45dd37eb6313 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to indicate that the component's parents have changed.  <a href="#a83f298a05d7f26a6e50e45dd37eb6313"></a><br/></td></tr>
 <tr class="separator:a83f298a05d7f26a6e50e45dd37eb6313 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bbc6da3479a1c3f6e711f4caf9edafb inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a2bbc6da3479a1c3f6e711f4caf9edafb">childrenChanged</a> ()</td></tr>
-<tr class="memdesc:a2bbc6da3479a1c3f6e711f4caf9edafb inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subclasses can use this callback to be told when children are added or removed.  <a href="#a2bbc6da3479a1c3f6e711f4caf9edafb"></a><br/></td></tr>
+<tr class="memdesc:a2bbc6da3479a1c3f6e711f4caf9edafb inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subclasses can use this callback to be told when children are added or removed, or when their z-order changes.  <a href="#a2bbc6da3479a1c3f6e711f4caf9edafb"></a><br/></td></tr>
 <tr class="separator:a2bbc6da3479a1c3f6e711f4caf9edafb inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2da9631236e1cbf1b340454209a6c9e0 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a2da9631236e1cbf1b340454209a6c9e0">hitTest</a> (int x, int y)</td></tr>
 <tr class="memdesc:a2da9631236e1cbf1b340454209a6c9e0 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests whether a given point inside the component.  <a href="#a2da9631236e1cbf1b340454209a6c9e0"></a><br/></td></tr>
@@ -832,6 +835,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Calls the refresh() method of all PropertyComponents in the panel. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0960c91f26e84afdb3a5f61f6f1ef5f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PropertyPanel::isEmpty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if there no properties have been added. </p>
 
 </div>
 </div>

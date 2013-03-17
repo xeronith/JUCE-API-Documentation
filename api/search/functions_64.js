@@ -89,6 +89,7 @@ var searchData=
   ['drawfittedtext',['drawFittedText',['../classGraphics.html#ad2c56e11c42bc7404233b9a23e939ede',1,'Graphics::drawFittedText(const String &amp;text, int x, int y, int width, int height, const Justification &amp;justificationFlags, int maximumNumberOfLines, float minimumHorizontalScale=0.7f) const '],['../classGraphics.html#a278d7ad0e7697198003e2393d2331eb6',1,'Graphics::drawFittedText(const String &amp;text, const Rectangle&lt; int &gt; &amp;area, const Justification &amp;justificationFlags, int maximumNumberOfLines, float minimumHorizontalScale=0.7f) const ']]],
   ['drawforimage',['drawForImage',['../structDropShadow.html#aa0d35d4315229ffb6e6a14145efd2c03',1,'DropShadow']]],
   ['drawforpath',['drawForPath',['../structDropShadow.html#afa7eedb505b8e6e66bfa257875ac972a',1,'DropShadow']]],
+  ['drawforrectangle',['drawForRectangle',['../structDropShadow.html#a0aa6c6db73e4969bb055ae60f51309c4',1,'DropShadow']]],
   ['drawglasslozenge',['drawGlassLozenge',['../classLookAndFeel.html#a0b6848846b18a5855bc9ee6720a7d6f2',1,'LookAndFeel']]],
   ['drawglasspointer',['drawGlassPointer',['../classLookAndFeel.html#a1c29db9b4bba12d424123bf2fb3be984',1,'LookAndFeel']]],
   ['drawglasssphere',['drawGlassSphere',['../classLookAndFeel.html#a142965689add97c69601ad683ac11776',1,'LookAndFeel']]],

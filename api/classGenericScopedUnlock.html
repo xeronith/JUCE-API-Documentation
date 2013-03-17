@@ -109,7 +109,7 @@ class GenericScopedUnlock&lt; LockType &gt;</h3>
 <p>This is the reverse of a <a class="el" href="classGenericScopedLock.html" title="Automatically locks and unlocks a mutex object.">GenericScopedLock</a> object - instead of locking the mutex for the lifetime of this object, it unlocks it.</p>
 <p>Make sure you don't try to unlock mutexes that aren't actually locked!</p>
 <p>e.g. </p>
-<div class="fragment"><div class="line"><a class="code" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> myCriticalSection;</div>
+<div class="fragment"><div class="line"><a class="code" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> myCriticalSection;</div>
 <div class="line"></div>
 <div class="line"><span class="keywordflow">for</span> (;;)</div>
 <div class="line">{</div>
@@ -132,7 +132,7 @@ class GenericScopedUnlock&lt; LockType &gt;</h3>
 <div class="line"></div>
 <div class="line">    <span class="comment">// myCriticalSection gets unlocked here.</span></div>
 <div class="line">}</div>
-</div><!-- fragment --><dl class="section see"><dt>See Also</dt><dd><a class="el" href="classGenericScopedLock.html" title="Automatically locks and unlocks a mutex object.">GenericScopedLock</a>, <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a>, <a class="el" href="juce__CriticalSection_8h.html#acedaa6fb1373c96d2d15e7a617a5cec8" title="Automatically locks and unlocks a CriticalSection object.">ScopedLock</a>, <a class="el" href="juce__CriticalSection_8h.html#a4cc435f24ace2a8f59b488ed66d9cf2c" title="Automatically unlocks and re-locks a CriticalSection object.">ScopedUnlock</a> </dd></dl>
+</div><!-- fragment --><dl class="section see"><dt>See Also</dt><dd><a class="el" href="classGenericScopedLock.html" title="Automatically locks and unlocks a mutex object.">GenericScopedLock</a>, <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>, <a class="el" href="juce__CriticalSection_8h.html#acedaa6fb1373c96d2d15e7a617a5cec8" title="Automatically locks and unlocks a CriticalSection object.">ScopedLock</a>, <a class="el" href="juce__CriticalSection_8h.html#a4cc435f24ace2a8f59b488ed66d9cf2c" title="Automatically unlocks and re-locks a CriticalSection object.">ScopedUnlock</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ab2dc89287c459355d6a04fb5d58d9ce3"></a>
 <div class="memitem">
@@ -159,7 +159,7 @@ template&lt;class LockType&gt; </div>
 </div><div class="memdoc">
 
 <p>Creates a <a class="el" href="classGenericScopedUnlock.html" title="Automatically unlocks and re-locks a mutex object.">GenericScopedUnlock</a>. </p>
-<p>As soon as it is created, this will unlock the <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a>, and when the ScopedLock object is deleted, the <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> will be re-locked.</p>
+<p>As soon as it is created, this will unlock the <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>, and when the ScopedLock object is deleted, the <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> will be re-locked.</p>
 <p>Make sure this object is created and deleted by the same thread, otherwise there are no guarantees what will happen! Best just to use it as a local stack object, rather than creating one with the new() operator. </p>
 
 </div>
@@ -188,7 +188,7 @@ template&lt;class LockType&gt; </div>
 </div><div class="memdoc">
 
 <p>Destructor. </p>
-<p>The <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> will be unlocked when the destructor is called.</p>
+<p>The <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> will be unlocked when the destructor is called.</p>
 <p>Make sure this object is created and deleted by the same thread, otherwise there are no guarantees what will happen! </p>
 
 </div>

@@ -110,9 +110,9 @@ class GenericScopedTryLock&lt; LockType &gt;</h3>
 
 <p>Automatically locks and unlocks a mutex object. </p>
 <p>Use one of these as a local variable to provide RAII-based locking of a mutex.</p>
-<p>The templated class could be a <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a>, <a class="el" href="classSpinLock.html" title="A simple spin-lock class that can be used as a simple, low-overhead mutex for uncontended situations...">SpinLock</a>, or anything else that provides enter() and exit() methods.</p>
+<p>The templated class could be a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>, <a class="el" href="classSpinLock.html" title="A simple spin-lock class that can be used as a simple, low-overhead mutex for uncontended situations...">SpinLock</a>, or anything else that provides enter() and exit() methods.</p>
 <p>e.g. </p>
-<div class="fragment"><div class="line"><a class="code" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> myCriticalSection;</div>
+<div class="fragment"><div class="line"><a class="code" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> myCriticalSection;</div>
 <div class="line"></div>
 <div class="line"><span class="keywordflow">for</span> (;;)</div>
 <div class="line">{</div>

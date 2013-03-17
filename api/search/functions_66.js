@@ -120,7 +120,7 @@ var searchData=
   ['fromfloatrgba',['fromFloatRGBA',['../classColour.html#a3992d5ea9bdaf0471bd6caa0595b0185',1,'Colour']]],
   ['fromhsv',['fromHSV',['../classColour.html#a34cee4195baff72c95a9c99148acf6c2',1,'Colour']]],
   ['fromlastoccurrenceof',['fromLastOccurrenceOf',['../classjuce_1_1String.html#a8ed8b09a2128ed718f4b22d2791ca549',1,'juce::String::fromLastOccurrenceOf(const String &amp;substringToFind, bool includeSubStringInResult, bool ignoreCase) const '],['../classjuce_1_1String.html#a8ed8b09a2128ed718f4b22d2791ca549',1,'juce::String::fromLastOccurrenceOf(const String &amp;substringToFind, bool includeSubStringInResult, bool ignoreCase) const '],['../classString.html#a189f72a3e94f540b77e91d39fff9a8a1',1,'String::fromLastOccurrenceOf()']]],
-  ['frompositiononborder',['fromPositionOnBorder',['../classResizableBorderComponent_1_1Zone.html#af6508ede43a4a9d078ccb19255be395b',1,'ResizableBorderComponent::Zone']]],
+  ['frompositiononborder',['fromPositionOnBorder',['../classResizableBorderComponent_1_1Zone.html#ac671eff7a99a71ab6017e3a301424bbd',1,'ResizableBorderComponent::Zone']]],
   ['fromrgb',['fromRGB',['../classColour.html#a8229c3afbbab454c718ee2b08b56df8c',1,'Colour']]],
   ['fromrgba',['fromRGBA',['../classColour.html#a0611ddee8a4c8414645d6975f290a750',1,'Colour']]],
   ['fromstring',['fromString',['../classColour.html#a60d3298bbaebc4eee790876ed99aed5c',1,'Colour::fromString()'],['../classFont.html#a9ce8c13a7877c1a0e6cb78163fb6aefd',1,'Font::fromString()'],['../classRectangle.html#a1c76b1a985681788a2e3244a130b5d8f',1,'Rectangle::fromString()']]],

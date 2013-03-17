@@ -118,6 +118,9 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a7697c468b5f6c391096ab483690b68ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">The set of possible results of the <a class="el" href="classSystemStats.html#a53f8f07716d123c91924a49c658774ea" title="Returns the type of operating system we&#39;re running on.">getOperatingSystemType()</a> method.  <a href="classSystemStats.html#a7697c468b5f6c391096ab483690b68ea">More...</a><br/></td></tr>
 <tr class="separator:a7697c468b5f6c391096ab483690b68ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13a353aacff3688e62dcc8ab1acea080"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a13a353aacff3688e62dcc8ab1acea080">CrashHandlerFunction</a> )()</td></tr>
+<tr class="memdesc:a13a353aacff3688e62dcc8ab1acea080"><td class="mdescLeft">&#160;</td><td class="mdescRight">A void() function type, used by <a class="el" href="classSystemStats.html#a9eb84f54c8ebca7a24bb49e37226a82a" title="Sets up a global callback function that will be called if the application executes some kind of illeg...">setApplicationCrashHandler()</a>.  <a href="#a13a353aacff3688e62dcc8ab1acea080"></a><br/></td></tr>
+<tr class="separator:a13a353aacff3688e62dcc8ab1acea080"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -181,10 +184,31 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad2c08e39f167e01100d17cd910e7028b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#ad2c08e39f167e01100d17cd910e7028b">getPageSize</a> ()</td></tr>
 <tr class="memdesc:ad2c08e39f167e01100d17cd910e7028b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the system page-size.  <a href="#ad2c08e39f167e01100d17cd910e7028b"></a><br/></td></tr>
 <tr class="separator:ad2c08e39f167e01100d17cd910e7028b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98386990494318ab5ecfba5c3bae89b0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a98386990494318ab5ecfba5c3bae89b0">getStackBacktrace</a> ()</td></tr>
+<tr class="memdesc:a98386990494318ab5ecfba5c3bae89b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a backtrace of the current call-stack.  <a href="#a98386990494318ab5ecfba5c3bae89b0"></a><br/></td></tr>
+<tr class="separator:a98386990494318ab5ecfba5c3bae89b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eb84f54c8ebca7a24bb49e37226a82a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a9eb84f54c8ebca7a24bb49e37226a82a">setApplicationCrashHandler</a> (<a class="el" href="classSystemStats.html#a13a353aacff3688e62dcc8ab1acea080">CrashHandlerFunction</a>)</td></tr>
+<tr class="memdesc:a9eb84f54c8ebca7a24bb49e37226a82a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up a global callback function that will be called if the application executes some kind of illegal instruction.  <a href="#a9eb84f54c8ebca7a24bb49e37226a82a"></a><br/></td></tr>
+<tr class="separator:a9eb84f54c8ebca7a24bb49e37226a82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains methods for finding out about the current hardware and OS configuration. </p>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="a13a353aacff3688e62dcc8ab1acea080"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* SystemStats::CrashHandlerFunction)()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A void() function type, used by <a class="el" href="classSystemStats.html#a9eb84f54c8ebca7a24bb49e37226a82a" title="Sets up a global callback function that will be called if the application executes some kind of illeg...">setApplicationCrashHandler()</a>. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="a7697c468b5f6c391096ab483690b68ea"></a>
 <div class="memitem">
 <div class="memproto">
@@ -758,6 +782,59 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns the system page-size. </p>
 <p>This is only used by programmers with beards. </p>
+
+</div>
+</div>
+<a class="anchor" id="a98386990494318ab5ecfba5c3bae89b0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classString.html">String</a> SystemStats::getStackBacktrace </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a backtrace of the current call-stack. </p>
+<p>The usefulness of the result will depend on the level of debug symbols that are available in the executable. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9eb84f54c8ebca7a24bb49e37226a82a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void SystemStats::setApplicationCrashHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSystemStats.html#a13a353aacff3688e62dcc8ab1acea080">CrashHandlerFunction</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets up a global callback function that will be called if the application executes some kind of illegal instruction. </p>
+<p>You may want to call <a class="el" href="classSystemStats.html#a98386990494318ab5ecfba5c3bae89b0" title="Returns a backtrace of the current call-stack.">getStackBacktrace()</a> in your handler function, to find out where the problem happened and log it, etc. </p>
 
 </div>
 </div>

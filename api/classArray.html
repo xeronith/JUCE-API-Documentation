@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>JUCE: Array&lt; ElementType, TypeOfCriticalSectionToUse &gt; Class Template Reference</title>
+<title>JUCE: Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -86,7 +86,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classArray-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Array&lt; ElementType, TypeOfCriticalSectionToUse &gt; Class Template Reference</div>  </div>
+<div class="title">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -95,171 +95,171 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aaee0afbd84038238c8cbda6378e665c6"><td class="memItemLeft" align="right" valign="top">typedef <br class="typebreak"/>
-TypeOfCriticalSectionToUse::ScopedLockType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#aaee0afbd84038238c8cbda6378e665c6">ScopedLockType</a></td></tr>
-<tr class="memdesc:aaee0afbd84038238c8cbda6378e665c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of scoped lock to use for locking this array.  <a href="#aaee0afbd84038238c8cbda6378e665c6"></a><br/></td></tr>
-<tr class="separator:aaee0afbd84038238c8cbda6378e665c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a191f66a972ab264e2f8361727fb59ae7"><td class="memItemLeft" align="right" valign="top">typedef <br class="typebreak"/>
+TypeOfCriticalSectionToUse::ScopedLockType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a191f66a972ab264e2f8361727fb59ae7">ScopedLockType</a></td></tr>
+<tr class="memdesc:a191f66a972ab264e2f8361727fb59ae7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of scoped lock to use for locking this array.  <a href="#a191f66a972ab264e2f8361727fb59ae7"></a><br/></td></tr>
+<tr class="separator:a191f66a972ab264e2f8361727fb59ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aba7a7a37bb14ee10d6824ea75ded2afd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#aba7a7a37bb14ee10d6824ea75ded2afd">Array</a> () noexcept</td></tr>
-<tr class="memdesc:aba7a7a37bb14ee10d6824ea75ded2afd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty array.  <a href="#aba7a7a37bb14ee10d6824ea75ded2afd"></a><br/></td></tr>
-<tr class="separator:aba7a7a37bb14ee10d6824ea75ded2afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae603294033a54425cb6533893c8ea51c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#ae603294033a54425cb6533893c8ea51c">Array</a> (const <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt; &amp;other)</td></tr>
-<tr class="memdesc:ae603294033a54425cb6533893c8ea51c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a copy of another array.  <a href="#ae603294033a54425cb6533893c8ea51c"></a><br/></td></tr>
-<tr class="separator:ae603294033a54425cb6533893c8ea51c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a625d96690c21e31ce4ee1308fe1ffe81"><td class="memTemplParams" colspan="2">template&lt;typename TypeToCreateFrom &gt; </td></tr>
-<tr class="memitem:a625d96690c21e31ce4ee1308fe1ffe81"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#a625d96690c21e31ce4ee1308fe1ffe81">Array</a> (const TypeToCreateFrom *values)</td></tr>
-<tr class="memdesc:a625d96690c21e31ce4ee1308fe1ffe81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalises from a null-terminated C array of values.  <a href="#a625d96690c21e31ce4ee1308fe1ffe81"></a><br/></td></tr>
-<tr class="separator:a625d96690c21e31ce4ee1308fe1ffe81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab13a2968fce8bb7414d1b9483f656546"><td class="memTemplParams" colspan="2">template&lt;typename TypeToCreateFrom &gt; </td></tr>
-<tr class="memitem:ab13a2968fce8bb7414d1b9483f656546"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#ab13a2968fce8bb7414d1b9483f656546">Array</a> (const TypeToCreateFrom *values, int numValues)</td></tr>
-<tr class="memdesc:ab13a2968fce8bb7414d1b9483f656546"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalises from a C array of values.  <a href="#ab13a2968fce8bb7414d1b9483f656546"></a><br/></td></tr>
-<tr class="separator:ab13a2968fce8bb7414d1b9483f656546"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a540323526557fec8347019aee786316a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a540323526557fec8347019aee786316a">~Array</a> ()</td></tr>
-<tr class="memdesc:a540323526557fec8347019aee786316a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a540323526557fec8347019aee786316a"></a><br/></td></tr>
-<tr class="separator:a540323526557fec8347019aee786316a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bdf7874aec427a12c98073f14ca47a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classArray.html">Array</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a2bdf7874aec427a12c98073f14ca47a2">operator=</a> (const <a class="el" href="classArray.html">Array</a> &amp;other)</td></tr>
-<tr class="memdesc:a2bdf7874aec427a12c98073f14ca47a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies another array.  <a href="#a2bdf7874aec427a12c98073f14ca47a2"></a><br/></td></tr>
-<tr class="separator:a2bdf7874aec427a12c98073f14ca47a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66b0bb233d3c2791c51a7652fd0bf2f2"><td class="memTemplParams" colspan="2">template&lt;class OtherArrayType &gt; </td></tr>
-<tr class="memitem:a66b0bb233d3c2791c51a7652fd0bf2f2"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#a66b0bb233d3c2791c51a7652fd0bf2f2">operator==</a> (const OtherArrayType &amp;other) const </td></tr>
-<tr class="memdesc:a66b0bb233d3c2791c51a7652fd0bf2f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares this array to another one.  <a href="#a66b0bb233d3c2791c51a7652fd0bf2f2"></a><br/></td></tr>
-<tr class="separator:a66b0bb233d3c2791c51a7652fd0bf2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd40348d976f1ccc43b6ecda614c787d"><td class="memTemplParams" colspan="2">template&lt;class OtherArrayType &gt; </td></tr>
-<tr class="memitem:afd40348d976f1ccc43b6ecda614c787d"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#afd40348d976f1ccc43b6ecda614c787d">operator!=</a> (const OtherArrayType &amp;other) const </td></tr>
-<tr class="memdesc:afd40348d976f1ccc43b6ecda614c787d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares this array to another one.  <a href="#afd40348d976f1ccc43b6ecda614c787d"></a><br/></td></tr>
-<tr class="separator:afd40348d976f1ccc43b6ecda614c787d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bd7485bde05c4218a26d4f98b3ffca2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a6bd7485bde05c4218a26d4f98b3ffca2">clear</a> ()</td></tr>
-<tr class="memdesc:a6bd7485bde05c4218a26d4f98b3ffca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all elements from the array.  <a href="#a6bd7485bde05c4218a26d4f98b3ffca2"></a><br/></td></tr>
-<tr class="separator:a6bd7485bde05c4218a26d4f98b3ffca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7f0aefd80fc3a88310ac9931bafd8e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#ab7f0aefd80fc3a88310ac9931bafd8e8">clearQuick</a> ()</td></tr>
-<tr class="memdesc:ab7f0aefd80fc3a88310ac9931bafd8e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all elements from the array without freeing the array's allocated storage.  <a href="#ab7f0aefd80fc3a88310ac9931bafd8e8"></a><br/></td></tr>
-<tr class="separator:ab7f0aefd80fc3a88310ac9931bafd8e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cd4d163e87549c04f99fd5dcc2ff835"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a7cd4d163e87549c04f99fd5dcc2ff835">size</a> () const noexcept</td></tr>
-<tr class="memdesc:a7cd4d163e87549c04f99fd5dcc2ff835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current number of elements in the array.  <a href="#a7cd4d163e87549c04f99fd5dcc2ff835"></a><br/></td></tr>
-<tr class="separator:a7cd4d163e87549c04f99fd5dcc2ff835"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b9999cb713e0c71f7dbb430a9361948"><td class="memItemLeft" align="right" valign="top">ElementType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a2b9999cb713e0c71f7dbb430a9361948">operator[]</a> (const int index) const </td></tr>
-<tr class="memdesc:a2b9999cb713e0c71f7dbb430a9361948"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the elements in the array.  <a href="#a2b9999cb713e0c71f7dbb430a9361948"></a><br/></td></tr>
-<tr class="separator:a2b9999cb713e0c71f7dbb430a9361948"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35cf8b22e29926f5206f72ceb4c44a91"><td class="memItemLeft" align="right" valign="top">ElementType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a35cf8b22e29926f5206f72ceb4c44a91">getUnchecked</a> (const int index) const </td></tr>
-<tr class="memdesc:a35cf8b22e29926f5206f72ceb4c44a91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the elements in the array, without checking the index passed in.  <a href="#a35cf8b22e29926f5206f72ceb4c44a91"></a><br/></td></tr>
-<tr class="separator:a35cf8b22e29926f5206f72ceb4c44a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa45cd743a3659e71331730efe9967fdc"><td class="memItemLeft" align="right" valign="top">ElementType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#aa45cd743a3659e71331730efe9967fdc">getReference</a> (const int index) const noexcept</td></tr>
-<tr class="memdesc:aa45cd743a3659e71331730efe9967fdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a direct reference to one of the elements in the array, without checking the index passed in.  <a href="#aa45cd743a3659e71331730efe9967fdc"></a><br/></td></tr>
-<tr class="separator:aa45cd743a3659e71331730efe9967fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa428610d7f1bd9dd2de313b39403bd4f"><td class="memItemLeft" align="right" valign="top">ElementType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#aa428610d7f1bd9dd2de313b39403bd4f">getFirst</a> () const </td></tr>
-<tr class="memdesc:aa428610d7f1bd9dd2de313b39403bd4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first element in the array, or a default value if the array is empty.  <a href="#aa428610d7f1bd9dd2de313b39403bd4f"></a><br/></td></tr>
-<tr class="separator:aa428610d7f1bd9dd2de313b39403bd4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adef4469c2868dbf4b22dc352cd179e4f"><td class="memItemLeft" align="right" valign="top">ElementType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#adef4469c2868dbf4b22dc352cd179e4f">getLast</a> () const </td></tr>
-<tr class="memdesc:adef4469c2868dbf4b22dc352cd179e4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the last element in the array, or a default value if the array is empty.  <a href="#adef4469c2868dbf4b22dc352cd179e4f"></a><br/></td></tr>
-<tr class="separator:adef4469c2868dbf4b22dc352cd179e4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e770ccbeaaa2cb7df437a36dd3e66d0"><td class="memItemLeft" align="right" valign="top">ElementType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a7e770ccbeaaa2cb7df437a36dd3e66d0">getRawDataPointer</a> () noexcept</td></tr>
-<tr class="memdesc:a7e770ccbeaaa2cb7df437a36dd3e66d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the actual array data.  <a href="#a7e770ccbeaaa2cb7df437a36dd3e66d0"></a><br/></td></tr>
-<tr class="separator:a7e770ccbeaaa2cb7df437a36dd3e66d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4182e46c1d39d63998b75695adbe2dd7"><td class="memItemLeft" align="right" valign="top">ElementType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a4182e46c1d39d63998b75695adbe2dd7">begin</a> () const noexcept</td></tr>
-<tr class="memdesc:a4182e46c1d39d63998b75695adbe2dd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first element in the array.  <a href="#a4182e46c1d39d63998b75695adbe2dd7"></a><br/></td></tr>
-<tr class="separator:a4182e46c1d39d63998b75695adbe2dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af090405475e56a54d39f93a78e79ae19"><td class="memItemLeft" align="right" valign="top">ElementType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#af090405475e56a54d39f93a78e79ae19">end</a> () const noexcept</td></tr>
-<tr class="memdesc:af090405475e56a54d39f93a78e79ae19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the element which follows the last element in the array.  <a href="#af090405475e56a54d39f93a78e79ae19"></a><br/></td></tr>
-<tr class="separator:af090405475e56a54d39f93a78e79ae19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a797a78ba08e023c46813902f98f8bee8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a797a78ba08e023c46813902f98f8bee8">indexOf</a> (ParameterType elementToLookFor) const </td></tr>
-<tr class="memdesc:a797a78ba08e023c46813902f98f8bee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the index of the first element which matches the value passed in.  <a href="#a797a78ba08e023c46813902f98f8bee8"></a><br/></td></tr>
-<tr class="separator:a797a78ba08e023c46813902f98f8bee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fce70ec38c3d7c200cf35a73429f61b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a5fce70ec38c3d7c200cf35a73429f61b">contains</a> (ParameterType elementToLookFor) const </td></tr>
-<tr class="memdesc:a5fce70ec38c3d7c200cf35a73429f61b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the array contains at least one occurrence of an object.  <a href="#a5fce70ec38c3d7c200cf35a73429f61b"></a><br/></td></tr>
-<tr class="separator:a5fce70ec38c3d7c200cf35a73429f61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a561fa77f1c1b1333a0b0a4aa4bbe97e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a561fa77f1c1b1333a0b0a4aa4bbe97e8">add</a> (ParameterType newElement)</td></tr>
-<tr class="memdesc:a561fa77f1c1b1333a0b0a4aa4bbe97e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a new element at the end of the array.  <a href="#a561fa77f1c1b1333a0b0a4aa4bbe97e8"></a><br/></td></tr>
-<tr class="separator:a561fa77f1c1b1333a0b0a4aa4bbe97e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06ca3a23fb5cc785febb054ad806cd32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a06ca3a23fb5cc785febb054ad806cd32">insert</a> (int indexToInsertAt, ParameterType newElement)</td></tr>
-<tr class="memdesc:a06ca3a23fb5cc785febb054ad806cd32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a new element into the array at a given position.  <a href="#a06ca3a23fb5cc785febb054ad806cd32"></a><br/></td></tr>
-<tr class="separator:a06ca3a23fb5cc785febb054ad806cd32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a214123e46743df1830c33de5ec1c16e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a214123e46743df1830c33de5ec1c16e7">insertMultiple</a> (int indexToInsertAt, ParameterType newElement, int numberOfTimesToInsertIt)</td></tr>
-<tr class="memdesc:a214123e46743df1830c33de5ec1c16e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts multiple copies of an element into the array at a given position.  <a href="#a214123e46743df1830c33de5ec1c16e7"></a><br/></td></tr>
-<tr class="separator:a214123e46743df1830c33de5ec1c16e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa66359a31f0c05315bf27e1819ace0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#afa66359a31f0c05315bf27e1819ace0f">insertArray</a> (int indexToInsertAt, const ElementType *newElements, int numberOfElements)</td></tr>
-<tr class="memdesc:afa66359a31f0c05315bf27e1819ace0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts an array of values into this array at a given position.  <a href="#afa66359a31f0c05315bf27e1819ace0f"></a><br/></td></tr>
-<tr class="separator:afa66359a31f0c05315bf27e1819ace0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66a7dd59118110a1fff8f346af478d4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a66a7dd59118110a1fff8f346af478d4a">addIfNotAlreadyThere</a> (ParameterType newElement)</td></tr>
-<tr class="memdesc:a66a7dd59118110a1fff8f346af478d4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a new element at the end of the array as long as the array doesn't already contain it.  <a href="#a66a7dd59118110a1fff8f346af478d4a"></a><br/></td></tr>
-<tr class="separator:a66a7dd59118110a1fff8f346af478d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a311e3be8a59826e972ec981e9d719ace"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a311e3be8a59826e972ec981e9d719ace">set</a> (const int indexToChange, ParameterType newValue)</td></tr>
-<tr class="memdesc:a311e3be8a59826e972ec981e9d719ace"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces an element with a new value.  <a href="#a311e3be8a59826e972ec981e9d719ace"></a><br/></td></tr>
-<tr class="separator:a311e3be8a59826e972ec981e9d719ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a6a1de585acb2d4c63a5b3b18a6530e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a0a6a1de585acb2d4c63a5b3b18a6530e">setUnchecked</a> (const int indexToChange, ParameterType newValue)</td></tr>
-<tr class="memdesc:a0a6a1de585acb2d4c63a5b3b18a6530e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces an element with a new value without doing any bounds-checking.  <a href="#a0a6a1de585acb2d4c63a5b3b18a6530e"></a><br/></td></tr>
-<tr class="separator:a0a6a1de585acb2d4c63a5b3b18a6530e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a08583b99a5d56cba633211ac46cc95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a2a08583b99a5d56cba633211ac46cc95">addArray</a> (const ElementType *elementsToAdd, int numElementsToAdd)</td></tr>
-<tr class="memdesc:a2a08583b99a5d56cba633211ac46cc95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds elements from an array to the end of this array.  <a href="#a2a08583b99a5d56cba633211ac46cc95"></a><br/></td></tr>
-<tr class="separator:a2a08583b99a5d56cba633211ac46cc95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12532b278db4e9889d38d24f9d0f9720"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a12532b278db4e9889d38d24f9d0f9720">swapWithArray</a> (<a class="el" href="classArray.html">Array</a> &amp;otherArray) noexcept</td></tr>
-<tr class="memdesc:a12532b278db4e9889d38d24f9d0f9720"><td class="mdescLeft">&#160;</td><td class="mdescRight">This swaps the contents of this array with those of another array.  <a href="#a12532b278db4e9889d38d24f9d0f9720"></a><br/></td></tr>
-<tr class="separator:a12532b278db4e9889d38d24f9d0f9720"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae19e18c1a5d710d0640ee2925a739f5f"><td class="memTemplParams" colspan="2">template&lt;class OtherArrayType &gt; </td></tr>
-<tr class="memitem:ae19e18c1a5d710d0640ee2925a739f5f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#ae19e18c1a5d710d0640ee2925a739f5f">addArray</a> (const OtherArrayType &amp;arrayToAddFrom, int startIndex=0, int numElementsToAdd=-1)</td></tr>
-<tr class="memdesc:ae19e18c1a5d710d0640ee2925a739f5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds elements from another array to the end of this array.  <a href="#ae19e18c1a5d710d0640ee2925a739f5f"></a><br/></td></tr>
-<tr class="separator:ae19e18c1a5d710d0640ee2925a739f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f74d12a28cc9ac953013242eb1fafe6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a9f74d12a28cc9ac953013242eb1fafe6">resize</a> (const int targetNumItems)</td></tr>
-<tr class="memdesc:a9f74d12a28cc9ac953013242eb1fafe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will enlarge or shrink the array to the given number of elements, by adding or removing items from its end.  <a href="#a9f74d12a28cc9ac953013242eb1fafe6"></a><br/></td></tr>
-<tr class="separator:a9f74d12a28cc9ac953013242eb1fafe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab827e9edc0da7c919fd0e49ff2e7af0e"><td class="memTemplParams" colspan="2">template&lt;class ElementComparator &gt; </td></tr>
-<tr class="memitem:ab827e9edc0da7c919fd0e49ff2e7af0e"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#ab827e9edc0da7c919fd0e49ff2e7af0e">addSorted</a> (ElementComparator &amp;comparator, ParameterType newElement)</td></tr>
-<tr class="memdesc:ab827e9edc0da7c919fd0e49ff2e7af0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a new element into the array, assuming that the array is sorted.  <a href="#ab827e9edc0da7c919fd0e49ff2e7af0e"></a><br/></td></tr>
-<tr class="separator:ab827e9edc0da7c919fd0e49ff2e7af0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98f0f3de328039fe3f9f194268805348"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a98f0f3de328039fe3f9f194268805348">addUsingDefaultSort</a> (ParameterType newElement)</td></tr>
-<tr class="memdesc:a98f0f3de328039fe3f9f194268805348"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a new element into the array, assuming that the array is sorted.  <a href="#a98f0f3de328039fe3f9f194268805348"></a><br/></td></tr>
-<tr class="separator:a98f0f3de328039fe3f9f194268805348"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0981b8908f562462cd4e31590f10159"><td class="memTemplParams" colspan="2">template&lt;typename ElementComparator , typename TargetValueType &gt; </td></tr>
-<tr class="memitem:ab0981b8908f562462cd4e31590f10159"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#ab0981b8908f562462cd4e31590f10159">indexOfSorted</a> (ElementComparator &amp;comparator, TargetValueType elementToLookFor) const </td></tr>
-<tr class="memdesc:ab0981b8908f562462cd4e31590f10159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the index of an element in the array, assuming that the array is sorted.  <a href="#ab0981b8908f562462cd4e31590f10159"></a><br/></td></tr>
-<tr class="separator:ab0981b8908f562462cd4e31590f10159"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4b625b7ef05f179b051845debaf8462"><td class="memItemLeft" align="right" valign="top">ElementType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462">remove</a> (const int indexToRemove)</td></tr>
-<tr class="memdesc:ae4b625b7ef05f179b051845debaf8462"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an element from the array.  <a href="#ae4b625b7ef05f179b051845debaf8462"></a><br/></td></tr>
-<tr class="separator:ae4b625b7ef05f179b051845debaf8462"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab86840694333856573dc2383175b5caa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#ab86840694333856573dc2383175b5caa">removeFirstMatchingValue</a> (ParameterType valueToRemove)</td></tr>
-<tr class="memdesc:ab86840694333856573dc2383175b5caa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an item from the array.  <a href="#ab86840694333856573dc2383175b5caa"></a><br/></td></tr>
-<tr class="separator:ab86840694333856573dc2383175b5caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac00a09169231ebd084267105b7fc85e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#ac00a09169231ebd084267105b7fc85e1">removeAllInstancesOf</a> (ParameterType valueToRemove)</td></tr>
-<tr class="memdesc:ac00a09169231ebd084267105b7fc85e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an item from the array.  <a href="#ac00a09169231ebd084267105b7fc85e1"></a><br/></td></tr>
-<tr class="separator:ac00a09169231ebd084267105b7fc85e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76aff614d2a99bbeffbc7234f61da108"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108">removeRange</a> (int startIndex, int numberToRemove)</td></tr>
-<tr class="memdesc:a76aff614d2a99bbeffbc7234f61da108"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a range of elements from the array.  <a href="#a76aff614d2a99bbeffbc7234f61da108"></a><br/></td></tr>
-<tr class="separator:a76aff614d2a99bbeffbc7234f61da108"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fa7c7c47f86781b474e222656fbb23a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a6fa7c7c47f86781b474e222656fbb23a">removeLast</a> (int howManyToRemove=1)</td></tr>
-<tr class="memdesc:a6fa7c7c47f86781b474e222656fbb23a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the last n elements from the array.  <a href="#a6fa7c7c47f86781b474e222656fbb23a"></a><br/></td></tr>
-<tr class="separator:a6fa7c7c47f86781b474e222656fbb23a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1aac8e57e79c1426763bba43151dfb7"><td class="memTemplParams" colspan="2">template&lt;class OtherArrayType &gt; </td></tr>
-<tr class="memitem:ab1aac8e57e79c1426763bba43151dfb7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#ab1aac8e57e79c1426763bba43151dfb7">removeValuesIn</a> (const OtherArrayType &amp;otherArray)</td></tr>
-<tr class="memdesc:ab1aac8e57e79c1426763bba43151dfb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes any elements which are also in another array.  <a href="#ab1aac8e57e79c1426763bba43151dfb7"></a><br/></td></tr>
-<tr class="separator:ab1aac8e57e79c1426763bba43151dfb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e32b0f434c970c4275f28c68d2b3f10"><td class="memTemplParams" colspan="2">template&lt;class OtherArrayType &gt; </td></tr>
-<tr class="memitem:a8e32b0f434c970c4275f28c68d2b3f10"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#a8e32b0f434c970c4275f28c68d2b3f10">removeValuesNotIn</a> (const OtherArrayType &amp;otherArray)</td></tr>
-<tr class="memdesc:a8e32b0f434c970c4275f28c68d2b3f10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes any elements which are not found in another array.  <a href="#a8e32b0f434c970c4275f28c68d2b3f10"></a><br/></td></tr>
-<tr class="separator:a8e32b0f434c970c4275f28c68d2b3f10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa719aa8439aab1cb265845002c8e3322"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#aa719aa8439aab1cb265845002c8e3322">swap</a> (const int index1, const int index2)</td></tr>
-<tr class="memdesc:aa719aa8439aab1cb265845002c8e3322"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps over two elements in the array.  <a href="#aa719aa8439aab1cb265845002c8e3322"></a><br/></td></tr>
-<tr class="separator:aa719aa8439aab1cb265845002c8e3322"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d9614d4db53e48145f63e099d608bcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a7d9614d4db53e48145f63e099d608bcc">move</a> (const int currentIndex, int newIndex) noexcept</td></tr>
-<tr class="memdesc:a7d9614d4db53e48145f63e099d608bcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves one of the values to a different position.  <a href="#a7d9614d4db53e48145f63e099d608bcc"></a><br/></td></tr>
-<tr class="separator:a7d9614d4db53e48145f63e099d608bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21753e1704c1a8a5028ce0fd5d166e6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a21753e1704c1a8a5028ce0fd5d166e6d">minimiseStorageOverheads</a> ()</td></tr>
-<tr class="memdesc:a21753e1704c1a8a5028ce0fd5d166e6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reduces the amount of storage being used by the array.  <a href="#a21753e1704c1a8a5028ce0fd5d166e6d"></a><br/></td></tr>
-<tr class="separator:a21753e1704c1a8a5028ce0fd5d166e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ea4982f49ac5ec83e967c82de49edbf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a9ea4982f49ac5ec83e967c82de49edbf">ensureStorageAllocated</a> (const int minNumElements)</td></tr>
-<tr class="memdesc:a9ea4982f49ac5ec83e967c82de49edbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increases the array's internal storage to hold a minimum number of elements.  <a href="#a9ea4982f49ac5ec83e967c82de49edbf"></a><br/></td></tr>
-<tr class="separator:a9ea4982f49ac5ec83e967c82de49edbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1dca4ab2895315dd85e25eaca2fcab1"><td class="memTemplParams" colspan="2">template&lt;class ElementComparator &gt; </td></tr>
-<tr class="memitem:ac1dca4ab2895315dd85e25eaca2fcab1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#ac1dca4ab2895315dd85e25eaca2fcab1">sort</a> (ElementComparator &amp;comparator, const bool retainOrderOfEquivalentItems=false) const </td></tr>
-<tr class="memdesc:ac1dca4ab2895315dd85e25eaca2fcab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the elements in the array.  <a href="#ac1dca4ab2895315dd85e25eaca2fcab1"></a><br/></td></tr>
-<tr class="separator:ac1dca4ab2895315dd85e25eaca2fcab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bccac2768da58b06ce691cde2b52b88"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a5bccac2768da58b06ce691cde2b52b88">getLock</a> () const noexcept</td></tr>
-<tr class="memdesc:a5bccac2768da58b06ce691cde2b52b88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> that locks this array.  <a href="#a5bccac2768da58b06ce691cde2b52b88"></a><br/></td></tr>
-<tr class="separator:a5bccac2768da58b06ce691cde2b52b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a527fe1f41cd10ccc5d8b7471d7dbef52"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a527fe1f41cd10ccc5d8b7471d7dbef52">Array</a> () noexcept</td></tr>
+<tr class="memdesc:a527fe1f41cd10ccc5d8b7471d7dbef52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty array.  <a href="#a527fe1f41cd10ccc5d8b7471d7dbef52"></a><br/></td></tr>
+<tr class="separator:a527fe1f41cd10ccc5d8b7471d7dbef52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a738abff2826095c6f95ffa9e1e2a04bc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a738abff2826095c6f95ffa9e1e2a04bc">Array</a> (const <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt; &amp;other)</td></tr>
+<tr class="memdesc:a738abff2826095c6f95ffa9e1e2a04bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a copy of another array.  <a href="#a738abff2826095c6f95ffa9e1e2a04bc"></a><br/></td></tr>
+<tr class="separator:a738abff2826095c6f95ffa9e1e2a04bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a1ecdfef773aa85351eb93bda32951b"><td class="memTemplParams" colspan="2">template&lt;typename TypeToCreateFrom &gt; </td></tr>
+<tr class="memitem:a6a1ecdfef773aa85351eb93bda32951b"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#a6a1ecdfef773aa85351eb93bda32951b">Array</a> (const TypeToCreateFrom *values)</td></tr>
+<tr class="memdesc:a6a1ecdfef773aa85351eb93bda32951b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalises from a null-terminated C array of values.  <a href="#a6a1ecdfef773aa85351eb93bda32951b"></a><br/></td></tr>
+<tr class="separator:a6a1ecdfef773aa85351eb93bda32951b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa426011ebe1d6a9d32302f92ead8b98"><td class="memTemplParams" colspan="2">template&lt;typename TypeToCreateFrom &gt; </td></tr>
+<tr class="memitem:aaa426011ebe1d6a9d32302f92ead8b98"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#aaa426011ebe1d6a9d32302f92ead8b98">Array</a> (const TypeToCreateFrom *values, int numValues)</td></tr>
+<tr class="memdesc:aaa426011ebe1d6a9d32302f92ead8b98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalises from a C array of values.  <a href="#aaa426011ebe1d6a9d32302f92ead8b98"></a><br/></td></tr>
+<tr class="separator:aaa426011ebe1d6a9d32302f92ead8b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6149be5bb4ad25d738a9a6c1ef78253d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a6149be5bb4ad25d738a9a6c1ef78253d">~Array</a> ()</td></tr>
+<tr class="memdesc:a6149be5bb4ad25d738a9a6c1ef78253d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a6149be5bb4ad25d738a9a6c1ef78253d"></a><br/></td></tr>
+<tr class="separator:a6149be5bb4ad25d738a9a6c1ef78253d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6f46b7a7bee66e0ab05dd83dca4e79d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classArray.html">Array</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#ae6f46b7a7bee66e0ab05dd83dca4e79d">operator=</a> (const <a class="el" href="classArray.html">Array</a> &amp;other)</td></tr>
+<tr class="memdesc:ae6f46b7a7bee66e0ab05dd83dca4e79d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies another array.  <a href="#ae6f46b7a7bee66e0ab05dd83dca4e79d"></a><br/></td></tr>
+<tr class="separator:ae6f46b7a7bee66e0ab05dd83dca4e79d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe323c4e118f22cd1d09c2557a74c3d5"><td class="memTemplParams" colspan="2">template&lt;class OtherArrayType &gt; </td></tr>
+<tr class="memitem:abe323c4e118f22cd1d09c2557a74c3d5"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#abe323c4e118f22cd1d09c2557a74c3d5">operator==</a> (const OtherArrayType &amp;other) const </td></tr>
+<tr class="memdesc:abe323c4e118f22cd1d09c2557a74c3d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares this array to another one.  <a href="#abe323c4e118f22cd1d09c2557a74c3d5"></a><br/></td></tr>
+<tr class="separator:abe323c4e118f22cd1d09c2557a74c3d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63cbf228f47c23e0f52d5f73b9fa8c0e"><td class="memTemplParams" colspan="2">template&lt;class OtherArrayType &gt; </td></tr>
+<tr class="memitem:a63cbf228f47c23e0f52d5f73b9fa8c0e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#a63cbf228f47c23e0f52d5f73b9fa8c0e">operator!=</a> (const OtherArrayType &amp;other) const </td></tr>
+<tr class="memdesc:a63cbf228f47c23e0f52d5f73b9fa8c0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares this array to another one.  <a href="#a63cbf228f47c23e0f52d5f73b9fa8c0e"></a><br/></td></tr>
+<tr class="separator:a63cbf228f47c23e0f52d5f73b9fa8c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86dc5fe378bb99b85beb8ab86c279654"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a86dc5fe378bb99b85beb8ab86c279654">clear</a> ()</td></tr>
+<tr class="memdesc:a86dc5fe378bb99b85beb8ab86c279654"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all elements from the array.  <a href="#a86dc5fe378bb99b85beb8ab86c279654"></a><br/></td></tr>
+<tr class="separator:a86dc5fe378bb99b85beb8ab86c279654"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96bcb7013ec2d56da8b918da7fc0809c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a96bcb7013ec2d56da8b918da7fc0809c">clearQuick</a> ()</td></tr>
+<tr class="memdesc:a96bcb7013ec2d56da8b918da7fc0809c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all elements from the array without freeing the array's allocated storage.  <a href="#a96bcb7013ec2d56da8b918da7fc0809c"></a><br/></td></tr>
+<tr class="separator:a96bcb7013ec2d56da8b918da7fc0809c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae79ec3b32d0c9a80dfff8ffbc41f8523"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#ae79ec3b32d0c9a80dfff8ffbc41f8523">size</a> () const noexcept</td></tr>
+<tr class="memdesc:ae79ec3b32d0c9a80dfff8ffbc41f8523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current number of elements in the array.  <a href="#ae79ec3b32d0c9a80dfff8ffbc41f8523"></a><br/></td></tr>
+<tr class="separator:ae79ec3b32d0c9a80dfff8ffbc41f8523"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e369f019d7ba8f7587bcab1906e4087"><td class="memItemLeft" align="right" valign="top">ElementType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a9e369f019d7ba8f7587bcab1906e4087">operator[]</a> (const int index) const </td></tr>
+<tr class="memdesc:a9e369f019d7ba8f7587bcab1906e4087"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the elements in the array.  <a href="#a9e369f019d7ba8f7587bcab1906e4087"></a><br/></td></tr>
+<tr class="separator:a9e369f019d7ba8f7587bcab1906e4087"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada77bc1217cc15d8815e2685090de379"><td class="memItemLeft" align="right" valign="top">ElementType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">getUnchecked</a> (const int index) const </td></tr>
+<tr class="memdesc:ada77bc1217cc15d8815e2685090de379"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the elements in the array, without checking the index passed in.  <a href="#ada77bc1217cc15d8815e2685090de379"></a><br/></td></tr>
+<tr class="separator:ada77bc1217cc15d8815e2685090de379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1cb5babc0950eb9897812b221695b3c"><td class="memItemLeft" align="right" valign="top">ElementType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#ac1cb5babc0950eb9897812b221695b3c">getReference</a> (const int index) const noexcept</td></tr>
+<tr class="memdesc:ac1cb5babc0950eb9897812b221695b3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a direct reference to one of the elements in the array, without checking the index passed in.  <a href="#ac1cb5babc0950eb9897812b221695b3c"></a><br/></td></tr>
+<tr class="separator:ac1cb5babc0950eb9897812b221695b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1884e2e59a1f2a7a2959a1f090da894"><td class="memItemLeft" align="right" valign="top">ElementType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#ae1884e2e59a1f2a7a2959a1f090da894">getFirst</a> () const </td></tr>
+<tr class="memdesc:ae1884e2e59a1f2a7a2959a1f090da894"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first element in the array, or a default value if the array is empty.  <a href="#ae1884e2e59a1f2a7a2959a1f090da894"></a><br/></td></tr>
+<tr class="separator:ae1884e2e59a1f2a7a2959a1f090da894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcdc6472b527f4b470ae705ed7fad38f"><td class="memItemLeft" align="right" valign="top">ElementType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#abcdc6472b527f4b470ae705ed7fad38f">getLast</a> () const </td></tr>
+<tr class="memdesc:abcdc6472b527f4b470ae705ed7fad38f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the last element in the array, or a default value if the array is empty.  <a href="#abcdc6472b527f4b470ae705ed7fad38f"></a><br/></td></tr>
+<tr class="separator:abcdc6472b527f4b470ae705ed7fad38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c5c3e5ab20d17d6d5757e53773ba2ff"><td class="memItemLeft" align="right" valign="top">ElementType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a4c5c3e5ab20d17d6d5757e53773ba2ff">getRawDataPointer</a> () noexcept</td></tr>
+<tr class="memdesc:a4c5c3e5ab20d17d6d5757e53773ba2ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the actual array data.  <a href="#a4c5c3e5ab20d17d6d5757e53773ba2ff"></a><br/></td></tr>
+<tr class="separator:a4c5c3e5ab20d17d6d5757e53773ba2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aeb6bdbca7a057c6fe483f2a9c89ef5"><td class="memItemLeft" align="right" valign="top">ElementType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a5aeb6bdbca7a057c6fe483f2a9c89ef5">begin</a> () const noexcept</td></tr>
+<tr class="memdesc:a5aeb6bdbca7a057c6fe483f2a9c89ef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first element in the array.  <a href="#a5aeb6bdbca7a057c6fe483f2a9c89ef5"></a><br/></td></tr>
+<tr class="separator:a5aeb6bdbca7a057c6fe483f2a9c89ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ec39fc8ed45a70eb82fca49c35c2088"><td class="memItemLeft" align="right" valign="top">ElementType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a4ec39fc8ed45a70eb82fca49c35c2088">end</a> () const noexcept</td></tr>
+<tr class="memdesc:a4ec39fc8ed45a70eb82fca49c35c2088"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the element which follows the last element in the array.  <a href="#a4ec39fc8ed45a70eb82fca49c35c2088"></a><br/></td></tr>
+<tr class="separator:a4ec39fc8ed45a70eb82fca49c35c2088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3e6b6c7c55897224b923bb4409b958a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#af3e6b6c7c55897224b923bb4409b958a">indexOf</a> (ParameterType elementToLookFor) const </td></tr>
+<tr class="memdesc:af3e6b6c7c55897224b923bb4409b958a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the index of the first element which matches the value passed in.  <a href="#af3e6b6c7c55897224b923bb4409b958a"></a><br/></td></tr>
+<tr class="separator:af3e6b6c7c55897224b923bb4409b958a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57f5f5977d81f1d54315732bc30b33ab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a57f5f5977d81f1d54315732bc30b33ab">contains</a> (ParameterType elementToLookFor) const </td></tr>
+<tr class="memdesc:a57f5f5977d81f1d54315732bc30b33ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the array contains at least one occurrence of an object.  <a href="#a57f5f5977d81f1d54315732bc30b33ab"></a><br/></td></tr>
+<tr class="separator:a57f5f5977d81f1d54315732bc30b33ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9104c74ba0822c3ea885ab762d7de462"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a9104c74ba0822c3ea885ab762d7de462">add</a> (ParameterType newElement)</td></tr>
+<tr class="memdesc:a9104c74ba0822c3ea885ab762d7de462"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a new element at the end of the array.  <a href="#a9104c74ba0822c3ea885ab762d7de462"></a><br/></td></tr>
+<tr class="separator:a9104c74ba0822c3ea885ab762d7de462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef96810c21931d9676c08cad82de45c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#aef96810c21931d9676c08cad82de45c7">insert</a> (int indexToInsertAt, ParameterType newElement)</td></tr>
+<tr class="memdesc:aef96810c21931d9676c08cad82de45c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a new element into the array at a given position.  <a href="#aef96810c21931d9676c08cad82de45c7"></a><br/></td></tr>
+<tr class="separator:aef96810c21931d9676c08cad82de45c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cadf83bcfba696c6a4adc15f4e0a78f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a0cadf83bcfba696c6a4adc15f4e0a78f">insertMultiple</a> (int indexToInsertAt, ParameterType newElement, int numberOfTimesToInsertIt)</td></tr>
+<tr class="memdesc:a0cadf83bcfba696c6a4adc15f4e0a78f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts multiple copies of an element into the array at a given position.  <a href="#a0cadf83bcfba696c6a4adc15f4e0a78f"></a><br/></td></tr>
+<tr class="separator:a0cadf83bcfba696c6a4adc15f4e0a78f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb0477221ce1538611a9fcd84028b387"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#acb0477221ce1538611a9fcd84028b387">insertArray</a> (int indexToInsertAt, const ElementType *newElements, int numberOfElements)</td></tr>
+<tr class="memdesc:acb0477221ce1538611a9fcd84028b387"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts an array of values into this array at a given position.  <a href="#acb0477221ce1538611a9fcd84028b387"></a><br/></td></tr>
+<tr class="separator:acb0477221ce1538611a9fcd84028b387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a408fa7ce72916f0fc65df67fbc9f8813"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a408fa7ce72916f0fc65df67fbc9f8813">addIfNotAlreadyThere</a> (ParameterType newElement)</td></tr>
+<tr class="memdesc:a408fa7ce72916f0fc65df67fbc9f8813"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a new element at the end of the array as long as the array doesn't already contain it.  <a href="#a408fa7ce72916f0fc65df67fbc9f8813"></a><br/></td></tr>
+<tr class="separator:a408fa7ce72916f0fc65df67fbc9f8813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fb91e8ec10caa9474a28c88e35f9686"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a2fb91e8ec10caa9474a28c88e35f9686">set</a> (const int indexToChange, ParameterType newValue)</td></tr>
+<tr class="memdesc:a2fb91e8ec10caa9474a28c88e35f9686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces an element with a new value.  <a href="#a2fb91e8ec10caa9474a28c88e35f9686"></a><br/></td></tr>
+<tr class="separator:a2fb91e8ec10caa9474a28c88e35f9686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fb9db1598de3bcf85754ff2169dd7eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a8fb9db1598de3bcf85754ff2169dd7eb">setUnchecked</a> (const int indexToChange, ParameterType newValue)</td></tr>
+<tr class="memdesc:a8fb9db1598de3bcf85754ff2169dd7eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces an element with a new value without doing any bounds-checking.  <a href="#a8fb9db1598de3bcf85754ff2169dd7eb"></a><br/></td></tr>
+<tr class="separator:a8fb9db1598de3bcf85754ff2169dd7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dc309e3bf8d91c05a11199d70946132"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a8dc309e3bf8d91c05a11199d70946132">addArray</a> (const ElementType *elementsToAdd, int numElementsToAdd)</td></tr>
+<tr class="memdesc:a8dc309e3bf8d91c05a11199d70946132"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds elements from an array to the end of this array.  <a href="#a8dc309e3bf8d91c05a11199d70946132"></a><br/></td></tr>
+<tr class="separator:a8dc309e3bf8d91c05a11199d70946132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2d409a47639a922eda981fe7def9c2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#af2d409a47639a922eda981fe7def9c2f">swapWithArray</a> (<a class="el" href="classArray.html">Array</a> &amp;otherArray) noexcept</td></tr>
+<tr class="memdesc:af2d409a47639a922eda981fe7def9c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This swaps the contents of this array with those of another array.  <a href="#af2d409a47639a922eda981fe7def9c2f"></a><br/></td></tr>
+<tr class="separator:af2d409a47639a922eda981fe7def9c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75cce24a6741c2e36d4f87084005ba89"><td class="memTemplParams" colspan="2">template&lt;class OtherArrayType &gt; </td></tr>
+<tr class="memitem:a75cce24a6741c2e36d4f87084005ba89"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#a75cce24a6741c2e36d4f87084005ba89">addArray</a> (const OtherArrayType &amp;arrayToAddFrom, int startIndex=0, int numElementsToAdd=-1)</td></tr>
+<tr class="memdesc:a75cce24a6741c2e36d4f87084005ba89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds elements from another array to the end of this array.  <a href="#a75cce24a6741c2e36d4f87084005ba89"></a><br/></td></tr>
+<tr class="separator:a75cce24a6741c2e36d4f87084005ba89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeee604745ed7157e6b14e8b54a27634f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#aeee604745ed7157e6b14e8b54a27634f">resize</a> (const int targetNumItems)</td></tr>
+<tr class="memdesc:aeee604745ed7157e6b14e8b54a27634f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will enlarge or shrink the array to the given number of elements, by adding or removing items from its end.  <a href="#aeee604745ed7157e6b14e8b54a27634f"></a><br/></td></tr>
+<tr class="separator:aeee604745ed7157e6b14e8b54a27634f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc5417019f110034658b3c1c02af5a5e"><td class="memTemplParams" colspan="2">template&lt;class ElementComparator &gt; </td></tr>
+<tr class="memitem:afc5417019f110034658b3c1c02af5a5e"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#afc5417019f110034658b3c1c02af5a5e">addSorted</a> (ElementComparator &amp;comparator, ParameterType newElement)</td></tr>
+<tr class="memdesc:afc5417019f110034658b3c1c02af5a5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a new element into the array, assuming that the array is sorted.  <a href="#afc5417019f110034658b3c1c02af5a5e"></a><br/></td></tr>
+<tr class="separator:afc5417019f110034658b3c1c02af5a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88466744eccb48806b74defa442c843b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a88466744eccb48806b74defa442c843b">addUsingDefaultSort</a> (ParameterType newElement)</td></tr>
+<tr class="memdesc:a88466744eccb48806b74defa442c843b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a new element into the array, assuming that the array is sorted.  <a href="#a88466744eccb48806b74defa442c843b"></a><br/></td></tr>
+<tr class="separator:a88466744eccb48806b74defa442c843b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3faadfb7b8eb05350afb1c9dd951ff5"><td class="memTemplParams" colspan="2">template&lt;typename ElementComparator , typename TargetValueType &gt; </td></tr>
+<tr class="memitem:ad3faadfb7b8eb05350afb1c9dd951ff5"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#ad3faadfb7b8eb05350afb1c9dd951ff5">indexOfSorted</a> (ElementComparator &amp;comparator, TargetValueType elementToLookFor) const </td></tr>
+<tr class="memdesc:ad3faadfb7b8eb05350afb1c9dd951ff5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the index of an element in the array, assuming that the array is sorted.  <a href="#ad3faadfb7b8eb05350afb1c9dd951ff5"></a><br/></td></tr>
+<tr class="separator:ad3faadfb7b8eb05350afb1c9dd951ff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af36ad6bf7849a3a3557a5457458701d0"><td class="memItemLeft" align="right" valign="top">ElementType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#af36ad6bf7849a3a3557a5457458701d0">remove</a> (const int indexToRemove)</td></tr>
+<tr class="memdesc:af36ad6bf7849a3a3557a5457458701d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an element from the array.  <a href="#af36ad6bf7849a3a3557a5457458701d0"></a><br/></td></tr>
+<tr class="separator:af36ad6bf7849a3a3557a5457458701d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb629ebfbcba98f1f5e1ca47ccca594e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#adb629ebfbcba98f1f5e1ca47ccca594e">removeFirstMatchingValue</a> (ParameterType valueToRemove)</td></tr>
+<tr class="memdesc:adb629ebfbcba98f1f5e1ca47ccca594e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an item from the array.  <a href="#adb629ebfbcba98f1f5e1ca47ccca594e"></a><br/></td></tr>
+<tr class="separator:adb629ebfbcba98f1f5e1ca47ccca594e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2023eddb4bd8a3e0df96ab789ef139ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a2023eddb4bd8a3e0df96ab789ef139ce">removeAllInstancesOf</a> (ParameterType valueToRemove)</td></tr>
+<tr class="memdesc:a2023eddb4bd8a3e0df96ab789ef139ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an item from the array.  <a href="#a2023eddb4bd8a3e0df96ab789ef139ce"></a><br/></td></tr>
+<tr class="separator:a2023eddb4bd8a3e0df96ab789ef139ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9f26706cc40ce178424b2b4ba1f9647"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#ae9f26706cc40ce178424b2b4ba1f9647">removeRange</a> (int startIndex, int numberToRemove)</td></tr>
+<tr class="memdesc:ae9f26706cc40ce178424b2b4ba1f9647"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a range of elements from the array.  <a href="#ae9f26706cc40ce178424b2b4ba1f9647"></a><br/></td></tr>
+<tr class="separator:ae9f26706cc40ce178424b2b4ba1f9647"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6fe3614e877f04a42330f440a5548da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#af6fe3614e877f04a42330f440a5548da">removeLast</a> (int howManyToRemove=1)</td></tr>
+<tr class="memdesc:af6fe3614e877f04a42330f440a5548da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the last n elements from the array.  <a href="#af6fe3614e877f04a42330f440a5548da"></a><br/></td></tr>
+<tr class="separator:af6fe3614e877f04a42330f440a5548da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1474eae027a73758ca12734001ec9da0"><td class="memTemplParams" colspan="2">template&lt;class OtherArrayType &gt; </td></tr>
+<tr class="memitem:a1474eae027a73758ca12734001ec9da0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#a1474eae027a73758ca12734001ec9da0">removeValuesIn</a> (const OtherArrayType &amp;otherArray)</td></tr>
+<tr class="memdesc:a1474eae027a73758ca12734001ec9da0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes any elements which are also in another array.  <a href="#a1474eae027a73758ca12734001ec9da0"></a><br/></td></tr>
+<tr class="separator:a1474eae027a73758ca12734001ec9da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3d9c435c3cddb0de674306b809430e3"><td class="memTemplParams" colspan="2">template&lt;class OtherArrayType &gt; </td></tr>
+<tr class="memitem:af3d9c435c3cddb0de674306b809430e3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#af3d9c435c3cddb0de674306b809430e3">removeValuesNotIn</a> (const OtherArrayType &amp;otherArray)</td></tr>
+<tr class="memdesc:af3d9c435c3cddb0de674306b809430e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes any elements which are not found in another array.  <a href="#af3d9c435c3cddb0de674306b809430e3"></a><br/></td></tr>
+<tr class="separator:af3d9c435c3cddb0de674306b809430e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae686a3e14b9134ddae4b6bd6088350e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#ae686a3e14b9134ddae4b6bd6088350e5">swap</a> (const int index1, const int index2)</td></tr>
+<tr class="memdesc:ae686a3e14b9134ddae4b6bd6088350e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps over two elements in the array.  <a href="#ae686a3e14b9134ddae4b6bd6088350e5"></a><br/></td></tr>
+<tr class="separator:ae686a3e14b9134ddae4b6bd6088350e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed7d9992d0e88297d4d92487205436e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#aed7d9992d0e88297d4d92487205436e2">move</a> (const int currentIndex, int newIndex) noexcept</td></tr>
+<tr class="memdesc:aed7d9992d0e88297d4d92487205436e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves one of the values to a different position.  <a href="#aed7d9992d0e88297d4d92487205436e2"></a><br/></td></tr>
+<tr class="separator:aed7d9992d0e88297d4d92487205436e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0773349e71721e177ee12c8ffd20b5d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a0773349e71721e177ee12c8ffd20b5d8">minimiseStorageOverheads</a> ()</td></tr>
+<tr class="memdesc:a0773349e71721e177ee12c8ffd20b5d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reduces the amount of storage being used by the array.  <a href="#a0773349e71721e177ee12c8ffd20b5d8"></a><br/></td></tr>
+<tr class="separator:a0773349e71721e177ee12c8ffd20b5d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43d61929a72c859191859f02e35d2058"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a43d61929a72c859191859f02e35d2058">ensureStorageAllocated</a> (const int minNumElements)</td></tr>
+<tr class="memdesc:a43d61929a72c859191859f02e35d2058"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increases the array's internal storage to hold a minimum number of elements.  <a href="#a43d61929a72c859191859f02e35d2058"></a><br/></td></tr>
+<tr class="separator:a43d61929a72c859191859f02e35d2058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13366b4435364fcd0d304cdcaebd726a"><td class="memTemplParams" colspan="2">template&lt;class ElementComparator &gt; </td></tr>
+<tr class="memitem:a13366b4435364fcd0d304cdcaebd726a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#a13366b4435364fcd0d304cdcaebd726a">sort</a> (ElementComparator &amp;comparator, const bool retainOrderOfEquivalentItems=false) const </td></tr>
+<tr class="memdesc:a13366b4435364fcd0d304cdcaebd726a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the elements in the array.  <a href="#a13366b4435364fcd0d304cdcaebd726a"></a><br/></td></tr>
+<tr class="separator:a13366b4435364fcd0d304cdcaebd726a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37f02f5c6eedcc9bd661069e1b991bb1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a37f02f5c6eedcc9bd661069e1b991bb1">getLock</a> () const noexcept</td></tr>
+<tr class="memdesc:a37f02f5c6eedcc9bd661069e1b991bb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> that locks this array.  <a href="#a37f02f5c6eedcc9bd661069e1b991bb1"></a><br/></td></tr>
+<tr class="separator:a37f02f5c6eedcc9bd661069e1b991bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt;<br/>
-class Array&lt; ElementType, TypeOfCriticalSectionToUse &gt;</h3>
+<div class="textblock"><h3>template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt;<br/>
+class Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;</h3>
 
 <p>Holds a resizable array of primitive or copy-by-value objects. </p>
 <p>Examples of arrays are: <a class="el" href="classArray.html">Array&lt;int&gt;</a>, Array&lt;Rectangle&gt; or Array&lt;MyClass*&gt;</p>
@@ -271,16 +271,16 @@ class Array&lt; ElementType, TypeOfCriticalSectionToUse &gt;</h3>
 <p>You can of course have an array of pointers to any kind of object, e.g. <a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects.">Array</a> &lt;MyClass*&gt;, but if you do this, the array doesn't take any ownership of the objects - see the <a class="el" href="classOwnedArray.html" title="An array designed for holding objects.">OwnedArray</a> class or the <a class="el" href="classReferenceCountedArray.html" title="Holds a list of objects derived from ReferenceCountedObject.">ReferenceCountedArray</a> class for more powerful ways of holding lists of objects.</p>
 <p>For holding lists of strings, you can use <a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects.">Array</a>&lt;<a class="el" href="classString.html" title="The JUCE String class!">String</a>&gt;, but it's usually better to use the specialised class <a class="el" href="classStringArray.html" title="A special array for holding a list of strings.">StringArray</a>, which provides more useful functions.</p>
 <p>To make all the array's methods thread-safe, pass in "CriticalSection" as the templated TypeOfCriticalSectionToUse parameter, instead of the default <a class="el" href="classDummyCriticalSection.html" title="A class that can be used in place of a real CriticalSection object, but which doesn&#39;t perform any loc...">DummyCriticalSection</a>.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOwnedArray.html" title="An array designed for holding objects.">OwnedArray</a>, <a class="el" href="classReferenceCountedArray.html" title="Holds a list of objects derived from ReferenceCountedObject.">ReferenceCountedArray</a>, <a class="el" href="classStringArray.html" title="A special array for holding a list of strings.">StringArray</a>, <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOwnedArray.html" title="An array designed for holding objects.">OwnedArray</a>, <a class="el" href="classReferenceCountedArray.html" title="Holds a list of objects derived from ReferenceCountedObject.">ReferenceCountedArray</a>, <a class="el" href="classStringArray.html" title="A special array for holding a list of strings.">StringArray</a>, <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> </dd></dl>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="aaee0afbd84038238c8cbda6378e665c6"></a>
+<a class="anchor" id="a191f66a972ab264e2f8361727fb59ae7"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef TypeOfCriticalSectionToUse::ScopedLockType <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classArray.html#aaee0afbd84038238c8cbda6378e665c6">ScopedLockType</a></td>
+          <td class="memname">typedef TypeOfCriticalSectionToUse::ScopedLockType <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::<a class="el" href="classArray.html#a191f66a972ab264e2f8361727fb59ae7">ScopedLockType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -290,17 +290,17 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aba7a7a37bb14ee10d6824ea75ded2afd"></a>
+<a class="anchor" id="a527fe1f41cd10ccc5d8b7471d7dbef52"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classArray.html">Array</a> </td>
+          <td class="memname"><a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::<a class="el" href="classArray.html">Array</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -317,14 +317,14 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 
 </div>
 </div>
-<a class="anchor" id="ae603294033a54425cb6533893c8ea51c"></a>
+<a class="anchor" id="a738abff2826095c6f95ffa9e1e2a04bc"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classArray.html">Array</a> </td>
+          <td class="memname"><a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::<a class="el" href="classArray.html">Array</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
@@ -343,11 +343,11 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 
 </div>
 </div>
-<a class="anchor" id="a625d96690c21e31ce4ee1308fe1ffe81"></a>
+<a class="anchor" id="a6a1ecdfef773aa85351eb93bda32951b"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <div class="memtemplate">
 template&lt;typename TypeToCreateFrom &gt; </div>
 <table class="mlabels">
@@ -355,7 +355,7 @@ template&lt;typename TypeToCreateFrom &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classArray.html">Array</a> </td>
+          <td class="memname"><a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::<a class="el" href="classArray.html">Array</a> </td>
           <td>(</td>
           <td class="paramtype">const TypeToCreateFrom *&#160;</td>
           <td class="paramname"><em>values</em></td><td>)</td>
@@ -379,16 +379,16 @@ template&lt;typename TypeToCreateFrom &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ab13a2968fce8bb7414d1b9483f656546"></a>
+<a class="anchor" id="aaa426011ebe1d6a9d32302f92ead8b98"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <div class="memtemplate">
 template&lt;typename TypeToCreateFrom &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classArray.html">Array</a> </td>
+          <td class="memname"><a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::<a class="el" href="classArray.html">Array</a> </td>
           <td>(</td>
           <td class="paramtype">const TypeToCreateFrom *&#160;</td>
           <td class="paramname"><em>values</em>, </td>
@@ -418,14 +418,14 @@ template&lt;typename TypeToCreateFrom &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a540323526557fec8347019aee786316a"></a>
+<a class="anchor" id="a6149be5bb4ad25d738a9a6c1ef78253d"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::~<a class="el" href="classArray.html">Array</a> </td>
+          <td class="memname"><a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::~<a class="el" href="classArray.html">Array</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -438,16 +438,16 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a2bdf7874aec427a12c98073f14ca47a2"></a>
+<a class="anchor" id="ae6f46b7a7bee66e0ab05dd83dca4e79d"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classArray.html">Array</a>&amp; <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::operator= </td>
+          <td class="memname"><a class="el" href="classArray.html">Array</a>&amp; <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -464,16 +464,16 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 
 </div>
 </div>
-<a class="anchor" id="a66b0bb233d3c2791c51a7652fd0bf2f2"></a>
+<a class="anchor" id="abe323c4e118f22cd1d09c2557a74c3d5"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <div class="memtemplate">
 template&lt;class OtherArrayType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::operator== </td>
+          <td class="memname">bool <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::operator== </td>
           <td>(</td>
           <td class="paramtype">const OtherArrayType &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
@@ -491,20 +491,20 @@ template&lt;class OtherArrayType &gt; </div>
   </dd>
 </dl>
 
-<p>Referenced by <a class="el" href="classArray.html#afd40348d976f1ccc43b6ecda614c787d">Array&lt; Glyph &gt;::operator!=()</a>.</p>
+<p>Referenced by <a class="el" href="classArray.html#a63cbf228f47c23e0f52d5f73b9fa8c0e">Array&lt; Glyph &gt;::operator!=()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="afd40348d976f1ccc43b6ecda614c787d"></a>
+<a class="anchor" id="a63cbf228f47c23e0f52d5f73b9fa8c0e"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <div class="memtemplate">
 template&lt;class OtherArrayType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::operator!= </td>
+          <td class="memname">bool <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::operator!= </td>
           <td>(</td>
           <td class="paramtype">const OtherArrayType &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
@@ -524,14 +524,14 @@ template&lt;class OtherArrayType &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a6bd7485bde05c4218a26d4f98b3ffca2"></a>
+<a class="anchor" id="a86dc5fe378bb99b85beb8ab86c279654"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::clear </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::clear </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -540,21 +540,21 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 </div><div class="memdoc">
 
 <p>Removes all elements from the array. </p>
-<p>This will remove all the elements, and free any storage that the array is using. To clear the array without freeing the storage, use the <a class="el" href="classArray.html#ab7f0aefd80fc3a88310ac9931bafd8e8" title="Removes all elements from the array without freeing the array&#39;s allocated storage.">clearQuick()</a> method instead.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#ab7f0aefd80fc3a88310ac9931bafd8e8" title="Removes all elements from the array without freeing the array&#39;s allocated storage.">clearQuick</a> </dd></dl>
+<p>This will remove all the elements, and free any storage that the array is using. To clear the array without freeing the storage, use the <a class="el" href="classArray.html#a96bcb7013ec2d56da8b918da7fc0809c" title="Removes all elements from the array without freeing the array&#39;s allocated storage.">clearQuick()</a> method instead.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a96bcb7013ec2d56da8b918da7fc0809c" title="Removes all elements from the array without freeing the array&#39;s allocated storage.">clearQuick</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classSparseSet.html#a7d2fc6674ce3c6c0c52d720d88752339">SparseSet&lt; int &gt;::clear()</a>, <a class="el" href="classLassoComponent.html#a77e7463330941cd3ef81fa41209387f0">LassoComponent&lt; SelectableItemType &gt;::endLasso()</a>, <a class="el" href="classArray.html#ab1aac8e57e79c1426763bba43151dfb7">Array&lt; Glyph &gt;::removeValuesIn()</a>, and <a class="el" href="classArray.html#a8e32b0f434c970c4275f28c68d2b3f10">Array&lt; Glyph &gt;::removeValuesNotIn()</a>.</p>
+<p>Referenced by <a class="el" href="classSparseSet.html#a7d2fc6674ce3c6c0c52d720d88752339">SparseSet&lt; int &gt;::clear()</a>, <a class="el" href="classSortedSet.html#a0cc4c313458f6d87513fda77d31eaa71">SortedSet&lt; ActionListener * &gt;::clear()</a>, <a class="el" href="classLassoComponent.html#a77e7463330941cd3ef81fa41209387f0">LassoComponent&lt; SelectableItemType &gt;::endLasso()</a>, <a class="el" href="classArray.html#a1474eae027a73758ca12734001ec9da0">Array&lt; Glyph &gt;::removeValuesIn()</a>, and <a class="el" href="classArray.html#af3d9c435c3cddb0de674306b809430e3">Array&lt; Glyph &gt;::removeValuesNotIn()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab7f0aefd80fc3a88310ac9931bafd8e8"></a>
+<a class="anchor" id="a96bcb7013ec2d56da8b918da7fc0809c"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::clearQuick </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::clearQuick </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -563,21 +563,23 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 </div><div class="memdoc">
 
 <p>Removes all elements from the array without freeing the array's allocated storage. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a6bd7485bde05c4218a26d4f98b3ffca2" title="Removes all elements from the array.">clear</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a86dc5fe378bb99b85beb8ab86c279654" title="Removes all elements from the array.">clear</a> </dd></dl>
+
+<p>Referenced by <a class="el" href="classSortedSet.html#a792064a68e61905a9ee6968e2cbc4ee6">SortedSet&lt; ActionListener * &gt;::clearQuick()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7cd4d163e87549c04f99fd5dcc2ff835"></a>
+<a class="anchor" id="ae79ec3b32d0c9a80dfff8ffbc41f8523"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::size </td>
+          <td class="memname">int <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -592,18 +594,18 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 
 <p>Returns the current number of elements in the array. </p>
 
-<p>Referenced by <a class="el" href="classHashMap.html#a5c05298ac37d90e8ae6b944cf9ef90a7">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::clear()</a>, <a class="el" href="classSparseSet.html#a012b4ce66f31a8666bd818e18a6081de">SparseSet&lt; int &gt;::contains()</a>, <a class="el" href="classSelectedItemSet.html#a2d8c179287d5afa7e4ef0318ce779813">SelectedItemSet&lt; SelectableItemType &gt;::deselectAll()</a>, <a class="el" href="classStretchableObjectResizer.html#a6ae31268a50a1c715e39b28bfd82f560">StretchableObjectResizer::getNumItems()</a>, <a class="el" href="classSparseSet.html#a2cf54ba41e95ead13be4cdea090750fe">SparseSet&lt; int &gt;::getNumRanges()</a>, <a class="el" href="classSelectedItemSet.html#adaf7fb93ca30bc24a130c7601cb83c49">SelectedItemSet&lt; SelectableItemType &gt;::getNumSelected()</a>, <a class="el" href="classHashMap.html#ad88492074f61172e919d17a8338ec670">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::getNumSlots()</a>, <a class="el" href="classSparseSet.html#aa243e3ee99df5bfe41983c031d4b148a">SparseSet&lt; int &gt;::getTotalRange()</a>, <a class="el" href="classSparseSet.html#ae60850392e3312144695b1bb9c999047">SparseSet&lt; int &gt;::isEmpty()</a>, <a class="el" href="classSparseSet.html#a54f3d84e61a754674f62981216013254">SparseSet&lt; int &gt;::operator[]()</a>, <a class="el" href="classSparseSet.html#a998d2921632e1135cf1983584d931181">SparseSet&lt; int &gt;::removeRange()</a>, <a class="el" href="classSelectedItemSet.html#a5c989a8cd1483b655b948aee86fb768c">SelectedItemSet&lt; SelectableItemType &gt;::selectOnly()</a>, <a class="el" href="classSparseSet.html#abb774559c4dd7fa498095539c22e9df1">SparseSet&lt; int &gt;::size()</a>, and <a class="el" href="classArray.html#ac1dca4ab2895315dd85e25eaca2fcab1">Array&lt; Glyph &gt;::sort()</a>.</p>
+<p>Referenced by <a class="el" href="classSortedSet.html#a861274cee3723b88dc742aef24ba65d5">SortedSet&lt; ActionListener * &gt;::add()</a>, <a class="el" href="classHashMap.html#a5c05298ac37d90e8ae6b944cf9ef90a7">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::clear()</a>, <a class="el" href="classSparseSet.html#a012b4ce66f31a8666bd818e18a6081de">SparseSet&lt; int &gt;::contains()</a>, <a class="el" href="classSelectedItemSet.html#a2d8c179287d5afa7e4ef0318ce779813">SelectedItemSet&lt; SelectableItemType &gt;::deselectAll()</a>, <a class="el" href="classStretchableObjectResizer.html#a6ae31268a50a1c715e39b28bfd82f560">StretchableObjectResizer::getNumItems()</a>, <a class="el" href="classSparseSet.html#a2cf54ba41e95ead13be4cdea090750fe">SparseSet&lt; int &gt;::getNumRanges()</a>, <a class="el" href="classSelectedItemSet.html#adaf7fb93ca30bc24a130c7601cb83c49">SelectedItemSet&lt; SelectableItemType &gt;::getNumSelected()</a>, <a class="el" href="classHashMap.html#ad88492074f61172e919d17a8338ec670">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::getNumSlots()</a>, <a class="el" href="classSparseSet.html#aa243e3ee99df5bfe41983c031d4b148a">SparseSet&lt; int &gt;::getTotalRange()</a>, <a class="el" href="classSortedSet.html#ac51e0a933c5902a55f68ee8eef9cba00">SortedSet&lt; ActionListener * &gt;::indexOf()</a>, <a class="el" href="classSparseSet.html#ae60850392e3312144695b1bb9c999047">SparseSet&lt; int &gt;::isEmpty()</a>, <a class="el" href="classSparseSet.html#a54f3d84e61a754674f62981216013254">SparseSet&lt; int &gt;::operator[]()</a>, <a class="el" href="classSparseSet.html#a998d2921632e1135cf1983584d931181">SparseSet&lt; int &gt;::removeRange()</a>, <a class="el" href="classSortedSet.html#a87ad10e1f49afe6fbcbf4170e84bf95e">SortedSet&lt; ActionListener * &gt;::removeValuesIn()</a>, <a class="el" href="classSortedSet.html#a44266b927f68b51086f56a8732fd3190">SortedSet&lt; ActionListener * &gt;::removeValuesNotIn()</a>, <a class="el" href="classSelectedItemSet.html#a5c989a8cd1483b655b948aee86fb768c">SelectedItemSet&lt; SelectableItemType &gt;::selectOnly()</a>, <a class="el" href="classSparseSet.html#abb774559c4dd7fa498095539c22e9df1">SparseSet&lt; int &gt;::size()</a>, <a class="el" href="classSortedSet.html#aae5daa157bd06da7e89ac7abde60ff68">SortedSet&lt; ActionListener * &gt;::size()</a>, and <a class="el" href="classArray.html#a13366b4435364fcd0d304cdcaebd726a">Array&lt; Glyph &gt;::sort()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2b9999cb713e0c71f7dbb430a9361948"></a>
+<a class="anchor" id="a9e369f019d7ba8f7587bcab1906e4087"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">ElementType <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::operator[] </td>
+          <td class="memname">ElementType <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::operator[] </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -614,25 +616,25 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 
 <p>Returns one of the elements in the array. </p>
 <p>If the index passed in is beyond the range of valid elements, this will return a default value.</p>
-<p>If you're certain that the index will always be a valid element, you can call <a class="el" href="classArray.html#a35cf8b22e29926f5206f72ceb4c44a91" title="Returns one of the elements in the array, without checking the index passed in.">getUnchecked()</a> instead, which is faster.</p>
+<p>If you're certain that the index will always be a valid element, you can call <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379" title="Returns one of the elements in the array, without checking the index passed in.">getUnchecked()</a> instead, which is faster.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">index</td><td>the index of the element being requested (0 is the first element in the array) </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a35cf8b22e29926f5206f72ceb4c44a91" title="Returns one of the elements in the array, without checking the index passed in.">getUnchecked</a>, <a class="el" href="classArray.html#aa428610d7f1bd9dd2de313b39403bd4f" title="Returns the first element in the array, or a default value if the array is empty.">getFirst</a>, <a class="el" href="classArray.html#adef4469c2868dbf4b22dc352cd179e4f" title="Returns the last element in the array, or a default value if the array is empty.">getLast</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379" title="Returns one of the elements in the array, without checking the index passed in.">getUnchecked</a>, <a class="el" href="classArray.html#ae1884e2e59a1f2a7a2959a1f090da894" title="Returns the first element in the array, or a default value if the array is empty.">getFirst</a>, <a class="el" href="classArray.html#abcdc6472b527f4b470ae705ed7fad38f" title="Returns the last element in the array, or a default value if the array is empty.">getLast</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a35cf8b22e29926f5206f72ceb4c44a91"></a>
+<a class="anchor" id="ada77bc1217cc15d8815e2685090de379"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">ElementType <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::getUnchecked </td>
+          <td class="memname">ElementType <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::getUnchecked </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -649,23 +651,23 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd>operator[], <a class="el" href="classArray.html#aa428610d7f1bd9dd2de313b39403bd4f" title="Returns the first element in the array, or a default value if the array is empty.">getFirst</a>, <a class="el" href="classArray.html#adef4469c2868dbf4b22dc352cd179e4f" title="Returns the last element in the array, or a default value if the array is empty.">getLast</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd>operator[], <a class="el" href="classArray.html#ae1884e2e59a1f2a7a2959a1f090da894" title="Returns the first element in the array, or a default value if the array is empty.">getFirst</a>, <a class="el" href="classArray.html#abcdc6472b527f4b470ae705ed7fad38f" title="Returns the last element in the array, or a default value if the array is empty.">getLast</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classHashMap.html#a5c05298ac37d90e8ae6b944cf9ef90a7">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::clear()</a>, <a class="el" href="classSparseSet.html#a012b4ce66f31a8666bd818e18a6081de">SparseSet&lt; int &gt;::contains()</a>, <a class="el" href="classHashMap.html#a5c46356ec0825277b52729dd6c650c85">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::contains()</a>, <a class="el" href="classSparseSet.html#ae0677cc1437e82cbf48a6b1559385271">SparseSet&lt; int &gt;::containsRange()</a>, <a class="el" href="classHashMap.html#ad5b7794228bc73ed367a656c7354e0ef">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::containsValue()</a>, <a class="el" href="classSparseSet.html#a77a4314241f40c4c3be84687eb2d61cb">SparseSet&lt; int &gt;::getRange()</a>, <a class="el" href="classSparseSet.html#aa243e3ee99df5bfe41983c031d4b148a">SparseSet&lt; int &gt;::getTotalRange()</a>, <a class="el" href="classHashMap_1_1Iterator.html#a926563d924a70859451fb30256d2d75c">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::Iterator::next()</a>, <a class="el" href="classSparseSet.html#a54f3d84e61a754674f62981216013254">SparseSet&lt; int &gt;::operator[]()</a>, <a class="el" href="classHashMap.html#a7dbed3ff20a43f4f6997f40b15a8ae5c">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::operator[]()</a>, <a class="el" href="classSparseSet.html#a46572885b4491c60c61e761b51268cb0">SparseSet&lt; int &gt;::overlapsRange()</a>, <a class="el" href="classHashMap.html#a2520099a7f8ebd6b7921b9d6a3eedb1c">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::remapTable()</a>, <a class="el" href="classHashMap.html#a9a2ced849c2687f6bf93c8e311d23b32">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::remove()</a>, <a class="el" href="classSparseSet.html#a998d2921632e1135cf1983584d931181">SparseSet&lt; int &gt;::removeRange()</a>, <a class="el" href="classHashMap.html#a69fffa7da6512b84a990d471600c5c3e">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::removeValue()</a>, <a class="el" href="classSelectedItemSet.html#a5c989a8cd1483b655b948aee86fb768c">SelectedItemSet&lt; SelectableItemType &gt;::selectOnly()</a>, <a class="el" href="classHashMap.html#a0eef18aeb766505db7721b895ecd5654">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::set()</a>, and <a class="el" href="classSparseSet.html#abb774559c4dd7fa498095539c22e9df1">SparseSet&lt; int &gt;::size()</a>.</p>
+<p>Referenced by <a class="el" href="classHashMap.html#a5c05298ac37d90e8ae6b944cf9ef90a7">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::clear()</a>, <a class="el" href="classSparseSet.html#a012b4ce66f31a8666bd818e18a6081de">SparseSet&lt; int &gt;::contains()</a>, <a class="el" href="classHashMap.html#a5c46356ec0825277b52729dd6c650c85">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::contains()</a>, <a class="el" href="classSparseSet.html#ae0677cc1437e82cbf48a6b1559385271">SparseSet&lt; int &gt;::containsRange()</a>, <a class="el" href="classHashMap.html#ad5b7794228bc73ed367a656c7354e0ef">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::containsValue()</a>, <a class="el" href="classSparseSet.html#a77a4314241f40c4c3be84687eb2d61cb">SparseSet&lt; int &gt;::getRange()</a>, <a class="el" href="classSparseSet.html#aa243e3ee99df5bfe41983c031d4b148a">SparseSet&lt; int &gt;::getTotalRange()</a>, <a class="el" href="classSortedSet.html#a931d3c86921cd13c2ca30316eb5dc8c2">SortedSet&lt; ActionListener * &gt;::getUnchecked()</a>, <a class="el" href="classHashMap_1_1Iterator.html#a926563d924a70859451fb30256d2d75c">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::Iterator::next()</a>, <a class="el" href="classSparseSet.html#a54f3d84e61a754674f62981216013254">SparseSet&lt; int &gt;::operator[]()</a>, <a class="el" href="classHashMap.html#a7dbed3ff20a43f4f6997f40b15a8ae5c">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::operator[]()</a>, <a class="el" href="classSparseSet.html#a46572885b4491c60c61e761b51268cb0">SparseSet&lt; int &gt;::overlapsRange()</a>, <a class="el" href="classHashMap.html#a2520099a7f8ebd6b7921b9d6a3eedb1c">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::remapTable()</a>, <a class="el" href="classHashMap.html#a9a2ced849c2687f6bf93c8e311d23b32">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::remove()</a>, <a class="el" href="classSparseSet.html#a998d2921632e1135cf1983584d931181">SparseSet&lt; int &gt;::removeRange()</a>, <a class="el" href="classHashMap.html#a69fffa7da6512b84a990d471600c5c3e">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::removeValue()</a>, <a class="el" href="classSelectedItemSet.html#a5c989a8cd1483b655b948aee86fb768c">SelectedItemSet&lt; SelectableItemType &gt;::selectOnly()</a>, <a class="el" href="classHashMap.html#a0eef18aeb766505db7721b895ecd5654">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::set()</a>, and <a class="el" href="classSparseSet.html#abb774559c4dd7fa498095539c22e9df1">SparseSet&lt; int &gt;::size()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa45cd743a3659e71331730efe9967fdc"></a>
+<a class="anchor" id="ac1cb5babc0950eb9897812b221695b3c"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ElementType&amp; <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::getReference </td>
+          <td class="memname">ElementType&amp; <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::getReference </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -687,18 +689,20 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd>operator[], <a class="el" href="classArray.html#aa428610d7f1bd9dd2de313b39403bd4f" title="Returns the first element in the array, or a default value if the array is empty.">getFirst</a>, <a class="el" href="classArray.html#adef4469c2868dbf4b22dc352cd179e4f" title="Returns the last element in the array, or a default value if the array is empty.">getLast</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd>operator[], <a class="el" href="classArray.html#ae1884e2e59a1f2a7a2959a1f090da894" title="Returns the first element in the array, or a default value if the array is empty.">getFirst</a>, <a class="el" href="classArray.html#abcdc6472b527f4b470ae705ed7fad38f" title="Returns the last element in the array, or a default value if the array is empty.">getLast</a> </dd></dl>
+
+<p>Referenced by <a class="el" href="classSortedSet.html#a861274cee3723b88dc742aef24ba65d5">SortedSet&lt; ActionListener * &gt;::add()</a>, <a class="el" href="classSortedSet.html#aee801e5bbc1d6fc894156e102237ca14">SortedSet&lt; ActionListener * &gt;::getReference()</a>, <a class="el" href="classSortedSet.html#ac51e0a933c5902a55f68ee8eef9cba00">SortedSet&lt; ActionListener * &gt;::indexOf()</a>, <a class="el" href="classSortedSet.html#a87ad10e1f49afe6fbcbf4170e84bf95e">SortedSet&lt; ActionListener * &gt;::removeValuesIn()</a>, and <a class="el" href="classSortedSet.html#a44266b927f68b51086f56a8732fd3190">SortedSet&lt; ActionListener * &gt;::removeValuesNotIn()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa428610d7f1bd9dd2de313b39403bd4f"></a>
+<a class="anchor" id="ae1884e2e59a1f2a7a2959a1f090da894"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">ElementType <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::getFirst </td>
+          <td class="memname">ElementType <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::getFirst </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -707,18 +711,20 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 </div><div class="memdoc">
 
 <p>Returns the first element in the array, or a default value if the array is empty. </p>
-<dl class="section see"><dt>See Also</dt><dd>operator[], <a class="el" href="classArray.html#a35cf8b22e29926f5206f72ceb4c44a91" title="Returns one of the elements in the array, without checking the index passed in.">getUnchecked</a>, <a class="el" href="classArray.html#adef4469c2868dbf4b22dc352cd179e4f" title="Returns the last element in the array, or a default value if the array is empty.">getLast</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd>operator[], <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379" title="Returns one of the elements in the array, without checking the index passed in.">getUnchecked</a>, <a class="el" href="classArray.html#abcdc6472b527f4b470ae705ed7fad38f" title="Returns the last element in the array, or a default value if the array is empty.">getLast</a> </dd></dl>
+
+<p>Referenced by <a class="el" href="classSortedSet.html#a44bdd0240e337b2f8197629aa1334230">SortedSet&lt; ActionListener * &gt;::getFirst()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="adef4469c2868dbf4b22dc352cd179e4f"></a>
+<a class="anchor" id="abcdc6472b527f4b470ae705ed7fad38f"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">ElementType <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::getLast </td>
+          <td class="memname">ElementType <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::getLast </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -727,23 +733,23 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 </div><div class="memdoc">
 
 <p>Returns the last element in the array, or a default value if the array is empty. </p>
-<dl class="section see"><dt>See Also</dt><dd>operator[], <a class="el" href="classArray.html#a35cf8b22e29926f5206f72ceb4c44a91" title="Returns one of the elements in the array, without checking the index passed in.">getUnchecked</a>, <a class="el" href="classArray.html#aa428610d7f1bd9dd2de313b39403bd4f" title="Returns the first element in the array, or a default value if the array is empty.">getFirst</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd>operator[], <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379" title="Returns one of the elements in the array, without checking the index passed in.">getUnchecked</a>, <a class="el" href="classArray.html#ae1884e2e59a1f2a7a2959a1f090da894" title="Returns the first element in the array, or a default value if the array is empty.">getFirst</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classSparseSet.html#a998d2921632e1135cf1983584d931181">SparseSet&lt; int &gt;::removeRange()</a>.</p>
+<p>Referenced by <a class="el" href="classSortedSet.html#a2289698c4c183d6554f99760c1348d02">SortedSet&lt; ActionListener * &gt;::getLast()</a>, and <a class="el" href="classSparseSet.html#a998d2921632e1135cf1983584d931181">SparseSet&lt; int &gt;::removeRange()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7e770ccbeaaa2cb7df437a36dd3e66d0"></a>
+<a class="anchor" id="a4c5c3e5ab20d17d6d5757e53773ba2ff"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ElementType* <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::getRawDataPointer </td>
+          <td class="memname">ElementType* <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::getRawDataPointer </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -761,17 +767,17 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 
 </div>
 </div>
-<a class="anchor" id="a4182e46c1d39d63998b75695adbe2dd7"></a>
+<a class="anchor" id="a5aeb6bdbca7a057c6fe483f2a9c89ef5"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ElementType* <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::begin </td>
+          <td class="memname">ElementType* <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -787,21 +793,21 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 <p>Returns a pointer to the first element in the array. </p>
 <p>This method is provided for compatibility with standard C++ iteration mechanisms. </p>
 
-<p>Referenced by <a class="el" href="classSelectedItemSet.html#a8820df35449af865aaecf107cad4a653">SelectedItemSet&lt; SelectableItemType &gt;::begin()</a>.</p>
+<p>Referenced by <a class="el" href="classSortedSet.html#a4546d1c39aca9b8105b1934c0546774b">SortedSet&lt; ActionListener * &gt;::begin()</a>, and <a class="el" href="classSelectedItemSet.html#a8820df35449af865aaecf107cad4a653">SelectedItemSet&lt; SelectableItemType &gt;::begin()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="af090405475e56a54d39f93a78e79ae19"></a>
+<a class="anchor" id="a4ec39fc8ed45a70eb82fca49c35c2088"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ElementType* <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::end </td>
+          <td class="memname">ElementType* <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -817,18 +823,18 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 <p>Returns a pointer to the element which follows the last element in the array. </p>
 <p>This method is provided for compatibility with standard C++ iteration mechanisms. </p>
 
-<p>Referenced by <a class="el" href="classSelectedItemSet.html#aea029db3e198aebd6a58a8e9ecd9b779">SelectedItemSet&lt; SelectableItemType &gt;::end()</a>.</p>
+<p>Referenced by <a class="el" href="classSortedSet.html#ac616e72c4fad8919f19b486320555326">SortedSet&lt; ActionListener * &gt;::end()</a>, and <a class="el" href="classSelectedItemSet.html#aea029db3e198aebd6a58a8e9ecd9b779">SelectedItemSet&lt; SelectableItemType &gt;::end()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a797a78ba08e023c46813902f98f8bee8"></a>
+<a class="anchor" id="af3e6b6c7c55897224b923bb4409b958a"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::indexOf </td>
+          <td class="memname">int <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::indexOf </td>
           <td>(</td>
           <td class="paramtype">ParameterType&#160;</td>
           <td class="paramname"><em>elementToLookFor</em></td><td>)</td>
@@ -851,14 +857,14 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 
 </div>
 </div>
-<a class="anchor" id="a5fce70ec38c3d7c200cf35a73429f61b"></a>
+<a class="anchor" id="a57f5f5977d81f1d54315732bc30b33ab"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::contains </td>
+          <td class="memname">bool <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::contains </td>
           <td>(</td>
           <td class="paramtype">ParameterType&#160;</td>
           <td class="paramname"><em>elementToLookFor</em></td><td>)</td>
@@ -876,18 +882,18 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the item is found </dd></dl>
 
-<p>Referenced by <a class="el" href="classArray.html#a66a7dd59118110a1fff8f346af478d4a">Array&lt; Glyph &gt;::addIfNotAlreadyThere()</a>, and <a class="el" href="classSelectedItemSet.html#a431e7bbc3d316e1822596563b49adc73">SelectedItemSet&lt; SelectableItemType &gt;::isSelected()</a>.</p>
+<p>Referenced by <a class="el" href="classArray.html#a408fa7ce72916f0fc65df67fbc9f8813">Array&lt; Glyph &gt;::addIfNotAlreadyThere()</a>, and <a class="el" href="classSelectedItemSet.html#a431e7bbc3d316e1822596563b49adc73">SelectedItemSet&lt; SelectableItemType &gt;::isSelected()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a561fa77f1c1b1333a0b0a4aa4bbe97e8"></a>
+<a class="anchor" id="a9104c74ba0822c3ea885ab762d7de462"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::add </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::add </td>
           <td>(</td>
           <td class="paramtype">ParameterType&#160;</td>
           <td class="paramname"><em>newElement</em></td><td>)</td>
@@ -903,20 +909,20 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a311e3be8a59826e972ec981e9d719ace" title="Replaces an element with a new value.">set</a>, <a class="el" href="classArray.html#a06ca3a23fb5cc785febb054ad806cd32" title="Inserts a new element into the array at a given position.">insert</a>, <a class="el" href="classArray.html#a66a7dd59118110a1fff8f346af478d4a" title="Appends a new element at the end of the array as long as the array doesn&#39;t already contain it...">addIfNotAlreadyThere</a>, <a class="el" href="classArray.html#ab827e9edc0da7c919fd0e49ff2e7af0e" title="Inserts a new element into the array, assuming that the array is sorted.">addSorted</a>, <a class="el" href="classArray.html#a98f0f3de328039fe3f9f194268805348" title="Inserts a new element into the array, assuming that the array is sorted.">addUsingDefaultSort</a>, <a class="el" href="classArray.html#a2a08583b99a5d56cba633211ac46cc95" title="Adds elements from an array to the end of this array.">addArray</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a2fb91e8ec10caa9474a28c88e35f9686" title="Replaces an element with a new value.">set</a>, <a class="el" href="classArray.html#aef96810c21931d9676c08cad82de45c7" title="Inserts a new element into the array at a given position.">insert</a>, <a class="el" href="classArray.html#a408fa7ce72916f0fc65df67fbc9f8813" title="Appends a new element at the end of the array as long as the array doesn&#39;t already contain it...">addIfNotAlreadyThere</a>, <a class="el" href="classArray.html#afc5417019f110034658b3c1c02af5a5e" title="Inserts a new element into the array, assuming that the array is sorted.">addSorted</a>, <a class="el" href="classArray.html#a88466744eccb48806b74defa442c843b" title="Inserts a new element into the array, assuming that the array is sorted.">addUsingDefaultSort</a>, <a class="el" href="classArray.html#a8dc309e3bf8d91c05a11199d70946132" title="Adds elements from an array to the end of this array.">addArray</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classArray.html#ae19e18c1a5d710d0640ee2925a739f5f">Array&lt; Glyph &gt;::addArray()</a>, <a class="el" href="classArray.html#a66a7dd59118110a1fff8f346af478d4a">Array&lt; Glyph &gt;::addIfNotAlreadyThere()</a>, <a class="el" href="classSelectedItemSet.html#a8ec6de21f75ccfa083cd702ab027f778">SelectedItemSet&lt; SelectableItemType &gt;::addToSelection()</a>, <a class="el" href="classArray.html#a625d96690c21e31ce4ee1308fe1ffe81">Array&lt; Glyph &gt;::Array()</a>, and <a class="el" href="classSelectedItemSet.html#a5c989a8cd1483b655b948aee86fb768c">SelectedItemSet&lt; SelectableItemType &gt;::selectOnly()</a>.</p>
+<p>Referenced by <a class="el" href="classArray.html#a75cce24a6741c2e36d4f87084005ba89">Array&lt; Glyph &gt;::addArray()</a>, <a class="el" href="classArray.html#a408fa7ce72916f0fc65df67fbc9f8813">Array&lt; Glyph &gt;::addIfNotAlreadyThere()</a>, <a class="el" href="classSelectedItemSet.html#a8ec6de21f75ccfa083cd702ab027f778">SelectedItemSet&lt; SelectableItemType &gt;::addToSelection()</a>, <a class="el" href="classArray.html#a6a1ecdfef773aa85351eb93bda32951b">Array&lt; Glyph &gt;::Array()</a>, and <a class="el" href="classSelectedItemSet.html#a5c989a8cd1483b655b948aee86fb768c">SelectedItemSet&lt; SelectableItemType &gt;::selectOnly()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a06ca3a23fb5cc785febb054ad806cd32"></a>
+<a class="anchor" id="aef96810c21931d9676c08cad82de45c7"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::insert </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::insert </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>indexToInsertAt</em>, </td>
@@ -944,20 +950,20 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a561fa77f1c1b1333a0b0a4aa4bbe97e8" title="Appends a new element at the end of the array.">add</a>, <a class="el" href="classArray.html#ab827e9edc0da7c919fd0e49ff2e7af0e" title="Inserts a new element into the array, assuming that the array is sorted.">addSorted</a>, <a class="el" href="classArray.html#a98f0f3de328039fe3f9f194268805348" title="Inserts a new element into the array, assuming that the array is sorted.">addUsingDefaultSort</a>, <a class="el" href="classArray.html#a311e3be8a59826e972ec981e9d719ace" title="Replaces an element with a new value.">set</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a9104c74ba0822c3ea885ab762d7de462" title="Appends a new element at the end of the array.">add</a>, <a class="el" href="classArray.html#afc5417019f110034658b3c1c02af5a5e" title="Inserts a new element into the array, assuming that the array is sorted.">addSorted</a>, <a class="el" href="classArray.html#a88466744eccb48806b74defa442c843b" title="Inserts a new element into the array, assuming that the array is sorted.">addUsingDefaultSort</a>, <a class="el" href="classArray.html#a2fb91e8ec10caa9474a28c88e35f9686" title="Replaces an element with a new value.">set</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classArray.html#ab827e9edc0da7c919fd0e49ff2e7af0e">Array&lt; Glyph &gt;::addSorted()</a>.</p>
+<p>Referenced by <a class="el" href="classSortedSet.html#a861274cee3723b88dc742aef24ba65d5">SortedSet&lt; ActionListener * &gt;::add()</a>, and <a class="el" href="classArray.html#afc5417019f110034658b3c1c02af5a5e">Array&lt; Glyph &gt;::addSorted()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a214123e46743df1830c33de5ec1c16e7"></a>
+<a class="anchor" id="a0cadf83bcfba696c6a4adc15f4e0a78f"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::insertMultiple </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::insertMultiple </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>indexToInsertAt</em>, </td>
@@ -992,20 +998,20 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a06ca3a23fb5cc785febb054ad806cd32" title="Inserts a new element into the array at a given position.">insert</a>, <a class="el" href="classArray.html#a561fa77f1c1b1333a0b0a4aa4bbe97e8" title="Appends a new element at the end of the array.">add</a>, <a class="el" href="classArray.html#ab827e9edc0da7c919fd0e49ff2e7af0e" title="Inserts a new element into the array, assuming that the array is sorted.">addSorted</a>, <a class="el" href="classArray.html#a311e3be8a59826e972ec981e9d719ace" title="Replaces an element with a new value.">set</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#aef96810c21931d9676c08cad82de45c7" title="Inserts a new element into the array at a given position.">insert</a>, <a class="el" href="classArray.html#a9104c74ba0822c3ea885ab762d7de462" title="Appends a new element at the end of the array.">add</a>, <a class="el" href="classArray.html#afc5417019f110034658b3c1c02af5a5e" title="Inserts a new element into the array, assuming that the array is sorted.">addSorted</a>, <a class="el" href="classArray.html#a2fb91e8ec10caa9474a28c88e35f9686" title="Replaces an element with a new value.">set</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classHashMap.html#a4e1e6302d9a96ed3baba8e00c9dad143">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::HashMap()</a>, and <a class="el" href="classArray.html#a9f74d12a28cc9ac953013242eb1fafe6">Array&lt; Glyph &gt;::resize()</a>.</p>
+<p>Referenced by <a class="el" href="classHashMap.html#a4e1e6302d9a96ed3baba8e00c9dad143">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::HashMap()</a>, and <a class="el" href="classArray.html#aeee604745ed7157e6b14e8b54a27634f">Array&lt; Glyph &gt;::resize()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="afa66359a31f0c05315bf27e1819ace0f"></a>
+<a class="anchor" id="acb0477221ce1538611a9fcd84028b387"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::insertArray </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::insertArray </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>indexToInsertAt</em>, </td>
@@ -1040,18 +1046,18 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a06ca3a23fb5cc785febb054ad806cd32" title="Inserts a new element into the array at a given position.">insert</a>, <a class="el" href="classArray.html#a561fa77f1c1b1333a0b0a4aa4bbe97e8" title="Appends a new element at the end of the array.">add</a>, <a class="el" href="classArray.html#ab827e9edc0da7c919fd0e49ff2e7af0e" title="Inserts a new element into the array, assuming that the array is sorted.">addSorted</a>, <a class="el" href="classArray.html#a311e3be8a59826e972ec981e9d719ace" title="Replaces an element with a new value.">set</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#aef96810c21931d9676c08cad82de45c7" title="Inserts a new element into the array at a given position.">insert</a>, <a class="el" href="classArray.html#a9104c74ba0822c3ea885ab762d7de462" title="Appends a new element at the end of the array.">add</a>, <a class="el" href="classArray.html#afc5417019f110034658b3c1c02af5a5e" title="Inserts a new element into the array, assuming that the array is sorted.">addSorted</a>, <a class="el" href="classArray.html#a2fb91e8ec10caa9474a28c88e35f9686" title="Replaces an element with a new value.">set</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a66a7dd59118110a1fff8f346af478d4a"></a>
+<a class="anchor" id="a408fa7ce72916f0fc65df67fbc9f8813"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::addIfNotAlreadyThere </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::addIfNotAlreadyThere </td>
           <td>(</td>
           <td class="paramtype">ParameterType&#160;</td>
           <td class="paramname"><em>newElement</em></td><td>)</td>
@@ -1071,14 +1077,14 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 
 </div>
 </div>
-<a class="anchor" id="a311e3be8a59826e972ec981e9d719ace"></a>
+<a class="anchor" id="a2fb91e8ec10caa9474a28c88e35f9686"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::set </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::set </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>indexToChange</em>, </td>
@@ -1106,20 +1112,20 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a561fa77f1c1b1333a0b0a4aa4bbe97e8" title="Appends a new element at the end of the array.">add</a>, <a class="el" href="classArray.html#a06ca3a23fb5cc785febb054ad806cd32" title="Inserts a new element into the array at a given position.">insert</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a9104c74ba0822c3ea885ab762d7de462" title="Appends a new element at the end of the array.">add</a>, <a class="el" href="classArray.html#aef96810c21931d9676c08cad82de45c7" title="Inserts a new element into the array at a given position.">insert</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classHashMap.html#a5c05298ac37d90e8ae6b944cf9ef90a7">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::clear()</a>, <a class="el" href="classHashMap.html#a9a2ced849c2687f6bf93c8e311d23b32">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::remove()</a>, <a class="el" href="classHashMap.html#a69fffa7da6512b84a990d471600c5c3e">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::removeValue()</a>, and <a class="el" href="classHashMap.html#a0eef18aeb766505db7721b895ecd5654">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::set()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a0a6a1de585acb2d4c63a5b3b18a6530e"></a>
+<a class="anchor" id="a8fb9db1598de3bcf85754ff2169dd7eb"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::setUnchecked </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::setUnchecked </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>indexToChange</em>, </td>
@@ -1147,18 +1153,18 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a311e3be8a59826e972ec981e9d719ace" title="Replaces an element with a new value.">set</a>, <a class="el" href="classArray.html#a35cf8b22e29926f5206f72ceb4c44a91" title="Returns one of the elements in the array, without checking the index passed in.">getUnchecked</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a2fb91e8ec10caa9474a28c88e35f9686" title="Replaces an element with a new value.">set</a>, <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379" title="Returns one of the elements in the array, without checking the index passed in.">getUnchecked</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a2a08583b99a5d56cba633211ac46cc95"></a>
+<a class="anchor" id="a8dc309e3bf8d91c05a11199d70946132"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::addArray </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::addArray </td>
           <td>(</td>
           <td class="paramtype">const ElementType *&#160;</td>
           <td class="paramname"><em>elementsToAdd</em>, </td>
@@ -1185,25 +1191,25 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a561fa77f1c1b1333a0b0a4aa4bbe97e8" title="Appends a new element at the end of the array.">add</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a9104c74ba0822c3ea885ab762d7de462" title="Appends a new element at the end of the array.">add</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classLassoComponent.html#a4aca7f9f28ecef2834bfabe648ba6959">LassoComponent&lt; SelectableItemType &gt;::dragLasso()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a12532b278db4e9889d38d24f9d0f9720"></a>
+<a class="anchor" id="af2d409a47639a922eda981fe7def9c2f"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::swapWithArray </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::swapWithArray </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt; &amp;&#160;</td>
           <td class="paramname"><em>otherArray</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1218,20 +1224,20 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 <p>This swaps the contents of this array with those of another array. </p>
 <p>If you need to exchange two arrays, this is vastly quicker than using copy-by-value because it just swaps their internal pointers. </p>
 
-<p>Referenced by <a class="el" href="classArray.html#a2bdf7874aec427a12c98073f14ca47a2">Array&lt; Glyph &gt;::operator=()</a>, and <a class="el" href="classHashMap.html#a6d47bc560004a8f525484f94dd8796ca">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::swapWith()</a>.</p>
+<p>Referenced by <a class="el" href="classArray.html#ae6f46b7a7bee66e0ab05dd83dca4e79d">Array&lt; Glyph &gt;::operator=()</a>, <a class="el" href="classHashMap.html#a6d47bc560004a8f525484f94dd8796ca">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::swapWith()</a>, and <a class="el" href="classSortedSet.html#a99e7648112d5120fd5954c10b6870a26">SortedSet&lt; ActionListener * &gt;::swapWith()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae19e18c1a5d710d0640ee2925a739f5f"></a>
+<a class="anchor" id="a75cce24a6741c2e36d4f87084005ba89"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <div class="memtemplate">
 template&lt;class OtherArrayType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::addArray </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::addArray </td>
           <td>(</td>
           <td class="paramtype">const OtherArrayType &amp;&#160;</td>
           <td class="paramname"><em>arrayToAddFrom</em>, </td>
@@ -1265,18 +1271,18 @@ template&lt;class OtherArrayType &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a561fa77f1c1b1333a0b0a4aa4bbe97e8" title="Appends a new element at the end of the array.">add</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a9104c74ba0822c3ea885ab762d7de462" title="Appends a new element at the end of the array.">add</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a9f74d12a28cc9ac953013242eb1fafe6"></a>
+<a class="anchor" id="aeee604745ed7157e6b14e8b54a27634f"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::resize </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::resize </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>targetNumItems</em></td><td>)</td>
@@ -1290,16 +1296,16 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 
 </div>
 </div>
-<a class="anchor" id="ab827e9edc0da7c919fd0e49ff2e7af0e"></a>
+<a class="anchor" id="afc5417019f110034658b3c1c02af5a5e"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <div class="memtemplate">
 template&lt;class ElementComparator &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::addSorted </td>
+          <td class="memname">int <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::addSorted </td>
           <td>(</td>
           <td class="paramtype">ElementComparator &amp;&#160;</td>
           <td class="paramname"><em>comparator</em>, </td>
@@ -1322,26 +1328,26 @@ template&lt;class ElementComparator &gt; </div>
 <p>This will use a comparator to find the position at which the new element should go. If the array isn't sorted, the behaviour of this method will be unpredictable.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">comparator</td><td>the comparator to use to compare the elements - see the <a class="el" href="classArray.html#ac1dca4ab2895315dd85e25eaca2fcab1" title="Sorts the elements in the array.">sort()</a> method for details about the form this object should take </td></tr>
+    <tr><td class="paramname">comparator</td><td>the comparator to use to compare the elements - see the <a class="el" href="classArray.html#a13366b4435364fcd0d304cdcaebd726a" title="Sorts the elements in the array.">sort()</a> method for details about the form this object should take </td></tr>
     <tr><td class="paramname">newElement</td><td>the new element to insert to the array </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the index at which the new item was added </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a98f0f3de328039fe3f9f194268805348" title="Inserts a new element into the array, assuming that the array is sorted.">addUsingDefaultSort</a>, <a class="el" href="classArray.html#a561fa77f1c1b1333a0b0a4aa4bbe97e8" title="Appends a new element at the end of the array.">add</a>, <a class="el" href="classArray.html#ac1dca4ab2895315dd85e25eaca2fcab1" title="Sorts the elements in the array.">sort</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a88466744eccb48806b74defa442c843b" title="Inserts a new element into the array, assuming that the array is sorted.">addUsingDefaultSort</a>, <a class="el" href="classArray.html#a9104c74ba0822c3ea885ab762d7de462" title="Appends a new element at the end of the array.">add</a>, <a class="el" href="classArray.html#a13366b4435364fcd0d304cdcaebd726a" title="Sorts the elements in the array.">sort</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classArray.html#a98f0f3de328039fe3f9f194268805348">Array&lt; Glyph &gt;::addUsingDefaultSort()</a>.</p>
+<p>Referenced by <a class="el" href="classArray.html#a88466744eccb48806b74defa442c843b">Array&lt; Glyph &gt;::addUsingDefaultSort()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a98f0f3de328039fe3f9f194268805348"></a>
+<a class="anchor" id="a88466744eccb48806b74defa442c843b"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::addUsingDefaultSort </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::addUsingDefaultSort </td>
           <td>(</td>
           <td class="paramtype">ParameterType&#160;</td>
           <td class="paramname"><em>newElement</em></td><td>)</td>
@@ -1358,22 +1364,22 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#ab827e9edc0da7c919fd0e49ff2e7af0e" title="Inserts a new element into the array, assuming that the array is sorted.">addSorted</a>, <a class="el" href="classArray.html#ac1dca4ab2895315dd85e25eaca2fcab1" title="Sorts the elements in the array.">sort</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#afc5417019f110034658b3c1c02af5a5e" title="Inserts a new element into the array, assuming that the array is sorted.">addSorted</a>, <a class="el" href="classArray.html#a13366b4435364fcd0d304cdcaebd726a" title="Sorts the elements in the array.">sort</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classSparseSet.html#a2f2756296a624525b12e600bb4a5611d">SparseSet&lt; int &gt;::addRange()</a>, and <a class="el" href="classSparseSet.html#a998d2921632e1135cf1983584d931181">SparseSet&lt; int &gt;::removeRange()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab0981b8908f562462cd4e31590f10159"></a>
+<a class="anchor" id="ad3faadfb7b8eb05350afb1c9dd951ff5"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <div class="memtemplate">
 template&lt;typename ElementComparator , typename TargetValueType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::indexOfSorted </td>
+          <td class="memname">int <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::indexOfSorted </td>
           <td>(</td>
           <td class="paramtype">ElementComparator &amp;&#160;</td>
           <td class="paramname"><em>comparator</em>, </td>
@@ -1396,24 +1402,24 @@ template&lt;typename ElementComparator , typename TargetValueType &gt; </div>
 <p>This will use a comparator to do a binary-chop to find the index of the given element, if it exists. If the array isn't sorted, the behaviour of this method will be unpredictable.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">comparator</td><td>the comparator to use to compare the elements - see the <a class="el" href="classArray.html#ac1dca4ab2895315dd85e25eaca2fcab1" title="Sorts the elements in the array.">sort()</a> method for details about the form this object should take </td></tr>
+    <tr><td class="paramname">comparator</td><td>the comparator to use to compare the elements - see the <a class="el" href="classArray.html#a13366b4435364fcd0d304cdcaebd726a" title="Sorts the elements in the array.">sort()</a> method for details about the form this object should take </td></tr>
     <tr><td class="paramname">elementToLookFor</td><td>the element to search for </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the index of the element, or -1 if it's not found </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#ab827e9edc0da7c919fd0e49ff2e7af0e" title="Inserts a new element into the array, assuming that the array is sorted.">addSorted</a>, <a class="el" href="classArray.html#ac1dca4ab2895315dd85e25eaca2fcab1" title="Sorts the elements in the array.">sort</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#afc5417019f110034658b3c1c02af5a5e" title="Inserts a new element into the array, assuming that the array is sorted.">addSorted</a>, <a class="el" href="classArray.html#a13366b4435364fcd0d304cdcaebd726a" title="Sorts the elements in the array.">sort</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ae4b625b7ef05f179b051845debaf8462"></a>
+<a class="anchor" id="af36ad6bf7849a3a3557a5457458701d0"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">ElementType <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::remove </td>
+          <td class="memname">ElementType <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::remove </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>indexToRemove</em></td><td>)</td>
@@ -1431,20 +1437,20 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the element that has been removed </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd>removeValue, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd>removeValue, <a class="el" href="classArray.html#ae9f26706cc40ce178424b2b4ba1f9647" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classSelectedItemSet.html#a657dd4d8aa7604f795c0d0d3962b410c">SelectedItemSet&lt; SelectableItemType &gt;::deselect()</a>, <a class="el" href="classSelectedItemSet.html#a2d8c179287d5afa7e4ef0318ce779813">SelectedItemSet&lt; SelectableItemType &gt;::deselectAll()</a>, and <a class="el" href="classSparseSet.html#a998d2921632e1135cf1983584d931181">SparseSet&lt; int &gt;::removeRange()</a>.</p>
+<p>Referenced by <a class="el" href="classSelectedItemSet.html#a657dd4d8aa7604f795c0d0d3962b410c">SelectedItemSet&lt; SelectableItemType &gt;::deselect()</a>, <a class="el" href="classSelectedItemSet.html#a2d8c179287d5afa7e4ef0318ce779813">SelectedItemSet&lt; SelectableItemType &gt;::deselectAll()</a>, <a class="el" href="classSortedSet.html#a86602918644c684fd72d239980a83d84">SortedSet&lt; ActionListener * &gt;::remove()</a>, <a class="el" href="classSparseSet.html#a998d2921632e1135cf1983584d931181">SparseSet&lt; int &gt;::removeRange()</a>, and <a class="el" href="classSortedSet.html#a21b0da9c6e547485feecc3b91d28164c">SortedSet&lt; ActionListener * &gt;::removeValue()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab86840694333856573dc2383175b5caa"></a>
+<a class="anchor" id="adb629ebfbcba98f1f5e1ca47ccca594e"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::removeFirstMatchingValue </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::removeFirstMatchingValue </td>
           <td>(</td>
           <td class="paramtype">ParameterType&#160;</td>
           <td class="paramname"><em>valueToRemove</em></td><td>)</td>
@@ -1461,18 +1467,18 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462" title="Removes an element from the array.">remove</a>, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#af36ad6bf7849a3a3557a5457458701d0" title="Removes an element from the array.">remove</a>, <a class="el" href="classArray.html#ae9f26706cc40ce178424b2b4ba1f9647" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ac00a09169231ebd084267105b7fc85e1"></a>
+<a class="anchor" id="a2023eddb4bd8a3e0df96ab789ef139ce"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::removeAllInstancesOf </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::removeAllInstancesOf </td>
           <td>(</td>
           <td class="paramtype">ParameterType&#160;</td>
           <td class="paramname"><em>valueToRemove</em></td><td>)</td>
@@ -1489,18 +1495,18 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462" title="Removes an element from the array.">remove</a>, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#af36ad6bf7849a3a3557a5457458701d0" title="Removes an element from the array.">remove</a>, <a class="el" href="classArray.html#ae9f26706cc40ce178424b2b4ba1f9647" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a76aff614d2a99bbeffbc7234f61da108"></a>
+<a class="anchor" id="ae9f26706cc40ce178424b2b4ba1f9647"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::removeRange </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::removeRange </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>startIndex</em>, </td>
@@ -1529,20 +1535,20 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462" title="Removes an element from the array.">remove</a>, removeValue </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#af36ad6bf7849a3a3557a5457458701d0" title="Removes an element from the array.">remove</a>, removeValue </dd></dl>
 
-<p>Referenced by <a class="el" href="classArray.html#a9f74d12a28cc9ac953013242eb1fafe6">Array&lt; Glyph &gt;::resize()</a>.</p>
+<p>Referenced by <a class="el" href="classArray.html#aeee604745ed7157e6b14e8b54a27634f">Array&lt; Glyph &gt;::resize()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6fa7c7c47f86781b474e222656fbb23a"></a>
+<a class="anchor" id="af6fe3614e877f04a42330f440a5548da"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::removeLast </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::removeLast </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>howManyToRemove</em> = <code>1</code></td><td>)</td>
@@ -1558,20 +1564,20 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462" title="Removes an element from the array.">remove</a>, removeValue, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#af36ad6bf7849a3a3557a5457458701d0" title="Removes an element from the array.">remove</a>, removeValue, <a class="el" href="classArray.html#ae9f26706cc40ce178424b2b4ba1f9647" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ab1aac8e57e79c1426763bba43151dfb7"></a>
+<a class="anchor" id="a1474eae027a73758ca12734001ec9da0"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <div class="memtemplate">
 template&lt;class OtherArrayType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::removeValuesIn </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::removeValuesIn </td>
           <td>(</td>
           <td class="paramtype">const OtherArrayType &amp;&#160;</td>
           <td class="paramname"><em>otherArray</em></td><td>)</td>
@@ -1587,22 +1593,22 @@ template&lt;class OtherArrayType &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a8e32b0f434c970c4275f28c68d2b3f10" title="Removes any elements which are not found in another array.">removeValuesNotIn</a>, <a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462" title="Removes an element from the array.">remove</a>, removeValue, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#af3d9c435c3cddb0de674306b809430e3" title="Removes any elements which are not found in another array.">removeValuesNotIn</a>, <a class="el" href="classArray.html#af36ad6bf7849a3a3557a5457458701d0" title="Removes an element from the array.">remove</a>, removeValue, <a class="el" href="classArray.html#ae9f26706cc40ce178424b2b4ba1f9647" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classLassoComponent.html#a4aca7f9f28ecef2834bfabe648ba6959">LassoComponent&lt; SelectableItemType &gt;::dragLasso()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8e32b0f434c970c4275f28c68d2b3f10"></a>
+<a class="anchor" id="af3d9c435c3cddb0de674306b809430e3"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <div class="memtemplate">
 template&lt;class OtherArrayType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::removeValuesNotIn </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::removeValuesNotIn </td>
           <td>(</td>
           <td class="paramtype">const OtherArrayType &amp;&#160;</td>
           <td class="paramname"><em>otherArray</em></td><td>)</td>
@@ -1619,18 +1625,18 @@ template&lt;class OtherArrayType &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#ab1aac8e57e79c1426763bba43151dfb7" title="Removes any elements which are also in another array.">removeValuesIn</a>, <a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462" title="Removes an element from the array.">remove</a>, removeValue, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a1474eae027a73758ca12734001ec9da0" title="Removes any elements which are also in another array.">removeValuesIn</a>, <a class="el" href="classArray.html#af36ad6bf7849a3a3557a5457458701d0" title="Removes an element from the array.">remove</a>, removeValue, <a class="el" href="classArray.html#ae9f26706cc40ce178424b2b4ba1f9647" title="Removes a range of elements from the array.">removeRange</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="aa719aa8439aab1cb265845002c8e3322"></a>
+<a class="anchor" id="ae686a3e14b9134ddae4b6bd6088350e5"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::swap </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::swap </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>index1</em>, </td>
@@ -1661,17 +1667,17 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 
 </div>
 </div>
-<a class="anchor" id="a7d9614d4db53e48145f63e099d608bcc"></a>
+<a class="anchor" id="aed7d9992d0e88297d4d92487205436e2"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::move </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::move </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>currentIndex</em>, </td>
@@ -1708,14 +1714,14 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 
 </div>
 </div>
-<a class="anchor" id="a21753e1704c1a8a5028ce0fd5d166e6d"></a>
+<a class="anchor" id="a0773349e71721e177ee12c8ffd20b5d8"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::minimiseStorageOverheads </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::minimiseStorageOverheads </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1726,16 +1732,18 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 <p>Reduces the amount of storage being used by the array. </p>
 <p>Arrays typically allocate slightly more storage than they need, and after removing elements, they may have quite a lot of unused space allocated. This method will reduce the amount of allocated storage to a minimum. </p>
 
+<p>Referenced by <a class="el" href="classSortedSet.html#a259f41879ab086bde96eb90bbe9c4cd8">SortedSet&lt; ActionListener * &gt;::minimiseStorageOverheads()</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="a9ea4982f49ac5ec83e967c82de49edbf"></a>
+<a class="anchor" id="a43d61929a72c859191859f02e35d2058"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::ensureStorageAllocated </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::ensureStorageAllocated </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>minNumElements</em></td><td>)</td>
@@ -1747,18 +1755,20 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 <p>Increases the array's internal storage to hold a minimum number of elements. </p>
 <p>Calling this before adding a large known number of elements means that the array won't have to keep dynamically resizing itself as the elements are added, and it'll therefore be more efficient. </p>
 
+<p>Referenced by <a class="el" href="classSortedSet.html#a8104c54b46a0ffbe8f54395f5cf44b72">SortedSet&lt; ActionListener * &gt;::ensureStorageAllocated()</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="ac1dca4ab2895315dd85e25eaca2fcab1"></a>
+<a class="anchor" id="a13366b4435364fcd0d304cdcaebd726a"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <div class="memtemplate">
 template&lt;class ElementComparator &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::sort </td>
+          <td class="memname">void <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::sort </td>
           <td>(</td>
           <td class="paramtype">ElementComparator &amp;&#160;</td>
           <td class="paramname"><em>comparator</em>, </td>
@@ -1794,21 +1804,21 @@ template&lt;class ElementComparator &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#ab827e9edc0da7c919fd0e49ff2e7af0e" title="Inserts a new element into the array, assuming that the array is sorted.">addSorted</a>, <a class="el" href="classArray.html#ab0981b8908f562462cd4e31590f10159" title="Finds the index of an element in the array, assuming that the array is sorted.">indexOfSorted</a>, sortArray </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#afc5417019f110034658b3c1c02af5a5e" title="Inserts a new element into the array, assuming that the array is sorted.">addSorted</a>, <a class="el" href="classArray.html#ad3faadfb7b8eb05350afb1c9dd951ff5" title="Finds the index of an element in the array, assuming that the array is sorted.">indexOfSorted</a>, sortArray </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a5bccac2768da58b06ce691cde2b52b88"></a>
+<a class="anchor" id="a37f02f5c6eedcc9bd661069e1b991bb1"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>&amp; <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::getLock </td>
+          <td class="memname">const <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>&amp; <a class="el" href="classArray.html">Array</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>, minimumAllocatedSize &gt;::getLock </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1821,10 +1831,10 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 </table>
 </div><div class="memdoc">
 
-<p>Returns the <a class="el" href="classCriticalSection.html" title="A mutex class.">CriticalSection</a> that locks this array. </p>
-<p>To lock, you can call <a class="el" href="classArray.html#a5bccac2768da58b06ce691cde2b52b88" title="Returns the CriticalSection that locks this array.">getLock()</a>.enter() and <a class="el" href="classArray.html#a5bccac2768da58b06ce691cde2b52b88" title="Returns the CriticalSection that locks this array.">getLock()</a>.exit(), or preferably use an object of ScopedLockType as an RAII lock for it. </p>
+<p>Returns the <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> that locks this array. </p>
+<p>To lock, you can call <a class="el" href="classArray.html#a37f02f5c6eedcc9bd661069e1b991bb1" title="Returns the CriticalSection that locks this array.">getLock()</a>.enter() and <a class="el" href="classArray.html#a37f02f5c6eedcc9bd661069e1b991bb1" title="Returns the CriticalSection that locks this array.">getLock()</a>.exit(), or preferably use an object of ScopedLockType as an RAII lock for it. </p>
 
-<p>Referenced by <a class="el" href="classArray.html#a561fa77f1c1b1333a0b0a4aa4bbe97e8">Array&lt; Glyph &gt;::add()</a>, <a class="el" href="classArray.html#a2a08583b99a5d56cba633211ac46cc95">Array&lt; Glyph &gt;::addArray()</a>, <a class="el" href="classArray.html#a66a7dd59118110a1fff8f346af478d4a">Array&lt; Glyph &gt;::addIfNotAlreadyThere()</a>, <a class="el" href="classArray.html#ab827e9edc0da7c919fd0e49ff2e7af0e">Array&lt; Glyph &gt;::addSorted()</a>, <a class="el" href="classArray.html#ae603294033a54425cb6533893c8ea51c">Array&lt; Glyph &gt;::Array()</a>, <a class="el" href="classArray.html#a6bd7485bde05c4218a26d4f98b3ffca2">Array&lt; Glyph &gt;::clear()</a>, <a class="el" href="classArray.html#ab7f0aefd80fc3a88310ac9931bafd8e8">Array&lt; Glyph &gt;::clearQuick()</a>, <a class="el" href="classArray.html#a5fce70ec38c3d7c200cf35a73429f61b">Array&lt; Glyph &gt;::contains()</a>, <a class="el" href="classArray.html#a9ea4982f49ac5ec83e967c82de49edbf">Array&lt; Glyph &gt;::ensureStorageAllocated()</a>, <a class="el" href="classArray.html#aa428610d7f1bd9dd2de313b39403bd4f">Array&lt; Glyph &gt;::getFirst()</a>, <a class="el" href="classArray.html#adef4469c2868dbf4b22dc352cd179e4f">Array&lt; Glyph &gt;::getLast()</a>, <a class="el" href="classArray.html#aa45cd743a3659e71331730efe9967fdc">Array&lt; Glyph &gt;::getReference()</a>, <a class="el" href="classArray.html#a35cf8b22e29926f5206f72ceb4c44a91">Array&lt; Glyph &gt;::getUnchecked()</a>, <a class="el" href="classArray.html#a797a78ba08e023c46813902f98f8bee8">Array&lt; Glyph &gt;::indexOf()</a>, <a class="el" href="classArray.html#ab0981b8908f562462cd4e31590f10159">Array&lt; Glyph &gt;::indexOfSorted()</a>, <a class="el" href="classArray.html#a06ca3a23fb5cc785febb054ad806cd32">Array&lt; Glyph &gt;::insert()</a>, <a class="el" href="classArray.html#afa66359a31f0c05315bf27e1819ace0f">Array&lt; Glyph &gt;::insertArray()</a>, <a class="el" href="classArray.html#a214123e46743df1830c33de5ec1c16e7">Array&lt; Glyph &gt;::insertMultiple()</a>, <a class="el" href="classArray.html#a21753e1704c1a8a5028ce0fd5d166e6d">Array&lt; Glyph &gt;::minimiseStorageOverheads()</a>, <a class="el" href="classArray.html#a7d9614d4db53e48145f63e099d608bcc">Array&lt; Glyph &gt;::move()</a>, <a class="el" href="classArray.html#a66b0bb233d3c2791c51a7652fd0bf2f2">Array&lt; Glyph &gt;::operator==()</a>, <a class="el" href="classArray.html#a2b9999cb713e0c71f7dbb430a9361948">Array&lt; Glyph &gt;::operator[]()</a>, <a class="el" href="classArray.html#ae4b625b7ef05f179b051845debaf8462">Array&lt; Glyph &gt;::remove()</a>, <a class="el" href="classArray.html#ac00a09169231ebd084267105b7fc85e1">Array&lt; Glyph &gt;::removeAllInstancesOf()</a>, <a class="el" href="classArray.html#ab86840694333856573dc2383175b5caa">Array&lt; Glyph &gt;::removeFirstMatchingValue()</a>, <a class="el" href="classArray.html#a6fa7c7c47f86781b474e222656fbb23a">Array&lt; Glyph &gt;::removeLast()</a>, <a class="el" href="classArray.html#a76aff614d2a99bbeffbc7234f61da108">Array&lt; Glyph &gt;::removeRange()</a>, <a class="el" href="classArray.html#ab1aac8e57e79c1426763bba43151dfb7">Array&lt; Glyph &gt;::removeValuesIn()</a>, <a class="el" href="classArray.html#a8e32b0f434c970c4275f28c68d2b3f10">Array&lt; Glyph &gt;::removeValuesNotIn()</a>, <a class="el" href="classArray.html#a311e3be8a59826e972ec981e9d719ace">Array&lt; Glyph &gt;::set()</a>, <a class="el" href="classArray.html#a0a6a1de585acb2d4c63a5b3b18a6530e">Array&lt; Glyph &gt;::setUnchecked()</a>, <a class="el" href="classArray.html#ac1dca4ab2895315dd85e25eaca2fcab1">Array&lt; Glyph &gt;::sort()</a>, <a class="el" href="classArray.html#aa719aa8439aab1cb265845002c8e3322">Array&lt; Glyph &gt;::swap()</a>, and <a class="el" href="classArray.html#a12532b278db4e9889d38d24f9d0f9720">Array&lt; Glyph &gt;::swapWithArray()</a>.</p>
+<p>Referenced by <a class="el" href="classArray.html#a9104c74ba0822c3ea885ab762d7de462">Array&lt; Glyph &gt;::add()</a>, <a class="el" href="classArray.html#a8dc309e3bf8d91c05a11199d70946132">Array&lt; Glyph &gt;::addArray()</a>, <a class="el" href="classArray.html#a408fa7ce72916f0fc65df67fbc9f8813">Array&lt; Glyph &gt;::addIfNotAlreadyThere()</a>, <a class="el" href="classArray.html#afc5417019f110034658b3c1c02af5a5e">Array&lt; Glyph &gt;::addSorted()</a>, <a class="el" href="classArray.html#a738abff2826095c6f95ffa9e1e2a04bc">Array&lt; Glyph &gt;::Array()</a>, <a class="el" href="classArray.html#a86dc5fe378bb99b85beb8ab86c279654">Array&lt; Glyph &gt;::clear()</a>, <a class="el" href="classArray.html#a96bcb7013ec2d56da8b918da7fc0809c">Array&lt; Glyph &gt;::clearQuick()</a>, <a class="el" href="classArray.html#a57f5f5977d81f1d54315732bc30b33ab">Array&lt; Glyph &gt;::contains()</a>, <a class="el" href="classArray.html#a43d61929a72c859191859f02e35d2058">Array&lt; Glyph &gt;::ensureStorageAllocated()</a>, <a class="el" href="classArray.html#ae1884e2e59a1f2a7a2959a1f090da894">Array&lt; Glyph &gt;::getFirst()</a>, <a class="el" href="classArray.html#abcdc6472b527f4b470ae705ed7fad38f">Array&lt; Glyph &gt;::getLast()</a>, <a class="el" href="classSortedSet.html#a5a0b04e366f0a1faa768d05e400208ca">SortedSet&lt; ActionListener * &gt;::getLock()</a>, <a class="el" href="classArray.html#ac1cb5babc0950eb9897812b221695b3c">Array&lt; Glyph &gt;::getReference()</a>, <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; Glyph &gt;::getUnchecked()</a>, <a class="el" href="classSortedSet.html#ac51e0a933c5902a55f68ee8eef9cba00">SortedSet&lt; ActionListener * &gt;::indexOf()</a>, <a class="el" href="classArray.html#af3e6b6c7c55897224b923bb4409b958a">Array&lt; Glyph &gt;::indexOf()</a>, <a class="el" href="classArray.html#ad3faadfb7b8eb05350afb1c9dd951ff5">Array&lt; Glyph &gt;::indexOfSorted()</a>, <a class="el" href="classArray.html#aef96810c21931d9676c08cad82de45c7">Array&lt; Glyph &gt;::insert()</a>, <a class="el" href="classArray.html#acb0477221ce1538611a9fcd84028b387">Array&lt; Glyph &gt;::insertArray()</a>, <a class="el" href="classArray.html#a0cadf83bcfba696c6a4adc15f4e0a78f">Array&lt; Glyph &gt;::insertMultiple()</a>, <a class="el" href="classArray.html#a0773349e71721e177ee12c8ffd20b5d8">Array&lt; Glyph &gt;::minimiseStorageOverheads()</a>, <a class="el" href="classArray.html#aed7d9992d0e88297d4d92487205436e2">Array&lt; Glyph &gt;::move()</a>, <a class="el" href="classArray.html#abe323c4e118f22cd1d09c2557a74c3d5">Array&lt; Glyph &gt;::operator==()</a>, <a class="el" href="classArray.html#a9e369f019d7ba8f7587bcab1906e4087">Array&lt; Glyph &gt;::operator[]()</a>, <a class="el" href="classArray.html#af36ad6bf7849a3a3557a5457458701d0">Array&lt; Glyph &gt;::remove()</a>, <a class="el" href="classArray.html#a2023eddb4bd8a3e0df96ab789ef139ce">Array&lt; Glyph &gt;::removeAllInstancesOf()</a>, <a class="el" href="classArray.html#adb629ebfbcba98f1f5e1ca47ccca594e">Array&lt; Glyph &gt;::removeFirstMatchingValue()</a>, <a class="el" href="classArray.html#af6fe3614e877f04a42330f440a5548da">Array&lt; Glyph &gt;::removeLast()</a>, <a class="el" href="classArray.html#ae9f26706cc40ce178424b2b4ba1f9647">Array&lt; Glyph &gt;::removeRange()</a>, <a class="el" href="classArray.html#a1474eae027a73758ca12734001ec9da0">Array&lt; Glyph &gt;::removeValuesIn()</a>, <a class="el" href="classArray.html#af3d9c435c3cddb0de674306b809430e3">Array&lt; Glyph &gt;::removeValuesNotIn()</a>, <a class="el" href="classArray.html#a2fb91e8ec10caa9474a28c88e35f9686">Array&lt; Glyph &gt;::set()</a>, <a class="el" href="classArray.html#a8fb9db1598de3bcf85754ff2169dd7eb">Array&lt; Glyph &gt;::setUnchecked()</a>, <a class="el" href="classArray.html#a13366b4435364fcd0d304cdcaebd726a">Array&lt; Glyph &gt;::sort()</a>, <a class="el" href="classArray.html#ae686a3e14b9134ddae4b6bd6088350e5">Array&lt; Glyph &gt;::swap()</a>, and <a class="el" href="classArray.html#af2d409a47639a922eda981fe7def9c2f">Array&lt; Glyph &gt;::swapWithArray()</a>.</p>
 
 </div>
 </div>
