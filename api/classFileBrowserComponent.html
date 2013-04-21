@@ -106,7 +106,8 @@ Public Types</h2></td></tr>
 <br/>
 &#160;&#160;<a class="el" href="classFileBrowserComponent.html#a32888a950cc0e51c8e1350f53bea43d6a0eacc483cb1561acdce859beed28364f">canSelectMultipleItems</a> = 16, 
 <a class="el" href="classFileBrowserComponent.html#a32888a950cc0e51c8e1350f53bea43d6ab8a34263300c3e493f2a00deee6fc933">useTreeView</a> = 32, 
-<a class="el" href="classFileBrowserComponent.html#a32888a950cc0e51c8e1350f53bea43d6ab3724f30e884acc493ed9cb6bd064971">filenameBoxIsReadOnly</a> = 64
+<a class="el" href="classFileBrowserComponent.html#a32888a950cc0e51c8e1350f53bea43d6ab3724f30e884acc493ed9cb6bd064971">filenameBoxIsReadOnly</a> = 64, 
+<a class="el" href="classFileBrowserComponent.html#a32888a950cc0e51c8e1350f53bea43d6ac6b00d0e1c61e4d69a8573652a104fe6">warnAboutOverwriting</a> = 128
 <br/>
  }</td></tr>
 <tr class="memdesc:a32888a950cc0e51c8e1350f53bea43d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Various options for the browser.  <a href="classFileBrowserComponent.html#a32888a950cc0e51c8e1350f53bea43d6">More...</a><br/></td></tr>
@@ -611,6 +612,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a05cb3d0faaa97273799540b67d0929f3 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a05cb3d0faaa97273799540b67d0929f3">mouseWheelMove</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;event, const <a class="el" href="structMouseWheelDetails.html">MouseWheelDetails</a> &amp;wheel)</td></tr>
 <tr class="memdesc:a05cb3d0faaa97273799540b67d0929f3 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the mouse-wheel is moved.  <a href="#a05cb3d0faaa97273799540b67d0929f3"></a><br/></td></tr>
 <tr class="separator:a05cb3d0faaa97273799540b67d0929f3 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abde4246acd5f0289785daf92b8c87d81 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#abde4246acd5f0289785daf92b8c87d81">mouseMagnify</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;event, float scaleFactor)</td></tr>
+<tr class="memdesc:abde4246acd5f0289785daf92b8c87d81 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a pinch-to-zoom mouse-gesture is used.  <a href="#abde4246acd5f0289785daf92b8c87d81"></a><br/></td></tr>
+<tr class="separator:abde4246acd5f0289785daf92b8c87d81 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7845e402a21d2b86d8c4ec48bc7c93b1 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a7845e402a21d2b86d8c4ec48bc7c93b1">setRepaintsOnMouseActivity</a> (bool shouldRepaint) noexcept</td></tr>
 <tr class="memdesc:a7845e402a21d2b86d8c4ec48bc7c93b1 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Causes automatic repaints when the mouse enters or exits this component.  <a href="#a7845e402a21d2b86d8c4ec48bc7c93b1"></a><br/></td></tr>
 <tr class="separator:a7845e402a21d2b86d8c4ec48bc7c93b1 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -830,6 +834,9 @@ Additional Inherited Members</h2></td></tr>
 </td></tr>
 <tr><td valign="top"><em><a class="anchor" id="a32888a950cc0e51c8e1350f53bea43d6ab3724f30e884acc493ed9cb6bd064971"></a>filenameBoxIsReadOnly</em>&nbsp;</td><td>
 <p>specifies that the user can't type directly into the filename box. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a32888a950cc0e51c8e1350f53bea43d6ac6b00d0e1c61e4d69a8573652a104fe6"></a>warnAboutOverwriting</em>&nbsp;</td><td>
+<p>specifies that the dialog should warn about overwriting existing files (if possible). </p>
 </td></tr>
 </table>
 </dd>

@@ -130,6 +130,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6b046d2b195ae6b35277abbfae06521c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAffineTransform.html">AffineTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAffineTransform.html#a6b046d2b195ae6b35277abbfae06521c">translated</a> (float deltaX, float deltaY) const noexcept</td></tr>
 <tr class="memdesc:a6b046d2b195ae6b35277abbfae06521c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new transform which is the same as this one followed by a translation.  <a href="#a6b046d2b195ae6b35277abbfae06521c"></a><br/></td></tr>
 <tr class="separator:a6b046d2b195ae6b35277abbfae06521c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d9c7f713d4130aa5a08c4f04c30b483"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAffineTransform.html">AffineTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAffineTransform.html#a2d9c7f713d4130aa5a08c4f04c30b483">withAbsoluteTranslation</a> (float translationX, float translationY) const noexcept</td></tr>
+<tr class="memdesc:a2d9c7f713d4130aa5a08c4f04c30b483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of this transform with the specified translation matrix values.  <a href="#a2d9c7f713d4130aa5a08c4f04c30b483"></a><br/></td></tr>
+<tr class="separator:a2d9c7f713d4130aa5a08c4f04c30b483"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dcf19186a3e5964e1bbf39843f644dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAffineTransform.html">AffineTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAffineTransform.html#a0dcf19186a3e5964e1bbf39843f644dd">rotated</a> (float angleInRadians) const noexcept</td></tr>
 <tr class="memdesc:a0dcf19186a3e5964e1bbf39843f644dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a transform which is the same as this one followed by a rotation.  <a href="#a0dcf19186a3e5964e1bbf39843f644dd"></a><br/></td></tr>
 <tr class="separator:a0dcf19186a3e5964e1bbf39843f644dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -643,6 +646,42 @@ template&lt;typename ValueType &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns a new transform which is a translation. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2d9c7f713d4130aa5a08c4f04c30b483"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classAffineTransform.html">AffineTransform</a> AffineTransform::withAbsoluteTranslation </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>translationX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>translationY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a copy of this transform with the specified translation matrix values. </p>
 
 </div>
 </div>

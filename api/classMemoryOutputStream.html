@@ -97,7 +97,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac57d1788ff3df4500ea7928900d5e8bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryOutputStream.html#ac57d1788ff3df4500ea7928900d5e8bf">MemoryOutputStream</a> (size_t initialSize=256)</td></tr>
-<tr class="memdesc:ac57d1788ff3df4500ea7928900d5e8bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty memory stream ready for writing into.  <a href="#ac57d1788ff3df4500ea7928900d5e8bf"></a><br/></td></tr>
+<tr class="memdesc:ac57d1788ff3df4500ea7928900d5e8bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty memory stream, ready to be written into.  <a href="#ac57d1788ff3df4500ea7928900d5e8bf"></a><br/></td></tr>
 <tr class="separator:ac57d1788ff3df4500ea7928900d5e8bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21a486f75eaef9c0f01783dac034a411"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryOutputStream.html#a21a486f75eaef9c0f01783dac034a411">MemoryOutputStream</a> (<a class="el" href="classMemoryBlock.html">MemoryBlock</a> &amp;memoryBlockToWriteTo, bool appendToExistingBlockContent)</td></tr>
 <tr class="memdesc:a21a486f75eaef9c0f01783dac034a411"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a memory stream for writing into into a pre-existing <a class="el" href="classMemoryBlock.html" title="A class to hold a resizable block of raw data.">MemoryBlock</a> object.  <a href="#a21a486f75eaef9c0f01783dac034a411"></a><br/></td></tr>
@@ -117,6 +117,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab178f1539081ad4ca0870bf9f94e592b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryOutputStream.html#ab178f1539081ad4ca0870bf9f94e592b">preallocate</a> (size_t bytesToPreallocate)</td></tr>
 <tr class="memdesc:ab178f1539081ad4ca0870bf9f94e592b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increases the internal storage capacity to be able to contain at least the specified amount of data without needing to be resized.  <a href="#ab178f1539081ad4ca0870bf9f94e592b"></a><br/></td></tr>
 <tr class="separator:ab178f1539081ad4ca0870bf9f94e592b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad533a04adfa6fb645711205b61844c11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryOutputStream.html#ad533a04adfa6fb645711205b61844c11">appendUTF8Char</a> (<a class="el" href="juce__CharacterFunctions_8h.html#a7d83261f3888884bbf04a58edc2672da">juce_wchar</a> character)</td></tr>
+<tr class="memdesc:ad533a04adfa6fb645711205b61844c11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends the utf-8 bytes for a unicode character.  <a href="#ad533a04adfa6fb645711205b61844c11"></a><br/></td></tr>
+<tr class="separator:ad533a04adfa6fb645711205b61844c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac148c479157c53b9c8133a3eef72c6e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryOutputStream.html#ac148c479157c53b9c8133a3eef72c6e4">toUTF8</a> () const </td></tr>
 <tr class="memdesc:ac148c479157c53b9c8133a3eef72c6e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classString.html" title="The JUCE String class!">String</a> created from the (UTF8) data that has been written to the stream.  <a href="#ac148c479157c53b9c8133a3eef72c6e4"></a><br/></td></tr>
 <tr class="separator:ac148c479157c53b9c8133a3eef72c6e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -224,7 +227,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Creates an empty memory stream ready for writing into. </p>
+<p>Creates an empty memory stream, ready to be written into. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">initialSize</td><td>the intial amount of capacity to allocate for writing into </td></tr>
@@ -381,6 +384,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Increases the internal storage capacity to be able to contain at least the specified amount of data without needing to be resized. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad533a04adfa6fb645711205b61844c11"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MemoryOutputStream::appendUTF8Char </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="juce__CharacterFunctions_8h.html#a7d83261f3888884bbf04a58edc2672da">juce_wchar</a>&#160;</td>
+          <td class="paramname"><em>character</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Appends the utf-8 bytes for a unicode character. </p>
 
 </div>
 </div>

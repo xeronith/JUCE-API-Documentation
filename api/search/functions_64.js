@@ -2,7 +2,7 @@ var searchData=
 [
   ['darker',['darker',['../classColour.html#a9910d9b8385825a87ea0d62d96115872',1,'Colour']]],
   ['datagramsocket',['DatagramSocket',['../classDatagramSocket.html#ac150b23e3a6be740ae9c3281cff23b73',1,'DatagramSocket']]],
-  ['days',['days',['../classRelativeTime.html#a1ccb0e098d93a68fe37b90c61608dd99',1,'RelativeTime']]],
+  ['days',['days',['../classRelativeTime.html#a97b1773403606835c173f26a0a03f5e6',1,'RelativeTime']]],
   ['deactivatecurrentcontext',['deactivateCurrentContext',['../classOpenGLContext.html#a5a3ece9be728d97e0343ae17a71f6562',1,'OpenGLContext']]],
   ['decibelstogain',['decibelsToGain',['../classDecibels.html#a4bc3a6fd3f361e9c64bd055ba8fa1238',1,'Decibels']]],
   ['decodeimage',['decodeImage',['../classImageFileFormat.html#a7ece13108d27014ff96e67ce80dd4092',1,'ImageFileFormat::decodeImage()'],['../classPNGImageFormat.html#a03c777dac5d5e0e9f82b8930e396871e',1,'PNGImageFormat::decodeImage()'],['../classJPEGImageFormat.html#a16249c51337029127b625233d49ae0e7',1,'JPEGImageFormat::decodeImage()'],['../classGIFImageFormat.html#a30aab4005e0609815159e9ed99652d9d',1,'GIFImageFormat::decodeImage()']]],
@@ -54,7 +54,7 @@ var searchData=
   ['divideby',['divideBy',['../classBigInteger.html#a9c0bd824652adc58adec98eafa452963',1,'BigInteger']]],
   ['documentwindow',['DocumentWindow',['../classDocumentWindow.html#a79d8474b5d0d8e1bfe2713dc1841063d',1,'DocumentWindow']]],
   ['doeslossoffocusdiscardchanges',['doesLossOfFocusDiscardChanges',['../classLabel.html#aac0b01b91b21112f397fcde2d5942bc9',1,'Label']]],
-  ['doespluginstillexist',['doesPluginStillExist',['../classAudioPluginFormat.html#aa75ed0f5726f88ca1276208f0c42da41',1,'AudioPluginFormat::doesPluginStillExist()'],['../classAudioPluginFormatManager.html#aa72ffaa8d7fa00a3b510a75064bcb913',1,'AudioPluginFormatManager::doesPluginStillExist()'],['../classAudioUnitPluginFormat.html#afde1ba364f7006896a141aa875aa83ed',1,'AudioUnitPluginFormat::doesPluginStillExist()'],['../classVSTPluginFormat.html#a74cb2d2c3b600ba8bc2f6df755a29b5c',1,'VSTPluginFormat::doesPluginStillExist()']]],
+  ['doespluginstillexist',['doesPluginStillExist',['../classAudioPluginFormat.html#aa75ed0f5726f88ca1276208f0c42da41',1,'AudioPluginFormat::doesPluginStillExist()'],['../classAudioPluginFormatManager.html#aa72ffaa8d7fa00a3b510a75064bcb913',1,'AudioPluginFormatManager::doesPluginStillExist()'],['../classAudioUnitPluginFormat.html#afde1ba364f7006896a141aa875aa83ed',1,'AudioUnitPluginFormat::doesPluginStillExist()'],['../classLADSPAPluginFormat.html#a952dbb701ef1637c3cd9f63fabd1ad64',1,'LADSPAPluginFormat::doesPluginStillExist()'],['../classVSTPluginFormat.html#a74cb2d2c3b600ba8bc2f6df755a29b5c',1,'VSTPluginFormat::doesPluginStillExist()']]],
   ['draganddropcontainer',['DragAndDropContainer',['../classDragAndDropContainer.html#af5236c188d64a8ac0103754ee676f339',1,'DragAndDropContainer']]],
   ['dragcomponent',['dragComponent',['../classComponentDragger.html#af2ebcd662f3279b373bfaf035f2c269e',1,'ComponentDragger']]],
   ['draggable3dorientation',['Draggable3DOrientation',['../classDraggable3DOrientation.html#a926f24463e2a332a31897be82726e780',1,'Draggable3DOrientation']]],

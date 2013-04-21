@@ -158,6 +158,7 @@ var searchData=
   ['appender',['Appender',['../classLinkedListPointer_1_1Appender.html#a752b6c9da32ac7a17eb2a50c62cf9233',1,'LinkedListPointer::Appender']]],
   ['appendnumberstoduplicates',['appendNumbersToDuplicates',['../classStringArray.html#a9a2b916e858c3f5d941c751220216387',1,'StringArray']]],
   ['appendtext',['appendText',['../classFile.html#a7908b0272d7564eb1f5a7505a5bc7351',1,'File']]],
+  ['appendutf8char',['appendUTF8Char',['../classMemoryOutputStream.html#ad533a04adfa6fb645711205b61844c11',1,'MemoryOutputStream']]],
   ['appleremotedevice',['AppleRemoteDevice',['../classAppleRemoteDevice.html#ac44938079806a0136950f95850e587f0',1,'AppleRemoteDevice']]],
   ['applicationcommandinfo',['ApplicationCommandInfo',['../structApplicationCommandInfo.html#a79d1e190c9157fa3bb96f8981858ca8c',1,'ApplicationCommandInfo']]],
   ['applicationcommandinvoked',['applicationCommandInvoked',['../classButton.html#ac210d9dc7c756cc1fc0ebd07fc6cfdaf',1,'Button::applicationCommandInvoked()'],['../classApplicationCommandManagerListener.html#a127ded071ab7cf432aefe8a1f1b5a646',1,'ApplicationCommandManagerListener::applicationCommandInvoked()'],['../classMenuBarModel.html#a0fe4486db7cfc54e7188cbe41916ad19',1,'MenuBarModel::applicationCommandInvoked()']]],

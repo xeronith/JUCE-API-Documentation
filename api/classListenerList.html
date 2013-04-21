@@ -184,6 +184,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a72225f7871a1ae12c2a4ffd978aa5b5a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classListenerList.html#a72225f7871a1ae12c2a4ffd978aa5b5a">callChecked</a> (const BailOutCheckerType &amp;bailOutChecker, void(ListenerClass::*callbackFunction)(P1, P2, P3, P4, P5), LL_PARAM(1), LL_PARAM(2), LL_PARAM(3), LL_PARAM(4), LL_PARAM(5))</td></tr>
 <tr class="memdesc:a72225f7871a1ae12c2a4ffd978aa5b5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls a member function on each listener in the list, with 5 parameters and a bail-out-checker.  <a href="#a72225f7871a1ae12c2a4ffd978aa5b5a"></a><br/></td></tr>
 <tr class="separator:a72225f7871a1ae12c2a4ffd978aa5b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fac37f29e7c2470f3b3b72296858ba3"><td class="memTemplParams" colspan="2">template&lt;LL_TEMPLATE(1) , LL_TEMPLATE(2) , LL_TEMPLATE(3) , LL_TEMPLATE(4) , LL_TEMPLATE(5) , LL_TEMPLATE(6) &gt; </td></tr>
+<tr class="memitem:a1fac37f29e7c2470f3b3b72296858ba3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classListenerList.html#a1fac37f29e7c2470f3b3b72296858ba3">call</a> (void(ListenerClass::*callbackFunction)(P1, P2, P3, P4, P5, P6), LL_PARAM(1), LL_PARAM(2), LL_PARAM(3), LL_PARAM(4), LL_PARAM(5), LL_PARAM(6))</td></tr>
+<tr class="memdesc:a1fac37f29e7c2470f3b3b72296858ba3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls a member function on each listener in the list, with 5 parameters.  <a href="#a1fac37f29e7c2470f3b3b72296858ba3"></a><br/></td></tr>
+<tr class="separator:a1fac37f29e7c2470f3b3b72296858ba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a860a681326b1953803a0fc4788435596"><td class="memTemplParams" colspan="2">template&lt;class BailOutCheckerType , LL_TEMPLATE(1) , LL_TEMPLATE(2) , LL_TEMPLATE(3) , LL_TEMPLATE(4) , LL_TEMPLATE(5) , LL_TEMPLATE(6) &gt; </td></tr>
+<tr class="memitem:a860a681326b1953803a0fc4788435596"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classListenerList.html#a860a681326b1953803a0fc4788435596">callChecked</a> (const BailOutCheckerType &amp;bailOutChecker, void(ListenerClass::*callbackFunction)(P1, P2, P3, P4, P5, P6), LL_PARAM(1), LL_PARAM(2), LL_PARAM(3), LL_PARAM(4), LL_PARAM(5), LL_PARAM(6))</td></tr>
+<tr class="memdesc:a860a681326b1953803a0fc4788435596"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls a member function on each listener in the list, with 5 parameters and a bail-out-checker.  <a href="#a860a681326b1953803a0fc4788435596"></a><br/></td></tr>
+<tr class="separator:a860a681326b1953803a0fc4788435596"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae7f9efd24496a8284f6f1df4b9065bb"><td class="memItemLeft" align="right" valign="top">const ArrayType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListenerList.html#aae7f9efd24496a8284f6f1df4b9065bb">getListeners</a> () const noexcept</td></tr>
 <tr class="separator:aae7f9efd24496a8284f6f1df4b9065bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -936,6 +944,137 @@ template&lt;class BailOutCheckerType , LL_TEMPLATE(1) , LL_TEMPLATE(2) , LL_TEMP
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">LL_PARAM(5)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calls a member function on each listener in the list, with 5 parameters and a bail-out-checker. </p>
+<p>See the class description for info about writing a bail-out checker. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1fac37f29e7c2470f3b3b72296858ba3"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ListenerClass, class ArrayType = Array &lt;ListenerClass*&gt;&gt; </div>
+<div class="memtemplate">
+template&lt;LL_TEMPLATE(1) , LL_TEMPLATE(2) , LL_TEMPLATE(3) , LL_TEMPLATE(4) , LL_TEMPLATE(5) , LL_TEMPLATE(6) &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classListenerList.html">ListenerList</a>&lt; ListenerClass, ArrayType &gt;::call </td>
+          <td>(</td>
+          <td class="paramtype">void(ListenerClass::*)(P1, P2, P3, P4, P5, P6)&#160;</td>
+          <td class="paramname"><em>callbackFunction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LL_PARAM(1)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LL_PARAM(2)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LL_PARAM(3)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LL_PARAM(4)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LL_PARAM(5)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LL_PARAM(6)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calls a member function on each listener in the list, with 5 parameters. </p>
+
+</div>
+</div>
+<a class="anchor" id="a860a681326b1953803a0fc4788435596"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ListenerClass, class ArrayType = Array &lt;ListenerClass*&gt;&gt; </div>
+<div class="memtemplate">
+template&lt;class BailOutCheckerType , LL_TEMPLATE(1) , LL_TEMPLATE(2) , LL_TEMPLATE(3) , LL_TEMPLATE(4) , LL_TEMPLATE(5) , LL_TEMPLATE(6) &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classListenerList.html">ListenerList</a>&lt; ListenerClass, ArrayType &gt;::callChecked </td>
+          <td>(</td>
+          <td class="paramtype">const BailOutCheckerType &amp;&#160;</td>
+          <td class="paramname"><em>bailOutChecker</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(ListenerClass::*)(P1, P2, P3, P4, P5, P6)&#160;</td>
+          <td class="paramname"><em>callbackFunction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LL_PARAM(1)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LL_PARAM(2)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LL_PARAM(3)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LL_PARAM(4)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LL_PARAM(5)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LL_PARAM(6)&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

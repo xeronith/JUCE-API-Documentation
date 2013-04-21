@@ -171,6 +171,8 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a55ca0411455710ecca963f6666cc1a20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="juce__StandardHeader_8h.html#a65961b3bfbda0ffb83750d914cee38fb">JUCE_API</a> bool <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejuce.html#a55ca0411455710ecca963f6666cc1a20">juce_isRunningUnderDebugger</a> ()</td></tr>
 <tr class="separator:a55ca0411455710ecca963f6666cc1a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55fa4f88f237e6f9b50bd2a425c1edf9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="juce__StandardHeader_8h.html#a65961b3bfbda0ffb83750d914cee38fb">JUCE_API</a> void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejuce.html#a55fa4f88f237e6f9b50bd2a425c1edf9">logAssertion</a> (const char *file, int line) noexcept</td></tr>
+<tr class="separator:a55fa4f88f237e6f9b50bd2a425c1edf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af98f1c01dcdb77b71fbd0c4cab285321"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejuce.html#af98f1c01dcdb77b71fbd0c4cab285321">zeromem</a> (void *memory, size_t numBytes) noexcept</td></tr>
 <tr class="memdesc:af98f1c01dcdb77b71fbd0c4cab285321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a block of memory with zeros.  <a href="#af98f1c01dcdb77b71fbd0c4cab285321"></a><br/></td></tr>
 <tr class="separator:af98f1c01dcdb77b71fbd0c4cab285321"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -420,7 +422,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:ac186fb6c96b71c704058b5a23b5af68b"><td class="mdescLeft">&#160;</td><td class="mdescRight">A predefined value for Pi, at double-precision.  <a href="#ac186fb6c96b71c704058b5a23b5af68b"></a><br/></td></tr>
 <tr class="separator:ac186fb6c96b71c704058b5a23b5af68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a3a0de70354de4badeac8063d198178"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejuce.html#a7a3a0de70354de4badeac8063d198178">float_Pi</a> = 3.14159265358979323846f</td></tr>
-<tr class="memdesc:a7a3a0de70354de4badeac8063d198178"><td class="mdescLeft">&#160;</td><td class="mdescRight">A predefined value for Pi, at sngle-precision.  <a href="#a7a3a0de70354de4badeac8063d198178"></a><br/></td></tr>
+<tr class="memdesc:a7a3a0de70354de4badeac8063d198178"><td class="mdescLeft">&#160;</td><td class="mdescRight">A predefined value for Pi, at single-precision.  <a href="#a7a3a0de70354de4badeac8063d198178"></a><br/></td></tr>
 <tr class="separator:a7a3a0de70354de4badeac8063d198178"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -591,6 +593,42 @@ Variables</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classjuce_1_1CharPointer__UTF32.html#a6bdb2e818683ff69520086b994ee2484">juce::CharPointer_UTF32::length()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a55fa4f88f237e6f9b50bd2a425c1edf9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="juce__StandardHeader_8h.html#a65961b3bfbda0ffb83750d914cee38fb">JUCE_API</a> void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> juce::logAssertion </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>line</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classjuce_1_1CharPointer__UTF32.html#a6bdb2e818683ff69520086b994ee2484">juce::CharPointer_UTF32::length()</a>.</p>
@@ -2880,7 +2918,7 @@ template&lt;class traits &gt; </div>
 </div><div class="memdoc">
 
 <p>A predefined value for Pi, at double-precision. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="namespacejuce.html#a7a3a0de70354de4badeac8063d198178" title="A predefined value for Pi, at sngle-precision.">float_Pi</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="namespacejuce.html#a7a3a0de70354de4badeac8063d198178" title="A predefined value for Pi, at single-precision.">float_Pi</a> </dd></dl>
 
 </div>
 </div>
@@ -2894,7 +2932,7 @@ template&lt;class traits &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>A predefined value for Pi, at sngle-precision. </p>
+<p>A predefined value for Pi, at single-precision. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="namespacejuce.html#ac186fb6c96b71c704058b5a23b5af68b" title="A predefined value for Pi, at double-precision.">double_Pi</a> </dd></dl>
 
 </div>

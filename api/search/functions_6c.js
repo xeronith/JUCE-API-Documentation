@@ -2,6 +2,7 @@ var searchData=
 [
   ['label',['Label',['../classLabel.html#aab39f7d5f34a8b407e21ba812434d2da',1,'Label']]],
   ['labeltextchanged',['labelTextChanged',['../classComboBox.html#a35f467619dc12110c32fb90f3e7b76ab',1,'ComboBox::labelTextChanged()'],['../classLabel_1_1Listener.html#ad2a3e79ba106bfa64cab523e197b1514',1,'Label::Listener::labelTextChanged()']]],
+  ['ladspapluginformat',['LADSPAPluginFormat',['../classLADSPAPluginFormat.html#ae3cc50623da55617adb06af890421929',1,'LADSPAPluginFormat']]],
   ['lagrangeinterpolator',['LagrangeInterpolator',['../classLagrangeInterpolator.html#a16e4fa3589ac989d7082c58c2fe1b2e2',1,'LagrangeInterpolator']]],
   ['lameencoderaudioformat',['LAMEEncoderAudioFormat',['../classLAMEEncoderAudioFormat.html#a467bccad969a5a09bf4ba0f2c3a50866',1,'LAMEEncoderAudioFormat']]],
   ['lassocomponent',['LassoComponent',['../classLassoComponent.html#aafd85f80827d8ca420fe6cfbb2c4ad68',1,'LassoComponent']]],
@@ -65,6 +66,7 @@ var searchData=
   ['localpointtoglobal',['localPointToGlobal',['../classComponent.html#a08a271abbc7c2cfb3c66a1cab1a715eb',1,'Component']]],
   ['localtoglobal',['localToGlobal',['../classComponentPeer.html#a0e949ffb0588cdb3949402d51b9e8a8b',1,'ComponentPeer::localToGlobal(const Point&lt; int &gt; &amp;relativePosition)=0'],['../classComponentPeer.html#a74ee249417ab026d71be6cdbaf01716f',1,'ComponentPeer::localToGlobal(const Rectangle&lt; int &gt; &amp;relativePosition)']]],
   ['lockwasgained',['lockWasGained',['../classMessageManagerLock.html#a5f3d8b6abc27aa324a882abc6e2d96ba',1,'MessageManagerLock']]],
+  ['logassertion',['logAssertion',['../namespacejuce.html#a55fa4f88f237e6f9b50bd2a425c1edf9',1,'juce']]],
   ['logger',['Logger',['../classLogger.html#abc41bfb031d896170c7675fa96a6b30c',1,'Logger::Logger()'],['../classjuce_1_1Logger.html#ab2ef8853d1b414db705cb1c874a1ebb7',1,'juce::Logger::Logger()']]],
   ['logmessage',['logMessage',['../classFileLogger.html#aaf1bc4062f89bc56c9926bb1af268bb4',1,'FileLogger::logMessage()'],['../classLogger.html#ab2ef7f6552d425bf729b7d1a7ed5160f',1,'Logger::logMessage()'],['../classjuce_1_1Logger.html#a1fc4c80279a26845af6dd67a2e6617f1',1,'juce::Logger::logMessage()'],['../classUnitTest.html#a1c91c1b7758fffd3536042238f00005b',1,'UnitTest::logMessage()'],['../classUnitTestRunner.html#abda0a15326302c1d6ce444869e304eeb',1,'UnitTestRunner::logMessage()']]],
   ['lookandfeel',['LookAndFeel',['../classLookAndFeel.html#ac3c8e3057a825febbdf7fcff31d0cb99',1,'LookAndFeel']]],

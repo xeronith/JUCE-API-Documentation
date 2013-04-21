@@ -109,6 +109,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7e8f2a2260acf7ca4f4a62c36ce99332"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageCache.html#a7e8f2a2260acf7ca4f4a62c36ce99332">setCacheTimeout</a> (int millisecs)</td></tr>
 <tr class="memdesc:a7e8f2a2260acf7ca4f4a62c36ce99332"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the amount of time before an unused image will be removed from the cache.  <a href="#a7e8f2a2260acf7ca4f4a62c36ce99332"></a><br/></td></tr>
 <tr class="separator:a7e8f2a2260acf7ca4f4a62c36ce99332"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59842f582bd240a820fb5e44b956b121"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImageCache.html#a59842f582bd240a820fb5e44b956b121">releaseUnusedImages</a> ()</td></tr>
+<tr class="memdesc:a59842f582bd240a820fb5e44b956b121"><td class="mdescLeft">&#160;</td><td class="mdescRight">Releases any images in the cache that aren't being referenced by active <a class="el" href="classImage.html" title="Holds a fixed-size bitmap.">Image</a> objects.  <a href="#a59842f582bd240a820fb5e44b956b121"></a><br/></td></tr>
+<tr class="separator:a59842f582bd240a820fb5e44b956b121"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A global cache of images that have been loaded from files or memory. </p>
@@ -302,6 +305,31 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Changes the amount of time before an unused image will be removed from the cache. </p>
 <p>By default this is about 5 seconds. </p>
+
+</div>
+</div>
+<a class="anchor" id="a59842f582bd240a820fb5e44b956b121"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ImageCache::releaseUnusedImages </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Releases any images in the cache that aren't being referenced by active <a class="el" href="classImage.html" title="Holds a fixed-size bitmap.">Image</a> objects. </p>
 
 </div>
 </div>

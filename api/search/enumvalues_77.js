@@ -2,6 +2,7 @@ var searchData=
 [
   ['waitcursor',['WaitCursor',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97a42461326b47b05238177df410c2245f9',1,'MouseCursor']]],
   ['wantskeyupdowncallbacks',['wantsKeyUpDownCallbacks',['../structApplicationCommandInfo.html#ab9633f0a25ad57236fde726c98b29d72ab8ea56bbed1d23f3df3cbd3c20f2a8d1',1,'ApplicationCommandInfo']]],
+  ['warnaboutoverwriting',['warnAboutOverwriting',['../classFileBrowserComponent.html#a32888a950cc0e51c8e1350f53bea43d6ac6b00d0e1c61e4d69a8573652a104fe6',1,'FileBrowserComponent']]],
   ['warningicon',['WarningIcon',['../classAlertWindow.html#a2582d1f79937cb47a6a3764c7d9bdba3a8af24c68ddba14cc97687e2b2b75f373',1,'AlertWindow']]],
   ['waveburner',['WaveBurner',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a5b8f0d97918ff781b19310b2b5db3a91',1,'PluginHostType']]],
   ['whitenotecolourid',['whiteNoteColourId',['../classMidiKeyboardComponent.html#a75cb05395efc61c447dc93e8873ab05eabb77b95502c3687ed23bcda22e4c416d',1,'MidiKeyboardComponent']]],

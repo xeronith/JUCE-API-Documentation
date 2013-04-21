@@ -121,6 +121,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a47a3da922f5a1bc2d111caa38bd23d2e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStreamingSocket.html#a47a3da922f5a1bc2d111caa38bd23d2e">isLocal</a> () const noexcept</td></tr>
 <tr class="memdesc:a47a3da922f5a1bc2d111caa38bd23d2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the socket is connected to this machine rather than over the network.  <a href="#a47a3da922f5a1bc2d111caa38bd23d2e"></a><br/></td></tr>
 <tr class="separator:a47a3da922f5a1bc2d111caa38bd23d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4809d51655d78f65ee476629b7f1c260"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStreamingSocket.html#a4809d51655d78f65ee476629b7f1c260">getRawSocketHandle</a> () const noexcept</td></tr>
+<tr class="memdesc:a4809d51655d78f65ee476629b7f1c260"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the OS's socket handle that's currently open.  <a href="#a4809d51655d78f65ee476629b7f1c260"></a><br/></td></tr>
+<tr class="separator:a4809d51655d78f65ee476629b7f1c260"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c737d5e12af2540e282d159379163ba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStreamingSocket.html#a8c737d5e12af2540e282d159379163ba">waitUntilReady</a> (bool readyForReading, int timeoutMsecs) const </td></tr>
 <tr class="memdesc:a8c737d5e12af2540e282d159379163ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits until the socket is ready for reading or writing.  <a href="#a8c737d5e12af2540e282d159379163ba"></a><br/></td></tr>
 <tr class="separator:a8c737d5e12af2540e282d159379163ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -349,6 +352,31 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>True if the socket is connected to this machine rather than over the network. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4809d51655d78f65ee476629b7f1c260"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int StreamingSocket::getRawSocketHandle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the OS's socket handle that's currently open. </p>
 
 </div>
 </div>

@@ -122,9 +122,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a42763c064fcc57c24f0a4ec3c7de7b5c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElement.html#a42763c064fcc57c24f0a4ec3c7de7b5c">getTagName</a> () const noexcept</td></tr>
 <tr class="memdesc:a42763c064fcc57c24f0a4ec3c7de7b5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this element's tag type name.  <a href="#a42763c064fcc57c24f0a4ec3c7de7b5c"></a><br/></td></tr>
 <tr class="separator:a42763c064fcc57c24f0a4ec3c7de7b5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac326197bbbbef41c3b40edc2c626fc7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElement.html#ac326197bbbbef41c3b40edc2c626fc7e">getNamespace</a> () const </td></tr>
+<tr class="memdesc:ac326197bbbbef41c3b40edc2c626fc7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the namespace portion of the tag-name, or an empty string if none is specified.  <a href="#ac326197bbbbef41c3b40edc2c626fc7e"></a><br/></td></tr>
+<tr class="separator:ac326197bbbbef41c3b40edc2c626fc7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a181e055d21cb5802c707da33ac9b8edc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElement.html#a181e055d21cb5802c707da33ac9b8edc">getTagNameWithoutNamespace</a> () const </td></tr>
+<tr class="memdesc:a181e055d21cb5802c707da33ac9b8edc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the part of the tag-name that follows any namespace declaration.  <a href="#a181e055d21cb5802c707da33ac9b8edc"></a><br/></td></tr>
+<tr class="separator:a181e055d21cb5802c707da33ac9b8edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ef82db7eb79b580ee8dcc07ded59b3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElement.html#a8ef82db7eb79b580ee8dcc07ded59b3e">hasTagName</a> (const <a class="el" href="classString.html">String</a> &amp;possibleTagName) const noexcept</td></tr>
 <tr class="memdesc:a8ef82db7eb79b580ee8dcc07ded59b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests whether this element has a particular tag name.  <a href="#a8ef82db7eb79b580ee8dcc07ded59b3e"></a><br/></td></tr>
 <tr class="separator:a8ef82db7eb79b580ee8dcc07ded59b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab11b3494ea06e026a38743b7ba8f4aff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElement.html#ab11b3494ea06e026a38743b7ba8f4aff">hasTagNameIgnoringNamespace</a> (const <a class="el" href="classString.html">String</a> &amp;possibleTagName) const </td></tr>
+<tr class="memdesc:ab11b3494ea06e026a38743b7ba8f4aff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests whether this element has a particular tag name, ignoring any XML namespace prefix.  <a href="#ab11b3494ea06e026a38743b7ba8f4aff"></a><br/></td></tr>
+<tr class="separator:ab11b3494ea06e026a38743b7ba8f4aff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aded3baadd37f11ed7d60a44954c7ae95"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElement.html#aded3baadd37f11ed7d60a44954c7ae95">getNumAttributes</a> () const noexcept</td></tr>
 <tr class="memdesc:aded3baadd37f11ed7d60a44954c7ae95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of XML attributes this element contains.  <a href="#aded3baadd37f11ed7d60a44954c7ae95"></a><br/></td></tr>
 <tr class="separator:aded3baadd37f11ed7d60a44954c7ae95"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -617,8 +626,42 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns this element's tag type name. </p>
-<p>E.g. for an element such as &lt;MOOSE legs="4" antlers="2"&gt;, this would return "MOOSE".</p>
+<p>E.g. for an element such as &lt;MOOSE legs="4" antlers="2"&gt;, this would return "MOOSE". </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classXmlElement.html#a8ef82db7eb79b580ee8dcc07ded59b3e" title="Tests whether this element has a particular tag name.">hasTagName</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac326197bbbbef41c3b40edc2c626fc7e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classString.html">String</a> XmlElement::getNamespace </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the namespace portion of the tag-name, or an empty string if none is specified. </p>
+
+</div>
+</div>
+<a class="anchor" id="a181e055d21cb5802c707da33ac9b8edc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classString.html">String</a> XmlElement::getTagNameWithoutNamespace </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the part of the tag-name that follows any namespace declaration. </p>
 
 </div>
 </div>
@@ -647,10 +690,30 @@ Static Public Member Functions</h2></td></tr>
 <p>Tests whether this element has a particular tag name. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">possibleTagName</td><td>the tag name you're comparing it with</td></tr>
+    <tr><td class="paramname">possibleTagName</td><td>the tag name you're comparing it with </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classXmlElement.html#a42763c064fcc57c24f0a4ec3c7de7b5c" title="Returns this element&#39;s tag type name.">getTagName</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab11b3494ea06e026a38743b7ba8f4aff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool XmlElement::hasTagNameIgnoringNamespace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>possibleTagName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tests whether this element has a particular tag name, ignoring any XML namespace prefix. </p>
+<p>So a test for e.g. "xyz" will return true for "xyz" and also "foo:xyz", "bar::xyz", etc. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classXmlElement.html#a42763c064fcc57c24f0a4ec3c7de7b5c" title="Returns this element&#39;s tag type name.">getTagName</a> </dd></dl>
 
 </div>

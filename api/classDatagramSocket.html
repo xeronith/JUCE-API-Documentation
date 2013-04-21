@@ -121,6 +121,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2ab0436c0c97c338a2b517dc5f5abe8e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatagramSocket.html#a2ab0436c0c97c338a2b517dc5f5abe8e">isLocal</a> () const noexcept</td></tr>
 <tr class="memdesc:a2ab0436c0c97c338a2b517dc5f5abe8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the socket is connected to this machine rather than over the network.  <a href="#a2ab0436c0c97c338a2b517dc5f5abe8e"></a><br/></td></tr>
 <tr class="separator:a2ab0436c0c97c338a2b517dc5f5abe8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1e8a49c016a60b10e733aff662c3fa3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatagramSocket.html#af1e8a49c016a60b10e733aff662c3fa3">getRawSocketHandle</a> () const noexcept</td></tr>
+<tr class="memdesc:af1e8a49c016a60b10e733aff662c3fa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the OS's socket handle that's currently open.  <a href="#af1e8a49c016a60b10e733aff662c3fa3"></a><br/></td></tr>
+<tr class="separator:af1e8a49c016a60b10e733aff662c3fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a773fbe9241d1c57e4ced45317f876b58"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatagramSocket.html#a773fbe9241d1c57e4ced45317f876b58">waitUntilReady</a> (bool readyForReading, int timeoutMsecs) const </td></tr>
 <tr class="memdesc:a773fbe9241d1c57e4ced45317f876b58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits until the socket is ready for reading or writing.  <a href="#a773fbe9241d1c57e4ced45317f876b58"></a><br/></td></tr>
 <tr class="separator:a773fbe9241d1c57e4ced45317f876b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -359,6 +362,31 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>True if the socket is connected to this machine rather than over the network. </p>
+
+</div>
+</div>
+<a class="anchor" id="af1e8a49c016a60b10e733aff662c3fa3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DatagramSocket::getRawSocketHandle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the OS's socket handle that's currently open. </p>
 
 </div>
 </div>

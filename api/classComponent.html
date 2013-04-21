@@ -525,6 +525,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a05cb3d0faaa97273799540b67d0929f3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a05cb3d0faaa97273799540b67d0929f3">mouseWheelMove</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;event, const <a class="el" href="structMouseWheelDetails.html">MouseWheelDetails</a> &amp;wheel)</td></tr>
 <tr class="memdesc:a05cb3d0faaa97273799540b67d0929f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the mouse-wheel is moved.  <a href="#a05cb3d0faaa97273799540b67d0929f3"></a><br/></td></tr>
 <tr class="separator:a05cb3d0faaa97273799540b67d0929f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abde4246acd5f0289785daf92b8c87d81"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#abde4246acd5f0289785daf92b8c87d81">mouseMagnify</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;event, float scaleFactor)</td></tr>
+<tr class="memdesc:abde4246acd5f0289785daf92b8c87d81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a pinch-to-zoom mouse-gesture is used.  <a href="#abde4246acd5f0289785daf92b8c87d81"></a><br/></td></tr>
+<tr class="separator:abde4246acd5f0289785daf92b8c87d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7845e402a21d2b86d8c4ec48bc7c93b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a7845e402a21d2b86d8c4ec48bc7c93b1">setRepaintsOnMouseActivity</a> (bool shouldRepaint) noexcept</td></tr>
 <tr class="memdesc:a7845e402a21d2b86d8c4ec48bc7c93b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Causes automatic repaints when the mouse enters or exits this component.  <a href="#a7845e402a21d2b86d8c4ec48bc7c93b1"></a><br/></td></tr>
 <tr class="separator:a7845e402a21d2b86d8c4ec48bc7c93b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4101,7 +4104,7 @@ template&lt;class TargetClass &gt; </div>
 </dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classComponent.html#af3ab3eabec93dd60faf983370f3a1206" title="Marks the whole component as needing to be redrawn.">repaint</a>, <a class="el" href="classComponent.html#aa15dc77c06b5a0a4192090b4a323f79c" title="Components can override this method to draw over the top of their children.">paintOverChildren</a>, <a class="el" href="classGraphics.html" title="A graphics context, used for drawing a component or image.">Graphics</a> </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classTreeView.html#adecab139b0c47342db0c9232a522b8bb">TreeView</a>, <a class="el" href="classSlider.html#a0d99114ab8dac759d06583726076f933">Slider</a>, <a class="el" href="classTextEditor.html#a58bf7a0215fe3d4e04907eb6f0c4a34f">TextEditor</a>, <a class="el" href="classListBox.html#af3fa7e06850423b8c022cd54852f22cc">ListBox</a>, <a class="el" href="classAlertWindow.html#a5c12d4ff78b97a93eebf896fe28bbdf2">AlertWindow</a>, <a class="el" href="classButton.html#a9fb46c037556e374d0ee9a4155a58898">Button</a>, <a class="el" href="classTableHeaderComponent.html#a7e5181d571fc6b115453e69a25338b35">TableHeaderComponent</a>, <a class="el" href="classComboBox.html#a2fe015cfca2fb1248475512607e8e2a9">ComboBox</a>, <a class="el" href="classResizableWindow.html#a5fece831180850865998c88a6a80e9d2">ResizableWindow</a>, <a class="el" href="classCodeEditorComponent.html#a72992760cb3666b61a54ad85ae78d2a6">CodeEditorComponent</a>, <a class="el" href="classScrollBar.html#a8e2b61f7c34bd42f4db86eb75ecb9893">ScrollBar</a>, <a class="el" href="classMultiDocumentPanel.html#af43d92974fd62ce6d2e37e365a4c2e59">MultiDocumentPanel</a>, <a class="el" href="classLabel.html#aff957ccca74192c2e1cc8479cfe9a97f">Label</a>, <a class="el" href="classToolbar.html#a048d9bf461473e5bc0a34c2e7997a62e">Toolbar</a>, <a class="el" href="classMidiKeyboardComponent.html#a34e996026773931b1ec3e6615db3226a">MidiKeyboardComponent</a>, <a class="el" href="classLassoComponent.html#aa2b05e6a36b1ab1f9bbdc52d27bb1c08">LassoComponent&lt; SelectableItemType &gt;</a>, <a class="el" href="classTabbedComponent.html#a8836b69f1a50a1031d84266e552e963e">TabbedComponent</a>, <a class="el" href="classDirectShowComponent.html#a82a07fa1b500a2661d2bc47471f19d4d">DirectShowComponent</a>, <a class="el" href="classResizableBorderComponent.html#a8f2cc6232dec5466fa5b4bbefe32d686">ResizableBorderComponent</a>, <a class="el" href="classBubbleComponent.html#a535cd0c80a4d38d15fdc878e118165fd">BubbleComponent</a>, <a class="el" href="classDrawableShape.html#afd6b6eb2819f4f911aac0cfd6aa29d32">DrawableShape</a>, <a class="el" href="classPropertyPanel.html#a870b8c8ff9857d80722ba0bb9a822b57">PropertyPanel</a>, <a class="el" href="classPreferencesPanel.html#aeba5e31cfcdb8558639a3510a7fb8194">PreferencesPanel</a>, <a class="el" href="classSplashScreen.html#af5096367b0e2411101d110ceb5361b24">SplashScreen</a>, <a class="el" href="classCallOutBox.html#a7d6782cab62048876228584f0667eb51">CallOutBox</a>, <a class="el" href="classActiveXControlComponent.html#a704849697066ca9d0ba033506aa8759b">ActiveXControlComponent</a>, <a class="el" href="classWebBrowserComponent.html#a64d081cb62aa60f8b1ab0cec0416d83f">WebBrowserComponent</a>, <a class="el" href="classPropertyComponent.html#add0bd23deef904e26b2cedb497c5a00c">PropertyComponent</a>, <a class="el" href="classProgressBar.html#a1dd7253a47213468105b035f640a5233">ProgressBar</a>, <a class="el" href="classFileSearchPathListComponent.html#a19355d862b903b574f27e188095eaa79">FileSearchPathListComponent</a>, <a class="el" href="classDrawableText.html#ab8812e6b629390a0f765f7efae24938f">DrawableText</a>, <a class="el" href="classGroupComponent.html#a683b8eada2fd402d353b2caece5568fe">GroupComponent</a>, <a class="el" href="classDrawableImage.html#aede2a24db1ad5a170e43c13ee5a84424">DrawableImage</a>, <a class="el" href="classResizableEdgeComponent.html#a1a88d78919bab979f84a156032384f0f">ResizableEdgeComponent</a>, <a class="el" href="classBooleanPropertyComponent.html#ac4c9af0bff4b847f5a81264287337280">BooleanPropertyComponent</a>, <a class="el" href="classStretchableLayoutResizerBar.html#aef7272c94bb9e414c0ee87b4d791d8d3">StretchableLayoutResizerBar</a>, <a class="el" href="classMenuBarComponent.html#a6600a045f5498f49d4b792bf6a44b405">MenuBarComponent</a>, <a class="el" href="classNSViewComponent.html#aa0aa6e02e2b9fe5979c33b04079daec0">NSViewComponent</a>, <a class="el" href="classUIViewComponent.html#a62645b1112a38bdd7e44079072c7e809">UIViewComponent</a>, <a class="el" href="classResizableCornerComponent.html#a469e17a3d9767c22139672a127583b94">ResizableCornerComponent</a>, <a class="el" href="classImageComponent.html#a497a808dcc68e715a75b179f4ae7aeec">ImageComponent</a>, <a class="el" href="classCaretComponent.html#a42c4c45c695b137a43095606972b98b4">CaretComponent</a>, <a class="el" href="classSystemTrayIconComponent.html#aa7890ecec6fd8e29aba7882759c2d096">SystemTrayIconComponent</a>, <a class="el" href="classImagePreviewComponent.html#a83b48da064856202d5a2cf7a539d7407">ImagePreviewComponent</a>, and <a class="el" href="classGenericAudioProcessorEditor.html#a61acb775686bfb1e6dbcd2eb70e3da5b">GenericAudioProcessorEditor</a>.</p>
+<p>Reimplemented in <a class="el" href="classTreeView.html#adecab139b0c47342db0c9232a522b8bb">TreeView</a>, <a class="el" href="classSlider.html#a0d99114ab8dac759d06583726076f933">Slider</a>, <a class="el" href="classTextEditor.html#a58bf7a0215fe3d4e04907eb6f0c4a34f">TextEditor</a>, <a class="el" href="classListBox.html#af3fa7e06850423b8c022cd54852f22cc">ListBox</a>, <a class="el" href="classAlertWindow.html#a5c12d4ff78b97a93eebf896fe28bbdf2">AlertWindow</a>, <a class="el" href="classButton.html#a9fb46c037556e374d0ee9a4155a58898">Button</a>, <a class="el" href="classTableHeaderComponent.html#a7e5181d571fc6b115453e69a25338b35">TableHeaderComponent</a>, <a class="el" href="classComboBox.html#a2fe015cfca2fb1248475512607e8e2a9">ComboBox</a>, <a class="el" href="classResizableWindow.html#a5fece831180850865998c88a6a80e9d2">ResizableWindow</a>, <a class="el" href="classCodeEditorComponent.html#a72992760cb3666b61a54ad85ae78d2a6">CodeEditorComponent</a>, <a class="el" href="classScrollBar.html#a8e2b61f7c34bd42f4db86eb75ecb9893">ScrollBar</a>, <a class="el" href="classMultiDocumentPanel.html#af43d92974fd62ce6d2e37e365a4c2e59">MultiDocumentPanel</a>, <a class="el" href="classLabel.html#aff957ccca74192c2e1cc8479cfe9a97f">Label</a>, <a class="el" href="classToolbar.html#a048d9bf461473e5bc0a34c2e7997a62e">Toolbar</a>, <a class="el" href="classMidiKeyboardComponent.html#a34e996026773931b1ec3e6615db3226a">MidiKeyboardComponent</a>, <a class="el" href="classLassoComponent.html#aa2b05e6a36b1ab1f9bbdc52d27bb1c08">LassoComponent&lt; SelectableItemType &gt;</a>, <a class="el" href="classTabbedComponent.html#a8836b69f1a50a1031d84266e552e963e">TabbedComponent</a>, <a class="el" href="classDirectShowComponent.html#a82a07fa1b500a2661d2bc47471f19d4d">DirectShowComponent</a>, <a class="el" href="classResizableBorderComponent.html#a8f2cc6232dec5466fa5b4bbefe32d686">ResizableBorderComponent</a>, <a class="el" href="classBubbleComponent.html#a535cd0c80a4d38d15fdc878e118165fd">BubbleComponent</a>, <a class="el" href="classDrawableShape.html#afd6b6eb2819f4f911aac0cfd6aa29d32">DrawableShape</a>, <a class="el" href="classPropertyPanel.html#a5162d04499189832afea78b682f75f43">PropertyPanel</a>, <a class="el" href="classPreferencesPanel.html#aeba5e31cfcdb8558639a3510a7fb8194">PreferencesPanel</a>, <a class="el" href="classSplashScreen.html#af5096367b0e2411101d110ceb5361b24">SplashScreen</a>, <a class="el" href="classCallOutBox.html#a7d6782cab62048876228584f0667eb51">CallOutBox</a>, <a class="el" href="classActiveXControlComponent.html#a704849697066ca9d0ba033506aa8759b">ActiveXControlComponent</a>, <a class="el" href="classWebBrowserComponent.html#a64d081cb62aa60f8b1ab0cec0416d83f">WebBrowserComponent</a>, <a class="el" href="classPropertyComponent.html#add0bd23deef904e26b2cedb497c5a00c">PropertyComponent</a>, <a class="el" href="classProgressBar.html#a1dd7253a47213468105b035f640a5233">ProgressBar</a>, <a class="el" href="classFileSearchPathListComponent.html#a19355d862b903b574f27e188095eaa79">FileSearchPathListComponent</a>, <a class="el" href="classDrawableText.html#ab8812e6b629390a0f765f7efae24938f">DrawableText</a>, <a class="el" href="classGroupComponent.html#a683b8eada2fd402d353b2caece5568fe">GroupComponent</a>, <a class="el" href="classDrawableImage.html#aede2a24db1ad5a170e43c13ee5a84424">DrawableImage</a>, <a class="el" href="classResizableEdgeComponent.html#a1a88d78919bab979f84a156032384f0f">ResizableEdgeComponent</a>, <a class="el" href="classBooleanPropertyComponent.html#ac4c9af0bff4b847f5a81264287337280">BooleanPropertyComponent</a>, <a class="el" href="classStretchableLayoutResizerBar.html#aef7272c94bb9e414c0ee87b4d791d8d3">StretchableLayoutResizerBar</a>, <a class="el" href="classMenuBarComponent.html#a6600a045f5498f49d4b792bf6a44b405">MenuBarComponent</a>, <a class="el" href="classNSViewComponent.html#aa0aa6e02e2b9fe5979c33b04079daec0">NSViewComponent</a>, <a class="el" href="classUIViewComponent.html#a62645b1112a38bdd7e44079072c7e809">UIViewComponent</a>, <a class="el" href="classResizableCornerComponent.html#a469e17a3d9767c22139672a127583b94">ResizableCornerComponent</a>, <a class="el" href="classImageComponent.html#a497a808dcc68e715a75b179f4ae7aeec">ImageComponent</a>, <a class="el" href="classCaretComponent.html#a42c4c45c695b137a43095606972b98b4">CaretComponent</a>, <a class="el" href="classSystemTrayIconComponent.html#aa7890ecec6fd8e29aba7882759c2d096">SystemTrayIconComponent</a>, <a class="el" href="classImagePreviewComponent.html#a83b48da064856202d5a2cf7a539d7407">ImagePreviewComponent</a>, and <a class="el" href="classGenericAudioProcessorEditor.html#a61acb775686bfb1e6dbcd2eb70e3da5b">GenericAudioProcessorEditor</a>.</p>
 
 </div>
 </div>
@@ -4170,7 +4173,7 @@ template&lt;class TargetClass &gt; </div>
 
 <p>Reimplemented from <a class="el" href="classMouseListener.html#a34327ec666304f0660d818db8281d2fd">MouseListener</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classListBox.html#a2c7eb193f1a8b3551d5c357bcf1d8381">ListBox</a>, <a class="el" href="classTableHeaderComponent.html#a6e190d9f1af9875b9b5594bff4fc98e7">TableHeaderComponent</a>, <a class="el" href="classMidiKeyboardComponent.html#a98f2f352e3ed87618bb027e2623234fa">MidiKeyboardComponent</a>, <a class="el" href="classResizableBorderComponent.html#a7e71e6c10a56ec3c38a563275d705c8c">ResizableBorderComponent</a>, and <a class="el" href="classMenuBarComponent.html#a4731f938d4fdf8cd204fc4c31c760739">MenuBarComponent</a>.</p>
+<p>Reimplemented in <a class="el" href="classTableHeaderComponent.html#a6e190d9f1af9875b9b5594bff4fc98e7">TableHeaderComponent</a>, <a class="el" href="classMidiKeyboardComponent.html#a98f2f352e3ed87618bb027e2623234fa">MidiKeyboardComponent</a>, <a class="el" href="classResizableBorderComponent.html#a7e71e6c10a56ec3c38a563275d705c8c">ResizableBorderComponent</a>, and <a class="el" href="classMenuBarComponent.html#a4731f938d4fdf8cd204fc4c31c760739">MenuBarComponent</a>.</p>
 
 </div>
 </div>
@@ -4248,7 +4251,7 @@ template&lt;class TargetClass &gt; </div>
 
 <p>Reimplemented from <a class="el" href="classMouseListener.html#ac35ed155e9255cebdc5c81231d963aec">MouseListener</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classListBox.html#a541bd20151b60a4b5fa389dd79bd17ec">ListBox</a>, <a class="el" href="classButton.html#a196f0a247504184f8dc7b5a2760be089">Button</a>, <a class="el" href="classTableHeaderComponent.html#aab44c025d1935e82e810f004faa81304">TableHeaderComponent</a>, <a class="el" href="classMidiKeyboardComponent.html#a06c70c5bd38260b25e4df9c82448e37c">MidiKeyboardComponent</a>, and <a class="el" href="classMenuBarComponent.html#a617a6707264ce92ba88f347dfa1efedf">MenuBarComponent</a>.</p>
+<p>Reimplemented in <a class="el" href="classButton.html#a196f0a247504184f8dc7b5a2760be089">Button</a>, <a class="el" href="classTableHeaderComponent.html#aab44c025d1935e82e810f004faa81304">TableHeaderComponent</a>, <a class="el" href="classMidiKeyboardComponent.html#a06c70c5bd38260b25e4df9c82448e37c">MidiKeyboardComponent</a>, and <a class="el" href="classMenuBarComponent.html#a617a6707264ce92ba88f347dfa1efedf">MenuBarComponent</a>.</p>
 
 </div>
 </div>
@@ -4452,6 +4455,50 @@ template&lt;class TargetClass &gt; </div>
 <p>Reimplemented from <a class="el" href="classMouseListener.html#afb5eae301f38f79acb6c13dcb8cb7532">MouseListener</a>.</p>
 
 <p>Reimplemented in <a class="el" href="classSlider.html#a09e8afb03036d1ffe8de3e25221267ae">Slider</a>, <a class="el" href="classTextEditor.html#a0c66aa10d4e8dc7eff7eac39d7cdd08e">TextEditor</a>, <a class="el" href="classListBox.html#ac82712800c23ab48599c23bcfbf43553">ListBox</a>, <a class="el" href="classCodeEditorComponent.html#afbe7a92f8c33b0a6d9905688831b7aab">CodeEditorComponent</a>, <a class="el" href="classScrollBar.html#a0798fd49fcad1772567ae6b55e083615">ScrollBar</a>, <a class="el" href="classMidiKeyboardComponent.html#aee9ef3adcf158ddcebd7f4436a4fc8fc">MidiKeyboardComponent</a>, and <a class="el" href="classViewport.html#a72e58f850d84b9eb93b3ad40587f8969">Viewport</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abde4246acd5f0289785daf92b8c87d81"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Component::mouseMagnify </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;&#160;</td>
+          <td class="paramname"><em>event</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaleFactor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when a pinch-to-zoom mouse-gesture is used. </p>
+<p>If not overridden, a component will forward this message to its parent, so that parent components can collect gesture messages that are unused by child components.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>details about the mouse event </td></tr>
+    <tr><td class="paramname">scaleFactor</td><td>a multiplier to indicate by how much the size of the target should be changed. A value of 1.0 would indicate no change, values greater than 1.0 mean it should be enlarged. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
