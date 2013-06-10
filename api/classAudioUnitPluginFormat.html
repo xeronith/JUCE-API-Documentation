@@ -115,6 +115,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a623858b900eba81fa3646fdc57890702"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioUnitPluginFormat.html#a623858b900eba81fa3646fdc57890702">getNameOfPluginFromIdentifier</a> (const <a class="el" href="classString.html">String</a> &amp;fileOrIdentifier)</td></tr>
 <tr class="memdesc:a623858b900eba81fa3646fdc57890702"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a readable version of the name of the plugin that this identifier refers to.  <a href="#a623858b900eba81fa3646fdc57890702"></a><br/></td></tr>
 <tr class="separator:a623858b900eba81fa3646fdc57890702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fbc65cbb086678603495d32f6464d9c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioUnitPluginFormat.html#a6fbc65cbb086678603495d32f6464d9c">pluginNeedsRescanning</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;)</td></tr>
+<tr class="memdesc:a6fbc65cbb086678603495d32f6464d9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this plugin's version or date has changed and it should be re-checked.  <a href="#a6fbc65cbb086678603495d32f6464d9c"></a><br/></td></tr>
+<tr class="separator:a6fbc65cbb086678603495d32f6464d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7ea28feb61dbf77ccb35e18b700dc40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioUnitPluginFormat.html#af7ea28feb61dbf77ccb35e18b700dc40">searchPathsForPlugins</a> (const <a class="el" href="classFileSearchPath.html">FileSearchPath</a> &amp;, bool recursive)</td></tr>
 <tr class="memdesc:af7ea28feb61dbf77ccb35e18b700dc40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches a suggested set of directories for any plugins in this format.  <a href="#af7ea28feb61dbf77ccb35e18b700dc40"></a><br/></td></tr>
 <tr class="separator:af7ea28feb61dbf77ccb35e18b700dc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -323,6 +326,34 @@ Additional Inherited Members</h2></td></tr>
 <p>Returns a readable version of the name of the plugin that this identifier refers to. </p>
 
 <p>Implements <a class="el" href="classAudioPluginFormat.html#a8e8251e287c4829606dda2f1730a1c32">AudioPluginFormat</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6fbc65cbb086678603495d32f6464d9c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AudioUnitPluginFormat::pluginNeedsRescanning </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if this plugin's version or date has changed and it should be re-checked. </p>
+
+<p>Implements <a class="el" href="classAudioPluginFormat.html#aeaf55cd79107b25ca1c0dbc685890aa3">AudioPluginFormat</a>.</p>
 
 </div>
 </div>

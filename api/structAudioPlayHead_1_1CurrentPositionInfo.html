@@ -127,7 +127,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a5a8c7375646228f378c4eb673f49a9e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">For timecode, the position of the start of the edit, in seconds from 00:00:00:00.  <a href="#a5a8c7375646228f378c4eb673f49a9e0"></a><br/></td></tr>
 <tr class="separator:a5a8c7375646228f378c4eb673f49a9e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae819730a8f2918f97b9869970ff8c3d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioPlayHead_1_1CurrentPositionInfo.html#aae819730a8f2918f97b9869970ff8c3d">ppqPosition</a></td></tr>
-<tr class="memdesc:aae819730a8f2918f97b9869970ff8c3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current play position in pulses-per-quarter-note.  <a href="#aae819730a8f2918f97b9869970ff8c3d"></a><br/></td></tr>
+<tr class="memdesc:aae819730a8f2918f97b9869970ff8c3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current play position, in pulses-per-quarter-note.  <a href="#aae819730a8f2918f97b9869970ff8c3d"></a><br/></td></tr>
 <tr class="separator:aae819730a8f2918f97b9869970ff8c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7967e1315115628cb35f93f389a3448"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioPlayHead_1_1CurrentPositionInfo.html#ad7967e1315115628cb35f93f389a3448">ppqPositionOfLastBarStart</a></td></tr>
 <tr class="memdesc:ad7967e1315115628cb35f93f389a3448"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position of the start of the last bar, in pulses-per-quarter-note.  <a href="#ad7967e1315115628cb35f93f389a3448"></a><br/></td></tr>
@@ -314,8 +314,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The current play position in pulses-per-quarter-note. </p>
-<p>This is the number of quarter notes since the edit start. </p>
+<p>The current play position, in pulses-per-quarter-note. </p>
 
 </div>
 </div>
@@ -330,7 +329,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The position of the start of the last bar, in pulses-per-quarter-note. </p>
-<p>This is the number of quarter notes from the start of the edit to the start of the current bar.</p>
+<p>This is the time from the start of the edit to the start of the current bar, in ppq units.</p>
 <p>Note - this value may be unavailable on some hosts, e.g. Pro-Tools. If it's not available, the value will be 0. </p>
 
 </div>

@@ -221,7 +221,7 @@ Protected Member Functions</h2></td></tr>
 <p>Returns a description of this file format. </p>
 <p>E.g. "JPEG", "PNG" </p>
 
-<p>Implemented in <a class="el" href="classGIFImageFormat.html#a4848377ac83ccf0ad54120e0c42ba0d9">GIFImageFormat</a>, <a class="el" href="classJPEGImageFormat.html#a480b8359659b767a48bf861182a47fff">JPEGImageFormat</a>, and <a class="el" href="classPNGImageFormat.html#a0abcc06eb764767219f75415e77b7308">PNGImageFormat</a>.</p>
+<p>Implemented in <a class="el" href="classGIFImageFormat.html#a4ab7fdbc4d2ba521a3ddb7984711190e">GIFImageFormat</a>, <a class="el" href="classJPEGImageFormat.html#a580438021f8ee14513a972e3b0e8acee">JPEGImageFormat</a>, and <a class="el" href="classPNGImageFormat.html#aa559a3e0e0cbd4a6e531053884ece7d0">PNGImageFormat</a>.</p>
 
 </div>
 </div>
@@ -249,9 +249,10 @@ Protected Member Functions</h2></td></tr>
 
 <p>Returns true if the given stream seems to contain data that this format understands. </p>
 <p>The format class should only read the first few bytes of the stream and sniff for header bytes that it understands.</p>
+<p>Note that this will advance the stream and leave it in a new position, so if you're planning on re-using it, you may want to rewind it after calling this method.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classImageFileFormat.html#a7ece13108d27014ff96e67ce80dd4092" title="Tries to decode and return an image from the given stream.">decodeImage</a> </dd></dl>
 
-<p>Implemented in <a class="el" href="classGIFImageFormat.html#a482ca505b61af3903820411546015681">GIFImageFormat</a>, <a class="el" href="classJPEGImageFormat.html#affbf9cfed2bb92a27d8feaa5cca3152f">JPEGImageFormat</a>, and <a class="el" href="classPNGImageFormat.html#a898aeff02c886e2a26ddfffe2dbe7eee">PNGImageFormat</a>.</p>
+<p>Implemented in <a class="el" href="classGIFImageFormat.html#a8604699a3e5d864bf5b1c00c1e64ef1a">GIFImageFormat</a>, <a class="el" href="classJPEGImageFormat.html#a46d7cc60e66d9dbbd1f49e13fff643d8">JPEGImageFormat</a>, and <a class="el" href="classPNGImageFormat.html#a75215cead892df2027067899fb202f75">PNGImageFormat</a>.</p>
 
 </div>
 </div>
@@ -279,7 +280,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Returns true if this format uses the file extension of the given file. </p>
 
-<p>Implemented in <a class="el" href="classGIFImageFormat.html#ad0580130800051e86bf8170740947c99">GIFImageFormat</a>, <a class="el" href="classJPEGImageFormat.html#acd71eabdcba45217a477f9a39d87ad10">JPEGImageFormat</a>, and <a class="el" href="classPNGImageFormat.html#a92da382df4b60b06e9268ba868d0e7c9">PNGImageFormat</a>.</p>
+<p>Implemented in <a class="el" href="classGIFImageFormat.html#a34c4b425944129a609bc03869ace660e">GIFImageFormat</a>, <a class="el" href="classJPEGImageFormat.html#af1222e40615be2b2b4a0aafa0c0f2e63">JPEGImageFormat</a>, and <a class="el" href="classPNGImageFormat.html#a8378d3d8b14b42baef523646256d52f5">PNGImageFormat</a>.</p>
 
 </div>
 </div>
@@ -316,7 +317,7 @@ Protected Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>the image that was decoded, or an invalid image if it fails. </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classImageFileFormat.html#a1ce6ae82e06b40e9149d1ab73951ce1c" title="Tries to load an image from a stream.">loadFrom</a> </dd></dl>
 
-<p>Implemented in <a class="el" href="classGIFImageFormat.html#a30aab4005e0609815159e9ed99652d9d">GIFImageFormat</a>, <a class="el" href="classJPEGImageFormat.html#a16249c51337029127b625233d49ae0e7">JPEGImageFormat</a>, and <a class="el" href="classPNGImageFormat.html#a03c777dac5d5e0e9f82b8930e396871e">PNGImageFormat</a>.</p>
+<p>Implemented in <a class="el" href="classGIFImageFormat.html#a3d590bd7724eb6bbbc66874c64ebc60e">GIFImageFormat</a>, <a class="el" href="classJPEGImageFormat.html#a5e8ca3478c69a084e03ec544ce6dfd46">JPEGImageFormat</a>, and <a class="el" href="classPNGImageFormat.html#a673c4af27ec2b84cd2a3c68289956e89">PNGImageFormat</a>.</p>
 
 </div>
 </div>
@@ -356,7 +357,7 @@ Protected Member Functions</h2></td></tr>
 <p>To specify extra information like encoding quality, there will be appropriate parameters in the subclasses of the specific file types.</p>
 <dl class="section return"><dt>Returns</dt><dd>true if it nothing went wrong. </dd></dl>
 
-<p>Implemented in <a class="el" href="classGIFImageFormat.html#a25fa8ee423088f8dc7300997093ab512">GIFImageFormat</a>, <a class="el" href="classJPEGImageFormat.html#a4d41f19c27e81243677780a10a15b567">JPEGImageFormat</a>, and <a class="el" href="classPNGImageFormat.html#ae2dcd3a90cf8d395e1d6cf43c0d09fdc">PNGImageFormat</a>.</p>
+<p>Implemented in <a class="el" href="classGIFImageFormat.html#acba165859a1abe11b0db5ef73fd2b47a">GIFImageFormat</a>, <a class="el" href="classJPEGImageFormat.html#a6f21e23fcacb223986c35e6d30e78d1b">JPEGImageFormat</a>, and <a class="el" href="classPNGImageFormat.html#a7031dda1d23807b29da3ef31e57f814a">PNGImageFormat</a>.</p>
 
 </div>
 </div>

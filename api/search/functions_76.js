@@ -6,7 +6,7 @@ var searchData=
   ['valueexistswow64',['valueExistsWow64',['../classWindowsRegistry.html#a7848ca112103e937736270e645454773',1,'WindowsRegistry']]],
   ['valuesource',['ValueSource',['../classValue_1_1ValueSource.html#a38f5ca1d8aed95c1d5caaa9c1c461626',1,'Value::ValueSource']]],
   ['valuetoproportionoflength',['valueToProportionOfLength',['../classSlider.html#a0549ec352b8dca4ca4ba1afa43263370',1,'Slider']]],
-  ['valuetree',['ValueTree',['../classValueTree.html#ad5671081941b3db9db42bf7fcbd2629c',1,'ValueTree::ValueTree() noexcept'],['../classValueTree.html#af2f66bc6973b9a7561af455bd6fb331c',1,'ValueTree::ValueTree(const Identifier &amp;type)'],['../classValueTree.html#a685fac19f67d8138645b6ccdb37f6809',1,'ValueTree::ValueTree(const ValueTree &amp;other)']]],
+  ['valuetree',['ValueTree',['../classValueTree.html#ad5671081941b3db9db42bf7fcbd2629c',1,'ValueTree::ValueTree() noexcept'],['../classValueTree.html#aeac1dd1fa8749eb9afc6ab6c73074a6b',1,'ValueTree::ValueTree(const Identifier type)'],['../classValueTree.html#a685fac19f67d8138645b6ccdb37f6809',1,'ValueTree::ValueTree(const ValueTree &amp;other)']]],
   ['valuetreechildadded',['valueTreeChildAdded',['../classValueTree_1_1Listener.html#abd937fd4a9a57124ff6c68bd49ce9b67',1,'ValueTree::Listener']]],
   ['valuetreechildorderchanged',['valueTreeChildOrderChanged',['../classValueTree_1_1Listener.html#a0cad448902df4f53a4e2056411cd738a',1,'ValueTree::Listener']]],
   ['valuetreechildremoved',['valueTreeChildRemoved',['../classValueTree_1_1Listener.html#a8d333d132218dcc301ec2754117e8587',1,'ValueTree::Listener']]],

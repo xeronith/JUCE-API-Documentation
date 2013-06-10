@@ -83,6 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classStringArray-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">StringArray Class Reference</div>  </div>
@@ -214,6 +215,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad918c336c4ce47a405e1f718e1e8215d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#ad918c336c4ce47a405e1f718e1e8215d">minimiseStorageOverheads</a> ()</td></tr>
 <tr class="memdesc:ad918c336c4ce47a405e1f718e1e8215d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reduces the amount of storage being used by the array.  <a href="#ad918c336c4ce47a405e1f718e1e8215d"></a><br/></td></tr>
 <tr class="separator:ad918c336c4ce47a405e1f718e1e8215d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a5fb8a3b5536eda14ff3e04878ba88406"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#a5fb8a3b5536eda14ff3e04878ba88406">fromTokens</a> (const <a class="el" href="classString.html">String</a> &amp;stringToTokenise, bool preserveQuotedStrings)</td></tr>
+<tr class="memdesc:a5fb8a3b5536eda14ff3e04878ba88406"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an array containing the tokens in a given string.  <a href="#a5fb8a3b5536eda14ff3e04878ba88406"></a><br/></td></tr>
+<tr class="separator:a5fb8a3b5536eda14ff3e04878ba88406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfac9b464937edfe2a848bfd5af8c917"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#abfac9b464937edfe2a848bfd5af8c917">fromTokens</a> (const <a class="el" href="classString.html">String</a> &amp;stringToTokenise, const <a class="el" href="classString.html">String</a> &amp;breakCharacters, const <a class="el" href="classString.html">String</a> &amp;quoteCharacters)</td></tr>
+<tr class="memdesc:abfac9b464937edfe2a848bfd5af8c917"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an array containing the tokens in a given string.  <a href="#abfac9b464937edfe2a848bfd5af8c917"></a><br/></td></tr>
+<tr class="separator:abfac9b464937edfe2a848bfd5af8c917"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a359dc5fd54c0165170f090143c450a7f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#a359dc5fd54c0165170f090143c450a7f">fromLines</a> (const <a class="el" href="classString.html">String</a> &amp;stringToBreakUp)</td></tr>
+<tr class="memdesc:a359dc5fd54c0165170f090143c450a7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an array containing the lines in a given string.  <a href="#a359dc5fd54c0165170f090143c450a7f"></a><br/></td></tr>
+<tr class="separator:a359dc5fd54c0165170f090143c450a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A special array for holding a list of strings. </p>
@@ -945,8 +958,9 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Breaks up a string into tokens and adds them to this array. </p>
-<p>This will tokenise the given string using whitespace characters as the token delimiters, and will add these tokens to the end of the array.</p>
+<p>This will tokenise the given string using whitespace characters as the token delimiters, and will add these tokens to the end of the array. </p>
 <dl class="section return"><dt>Returns</dt><dd>the number of tokens added </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classStringArray.html#a5fb8a3b5536eda14ff3e04878ba88406" title="Returns an array containing the tokens in a given string.">fromTokens</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classRectangle.html#a1c76b1a985681788a2e3244a130b5d8f">Rectangle&lt; int &gt;::fromString()</a>.</p>
 
@@ -993,6 +1007,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the number of tokens added </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classStringArray.html#a5fb8a3b5536eda14ff3e04878ba88406" title="Returns an array containing the tokens in a given string.">fromTokens</a> </dd></dl>
 
 </div>
 </div>
@@ -1012,6 +1027,123 @@ Public Member Functions</h2></td></tr>
 
 <p>Breaks up a string into lines and adds them to this array. </p>
 <p>This breaks a string down into lines separated by \n or \r\n, and adds each line to the array. Line-break characters are omitted from the strings that are added to the array. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5fb8a3b5536eda14ff3e04878ba88406"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classStringArray.html">StringArray</a> StringArray::fromTokens </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>stringToTokenise</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>preserveQuotedStrings</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an array containing the tokens in a given string. </p>
+<p>This will tokenise the given string using whitespace characters as the token delimiters, and return these tokens as an array. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classStringArray.html#a4db768027b40abe822ffb3d381038be4" title="Breaks up a string into tokens and adds them to this array.">addTokens</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abfac9b464937edfe2a848bfd5af8c917"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classStringArray.html">StringArray</a> StringArray::fromTokens </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>stringToTokenise</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>breakCharacters</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>quoteCharacters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an array containing the tokens in a given string. </p>
+<p>This will tokenise the given string using whitespace characters as the token delimiters, and return these tokens as an array.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stringToTokenise</td><td>the string to tokenise </td></tr>
+    <tr><td class="paramname">breakCharacters</td><td>a string of characters, any of which will be considered to be a token delimiter. </td></tr>
+    <tr><td class="paramname">quoteCharacters</td><td>if this string isn't empty, it defines a set of characters which are treated as quotes. Any text occurring between quotes is not broken up into tokens. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classStringArray.html#a4db768027b40abe822ffb3d381038be4" title="Breaks up a string into tokens and adds them to this array.">addTokens</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a359dc5fd54c0165170f090143c450a7f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classStringArray.html">StringArray</a> StringArray::fromLines </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>stringToBreakUp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an array containing the lines in a given string. </p>
+<p>This breaks a string down into lines separated by \n or \r\n, and returns an array containing these lines. Line-break characters are omitted from the strings that are added to the array. </p>
 
 </div>
 </div>

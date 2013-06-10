@@ -26,7 +26,7 @@ var searchData=
   ['transparentblack',['transparentBlack',['../classColours.html#a0ce54d7a6cbbce207c29165102d3a35f',1,'Colours']]],
   ['transparentwhite',['transparentWhite',['../classColours.html#a9188c880171c8f146d40801c304c25b2',1,'Colours']]],
   ['turquoise',['turquoise',['../classColours.html#a18ee88829e56e1e141d0291d0c540b1a',1,'Colours']]],
-  ['type',['type',['../classPluginHostType.html#a68445668ee6eb3a17a260550e9354e78',1,'PluginHostType::type()'],['../classDrawableShape_1_1FillAndStrokeState.html#a6e88af5b0b69cf94ac15249483c0120a',1,'DrawableShape::FillAndStrokeState::type()'],['../classComponentBuilder_1_1TypeHandler.html#a16f363c68f0e40e262d15a86b022476c',1,'ComponentBuilder::TypeHandler::type()'],['../classRelativePointPath_1_1ElementBase.html#abe70425cff02542da9a97ac678de34d8',1,'RelativePointPath::ElementBase::type()']]],
+  ['type',['type',['../classPluginHostType.html#a93570a724e75b93db0bac819432895bb',1,'PluginHostType::type()'],['../classDrawableShape_1_1FillAndStrokeState.html#a6e88af5b0b69cf94ac15249483c0120a',1,'DrawableShape::FillAndStrokeState::type()'],['../classComponentBuilder_1_1TypeHandler.html#a16f363c68f0e40e262d15a86b022476c',1,'ComponentBuilder::TypeHandler::type()'],['../classRelativePointPath_1_1ElementBase.html#abe70425cff02542da9a97ac678de34d8',1,'RelativePointPath::ElementBase::type()']]],
   ['typename',['typeName',['../classAudioIODevice.html#a0f3aec64dbabccdd7a9a688def70cf45',1,'AudioIODevice']]],
   ['types',['types',['../structCodeEditorComponent_1_1ColourScheme.html#ab62bd258568a2060a3c7c61364af27fe',1,'CodeEditorComponent::ColourScheme']]]
 ];

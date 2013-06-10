@@ -156,9 +156,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8364ba510d676c59677c997a7f89235c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList.html#a8364ba510d676c59677c997a7f89235c">scanAndAddFile</a> (const <a class="el" href="classString.html">String</a> &amp;possiblePluginFileOrIdentifier, bool dontRescanIfAlreadyInList, <a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; <a class="el" href="classPluginDescription.html">PluginDescription</a> &gt; &amp;typesFound, <a class="el" href="classAudioPluginFormat.html">AudioPluginFormat</a> &amp;formatToUse)</td></tr>
 <tr class="memdesc:a8364ba510d676c59677c997a7f89235c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for all types that can be loaded from a given file, and adds them to the list.  <a href="#a8364ba510d676c59677c997a7f89235c"></a><br/></td></tr>
 <tr class="separator:a8364ba510d676c59677c997a7f89235c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee17a685ddb53a81e3d660619b32c1a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList.html#aee17a685ddb53a81e3d660619b32c1a1">isListingUpToDate</a> (const <a class="el" href="classString.html">String</a> &amp;possiblePluginFileOrIdentifier) const </td></tr>
-<tr class="memdesc:aee17a685ddb53a81e3d660619b32c1a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the specified file is already known about and if it hasn't been modified since our entry was created.  <a href="#aee17a685ddb53a81e3d660619b32c1a1"></a><br/></td></tr>
-<tr class="separator:aee17a685ddb53a81e3d660619b32c1a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa91b773056dbfff532f0e044ab091da8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList.html#aa91b773056dbfff532f0e044ab091da8">isListingUpToDate</a> (const <a class="el" href="classString.html">String</a> &amp;possiblePluginFileOrIdentifier, <a class="el" href="classAudioPluginFormat.html">AudioPluginFormat</a> &amp;formatToUse) const </td></tr>
+<tr class="memdesc:aa91b773056dbfff532f0e044ab091da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the specified file is already known about and if it hasn't been modified since our entry was created.  <a href="#aa91b773056dbfff532f0e044ab091da8"></a><br/></td></tr>
+<tr class="separator:aa91b773056dbfff532f0e044ab091da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7eeaf55798843613c61e44204ac4b83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList.html#ac7eeaf55798843613c61e44204ac4b83">scanAndAddDragAndDroppedFiles</a> (<a class="el" href="classAudioPluginFormatManager.html">AudioPluginFormatManager</a> &amp;formatManager, const <a class="el" href="classStringArray.html">StringArray</a> &amp;filenames, <a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; <a class="el" href="classPluginDescription.html">PluginDescription</a> &gt; &amp;typesFound)</td></tr>
 <tr class="memdesc:ac7eeaf55798843613c61e44204ac4b83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scans and adds a bunch of files that might have been dragged-and-dropped.  <a href="#ac7eeaf55798843613c61e44204ac4b83"></a><br/></td></tr>
 <tr class="separator:ac7eeaf55798843613c61e44204ac4b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -524,7 +524,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aee17a685ddb53a81e3d660619b32c1a1"></a>
+<a class="anchor" id="aa91b773056dbfff532f0e044ab091da8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -532,8 +532,18 @@ Public Member Functions</h2></td></tr>
           <td class="memname">bool KnownPluginList::isListingUpToDate </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>possiblePluginFileOrIdentifier</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>possiblePluginFileOrIdentifier</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classAudioPluginFormat.html">AudioPluginFormat</a> &amp;&#160;</td>
+          <td class="paramname"><em>formatToUse</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">

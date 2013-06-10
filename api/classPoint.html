@@ -113,16 +113,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adcc79a0f47517756667910dd2edec635"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#adcc79a0f47517756667910dd2edec635">Point</a> (const ValueType initialX, const ValueType initialY) noexcept</td></tr>
 <tr class="memdesc:adcc79a0f47517756667910dd2edec635"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a point from an (x, y) position.  <a href="#adcc79a0f47517756667910dd2edec635"></a><br/></td></tr>
 <tr class="separator:adcc79a0f47517756667910dd2edec635"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b98a444350b06362e6a7c8f8fc480a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a2b98a444350b06362e6a7c8f8fc480a2">~Point</a> () noexcept</td></tr>
-<tr class="memdesc:a2b98a444350b06362e6a7c8f8fc480a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a2b98a444350b06362e6a7c8f8fc480a2"></a><br/></td></tr>
-<tr class="separator:a2b98a444350b06362e6a7c8f8fc480a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa512c038dc5e7c2a07f54e418e410dec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#aa512c038dc5e7c2a07f54e418e410dec">operator=</a> (const <a class="el" href="classPoint.html">Point</a> &amp;other) noexcept</td></tr>
 <tr class="memdesc:aa512c038dc5e7c2a07f54e418e410dec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies this point from another one.  <a href="#aa512c038dc5e7c2a07f54e418e410dec"></a><br/></td></tr>
 <tr class="separator:aa512c038dc5e7c2a07f54e418e410dec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85aa676d44ebf9297d99a9c1affe3a8b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a85aa676d44ebf9297d99a9c1affe3a8b">operator==</a> (const <a class="el" href="classPoint.html">Point</a> &amp;other) const noexcept</td></tr>
-<tr class="separator:a85aa676d44ebf9297d99a9c1affe3a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83df37f32ae54e13f7d0cabae7102326"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a83df37f32ae54e13f7d0cabae7102326">operator!=</a> (const <a class="el" href="classPoint.html">Point</a> &amp;other) const noexcept</td></tr>
-<tr class="separator:a83df37f32ae54e13f7d0cabae7102326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9291566102bf3bf560931c52a30fe742"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a9291566102bf3bf560931c52a30fe742">operator==</a> (<a class="el" href="classPoint.html">Point</a> other) const noexcept</td></tr>
+<tr class="separator:a9291566102bf3bf560931c52a30fe742"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4490b122855866b712f486f5ea25d1c8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a4490b122855866b712f486f5ea25d1c8">operator!=</a> (<a class="el" href="classPoint.html">Point</a> other) const noexcept</td></tr>
+<tr class="separator:a4490b122855866b712f486f5ea25d1c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a04a1b716ac0b9618dd1a6c42ffbb09"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a8a04a1b716ac0b9618dd1a6c42ffbb09">isOrigin</a> () const noexcept</td></tr>
 <tr class="memdesc:a8a04a1b716ac0b9618dd1a6c42ffbb09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the point is (0, 0).  <a href="#a8a04a1b716ac0b9618dd1a6c42ffbb09"></a><br/></td></tr>
 <tr class="separator:a8a04a1b716ac0b9618dd1a6c42ffbb09"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,18 +150,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa6c58e63ecbb225c75702f0cfb036653"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#aa6c58e63ecbb225c75702f0cfb036653">translated</a> (const ValueType xDelta, const ValueType yDelta) const noexcept</td></tr>
 <tr class="memdesc:aa6c58e63ecbb225c75702f0cfb036653"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a point with a given offset from this one.  <a href="#aa6c58e63ecbb225c75702f0cfb036653"></a><br/></td></tr>
 <tr class="separator:aa6c58e63ecbb225c75702f0cfb036653"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2e4c8bc3f2e556366ee7821f3af2e3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#ab2e4c8bc3f2e556366ee7821f3af2e3e">operator+</a> (const <a class="el" href="classPoint.html">Point</a> &amp;other) const noexcept</td></tr>
-<tr class="memdesc:ab2e4c8bc3f2e556366ee7821f3af2e3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds two points together.  <a href="#ab2e4c8bc3f2e556366ee7821f3af2e3e"></a><br/></td></tr>
-<tr class="separator:ab2e4c8bc3f2e556366ee7821f3af2e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd0901083454385cf39b8980a9b87e96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#afd0901083454385cf39b8980a9b87e96">operator+=</a> (const <a class="el" href="classPoint.html">Point</a> &amp;other) noexcept</td></tr>
-<tr class="memdesc:afd0901083454385cf39b8980a9b87e96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds another point's co-ordinates to this one.  <a href="#afd0901083454385cf39b8980a9b87e96"></a><br/></td></tr>
-<tr class="separator:afd0901083454385cf39b8980a9b87e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98a0c9dc87e5af970039109c40a1c9ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a98a0c9dc87e5af970039109c40a1c9ca">operator-</a> (const <a class="el" href="classPoint.html">Point</a> &amp;other) const noexcept</td></tr>
-<tr class="memdesc:a98a0c9dc87e5af970039109c40a1c9ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtracts one points from another.  <a href="#a98a0c9dc87e5af970039109c40a1c9ca"></a><br/></td></tr>
-<tr class="separator:a98a0c9dc87e5af970039109c40a1c9ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06a4e8f92f608babfd55237781d677f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a06a4e8f92f608babfd55237781d677f8">operator-=</a> (const <a class="el" href="classPoint.html">Point</a> &amp;other) noexcept</td></tr>
-<tr class="memdesc:a06a4e8f92f608babfd55237781d677f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtracts another point's co-ordinates to this one.  <a href="#a06a4e8f92f608babfd55237781d677f8"></a><br/></td></tr>
-<tr class="separator:a06a4e8f92f608babfd55237781d677f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41c138cd6a69351bfb12021015e85eb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a41c138cd6a69351bfb12021015e85eb9">operator+</a> (<a class="el" href="classPoint.html">Point</a> other) const noexcept</td></tr>
+<tr class="memdesc:a41c138cd6a69351bfb12021015e85eb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds two points together.  <a href="#a41c138cd6a69351bfb12021015e85eb9"></a><br/></td></tr>
+<tr class="separator:a41c138cd6a69351bfb12021015e85eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1087d525d444bf86d02854060ebe7d05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a1087d525d444bf86d02854060ebe7d05">operator+=</a> (<a class="el" href="classPoint.html">Point</a> other) noexcept</td></tr>
+<tr class="memdesc:a1087d525d444bf86d02854060ebe7d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds another point's co-ordinates to this one.  <a href="#a1087d525d444bf86d02854060ebe7d05"></a><br/></td></tr>
+<tr class="separator:a1087d525d444bf86d02854060ebe7d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbbd0aeada114ad01fb4686a3d080910"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#abbbd0aeada114ad01fb4686a3d080910">operator-</a> (<a class="el" href="classPoint.html">Point</a> other) const noexcept</td></tr>
+<tr class="memdesc:abbbd0aeada114ad01fb4686a3d080910"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtracts one points from another.  <a href="#abbbd0aeada114ad01fb4686a3d080910"></a><br/></td></tr>
+<tr class="separator:abbbd0aeada114ad01fb4686a3d080910"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab048e681bb8928eed6825ac385d0f2cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#ab048e681bb8928eed6825ac385d0f2cd">operator-=</a> (<a class="el" href="classPoint.html">Point</a> other) noexcept</td></tr>
+<tr class="memdesc:ab048e681bb8928eed6825ac385d0f2cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtracts another point's co-ordinates to this one.  <a href="#ab048e681bb8928eed6825ac385d0f2cd"></a><br/></td></tr>
+<tr class="separator:ab048e681bb8928eed6825ac385d0f2cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad834e3af7aa48f190084dca4501e7738"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#ad834e3af7aa48f190084dca4501e7738">operator*</a> (const ValueType multiplier) const noexcept</td></tr>
 <tr class="memdesc:ad834e3af7aa48f190084dca4501e7738"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a point whose coordinates are multiplied by a given value.  <a href="#ad834e3af7aa48f190084dca4501e7738"></a><br/></td></tr>
 <tr class="separator:ad834e3af7aa48f190084dca4501e7738"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,12 +180,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac4ceeae6b4a33d7f604d8714423b42c8"><td class="memItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#ac4ceeae6b4a33d7f604d8714423b42c8">getDistanceFromOrigin</a> () const noexcept</td></tr>
 <tr class="memdesc:ac4ceeae6b4a33d7f604d8714423b42c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the straight-line distance between this point and the origin.  <a href="#ac4ceeae6b4a33d7f604d8714423b42c8"></a><br/></td></tr>
 <tr class="separator:ac4ceeae6b4a33d7f604d8714423b42c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae931deaeadf711093ec361e0be2c03c2"><td class="memItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#ae931deaeadf711093ec361e0be2c03c2">getDistanceFrom</a> (const <a class="el" href="classPoint.html">Point</a> &amp;other) const noexcept</td></tr>
-<tr class="memdesc:ae931deaeadf711093ec361e0be2c03c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the straight-line distance between this point and another one.  <a href="#ae931deaeadf711093ec361e0be2c03c2"></a><br/></td></tr>
-<tr class="separator:ae931deaeadf711093ec361e0be2c03c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9abf15d18241300e34f8d460b1fcee1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#ac9abf15d18241300e34f8d460b1fcee1">getAngleToPoint</a> (const <a class="el" href="classPoint.html">Point</a> &amp;other) const noexcept</td></tr>
-<tr class="memdesc:ac9abf15d18241300e34f8d460b1fcee1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle from this point to another one.  <a href="#ac9abf15d18241300e34f8d460b1fcee1"></a><br/></td></tr>
-<tr class="separator:ac9abf15d18241300e34f8d460b1fcee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2193abdf90f3dd51aba14b7780e6579"><td class="memItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#af2193abdf90f3dd51aba14b7780e6579">getDistanceFrom</a> (<a class="el" href="classPoint.html">Point</a> other) const noexcept</td></tr>
+<tr class="memdesc:af2193abdf90f3dd51aba14b7780e6579"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the straight-line distance between this point and another one.  <a href="#af2193abdf90f3dd51aba14b7780e6579"></a><br/></td></tr>
+<tr class="separator:af2193abdf90f3dd51aba14b7780e6579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92b9dfb8f5ffcb16e0c7d394feddf29c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a92b9dfb8f5ffcb16e0c7d394feddf29c">getAngleToPoint</a> (<a class="el" href="classPoint.html">Point</a> other) const noexcept</td></tr>
+<tr class="memdesc:a92b9dfb8f5ffcb16e0c7d394feddf29c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle from this point to another one.  <a href="#a92b9dfb8f5ffcb16e0c7d394feddf29c"></a><br/></td></tr>
+<tr class="separator:a92b9dfb8f5ffcb16e0c7d394feddf29c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f5c281b84d55ddad144c5ec9554108e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; <a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a0f5c281b84d55ddad144c5ec9554108e">getPointOnCircumference</a> (const float radius, const float angle) const noexcept</td></tr>
 <tr class="memdesc:a0f5c281b84d55ddad144c5ec9554108e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Taking this point to be the centre of a circle, this returns a point on its circumference.  <a href="#a0f5c281b84d55ddad144c5ec9554108e"></a><br/></td></tr>
 <tr class="separator:a0f5c281b84d55ddad144c5ec9554108e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,9 +198,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa30fec65a5bea3c630f2e6b2cd356ba4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#aa30fec65a5bea3c630f2e6b2cd356ba4">transformedBy</a> (const <a class="el" href="classAffineTransform.html">AffineTransform</a> &amp;transform) const noexcept</td></tr>
 <tr class="memdesc:aa30fec65a5bea3c630f2e6b2cd356ba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the position of this point, if it is transformed by a given <a class="el" href="classAffineTransform.html" title="Represents a 2D affine-transformation matrix.">AffineTransform</a>.  <a href="#aa30fec65a5bea3c630f2e6b2cd356ba4"></a><br/></td></tr>
 <tr class="separator:aa30fec65a5bea3c630f2e6b2cd356ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b983bd569e4927c406548dd4d945686"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a5b983bd569e4927c406548dd4d945686">getDotProduct</a> (const <a class="el" href="classPoint.html">Point</a> &amp;other) const noexcept</td></tr>
-<tr class="memdesc:a5b983bd569e4927c406548dd4d945686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot-product of two points (x1 * x2 + y1 * y2).  <a href="#a5b983bd569e4927c406548dd4d945686"></a><br/></td></tr>
-<tr class="separator:a5b983bd569e4927c406548dd4d945686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5d6e098246fa7d94a65c0d78a197fd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#ae5d6e098246fa7d94a65c0d78a197fd8">getDotProduct</a> (<a class="el" href="classPoint.html">Point</a> other) const noexcept</td></tr>
+<tr class="memdesc:ae5d6e098246fa7d94a65c0d78a197fd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot-product of two points (x1 * x2 + y1 * y2).  <a href="#ae5d6e098246fa7d94a65c0d78a197fd8"></a><br/></td></tr>
+<tr class="separator:ae5d6e098246fa7d94a65c0d78a197fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9baec905a57c6d59fb827422ab02d9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#ab9baec905a57c6d59fb827422ab02d9f">toInt</a> () const noexcept</td></tr>
 <tr class="memdesc:ab9baec905a57c6d59fb827422ab02d9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casts this point to a <a class="el" href="classPoint.html">Point&lt;int&gt;</a> object.  <a href="#ab9baec905a57c6d59fb827422ab02d9f"></a><br/></td></tr>
 <tr class="separator:ab9baec905a57c6d59fb827422ab02d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -276,7 +273,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Creates a point with co-ordinates (0, 0). </p>
 
-<p>Referenced by <a class="el" href="classPoint.html#ad834e3af7aa48f190084dca4501e7738">Point&lt; int &gt;::operator*()</a>, <a class="el" href="classPoint.html#ab2e4c8bc3f2e556366ee7821f3af2e3e">Point&lt; int &gt;::operator+()</a>, <a class="el" href="classPoint.html#a98a0c9dc87e5af970039109c40a1c9ca">Point&lt; int &gt;::operator-()</a>, <a class="el" href="classPoint.html#ac1bb455f5df35c11dec9303a03e599cf">Point&lt; int &gt;::operator/()</a>, <a class="el" href="classPoint.html#aa30fec65a5bea3c630f2e6b2cd356ba4">Point&lt; int &gt;::transformedBy()</a>, <a class="el" href="classPoint.html#aa6c58e63ecbb225c75702f0cfb036653">Point&lt; int &gt;::translated()</a>, <a class="el" href="classPoint.html#adbb0fcaf4ed125113467453f229e0bd0">Point&lt; int &gt;::withX()</a>, and <a class="el" href="classPoint.html#a86e751c47aadad9acd0ede4cb793c2e1">Point&lt; int &gt;::withY()</a>.</p>
+<p>Referenced by <a class="el" href="classPoint.html#ad834e3af7aa48f190084dca4501e7738">Point&lt; int &gt;::operator*()</a>, <a class="el" href="classPoint.html#a41c138cd6a69351bfb12021015e85eb9">Point&lt; int &gt;::operator+()</a>, <a class="el" href="classPoint.html#abbbd0aeada114ad01fb4686a3d080910">Point&lt; int &gt;::operator-()</a>, <a class="el" href="classPoint.html#ac1bb455f5df35c11dec9303a03e599cf">Point&lt; int &gt;::operator/()</a>, <a class="el" href="classPoint.html#aa30fec65a5bea3c630f2e6b2cd356ba4">Point&lt; int &gt;::transformedBy()</a>, <a class="el" href="classPoint.html#aa6c58e63ecbb225c75702f0cfb036653">Point&lt; int &gt;::translated()</a>, <a class="el" href="classPoint.html#adbb0fcaf4ed125113467453f229e0bd0">Point&lt; int &gt;::withX()</a>, and <a class="el" href="classPoint.html#a86e751c47aadad9acd0ede4cb793c2e1">Point&lt; int &gt;::withY()</a>.</p>
 
 </div>
 </div>
@@ -346,33 +343,6 @@ template&lt;typename ValueType&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a2b98a444350b06362e6a7c8f8fc480a2"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::~<a class="el" href="classPoint.html">Point</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Destructor. </p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="aa512c038dc5e7c2a07f54e418e410dec"></a>
 <div class="memitem">
@@ -402,7 +372,7 @@ template&lt;typename ValueType&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a85aa676d44ebf9297d99a9c1affe3a8b"></a>
+<a class="anchor" id="a9291566102bf3bf560931c52a30fe742"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -414,7 +384,7 @@ template&lt;typename ValueType&gt; </div>
         <tr>
           <td class="memname">bool <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::operator== </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -428,7 +398,7 @@ template&lt;typename ValueType&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a83df37f32ae54e13f7d0cabae7102326"></a>
+<a class="anchor" id="a4490b122855866b712f486f5ea25d1c8"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -440,7 +410,7 @@ template&lt;typename ValueType&gt; </div>
         <tr>
           <td class="memname">bool <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::operator!= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -761,7 +731,7 @@ template&lt;typename ValueType&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ab2e4c8bc3f2e556366ee7821f3af2e3e"></a>
+<a class="anchor" id="a41c138cd6a69351bfb12021015e85eb9"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -773,7 +743,7 @@ template&lt;typename ValueType&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classPoint.html">Point</a> <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::operator+ </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -789,7 +759,7 @@ template&lt;typename ValueType&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="afd0901083454385cf39b8980a9b87e96"></a>
+<a class="anchor" id="a1087d525d444bf86d02854060ebe7d05"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -801,7 +771,7 @@ template&lt;typename ValueType&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classPoint.html">Point</a>&amp; <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::operator+= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -817,7 +787,7 @@ template&lt;typename ValueType&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a98a0c9dc87e5af970039109c40a1c9ca"></a>
+<a class="anchor" id="abbbd0aeada114ad01fb4686a3d080910"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -829,7 +799,7 @@ template&lt;typename ValueType&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classPoint.html">Point</a> <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::operator- </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -845,7 +815,7 @@ template&lt;typename ValueType&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a06a4e8f92f608babfd55237781d677f8"></a>
+<a class="anchor" id="ab048e681bb8928eed6825ac385d0f2cd"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -857,7 +827,7 @@ template&lt;typename ValueType&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classPoint.html">Point</a>&amp; <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::operator-= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1039,7 +1009,7 @@ template&lt;typename ValueType&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ae931deaeadf711093ec361e0be2c03c2"></a>
+<a class="anchor" id="af2193abdf90f3dd51aba14b7780e6579"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -1051,7 +1021,7 @@ template&lt;typename ValueType&gt; </div>
         <tr>
           <td class="memname">ValueType <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::getDistanceFrom </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1065,11 +1035,11 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns the straight-line distance between this point and another one. </p>
 
-<p>Referenced by <a class="el" href="classLine.html#ab19decc4c5bccabf58e0f775cd540a20">Line&lt; ValueType &gt;::getDistanceFromPoint()</a>.</p>
+<p>Referenced by <a class="el" href="classLine.html#a652456b4dc91e8404dcd10bc6a2a4a61">Line&lt; ValueType &gt;::getDistanceFromPoint()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac9abf15d18241300e34f8d460b1fcee1"></a>
+<a class="anchor" id="a92b9dfb8f5ffcb16e0c7d394feddf29c"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -1081,7 +1051,7 @@ template&lt;typename ValueType&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a> <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::getAngleToPoint </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1253,7 +1223,7 @@ template&lt;typename ValueType&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a5b983bd569e4927c406548dd4d945686"></a>
+<a class="anchor" id="ae5d6e098246fa7d94a65c0d78a197fd8"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -1265,7 +1235,7 @@ template&lt;typename ValueType&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a> <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::getDotProduct </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1396,7 +1366,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>The point's X coordinate. </p>
 
-<p>Referenced by <a class="el" href="classPoint.html#a8aa469e96468d049f83faacc23a2d8c4">Point&lt; int &gt;::addXY()</a>, <a class="el" href="classPoint.html#a1f25a1e3e1e4217301e776cb8454a619">Point&lt; int &gt;::applyTransform()</a>, <a class="el" href="classLine.html#a332f0fce64dfc58897371ed4146e5ac9">Line&lt; ValueType &gt;::findNearestProportionalPositionTo()</a>, <a class="el" href="classPoint.html#ac9abf15d18241300e34f8d460b1fcee1">Point&lt; int &gt;::getAngleToPoint()</a>, <a class="el" href="classPoint.html#ae931deaeadf711093ec361e0be2c03c2">Point&lt; int &gt;::getDistanceFrom()</a>, <a class="el" href="classPoint.html#ac4ceeae6b4a33d7f604d8714423b42c8">Point&lt; int &gt;::getDistanceFromOrigin()</a>, <a class="el" href="classLine.html#ab19decc4c5bccabf58e0f775cd540a20">Line&lt; ValueType &gt;::getDistanceFromPoint()</a>, <a class="el" href="classPoint.html#a5b983bd569e4927c406548dd4d945686">Point&lt; int &gt;::getDotProduct()</a>, <a class="el" href="classLine.html#a77bc36673f43fd4e4e966fe3294a9db5">Line&lt; ValueType &gt;::getPointAlongLine()</a>, <a class="el" href="classPoint.html#a0f5c281b84d55ddad144c5ec9554108e">Point&lt; int &gt;::getPointOnCircumference()</a>, <a class="el" href="classPoint.html#abcd6bc035cd3b4e2157523310af66483">Point&lt; int &gt;::getX()</a>, <a class="el" href="classPoint.html#a8a04a1b716ac0b9618dd1a6c42ffbb09">Point&lt; int &gt;::isOrigin()</a>, <a class="el" href="classPoint.html#a83df37f32ae54e13f7d0cabae7102326">Point&lt; int &gt;::operator!=()</a>, <a class="el" href="classPoint.html#ad834e3af7aa48f190084dca4501e7738">Point&lt; int &gt;::operator*()</a>, <a class="el" href="classPoint.html#a889fa932c3aeaa3fff43e1b2d2e15416">Point&lt; int &gt;::operator*=()</a>, <a class="el" href="classPoint.html#ab2e4c8bc3f2e556366ee7821f3af2e3e">Point&lt; int &gt;::operator+()</a>, <a class="el" href="classPoint.html#afd0901083454385cf39b8980a9b87e96">Point&lt; int &gt;::operator+=()</a>, <a class="el" href="classPoint.html#a98a0c9dc87e5af970039109c40a1c9ca">Point&lt; int &gt;::operator-()</a>, <a class="el" href="classPoint.html#a06a4e8f92f608babfd55237781d677f8">Point&lt; int &gt;::operator-=()</a>, <a class="el" href="classPoint.html#ac1bb455f5df35c11dec9303a03e599cf">Point&lt; int &gt;::operator/()</a>, <a class="el" href="classPoint.html#a3c63828959b0b9f3bb82ed60fc8abda7">Point&lt; int &gt;::operator/=()</a>, <a class="el" href="classPoint.html#aa512c038dc5e7c2a07f54e418e410dec">Point&lt; int &gt;::operator=()</a>, <a class="el" href="classPoint.html#a85aa676d44ebf9297d99a9c1affe3a8b">Point&lt; int &gt;::operator==()</a>, <a class="el" href="classPoint.html#a88be5ca4cece4a829658c2c81f773939">Point&lt; int &gt;::setX()</a>, <a class="el" href="classPoint.html#a6ee7fd1d4763fd41596993a842a0abc6">Point&lt; int &gt;::setXY()</a>, <a class="el" href="classPoint.html#ab30b19304bf09c2a8c9d01904585738e">Point&lt; int &gt;::toDouble()</a>, <a class="el" href="classPoint.html#a2d27c721e09caa04d89434c3095a0f9b">Point&lt; int &gt;::toFloat()</a>, <a class="el" href="classPoint.html#ab9baec905a57c6d59fb827422ab02d9f">Point&lt; int &gt;::toInt()</a>, <a class="el" href="classPoint.html#aee4d94cc4645d5dca2bfc41fb758c050">Point&lt; int &gt;::toString()</a>, <a class="el" href="classPoint.html#aa30fec65a5bea3c630f2e6b2cd356ba4">Point&lt; int &gt;::transformedBy()</a>, <a class="el" href="classPoint.html#aa6c58e63ecbb225c75702f0cfb036653">Point&lt; int &gt;::translated()</a>, and <a class="el" href="classPoint.html#a86e751c47aadad9acd0ede4cb793c2e1">Point&lt; int &gt;::withY()</a>.</p>
+<p>Referenced by <a class="el" href="classPoint.html#a8aa469e96468d049f83faacc23a2d8c4">Point&lt; int &gt;::addXY()</a>, <a class="el" href="classPoint.html#a1f25a1e3e1e4217301e776cb8454a619">Point&lt; int &gt;::applyTransform()</a>, <a class="el" href="classLine.html#a373b9f7e2029ce67295bbf606569e391">Line&lt; ValueType &gt;::findNearestProportionalPositionTo()</a>, <a class="el" href="classPoint.html#a92b9dfb8f5ffcb16e0c7d394feddf29c">Point&lt; int &gt;::getAngleToPoint()</a>, <a class="el" href="classPoint.html#af2193abdf90f3dd51aba14b7780e6579">Point&lt; int &gt;::getDistanceFrom()</a>, <a class="el" href="classPoint.html#ac4ceeae6b4a33d7f604d8714423b42c8">Point&lt; int &gt;::getDistanceFromOrigin()</a>, <a class="el" href="classLine.html#a652456b4dc91e8404dcd10bc6a2a4a61">Line&lt; ValueType &gt;::getDistanceFromPoint()</a>, <a class="el" href="classPoint.html#ae5d6e098246fa7d94a65c0d78a197fd8">Point&lt; int &gt;::getDotProduct()</a>, <a class="el" href="classLine.html#a77bc36673f43fd4e4e966fe3294a9db5">Line&lt; ValueType &gt;::getPointAlongLine()</a>, <a class="el" href="classPoint.html#a0f5c281b84d55ddad144c5ec9554108e">Point&lt; int &gt;::getPointOnCircumference()</a>, <a class="el" href="classPoint.html#abcd6bc035cd3b4e2157523310af66483">Point&lt; int &gt;::getX()</a>, <a class="el" href="classPoint.html#a8a04a1b716ac0b9618dd1a6c42ffbb09">Point&lt; int &gt;::isOrigin()</a>, <a class="el" href="classPoint.html#a4490b122855866b712f486f5ea25d1c8">Point&lt; int &gt;::operator!=()</a>, <a class="el" href="classPoint.html#ad834e3af7aa48f190084dca4501e7738">Point&lt; int &gt;::operator*()</a>, <a class="el" href="classPoint.html#a889fa932c3aeaa3fff43e1b2d2e15416">Point&lt; int &gt;::operator*=()</a>, <a class="el" href="classPoint.html#a41c138cd6a69351bfb12021015e85eb9">Point&lt; int &gt;::operator+()</a>, <a class="el" href="classPoint.html#a1087d525d444bf86d02854060ebe7d05">Point&lt; int &gt;::operator+=()</a>, <a class="el" href="classPoint.html#abbbd0aeada114ad01fb4686a3d080910">Point&lt; int &gt;::operator-()</a>, <a class="el" href="classPoint.html#ab048e681bb8928eed6825ac385d0f2cd">Point&lt; int &gt;::operator-=()</a>, <a class="el" href="classPoint.html#ac1bb455f5df35c11dec9303a03e599cf">Point&lt; int &gt;::operator/()</a>, <a class="el" href="classPoint.html#a3c63828959b0b9f3bb82ed60fc8abda7">Point&lt; int &gt;::operator/=()</a>, <a class="el" href="classPoint.html#aa512c038dc5e7c2a07f54e418e410dec">Point&lt; int &gt;::operator=()</a>, <a class="el" href="classPoint.html#a9291566102bf3bf560931c52a30fe742">Point&lt; int &gt;::operator==()</a>, <a class="el" href="classPoint.html#a88be5ca4cece4a829658c2c81f773939">Point&lt; int &gt;::setX()</a>, <a class="el" href="classPoint.html#a6ee7fd1d4763fd41596993a842a0abc6">Point&lt; int &gt;::setXY()</a>, <a class="el" href="classPoint.html#ab30b19304bf09c2a8c9d01904585738e">Point&lt; int &gt;::toDouble()</a>, <a class="el" href="classPoint.html#a2d27c721e09caa04d89434c3095a0f9b">Point&lt; int &gt;::toFloat()</a>, <a class="el" href="classPoint.html#ab9baec905a57c6d59fb827422ab02d9f">Point&lt; int &gt;::toInt()</a>, <a class="el" href="classPoint.html#aee4d94cc4645d5dca2bfc41fb758c050">Point&lt; int &gt;::toString()</a>, <a class="el" href="classPoint.html#aa30fec65a5bea3c630f2e6b2cd356ba4">Point&lt; int &gt;::transformedBy()</a>, <a class="el" href="classPoint.html#aa6c58e63ecbb225c75702f0cfb036653">Point&lt; int &gt;::translated()</a>, and <a class="el" href="classPoint.html#a86e751c47aadad9acd0ede4cb793c2e1">Point&lt; int &gt;::withY()</a>.</p>
 
 </div>
 </div>
@@ -1414,7 +1384,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>The point's Y coordinate. </p>
 
-<p>Referenced by <a class="el" href="classPoint.html#a8aa469e96468d049f83faacc23a2d8c4">Point&lt; int &gt;::addXY()</a>, <a class="el" href="classPoint.html#a1f25a1e3e1e4217301e776cb8454a619">Point&lt; int &gt;::applyTransform()</a>, <a class="el" href="classLine.html#a332f0fce64dfc58897371ed4146e5ac9">Line&lt; ValueType &gt;::findNearestProportionalPositionTo()</a>, <a class="el" href="classPoint.html#ac9abf15d18241300e34f8d460b1fcee1">Point&lt; int &gt;::getAngleToPoint()</a>, <a class="el" href="classPoint.html#ae931deaeadf711093ec361e0be2c03c2">Point&lt; int &gt;::getDistanceFrom()</a>, <a class="el" href="classPoint.html#ac4ceeae6b4a33d7f604d8714423b42c8">Point&lt; int &gt;::getDistanceFromOrigin()</a>, <a class="el" href="classLine.html#ab19decc4c5bccabf58e0f775cd540a20">Line&lt; ValueType &gt;::getDistanceFromPoint()</a>, <a class="el" href="classPoint.html#a5b983bd569e4927c406548dd4d945686">Point&lt; int &gt;::getDotProduct()</a>, <a class="el" href="classLine.html#a77bc36673f43fd4e4e966fe3294a9db5">Line&lt; ValueType &gt;::getPointAlongLine()</a>, <a class="el" href="classPoint.html#a0f5c281b84d55ddad144c5ec9554108e">Point&lt; int &gt;::getPointOnCircumference()</a>, <a class="el" href="classPoint.html#a44158bfdccfc65a41b2cab6c0cfb6990">Point&lt; int &gt;::getY()</a>, <a class="el" href="classPoint.html#a8a04a1b716ac0b9618dd1a6c42ffbb09">Point&lt; int &gt;::isOrigin()</a>, <a class="el" href="classPoint.html#a83df37f32ae54e13f7d0cabae7102326">Point&lt; int &gt;::operator!=()</a>, <a class="el" href="classPoint.html#ad834e3af7aa48f190084dca4501e7738">Point&lt; int &gt;::operator*()</a>, <a class="el" href="classPoint.html#a889fa932c3aeaa3fff43e1b2d2e15416">Point&lt; int &gt;::operator*=()</a>, <a class="el" href="classPoint.html#ab2e4c8bc3f2e556366ee7821f3af2e3e">Point&lt; int &gt;::operator+()</a>, <a class="el" href="classPoint.html#afd0901083454385cf39b8980a9b87e96">Point&lt; int &gt;::operator+=()</a>, <a class="el" href="classPoint.html#a98a0c9dc87e5af970039109c40a1c9ca">Point&lt; int &gt;::operator-()</a>, <a class="el" href="classPoint.html#a06a4e8f92f608babfd55237781d677f8">Point&lt; int &gt;::operator-=()</a>, <a class="el" href="classPoint.html#ac1bb455f5df35c11dec9303a03e599cf">Point&lt; int &gt;::operator/()</a>, <a class="el" href="classPoint.html#a3c63828959b0b9f3bb82ed60fc8abda7">Point&lt; int &gt;::operator/=()</a>, <a class="el" href="classPoint.html#aa512c038dc5e7c2a07f54e418e410dec">Point&lt; int &gt;::operator=()</a>, <a class="el" href="classPoint.html#a85aa676d44ebf9297d99a9c1affe3a8b">Point&lt; int &gt;::operator==()</a>, <a class="el" href="classPoint.html#a6ee7fd1d4763fd41596993a842a0abc6">Point&lt; int &gt;::setXY()</a>, <a class="el" href="classPoint.html#a0a3497770f0aef70062fe179ac315168">Point&lt; int &gt;::setY()</a>, <a class="el" href="classPoint.html#ab30b19304bf09c2a8c9d01904585738e">Point&lt; int &gt;::toDouble()</a>, <a class="el" href="classPoint.html#a2d27c721e09caa04d89434c3095a0f9b">Point&lt; int &gt;::toFloat()</a>, <a class="el" href="classPoint.html#ab9baec905a57c6d59fb827422ab02d9f">Point&lt; int &gt;::toInt()</a>, <a class="el" href="classPoint.html#aee4d94cc4645d5dca2bfc41fb758c050">Point&lt; int &gt;::toString()</a>, <a class="el" href="classPoint.html#aa30fec65a5bea3c630f2e6b2cd356ba4">Point&lt; int &gt;::transformedBy()</a>, <a class="el" href="classPoint.html#aa6c58e63ecbb225c75702f0cfb036653">Point&lt; int &gt;::translated()</a>, and <a class="el" href="classPoint.html#adbb0fcaf4ed125113467453f229e0bd0">Point&lt; int &gt;::withX()</a>.</p>
+<p>Referenced by <a class="el" href="classPoint.html#a8aa469e96468d049f83faacc23a2d8c4">Point&lt; int &gt;::addXY()</a>, <a class="el" href="classPoint.html#a1f25a1e3e1e4217301e776cb8454a619">Point&lt; int &gt;::applyTransform()</a>, <a class="el" href="classLine.html#a373b9f7e2029ce67295bbf606569e391">Line&lt; ValueType &gt;::findNearestProportionalPositionTo()</a>, <a class="el" href="classPoint.html#a92b9dfb8f5ffcb16e0c7d394feddf29c">Point&lt; int &gt;::getAngleToPoint()</a>, <a class="el" href="classPoint.html#af2193abdf90f3dd51aba14b7780e6579">Point&lt; int &gt;::getDistanceFrom()</a>, <a class="el" href="classPoint.html#ac4ceeae6b4a33d7f604d8714423b42c8">Point&lt; int &gt;::getDistanceFromOrigin()</a>, <a class="el" href="classLine.html#a652456b4dc91e8404dcd10bc6a2a4a61">Line&lt; ValueType &gt;::getDistanceFromPoint()</a>, <a class="el" href="classPoint.html#ae5d6e098246fa7d94a65c0d78a197fd8">Point&lt; int &gt;::getDotProduct()</a>, <a class="el" href="classLine.html#a77bc36673f43fd4e4e966fe3294a9db5">Line&lt; ValueType &gt;::getPointAlongLine()</a>, <a class="el" href="classPoint.html#a0f5c281b84d55ddad144c5ec9554108e">Point&lt; int &gt;::getPointOnCircumference()</a>, <a class="el" href="classPoint.html#a44158bfdccfc65a41b2cab6c0cfb6990">Point&lt; int &gt;::getY()</a>, <a class="el" href="classPoint.html#a8a04a1b716ac0b9618dd1a6c42ffbb09">Point&lt; int &gt;::isOrigin()</a>, <a class="el" href="classPoint.html#a4490b122855866b712f486f5ea25d1c8">Point&lt; int &gt;::operator!=()</a>, <a class="el" href="classPoint.html#ad834e3af7aa48f190084dca4501e7738">Point&lt; int &gt;::operator*()</a>, <a class="el" href="classPoint.html#a889fa932c3aeaa3fff43e1b2d2e15416">Point&lt; int &gt;::operator*=()</a>, <a class="el" href="classPoint.html#a41c138cd6a69351bfb12021015e85eb9">Point&lt; int &gt;::operator+()</a>, <a class="el" href="classPoint.html#a1087d525d444bf86d02854060ebe7d05">Point&lt; int &gt;::operator+=()</a>, <a class="el" href="classPoint.html#abbbd0aeada114ad01fb4686a3d080910">Point&lt; int &gt;::operator-()</a>, <a class="el" href="classPoint.html#ab048e681bb8928eed6825ac385d0f2cd">Point&lt; int &gt;::operator-=()</a>, <a class="el" href="classPoint.html#ac1bb455f5df35c11dec9303a03e599cf">Point&lt; int &gt;::operator/()</a>, <a class="el" href="classPoint.html#a3c63828959b0b9f3bb82ed60fc8abda7">Point&lt; int &gt;::operator/=()</a>, <a class="el" href="classPoint.html#aa512c038dc5e7c2a07f54e418e410dec">Point&lt; int &gt;::operator=()</a>, <a class="el" href="classPoint.html#a9291566102bf3bf560931c52a30fe742">Point&lt; int &gt;::operator==()</a>, <a class="el" href="classPoint.html#a6ee7fd1d4763fd41596993a842a0abc6">Point&lt; int &gt;::setXY()</a>, <a class="el" href="classPoint.html#a0a3497770f0aef70062fe179ac315168">Point&lt; int &gt;::setY()</a>, <a class="el" href="classPoint.html#ab30b19304bf09c2a8c9d01904585738e">Point&lt; int &gt;::toDouble()</a>, <a class="el" href="classPoint.html#a2d27c721e09caa04d89434c3095a0f9b">Point&lt; int &gt;::toFloat()</a>, <a class="el" href="classPoint.html#ab9baec905a57c6d59fb827422ab02d9f">Point&lt; int &gt;::toInt()</a>, <a class="el" href="classPoint.html#aee4d94cc4645d5dca2bfc41fb758c050">Point&lt; int &gt;::toString()</a>, <a class="el" href="classPoint.html#aa30fec65a5bea3c630f2e6b2cd356ba4">Point&lt; int &gt;::transformedBy()</a>, <a class="el" href="classPoint.html#aa6c58e63ecbb225c75702f0cfb036653">Point&lt; int &gt;::translated()</a>, and <a class="el" href="classPoint.html#adbb0fcaf4ed125113467453f229e0bd0">Point&lt; int &gt;::withX()</a>.</p>
 
 </div>
 </div>

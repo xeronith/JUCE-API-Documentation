@@ -9,6 +9,7 @@ var searchData=
   ['natural',['natural',['../classAttributedString.html#a254fea6774b4e74f786cc5ad3abac400ab64fe4e1ad4457691eabf047b0b48c89',1,'AttributedString']]],
   ['navajowhite',['navajowhite',['../classColours.html#a3aae0d537d9c4103f0be6e84443bae6f',1,'Colours']]],
   ['navy',['navy',['../classColours.html#a2f4e6cbbf218f698b25a8e08c787068f',1,'Colours']]],
+  ['needs_5ftrans',['NEEDS_TRANS',['../juce__LocalisedStrings_8h.html#afeb9a504a09d3e5d1148fb0c40413ae2',1,'juce_LocalisedStrings.h']]],
   ['needstobesaved',['needsToBeSaved',['../classPropertiesFile.html#af9e77e3bde952ed5face05c19cd51ed4',1,'PropertiesFile']]],
   ['needtoclip',['needToClip',['../classLowLevelGraphicsPostScriptRenderer.html#a75772619fb8c5d185cd82b48ee46822e',1,'LowLevelGraphicsPostScriptRenderer']]],
   ['negate',['negate',['../classBigInteger.html#a2f597f0f63ffc2410423626c5a850e60',1,'BigInteger']]],

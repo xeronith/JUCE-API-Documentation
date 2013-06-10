@@ -103,6 +103,9 @@ Macros</h2></td></tr>
 <tr class="memitem:af3c28ad27b0d8fa2f615888701e32b07"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__LocalisedStrings_8h.html#af3c28ad27b0d8fa2f615888701e32b07">TRANS</a>(stringLiteral)&#160;&#160;&#160;<a class="el" href="juce__LocalisedStrings_8h.html#ae29a8236bdf6cdcbd834c7861f3f5ef4">juce::translate</a> (stringLiteral)</td></tr>
 <tr class="memdesc:af3c28ad27b0d8fa2f615888701e32b07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses the <a class="el" href="classLocalisedStrings.html" title="Used to convert strings to localised foreign-language versions.">LocalisedStrings</a> class to translate the given string literal.  <a href="#af3c28ad27b0d8fa2f615888701e32b07"></a><br/></td></tr>
 <tr class="separator:af3c28ad27b0d8fa2f615888701e32b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb9a504a09d3e5d1148fb0c40413ae2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__LocalisedStrings_8h.html#afeb9a504a09d3e5d1148fb0c40413ae2">NEEDS_TRANS</a>(stringLiteral)&#160;&#160;&#160;(stringLiteral)</td></tr>
+<tr class="memdesc:afeb9a504a09d3e5d1148fb0c40413ae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dummy version of the TRANS macro, used to indicate a string literal that should be added to the translation file by source-code scanner tools.  <a href="#afeb9a504a09d3e5d1148fb0c40413ae2"></a><br/></td></tr>
+<tr class="separator:afeb9a504a09d3e5d1148fb0c40413ae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -136,6 +139,25 @@ Functions</h2></td></tr>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="juce__LocalisedStrings_8h.html#a4326829416c1aa01a16c7ada506244a8" title="Uses the LocalisedStrings class to translate the given string literal.">translate()</a>, <a class="el" href="classLocalisedStrings.html" title="Used to convert strings to localised foreign-language versions.">LocalisedStrings</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a0e7c6b06043ccf3930ebc27a8d3b740e">StandaloneFilterWindow::buttonClicked()</a>, <a class="el" href="classStandaloneFilterWindow.html#a8c425537a6d18a08cf81a9478c2335aa">StandaloneFilterWindow::loadState()</a>, <a class="el" href="classStandaloneFilterWindow.html#aefd4918d57d297110fb85b84a18e1153">StandaloneFilterWindow::saveState()</a>, and <a class="el" href="classStandaloneFilterWindow.html#ab6b2829788f62cd54abe1670e86f26bd">StandaloneFilterWindow::showAudioSettingsDialog()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afeb9a504a09d3e5d1148fb0c40413ae2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NEEDS_TRANS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">stringLiteral</td><td>)</td>
+          <td>&#160;&#160;&#160;(stringLiteral)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A dummy version of the TRANS macro, used to indicate a string literal that should be added to the translation file by source-code scanner tools. </p>
+<p>Wrapping a string literal in this macro has no effect, but by using it around strings that your app needs to translate at a later stage, it lets automatic code-scanning tools find this string and add it to the list of strings that need translation. </p>
 
 </div>
 </div>

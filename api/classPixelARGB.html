@@ -143,9 +143,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2bd4f6bc1869f0f6b60468746e4beece"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="juce__PlatformDefs_8h.html#ac2535cb549b141b3a96b8a08014e46cb">forcedinline</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPixelARGB.html#a2bd4f6bc1869f0f6b60468746e4beece">blend</a> (const Pixel &amp;src) noexcept</td></tr>
 <tr class="memdesc:a2bd4f6bc1869f0f6b60468746e4beece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blends another pixel onto this one.  <a href="#a2bd4f6bc1869f0f6b60468746e4beece"></a><br/></td></tr>
 <tr class="separator:a2bd4f6bc1869f0f6b60468746e4beece"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a006c34af1e2daeb77f44953ccab569bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="juce__PlatformDefs_8h.html#ac2535cb549b141b3a96b8a08014e46cb">forcedinline</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPixelARGB.html#a006c34af1e2daeb77f44953ccab569bc">blend</a> (const <a class="el" href="classPixelRGB.html">PixelRGB</a> &amp;src) noexcept</td></tr>
-<tr class="memdesc:a006c34af1e2daeb77f44953ccab569bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blends another pixel onto this one.  <a href="#a006c34af1e2daeb77f44953ccab569bc"></a><br/></td></tr>
-<tr class="separator:a006c34af1e2daeb77f44953ccab569bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e84fcf3f6d54942d0508023aa191eb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="juce__PlatformDefs_8h.html#ac2535cb549b141b3a96b8a08014e46cb">forcedinline</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPixelARGB.html#a0e84fcf3f6d54942d0508023aa191eb2">blend</a> (const <a class="el" href="classPixelRGB.html">PixelRGB</a> src) noexcept</td></tr>
+<tr class="memdesc:a0e84fcf3f6d54942d0508023aa191eb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blends another pixel onto this one.  <a href="#a0e84fcf3f6d54942d0508023aa191eb2"></a><br/></td></tr>
+<tr class="separator:a0e84fcf3f6d54942d0508023aa191eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84ded96012732f73dfcbf8fd763239dd"><td class="memTemplParams" colspan="2">template&lt;class Pixel &gt; </td></tr>
 <tr class="memitem:a84ded96012732f73dfcbf8fd763239dd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="juce__PlatformDefs_8h.html#ac2535cb549b141b3a96b8a08014e46cb">forcedinline</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPixelARGB.html#a84ded96012732f73dfcbf8fd763239dd">blend</a> (const Pixel &amp;src, <a class="el" href="juce__MathsFunctions_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> extraAlpha) noexcept</td></tr>
 <tr class="memdesc:a84ded96012732f73dfcbf8fd763239dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blends another pixel onto this one, applying an extra multiplier to its opacity.  <a href="#a84ded96012732f73dfcbf8fd763239dd"></a><br/></td></tr>
@@ -643,9 +643,11 @@ template&lt;class Pixel &gt; </div>
 <p>Blends another pixel onto this one. </p>
 <p>This takes into account the opacity of the pixel being overlaid, and blends it accordingly. </p>
 
+<p>References <a class="el" href="juce__PixelFormats_8h.html#ae982b6f45d5bce9d1dde9376bef9ea78">clampPixelComponents()</a>, and <a class="el" href="juce__PixelFormats_8h.html#abebe763f0ddf41420146d43d918a20fc">maskPixelComponents()</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="a006c34af1e2daeb77f44953ccab569bc"></a>
+<a class="anchor" id="a0e84fcf3f6d54942d0508023aa191eb2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -655,7 +657,7 @@ template&lt;class Pixel &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="juce__PlatformDefs_8h.html#ac2535cb549b141b3a96b8a08014e46cb">forcedinline</a> void PixelARGB::blend </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPixelRGB.html">PixelRGB</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPixelRGB.html">PixelRGB</a>&#160;</td>
           <td class="paramname"><em>src</em></td><td>)</td>
           <td></td>
         </tr>
@@ -708,6 +710,8 @@ template&lt;class Pixel &gt; </div>
 
 <p>Blends another pixel onto this one, applying an extra multiplier to its opacity. </p>
 <p>The opacity of the pixel being overlaid is scaled by the extraAlpha factor before being used, so this can blend semi-transparently from a <a class="el" href="classPixelRGB.html" title="Represents a 24-bit RGB pixel, and can perform compositing operations on it.">PixelRGB</a> argument. </p>
+
+<p>References <a class="el" href="juce__PixelFormats_8h.html#ae982b6f45d5bce9d1dde9376bef9ea78">clampPixelComponents()</a>, and <a class="el" href="juce__PixelFormats_8h.html#abebe763f0ddf41420146d43d918a20fc">maskPixelComponents()</a>.</p>
 
 </div>
 </div>

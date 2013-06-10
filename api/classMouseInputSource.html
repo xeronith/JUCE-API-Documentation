@@ -163,12 +163,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8289b45acc8783feb0d83898885a70b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a8289b45acc8783feb0d83898885a70b3">enableUnboundedMouseMovement</a> (bool isEnabled, bool keepCursorVisibleUntilOffscreen=false)</td></tr>
 <tr class="memdesc:a8289b45acc8783feb0d83898885a70b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows the mouse to move beyond the edges of the screen.  <a href="#a8289b45acc8783feb0d83898885a70b3"></a><br/></td></tr>
 <tr class="separator:a8289b45acc8783feb0d83898885a70b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87923a6838a0a40137a45867bf9a5e54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a87923a6838a0a40137a45867bf9a5e54">handleEvent</a> (<a class="el" href="classComponentPeer.html">ComponentPeer</a> *, const <a class="el" href="classPoint.html">Point</a>&lt; int &gt; &amp;, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> time, const <a class="el" href="classModifierKeys.html">ModifierKeys</a> &amp;)</td></tr>
-<tr class="separator:a87923a6838a0a40137a45867bf9a5e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78d969ad8bbd6f529611b5eb4120f664"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a78d969ad8bbd6f529611b5eb4120f664">handleWheel</a> (<a class="el" href="classComponentPeer.html">ComponentPeer</a> *, const <a class="el" href="classPoint.html">Point</a>&lt; int &gt; &amp;, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> time, const <a class="el" href="structMouseWheelDetails.html">MouseWheelDetails</a> &amp;)</td></tr>
-<tr class="separator:a78d969ad8bbd6f529611b5eb4120f664"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac76a02fc9e6ca51fbb22a6b6ce097546"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#ac76a02fc9e6ca51fbb22a6b6ce097546">handleMagnifyGesture</a> (<a class="el" href="classComponentPeer.html">ComponentPeer</a> *, const <a class="el" href="classPoint.html">Point</a>&lt; int &gt; &amp;, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> time, float scaleFactor)</td></tr>
-<tr class="separator:ac76a02fc9e6ca51fbb22a6b6ce097546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b0bebde8fb7fe98149f2cbccbc7f464"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a5b0bebde8fb7fe98149f2cbccbc7f464">handleEvent</a> (<a class="el" href="classComponentPeer.html">ComponentPeer</a> *, <a class="el" href="classPoint.html">Point</a>&lt; int &gt;, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> time, const <a class="el" href="classModifierKeys.html">ModifierKeys</a>)</td></tr>
+<tr class="separator:a5b0bebde8fb7fe98149f2cbccbc7f464"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9620e7adc7b83c2a00d4657c6468aa55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a9620e7adc7b83c2a00d4657c6468aa55">handleWheel</a> (<a class="el" href="classComponentPeer.html">ComponentPeer</a> *, <a class="el" href="classPoint.html">Point</a>&lt; int &gt;, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> time, const <a class="el" href="structMouseWheelDetails.html">MouseWheelDetails</a> &amp;)</td></tr>
+<tr class="separator:a9620e7adc7b83c2a00d4657c6468aa55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae37dcc61b0cdd1476c5fc5f432857c9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#ae37dcc61b0cdd1476c5fc5f432857c9f">handleMagnifyGesture</a> (<a class="el" href="classComponentPeer.html">ComponentPeer</a> *, <a class="el" href="classPoint.html">Point</a>&lt; int &gt;, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> time, float scaleFactor)</td></tr>
+<tr class="separator:ae37dcc61b0cdd1476c5fc5f432857c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a linear source of mouse events from a mouse device or individual finger in a multi-touch environment. </p>
@@ -655,7 +655,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a87923a6838a0a40137a45867bf9a5e54"></a>
+<a class="anchor" id="a5b0bebde8fb7fe98149f2cbccbc7f464"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -668,7 +668,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPoint.html">Point</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; int &gt;&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -680,7 +680,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classModifierKeys.html">ModifierKeys</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classModifierKeys.html">ModifierKeys</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -693,7 +693,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a78d969ad8bbd6f529611b5eb4120f664"></a>
+<a class="anchor" id="a9620e7adc7b83c2a00d4657c6468aa55"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -706,7 +706,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPoint.html">Point</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; int &gt;&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -731,7 +731,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac76a02fc9e6ca51fbb22a6b6ce097546"></a>
+<a class="anchor" id="ae37dcc61b0cdd1476c5fc5f432857c9f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -744,7 +744,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPoint.html">Point</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; int &gt;&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
