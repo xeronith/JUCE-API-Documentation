@@ -7,6 +7,7 @@ var searchData=
   ['affinetransform',['AffineTransform',['../classAffineTransform.html',1,'']]],
   ['aiffaudioformat',['AiffAudioFormat',['../classAiffAudioFormat.html',1,'']]],
   ['alertwindow',['AlertWindow',['../classAlertWindow.html',1,'']]],
+  ['animatedposition',['AnimatedPosition',['../classAnimatedPosition.html',1,'']]],
   ['appender',['Appender',['../classLinkedListPointer_1_1Appender.html',1,'LinkedListPointer']]],
   ['appleremotedevice',['AppleRemoteDevice',['../classAppleRemoteDevice.html',1,'']]],
   ['applicationcommandinfo',['ApplicationCommandInfo',['../structApplicationCommandInfo.html',1,'']]],

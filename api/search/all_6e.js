@@ -50,6 +50,7 @@ var searchData=
   ['notresizableorsortable',['notResizableOrSortable',['../classTableHeaderComponent.html#abfee3b5ccd3289efb38e7b7dd1162831a722f75fc5f1b33f07ee2ca106bd0e9f2',1,'TableHeaderComponent']]],
   ['notsortable',['notSortable',['../classTableHeaderComponent.html#abfee3b5ccd3289efb38e7b7dd1162831abd10990c4c70636a0b969b7dcdad112d',1,'TableHeaderComponent']]],
   ['nsviewcomponent',['NSViewComponent',['../classNSViewComponent.html',1,'NSViewComponent'],['../classNSViewComponent.html#a47f7a2b57ee9175115e1d8c5206e191f',1,'NSViewComponent::NSViewComponent()']]],
+  ['nudge',['nudge',['../classAnimatedPosition.html#aa58f2a396a133f7325322b5eeb9b1d3b',1,'AnimatedPosition']]],
   ['null',['null',['../classvar.html#ae1550d37bca7b33d4af3b4ebf90567ce',1,'var::null()'],['../classIdentifier.html#affc07b70676ba6a79773c2beb696e9de',1,'Identifier::null()'],['../classImage.html#af20f6e6962f885e2142520f18ca4ee17',1,'Image::null()']]],
   ['nullelement',['nullElement',['../classRelativePointPath.html#a741fbc9bca4a156a84514f20987483e9ae971a25058687b29600ebb7c9a038437',1,'RelativePointPath']]],
   ['numallocated',['numAllocated',['../classArrayAllocationBase.html#a5afe5480fba4ad678e2496e0a5fc5d37',1,'ArrayAllocationBase']]],

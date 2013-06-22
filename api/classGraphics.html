@@ -147,9 +147,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a37c017a9d2f32bcd677f61f5de97ab9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a37c017a9d2f32bcd677f61f5de97ab9a">drawMultiLineText</a> (const <a class="el" href="classString.html">String</a> &amp;text, int startX, int baselineY, int maximumLineWidth) const </td></tr>
 <tr class="memdesc:a37c017a9d2f32bcd677f61f5de97ab9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws text across multiple lines.  <a href="#a37c017a9d2f32bcd677f61f5de97ab9a"></a><br/></td></tr>
 <tr class="separator:a37c017a9d2f32bcd677f61f5de97ab9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a837821b4bab764d76df560350e069b45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a837821b4bab764d76df560350e069b45">drawTextAsPath</a> (const <a class="el" href="classString.html">String</a> &amp;text, const <a class="el" href="classAffineTransform.html">AffineTransform</a> &amp;transform) const </td></tr>
-<tr class="memdesc:a837821b4bab764d76df560350e069b45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders a string of text as a vector path.  <a href="#a837821b4bab764d76df560350e069b45"></a><br/></td></tr>
-<tr class="separator:a837821b4bab764d76df560350e069b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa03c871748cf584b548663b79da7926c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#aa03c871748cf584b548663b79da7926c">drawText</a> (const <a class="el" href="classString.html">String</a> &amp;text, int x, int y, int width, int height, const <a class="el" href="classJustification.html">Justification</a> &amp;justificationType, bool useEllipsesIfTooBig) const </td></tr>
 <tr class="memdesc:aa03c871748cf584b548663b79da7926c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a line of text within a specified rectangle.  <a href="#aa03c871748cf584b548663b79da7926c"></a><br/></td></tr>
 <tr class="separator:aa03c871748cf584b548663b79da7926c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -565,7 +562,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Changes the font to use for subsequent text-drawing functions. </p>
 <p>Note there's also a setFont (float, int) method to quickly change the size and style of the current font.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classGraphics.html#ade61955c11b56c91232b350dbfbf1b81" title="Draws a one-line text string.">drawSingleLineText</a>, <a class="el" href="classGraphics.html#a37c017a9d2f32bcd677f61f5de97ab9a" title="Draws text across multiple lines.">drawMultiLineText</a>, <a class="el" href="classGraphics.html#a837821b4bab764d76df560350e069b45" title="Renders a string of text as a vector path.">drawTextAsPath</a>, <a class="el" href="classGraphics.html#aa03c871748cf584b548663b79da7926c" title="Draws a line of text within a specified rectangle.">drawText</a>, <a class="el" href="classGraphics.html#ad2c56e11c42bc7404233b9a23e939ede" title="Tries to draw a text string inside a given space.">drawFittedText</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classGraphics.html#ade61955c11b56c91232b350dbfbf1b81" title="Draws a one-line text string.">drawSingleLineText</a>, <a class="el" href="classGraphics.html#a37c017a9d2f32bcd677f61f5de97ab9a" title="Draws text across multiple lines.">drawMultiLineText</a>, <a class="el" href="classGraphics.html#aa03c871748cf584b548663b79da7926c" title="Draws a line of text within a specified rectangle.">drawText</a>, <a class="el" href="classGraphics.html#ad2c56e11c42bc7404233b9a23e939ede" title="Tries to draw a text string inside a given space.">drawFittedText</a> </dd></dl>
 
 </div>
 </div>
@@ -696,36 +693,6 @@ Public Member Functions</h2></td></tr>
 <p>Draws text across multiple lines. </p>
 <p>This will break the text onto a new line where there's a new-line or carriage-return character, or at a word-boundary when the text becomes wider than the size specified by the maximumLineWidth parameter.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classGraphics.html#a1fbdb321975d90c45243027a61ac2be9" title="Changes the font to use for subsequent text-drawing functions.">setFont</a>, <a class="el" href="classGraphics.html#ade61955c11b56c91232b350dbfbf1b81" title="Draws a one-line text string.">drawSingleLineText</a>, <a class="el" href="classGraphics.html#ad2c56e11c42bc7404233b9a23e939ede" title="Tries to draw a text string inside a given space.">drawFittedText</a>, <a class="el" href="classGlyphArrangement.html#a5cc600b28d93cb972baf14d3be08859f" title="Adds some multi-line text, breaking lines at word-boundaries if they are too wide.">GlyphArrangement::addJustifiedText</a> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a837821b4bab764d76df560350e069b45"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Graphics::drawTextAsPath </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>text</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classAffineTransform.html">AffineTransform</a> &amp;&#160;</td>
-          <td class="paramname"><em>transform</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Renders a string of text as a vector path. </p>
-<p>This allows a string to be transformed with an arbitrary <a class="el" href="classAffineTransform.html" title="Represents a 2D affine-transformation matrix.">AffineTransform</a> and rendered using the current colour/brush. It's much slower than the normal text methods but more accurate.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classGraphics.html#a1fbdb321975d90c45243027a61ac2be9" title="Changes the font to use for subsequent text-drawing functions.">setFont</a> </dd></dl>
 
 </div>
 </div>

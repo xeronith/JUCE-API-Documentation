@@ -1,6 +1,7 @@
 var searchData=
 [
   ['identifier',['Identifier',['../classIdentifier.html',1,'']]],
+  ['iircoefficients',['IIRCoefficients',['../classIIRCoefficients.html',1,'']]],
   ['iirfilter',['IIRFilter',['../classIIRFilter.html',1,'']]],
   ['iirfilteraudiosource',['IIRFilterAudioSource',['../classIIRFilterAudioSource.html',1,'']]],
   ['image',['Image',['../classImage.html',1,'']]],
@@ -25,8 +26,8 @@ var searchData=
   ['ipaddress',['IPAddress',['../classIPAddress.html',1,'']]],
   ['iterator',['Iterator',['../classPath_1_1Iterator.html',1,'Path']]],
   ['iterator',['Iterator',['../classHashMap_1_1Iterator.html',1,'HashMap']]],
-  ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html',1,'MidiBuffer']]],
+  ['iterator',['Iterator',['../classCodeDocument_1_1Iterator.html',1,'CodeDocument']]],
   ['iterator',['Iterator',['../classListenerList_1_1Iterator.html',1,'ListenerList']]],
-  ['iterator',['Iterator',['../classRectangleList_1_1Iterator.html',1,'RectangleList']]],
-  ['iterator',['Iterator',['../classCodeDocument_1_1Iterator.html',1,'CodeDocument']]]
+  ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html',1,'MidiBuffer']]],
+  ['iterator',['Iterator',['../classRectangleList_1_1Iterator.html',1,'RectangleList']]]
 ];

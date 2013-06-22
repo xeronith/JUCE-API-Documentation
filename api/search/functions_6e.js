@@ -23,6 +23,7 @@ var searchData=
   ['noteon',['noteOn',['../classMidiKeyboardState.html#a60e0e629d485466360bded04ad35025a',1,'MidiKeyboardState::noteOn()'],['../classMidiMessage.html#a24e09d2737c08842a6e4902554d2899c',1,'MidiMessage::noteOn(int channel, int noteNumber, float velocity) noexcept'],['../classMidiMessage.html#a4858073a7bf29ce14fbb2f6ad7faeb86',1,'MidiMessage::noteOn(int channel, int noteNumber, uint8 velocity) noexcept'],['../classSynthesiser.html#a488dbf4f02973011c95656eefc1fb862',1,'Synthesiser::noteOn()']]],
   ['notify',['notify',['../classThread.html#ae0e6408f187557bb06c8fff07c4100b7',1,'Thread']]],
   ['nsviewcomponent',['NSViewComponent',['../classNSViewComponent.html#a47f7a2b57ee9175115e1d8c5206e191f',1,'NSViewComponent']]],
+  ['nudge',['nudge',['../classAnimatedPosition.html#aa58f2a396a133f7325322b5eeb9b1d3b',1,'AnimatedPosition']]],
   ['numchannelschanged',['numChannelsChanged',['../classAudioProcessor.html#adb83690e0bdce0710f54b28c020e8e04',1,'AudioProcessor']]],
   ['numelementsinarray',['numElementsInArray',['../juce__MathsFunctions_8h.html#a53205e331c49a67a9a7af0710d44d65e',1,'numElementsInArray():&#160;juce_MathsFunctions.h'],['../namespacejuce.html#a46a89b991f583581ff3d5080441a2780',1,'juce::numElementsInArray()']]]
 ];

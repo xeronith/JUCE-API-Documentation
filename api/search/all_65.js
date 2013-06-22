@@ -28,6 +28,7 @@ var searchData=
   ['encrypt',['encrypt',['../classBlowFish.html#a76dbc9a108227a581f9e79ff83396aba',1,'BlowFish']]],
   ['end',['end',['../classAudioFormatManager.html#a6d74237010910f4566a182f1649458e4',1,'AudioFormatManager::end()'],['../classKnownPluginList.html#ad222aeee57ef96a3a4cb15132ae1f62a',1,'KnownPluginList::end()'],['../classArray.html#a4ec39fc8ed45a70eb82fca49c35c2088',1,'Array::end()'],['../classOwnedArray.html#af24125ef9d6f24c35be21b37c8c945ea',1,'OwnedArray::end()'],['../classReferenceCountedArray.html#a73c8d0ba66862dfe70e584c2efd41ccf',1,'ReferenceCountedArray::end()'],['../classSortedSet.html#ac616e72c4fad8919f19b486320555326',1,'SortedSet::end()'],['../classStringArray.html#aed7e07d0f7c696caa7f62be5416d66e3',1,'StringArray::end()'],['../classRectangleList.html#a1389798b3eca84f427c1a9e1336d7487',1,'RectangleList::end()'],['../classSelectedItemSet.html#aea029db3e198aebd6a58a8e9ecd9b779',1,'SelectedItemSet::end()']]],
   ['endcapstyle',['EndCapStyle',['../classPathStrokeType.html#a9050e37133047ab699b44b704e4f96cf',1,'PathStrokeType']]],
+  ['enddrag',['endDrag',['../classAnimatedPosition.html#a31520fda363c37afac010416dab7707f',1,'AnimatedPosition']]],
   ['endkey',['endKey',['../classKeyPress.html#a54ced410db4096610651498e85e63b1e',1,'KeyPress']]],
   ['endlasso',['endLasso',['../classLassoComponent.html#a77e7463330941cd3ef81fa41209387f0',1,'LassoComponent']]],
   ['endoftrack',['endOfTrack',['../classMidiMessage.html#ae6e0123d262c36aad45471dd85ed47d6',1,'MidiMessage']]],

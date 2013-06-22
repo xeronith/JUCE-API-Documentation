@@ -37,6 +37,7 @@ var searchData=
   ['modifierkeys',['ModifierKeys',['../classModifierKeys.html',1,'']]],
   ['mousecursor',['MouseCursor',['../classMouseCursor.html',1,'']]],
   ['mouseevent',['MouseEvent',['../classMouseEvent.html',1,'']]],
+  ['mouseinactivitydetector',['MouseInactivityDetector',['../classMouseInactivityDetector.html',1,'']]],
   ['mouseinputsource',['MouseInputSource',['../classMouseInputSource.html',1,'']]],
   ['mouselistener',['MouseListener',['../classMouseListener.html',1,'']]],
   ['mousewheeldetails',['MouseWheelDetails',['../structMouseWheelDetails.html',1,'']]],

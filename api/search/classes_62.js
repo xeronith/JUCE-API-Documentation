@@ -8,8 +8,8 @@ var searchData=
   ['booleanpropertycomponent',['BooleanPropertyComponent',['../classBooleanPropertyComponent.html',1,'']]],
   ['bordersize',['BorderSize',['../classBorderSize.html',1,'']]],
   ['bordersize_3c_20int_20_3e',['BorderSize&lt; int &gt;',['../classBorderSize.html',1,'']]],
-  ['box2drenderer',['Box2DRenderer',['../classBox2DRenderer.html',1,'']]],
   ['box2drenderer',['Box2DRenderer',['../classjuce_1_1Box2DRenderer.html',1,'juce']]],
+  ['box2drenderer',['Box2DRenderer',['../classBox2DRenderer.html',1,'']]],
   ['browserplugincomponent',['BrowserPluginComponent',['../classBrowserPluginComponent.html',1,'']]],
   ['bubblecomponent',['BubbleComponent',['../classBubbleComponent.html',1,'']]],
   ['bubblemessagecomponent',['BubbleMessageComponent',['../classBubbleMessageComponent.html',1,'']]],
@@ -20,6 +20,6 @@ var searchData=
   ['burnprogresslistener',['BurnProgressListener',['../classAudioCDBurner_1_1BurnProgressListener.html',1,'AudioCDBurner']]],
   ['button',['Button',['../classButton.html',1,'']]],
   ['buttonpropertycomponent',['ButtonPropertyComponent',['../classButtonPropertyComponent.html',1,'']]],
-  ['byteorder',['ByteOrder',['../classjuce_1_1ByteOrder.html',1,'juce']]],
-  ['byteorder',['ByteOrder',['../classByteOrder.html',1,'']]]
+  ['byteorder',['ByteOrder',['../classByteOrder.html',1,'']]],
+  ['byteorder',['ByteOrder',['../classjuce_1_1ByteOrder.html',1,'juce']]]
 ];
