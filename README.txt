@@ -9,4 +9,7 @@ files. This script isn't guaranteed to work on anyone's machine other
 than my own, but you're welcome to play with it!
 
 For more information, visit the JUCE website:
-http://www.rawmaterialsoftware.com
+http://www.juce.com
+
+And you can view the documentation online at:
+http://www.juce.com/api/

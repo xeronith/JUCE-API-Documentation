@@ -137,9 +137,9 @@ Static Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:ac16764b0d7153689f406d2d38cf332b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#ac16764b0d7153689f406d2d38cf332b9">MidiOutput</a> ()</td></tr>
 <tr class="separator:ac16764b0d7153689f406d2d38cf332b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad11ece96fe621b940d02aaa39cd74095"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#ad11ece96fe621b940d02aaa39cd74095">run</a> ()</td></tr>
-<tr class="memdesc:ad11ece96fe621b940d02aaa39cd74095"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be implemented to perform the thread's actual code.  <a href="#ad11ece96fe621b940d02aaa39cd74095"></a><br/></td></tr>
-<tr class="separator:ad11ece96fe621b940d02aaa39cd74095"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bf9b6ec2474fd3192f92b14806f05bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a2bf9b6ec2474fd3192f92b14806f05bf">run</a> () override</td></tr>
+<tr class="memdesc:a2bf9b6ec2474fd3192f92b14806f05bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be implemented to perform the thread's actual code.  <a href="#a2bf9b6ec2474fd3192f92b14806f05bf"></a><br/></td></tr>
+<tr class="separator:a2bf9b6ec2474fd3192f92b14806f05bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -550,7 +550,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad11ece96fe621b940d02aaa39cd74095"></a>
+<a class="anchor" id="a2bf9b6ec2474fd3192f92b14806f05bf"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -566,13 +566,13 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Must be implemented to perform the thread's actual code. </p>
-<p>Remember that the thread must regularly check the <a class="el" href="classThread.html#a0a8fdce313d3c0db6c5adbb78c4352b4" title="Checks whether the thread has been told to stop running.">threadShouldExit()</a> method whilst running, and if this returns true it should return from the <a class="el" href="classMidiOutput.html#ad11ece96fe621b940d02aaa39cd74095" title="Must be implemented to perform the thread&#39;s actual code.">run()</a> method as soon as possible to avoid being forcibly killed.</p>
+<p>Remember that the thread must regularly check the <a class="el" href="classThread.html#a0a8fdce313d3c0db6c5adbb78c4352b4" title="Checks whether the thread has been told to stop running.">threadShouldExit()</a> method whilst running, and if this returns true it should return from the <a class="el" href="classMidiOutput.html#a2bf9b6ec2474fd3192f92b14806f05bf" title="Must be implemented to perform the thread&#39;s actual code.">run()</a> method as soon as possible to avoid being forcibly killed.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThread.html#a0a8fdce313d3c0db6c5adbb78c4352b4" title="Checks whether the thread has been told to stop running.">threadShouldExit</a>, <a class="el" href="classThread.html#a5502205d727c00752f95af27a063d983" title="Starts the thread running.">startThread</a> </dd></dl>
 
 <p>Implements <a class="el" href="classThread.html#aae90dfabab3e1776cf01a26e7ee3a620">Thread</a>.</p>

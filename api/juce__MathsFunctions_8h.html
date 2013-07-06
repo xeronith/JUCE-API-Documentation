@@ -114,17 +114,12 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a2a04225a9df1324513c2913f2d184abc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__MathsFunctions_8h.html#a2a04225a9df1324513c2913f2d184abc">literal64bit</a>(longLiteral)&#160;&#160;&#160;(longLiteral##LL)</td></tr>
-<tr class="memdesc:a2a04225a9df1324513c2913f2d184abc"><td class="mdescLeft">&#160;</td><td class="mdescRight">A platform-independent macro for writing 64-bit literals, needed because different compilers have different syntaxes for this.  <a href="#a2a04225a9df1324513c2913f2d184abc"></a><br/></td></tr>
-<tr class="separator:a2a04225a9df1324513c2913f2d184abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a339666bd60cc6cb0831cb79c8f1b07b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__MathsFunctions_8h.html#a339666bd60cc6cb0831cb79c8f1b07b6">JUCE_UNDENORMALISE</a>(x)&#160;&#160;&#160;x += 1.0f; x -= 1.0f;</td></tr>
 <tr class="memdesc:a339666bd60cc6cb0831cb79c8f1b07b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro can be applied to a float variable to check whether it contains a denormalised value, and to normalise it if necessary.  <a href="#a339666bd60cc6cb0831cb79c8f1b07b6"></a><br/></td></tr>
 <tr class="separator:a339666bd60cc6cb0831cb79c8f1b07b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab17e68e410cbcdaf3074214aed490ec8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__MathsFunctions_8h.html#ab17e68e410cbcdaf3074214aed490ec8">PARAMETER_TYPE</a>(a)&#160;&#160;&#160;typename <a class="el" href="structTypeHelpers_1_1ParameterType.html">TypeHelpers::ParameterType</a>&lt;a&gt;::type</td></tr>
 <tr class="memdesc:ab17e68e410cbcdaf3074214aed490ec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">A helpful macro to simplify the use of the ParameterType template.  <a href="#ab17e68e410cbcdaf3074214aed490ec8"></a><br/></td></tr>
 <tr class="separator:ab17e68e410cbcdaf3074214aed490ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a04225a9df1324513c2913f2d184abc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__StandardHeader_8h.html#a2a04225a9df1324513c2913f2d184abc">literal64bit</a>(longLiteral)&#160;&#160;&#160;(longLiteral##LL)</td></tr>
-<tr class="separator:a2a04225a9df1324513c2913f2d184abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a339666bd60cc6cb0831cb79c8f1b07b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__StandardHeader_8h.html#a339666bd60cc6cb0831cb79c8f1b07b6">JUCE_UNDENORMALISE</a>(x)&#160;&#160;&#160;x += 1.0f; x -= 1.0f;</td></tr>
 <tr class="separator:a339666bd60cc6cb0831cb79c8f1b07b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab17e68e410cbcdaf3074214aed490ec8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__StandardHeader_8h.html#ab17e68e410cbcdaf3074214aed490ec8">PARAMETER_TYPE</a>(a)&#160;&#160;&#160;typename <a class="el" href="structTypeHelpers_1_1ParameterType.html">TypeHelpers::ParameterType</a>&lt;a&gt;::type</td></tr>
@@ -273,25 +268,6 @@ Variables</h2></td></tr>
 <tr class="separator:ac93fbc5e59d440cab26842b9c575d161"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a2a04225a9df1324513c2913f2d184abc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define literal64bit</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">longLiteral</td><td>)</td>
-          <td>&#160;&#160;&#160;(longLiteral##LL)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>A platform-independent macro for writing 64-bit literals, needed because different compilers have different syntaxes for this. </p>
-<p>E.g. writing literal64bit (0x1000000000) will translate to 0x1000000000LL for GCC, or 0x1000000000 for MSVC. </p>
-
-</div>
-</div>
 <a class="anchor" id="a339666bd60cc6cb0831cb79c8f1b07b6"></a>
 <div class="memitem">
 <div class="memproto">
@@ -327,22 +303,6 @@ Variables</h2></td></tr>
 
 <p>A helpful macro to simplify the use of the ParameterType template. </p>
 <dl class="section see"><dt>See Also</dt><dd>ParameterType </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a2a04225a9df1324513c2913f2d184abc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define literal64bit</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">longLiteral</td><td>)</td>
-          <td>&#160;&#160;&#160;(longLiteral##LL)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

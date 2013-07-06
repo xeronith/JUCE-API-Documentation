@@ -214,7 +214,7 @@ Public Member Functions</h2></td></tr>
 <p>If your target is a <a class="el" href="classComponent.html" title="The base class for all JUCE user-interface objects.">Component</a>, you would usually use the <a class="el" href="classApplicationCommandTarget.html#aa8fb128295bd2117cfdc982db022ef6a" title="If this object is a Component, this method will seach upwards in its current UI hierarchy for the nex...">findFirstTargetParentComponent()</a> method to return a parent component that might want to handle it.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classApplicationCommandTarget.html#aeffaac3af6c4922240e1e5e03ad0a1b5" title="Makes this target invoke a command.">invoke</a> </dd></dl>
 
-<p>Implemented in <a class="el" href="classCodeEditorComponent.html#ae5c560f772b9b5431b5242989b3f7fa6">CodeEditorComponent</a>, and <a class="el" href="classJUCEApplication.html#a53eb2460c6147646ceefe65db2c01931">JUCEApplication</a>.</p>
+<p>Implemented in <a class="el" href="classCodeEditorComponent.html#a830b370576d782d2e75f33164322e012">CodeEditorComponent</a>, and <a class="el" href="classJUCEApplication.html#a53eb2460c6147646ceefe65db2c01931">JUCEApplication</a>.</p>
 
 </div>
 </div>
@@ -243,7 +243,7 @@ Public Member Functions</h2></td></tr>
 <p>This must return a complete list of commands that this target can handle. </p>
 <p>Your target should add all the command IDs that it handles to the array that is passed-in. </p>
 
-<p>Implemented in <a class="el" href="classCodeEditorComponent.html#a767b419083530e10fb2146064a563aa5">CodeEditorComponent</a>, and <a class="el" href="classJUCEApplication.html#a772c13187c7362f188b4c2117aec8ef3">JUCEApplication</a>.</p>
+<p>Implemented in <a class="el" href="classCodeEditorComponent.html#ac37e3ec835e0672ac9fd24a574d67c87">CodeEditorComponent</a>, and <a class="el" href="classJUCEApplication.html#a772c13187c7362f188b4c2117aec8ef3">JUCEApplication</a>.</p>
 
 </div>
 </div>
@@ -287,7 +287,7 @@ Public Member Functions</h2></td></tr>
 <p>Any default key-presses for the command should be appended to the <a class="el" href="structApplicationCommandInfo.html#acae1903bdfd8214162adb8326d1ee9da" title="A list of zero or more keypresses that should be used as the default keys for this command...">ApplicationCommandInfo::defaultKeypresses</a> field.</p>
 <p>Note that if you change something that affects the status of the commands that would be returned by this method (e.g. something that makes some commands active or inactive), you should call <a class="el" href="classApplicationCommandManager.html#a91fef61705d98da881276733e304e7af" title="This should be called to tell the manager that one of its registered commands may have changed its ac...">ApplicationCommandManager::commandStatusChanged()</a> to cause the manager to refresh its status. </p>
 
-<p>Implemented in <a class="el" href="classCodeEditorComponent.html#abba6c1be1eade76079d7b341852c6b1c">CodeEditorComponent</a>, and <a class="el" href="classJUCEApplication.html#acf6b2c78fa3d4a05b7203fd02d101c32">JUCEApplication</a>.</p>
+<p>Implemented in <a class="el" href="classCodeEditorComponent.html#a9454244abc456d67d191c4f294858ad8">CodeEditorComponent</a>, and <a class="el" href="classJUCEApplication.html#acf6b2c78fa3d4a05b7203fd02d101c32">JUCEApplication</a>.</p>
 
 </div>
 </div>
@@ -318,7 +318,7 @@ Public Member Functions</h2></td></tr>
 <p>If it can't handle this command, it should return false, which tells the caller to pass the command on to the next target in line.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classApplicationCommandTarget.html#aeffaac3af6c4922240e1e5e03ad0a1b5" title="Makes this target invoke a command.">invoke</a>, <a class="el" href="classApplicationCommandManager.html#a6b506331c1cfb3d07b2925ac16b8141e" title="Sends a command to the default target.">ApplicationCommandManager::invoke</a> </dd></dl>
 
-<p>Implemented in <a class="el" href="classCodeEditorComponent.html#aefb696dea56699baa657e5834d3f1ec2">CodeEditorComponent</a>, and <a class="el" href="classJUCEApplication.html#ac4c89154aef3d78059477a11ebd22820">JUCEApplication</a>.</p>
+<p>Implemented in <a class="el" href="classCodeEditorComponent.html#ae46081c4bb11e732058659d10aa9ef8c">CodeEditorComponent</a>, and <a class="el" href="classJUCEApplication.html#ac4c89154aef3d78059477a11ebd22820">JUCEApplication</a>.</p>
 
 </div>
 </div>

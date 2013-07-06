@@ -101,14 +101,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af3132c1ed58ed03d255dde0e649f8be7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginDirectoryScanner.html#af3132c1ed58ed03d255dde0e649f8be7">~PluginDirectoryScanner</a> ()</td></tr>
 <tr class="memdesc:af3132c1ed58ed03d255dde0e649f8be7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#af3132c1ed58ed03d255dde0e649f8be7"></a><br/></td></tr>
 <tr class="separator:af3132c1ed58ed03d255dde0e649f8be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15cc1a5bc08f4f30f56b8ac1f4dc383f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginDirectoryScanner.html#a15cc1a5bc08f4f30f56b8ac1f4dc383f">scanNextFile</a> (bool dontRescanIfAlreadyInList)</td></tr>
-<tr class="memdesc:a15cc1a5bc08f4f30f56b8ac1f4dc383f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries the next likely-looking file.  <a href="#a15cc1a5bc08f4f30f56b8ac1f4dc383f"></a><br/></td></tr>
-<tr class="separator:a15cc1a5bc08f4f30f56b8ac1f4dc383f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5303b7b743f22a6ccd470422f56ecf1e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginDirectoryScanner.html#a5303b7b743f22a6ccd470422f56ecf1e">scanNextFile</a> (bool dontRescanIfAlreadyInList, <a class="el" href="classString.html">String</a> &amp;nameOfPluginBeingScanned)</td></tr>
+<tr class="memdesc:a5303b7b743f22a6ccd470422f56ecf1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries the next likely-looking file.  <a href="#a5303b7b743f22a6ccd470422f56ecf1e"></a><br/></td></tr>
+<tr class="separator:a5303b7b743f22a6ccd470422f56ecf1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85ef4f6094d91b010e79c3790018b539"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginDirectoryScanner.html#a85ef4f6094d91b010e79c3790018b539">skipNextFile</a> ()</td></tr>
 <tr class="memdesc:a85ef4f6094d91b010e79c3790018b539"><td class="mdescLeft">&#160;</td><td class="mdescRight">Skips over the next file without scanning it.  <a href="#a85ef4f6094d91b010e79c3790018b539"></a><br/></td></tr>
 <tr class="separator:a85ef4f6094d91b010e79c3790018b539"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afefd5ea950ffa32d44e5b45eaf0d709e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginDirectoryScanner.html#afefd5ea950ffa32d44e5b45eaf0d709e">getNextPluginFileThatWillBeScanned</a> () const </td></tr>
-<tr class="memdesc:afefd5ea950ffa32d44e5b45eaf0d709e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the description of the plugin that will be scanned during the next call to <a class="el" href="classPluginDirectoryScanner.html#a15cc1a5bc08f4f30f56b8ac1f4dc383f" title="Tries the next likely-looking file.">scanNextFile()</a>.  <a href="#afefd5ea950ffa32d44e5b45eaf0d709e"></a><br/></td></tr>
+<tr class="memdesc:afefd5ea950ffa32d44e5b45eaf0d709e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the description of the plugin that will be scanned during the next call to <a class="el" href="classPluginDirectoryScanner.html#a5303b7b743f22a6ccd470422f56ecf1e" title="Tries the next likely-looking file.">scanNextFile()</a>.  <a href="#afefd5ea950ffa32d44e5b45eaf0d709e"></a><br/></td></tr>
 <tr class="separator:afefd5ea950ffa32d44e5b45eaf0d709e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21d26809a8f97109c1107557f7a43f24"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginDirectoryScanner.html#a21d26809a8f97109c1107557f7a43f24">getProgress</a> () const </td></tr>
 <tr class="memdesc:a21d26809a8f97109c1107557f7a43f24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the estimated progress, between 0 and 1.  <a href="#a21d26809a8f97109c1107557f7a43f24"></a><br/></td></tr>
@@ -125,7 +125,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Scans a directory for plugins, and adds them to a <a class="el" href="classKnownPluginList.html" title="Manages a list of plugin types.">KnownPluginList</a>. </p>
-<p>To use one of these, create it and call <a class="el" href="classPluginDirectoryScanner.html#a15cc1a5bc08f4f30f56b8ac1f4dc383f" title="Tries the next likely-looking file.">scanNextFile()</a> repeatedly, until it returns false. </p>
+<p>To use one of these, create it and call <a class="el" href="classPluginDirectoryScanner.html#a5303b7b743f22a6ccd470422f56ecf1e" title="Tries the next likely-looking file.">scanNextFile()</a> repeatedly, until it returns false. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="af945acd58828079d587de38019064d51"></a>
 <div class="memitem">
@@ -201,7 +201,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a15cc1a5bc08f4f30f56b8ac1f4dc383f"></a>
+<a class="anchor" id="a5303b7b743f22a6ccd470422f56ecf1e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -209,14 +209,24 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">bool PluginDirectoryScanner::scanNextFile </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>dontRescanIfAlreadyInList</em></td><td>)</td>
+          <td class="paramname"><em>dontRescanIfAlreadyInList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>nameOfPluginBeingScanned</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Tries the next likely-looking file. </p>
-<p>If dontRescanIfAlreadyInList is true, then the file will only be loaded and re-tested if it's not already in the list, or if the file's modification time has changed since the list was created. If dontRescanIfAlreadyInList is false, the file will always be reloaded and tested.</p>
+<p>If dontRescanIfAlreadyInList is true, then the file will only be loaded and re-tested if it's not already in the list, or if the file's modification time has changed since the list was created. If dontRescanIfAlreadyInList is false, the file will always be reloaded and tested. The nameOfPluginBeingScanned will be updated to the name of the plugin being scanned before the scan starts.</p>
 <p>Returns false when there are no more files to try. </p>
 
 </div>
@@ -252,7 +262,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the description of the plugin that will be scanned during the next call to <a class="el" href="classPluginDirectoryScanner.html#a15cc1a5bc08f4f30f56b8ac1f4dc383f" title="Tries the next likely-looking file.">scanNextFile()</a>. </p>
+<p>Returns the description of the plugin that will be scanned during the next call to <a class="el" href="classPluginDirectoryScanner.html#a5303b7b743f22a6ccd470422f56ecf1e" title="Tries the next likely-looking file.">scanNextFile()</a>. </p>
 <p>This is handy if you want to show the user which file is currently getting scanned. </p>
 
 </div>

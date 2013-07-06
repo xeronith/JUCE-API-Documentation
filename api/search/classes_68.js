@@ -29,6 +29,7 @@ var searchData=
   ['heapblock_3c_20combobox_20_2a_20_3e',['HeapBlock&lt; ComboBox * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20commandmapping_20_2a_20_3e',['HeapBlock&lt; CommandMapping * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20component_20_2a_20_3e',['HeapBlock&lt; Component * &gt;',['../classHeapBlock.html',1,'']]],
+  ['heapblock_3c_20componentpeer_20_2a_20_3e',['HeapBlock&lt; ComponentPeer * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20connection_20_2a_20_3e',['HeapBlock&lt; Connection * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20const_20plugindescription_20_2a_20_3e',['HeapBlock&lt; const PluginDescription * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20display_20_3e',['HeapBlock&lt; Display &gt;',['../classHeapBlock.html',1,'']]],

@@ -252,9 +252,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0df6ffa4073301eb8e2b0436fc3a1359"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#a0df6ffa4073301eb8e2b0436fc3a1359">scaleToFit</a> (float x, float y, float width, float height, bool preserveProportions) noexcept</td></tr>
 <tr class="memdesc:a0df6ffa4073301eb8e2b0436fc3a1359"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rescales this path to make it fit neatly into a given space.  <a href="#a0df6ffa4073301eb8e2b0436fc3a1359"></a><br/></td></tr>
 <tr class="separator:a0df6ffa4073301eb8e2b0436fc3a1359"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed300583a9533515b3a2f37c693434b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAffineTransform.html">AffineTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#aed300583a9533515b3a2f37c693434b3">getTransformToScaleToFit</a> (float x, float y, float width, float height, bool preserveProportions, const <a class="el" href="classJustification.html">Justification</a> &amp;justificationType=<a class="el" href="classJustification.html#a1f8c07756c56fe8f31ed44964e51bfbcaf9d9adde20dce1aa38ff9a69be2b4384">Justification::centred</a>) const </td></tr>
-<tr class="memdesc:aed300583a9533515b3a2f37c693434b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a transform that can be used to rescale the path to fit into a given space.  <a href="#aed300583a9533515b3a2f37c693434b3"></a><br/></td></tr>
-<tr class="separator:aed300583a9533515b3a2f37c693434b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a338cb795bde71ad0624c53deb9ab6457"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAffineTransform.html">AffineTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#a338cb795bde71ad0624c53deb9ab6457">getTransformToScaleToFit</a> (float x, float y, float width, float height, bool preserveProportions, <a class="el" href="classJustification.html">Justification</a> justificationType=<a class="el" href="classJustification.html#a1f8c07756c56fe8f31ed44964e51bfbcaf9d9adde20dce1aa38ff9a69be2b4384">Justification::centred</a>) const </td></tr>
+<tr class="memdesc:a338cb795bde71ad0624c53deb9ab6457"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a transform that can be used to rescale the path to fit into a given space.  <a href="#a338cb795bde71ad0624c53deb9ab6457"></a><br/></td></tr>
+<tr class="separator:a338cb795bde71ad0624c53deb9ab6457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add5360c1a1c2969dc4da5ab867313679"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAffineTransform.html">AffineTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#add5360c1a1c2969dc4da5ab867313679">getTransformToScaleToFit</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;area, bool preserveProportions, <a class="el" href="classJustification.html">Justification</a> justificationType=<a class="el" href="classJustification.html#a1f8c07756c56fe8f31ed44964e51bfbcaf9d9adde20dce1aa38ff9a69be2b4384">Justification::centred</a>) const </td></tr>
+<tr class="memdesc:add5360c1a1c2969dc4da5ab867313679"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a transform that can be used to rescale the path to fit into a given space.  <a href="#add5360c1a1c2969dc4da5ab867313679"></a><br/></td></tr>
+<tr class="separator:add5360c1a1c2969dc4da5ab867313679"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fb9449e40a0ed3f86c31d538e8777ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPath.html">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#a6fb9449e40a0ed3f86c31d538e8777ef">createPathWithRoundedCorners</a> (float cornerRadius) const </td></tr>
 <tr class="memdesc:a6fb9449e40a0ed3f86c31d538e8777ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a version of this path where all sharp corners have been replaced by curves.  <a href="#a6fb9449e40a0ed3f86c31d538e8777ef"></a><br/></td></tr>
 <tr class="separator:a6fb9449e40a0ed3f86c31d538e8777ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2080,7 +2083,7 @@ template&lt;typename ValueType &gt; </div>
 </div><div class="memdoc">
 
 <p>Applies a 2D transform to all the vertices in the path. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAffineTransform.html" title="Represents a 2D affine-transformation matrix.">AffineTransform</a>, <a class="el" href="classPath.html#a0df6ffa4073301eb8e2b0436fc3a1359" title="Rescales this path to make it fit neatly into a given space.">scaleToFit</a>, <a class="el" href="classPath.html#aed300583a9533515b3a2f37c693434b3" title="Returns a transform that can be used to rescale the path to fit into a given space.">getTransformToScaleToFit</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAffineTransform.html" title="Represents a 2D affine-transformation matrix.">AffineTransform</a>, <a class="el" href="classPath.html#a0df6ffa4073301eb8e2b0436fc3a1359" title="Rescales this path to make it fit neatly into a given space.">scaleToFit</a>, <a class="el" href="classPath.html#a338cb795bde71ad0624c53deb9ab6457" title="Returns a transform that can be used to rescale the path to fit into a given space.">getTransformToScaleToFit</a> </dd></dl>
 
 </div>
 </div>
@@ -2146,11 +2149,11 @@ template&lt;typename ValueType &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPath.html#afad2558a4296d94b9f5640281ec3c0c3" title="Applies a 2D transform to all the vertices in the path.">applyTransform</a>, <a class="el" href="classPath.html#aed300583a9533515b3a2f37c693434b3" title="Returns a transform that can be used to rescale the path to fit into a given space.">getTransformToScaleToFit</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPath.html#afad2558a4296d94b9f5640281ec3c0c3" title="Applies a 2D transform to all the vertices in the path.">applyTransform</a>, <a class="el" href="classPath.html#a338cb795bde71ad0624c53deb9ab6457" title="Returns a transform that can be used to rescale the path to fit into a given space.">getTransformToScaleToFit</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="aed300583a9533515b3a2f37c693434b3"></a>
+<a class="anchor" id="a338cb795bde71ad0624c53deb9ab6457"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2187,7 +2190,7 @@ template&lt;typename ValueType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classJustification.html">Justification</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classJustification.html">Justification</a>&#160;</td>
           <td class="paramname"><em>justificationType</em> = <code><a class="el" href="classJustification.html#a1f8c07756c56fe8f31ed44964e51bfbcaf9d9adde20dce1aa38ff9a69be2b4384">Justification::centred</a></code>&#160;</td>
         </tr>
         <tr>
@@ -2205,6 +2208,50 @@ template&lt;typename ValueType &gt; </div>
     <tr><td class="paramname">y</td><td>the y position of the rectangle to fit the path inside </td></tr>
     <tr><td class="paramname">width</td><td>the width of the rectangle to fit the path inside </td></tr>
     <tr><td class="paramname">height</td><td>the height of the rectangle to fit the path inside </td></tr>
+    <tr><td class="paramname">preserveProportions</td><td>if true, it will fit the path into the space without altering its horizontal/vertical scale ratio; if false, it will distort the path to fill the specified ratio both horizontally and vertically </td></tr>
+    <tr><td class="paramname">justificationType</td><td>if the proportions are preseved, the resultant path may be smaller than the available rectangle, so this describes how it should be positioned within the space. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>an appropriate transformation</dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPath.html#afad2558a4296d94b9f5640281ec3c0c3" title="Applies a 2D transform to all the vertices in the path.">applyTransform</a>, <a class="el" href="classPath.html#a0df6ffa4073301eb8e2b0436fc3a1359" title="Rescales this path to make it fit neatly into a given space.">scaleToFit</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="add5360c1a1c2969dc4da5ab867313679"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classAffineTransform.html">AffineTransform</a> Path::getTransformToScaleToFit </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>area</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>preserveProportions</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classJustification.html">Justification</a>&#160;</td>
+          <td class="paramname"><em>justificationType</em> = <code><a class="el" href="classJustification.html#a1f8c07756c56fe8f31ed44964e51bfbcaf9d9adde20dce1aa38ff9a69be2b4384">Justification::centred</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a transform that can be used to rescale the path to fit into a given space. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">area</td><td>the rectangle to fit the path inside </td></tr>
     <tr><td class="paramname">preserveProportions</td><td>if true, it will fit the path into the space without altering its horizontal/vertical scale ratio; if false, it will distort the path to fill the specified ratio both horizontally and vertically </td></tr>
     <tr><td class="paramname">justificationType</td><td>if the proportions are preseved, the resultant path may be smaller than the available rectangle, so this describes how it should be positioned within the space. </td></tr>
   </table>

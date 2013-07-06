@@ -106,7 +106,7 @@ var searchData=
   ['withy',['withY',['../classPoint.html#a86e751c47aadad9acd0ede4cb793c2e1',1,'Point::withY()'],['../classRectangle.html#acd9fb0641be5b306792f97a275aaf6a1',1,'Rectangle::withY()']]],
   ['withzeroorigin',['withZeroOrigin',['../classRectangle.html#a37748fcf8ae61d1aa31ab49aa5cc787c',1,'Rectangle']]],
   ['wordwrap',['WordWrap',['../classAttributedString.html#ad752f270294ec5b2cef0c80863ee3a3c',1,'AttributedString']]],
-  ['wrappertype',['wrapperType',['../classAudioProcessor.html#a7bf4a5cf41e84de51aab7ccb75d1f897',1,'AudioProcessor::wrapperType()'],['../classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf',1,'AudioProcessor::WrapperType()']]],
+  ['wrappertype',['WrapperType',['../classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf',1,'AudioProcessor::WrapperType()'],['../classAudioProcessor.html#a7bf4a5cf41e84de51aab7ccb75d1f897',1,'AudioProcessor::wrapperType()']]],
   ['wrappertype_5faax',['wrapperType_AAX',['../classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa9a43d586134e1bf0ceacdd2de2defbb3',1,'AudioProcessor']]],
   ['wrappertype_5faudiounit',['wrapperType_AudioUnit',['../classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa3942e92d75c1edf6096405a400a12100',1,'AudioProcessor']]],
   ['wrappertype_5frtas',['wrapperType_RTAS',['../classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa0d1334a563a3764a0a026703fec73ff6',1,'AudioProcessor']]],

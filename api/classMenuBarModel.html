@@ -130,12 +130,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa64b5b9bb4ea4e7bcdc49924659936cc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMenuBarModel.html#aa64b5b9bb4ea4e7bcdc49924659936cc">menuItemSelected</a> (int menuItemID, int topLevelMenuIndex)=0</td></tr>
 <tr class="memdesc:aa64b5b9bb4ea4e7bcdc49924659936cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called when a menu item has been clicked on.  <a href="#aa64b5b9bb4ea4e7bcdc49924659936cc"></a><br/></td></tr>
 <tr class="separator:aa64b5b9bb4ea4e7bcdc49924659936cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fe4486db7cfc54e7188cbe41916ad19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMenuBarModel.html#a0fe4486db7cfc54e7188cbe41916ad19">applicationCommandInvoked</a> (const <a class="el" href="structApplicationCommandTarget_1_1InvocationInfo.html">ApplicationCommandTarget::InvocationInfo</a> &amp;info)</td></tr>
-<tr class="separator:a0fe4486db7cfc54e7188cbe41916ad19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c063d32d810e7e843858c8537b2f921"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMenuBarModel.html#a4c063d32d810e7e843858c8537b2f921">applicationCommandListChanged</a> ()</td></tr>
-<tr class="separator:a4c063d32d810e7e843858c8537b2f921"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4b769f88e54074dc8e24a533e60dc1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMenuBarModel.html#ae4b769f88e54074dc8e24a533e60dc1c">handleAsyncUpdate</a> ()</td></tr>
-<tr class="separator:ae4b769f88e54074dc8e24a533e60dc1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba883088ab664aa0f20da6c14750ff43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMenuBarModel.html#aba883088ab664aa0f20da6c14750ff43">applicationCommandInvoked</a> (const <a class="el" href="structApplicationCommandTarget_1_1InvocationInfo.html">ApplicationCommandTarget::InvocationInfo</a> &amp;info) override</td></tr>
+<tr class="separator:aba883088ab664aa0f20da6c14750ff43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa996c527567f42f3c9063241520d1270"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMenuBarModel.html#aa996c527567f42f3c9063241520d1270">applicationCommandListChanged</a> () override</td></tr>
+<tr class="separator:aa996c527567f42f3c9063241520d1270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dddd32a4b5bd42c1313751bb13f882e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMenuBarModel.html#a0dddd32a4b5bd42c1313751bb13f882e">handleAsyncUpdate</a> () override</td></tr>
+<tr class="separator:a0dddd32a4b5bd42c1313751bb13f882e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -537,7 +537,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0fe4486db7cfc54e7188cbe41916ad19"></a>
+<a class="anchor" id="aba883088ab664aa0f20da6c14750ff43"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -554,7 +554,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -563,7 +563,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4c063d32d810e7e843858c8537b2f921"></a>
+<a class="anchor" id="aa996c527567f42f3c9063241520d1270"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -579,7 +579,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -588,7 +588,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae4b769f88e54074dc8e24a533e60dc1c"></a>
+<a class="anchor" id="a0dddd32a4b5bd42c1313751bb13f882e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -604,7 +604,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

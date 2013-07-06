@@ -201,14 +201,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0390d13daac405225657a7237022778c"><td class="memTemplItemLeft" align="right" valign="top">static int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharacterFunctions.html#a0390d13daac405225657a7237022778c">indexOfCharIgnoreCase</a> (Type text, <a class="el" href="juce__CharacterFunctions_8h.html#a7d83261f3888884bbf04a58edc2672da">juce_wchar</a> charToFind) noexcept</td></tr>
 <tr class="memdesc:a0390d13daac405225657a7237022778c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the character index of a given character in another string, using a case-independent match.  <a href="#a0390d13daac405225657a7237022778c"></a><br/></td></tr>
 <tr class="separator:a0390d13daac405225657a7237022778c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2945fb70b58a4ae1c308c308b897367"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
-<tr class="memitem:aa2945fb70b58a4ae1c308c308b897367"><td class="memTemplItemLeft" align="right" valign="top">static Type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharacterFunctions.html#aa2945fb70b58a4ae1c308c308b897367">findEndOfWhitespace</a> (const Type &amp;text) noexcept</td></tr>
-<tr class="memdesc:aa2945fb70b58a4ae1c308c308b897367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first non-whitespace character in a string.  <a href="#aa2945fb70b58a4ae1c308c308b897367"></a><br/></td></tr>
-<tr class="separator:aa2945fb70b58a4ae1c308c308b897367"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60422d8a456255ed5fba21edfc99529f"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
-<tr class="memitem:a60422d8a456255ed5fba21edfc99529f"><td class="memTemplItemLeft" align="right" valign="top">static Type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharacterFunctions.html#a60422d8a456255ed5fba21edfc99529f">findEndOfToken</a> (const Type &amp;text, const Type &amp;breakCharacters, const Type &amp;quoteCharacters)</td></tr>
-<tr class="memdesc:a60422d8a456255ed5fba21edfc99529f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first character in the string which is found in the breakCharacters string.  <a href="#a60422d8a456255ed5fba21edfc99529f"></a><br/></td></tr>
-<tr class="separator:a60422d8a456255ed5fba21edfc99529f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1b0612e60e31641f0f2460d646b8e80"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:ad1b0612e60e31641f0f2460d646b8e80"><td class="memTemplItemLeft" align="right" valign="top">static Type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharacterFunctions.html#ad1b0612e60e31641f0f2460d646b8e80">findEndOfWhitespace</a> (Type text) noexcept</td></tr>
+<tr class="memdesc:ad1b0612e60e31641f0f2460d646b8e80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first non-whitespace character in a string.  <a href="#ad1b0612e60e31641f0f2460d646b8e80"></a><br/></td></tr>
+<tr class="separator:ad1b0612e60e31641f0f2460d646b8e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac161ea78a27618a0421fa57f561cac9c"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:ac161ea78a27618a0421fa57f561cac9c"><td class="memTemplItemLeft" align="right" valign="top">static Type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharacterFunctions.html#ac161ea78a27618a0421fa57f561cac9c">findEndOfToken</a> (Type text, const Type breakCharacters, const Type quoteCharacters)</td></tr>
+<tr class="memdesc:ac161ea78a27618a0421fa57f561cac9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first character in the string which is found in the breakCharacters string.  <a href="#ac161ea78a27618a0421fa57f561cac9c"></a><br/></td></tr>
+<tr class="separator:ac161ea78a27618a0421fa57f561cac9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A collection of functions for manipulating characters and character strings. </p>
@@ -596,7 +596,7 @@ template&lt;typename CharPointerType &gt; </div>
 <p>Parses a character string to read a floating-point number. </p>
 <p>Note that this will advance the pointer that is passed in, leaving it at the end of the number. </p>
 
-<p>References <a class="el" href="classCharacterFunctions.html#aa2945fb70b58a4ae1c308c308b897367">findEndOfWhitespace()</a>.</p>
+<p>References <a class="el" href="classCharacterFunctions.html#ad1b0612e60e31641f0f2460d646b8e80">findEndOfWhitespace()</a>.</p>
 
 </div>
 </div>
@@ -1245,7 +1245,7 @@ template&lt;typename Type &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aa2945fb70b58a4ae1c308c308b897367"></a>
+<a class="anchor" id="ad1b0612e60e31641f0f2460d646b8e80"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -1257,7 +1257,7 @@ template&lt;typename Type &gt; </div>
         <tr>
           <td class="memname">static Type CharacterFunctions::findEndOfWhitespace </td>
           <td>(</td>
-          <td class="paramtype">const Type &amp;&#160;</td>
+          <td class="paramtype">Type&#160;</td>
           <td class="paramname"><em>text</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1276,7 +1276,7 @@ template&lt;typename Type &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a60422d8a456255ed5fba21edfc99529f"></a>
+<a class="anchor" id="ac161ea78a27618a0421fa57f561cac9c"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -1288,19 +1288,19 @@ template&lt;typename Type &gt; </div>
         <tr>
           <td class="memname">static Type CharacterFunctions::findEndOfToken </td>
           <td>(</td>
-          <td class="paramtype">const Type &amp;&#160;</td>
+          <td class="paramtype">Type&#160;</td>
           <td class="paramname"><em>text</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Type &amp;&#160;</td>
+          <td class="paramtype">const Type&#160;</td>
           <td class="paramname"><em>breakCharacters</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Type &amp;&#160;</td>
+          <td class="paramtype">const Type&#160;</td>
           <td class="paramname"><em>quoteCharacters</em>&#160;</td>
         </tr>
         <tr>

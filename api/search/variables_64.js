@@ -44,5 +44,6 @@ var searchData=
   ['dodgerblue',['dodgerblue',['../classColours.html#a1a07cae34389d93d4b3817a14ef6efda',1,'Colours']]],
   ['double_5fpi',['double_Pi',['../juce__MathsFunctions_8h.html#aa929b9e10eedb3b7a6bd8f6ba2d9ddaa',1,'double_Pi():&#160;juce_MathsFunctions.h'],['../namespacejuce.html#ac186fb6c96b71c704058b5a23b5af68b',1,'juce::double_Pi()']]],
   ['downkey',['downKey',['../classKeyPress.html#aeb9a20dd50b39f66d7d778d31b6b5f88',1,'KeyPress']]],
+  ['dpi',['dpi',['../structDesktop_1_1Displays_1_1Display.html#acfea525d7724fa5b442648346bff2af0',1,'Desktop::Displays::Display']]],
   ['drylevel',['dryLevel',['../structReverb_1_1Parameters.html#add75191e7a163d95cd807cbc72fa192c',1,'Reverb::Parameters']]]
 ];
