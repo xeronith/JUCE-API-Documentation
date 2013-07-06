@@ -253,7 +253,7 @@ var searchData=
   ['getdayofyear',['getDayOfYear',['../classTime.html#a4966bd179982c52ecc1eb017dba69ee5',1,'Time']]],
   ['getdefault',['getDefault',['../classNewLine.html#ab07d21b3c535b0bf3897893cc87b765e',1,'NewLine']]],
   ['getdefaultbuffersize',['getDefaultBufferSize',['../classAudioIODevice.html#a71384f0310a9f6850cd826d0fd91f8f4',1,'AudioIODevice']]],
-  ['getdefaultcolourscheme',['getDefaultColourScheme',['../classCodeTokeniser.html#a240c3d9ca2a5e7f4da5d895143b52b78',1,'CodeTokeniser::getDefaultColourScheme()'],['../classCPlusPlusCodeTokeniser.html#a1c73177b3e41a4babf4b2cfb89287fb7',1,'CPlusPlusCodeTokeniser::getDefaultColourScheme()']]],
+  ['getdefaultcolourscheme',['getDefaultColourScheme',['../classCodeTokeniser.html#a240c3d9ca2a5e7f4da5d895143b52b78',1,'CodeTokeniser::getDefaultColourScheme()'],['../classCPlusPlusCodeTokeniser.html#aaf182fcb2371143ea3709b4f966b3e8a',1,'CPlusPlusCodeTokeniser::getDefaultColourScheme()']]],
   ['getdefaultcomponent',['getDefaultComponent',['../classKeyboardFocusTraverser.html#a2c21be5bdf95b97b501e595955c7d75b',1,'KeyboardFocusTraverser']]],
   ['getdefaultdeviceindex',['getDefaultDeviceIndex',['../classAudioIODeviceType.html#af12cc963a4d445c2665452c3173bac67',1,'AudioIODeviceType::getDefaultDeviceIndex()'],['../classMidiInput.html#a2c14fc7803134015ea3718f79d4e2d55',1,'MidiInput::getDefaultDeviceIndex()'],['../classMidiOutput.html#a5459a18d9b1b9a5fe27e95e6e9e06a87',1,'MidiOutput::getDefaultDeviceIndex()']]],
   ['getdefaultdocumentfileimage',['getDefaultDocumentFileImage',['../classLookAndFeel.html#a856c16a426ab532fb7e8611f58663faf',1,'LookAndFeel']]],
