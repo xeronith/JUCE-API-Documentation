@@ -36,7 +36,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -68,7 +67,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -145,8 +144,8 @@ Macros</h2></td></tr>
 <tr class="memitem:acd5d010d01e78e318786ab060742acd1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#acd5d010d01e78e318786ab060742acd1">JUCE_ALIGN</a>(bytes)&#160;&#160;&#160;__declspec (align (bytes))</td></tr>
 <tr class="memdesc:acd5d010d01e78e318786ab060742acd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be placed before a stack or member variable declaration to tell the compiler to align it to the specified number of bytes.  <a href="#acd5d010d01e78e318786ab060742acd1"></a><br/></td></tr>
 <tr class="separator:acd5d010d01e78e318786ab060742acd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af25d2cb3e6d1124146f7f1fcd8648016"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#af25d2cb3e6d1124146f7f1fcd8648016">JUCE_DEPRECATED</a>(functionDef)&#160;&#160;&#160;__declspec(deprecated) functionDef</td></tr>
-<tr class="memdesc:af25d2cb3e6d1124146f7f1fcd8648016"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be used to wrap a function which has been deprecated.  <a href="#af25d2cb3e6d1124146f7f1fcd8648016"></a><br/></td></tr>
+<tr class="memitem:af25d2cb3e6d1124146f7f1fcd8648016"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#af25d2cb3e6d1124146f7f1fcd8648016">JUCE_DEPRECATED</a>(functionDef)</td></tr>
+<tr class="memdesc:af25d2cb3e6d1124146f7f1fcd8648016"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro can be used to wrap a function which has been deprecated.  <a href="#af25d2cb3e6d1124146f7f1fcd8648016"></a><br/></td></tr>
 <tr class="separator:af25d2cb3e6d1124146f7f1fcd8648016"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab78bf674b269119c2890d4bea40082b5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#ab78bf674b269119c2890d4bea40082b5">JUCE_MODAL_LOOPS_PERMITTED</a>&#160;&#160;&#160;1</td></tr>
 <tr class="memdesc:ab78bf674b269119c2890d4bea40082b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some operating environments don't provide a modal loop mechanism, so this flag can be used to disable any functions that try to run a modal loop.  <a href="#ab78bf674b269119c2890d4bea40082b5"></a><br/></td></tr>
@@ -514,12 +513,12 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">functionDef</td><td>)</td>
-          <td>&#160;&#160;&#160;__declspec(deprecated) functionDef</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>This can be used to wrap a function which has been deprecated. </p>
+<p>This macro can be used to wrap a function which has been deprecated. </p>
 
 </div>
 </div>

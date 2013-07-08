@@ -5,7 +5,7 @@ var searchData=
   ['fail',['fail',['../classResult.html#a2b51de8f6f8c27c3de29f9da5cce8f75',1,'Result']]],
   ['failed',['failed',['../classResult.html#a0bca10ed2b5416e33dfd027869c849ce',1,'Result']]],
   ['failedtoopen',['failedToOpen',['../classFileInputStream.html#a203bfaf432beeac638b8d6ec5bbce2c3',1,'FileInputStream::failedToOpen()'],['../classFileOutputStream.html#a616887c2791a85e35f00b6e38436d4be',1,'FileOutputStream::failedToOpen()']]],
-  ['file',['File',['../classFile.html#a51dc22c62ddf2fbeef8335300fc8e56a',1,'File::File() noexcept'],['../classFile.html#ae48b8a5611a11bf2d6e7c23551452421',1,'File::File(const String &amp;path)'],['../classFile.html#ad1fbab59d996b3b3840986307eceb3ee',1,'File::File(const File &amp;other)']]],
+  ['file',['File',['../classFile.html#a51dc22c62ddf2fbeef8335300fc8e56a',1,'File::File() noexcept'],['../classFile.html#ab803ce7daf2eb1194a562a7912d96967',1,'File::File(const String &amp;absolutePath)'],['../classFile.html#afe6451b8ade2452f5bea23a9fe02fa45',1,'File::File(const File &amp;)']]],
   ['filebaseddocument',['FileBasedDocument',['../classFileBasedDocument.html#a67651e24e6e4bd15b08edb2d101910aa',1,'FileBasedDocument']]],
   ['filebrowsercomponent',['FileBrowserComponent',['../classFileBrowserComponent.html#a280d477349b38219b4870775aa4f67a2',1,'FileBrowserComponent']]],
   ['filechooser',['FileChooser',['../classFileChooser.html#a7f950ec1898a9cd3f74d7df5df9b85ea',1,'FileChooser']]],
