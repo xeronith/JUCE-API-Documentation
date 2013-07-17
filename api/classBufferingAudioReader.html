@@ -101,11 +101,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a568c48a6b62ce2acf4e0e59f7ac78711"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBufferingAudioReader.html#a568c48a6b62ce2acf4e0e59f7ac78711">~BufferingAudioReader</a> ()</td></tr>
 <tr class="separator:a568c48a6b62ce2acf4e0e59f7ac78711"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a27246602984c5614b7f708005a9d34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBufferingAudioReader.html#a5a27246602984c5614b7f708005a9d34">setReadTimeout</a> (int timeoutMilliseconds) noexcept</td></tr>
-<tr class="memdesc:a5a27246602984c5614b7f708005a9d34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a number of milliseconds that the reader can block for in its <a class="el" href="classBufferingAudioReader.html#a4f28ccaff202ba5cc3c4b6c081089cd8" title="Subclasses must implement this method to perform the low-level read operation.">readSamples()</a> method before giving up and returning silence.  <a href="#a5a27246602984c5614b7f708005a9d34"></a><br/></td></tr>
+<tr class="memdesc:a5a27246602984c5614b7f708005a9d34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a number of milliseconds that the reader can block for in its <a class="el" href="classBufferingAudioReader.html#a578f7686c957cfb442a5a385c2ebbbeb" title="Subclasses must implement this method to perform the low-level read operation.">readSamples()</a> method before giving up and returning silence.  <a href="#a5a27246602984c5614b7f708005a9d34"></a><br/></td></tr>
 <tr class="separator:a5a27246602984c5614b7f708005a9d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f28ccaff202ba5cc3c4b6c081089cd8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBufferingAudioReader.html#a4f28ccaff202ba5cc3c4b6c081089cd8">readSamples</a> (int **destSamples, int numDestChannels, int startOffsetInDestBuffer, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> startSampleInFile, int numSamples)</td></tr>
-<tr class="memdesc:a4f28ccaff202ba5cc3c4b6c081089cd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subclasses must implement this method to perform the low-level read operation.  <a href="#a4f28ccaff202ba5cc3c4b6c081089cd8"></a><br/></td></tr>
-<tr class="separator:a4f28ccaff202ba5cc3c4b6c081089cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a578f7686c957cfb442a5a385c2ebbbeb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBufferingAudioReader.html#a578f7686c957cfb442a5a385c2ebbbeb">readSamples</a> (int **destSamples, int numDestChannels, int startOffsetInDestBuffer, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> startSampleInFile, int numSamples) override</td></tr>
+<tr class="memdesc:a578f7686c957cfb442a5a385c2ebbbeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subclasses must implement this method to perform the low-level read operation.  <a href="#a578f7686c957cfb442a5a385c2ebbbeb"></a><br/></td></tr>
+<tr class="separator:a578f7686c957cfb442a5a385c2ebbbeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classAudioFormatReader"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classAudioFormatReader')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classAudioFormatReader.html">AudioFormatReader</a></td></tr>
 <tr class="memitem:aa5c4a7c0715e60d829a03b8aa67a8c49 inherit pub_methods_classAudioFormatReader"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatReader.html#aa5c4a7c0715e60d829a03b8aa67a8c49">~AudioFormatReader</a> ()</td></tr>
 <tr class="memdesc:aa5c4a7c0715e60d829a03b8aa67a8c49 inherit pub_methods_classAudioFormatReader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#aa5c4a7c0715e60d829a03b8aa67a8c49"></a><br/></td></tr>
@@ -247,12 +247,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets a number of milliseconds that the reader can block for in its <a class="el" href="classBufferingAudioReader.html#a4f28ccaff202ba5cc3c4b6c081089cd8" title="Subclasses must implement this method to perform the low-level read operation.">readSamples()</a> method before giving up and returning silence. </p>
+<p>Sets a number of milliseconds that the reader can block for in its <a class="el" href="classBufferingAudioReader.html#a578f7686c957cfb442a5a385c2ebbbeb" title="Subclasses must implement this method to perform the low-level read operation.">readSamples()</a> method before giving up and returning silence. </p>
 <p>A value of less that 0 means "wait forever". The default timeout is 0. </p>
 
 </div>
 </div>
-<a class="anchor" id="a4f28ccaff202ba5cc3c4b6c081089cd8"></a>
+<a class="anchor" id="a578f7686c957cfb442a5a385c2ebbbeb"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -297,7 +297,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

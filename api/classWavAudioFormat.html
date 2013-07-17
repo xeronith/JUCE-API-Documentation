@@ -103,27 +103,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a95e94be65145788e4436237e41c5454f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWavAudioFormat.html#a95e94be65145788e4436237e41c5454f">~WavAudioFormat</a> ()</td></tr>
 <tr class="memdesc:a95e94be65145788e4436237e41c5454f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a95e94be65145788e4436237e41c5454f"></a><br/></td></tr>
 <tr class="separator:a95e94be65145788e4436237e41c5454f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5de3cc54b7ef5b25079c952b44f8482d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classArray.html">Array</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWavAudioFormat.html#a5de3cc54b7ef5b25079c952b44f8482d">getPossibleSampleRates</a> ()</td></tr>
-<tr class="memdesc:a5de3cc54b7ef5b25079c952b44f8482d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a set of sample rates that the format can read and write.  <a href="#a5de3cc54b7ef5b25079c952b44f8482d"></a><br/></td></tr>
-<tr class="separator:a5de3cc54b7ef5b25079c952b44f8482d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7651257cb7e5cd4e2e3293c2a331ebd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classArray.html">Array</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWavAudioFormat.html#a7651257cb7e5cd4e2e3293c2a331ebd9">getPossibleBitDepths</a> ()</td></tr>
-<tr class="memdesc:a7651257cb7e5cd4e2e3293c2a331ebd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a set of bit depths that the format can read and write.  <a href="#a7651257cb7e5cd4e2e3293c2a331ebd9"></a><br/></td></tr>
-<tr class="separator:a7651257cb7e5cd4e2e3293c2a331ebd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e9e0354306afef5bc52496a586f6b1f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWavAudioFormat.html#a1e9e0354306afef5bc52496a586f6b1f">canDoStereo</a> ()</td></tr>
-<tr class="memdesc:a1e9e0354306afef5bc52496a586f6b1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the format can do 2-channel audio.  <a href="#a1e9e0354306afef5bc52496a586f6b1f"></a><br/></td></tr>
-<tr class="separator:a1e9e0354306afef5bc52496a586f6b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade3a903f7aa8e3032d004939ef29638e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWavAudioFormat.html#ade3a903f7aa8e3032d004939ef29638e">canDoMono</a> ()</td></tr>
-<tr class="memdesc:ade3a903f7aa8e3032d004939ef29638e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the format can do 1-channel audio.  <a href="#ade3a903f7aa8e3032d004939ef29638e"></a><br/></td></tr>
-<tr class="separator:ade3a903f7aa8e3032d004939ef29638e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5033528d424d46305c105187f95a7602"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioFormatReader.html">AudioFormatReader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWavAudioFormat.html#a5033528d424d46305c105187f95a7602">createReaderFor</a> (<a class="el" href="classInputStream.html">InputStream</a> *sourceStream, bool deleteStreamIfOpeningFails)</td></tr>
-<tr class="memdesc:a5033528d424d46305c105187f95a7602"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to create an object that can read from a stream containing audio data in this format.  <a href="#a5033528d424d46305c105187f95a7602"></a><br/></td></tr>
-<tr class="separator:a5033528d424d46305c105187f95a7602"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a9433da0a24e7d8e3462dd6fedf8160"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMemoryMappedAudioFormatReader.html">MemoryMappedAudioFormatReader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWavAudioFormat.html#a5a9433da0a24e7d8e3462dd6fedf8160">createMemoryMappedReader</a> (const <a class="el" href="classFile.html">File</a> &amp;file)</td></tr>
-<tr class="memdesc:a5a9433da0a24e7d8e3462dd6fedf8160"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to create a <a class="el" href="classMemoryMappedAudioFormatReader.html" title="A specialised type of AudioFormatReader that uses a MemoryMappedFile to read directly from an audio f...">MemoryMappedAudioFormatReader</a>, if possible for this format.  <a href="#a5a9433da0a24e7d8e3462dd6fedf8160"></a><br/></td></tr>
-<tr class="separator:a5a9433da0a24e7d8e3462dd6fedf8160"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52377fee2fd2b72aff558a9472bb4187"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioFormatWriter.html">AudioFormatWriter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWavAudioFormat.html#a52377fee2fd2b72aff558a9472bb4187">createWriterFor</a> (<a class="el" href="classOutputStream.html">OutputStream</a> *streamToWriteTo, double sampleRateToUse, unsigned int numberOfChannels, int bitsPerSample, const <a class="el" href="classStringPairArray.html">StringPairArray</a> &amp;metadataValues, int qualityOptionIndex)</td></tr>
-<tr class="memdesc:a52377fee2fd2b72aff558a9472bb4187"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to create an object that can write to a stream with this audio format.  <a href="#a52377fee2fd2b72aff558a9472bb4187"></a><br/></td></tr>
-<tr class="separator:a52377fee2fd2b72aff558a9472bb4187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea72c2cdd3d3a4a9e2f028834caa4a91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classArray.html">Array</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWavAudioFormat.html#aea72c2cdd3d3a4a9e2f028834caa4a91">getPossibleSampleRates</a> () override</td></tr>
+<tr class="memdesc:aea72c2cdd3d3a4a9e2f028834caa4a91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a set of sample rates that the format can read and write.  <a href="#aea72c2cdd3d3a4a9e2f028834caa4a91"></a><br/></td></tr>
+<tr class="separator:aea72c2cdd3d3a4a9e2f028834caa4a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adac43386becc1f4b75e46f18dc850547"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classArray.html">Array</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWavAudioFormat.html#adac43386becc1f4b75e46f18dc850547">getPossibleBitDepths</a> () override</td></tr>
+<tr class="memdesc:adac43386becc1f4b75e46f18dc850547"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a set of bit depths that the format can read and write.  <a href="#adac43386becc1f4b75e46f18dc850547"></a><br/></td></tr>
+<tr class="separator:adac43386becc1f4b75e46f18dc850547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a379128571f07a3c6614bf552fc3a885f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWavAudioFormat.html#a379128571f07a3c6614bf552fc3a885f">canDoStereo</a> () override</td></tr>
+<tr class="memdesc:a379128571f07a3c6614bf552fc3a885f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the format can do 2-channel audio.  <a href="#a379128571f07a3c6614bf552fc3a885f"></a><br/></td></tr>
+<tr class="separator:a379128571f07a3c6614bf552fc3a885f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a576e9afefe32af2c10aad440e5176506"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWavAudioFormat.html#a576e9afefe32af2c10aad440e5176506">canDoMono</a> () override</td></tr>
+<tr class="memdesc:a576e9afefe32af2c10aad440e5176506"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the format can do 1-channel audio.  <a href="#a576e9afefe32af2c10aad440e5176506"></a><br/></td></tr>
+<tr class="separator:a576e9afefe32af2c10aad440e5176506"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac885e9768656f2495134fe5e42419f8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioFormatReader.html">AudioFormatReader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWavAudioFormat.html#ac885e9768656f2495134fe5e42419f8e">createReaderFor</a> (<a class="el" href="classInputStream.html">InputStream</a> *sourceStream, bool deleteStreamIfOpeningFails) override</td></tr>
+<tr class="memdesc:ac885e9768656f2495134fe5e42419f8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to create an object that can read from a stream containing audio data in this format.  <a href="#ac885e9768656f2495134fe5e42419f8e"></a><br/></td></tr>
+<tr class="separator:ac885e9768656f2495134fe5e42419f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2580bf3bf12da8dc1c04b6c333b75a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMemoryMappedAudioFormatReader.html">MemoryMappedAudioFormatReader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWavAudioFormat.html#ad2580bf3bf12da8dc1c04b6c333b75a2">createMemoryMappedReader</a> (const <a class="el" href="classFile.html">File</a> &amp;file) override</td></tr>
+<tr class="memdesc:ad2580bf3bf12da8dc1c04b6c333b75a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to create a <a class="el" href="classMemoryMappedAudioFormatReader.html" title="A specialised type of AudioFormatReader that uses a MemoryMappedFile to read directly from an audio f...">MemoryMappedAudioFormatReader</a>, if possible for this format.  <a href="#ad2580bf3bf12da8dc1c04b6c333b75a2"></a><br/></td></tr>
+<tr class="separator:ad2580bf3bf12da8dc1c04b6c333b75a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a989d29b8ca1c28389700f0e5ee17b3ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioFormatWriter.html">AudioFormatWriter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWavAudioFormat.html#a989d29b8ca1c28389700f0e5ee17b3ee">createWriterFor</a> (<a class="el" href="classOutputStream.html">OutputStream</a> *streamToWriteTo, double sampleRateToUse, unsigned int numberOfChannels, int bitsPerSample, const <a class="el" href="classStringPairArray.html">StringPairArray</a> &amp;metadataValues, int qualityOptionIndex) override</td></tr>
+<tr class="memdesc:a989d29b8ca1c28389700f0e5ee17b3ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to create an object that can write to a stream with this audio format.  <a href="#a989d29b8ca1c28389700f0e5ee17b3ee"></a><br/></td></tr>
+<tr class="separator:a989d29b8ca1c28389700f0e5ee17b3ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f6a333b084402d486af76d518971160"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWavAudioFormat.html#a1f6a333b084402d486af76d518971160">replaceMetadataInFile</a> (const <a class="el" href="classFile.html">File</a> &amp;wavFile, const <a class="el" href="classStringPairArray.html">StringPairArray</a> &amp;newMetadata)</td></tr>
 <tr class="memdesc:a1f6a333b084402d486af76d518971160"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to replace the metadata in a wav file with a new set of values.  <a href="#a1f6a333b084402d486af76d518971160"></a><br/></td></tr>
 <tr class="separator:a1f6a333b084402d486af76d518971160"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -314,7 +314,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5de3cc54b7ef5b25079c952b44f8482d"></a>
+<a class="anchor" id="aea72c2cdd3d3a4a9e2f028834caa4a91"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -330,7 +330,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -341,7 +341,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7651257cb7e5cd4e2e3293c2a331ebd9"></a>
+<a class="anchor" id="adac43386becc1f4b75e46f18dc850547"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -357,7 +357,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -368,7 +368,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1e9e0354306afef5bc52496a586f6b1f"></a>
+<a class="anchor" id="a379128571f07a3c6614bf552fc3a885f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -384,7 +384,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -395,7 +395,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ade3a903f7aa8e3032d004939ef29638e"></a>
+<a class="anchor" id="a576e9afefe32af2c10aad440e5176506"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -411,7 +411,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -422,7 +422,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5033528d424d46305c105187f95a7602"></a>
+<a class="anchor" id="ac885e9768656f2495134fe5e42419f8e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -449,7 +449,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -469,7 +469,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5a9433da0a24e7d8e3462dd6fedf8160"></a>
+<a class="anchor" id="ad2580bf3bf12da8dc1c04b6c333b75a2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -486,7 +486,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -498,7 +498,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a52377fee2fd2b72aff558a9472bb4187"></a>
+<a class="anchor" id="a989d29b8ca1c28389700f0e5ee17b3ee"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -549,7 +549,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -560,9 +560,9 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">streamToWriteTo</td><td>the stream that the data will go to - this will be deleted by the <a class="el" href="classAudioFormatWriter.html" title="Writes samples to an audio file stream.">AudioFormatWriter</a> object when it's no longer needed. If no <a class="el" href="classAudioFormatWriter.html" title="Writes samples to an audio file stream.">AudioFormatWriter</a> can be created by this method, the stream will NOT be deleted, so that the caller can re-use it to try to open a different format, etc </td></tr>
-    <tr><td class="paramname">sampleRateToUse</td><td>the sample rate for the file, which must be one of the ones returned by <a class="el" href="classWavAudioFormat.html#a5de3cc54b7ef5b25079c952b44f8482d" title="Returns a set of sample rates that the format can read and write.">getPossibleSampleRates()</a> </td></tr>
-    <tr><td class="paramname">numberOfChannels</td><td>the number of channels - this must be either 1 or 2, and the choice will depend on the results of <a class="el" href="classWavAudioFormat.html#ade3a903f7aa8e3032d004939ef29638e" title="Returns true if the format can do 1-channel audio.">canDoMono()</a> and <a class="el" href="classWavAudioFormat.html#a1e9e0354306afef5bc52496a586f6b1f" title="Returns true if the format can do 2-channel audio.">canDoStereo()</a> </td></tr>
-    <tr><td class="paramname">bitsPerSample</td><td>the bits per sample to use - this must be one of the values returned by <a class="el" href="classWavAudioFormat.html#a7651257cb7e5cd4e2e3293c2a331ebd9" title="Returns a set of bit depths that the format can read and write.">getPossibleBitDepths()</a> </td></tr>
+    <tr><td class="paramname">sampleRateToUse</td><td>the sample rate for the file, which must be one of the ones returned by <a class="el" href="classWavAudioFormat.html#aea72c2cdd3d3a4a9e2f028834caa4a91" title="Returns a set of sample rates that the format can read and write.">getPossibleSampleRates()</a> </td></tr>
+    <tr><td class="paramname">numberOfChannels</td><td>the number of channels - this must be either 1 or 2, and the choice will depend on the results of <a class="el" href="classWavAudioFormat.html#a576e9afefe32af2c10aad440e5176506" title="Returns true if the format can do 1-channel audio.">canDoMono()</a> and <a class="el" href="classWavAudioFormat.html#a379128571f07a3c6614bf552fc3a885f" title="Returns true if the format can do 2-channel audio.">canDoStereo()</a> </td></tr>
+    <tr><td class="paramname">bitsPerSample</td><td>the bits per sample to use - this must be one of the values returned by <a class="el" href="classWavAudioFormat.html#adac43386becc1f4b75e46f18dc850547" title="Returns a set of bit depths that the format can read and write.">getPossibleBitDepths()</a> </td></tr>
     <tr><td class="paramname">metadataValues</td><td>a set of metadata values that the writer should try to write to the stream. Exactly what these are depends on the format, and the subclass doesn't actually have to do anything with them if it doesn't want to. Have a look at the specific format implementation classes to see possible values that can be used </td></tr>
     <tr><td class="paramname">qualityOptionIndex</td><td>the index of one of compression qualities returned by the <a class="el" href="classAudioFormat.html#af5140c58d4c58d5949a0792604a976c8" title="Returns a list of different qualities that can be used when writing.">getQualityOptions()</a> method. If there aren't any quality options for this format, just pass 0 in this parameter, as it'll be ignored </td></tr>
   </table>
@@ -623,7 +623,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Metadata property name used by wav readers and writers for adding a BWAV chunk to the file. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#a8dfe48ed0e171928185c716811f5ecdb" title="A set of metadata values that the reader has pulled out of the stream.">AudioFormatReader::metadataValues</a>, <a class="el" href="classWavAudioFormat.html#a52377fee2fd2b72aff558a9472bb4187" title="Tries to create an object that can write to a stream with this audio format.">createWriterFor</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#a8dfe48ed0e171928185c716811f5ecdb" title="A set of metadata values that the reader has pulled out of the stream.">AudioFormatReader::metadataValues</a>, <a class="el" href="classWavAudioFormat.html#a989d29b8ca1c28389700f0e5ee17b3ee" title="Tries to create an object that can write to a stream with this audio format.">createWriterFor</a> </dd></dl>
 
 </div>
 </div>
@@ -646,7 +646,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Metadata property name used by wav readers and writers for adding a BWAV chunk to the file. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#a8dfe48ed0e171928185c716811f5ecdb" title="A set of metadata values that the reader has pulled out of the stream.">AudioFormatReader::metadataValues</a>, <a class="el" href="classWavAudioFormat.html#a52377fee2fd2b72aff558a9472bb4187" title="Tries to create an object that can write to a stream with this audio format.">createWriterFor</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#a8dfe48ed0e171928185c716811f5ecdb" title="A set of metadata values that the reader has pulled out of the stream.">AudioFormatReader::metadataValues</a>, <a class="el" href="classWavAudioFormat.html#a989d29b8ca1c28389700f0e5ee17b3ee" title="Tries to create an object that can write to a stream with this audio format.">createWriterFor</a> </dd></dl>
 
 </div>
 </div>
@@ -669,7 +669,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Metadata property name used by wav readers and writers for adding a BWAV chunk to the file. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#a8dfe48ed0e171928185c716811f5ecdb" title="A set of metadata values that the reader has pulled out of the stream.">AudioFormatReader::metadataValues</a>, <a class="el" href="classWavAudioFormat.html#a52377fee2fd2b72aff558a9472bb4187" title="Tries to create an object that can write to a stream with this audio format.">createWriterFor</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#a8dfe48ed0e171928185c716811f5ecdb" title="A set of metadata values that the reader has pulled out of the stream.">AudioFormatReader::metadataValues</a>, <a class="el" href="classWavAudioFormat.html#a989d29b8ca1c28389700f0e5ee17b3ee" title="Tries to create an object that can write to a stream with this audio format.">createWriterFor</a> </dd></dl>
 
 </div>
 </div>
@@ -693,7 +693,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Metadata property name used by wav readers and writers for adding a BWAV chunk to the file. </p>
 <p>Date format is: yyyy-mm-dd</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#a8dfe48ed0e171928185c716811f5ecdb" title="A set of metadata values that the reader has pulled out of the stream.">AudioFormatReader::metadataValues</a>, <a class="el" href="classWavAudioFormat.html#a52377fee2fd2b72aff558a9472bb4187" title="Tries to create an object that can write to a stream with this audio format.">createWriterFor</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#a8dfe48ed0e171928185c716811f5ecdb" title="A set of metadata values that the reader has pulled out of the stream.">AudioFormatReader::metadataValues</a>, <a class="el" href="classWavAudioFormat.html#a989d29b8ca1c28389700f0e5ee17b3ee" title="Tries to create an object that can write to a stream with this audio format.">createWriterFor</a> </dd></dl>
 
 </div>
 </div>
@@ -717,7 +717,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Metadata property name used by wav readers and writers for adding a BWAV chunk to the file. </p>
 <p><a class="el" href="classTime.html" title="Holds an absolute date and time.">Time</a> format is: hh-mm-ss</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#a8dfe48ed0e171928185c716811f5ecdb" title="A set of metadata values that the reader has pulled out of the stream.">AudioFormatReader::metadataValues</a>, <a class="el" href="classWavAudioFormat.html#a52377fee2fd2b72aff558a9472bb4187" title="Tries to create an object that can write to a stream with this audio format.">createWriterFor</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#a8dfe48ed0e171928185c716811f5ecdb" title="A set of metadata values that the reader has pulled out of the stream.">AudioFormatReader::metadataValues</a>, <a class="el" href="classWavAudioFormat.html#a989d29b8ca1c28389700f0e5ee17b3ee" title="Tries to create an object that can write to a stream with this audio format.">createWriterFor</a> </dd></dl>
 
 </div>
 </div>
@@ -741,7 +741,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Metadata property name used by wav readers and writers for adding a BWAV chunk to the file. </p>
 <p>This is the number of samples from the start of an edit that the file is supposed to begin at. Seems like an obvious mistake to only allow a file to occur in an edit once, but that's the way it is..</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#a8dfe48ed0e171928185c716811f5ecdb" title="A set of metadata values that the reader has pulled out of the stream.">AudioFormatReader::metadataValues</a>, <a class="el" href="classWavAudioFormat.html#a52377fee2fd2b72aff558a9472bb4187" title="Tries to create an object that can write to a stream with this audio format.">createWriterFor</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#a8dfe48ed0e171928185c716811f5ecdb" title="A set of metadata values that the reader has pulled out of the stream.">AudioFormatReader::metadataValues</a>, <a class="el" href="classWavAudioFormat.html#a989d29b8ca1c28389700f0e5ee17b3ee" title="Tries to create an object that can write to a stream with this audio format.">createWriterFor</a> </dd></dl>
 
 </div>
 </div>
@@ -764,7 +764,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Metadata property name used by wav readers and writers for adding a BWAV chunk to the file. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#a8dfe48ed0e171928185c716811f5ecdb" title="A set of metadata values that the reader has pulled out of the stream.">AudioFormatReader::metadataValues</a>, <a class="el" href="classWavAudioFormat.html#a52377fee2fd2b72aff558a9472bb4187" title="Tries to create an object that can write to a stream with this audio format.">createWriterFor</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#a8dfe48ed0e171928185c716811f5ecdb" title="A set of metadata values that the reader has pulled out of the stream.">AudioFormatReader::metadataValues</a>, <a class="el" href="classWavAudioFormat.html#a989d29b8ca1c28389700f0e5ee17b3ee" title="Tries to create an object that can write to a stream with this audio format.">createWriterFor</a> </dd></dl>
 
 </div>
 </div>

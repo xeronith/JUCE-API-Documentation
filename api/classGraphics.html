@@ -257,9 +257,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a79c4f544cd7fcada2be7d24691e157a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a79c4f544cd7fcada2be7d24691e157a3">drawImageTransformed</a> (const <a class="el" href="classImage.html">Image</a> &amp;imageToDraw, const <a class="el" href="classAffineTransform.html">AffineTransform</a> &amp;transform, bool fillAlphaChannelWithCurrentBrush=false) const </td></tr>
 <tr class="memdesc:a79c4f544cd7fcada2be7d24691e157a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws an image, having applied an affine transform to it.  <a href="#a79c4f544cd7fcada2be7d24691e157a3"></a><br/></td></tr>
 <tr class="separator:a79c4f544cd7fcada2be7d24691e157a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a980e4beef03333ee1ec1ca7b7963ad63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a980e4beef03333ee1ec1ca7b7963ad63">drawImageWithin</a> (const <a class="el" href="classImage.html">Image</a> &amp;imageToDraw, int destX, int destY, int destWidth, int destHeight, const <a class="el" href="classRectanglePlacement.html">RectanglePlacement</a> &amp;placementWithinTarget, bool fillAlphaChannelWithCurrentBrush=false) const </td></tr>
-<tr class="memdesc:a980e4beef03333ee1ec1ca7b7963ad63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws an image to fit within a designated rectangle.  <a href="#a980e4beef03333ee1ec1ca7b7963ad63"></a><br/></td></tr>
-<tr class="separator:a980e4beef03333ee1ec1ca7b7963ad63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3029f38ff98de2b5a44d3f0038d37351"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a3029f38ff98de2b5a44d3f0038d37351">drawImageWithin</a> (const <a class="el" href="classImage.html">Image</a> &amp;imageToDraw, int destX, int destY, int destWidth, int destHeight, <a class="el" href="classRectanglePlacement.html">RectanglePlacement</a> placementWithinTarget, bool fillAlphaChannelWithCurrentBrush=false) const </td></tr>
+<tr class="memdesc:a3029f38ff98de2b5a44d3f0038d37351"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws an image to fit within a designated rectangle.  <a href="#a3029f38ff98de2b5a44d3f0038d37351"></a><br/></td></tr>
+<tr class="separator:a3029f38ff98de2b5a44d3f0038d37351"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34942cbdbd743d7fd332c218ea7e4c5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a34942cbdbd743d7fd332c218ea7e4c5d">getClipBounds</a> () const </td></tr>
 <tr class="memdesc:a34942cbdbd743d7fd332c218ea7e4c5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the position of the bounding box for the current clipping region.  <a href="#a34942cbdbd743d7fd332c218ea7e4c5d"></a><br/></td></tr>
 <tr class="separator:a34942cbdbd743d7fd332c218ea7e4c5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1967,7 +1967,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Changes the quality that will be used when resampling images. </p>
 <p>By default a <a class="el" href="classGraphics.html" title="A graphics context, used for drawing a component or image.">Graphics</a> object will be set to mediumRenderingQuality.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classGraphics.html#a6e09218805a3eb3f7d4973433647d0e9" title="Draws part of an image, rescaling it to fit in a given target region.">Graphics::drawImage</a>, <a class="el" href="classGraphics.html#a79c4f544cd7fcada2be7d24691e157a3" title="Draws an image, having applied an affine transform to it.">Graphics::drawImageTransformed</a>, <a class="el" href="classGraphics.html#a980e4beef03333ee1ec1ca7b7963ad63" title="Draws an image to fit within a designated rectangle.">Graphics::drawImageWithin</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classGraphics.html#a6e09218805a3eb3f7d4973433647d0e9" title="Draws part of an image, rescaling it to fit in a given target region.">Graphics::drawImage</a>, <a class="el" href="classGraphics.html#a79c4f544cd7fcada2be7d24691e157a3" title="Draws an image, having applied an affine transform to it.">Graphics::drawImageTransformed</a>, <a class="el" href="classGraphics.html#a3029f38ff98de2b5a44d3f0038d37351" title="Draws an image to fit within a designated rectangle.">Graphics::drawImageWithin</a> </dd></dl>
 
 </div>
 </div>
@@ -2103,7 +2103,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classGraphics.html#a0f8160f9b0a6866e40cf1a2b45c3b892" title="Changes the quality that will be used when resampling images.">setImageResamplingQuality</a>, <a class="el" href="classGraphics.html#ab754b6a67c6964be2d27b1ba82bdae56" title="Draws an image.">drawImageAt</a>, <a class="el" href="classGraphics.html#a980e4beef03333ee1ec1ca7b7963ad63" title="Draws an image to fit within a designated rectangle.">drawImageWithin</a>, fillAlphaMap </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classGraphics.html#a0f8160f9b0a6866e40cf1a2b45c3b892" title="Changes the quality that will be used when resampling images.">setImageResamplingQuality</a>, <a class="el" href="classGraphics.html#ab754b6a67c6964be2d27b1ba82bdae56" title="Draws an image.">drawImageAt</a>, <a class="el" href="classGraphics.html#a3029f38ff98de2b5a44d3f0038d37351" title="Draws an image to fit within a designated rectangle.">drawImageWithin</a>, fillAlphaMap </dd></dl>
 
 </div>
 </div>
@@ -2146,7 +2146,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a980e4beef03333ee1ec1ca7b7963ad63"></a>
+<a class="anchor" id="a3029f38ff98de2b5a44d3f0038d37351"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2183,7 +2183,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classRectanglePlacement.html">RectanglePlacement</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classRectanglePlacement.html">RectanglePlacement</a>&#160;</td>
           <td class="paramname"><em>placementWithinTarget</em>, </td>
         </tr>
         <tr>

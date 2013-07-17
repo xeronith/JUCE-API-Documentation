@@ -1040,7 +1040,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns the current title bar height. </p>
 
-<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a94a7327ac21e0b822a75b0bc04481d0e">StandaloneFilterWindow::resized()</a>.</p>
+<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a029336e5ea7014d9a92d4cb712c50c38">StandaloneFilterWindow::resized()</a>.</p>
 
 </div>
 </div>
@@ -1207,7 +1207,7 @@ Additional Inherited Members</h2></td></tr>
 <p>If your app is centred around this window such that the whole app should quit when the window is closed, then you will probably want to use this method as an opportunity to call <a class="el" href="classJUCEApplication.html#a618b5238c20a1590c12ffe20d15e999a" title="Signals that the main message loop should stop and the application should terminate.">JUCEApplication::quit()</a>, and leave the window to be deleted later by your <a class="el" href="classJUCEApplicationBase.html#a318021f86bf379caeb4cb27c32f0f229">JUCEApplication::shutdown()</a> method. (Doing it this way means that your window will still get cleaned-up if the app is quit by some other means (e.g. a cmd-Q on the mac or closing it via the taskbar icon on Windows).</p>
 <p>(Note that the <a class="el" href="classDocumentWindow.html" title="A resizable window with a title bar and maximise, minimise and close buttons.">DocumentWindow</a> class overrides <a class="el" href="classComponent.html#a543e70d5a3ff75cc3facb476f4cdb131" title="For components on the desktop, this is called if the system wants to close the window.">Component::userTriedToCloseWindow()</a> and redirects it to call this method, so any methods of closing the window that are caught by <a class="el" href="classComponent.html#a543e70d5a3ff75cc3facb476f4cdb131" title="For components on the desktop, this is called if the system wants to close the window.">userTriedToCloseWindow()</a> will also end up here). </p>
 
-<p>Reimplemented in <a class="el" href="classStandaloneFilterWindow.html#accf60951b00e598149160ffdc7df6206">StandaloneFilterWindow</a>, and <a class="el" href="classMultiDocumentPanelWindow.html#a265b9d619f2c3e07faecde566b6df24a">MultiDocumentPanelWindow</a>.</p>
+<p>Reimplemented in <a class="el" href="classStandaloneFilterWindow.html#a0ecb7e5d6264a99e213987021ae863a9">StandaloneFilterWindow</a>, and <a class="el" href="classMultiDocumentPanelWindow.html#a265b9d619f2c3e07faecde566b6df24a">MultiDocumentPanelWindow</a>.</p>
 
 </div>
 </div>

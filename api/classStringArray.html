@@ -211,6 +211,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ff31dc08e6e33f3ba95ebdc296e3659"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#a4ff31dc08e6e33f3ba95ebdc296e3659">sort</a> (bool ignoreCase)</td></tr>
 <tr class="memdesc:a4ff31dc08e6e33f3ba95ebdc296e3659"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the array into alphabetical order.  <a href="#a4ff31dc08e6e33f3ba95ebdc296e3659"></a><br/></td></tr>
 <tr class="separator:a4ff31dc08e6e33f3ba95ebdc296e3659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebd425623aa9e8a4dd8d09b8e6eac0db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#aebd425623aa9e8a4dd8d09b8e6eac0db">ensureStorageAllocated</a> (int minNumElements)</td></tr>
+<tr class="memdesc:aebd425623aa9e8a4dd8d09b8e6eac0db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increases the array's internal storage to hold a minimum number of elements.  <a href="#aebd425623aa9e8a4dd8d09b8e6eac0db"></a><br/></td></tr>
+<tr class="separator:aebd425623aa9e8a4dd8d09b8e6eac0db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad918c336c4ce47a405e1f718e1e8215d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#ad918c336c4ce47a405e1f718e1e8215d">minimiseStorageOverheads</a> ()</td></tr>
 <tr class="memdesc:ad918c336c4ce47a405e1f718e1e8215d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reduces the amount of storage being used by the array.  <a href="#ad918c336c4ce47a405e1f718e1e8215d"></a><br/></td></tr>
 <tr class="separator:ad918c336c4ce47a405e1f718e1e8215d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1476,6 +1479,25 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="aebd425623aa9e8a4dd8d09b8e6eac0db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StringArray::ensureStorageAllocated </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>minNumElements</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Increases the array's internal storage to hold a minimum number of elements. </p>
+<p>Calling this before adding a large known number of elements means that the array won't have to keep dynamically resizing itself as the elements are added, and it'll therefore be more efficient. </p>
 
 </div>
 </div>

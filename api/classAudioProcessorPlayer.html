@@ -109,14 +109,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adc788f1fdedc0e774633777de68254c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMidiMessageCollector.html">MidiMessageCollector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#adc788f1fdedc0e774633777de68254c3">getMidiMessageCollector</a> ()</td></tr>
 <tr class="memdesc:adc788f1fdedc0e774633777de68254c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a midi message collector that you can pass midi messages to if you want them to be injected into the midi stream that is being sent to the processor.  <a href="#adc788f1fdedc0e774633777de68254c3"></a><br/></td></tr>
 <tr class="separator:adc788f1fdedc0e774633777de68254c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb955b974380c462a3d2ac0b34c46260"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#abb955b974380c462a3d2ac0b34c46260">audioDeviceIOCallback</a> (const float **inputChannelData, int totalNumInputChannels, float **outputChannelData, int totalNumOutputChannels, int numSamples)</td></tr>
-<tr class="separator:abb955b974380c462a3d2ac0b34c46260"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af22bf8cb90beb1fd9ede5d84e50cc477"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#af22bf8cb90beb1fd9ede5d84e50cc477">audioDeviceAboutToStart</a> (<a class="el" href="classAudioIODevice.html">AudioIODevice</a> *)</td></tr>
-<tr class="separator:af22bf8cb90beb1fd9ede5d84e50cc477"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6aa3b4fc87b99ddd046f82f387124954"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#a6aa3b4fc87b99ddd046f82f387124954">audioDeviceStopped</a> ()</td></tr>
-<tr class="separator:a6aa3b4fc87b99ddd046f82f387124954"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1abdcaa93080606714d640cb7db492e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#ac1abdcaa93080606714d640cb7db492e">handleIncomingMidiMessage</a> (<a class="el" href="classMidiInput.html">MidiInput</a> *, const <a class="el" href="classMidiMessage.html">MidiMessage</a> &amp;)</td></tr>
-<tr class="separator:ac1abdcaa93080606714d640cb7db492e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67204d078c32a0b3683646415d01d019"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#a67204d078c32a0b3683646415d01d019">audioDeviceIOCallback</a> (const float **inputChannelData, int totalNumInputChannels, float **outputChannelData, int totalNumOutputChannels, int numSamples) override</td></tr>
+<tr class="separator:a67204d078c32a0b3683646415d01d019"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e86ec16b53690d894d67fd7cfd7fcc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#a6e86ec16b53690d894d67fd7cfd7fcc4">audioDeviceAboutToStart</a> (<a class="el" href="classAudioIODevice.html">AudioIODevice</a> *) override</td></tr>
+<tr class="separator:a6e86ec16b53690d894d67fd7cfd7fcc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7ce7ac03e058c2fe908b98f2889c65b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#ab7ce7ac03e058c2fe908b98f2889c65b">audioDeviceStopped</a> () override</td></tr>
+<tr class="separator:ab7ce7ac03e058c2fe908b98f2889c65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3f6a26339ac28951d252adf1b4a776e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#aa3f6a26339ac28951d252adf1b4a776e">handleIncomingMidiMessage</a> (<a class="el" href="classMidiInput.html">MidiInput</a> *, const <a class="el" href="classMidiMessage.html">MidiMessage</a> &amp;) override</td></tr>
+<tr class="separator:aa3f6a26339ac28951d252adf1b4a776e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classAudioIODeviceCallback"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classAudioIODeviceCallback')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classAudioIODeviceCallback.html">AudioIODeviceCallback</a></td></tr>
 <tr class="memitem:a922abd58862d1bc04c067683a6a8e59a inherit pub_methods_classAudioIODeviceCallback"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceCallback.html#a922abd58862d1bc04c067683a6a8e59a">~AudioIODeviceCallback</a> ()</td></tr>
 <tr class="memdesc:a922abd58862d1bc04c067683a6a8e59a inherit pub_methods_classAudioIODeviceCallback"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a922abd58862d1bc04c067683a6a8e59a"></a><br/></td></tr>
@@ -234,7 +234,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abb955b974380c462a3d2ac0b34c46260"></a>
+<a class="anchor" id="a67204d078c32a0b3683646415d01d019"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -279,7 +279,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -288,7 +288,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af22bf8cb90beb1fd9ede5d84e50cc477"></a>
+<a class="anchor" id="a6e86ec16b53690d894d67fd7cfd7fcc4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -305,7 +305,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -314,7 +314,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6aa3b4fc87b99ddd046f82f387124954"></a>
+<a class="anchor" id="ab7ce7ac03e058c2fe908b98f2889c65b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -330,7 +330,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -339,7 +339,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac1abdcaa93080606714d640cb7db492e"></a>
+<a class="anchor" id="aa3f6a26339ac28951d252adf1b4a776e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -366,7 +366,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

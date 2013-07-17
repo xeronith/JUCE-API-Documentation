@@ -156,9 +156,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad342ae37f8bf6093f46b2e9faccba948"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCodeDocument_1_1Position.html">CodeDocument::Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ad342ae37f8bf6093f46b2e9faccba948">getCaretPos</a> () const </td></tr>
 <tr class="memdesc:ad342ae37f8bf6093f46b2e9faccba948"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current caret position.  <a href="#ad342ae37f8bf6093f46b2e9faccba948"></a><br/></td></tr>
 <tr class="separator:ad342ae37f8bf6093f46b2e9faccba948"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a731d74526cff4b12fb516255ae9a709d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a731d74526cff4b12fb516255ae9a709d">getCaretRectangle</a> ()</td></tr>
-<tr class="memdesc:a731d74526cff4b12fb516255ae9a709d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the position of the caret, relative to the editor's origin.  <a href="#a731d74526cff4b12fb516255ae9a709d"></a><br/></td></tr>
-<tr class="separator:a731d74526cff4b12fb516255ae9a709d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a540848e9b8ecf8f69176c12404f0be0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a540848e9b8ecf8f69176c12404f0be0e">getCaretRectangle</a> () override</td></tr>
+<tr class="memdesc:a540848e9b8ecf8f69176c12404f0be0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the position of the caret, relative to the editor's origin.  <a href="#a540848e9b8ecf8f69176c12404f0be0e"></a><br/></td></tr>
+<tr class="separator:a540848e9b8ecf8f69176c12404f0be0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a875d87419bd0dfc748b77257b14fc67a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a875d87419bd0dfc748b77257b14fc67a">moveCaretTo</a> (const <a class="el" href="classCodeDocument_1_1Position.html">CodeDocument::Position</a> &amp;newPos, bool selecting)</td></tr>
 <tr class="memdesc:a875d87419bd0dfc748b77257b14fc67a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the caret.  <a href="#a875d87419bd0dfc748b77257b14fc67a"></a><br/></td></tr>
 <tr class="separator:a875d87419bd0dfc748b77257b14fc67a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,9 +227,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2039755404663d74a9ff7164306a75a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95bedc478a37983fbfb28a65d138ce76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a95bedc478a37983fbfb28a65d138ce76">scrollToKeepLinesOnScreen</a> (<a class="el" href="classRange.html">Range</a>&lt; int &gt; linesToShow)</td></tr>
 <tr class="separator:a95bedc478a37983fbfb28a65d138ce76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81419ae52c4ce4af175a4c9d330d584f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a81419ae52c4ce4af175a4c9d330d584f">insertTextAtCaret</a> (const <a class="el" href="classString.html">String</a> &amp;textToInsert)</td></tr>
-<tr class="memdesc:a81419ae52c4ce4af175a4c9d330d584f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts some text, overwriting the selected text region, if there is one.  <a href="#a81419ae52c4ce4af175a4c9d330d584f"></a><br/></td></tr>
-<tr class="separator:a81419ae52c4ce4af175a4c9d330d584f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74c65cd4773090f1654f3cd8622cdc50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a74c65cd4773090f1654f3cd8622cdc50">insertTextAtCaret</a> (const <a class="el" href="classString.html">String</a> &amp;textToInsert) override</td></tr>
+<tr class="memdesc:a74c65cd4773090f1654f3cd8622cdc50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts some text, overwriting the selected text region, if there is one.  <a href="#a74c65cd4773090f1654f3cd8622cdc50"></a><br/></td></tr>
+<tr class="separator:a74c65cd4773090f1654f3cd8622cdc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a870a061b7ce31960f9c53b3214c25cf3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a870a061b7ce31960f9c53b3214c25cf3">insertTabAtCaret</a> ()</td></tr>
 <tr class="separator:a870a061b7ce31960f9c53b3214c25cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0989f9ae06b61b843b4c5be9c9ce1a26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a0989f9ae06b61b843b4c5be9c9ce1a26">indentSelection</a> ()</td></tr>
@@ -1172,7 +1172,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a731d74526cff4b12fb516255ae9a709d"></a>
+<a class="anchor" id="a540848e9b8ecf8f69176c12404f0be0e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1188,7 +1188,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1761,7 +1761,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a81419ae52c4ce4af175a4c9d330d584f"></a>
+<a class="anchor" id="a74c65cd4773090f1654f3cd8622cdc50"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1778,7 +1778,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

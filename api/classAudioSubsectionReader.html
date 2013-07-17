@@ -101,12 +101,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ea56901d6a179240bbb18e8ade97c90"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSubsectionReader.html#a6ea56901d6a179240bbb18e8ade97c90">~AudioSubsectionReader</a> ()</td></tr>
 <tr class="memdesc:a6ea56901d6a179240bbb18e8ade97c90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a6ea56901d6a179240bbb18e8ade97c90"></a><br/></td></tr>
 <tr class="separator:a6ea56901d6a179240bbb18e8ade97c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acae9f55a1e41fdbd9e4697603f7e7586"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSubsectionReader.html#acae9f55a1e41fdbd9e4697603f7e7586">readSamples</a> (int **destSamples, int numDestChannels, int startOffsetInDestBuffer, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> startSampleInFile, int numSamples)</td></tr>
-<tr class="memdesc:acae9f55a1e41fdbd9e4697603f7e7586"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subclasses must implement this method to perform the low-level read operation.  <a href="#acae9f55a1e41fdbd9e4697603f7e7586"></a><br/></td></tr>
-<tr class="separator:acae9f55a1e41fdbd9e4697603f7e7586"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff14d305baadb5227eba020b071a2a75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSubsectionReader.html#aff14d305baadb5227eba020b071a2a75">readMaxLevels</a> (<a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> startSample, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> numSamples, float &amp;lowestLeft, float &amp;highestLeft, float &amp;lowestRight, float &amp;highestRight)</td></tr>
-<tr class="memdesc:aff14d305baadb5227eba020b071a2a75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the highest and lowest sample levels from a section of the audio stream.  <a href="#aff14d305baadb5227eba020b071a2a75"></a><br/></td></tr>
-<tr class="separator:aff14d305baadb5227eba020b071a2a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74503d803fbffeac827371b7f75e0749"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSubsectionReader.html#a74503d803fbffeac827371b7f75e0749">readSamples</a> (int **destSamples, int numDestChannels, int startOffsetInDestBuffer, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> startSampleInFile, int numSamples) override</td></tr>
+<tr class="memdesc:a74503d803fbffeac827371b7f75e0749"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subclasses must implement this method to perform the low-level read operation.  <a href="#a74503d803fbffeac827371b7f75e0749"></a><br/></td></tr>
+<tr class="separator:a74503d803fbffeac827371b7f75e0749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6224a5b7fbb41ae1ff6d7fcb1a262325"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSubsectionReader.html#a6224a5b7fbb41ae1ff6d7fcb1a262325">readMaxLevels</a> (<a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> startSample, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> numSamples, float &amp;lowestLeft, float &amp;highestLeft, float &amp;lowestRight, float &amp;highestRight) override</td></tr>
+<tr class="memdesc:a6224a5b7fbb41ae1ff6d7fcb1a262325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the highest and lowest sample levels from a section of the audio stream.  <a href="#a6224a5b7fbb41ae1ff6d7fcb1a262325"></a><br/></td></tr>
+<tr class="separator:a6224a5b7fbb41ae1ff6d7fcb1a262325"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classAudioFormatReader"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classAudioFormatReader')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classAudioFormatReader.html">AudioFormatReader</a></td></tr>
 <tr class="memitem:aa5c4a7c0715e60d829a03b8aa67a8c49 inherit pub_methods_classAudioFormatReader"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatReader.html#aa5c4a7c0715e60d829a03b8aa67a8c49">~AudioFormatReader</a> ()</td></tr>
 <tr class="memdesc:aa5c4a7c0715e60d829a03b8aa67a8c49 inherit pub_methods_classAudioFormatReader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#aa5c4a7c0715e60d829a03b8aa67a8c49"></a><br/></td></tr>
@@ -229,7 +229,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="acae9f55a1e41fdbd9e4697603f7e7586"></a>
+<a class="anchor" id="a74503d803fbffeac827371b7f75e0749"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -274,7 +274,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -296,7 +296,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aff14d305baadb5227eba020b071a2a75"></a>
+<a class="anchor" id="a6224a5b7fbb41ae1ff6d7fcb1a262325"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -347,7 +347,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
