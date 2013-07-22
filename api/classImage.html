@@ -950,7 +950,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the colour of one of the pixels in the image. </p>
-<p>If the co-ordinates given are beyond the image's boundaries, this will return <a class="el" href="classColours.html#a0ce54d7a6cbbce207c29165102d3a35f" title="ARGB = 0x00000000.">Colours::transparentBlack</a>.</p>
+<p>If the coordinates given are beyond the image's boundaries, this will return <a class="el" href="classColours.html#a0ce54d7a6cbbce207c29165102d3a35f" title="ARGB = 0x00000000.">Colours::transparentBlack</a>.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classImage.html#a1521d7dd860ccdecc9a1ba27952d5f88" title="Sets the colour of one of the image&#39;s pixels.">setPixelAt</a>, <a class="el" href="classImage_1_1BitmapData.html#ae2a2c5b5c9aeb01e0098da19c5057d48" title="Returns the colour of a given pixel.">Image::BitmapData::getPixelColour</a> </dd></dl>
 
 </div>
@@ -986,7 +986,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sets the colour of one of the image's pixels. </p>
-<p>If the co-ordinates are beyond the image's boundaries, then nothing will happen.</p>
+<p>If the coordinates are beyond the image's boundaries, then nothing will happen.</p>
 <p>Note that this won't do any alpha-blending, it'll just replace the existing pixel with the given one. The colour's opacity will be ignored if this image doesn't have an alpha-channel.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classImage.html#a667728516fe03d6c9e29ec696e4d5bdd" title="Returns the colour of one of the pixels in the image.">getPixelAt</a>, <a class="el" href="classImage_1_1BitmapData.html#ad76af08dda45202751c3a6103cd42030" title="Sets the colour of a given pixel.">Image::BitmapData::setPixelColour</a> </dd></dl>
 
@@ -1023,8 +1023,8 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Changes the opacity of a pixel. </p>
-<p>This only has an effect if the image has an alpha channel and if the given co-ordinates are inside the image's boundary.</p>
-<p>The multiplier must be in the range 0 to 1.0, and the current alpha at the given co-ordinates will be multiplied by this value.</p>
+<p>This only has an effect if the image has an alpha channel and if the given coordinates are inside the image's boundary.</p>
+<p>The multiplier must be in the range 0 to 1.0, and the current alpha at the given coordinates will be multiplied by this value.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classImage.html#a1521d7dd860ccdecc9a1ba27952d5f88" title="Sets the colour of one of the image&#39;s pixels.">setPixelAt</a> </dd></dl>
 
 </div>

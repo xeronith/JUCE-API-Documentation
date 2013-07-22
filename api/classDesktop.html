@@ -349,7 +349,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the mouse position. </p>
-<p>The co-ordinates are relative to the top-left of the main monitor.</p>
+<p>The coordinates are relative to the top-left of the main monitor.</p>
 <p>Note that this is just a shortcut for calling <a class="el" href="classDesktop.html#affa7ffcdc37a01f1a3e183b4721cd699" title="Returns the main mouse input device that the system is using.">getMainMouseSource()</a>.getScreenPosition(), and you should only resort to grabbing the global mouse position if there's really no way to get the coordinates via a mouse event callback instead. </p>
 
 </div>
@@ -377,7 +377,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Makes the mouse pointer jump to a given location. </p>
-<p>The co-ordinates are relative to the top-left of the main monitor. </p>
+<p>The coordinates are relative to the top-left of the main monitor. </p>
 
 </div>
 </div>
@@ -403,7 +403,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the last position at which a mouse button was pressed. </p>
-<p>Note that this is just a shortcut for calling <a class="el" href="classDesktop.html#affa7ffcdc37a01f1a3e183b4721cd699" title="Returns the main mouse input device that the system is using.">getMainMouseSource()</a>.<a class="el" href="classDesktop.html#a876e731f99d9a6646c7fc5722e421baf" title="Returns the last position at which a mouse button was pressed.">getLastMouseDownPosition()</a>, and in a multi-touch environment, it doesn't make much sense. ALWAYS prefer to get this information via other means, such as <a class="el" href="classMouseEvent.html#aa2bb3d5a683d33c68429f8b818203560" title="Returns the co-ordinates at which the mouse button was last pressed.">MouseEvent::getMouseDownScreenPosition()</a> if possible, and only ever call this as a last resort. </p>
+<p>Note that this is just a shortcut for calling <a class="el" href="classDesktop.html#affa7ffcdc37a01f1a3e183b4721cd699" title="Returns the main mouse input device that the system is using.">getMainMouseSource()</a>.<a class="el" href="classDesktop.html#a876e731f99d9a6646c7fc5722e421baf" title="Returns the last position at which a mouse button was pressed.">getLastMouseDownPosition()</a>, and in a multi-touch environment, it doesn't make much sense. ALWAYS prefer to get this information via other means, such as <a class="el" href="classMouseEvent.html#aa2bb3d5a683d33c68429f8b818203560" title="Returns the coordinates at which the mouse button was last pressed.">MouseEvent::getMouseDownScreenPosition()</a> if possible, and only ever call this as a last resort. </p>
 
 </div>
 </div>
@@ -719,7 +719,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Finds the component at a given screen location. </p>
 <p>This will drill down into top-level windows to find the child component at the given position.</p>
-<p>Returns nullptr if the co-ordinates are inside a non-Juce window. </p>
+<p>Returns nullptr if the coordinates are inside a non-Juce window. </p>
 
 </div>
 </div>

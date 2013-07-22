@@ -67,7 +67,7 @@ var searchData=
   ['fillall',['fillAll',['../classGraphics.html#a516a7795e6e0c6c70eb982a83ea0b8c3',1,'Graphics::fillAll() const '],['../classGraphics.html#ac31f52c617f614ab85afa99319eb8110',1,'Graphics::fillAll(Colour colourToUse) const ']]],
   ['fillandstrokestate',['FillAndStrokeState',['../classDrawableShape_1_1FillAndStrokeState.html#adfecfeb667dfe2df233121ca4eaa8ed9',1,'DrawableShape::FillAndStrokeState']]],
   ['fillandstrokestate',['FillAndStrokeState',['../classDrawableShape_1_1FillAndStrokeState.html',1,'DrawableShape']]],
-  ['fillbitsrandomly',['fillBitsRandomly',['../classRandom.html#a212bf60fe480e13ea468ba4db1de3329',1,'Random']]],
+  ['fillbitsrandomly',['fillBitsRandomly',['../classRandom.html#a9730ae70ef775fc729b3f6c30ccd7ebc',1,'Random::fillBitsRandomly(void *bufferToFill, size_t sizeInBytes)'],['../classRandom.html#a212bf60fe480e13ea468ba4db1de3329',1,'Random::fillBitsRandomly(BigInteger &amp;arrayToChange, int startBit, int numBits)']]],
   ['fillcheckerboard',['fillCheckerBoard',['../classGraphics.html#ae4ef7fd9a41cd6f7186e0e6a2f9a9d8e',1,'Graphics']]],
   ['filldestination',['fillDestination',['../classRectanglePlacement.html#afd5464553fd6bb41d697f3fc1d7427edaace05e9cfe83bb3dbbef781d3622cd62',1,'RectanglePlacement']]],
   ['fillellipse',['fillEllipse',['../classGraphics.html#ab6fdfd1cb32b32d52b6b30df36321f70',1,'Graphics::fillEllipse(float x, float y, float width, float height) const '],['../classGraphics.html#a4f58ce68f75ec835a4863e756ec11bed',1,'Graphics::fillEllipse(const Rectangle&lt; float &gt; &amp;area) const ']]],

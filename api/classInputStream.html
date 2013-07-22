@@ -375,7 +375,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reads a byte from the stream. </p>
-<p>If the stream is exhausted, this will return zero.</p>
+<p>If the stream is exhausted, this will return zero. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOutputStream.html#aaa3aee845d1cd8db87533313c12c0963" title="Writes a single byte to the stream.">OutputStream::writeByte</a> </dd></dl>
 
 </div>
@@ -402,8 +402,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reads a boolean from the stream. </p>
-<p>The bool is encoded as a single byte - 1 for true, 0 for false.</p>
-<p>If the stream is exhausted, this will return false.</p>
+<p>The bool is encoded as a single byte - non-zero for true, 0 for false. If the stream is exhausted, this will return false. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOutputStream.html#aac4bd355924dfb91aa71aa5c6c251924" title="Writes a boolean to the stream as a single byte.">OutputStream::writeBool</a> </dd></dl>
 
 </div>
@@ -430,8 +429,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reads two bytes from the stream as a little-endian 16-bit value. </p>
-<p>If the next two bytes read are byte1 and byte2, this returns (byte1 | (byte2 &lt;&lt; 8)).</p>
-<p>If the stream is exhausted partway through reading the bytes, this will return zero.</p>
+<p>If the next two bytes read are byte1 and byte2, this returns (byte1 | (byte2 &lt;&lt; 8)). If the stream is exhausted partway through reading the bytes, this will return zero. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOutputStream.html#aa0c31878ffe72db678ad2df92f977b79" title="Writes a 16-bit integer to the stream in a little-endian byte order.">OutputStream::writeShort</a>, <a class="el" href="classInputStream.html#ac33bbf8ae4597a30bde70cbdbc6bfa5b" title="Reads two bytes from the stream as a little-endian 16-bit value.">readShortBigEndian</a> </dd></dl>
 
 </div>
@@ -458,8 +456,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reads two bytes from the stream as a little-endian 16-bit value. </p>
-<p>If the next two bytes read are byte1 and byte2, this returns (byte2 | (byte1 &lt;&lt; 8)).</p>
-<p>If the stream is exhausted partway through reading the bytes, this will return zero.</p>
+<p>If the next two bytes read are byte1 and byte2, this returns (byte2 | (byte1 &lt;&lt; 8)). If the stream is exhausted partway through reading the bytes, this will return zero. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOutputStream.html#a2f5dec34d9771edea9c0535eb5b58860" title="Writes a 16-bit integer to the stream in a big-endian byte order.">OutputStream::writeShortBigEndian</a>, <a class="el" href="classInputStream.html#a0c4b0f9f1fa9515fea5a98d2ffe7ae02" title="Reads two bytes from the stream as a little-endian 16-bit value.">readShort</a> </dd></dl>
 
 </div>
@@ -598,8 +595,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reads four bytes as a 32-bit floating point value. </p>
-<p>The raw 32-bit encoding of the float is read from the stream as a little-endian int.</p>
-<p>If the stream is exhausted partway through reading the bytes, this will return zero.</p>
+<p>The raw 32-bit encoding of the float is read from the stream as a little-endian int. If the stream is exhausted partway through reading the bytes, this will return zero. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOutputStream.html#a0a1d967388deb957e573a8bfa0aede56" title="Writes a 32-bit floating point value to the stream in a binary format.">OutputStream::writeFloat</a>, <a class="el" href="classInputStream.html#a31626a82ad48629a202135ac925ffecd" title="Reads eight bytes as a 64-bit floating point value.">readDouble</a> </dd></dl>
 
 </div>
@@ -626,8 +622,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reads four bytes as a 32-bit floating point value. </p>
-<p>The raw 32-bit encoding of the float is read from the stream as a big-endian int.</p>
-<p>If the stream is exhausted partway through reading the bytes, this will return zero.</p>
+<p>The raw 32-bit encoding of the float is read from the stream as a big-endian int. If the stream is exhausted partway through reading the bytes, this will return zero. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOutputStream.html#a84cb925582b87dc5c1f5e6d569a74208" title="Writes a 32-bit floating point value to the stream in a binary format.">OutputStream::writeFloatBigEndian</a>, <a class="el" href="classInputStream.html#a7c7a2928053424caf51986d9e6fdaa35" title="Reads eight bytes as a 64-bit floating point value.">readDoubleBigEndian</a> </dd></dl>
 
 </div>
@@ -654,8 +649,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reads eight bytes as a 64-bit floating point value. </p>
-<p>The raw 64-bit encoding of the double is read from the stream as a little-endian int64.</p>
-<p>If the stream is exhausted partway through reading the bytes, this will return zero.</p>
+<p>The raw 64-bit encoding of the double is read from the stream as a little-endian int64. If the stream is exhausted partway through reading the bytes, this will return zero. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOutputStream.html#af48e3b3934bf5b4624dcbe00989581a0" title="Writes a 64-bit floating point value to the stream in a binary format.">OutputStream::writeDouble</a>, <a class="el" href="classInputStream.html#a46d7f191f1872bc27550db3fa0733f59" title="Reads four bytes as a 32-bit floating point value.">readFloat</a> </dd></dl>
 
 </div>
@@ -682,8 +676,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reads eight bytes as a 64-bit floating point value. </p>
-<p>The raw 64-bit encoding of the double is read from the stream as a big-endian int64.</p>
-<p>If the stream is exhausted partway through reading the bytes, this will return zero.</p>
+<p>The raw 64-bit encoding of the double is read from the stream as a big-endian int64. If the stream is exhausted partway through reading the bytes, this will return zero. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOutputStream.html#a03a42d49d4a1aba31b38a2069cbe18b0" title="Writes a 64-bit floating point value to the stream in a binary format.">OutputStream::writeDoubleBigEndian</a>, <a class="el" href="classInputStream.html#a4d19fef152296085c477882e0650b011" title="Reads four bytes as a 32-bit floating point value.">readFloatBigEndian</a> </dd></dl>
 
 </div>
@@ -710,8 +703,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reads an encoded 32-bit number from the stream using a space-saving compressed format. </p>
-<p>For small values, this is more space-efficient than using <a class="el" href="classInputStream.html#a59eb456ebfbe9d4c7fdfd4c14337e19a" title="Reads four bytes from the stream as a little-endian 32-bit value.">readInt()</a> and <a class="el" href="classOutputStream.html#a75f455e1a6e4da9190cd77bc01657622" title="Writes a 32-bit integer to the stream in a little-endian byte order.">OutputStream::writeInt()</a></p>
-<p>The format used is: number of significant bytes + up to 4 bytes in little-endian order.</p>
+<p>For small values, this is more space-efficient than using <a class="el" href="classInputStream.html#a59eb456ebfbe9d4c7fdfd4c14337e19a" title="Reads four bytes from the stream as a little-endian 32-bit value.">readInt()</a> and <a class="el" href="classOutputStream.html#a75f455e1a6e4da9190cd77bc01657622" title="Writes a 32-bit integer to the stream in a little-endian byte order.">OutputStream::writeInt()</a> The format used is: number of significant bytes + up to 4 bytes in little-endian order. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOutputStream.html#ac01d789588295c52ce4034bf792d9b20" title="Writes a condensed binary encoding of a 32-bit integer.">OutputStream::writeCompressedInt()</a> </dd></dl>
 
 </div>

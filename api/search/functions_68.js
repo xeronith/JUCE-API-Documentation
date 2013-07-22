@@ -16,6 +16,7 @@ var searchData=
   ['handlekeyupordown',['handleKeyUpOrDown',['../classComponentPeer.html#a100869544b69c072622bee3015202368',1,'ComponentPeer']]],
   ['handlemagnifygesture',['handleMagnifyGesture',['../classComponentPeer.html#a8118c0dfba0d5ca955b7227ce38ecb13',1,'ComponentPeer']]],
   ['handlemessage',['handleMessage',['../classMessageListener.html#a5174ef8bd8b5faedf4d7b96d1fd8eaf1',1,'MessageListener']]],
+  ['handlemidievent',['handleMidiEvent',['../classSynthesiser.html#ae1b6110e669459c9b8571ade51dd9b91',1,'Synthesiser']]],
   ['handlemodifierkeyschange',['handleModifierKeysChange',['../classComponentPeer.html#af53ee9f555184174fcbdacafa07588fe',1,'ComponentPeer']]],
   ['handlemouseevent',['handleMouseEvent',['../classComponentPeer.html#ae8bb5292fe3aab886c5e25ce84c20198',1,'ComponentPeer']]],
   ['handlemousewheel',['handleMouseWheel',['../classComponentPeer.html#a9b2e9ab84373eb60f3ee95cffb9a6e76',1,'ComponentPeer']]],

@@ -104,7 +104,7 @@ Public Types</h2></td></tr>
 <a class="el" href="classBubbleComponent.html#aba96d481d723fd2549f497ccd7ed41a3a55e0c30c9b033af546bc8ffd96c0534c">left</a> = 4, 
 <a class="el" href="classBubbleComponent.html#aba96d481d723fd2549f497ccd7ed41a3a2dee448ac06c9b0186287c5f7e071b33">right</a> = 8
  }</td></tr>
-<tr class="memdesc:aba96d481d723fd2549f497ccd7ed41a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of permitted placements for the bubble, relative to the co-ordinates at which it should be pointing.  <a href="classBubbleComponent.html#aba96d481d723fd2549f497ccd7ed41a3">More...</a><br/></td></tr>
+<tr class="memdesc:aba96d481d723fd2549f497ccd7ed41a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of permitted placements for the bubble, relative to the coordinates at which it should be pointing.  <a href="classBubbleComponent.html#aba96d481d723fd2549f497ccd7ed41a3">More...</a><br/></td></tr>
 <tr class="separator:aba96d481d723fd2549f497ccd7ed41a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd4f589f242a148462d90a2ada86a999"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBubbleComponent.html#acd4f589f242a148462d90a2ada86a999">ColourIds</a> { <a class="el" href="classBubbleComponent.html#acd4f589f242a148462d90a2ada86a999a56755cadccae478be8ee4a7cd1d82e4f">backgroundColourId</a> = 0x1000af0, 
 <a class="el" href="classBubbleComponent.html#acd4f589f242a148462d90a2ada86a999ade450dde688dbb5680ce965966c8486d">outlineColourId</a> = 0x1000af1
@@ -221,7 +221,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9f0b1e0ff5dfe85d0c4f611a93f2b78c inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the x coordinate of the component's right-hand edge.  <a href="#a9f0b1e0ff5dfe85d0c4f611a93f2b78c"></a><br/></td></tr>
 <tr class="separator:a9f0b1e0ff5dfe85d0c4f611a93f2b78c inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa55ec8b0cdda88f6273e5949431288b inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#afa55ec8b0cdda88f6273e5949431288b">getPosition</a> () const noexcept</td></tr>
-<tr class="memdesc:afa55ec8b0cdda88f6273e5949431288b inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the component's top-left position as a <a class="el" href="classPoint.html" title="A pair of (x, y) co-ordinates.">Point</a>.  <a href="#afa55ec8b0cdda88f6273e5949431288b"></a><br/></td></tr>
+<tr class="memdesc:afa55ec8b0cdda88f6273e5949431288b inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the component's top-left position as a <a class="el" href="classPoint.html" title="A pair of (x, y) coordinates.">Point</a>.  <a href="#afa55ec8b0cdda88f6273e5949431288b"></a><br/></td></tr>
 <tr class="separator:afa55ec8b0cdda88f6273e5949431288b inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8ace323af75859a134ae82ab589c9d7 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#af8ace323af75859a134ae82ab589c9d7">getBottom</a> () const noexcept</td></tr>
 <tr class="memdesc:af8ace323af75859a134ae82ab589c9d7 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the y coordinate of the bottom edge of this component.  <a href="#af8ace323af75859a134ae82ab589c9d7"></a><br/></td></tr>
@@ -732,7 +732,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>A list of permitted placements for the bubble, relative to the co-ordinates at which it should be pointing. </p>
+<p>A list of permitted placements for the bubble, relative to the coordinates at which it should be pointing. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classBubbleComponent.html#a7c0081674149dc2a8380a0b20cf6f6ae" title="Tells the bubble which positions it&#39;s allowed to put itself in, relative to the point at which it&#39;s p...">setAllowedPlacement</a> </dd></dl>
 <dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
 <tr><td valign="top"><em><a class="anchor" id="aba96d481d723fd2549f497ccd7ed41a3a46398aeabcf45a9b397beca92dcf85b1"></a>above</em>&nbsp;</td><td>
@@ -837,7 +837,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Tells the bubble which positions it's allowed to put itself in, relative to the point at which it's pointing. </p>
 <p>By default when <a class="el" href="classBubbleComponent.html#a9dce0f241c8f14de8ca2a60cdc83e537" title="Moves and resizes the bubble to point at a given component.">setPosition()</a> is called, the bubble will place itself either above, below, left, or right of the target area. You can pass in a bitwise-'or' of the values in BubblePlacement to restrict this choice.</p>
 <p>E.g. if you only want your bubble to appear above or below the target area, use setAllowedPlacement (above | below);</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classBubbleComponent.html#aba96d481d723fd2549f497ccd7ed41a3" title="A list of permitted placements for the bubble, relative to the co-ordinates at which it should be poi...">BubblePlacement</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classBubbleComponent.html#aba96d481d723fd2549f497ccd7ed41a3" title="A list of permitted placements for the bubble, relative to the coordinates at which it should be poin...">BubblePlacement</a> </dd></dl>
 
 </div>
 </div>
@@ -876,7 +876,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Moves and resizes the bubble to point at a given point. </p>
-<p>This will resize the bubble to fit its content, then position it so that the tip of the bubble points to the given co-ordinate. The co-ordinates are relative to either the bubble component's parent component if it has one, or they are screen co-ordinates if not.</p>
+<p>This will resize the bubble to fit its content, then position it so that the tip of the bubble points to the given coordinate. The coordinates are relative to either the bubble component's parent component if it has one, or they are screen coordinates if not.</p>
 <p>It'll put itself either above, below, or to the side of this point, depending on where there's the most space, honouring any restrictions that were set with <a class="el" href="classBubbleComponent.html#a7c0081674149dc2a8380a0b20cf6f6ae" title="Tells the bubble which positions it&#39;s allowed to put itself in, relative to the point at which it&#39;s p...">setAllowedPlacement()</a>. </p>
 
 </div>
@@ -896,7 +896,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Moves and resizes the bubble to point at a given rectangle. </p>
-<p>This will resize the bubble to fit its content, then find a position for it so that it's next to, but doesn't overlap the given rectangle. The rectangle's co-ordinates are relative to either the bubble component's parent component if it has one, or they are screen co-ordinates if not.</p>
+<p>This will resize the bubble to fit its content, then find a position for it so that it's next to, but doesn't overlap the given rectangle. The rectangle's coordinates are relative to either the bubble component's parent component if it has one, or they are screen coordinates if not.</p>
 <p>It'll put itself either above, below, or to the side of the component depending on where there's the most space, honouring any restrictions that were set with <a class="el" href="classBubbleComponent.html#a7c0081674149dc2a8380a0b20cf6f6ae" title="Tells the bubble which positions it&#39;s allowed to put itself in, relative to the point at which it&#39;s p...">setAllowedPlacement()</a>. </p>
 
 </div>

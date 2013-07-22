@@ -161,13 +161,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6438873cdc43bf3ccbf9e2b1c3bac4b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current position and size of the window.  <a href="#a6438873cdc43bf3ccbf9e2b1c3bac4b4"></a><br/></td></tr>
 <tr class="separator:a6438873cdc43bf3ccbf9e2b1c3bac4b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e949ffb0588cdb3949402d51b9e8a8b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classPoint.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a0e949ffb0588cdb3949402d51b9e8a8b">localToGlobal</a> (const <a class="el" href="classPoint.html">Point</a>&lt; int &gt; &amp;relativePosition)=0</td></tr>
-<tr class="memdesc:a0e949ffb0588cdb3949402d51b9e8a8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a position relative to the top-left of this component to screen co-ordinates.  <a href="#a0e949ffb0588cdb3949402d51b9e8a8b"></a><br/></td></tr>
+<tr class="memdesc:a0e949ffb0588cdb3949402d51b9e8a8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a position relative to the top-left of this component to screen coordinates.  <a href="#a0e949ffb0588cdb3949402d51b9e8a8b"></a><br/></td></tr>
 <tr class="separator:a0e949ffb0588cdb3949402d51b9e8a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74ee249417ab026d71be6cdbaf01716f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a74ee249417ab026d71be6cdbaf01716f">localToGlobal</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;relativePosition)</td></tr>
-<tr class="memdesc:a74ee249417ab026d71be6cdbaf01716f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a rectangle relative to the top-left of this component to screen co-ordinates.  <a href="#a74ee249417ab026d71be6cdbaf01716f"></a><br/></td></tr>
+<tr class="memdesc:a74ee249417ab026d71be6cdbaf01716f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a rectangle relative to the top-left of this component to screen coordinates.  <a href="#a74ee249417ab026d71be6cdbaf01716f"></a><br/></td></tr>
 <tr class="separator:a74ee249417ab026d71be6cdbaf01716f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b898871666079b5b3b7220ed889ec9e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classPoint.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a5b898871666079b5b3b7220ed889ec9e">globalToLocal</a> (const <a class="el" href="classPoint.html">Point</a>&lt; int &gt; &amp;screenPosition)=0</td></tr>
-<tr class="memdesc:a5b898871666079b5b3b7220ed889ec9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a screen co-ordinate to a position relative to the top-left of this component.  <a href="#a5b898871666079b5b3b7220ed889ec9e"></a><br/></td></tr>
+<tr class="memdesc:a5b898871666079b5b3b7220ed889ec9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a screen coordinate to a position relative to the top-left of this component.  <a href="#a5b898871666079b5b3b7220ed889ec9e"></a><br/></td></tr>
 <tr class="separator:a5b898871666079b5b3b7220ed889ec9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1236ece6db4e0363761aa0a1e2e282d9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a1236ece6db4e0363761aa0a1e2e282d9">globalToLocal</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;screenPosition)</td></tr>
 <tr class="memdesc:a1236ece6db4e0363761aa0a1e2e282d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a screen area to a position relative to the top-left of this component.  <a href="#a1236ece6db4e0363761aa0a1e2e282d9"></a><br/></td></tr>
@@ -683,7 +683,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Moves and resizes the window. </p>
-<p>If the native window is contained in another window, then the co-ordinates are relative to the parent window's origin, not the screen origin.</p>
+<p>If the native window is contained in another window, then the coordinates are relative to the parent window's origin, not the screen origin.</p>
 <p>This should result in a callback to <a class="el" href="classComponentPeer.html#a8fb507144ba1144b75b63da1075807b9" title="This is called when the window&#39;s bounds change.">handleMovedOrResized()</a>. </p>
 
 </div>
@@ -710,7 +710,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the current position and size of the window. </p>
-<p>If the native window is contained in another window, then the co-ordinates are relative to the parent window's origin, not the screen origin. </p>
+<p>If the native window is contained in another window, then the coordinates are relative to the parent window's origin, not the screen origin. </p>
 
 </div>
 </div>
@@ -736,7 +736,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Converts a position relative to the top-left of this component to screen co-ordinates. </p>
+<p>Converts a position relative to the top-left of this component to screen coordinates. </p>
 
 </div>
 </div>
@@ -762,7 +762,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Converts a rectangle relative to the top-left of this component to screen co-ordinates. </p>
+<p>Converts a rectangle relative to the top-left of this component to screen coordinates. </p>
 
 </div>
 </div>
@@ -788,7 +788,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Converts a screen co-ordinate to a position relative to the top-left of this component. </p>
+<p>Converts a screen coordinate to a position relative to the top-left of this component. </p>
 
 </div>
 </div>

@@ -142,7 +142,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a35cd45ff7bd974e0c4876142eef16c90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the set of glyphs into a path.  <a href="#a35cd45ff7bd974e0c4876142eef16c90"></a><br/></td></tr>
 <tr class="separator:a35cd45ff7bd974e0c4876142eef16c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca23d4051cb4934df16f76a128798e01"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGlyphArrangement.html#aca23d4051cb4934df16f76a128798e01">findGlyphIndexAt</a> (float x, float y) const </td></tr>
-<tr class="memdesc:aca23d4051cb4934df16f76a128798e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for a glyph that contains the given co-ordinate.  <a href="#aca23d4051cb4934df16f76a128798e01"></a><br/></td></tr>
+<tr class="memdesc:aca23d4051cb4934df16f76a128798e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for a glyph that contains the given coordinate.  <a href="#aca23d4051cb4934df16f76a128798e01"></a><br/></td></tr>
 <tr class="separator:aca23d4051cb4934df16f76a128798e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90d447c048d1e490bce6c796baed8a75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGlyphArrangement.html#a90d447c048d1e490bce6c796baed8a75">getBoundingBox</a> (int startIndex, int numGlyphs, bool includeWhitespace) const </td></tr>
 <tr class="memdesc:a90d447c048d1e490bce6c796baed8a75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the smallest rectangle that will enclose a subset of the glyphs.  <a href="#a90d447c048d1e490bce6c796baed8a75"></a><br/></td></tr>
@@ -457,7 +457,7 @@ Public Member Functions</h2></td></tr>
 <p>Adds some multi-line text, breaking lines at word-boundaries if they are too wide. </p>
 <p>This will add text to the arrangement, breaking it into new lines either where there is a new-line or carriage-return character in the text, or where a line's width exceeds the value set in maxLineWidth.</p>
 <p>Each line that is added will be laid out using the flags set in horizontalLayout, so the lines can be left- or right-justified, or centred horizontally in the space between x and (x + maxLineWidth).</p>
-<p>The y co-ordinate is the position of the baseline of the first line of text - subsequent lines will be placed below it, separated by a distance of font.getHeight(). </p>
+<p>The y coordinate is the position of the baseline of the first line of text - subsequent lines will be placed below it, separated by a distance of font.getHeight(). </p>
 
 </div>
 </div>
@@ -667,7 +667,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Looks for a glyph that contains the given co-ordinate. </p>
+<p>Looks for a glyph that contains the given coordinate. </p>
 <dl class="section return"><dt>Returns</dt><dd>the index of the glyph, or -1 if none were found. </dd></dl>
 
 </div>

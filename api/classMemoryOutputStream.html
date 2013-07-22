@@ -101,6 +101,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a21a486f75eaef9c0f01783dac034a411"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryOutputStream.html#a21a486f75eaef9c0f01783dac034a411">MemoryOutputStream</a> (<a class="el" href="classMemoryBlock.html">MemoryBlock</a> &amp;memoryBlockToWriteTo, bool appendToExistingBlockContent)</td></tr>
 <tr class="memdesc:a21a486f75eaef9c0f01783dac034a411"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a memory stream for writing into into a pre-existing <a class="el" href="classMemoryBlock.html" title="A class to hold a resizable block of raw data.">MemoryBlock</a> object.  <a href="#a21a486f75eaef9c0f01783dac034a411"></a><br/></td></tr>
 <tr class="separator:a21a486f75eaef9c0f01783dac034a411"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d161034e42080a8f7cccdc61c17e381"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryOutputStream.html#a3d161034e42080a8f7cccdc61c17e381">MemoryOutputStream</a> (void *destBuffer, size_t destBufferSize)</td></tr>
+<tr class="memdesc:a3d161034e42080a8f7cccdc61c17e381"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classMemoryOutputStream.html" title="Writes data to an internal memory buffer, which grows as required.">MemoryOutputStream</a> that will write into a user-supplied, fixed-size block of memory.  <a href="#a3d161034e42080a8f7cccdc61c17e381"></a><br/></td></tr>
+<tr class="separator:a3d161034e42080a8f7cccdc61c17e381"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a535d2b68d0309dfdf673618761d0891d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryOutputStream.html#a535d2b68d0309dfdf673618761d0891d">~MemoryOutputStream</a> ()</td></tr>
 <tr class="memdesc:a535d2b68d0309dfdf673618761d0891d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a535d2b68d0309dfdf673618761d0891d"></a><br/></td></tr>
 <tr class="separator:a535d2b68d0309dfdf673618761d0891d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -116,9 +119,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab178f1539081ad4ca0870bf9f94e592b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryOutputStream.html#ab178f1539081ad4ca0870bf9f94e592b">preallocate</a> (size_t bytesToPreallocate)</td></tr>
 <tr class="memdesc:ab178f1539081ad4ca0870bf9f94e592b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increases the internal storage capacity to be able to contain at least the specified amount of data without needing to be resized.  <a href="#ab178f1539081ad4ca0870bf9f94e592b"></a><br/></td></tr>
 <tr class="separator:ab178f1539081ad4ca0870bf9f94e592b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad533a04adfa6fb645711205b61844c11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryOutputStream.html#ad533a04adfa6fb645711205b61844c11">appendUTF8Char</a> (<a class="el" href="juce__CharacterFunctions_8h.html#a7d83261f3888884bbf04a58edc2672da">juce_wchar</a> character)</td></tr>
-<tr class="memdesc:ad533a04adfa6fb645711205b61844c11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends the utf-8 bytes for a unicode character.  <a href="#ad533a04adfa6fb645711205b61844c11"></a><br/></td></tr>
-<tr class="separator:ad533a04adfa6fb645711205b61844c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adada24cf19575f5f170e294ddc8be7d6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryOutputStream.html#adada24cf19575f5f170e294ddc8be7d6">appendUTF8Char</a> (<a class="el" href="juce__CharacterFunctions_8h.html#a7d83261f3888884bbf04a58edc2672da">juce_wchar</a> character)</td></tr>
+<tr class="memdesc:adada24cf19575f5f170e294ddc8be7d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends the utf-8 bytes for a unicode character.  <a href="#adada24cf19575f5f170e294ddc8be7d6"></a><br/></td></tr>
+<tr class="separator:adada24cf19575f5f170e294ddc8be7d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac148c479157c53b9c8133a3eef72c6e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMemoryOutputStream.html#ac148c479157c53b9c8133a3eef72c6e4">toUTF8</a> () const </td></tr>
 <tr class="memdesc:ac148c479157c53b9c8133a3eef72c6e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classString.html" title="The JUCE String class!">String</a> created from the (UTF8) data that has been written to the stream.  <a href="#ac148c479157c53b9c8133a3eef72c6e4"></a><br/></td></tr>
 <tr class="separator:ac148c479157c53b9c8133a3eef72c6e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -272,6 +275,35 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a3d161034e42080a8f7cccdc61c17e381"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MemoryOutputStream::MemoryOutputStream </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>destBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>destBufferSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a <a class="el" href="classMemoryOutputStream.html" title="Writes data to an internal memory buffer, which grows as required.">MemoryOutputStream</a> that will write into a user-supplied, fixed-size block of memory. </p>
+<p>When using this mode, the stream will write directly into this memory area until it's full, at which point write operations will fail. </p>
+
+</div>
+</div>
 <a class="anchor" id="a535d2b68d0309dfdf673618761d0891d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -386,12 +418,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad533a04adfa6fb645711205b61844c11"></a>
+<a class="anchor" id="adada24cf19575f5f170e294ddc8be7d6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MemoryOutputStream::appendUTF8Char </td>
+          <td class="memname">bool MemoryOutputStream::appendUTF8Char </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="juce__CharacterFunctions_8h.html#a7d83261f3888884bbf04a58edc2672da">juce_wchar</a>&#160;</td>
           <td class="paramname"><em>character</em></td><td>)</td>
