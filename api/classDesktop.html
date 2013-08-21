@@ -188,6 +188,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a501649988905cfa81e1a5798b2bc5572"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf44cad873d28c06e2d22c9ee05387c3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classDesktop_1_1Displays.html">Displays</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesktop.html#aaf44cad873d28c06e2d22c9ee05387c3">getDisplays</a> () const noexcept</td></tr>
 <tr class="separator:aaf44cad873d28c06e2d22c9ee05387c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a10b63e1495aac17b5848335c6ea4cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesktop.html#a1a10b63e1495aac17b5848335c6ea4cf">setGlobalScaleFactor</a> (float newScaleFactor) noexcept</td></tr>
+<tr class="memdesc:a1a10b63e1495aac17b5848335c6ea4cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a global scale factor to be used for all desktop windows.  <a href="#a1a10b63e1495aac17b5848335c6ea4cf"></a><br/></td></tr>
+<tr class="separator:a1a10b63e1495aac17b5848335c6ea4cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d3762d46b652cd0249e6845229f3b4c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesktop.html#a9d3762d46b652cd0249e6845229f3b4c">getGlobalScaleFactor</a> () const noexcept</td></tr>
+<tr class="memdesc:a9d3762d46b652cd0249e6845229f3b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current global scale factor, as set by <a class="el" href="classDesktop.html#a1a10b63e1495aac17b5848335c6ea4cf" title="Sets a global scale factor to be used for all desktop windows.">setGlobalScaleFactor()</a>.  <a href="#a9d3762d46b652cd0249e6845229f3b4c"></a><br/></td></tr>
+<tr class="separator:a9d3762d46b652cd0249e6845229f3b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -1039,6 +1045,59 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1a10b63e1495aac17b5848335c6ea4cf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Desktop::setGlobalScaleFactor </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>newScaleFactor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets a global scale factor to be used for all desktop windows. </p>
+<p>Setting this will also scale the monitor sizes that are returned by <a class="el" href="classDesktop.html#aaf44cad873d28c06e2d22c9ee05387c3">getDisplays()</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9d3762d46b652cd0249e6845229f3b4c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Desktop::getGlobalScaleFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the current global scale factor, as set by <a class="el" href="classDesktop.html#a1a10b63e1495aac17b5848335c6ea4cf" title="Sets a global scale factor to be used for all desktop windows.">setGlobalScaleFactor()</a>. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classDesktop.html#a1a10b63e1495aac17b5848335c6ea4cf" title="Sets a global scale factor to be used for all desktop windows.">setGlobalScaleFactor</a> </dd></dl>
 
 </div>
 </div>

@@ -227,6 +227,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a97bb7a26a396cc437fcecde38a70d6b9"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a97bb7a26a396cc437fcecde38a70d6b9">getParameterText</a> (int parameterIndex)=0</td></tr>
 <tr class="memdesc:a97bb7a26a396cc437fcecde38a70d6b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of a parameter as a text string.  <a href="#a97bb7a26a396cc437fcecde38a70d6b9"></a><br/></td></tr>
 <tr class="separator:a97bb7a26a396cc437fcecde38a70d6b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a443c3bc95aaac71abe669bb6b5833b7f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a443c3bc95aaac71abe669bb6b5833b7f">getParameterName</a> (int parameterIndex, int maximumStringLength)</td></tr>
+<tr class="memdesc:a443c3bc95aaac71abe669bb6b5833b7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of a parameter as a text string with a preferred maximum length.  <a href="#a443c3bc95aaac71abe669bb6b5833b7f"></a><br/></td></tr>
+<tr class="separator:a443c3bc95aaac71abe669bb6b5833b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51062b0669b31253a99a36615b68c5f1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a51062b0669b31253a99a36615b68c5f1">getParameterText</a> (int parameterIndex, int maximumStringLength)</td></tr>
+<tr class="memdesc:a51062b0669b31253a99a36615b68c5f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of a parameter as a text string with a preferred maximum length.  <a href="#a51062b0669b31253a99a36615b68c5f1"></a><br/></td></tr>
+<tr class="separator:a51062b0669b31253a99a36615b68c5f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a07b5efc95b686b57256b16c22eec7f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a0a07b5efc95b686b57256b16c22eec7f">getParameterNumSteps</a> (int parameterIndex)</td></tr>
+<tr class="memdesc:a0a07b5efc95b686b57256b16c22eec7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of discrete steps that this parameter can represent.  <a href="#a0a07b5efc95b686b57256b16c22eec7f"></a><br/></td></tr>
+<tr class="separator:a0a07b5efc95b686b57256b16c22eec7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a727cc79e6efb14222e91e65f3ebc5e91"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a727cc79e6efb14222e91e65f3ebc5e91">getParameterDefaultValue</a> (int parameterIndex)</td></tr>
+<tr class="memdesc:a727cc79e6efb14222e91e65f3ebc5e91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default value for the parameter.  <a href="#a727cc79e6efb14222e91e65f3ebc5e91"></a><br/></td></tr>
+<tr class="separator:a727cc79e6efb14222e91e65f3ebc5e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb6c777ad229e3415314d3f66efba7b4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#aeb6c777ad229e3415314d3f66efba7b4">getParameterLabel</a> (int index) const </td></tr>
 <tr class="memdesc:aeb6c777ad229e3415314d3f66efba7b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some plugin types may be able to return a label string for a parameter's units.  <a href="#aeb6c777ad229e3415314d3f66efba7b4"></a><br/></td></tr>
 <tr class="separator:aeb6c777ad229e3415314d3f66efba7b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1445,6 +1457,134 @@ Protected Attributes</h2></td></tr>
 <p>Returns the value of a parameter as a text string. </p>
 
 <p>Implemented in <a class="el" href="classAudioProcessorGraph.html#a52665f29438df941eb74d2a490a801c4">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a09bf3652ad6969b553814446b7c14b4a">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a443c3bc95aaac71abe669bb6b5833b7f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classString.html">String</a> AudioProcessor::getParameterName </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>parameterIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maximumStringLength</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the name of a parameter as a text string with a preferred maximum length. </p>
+<p>If you want to provide customised short versions of your parameter names that will look better in constrained spaces (e.g. the displays on hardware controller devices or mixing desks) then you should implement this method. If you don't override it, the default implementation will call <a class="el" href="classAudioProcessor.html#a97bb7a26a396cc437fcecde38a70d6b9" title="Returns the value of a parameter as a text string.">getParameterText(int)</a>, and truncate the result. </p>
+
+</div>
+</div>
+<a class="anchor" id="a51062b0669b31253a99a36615b68c5f1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classString.html">String</a> AudioProcessor::getParameterText </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>parameterIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maximumStringLength</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the value of a parameter as a text string with a preferred maximum length. </p>
+<p>If you want to provide customised short versions of your parameter values that will look better in constrained spaces (e.g. the displays on hardware controller devices or mixing desks) then you should implement this method. If you don't override it, the default implementation will call <a class="el" href="classAudioProcessor.html#a97bb7a26a396cc437fcecde38a70d6b9" title="Returns the value of a parameter as a text string.">getParameterText(int)</a>, and truncate the result. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0a07b5efc95b686b57256b16c22eec7f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int AudioProcessor::getParameterNumSteps </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>parameterIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of discrete steps that this parameter can represent. </p>
+<p>The default return value if you don't implement this method is 0x7fffffff. If your parameter is boolean, then you may want to make this return 2. The value that is returned may or may not be used, depending on the host. </p>
+
+</div>
+</div>
+<a class="anchor" id="a727cc79e6efb14222e91e65f3ebc5e91"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual float AudioProcessor::getParameterDefaultValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>parameterIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the default value for the parameter. </p>
+<p>By default, this just returns 0. The value that is returned may or may not be used, depending on the host. </p>
 
 </div>
 </div>

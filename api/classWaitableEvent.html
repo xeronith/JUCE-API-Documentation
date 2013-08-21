@@ -136,6 +136,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a <a class="el" href="classWaitableEvent.html" title="Allows threads to wait for events triggered by other threads.">WaitableEvent</a> object. </p>
+<p>The object is initially in an unsignalled state.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">manualReset</td><td>If this is false, the event will be reset automatically when the <a class="el" href="classWaitableEvent.html#aade120bc7686f4fabfc740aff8f56dfa" title="Suspends the calling thread until the event has been signalled.">wait()</a> method is called. If manualReset is true, then once the event is signalled, the only way to reset it will be by calling the <a class="el" href="classWaitableEvent.html#aa9b3db111ba17e13d5e74360367bcc9b" title="Resets the event to an unsignalled state.">reset()</a> method. </td></tr>

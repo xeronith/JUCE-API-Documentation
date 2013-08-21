@@ -190,6 +190,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abc7af173a2a20a87c23c7ae9d6ec3b73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#abc7af173a2a20a87c23c7ae9d6ec3b73">setTabBackgroundColour</a> (int tabIndex, <a class="el" href="classColour.html">Colour</a> newColour)</td></tr>
 <tr class="memdesc:abc7af173a2a20a87c23c7ae9d6ec3b73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the background colour of a tab.  <a href="#abc7af173a2a20a87c23c7ae9d6ec3b73"></a><br/></td></tr>
 <tr class="separator:abc7af173a2a20a87c23c7ae9d6ec3b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad07c90cf224b10adfb383c72c4bacf86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#ad07c90cf224b10adfb383c72c4bacf86">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;) override</td></tr>
+<tr class="separator:ad07c90cf224b10adfb383c72c4bacf86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5be05b934d9ceaef93729e8e8ac8597"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#ac5be05b934d9ceaef93729e8e8ac8597">resized</a> () override</td></tr>
 <tr class="separator:ac5be05b934d9ceaef93729e8e8ac8597"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60cc5364a3a309438008f8bc1ae32708"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#a60cc5364a3a309438008f8bc1ae32708">lookAndFeelChanged</a> () override</td></tr>
@@ -246,6 +248,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aafbf3cf52e606a66da16ffc85acdd383 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#aafbf3cf52e606a66da16ffc85acdd383">minimisationStateChanged</a> (bool isNowMinimised)</td></tr>
 <tr class="memdesc:aafbf3cf52e606a66da16ffc85acdd383 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called for a desktop component which has just been minimised or un-minimised.  <a href="#aafbf3cf52e606a66da16ffc85acdd383"></a><br/></td></tr>
 <tr class="separator:aafbf3cf52e606a66da16ffc85acdd383 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae4aed8bee7514dba48cca1e55e19d43 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#aae4aed8bee7514dba48cca1e55e19d43">getDesktopScaleFactor</a> () const </td></tr>
+<tr class="memdesc:aae4aed8bee7514dba48cca1e55e19d43 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default scale factor to use for this component when it is placed on the desktop.  <a href="#aae4aed8bee7514dba48cca1e55e19d43"></a><br/></td></tr>
+<tr class="separator:aae4aed8bee7514dba48cca1e55e19d43 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace6d99879585ba31a4212431d01d00f5 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#ace6d99879585ba31a4212431d01d00f5">toFront</a> (bool shouldAlsoGainFocus)</td></tr>
 <tr class="memdesc:ace6d99879585ba31a4212431d01d00f5 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Brings the component to the front of its siblings.  <a href="#ace6d99879585ba31a4212431d01d00f5"></a><br/></td></tr>
 <tr class="separator:ace6d99879585ba31a4212431d01d00f5 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -291,9 +296,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7bec78144c5f28eb78ce1550b1c58614 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a7bec78144c5f28eb78ce1550b1c58614">getBoundsInParent</a> () const noexcept</td></tr>
 <tr class="memdesc:a7bec78144c5f28eb78ce1550b1c58614 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the area of this component's parent which this component covers.  <a href="#a7bec78144c5f28eb78ce1550b1c58614"></a><br/></td></tr>
 <tr class="separator:a7bec78144c5f28eb78ce1550b1c58614 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa37c12fd9df7c9ba83f70008726acb72 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#aa37c12fd9df7c9ba83f70008726acb72">getVisibleArea</a> (<a class="el" href="classRectangleList.html">RectangleList</a> &amp;result, bool includeSiblings) const </td></tr>
-<tr class="memdesc:aa37c12fd9df7c9ba83f70008726acb72 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the region of this component that's not obscured by other, opaque components.  <a href="#aa37c12fd9df7c9ba83f70008726acb72"></a><br/></td></tr>
-<tr class="separator:aa37c12fd9df7c9ba83f70008726acb72 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46966e291496184832581614c4b85369 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a46966e291496184832581614c4b85369">getVisibleArea</a> (<a class="el" href="classRectangleList.html">RectangleList</a>&lt; int &gt; &amp;result, bool includeSiblings) const </td></tr>
+<tr class="memdesc:a46966e291496184832581614c4b85369 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the region of this component that's not obscured by other, opaque components.  <a href="#a46966e291496184832581614c4b85369"></a><br/></td></tr>
+<tr class="separator:a46966e291496184832581614c4b85369 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a6907c2907bab645de49c096c00fd50 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a0a6907c2907bab645de49c096c00fd50">getScreenX</a> () const </td></tr>
 <tr class="memdesc:a0a6907c2907bab645de49c096c00fd50 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this component's x coordinate relative the the screen's top-left origin.  <a href="#a0a6907c2907bab645de49c096c00fd50"></a><br/></td></tr>
 <tr class="separator:a0a6907c2907bab645de49c096c00fd50 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -565,9 +570,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a03057aba4ac79272f105e8839582309c inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a03057aba4ac79272f105e8839582309c">updateMouseCursor</a> () const </td></tr>
 <tr class="memdesc:a03057aba4ac79272f105e8839582309c inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forces the current mouse cursor to be updated.  <a href="#a03057aba4ac79272f105e8839582309c"></a><br/></td></tr>
 <tr class="separator:a03057aba4ac79272f105e8839582309c inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cf1862f4af5909ea72827898114a182 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a7cf1862f4af5909ea72827898114a182">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g)</td></tr>
-<tr class="memdesc:a7cf1862f4af5909ea72827898114a182 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Components can override this method to draw their content.  <a href="#a7cf1862f4af5909ea72827898114a182"></a><br/></td></tr>
-<tr class="separator:a7cf1862f4af5909ea72827898114a182 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa15dc77c06b5a0a4192090b4a323f79c inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#aa15dc77c06b5a0a4192090b4a323f79c">paintOverChildren</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g)</td></tr>
 <tr class="memdesc:aa15dc77c06b5a0a4192090b4a323f79c inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Components can override this method to draw over the top of their children.  <a href="#aa15dc77c06b5a0a4192090b4a323f79c"></a><br/></td></tr>
 <tr class="separator:aa15dc77c06b5a0a4192090b4a323f79c inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1399,6 +1401,32 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Changes the background colour of a tab. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classTabbedButtonBar.html#ac3bb57ee8a302f088b26092a829d2bd1" title="Adds a tab to the bar.">addTab</a>, <a class="el" href="classTabbedButtonBar.html#a4835727f2e8eda1a09694c3eb46baa32" title="Returns the colour of a tab.">getTabBackgroundColour</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad07c90cf224b10adfb383c72c4bacf86"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TabbedButtonBar::paint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classComponent.html#a7cf1862f4af5909ea72827898114a182">Component</a>.</p>
 
 </div>
 </div>

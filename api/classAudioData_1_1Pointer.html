@@ -103,9 +103,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a373fea92c60a62a2e2fe31564928561c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioData_1_1Pointer.html#a373fea92c60a62a2e2fe31564928561c">Pointer</a> (typename Constness::VoidType *sourceData) noexcept</td></tr>
 <tr class="memdesc:a373fea92c60a62a2e2fe31564928561c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a non-interleaved pointer from some raw data in the appropriate format.  <a href="#a373fea92c60a62a2e2fe31564928561c"></a><br/></td></tr>
 <tr class="separator:a373fea92c60a62a2e2fe31564928561c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62b369c3aa10f89652d2342eb5b92d70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioData_1_1Pointer.html#a62b369c3aa10f89652d2342eb5b92d70">Pointer</a> (typename Constness::VoidType *sourceData, int numInterleavedChannels) noexcept</td></tr>
-<tr class="memdesc:a62b369c3aa10f89652d2342eb5b92d70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a pointer from some raw data in the appropriate format with the specified number of interleaved channels.  <a href="#a62b369c3aa10f89652d2342eb5b92d70"></a><br/></td></tr>
-<tr class="separator:a62b369c3aa10f89652d2342eb5b92d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb8aabad75cb57853c3df07cfae42b8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioData_1_1Pointer.html#afb8aabad75cb57853c3df07cfae42b8e">Pointer</a> (typename Constness::VoidType *sourceData, int numInterleaved) noexcept</td></tr>
+<tr class="memdesc:afb8aabad75cb57853c3df07cfae42b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a pointer from some raw data in the appropriate format with the specified number of interleaved channels.  <a href="#afb8aabad75cb57853c3df07cfae42b8e"></a><br/></td></tr>
+<tr class="separator:afb8aabad75cb57853c3df07cfae42b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcec246d71e35970a17acfe5a0808020"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioData_1_1Pointer.html#adcec246d71e35970a17acfe5a0808020">Pointer</a> (const <a class="el" href="classAudioData_1_1Pointer.html">Pointer</a> &amp;other) noexcept</td></tr>
 <tr class="memdesc:adcec246d71e35970a17acfe5a0808020"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a copy of another pointer.  <a href="#adcec246d71e35970a17acfe5a0808020"></a><br/></td></tr>
 <tr class="separator:adcec246d71e35970a17acfe5a0808020"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -222,7 +222,7 @@ template&lt;typename SampleFormat , typename Endianness , typename InterleavingT
 
 </div>
 </div>
-<a class="anchor" id="a62b369c3aa10f89652d2342eb5b92d70"></a>
+<a class="anchor" id="afb8aabad75cb57853c3df07cfae42b8e"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -241,7 +241,7 @@ template&lt;typename SampleFormat , typename Endianness , typename InterleavingT
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>numInterleavedChannels</em>&#160;</td>
+          <td class="paramname"><em>numInterleaved</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

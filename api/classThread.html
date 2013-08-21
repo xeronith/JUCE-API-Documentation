@@ -118,9 +118,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acc4aff2ceb97b0f16a0a08132315a900"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#acc4aff2ceb97b0f16a0a08132315a900">startThread</a> (int priority)</td></tr>
 <tr class="memdesc:acc4aff2ceb97b0f16a0a08132315a900"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the thread with a given priority.  <a href="#acc4aff2ceb97b0f16a0a08132315a900"></a><br/></td></tr>
 <tr class="separator:acc4aff2ceb97b0f16a0a08132315a900"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7814b4dfaa6935f418c2baeb25c08cc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a7814b4dfaa6935f418c2baeb25c08cc0">stopThread</a> (int timeOutMilliseconds)</td></tr>
-<tr class="memdesc:a7814b4dfaa6935f418c2baeb25c08cc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to stop the thread running.  <a href="#a7814b4dfaa6935f418c2baeb25c08cc0"></a><br/></td></tr>
-<tr class="separator:a7814b4dfaa6935f418c2baeb25c08cc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18583d51411d6a34c59b63f0adff4697"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a18583d51411d6a34c59b63f0adff4697">stopThread</a> (int timeOutMilliseconds)</td></tr>
+<tr class="memdesc:a18583d51411d6a34c59b63f0adff4697"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to stop the thread running.  <a href="#a18583d51411d6a34c59b63f0adff4697"></a><br/></td></tr>
+<tr class="separator:a18583d51411d6a34c59b63f0adff4697"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab02ad2d11a2dacfea4a78b06224a3e87"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#ab02ad2d11a2dacfea4a78b06224a3e87">isThreadRunning</a> () const </td></tr>
 <tr class="memdesc:ab02ad2d11a2dacfea4a78b06224a3e87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the thread is currently active.  <a href="#ab02ad2d11a2dacfea4a78b06224a3e87"></a><br/></td></tr>
 <tr class="separator:ab02ad2d11a2dacfea4a78b06224a3e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,28 +157,28 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a777202bb5aa9ce7f57605674b100f4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a9a777202bb5aa9ce7f57605674b100f4">setCurrentThreadPriority</a> (int priority)</td></tr>
 <tr class="memdesc:a9a777202bb5aa9ce7f57605674b100f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the priority of the caller thread.  <a href="#a9a777202bb5aa9ce7f57605674b100f4"></a><br/></td></tr>
 <tr class="separator:a9a777202bb5aa9ce7f57605674b100f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8e6da0fe8303bfa1b171cad33a9a640"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#ad8e6da0fe8303bfa1b171cad33a9a640">setCurrentThreadAffinityMask</a> (<a class="el" href="juce__MathsFunctions_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> affinityMask)</td></tr>
-<tr class="memdesc:ad8e6da0fe8303bfa1b171cad33a9a640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the affinity mask for the caller thread.  <a href="#ad8e6da0fe8303bfa1b171cad33a9a640"></a><br/></td></tr>
-<tr class="separator:ad8e6da0fe8303bfa1b171cad33a9a640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac21eb5ae8c32bc2ecacba904f3411802"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#ac21eb5ae8c32bc2ecacba904f3411802">setCurrentThreadAffinityMask</a> (<a class="el" href="juce__MathsFunctions_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> affinityMask)</td></tr>
+<tr class="memdesc:ac21eb5ae8c32bc2ecacba904f3411802"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the affinity mask for the caller thread.  <a href="#ac21eb5ae8c32bc2ecacba904f3411802"></a><br/></td></tr>
+<tr class="separator:ac21eb5ae8c32bc2ecacba904f3411802"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ee1ddee32aa82ac90bc567cb7427926"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a4ee1ddee32aa82ac90bc567cb7427926">sleep</a> (int milliseconds)</td></tr>
 <tr class="separator:a4ee1ddee32aa82ac90bc567cb7427926"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf47a344b3b715e49ffcbc6119c72cdc"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#aaf47a344b3b715e49ffcbc6119c72cdc">yield</a> ()</td></tr>
 <tr class="memdesc:aaf47a344b3b715e49ffcbc6119c72cdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Yields the calling thread's current time-slot.  <a href="#aaf47a344b3b715e49ffcbc6119c72cdc"></a><br/></td></tr>
 <tr class="separator:aaf47a344b3b715e49ffcbc6119c72cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89d304681a5f94b8556b37c47e19913c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classThread.html#a077e20855a3c974c2fc6f9e7caa8412c">ThreadID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a89d304681a5f94b8556b37c47e19913c">getCurrentThreadId</a> ()</td></tr>
-<tr class="memdesc:a89d304681a5f94b8556b37c47e19913c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an id that identifies the caller thread.  <a href="#a89d304681a5f94b8556b37c47e19913c"></a><br/></td></tr>
-<tr class="separator:a89d304681a5f94b8556b37c47e19913c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2bcc5bdee3d6ecd721022afc3f2629e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classThread.html">Thread</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#ac2bcc5bdee3d6ecd721022afc3f2629e">getCurrentThread</a> ()</td></tr>
-<tr class="memdesc:ac2bcc5bdee3d6ecd721022afc3f2629e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the thread object that is currently running.  <a href="#ac2bcc5bdee3d6ecd721022afc3f2629e"></a><br/></td></tr>
-<tr class="separator:ac2bcc5bdee3d6ecd721022afc3f2629e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59989b54a00e4f93619cad563bd1db1a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a59989b54a00e4f93619cad563bd1db1a">setCurrentThreadName</a> (const <a class="el" href="classString.html">String</a> &amp;newThreadName)</td></tr>
-<tr class="memdesc:a59989b54a00e4f93619cad563bd1db1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the name of the caller thread.  <a href="#a59989b54a00e4f93619cad563bd1db1a"></a><br/></td></tr>
-<tr class="separator:a59989b54a00e4f93619cad563bd1db1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd4762b20144186ffc28280cedd224e9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classThread.html#a077e20855a3c974c2fc6f9e7caa8412c">ThreadID</a> <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#abd4762b20144186ffc28280cedd224e9">getCurrentThreadId</a> ()</td></tr>
+<tr class="memdesc:abd4762b20144186ffc28280cedd224e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an id that identifies the caller thread.  <a href="#abd4762b20144186ffc28280cedd224e9"></a><br/></td></tr>
+<tr class="separator:abd4762b20144186ffc28280cedd224e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40a9f45ea3ff9a7d39a50f78059640cd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classThread.html">Thread</a> *<a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a40a9f45ea3ff9a7d39a50f78059640cd">getCurrentThread</a> ()</td></tr>
+<tr class="memdesc:a40a9f45ea3ff9a7d39a50f78059640cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the thread object that is currently running.  <a href="#a40a9f45ea3ff9a7d39a50f78059640cd"></a><br/></td></tr>
+<tr class="separator:a40a9f45ea3ff9a7d39a50f78059640cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ba2a683ea8111c08db83092360b7226"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a8ba2a683ea8111c08db83092360b7226">setCurrentThreadName</a> (const <a class="el" href="classString.html">String</a> &amp;newThreadName)</td></tr>
+<tr class="memdesc:a8ba2a683ea8111c08db83092360b7226"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the name of the caller thread.  <a href="#a8ba2a683ea8111c08db83092360b7226"></a><br/></td></tr>
+<tr class="separator:a8ba2a683ea8111c08db83092360b7226"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Encapsulates a thread. </p>
 <p>Subclasses derive from <a class="el" href="classThread.html" title="Encapsulates a thread.">Thread</a> and implement the <a class="el" href="classThread.html#aae90dfabab3e1776cf01a26e7ee3a620" title="Must be implemented to perform the thread&#39;s actual code.">run()</a> method, in which they do their business. The thread can then be started with the <a class="el" href="classThread.html#a5502205d727c00752f95af27a063d983" title="Starts the thread running.">startThread()</a> method and controlled with various other methods.</p>
-<p>This class also contains some thread-related static methods, such as <a class="el" href="classThread.html#a4ee1ddee32aa82ac90bc567cb7427926">sleep()</a>, <a class="el" href="classThread.html#aaf47a344b3b715e49ffcbc6119c72cdc" title="Yields the calling thread&#39;s current time-slot.">yield()</a>, <a class="el" href="classThread.html#a89d304681a5f94b8556b37c47e19913c" title="Returns an id that identifies the caller thread.">getCurrentThreadId()</a> etc.</p>
+<p>This class also contains some thread-related static methods, such as <a class="el" href="classThread.html#a4ee1ddee32aa82ac90bc567cb7427926">sleep()</a>, <a class="el" href="classThread.html#aaf47a344b3b715e49ffcbc6119c72cdc" title="Yields the calling thread&#39;s current time-slot.">yield()</a>, <a class="el" href="classThread.html#abd4762b20144186ffc28280cedd224e9" title="Returns an id that identifies the caller thread.">getCurrentThreadId()</a> etc.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>, <a class="el" href="classWaitableEvent.html" title="Allows threads to wait for events triggered by other threads.">WaitableEvent</a>, <a class="el" href="classProcess.html" title="Represents the current executable&#39;s process.">Process</a>, <a class="el" href="classThreadWithProgressWindow.html" title="A thread that automatically pops up a modal dialog box with a progress bar and cancel button while it...">ThreadWithProgressWindow</a>, <a class="el" href="classMessageManagerLock.html" title="Used to make sure that the calling thread has exclusive access to the message loop.">MessageManagerLock</a> </dd></dl>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a077e20855a3c974c2fc6f9e7caa8412c"></a>
@@ -192,7 +192,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>A value type used for thread IDs. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThread.html#a89d304681a5f94b8556b37c47e19913c" title="Returns an id that identifies the caller thread.">getCurrentThreadId()</a>, <a class="el" href="classThread.html#a39ca822734b9b20ab32eeba774c9a803" title="Returns the ID of this thread.">getThreadId()</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThread.html#abd4762b20144186ffc28280cedd224e9" title="Returns an id that identifies the caller thread.">getCurrentThreadId()</a>, <a class="el" href="classThread.html#a39ca822734b9b20ab32eeba774c9a803" title="Returns the ID of this thread.">getThreadId()</a> </dd></dl>
 
 </div>
 </div>
@@ -246,7 +246,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Destructor. </p>
-<p>Deleting a <a class="el" href="classThread.html" title="Encapsulates a thread.">Thread</a> object that is running will only give the thread a brief opportunity to stop itself cleanly, so it's recommended that you should always call <a class="el" href="classThread.html#a7814b4dfaa6935f418c2baeb25c08cc0" title="Attempts to stop the thread running.">stopThread()</a> with a decent timeout before deleting, to avoid the thread being forcibly killed (which is a Bad Thing). </p>
+<p>You must never attempt to delete a <a class="el" href="classThread.html" title="Encapsulates a thread.">Thread</a> object while it's still running - always call <a class="el" href="classThread.html#a18583d51411d6a34c59b63f0adff4697" title="Attempts to stop the thread running.">stopThread()</a> and make sure your thread has stopped before deleting the object. Failing to do so will throw an assertion, and put you firmly into undefined behaviour territory. </p>
 
 </div>
 </div>
@@ -294,8 +294,8 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Starts the thread running. </p>
-<p>This will start the thread's <a class="el" href="classThread.html#aae90dfabab3e1776cf01a26e7ee3a620" title="Must be implemented to perform the thread&#39;s actual code.">run()</a> method. (if it's already started, <a class="el" href="classThread.html#a5502205d727c00752f95af27a063d983" title="Starts the thread running.">startThread()</a> won't do anything).</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThread.html#a7814b4dfaa6935f418c2baeb25c08cc0" title="Attempts to stop the thread running.">stopThread</a> </dd></dl>
+<p>This will cause the thread's <a class="el" href="classThread.html#aae90dfabab3e1776cf01a26e7ee3a620" title="Must be implemented to perform the thread&#39;s actual code.">run()</a> method to be called by a new thread. If this thread is already running, <a class="el" href="classThread.html#a5502205d727c00752f95af27a063d983" title="Starts the thread running.">startThread()</a> won't do anything.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThread.html#a18583d51411d6a34c59b63f0adff4697" title="Attempts to stop the thread running.">stopThread</a> </dd></dl>
 
 </div>
 </div>
@@ -319,12 +319,12 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7814b4dfaa6935f418c2baeb25c08cc0"></a>
+<a class="anchor" id="a18583d51411d6a34c59b63f0adff4697"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Thread::stopThread </td>
+          <td class="memname">bool Thread::stopThread </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>timeOutMilliseconds</em></td><td>)</td>
@@ -343,6 +343,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the thread was cleanly stopped before the timeout, or false if it had to be killed by force. </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThread.html#affe168e27c6ee50b0d10522810772268" title="Sets a flag to tell the thread it should stop.">signalThreadShouldExit</a>, <a class="el" href="classThread.html#a0a8fdce313d3c0db6c5adbb78c4352b4" title="Checks whether the thread has been told to stop running.">threadShouldExit</a>, <a class="el" href="classThread.html#a277e5e91d52626bbdac85b44972dd46a" title="Waits for the thread to stop.">waitForThreadToExit</a>, <a class="el" href="classThread.html#ab02ad2d11a2dacfea4a78b06224a3e87" title="Returns true if the thread is currently active.">isThreadRunning</a> </dd></dl>
 
 </div>
@@ -500,11 +501,11 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Sets the affinity mask for the thread. </p>
 <p>This will only have an effect next time the thread is started - i.e. if the thread is already running when called, it'll have no effect.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThread.html#ad8e6da0fe8303bfa1b171cad33a9a640" title="Changes the affinity mask for the caller thread.">setCurrentThreadAffinityMask</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThread.html#ac21eb5ae8c32bc2ecacba904f3411802" title="Changes the affinity mask for the caller thread.">setCurrentThreadAffinityMask</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ad8e6da0fe8303bfa1b171cad33a9a640"></a>
+<a class="anchor" id="ac21eb5ae8c32bc2ecacba904f3411802"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -512,7 +513,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void Thread::setCurrentThreadAffinityMask </td>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> Thread::setCurrentThreadAffinityMask </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="juce__MathsFunctions_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
           <td class="paramname"><em>affinityMask</em></td><td>)</td>
@@ -527,7 +528,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Changes the affinity mask for the caller thread. </p>
-<p>This will change the affinity mask for the thread that calls this static method.</p>
+<p>This will change the affinity mask for the thread that calls this static method. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThread.html#a614605563fceeac6f03d507bc35bdce4" title="Sets the affinity mask for the thread.">setAffinityMask</a> </dd></dl>
 
 </div>
@@ -621,7 +622,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a89d304681a5f94b8556b37c47e19913c"></a>
+<a class="anchor" id="abd4762b20144186ffc28280cedd224e9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -629,7 +630,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classThread.html#a077e20855a3c974c2fc6f9e7caa8412c">ThreadID</a> Thread::getCurrentThreadId </td>
+          <td class="memname">static <a class="el" href="classThread.html#a077e20855a3c974c2fc6f9e7caa8412c">ThreadID</a> <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> Thread::getCurrentThreadId </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -651,7 +652,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac2bcc5bdee3d6ecd721022afc3f2629e"></a>
+<a class="anchor" id="a40a9f45ea3ff9a7d39a50f78059640cd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -659,7 +660,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classThread.html">Thread</a>* Thread::getCurrentThread </td>
+          <td class="memname">static <a class="el" href="classThread.html">Thread</a>* <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> Thread::getCurrentThread </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -701,7 +702,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Returns the ID of this thread. </p>
 <p>That means the ID of this thread object - not of the thread that's calling the method.</p>
 <p>This can change when the thread is started and stopped, and will be invalid if the thread's not actually running.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThread.html#a89d304681a5f94b8556b37c47e19913c" title="Returns an id that identifies the caller thread.">getCurrentThreadId</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThread.html#abd4762b20144186ffc28280cedd224e9" title="Returns an id that identifies the caller thread.">getCurrentThreadId</a> </dd></dl>
 
 </div>
 </div>
@@ -723,7 +724,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a59989b54a00e4f93619cad563bd1db1a"></a>
+<a class="anchor" id="a8ba2a683ea8111c08db83092360b7226"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -731,7 +732,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void Thread::setCurrentThreadName </td>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> Thread::setCurrentThreadName </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
           <td class="paramname"><em>newThreadName</em></td><td>)</td>

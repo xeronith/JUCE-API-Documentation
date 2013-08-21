@@ -157,7 +157,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5b230572d54a15ce412f8d5357f40649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the user's display language.  <a href="#a5b230572d54a15ce412f8d5357f40649"></a><br/></td></tr>
 <tr class="separator:a5b230572d54a15ce412f8d5357f40649"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fa9257a60a26848174b2b8bd6cbb970"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a2fa9257a60a26848174b2b8bd6cbb970">getNumCpus</a> () noexcept</td></tr>
-<tr class="memdesc:a2fa9257a60a26848174b2b8bd6cbb970"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of CPUs.  <a href="#a2fa9257a60a26848174b2b8bd6cbb970"></a><br/></td></tr>
+<tr class="memdesc:a2fa9257a60a26848174b2b8bd6cbb970"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of CPU cores.  <a href="#a2fa9257a60a26848174b2b8bd6cbb970"></a><br/></td></tr>
 <tr class="separator:a2fa9257a60a26848174b2b8bd6cbb970"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50852f1e0c28d06eeebbd18af4559770"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a50852f1e0c28d06eeebbd18af4559770">getCpuSpeedInMegaherz</a> ()</td></tr>
 <tr class="memdesc:a50852f1e0c28d06eeebbd18af4559770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the approximate CPU speed.  <a href="#a50852f1e0c28d06eeebbd18af4559770"></a><br/></td></tr>
@@ -166,16 +166,19 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4fa74fdae2721d03bb25d48fd7cfaa6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string to indicate the CPU vendor.  <a href="#a4fa74fdae2721d03bb25d48fd7cfaa6d"></a><br/></td></tr>
 <tr class="separator:a4fa74fdae2721d03bb25d48fd7cfaa6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a245726d89f0a6cf232b70ff7d89652e5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a245726d89f0a6cf232b70ff7d89652e5">hasMMX</a> () noexcept</td></tr>
-<tr class="memdesc:a245726d89f0a6cf232b70ff7d89652e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether Intel MMX instructions are available.  <a href="#a245726d89f0a6cf232b70ff7d89652e5"></a><br/></td></tr>
+<tr class="memdesc:a245726d89f0a6cf232b70ff7d89652e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if Intel MMX instructions are available.  <a href="#a245726d89f0a6cf232b70ff7d89652e5"></a><br/></td></tr>
 <tr class="separator:a245726d89f0a6cf232b70ff7d89652e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5f3b624e4b0d32db1c5702ee039a765"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#ad5f3b624e4b0d32db1c5702ee039a765">hasSSE</a> () noexcept</td></tr>
-<tr class="memdesc:ad5f3b624e4b0d32db1c5702ee039a765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether Intel SSE instructions are available.  <a href="#ad5f3b624e4b0d32db1c5702ee039a765"></a><br/></td></tr>
+<tr class="memdesc:ad5f3b624e4b0d32db1c5702ee039a765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if Intel SSE instructions are available.  <a href="#ad5f3b624e4b0d32db1c5702ee039a765"></a><br/></td></tr>
 <tr class="separator:ad5f3b624e4b0d32db1c5702ee039a765"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55e24b924d9c64e019f1efe1888d2963"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a55e24b924d9c64e019f1efe1888d2963">hasSSE2</a> () noexcept</td></tr>
-<tr class="memdesc:a55e24b924d9c64e019f1efe1888d2963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether Intel SSE2 instructions are available.  <a href="#a55e24b924d9c64e019f1efe1888d2963"></a><br/></td></tr>
+<tr class="memdesc:a55e24b924d9c64e019f1efe1888d2963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if Intel SSE2 instructions are available.  <a href="#a55e24b924d9c64e019f1efe1888d2963"></a><br/></td></tr>
 <tr class="separator:a55e24b924d9c64e019f1efe1888d2963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9ffa8da005c3311eda3ee34ecdd5b28"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#aa9ffa8da005c3311eda3ee34ecdd5b28">hasSSE3</a> () noexcept</td></tr>
+<tr class="memdesc:aa9ffa8da005c3311eda3ee34ecdd5b28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if Intel SSE2 instructions are available.  <a href="#aa9ffa8da005c3311eda3ee34ecdd5b28"></a><br/></td></tr>
+<tr class="separator:aa9ffa8da005c3311eda3ee34ecdd5b28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1879ae7e393b289d3f5a62f673bfc031"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a1879ae7e393b289d3f5a62f673bfc031">has3DNow</a> () noexcept</td></tr>
-<tr class="memdesc:a1879ae7e393b289d3f5a62f673bfc031"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether AMD 3DNOW instructions are available.  <a href="#a1879ae7e393b289d3f5a62f673bfc031"></a><br/></td></tr>
+<tr class="memdesc:a1879ae7e393b289d3f5a62f673bfc031"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if AMD 3DNOW instructions are available.  <a href="#a1879ae7e393b289d3f5a62f673bfc031"></a><br/></td></tr>
 <tr class="separator:a1879ae7e393b289d3f5a62f673bfc031"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77b0a6c165e59b8c15f8f0a2f037a584"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a77b0a6c165e59b8c15f8f0a2f037a584">getMemorySizeInMegabytes</a> ()</td></tr>
 <tr class="memdesc:a77b0a6c165e59b8c15f8f0a2f037a584"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds out how much RAM is in the machine.  <a href="#a77b0a6c165e59b8c15f8f0a2f037a584"></a><br/></td></tr>
@@ -576,7 +579,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the number of CPUs. </p>
+<p>Returns the number of CPU cores. </p>
 
 </div>
 </div>
@@ -653,7 +656,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Checks whether Intel MMX instructions are available. </p>
+<p>Returns true if Intel MMX instructions are available. </p>
 
 </div>
 </div>
@@ -678,7 +681,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Checks whether Intel SSE instructions are available. </p>
+<p>Returns true if Intel SSE instructions are available. </p>
 
 </div>
 </div>
@@ -703,7 +706,32 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Checks whether Intel SSE2 instructions are available. </p>
+<p>Returns true if Intel SSE2 instructions are available. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa9ffa8da005c3311eda3ee34ecdd5b28"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool SystemStats::hasSSE3 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if Intel SSE2 instructions are available. </p>
 
 </div>
 </div>
@@ -728,7 +756,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Checks whether AMD 3DNOW instructions are available. </p>
+<p>Returns true if AMD 3DNOW instructions are available. </p>
 
 </div>
 </div>

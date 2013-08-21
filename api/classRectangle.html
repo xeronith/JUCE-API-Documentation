@@ -254,7 +254,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a74171c4bfdfeb5f8017cd2501e5aa615"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a768376e996b91ecb83d5ec7f0db2d50c"><td class="memTemplParams" colspan="2">template&lt;typename FloatType &gt; </td></tr>
 <tr class="memitem:a768376e996b91ecb83d5ec7f0db2d50c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classRectangle.html#a768376e996b91ecb83d5ec7f0db2d50c">operator*</a> (FloatType scaleFactor) const noexcept</td></tr>
-<tr class="memdesc:a768376e996b91ecb83d5ec7f0db2d50c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scales this rectangle by the given amount, centred around the origin.  <a href="#a768376e996b91ecb83d5ec7f0db2d50c"></a><br/></td></tr>
+<tr class="memdesc:a768376e996b91ecb83d5ec7f0db2d50c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a rectangle that has been scaled by the given amount, centred around the origin.  <a href="#a768376e996b91ecb83d5ec7f0db2d50c"></a><br/></td></tr>
 <tr class="separator:a768376e996b91ecb83d5ec7f0db2d50c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acec9ecfe72bc29922e82e21e513a93ed"><td class="memTemplParams" colspan="2">template&lt;typename FloatType &gt; </td></tr>
 <tr class="memitem:acec9ecfe72bc29922e82e21e513a93ed"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classRectangle.html#acec9ecfe72bc29922e82e21e513a93ed">operator*=</a> (FloatType scaleFactor) noexcept</td></tr>
@@ -326,8 +326,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a28a09961d9ad8b60909fd7d946521db9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the region that is the overlap between this and another rectangle.  <a href="#a28a09961d9ad8b60909fd7d946521db9"></a><br/></td></tr>
 <tr class="separator:a28a09961d9ad8b60909fd7d946521db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f81c03f0a7d413f28a6f1a2ba65560d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#a7f81c03f0a7d413f28a6f1a2ba65560d">intersectRectangle</a> (ValueType &amp;otherX, ValueType &amp;otherY, ValueType &amp;otherW, ValueType &amp;otherH) const noexcept</td></tr>
-<tr class="memdesc:a7f81c03f0a7d413f28a6f1a2ba65560d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clips a rectangle so that it lies only within this one.  <a href="#a7f81c03f0a7d413f28a6f1a2ba65560d"></a><br/></td></tr>
+<tr class="memdesc:a7f81c03f0a7d413f28a6f1a2ba65560d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clips a set of rectangle coordinates so that they lie only within this one.  <a href="#a7f81c03f0a7d413f28a6f1a2ba65560d"></a><br/></td></tr>
 <tr class="separator:a7f81c03f0a7d413f28a6f1a2ba65560d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab268529ec12065ec29dd4099a171c03f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#ab268529ec12065ec29dd4099a171c03f">intersectRectangle</a> (<a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt; &amp;rectangleToClip) const noexcept</td></tr>
+<tr class="memdesc:ab268529ec12065ec29dd4099a171c03f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clips a rectangle so that it lies only within this one.  <a href="#ab268529ec12065ec29dd4099a171c03f"></a><br/></td></tr>
+<tr class="separator:ab268529ec12065ec29dd4099a171c03f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8cd7e93ec67369fd194202a27e992c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#af8cd7e93ec67369fd194202a27e992c1">getUnion</a> (const <a class="el" href="classRectangle.html">Rectangle</a> &amp;other) const noexcept</td></tr>
 <tr class="memdesc:af8cd7e93ec67369fd194202a27e992c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the smallest rectangle that contains both this one and the one passed-in.  <a href="#af8cd7e93ec67369fd194202a27e992c1"></a><br/></td></tr>
 <tr class="separator:af8cd7e93ec67369fd194202a27e992c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -340,9 +343,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab3c4c6a30141ae1568de871763a9f453"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#ab3c4c6a30141ae1568de871763a9f453">constrainedWithin</a> (const <a class="el" href="classRectangle.html">Rectangle</a> &amp;areaToFitWithin) const noexcept</td></tr>
 <tr class="memdesc:ab3c4c6a30141ae1568de871763a9f453"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to fit this rectangle within a target area, returning the result.  <a href="#ab3c4c6a30141ae1568de871763a9f453"></a><br/></td></tr>
 <tr class="separator:ab3c4c6a30141ae1568de871763a9f453"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d9a2c2b0464a69e14d43da14724ab07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#a9d9a2c2b0464a69e14d43da14724ab07">transformed</a> (const <a class="el" href="classAffineTransform.html">AffineTransform</a> &amp;transform) const noexcept</td></tr>
-<tr class="memdesc:a9d9a2c2b0464a69e14d43da14724ab07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the smallest rectangle that can contain the shape created by applying a transform to this rectangle.  <a href="#a9d9a2c2b0464a69e14d43da14724ab07"></a><br/></td></tr>
-<tr class="separator:a9d9a2c2b0464a69e14d43da14724ab07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab103d804bdf15b7ac1381dc79d6742b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#ab103d804bdf15b7ac1381dc79d6742b9">transformedBy</a> (const <a class="el" href="classAffineTransform.html">AffineTransform</a> &amp;transform) const noexcept</td></tr>
+<tr class="memdesc:ab103d804bdf15b7ac1381dc79d6742b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the smallest rectangle that can contain the shape created by applying a transform to this rectangle.  <a href="#ab103d804bdf15b7ac1381dc79d6742b9"></a><br/></td></tr>
+<tr class="separator:ab103d804bdf15b7ac1381dc79d6742b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbf2014087b3c3772848e868f98aaf33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#acbf2014087b3c3772848e868f98aaf33">getSmallestIntegerContainer</a> () const noexcept</td></tr>
 <tr class="memdesc:acbf2014087b3c3772848e868f98aaf33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the smallest integer-aligned rectangle that completely contains this one.  <a href="#acbf2014087b3c3772848e868f98aaf33"></a><br/></td></tr>
 <tr class="separator:acbf2014087b3c3772848e868f98aaf33"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -352,6 +355,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a92fbbb29fe83b6d2aa033d4507fb441d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#a92fbbb29fe83b6d2aa033d4507fb441d">toDouble</a> () const noexcept</td></tr>
 <tr class="memdesc:a92fbbb29fe83b6d2aa033d4507fb441d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casts this rectangle to a Rectangle&lt;double&gt;.  <a href="#a92fbbb29fe83b6d2aa033d4507fb441d"></a><br/></td></tr>
 <tr class="separator:a92fbbb29fe83b6d2aa033d4507fb441d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a3cf7d8f4674deac36b849ac3992888"><td class="memTemplParams" colspan="2">template&lt;typename TargetType &gt; </td></tr>
+<tr class="memitem:a1a3cf7d8f4674deac36b849ac3992888"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; TargetType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classRectangle.html#a1a3cf7d8f4674deac36b849ac3992888">toType</a> () const noexcept</td></tr>
+<tr class="memdesc:a1a3cf7d8f4674deac36b849ac3992888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casts this rectangle to a <a class="el" href="classRectangle.html" title="Manages a rectangle and allows geometric operations to be performed on it.">Rectangle</a> with the given type.  <a href="#a1a3cf7d8f4674deac36b849ac3992888"></a><br/></td></tr>
+<tr class="separator:a1a3cf7d8f4674deac36b849ac3992888"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f17a228cbf98c4bdc9af577687abb56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#a4f17a228cbf98c4bdc9af577687abb56">toString</a> () const </td></tr>
 <tr class="memdesc:a4f17a228cbf98c4bdc9af577687abb56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a string describing this rectangle.  <a href="#a4f17a228cbf98c4bdc9af577687abb56"></a><br/></td></tr>
 <tr class="separator:a4f17a228cbf98c4bdc9af577687abb56"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -404,7 +411,7 @@ template&lt;typename ValueType&gt; </div>
 <p>Creates a rectangle of zero size. </p>
 <p>The default coordinates will be (0, 0, 0, 0). </p>
 
-<p>Referenced by <a class="el" href="classRectangle.html#ab3c4c6a30141ae1568de871763a9f453">Rectangle&lt; int &gt;::constrainedWithin()</a>, <a class="el" href="classRectangle.html#aef5d52ca6d0374cad679174067513cb4">Rectangle&lt; int &gt;::expanded()</a>, <a class="el" href="classRectangle.html#afd26907ad3c7deb3bb9cf8b298e774ae">Rectangle&lt; int &gt;::findAreaContainingPoints()</a>, <a class="el" href="classRectangle.html#a1c76b1a985681788a2e3244a130b5d8f">Rectangle&lt; int &gt;::fromString()</a>, <a class="el" href="classRectangle.html#a28a09961d9ad8b60909fd7d946521db9">Rectangle&lt; int &gt;::getIntersection()</a>, <a class="el" href="classRectangle.html#af8cd7e93ec67369fd194202a27e992c1">Rectangle&lt; int &gt;::getUnion()</a>, <a class="el" href="classRectangle.html#ad07557331c5ca8c5597aed498558cefc">Rectangle&lt; int &gt;::leftTopRightBottom()</a>, <a class="el" href="classRectangle.html#ad7376bd7059b6f94dc86fc8868ecc738">Rectangle&lt; int &gt;::operator+()</a>, <a class="el" href="classRectangle.html#abc7e84620855c5d49e6dad3003eb5b68">Rectangle&lt; int &gt;::operator-()</a>, <a class="el" href="classRectangle.html#a9d9a2c2b0464a69e14d43da14724ab07">Rectangle&lt; int &gt;::transformed()</a>, <a class="el" href="classRectangle.html#aa8a09fd1fa5b2ce43d77ecacf3981f05">Rectangle&lt; int &gt;::translated()</a>, <a class="el" href="classRectangle.html#a9a2caa80567a4aa6360d1e4e4b43211f">Rectangle&lt; int &gt;::withBottom()</a>, <a class="el" href="classRectangle.html#a3039fd3174b3ac868ef87107b113b3c5">Rectangle&lt; int &gt;::withHeight()</a>, <a class="el" href="classRectangle.html#a251a8abab9c44e5f069e317a0b0e73d4">Rectangle&lt; int &gt;::withLeft()</a>, <a class="el" href="classRectangle.html#a536dd687b3882eb6c0e76b8009328797">Rectangle&lt; int &gt;::withPosition()</a>, <a class="el" href="classRectangle.html#a0719d2319805d1196fad3b149a6fa329">Rectangle&lt; int &gt;::withRight()</a>, <a class="el" href="classRectangle.html#aa6ddbf701f8d299190fcf4d89e0353d0">Rectangle&lt; int &gt;::withSize()</a>, <a class="el" href="classRectangle.html#a30b3f581e96929631e2a557d74e44700">Rectangle&lt; int &gt;::withTop()</a>, <a class="el" href="classRectangle.html#a988f59278bf82bd22c7ef0223b346e3c">Rectangle&lt; int &gt;::withWidth()</a>, <a class="el" href="classRectangle.html#a7d845715b755180419603f61ff2329ad">Rectangle&lt; int &gt;::withX()</a>, <a class="el" href="classRectangle.html#acd9fb0641be5b306792f97a275aaf6a1">Rectangle&lt; int &gt;::withY()</a>, and <a class="el" href="classRectangle.html#a37748fcf8ae61d1aa31ab49aa5cc787c">Rectangle&lt; int &gt;::withZeroOrigin()</a>.</p>
+<p>Referenced by <a class="el" href="classRectangle.html#ab3c4c6a30141ae1568de871763a9f453">Rectangle&lt; int &gt;::constrainedWithin()</a>, <a class="el" href="classRectangle.html#aef5d52ca6d0374cad679174067513cb4">Rectangle&lt; int &gt;::expanded()</a>, <a class="el" href="classRectangle.html#afd26907ad3c7deb3bb9cf8b298e774ae">Rectangle&lt; int &gt;::findAreaContainingPoints()</a>, <a class="el" href="classRectangle.html#a1c76b1a985681788a2e3244a130b5d8f">Rectangle&lt; int &gt;::fromString()</a>, <a class="el" href="classRectangle.html#a28a09961d9ad8b60909fd7d946521db9">Rectangle&lt; int &gt;::getIntersection()</a>, <a class="el" href="classRectangle.html#af8cd7e93ec67369fd194202a27e992c1">Rectangle&lt; int &gt;::getUnion()</a>, <a class="el" href="classRectangle.html#ad07557331c5ca8c5597aed498558cefc">Rectangle&lt; int &gt;::leftTopRightBottom()</a>, <a class="el" href="classRectangle.html#ad7376bd7059b6f94dc86fc8868ecc738">Rectangle&lt; int &gt;::operator+()</a>, <a class="el" href="classRectangle.html#abc7e84620855c5d49e6dad3003eb5b68">Rectangle&lt; int &gt;::operator-()</a>, <a class="el" href="classRectangle.html#aa8a09fd1fa5b2ce43d77ecacf3981f05">Rectangle&lt; int &gt;::translated()</a>, <a class="el" href="classRectangle.html#a9a2caa80567a4aa6360d1e4e4b43211f">Rectangle&lt; int &gt;::withBottom()</a>, <a class="el" href="classRectangle.html#a3039fd3174b3ac868ef87107b113b3c5">Rectangle&lt; int &gt;::withHeight()</a>, <a class="el" href="classRectangle.html#a251a8abab9c44e5f069e317a0b0e73d4">Rectangle&lt; int &gt;::withLeft()</a>, <a class="el" href="classRectangle.html#a536dd687b3882eb6c0e76b8009328797">Rectangle&lt; int &gt;::withPosition()</a>, <a class="el" href="classRectangle.html#a0719d2319805d1196fad3b149a6fa329">Rectangle&lt; int &gt;::withRight()</a>, <a class="el" href="classRectangle.html#aa6ddbf701f8d299190fcf4d89e0353d0">Rectangle&lt; int &gt;::withSize()</a>, <a class="el" href="classRectangle.html#a30b3f581e96929631e2a557d74e44700">Rectangle&lt; int &gt;::withTop()</a>, <a class="el" href="classRectangle.html#a988f59278bf82bd22c7ef0223b346e3c">Rectangle&lt; int &gt;::withWidth()</a>, <a class="el" href="classRectangle.html#a7d845715b755180419603f61ff2329ad">Rectangle&lt; int &gt;::withX()</a>, <a class="el" href="classRectangle.html#acd9fb0641be5b306792f97a275aaf6a1">Rectangle&lt; int &gt;::withY()</a>, and <a class="el" href="classRectangle.html#a37748fcf8ae61d1aa31ab49aa5cc787c">Rectangle&lt; int &gt;::withZeroOrigin()</a>.</p>
 
 </div>
 </div>
@@ -692,7 +699,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns true if the rectangle's width or height are zero or less. </p>
 
-<p>Referenced by <a class="el" href="classRectangle.html#af8cd7e93ec67369fd194202a27e992c1">Rectangle&lt; int &gt;::getUnion()</a>.</p>
+<p>Referenced by <a class="el" href="classRectangleList.html#a9df83403875d4288f1aa9a9cdd3245bb">RectangleList&lt; int &gt;::add()</a>, <a class="el" href="classRectangleList.html#a3ec4544b91f3a935000c5c3fe2d89d69">RectangleList&lt; int &gt;::addWithoutMerging()</a>, <a class="el" href="classRectangleList.html#ae270885963acca0dcd78d80158605f1a">RectangleList&lt; int &gt;::clipTo()</a>, <a class="el" href="classRectangleList.html#a42f68746a56cddd16eb4800aa367b59e">RectangleList&lt; int &gt;::getIntersectionWith()</a>, and <a class="el" href="classRectangle.html#af8cd7e93ec67369fd194202a27e992c1">Rectangle&lt; int &gt;::getUnion()</a>.</p>
 
 </div>
 </div>
@@ -721,7 +728,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns the x coordinate of the rectangle's left-hand-side. </p>
 
-<p>Referenced by <a class="el" href="classPath.html#adddc02efd034e8d1af46cb586e221204">Path::addRectangle()</a>, <a class="el" href="classPath.html#a8e76921426b35e65345bc76ca462ecf8">Path::addRoundedRectangle()</a>, <a class="el" href="classRectanglePlacement.html#a9ff073c34db65b921d8202300b9c115c">RectanglePlacement::appliedTo()</a>, and <a class="el" href="classJustification.html#a11cb23fcc90a17ef4f5ac888e44d5bf6">Justification::appliedToRectangle()</a>.</p>
+<p>Referenced by <a class="el" href="classPath.html#adddc02efd034e8d1af46cb586e221204">Path::addRectangle()</a>, <a class="el" href="classPath.html#a8e76921426b35e65345bc76ca462ecf8">Path::addRoundedRectangle()</a>, <a class="el" href="classRectanglePlacement.html#a9ff073c34db65b921d8202300b9c115c">RectanglePlacement::appliedTo()</a>, <a class="el" href="classRectangleList.html#a9e26bdb6310e0660c0b7ada7919546db">RectangleList&lt; int &gt;::consolidate()</a>, <a class="el" href="classRectangleList.html#a7c2004bc8ed19201d54777c5b65be967">RectangleList&lt; int &gt;::getBounds()</a>, and <a class="el" href="classRectangleList.html#a8e5460224789d6b242ebbe0a801b4b62">RectangleList&lt; int &gt;::subtract()</a>.</p>
 
 </div>
 </div>
@@ -750,7 +757,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns the y coordinate of the rectangle's top edge. </p>
 
-<p>Referenced by <a class="el" href="classPath.html#adddc02efd034e8d1af46cb586e221204">Path::addRectangle()</a>, and <a class="el" href="classPath.html#a8e76921426b35e65345bc76ca462ecf8">Path::addRoundedRectangle()</a>.</p>
+<p>Referenced by <a class="el" href="classPath.html#adddc02efd034e8d1af46cb586e221204">Path::addRectangle()</a>, <a class="el" href="classPath.html#a8e76921426b35e65345bc76ca462ecf8">Path::addRoundedRectangle()</a>, <a class="el" href="classRectangleList.html#a9e26bdb6310e0660c0b7ada7919546db">RectangleList&lt; int &gt;::consolidate()</a>, <a class="el" href="classRectangleList.html#a7c2004bc8ed19201d54777c5b65be967">RectangleList&lt; int &gt;::getBounds()</a>, and <a class="el" href="classRectangleList.html#a8e5460224789d6b242ebbe0a801b4b62">RectangleList&lt; int &gt;::subtract()</a>.</p>
 
 </div>
 </div>
@@ -779,7 +786,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns the width of the rectangle. </p>
 
-<p>Referenced by <a class="el" href="classPath.html#adddc02efd034e8d1af46cb586e221204">Path::addRectangle()</a>, and <a class="el" href="classPath.html#a8e76921426b35e65345bc76ca462ecf8">Path::addRoundedRectangle()</a>.</p>
+<p>Referenced by <a class="el" href="classPath.html#adddc02efd034e8d1af46cb586e221204">Path::addRectangle()</a>, <a class="el" href="classPath.html#a8e76921426b35e65345bc76ca462ecf8">Path::addRoundedRectangle()</a>, <a class="el" href="classRectangleList.html#a9e26bdb6310e0660c0b7ada7919546db">RectangleList&lt; int &gt;::consolidate()</a>, <a class="el" href="classRectangleList.html#a7c2004bc8ed19201d54777c5b65be967">RectangleList&lt; int &gt;::getBounds()</a>, and <a class="el" href="classRectangleList.html#a8e5460224789d6b242ebbe0a801b4b62">RectangleList&lt; int &gt;::subtract()</a>.</p>
 
 </div>
 </div>
@@ -808,7 +815,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns the height of the rectangle. </p>
 
-<p>Referenced by <a class="el" href="classPath.html#adddc02efd034e8d1af46cb586e221204">Path::addRectangle()</a>, and <a class="el" href="classPath.html#a8e76921426b35e65345bc76ca462ecf8">Path::addRoundedRectangle()</a>.</p>
+<p>Referenced by <a class="el" href="classPath.html#adddc02efd034e8d1af46cb586e221204">Path::addRectangle()</a>, <a class="el" href="classPath.html#a8e76921426b35e65345bc76ca462ecf8">Path::addRoundedRectangle()</a>, <a class="el" href="classRectangleList.html#a9e26bdb6310e0660c0b7ada7919546db">RectangleList&lt; int &gt;::consolidate()</a>, <a class="el" href="classRectangleList.html#a7c2004bc8ed19201d54777c5b65be967">RectangleList&lt; int &gt;::getBounds()</a>, and <a class="el" href="classRectangleList.html#a8e5460224789d6b242ebbe0a801b4b62">RectangleList&lt; int &gt;::subtract()</a>.</p>
 
 </div>
 </div>
@@ -837,7 +844,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns the x coordinate of the rectangle's right-hand-side. </p>
 
-<p>Referenced by <a class="el" href="classRectangle.html#a2c3c2823f8e96240cde13789760de52b">Rectangle&lt; int &gt;::enlargeIfAdjacent()</a>.</p>
+<p>Referenced by <a class="el" href="classRectangle.html#a2c3c2823f8e96240cde13789760de52b">Rectangle&lt; int &gt;::enlargeIfAdjacent()</a>, and <a class="el" href="classRectangleList.html#a7c2004bc8ed19201d54777c5b65be967">RectangleList&lt; int &gt;::getBounds()</a>.</p>
 
 </div>
 </div>
@@ -866,7 +873,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns the y coordinate of the rectangle's bottom edge. </p>
 
-<p>Referenced by <a class="el" href="classRectangle.html#a2c3c2823f8e96240cde13789760de52b">Rectangle&lt; int &gt;::enlargeIfAdjacent()</a>.</p>
+<p>Referenced by <a class="el" href="classRectangle.html#a2c3c2823f8e96240cde13789760de52b">Rectangle&lt; int &gt;::enlargeIfAdjacent()</a>, and <a class="el" href="classRectangleList.html#a7c2004bc8ed19201d54777c5b65be967">RectangleList&lt; int &gt;::getBounds()</a>.</p>
 
 </div>
 </div>
@@ -1297,6 +1304,8 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Changes the rectangle's X coordinate. </p>
 
+<p>Referenced by <a class="el" href="classRectangleList.html#a8e5460224789d6b242ebbe0a801b4b62">RectangleList&lt; int &gt;::subtract()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="acbacd03ba0802db2878b9c18b127a755"></a>
@@ -1324,6 +1333,8 @@ template&lt;typename ValueType&gt; </div>
 </div><div class="memdoc">
 
 <p>Changes the rectangle's Y coordinate. </p>
+
+<p>Referenced by <a class="el" href="classRectangleList.html#a8e5460224789d6b242ebbe0a801b4b62">RectangleList&lt; int &gt;::subtract()</a>.</p>
 
 </div>
 </div>
@@ -1353,6 +1364,8 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Changes the rectangle's width. </p>
 
+<p>Referenced by <a class="el" href="classRectangleList.html#a8e5460224789d6b242ebbe0a801b4b62">RectangleList&lt; int &gt;::subtract()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a1c7becb195bba4ce3c8f751dd3493988"></a>
@@ -1380,6 +1393,8 @@ template&lt;typename ValueType&gt; </div>
 </div><div class="memdoc">
 
 <p>Changes the rectangle's height. </p>
+
+<p>Referenced by <a class="el" href="classRectangleList.html#a9e26bdb6310e0660c0b7ada7919546db">RectangleList&lt; int &gt;::consolidate()</a>, and <a class="el" href="classRectangleList.html#a8e5460224789d6b242ebbe0a801b4b62">RectangleList&lt; int &gt;::subtract()</a>.</p>
 
 </div>
 </div>
@@ -2082,9 +2097,8 @@ template&lt;typename FloatType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Scales this rectangle by the given amount, centred around the origin. </p>
-
-<p>Referenced by <a class="el" href="classRectangle.html#a31c2880e4d60ddb1a1d584585504d455">Rectangle&lt; int &gt;::operator/()</a>.</p>
+<p>Returns a rectangle that has been scaled by the given amount, centred around the origin. </p>
+<p>Note that if the rectangle has int coordinates and it's scaled by a floating-point amount, then the result will be converted back to integer coordinates using <a class="el" href="classRectangle.html#acbf2014087b3c3772848e868f98aaf33" title="Returns the smallest integer-aligned rectangle that completely contains this one.">getSmallestIntegerContainer()</a>. </p>
 
 </div>
 </div>
@@ -2115,8 +2129,7 @@ template&lt;typename FloatType &gt; </div>
 </div><div class="memdoc">
 
 <p>Scales this rectangle by the given amount, centred around the origin. </p>
-
-<p>Referenced by <a class="el" href="classRectangle.html#ae01803333e37bbc2a49f97f1f720b373">Rectangle&lt; int &gt;::operator/=()</a>.</p>
+<p>Note that if the rectangle has int coordinates and it's scaled by a floating-point amount, then the result will be converted back to integer coordinates using <a class="el" href="classRectangle.html#acbf2014087b3c3772848e868f98aaf33" title="Returns the smallest integer-aligned rectangle that completely contains this one.">getSmallestIntegerContainer()</a>. </p>
 
 </div>
 </div>
@@ -2618,6 +2631,8 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns true if this coordinate is inside the rectangle. </p>
 
+<p>Referenced by <a class="el" href="classRectangleList.html#a9df83403875d4288f1aa9a9cdd3245bb">RectangleList&lt; int &gt;::add()</a>, and <a class="el" href="classRectangleList.html#a51b36fe7c75ecc84952f95b52bb7928c">RectangleList&lt; int &gt;::containsRectangle()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a84f0d3d7da40dcb9918fe10d3291de83"></a>
@@ -2769,6 +2784,8 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns true if any part of another rectangle overlaps this one. </p>
 
+<p>Referenced by <a class="el" href="classRectangleList.html#a9df83403875d4288f1aa9a9cdd3245bb">RectangleList&lt; int &gt;::add()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a28a09961d9ad8b60909fd7d946521db9"></a>
@@ -2846,8 +2863,39 @@ template&lt;typename ValueType&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Clips a set of rectangle coordinates so that they lie only within this one. </p>
+<p>This is a non-static version of <a class="el" href="classRectangle.html#ab8097b9c1774aebde29eb84fc3d1072c" title="Static utility to intersect two sets of rectangular coordinates.">intersectRectangles()</a>. Returns false if the two rectangles didn't overlap. </p>
+
+<p>Referenced by <a class="el" href="classRectangleList.html#ae270885963acca0dcd78d80158605f1a">RectangleList&lt; int &gt;::clipTo()</a>, <a class="el" href="classRectangleList.html#a42f68746a56cddd16eb4800aa367b59e">RectangleList&lt; int &gt;::getIntersectionWith()</a>, and <a class="el" href="classRectangle.html#ab268529ec12065ec29dd4099a171c03f">Rectangle&lt; int &gt;::intersectRectangle()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab268529ec12065ec29dd4099a171c03f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt;::intersectRectangle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rectangleToClip</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 <p>Clips a rectangle so that it lies only within this one. </p>
-<p>This is a non-static version of <a class="el" href="classRectangle.html#ab8097b9c1774aebde29eb84fc3d1072c" title="Static utility to intersect two sets of rectangular coordinates.">intersectRectangles()</a>. Returns false if the two regions didn't overlap. </p>
+<p>Returns false if the two rectangles didn't overlap. </p>
 
 </div>
 </div>
@@ -2907,6 +2955,8 @@ template&lt;typename ValueType&gt; </div>
 <p>If this rectangle merged with another one results in a simple rectangle, this will set this rectangle to the result, and return true. </p>
 <p>Returns false and does nothing to this rectangle if the two rectangles don't overlap, or if they form a complex region. </p>
 
+<p>Referenced by <a class="el" href="classRectangleList.html#a9e26bdb6310e0660c0b7ada7919546db">RectangleList&lt; int &gt;::consolidate()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="afeb73325b68201f34d2e51502ba286e6"></a>
@@ -2935,6 +2985,8 @@ template&lt;typename ValueType&gt; </div>
 
 <p>If after removing another rectangle from this one the result is a simple rectangle, this will set this object's bounds to be the result, and return true. </p>
 <p>Returns false and does nothing to this rectangle if the two rectangles don't overlap, or if removing the other one would form a complex region. </p>
+
+<p>Referenced by <a class="el" href="classRectangleList.html#a9df83403875d4288f1aa9a9cdd3245bb">RectangleList&lt; int &gt;::add()</a>.</p>
 
 </div>
 </div>
@@ -2967,7 +3019,7 @@ template&lt;typename ValueType&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a9d9a2c2b0464a69e14d43da14724ab07"></a>
+<a class="anchor" id="ab103d804bdf15b7ac1381dc79d6742b9"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -2977,7 +3029,7 @@ template&lt;typename ValueType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classRectangle.html">Rectangle</a> <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt;::transformed </td>
+          <td class="memname"><a class="el" href="classRectangle.html">Rectangle</a> <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt;::transformedBy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classAffineTransform.html">AffineTransform</a> &amp;&#160;</td>
           <td class="paramname"><em>transform</em></td><td>)</td>
@@ -3025,6 +3077,92 @@ template&lt;typename ValueType&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="aa39fc9127d088428ead1cb72a95d652a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classRectangle.html">Rectangle</a>&lt;float&gt; <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt;::toFloat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Casts this rectangle to a Rectangle&lt;float&gt;. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangle.html#acbf2014087b3c3772848e868f98aaf33" title="Returns the smallest integer-aligned rectangle that completely contains this one.">getSmallestIntegerContainer</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a92fbbb29fe83b6d2aa033d4507fb441d"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classRectangle.html">Rectangle</a>&lt;double&gt; <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt;::toDouble </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Casts this rectangle to a Rectangle&lt;double&gt;. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangle.html#acbf2014087b3c3772848e868f98aaf33" title="Returns the smallest integer-aligned rectangle that completely contains this one.">getSmallestIntegerContainer</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1a3cf7d8f4674deac36b849ac3992888"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<div class="memtemplate">
+template&lt;typename TargetType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classRectangle.html">Rectangle</a>&lt;TargetType&gt; <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt;::toType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Casts this rectangle to a <a class="el" href="classRectangle.html" title="Manages a rectangle and allows geometric operations to be performed on it.">Rectangle</a> with the given type. </p>
+<p>If the target type is a conversion from float to int, then the conversion will be done using <a class="el" href="classRectangle.html#acbf2014087b3c3772848e868f98aaf33" title="Returns the smallest integer-aligned rectangle that completely contains this one.">getSmallestIntegerContainer()</a>. </p>
+
+</div>
+</div>
 <a class="anchor" id="afd26907ad3c7deb3bb9cf8b298e774ae"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3060,64 +3198,6 @@ template&lt;typename ValueType&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the smallest <a class="el" href="classRectangle.html" title="Manages a rectangle and allows geometric operations to be performed on it.">Rectangle</a> that can contain a set of points. </p>
-
-</div>
-</div>
-<a class="anchor" id="aa39fc9127d088428ead1cb72a95d652a"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classRectangle.html">Rectangle</a>&lt;float&gt; <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt;::toFloat </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Casts this rectangle to a Rectangle&lt;float&gt;. </p>
-<p>Obviously this is mainly useful for rectangles that use integer types. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangle.html#acbf2014087b3c3772848e868f98aaf33" title="Returns the smallest integer-aligned rectangle that completely contains this one.">getSmallestIntegerContainer</a> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a92fbbb29fe83b6d2aa033d4507fb441d"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classRectangle.html">Rectangle</a>&lt;double&gt; <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt;::toDouble </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Casts this rectangle to a Rectangle&lt;double&gt;. </p>
-<p>Obviously this is mainly useful for rectangles that use integer types. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangle.html#acbf2014087b3c3772848e868f98aaf33" title="Returns the smallest integer-aligned rectangle that completely contains this one.">getSmallestIntegerContainer</a> </dd></dl>
 
 </div>
 </div>
@@ -3193,7 +3273,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Static utility to intersect two sets of rectangular coordinates. </p>
 <p>Returns false if the two regions didn't overlap. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangle.html#a7f81c03f0a7d413f28a6f1a2ba65560d" title="Clips a rectangle so that it lies only within this one.">intersectRectangle</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangle.html#a7f81c03f0a7d413f28a6f1a2ba65560d" title="Clips a set of rectangle coordinates so that they lie only within this one.">intersectRectangle</a> </dd></dl>
 
 </div>
 </div>

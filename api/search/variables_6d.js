@@ -6,7 +6,6 @@ var searchData=
   ['mappedsection',['mappedSection',['../classMemoryMappedAudioFormatReader.html#a33d4ab9328d5a4e588053c894b7a8c45',1,'MemoryMappedAudioFormatReader']]],
   ['markertag',['markerTag',['../classMarkerList_1_1ValueTreeWrapper.html#a6ee3f514e213161c74b047b9bc6011d2',1,'MarkerList::ValueTreeWrapper']]],
   ['maroon',['maroon',['../classColours.html#a4790622961dd6a1eff7179d89cc78617',1,'Colours']]],
-  ['maskedregion',['maskedRegion',['../classComponentPeer.html#a3395d1d6b50bff458d288d6bab251859',1,'ComponentPeer']]],
   ['mat',['mat',['../classMatrix3D.html#ad7e9eecc94c0a33a029a5de12c5c056b',1,'Matrix3D']]],
   ['mat00',['mat00',['../classAffineTransform.html#a1e675f5137df72253566699cd385c7ad',1,'AffineTransform']]],
   ['mat01',['mat01',['../classAffineTransform.html#ac253c675d087474d5fcb83d5b6025496',1,'AffineTransform']]],

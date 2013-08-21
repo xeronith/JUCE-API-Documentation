@@ -3,7 +3,7 @@ var searchData=
   ['datagramsocket',['DatagramSocket',['../classDatagramSocket.html',1,'']]],
   ['decibels',['Decibels',['../classDecibels.html',1,'']]],
   ['defaultelementcomparator',['DefaultElementComparator',['../classDefaultElementComparator.html',1,'']]],
-  ['defaulthashfunctions',['DefaultHashFunctions',['../classDefaultHashFunctions.html',1,'']]],
+  ['defaulthashfunctions',['DefaultHashFunctions',['../structDefaultHashFunctions.html',1,'']]],
   ['deletedatshutdown',['DeletedAtShutdown',['../classDeletedAtShutdown.html',1,'']]],
   ['desktop',['Desktop',['../classDesktop.html',1,'']]],
   ['dialogwindow',['DialogWindow',['../classDialogWindow.html',1,'']]],

@@ -113,6 +113,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a79934b297889977649251cae1afd323e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilenameComponent.html#a79934b297889977649251cae1afd323e">setDefaultBrowseTarget</a> (const <a class="el" href="classFile.html">File</a> &amp;newDefaultDirectory)</td></tr>
 <tr class="memdesc:a79934b297889977649251cae1afd323e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a file or directory to be the default starting point for the browser to show.  <a href="#a79934b297889977649251cae1afd323e"></a><br/></td></tr>
 <tr class="separator:a79934b297889977649251cae1afd323e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35dd86bf26d306ebd80df1811cc092fa"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilenameComponent.html#a35dd86bf26d306ebd80df1811cc092fa">getLocationToBrowse</a> ()</td></tr>
+<tr class="memdesc:a35dd86bf26d306ebd80df1811cc092fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be overridden to return a custom location that you want the dialog box to show when the browse button is pushed.  <a href="#a35dd86bf26d306ebd80df1811cc092fa"></a><br/></td></tr>
+<tr class="separator:a35dd86bf26d306ebd80df1811cc092fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13a4a367ac633583eedae376b73373e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilenameComponent.html#a13a4a367ac633583eedae376b73373e9">getRecentlyUsedFilenames</a> () const </td></tr>
 <tr class="memdesc:a13a4a367ac633583eedae376b73373e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all the entries on the recent files list.  <a href="#a13a4a367ac633583eedae376b73373e9"></a><br/></td></tr>
 <tr class="separator:a13a4a367ac633583eedae376b73373e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,9 +137,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a37affd68e94d2099914b142bc6a5bc0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilenameComponent.html#a37affd68e94d2099914b142bc6a5bc0d">removeListener</a> (<a class="el" href="classFilenameComponentListener.html">FilenameComponentListener</a> *listener)</td></tr>
 <tr class="memdesc:a37affd68e94d2099914b142bc6a5bc0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a previously-registered listener.  <a href="#a37affd68e94d2099914b142bc6a5bc0d"></a><br/></td></tr>
 <tr class="separator:a37affd68e94d2099914b142bc6a5bc0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5fe19746b9f6fdd901ff55e1483c5d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilenameComponent.html#ad5fe19746b9f6fdd901ff55e1483c5d6">setTooltip</a> (const <a class="el" href="classString.html">String</a> &amp;newTooltip)</td></tr>
-<tr class="memdesc:ad5fe19746b9f6fdd901ff55e1483c5d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gives the component a tooltip.  <a href="#ad5fe19746b9f6fdd901ff55e1483c5d6"></a><br/></td></tr>
-<tr class="separator:ad5fe19746b9f6fdd901ff55e1483c5d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64ba9890d9ce60735c942a08ad9538d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilenameComponent.html#a64ba9890d9ce60735c942a08ad9538d2">setTooltip</a> (const <a class="el" href="classString.html">String</a> &amp;newTooltip) override</td></tr>
+<tr class="memdesc:a64ba9890d9ce60735c942a08ad9538d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gives the component a tooltip.  <a href="#a64ba9890d9ce60735c942a08ad9538d2"></a><br/></td></tr>
+<tr class="separator:a64ba9890d9ce60735c942a08ad9538d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a761edbba6892fbdd396eb02dd356cdac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilenameComponent.html#a761edbba6892fbdd396eb02dd356cdac">paintOverChildren</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;) override</td></tr>
 <tr class="separator:a761edbba6892fbdd396eb02dd356cdac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab37d289009be54a5fd8fe34c0e30df0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilenameComponent.html#ab37d289009be54a5fd8fe34c0e30df0c">resized</a> () override</td></tr>
@@ -203,6 +206,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aafbf3cf52e606a66da16ffc85acdd383 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#aafbf3cf52e606a66da16ffc85acdd383">minimisationStateChanged</a> (bool isNowMinimised)</td></tr>
 <tr class="memdesc:aafbf3cf52e606a66da16ffc85acdd383 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called for a desktop component which has just been minimised or un-minimised.  <a href="#aafbf3cf52e606a66da16ffc85acdd383"></a><br/></td></tr>
 <tr class="separator:aafbf3cf52e606a66da16ffc85acdd383 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae4aed8bee7514dba48cca1e55e19d43 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#aae4aed8bee7514dba48cca1e55e19d43">getDesktopScaleFactor</a> () const </td></tr>
+<tr class="memdesc:aae4aed8bee7514dba48cca1e55e19d43 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default scale factor to use for this component when it is placed on the desktop.  <a href="#aae4aed8bee7514dba48cca1e55e19d43"></a><br/></td></tr>
+<tr class="separator:aae4aed8bee7514dba48cca1e55e19d43 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace6d99879585ba31a4212431d01d00f5 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#ace6d99879585ba31a4212431d01d00f5">toFront</a> (bool shouldAlsoGainFocus)</td></tr>
 <tr class="memdesc:ace6d99879585ba31a4212431d01d00f5 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Brings the component to the front of its siblings.  <a href="#ace6d99879585ba31a4212431d01d00f5"></a><br/></td></tr>
 <tr class="separator:ace6d99879585ba31a4212431d01d00f5 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -248,9 +254,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7bec78144c5f28eb78ce1550b1c58614 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a7bec78144c5f28eb78ce1550b1c58614">getBoundsInParent</a> () const noexcept</td></tr>
 <tr class="memdesc:a7bec78144c5f28eb78ce1550b1c58614 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the area of this component's parent which this component covers.  <a href="#a7bec78144c5f28eb78ce1550b1c58614"></a><br/></td></tr>
 <tr class="separator:a7bec78144c5f28eb78ce1550b1c58614 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa37c12fd9df7c9ba83f70008726acb72 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#aa37c12fd9df7c9ba83f70008726acb72">getVisibleArea</a> (<a class="el" href="classRectangleList.html">RectangleList</a> &amp;result, bool includeSiblings) const </td></tr>
-<tr class="memdesc:aa37c12fd9df7c9ba83f70008726acb72 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the region of this component that's not obscured by other, opaque components.  <a href="#aa37c12fd9df7c9ba83f70008726acb72"></a><br/></td></tr>
-<tr class="separator:aa37c12fd9df7c9ba83f70008726acb72 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46966e291496184832581614c4b85369 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a46966e291496184832581614c4b85369">getVisibleArea</a> (<a class="el" href="classRectangleList.html">RectangleList</a>&lt; int &gt; &amp;result, bool includeSiblings) const </td></tr>
+<tr class="memdesc:a46966e291496184832581614c4b85369 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the region of this component that's not obscured by other, opaque components.  <a href="#a46966e291496184832581614c4b85369"></a><br/></td></tr>
+<tr class="separator:a46966e291496184832581614c4b85369 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a6907c2907bab645de49c096c00fd50 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a0a6907c2907bab645de49c096c00fd50">getScreenX</a> () const </td></tr>
 <tr class="memdesc:a0a6907c2907bab645de49c096c00fd50 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this component's x coordinate relative the the screen's top-left origin.  <a href="#a0a6907c2907bab645de49c096c00fd50"></a><br/></td></tr>
 <tr class="separator:a0a6907c2907bab645de49c096c00fd50 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -959,6 +965,32 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a35dd86bf26d306ebd80df1811cc092fa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classFile.html">File</a> FilenameComponent::getLocationToBrowse </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This can be overridden to return a custom location that you want the dialog box to show when the browse button is pushed. </p>
+<p>The default implementation of this method will return either the current file (if one has been chosen) or the location that was set by <a class="el" href="classFilenameComponent.html#a79934b297889977649251cae1afd323e" title="Sets a file or directory to be the default starting point for the browser to show.">setDefaultBrowseTarget()</a>. </p>
+
+</div>
+</div>
 <a class="anchor" id="a13a4a367ac633583eedae376b73373e9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1091,7 +1123,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad5fe19746b9f6fdd901ff55e1483c5d6"></a>
+<a class="anchor" id="a64ba9890d9ce60735c942a08ad9538d2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1108,7 +1140,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

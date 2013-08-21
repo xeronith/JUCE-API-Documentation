@@ -107,9 +107,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aab8ed18b03ab56e465433b32f84c9e59"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#aab8ed18b03ab56e465433b32f84c9e59">~OwnedArray</a> ()</td></tr>
 <tr class="memdesc:aab8ed18b03ab56e465433b32f84c9e59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the array and also deletes any objects inside it.  <a href="#aab8ed18b03ab56e465433b32f84c9e59"></a><br/></td></tr>
 <tr class="separator:aab8ed18b03ab56e465433b32f84c9e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4c109b75802bbab97d861b182346dc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#ae4c109b75802bbab97d861b182346dc8">clear</a> (const bool deleteObjects=true)</td></tr>
-<tr class="memdesc:ae4c109b75802bbab97d861b182346dc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the array, optionally deleting the objects inside it first.  <a href="#ae4c109b75802bbab97d861b182346dc8"></a><br/></td></tr>
-<tr class="separator:ae4c109b75802bbab97d861b182346dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65730f03dbe905fa251491cb6c8c14ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#a65730f03dbe905fa251491cb6c8c14ee">clear</a> (bool deleteObjects=true)</td></tr>
+<tr class="memdesc:a65730f03dbe905fa251491cb6c8c14ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the array, optionally deleting the objects inside it first.  <a href="#a65730f03dbe905fa251491cb6c8c14ee"></a><br/></td></tr>
+<tr class="separator:a65730f03dbe905fa251491cb6c8c14ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96fee75673d70e8cf7548bcc0588dddf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#a96fee75673d70e8cf7548bcc0588dddf">clearQuick</a> (bool deleteObjects)</td></tr>
+<tr class="memdesc:a96fee75673d70e8cf7548bcc0588dddf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the array, optionally deleting the objects inside it first.  <a href="#a96fee75673d70e8cf7548bcc0588dddf"></a><br/></td></tr>
+<tr class="separator:a96fee75673d70e8cf7548bcc0588dddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5db444e91e2abcdcf222f5ec2a90e1ac"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#a5db444e91e2abcdcf222f5ec2a90e1ac">size</a> () const noexcept</td></tr>
 <tr class="memdesc:a5db444e91e2abcdcf222f5ec2a90e1ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of items currently in the array.  <a href="#a5db444e91e2abcdcf222f5ec2a90e1ac"></a><br/></td></tr>
 <tr class="separator:a5db444e91e2abcdcf222f5ec2a90e1ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,9 +195,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae06db3c50aaf08fd5d2021425efea9ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#ae06db3c50aaf08fd5d2021425efea9ac">move</a> (const int currentIndex, int newIndex) noexcept</td></tr>
 <tr class="memdesc:ae06db3c50aaf08fd5d2021425efea9ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves one of the objects to a different position.  <a href="#ae06db3c50aaf08fd5d2021425efea9ac"></a><br/></td></tr>
 <tr class="separator:ae06db3c50aaf08fd5d2021425efea9ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86d2bdea3b510bf9486ca0c254391011"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#a86d2bdea3b510bf9486ca0c254391011">swapWithArray</a> (<a class="el" href="classOwnedArray.html">OwnedArray</a> &amp;otherArray) noexcept</td></tr>
-<tr class="memdesc:a86d2bdea3b510bf9486ca0c254391011"><td class="mdescLeft">&#160;</td><td class="mdescRight">This swaps the contents of this array with those of another array.  <a href="#a86d2bdea3b510bf9486ca0c254391011"></a><br/></td></tr>
-<tr class="separator:a86d2bdea3b510bf9486ca0c254391011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa33640231fe11ff0e21f760e395b63a1"><td class="memTemplParams" colspan="2">template&lt;class OtherArrayType &gt; </td></tr>
+<tr class="memitem:aa33640231fe11ff0e21f760e395b63a1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#aa33640231fe11ff0e21f760e395b63a1">swapWith</a> (OtherArrayType &amp;otherArray) noexcept</td></tr>
+<tr class="memdesc:aa33640231fe11ff0e21f760e395b63a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This swaps the contents of this array with those of another array.  <a href="#aa33640231fe11ff0e21f760e395b63a1"></a><br/></td></tr>
+<tr class="separator:aa33640231fe11ff0e21f760e395b63a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77037209056e7c62634819bd274b88ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#a77037209056e7c62634819bd274b88ab">minimiseStorageOverheads</a> () noexcept</td></tr>
 <tr class="memdesc:a77037209056e7c62634819bd274b88ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reduces the amount of storage being used by the array.  <a href="#a77037209056e7c62634819bd274b88ab"></a><br/></td></tr>
 <tr class="separator:a77037209056e7c62634819bd274b88ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -286,7 +290,7 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ae4c109b75802bbab97d861b182346dc8"></a>
+<a class="anchor" id="a65730f03dbe905fa251491cb6c8c14ee"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -295,7 +299,7 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
         <tr>
           <td class="memname">void <a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; ObjectClass, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::clear </td>
           <td>(</td>
-          <td class="paramtype">const bool&#160;</td>
+          <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>deleteObjects</em> = <code>true</code></td><td>)</td>
           <td></td>
         </tr>
@@ -305,6 +309,26 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
 <p>Clears the array, optionally deleting the objects inside it first. </p>
 
 <p>Referenced by <a class="el" href="classOwnedArray.html#ad1350744bcaedfd9dd2b054dac7946fa">OwnedArray&lt; MidiBuffer &gt;::removeLast()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a96fee75673d70e8cf7548bcc0588dddf"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; ObjectClass, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::clearQuick </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>deleteObjects</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clears the array, optionally deleting the objects inside it first. </p>
 
 </div>
 </div>
@@ -1303,19 +1327,21 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
 
 </div>
 </div>
-<a class="anchor" id="a86d2bdea3b510bf9486ca0c254391011"></a>
+<a class="anchor" id="aa33640231fe11ff0e21f760e395b63a1"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+<div class="memtemplate">
+template&lt;class OtherArrayType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; ObjectClass, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::swapWithArray </td>
+          <td class="memname">void <a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; ObjectClass, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::swapWith </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; ObjectClass, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">OtherArrayType &amp;&#160;</td>
           <td class="paramname"><em>otherArray</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1476,7 +1502,7 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
 <p>Returns the <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> that locks this array. </p>
 <p>To lock, you can call <a class="el" href="classOwnedArray.html#aff26d401a3ec729ba369a13276dd32e2" title="Returns the CriticalSection that locks this array.">getLock()</a>.enter() and <a class="el" href="classOwnedArray.html#aff26d401a3ec729ba369a13276dd32e2" title="Returns the CriticalSection that locks this array.">getLock()</a>.exit(), or preferably use an object of ScopedLockType as an RAII lock for it. </p>
 
-<p>Referenced by <a class="el" href="classOwnedArray.html#a5d6daa1dc55fabf1be77ceeed392bbc4">OwnedArray&lt; MidiBuffer &gt;::add()</a>, <a class="el" href="classOwnedArray.html#aa2bd0b49686d083cd67d63da1a690dc7">OwnedArray&lt; MidiBuffer &gt;::addArray()</a>, <a class="el" href="classOwnedArray.html#a5168676f4e3de540247025ceaec8ad32">OwnedArray&lt; MidiBuffer &gt;::addCopiesOf()</a>, <a class="el" href="classOwnedArray.html#aca7fa805114cb29fbb080d26402fccce">OwnedArray&lt; MidiBuffer &gt;::addIfNotAlreadyThere()</a>, <a class="el" href="classOwnedArray.html#ac87e81838149b9d541f6afe605a81b43">OwnedArray&lt; MidiBuffer &gt;::addSorted()</a>, <a class="el" href="classOwnedArray.html#ae4c109b75802bbab97d861b182346dc8">OwnedArray&lt; MidiBuffer &gt;::clear()</a>, <a class="el" href="classOwnedArray.html#a0383ab462e8ba5d2598d7812fae90072">OwnedArray&lt; MidiBuffer &gt;::contains()</a>, <a class="el" href="classOwnedArray.html#a3618db021fb44a7e146bd969c43d61ed">OwnedArray&lt; MidiBuffer &gt;::ensureStorageAllocated()</a>, <a class="el" href="classOwnedArray.html#ac3099192ad968d749e95f8e05335f83c">OwnedArray&lt; MidiBuffer &gt;::getFirst()</a>, <a class="el" href="classOwnedArray.html#aef141763468bd638b8a266a215e3d7d8">OwnedArray&lt; MidiBuffer &gt;::getLast()</a>, <a class="el" href="classOwnedArray.html#ae633303198df0e9aaa594b9d1d0b8137">OwnedArray&lt; MidiBuffer &gt;::getUnchecked()</a>, <a class="el" href="classOwnedArray.html#a6067bc24c3982430af0e6a6205581b99">OwnedArray&lt; MidiBuffer &gt;::indexOf()</a>, <a class="el" href="classOwnedArray.html#a70e007f781979fd82e1fa7dcd9c3fe87">OwnedArray&lt; MidiBuffer &gt;::indexOfSorted()</a>, <a class="el" href="classOwnedArray.html#a1a2bbbc7db009e50e3ab90639ee91a0a">OwnedArray&lt; MidiBuffer &gt;::insert()</a>, <a class="el" href="classOwnedArray.html#ac56956aeefcbbaeea2f4d143eb78f633">OwnedArray&lt; MidiBuffer &gt;::insertArray()</a>, <a class="el" href="classOwnedArray.html#a77037209056e7c62634819bd274b88ab">OwnedArray&lt; MidiBuffer &gt;::minimiseStorageOverheads()</a>, <a class="el" href="classOwnedArray.html#ae06db3c50aaf08fd5d2021425efea9ac">OwnedArray&lt; MidiBuffer &gt;::move()</a>, <a class="el" href="classOwnedArray.html#ad358d1fb116053ba1e3c46d6177ecef6">OwnedArray&lt; MidiBuffer &gt;::operator[]()</a>, <a class="el" href="classOwnedArray.html#aa5868e53b5a1b21b0c13970e41012531">OwnedArray&lt; MidiBuffer &gt;::remove()</a>, <a class="el" href="classOwnedArray.html#a702a8ced8cee58dc9f5acbcc13d6218b">OwnedArray&lt; MidiBuffer &gt;::removeAndReturn()</a>, <a class="el" href="classOwnedArray.html#ad1350744bcaedfd9dd2b054dac7946fa">OwnedArray&lt; MidiBuffer &gt;::removeLast()</a>, <a class="el" href="classOwnedArray.html#a4674b4f25da43f8fde80c487a673d6b6">OwnedArray&lt; MidiBuffer &gt;::removeObject()</a>, <a class="el" href="classOwnedArray.html#ad75c0c6727ebca3e2866c78d967c9ca1">OwnedArray&lt; MidiBuffer &gt;::removeRange()</a>, <a class="el" href="classOwnedArray.html#a78294c9352069dc6ac0ed41ac03f19d5">OwnedArray&lt; MidiBuffer &gt;::set()</a>, <a class="el" href="classOwnedArray.html#af0cdef04b3c45c6e6f684ca56c1349dc">OwnedArray&lt; MidiBuffer &gt;::sort()</a>, <a class="el" href="classOwnedArray.html#a8f3849590ee35cde6fb5d71e06ea4482">OwnedArray&lt; MidiBuffer &gt;::swap()</a>, and <a class="el" href="classOwnedArray.html#a86d2bdea3b510bf9486ca0c254391011">OwnedArray&lt; MidiBuffer &gt;::swapWithArray()</a>.</p>
+<p>Referenced by <a class="el" href="classOwnedArray.html#a5d6daa1dc55fabf1be77ceeed392bbc4">OwnedArray&lt; MidiBuffer &gt;::add()</a>, <a class="el" href="classOwnedArray.html#aa2bd0b49686d083cd67d63da1a690dc7">OwnedArray&lt; MidiBuffer &gt;::addArray()</a>, <a class="el" href="classOwnedArray.html#a5168676f4e3de540247025ceaec8ad32">OwnedArray&lt; MidiBuffer &gt;::addCopiesOf()</a>, <a class="el" href="classOwnedArray.html#aca7fa805114cb29fbb080d26402fccce">OwnedArray&lt; MidiBuffer &gt;::addIfNotAlreadyThere()</a>, <a class="el" href="classOwnedArray.html#ac87e81838149b9d541f6afe605a81b43">OwnedArray&lt; MidiBuffer &gt;::addSorted()</a>, <a class="el" href="classOwnedArray.html#a65730f03dbe905fa251491cb6c8c14ee">OwnedArray&lt; MidiBuffer &gt;::clear()</a>, <a class="el" href="classOwnedArray.html#a96fee75673d70e8cf7548bcc0588dddf">OwnedArray&lt; MidiBuffer &gt;::clearQuick()</a>, <a class="el" href="classOwnedArray.html#a0383ab462e8ba5d2598d7812fae90072">OwnedArray&lt; MidiBuffer &gt;::contains()</a>, <a class="el" href="classOwnedArray.html#a3618db021fb44a7e146bd969c43d61ed">OwnedArray&lt; MidiBuffer &gt;::ensureStorageAllocated()</a>, <a class="el" href="classOwnedArray.html#ac3099192ad968d749e95f8e05335f83c">OwnedArray&lt; MidiBuffer &gt;::getFirst()</a>, <a class="el" href="classOwnedArray.html#aef141763468bd638b8a266a215e3d7d8">OwnedArray&lt; MidiBuffer &gt;::getLast()</a>, <a class="el" href="classOwnedArray.html#ae633303198df0e9aaa594b9d1d0b8137">OwnedArray&lt; MidiBuffer &gt;::getUnchecked()</a>, <a class="el" href="classOwnedArray.html#a6067bc24c3982430af0e6a6205581b99">OwnedArray&lt; MidiBuffer &gt;::indexOf()</a>, <a class="el" href="classOwnedArray.html#a70e007f781979fd82e1fa7dcd9c3fe87">OwnedArray&lt; MidiBuffer &gt;::indexOfSorted()</a>, <a class="el" href="classOwnedArray.html#a1a2bbbc7db009e50e3ab90639ee91a0a">OwnedArray&lt; MidiBuffer &gt;::insert()</a>, <a class="el" href="classOwnedArray.html#ac56956aeefcbbaeea2f4d143eb78f633">OwnedArray&lt; MidiBuffer &gt;::insertArray()</a>, <a class="el" href="classOwnedArray.html#a77037209056e7c62634819bd274b88ab">OwnedArray&lt; MidiBuffer &gt;::minimiseStorageOverheads()</a>, <a class="el" href="classOwnedArray.html#ae06db3c50aaf08fd5d2021425efea9ac">OwnedArray&lt; MidiBuffer &gt;::move()</a>, <a class="el" href="classOwnedArray.html#ad358d1fb116053ba1e3c46d6177ecef6">OwnedArray&lt; MidiBuffer &gt;::operator[]()</a>, <a class="el" href="classOwnedArray.html#aa5868e53b5a1b21b0c13970e41012531">OwnedArray&lt; MidiBuffer &gt;::remove()</a>, <a class="el" href="classOwnedArray.html#a702a8ced8cee58dc9f5acbcc13d6218b">OwnedArray&lt; MidiBuffer &gt;::removeAndReturn()</a>, <a class="el" href="classOwnedArray.html#ad1350744bcaedfd9dd2b054dac7946fa">OwnedArray&lt; MidiBuffer &gt;::removeLast()</a>, <a class="el" href="classOwnedArray.html#a4674b4f25da43f8fde80c487a673d6b6">OwnedArray&lt; MidiBuffer &gt;::removeObject()</a>, <a class="el" href="classOwnedArray.html#ad75c0c6727ebca3e2866c78d967c9ca1">OwnedArray&lt; MidiBuffer &gt;::removeRange()</a>, <a class="el" href="classOwnedArray.html#a78294c9352069dc6ac0ed41ac03f19d5">OwnedArray&lt; MidiBuffer &gt;::set()</a>, <a class="el" href="classOwnedArray.html#af0cdef04b3c45c6e6f684ca56c1349dc">OwnedArray&lt; MidiBuffer &gt;::sort()</a>, <a class="el" href="classOwnedArray.html#a8f3849590ee35cde6fb5d71e06ea4482">OwnedArray&lt; MidiBuffer &gt;::swap()</a>, and <a class="el" href="classOwnedArray.html#aa33640231fe11ff0e21f760e395b63a1">OwnedArray&lt; MidiBuffer &gt;::swapWith()</a>.</p>
 
 </div>
 </div>

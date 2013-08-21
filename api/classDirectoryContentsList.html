@@ -83,7 +83,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classDirectoryContentsList-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">DirectoryContentsList Class Reference</div>  </div>
@@ -109,12 +108,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aac2f7424bab5834eda64fcd9f63af9c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#aac2f7424bab5834eda64fcd9f63af9c8">~DirectoryContentsList</a> ()</td></tr>
 <tr class="memdesc:aac2f7424bab5834eda64fcd9f63af9c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#aac2f7424bab5834eda64fcd9f63af9c8"></a><br/></td></tr>
 <tr class="separator:aac2f7424bab5834eda64fcd9f63af9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13d247dcc28766b1ef1c2646976e402a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classFile.html">File</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#a13d247dcc28766b1ef1c2646976e402a">getDirectory</a> () const noexcept</td></tr>
+<tr class="memdesc:a13d247dcc28766b1ef1c2646976e402a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the directory that's currently being used.  <a href="#a13d247dcc28766b1ef1c2646976e402a"></a><br/></td></tr>
+<tr class="separator:a13d247dcc28766b1ef1c2646976e402a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bbc33107fede1f3925b40c73b43fe72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#a8bbc33107fede1f3925b40c73b43fe72">setDirectory</a> (const <a class="el" href="classFile.html">File</a> &amp;directory, bool includeDirectories, bool includeFiles)</td></tr>
 <tr class="memdesc:a8bbc33107fede1f3925b40c73b43fe72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the directory to look in for files.  <a href="#a8bbc33107fede1f3925b40c73b43fe72"></a><br/></td></tr>
 <tr class="separator:a8bbc33107fede1f3925b40c73b43fe72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e90e52826669effbcc3fde5dac0f7d2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classFile.html">File</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#a2e90e52826669effbcc3fde5dac0f7d2">getDirectory</a> () const </td></tr>
-<tr class="memdesc:a2e90e52826669effbcc3fde5dac0f7d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the directory that's currently being used.  <a href="#a2e90e52826669effbcc3fde5dac0f7d2"></a><br/></td></tr>
-<tr class="separator:a2e90e52826669effbcc3fde5dac0f7d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ec1c329d1c2d5d7707b3c6d33633a44"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#a4ec1c329d1c2d5d7707b3c6d33633a44">isFindingDirectories</a> () const noexcept</td></tr>
+<tr class="memdesc:a4ec1c329d1c2d5d7707b3c6d33633a44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this list contains directories.  <a href="#a4ec1c329d1c2d5d7707b3c6d33633a44"></a><br/></td></tr>
+<tr class="separator:a4ec1c329d1c2d5d7707b3c6d33633a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71c4285997939e2e5eddd5504c20b0b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#a71c4285997939e2e5eddd5504c20b0b4">isFindingFiles</a> () const noexcept</td></tr>
+<tr class="memdesc:a71c4285997939e2e5eddd5504c20b0b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this list contains files.  <a href="#a71c4285997939e2e5eddd5504c20b0b4"></a><br/></td></tr>
+<tr class="separator:a71c4285997939e2e5eddd5504c20b0b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1155dd82a0abcaeae948869aea6834d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#a1155dd82a0abcaeae948869aea6834d9">clear</a> ()</td></tr>
 <tr class="memdesc:a1155dd82a0abcaeae948869aea6834d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the list, and stops the thread scanning for files.  <a href="#a1155dd82a0abcaeae948869aea6834d9"></a><br/></td></tr>
 <tr class="separator:a1155dd82a0abcaeae948869aea6834d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,23 +135,23 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a13805762d1b90055cdb363bd010225b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#a13805762d1b90055cdb363bd010225b2">ignoresHiddenFiles</a> () const </td></tr>
 <tr class="memdesc:a13805762d1b90055cdb363bd010225b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if hidden files are ignored.  <a href="#a13805762d1b90055cdb363bd010225b2"></a><br/></td></tr>
 <tr class="separator:a13805762d1b90055cdb363bd010225b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fa64c14744c5256c92af717e5afc253"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#a3fa64c14744c5256c92af717e5afc253">getNumFiles</a> () const </td></tr>
-<tr class="memdesc:a3fa64c14744c5256c92af717e5afc253"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of files currently available in the list.  <a href="#a3fa64c14744c5256c92af717e5afc253"></a><br/></td></tr>
-<tr class="separator:a3fa64c14744c5256c92af717e5afc253"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afabd5e3cff95833e73d6f90359cf7e63"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#afabd5e3cff95833e73d6f90359cf7e63">getNumFiles</a> () const noexcept</td></tr>
+<tr class="memdesc:afabd5e3cff95833e73d6f90359cf7e63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of files currently available in the list.  <a href="#afabd5e3cff95833e73d6f90359cf7e63"></a><br/></td></tr>
+<tr class="separator:afabd5e3cff95833e73d6f90359cf7e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74b2f00f25fa733aba8ff1294a913d56"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#a74b2f00f25fa733aba8ff1294a913d56">getFileInfo</a> (int index, <a class="el" href="structDirectoryContentsList_1_1FileInfo.html">FileInfo</a> &amp;resultInfo) const </td></tr>
 <tr class="memdesc:a74b2f00f25fa733aba8ff1294a913d56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cached information about one of the files in the list.  <a href="#a74b2f00f25fa733aba8ff1294a913d56"></a><br/></td></tr>
 <tr class="separator:a74b2f00f25fa733aba8ff1294a913d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab264bb3a17d76ba5fcff9ca351545a0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#ab264bb3a17d76ba5fcff9ca351545a0b">getFile</a> (int index) const </td></tr>
 <tr class="memdesc:ab264bb3a17d76ba5fcff9ca351545a0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the files in the list.  <a href="#ab264bb3a17d76ba5fcff9ca351545a0b"></a><br/></td></tr>
 <tr class="separator:ab264bb3a17d76ba5fcff9ca351545a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0adca687d551dc03939427cb59b4e3ab"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classFileFilter.html">FileFilter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#a0adca687d551dc03939427cb59b4e3ab">getFilter</a> () const </td></tr>
-<tr class="memdesc:a0adca687d551dc03939427cb59b4e3ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the file filter being used.  <a href="#a0adca687d551dc03939427cb59b4e3ab"></a><br/></td></tr>
-<tr class="separator:a0adca687d551dc03939427cb59b4e3ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a315cd1604c49dba2cd86a7906dfa14ba"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classFileFilter.html">FileFilter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#a315cd1604c49dba2cd86a7906dfa14ba">getFilter</a> () const noexcept</td></tr>
+<tr class="memdesc:a315cd1604c49dba2cd86a7906dfa14ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the file filter being used.  <a href="#a315cd1604c49dba2cd86a7906dfa14ba"></a><br/></td></tr>
+<tr class="separator:a315cd1604c49dba2cd86a7906dfa14ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfaf512db80b808d00a6c14b70e1fe51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#adfaf512db80b808d00a6c14b70e1fe51">contains</a> (const <a class="el" href="classFile.html">File</a> &amp;) const </td></tr>
 <tr class="memdesc:adfaf512db80b808d00a6c14b70e1fe51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the list contains the specified file.  <a href="#adfaf512db80b808d00a6c14b70e1fe51"></a><br/></td></tr>
 <tr class="separator:adfaf512db80b808d00a6c14b70e1fe51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae33e3f023f20fa4ef7970858517bea1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTimeSliceThread.html">TimeSliceThread</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#ae33e3f023f20fa4ef7970858517bea1a">getTimeSliceThread</a> ()</td></tr>
-<tr class="separator:ae33e3f023f20fa4ef7970858517bea1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a415ce1f4dfe6b858099ea2c27b6d022d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTimeSliceThread.html">TimeSliceThread</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#a415ce1f4dfe6b858099ea2c27b6d022d">getTimeSliceThread</a> () const noexcept</td></tr>
+<tr class="separator:a415ce1f4dfe6b858099ea2c27b6d022d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classChangeBroadcaster"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classChangeBroadcaster')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classChangeBroadcaster.html">ChangeBroadcaster</a></td></tr>
 <tr class="memitem:a1c8ccfa186a47d58a05e7f1f1576c038 inherit pub_methods_classChangeBroadcaster"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeBroadcaster.html#a1c8ccfa186a47d58a05e7f1f1576c038">ChangeBroadcaster</a> () noexcept</td></tr>
 <tr class="memdesc:a1c8ccfa186a47d58a05e7f1f1576c038 inherit pub_methods_classChangeBroadcaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed.">ChangeBroadcaster</a>.  <a href="#a1c8ccfa186a47d58a05e7f1f1576c038"></a><br/></td></tr>
@@ -172,11 +177,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a78f62ecd57a016f8ba7a6ce55454947d inherit pub_methods_classChangeBroadcaster"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeBroadcaster.html#a78f62ecd57a016f8ba7a6ce55454947d">dispatchPendingMessages</a> ()</td></tr>
 <tr class="memdesc:a78f62ecd57a016f8ba7a6ce55454947d inherit pub_methods_classChangeBroadcaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">If a change message has been sent but not yet dispatched, this will call <a class="el" href="classChangeBroadcaster.html#a5d16cd01b9af4bacb1716530af17f77b" title="Sends a synchronous change message to all the registered listeners.">sendSynchronousChangeMessage()</a> to make the callback immediately.  <a href="#a78f62ecd57a016f8ba7a6ce55454947d"></a><br/></td></tr>
 <tr class="separator:a78f62ecd57a016f8ba7a6ce55454947d inherit pub_methods_classChangeBroadcaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8b4639964a75c4f7cf00b89f503e9092"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#a8b4639964a75c4f7cf00b89f503e9092">compareElements</a> (const <a class="el" href="structDirectoryContentsList_1_1FileInfo.html">DirectoryContentsList::FileInfo</a> *first, const <a class="el" href="structDirectoryContentsList_1_1FileInfo.html">DirectoryContentsList::FileInfo</a> *second)</td></tr>
-<tr class="separator:a8b4639964a75c4f7cf00b89f503e9092"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -219,7 +219,7 @@ Additional Inherited Members</h2></td></tr>
 <p>When the background thread finds and adds new files to this list, the <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed.">ChangeBroadcaster</a> class will send a change message, so you can register listeners and update them when the list changes.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">fileFilter</td><td>an optional filter to select which files are included in the list. If this is 0, then all files and directories are included. Make sure that the filter doesn't get deleted during the lifetime of this object </td></tr>
+    <tr><td class="paramname">fileFilter</td><td>an optional filter to select which files are included in the list. If this is nullptr, then all files and directories are included. Make sure that the filter doesn't get deleted during the lifetime of this object </td></tr>
     <tr><td class="paramname">threadToUse</td><td>a thread object that this list can use to scan for files as a background task. Make sure that the thread you give it has been started, or you won't get any files! </td></tr>
   </table>
   </dd>
@@ -245,6 +245,31 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a13d247dcc28766b1ef1c2646976e402a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classFile.html">File</a>&amp; DirectoryContentsList::getDirectory </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the directory that's currently being used. </p>
+
+</div>
+</div>
 <a class="anchor" id="a8bbc33107fede1f3925b40c73b43fe72"></a>
 <div class="memitem">
 <div class="memproto">
@@ -280,20 +305,59 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2e90e52826669effbcc3fde5dac0f7d2"></a>
+<a class="anchor" id="a4ec1c329d1c2d5d7707b3c6d33633a44"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classFile.html">File</a>&amp; DirectoryContentsList::getDirectory </td>
+          <td class="memname">bool DirectoryContentsList::isFindingDirectories </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Returns the directory that's currently being used. </p>
+<p>Returns true if this list contains directories. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classDirectoryContentsList.html#a8bbc33107fede1f3925b40c73b43fe72" title="Sets the directory to look in for files.">setDirectory</a> </dd></dl>
+
+<p>References <a class="el" href="classFile.html#a2e3d1ed8a9022434f3ddb7d34b24198ca35b223e26e0f30ee49e320b60af41965">File::findDirectories</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a71c4285997939e2e5eddd5504c20b0b4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DirectoryContentsList::isFindingFiles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if this list contains files. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classDirectoryContentsList.html#a8bbc33107fede1f3925b40c73b43fe72" title="Sets the directory to look in for files.">setDirectory</a> </dd></dl>
+
+<p>References <a class="el" href="classFile.html#a2e3d1ed8a9022434f3ddb7d34b24198ca0804ff838a8bfd66eaa300e5e0a3884a">File::findFiles</a>.</p>
 
 </div>
 </div>
@@ -385,9 +449,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3fa64c14744c5256c92af717e5afc253"></a>
+<a class="anchor" id="afabd5e3cff95833e73d6f90359cf7e63"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int DirectoryContentsList::getNumFiles </td>
@@ -396,6 +463,11 @@ Additional Inherited Members</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns the number of files currently available in the list. </p>
@@ -432,7 +504,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Returns the cached information about one of the files in the list. </p>
 <p>If the index is in-range, this will return true and will copy the file's details to the structure that is passed-in.</p>
 <p>If it returns false, then the index wasn't in range, and the structure won't be affected.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classDirectoryContentsList.html#a3fa64c14744c5256c92af717e5afc253" title="Returns the number of files currently available in the list.">getNumFiles</a>, <a class="el" href="classDirectoryContentsList.html#ab264bb3a17d76ba5fcff9ca351545a0b" title="Returns one of the files in the list.">getFile</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classDirectoryContentsList.html#afabd5e3cff95833e73d6f90359cf7e63" title="Returns the number of files currently available in the list.">getNumFiles</a>, <a class="el" href="classDirectoryContentsList.html#ab264bb3a17d76ba5fcff9ca351545a0b" title="Returns one of the files in the list.">getFile</a> </dd></dl>
 
 </div>
 </div>
@@ -453,17 +525,20 @@ Additional Inherited Members</h2></td></tr>
 <p>Returns one of the files in the list. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">index</td><td>should be less than <a class="el" href="classDirectoryContentsList.html#a3fa64c14744c5256c92af717e5afc253" title="Returns the number of files currently available in the list.">getNumFiles()</a>. If this is out-of-range, the return value will be <a class="el" href="classFile.html#abdcef33a1c846d17b4405e0939358364" title="This static constant is used for referring to an &#39;invalid&#39; file.">File::nonexistent</a> </td></tr>
+    <tr><td class="paramname">index</td><td>should be less than <a class="el" href="classDirectoryContentsList.html#afabd5e3cff95833e73d6f90359cf7e63" title="Returns the number of files currently available in the list.">getNumFiles()</a>. If this is out-of-range, the return value will be <a class="el" href="classFile.html#abdcef33a1c846d17b4405e0939358364" title="This static constant is used for referring to an &#39;invalid&#39; file.">File::nonexistent</a> </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classDirectoryContentsList.html#a3fa64c14744c5256c92af717e5afc253" title="Returns the number of files currently available in the list.">getNumFiles</a>, <a class="el" href="classDirectoryContentsList.html#a74b2f00f25fa733aba8ff1294a913d56" title="Returns the cached information about one of the files in the list.">getFileInfo</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classDirectoryContentsList.html#afabd5e3cff95833e73d6f90359cf7e63" title="Returns the number of files currently available in the list.">getNumFiles</a>, <a class="el" href="classDirectoryContentsList.html#a74b2f00f25fa733aba8ff1294a913d56" title="Returns the cached information about one of the files in the list.">getFileInfo</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a0adca687d551dc03939427cb59b4e3ab"></a>
+<a class="anchor" id="a315cd1604c49dba2cd86a7906dfa14ba"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="classFileFilter.html">FileFilter</a>* DirectoryContentsList::getFilter </td>
@@ -472,6 +547,11 @@ Additional Inherited Members</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns the file filter being used. </p>
@@ -497,22 +577,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae33e3f023f20fa4ef7970858517bea1a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classTimeSliceThread.html">TimeSliceThread</a>&amp; DirectoryContentsList::getTimeSliceThread </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8b4639964a75c4f7cf00b89f503e9092"></a>
+<a class="anchor" id="a415ce1f4dfe6b858099ea2c27b6d022d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -520,26 +585,15 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static int DirectoryContentsList::compareElements </td>
+          <td class="memname"><a class="el" href="classTimeSliceThread.html">TimeSliceThread</a>&amp; DirectoryContentsList::getTimeSliceThread </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structDirectoryContentsList_1_1FileInfo.html">DirectoryContentsList::FileInfo</a> *&#160;</td>
-          <td class="paramname"><em>first</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structDirectoryContentsList_1_1FileInfo.html">DirectoryContentsList::FileInfo</a> *&#160;</td>
-          <td class="paramname"><em>second</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

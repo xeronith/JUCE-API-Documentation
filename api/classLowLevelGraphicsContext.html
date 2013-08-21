@@ -92,7 +92,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Interface class for graphics context objects, used internally by the <a class="el" href="classGraphics.html" title="A graphics context, used for drawing a component or image.">Graphics</a> class.  
  <a href="classLowLevelGraphicsContext.html#details">More...</a></p>
 
-<p>Inherited by <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Inherited by <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html">LowLevelGraphicsPostScriptRenderer</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -106,14 +106,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a088803372a49c9b297a1bafeb03a2398"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfa124281bb313900a2a84b8cfccd896"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLowLevelGraphicsContext.html#acfa124281bb313900a2a84b8cfccd896">addTransform</a> (const <a class="el" href="classAffineTransform.html">AffineTransform</a> &amp;)=0</td></tr>
 <tr class="separator:acfa124281bb313900a2a84b8cfccd896"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab781ea1e9fba61b48198836dea0ccf83"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLowLevelGraphicsContext.html#ab781ea1e9fba61b48198836dea0ccf83">getScaleFactor</a> ()=0</td></tr>
-<tr class="separator:ab781ea1e9fba61b48198836dea0ccf83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1dadc17fd06a4904cf1833cfaf8b18f"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLowLevelGraphicsContext.html#af1dadc17fd06a4904cf1833cfaf8b18f">getTargetDeviceScaleFactor</a> ()</td></tr>
-<tr class="separator:af1dadc17fd06a4904cf1833cfaf8b18f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab669e2dc4e4ec570685fb92fe963b9bd"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLowLevelGraphicsContext.html#ab669e2dc4e4ec570685fb92fe963b9bd">getPhysicalPixelScaleFactor</a> ()=0</td></tr>
+<tr class="separator:ab669e2dc4e4ec570685fb92fe963b9bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14a6073347b0721a7b5646b5587d0ebc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLowLevelGraphicsContext.html#a14a6073347b0721a7b5646b5587d0ebc">clipToRectangle</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;)=0</td></tr>
 <tr class="separator:a14a6073347b0721a7b5646b5587d0ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23e46297d38871c6f48ed2eca5fd2161"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLowLevelGraphicsContext.html#a23e46297d38871c6f48ed2eca5fd2161">clipToRectangleList</a> (const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;)=0</td></tr>
-<tr class="separator:a23e46297d38871c6f48ed2eca5fd2161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a454b5264190d357fa6d74877b478a91d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLowLevelGraphicsContext.html#a454b5264190d357fa6d74877b478a91d">clipToRectangleList</a> (const <a class="el" href="classRectangleList.html">RectangleList</a>&lt; int &gt; &amp;)=0</td></tr>
+<tr class="separator:a454b5264190d357fa6d74877b478a91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e116f9953846c0506f06bdc3db24822"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLowLevelGraphicsContext.html#a3e116f9953846c0506f06bdc3db24822">excludeClipRectangle</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;)=0</td></tr>
 <tr class="separator:a3e116f9953846c0506f06bdc3db24822"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a088c81d6d2bff0f952f990e7f673f020"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLowLevelGraphicsContext.html#a088c81d6d2bff0f952f990e7f673f020">clipToPath</a> (const <a class="el" href="classPath.html">Path</a> &amp;, const <a class="el" href="classAffineTransform.html">AffineTransform</a> &amp;)=0</td></tr>
@@ -243,7 +241,7 @@ Protected Member Functions</h2></td></tr>
 <p>Returns true if this device is vector-based, e.g. </p>
 <p>a printer. </p>
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a02efb4b815121d6e7a511253ac306911">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#a53a90cfd8199aae068ab3150e0754507">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a02efb4b815121d6e7a511253ac306911">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -282,7 +280,7 @@ Protected Member Functions</h2></td></tr>
 <p>Moves the origin to a new position. </p>
 <p>The coordinates are relative to the current origin, and indicate the new position of (0, 0). </p>
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a6e7da1c04b10902cc61694bc5328c0be">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#a99b5b6339624885c407d92729c9eac99">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a6e7da1c04b10902cc61694bc5328c0be">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -308,11 +306,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#ab923b750684b678008ec088676b08ff3">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#a19348ca0dc908f0db41e8489517fa916">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#ab923b750684b678008ec088676b08ff3">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab781ea1e9fba61b48198836dea0ccf83"></a>
+<a class="anchor" id="ab669e2dc4e4ec570685fb92fe963b9bd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -320,7 +318,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual float LowLevelGraphicsContext::getScaleFactor </td>
+          <td class="memname">virtual float LowLevelGraphicsContext::getPhysicalPixelScaleFactor </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -333,30 +331,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a3bea55239268a3251fe7e09a617983bb">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#aaee28ded48abab78555853bfde49c28f">LowLevelGraphicsSoftwareRenderer</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af1dadc17fd06a4904cf1833cfaf8b18f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual float LowLevelGraphicsContext::getTargetDeviceScaleFactor </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#af8366e474ce8466bc4a5ef4be4881f17">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -382,11 +357,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#aa28d6c8e76c786d630d3ce190ab9c9e2">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#a5453d0048f27476c9a4cea196f06ccdd">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#aa28d6c8e76c786d630d3ce190ab9c9e2">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a23e46297d38871c6f48ed2eca5fd2161"></a>
+<a class="anchor" id="a454b5264190d357fa6d74877b478a91d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -396,7 +371,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual bool LowLevelGraphicsContext::clipToRectangleList </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a>&lt; int &gt; &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -408,7 +383,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#ab97e76f26b5ca0a4336d0a5d9b15788b">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#acb0dd781013deca347720249f6a33c1d">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a056b46d8107a6ea8308321ef8220c7f8">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -434,7 +409,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#ad1e23e51c84641b7995b08ba56671e7c">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#a1ff4eb99b1ae5b315b98aae8fa4928c7">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#ad1e23e51c84641b7995b08ba56671e7c">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -470,7 +445,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a7cf0df369ea4f1a536d362f3a46d748f">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#ac51150d7ed01a2286b3480fd95e002a4">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a7cf0df369ea4f1a536d362f3a46d748f">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -506,7 +481,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a33fd55f843f7eb06aca5d3e97cbd5e41">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#ad87536b86deefeeec36e7244704d3ae9">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a33fd55f843f7eb06aca5d3e97cbd5e41">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -532,7 +507,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#acc146f70b9ec65d9459b57424838827d">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#aea1e5e8d3ae5b36e777b6413fcfb8d55">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#acc146f70b9ec65d9459b57424838827d">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -557,7 +532,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a2ab164ec843a33c4e5e3d2d6aa3904ed">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#ad9918268d6a458ec85bdc2e57f1585c2">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a2ab164ec843a33c4e5e3d2d6aa3904ed">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -582,7 +557,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#ad35261736da9997f34161815c97b1140">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#aadcc98fd2708ad5962195cd62a19e852">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#ad35261736da9997f34161815c97b1140">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -607,7 +582,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#a482b4c86df17e9c49b53d0efbcd60371">LowLevelGraphicsSoftwareRenderer</a>, and <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a3d64fc39281e84f48edddca560825127">LowLevelGraphicsPostScriptRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a3d64fc39281e84f48edddca560825127">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -632,7 +607,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#a6110e27515727d01a86483d1b789ea30">LowLevelGraphicsSoftwareRenderer</a>, and <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a73c976316f90095c60465d8297bdaa10">LowLevelGraphicsPostScriptRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a73c976316f90095c60465d8297bdaa10">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -658,7 +633,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#a6dd66d4256b5ee703cbc61bdcc1815c7">LowLevelGraphicsSoftwareRenderer</a>, and <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#aade6567b6bbde44f598f0c216cca1821">LowLevelGraphicsPostScriptRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#aade6567b6bbde44f598f0c216cca1821">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -683,7 +658,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#ad0318b4e08237a1d2a01eeaf26ae05b8">LowLevelGraphicsSoftwareRenderer</a>, and <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#aa1aeb8d03394c51f4bd9d3868dccba1f">LowLevelGraphicsPostScriptRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#aa1aeb8d03394c51f4bd9d3868dccba1f">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -709,7 +684,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#acb6148d8b5db2c6b0a36e2b398e78670">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#a0f8e970ab9c0286c78f5f88f48e8d184">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#acb6148d8b5db2c6b0a36e2b398e78670">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -735,7 +710,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#af737c0216f74bf7e7c633ea45abe859d">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#a645318a5030e16c2d59f7f9f53d97d33">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#af737c0216f74bf7e7c633ea45abe859d">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -761,7 +736,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a530fd52322b586022407b8cfecfb2e5e">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#aa75eaa09e3da16879a85142317adaa18">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a530fd52322b586022407b8cfecfb2e5e">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -797,7 +772,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a71ee3690cceec131045c430629a79c74">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#ab2782c39a57ad918e596fb94b9bf7021">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a71ee3690cceec131045c430629a79c74">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -833,7 +808,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#aaf54f92857e590dfebe93dc1ccc02509">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#ae9b35292bb6818bc208befbe10ded818">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#aaf54f92857e590dfebe93dc1ccc02509">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -869,7 +844,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a41143f3eb5c3215e6acf386bcd54f124">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#a0d1267ffefd8e9c39358797f7dd4e4be">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a41143f3eb5c3215e6acf386bcd54f124">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -895,7 +870,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a31330c09b7ff3d94a884e8ab3ebd5015">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#a7b2829659e6d500993fed062550fac86">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a31330c09b7ff3d94a884e8ab3ebd5015">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -937,7 +912,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a812d98318085ed86f520c70fa3257bb6">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#ac2633ff4239bf909c01c6c8a18f291a1">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a812d98318085ed86f520c70fa3257bb6">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -979,7 +954,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a12381f907e8c28d430df08ecf1d2537a">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#a50caa5f7a70cc03f3390549646db95e3">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#a12381f907e8c28d430df08ecf1d2537a">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -1005,7 +980,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#ab783e9bcf0fb7673839f1ef67f85e13c">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#a274ec428e7e985f5e668b70d4945b7da">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#ab783e9bcf0fb7673839f1ef67f85e13c">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -1030,7 +1005,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#acfdf7fc9eb54be6f669b9e2f5530e205">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#a098cac4bb5e0841dba74bb8099c9e961">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#acfdf7fc9eb54be6f669b9e2f5530e205">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>
@@ -1066,7 +1041,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#abe714281edc8669aeb1488a057b35b7b">LowLevelGraphicsPostScriptRenderer</a>, and <a class="el" href="classLowLevelGraphicsSoftwareRenderer.html#afc4a553a8ceb3b54f25b6dab101d9670">LowLevelGraphicsSoftwareRenderer</a>.</p>
+<p>Implemented in <a class="el" href="classLowLevelGraphicsPostScriptRenderer.html#abe714281edc8669aeb1488a057b35b7b">LowLevelGraphicsPostScriptRenderer</a>.</p>
 
 </div>
 </div>

@@ -111,35 +111,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a01bc0ae6a79f5e89413284856944c133"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a01bc0ae6a79f5e89413284856944c133">isColourSpecified</a> (int colourId) const noexcept</td></tr>
 <tr class="memdesc:a01bc0ae6a79f5e89413284856944c133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the specified colour ID has been explicitly set using the <a class="el" href="classLookAndFeel.html#a817beefa430ae0028d6bec566e151d9f" title="Registers a colour to be used for a particular purpose.">setColour()</a> method.  <a href="#a01bc0ae6a79f5e89413284856944c133"></a><br/></td></tr>
 <tr class="separator:a01bc0ae6a79f5e89413284856944c133"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f0db849b384fb22137023583167f419"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classTypeface.html#a13053be679c87b7a72963e9ce60e34c9">Typeface::Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a9f0db849b384fb22137023583167f419">getTypefaceForFont</a> (const <a class="el" href="classFont.html">Font</a> &amp;font)</td></tr>
-<tr class="separator:a9f0db849b384fb22137023583167f419"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f6e6d84ba7ab714bdb41ad30fd36e19"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classTypeface.html#a13053be679c87b7a72963e9ce60e34c9">Typeface::Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a6f6e6d84ba7ab714bdb41ad30fd36e19">getTypefaceForFont</a> (const <a class="el" href="classFont.html">Font</a> &amp;font)</td></tr>
+<tr class="separator:a6f6e6d84ba7ab714bdb41ad30fd36e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15a3d2e1c913bc68859d29945f40a51a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a15a3d2e1c913bc68859d29945f40a51a">setDefaultSansSerifTypefaceName</a> (const <a class="el" href="classString.html">String</a> &amp;newName)</td></tr>
 <tr class="memdesc:a15a3d2e1c913bc68859d29945f40a51a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows you to change the default sans-serif font.  <a href="#a15a3d2e1c913bc68859d29945f40a51a"></a><br/></td></tr>
 <tr class="separator:a15a3d2e1c913bc68859d29945f40a51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addc70dc2f74308badd5f7675842d5044"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classMouseCursor.html">MouseCursor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#addc70dc2f74308badd5f7675842d5044">getMouseCursorFor</a> (<a class="el" href="classComponent.html">Component</a> &amp;component)</td></tr>
 <tr class="memdesc:addc70dc2f74308badd5f7675842d5044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override this to get the chance to swap a component's mouse cursor for a customised one.  <a href="#addc70dc2f74308badd5f7675842d5044"></a><br/></td></tr>
 <tr class="separator:addc70dc2f74308badd5f7675842d5044"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf73cf57faec27c985eec8e11bcd7aff"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classLowLevelGraphicsContext.html">LowLevelGraphicsContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#abf73cf57faec27c985eec8e11bcd7aff">createGraphicsContext</a> (const <a class="el" href="classImage.html">Image</a> &amp;imageToRenderOn, const <a class="el" href="classPoint.html">Point</a>&lt; int &gt; &amp;origin, const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;initialClip)</td></tr>
-<tr class="separator:abf73cf57faec27c985eec8e11bcd7aff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8dbd9bd9a981a90a1e0d15ec7270079b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a8dbd9bd9a981a90a1e0d15ec7270079b">drawButtonBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, <a class="el" href="classButton.html">Button</a> &amp;button, const <a class="el" href="classColour.html">Colour</a> &amp;backgroundColour, bool isMouseOverButton, bool isButtonDown)</td></tr>
-<tr class="memdesc:a8dbd9bd9a981a90a1e0d15ec7270079b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the lozenge-shaped background for a standard button.  <a href="#a8dbd9bd9a981a90a1e0d15ec7270079b"></a><br/></td></tr>
-<tr class="separator:a8dbd9bd9a981a90a1e0d15ec7270079b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41151fa0e1d0ef87d26f1bf17c457e7c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classLowLevelGraphicsContext.html">LowLevelGraphicsContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a41151fa0e1d0ef87d26f1bf17c457e7c">createGraphicsContext</a> (const <a class="el" href="classImage.html">Image</a> &amp;imageToRenderOn, const <a class="el" href="classPoint.html">Point</a>&lt; int &gt; &amp;origin, const <a class="el" href="classRectangleList.html">RectangleList</a>&lt; int &gt; &amp;initialClip)</td></tr>
+<tr class="separator:a41151fa0e1d0ef87d26f1bf17c457e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4767dd55cc9973fca036ce10a93f5597"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a4767dd55cc9973fca036ce10a93f5597">drawButtonBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, <a class="el" href="classButton.html">Button</a> &amp;button, const <a class="el" href="classColour.html">Colour</a> &amp;backgroundColour, bool isMouseOverButton, bool isButtonDown)</td></tr>
+<tr class="memdesc:a4767dd55cc9973fca036ce10a93f5597"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the lozenge-shaped background for a standard button.  <a href="#a4767dd55cc9973fca036ce10a93f5597"></a><br/></td></tr>
+<tr class="separator:a4767dd55cc9973fca036ce10a93f5597"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae694408d8c1e55c84003cf2bc62c9f7b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classFont.html">Font</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ae694408d8c1e55c84003cf2bc62c9f7b">getTextButtonFont</a> (<a class="el" href="classTextButton.html">TextButton</a> &amp;button)</td></tr>
 <tr class="separator:ae694408d8c1e55c84003cf2bc62c9f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34b3d88bf774404b069092e8ee7955ed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a34b3d88bf774404b069092e8ee7955ed">drawButtonText</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, <a class="el" href="classTextButton.html">TextButton</a> &amp;button, bool isMouseOverButton, bool isButtonDown)</td></tr>
-<tr class="memdesc:a34b3d88bf774404b069092e8ee7955ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the text for a <a class="el" href="classTextButton.html" title="A button that uses the standard lozenge-shaped background with a line of text on it.">TextButton</a>.  <a href="#a34b3d88bf774404b069092e8ee7955ed"></a><br/></td></tr>
-<tr class="separator:a34b3d88bf774404b069092e8ee7955ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad00c510749e2a29f742cc034d8d13347"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ad00c510749e2a29f742cc034d8d13347">drawToggleButton</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, <a class="el" href="classToggleButton.html">ToggleButton</a> &amp;button, bool isMouseOverButton, bool isButtonDown)</td></tr>
-<tr class="memdesc:ad00c510749e2a29f742cc034d8d13347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the contents of a standard <a class="el" href="classToggleButton.html" title="A button that can be toggled on/off.">ToggleButton</a>.  <a href="#ad00c510749e2a29f742cc034d8d13347"></a><br/></td></tr>
-<tr class="separator:ad00c510749e2a29f742cc034d8d13347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e9dd3ae1f54395fcb0c117dee6de798"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a8e9dd3ae1f54395fcb0c117dee6de798">drawButtonText</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, <a class="el" href="classTextButton.html">TextButton</a> &amp;button, bool isMouseOverButton, bool isButtonDown)</td></tr>
+<tr class="memdesc:a8e9dd3ae1f54395fcb0c117dee6de798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the text for a <a class="el" href="classTextButton.html" title="A button that uses the standard lozenge-shaped background with a line of text on it.">TextButton</a>.  <a href="#a8e9dd3ae1f54395fcb0c117dee6de798"></a><br/></td></tr>
+<tr class="separator:a8e9dd3ae1f54395fcb0c117dee6de798"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c6fc9efcfa4c025d827f6c9f12a033e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a9c6fc9efcfa4c025d827f6c9f12a033e">drawToggleButton</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, <a class="el" href="classToggleButton.html">ToggleButton</a> &amp;button, bool isMouseOverButton, bool isButtonDown)</td></tr>
+<tr class="memdesc:a9c6fc9efcfa4c025d827f6c9f12a033e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the contents of a standard <a class="el" href="classToggleButton.html" title="A button that can be toggled on/off.">ToggleButton</a>.  <a href="#a9c6fc9efcfa4c025d827f6c9f12a033e"></a><br/></td></tr>
+<tr class="separator:a9c6fc9efcfa4c025d827f6c9f12a033e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af00e9c23ac73e0b4a9aeb4eaa7883f3a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#af00e9c23ac73e0b4a9aeb4eaa7883f3a">changeToggleButtonWidthToFitText</a> (<a class="el" href="classToggleButton.html">ToggleButton</a> &amp;button)</td></tr>
 <tr class="separator:af00e9c23ac73e0b4a9aeb4eaa7883f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cb7f93b5c2dc0750c25289c3b2c965c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a4cb7f93b5c2dc0750c25289c3b2c965c">drawTickBox</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, <a class="el" href="classComponent.html">Component</a> &amp;component, float x, float y, float w, float h, bool ticked, bool isEnabled, bool isMouseOverButton, bool isButtonDown)</td></tr>
-<tr class="separator:a4cb7f93b5c2dc0750c25289c3b2c965c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad562fafd9dd02bdd845303cbd2c2f9f4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ad562fafd9dd02bdd845303cbd2c2f9f4">drawTickBox</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, <a class="el" href="classComponent.html">Component</a> &amp;component, float x, float y, float w, float h, bool ticked, bool isEnabled, bool isMouseOverButton, bool isButtonDown)</td></tr>
+<tr class="separator:ad562fafd9dd02bdd845303cbd2c2f9f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad386093adc4bba4b8c36535af363b316"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ad386093adc4bba4b8c36535af363b316">drawDrawableButton</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, <a class="el" href="classDrawableButton.html">DrawableButton</a> &amp;button, bool isMouseOverButton, bool isButtonDown)</td></tr>
+<tr class="separator:ad386093adc4bba4b8c36535af363b316"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc19e3d1d06b1a8999790b47b56d3f95"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classAlertWindow.html">AlertWindow</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#adc19e3d1d06b1a8999790b47b56d3f95">createAlertWindow</a> (const <a class="el" href="classString.html">String</a> &amp;title, const <a class="el" href="classString.html">String</a> &amp;message, const <a class="el" href="classString.html">String</a> &amp;button1, const <a class="el" href="classString.html">String</a> &amp;button2, const <a class="el" href="classString.html">String</a> &amp;button3, <a class="el" href="classAlertWindow.html#a2582d1f79937cb47a6a3764c7d9bdba3">AlertWindow::AlertIconType</a> iconType, int numButtons, <a class="el" href="classComponent.html">Component</a> *associatedComponent)</td></tr>
 <tr class="separator:adc19e3d1d06b1a8999790b47b56d3f95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7808705b08c5c33e39f01bfc6210410c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a7808705b08c5c33e39f01bfc6210410c">drawAlertBox</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, <a class="el" href="classAlertWindow.html">AlertWindow</a> &amp;alert, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;textArea, <a class="el" href="classTextLayout.html">TextLayout</a> &amp;textLayout)</td></tr>
-<tr class="separator:a7808705b08c5c33e39f01bfc6210410c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a950852954bda5f936191cb82dde91f1f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a950852954bda5f936191cb82dde91f1f">drawAlertBox</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, <a class="el" href="classAlertWindow.html">AlertWindow</a> &amp;alert, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;textArea, <a class="el" href="classTextLayout.html">TextLayout</a> &amp;textLayout)</td></tr>
+<tr class="separator:a950852954bda5f936191cb82dde91f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1f8e3d087bd7fa54618034819dadcc2"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ae1f8e3d087bd7fa54618034819dadcc2">getAlertBoxWindowFlags</a> ()</td></tr>
 <tr class="separator:ae1f8e3d087bd7fa54618034819dadcc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5178a29ba5ed5fb1e752f20408abd06"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#aa5178a29ba5ed5fb1e752f20408abd06">getAlertWindowButtonHeight</a> ()</td></tr>
@@ -152,11 +154,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4b0aa92ddc422d660d162dd2e304c35f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08905a5fe3fa51ec2cd99010a1042007"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a08905a5fe3fa51ec2cd99010a1042007">isUsingNativeAlertWindows</a> ()</td></tr>
 <tr class="separator:a08905a5fe3fa51ec2cd99010a1042007"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a0f15843df14eb4ddbcaeb60423510b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a5a0f15843df14eb4ddbcaeb60423510b">drawProgressBar</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, <a class="el" href="classProgressBar.html">ProgressBar</a> &amp;progressBar, int width, int height, double progress, const <a class="el" href="classString.html">String</a> &amp;textToShow)</td></tr>
-<tr class="memdesc:a5a0f15843df14eb4ddbcaeb60423510b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a progress bar.  <a href="#a5a0f15843df14eb4ddbcaeb60423510b"></a><br/></td></tr>
-<tr class="separator:a5a0f15843df14eb4ddbcaeb60423510b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b1b828e749bbf0c966c3563062ec77d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a8b1b828e749bbf0c966c3563062ec77d">drawSpinningWaitAnimation</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, const <a class="el" href="classColour.html">Colour</a> &amp;colour, int x, int y, int w, int h)</td></tr>
-<tr class="separator:a8b1b828e749bbf0c966c3563062ec77d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1644a3b44d2533362289497d2b0f3a61"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a1644a3b44d2533362289497d2b0f3a61">drawProgressBar</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, <a class="el" href="classProgressBar.html">ProgressBar</a> &amp;progressBar, int width, int height, double progress, const <a class="el" href="classString.html">String</a> &amp;textToShow)</td></tr>
+<tr class="memdesc:a1644a3b44d2533362289497d2b0f3a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a progress bar.  <a href="#a1644a3b44d2533362289497d2b0f3a61"></a><br/></td></tr>
+<tr class="separator:a1644a3b44d2533362289497d2b0f3a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad818bf37c0c35faf32eb84b69c5cabfa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ad818bf37c0c35faf32eb84b69c5cabfa">drawSpinningWaitAnimation</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, const <a class="el" href="classColour.html">Colour</a> &amp;colour, int x, int y, int w, int h)</td></tr>
+<tr class="separator:ad818bf37c0c35faf32eb84b69c5cabfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72ff5997ee0485717a14a1def423e65b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a72ff5997ee0485717a14a1def423e65b">areScrollbarButtonsVisible</a> ()</td></tr>
 <tr class="separator:a72ff5997ee0485717a14a1def423e65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4880cb3699cd3024ca14ca94755dae50"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a4880cb3699cd3024ca14ca94755dae50">drawScrollbarButton</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, <a class="el" href="classScrollBar.html">ScrollBar</a> &amp;scrollbar, int width, int height, int buttonDirection, bool isScrollbarVertical, bool isMouseOverButton, bool isButtonDown)</td></tr>
@@ -183,13 +185,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae03959d3a1843f245e77cdc3a30f0136"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classPath.html">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ae03959d3a1843f245e77cdc3a30f0136">getCrossShape</a> (float height)</td></tr>
 <tr class="memdesc:ae03959d3a1843f245e77cdc3a30f0136"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a cross shape for use in yes/no boxes, etc.  <a href="#ae03959d3a1843f245e77cdc3a30f0136"></a><br/></td></tr>
 <tr class="separator:ae03959d3a1843f245e77cdc3a30f0136"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa9575ddeeaa4b946fff1cf474606518"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#afa9575ddeeaa4b946fff1cf474606518">drawTreeviewPlusMinusBox</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int x, int y, int w, int h, bool isPlus, bool isMouseOver)</td></tr>
-<tr class="memdesc:afa9575ddeeaa4b946fff1cf474606518"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the + or - box in a treeview.  <a href="#afa9575ddeeaa4b946fff1cf474606518"></a><br/></td></tr>
-<tr class="separator:afa9575ddeeaa4b946fff1cf474606518"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5605ae9a851611cb56c050e99ca7a68c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a5605ae9a851611cb56c050e99ca7a68c">fillTextEditorBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height, <a class="el" href="classTextEditor.html">TextEditor</a> &amp;textEditor)</td></tr>
-<tr class="separator:a5605ae9a851611cb56c050e99ca7a68c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d9832a561664cced8c00d5c5169fac0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a1d9832a561664cced8c00d5c5169fac0">drawTextEditorOutline</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height, <a class="el" href="classTextEditor.html">TextEditor</a> &amp;textEditor)</td></tr>
-<tr class="separator:a1d9832a561664cced8c00d5c5169fac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6d0c9607ef95843b7db229d0df58a44"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ad6d0c9607ef95843b7db229d0df58a44">drawTreeviewPlusMinusBox</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int x, int y, int w, int h, bool isPlus, bool isMouseOver)</td></tr>
+<tr class="memdesc:ad6d0c9607ef95843b7db229d0df58a44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the + or - box in a treeview.  <a href="#ad6d0c9607ef95843b7db229d0df58a44"></a><br/></td></tr>
+<tr class="separator:ad6d0c9607ef95843b7db229d0df58a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b67fe477d55026cd564ed32bdc00bbe"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a1b67fe477d55026cd564ed32bdc00bbe">fillTextEditorBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, <a class="el" href="classTextEditor.html">TextEditor</a> &amp;textEditor)</td></tr>
+<tr class="separator:a1b67fe477d55026cd564ed32bdc00bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49d90a6c778d2bf65851edaa00fd02cb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a49d90a6c778d2bf65851edaa00fd02cb">drawTextEditorOutline</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, <a class="el" href="classTextEditor.html">TextEditor</a> &amp;textEditor)</td></tr>
+<tr class="separator:a49d90a6c778d2bf65851edaa00fd02cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cb6995003b52cb881b23790b1e14220"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classCaretComponent.html">CaretComponent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a8cb6995003b52cb881b23790b1e14220">createCaretComponent</a> (<a class="el" href="classComponent.html">Component</a> *keyFocusOwner)</td></tr>
 <tr class="separator:a8cb6995003b52cb881b23790b1e14220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afada8ec1da4a1c3d40a1184961750d47"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classDrawable.html">Drawable</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#afada8ec1da4a1c3d40a1184961750d47">getDefaultFolderImage</a> ()</td></tr>
@@ -198,42 +200,42 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a856c16a426ab532fb7e8611f58663faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf627aea7da0c3e4b914e6e63f2dc94d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classAttributedString.html">AttributedString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#abf627aea7da0c3e4b914e6e63f2dc94d">createFileChooserHeaderText</a> (const <a class="el" href="classString.html">String</a> &amp;title, const <a class="el" href="classString.html">String</a> &amp;instructions)</td></tr>
 <tr class="separator:abf627aea7da0c3e4b914e6e63f2dc94d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada040ee479f43ee78e78da7e7b2a09be"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ada040ee479f43ee78e78da7e7b2a09be">drawFileBrowserRow</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height, const <a class="el" href="classString.html">String</a> &amp;filename, <a class="el" href="classImage.html">Image</a> *icon, const <a class="el" href="classString.html">String</a> &amp;fileSizeDescription, const <a class="el" href="classString.html">String</a> &amp;fileTimeDescription, bool isDirectory, bool isItemSelected, int itemIndex, <a class="el" href="classDirectoryContentsDisplayComponent.html">DirectoryContentsDisplayComponent</a> &amp;component)</td></tr>
-<tr class="separator:ada040ee479f43ee78e78da7e7b2a09be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa03d6404101b86626ed6da2f5ba18bb8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#aa03d6404101b86626ed6da2f5ba18bb8">drawFileBrowserRow</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, const <a class="el" href="classString.html">String</a> &amp;filename, <a class="el" href="classImage.html">Image</a> *icon, const <a class="el" href="classString.html">String</a> &amp;fileSizeDescription, const <a class="el" href="classString.html">String</a> &amp;fileTimeDescription, bool isDirectory, bool isItemSelected, int itemIndex, <a class="el" href="classDirectoryContentsDisplayComponent.html">DirectoryContentsDisplayComponent</a> &amp;component)</td></tr>
+<tr class="separator:aa03d6404101b86626ed6da2f5ba18bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a310794092fd24d9f23bc7b7620964e4b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classButton.html">Button</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a310794092fd24d9f23bc7b7620964e4b">createFileBrowserGoUpButton</a> ()</td></tr>
 <tr class="separator:a310794092fd24d9f23bc7b7620964e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a996c40ff545bd36b85b6f7b97fd101d1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a996c40ff545bd36b85b6f7b97fd101d1">layoutFileBrowserComponent</a> (<a class="el" href="classFileBrowserComponent.html">FileBrowserComponent</a> &amp;browserComp, <a class="el" href="classDirectoryContentsDisplayComponent.html">DirectoryContentsDisplayComponent</a> *fileListComponent, <a class="el" href="classFilePreviewComponent.html">FilePreviewComponent</a> *previewComp, <a class="el" href="classComboBox.html">ComboBox</a> *currentPathBox, <a class="el" href="classTextEditor.html">TextEditor</a> *filenameBox, <a class="el" href="classButton.html">Button</a> *goUpButton)</td></tr>
 <tr class="separator:a996c40ff545bd36b85b6f7b97fd101d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d79f09809e664f100b7177ad2ac73ab"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a7d79f09809e664f100b7177ad2ac73ab">drawBubble</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, <a class="el" href="classBubbleComponent.html">BubbleComponent</a> &amp;, const <a class="el" href="classPoint.html">Point</a>&lt; float &gt; &amp;tip, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;body)</td></tr>
-<tr class="separator:a7d79f09809e664f100b7177ad2ac73ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a920372a6d198f6f1710ddef4ab739892"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a920372a6d198f6f1710ddef4ab739892">drawLasso</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, <a class="el" href="classComponent.html">Component</a> &amp;lassoComp)</td></tr>
-<tr class="separator:a920372a6d198f6f1710ddef4ab739892"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7660f46281cd050dde931232a3cff4d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ad7660f46281cd050dde931232a3cff4d">drawPopupMenuBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height)</td></tr>
-<tr class="memdesc:ad7660f46281cd050dde931232a3cff4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the background of a popup menu component.  <a href="#ad7660f46281cd050dde931232a3cff4d"></a><br/></td></tr>
-<tr class="separator:ad7660f46281cd050dde931232a3cff4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a140a6248309d56bf8c8b3e72ed7bdc6c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a140a6248309d56bf8c8b3e72ed7bdc6c">drawPopupMenuItem</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height, bool isSeparator, bool isActive, bool isHighlighted, bool isTicked, bool hasSubMenu, const <a class="el" href="classString.html">String</a> &amp;text, const <a class="el" href="classString.html">String</a> &amp;shortcutKeyText, <a class="el" href="classImage.html">Image</a> *image, const <a class="el" href="classColour.html">Colour</a> *const textColour)</td></tr>
-<tr class="memdesc:a140a6248309d56bf8c8b3e72ed7bdc6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws one of the items in a popup menu.  <a href="#a140a6248309d56bf8c8b3e72ed7bdc6c"></a><br/></td></tr>
-<tr class="separator:a140a6248309d56bf8c8b3e72ed7bdc6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4775a8f3f5676bb5e567bffbef8151ec"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a4775a8f3f5676bb5e567bffbef8151ec">drawBubble</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, <a class="el" href="classBubbleComponent.html">BubbleComponent</a> &amp;, const <a class="el" href="classPoint.html">Point</a>&lt; float &gt; &amp;tip, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;body)</td></tr>
+<tr class="separator:a4775a8f3f5676bb5e567bffbef8151ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ef79d60a6cd70f5e3f696f1675e6f04"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a8ef79d60a6cd70f5e3f696f1675e6f04">drawLasso</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, <a class="el" href="classComponent.html">Component</a> &amp;lassoComp)</td></tr>
+<tr class="separator:a8ef79d60a6cd70f5e3f696f1675e6f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89140898351bcd4a71c8e2e2e5db2845"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a89140898351bcd4a71c8e2e2e5db2845">drawPopupMenuBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height)</td></tr>
+<tr class="memdesc:a89140898351bcd4a71c8e2e2e5db2845"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the background of a popup menu component.  <a href="#a89140898351bcd4a71c8e2e2e5db2845"></a><br/></td></tr>
+<tr class="separator:a89140898351bcd4a71c8e2e2e5db2845"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc8b6b3f7bc327c2193fd6131dc7c3d3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#acc8b6b3f7bc327c2193fd6131dc7c3d3">drawPopupMenuItem</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, bool isSeparator, bool isActive, bool isHighlighted, bool isTicked, bool hasSubMenu, const <a class="el" href="classString.html">String</a> &amp;text, const <a class="el" href="classString.html">String</a> &amp;shortcutKeyText, <a class="el" href="classImage.html">Image</a> *image, const <a class="el" href="classColour.html">Colour</a> *const textColour)</td></tr>
+<tr class="memdesc:acc8b6b3f7bc327c2193fd6131dc7c3d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws one of the items in a popup menu.  <a href="#acc8b6b3f7bc327c2193fd6131dc7c3d3"></a><br/></td></tr>
+<tr class="separator:acc8b6b3f7bc327c2193fd6131dc7c3d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a856c673e1b167a20795ece423468b4fa"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classFont.html">Font</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a856c673e1b167a20795ece423468b4fa">getPopupMenuFont</a> ()</td></tr>
 <tr class="memdesc:a856c673e1b167a20795ece423468b4fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size and style of font to use in popup menus.  <a href="#a856c673e1b167a20795ece423468b4fa"></a><br/></td></tr>
 <tr class="separator:a856c673e1b167a20795ece423468b4fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af43c11f45a2d65ead660355e8468e471"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#af43c11f45a2d65ead660355e8468e471">drawPopupMenuUpDownArrow</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height, bool isScrollUpArrow)</td></tr>
-<tr class="separator:af43c11f45a2d65ead660355e8468e471"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4942dfd7b6d11e1d99c070ddc0238cb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ab4942dfd7b6d11e1d99c070ddc0238cb">drawPopupMenuUpDownArrow</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, bool isScrollUpArrow)</td></tr>
+<tr class="separator:ab4942dfd7b6d11e1d99c070ddc0238cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6d8e4885202adf5eeeafbb1dad8587d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ae6d8e4885202adf5eeeafbb1dad8587d">getIdealPopupMenuItemSize</a> (const <a class="el" href="classString.html">String</a> &amp;text, bool isSeparator, int standardMenuItemHeight, int &amp;idealWidth, int &amp;idealHeight)</td></tr>
 <tr class="memdesc:ae6d8e4885202adf5eeeafbb1dad8587d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the best size for an item in a popup menu.  <a href="#ae6d8e4885202adf5eeeafbb1dad8587d"></a><br/></td></tr>
 <tr class="separator:ae6d8e4885202adf5eeeafbb1dad8587d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaffa3812abc886b082449a1bfc2cdce8"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#aaffa3812abc886b082449a1bfc2cdce8">getMenuWindowFlags</a> ()</td></tr>
 <tr class="separator:aaffa3812abc886b082449a1bfc2cdce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a585e8abe5df765d2eca59789e3c907a2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a585e8abe5df765d2eca59789e3c907a2">drawMenuBarBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height, bool isMouseOverBar, <a class="el" href="classMenuBarComponent.html">MenuBarComponent</a> &amp;menuBar)</td></tr>
-<tr class="separator:a585e8abe5df765d2eca59789e3c907a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad944c61e7843ba8a463137cbae658125"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ad944c61e7843ba8a463137cbae658125">drawMenuBarBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, bool isMouseOverBar, <a class="el" href="classMenuBarComponent.html">MenuBarComponent</a> &amp;menuBar)</td></tr>
+<tr class="separator:ad944c61e7843ba8a463137cbae658125"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03a4b7206e36203a4b4398c9c5ec32a3"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a03a4b7206e36203a4b4398c9c5ec32a3">getMenuBarItemWidth</a> (<a class="el" href="classMenuBarComponent.html">MenuBarComponent</a> &amp;menuBar, int itemIndex, const <a class="el" href="classString.html">String</a> &amp;itemText)</td></tr>
 <tr class="separator:a03a4b7206e36203a4b4398c9c5ec32a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22fbe0c5fcacc1c4ca9df6ea00a749e1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classFont.html">Font</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a22fbe0c5fcacc1c4ca9df6ea00a749e1">getMenuBarFont</a> (<a class="el" href="classMenuBarComponent.html">MenuBarComponent</a> &amp;menuBar, int itemIndex, const <a class="el" href="classString.html">String</a> &amp;itemText)</td></tr>
 <tr class="separator:a22fbe0c5fcacc1c4ca9df6ea00a749e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4c4834d321b9489a702bb23de791a2f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#aa4c4834d321b9489a702bb23de791a2f">drawMenuBarItem</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height, int itemIndex, const <a class="el" href="classString.html">String</a> &amp;itemText, bool isMouseOverItem, bool isMenuOpen, bool isMouseOverBar, <a class="el" href="classMenuBarComponent.html">MenuBarComponent</a> &amp;menuBar)</td></tr>
-<tr class="separator:aa4c4834d321b9489a702bb23de791a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6374b412f3dc81090012716e447b2916"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a6374b412f3dc81090012716e447b2916">drawComboBox</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height, bool isButtonDown, int buttonX, int buttonY, int buttonW, int buttonH, <a class="el" href="classComboBox.html">ComboBox</a> &amp;box)</td></tr>
-<tr class="separator:a6374b412f3dc81090012716e447b2916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57733a339f9d53752ce76585f701e2dd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a57733a339f9d53752ce76585f701e2dd">drawMenuBarItem</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, int itemIndex, const <a class="el" href="classString.html">String</a> &amp;itemText, bool isMouseOverItem, bool isMenuOpen, bool isMouseOverBar, <a class="el" href="classMenuBarComponent.html">MenuBarComponent</a> &amp;menuBar)</td></tr>
+<tr class="separator:a57733a339f9d53752ce76585f701e2dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5815ec8d3e8cc5b0ea538e121bf6a241"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a5815ec8d3e8cc5b0ea538e121bf6a241">drawComboBox</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, bool isButtonDown, int buttonX, int buttonY, int buttonW, int buttonH, <a class="el" href="classComboBox.html">ComboBox</a> &amp;box)</td></tr>
+<tr class="separator:a5815ec8d3e8cc5b0ea538e121bf6a241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9219da27d978cc6d3675789ccbafc888"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classFont.html">Font</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a9219da27d978cc6d3675789ccbafc888">getComboBoxFont</a> (<a class="el" href="classComboBox.html">ComboBox</a> &amp;box)</td></tr>
 <tr class="separator:a9219da27d978cc6d3675789ccbafc888"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4ee56424e5b369ba7188deb20ee3326"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classLabel.html">Label</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ae4ee56424e5b369ba7188deb20ee3326">createComboBoxTextBox</a> (<a class="el" href="classComboBox.html">ComboBox</a> &amp;box)</td></tr>
@@ -244,16 +246,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab417a8e8143e2a2d84f6618f0df03266"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56a14e04d4b153098fe50b19c57ff3de"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classFont.html">Font</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a56a14e04d4b153098fe50b19c57ff3de">getLabelFont</a> (<a class="el" href="classLabel.html">Label</a> &amp;)</td></tr>
 <tr class="separator:a56a14e04d4b153098fe50b19c57ff3de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6476217b0367fe42cca0e8a8beb401d5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a6476217b0367fe42cca0e8a8beb401d5">drawLinearSlider</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int x, int y, int width, int height, float sliderPos, float minSliderPos, float maxSliderPos, const <a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888">Slider::SliderStyle</a> style, <a class="el" href="classSlider.html">Slider</a> &amp;slider)</td></tr>
-<tr class="separator:a6476217b0367fe42cca0e8a8beb401d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd9d8b992c754e7730bf802865e4a8e4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#afd9d8b992c754e7730bf802865e4a8e4">drawLinearSliderBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int x, int y, int width, int height, float sliderPos, float minSliderPos, float maxSliderPos, const <a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888">Slider::SliderStyle</a> style, <a class="el" href="classSlider.html">Slider</a> &amp;slider)</td></tr>
-<tr class="separator:afd9d8b992c754e7730bf802865e4a8e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5f3eac6860c4cbdee2d8f71c7952381"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#aa5f3eac6860c4cbdee2d8f71c7952381">drawLinearSliderThumb</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int x, int y, int width, int height, float sliderPos, float minSliderPos, float maxSliderPos, const <a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888">Slider::SliderStyle</a> style, <a class="el" href="classSlider.html">Slider</a> &amp;slider)</td></tr>
-<tr class="separator:aa5f3eac6860c4cbdee2d8f71c7952381"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65179119cf8a0b6f9c7841afcba63f96"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a65179119cf8a0b6f9c7841afcba63f96">drawLinearSlider</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int x, int y, int width, int height, float sliderPos, float minSliderPos, float maxSliderPos, const <a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888">Slider::SliderStyle</a> style, <a class="el" href="classSlider.html">Slider</a> &amp;slider)</td></tr>
+<tr class="separator:a65179119cf8a0b6f9c7841afcba63f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a3130cb386fd611dd050b3a2be64e70"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a4a3130cb386fd611dd050b3a2be64e70">drawLinearSliderBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int x, int y, int width, int height, float sliderPos, float minSliderPos, float maxSliderPos, const <a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888">Slider::SliderStyle</a> style, <a class="el" href="classSlider.html">Slider</a> &amp;slider)</td></tr>
+<tr class="separator:a4a3130cb386fd611dd050b3a2be64e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca70d5d140b2787881e85931662a53a2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#aca70d5d140b2787881e85931662a53a2">drawLinearSliderThumb</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int x, int y, int width, int height, float sliderPos, float minSliderPos, float maxSliderPos, const <a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888">Slider::SliderStyle</a> style, <a class="el" href="classSlider.html">Slider</a> &amp;slider)</td></tr>
+<tr class="separator:aca70d5d140b2787881e85931662a53a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3431247f022a5abd39de55fed9b35a29"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a3431247f022a5abd39de55fed9b35a29">getSliderThumbRadius</a> (<a class="el" href="classSlider.html">Slider</a> &amp;slider)</td></tr>
 <tr class="separator:a3431247f022a5abd39de55fed9b35a29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06a712a86cf11099ee0495f416e7761e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a06a712a86cf11099ee0495f416e7761e">drawRotarySlider</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int x, int y, int width, int height, float sliderPosProportional, float rotaryStartAngle, float rotaryEndAngle, <a class="el" href="classSlider.html">Slider</a> &amp;slider)</td></tr>
-<tr class="separator:a06a712a86cf11099ee0495f416e7761e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ccd9078ca832ab9372d3a448984dc3a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a4ccd9078ca832ab9372d3a448984dc3a">drawRotarySlider</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int x, int y, int width, int height, float sliderPosProportional, float rotaryStartAngle, float rotaryEndAngle, <a class="el" href="classSlider.html">Slider</a> &amp;slider)</td></tr>
+<tr class="separator:a4ccd9078ca832ab9372d3a448984dc3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8936bfac6c30ca3bfc02b8717c78724c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classButton.html">Button</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a8936bfac6c30ca3bfc02b8717c78724c">createSliderButton</a> (bool isIncrement)</td></tr>
 <tr class="separator:a8936bfac6c30ca3bfc02b8717c78724c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb1eb68e3421cf3dcea9b3d4204d2e2e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classLabel.html">Label</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#afb1eb68e3421cf3dcea9b3d4204d2e2e">createSliderTextBox</a> (<a class="el" href="classSlider.html">Slider</a> &amp;slider)</td></tr>
@@ -266,24 +268,24 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a136cd7972cc336b87b9a28f30e2df150"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a44cc3dd7f4e47b6b3450bd833c7ac1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a3a44cc3dd7f4e47b6b3450bd833c7ac1">getTooltipSize</a> (const <a class="el" href="classString.html">String</a> &amp;tipText, int &amp;width, int &amp;height)</td></tr>
 <tr class="separator:a3a44cc3dd7f4e47b6b3450bd833c7ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6facc42a5b70d48c9c6706ae06b1c766"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a6facc42a5b70d48c9c6706ae06b1c766">drawTooltip</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, const <a class="el" href="classString.html">String</a> &amp;text, int width, int height)</td></tr>
-<tr class="separator:a6facc42a5b70d48c9c6706ae06b1c766"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32db9484deb66a5f90c78bcd6301ceda"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a32db9484deb66a5f90c78bcd6301ceda">drawTooltip</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, const <a class="el" href="classString.html">String</a> &amp;text, int width, int height)</td></tr>
+<tr class="separator:a32db9484deb66a5f90c78bcd6301ceda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae14685e5b684de2c1a86b0bb774f25de"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classButton.html">Button</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ae14685e5b684de2c1a86b0bb774f25de">createFilenameComponentBrowseButton</a> (const <a class="el" href="classString.html">String</a> &amp;text)</td></tr>
 <tr class="separator:ae14685e5b684de2c1a86b0bb774f25de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a812441cc621a83202e9e7381e696c55c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a812441cc621a83202e9e7381e696c55c">layoutFilenameComponent</a> (<a class="el" href="classFilenameComponent.html">FilenameComponent</a> &amp;filenameComp, <a class="el" href="classComboBox.html">ComboBox</a> *filenameBox, <a class="el" href="classButton.html">Button</a> *browseButton)</td></tr>
 <tr class="separator:a812441cc621a83202e9e7381e696c55c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab391976d73d53b45634af1b3994ce4dd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ab391976d73d53b45634af1b3994ce4dd">drawConcertinaPanelHeader</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;area, bool isMouseOver, bool isMouseDown, <a class="el" href="classConcertinaPanel.html">ConcertinaPanel</a> &amp;concertina, <a class="el" href="classComponent.html">Component</a> &amp;panel)</td></tr>
-<tr class="separator:ab391976d73d53b45634af1b3994ce4dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad88c6a610b71f207cbe1ddf894e33f38"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ad88c6a610b71f207cbe1ddf894e33f38">drawCornerResizer</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int w, int h, bool isMouseOver, bool isMouseDragging)</td></tr>
-<tr class="separator:ad88c6a610b71f207cbe1ddf894e33f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a820e063514836b73d77f5a6c8ead8080"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a820e063514836b73d77f5a6c8ead8080">drawResizableFrame</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int w, int h, const <a class="el" href="classBorderSize.html">BorderSize</a>&lt; int &gt; &amp;borders)</td></tr>
-<tr class="separator:a820e063514836b73d77f5a6c8ead8080"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3361de82e5142493bde5bf5c5550d270"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a3361de82e5142493bde5bf5c5550d270">fillResizableWindowBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int w, int h, const <a class="el" href="classBorderSize.html">BorderSize</a>&lt; int &gt; &amp;border, <a class="el" href="classResizableWindow.html">ResizableWindow</a> &amp;window)</td></tr>
-<tr class="separator:a3361de82e5142493bde5bf5c5550d270"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59f7eba4f67fe140320a854033154b50"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a59f7eba4f67fe140320a854033154b50">drawResizableWindowBorder</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int w, int h, const <a class="el" href="classBorderSize.html">BorderSize</a>&lt; int &gt; &amp;border, <a class="el" href="classResizableWindow.html">ResizableWindow</a> &amp;window)</td></tr>
-<tr class="separator:a59f7eba4f67fe140320a854033154b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41b7ba1e8cfdf0532eecf76f32322c62"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a41b7ba1e8cfdf0532eecf76f32322c62">drawDocumentWindowTitleBar</a> (<a class="el" href="classDocumentWindow.html">DocumentWindow</a> &amp;window, <a class="el" href="classGraphics.html">Graphics</a> &amp;g, int w, int h, int titleSpaceX, int titleSpaceW, const <a class="el" href="classImage.html">Image</a> *icon, bool drawTitleTextOnLeft)</td></tr>
-<tr class="separator:a41b7ba1e8cfdf0532eecf76f32322c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09f4504e6f071e70a064cbb76b6ce892"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a09f4504e6f071e70a064cbb76b6ce892">drawConcertinaPanelHeader</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;area, bool isMouseOver, bool isMouseDown, <a class="el" href="classConcertinaPanel.html">ConcertinaPanel</a> &amp;, <a class="el" href="classComponent.html">Component</a> &amp;panel)</td></tr>
+<tr class="separator:a09f4504e6f071e70a064cbb76b6ce892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a671d9bbd5387a5e6bdcf2cf553d459f6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a671d9bbd5387a5e6bdcf2cf553d459f6">drawCornerResizer</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int w, int h, bool isMouseOver, bool isMouseDragging)</td></tr>
+<tr class="separator:a671d9bbd5387a5e6bdcf2cf553d459f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2c5f715ad25aea1850d7f3d7aaa1121"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ab2c5f715ad25aea1850d7f3d7aaa1121">drawResizableFrame</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int w, int h, const <a class="el" href="classBorderSize.html">BorderSize</a>&lt; int &gt; &amp;)</td></tr>
+<tr class="separator:ab2c5f715ad25aea1850d7f3d7aaa1121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a386cbc50c529ce5111d00fc2e705916b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a386cbc50c529ce5111d00fc2e705916b">fillResizableWindowBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int w, int h, const <a class="el" href="classBorderSize.html">BorderSize</a>&lt; int &gt; &amp;, <a class="el" href="classResizableWindow.html">ResizableWindow</a> &amp;window)</td></tr>
+<tr class="separator:a386cbc50c529ce5111d00fc2e705916b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a831e4aec1bfa9dc8bb2ac05dbf0222e7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a831e4aec1bfa9dc8bb2ac05dbf0222e7">drawResizableWindowBorder</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int w, int h, const <a class="el" href="classBorderSize.html">BorderSize</a>&lt; int &gt; &amp;border, <a class="el" href="classResizableWindow.html">ResizableWindow</a> &amp;window)</td></tr>
+<tr class="separator:a831e4aec1bfa9dc8bb2ac05dbf0222e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a967bf0f7c975618f938c72e5953bcf2e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a967bf0f7c975618f938c72e5953bcf2e">drawDocumentWindowTitleBar</a> (<a class="el" href="classDocumentWindow.html">DocumentWindow</a> &amp;window, <a class="el" href="classGraphics.html">Graphics</a> &amp;, int w, int h, int titleSpaceX, int titleSpaceW, const <a class="el" href="classImage.html">Image</a> *icon, bool drawTitleTextOnLeft)</td></tr>
+<tr class="separator:a967bf0f7c975618f938c72e5953bcf2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95a790d5f1be2ac8a3abf1f75ef5f001"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classButton.html">Button</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a95a790d5f1be2ac8a3abf1f75ef5f001">createDocumentWindowButton</a> (int buttonType)</td></tr>
 <tr class="separator:a95a790d5f1be2ac8a3abf1f75ef5f001"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f49a6578f85f27e457cba06a4e3a915"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a6f49a6578f85f27e457cba06a4e3a915">positionDocumentWindowButtons</a> (<a class="el" href="classDocumentWindow.html">DocumentWindow</a> &amp;window, int titleBarX, int titleBarY, int titleBarW, int titleBarH, <a class="el" href="classButton.html">Button</a> *minimiseButton, <a class="el" href="classButton.html">Button</a> *maximiseButton, <a class="el" href="classButton.html">Button</a> *closeButton, bool positionTitleBarButtonsOnLeft)</td></tr>
@@ -292,10 +294,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afbb9c7a455f188ac30ae4dac354cce8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2482b209dec9f86c0f2ddc249d8b77c9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classDropShadower.html">DropShadower</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a2482b209dec9f86c0f2ddc249d8b77c9">createDropShadowerForComponent</a> (<a class="el" href="classComponent.html">Component</a> *component)</td></tr>
 <tr class="separator:a2482b209dec9f86c0f2ddc249d8b77c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22dd269f6b66f077f1699dc23a001d3f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a22dd269f6b66f077f1699dc23a001d3f">drawStretchableLayoutResizerBar</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int w, int h, bool isVerticalBar, bool isMouseOver, bool isMouseDragging)</td></tr>
-<tr class="separator:a22dd269f6b66f077f1699dc23a001d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e8170460cb6ce0c373447232f05cfb6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a4e8170460cb6ce0c373447232f05cfb6">drawGroupComponentOutline</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int w, int h, const <a class="el" href="classString.html">String</a> &amp;text, const <a class="el" href="classJustification.html">Justification</a> &amp;position, <a class="el" href="classGroupComponent.html">GroupComponent</a> &amp;group)</td></tr>
-<tr class="separator:a4e8170460cb6ce0c373447232f05cfb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e0a9e0aa22237c24d20c739888cfa54"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a1e0a9e0aa22237c24d20c739888cfa54">drawStretchableLayoutResizerBar</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int w, int h, bool isVerticalBar, bool isMouseOver, bool isMouseDragging)</td></tr>
+<tr class="separator:a1e0a9e0aa22237c24d20c739888cfa54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85fbed6a3614ea3f162e68ae66280c94"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a85fbed6a3614ea3f162e68ae66280c94">drawGroupComponentOutline</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int w, int h, const <a class="el" href="classString.html">String</a> &amp;text, const <a class="el" href="classJustification.html">Justification</a> &amp;position, <a class="el" href="classGroupComponent.html">GroupComponent</a> &amp;group)</td></tr>
+<tr class="separator:a85fbed6a3614ea3f162e68ae66280c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a25d9b9d0aa131940ac3c48ac46811e"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a3a25d9b9d0aa131940ac3c48ac46811e">getTabButtonSpaceAroundImage</a> ()</td></tr>
 <tr class="separator:a3a25d9b9d0aa131940ac3c48ac46811e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b2f6ab233f29beeb4b66225e14a5e3f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a9b2f6ab233f29beeb4b66225e14a5e3f">getTabButtonOverlap</a> (int tabDepth)</td></tr>
@@ -304,46 +306,48 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeaf1606cd94cdb99ddaa681f31b3f5c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a002930258d993a4e34e9e340b157ce3f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a002930258d993a4e34e9e340b157ce3f">getTabButtonExtraComponentBounds</a> (const <a class="el" href="classTabBarButton.html">TabBarButton</a> &amp;, <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;textArea, <a class="el" href="classComponent.html">Component</a> &amp;extraComp)</td></tr>
 <tr class="separator:a002930258d993a4e34e9e340b157ce3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a212012b2c9653354e8ad3b62c649f9d3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a212012b2c9653354e8ad3b62c649f9d3">drawTabButton</a> (<a class="el" href="classTabBarButton.html">TabBarButton</a> &amp;, <a class="el" href="classGraphics.html">Graphics</a> &amp;g, bool isMouseOver, bool isMouseDown)</td></tr>
-<tr class="separator:a212012b2c9653354e8ad3b62c649f9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a522651374ac3ca5efc481da9ca41ccbf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a522651374ac3ca5efc481da9ca41ccbf">drawTabButtonText</a> (<a class="el" href="classTabBarButton.html">TabBarButton</a> &amp;, <a class="el" href="classGraphics.html">Graphics</a> &amp;g, bool isMouseOver, bool isMouseDown)</td></tr>
-<tr class="separator:a522651374ac3ca5efc481da9ca41ccbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19062b841dc84ec7cd8d7946b0535868"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a19062b841dc84ec7cd8d7946b0535868">drawTabAreaBehindFrontButton</a> (<a class="el" href="classTabbedButtonBar.html">TabbedButtonBar</a> &amp;, <a class="el" href="classGraphics.html">Graphics</a> &amp;g, int w, int h)</td></tr>
-<tr class="separator:a19062b841dc84ec7cd8d7946b0535868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44163af0be92235d5e86dbcccdd2ef72"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a44163af0be92235d5e86dbcccdd2ef72">drawTabButton</a> (<a class="el" href="classTabBarButton.html">TabBarButton</a> &amp;, <a class="el" href="classGraphics.html">Graphics</a> &amp;, bool isMouseOver, bool isMouseDown)</td></tr>
+<tr class="separator:a44163af0be92235d5e86dbcccdd2ef72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66e6e67d5b7c0361d729aacedb652511"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a66e6e67d5b7c0361d729aacedb652511">drawTabButtonText</a> (<a class="el" href="classTabBarButton.html">TabBarButton</a> &amp;, <a class="el" href="classGraphics.html">Graphics</a> &amp;, bool isMouseOver, bool isMouseDown)</td></tr>
+<tr class="separator:a66e6e67d5b7c0361d729aacedb652511"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06fbc86db0e819fa4f9034a53c100aae"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a06fbc86db0e819fa4f9034a53c100aae">drawTabbedButtonBarBackground</a> (<a class="el" href="classTabbedButtonBar.html">TabbedButtonBar</a> &amp;, <a class="el" href="classGraphics.html">Graphics</a> &amp;)</td></tr>
+<tr class="separator:a06fbc86db0e819fa4f9034a53c100aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40fc43ba0aae0fc2551ed3acde3b16e5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a40fc43ba0aae0fc2551ed3acde3b16e5">drawTabAreaBehindFrontButton</a> (<a class="el" href="classTabbedButtonBar.html">TabbedButtonBar</a> &amp;, <a class="el" href="classGraphics.html">Graphics</a> &amp;, int w, int h)</td></tr>
+<tr class="separator:a40fc43ba0aae0fc2551ed3acde3b16e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9735921d520b85e84be3e64e5d770db"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ae9735921d520b85e84be3e64e5d770db">createTabButtonShape</a> (<a class="el" href="classTabBarButton.html">TabBarButton</a> &amp;, <a class="el" href="classPath.html">Path</a> &amp;path, bool isMouseOver, bool isMouseDown)</td></tr>
 <tr class="separator:ae9735921d520b85e84be3e64e5d770db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58f507d0cae1da1b1f83c57775ec9db9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a58f507d0cae1da1b1f83c57775ec9db9">fillTabButtonShape</a> (<a class="el" href="classTabBarButton.html">TabBarButton</a> &amp;, <a class="el" href="classGraphics.html">Graphics</a> &amp;g, const <a class="el" href="classPath.html">Path</a> &amp;path, bool isMouseOver, bool isMouseDown)</td></tr>
-<tr class="separator:a58f507d0cae1da1b1f83c57775ec9db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c3a90db4fdf06e0e2f36be6cf209e79"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a1c3a90db4fdf06e0e2f36be6cf209e79">fillTabButtonShape</a> (<a class="el" href="classTabBarButton.html">TabBarButton</a> &amp;, <a class="el" href="classGraphics.html">Graphics</a> &amp;, const <a class="el" href="classPath.html">Path</a> &amp;path, bool isMouseOver, bool isMouseDown)</td></tr>
+<tr class="separator:a1c3a90db4fdf06e0e2f36be6cf209e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af390796715eb21445893f5d895714c95"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classButton.html">Button</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#af390796715eb21445893f5d895714c95">createTabBarExtrasButton</a> ()</td></tr>
 <tr class="separator:af390796715eb21445893f5d895714c95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5e490ef83db662ec7be31c759bfc199"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#aa5e490ef83db662ec7be31c759bfc199">drawImageButton</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, <a class="el" href="classImage.html">Image</a> *image, int imageX, int imageY, int imageW, int imageH, const <a class="el" href="classColour.html">Colour</a> &amp;overlayColour, float imageOpacity, <a class="el" href="classImageButton.html">ImageButton</a> &amp;button)</td></tr>
-<tr class="separator:aa5e490ef83db662ec7be31c759bfc199"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3978bacd83746fa52fe8b6ca301fbc0e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a3978bacd83746fa52fe8b6ca301fbc0e">drawTableHeaderBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, <a class="el" href="classTableHeaderComponent.html">TableHeaderComponent</a> &amp;header)</td></tr>
-<tr class="separator:a3978bacd83746fa52fe8b6ca301fbc0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a402d9884ebdfc8464be986ce056651a0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a402d9884ebdfc8464be986ce056651a0">drawTableHeaderColumn</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, const <a class="el" href="classString.html">String</a> &amp;columnName, int columnId, int width, int height, bool isMouseOver, bool isMouseDown, int columnFlags)</td></tr>
-<tr class="separator:a402d9884ebdfc8464be986ce056651a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afadb0bbb5a0272263a0de37c5756d100"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#afadb0bbb5a0272263a0de37c5756d100">paintToolbarBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height, <a class="el" href="classToolbar.html">Toolbar</a> &amp;toolbar)</td></tr>
-<tr class="separator:afadb0bbb5a0272263a0de37c5756d100"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93321a80d8334c69b8bcd1f3c8f14d7c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a93321a80d8334c69b8bcd1f3c8f14d7c">drawImageButton</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, <a class="el" href="classImage.html">Image</a> *image, int imageX, int imageY, int imageW, int imageH, const <a class="el" href="classColour.html">Colour</a> &amp;overlayColour, float imageOpacity, <a class="el" href="classImageButton.html">ImageButton</a> &amp;button)</td></tr>
+<tr class="separator:a93321a80d8334c69b8bcd1f3c8f14d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a499789b3cf7a321cf8b402068f87232c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a499789b3cf7a321cf8b402068f87232c">drawTableHeaderBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, <a class="el" href="classTableHeaderComponent.html">TableHeaderComponent</a> &amp;)</td></tr>
+<tr class="separator:a499789b3cf7a321cf8b402068f87232c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d4f45599b12ac6ae7917ff6ac01fea3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a8d4f45599b12ac6ae7917ff6ac01fea3">drawTableHeaderColumn</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, const <a class="el" href="classString.html">String</a> &amp;columnName, int columnId, int width, int height, bool isMouseOver, bool isMouseDown, int columnFlags)</td></tr>
+<tr class="separator:a8d4f45599b12ac6ae7917ff6ac01fea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89ee234adb80489690e97eb7a381dc4f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a89ee234adb80489690e97eb7a381dc4f">paintToolbarBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, <a class="el" href="classToolbar.html">Toolbar</a> &amp;toolbar)</td></tr>
+<tr class="separator:a89ee234adb80489690e97eb7a381dc4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaadbaa034de45111397987b70d41c426"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classButton.html">Button</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#aaadbaa034de45111397987b70d41c426">createToolbarMissingItemsButton</a> (<a class="el" href="classToolbar.html">Toolbar</a> &amp;toolbar)</td></tr>
 <tr class="separator:aaadbaa034de45111397987b70d41c426"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a144d7350c3d57fb1f17c49a34b3b674f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a144d7350c3d57fb1f17c49a34b3b674f">paintToolbarButtonBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height, bool isMouseOver, bool isMouseDown, <a class="el" href="classToolbarItemComponent.html">ToolbarItemComponent</a> &amp;component)</td></tr>
-<tr class="separator:a144d7350c3d57fb1f17c49a34b3b674f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5b59d072b7c89510cc866f950458d8b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ac5b59d072b7c89510cc866f950458d8b">paintToolbarButtonLabel</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int x, int y, int width, int height, const <a class="el" href="classString.html">String</a> &amp;text, <a class="el" href="classToolbarItemComponent.html">ToolbarItemComponent</a> &amp;component)</td></tr>
-<tr class="separator:ac5b59d072b7c89510cc866f950458d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a977fc8156a5eca5ab95cd1904f3599bd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a977fc8156a5eca5ab95cd1904f3599bd">drawPropertyPanelSectionHeader</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, const <a class="el" href="classString.html">String</a> &amp;name, bool isOpen, int width, int height)</td></tr>
-<tr class="separator:a977fc8156a5eca5ab95cd1904f3599bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e119b58dcd08d39c4775b0079d97a25"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a4e119b58dcd08d39c4775b0079d97a25">drawPropertyComponentBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height, <a class="el" href="classPropertyComponent.html">PropertyComponent</a> &amp;component)</td></tr>
-<tr class="separator:a4e119b58dcd08d39c4775b0079d97a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a836de65af6c2fc67e08492acb9e7876a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a836de65af6c2fc67e08492acb9e7876a">drawPropertyComponentLabel</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height, <a class="el" href="classPropertyComponent.html">PropertyComponent</a> &amp;component)</td></tr>
-<tr class="separator:a836de65af6c2fc67e08492acb9e7876a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33ad2ccf9f5cfd9e1db913044a942395"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a33ad2ccf9f5cfd9e1db913044a942395">paintToolbarButtonBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, bool isMouseOver, bool isMouseDown, <a class="el" href="classToolbarItemComponent.html">ToolbarItemComponent</a> &amp;component)</td></tr>
+<tr class="separator:a33ad2ccf9f5cfd9e1db913044a942395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abab6e8134aeabeab9b39c04d75847280"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#abab6e8134aeabeab9b39c04d75847280">paintToolbarButtonLabel</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int x, int y, int width, int height, const <a class="el" href="classString.html">String</a> &amp;text, <a class="el" href="classToolbarItemComponent.html">ToolbarItemComponent</a> &amp;component)</td></tr>
+<tr class="separator:abab6e8134aeabeab9b39c04d75847280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3b4d709210be306df35668dc2f68da1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#aa3b4d709210be306df35668dc2f68da1">drawPropertyPanelSectionHeader</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, const <a class="el" href="classString.html">String</a> &amp;name, bool isOpen, int width, int height)</td></tr>
+<tr class="separator:aa3b4d709210be306df35668dc2f68da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab92cff74a27752bfcda60c90c3fb0bff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ab92cff74a27752bfcda60c90c3fb0bff">drawPropertyComponentBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, <a class="el" href="classPropertyComponent.html">PropertyComponent</a> &amp;component)</td></tr>
+<tr class="separator:ab92cff74a27752bfcda60c90c3fb0bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f2d765e2db174c0bf856248d203b8ed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a1f2d765e2db174c0bf856248d203b8ed">drawPropertyComponentLabel</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, <a class="el" href="classPropertyComponent.html">PropertyComponent</a> &amp;component)</td></tr>
+<tr class="separator:a1f2d765e2db174c0bf856248d203b8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfaba2582e895d244b7979f19669bb60"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#adfaba2582e895d244b7979f19669bb60">getPropertyComponentContentPosition</a> (<a class="el" href="classPropertyComponent.html">PropertyComponent</a> &amp;component)</td></tr>
 <tr class="separator:adfaba2582e895d244b7979f19669bb60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79fb6d93814ac47ab77ee9c4cd65b72a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a79fb6d93814ac47ab77ee9c4cd65b72a">drawCallOutBoxBackground</a> (<a class="el" href="classCallOutBox.html">CallOutBox</a> &amp;box, <a class="el" href="classGraphics.html">Graphics</a> &amp;g, const <a class="el" href="classPath.html">Path</a> &amp;path, <a class="el" href="classImage.html">Image</a> &amp;cachedImage)</td></tr>
-<tr class="separator:a79fb6d93814ac47ab77ee9c4cd65b72a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5baa8963b51fbd5bb4df6657ed8760f0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a5baa8963b51fbd5bb4df6657ed8760f0">drawLevelMeter</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height, float level)</td></tr>
-<tr class="separator:a5baa8963b51fbd5bb4df6657ed8760f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a8bfac538ddc28e73496c26d963638e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a8a8bfac538ddc28e73496c26d963638e">drawKeymapChangeButton</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height, <a class="el" href="classButton.html">Button</a> &amp;button, const <a class="el" href="classString.html">String</a> &amp;keyDescription)</td></tr>
-<tr class="separator:a8a8bfac538ddc28e73496c26d963638e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b912364065b2ab0071f87db5a719317"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a3b912364065b2ab0071f87db5a719317">drawCallOutBoxBackground</a> (<a class="el" href="classCallOutBox.html">CallOutBox</a> &amp;box, <a class="el" href="classGraphics.html">Graphics</a> &amp;, const <a class="el" href="classPath.html">Path</a> &amp;path, <a class="el" href="classImage.html">Image</a> &amp;cachedImage)</td></tr>
+<tr class="separator:a3b912364065b2ab0071f87db5a719317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a272f680445516fd77a7486daba51e068"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a272f680445516fd77a7486daba51e068">drawLevelMeter</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, float level)</td></tr>
+<tr class="separator:a272f680445516fd77a7486daba51e068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52c3048fc05bb4fd74b40e324a196238"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a52c3048fc05bb4fd74b40e324a196238">drawKeymapChangeButton</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, <a class="el" href="classButton.html">Button</a> &amp;button, const <a class="el" href="classString.html">String</a> &amp;keyDescription)</td></tr>
+<tr class="separator:a52c3048fc05bb4fd74b40e324a196238"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8619d01580cde12075b229490ab2f97"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ac8619d01580cde12075b229490ab2f97">playAlertSound</a> ()</td></tr>
 <tr class="memdesc:ac8619d01580cde12075b229490ab2f97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plays the system's default 'beep' noise, to alert the user about something very important.  <a href="#ac8619d01580cde12075b229490ab2f97"></a><br/></td></tr>
 <tr class="separator:ac8619d01580cde12075b229490ab2f97"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -356,17 +360,17 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0d2cc7f39cb3804d68a6fd2a723d05a4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a0d2cc7f39cb3804d68a6fd2a723d05a4">setDefaultLookAndFeel</a> (<a class="el" href="classLookAndFeel.html">LookAndFeel</a> *newDefaultLookAndFeel) noexcept</td></tr>
 <tr class="memdesc:a0d2cc7f39cb3804d68a6fd2a723d05a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the default look-and-feel.  <a href="#a0d2cc7f39cb3804d68a6fd2a723d05a4"></a><br/></td></tr>
 <tr class="separator:a0d2cc7f39cb3804d68a6fd2a723d05a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addc0f5a5cd49d029aefd940c9add6f64"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#addc0f5a5cd49d029aefd940c9add6f64">drawBevel</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int x, int y, int width, int height, int bevelThickness, const <a class="el" href="classColour.html">Colour</a> &amp;topLeftColour=<a class="el" href="classColours.html#a9e57055bbdf8261e776d2ea8bb44514a">Colours::white</a>, const <a class="el" href="classColour.html">Colour</a> &amp;bottomRightColour=<a class="el" href="classColours.html#aad3910013bf00a80305c082284cd5ee2">Colours::black</a>, bool useGradient=true, bool sharpEdgeOnOutside=true)</td></tr>
-<tr class="memdesc:addc0f5a5cd49d029aefd940c9add6f64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a 3D raised (or indented) bevel using two colours.  <a href="#addc0f5a5cd49d029aefd940c9add6f64"></a><br/></td></tr>
-<tr class="separator:addc0f5a5cd49d029aefd940c9add6f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a142965689add97c69601ad683ac11776"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a142965689add97c69601ad683ac11776">drawGlassSphere</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, float x, float y, float diameter, const <a class="el" href="classColour.html">Colour</a> &amp;colour, float outlineThickness) noexcept</td></tr>
-<tr class="memdesc:a142965689add97c69601ad683ac11776"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to draw a shiny, glassy circle (for round LED-type buttons).  <a href="#a142965689add97c69601ad683ac11776"></a><br/></td></tr>
-<tr class="separator:a142965689add97c69601ad683ac11776"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c29db9b4bba12d424123bf2fb3be984"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a1c29db9b4bba12d424123bf2fb3be984">drawGlassPointer</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, float x, float y, float diameter, const <a class="el" href="classColour.html">Colour</a> &amp;colour, float outlineThickness, int direction) noexcept</td></tr>
-<tr class="separator:a1c29db9b4bba12d424123bf2fb3be984"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b6848846b18a5855bc9ee6720a7d6f2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a0b6848846b18a5855bc9ee6720a7d6f2">drawGlassLozenge</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, float x, float y, float width, float height, const <a class="el" href="classColour.html">Colour</a> &amp;colour, float outlineThickness, float cornerSize, bool flatOnLeft, bool flatOnRight, bool flatOnTop, bool flatOnBottom) noexcept</td></tr>
-<tr class="memdesc:a0b6848846b18a5855bc9ee6720a7d6f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to draw a shiny, glassy oblong (for text buttons).  <a href="#a0b6848846b18a5855bc9ee6720a7d6f2"></a><br/></td></tr>
-<tr class="separator:a0b6848846b18a5855bc9ee6720a7d6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa325a05fbe3929523cf76e3652fdcad9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#aa325a05fbe3929523cf76e3652fdcad9">drawBevel</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int x, int y, int width, int height, int bevelThickness, const <a class="el" href="classColour.html">Colour</a> &amp;topLeftColour=<a class="el" href="classColours.html#a9e57055bbdf8261e776d2ea8bb44514a">Colours::white</a>, const <a class="el" href="classColour.html">Colour</a> &amp;bottomRightColour=<a class="el" href="classColours.html#aad3910013bf00a80305c082284cd5ee2">Colours::black</a>, bool useGradient=true, bool sharpEdgeOnOutside=true)</td></tr>
+<tr class="memdesc:aa325a05fbe3929523cf76e3652fdcad9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a 3D raised (or indented) bevel using two colours.  <a href="#aa325a05fbe3929523cf76e3652fdcad9"></a><br/></td></tr>
+<tr class="separator:aa325a05fbe3929523cf76e3652fdcad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a687e50b04b49327bfb3c5a80dfea715c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a687e50b04b49327bfb3c5a80dfea715c">drawGlassSphere</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, float x, float y, float diameter, const <a class="el" href="classColour.html">Colour</a> &amp;colour, float outlineThickness) noexcept</td></tr>
+<tr class="memdesc:a687e50b04b49327bfb3c5a80dfea715c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to draw a shiny, glassy circle (for round LED-type buttons).  <a href="#a687e50b04b49327bfb3c5a80dfea715c"></a><br/></td></tr>
+<tr class="separator:a687e50b04b49327bfb3c5a80dfea715c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32194bdd792c74d3c435954a3bbd135f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a32194bdd792c74d3c435954a3bbd135f">drawGlassPointer</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, float x, float y, float diameter, const <a class="el" href="classColour.html">Colour</a> &amp;colour, float outlineThickness, int direction) noexcept</td></tr>
+<tr class="separator:a32194bdd792c74d3c435954a3bbd135f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98cff875204ad1fbba1e32257d2d6d44"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a98cff875204ad1fbba1e32257d2d6d44">drawGlassLozenge</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, float x, float y, float width, float height, const <a class="el" href="classColour.html">Colour</a> &amp;colour, float outlineThickness, float cornerSize, bool flatOnLeft, bool flatOnRight, bool flatOnTop, bool flatOnBottom) noexcept</td></tr>
+<tr class="memdesc:a98cff875204ad1fbba1e32257d2d6d44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to draw a shiny, glassy oblong (for text buttons).  <a href="#a98cff875204ad1fbba1e32257d2d6d44"></a><br/></td></tr>
+<tr class="separator:a98cff875204ad1fbba1e32257d2d6d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1a42e3c43a627166232deb268dcd81b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classDrawable.html">Drawable</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ac1a42e3c43a627166232deb268dcd81b">loadDrawableFromData</a> (const void *data, size_t numBytes)</td></tr>
 <tr class="separator:ac1a42e3c43a627166232deb268dcd81b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -569,7 +573,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9f0db849b384fb22137023583167f419"></a>
+<a class="anchor" id="a6f6e6d84ba7ab714bdb41ad30fd36e19"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -577,7 +581,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const <a class="el" href="classTypeface.html#a13053be679c87b7a72963e9ce60e34c9">Typeface::Ptr</a> LookAndFeel::getTypefaceForFont </td>
+          <td class="memname">virtual <a class="el" href="classTypeface.html#a13053be679c87b7a72963e9ce60e34c9">Typeface::Ptr</a> LookAndFeel::getTypefaceForFont </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classFont.html">Font</a> &amp;&#160;</td>
           <td class="paramname"><em>font</em></td><td>)</td>
@@ -608,7 +612,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Allows you to change the default sans-serif font. </p>
-<p>If you need to supply your own <a class="el" href="classTypeface.html" title="A typeface represents a size-independent font.">Typeface</a> object for any of the default fonts, rather than just supplying the name (e.g. if you want to use an embedded font), then you should instead override <a class="el" href="classLookAndFeel.html#a9f0db849b384fb22137023583167f419">getTypefaceForFont()</a> to create and return the typeface. </p>
+<p>If you need to supply your own <a class="el" href="classTypeface.html" title="A typeface represents a size-independent font.">Typeface</a> object for any of the default fonts, rather than just supplying the name (e.g. if you want to use an embedded font), then you should instead override <a class="el" href="classLookAndFeel.html#a6f6e6d84ba7ab714bdb41ad30fd36e19">getTypefaceForFont()</a> to create and return the typeface. </p>
 
 </div>
 </div>
@@ -638,7 +642,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abf73cf57faec27c985eec8e11bcd7aff"></a>
+<a class="anchor" id="a41151fa0e1d0ef87d26f1bf17c457e7c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -660,7 +664,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a>&lt; int &gt; &amp;&#160;</td>
           <td class="paramname"><em>initialClip</em>&#160;</td>
         </tr>
         <tr>
@@ -678,7 +682,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8dbd9bd9a981a90a1e0d15ec7270079b"></a>
+<a class="anchor" id="a4767dd55cc9973fca036ce10a93f5597"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -689,7 +693,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawButtonBackground </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -758,7 +762,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a34b3d88bf774404b069092e8ee7955ed"></a>
+<a class="anchor" id="a8e9dd3ae1f54395fcb0c117dee6de798"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -769,7 +773,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawButtonText </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -806,7 +810,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad00c510749e2a29f742cc034d8d13347"></a>
+<a class="anchor" id="a9c6fc9efcfa4c025d827f6c9f12a033e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -817,7 +821,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawToggleButton </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -880,7 +884,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4cb7f93b5c2dc0750c25289c3b2c965c"></a>
+<a class="anchor" id="ad562fafd9dd02bdd845303cbd2c2f9f4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -891,7 +895,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawTickBox </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -961,6 +965,52 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="classOldSchoolLookAndFeel.html#a4982b967305de6030149daa290489004">OldSchoolLookAndFeel</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad386093adc4bba4b8c36535af363b316"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void LookAndFeel::drawDrawableButton </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classDrawableButton.html">DrawableButton</a> &amp;&#160;</td>
+          <td class="paramname"><em>button</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isMouseOverButton</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isButtonDown</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1034,7 +1084,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7808705b08c5c33e39f01bfc6210410c"></a>
+<a class="anchor" id="a950852954bda5f936191cb82dde91f1f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1045,7 +1095,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawAlertBox </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1203,7 +1253,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5a0f15843df14eb4ddbcaeb60423510b"></a>
+<a class="anchor" id="a1644a3b44d2533362289497d2b0f3a61"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1214,7 +1264,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawProgressBar </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1267,7 +1317,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8b1b828e749bbf0c966c3563062ec77d"></a>
+<a class="anchor" id="ad818bf37c0c35faf32eb84b69c5cabfa"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1278,7 +1328,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawSpinningWaitAnimation </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1699,7 +1749,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afa9575ddeeaa4b946fff1cf474606518"></a>
+<a class="anchor" id="ad6d0c9607ef95843b7db229d0df58a44"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1710,7 +1760,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawTreeviewPlusMinusBox </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1765,7 +1815,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5605ae9a851611cb56c050e99ca7a68c"></a>
+<a class="anchor" id="a1b67fe477d55026cd564ed32bdc00bbe"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1776,7 +1826,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::fillTextEditorBackground </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1811,7 +1861,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1d9832a561664cced8c00d5c5169fac0"></a>
+<a class="anchor" id="a49d90a6c778d2bf65851edaa00fd02cb"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1822,7 +1872,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawTextEditorOutline </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1963,7 +2013,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ada040ee479f43ee78e78da7e7b2a09be"></a>
+<a class="anchor" id="aa03d6404101b86626ed6da2f5ba18bb8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1974,7 +2024,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawFileBrowserRow </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2132,7 +2182,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7d79f09809e664f100b7177ad2ac73ab"></a>
+<a class="anchor" id="a4775a8f3f5676bb5e567bffbef8151ec"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2143,7 +2193,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawBubble </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2178,7 +2228,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a920372a6d198f6f1710ddef4ab739892"></a>
+<a class="anchor" id="a8ef79d60a6cd70f5e3f696f1675e6f04"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2189,7 +2239,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawLasso </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2214,7 +2264,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad7660f46281cd050dde931232a3cff4d"></a>
+<a class="anchor" id="a89140898351bcd4a71c8e2e2e5db2845"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2225,7 +2275,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawPopupMenuBackground </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2258,7 +2308,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a140a6248309d56bf8c8b3e72ed7bdc6c"></a>
+<a class="anchor" id="acc8b6b3f7bc327c2193fd6131dc7c3d3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2269,7 +2319,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawPopupMenuItem </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2379,7 +2429,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af43c11f45a2d65ead660355e8468e471"></a>
+<a class="anchor" id="ab4942dfd7b6d11e1d99c070ddc0238cb"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2390,7 +2440,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawPopupMenuUpDownArrow </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2502,7 +2552,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a585e8abe5df765d2eca59789e3c907a2"></a>
+<a class="anchor" id="ad944c61e7843ba8a463137cbae658125"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2513,7 +2563,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawMenuBarBackground </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2636,7 +2686,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa4c4834d321b9489a702bb23de791a2f"></a>
+<a class="anchor" id="a57733a339f9d53752ce76585f701e2dd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2647,7 +2697,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawMenuBarItem </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2712,7 +2762,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6374b412f3dc81090012716e447b2916"></a>
+<a class="anchor" id="a5815ec8d3e8cc5b0ea538e121bf6a241"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2723,7 +2773,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawComboBox </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2932,7 +2982,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6476217b0367fe42cca0e8a8beb401d5"></a>
+<a class="anchor" id="a65179119cf8a0b6f9c7841afcba63f96"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2943,7 +2993,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawLinearSlider </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3016,7 +3066,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afd9d8b992c754e7730bf802865e4a8e4"></a>
+<a class="anchor" id="a4a3130cb386fd611dd050b3a2be64e70"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3027,7 +3077,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawLinearSliderBackground </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3098,7 +3148,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa5f3eac6860c4cbdee2d8f71c7952381"></a>
+<a class="anchor" id="aca70d5d140b2787881e85931662a53a2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3109,7 +3159,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawLinearSliderThumb </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3206,7 +3256,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a06a712a86cf11099ee0495f416e7761e"></a>
+<a class="anchor" id="a4ccd9078ca832ab9372d3a448984dc3a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3217,7 +3267,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawRotarySlider </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3443,7 +3493,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6facc42a5b70d48c9c6706ae06b1c766"></a>
+<a class="anchor" id="a32db9484deb66a5f90c78bcd6301ceda"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3454,7 +3504,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawTooltip </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3553,7 +3603,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab391976d73d53b45634af1b3994ce4dd"></a>
+<a class="anchor" id="a09f4504e6f071e70a064cbb76b6ce892"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3564,7 +3614,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawConcertinaPanelHeader </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3588,7 +3638,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classConcertinaPanel.html">ConcertinaPanel</a> &amp;&#160;</td>
-          <td class="paramname"><em>concertina</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3611,7 +3661,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad88c6a610b71f207cbe1ddf894e33f38"></a>
+<a class="anchor" id="a671d9bbd5387a5e6bdcf2cf553d459f6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3622,7 +3672,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawCornerResizer </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3665,7 +3715,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a820e063514836b73d77f5a6c8ead8080"></a>
+<a class="anchor" id="ab2c5f715ad25aea1850d7f3d7aaa1121"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3676,7 +3726,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawResizableFrame </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3694,7 +3744,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classBorderSize.html">BorderSize</a>&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>borders</em>&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3711,7 +3761,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3361de82e5142493bde5bf5c5550d270"></a>
+<a class="anchor" id="a386cbc50c529ce5111d00fc2e705916b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3722,7 +3772,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::fillResizableWindowBackground </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3740,7 +3790,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classBorderSize.html">BorderSize</a>&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>border</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3763,7 +3813,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a59f7eba4f67fe140320a854033154b50"></a>
+<a class="anchor" id="a831e4aec1bfa9dc8bb2ac05dbf0222e7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3774,7 +3824,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawResizableWindowBorder </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3815,7 +3865,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a41b7ba1e8cfdf0532eecf76f32322c62"></a>
+<a class="anchor" id="a967bf0f7c975618f938c72e5953bcf2e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3832,7 +3882,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4036,7 +4086,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a22dd269f6b66f077f1699dc23a001d3f"></a>
+<a class="anchor" id="a1e0a9e0aa22237c24d20c739888cfa54"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4047,7 +4097,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawStretchableLayoutResizerBar </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4094,7 +4144,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4e8170460cb6ce0c373447232f05cfb6"></a>
+<a class="anchor" id="a85fbed6a3614ea3f162e68ae66280c94"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4105,7 +4155,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawGroupComponentOutline </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4273,7 +4323,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a212012b2c9653354e8ad3b62c649f9d3"></a>
+<a class="anchor" id="a44163af0be92235d5e86dbcccdd2ef72"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4290,7 +4340,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4319,7 +4369,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a522651374ac3ca5efc481da9ca41ccbf"></a>
+<a class="anchor" id="a66e6e67d5b7c0361d729aacedb652511"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4336,7 +4386,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4365,7 +4415,41 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a19062b841dc84ec7cd8d7946b0535868"></a>
+<a class="anchor" id="a06fbc86db0e819fa4f9034a53c100aae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void LookAndFeel::drawTabbedButtonBarBackground </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classTabbedButtonBar.html">TabbedButtonBar</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a40fc43ba0aae0fc2551ed3acde3b16e5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4382,7 +4466,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4457,7 +4541,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a58f507d0cae1da1b1f83c57775ec9db9"></a>
+<a class="anchor" id="a1c3a90db4fdf06e0e2f36be6cf209e79"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4474,7 +4558,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4532,7 +4616,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa5e490ef83db662ec7be31c759bfc199"></a>
+<a class="anchor" id="a93321a80d8334c69b8bcd1f3c8f14d7c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4543,7 +4627,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawImageButton </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4608,7 +4692,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3978bacd83746fa52fe8b6ca301fbc0e"></a>
+<a class="anchor" id="a499789b3cf7a321cf8b402068f87232c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4619,13 +4703,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawTableHeaderBackground </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classTableHeaderComponent.html">TableHeaderComponent</a> &amp;&#160;</td>
-          <td class="paramname"><em>header</em>&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -4642,7 +4726,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a402d9884ebdfc8464be986ce056651a0"></a>
+<a class="anchor" id="a8d4f45599b12ac6ae7917ff6ac01fea3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4653,7 +4737,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawTableHeaderColumn </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4712,7 +4796,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afadb0bbb5a0272263a0de37c5756d100"></a>
+<a class="anchor" id="a89ee234adb80489690e97eb7a381dc4f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4723,7 +4807,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::paintToolbarBackground </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4782,7 +4866,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a144d7350c3d57fb1f17c49a34b3b674f"></a>
+<a class="anchor" id="a33ad2ccf9f5cfd9e1db913044a942395"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4793,7 +4877,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::paintToolbarButtonBackground </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4840,7 +4924,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac5b59d072b7c89510cc866f950458d8b"></a>
+<a class="anchor" id="abab6e8134aeabeab9b39c04d75847280"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4851,7 +4935,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::paintToolbarButtonLabel </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4904,7 +4988,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a977fc8156a5eca5ab95cd1904f3599bd"></a>
+<a class="anchor" id="aa3b4d709210be306df35668dc2f68da1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4915,7 +4999,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawPropertyPanelSectionHeader </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4956,7 +5040,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4e119b58dcd08d39c4775b0079d97a25"></a>
+<a class="anchor" id="ab92cff74a27752bfcda60c90c3fb0bff"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4967,7 +5051,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawPropertyComponentBackground </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -5002,7 +5086,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a836de65af6c2fc67e08492acb9e7876a"></a>
+<a class="anchor" id="a1f2d765e2db174c0bf856248d203b8ed"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -5013,7 +5097,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawPropertyComponentLabel </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -5072,7 +5156,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a79fb6d93814ac47ab77ee9c4cd65b72a"></a>
+<a class="anchor" id="a3b912364065b2ab0071f87db5a719317"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -5089,7 +5173,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -5118,7 +5202,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5baa8963b51fbd5bb4df6657ed8760f0"></a>
+<a class="anchor" id="a272f680445516fd77a7486daba51e068"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -5129,7 +5213,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawLevelMeter </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -5164,7 +5248,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8a8bfac538ddc28e73496c26d963638e"></a>
+<a class="anchor" id="a52c3048fc05bb4fd74b40e324a196238"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -5175,7 +5259,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">virtual void LookAndFeel::drawKeymapChangeButton </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -5241,7 +5325,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="addc0f5a5cd49d029aefd940c9add6f64"></a>
+<a class="anchor" id="aa325a05fbe3929523cf76e3652fdcad9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -5252,7 +5336,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">static void LookAndFeel::drawBevel </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -5328,7 +5412,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a142965689add97c69601ad683ac11776"></a>
+<a class="anchor" id="a687e50b04b49327bfb3c5a80dfea715c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -5339,7 +5423,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">static void LookAndFeel::drawGlassSphere </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -5388,7 +5472,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1c29db9b4bba12d424123bf2fb3be984"></a>
+<a class="anchor" id="a32194bdd792c74d3c435954a3bbd135f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -5399,7 +5483,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">static void LookAndFeel::drawGlassPointer </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -5452,7 +5536,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0b6848846b18a5855bc9ee6720a7d6f2"></a>
+<a class="anchor" id="a98cff875204ad1fbba1e32257d2d6d44"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -5463,7 +5547,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">static void LookAndFeel::drawGlassLozenge </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classGraphics.html">Graphics</a> &amp;&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

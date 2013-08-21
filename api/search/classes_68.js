@@ -78,7 +78,7 @@ var searchData=
   ['heapblock_3c_20positionedglyph_20_3e',['HeapBlock&lt; PositionedGlyph &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20progressbar_20_2a_20_3e',['HeapBlock&lt; ProgressBar * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20range_3c_20int_20_3e_20_3e',['HeapBlock&lt; Range&lt; int &gt; &gt;',['../classHeapBlock.html',1,'']]],
-  ['heapblock_3c_20rectangle_3c_20int_20_3e_20_3e',['HeapBlock&lt; Rectangle&lt; int &gt; &gt;',['../classHeapBlock.html',1,'']]],
+  ['heapblock_3c_20rectangletype_20_3e',['HeapBlock&lt; RectangleType &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20run_20_2a_20_3e',['HeapBlock&lt; Run * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20savedstate_20_2a_20_3e',['HeapBlock&lt; SavedState * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20selectableitemtype_20_3e',['HeapBlock&lt; SelectableItemType &gt;',['../classHeapBlock.html',1,'']]],

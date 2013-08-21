@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>JUCE: RectangleList Class Reference</title>
+<title>JUCE: RectangleList&lt; ValueType &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -81,131 +81,154 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classRectangleList-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">RectangleList Class Reference</div>  </div>
+<div class="title">RectangleList&lt; ValueType &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p>Maintains a set of rectangles as a complex region.  
  <a href="classRectangleList.html#details">More...</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList_1_1Iterator.html">Iterator</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An iterator for accessing all the rectangles in a <a class="el" href="classRectangleList.html" title="Maintains a set of rectangles as a complex region.">RectangleList</a>.  <a href="classRectangleList_1_1Iterator.html#details">More...</a><br/></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ad9d8b465737335563551e5f224fad32f"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a></td></tr>
+<tr class="separator:ad9d8b465737335563551e5f224fad32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a88c6d97ef8151b5877f196a80a916eb6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a88c6d97ef8151b5877f196a80a916eb6">RectangleList</a> () noexcept</td></tr>
-<tr class="memdesc:a88c6d97ef8151b5877f196a80a916eb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty <a class="el" href="classRectangleList.html" title="Maintains a set of rectangles as a complex region.">RectangleList</a>.  <a href="#a88c6d97ef8151b5877f196a80a916eb6"></a><br/></td></tr>
-<tr class="separator:a88c6d97ef8151b5877f196a80a916eb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ae1a74271a47a5630210aebf873e899"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a0ae1a74271a47a5630210aebf873e899">RectangleList</a> (const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;other)</td></tr>
-<tr class="memdesc:a0ae1a74271a47a5630210aebf873e899"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a copy of another list.  <a href="#a0ae1a74271a47a5630210aebf873e899"></a><br/></td></tr>
-<tr class="separator:a0ae1a74271a47a5630210aebf873e899"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5719565ccdf8a5d6226b76c5db6d316b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a5719565ccdf8a5d6226b76c5db6d316b">RectangleList</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;rect)</td></tr>
-<tr class="memdesc:a5719565ccdf8a5d6226b76c5db6d316b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a list containing just one rectangle.  <a href="#a5719565ccdf8a5d6226b76c5db6d316b"></a><br/></td></tr>
-<tr class="separator:a5719565ccdf8a5d6226b76c5db6d316b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada1a34c855b3710a47ab6127b38c9f22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangleList.html">RectangleList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#ada1a34c855b3710a47ab6127b38c9f22">operator=</a> (const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;other)</td></tr>
-<tr class="memdesc:ada1a34c855b3710a47ab6127b38c9f22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies this list from another one.  <a href="#ada1a34c855b3710a47ab6127b38c9f22"></a><br/></td></tr>
-<tr class="separator:ada1a34c855b3710a47ab6127b38c9f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5fd08d0c262225635d9016f7bfa5360"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#ae5fd08d0c262225635d9016f7bfa5360">~RectangleList</a> ()</td></tr>
-<tr class="memdesc:ae5fd08d0c262225635d9016f7bfa5360"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ae5fd08d0c262225635d9016f7bfa5360"></a><br/></td></tr>
-<tr class="separator:ae5fd08d0c262225635d9016f7bfa5360"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a546cbe75fdb06ca9bb40563ec4e8e909"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a546cbe75fdb06ca9bb40563ec4e8e909">isEmpty</a> () const noexcept</td></tr>
-<tr class="memdesc:a546cbe75fdb06ca9bb40563ec4e8e909"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the region is empty.  <a href="#a546cbe75fdb06ca9bb40563ec4e8e909"></a><br/></td></tr>
-<tr class="separator:a546cbe75fdb06ca9bb40563ec4e8e909"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08aa27e677332443cd34d4347293a1a6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a08aa27e677332443cd34d4347293a1a6">getNumRectangles</a> () const noexcept</td></tr>
-<tr class="memdesc:a08aa27e677332443cd34d4347293a1a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of rectangles in the list.  <a href="#a08aa27e677332443cd34d4347293a1a6"></a><br/></td></tr>
-<tr class="separator:a08aa27e677332443cd34d4347293a1a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6995d8f9aa1946f22f87c8dd2471cf58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a6995d8f9aa1946f22f87c8dd2471cf58">getRectangle</a> (int index) const noexcept</td></tr>
-<tr class="memdesc:a6995d8f9aa1946f22f87c8dd2471cf58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the rectangles at a particular index.  <a href="#a6995d8f9aa1946f22f87c8dd2471cf58"></a><br/></td></tr>
-<tr class="separator:a6995d8f9aa1946f22f87c8dd2471cf58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e5973d238266c4230f02ac37db8bf52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a9e5973d238266c4230f02ac37db8bf52">clear</a> ()</td></tr>
-<tr class="memdesc:a9e5973d238266c4230f02ac37db8bf52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all rectangles to leave an empty region.  <a href="#a9e5973d238266c4230f02ac37db8bf52"></a><br/></td></tr>
-<tr class="separator:a9e5973d238266c4230f02ac37db8bf52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc20cb620fe58f85ab24c25c84b7ff2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#acc20cb620fe58f85ab24c25c84b7ff2f">add</a> (int x, int y, int width, int height)</td></tr>
-<tr class="memdesc:acc20cb620fe58f85ab24c25c84b7ff2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges a new rectangle into the list.  <a href="#acc20cb620fe58f85ab24c25c84b7ff2f"></a><br/></td></tr>
-<tr class="separator:acc20cb620fe58f85ab24c25c84b7ff2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a01f9c8b2530b465b76e1bf9556bbca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a8a01f9c8b2530b465b76e1bf9556bbca">add</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;rect)</td></tr>
-<tr class="memdesc:a8a01f9c8b2530b465b76e1bf9556bbca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges a new rectangle into the list.  <a href="#a8a01f9c8b2530b465b76e1bf9556bbca"></a><br/></td></tr>
-<tr class="separator:a8a01f9c8b2530b465b76e1bf9556bbca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6b46bf77b0d13fadacece1d712f56d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#ac6b46bf77b0d13fadacece1d712f56d8">addWithoutMerging</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;rect)</td></tr>
-<tr class="memdesc:ac6b46bf77b0d13fadacece1d712f56d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dumbly adds a rectangle to the list without checking for overlaps.  <a href="#ac6b46bf77b0d13fadacece1d712f56d8"></a><br/></td></tr>
-<tr class="separator:ac6b46bf77b0d13fadacece1d712f56d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a567ec13612153e22d9dd37e721fff48e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a567ec13612153e22d9dd37e721fff48e">add</a> (const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;other)</td></tr>
-<tr class="memdesc:a567ec13612153e22d9dd37e721fff48e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges another rectangle list into this one.  <a href="#a567ec13612153e22d9dd37e721fff48e"></a><br/></td></tr>
-<tr class="separator:a567ec13612153e22d9dd37e721fff48e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb236b90b645436b30bed41a2d5d59d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#afb236b90b645436b30bed41a2d5d59d8">subtract</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;rect)</td></tr>
-<tr class="memdesc:afb236b90b645436b30bed41a2d5d59d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a rectangular region from the list.  <a href="#afb236b90b645436b30bed41a2d5d59d8"></a><br/></td></tr>
-<tr class="separator:afb236b90b645436b30bed41a2d5d59d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64c96e07453c3c6030f10f461347f5ba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a64c96e07453c3c6030f10f461347f5ba">subtract</a> (const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;otherList)</td></tr>
-<tr class="memdesc:a64c96e07453c3c6030f10f461347f5ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all areas in another <a class="el" href="classRectangleList.html" title="Maintains a set of rectangles as a complex region.">RectangleList</a> from this one.  <a href="#a64c96e07453c3c6030f10f461347f5ba"></a><br/></td></tr>
-<tr class="separator:a64c96e07453c3c6030f10f461347f5ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a608183aa941b4825fe10a58673b7b58d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a608183aa941b4825fe10a58673b7b58d">clipTo</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;rect)</td></tr>
-<tr class="memdesc:a608183aa941b4825fe10a58673b7b58d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes any areas of the region that lie outside a given rectangle.  <a href="#a608183aa941b4825fe10a58673b7b58d"></a><br/></td></tr>
-<tr class="separator:a608183aa941b4825fe10a58673b7b58d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2adc353c63d00e507a71914f2778c930"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a2adc353c63d00e507a71914f2778c930">clipTo</a> (const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;other)</td></tr>
-<tr class="memdesc:a2adc353c63d00e507a71914f2778c930"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes any areas of the region that lie outside a given rectangle list.  <a href="#a2adc353c63d00e507a71914f2778c930"></a><br/></td></tr>
-<tr class="separator:a2adc353c63d00e507a71914f2778c930"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6738e0378ffc0fa514270f6ae20722eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a6738e0378ffc0fa514270f6ae20722eb">getIntersectionWith</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;rect, <a class="el" href="classRectangleList.html">RectangleList</a> &amp;destRegion) const </td></tr>
-<tr class="memdesc:a6738e0378ffc0fa514270f6ae20722eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a region which is the result of clipping this one to a given rectangle.  <a href="#a6738e0378ffc0fa514270f6ae20722eb"></a><br/></td></tr>
-<tr class="separator:a6738e0378ffc0fa514270f6ae20722eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad909002458f9bea03e0d58c82400d86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#aad909002458f9bea03e0d58c82400d86">swapWith</a> (<a class="el" href="classRectangleList.html">RectangleList</a> &amp;otherList) noexcept</td></tr>
-<tr class="memdesc:aad909002458f9bea03e0d58c82400d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps the contents of this and another list.  <a href="#aad909002458f9bea03e0d58c82400d86"></a><br/></td></tr>
-<tr class="separator:aad909002458f9bea03e0d58c82400d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a218a01d5d1a909a70dd519159b8dc2d3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a218a01d5d1a909a70dd519159b8dc2d3">containsPoint</a> (int x, int y) const noexcept</td></tr>
-<tr class="memdesc:a218a01d5d1a909a70dd519159b8dc2d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether the region contains a given point.  <a href="#a218a01d5d1a909a70dd519159b8dc2d3"></a><br/></td></tr>
-<tr class="separator:a218a01d5d1a909a70dd519159b8dc2d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4008b493f77bc4e901604289127e50c8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a4008b493f77bc4e901604289127e50c8">containsRectangle</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;rectangleToCheck) const </td></tr>
-<tr class="memdesc:a4008b493f77bc4e901604289127e50c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether the region contains the whole of a given rectangle.  <a href="#a4008b493f77bc4e901604289127e50c8"></a><br/></td></tr>
-<tr class="separator:a4008b493f77bc4e901604289127e50c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab14b4d4801dd53dc23ce2826867952d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#ab14b4d4801dd53dc23ce2826867952d0">intersectsRectangle</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;rectangleToCheck) const noexcept</td></tr>
-<tr class="memdesc:ab14b4d4801dd53dc23ce2826867952d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether the region contains any part of a given rectangle.  <a href="#ab14b4d4801dd53dc23ce2826867952d0"></a><br/></td></tr>
-<tr class="separator:ab14b4d4801dd53dc23ce2826867952d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80f23a1a38e993397b044d79aa2a8fc4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a80f23a1a38e993397b044d79aa2a8fc4">intersects</a> (const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;other) const noexcept</td></tr>
-<tr class="memdesc:a80f23a1a38e993397b044d79aa2a8fc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether this region intersects any part of another one.  <a href="#a80f23a1a38e993397b044d79aa2a8fc4"></a><br/></td></tr>
-<tr class="separator:a80f23a1a38e993397b044d79aa2a8fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6a1cde113116f49093325d2b7f5d226"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#ad6a1cde113116f49093325d2b7f5d226">getBounds</a> () const noexcept</td></tr>
-<tr class="memdesc:ad6a1cde113116f49093325d2b7f5d226"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the smallest rectangle that can enclose the whole of this region.  <a href="#ad6a1cde113116f49093325d2b7f5d226"></a><br/></td></tr>
-<tr class="separator:ad6a1cde113116f49093325d2b7f5d226"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a686a33633161c4bfa4f9edb8b006ef5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a686a33633161c4bfa4f9edb8b006ef5e">consolidate</a> ()</td></tr>
-<tr class="memdesc:a686a33633161c4bfa4f9edb8b006ef5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimises the list into a minimum number of constituent rectangles.  <a href="#a686a33633161c4bfa4f9edb8b006ef5e"></a><br/></td></tr>
-<tr class="separator:a686a33633161c4bfa4f9edb8b006ef5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5f3ae4d7faddaf5ec042b4f39038d0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#ac5f3ae4d7faddaf5ec042b4f39038d0b">offsetAll</a> (int dx, int dy) noexcept</td></tr>
-<tr class="memdesc:ac5f3ae4d7faddaf5ec042b4f39038d0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an x and y value to all the coordinates.  <a href="#ac5f3ae4d7faddaf5ec042b4f39038d0b"></a><br/></td></tr>
-<tr class="separator:ac5f3ae4d7faddaf5ec042b4f39038d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba34a373e37ddd0b3bd6cf0e3019dbe2"><td class="memTemplParams" colspan="2">template&lt;typename ScaleType &gt; </td></tr>
-<tr class="memitem:aba34a373e37ddd0b3bd6cf0e3019dbe2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classRectangleList.html#aba34a373e37ddd0b3bd6cf0e3019dbe2">scaleAll</a> (ScaleType scaleFactor) noexcept</td></tr>
-<tr class="memdesc:aba34a373e37ddd0b3bd6cf0e3019dbe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scales all the coordinates.  <a href="#aba34a373e37ddd0b3bd6cf0e3019dbe2"></a><br/></td></tr>
-<tr class="separator:aba34a373e37ddd0b3bd6cf0e3019dbe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a577e67a56c9c7b17afe3c2c3fe30d7a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPath.html">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a577e67a56c9c7b17afe3c2c3fe30d7a5">toPath</a> () const </td></tr>
-<tr class="memdesc:a577e67a56c9c7b17afe3c2c3fe30d7a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classPath.html" title="A path is a sequence of lines and curves that may either form a closed shape or be open-ended...">Path</a> object to represent this region.  <a href="#a577e67a56c9c7b17afe3c2c3fe30d7a5"></a><br/></td></tr>
-<tr class="separator:a577e67a56c9c7b17afe3c2c3fe30d7a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2db69b5c372d8da85b799f8fb1af48a6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a2db69b5c372d8da85b799f8fb1af48a6">begin</a> () const noexcept</td></tr>
-<tr class="memdesc:a2db69b5c372d8da85b799f8fb1af48a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard method for iterating the rectangles in the list.  <a href="#a2db69b5c372d8da85b799f8fb1af48a6"></a><br/></td></tr>
-<tr class="separator:a2db69b5c372d8da85b799f8fb1af48a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1389798b3eca84f427c1a9e1336d7487"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a1389798b3eca84f427c1a9e1336d7487">end</a> () const noexcept</td></tr>
-<tr class="memdesc:a1389798b3eca84f427c1a9e1336d7487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard method for iterating the rectangles in the list.  <a href="#a1389798b3eca84f427c1a9e1336d7487"></a><br/></td></tr>
-<tr class="separator:a1389798b3eca84f427c1a9e1336d7487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade36b6b0037022600942309463415a75"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#ade36b6b0037022600942309463415a75">RectangleList</a> () noexcept</td></tr>
+<tr class="memdesc:ade36b6b0037022600942309463415a75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty <a class="el" href="classRectangleList.html" title="Maintains a set of rectangles as a complex region.">RectangleList</a>.  <a href="#ade36b6b0037022600942309463415a75"></a><br/></td></tr>
+<tr class="separator:ade36b6b0037022600942309463415a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c29b4ad4740b391e7e4766a71b8f54d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a8c29b4ad4740b391e7e4766a71b8f54d">RectangleList</a> (const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;other)</td></tr>
+<tr class="memdesc:a8c29b4ad4740b391e7e4766a71b8f54d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a copy of another list.  <a href="#a8c29b4ad4740b391e7e4766a71b8f54d"></a><br/></td></tr>
+<tr class="separator:a8c29b4ad4740b391e7e4766a71b8f54d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15df0830ea3741a45339658f585e36d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a15df0830ea3741a45339658f585e36d9">RectangleList</a> (const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> &amp;rect)</td></tr>
+<tr class="memdesc:a15df0830ea3741a45339658f585e36d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a list containing just one rectangle.  <a href="#a15df0830ea3741a45339658f585e36d9"></a><br/></td></tr>
+<tr class="separator:a15df0830ea3741a45339658f585e36d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a382be4bd2aac523bd922f76af8bb0ae2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangleList.html">RectangleList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a382be4bd2aac523bd922f76af8bb0ae2">operator=</a> (const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;other)</td></tr>
+<tr class="memdesc:a382be4bd2aac523bd922f76af8bb0ae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies this list from another one.  <a href="#a382be4bd2aac523bd922f76af8bb0ae2"></a><br/></td></tr>
+<tr class="separator:a382be4bd2aac523bd922f76af8bb0ae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad59356f54ef6100221d5dcaf27c15742"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#ad59356f54ef6100221d5dcaf27c15742">isEmpty</a> () const noexcept</td></tr>
+<tr class="memdesc:ad59356f54ef6100221d5dcaf27c15742"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the region is empty.  <a href="#ad59356f54ef6100221d5dcaf27c15742"></a><br/></td></tr>
+<tr class="separator:ad59356f54ef6100221d5dcaf27c15742"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1f6b51deae420493425d69306539f1c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#ac1f6b51deae420493425d69306539f1c">getNumRectangles</a> () const noexcept</td></tr>
+<tr class="memdesc:ac1f6b51deae420493425d69306539f1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of rectangles in the list.  <a href="#ac1f6b51deae420493425d69306539f1c"></a><br/></td></tr>
+<tr class="separator:ac1f6b51deae420493425d69306539f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa38d0a40721433a143d5a5980b649030"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#aa38d0a40721433a143d5a5980b649030">getRectangle</a> (int index) const noexcept</td></tr>
+<tr class="memdesc:aa38d0a40721433a143d5a5980b649030"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the rectangles at a particular index.  <a href="#aa38d0a40721433a143d5a5980b649030"></a><br/></td></tr>
+<tr class="separator:aa38d0a40721433a143d5a5980b649030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93361ce23ea57c1a09781337182517a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a93361ce23ea57c1a09781337182517a4">clear</a> ()</td></tr>
+<tr class="memdesc:a93361ce23ea57c1a09781337182517a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all rectangles to leave an empty region.  <a href="#a93361ce23ea57c1a09781337182517a4"></a><br/></td></tr>
+<tr class="separator:a93361ce23ea57c1a09781337182517a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9df83403875d4288f1aa9a9cdd3245bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a9df83403875d4288f1aa9a9cdd3245bb">add</a> (const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> &amp;rect)</td></tr>
+<tr class="memdesc:a9df83403875d4288f1aa9a9cdd3245bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges a new rectangle into the list.  <a href="#a9df83403875d4288f1aa9a9cdd3245bb"></a><br/></td></tr>
+<tr class="separator:a9df83403875d4288f1aa9a9cdd3245bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac89368b777082d6f8151f2c0c51b2068"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#ac89368b777082d6f8151f2c0c51b2068">add</a> (ValueType x, ValueType y, ValueType width, ValueType height)</td></tr>
+<tr class="memdesc:ac89368b777082d6f8151f2c0c51b2068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges a new rectangle into the list.  <a href="#ac89368b777082d6f8151f2c0c51b2068"></a><br/></td></tr>
+<tr class="separator:ac89368b777082d6f8151f2c0c51b2068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ec4544b91f3a935000c5c3fe2d89d69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a3ec4544b91f3a935000c5c3fe2d89d69">addWithoutMerging</a> (const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> &amp;rect)</td></tr>
+<tr class="memdesc:a3ec4544b91f3a935000c5c3fe2d89d69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dumbly adds a rectangle to the list without checking for overlaps.  <a href="#a3ec4544b91f3a935000c5c3fe2d89d69"></a><br/></td></tr>
+<tr class="separator:a3ec4544b91f3a935000c5c3fe2d89d69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a891b5bcbaebafbc1dfc120fbe1b71129"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a891b5bcbaebafbc1dfc120fbe1b71129">add</a> (const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;other)</td></tr>
+<tr class="memdesc:a891b5bcbaebafbc1dfc120fbe1b71129"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges another rectangle list into this one.  <a href="#a891b5bcbaebafbc1dfc120fbe1b71129"></a><br/></td></tr>
+<tr class="separator:a891b5bcbaebafbc1dfc120fbe1b71129"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e5460224789d6b242ebbe0a801b4b62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a8e5460224789d6b242ebbe0a801b4b62">subtract</a> (const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> &amp;rect)</td></tr>
+<tr class="memdesc:a8e5460224789d6b242ebbe0a801b4b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a rectangular region from the list.  <a href="#a8e5460224789d6b242ebbe0a801b4b62"></a><br/></td></tr>
+<tr class="separator:a8e5460224789d6b242ebbe0a801b4b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a93f136213fd5773e08ab69267cb749"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a6a93f136213fd5773e08ab69267cb749">subtract</a> (const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;otherList)</td></tr>
+<tr class="memdesc:a6a93f136213fd5773e08ab69267cb749"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all areas in another <a class="el" href="classRectangleList.html" title="Maintains a set of rectangles as a complex region.">RectangleList</a> from this one.  <a href="#a6a93f136213fd5773e08ab69267cb749"></a><br/></td></tr>
+<tr class="separator:a6a93f136213fd5773e08ab69267cb749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae270885963acca0dcd78d80158605f1a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#ae270885963acca0dcd78d80158605f1a">clipTo</a> (const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> &amp;rect)</td></tr>
+<tr class="memdesc:ae270885963acca0dcd78d80158605f1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes any areas of the region that lie outside a given rectangle.  <a href="#ae270885963acca0dcd78d80158605f1a"></a><br/></td></tr>
+<tr class="separator:ae270885963acca0dcd78d80158605f1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a569c52b5100c4c7ec1c9915cdbcf2576"><td class="memTemplParams" colspan="2">template&lt;typename OtherValueType &gt; </td></tr>
+<tr class="memitem:a569c52b5100c4c7ec1c9915cdbcf2576"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a569c52b5100c4c7ec1c9915cdbcf2576">clipTo</a> (const <a class="el" href="classRectangleList.html">RectangleList</a>&lt; OtherValueType &gt; &amp;other)</td></tr>
+<tr class="memdesc:a569c52b5100c4c7ec1c9915cdbcf2576"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes any areas of the region that lie outside a given rectangle list.  <a href="#a569c52b5100c4c7ec1c9915cdbcf2576"></a><br/></td></tr>
+<tr class="separator:a569c52b5100c4c7ec1c9915cdbcf2576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42f68746a56cddd16eb4800aa367b59e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a42f68746a56cddd16eb4800aa367b59e">getIntersectionWith</a> (const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> &amp;rect, <a class="el" href="classRectangleList.html">RectangleList</a> &amp;destRegion) const </td></tr>
+<tr class="memdesc:a42f68746a56cddd16eb4800aa367b59e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a region which is the result of clipping this one to a given rectangle.  <a href="#a42f68746a56cddd16eb4800aa367b59e"></a><br/></td></tr>
+<tr class="separator:a42f68746a56cddd16eb4800aa367b59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15059455cd503d05378d089a8eed5488"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a15059455cd503d05378d089a8eed5488">swapWith</a> (<a class="el" href="classRectangleList.html">RectangleList</a> &amp;otherList) noexcept</td></tr>
+<tr class="memdesc:a15059455cd503d05378d089a8eed5488"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps the contents of this and another list.  <a href="#a15059455cd503d05378d089a8eed5488"></a><br/></td></tr>
+<tr class="separator:a15059455cd503d05378d089a8eed5488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2007a2f8db5988f2b84f361c9190721e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a2007a2f8db5988f2b84f361c9190721e">containsPoint</a> (<a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt; point) const noexcept</td></tr>
+<tr class="memdesc:a2007a2f8db5988f2b84f361c9190721e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether the region contains a given point.  <a href="#a2007a2f8db5988f2b84f361c9190721e"></a><br/></td></tr>
+<tr class="separator:a2007a2f8db5988f2b84f361c9190721e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2e24f41ebeb7de8fd7080c8b3a91d13"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#af2e24f41ebeb7de8fd7080c8b3a91d13">containsPoint</a> (ValueType x, ValueType y) const noexcept</td></tr>
+<tr class="memdesc:af2e24f41ebeb7de8fd7080c8b3a91d13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether the region contains a given point.  <a href="#af2e24f41ebeb7de8fd7080c8b3a91d13"></a><br/></td></tr>
+<tr class="separator:af2e24f41ebeb7de8fd7080c8b3a91d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51b36fe7c75ecc84952f95b52bb7928c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a51b36fe7c75ecc84952f95b52bb7928c">containsRectangle</a> (const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> &amp;rectangleToCheck) const </td></tr>
+<tr class="memdesc:a51b36fe7c75ecc84952f95b52bb7928c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether the region contains the whole of a given rectangle.  <a href="#a51b36fe7c75ecc84952f95b52bb7928c"></a><br/></td></tr>
+<tr class="separator:a51b36fe7c75ecc84952f95b52bb7928c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44184b9834cc99cda85a6d8778519ac0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a44184b9834cc99cda85a6d8778519ac0">intersectsRectangle</a> (const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> &amp;rectangleToCheck) const noexcept</td></tr>
+<tr class="memdesc:a44184b9834cc99cda85a6d8778519ac0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether the region contains any part of a given rectangle.  <a href="#a44184b9834cc99cda85a6d8778519ac0"></a><br/></td></tr>
+<tr class="separator:a44184b9834cc99cda85a6d8778519ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95fff4a17284343719915b4eeddeb0a4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a95fff4a17284343719915b4eeddeb0a4">intersects</a> (const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;other) const noexcept</td></tr>
+<tr class="memdesc:a95fff4a17284343719915b4eeddeb0a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether this region intersects any part of another one.  <a href="#a95fff4a17284343719915b4eeddeb0a4"></a><br/></td></tr>
+<tr class="separator:a95fff4a17284343719915b4eeddeb0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c2004bc8ed19201d54777c5b65be967"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a7c2004bc8ed19201d54777c5b65be967">getBounds</a> () const noexcept</td></tr>
+<tr class="memdesc:a7c2004bc8ed19201d54777c5b65be967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the smallest rectangle that can enclose the whole of this region.  <a href="#a7c2004bc8ed19201d54777c5b65be967"></a><br/></td></tr>
+<tr class="separator:a7c2004bc8ed19201d54777c5b65be967"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e26bdb6310e0660c0b7ada7919546db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a9e26bdb6310e0660c0b7ada7919546db">consolidate</a> ()</td></tr>
+<tr class="memdesc:a9e26bdb6310e0660c0b7ada7919546db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimises the list into a minimum number of constituent rectangles.  <a href="#a9e26bdb6310e0660c0b7ada7919546db"></a><br/></td></tr>
+<tr class="separator:a9e26bdb6310e0660c0b7ada7919546db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6929cdfe85b1ec2cbb87dbb4baa9e5f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a6929cdfe85b1ec2cbb87dbb4baa9e5f9">offsetAll</a> (<a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt; offset) noexcept</td></tr>
+<tr class="memdesc:a6929cdfe85b1ec2cbb87dbb4baa9e5f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an x and y value to all the coordinates.  <a href="#a6929cdfe85b1ec2cbb87dbb4baa9e5f9"></a><br/></td></tr>
+<tr class="separator:a6929cdfe85b1ec2cbb87dbb4baa9e5f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf0a168997e532d714d0f1169aff4897"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#aaf0a168997e532d714d0f1169aff4897">offsetAll</a> (ValueType dx, ValueType dy) noexcept</td></tr>
+<tr class="memdesc:aaf0a168997e532d714d0f1169aff4897"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an x and y value to all the coordinates.  <a href="#aaf0a168997e532d714d0f1169aff4897"></a><br/></td></tr>
+<tr class="separator:aaf0a168997e532d714d0f1169aff4897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57af41f3e264b8c1d183149a9c50f03f"><td class="memTemplParams" colspan="2">template&lt;typename ScaleType &gt; </td></tr>
+<tr class="memitem:a57af41f3e264b8c1d183149a9c50f03f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a57af41f3e264b8c1d183149a9c50f03f">scaleAll</a> (ScaleType scaleFactor) noexcept</td></tr>
+<tr class="memdesc:a57af41f3e264b8c1d183149a9c50f03f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scales all the coordinates.  <a href="#a57af41f3e264b8c1d183149a9c50f03f"></a><br/></td></tr>
+<tr class="separator:a57af41f3e264b8c1d183149a9c50f03f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addbe3e5c0fe15fc6783a94ea3937e934"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPath.html">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#addbe3e5c0fe15fc6783a94ea3937e934">toPath</a> () const </td></tr>
+<tr class="memdesc:addbe3e5c0fe15fc6783a94ea3937e934"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classPath.html" title="A path is a sequence of lines and curves that may either form a closed shape or be open-ended...">Path</a> object to represent this region.  <a href="#addbe3e5c0fe15fc6783a94ea3937e934"></a><br/></td></tr>
+<tr class="separator:addbe3e5c0fe15fc6783a94ea3937e934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4a757a9274fb76b001bbbe97dc0a6b4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#ac4a757a9274fb76b001bbbe97dc0a6b4">begin</a> () const noexcept</td></tr>
+<tr class="memdesc:ac4a757a9274fb76b001bbbe97dc0a6b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard method for iterating the rectangles in the list.  <a href="#ac4a757a9274fb76b001bbbe97dc0a6b4"></a><br/></td></tr>
+<tr class="separator:ac4a757a9274fb76b001bbbe97dc0a6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b2d14e1b7ec911471559b32de41b277"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a1b2d14e1b7ec911471559b32de41b277">end</a> () const noexcept</td></tr>
+<tr class="memdesc:a1b2d14e1b7ec911471559b32de41b277"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard method for iterating the rectangles in the list.  <a href="#a1b2d14e1b7ec911471559b32de41b277"></a><br/></td></tr>
+<tr class="separator:a1b2d14e1b7ec911471559b32de41b277"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Maintains a set of rectangles as a complex region. </p>
+<div class="textblock"><h3>template&lt;typename ValueType&gt;<br/>
+class RectangleList&lt; ValueType &gt;</h3>
+
+<p>Maintains a set of rectangles as a complex region. </p>
 <p>This class allows a set of rectangles to be treated as a solid shape, and can add and remove rectangular sections of it, and simplify overlapping or adjacent rectangles.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangle.html" title="Manages a rectangle and allows geometric operations to be performed on it.">Rectangle</a> </dd></dl>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a88c6d97ef8151b5877f196a80a916eb6"></a>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="ad9d8b465737335563551e5f224fad32f"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="classRectangle.html">Rectangle</a>&lt;ValueType&gt; <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::<a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ade36b6b0037022600942309463415a75"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RectangleList::RectangleList </td>
+          <td class="memname"><a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::<a class="el" href="classRectangleList.html">RectangleList</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -222,14 +245,16 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0ae1a74271a47a5630210aebf873e899"></a>
+<a class="anchor" id="a8c29b4ad4740b391e7e4766a71b8f54d"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">RectangleList::RectangleList </td>
+          <td class="memname"><a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::<a class="el" href="classRectangleList.html">RectangleList</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -240,14 +265,16 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5719565ccdf8a5d6226b76c5db6d316b"></a>
+<a class="anchor" id="a15df0830ea3741a45339658f585e36d9"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">RectangleList::RectangleList </td>
+          <td class="memname"><a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::<a class="el" href="classRectangleList.html">RectangleList</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> &amp;&#160;</td>
           <td class="paramname"><em>rect</em></td><td>)</td>
           <td></td>
         </tr>
@@ -258,32 +285,17 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae5fd08d0c262225635d9016f7bfa5360"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">RectangleList::~RectangleList </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Destructor. </p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ada1a34c855b3710a47ab6127b38c9f22"></a>
+<a class="anchor" id="a382be4bd2aac523bd922f76af8bb0ae2"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classRectangleList.html">RectangleList</a>&amp; RectangleList::operator= </td>
+          <td class="memname"><a class="el" href="classRectangleList.html">RectangleList</a>&amp; <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -294,15 +306,17 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a546cbe75fdb06ca9bb40563ec4e8e909"></a>
+<a class="anchor" id="ad59356f54ef6100221d5dcaf27c15742"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool RectangleList::isEmpty </td>
+          <td class="memname">bool <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::isEmpty </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -317,17 +331,21 @@ Public Member Functions</h2></td></tr>
 
 <p>Returns true if the region is empty. </p>
 
+<p>Referenced by <a class="el" href="classRectangleList.html#a569c52b5100c4c7ec1c9915cdbcf2576">RectangleList&lt; int &gt;::clipTo()</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="a08aa27e677332443cd34d4347293a1a6"></a>
+<a class="anchor" id="ac1f6b51deae420493425d69306539f1c"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int RectangleList::getNumRectangles </td>
+          <td class="memname">int <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::getNumRectangles </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -342,17 +360,21 @@ Public Member Functions</h2></td></tr>
 
 <p>Returns the number of rectangles in the list. </p>
 
+<p>Referenced by <a class="el" href="classRectangleList.html#a9e26bdb6310e0660c0b7ada7919546db">RectangleList&lt; int &gt;::consolidate()</a>, and <a class="el" href="classRectangleList.html#a8e5460224789d6b242ebbe0a801b4b62">RectangleList&lt; int &gt;::subtract()</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="a6995d8f9aa1946f22f87c8dd2471cf58"></a>
+<a class="anchor" id="aa38d0a40721433a143d5a5980b649030"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classRectangle.html">Rectangle</a>&lt;int&gt; RectangleList::getRectangle </td>
+          <td class="memname"><a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::getRectangle </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -371,12 +393,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9e5973d238266c4230f02ac37db8bf52"></a>
+<a class="anchor" id="a93361ce23ea57c1a09781337182517a4"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void RectangleList::clear </td>
+          <td class="memname">void <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::clear </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -386,34 +410,61 @@ Public Member Functions</h2></td></tr>
 
 <p>Removes all rectangles to leave an empty region. </p>
 
+<p>Referenced by <a class="el" href="classRectangleList.html#ae270885963acca0dcd78d80158605f1a">RectangleList&lt; int &gt;::clipTo()</a>, and <a class="el" href="classRectangleList.html#a42f68746a56cddd16eb4800aa367b59e">RectangleList&lt; int &gt;::getIntersectionWith()</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="acc20cb620fe58f85ab24c25c84b7ff2f"></a>
+<a class="anchor" id="a9df83403875d4288f1aa9a9cdd3245bb"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void RectangleList::add </td>
+          <td class="memname">void <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::add </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> &amp;&#160;</td>
+          <td class="paramname"><em>rect</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Merges a new rectangle into the list. </p>
+<p>The rectangle being added will first be clipped to remove any parts of it that overlap existing rectangles in the list, and adjacent rectangles will be merged into it. </p>
+
+<p>Referenced by <a class="el" href="classRectangleList.html#ac89368b777082d6f8151f2c0c51b2068">RectangleList&lt; int &gt;::add()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac89368b777082d6f8151f2c0c51b2068"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::add </td>
+          <td>(</td>
+          <td class="paramtype">ValueType&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">ValueType&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">ValueType&#160;</td>
           <td class="paramname"><em>width</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">ValueType&#160;</td>
           <td class="paramname"><em>height</em>&#160;</td>
         </tr>
         <tr>
@@ -429,33 +480,16 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8a01f9c8b2530b465b76e1bf9556bbca"></a>
+<a class="anchor" id="a3ec4544b91f3a935000c5c3fe2d89d69"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void RectangleList::add </td>
+          <td class="memname">void <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::addWithoutMerging </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>rect</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Merges a new rectangle into the list. </p>
-<p>The rectangle being added will first be clipped to remove any parts of it that overlap existing rectangles in the list, and adjacent rectangles will be merged into it. </p>
-
-</div>
-</div>
-<a class="anchor" id="ac6b46bf77b0d13fadacece1d712f56d8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RectangleList::addWithoutMerging </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> &amp;&#160;</td>
           <td class="paramname"><em>rect</em></td><td>)</td>
           <td></td>
         </tr>
@@ -465,16 +499,20 @@ Public Member Functions</h2></td></tr>
 <p>Dumbly adds a rectangle to the list without checking for overlaps. </p>
 <p>This simply adds the rectangle to the end, it doesn't merge it or remove any overlapping bits. </p>
 
+<p>Referenced by <a class="el" href="classRectangleList.html#a15df0830ea3741a45339658f585e36d9">RectangleList&lt; int &gt;::RectangleList()</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="a567ec13612153e22d9dd37e721fff48e"></a>
+<a class="anchor" id="a891b5bcbaebafbc1dfc120fbe1b71129"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void RectangleList::add </td>
+          <td class="memname">void <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::add </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -486,14 +524,16 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afb236b90b645436b30bed41a2d5d59d8"></a>
+<a class="anchor" id="a8e5460224789d6b242ebbe0a801b4b62"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void RectangleList::subtract </td>
+          <td class="memname">void <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::subtract </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> &amp;&#160;</td>
           <td class="paramname"><em>rect</em></td><td>)</td>
           <td></td>
         </tr>
@@ -503,16 +543,20 @@ Public Member Functions</h2></td></tr>
 <p>Removes a rectangular region from the list. </p>
 <p>Any rectangles in the list which overlap this will be clipped and subdivided if necessary. </p>
 
+<p>Referenced by <a class="el" href="classRectangleList.html#a9df83403875d4288f1aa9a9cdd3245bb">RectangleList&lt; int &gt;::add()</a>, <a class="el" href="classRectangleList.html#a51b36fe7c75ecc84952f95b52bb7928c">RectangleList&lt; int &gt;::containsRectangle()</a>, and <a class="el" href="classRectangleList.html#a6a93f136213fd5773e08ab69267cb749">RectangleList&lt; int &gt;::subtract()</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="a64c96e07453c3c6030f10f461347f5ba"></a>
+<a class="anchor" id="a6a93f136213fd5773e08ab69267cb749"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool RectangleList::subtract </td>
+          <td class="memname">bool <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::subtract </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt; &amp;&#160;</td>
           <td class="paramname"><em>otherList</em></td><td>)</td>
           <td></td>
         </tr>
@@ -525,14 +569,16 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a608183aa941b4825fe10a58673b7b58d"></a>
+<a class="anchor" id="ae270885963acca0dcd78d80158605f1a"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool RectangleList::clipTo </td>
+          <td class="memname">bool <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::clipTo </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> &amp;&#160;</td>
           <td class="paramname"><em>rect</em></td><td>)</td>
           <td></td>
         </tr>
@@ -542,18 +588,22 @@ Public Member Functions</h2></td></tr>
 <p>Removes any areas of the region that lie outside a given rectangle. </p>
 <p>Any rectangles in the list which overlap this will be clipped and subdivided if necessary.</p>
 <p>Returns true if the resulting region is not empty, false if it is empty.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangleList.html#a6738e0378ffc0fa514270f6ae20722eb" title="Creates a region which is the result of clipping this one to a given rectangle.">getIntersectionWith</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangleList.html#a42f68746a56cddd16eb4800aa367b59e" title="Creates a region which is the result of clipping this one to a given rectangle.">getIntersectionWith</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a2adc353c63d00e507a71914f2778c930"></a>
+<a class="anchor" id="a569c52b5100c4c7ec1c9915cdbcf2576"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<div class="memtemplate">
+template&lt;typename OtherValueType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool RectangleList::clipTo </td>
+          <td class="memname">bool <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::clipTo </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a>&lt; OtherValueType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -563,24 +613,26 @@ Public Member Functions</h2></td></tr>
 <p>Removes any areas of the region that lie outside a given rectangle list. </p>
 <p>Any rectangles in this object which overlap the specified list will be clipped and subdivided if necessary.</p>
 <p>Returns true if the resulting region is not empty, false if it is empty.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangleList.html#a6738e0378ffc0fa514270f6ae20722eb" title="Creates a region which is the result of clipping this one to a given rectangle.">getIntersectionWith</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangleList.html#a42f68746a56cddd16eb4800aa367b59e" title="Creates a region which is the result of clipping this one to a given rectangle.">getIntersectionWith</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a6738e0378ffc0fa514270f6ae20722eb"></a>
+<a class="anchor" id="a42f68746a56cddd16eb4800aa367b59e"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool RectangleList::getIntersectionWith </td>
+          <td class="memname">bool <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::getIntersectionWith </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> &amp;&#160;</td>
           <td class="paramname"><em>rect</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classRectangleList.html">RectangleList</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt; &amp;&#160;</td>
           <td class="paramname"><em>destRegion</em>&#160;</td>
         </tr>
         <tr>
@@ -594,21 +646,23 @@ Public Member Functions</h2></td></tr>
 <p>Creates a region which is the result of clipping this one to a given rectangle. </p>
 <p>Unlike the other clipTo method, this one doesn't affect this object - it puts the resulting region into the list whose reference is passed-in.</p>
 <p>Returns true if the resulting region is not empty, false if it is empty.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangleList.html#a608183aa941b4825fe10a58673b7b58d" title="Removes any areas of the region that lie outside a given rectangle.">clipTo</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangleList.html#ae270885963acca0dcd78d80158605f1a" title="Removes any areas of the region that lie outside a given rectangle.">clipTo</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="aad909002458f9bea03e0d58c82400d86"></a>
+<a class="anchor" id="a15059455cd503d05378d089a8eed5488"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void RectangleList::swapWith </td>
+          <td class="memname">void <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::swapWith </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classRectangleList.html">RectangleList</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt; &amp;&#160;</td>
           <td class="paramname"><em>otherList</em></td><td>)</td>
           <td></td>
         </tr>
@@ -623,25 +677,58 @@ Public Member Functions</h2></td></tr>
 <p>Swaps the contents of this and another list. </p>
 <p>This swaps their internal pointers, so is hugely faster than using copy-by-value to swap them. </p>
 
+<p>Referenced by <a class="el" href="classRectangleList.html#a569c52b5100c4c7ec1c9915cdbcf2576">RectangleList&lt; int &gt;::clipTo()</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="a218a01d5d1a909a70dd519159b8dc2d3"></a>
+<a class="anchor" id="a2007a2f8db5988f2b84f361c9190721e"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool RectangleList::containsPoint </td>
+          <td class="memname">bool <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::containsPoint </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;&#160;</td>
+          <td class="paramname"><em>point</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks whether the region contains a given point. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the point lies within one of the rectangles in the list </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af2e24f41ebeb7de8fd7080c8b3a91d13"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::containsPoint </td>
+          <td>(</td>
+          <td class="paramtype">ValueType&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">ValueType&#160;</td>
           <td class="paramname"><em>y</em>&#160;</td>
         </tr>
         <tr>
@@ -662,14 +749,16 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4008b493f77bc4e901604289127e50c8"></a>
+<a class="anchor" id="a51b36fe7c75ecc84952f95b52bb7928c"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool RectangleList::containsRectangle </td>
+          <td class="memname">bool <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::containsRectangle </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> &amp;&#160;</td>
           <td class="paramname"><em>rectangleToCheck</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -678,21 +767,23 @@ Public Member Functions</h2></td></tr>
 
 <p>Checks whether the region contains the whole of a given rectangle. </p>
 <dl class="section return"><dt>Returns</dt><dd>true all parts of the rectangle passed in lie within the region defined by this object </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangleList.html#ab14b4d4801dd53dc23ce2826867952d0" title="Checks whether the region contains any part of a given rectangle.">intersectsRectangle</a>, <a class="el" href="classRectangleList.html#a218a01d5d1a909a70dd519159b8dc2d3" title="Checks whether the region contains a given point.">containsPoint</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangleList.html#a44184b9834cc99cda85a6d8778519ac0" title="Checks whether the region contains any part of a given rectangle.">intersectsRectangle</a>, <a class="el" href="classRectangleList.html#a2007a2f8db5988f2b84f361c9190721e" title="Checks whether the region contains a given point.">containsPoint</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ab14b4d4801dd53dc23ce2826867952d0"></a>
+<a class="anchor" id="a44184b9834cc99cda85a6d8778519ac0"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool RectangleList::intersectsRectangle </td>
+          <td class="memname">bool <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::intersectsRectangle </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> &amp;&#160;</td>
           <td class="paramname"><em>rectangleToCheck</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -706,21 +797,23 @@ Public Member Functions</h2></td></tr>
 
 <p>Checks whether the region contains any part of a given rectangle. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if any part of the rectangle passed in lies within the region defined by this object </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangleList.html#a4008b493f77bc4e901604289127e50c8" title="Checks whether the region contains the whole of a given rectangle.">containsRectangle</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangleList.html#a51b36fe7c75ecc84952f95b52bb7928c" title="Checks whether the region contains the whole of a given rectangle.">containsRectangle</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a80f23a1a38e993397b044d79aa2a8fc4"></a>
+<a class="anchor" id="a95fff4a17284343719915b4eeddeb0a4"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool RectangleList::intersects </td>
+          <td class="memname">bool <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::intersects </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -733,19 +826,21 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Checks whether this region intersects any part of another one. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangleList.html#ab14b4d4801dd53dc23ce2826867952d0" title="Checks whether the region contains any part of a given rectangle.">intersectsRectangle</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangleList.html#a44184b9834cc99cda85a6d8778519ac0" title="Checks whether the region contains any part of a given rectangle.">intersectsRectangle</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ad6a1cde113116f49093325d2b7f5d226"></a>
+<a class="anchor" id="a7c2004bc8ed19201d54777c5b65be967"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classRectangle.html">Rectangle</a>&lt;int&gt; RectangleList::getBounds </td>
+          <td class="memname"><a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::getBounds </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -762,12 +857,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a686a33633161c4bfa4f9edb8b006ef5e"></a>
+<a class="anchor" id="a9e26bdb6310e0660c0b7ada7919546db"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void RectangleList::consolidate </td>
+          <td class="memname">void <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::consolidate </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -780,23 +877,55 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac5f3ae4d7faddaf5ec042b4f39038d0b"></a>
+<a class="anchor" id="a6929cdfe85b1ec2cbb87dbb4baa9e5f9"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void RectangleList::offsetAll </td>
+          <td class="memname">void <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::offsetAll </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;&#160;</td>
+          <td class="paramname"><em>offset</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds an x and y value to all the coordinates. </p>
+
+<p>Referenced by <a class="el" href="classRectangleList.html#aaf0a168997e532d714d0f1169aff4897">RectangleList&lt; int &gt;::offsetAll()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaf0a168997e532d714d0f1169aff4897"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::offsetAll </td>
+          <td>(</td>
+          <td class="paramtype">ValueType&#160;</td>
           <td class="paramname"><em>dx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">ValueType&#160;</td>
           <td class="paramname"><em>dy</em>&#160;</td>
         </tr>
         <tr>
@@ -816,9 +945,11 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aba34a373e37ddd0b3bd6cf0e3019dbe2"></a>
+<a class="anchor" id="a57af41f3e264b8c1d183149a9c50f03f"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
 <div class="memtemplate">
 template&lt;typename ScaleType &gt; </div>
 <table class="mlabels">
@@ -826,7 +957,7 @@ template&lt;typename ScaleType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void RectangleList::scaleAll </td>
+          <td class="memname">void <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::scaleAll </td>
           <td>(</td>
           <td class="paramtype">ScaleType&#160;</td>
           <td class="paramname"><em>scaleFactor</em></td><td>)</td>
@@ -844,12 +975,14 @@ template&lt;typename ScaleType &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a577e67a56c9c7b17afe3c2c3fe30d7a5"></a>
+<a class="anchor" id="addbe3e5c0fe15fc6783a94ea3937e934"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPath.html">Path</a> RectangleList::toPath </td>
+          <td class="memname"><a class="el" href="classPath.html">Path</a> <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::toPath </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -861,15 +994,17 @@ template&lt;typename ScaleType &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a2db69b5c372d8da85b799f8fb1af48a6"></a>
+<a class="anchor" id="ac4a757a9274fb76b001bbbe97dc0a6b4"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classRectangle.html">Rectangle</a>&lt;int&gt;* RectangleList::begin </td>
+          <td class="memname">const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a>* <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -884,17 +1019,21 @@ template&lt;typename ScaleType &gt; </div>
 
 <p>Standard method for iterating the rectangles in the list. </p>
 
+<p>Referenced by <a class="el" href="classRectangleList.html#a891b5bcbaebafbc1dfc120fbe1b71129">RectangleList&lt; int &gt;::add()</a>, and <a class="el" href="classRectangleList.html#a569c52b5100c4c7ec1c9915cdbcf2576">RectangleList&lt; int &gt;::clipTo()</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="a1389798b3eca84f427c1a9e1336d7487"></a>
+<a class="anchor" id="a1b2d14e1b7ec911471559b32de41b277"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classRectangle.html">Rectangle</a>&lt;int&gt;* RectangleList::end </td>
+          <td class="memname">const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a>* <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -908,6 +1047,8 @@ template&lt;typename ScaleType &gt; </div>
 </div><div class="memdoc">
 
 <p>Standard method for iterating the rectangles in the list. </p>
+
+<p>Referenced by <a class="el" href="classRectangleList.html#a891b5bcbaebafbc1dfc120fbe1b71129">RectangleList&lt; int &gt;::add()</a>, and <a class="el" href="classRectangleList.html#a569c52b5100c4c7ec1c9915cdbcf2576">RectangleList&lt; int &gt;::clipTo()</a>.</p>
 
 </div>
 </div>

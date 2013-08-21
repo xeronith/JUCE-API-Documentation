@@ -179,9 +179,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a44266b927f68b51086f56a8732fd3190"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classSortedSet.html#a44266b927f68b51086f56a8732fd3190">removeValuesNotIn</a> (const OtherSetType &amp;otherSet) noexcept</td></tr>
 <tr class="memdesc:a44266b927f68b51086f56a8732fd3190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes any elements which are not found in another set.  <a href="#a44266b927f68b51086f56a8732fd3190"></a><br/></td></tr>
 <tr class="separator:a44266b927f68b51086f56a8732fd3190"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99e7648112d5120fd5954c10b6870a26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#a99e7648112d5120fd5954c10b6870a26">swapWith</a> (<a class="el" href="classSortedSet.html">SortedSet</a> &amp;otherSet) noexcept</td></tr>
-<tr class="memdesc:a99e7648112d5120fd5954c10b6870a26"><td class="mdescLeft">&#160;</td><td class="mdescRight">This swaps the contents of this array with those of another array.  <a href="#a99e7648112d5120fd5954c10b6870a26"></a><br/></td></tr>
-<tr class="separator:a99e7648112d5120fd5954c10b6870a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47f196433b0adf163184e4fbc33d7046"><td class="memTemplParams" colspan="2">template&lt;class OtherSetType &gt; </td></tr>
+<tr class="memitem:a47f196433b0adf163184e4fbc33d7046"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classSortedSet.html#a47f196433b0adf163184e4fbc33d7046">swapWith</a> (OtherSetType &amp;otherSet) noexcept</td></tr>
+<tr class="memdesc:a47f196433b0adf163184e4fbc33d7046"><td class="mdescLeft">&#160;</td><td class="mdescRight">This swaps the contents of this array with those of another array.  <a href="#a47f196433b0adf163184e4fbc33d7046"></a><br/></td></tr>
+<tr class="separator:a47f196433b0adf163184e4fbc33d7046"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a259f41879ab086bde96eb90bbe9c4cd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSortedSet.html#a259f41879ab086bde96eb90bbe9c4cd8">minimiseStorageOverheads</a> () noexcept</td></tr>
 <tr class="memdesc:a259f41879ab086bde96eb90bbe9c4cd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reduces the amount of storage being used by the set.  <a href="#a259f41879ab086bde96eb90bbe9c4cd8"></a><br/></td></tr>
 <tr class="separator:a259f41879ab086bde96eb90bbe9c4cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1076,11 +1077,13 @@ template&lt;class OtherSetType &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a99e7648112d5120fd5954c10b6870a26"></a>
+<a class="anchor" id="a47f196433b0adf163184e4fbc33d7046"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+<div class="memtemplate">
+template&lt;class OtherSetType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1088,7 +1091,7 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
         <tr>
           <td class="memname">void <a class="el" href="classSortedSet.html">SortedSet</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::swapWith </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSortedSet.html">SortedSet</a>&lt; ElementType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">OtherSetType &amp;&#160;</td>
           <td class="paramname"><em>otherSet</em></td><td>)</td>
           <td></td>
         </tr>

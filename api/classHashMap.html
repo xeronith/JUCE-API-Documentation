@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>JUCE: HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt; Class Template Reference</title>
+<title>JUCE: HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -86,7 +86,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classHashMap-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt; Class Template Reference</div>  </div>
+<div class="title">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -101,92 +101,99 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a2053dc3e335c31fdc9f60e1eab786967"><td class="memItemLeft" align="right" valign="top">typedef <br class="typebreak"/>
-TypeOfCriticalSectionToUse::ScopedLockType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a2053dc3e335c31fdc9f60e1eab786967">ScopedLockType</a></td></tr>
-<tr class="memdesc:a2053dc3e335c31fdc9f60e1eab786967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of scoped lock to use for locking this array.  <a href="#a2053dc3e335c31fdc9f60e1eab786967"></a><br/></td></tr>
-<tr class="separator:a2053dc3e335c31fdc9f60e1eab786967"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc9bae72a08bd95e9e030b76d101e215"><td class="memItemLeft" align="right" valign="top">typedef <br class="typebreak"/>
+TypeOfCriticalSectionToUse::ScopedLockType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#adc9bae72a08bd95e9e030b76d101e215">ScopedLockType</a></td></tr>
+<tr class="memdesc:adc9bae72a08bd95e9e030b76d101e215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of scoped lock to use for locking this array.  <a href="#adc9bae72a08bd95e9e030b76d101e215"></a><br/></td></tr>
+<tr class="separator:adc9bae72a08bd95e9e030b76d101e215"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4e1e6302d9a96ed3baba8e00c9dad143"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a4e1e6302d9a96ed3baba8e00c9dad143">HashMap</a> (const int numberOfSlots=defaultHashTableSize)</td></tr>
-<tr class="memdesc:a4e1e6302d9a96ed3baba8e00c9dad143"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty hash-map.  <a href="#a4e1e6302d9a96ed3baba8e00c9dad143"></a><br/></td></tr>
-<tr class="separator:a4e1e6302d9a96ed3baba8e00c9dad143"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a358efcaba0080089ddf21b4c652b3a5b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a358efcaba0080089ddf21b4c652b3a5b">~HashMap</a> ()</td></tr>
-<tr class="memdesc:a358efcaba0080089ddf21b4c652b3a5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a358efcaba0080089ddf21b4c652b3a5b"></a><br/></td></tr>
-<tr class="separator:a358efcaba0080089ddf21b4c652b3a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c05298ac37d90e8ae6b944cf9ef90a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a5c05298ac37d90e8ae6b944cf9ef90a7">clear</a> ()</td></tr>
-<tr class="memdesc:a5c05298ac37d90e8ae6b944cf9ef90a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all values from the map.  <a href="#a5c05298ac37d90e8ae6b944cf9ef90a7"></a><br/></td></tr>
-<tr class="separator:a5c05298ac37d90e8ae6b944cf9ef90a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fb1bd69682e00d4b83b0c05dbf92bc8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a4fb1bd69682e00d4b83b0c05dbf92bc8">size</a> () const noexcept</td></tr>
-<tr class="memdesc:a4fb1bd69682e00d4b83b0c05dbf92bc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current number of items in the map.  <a href="#a4fb1bd69682e00d4b83b0c05dbf92bc8"></a><br/></td></tr>
-<tr class="separator:a4fb1bd69682e00d4b83b0c05dbf92bc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dbed3ff20a43f4f6997f40b15a8ae5c"><td class="memItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a7dbed3ff20a43f4f6997f40b15a8ae5c">operator[]</a> (KeyTypeParameter keyToLookFor) const </td></tr>
-<tr class="memdesc:a7dbed3ff20a43f4f6997f40b15a8ae5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value corresponding to a given key.  <a href="#a7dbed3ff20a43f4f6997f40b15a8ae5c"></a><br/></td></tr>
-<tr class="separator:a7dbed3ff20a43f4f6997f40b15a8ae5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c46356ec0825277b52729dd6c650c85"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a5c46356ec0825277b52729dd6c650c85">contains</a> (KeyTypeParameter keyToLookFor) const </td></tr>
-<tr class="memdesc:a5c46356ec0825277b52729dd6c650c85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the map contains an item with the specied key.  <a href="#a5c46356ec0825277b52729dd6c650c85"></a><br/></td></tr>
-<tr class="separator:a5c46356ec0825277b52729dd6c650c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5b7794228bc73ed367a656c7354e0ef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#ad5b7794228bc73ed367a656c7354e0ef">containsValue</a> (ValueTypeParameter valueToLookFor) const </td></tr>
-<tr class="memdesc:ad5b7794228bc73ed367a656c7354e0ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the hash contains at least one occurrence of a given value.  <a href="#ad5b7794228bc73ed367a656c7354e0ef"></a><br/></td></tr>
-<tr class="separator:ad5b7794228bc73ed367a656c7354e0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eef18aeb766505db7721b895ecd5654"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a0eef18aeb766505db7721b895ecd5654">set</a> (KeyTypeParameter newKey, ValueTypeParameter newValue)</td></tr>
-<tr class="memdesc:a0eef18aeb766505db7721b895ecd5654"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds or replaces an element in the hash-map.  <a href="#a0eef18aeb766505db7721b895ecd5654"></a><br/></td></tr>
-<tr class="separator:a0eef18aeb766505db7721b895ecd5654"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a2ced849c2687f6bf93c8e311d23b32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a9a2ced849c2687f6bf93c8e311d23b32">remove</a> (KeyTypeParameter keyToRemove)</td></tr>
-<tr class="memdesc:a9a2ced849c2687f6bf93c8e311d23b32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an item with the given key.  <a href="#a9a2ced849c2687f6bf93c8e311d23b32"></a><br/></td></tr>
-<tr class="separator:a9a2ced849c2687f6bf93c8e311d23b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69fffa7da6512b84a990d471600c5c3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a69fffa7da6512b84a990d471600c5c3e">removeValue</a> (ValueTypeParameter valueToRemove)</td></tr>
-<tr class="memdesc:a69fffa7da6512b84a990d471600c5c3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all items with the given value.  <a href="#a69fffa7da6512b84a990d471600c5c3e"></a><br/></td></tr>
-<tr class="separator:a69fffa7da6512b84a990d471600c5c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2520099a7f8ebd6b7921b9d6a3eedb1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a2520099a7f8ebd6b7921b9d6a3eedb1c">remapTable</a> (int newNumberOfSlots)</td></tr>
-<tr class="memdesc:a2520099a7f8ebd6b7921b9d6a3eedb1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remaps the hash-map to use a different number of slots for its hash function.  <a href="#a2520099a7f8ebd6b7921b9d6a3eedb1c"></a><br/></td></tr>
-<tr class="separator:a2520099a7f8ebd6b7921b9d6a3eedb1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad88492074f61172e919d17a8338ec670"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#ad88492074f61172e919d17a8338ec670">getNumSlots</a> () const noexcept</td></tr>
-<tr class="memdesc:ad88492074f61172e919d17a8338ec670"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of slots which are available for hashing.  <a href="#ad88492074f61172e919d17a8338ec670"></a><br/></td></tr>
-<tr class="separator:ad88492074f61172e919d17a8338ec670"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d47bc560004a8f525484f94dd8796ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a6d47bc560004a8f525484f94dd8796ca">swapWith</a> (<a class="el" href="classHashMap.html">HashMap</a> &amp;otherHashMap) noexcept</td></tr>
-<tr class="memdesc:a6d47bc560004a8f525484f94dd8796ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Efficiently swaps the contents of two hash-maps.  <a href="#a6d47bc560004a8f525484f94dd8796ca"></a><br/></td></tr>
-<tr class="separator:a6d47bc560004a8f525484f94dd8796ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fcaef6a8e7be6d592594e160e90243a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a7fcaef6a8e7be6d592594e160e90243a">getLock</a> () const noexcept</td></tr>
-<tr class="memdesc:a7fcaef6a8e7be6d592594e160e90243a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> that locks this structure.  <a href="#a7fcaef6a8e7be6d592594e160e90243a"></a><br/></td></tr>
-<tr class="separator:a7fcaef6a8e7be6d592594e160e90243a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d6d41cfc524ccc0a73f0251d7fc1fab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a4d6d41cfc524ccc0a73f0251d7fc1fab">HashMap</a> (int numberOfSlots=defaultHashTableSize, HashFunctionType hashFunction=HashFunctionType())</td></tr>
+<tr class="memdesc:a4d6d41cfc524ccc0a73f0251d7fc1fab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty hash-map.  <a href="#a4d6d41cfc524ccc0a73f0251d7fc1fab"></a><br/></td></tr>
+<tr class="separator:a4d6d41cfc524ccc0a73f0251d7fc1fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33001fb7329c32bdca37d969984f1e58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a33001fb7329c32bdca37d969984f1e58">~HashMap</a> ()</td></tr>
+<tr class="memdesc:a33001fb7329c32bdca37d969984f1e58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a33001fb7329c32bdca37d969984f1e58"></a><br/></td></tr>
+<tr class="separator:a33001fb7329c32bdca37d969984f1e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2922931b85fa384901d82de2b46b0845"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a2922931b85fa384901d82de2b46b0845">clear</a> ()</td></tr>
+<tr class="memdesc:a2922931b85fa384901d82de2b46b0845"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all values from the map.  <a href="#a2922931b85fa384901d82de2b46b0845"></a><br/></td></tr>
+<tr class="separator:a2922931b85fa384901d82de2b46b0845"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79c34c9f6a0799d6cae1b84ff61b7a34"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a79c34c9f6a0799d6cae1b84ff61b7a34">size</a> () const noexcept</td></tr>
+<tr class="memdesc:a79c34c9f6a0799d6cae1b84ff61b7a34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current number of items in the map.  <a href="#a79c34c9f6a0799d6cae1b84ff61b7a34"></a><br/></td></tr>
+<tr class="separator:a79c34c9f6a0799d6cae1b84ff61b7a34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad123e7a5d4d6a0fef5196d5e0475c21"><td class="memItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#aad123e7a5d4d6a0fef5196d5e0475c21">operator[]</a> (KeyTypeParameter keyToLookFor) const </td></tr>
+<tr class="memdesc:aad123e7a5d4d6a0fef5196d5e0475c21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value corresponding to a given key.  <a href="#aad123e7a5d4d6a0fef5196d5e0475c21"></a><br/></td></tr>
+<tr class="separator:aad123e7a5d4d6a0fef5196d5e0475c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76ea6487128a798b22e3937731cab111"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a76ea6487128a798b22e3937731cab111">contains</a> (KeyTypeParameter keyToLookFor) const </td></tr>
+<tr class="memdesc:a76ea6487128a798b22e3937731cab111"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the map contains an item with the specied key.  <a href="#a76ea6487128a798b22e3937731cab111"></a><br/></td></tr>
+<tr class="separator:a76ea6487128a798b22e3937731cab111"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa18110ae5d5de81f4e64efcc117e43d8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#aa18110ae5d5de81f4e64efcc117e43d8">containsValue</a> (ValueTypeParameter valueToLookFor) const </td></tr>
+<tr class="memdesc:aa18110ae5d5de81f4e64efcc117e43d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the hash contains at least one occurrence of a given value.  <a href="#aa18110ae5d5de81f4e64efcc117e43d8"></a><br/></td></tr>
+<tr class="separator:aa18110ae5d5de81f4e64efcc117e43d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a875c55a3b720118cd6687fd6494f7afd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a875c55a3b720118cd6687fd6494f7afd">set</a> (KeyTypeParameter newKey, ValueTypeParameter newValue)</td></tr>
+<tr class="memdesc:a875c55a3b720118cd6687fd6494f7afd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds or replaces an element in the hash-map.  <a href="#a875c55a3b720118cd6687fd6494f7afd"></a><br/></td></tr>
+<tr class="separator:a875c55a3b720118cd6687fd6494f7afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac308687ea47efa4d1559ec1b35505ad2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#ac308687ea47efa4d1559ec1b35505ad2">remove</a> (KeyTypeParameter keyToRemove)</td></tr>
+<tr class="memdesc:ac308687ea47efa4d1559ec1b35505ad2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an item with the given key.  <a href="#ac308687ea47efa4d1559ec1b35505ad2"></a><br/></td></tr>
+<tr class="separator:ac308687ea47efa4d1559ec1b35505ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c7e68766babe36a8ae07033d3652f2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a7c7e68766babe36a8ae07033d3652f2f">removeValue</a> (ValueTypeParameter valueToRemove)</td></tr>
+<tr class="memdesc:a7c7e68766babe36a8ae07033d3652f2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all items with the given value.  <a href="#a7c7e68766babe36a8ae07033d3652f2f"></a><br/></td></tr>
+<tr class="separator:a7c7e68766babe36a8ae07033d3652f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadd0f7eaeacd996eed49440b27d9f308"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#aadd0f7eaeacd996eed49440b27d9f308">remapTable</a> (int newNumberOfSlots)</td></tr>
+<tr class="memdesc:aadd0f7eaeacd996eed49440b27d9f308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remaps the hash-map to use a different number of slots for its hash function.  <a href="#aadd0f7eaeacd996eed49440b27d9f308"></a><br/></td></tr>
+<tr class="separator:aadd0f7eaeacd996eed49440b27d9f308"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28c5938ec533466631b98451c6b78072"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a28c5938ec533466631b98451c6b78072">getNumSlots</a> () const noexcept</td></tr>
+<tr class="memdesc:a28c5938ec533466631b98451c6b78072"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of slots which are available for hashing.  <a href="#a28c5938ec533466631b98451c6b78072"></a><br/></td></tr>
+<tr class="separator:a28c5938ec533466631b98451c6b78072"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a885345c5f15712041e6e46d38d6e564b"><td class="memTemplParams" colspan="2">template&lt;class OtherHashMapType &gt; </td></tr>
+<tr class="memitem:a885345c5f15712041e6e46d38d6e564b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classHashMap.html#a885345c5f15712041e6e46d38d6e564b">swapWith</a> (OtherHashMapType &amp;otherHashMap) noexcept</td></tr>
+<tr class="memdesc:a885345c5f15712041e6e46d38d6e564b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Efficiently swaps the contents of two hash-maps.  <a href="#a885345c5f15712041e6e46d38d6e564b"></a><br/></td></tr>
+<tr class="separator:a885345c5f15712041e6e46d38d6e564b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a539b127c2f399e4d5f6c235222fb7bf2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashMap.html#a539b127c2f399e4d5f6c235222fb7bf2">getLock</a> () const noexcept</td></tr>
+<tr class="memdesc:a539b127c2f399e4d5f6c235222fb7bf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> that locks this structure.  <a href="#a539b127c2f399e4d5f6c235222fb7bf2"></a><br/></td></tr>
+<tr class="separator:a539b127c2f399e4d5f6c235222fb7bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt;<br/>
-class HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;</h3>
+<div class="textblock"><h3>template&lt;typename KeyType, typename ValueType, class HashFunctionType = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt;<br/>
+class HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;</h3>
 
 <p>Holds a set of mappings between some key/value pairs. </p>
 <p>The types of the key and value objects are set as template parameters. You can also specify a class to supply a hash function that converts a key value into an hashed integer. This class must have the form:</p>
 <div class="fragment"><div class="line"><span class="keyword">struct </span>MyHashGenerator</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">static</span> <span class="keywordtype">int</span> generateHash (MyKeyType key, <span class="keywordtype">int</span> upperLimit)</div>
+<div class="line">    <span class="keywordtype">int</span> generateHash (MyKeyType key, <span class="keywordtype">int</span> upperLimit)</div>
 <div class="line">    {</div>
 <div class="line">        <span class="comment">// The function must return a value 0 &lt;= x &lt; upperLimit</span></div>
 <div class="line">        <span class="keywordflow">return</span> someFunctionOfMyKeyType (key) % upperLimit;</div>
 <div class="line">    }</div>
 <div class="line">};</div>
 </div><!-- fragment --><p>Like the <a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects.">Array</a> class, the key and value types are expected to be copy-by-value types, so if you define them to be pointer types, this class won't delete the objects that they point to.</p>
-<p>If you don't supply a class for the HashFunctionToUse template parameter, the default one provides some simple mappings for strings and ints.</p>
+<p>If you don't supply a class for the HashFunctionType template parameter, the default one provides some simple mappings for strings and ints.</p>
 <div class="fragment"><div class="line"><a class="code" href="classHashMap.html" title="Holds a set of mappings between some key/value pairs.">HashMap&lt;int, String&gt;</a> hash;</div>
-<div class="line">hash.<a class="code" href="classHashMap.html#a0eef18aeb766505db7721b895ecd5654" title="Adds or replaces an element in the hash-map.">set</a> (1, <span class="stringliteral">&quot;item1&quot;</span>);</div>
-<div class="line">hash.<a class="code" href="classHashMap.html#a0eef18aeb766505db7721b895ecd5654" title="Adds or replaces an element in the hash-map.">set</a> (2, <span class="stringliteral">&quot;item2&quot;</span>);</div>
+<div class="line">hash.<a class="code" href="classHashMap.html#a875c55a3b720118cd6687fd6494f7afd" title="Adds or replaces an element in the hash-map.">set</a> (1, <span class="stringliteral">&quot;item1&quot;</span>);</div>
+<div class="line">hash.<a class="code" href="classHashMap.html#a875c55a3b720118cd6687fd6494f7afd" title="Adds or replaces an element in the hash-map.">set</a> (2, <span class="stringliteral">&quot;item2&quot;</span>);</div>
 <div class="line"></div>
 <div class="line"><a class="code" href="juce__PlatformDefs_8h.html#a5335262a7d74113caa4edd740bded17d" title="Writes a string to the standard error stream.">DBG</a> (hash [1]); <span class="comment">// prints &quot;item1&quot;</span></div>
 <div class="line"><a class="code" href="juce__PlatformDefs_8h.html#a5335262a7d74113caa4edd740bded17d" title="Writes a string to the standard error stream.">DBG</a> (hash [2]); <span class="comment">// prints &quot;item2&quot;</span></div>
 <div class="line"></div>
 <div class="line"><span class="comment">// This iterates the map, printing all of its key -&gt; value pairs..</span></div>
-<div class="line"><span class="keywordflow">for</span> (<a class="code" href="classHashMap_1_1Iterator.html" title="Iterates over the items in a HashMap.">HashMap&lt;int, String&gt;::Iterator</a> i (hash); i.<a class="code" href="classHashMap_1_1Iterator.html#a926563d924a70859451fb30256d2d75c" title="Moves to the next item, if one is available.">next</a>();)</div>
+<div class="line"><span class="keywordflow">for</span> (<a class="code" href="classHashMap_1_1Iterator.html" title="Iterates over the items in a HashMap.">HashMap&lt;int, String&gt;::Iterator</a> i (hash); i.<a class="code" href="classHashMap_1_1Iterator.html#abdbcb9001e0777946703ff4c8cbde785" title="Moves to the next item, if one is available.">next</a>();)</div>
 <div class="line">    <a class="code" href="juce__PlatformDefs_8h.html#a5335262a7d74113caa4edd740bded17d" title="Writes a string to the standard error stream.">DBG</a> (i.getKey() &lt;&lt; <span class="stringliteral">&quot; -&gt; &quot;</span> &lt;&lt; i.getValue());</div>
-</div><!-- fragment --><dl class="section see"><dt>See Also</dt><dd><a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>, <a class="el" href="classDefaultHashFunctions.html" title="A simple class to generate hash functions for some primitive types, intended for use with the HashMap...">DefaultHashFunctions</a>, <a class="el" href="classNamedValueSet.html" title="Holds a set of named var objects.">NamedValueSet</a>, <a class="el" href="classSortedSet.html" title="Holds a set of unique primitive objects, such as ints or doubles.">SortedSet</a> </dd></dl>
+</div><!-- fragment --><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">HashFunctionType</td><td>The class of hash function, which must be copy-constructible. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>, <a class="el" href="structDefaultHashFunctions.html" title="A simple class to generate hash functions for some primitive types, intended for use with the HashMap...">DefaultHashFunctions</a>, <a class="el" href="classNamedValueSet.html" title="Holds a set of named var objects.">NamedValueSet</a>, <a class="el" href="classSortedSet.html" title="Holds a set of unique primitive objects, such as ints or doubles.">SortedSet</a> </dd></dl>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a2053dc3e335c31fdc9f60e1eab786967"></a>
+<a class="anchor" id="adc9bae72a08bd95e9e030b76d101e215"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename KeyType, typename ValueType, class HashFunctionType = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef TypeOfCriticalSectionToUse::ScopedLockType <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionToUse, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classHashMap.html#a2053dc3e335c31fdc9f60e1eab786967">ScopedLockType</a></td>
+          <td class="memname">typedef TypeOfCriticalSectionToUse::ScopedLockType <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classHashMap.html#adc9bae72a08bd95e9e030b76d101e215">ScopedLockType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -196,21 +203,31 @@ template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = Defa
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a4e1e6302d9a96ed3baba8e00c9dad143"></a>
+<a class="anchor" id="a4d6d41cfc524ccc0a73f0251d7fc1fab"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename KeyType, typename ValueType, class HashFunctionType = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionToUse, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classHashMap.html">HashMap</a> </td>
+          <td class="memname"><a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::<a class="el" href="classHashMap.html">HashMap</a> </td>
           <td>(</td>
-          <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>numberOfSlots</em> = <code>defaultHashTableSize</code></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numberOfSlots</em> = <code>defaultHashTableSize</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">HashFunctionType&#160;</td>
+          <td class="paramname"><em>hashFunction</em> = <code>HashFunctionType()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -221,20 +238,26 @@ template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = Defa
 </div><div class="memdoc">
 
 <p>Creates an empty hash-map. </p>
-<p>The numberOfSlots parameter specifies the number of hash entries the map will use. This will be the "upperLimit" parameter that is passed to your generateHash() function. The number of hash slots will grow automatically if necessary, or it can be remapped manually using <a class="el" href="classHashMap.html#a2520099a7f8ebd6b7921b9d6a3eedb1c" title="Remaps the hash-map to use a different number of slots for its hash function.">remapTable()</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">numberOfSlots</td><td>Specifies the number of hash entries the map will use. This will be the "upperLimit" parameter that is passed to your generateHash() function. The number of hash slots will grow automatically if necessary, or it can be remapped manually using <a class="el" href="classHashMap.html#aadd0f7eaeacd996eed49440b27d9f308" title="Remaps the hash-map to use a different number of slots for its hash function.">remapTable()</a>. </td></tr>
+    <tr><td class="paramname">hashFunction</td><td>An instance of HashFunctionType, which will be copied and stored to use with the <a class="el" href="classHashMap.html" title="Holds a set of mappings between some key/value pairs.">HashMap</a>. This parameter can be omitted if HashFunctionType has a default constructor. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="classArray.html#a0cadf83bcfba696c6a4adc15f4e0a78f">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::insertMultiple()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a358efcaba0080089ddf21b4c652b3a5b"></a>
+<a class="anchor" id="a33001fb7329c32bdca37d969984f1e58"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename KeyType, typename ValueType, class HashFunctionType = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionToUse, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::~<a class="el" href="classHashMap.html">HashMap</a> </td>
+          <td class="memname"><a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::~<a class="el" href="classHashMap.html">HashMap</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -244,19 +267,19 @@ template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = Defa
 
 <p>Destructor. </p>
 
-<p>References <a class="el" href="classHashMap.html#a5c05298ac37d90e8ae6b944cf9ef90a7">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::clear()</a>.</p>
+<p>References <a class="el" href="classHashMap.html#a2922931b85fa384901d82de2b46b0845">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::clear()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a5c05298ac37d90e8ae6b944cf9ef90a7"></a>
+<a class="anchor" id="a2922931b85fa384901d82de2b46b0845"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename KeyType, typename ValueType, class HashFunctionType = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionToUse, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::clear </td>
+          <td class="memname">void <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::clear </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -267,23 +290,23 @@ template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = Defa
 <p>Removes all values from the map. </p>
 <p>Note that this will clear the content, but won't affect the number of slots (see remapTable and getNumSlots). </p>
 
-<p>References <a class="el" href="classHashMap.html#a7fcaef6a8e7be6d592594e160e90243a">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::getLock()</a>, <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getUnchecked()</a>, <a class="el" href="classArray.html#a2fb91e8ec10caa9474a28c88e35f9686">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::set()</a>, and <a class="el" href="classArray.html#ae79ec3b32d0c9a80dfff8ffbc41f8523">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::size()</a>.</p>
+<p>References <a class="el" href="classHashMap.html#a539b127c2f399e4d5f6c235222fb7bf2">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::getLock()</a>, <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getUnchecked()</a>, <a class="el" href="classArray.html#a2fb91e8ec10caa9474a28c88e35f9686">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::set()</a>, and <a class="el" href="classArray.html#ae79ec3b32d0c9a80dfff8ffbc41f8523">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::size()</a>.</p>
 
-<p>Referenced by <a class="el" href="classHashMap.html#a358efcaba0080089ddf21b4c652b3a5b">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::~HashMap()</a>.</p>
+<p>Referenced by <a class="el" href="classHashMap.html#a33001fb7329c32bdca37d969984f1e58">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::~HashMap()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4fb1bd69682e00d4b83b0c05dbf92bc8"></a>
+<a class="anchor" id="a79c34c9f6a0799d6cae1b84ff61b7a34"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename KeyType, typename ValueType, class HashFunctionType = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionToUse, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::size </td>
+          <td class="memname">int <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -300,14 +323,14 @@ template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = Defa
 
 </div>
 </div>
-<a class="anchor" id="a7dbed3ff20a43f4f6997f40b15a8ae5c"></a>
+<a class="anchor" id="aad123e7a5d4d6a0fef5196d5e0475c21"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename KeyType, typename ValueType, class HashFunctionType = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">ValueType <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionToUse, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::operator[] </td>
+          <td class="memname">ValueType <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::operator[] </td>
           <td>(</td>
           <td class="paramtype">KeyTypeParameter&#160;</td>
           <td class="paramname"><em>keyToLookFor</em></td><td>)</td>
@@ -325,18 +348,18 @@ template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = Defa
   </dd>
 </dl>
 
-<p>References <a class="el" href="classHashMap.html#a7fcaef6a8e7be6d592594e160e90243a">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::getLock()</a>, and <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getUnchecked()</a>.</p>
+<p>References <a class="el" href="classHashMap.html#a539b127c2f399e4d5f6c235222fb7bf2">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::getLock()</a>, and <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getUnchecked()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5c46356ec0825277b52729dd6c650c85"></a>
+<a class="anchor" id="a76ea6487128a798b22e3937731cab111"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename KeyType, typename ValueType, class HashFunctionType = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionToUse, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::contains </td>
+          <td class="memname">bool <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::contains </td>
           <td>(</td>
           <td class="paramtype">KeyTypeParameter&#160;</td>
           <td class="paramname"><em>keyToLookFor</em></td><td>)</td>
@@ -347,18 +370,18 @@ template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = Defa
 
 <p>Returns true if the map contains an item with the specied key. </p>
 
-<p>References <a class="el" href="classHashMap.html#a7fcaef6a8e7be6d592594e160e90243a">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::getLock()</a>, and <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getUnchecked()</a>.</p>
+<p>References <a class="el" href="classHashMap.html#a539b127c2f399e4d5f6c235222fb7bf2">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::getLock()</a>, and <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getUnchecked()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad5b7794228bc73ed367a656c7354e0ef"></a>
+<a class="anchor" id="aa18110ae5d5de81f4e64efcc117e43d8"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename KeyType, typename ValueType, class HashFunctionType = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionToUse, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::containsValue </td>
+          <td class="memname">bool <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::containsValue </td>
           <td>(</td>
           <td class="paramtype">ValueTypeParameter&#160;</td>
           <td class="paramname"><em>valueToLookFor</em></td><td>)</td>
@@ -369,18 +392,18 @@ template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = Defa
 
 <p>Returns true if the hash contains at least one occurrence of a given value. </p>
 
-<p>References <a class="el" href="classHashMap.html#a7fcaef6a8e7be6d592594e160e90243a">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::getLock()</a>, <a class="el" href="classHashMap.html#ad88492074f61172e919d17a8338ec670">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::getNumSlots()</a>, and <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getUnchecked()</a>.</p>
+<p>References <a class="el" href="classHashMap.html#a539b127c2f399e4d5f6c235222fb7bf2">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::getLock()</a>, <a class="el" href="classHashMap.html#a28c5938ec533466631b98451c6b78072">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::getNumSlots()</a>, and <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getUnchecked()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a0eef18aeb766505db7721b895ecd5654"></a>
+<a class="anchor" id="a875c55a3b720118cd6687fd6494f7afd"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename KeyType, typename ValueType, class HashFunctionType = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionToUse, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::set </td>
+          <td class="memname">void <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::set </td>
           <td>(</td>
           <td class="paramtype">KeyTypeParameter&#160;</td>
           <td class="paramname"><em>newKey</em>, </td>
@@ -402,20 +425,20 @@ template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = Defa
 <p>Adds or replaces an element in the hash-map. </p>
 <p>If there's already an item with the given key, this will replace its value. Otherwise, a new item will be added to the map. </p>
 
-<p>References <a class="el" href="classHashMap.html#a7fcaef6a8e7be6d592594e160e90243a">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::getLock()</a>, <a class="el" href="classHashMap.html#ad88492074f61172e919d17a8338ec670">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::getNumSlots()</a>, <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getUnchecked()</a>, <a class="el" href="classHashMap.html#a2520099a7f8ebd6b7921b9d6a3eedb1c">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::remapTable()</a>, and <a class="el" href="classArray.html#a2fb91e8ec10caa9474a28c88e35f9686">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::set()</a>.</p>
+<p>References <a class="el" href="classHashMap.html#a539b127c2f399e4d5f6c235222fb7bf2">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::getLock()</a>, <a class="el" href="classHashMap.html#a28c5938ec533466631b98451c6b78072">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::getNumSlots()</a>, <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getUnchecked()</a>, <a class="el" href="classHashMap.html#aadd0f7eaeacd996eed49440b27d9f308">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::remapTable()</a>, and <a class="el" href="classArray.html#a2fb91e8ec10caa9474a28c88e35f9686">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::set()</a>.</p>
 
-<p>Referenced by <a class="el" href="classHashMap.html#a2520099a7f8ebd6b7921b9d6a3eedb1c">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::remapTable()</a>.</p>
+<p>Referenced by <a class="el" href="classHashMap.html#aadd0f7eaeacd996eed49440b27d9f308">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::remapTable()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9a2ced849c2687f6bf93c8e311d23b32"></a>
+<a class="anchor" id="ac308687ea47efa4d1559ec1b35505ad2"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename KeyType, typename ValueType, class HashFunctionType = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionToUse, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::remove </td>
+          <td class="memname">void <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::remove </td>
           <td>(</td>
           <td class="paramtype">KeyTypeParameter&#160;</td>
           <td class="paramname"><em>keyToRemove</em></td><td>)</td>
@@ -426,18 +449,18 @@ template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = Defa
 
 <p>Removes an item with the given key. </p>
 
-<p>References <a class="el" href="classHashMap.html#a7fcaef6a8e7be6d592594e160e90243a">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::getLock()</a>, <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getUnchecked()</a>, and <a class="el" href="classArray.html#a2fb91e8ec10caa9474a28c88e35f9686">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::set()</a>.</p>
+<p>References <a class="el" href="classHashMap.html#a539b127c2f399e4d5f6c235222fb7bf2">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::getLock()</a>, <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getUnchecked()</a>, and <a class="el" href="classArray.html#a2fb91e8ec10caa9474a28c88e35f9686">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::set()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a69fffa7da6512b84a990d471600c5c3e"></a>
+<a class="anchor" id="a7c7e68766babe36a8ae07033d3652f2f"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename KeyType, typename ValueType, class HashFunctionType = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionToUse, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::removeValue </td>
+          <td class="memname">void <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::removeValue </td>
           <td>(</td>
           <td class="paramtype">ValueTypeParameter&#160;</td>
           <td class="paramname"><em>valueToRemove</em></td><td>)</td>
@@ -448,18 +471,18 @@ template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = Defa
 
 <p>Removes all items with the given value. </p>
 
-<p>References <a class="el" href="classHashMap.html#a7fcaef6a8e7be6d592594e160e90243a">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::getLock()</a>, <a class="el" href="classHashMap.html#ad88492074f61172e919d17a8338ec670">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::getNumSlots()</a>, <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getUnchecked()</a>, and <a class="el" href="classArray.html#a2fb91e8ec10caa9474a28c88e35f9686">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::set()</a>.</p>
+<p>References <a class="el" href="classHashMap.html#a539b127c2f399e4d5f6c235222fb7bf2">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::getLock()</a>, <a class="el" href="classHashMap.html#a28c5938ec533466631b98451c6b78072">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::getNumSlots()</a>, <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getUnchecked()</a>, and <a class="el" href="classArray.html#a2fb91e8ec10caa9474a28c88e35f9686">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::set()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2520099a7f8ebd6b7921b9d6a3eedb1c"></a>
+<a class="anchor" id="aadd0f7eaeacd996eed49440b27d9f308"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename KeyType, typename ValueType, class HashFunctionType = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionToUse, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::remapTable </td>
+          <td class="memname">void <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::remapTable </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>newNumberOfSlots</em></td><td>)</td>
@@ -470,25 +493,25 @@ template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = Defa
 
 <p>Remaps the hash-map to use a different number of slots for its hash function. </p>
 <p>Each slot corresponds to a single hash-code, and each one can contain multiple items. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classHashMap.html#ad88492074f61172e919d17a8338ec670" title="Returns the number of slots which are available for hashing.">getNumSlots()</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classHashMap.html#a28c5938ec533466631b98451c6b78072" title="Returns the number of slots which are available for hashing.">getNumSlots()</a> </dd></dl>
 
-<p>References <a class="el" href="classHashMap.html#ad88492074f61172e919d17a8338ec670">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::getNumSlots()</a>, <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getUnchecked()</a>, <a class="el" href="classHashMap.html#a0eef18aeb766505db7721b895ecd5654">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::set()</a>, and <a class="el" href="classHashMap.html#a6d47bc560004a8f525484f94dd8796ca">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::swapWith()</a>.</p>
+<p>References <a class="el" href="classHashMap.html#a28c5938ec533466631b98451c6b78072">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::getNumSlots()</a>, <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getUnchecked()</a>, <a class="el" href="classHashMap.html#a875c55a3b720118cd6687fd6494f7afd">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::set()</a>, and <a class="el" href="classHashMap.html#a885345c5f15712041e6e46d38d6e564b">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::swapWith()</a>.</p>
 
-<p>Referenced by <a class="el" href="classHashMap.html#a0eef18aeb766505db7721b895ecd5654">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::set()</a>.</p>
+<p>Referenced by <a class="el" href="classHashMap.html#a875c55a3b720118cd6687fd6494f7afd">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::set()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad88492074f61172e919d17a8338ec670"></a>
+<a class="anchor" id="a28c5938ec533466631b98451c6b78072"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename KeyType, typename ValueType, class HashFunctionType = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionToUse, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::getNumSlots </td>
+          <td class="memname">int <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::getNumSlots </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -503,27 +526,29 @@ template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = Defa
 
 <p>Returns the number of slots which are available for hashing. </p>
 <p>Each slot corresponds to a single hash-code, and each one can contain multiple items. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classHashMap.html#ad88492074f61172e919d17a8338ec670" title="Returns the number of slots which are available for hashing.">getNumSlots()</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classHashMap.html#a28c5938ec533466631b98451c6b78072" title="Returns the number of slots which are available for hashing.">getNumSlots()</a> </dd></dl>
 
 <p>References <a class="el" href="classArray.html#ae79ec3b32d0c9a80dfff8ffbc41f8523">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::size()</a>.</p>
 
-<p>Referenced by <a class="el" href="classHashMap.html#ad5b7794228bc73ed367a656c7354e0ef">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::containsValue()</a>, <a class="el" href="classHashMap_1_1Iterator.html#a926563d924a70859451fb30256d2d75c">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::Iterator::next()</a>, <a class="el" href="classHashMap.html#a2520099a7f8ebd6b7921b9d6a3eedb1c">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::remapTable()</a>, <a class="el" href="classHashMap.html#a69fffa7da6512b84a990d471600c5c3e">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::removeValue()</a>, and <a class="el" href="classHashMap.html#a0eef18aeb766505db7721b895ecd5654">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::set()</a>.</p>
+<p>Referenced by <a class="el" href="classHashMap.html#aa18110ae5d5de81f4e64efcc117e43d8">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::containsValue()</a>, <a class="el" href="classHashMap_1_1Iterator.html#abdbcb9001e0777946703ff4c8cbde785">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::Iterator::next()</a>, <a class="el" href="classHashMap.html#aadd0f7eaeacd996eed49440b27d9f308">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::remapTable()</a>, <a class="el" href="classHashMap.html#a7c7e68766babe36a8ae07033d3652f2f">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::removeValue()</a>, and <a class="el" href="classHashMap.html#a875c55a3b720118cd6687fd6494f7afd">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::set()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6d47bc560004a8f525484f94dd8796ca"></a>
+<a class="anchor" id="a885345c5f15712041e6e46d38d6e564b"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename KeyType, typename ValueType, class HashFunctionType = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+<div class="memtemplate">
+template&lt;class OtherHashMapType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionToUse, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::swapWith </td>
+          <td class="memname">void <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::swapWith </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionToUse, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">OtherHashMapType &amp;&#160;</td>
           <td class="paramname"><em>otherHashMap</em></td><td>)</td>
           <td></td>
         </tr>
@@ -537,23 +562,23 @@ template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = Defa
 
 <p>Efficiently swaps the contents of two hash-maps. </p>
 
-<p>References <a class="el" href="classHashMap.html#a7fcaef6a8e7be6d592594e160e90243a">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::getLock()</a>, and <a class="el" href="classArray.html#af2d409a47639a922eda981fe7def9c2f">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::swapWithArray()</a>.</p>
+<p>References <a class="el" href="classHashMap.html#a539b127c2f399e4d5f6c235222fb7bf2">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::getLock()</a>, and <a class="el" href="classArray.html#a921a70882553967e2998beeb30d99f83">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::swapWith()</a>.</p>
 
-<p>Referenced by <a class="el" href="classHashMap.html#a2520099a7f8ebd6b7921b9d6a3eedb1c">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::remapTable()</a>.</p>
+<p>Referenced by <a class="el" href="classHashMap.html#aadd0f7eaeacd996eed49440b27d9f308">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::remapTable()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7fcaef6a8e7be6d592594e160e90243a"></a>
+<a class="anchor" id="a539b127c2f399e4d5f6c235222fb7bf2"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+template&lt;typename KeyType, typename ValueType, class HashFunctionType = DefaultHashFunctions, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>&amp; <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionToUse, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::getLock </td>
+          <td class="memname">const <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a>&amp; <a class="el" href="classHashMap.html">HashMap</a>&lt; KeyType, ValueType, HashFunctionType, <a class="el" href="classTypeOfCriticalSectionToUse.html">TypeOfCriticalSectionToUse</a> &gt;::getLock </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -567,9 +592,9 @@ template&lt;typename KeyType, typename ValueType, class HashFunctionToUse = Defa
 </div><div class="memdoc">
 
 <p>Returns the <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> that locks this structure. </p>
-<p>To lock, you can call <a class="el" href="classHashMap.html#a7fcaef6a8e7be6d592594e160e90243a" title="Returns the CriticalSection that locks this structure.">getLock()</a>.enter() and <a class="el" href="classHashMap.html#a7fcaef6a8e7be6d592594e160e90243a" title="Returns the CriticalSection that locks this structure.">getLock()</a>.exit(), or preferably use an object of ScopedLockType as an RAII lock for it. </p>
+<p>To lock, you can call <a class="el" href="classHashMap.html#a539b127c2f399e4d5f6c235222fb7bf2" title="Returns the CriticalSection that locks this structure.">getLock()</a>.enter() and <a class="el" href="classHashMap.html#a539b127c2f399e4d5f6c235222fb7bf2" title="Returns the CriticalSection that locks this structure.">getLock()</a>.exit(), or preferably use an object of ScopedLockType as an RAII lock for it. </p>
 
-<p>Referenced by <a class="el" href="classHashMap.html#a5c05298ac37d90e8ae6b944cf9ef90a7">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::clear()</a>, <a class="el" href="classHashMap.html#a5c46356ec0825277b52729dd6c650c85">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::contains()</a>, <a class="el" href="classHashMap.html#ad5b7794228bc73ed367a656c7354e0ef">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::containsValue()</a>, <a class="el" href="classHashMap.html#a7dbed3ff20a43f4f6997f40b15a8ae5c">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::operator[]()</a>, <a class="el" href="classHashMap.html#a9a2ced849c2687f6bf93c8e311d23b32">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::remove()</a>, <a class="el" href="classHashMap.html#a69fffa7da6512b84a990d471600c5c3e">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::removeValue()</a>, <a class="el" href="classHashMap.html#a0eef18aeb766505db7721b895ecd5654">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::set()</a>, and <a class="el" href="classHashMap.html#a6d47bc560004a8f525484f94dd8796ca">HashMap&lt; KeyType, ValueType, HashFunctionToUse, TypeOfCriticalSectionToUse &gt;::swapWith()</a>.</p>
+<p>Referenced by <a class="el" href="classHashMap.html#a2922931b85fa384901d82de2b46b0845">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::clear()</a>, <a class="el" href="classHashMap.html#a76ea6487128a798b22e3937731cab111">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::contains()</a>, <a class="el" href="classHashMap.html#aa18110ae5d5de81f4e64efcc117e43d8">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::containsValue()</a>, <a class="el" href="classHashMap.html#aad123e7a5d4d6a0fef5196d5e0475c21">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::operator[]()</a>, <a class="el" href="classHashMap.html#ac308687ea47efa4d1559ec1b35505ad2">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::remove()</a>, <a class="el" href="classHashMap.html#a7c7e68766babe36a8ae07033d3652f2f">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::removeValue()</a>, <a class="el" href="classHashMap.html#a875c55a3b720118cd6687fd6494f7afd">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::set()</a>, and <a class="el" href="classHashMap.html#a885345c5f15712041e6e46d38d6e564b">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::swapWith()</a>.</p>
 
 </div>
 </div>

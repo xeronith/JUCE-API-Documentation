@@ -4,7 +4,6 @@ var searchData=
   ['salmon',['salmon',['../classColours.html#af378ac76e1537fce6687df4ba4cdf02a',1,'Colours']]],
   ['samplerate',['sampleRate',['../structAudioDeviceManager_1_1AudioDeviceSetup.html#afa56530d7a661131d8891f7b9874fcd1',1,'AudioDeviceManager::AudioDeviceSetup::sampleRate()'],['../classAudioFormatReader.html#aafcd07b3ac08e83c019621cd8cd0c7c5',1,'AudioFormatReader::sampleRate()'],['../classAudioFormatWriter.html#aafefbda90e2a58cb057e89e995decfd2',1,'AudioFormatWriter::sampleRate()']]],
   ['sandybrown',['sandybrown',['../classColours.html#aeaae32c502a189cef0bfbbc1251cdb1c',1,'Colours']]],
-  ['savedstate',['savedState',['../classLowLevelGraphicsSoftwareRenderer.html#ae8b6b909e4d296eae82dc074a3d0fe03',1,'LowLevelGraphicsSoftwareRenderer']]],
   ['scalar',['scalar',['../classQuaternion.html#adfe519277223a4cb9321dc7f0d3b5cca',1,'Quaternion']]],
   ['scale',['scale',['../structDesktop_1_1Displays_1_1Display.html#a1fa73b56829f21284aaf3ba95d64c227',1,'Desktop::Displays::Display']]],
   ['scopeuid',['scopeUID',['../structExpression_1_1Symbol.html#aaddddb4fd2bad7fcce78adce69ba91d8',1,'Expression::Symbol']]],
