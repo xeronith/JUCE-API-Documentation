@@ -129,7 +129,7 @@ var searchData=
   ['draganddroptarget',['DragAndDropTarget',['../classDragAndDropTarget.html',1,'']]],
   ['dragcomponent',['dragComponent',['../classComponentDragger.html#af2ebcd662f3279b373bfaf035f2c269e',1,'ComponentDragger']]],
   ['draggable',['draggable',['../classTableHeaderComponent.html#abfee3b5ccd3289efb38e7b7dd1162831acc6c3bf14f3e100d490d1e9cd307e1fe',1,'TableHeaderComponent']]],
-  ['draggable3dorientation',['Draggable3DOrientation',['../classDraggable3DOrientation.html',1,'Draggable3DOrientation'],['../classDraggable3DOrientation.html#a926f24463e2a332a31897be82726e780',1,'Draggable3DOrientation::Draggable3DOrientation()']]],
+  ['draggable3dorientation',['Draggable3DOrientation',['../classDraggable3DOrientation.html',1,'Draggable3DOrientation'],['../classDraggable3DOrientation.html#a926f24463e2a332a31897be82726e780',1,'Draggable3DOrientation::Draggable3DOrientation(float objectRadius=0.5f) noexcept'],['../classDraggable3DOrientation.html#a18ba0af8d67f53af8117feff469522c4',1,'Draggable3DOrientation::Draggable3DOrientation(const Quaternion&lt; GLfloat &gt; &amp;quaternionToUse, float objectRadius=0.5f) noexcept']]],
   ['dragginghandcursor',['DraggingHandCursor',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97a95198e14e2dede840964e9bd4c785770',1,'MouseCursor']]],
   ['draginfo',['DragInfo',['../structComponentPeer_1_1DragInfo.html',1,'ComponentPeer']]],
   ['draglasso',['dragLasso',['../classLassoComponent.html#a4aca7f9f28ecef2834bfabe648ba6959',1,'LassoComponent']]],

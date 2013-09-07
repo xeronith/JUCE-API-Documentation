@@ -96,12 +96,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Types</h2></td></tr>
 <tr class="memitem:aae0b643886f4857b0a2a7bed1ace01a7"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classVector3D.html">Vector3D</a>&lt; GLfloat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDraggable3DOrientation.html#aae0b643886f4857b0a2a7bed1ace01a7">VectorType</a></td></tr>
 <tr class="separator:aae0b643886f4857b0a2a7bed1ace01a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87c6a9757094e54cf1f42d92ac0e20f9"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classQuaternion.html">Quaternion</a>&lt; GLfloat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDraggable3DOrientation.html#a87c6a9757094e54cf1f42d92ac0e20f9">QuaternionType</a></td></tr>
+<tr class="separator:a87c6a9757094e54cf1f42d92ac0e20f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a926f24463e2a332a31897be82726e780"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDraggable3DOrientation.html#a926f24463e2a332a31897be82726e780">Draggable3DOrientation</a> (float objectRadius=0.5f) noexcept</td></tr>
 <tr class="memdesc:a926f24463e2a332a31897be82726e780"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classDraggable3DOrientation.html" title="Stores a 3D orientation, which can be rotated by dragging with the mouse.">Draggable3DOrientation</a>, initially set up to be aligned along the X axis.  <a href="#a926f24463e2a332a31897be82726e780"></a><br/></td></tr>
 <tr class="separator:a926f24463e2a332a31897be82726e780"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18ba0af8d67f53af8117feff469522c4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDraggable3DOrientation.html#a18ba0af8d67f53af8117feff469522c4">Draggable3DOrientation</a> (const <a class="el" href="classQuaternion.html">Quaternion</a>&lt; GLfloat &gt; &amp;quaternionToUse, float objectRadius=0.5f) noexcept</td></tr>
+<tr class="memdesc:a18ba0af8d67f53af8117feff469522c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classDraggable3DOrientation.html" title="Stores a 3D orientation, which can be rotated by dragging with the mouse.">Draggable3DOrientation</a> from a user-supplied quaternion.  <a href="#a18ba0af8d67f53af8117feff469522c4"></a><br/></td></tr>
+<tr class="separator:a18ba0af8d67f53af8117feff469522c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a044ceada7a836f33ed3b5359fdfd7117"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDraggable3DOrientation.html#a044ceada7a836f33ed3b5359fdfd7117">reset</a> (const <a class="el" href="classDraggable3DOrientation.html#aae0b643886f4857b0a2a7bed1ace01a7">VectorType</a> &amp;axis) noexcept</td></tr>
 <tr class="memdesc:a044ceada7a836f33ed3b5359fdfd7117"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the orientation, specifying the axis to align it along.  <a href="#a044ceada7a836f33ed3b5359fdfd7117"></a><br/></td></tr>
 <tr class="separator:a044ceada7a836f33ed3b5359fdfd7117"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -111,17 +116,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aba3b29abef586953b0ab2dc709dc274c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDraggable3DOrientation.html#aba3b29abef586953b0ab2dc709dc274c">setRadius</a> (float newRadius) noexcept</td></tr>
 <tr class="memdesc:aba3b29abef586953b0ab2dc709dc274c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the size of the rotated object, as a proportion of the viewport's size.  <a href="#aba3b29abef586953b0ab2dc709dc274c"></a><br/></td></tr>
 <tr class="separator:aba3b29abef586953b0ab2dc709dc274c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a336c7c82805ee40062b05ae12be2d589"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
-<tr class="memitem:a336c7c82805ee40062b05ae12be2d589"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classDraggable3DOrientation.html#a336c7c82805ee40062b05ae12be2d589">mouseDown</a> (const <a class="el" href="classPoint.html">Point</a>&lt; Type &gt; &amp;mousePos) noexcept</td></tr>
-<tr class="memdesc:a336c7c82805ee40062b05ae12be2d589"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begins a mouse-drag operation.  <a href="#a336c7c82805ee40062b05ae12be2d589"></a><br/></td></tr>
-<tr class="separator:a336c7c82805ee40062b05ae12be2d589"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab815c213fb6f40ee3516154c1bc4ec05"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
-<tr class="memitem:ab815c213fb6f40ee3516154c1bc4ec05"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classDraggable3DOrientation.html#ab815c213fb6f40ee3516154c1bc4ec05">mouseDrag</a> (const <a class="el" href="classPoint.html">Point</a>&lt; Type &gt; &amp;mousePos) noexcept</td></tr>
-<tr class="memdesc:ab815c213fb6f40ee3516154c1bc4ec05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Continues a mouse-drag operation.  <a href="#ab815c213fb6f40ee3516154c1bc4ec05"></a><br/></td></tr>
-<tr class="separator:ab815c213fb6f40ee3516154c1bc4ec05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42b621b62a71657a5b02bc12e75f5a97"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:a42b621b62a71657a5b02bc12e75f5a97"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classDraggable3DOrientation.html#a42b621b62a71657a5b02bc12e75f5a97">mouseDown</a> (<a class="el" href="classPoint.html">Point</a>&lt; Type &gt; mousePos) noexcept</td></tr>
+<tr class="memdesc:a42b621b62a71657a5b02bc12e75f5a97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begins a mouse-drag operation.  <a href="#a42b621b62a71657a5b02bc12e75f5a97"></a><br/></td></tr>
+<tr class="separator:a42b621b62a71657a5b02bc12e75f5a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a163aa63b7b834b0cab05d898a062c4"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:a9a163aa63b7b834b0cab05d898a062c4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classDraggable3DOrientation.html#a9a163aa63b7b834b0cab05d898a062c4">mouseDrag</a> (<a class="el" href="classPoint.html">Point</a>&lt; Type &gt; mousePos) noexcept</td></tr>
+<tr class="memdesc:a9a163aa63b7b834b0cab05d898a062c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Continues a mouse-drag operation.  <a href="#a9a163aa63b7b834b0cab05d898a062c4"></a><br/></td></tr>
+<tr class="separator:a9a163aa63b7b834b0cab05d898a062c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dcfe419cc056ca2150e71579502c695"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMatrix3D.html">Matrix3D</a>&lt; GLfloat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDraggable3DOrientation.html#a0dcfe419cc056ca2150e71579502c695">getRotationMatrix</a> () const noexcept</td></tr>
 <tr class="memdesc:a0dcfe419cc056ca2150e71579502c695"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the matrix that should be used to apply the current orientation.  <a href="#a0dcfe419cc056ca2150e71579502c695"></a><br/></td></tr>
 <tr class="separator:a0dcfe419cc056ca2150e71579502c695"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4db5f2d4b68cfc5826ba584893470970"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDraggable3DOrientation.html#a87c6a9757094e54cf1f42d92ac0e20f9">QuaternionType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDraggable3DOrientation.html#a4db5f2d4b68cfc5826ba584893470970">getQuaternion</a> () noexcept</td></tr>
+<tr class="memdesc:a4db5f2d4b68cfc5826ba584893470970"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides direct access to the quaternion.  <a href="#a4db5f2d4b68cfc5826ba584893470970"></a><br/></td></tr>
+<tr class="separator:a4db5f2d4b68cfc5826ba584893470970"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Stores a 3D orientation, which can be rotated by dragging with the mouse. </p>
@@ -132,6 +140,18 @@ Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef <a class="el" href="classVector3D.html">Vector3D</a>&lt;GLfloat&gt; <a class="el" href="classDraggable3DOrientation.html#aae0b643886f4857b0a2a7bed1ace01a7">Draggable3DOrientation::VectorType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a87c6a9757094e54cf1f42d92ac0e20f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="classQuaternion.html">Quaternion</a>&lt;GLfloat&gt; <a class="el" href="classDraggable3DOrientation.html#a87c6a9757094e54cf1f42d92ac0e20f9">Draggable3DOrientation::QuaternionType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -162,6 +182,42 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a <a class="el" href="classDraggable3DOrientation.html" title="Stores a 3D orientation, which can be rotated by dragging with the mouse.">Draggable3DOrientation</a>, initially set up to be aligned along the X axis. </p>
+
+</div>
+</div>
+<a class="anchor" id="a18ba0af8d67f53af8117feff469522c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Draggable3DOrientation::Draggable3DOrientation </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classQuaternion.html">Quaternion</a>&lt; GLfloat &gt; &amp;&#160;</td>
+          <td class="paramname"><em>quaternionToUse</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>objectRadius</em> = <code>0.5f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a <a class="el" href="classDraggable3DOrientation.html" title="Stores a 3D orientation, which can be rotated by dragging with the mouse.">Draggable3DOrientation</a> from a user-supplied quaternion. </p>
 
 </div>
 </div>
@@ -248,7 +304,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a336c7c82805ee40062b05ae12be2d589"></a>
+<a class="anchor" id="a42b621b62a71657a5b02bc12e75f5a97"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -260,7 +316,7 @@ template&lt;typename Type &gt; </div>
         <tr>
           <td class="memname">void Draggable3DOrientation::mouseDown </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPoint.html">Point</a>&lt; Type &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; Type &gt;&#160;</td>
           <td class="paramname"><em>mousePos</em></td><td>)</td>
           <td></td>
         </tr>
@@ -273,11 +329,11 @@ template&lt;typename Type &gt; </div>
 </div><div class="memdoc">
 
 <p>Begins a mouse-drag operation. </p>
-<p>You must call this before any calls to <a class="el" href="classDraggable3DOrientation.html#ab815c213fb6f40ee3516154c1bc4ec05" title="Continues a mouse-drag operation.">mouseDrag()</a>. The position that is supplied will be treated as being relative to the centre of the rectangle passed to <a class="el" href="classDraggable3DOrientation.html#aaf819f208f7b6f098a9d14084281f84c" title="Sets the viewport area within which mouse-drag positions will occur.">setViewport()</a>. </p>
+<p>You must call this before any calls to <a class="el" href="classDraggable3DOrientation.html#a9a163aa63b7b834b0cab05d898a062c4" title="Continues a mouse-drag operation.">mouseDrag()</a>. The position that is supplied will be treated as being relative to the centre of the rectangle passed to <a class="el" href="classDraggable3DOrientation.html#aaf819f208f7b6f098a9d14084281f84c" title="Sets the viewport area within which mouse-drag positions will occur.">setViewport()</a>. </p>
 
 </div>
 </div>
-<a class="anchor" id="ab815c213fb6f40ee3516154c1bc4ec05"></a>
+<a class="anchor" id="a9a163aa63b7b834b0cab05d898a062c4"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -289,7 +345,7 @@ template&lt;typename Type &gt; </div>
         <tr>
           <td class="memname">void Draggable3DOrientation::mouseDrag </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPoint.html">Point</a>&lt; Type &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; Type &gt;&#160;</td>
           <td class="paramname"><em>mousePos</em></td><td>)</td>
           <td></td>
         </tr>
@@ -302,7 +358,7 @@ template&lt;typename Type &gt; </div>
 </div><div class="memdoc">
 
 <p>Continues a mouse-drag operation. </p>
-<p>After calling <a class="el" href="classDraggable3DOrientation.html#a336c7c82805ee40062b05ae12be2d589" title="Begins a mouse-drag operation.">mouseDown()</a> to begin a drag sequence, you can call this method to continue it. </p>
+<p>After calling <a class="el" href="classDraggable3DOrientation.html#a42b621b62a71657a5b02bc12e75f5a97" title="Begins a mouse-drag operation.">mouseDown()</a> to begin a drag sequence, you can call this method to continue it. </p>
 
 </div>
 </div>
@@ -331,6 +387,31 @@ template&lt;typename Type &gt; </div>
 <dl class="section see"><dt>See Also</dt><dd>applyToOpenGLMatrix </dd></dl>
 
 <p>References <a class="el" href="classQuaternion.html#a14dee0a7b0f7a7a79fdd0c6741b49131">Quaternion&lt; Type &gt;::getRotationMatrix()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4db5f2d4b68cfc5826ba584893470970"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classDraggable3DOrientation.html#a87c6a9757094e54cf1f42d92ac0e20f9">QuaternionType</a>&amp; Draggable3DOrientation::getQuaternion </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Provides direct access to the quaternion. </p>
 
 </div>
 </div>

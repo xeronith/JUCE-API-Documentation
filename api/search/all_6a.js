@@ -10,7 +10,7 @@ var searchData=
   ['jobselector',['JobSelector',['../classThreadPool_1_1JobSelector.html',1,'ThreadPool']]],
   ['jobstatus',['JobStatus',['../classThreadPoolJob.html#a534c077f3c60168d88555ade062420b3',1,'ThreadPoolJob']]],
   ['joinintostring',['joinIntoString',['../classStringArray.html#a43a4cb54bc23ac770db7ea28bcd84045',1,'StringArray']]],
-  ['jointstyle',['JointStyle',['../classPathStrokeType.html#af1cf21018ccb9aa84572c1da4ae513b8',1,'PathStrokeType::JointStyle()'],['../classDrawableShape_1_1FillAndStrokeState.html#adf99bd7ed361ea8c43d293ef7f868d3e',1,'DrawableShape::FillAndStrokeState::jointStyle()']]],
+  ['jointstyle',['jointStyle',['../classDrawableShape_1_1FillAndStrokeState.html#adf99bd7ed361ea8c43d293ef7f868d3e',1,'DrawableShape::FillAndStrokeState::jointStyle()'],['../classPathStrokeType.html#af1cf21018ccb9aa84572c1da4ae513b8',1,'PathStrokeType::JointStyle()']]],
   ['jpegimageformat',['JPEGImageFormat',['../classJPEGImageFormat.html',1,'JPEGImageFormat'],['../classJPEGImageFormat.html#a3e000b303a2a2d90dca7be44ace102c3',1,'JPEGImageFormat::JPEGImageFormat()']]],
   ['json',['JSON',['../classJSON.html',1,'']]],
   ['juce',['juce',['../namespacejuce.html',1,'']]],

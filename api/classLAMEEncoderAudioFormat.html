@@ -95,9 +95,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a467bccad969a5a09bf4ba0f2c3a50866"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLAMEEncoderAudioFormat.html#a467bccad969a5a09bf4ba0f2c3a50866">LAMEEncoderAudioFormat</a> (const <a class="el" href="classFile.html">File</a> &amp;lameApplicationToUse)</td></tr>
-<tr class="memdesc:a467bccad969a5a09bf4ba0f2c3a50866"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classLAMEEncoderAudioFormat.html" title="An AudioFormat class which can use an installed version of the LAME mp3 encoder to encode a file...">LAMEEncoderAudioFormat</a> that expects to find a working LAME executable at the location given.  <a href="#a467bccad969a5a09bf4ba0f2c3a50866"></a><br/></td></tr>
-<tr class="separator:a467bccad969a5a09bf4ba0f2c3a50866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92122ede38e85507553663faa3f85e57"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLAMEEncoderAudioFormat.html#a92122ede38e85507553663faa3f85e57">LAMEEncoderAudioFormat</a> (const <a class="el" href="classFile.html">File</a> &amp;lameExecutableToUse)</td></tr>
+<tr class="memdesc:a92122ede38e85507553663faa3f85e57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classLAMEEncoderAudioFormat.html" title="An AudioFormat class which can use an installed version of the LAME mp3 encoder to encode a file...">LAMEEncoderAudioFormat</a> that expects to find a working LAME executable at the location given.  <a href="#a92122ede38e85507553663faa3f85e57"></a><br/></td></tr>
+<tr class="separator:a92122ede38e85507553663faa3f85e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa610c6c67b9c705b8ed3977f67f5f14d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLAMEEncoderAudioFormat.html#aa610c6c67b9c705b8ed3977f67f5f14d">~LAMEEncoderAudioFormat</a> ()</td></tr>
 <tr class="separator:aa610c6c67b9c705b8ed3977f67f5f14d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaeb1f06dc54381080e50a174f31990be"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLAMEEncoderAudioFormat.html#aaeb1f06dc54381080e50a174f31990be">canHandleFile</a> (const <a class="el" href="classFile.html">File</a> &amp;)</td></tr>
@@ -151,10 +151,10 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An <a class="el" href="classAudioFormat.html" title="Subclasses of AudioFormat are used to read and write different audio file formats.">AudioFormat</a> class which can use an installed version of the LAME mp3 encoder to encode a file. </p>
-<p>This format can't read mp3s, it just writes them. Internally, the <a class="el" href="classAudioFormatWriter.html" title="Writes samples to an audio file stream.">AudioFormatWriter</a> object that is returned writes the incoming audio data to a temporary WAV file, and then when the writer is deleted, it invokes the LAME executable to convert the data to an MP3, whose data is then piped into the original <a class="el" href="classOutputStream.html" title="The base class for streams that write data to some kind of destination.">OutputStream</a> that was used when first creating the writer.</p>
+<p>This format can't read MP3s, it just writes them. Internally, the <a class="el" href="classAudioFormatWriter.html" title="Writes samples to an audio file stream.">AudioFormatWriter</a> object that is returned writes the incoming audio data to a temporary WAV file, and then when the writer is deleted, it invokes the LAME executable to convert the data to an MP3, whose data is then piped into the original <a class="el" href="classOutputStream.html" title="The base class for streams that write data to some kind of destination.">OutputStream</a> that was used when first creating the writer.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormat.html" title="Subclasses of AudioFormat are used to read and write different audio file formats.">AudioFormat</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a467bccad969a5a09bf4ba0f2c3a50866"></a>
+<a class="anchor" id="a92122ede38e85507553663faa3f85e57"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -162,7 +162,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">LAMEEncoderAudioFormat::LAMEEncoderAudioFormat </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classFile.html">File</a> &amp;&#160;</td>
-          <td class="paramname"><em>lameApplicationToUse</em></td><td>)</td>
+          <td class="paramname"><em>lameExecutableToUse</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

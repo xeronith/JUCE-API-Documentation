@@ -4,7 +4,7 @@ var searchData=
   ['labeltextchanged',['labelTextChanged',['../classComboBox.html#a8db239b93e77646b61f3646bc223844b',1,'ComboBox::labelTextChanged()'],['../classLabel_1_1Listener.html#ad2a3e79ba106bfa64cab523e197b1514',1,'Label::Listener::labelTextChanged()']]],
   ['ladspapluginformat',['LADSPAPluginFormat',['../classLADSPAPluginFormat.html#ae3cc50623da55617adb06af890421929',1,'LADSPAPluginFormat']]],
   ['lagrangeinterpolator',['LagrangeInterpolator',['../classLagrangeInterpolator.html#a16e4fa3589ac989d7082c58c2fe1b2e2',1,'LagrangeInterpolator']]],
-  ['lameencoderaudioformat',['LAMEEncoderAudioFormat',['../classLAMEEncoderAudioFormat.html#a467bccad969a5a09bf4ba0f2c3a50866',1,'LAMEEncoderAudioFormat']]],
+  ['lameencoderaudioformat',['LAMEEncoderAudioFormat',['../classLAMEEncoderAudioFormat.html#a92122ede38e85507553663faa3f85e57',1,'LAMEEncoderAudioFormat']]],
   ['lassocomponent',['LassoComponent',['../classLassoComponent.html#aafd85f80827d8ca420fe6cfbb2c4ad68',1,'LassoComponent']]],
   ['lastindexof',['lastIndexOf',['../classString.html#a041996f899e9ed8e0ef3d06a85bfc784',1,'String']]],
   ['lastindexofanyof',['lastIndexOfAnyOf',['../classString.html#a30142dae7b2f2b22c6f43e323a669ba2',1,'String']]],

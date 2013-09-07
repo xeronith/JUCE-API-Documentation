@@ -114,12 +114,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aafd85f80827d8ca420fe6cfbb2c4ad68"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLassoComponent.html#aafd85f80827d8ca420fe6cfbb2c4ad68">LassoComponent</a> ()</td></tr>
 <tr class="memdesc:aafd85f80827d8ca420fe6cfbb2c4ad68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a Lasso component.  <a href="#aafd85f80827d8ca420fe6cfbb2c4ad68"></a><br/></td></tr>
 <tr class="separator:aafd85f80827d8ca420fe6cfbb2c4ad68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b5fcd45216fac0717e4d7c968975dd4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLassoComponent.html#a4b5fcd45216fac0717e4d7c968975dd4">~LassoComponent</a> ()</td></tr>
-<tr class="memdesc:a4b5fcd45216fac0717e4d7c968975dd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a4b5fcd45216fac0717e4d7c968975dd4"></a><br/></td></tr>
-<tr class="separator:a4b5fcd45216fac0717e4d7c968975dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63eaa333f9eec6357aec04380c63c879"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLassoComponent.html#a63eaa333f9eec6357aec04380c63c879">beginLasso</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;e, <a class="el" href="classLassoSource.html">LassoSource</a>&lt; SelectableItemType &gt; *const lassoSource)</td></tr>
-<tr class="memdesc:a63eaa333f9eec6357aec04380c63c879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call this in your mouseDown event, to initialise a drag.  <a href="#a63eaa333f9eec6357aec04380c63c879"></a><br/></td></tr>
-<tr class="separator:a63eaa333f9eec6357aec04380c63c879"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9d043865ee8f7db2989e7200d13dfd2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLassoComponent.html#af9d043865ee8f7db2989e7200d13dfd2">beginLasso</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;e, <a class="el" href="classLassoSource.html">LassoSource</a>&lt; SelectableItemType &gt; *lassoSource)</td></tr>
+<tr class="memdesc:af9d043865ee8f7db2989e7200d13dfd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call this in your mouseDown event, to initialise a drag.  <a href="#af9d043865ee8f7db2989e7200d13dfd2"></a><br/></td></tr>
+<tr class="separator:af9d043865ee8f7db2989e7200d13dfd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4aca7f9f28ecef2834bfabe648ba6959"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLassoComponent.html#a4aca7f9f28ecef2834bfabe648ba6959">dragLasso</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;e)</td></tr>
 <tr class="memdesc:a4aca7f9f28ecef2834bfabe648ba6959"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call this in your mouseDrag event, to update the lasso's position.  <a href="#a4aca7f9f28ecef2834bfabe648ba6959"></a><br/></td></tr>
 <tr class="separator:a4aca7f9f28ecef2834bfabe648ba6959"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -706,7 +703,7 @@ class LassoComponent&lt; SelectableItemType &gt;</h3>
 <p>A component that acts as a rectangular selection region, which you drag with the mouse to select groups of objects (in conjunction with a <a class="el" href="classSelectedItemSet.html" title="Manages a list of selectable items.">SelectedItemSet</a>). </p>
 <p>To use one of these:</p>
 <ul>
-<li>In your mouseDown or mouseDrag event, add the <a class="el" href="classLassoComponent.html" title="A component that acts as a rectangular selection region, which you drag with the mouse to select grou...">LassoComponent</a> to your parent component, and call its <a class="el" href="classLassoComponent.html#a63eaa333f9eec6357aec04380c63c879" title="Call this in your mouseDown event, to initialise a drag.">beginLasso()</a> method, giving it a suitable <a class="el" href="classLassoSource.html" title="A class used by the LassoComponent to manage the things that it selects.">LassoSource</a> object that it can use to find out which items are in the active area.</li>
+<li>In your mouseDown or mouseDrag event, add the <a class="el" href="classLassoComponent.html" title="A component that acts as a rectangular selection region, which you drag with the mouse to select grou...">LassoComponent</a> to your parent component, and call its <a class="el" href="classLassoComponent.html#af9d043865ee8f7db2989e7200d13dfd2" title="Call this in your mouseDown event, to initialise a drag.">beginLasso()</a> method, giving it a suitable <a class="el" href="classLassoSource.html" title="A class used by the LassoComponent to manage the things that it selects.">LassoSource</a> object that it can use to find out which items are in the active area.</li>
 </ul>
 <ul>
 <li>Each time your parent component gets a mouseDrag event, call <a class="el" href="classLassoComponent.html#a4aca7f9f28ecef2834bfabe648ba6959" title="Call this in your mouseDrag event, to update the lasso&#39;s position.">dragLasso()</a> to update the lasso's position - it will use its <a class="el" href="classLassoSource.html" title="A class used by the LassoComponent to manage the things that it selects.">LassoSource</a> to calculate and update the current selection.</li>
@@ -766,27 +763,8 @@ template&lt;class SelectableItemType &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a4b5fcd45216fac0717e4d7c968975dd4"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class SelectableItemType &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classLassoComponent.html">LassoComponent</a>&lt; SelectableItemType &gt;::~<a class="el" href="classLassoComponent.html">LassoComponent</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Destructor. </p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a63eaa333f9eec6357aec04380c63c879"></a>
+<a class="anchor" id="af9d043865ee8f7db2989e7200d13dfd2"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -801,7 +779,7 @@ template&lt;class SelectableItemType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classLassoSource.html">LassoSource</a>&lt; SelectableItemType &gt; *const&#160;</td>
+          <td class="paramtype"><a class="el" href="classLassoSource.html">LassoSource</a>&lt; SelectableItemType &gt; *&#160;</td>
           <td class="paramname"><em>lassoSource</em>&#160;</td>
         </tr>
         <tr>
@@ -838,9 +816,9 @@ template&lt;class SelectableItemType &gt; </div>
 </div><div class="memdoc">
 
 <p>Call this in your mouseDrag event, to update the lasso's position. </p>
-<p>This must be repeatedly calling when the mouse is dragged, after you've first initialised the lasso with <a class="el" href="classLassoComponent.html#a63eaa333f9eec6357aec04380c63c879" title="Call this in your mouseDown event, to initialise a drag.">beginLasso()</a>.</p>
+<p>This must be repeatedly calling when the mouse is dragged, after you've first initialised the lasso with <a class="el" href="classLassoComponent.html#af9d043865ee8f7db2989e7200d13dfd2" title="Call this in your mouseDown event, to initialise a drag.">beginLasso()</a>.</p>
 <p>This method takes into account the modifier keys that are being held down, so if shift is pressed, then the lassoed items will be added to any that were previously selected; if ctrl or command is pressed, then they will be xor'ed with previously selected items.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classLassoComponent.html#a63eaa333f9eec6357aec04380c63c879" title="Call this in your mouseDown event, to initialise a drag.">beginLasso</a>, <a class="el" href="classLassoComponent.html#a77e7463330941cd3ef81fa41209387f0" title="Call this in your mouseUp event, after the lasso has been dragged.">endLasso</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classLassoComponent.html#af9d043865ee8f7db2989e7200d13dfd2" title="Call this in your mouseDown event, to initialise a drag.">beginLasso</a>, <a class="el" href="classLassoComponent.html#a77e7463330941cd3ef81fa41209387f0" title="Call this in your mouseUp event, after the lasso has been dragged.">endLasso</a> </dd></dl>
 
 <p>References <a class="el" href="classArray.html#a8dc309e3bf8d91c05a11199d70946132">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::addArray()</a>, <a class="el" href="classComponent.html#ad01eb84d8a989eb238bbf69aaf09e7ee">Component::getBounds()</a>, <a class="el" href="classMouseEvent.html#af475e6f7ef2e702a72bff90f166c8161">MouseEvent::getPosition()</a>, <a class="el" href="classModifierKeys.html#a7cb1ec2ddb92d635e19397d485874d68">ModifierKeys::isAltDown()</a>, <a class="el" href="classModifierKeys.html#a88f9e02beb40f6461d6ed8b655b7ebb3">ModifierKeys::isCommandDown()</a>, <a class="el" href="classModifierKeys.html#afd9f4558046eccad2c3a3366c6bcf6b0">ModifierKeys::isShiftDown()</a>, <a class="el" href="classMouseEvent.html#aaabc365b704e243b193b41113d4e50de">MouseEvent::mods</a>, <a class="el" href="classArray.html#a1474eae027a73758ca12734001ec9da0">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::removeValuesIn()</a>, <a class="el" href="classComponent.html#a64cbeee83a441e20ed5e7acb600ae107">Component::setBounds()</a>, and <a class="el" href="classComponent.html#ac8483af6fe4dc3254e7176df0d8e9f7a">Component::setVisible()</a>.</p>
 
@@ -862,7 +840,7 @@ template&lt;class SelectableItemType &gt; </div>
 </div><div class="memdoc">
 
 <p>Call this in your mouseUp event, after the lasso has been dragged. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classLassoComponent.html#a63eaa333f9eec6357aec04380c63c879" title="Call this in your mouseDown event, to initialise a drag.">beginLasso</a>, <a class="el" href="classLassoComponent.html#a4aca7f9f28ecef2834bfabe648ba6959" title="Call this in your mouseDrag event, to update the lasso&#39;s position.">dragLasso</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classLassoComponent.html#af9d043865ee8f7db2989e7200d13dfd2" title="Call this in your mouseDown event, to initialise a drag.">beginLasso</a>, <a class="el" href="classLassoComponent.html#a4aca7f9f28ecef2834bfabe648ba6959" title="Call this in your mouseDrag event, to update the lasso&#39;s position.">dragLasso</a> </dd></dl>
 
 <p>References <a class="el" href="classArray.html#a86dc5fe378bb99b85beb8ab86c279654">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::clear()</a>, and <a class="el" href="classComponent.html#ac8483af6fe4dc3254e7176df0d8e9f7a">Component::setVisible()</a>.</p>
 

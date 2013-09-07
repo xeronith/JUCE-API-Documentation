@@ -168,9 +168,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:add1c985aacfb09c72d038e88ce91341a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classApplicationCommandTarget.html">ApplicationCommandTarget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApplicationCommandManager.html#add1c985aacfb09c72d038e88ce91341a">findDefaultComponentTarget</a> ()</td></tr>
 <tr class="memdesc:add1c985aacfb09c72d038e88ce91341a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for a suitable command target based on which Components have the keyboard focus.  <a href="#add1c985aacfb09c72d038e88ce91341a"></a><br/></td></tr>
 <tr class="separator:add1c985aacfb09c72d038e88ce91341a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87ba6516153573f6f1a3e9888965adb6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classApplicationCommandTarget.html">ApplicationCommandTarget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApplicationCommandManager.html#a87ba6516153573f6f1a3e9888965adb6">findTargetForComponent</a> (<a class="el" href="classComponent.html">Component</a> *component)</td></tr>
-<tr class="memdesc:a87ba6516153573f6f1a3e9888965adb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Examines this component and all its parents in turn, looking for the first one which is a <a class="el" href="classApplicationCommandTarget.html" title="A command target publishes a list of command IDs that it can perform.">ApplicationCommandTarget</a>.  <a href="#a87ba6516153573f6f1a3e9888965adb6"></a><br/></td></tr>
-<tr class="separator:a87ba6516153573f6f1a3e9888965adb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49f4fca677c284452cd148b010958332"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classApplicationCommandTarget.html">ApplicationCommandTarget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApplicationCommandManager.html#a49f4fca677c284452cd148b010958332">findTargetForComponent</a> (<a class="el" href="classComponent.html">Component</a> *)</td></tr>
+<tr class="memdesc:a49f4fca677c284452cd148b010958332"><td class="mdescLeft">&#160;</td><td class="mdescRight">Examines this component and all its parents in turn, looking for the first one which is a <a class="el" href="classApplicationCommandTarget.html" title="A command target publishes a list of command IDs that it can perform.">ApplicationCommandTarget</a>.  <a href="#a49f4fca677c284452cd148b010958332"></a><br/></td></tr>
+<tr class="separator:a49f4fca677c284452cd148b010958332"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -658,7 +658,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Whenever the manager needs to know which target a command should be sent to, it calls this method to determine the first one to try.</p>
 <p>By default, this method will return the target that was set by calling <a class="el" href="classApplicationCommandManager.html#abebbbdd281b83f02a94c909f93b5347f" title="Sets a target to be returned by getFirstCommandTarget().">setFirstCommandTarget()</a>. If no target is set, it will return the result of <a class="el" href="classApplicationCommandManager.html#add1c985aacfb09c72d038e88ce91341a" title="Looks for a suitable command target based on which Components have the keyboard focus.">findDefaultComponentTarget()</a>.</p>
 <p>If you need to make sure all commands go via your own custom target, then you can either use <a class="el" href="classApplicationCommandManager.html#abebbbdd281b83f02a94c909f93b5347f" title="Sets a target to be returned by getFirstCommandTarget().">setFirstCommandTarget()</a> to specify a single target, or override this method if you need more complex logic to choose one.</p>
-<p>It may return 0 if no targets are available.</p>
+<p>It may return nullptr if no targets are available.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classApplicationCommandManager.html#ab9fcbf2c2a3b58cf1a54babf906d9e84" title="Tries to find the best target to use to perform a given command.">getTargetForCommand</a>, <a class="el" href="classApplicationCommandManager.html#a6b506331c1cfb3d07b2925ac16b8141e" title="Sends a command to the default target.">invoke</a>, <a class="el" href="classApplicationCommandManager.html#a55f04432929174c2de6d622cb2d23c67" title="Invokes the given command directly, sending it to the default target.">invokeDirectly</a> </dd></dl>
 
 </div>
@@ -686,8 +686,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sets a target to be returned by <a class="el" href="classApplicationCommandManager.html#a45f5c00e8bb2d670f0931c78dd166d4b" title="Chooses the ApplicationCommandTarget to which a command should be sent.">getFirstCommandTarget()</a>. </p>
-<p>If this is set to 0, then <a class="el" href="classApplicationCommandManager.html#a45f5c00e8bb2d670f0931c78dd166d4b" title="Chooses the ApplicationCommandTarget to which a command should be sent.">getFirstCommandTarget()</a> will by default return the result of <a class="el" href="classApplicationCommandManager.html#add1c985aacfb09c72d038e88ce91341a" title="Looks for a suitable command target based on which Components have the keyboard focus.">findDefaultComponentTarget()</a>.</p>
-<p>If you use this to set a target, make sure you call setFirstCommandTarget (0) before deleting the target object. </p>
+<p>If this is set to nullptr, then <a class="el" href="classApplicationCommandManager.html#a45f5c00e8bb2d670f0931c78dd166d4b" title="Chooses the ApplicationCommandTarget to which a command should be sent.">getFirstCommandTarget()</a> will by default return the result of <a class="el" href="classApplicationCommandManager.html#add1c985aacfb09c72d038e88ce91341a" title="Looks for a suitable command target based on which Components have the keyboard focus.">findDefaultComponentTarget()</a>.</p>
+<p>If you use this to set a target, make sure you call setFirstCommandTarget(nullptr) before deleting the target object. </p>
 
 </div>
 </div>
@@ -717,7 +717,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Tries to find the best target to use to perform a given command. </p>
 <p>This will call <a class="el" href="classApplicationCommandManager.html#a45f5c00e8bb2d670f0931c78dd166d4b" title="Chooses the ApplicationCommandTarget to which a command should be sent.">getFirstCommandTarget()</a> to find the preferred target, and will check whether that target can handle the given command. If it can't, then it'll use <a class="el" href="classApplicationCommandTarget.html#a540016056ca6fc19818e951359c710da" title="This must return the next target to try after this one.">ApplicationCommandTarget::getNextCommandTarget()</a> to find the next one to try, and so on until no more are available.</p>
-<p>If no targets are found that can perform the command, this method will return 0.</p>
+<p>If no targets are found that can perform the command, this method will return nullptr.</p>
 <p>If a target is found, then it will get the target to fill-in the upToDateInfo structure with the latest info about that command, so that the caller can see whether the command is disabled, ticked, etc. </p>
 
 </div>
@@ -781,11 +781,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Looks for a suitable command target based on which Components have the keyboard focus. </p>
 <p>This is used by the default implementation of ApplicationCommandTarget::getFirstCommandTarget(), but is exposed here in case it's useful.</p>
-<p>It tries to pick the best <a class="el" href="classApplicationCommandTarget.html" title="A command target publishes a list of command IDs that it can perform.">ApplicationCommandTarget</a> by looking at focused components, top level windows, etc., and using the <a class="el" href="classApplicationCommandManager.html#a87ba6516153573f6f1a3e9888965adb6" title="Examines this component and all its parents in turn, looking for the first one which is a Application...">findTargetForComponent()</a> method. </p>
+<p>It tries to pick the best <a class="el" href="classApplicationCommandTarget.html" title="A command target publishes a list of command IDs that it can perform.">ApplicationCommandTarget</a> by looking at focused components, top level windows, etc., and using the <a class="el" href="classApplicationCommandManager.html#a49f4fca677c284452cd148b010958332" title="Examines this component and all its parents in turn, looking for the first one which is a Application...">findTargetForComponent()</a> method. </p>
 
 </div>
 </div>
-<a class="anchor" id="a87ba6516153573f6f1a3e9888965adb6"></a>
+<a class="anchor" id="a49f4fca677c284452cd148b010958332"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -796,7 +796,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">static <a class="el" href="classApplicationCommandTarget.html">ApplicationCommandTarget</a>* ApplicationCommandManager::findTargetForComponent </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classComponent.html">Component</a> *&#160;</td>
-          <td class="paramname"><em>component</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>

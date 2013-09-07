@@ -200,7 +200,6 @@ var searchData=
   ['_7eladspapluginformat',['~LADSPAPluginFormat',['../classLADSPAPluginFormat.html#a86480a9868978f31bd989fa07b15c6c0',1,'LADSPAPluginFormat']]],
   ['_7elagrangeinterpolator',['~LagrangeInterpolator',['../classLagrangeInterpolator.html#a186007aafd5b5b40c2712342e5621c1f',1,'LagrangeInterpolator']]],
   ['_7elameencoderaudioformat',['~LAMEEncoderAudioFormat',['../classLAMEEncoderAudioFormat.html#aa610c6c67b9c705b8ed3977f67f5f14d',1,'LAMEEncoderAudioFormat']]],
-  ['_7elassocomponent',['~LassoComponent',['../classLassoComponent.html#a4b5fcd45216fac0717e4d7c968975dd4',1,'LassoComponent']]],
   ['_7elassosource',['~LassoSource',['../classLassoSource.html#a852e8a3012d3590f1eaaa4d01683fc99',1,'LassoSource']]],
   ['_7eleakedobjectdetector',['~LeakedObjectDetector',['../classLeakedObjectDetector.html#a8ea749cb2c38ee245dabf0dd4876a023',1,'LeakedObjectDetector']]],
   ['_7eline',['~Line',['../classTextLayout_1_1Line.html#ad58da98b9097db5235020dcf440b45f5',1,'TextLayout::Line::~Line()'],['../classLine.html#a61b0f32593c8fb3621276544769cbfcf',1,'Line::~Line()']]],
