@@ -89,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Adds reference-counting to an object.  
+<p>A base class which provides methods for reference-counting.  
  <a href="classReferenceCountedObject.html#details">More...</a></p>
 
 <p>Inherited by <a class="el" href="classAudioProcessorGraph_1_1Node.html">AudioProcessorGraph::Node</a>, <a class="el" href="classDynamicObject.html">DynamicObject</a>, <a class="el" href="classImagePixelData.html">ImagePixelData</a>, <a class="el" href="classMessageManager_1_1MessageBase.html">MessageManager::MessageBase</a>, <a class="el" href="classSynthesiserSound.html">SynthesiserSound</a>, and <a class="el" href="classTypeface.html">Typeface</a>.</p>
@@ -102,6 +102,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a523f06d996130f24b36996b28b83d802"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObject.html#a523f06d996130f24b36996b28b83d802">decReferenceCount</a> () noexcept</td></tr>
 <tr class="memdesc:a523f06d996130f24b36996b28b83d802"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decreases the object's reference count.  <a href="#a523f06d996130f24b36996b28b83d802"></a><br/></td></tr>
 <tr class="separator:a523f06d996130f24b36996b28b83d802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2355316960a6bf2e9691fded43249254"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObject.html#a2355316960a6bf2e9691fded43249254">decReferenceCountWithoutDeleting</a> () noexcept</td></tr>
+<tr class="memdesc:a2355316960a6bf2e9691fded43249254"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decreases the object's reference count.  <a href="#a2355316960a6bf2e9691fded43249254"></a><br/></td></tr>
+<tr class="separator:a2355316960a6bf2e9691fded43249254"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0111caf12d101fc74abd832d44fbfa4f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObject.html#a0111caf12d101fc74abd832d44fbfa4f">getReferenceCount</a> () const noexcept</td></tr>
 <tr class="memdesc:a0111caf12d101fc74abd832d44fbfa4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the object's current reference count.  <a href="#a0111caf12d101fc74abd832d44fbfa4f"></a><br/></td></tr>
 <tr class="separator:a0111caf12d101fc74abd832d44fbfa4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,10 +122,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a9bbeeab431755e2be8ff09dfe9ea4c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Adds reference-counting to an object. </p>
+<div class="textblock"><p>A base class which provides methods for reference-counting. </p>
 <p>To add reference-counting to a class, derive it from this class, and use the <a class="el" href="classReferenceCountedObjectPtr.html" title="A smart-pointer class which points to a reference-counted object.">ReferenceCountedObjectPtr</a> class to point to it.</p>
 <p>e.g. </p>
-<div class="fragment"><div class="line"><span class="keyword">class </span>MyClass : <span class="keyword">public</span> <a class="code" href="classReferenceCountedObject.html" title="Adds reference-counting to an object.">ReferenceCountedObject</a></div>
+<div class="fragment"><div class="line"><span class="keyword">class </span>MyClass : <span class="keyword">public</span> <a class="code" href="classReferenceCountedObject.html" title="A base class which provides methods for reference-counting.">ReferenceCountedObject</a></div>
 <div class="line">{</div>
 <div class="line">    <span class="keywordtype">void</span> foo();</div>
 <div class="line"></div>
@@ -135,9 +138,9 @@ Protected Member Functions</h2></td></tr>
 <div class="line">MyClass::Ptr p2 = p;</div>
 <div class="line">p = <span class="keyword">nullptr</span>;</div>
 <div class="line">p2-&gt;foo();</div>
-</div><!-- fragment --><p>Once a new <a class="el" href="classReferenceCountedObject.html" title="Adds reference-counting to an object.">ReferenceCountedObject</a> has been assigned to a pointer, be careful not to delete the object manually.</p>
-<p>This class uses an <a class="el" href="classjuce_1_1Atomic.html">Atomic&lt;int&gt;</a> value to hold the reference count, so that it the pointers can be passed between threads safely. For a faster but non-thread-safe version, use <a class="el" href="classSingleThreadedReferenceCountedObject.html" title="Adds reference-counting to an object.">SingleThreadedReferenceCountedObject</a> instead.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classReferenceCountedObjectPtr.html" title="A smart-pointer class which points to a reference-counted object.">ReferenceCountedObjectPtr</a>, <a class="el" href="classReferenceCountedArray.html" title="Holds a list of objects derived from ReferenceCountedObject.">ReferenceCountedArray</a>, <a class="el" href="classSingleThreadedReferenceCountedObject.html" title="Adds reference-counting to an object.">SingleThreadedReferenceCountedObject</a> </dd></dl>
+</div><!-- fragment --><p>Once a new <a class="el" href="classReferenceCountedObject.html" title="A base class which provides methods for reference-counting.">ReferenceCountedObject</a> has been assigned to a pointer, be careful not to delete the object manually.</p>
+<p>This class uses an <a class="el" href="classAtomic.html">Atomic&lt;int&gt;</a> value to hold the reference count, so that it the pointers can be passed between threads safely. For a faster but non-thread-safe version, use <a class="el" href="classSingleThreadedReferenceCountedObject.html" title="Adds reference-counting to an object.">SingleThreadedReferenceCountedObject</a> instead.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classReferenceCountedObjectPtr.html" title="A smart-pointer class which points to a reference-counted object.">ReferenceCountedObjectPtr</a>, <a class="el" href="classReferenceCountedArray.html" title="Holds a list of objects derived from ReferenceCountedObject, or which implement basic reference-count...">ReferenceCountedArray</a>, <a class="el" href="classSingleThreadedReferenceCountedObject.html" title="Adds reference-counting to an object.">SingleThreadedReferenceCountedObject</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a86c1a0791cb6e98e63f7c1f7812c6eb5"></a>
 <div class="memitem">
@@ -244,7 +247,33 @@ Protected Member Functions</h2></td></tr>
 
 <p>References <a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
 
-<p>Referenced by <a class="el" href="classReferenceCountedArray.html#a8fc0a717f91f4ff3b144f0224afdc5dd">ReferenceCountedArray&lt; SynthesiserSound &gt;::removeAndReturn()</a>.</p>
+</div>
+</div>
+<a class="anchor" id="a2355316960a6bf2e9691fded43249254"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ReferenceCountedObject::decReferenceCountWithoutDeleting </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Decreases the object's reference count. </p>
+<p>If the count gets to zero, the object will not be deleted, but this method will return true, allowing the caller to take care of deletion. </p>
+
+<p>References <a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
 
 </div>
 </div>

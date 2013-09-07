@@ -34,6 +34,7 @@ var searchData=
   ['ismain',['isMain',['../structDesktop_1_1Displays_1_1Display.html#a392d751b64069c4b4a212e2f07f1766a',1,'Desktop::Displays::Display']]],
   ['isplaying',['isPlaying',['../structAudioPlayHead_1_1CurrentPositionInfo.html#a84105c58665f2daae7a18809c964b397',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['isradial',['isRadial',['../classColourGradient.html#a42c5382b7e7bda2b7efdb7b1a9258a44',1,'ColourGradient']]],
+  ['isrc',['ISRC',['../classWavAudioFormat.html#a703e4f1a1ea014d652be4618f1114928',1,'WavAudioFormat']]],
   ['isreadonly',['isReadOnly',['../structDirectoryContentsList_1_1FileInfo.html#a73e256209bd193d238465977d4493114',1,'DirectoryContentsList::FileInfo']]],
   ['isrecording',['isRecording',['../structAudioPlayHead_1_1CurrentPositionInfo.html#a26d4f8779d4f64ba6c3a0a0df5607a36',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['isreversed',['isReversed',['../structMouseWheelDetails.html#a05d876e5b384961aad49c7e310ba7203',1,'MouseWheelDetails']]],

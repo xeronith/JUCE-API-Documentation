@@ -164,6 +164,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a458f8ab507f5c63b4cb0ab82f8e59ae0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbar.html#a458f8ab507f5c63b4cb0ab82f8e59ae0">removeToolbarItem</a> (int itemIndex)</td></tr>
 <tr class="memdesc:a458f8ab507f5c63b4cb0ab82f8e59ae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes one of the items from the bar.  <a href="#a458f8ab507f5c63b4cb0ab82f8e59ae0"></a><br/></td></tr>
 <tr class="separator:a458f8ab507f5c63b4cb0ab82f8e59ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ee06cb31e5f6444f28b652847cdc3fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classToolbarItemComponent.html">ToolbarItemComponent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbar.html#a4ee06cb31e5f6444f28b652847cdc3fe">removeAndReturnItem</a> (int itemIndex)</td></tr>
+<tr class="memdesc:a4ee06cb31e5f6444f28b652847cdc3fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an item from the bar and returns it.  <a href="#a4ee06cb31e5f6444f28b652847cdc3fe"></a><br/></td></tr>
+<tr class="separator:a4ee06cb31e5f6444f28b652847cdc3fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace6bcc43585123681e775dd538892766"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbar.html#ace6bcc43585123681e775dd538892766">getNumItems</a> () const noexcept</td></tr>
 <tr class="memdesc:ace6bcc43585123681e775dd538892766"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of items currently on the toolbar.  <a href="#ace6bcc43585123681e775dd538892766"></a><br/></td></tr>
 <tr class="separator:ace6bcc43585123681e775dd538892766"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -788,6 +791,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7030de7a58ec40e43ec902d6bb8aaf7a inherit pub_static_methods_classComponent"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classComponent.html">Component</a> *<a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a7030de7a58ec40e43ec902d6bb8aaf7a">getCurrentlyFocusedComponent</a> () noexcept</td></tr>
 <tr class="memdesc:a7030de7a58ec40e43ec902d6bb8aaf7a inherit pub_static_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the component that currently has the keyboard focus.  <a href="#a7030de7a58ec40e43ec902d6bb8aaf7a"></a><br/></td></tr>
 <tr class="separator:a7030de7a58ec40e43ec902d6bb8aaf7a inherit pub_static_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34c592c531e8c996dee1bffb2884ca4e inherit pub_static_methods_classComponent"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a34c592c531e8c996dee1bffb2884ca4e">unfocusAllComponents</a> ()</td></tr>
+<tr class="memdesc:a34c592c531e8c996dee1bffb2884ca4e inherit pub_static_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">If any component has keyboard focus, this will defocus it.  <a href="#a34c592c531e8c996dee1bffb2884ca4e"></a><br/></td></tr>
+<tr class="separator:a34c592c531e8c996dee1bffb2884ca4e inherit pub_static_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54a125231707956e740b295f2622787b inherit pub_static_methods_classComponent"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a54a125231707956e740b295f2622787b">beginDragAutoRepeat</a> (int millisecondsBetweenCallbacks)</td></tr>
 <tr class="memdesc:a54a125231707956e740b295f2622787b inherit pub_static_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensures that a non-stop stream of mouse-drag events will be sent during the current mouse-drag operation.  <a href="#a54a125231707956e740b295f2622787b"></a><br/></td></tr>
 <tr class="separator:a54a125231707956e740b295f2622787b inherit pub_static_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1137,6 +1143,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Deletes one of the items from the bar. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4ee06cb31e5f6444f28b652847cdc3fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classToolbarItemComponent.html">ToolbarItemComponent</a>* Toolbar::removeAndReturnItem </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>itemIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes an item from the bar and returns it. </p>
 
 </div>
 </div>

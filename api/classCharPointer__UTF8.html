@@ -95,12 +95,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ad8b4683eafdcb2511bdda013412136ce"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classCharPointer__UTF8.html#ad8b4683eafdcb2511bdda013412136cea8085c34bfa20125556249baba7268ebc">byteOrderMark1</a> = 0xef, 
-<a class="el" href="classCharPointer__UTF8.html#ad8b4683eafdcb2511bdda013412136cea2e5a169828d5d53f24d89f12ea14d308">byteOrderMark2</a> = 0xbb, 
-<a class="el" href="classCharPointer__UTF8.html#ad8b4683eafdcb2511bdda013412136ceaa535790ae396383e305fbf9af74624f7">byteOrderMark3</a> = 0xbf
+<tr class="memitem:a84d8f33eed061633332701f503e33e3f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classCharPointer__UTF8.html#a84d8f33eed061633332701f503e33e3fa8085c34bfa20125556249baba7268ebc">byteOrderMark1</a> = 0xef, 
+<a class="el" href="classCharPointer__UTF8.html#a84d8f33eed061633332701f503e33e3fa2e5a169828d5d53f24d89f12ea14d308">byteOrderMark2</a> = 0xbb, 
+<a class="el" href="classCharPointer__UTF8.html#a84d8f33eed061633332701f503e33e3faa535790ae396383e305fbf9af74624f7">byteOrderMark3</a> = 0xbf
  }</td></tr>
-<tr class="memdesc:ad8b4683eafdcb2511bdda013412136ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">These values are the byte-order-mark (BOM) values for a UTF-8 stream.  <a href="classCharPointer__UTF8.html#ad8b4683eafdcb2511bdda013412136ce">More...</a><br/></td></tr>
-<tr class="separator:ad8b4683eafdcb2511bdda013412136ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:a84d8f33eed061633332701f503e33e3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">These values are the byte-order mark (BOM) values for a UTF-8 stream.  <a href="classCharPointer__UTF8.html#a84d8f33eed061633332701f503e33e3f">More...</a><br/></td></tr>
+<tr class="separator:a84d8f33eed061633332701f503e33e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac410c2e8043cffd3cf0ae00e04c6e630"><td class="memItemLeft" align="right" valign="top">typedef char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCharPointer__UTF8.html#ac410c2e8043cffd3cf0ae00e04c6e630">CharType</a></td></tr>
 <tr class="separator:ac410c2e8043cffd3cf0ae00e04c6e630"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -286,6 +286,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5ff9c244b3c7615345e0c3dc59dc7289"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCharPointer__UTF8.html#a5ff9c244b3c7615345e0c3dc59dc7289">isValidString</a> (const <a class="el" href="classCharPointer__UTF8.html#ac410c2e8043cffd3cf0ae00e04c6e630">CharType</a> *dataToTest, int maxBytesToRead)</td></tr>
 <tr class="memdesc:a5ff9c244b3c7615345e0c3dc59dc7289"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this data contains a valid string in this encoding.  <a href="#a5ff9c244b3c7615345e0c3dc59dc7289"></a><br/></td></tr>
 <tr class="separator:a5ff9c244b3c7615345e0c3dc59dc7289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3040c1c80d603a558fe7ffc01efec212"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCharPointer__UTF8.html#a3040c1c80d603a558fe7ffc01efec212">isByteOrderMark</a> (const void *possibleByteOrder) noexcept</td></tr>
+<tr class="memdesc:a3040c1c80d603a558fe7ffc01efec212"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the first three bytes in this pointer are the UTF8 byte-order mark (BOM).  <a href="#a3040c1c80d603a558fe7ffc01efec212"></a><br/></td></tr>
+<tr class="separator:a3040c1c80d603a558fe7ffc01efec212"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Wraps a pointer to a null-terminated UTF-8 character string, and provides various methods to operate on the data. </p>
@@ -304,7 +307,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
-<a class="anchor" id="ad8b4683eafdcb2511bdda013412136ce"></a>
+<a class="anchor" id="a84d8f33eed061633332701f503e33e3f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -314,13 +317,13 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>These values are the byte-order-mark (BOM) values for a UTF-8 stream. </p>
+<p>These values are the byte-order mark (BOM) values for a UTF-8 stream. </p>
 <dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
-<tr><td valign="top"><em><a class="anchor" id="ad8b4683eafdcb2511bdda013412136cea8085c34bfa20125556249baba7268ebc"></a>byteOrderMark1</em>&nbsp;</td><td>
+<tr><td valign="top"><em><a class="anchor" id="a84d8f33eed061633332701f503e33e3fa8085c34bfa20125556249baba7268ebc"></a>byteOrderMark1</em>&nbsp;</td><td>
 </td></tr>
-<tr><td valign="top"><em><a class="anchor" id="ad8b4683eafdcb2511bdda013412136cea2e5a169828d5d53f24d89f12ea14d308"></a>byteOrderMark2</em>&nbsp;</td><td>
+<tr><td valign="top"><em><a class="anchor" id="a84d8f33eed061633332701f503e33e3fa2e5a169828d5d53f24d89f12ea14d308"></a>byteOrderMark2</em>&nbsp;</td><td>
 </td></tr>
-<tr><td valign="top"><em><a class="anchor" id="ad8b4683eafdcb2511bdda013412136ceaa535790ae396383e305fbf9af74624f7"></a>byteOrderMark3</em>&nbsp;</td><td>
+<tr><td valign="top"><em><a class="anchor" id="a84d8f33eed061633332701f503e33e3faa535790ae396383e305fbf9af74624f7"></a>byteOrderMark3</em>&nbsp;</td><td>
 </td></tr>
 </table>
 </dd>
@@ -647,8 +650,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns true if this pointer is pointing to a null character. </p>
 
-<p>Referenced by <a class="el" href="structCppTokeniserFunctions_1_1StringIterator.html#aaf1d54f7436605fc2869ffa53a467ec2">CppTokeniserFunctions::StringIterator::isEOF()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a5b19c2009d8f8b0dc95c066395faa0b5"></a>
@@ -748,8 +749,6 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the character that this pointer is currently pointing to, and then advances the pointer to point to the next character. </p>
-
-<p>Referenced by <a class="el" href="structCppTokeniserFunctions_1_1StringIterator.html#ad59265b3d4b07ab77064446c23afa127">CppTokeniserFunctions::StringIterator::nextChar()</a>.</p>
 
 </div>
 </div>
@@ -1132,8 +1131,6 @@ template&lt;class CharPointer &gt; </div>
 
 <p>Writes a unicode character to this string, and advances this pointer to point to the next position. </p>
 
-<p>Referenced by <a class="el" href="structCppTokeniserFunctions.html#aea69e827e335f754cb4e9c9c46a07ac5">CppTokeniserFunctions::parseIdentifier()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ac794a16057eb9bc642a21c73568e02e3"></a>
@@ -1158,8 +1155,6 @@ template&lt;class CharPointer &gt; </div>
 </div><div class="memdoc">
 
 <p>Writes a null character to this string (leaving the pointer's position unchanged). </p>
-
-<p>Referenced by <a class="el" href="structCppTokeniserFunctions.html#aea69e827e335f754cb4e9c9c46a07ac5">CppTokeniserFunctions::parseIdentifier()</a>.</p>
 
 </div>
 </div>
@@ -1586,8 +1581,6 @@ template&lt;typename CharPointer &gt; </div>
 
 <p>Returns true if the first character of this string is whitespace. </p>
 
-<p>Referenced by <a class="el" href="structCppTokeniserFunctions_1_1StringIterator.html#a595bfe927e3e8a2f50adc510c7eee7f3">CppTokeniserFunctions::StringIterator::skipWhitespace()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="add4e53cc313384bd3d3346f30677bc7c"></a>
@@ -1960,6 +1953,35 @@ template&lt;typename CharPointer &gt; </div>
 <p>Atomically swaps this pointer for a new value, returning the previous value. </p>
 
 <p>References <a class="el" href="classCharPointer__UTF8.html#aef82dd41c193bbffec176c7b2a0dd810">CharPointer_UTF8()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3040c1c80d603a558fe7ffc01efec212"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CharPointer_UTF8::isByteOrderMark </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>possibleByteOrder</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the first three bytes in this pointer are the UTF8 byte-order mark (BOM). </p>
+<p>The pointer must not be null, and must point to at least 3 valid bytes. </p>
+
+<p>References <a class="el" href="classCharPointer__UTF8.html#a84d8f33eed061633332701f503e33e3fa8085c34bfa20125556249baba7268ebc">byteOrderMark1</a>, <a class="el" href="classCharPointer__UTF8.html#a84d8f33eed061633332701f503e33e3fa2e5a169828d5d53f24d89f12ea14d308">byteOrderMark2</a>, <a class="el" href="classCharPointer__UTF8.html#a84d8f33eed061633332701f503e33e3faa535790ae396383e305fbf9af74624f7">byteOrderMark3</a>, and <a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
 
 </div>
 </div>

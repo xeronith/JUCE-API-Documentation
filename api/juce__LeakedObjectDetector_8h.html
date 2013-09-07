@@ -101,8 +101,6 @@ Macros</h2></td></tr>
 <tr class="memitem:ab3639a79598b35f2116f4572af0d93f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__LeakedObjectDetector_8h.html#ab3639a79598b35f2116f4572af0d93f1">JUCE_LEAK_DETECTOR</a>(OwnerClass)</td></tr>
 <tr class="memdesc:ab3639a79598b35f2116f4572af0d93f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro lets you embed a leak-detecting object inside a class.  <a href="#ab3639a79598b35f2116f4572af0d93f1"></a><br/></td></tr>
 <tr class="separator:ab3639a79598b35f2116f4572af0d93f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3639a79598b35f2116f4572af0d93f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__StandardHeader_8h.html#ab3639a79598b35f2116f4572af0d93f1">JUCE_LEAK_DETECTOR</a>(OwnerClass)</td></tr>
-<tr class="separator:ab3639a79598b35f2116f4572af0d93f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="ab3639a79598b35f2116f4572af0d93f1"></a>
@@ -118,9 +116,9 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classjuce_1_1LeakedObjectDetector.html" title="Embedding an instance of this class inside another class can be used as a low-overhead way of detecti...">juce::LeakedObjectDetector</a>&lt;OwnerClass&gt;; \</div>
-<div class="line">        static <span class="keyword">const</span> <span class="keywordtype">char</span>* getLeakedObjectClassName() noexcept { <span class="keywordflow">return</span> #OwnerClass; } <a class="code" href="classjuce_1_1LeakedObjectDetector.html" title="Embedding an instance of this class inside another class can be used as a low-overhead way of detecti...">\</a></div>
-<div class="line"><a class="code" href="classjuce_1_1LeakedObjectDetector.html" title="Embedding an instance of this class inside another class can be used as a low-overhead way of detecti...">        juce::LeakedObjectDetector&lt;OwnerClass&gt;</a> <a class="code" href="juce__PlatformDefs_8h.html#a4dac24572cf8155c09d75f34c8297a47" title="A good old-fashioned C macro concatenation helper.">JUCE_JOIN_MACRO</a> (leakDetector, __LINE__);</div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">friend</span> <span class="keyword">class </span>juce::LeakedObjectDetector&lt;OwnerClass&gt;; \</div>
+<div class="line">        static <span class="keyword">const</span> <span class="keywordtype">char</span>* getLeakedObjectClassName() noexcept { <span class="keywordflow">return</span> #OwnerClass; } \</div>
+<div class="line">        juce::LeakedObjectDetector&lt;OwnerClass&gt; <a class="code" href="juce__PlatformDefs_8h.html#a4dac24572cf8155c09d75f34c8297a47" title="A good old-fashioned C macro concatenation helper.">JUCE_JOIN_MACRO</a> (leakDetector, __LINE__);</div>
 </div><!-- fragment -->
 <p>This macro lets you embed a leak-detecting object inside a class. </p>
 <p>To use it, simply declare a <a class="el" href="juce__LeakedObjectDetector_8h.html#ab3639a79598b35f2116f4572af0d93f1" title="This macro lets you embed a leak-detecting object inside a class.">JUCE_LEAK_DETECTOR(YourClassName)</a> inside a private section of the class declaration. E.g.</p>
@@ -135,25 +133,6 @@ Macros</h2></td></tr>
 <div class="line">};</div>
 </div><!-- fragment --><dl class="section see"><dt>See Also</dt><dd><a class="el" href="juce__PlatformDefs_8h.html#a851b02724a8158a7f746c66b5758b3dd" title="This is a shorthand way of writing both a JUCE_DECLARE_NON_COPYABLE and JUCE_LEAK_DETECTOR macro for ...">JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR</a>, <a class="el" href="classLeakedObjectDetector.html" title="Embedding an instance of this class inside another class can be used as a low-overhead way of detecti...">LeakedObjectDetector</a> </dd></dl>
 
-</div>
-</div>
-<a class="anchor" id="ab3639a79598b35f2116f4572af0d93f1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define JUCE_LEAK_DETECTOR</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">OwnerClass</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classjuce_1_1LeakedObjectDetector.html" title="Embedding an instance of this class inside another class can be used as a low-overhead way of detecti...">juce::LeakedObjectDetector</a>&lt;OwnerClass&gt;; \</div>
-<div class="line">        static <span class="keyword">const</span> <span class="keywordtype">char</span>* getLeakedObjectClassName() noexcept { <span class="keywordflow">return</span> #OwnerClass; } <a class="code" href="classjuce_1_1LeakedObjectDetector.html" title="Embedding an instance of this class inside another class can be used as a low-overhead way of detecti...">\</a></div>
-<div class="line"><a class="code" href="classjuce_1_1LeakedObjectDetector.html" title="Embedding an instance of this class inside another class can be used as a low-overhead way of detecti...">        juce::LeakedObjectDetector&lt;OwnerClass&gt;</a> <a class="code" href="juce__PlatformDefs_8h.html#a4dac24572cf8155c09d75f34c8297a47" title="A good old-fashioned C macro concatenation helper.">JUCE_JOIN_MACRO</a> (leakDetector, __LINE__);</div>
-</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

@@ -104,9 +104,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac885198479887e5a3779a818e07e9917"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraDevice.html#ac885198479887e5a3779a818e07e9917">~CameraDevice</a> ()</td></tr>
 <tr class="memdesc:ac885198479887e5a3779a818e07e9917"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ac885198479887e5a3779a818e07e9917"></a><br/></td></tr>
 <tr class="separator:ac885198479887e5a3779a818e07e9917"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a738aba3ea45e63ed63c18a263dca9fa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraDevice.html#a738aba3ea45e63ed63c18a263dca9fa1">getName</a> () const </td></tr>
-<tr class="memdesc:a738aba3ea45e63ed63c18a263dca9fa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of this device.  <a href="#a738aba3ea45e63ed63c18a263dca9fa1"></a><br/></td></tr>
-<tr class="separator:a738aba3ea45e63ed63c18a263dca9fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa555467e7121ec6ad3538d5f799aca83"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraDevice.html#aa555467e7121ec6ad3538d5f799aca83">getName</a> () const noexcept</td></tr>
+<tr class="memdesc:aa555467e7121ec6ad3538d5f799aca83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of this device.  <a href="#aa555467e7121ec6ad3538d5f799aca83"></a><br/></td></tr>
+<tr class="separator:aa555467e7121ec6ad3538d5f799aca83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17948f7b0ba629b0958bd0638bdb112a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComponent.html">Component</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraDevice.html#a17948f7b0ba629b0958bd0638bdb112a">createViewerComponent</a> ()</td></tr>
 <tr class="memdesc:a17948f7b0ba629b0958bd0638bdb112a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a component that can be used to display a preview of the video from this camera.  <a href="#a17948f7b0ba629b0958bd0638bdb112a"></a><br/></td></tr>
 <tr class="separator:a17948f7b0ba629b0958bd0638bdb112a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -250,17 +250,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a738aba3ea45e63ed63c18a263dca9fa1"></a>
+<a class="anchor" id="aa555467e7121ec6ad3538d5f799aca83"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classString.html">String</a> CameraDevice::getName </td>
+          <td class="memname">const <a class="el" href="classString.html">String</a>&amp; CameraDevice::getName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns the name of this device. </p>

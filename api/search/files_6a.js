@@ -102,6 +102,7 @@ var searchData=
   ['juce_5fcomponentmovementwatcher_2eh',['juce_ComponentMovementWatcher.h',['../juce__ComponentMovementWatcher_8h.html',1,'']]],
   ['juce_5fcomponentpeer_2eh',['juce_ComponentPeer.h',['../juce__ComponentPeer_8h.html',1,'']]],
   ['juce_5fconcertinapanel_2eh',['juce_ConcertinaPanel.h',['../juce__ConcertinaPanel_8h.html',1,'']]],
+  ['juce_5fcontainerdeletepolicy_2eh',['juce_ContainerDeletePolicy.h',['../juce__ContainerDeletePolicy_8h.html',1,'']]],
   ['juce_5fcoreaudioformat_2eh',['juce_CoreAudioFormat.h',['../juce__CoreAudioFormat_8h.html',1,'']]],
   ['juce_5fcpluspluscodetokeniser_2eh',['juce_CPlusPlusCodeTokeniser.h',['../juce__CPlusPlusCodeTokeniser_8h.html',1,'']]],
   ['juce_5fcpluspluscodetokeniserfunctions_2eh',['juce_CPlusPlusCodeTokeniserFunctions.h',['../juce__CPlusPlusCodeTokeniserFunctions_8h.html',1,'']]],

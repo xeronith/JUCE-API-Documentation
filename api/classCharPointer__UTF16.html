@@ -95,13 +95,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:affd001238ea04deb2f9ecdc660b0d6c7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classCharPointer__UTF16.html#affd001238ea04deb2f9ecdc660b0d6c7aec96c813c427ded95e8d412690c08c9a">byteOrderMarkBE1</a> = 0xfe, 
-<a class="el" href="classCharPointer__UTF16.html#affd001238ea04deb2f9ecdc660b0d6c7a0e9e3e062cd6caa2ddbd9861763a5aef">byteOrderMarkBE2</a> = 0xff, 
-<a class="el" href="classCharPointer__UTF16.html#affd001238ea04deb2f9ecdc660b0d6c7ae1379594854299323a3c64115026d288">byteOrderMarkLE1</a> = 0xff, 
-<a class="el" href="classCharPointer__UTF16.html#affd001238ea04deb2f9ecdc660b0d6c7ae603365b2895acc018233efeb0da3d6b">byteOrderMarkLE2</a> = 0xfe
+<tr class="memitem:a224b1564af246fe326dfbc8c3e146e33"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classCharPointer__UTF16.html#a224b1564af246fe326dfbc8c3e146e33aec96c813c427ded95e8d412690c08c9a">byteOrderMarkBE1</a> = 0xfe, 
+<a class="el" href="classCharPointer__UTF16.html#a224b1564af246fe326dfbc8c3e146e33a0e9e3e062cd6caa2ddbd9861763a5aef">byteOrderMarkBE2</a> = 0xff, 
+<a class="el" href="classCharPointer__UTF16.html#a224b1564af246fe326dfbc8c3e146e33ae1379594854299323a3c64115026d288">byteOrderMarkLE1</a> = 0xff, 
+<a class="el" href="classCharPointer__UTF16.html#a224b1564af246fe326dfbc8c3e146e33ae603365b2895acc018233efeb0da3d6b">byteOrderMarkLE2</a> = 0xfe
  }</td></tr>
-<tr class="memdesc:affd001238ea04deb2f9ecdc660b0d6c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">These values are the byte-order-mark (BOM) values for a UTF-16 stream.  <a href="classCharPointer__UTF16.html#affd001238ea04deb2f9ecdc660b0d6c7">More...</a><br/></td></tr>
-<tr class="separator:affd001238ea04deb2f9ecdc660b0d6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:a224b1564af246fe326dfbc8c3e146e33"><td class="mdescLeft">&#160;</td><td class="mdescRight">These values are the byte-order-mark (BOM) values for a UTF-16 stream.  <a href="classCharPointer__UTF16.html#a224b1564af246fe326dfbc8c3e146e33">More...</a><br/></td></tr>
+<tr class="separator:a224b1564af246fe326dfbc8c3e146e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28977ea8b479d3b2f3a8459594f88c58"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="juce__MathsFunctions_8h.html#a259fa4834387bd68627ddf37bb3ebdb9">int16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCharPointer__UTF16.html#a28977ea8b479d3b2f3a8459594f88c58">CharType</a></td></tr>
 <tr class="separator:a28977ea8b479d3b2f3a8459594f88c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -284,6 +284,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9cb146266c89a9abecb848011bd0382c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCharPointer__UTF16.html#a9cb146266c89a9abecb848011bd0382c">isValidString</a> (const <a class="el" href="classCharPointer__UTF16.html#a28977ea8b479d3b2f3a8459594f88c58">CharType</a> *dataToTest, int maxBytesToRead)</td></tr>
 <tr class="memdesc:a9cb146266c89a9abecb848011bd0382c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this data contains a valid string in this encoding.  <a href="#a9cb146266c89a9abecb848011bd0382c"></a><br/></td></tr>
 <tr class="separator:a9cb146266c89a9abecb848011bd0382c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace1742329bcdaa7165380dd2d2c002d5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCharPointer__UTF16.html#ace1742329bcdaa7165380dd2d2c002d5">isByteOrderMarkBigEndian</a> (const void *possibleByteOrder) noexcept</td></tr>
+<tr class="memdesc:ace1742329bcdaa7165380dd2d2c002d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the first pair of bytes in this pointer are the UTF16 byte-order mark (big endian).  <a href="#ace1742329bcdaa7165380dd2d2c002d5"></a><br/></td></tr>
+<tr class="separator:ace1742329bcdaa7165380dd2d2c002d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07380f4a63664c59377c84dda44635e7"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCharPointer__UTF16.html#a07380f4a63664c59377c84dda44635e7">isByteOrderMarkLittleEndian</a> (const void *possibleByteOrder) noexcept</td></tr>
+<tr class="memdesc:a07380f4a63664c59377c84dda44635e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the first pair of bytes in this pointer are the UTF16 byte-order mark (little endian).  <a href="#a07380f4a63664c59377c84dda44635e7"></a><br/></td></tr>
+<tr class="separator:a07380f4a63664c59377c84dda44635e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Wraps a pointer to a null-terminated UTF-16 character string, and provides various methods to operate on the data. </p>
@@ -302,7 +308,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
-<a class="anchor" id="affd001238ea04deb2f9ecdc660b0d6c7"></a>
+<a class="anchor" id="a224b1564af246fe326dfbc8c3e146e33"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -314,13 +320,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p>These values are the byte-order-mark (BOM) values for a UTF-16 stream. </p>
 <dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
-<tr><td valign="top"><em><a class="anchor" id="affd001238ea04deb2f9ecdc660b0d6c7aec96c813c427ded95e8d412690c08c9a"></a>byteOrderMarkBE1</em>&nbsp;</td><td>
+<tr><td valign="top"><em><a class="anchor" id="a224b1564af246fe326dfbc8c3e146e33aec96c813c427ded95e8d412690c08c9a"></a>byteOrderMarkBE1</em>&nbsp;</td><td>
 </td></tr>
-<tr><td valign="top"><em><a class="anchor" id="affd001238ea04deb2f9ecdc660b0d6c7a0e9e3e062cd6caa2ddbd9861763a5aef"></a>byteOrderMarkBE2</em>&nbsp;</td><td>
+<tr><td valign="top"><em><a class="anchor" id="a224b1564af246fe326dfbc8c3e146e33a0e9e3e062cd6caa2ddbd9861763a5aef"></a>byteOrderMarkBE2</em>&nbsp;</td><td>
 </td></tr>
-<tr><td valign="top"><em><a class="anchor" id="affd001238ea04deb2f9ecdc660b0d6c7ae1379594854299323a3c64115026d288"></a>byteOrderMarkLE1</em>&nbsp;</td><td>
+<tr><td valign="top"><em><a class="anchor" id="a224b1564af246fe326dfbc8c3e146e33ae1379594854299323a3c64115026d288"></a>byteOrderMarkLE1</em>&nbsp;</td><td>
 </td></tr>
-<tr><td valign="top"><em><a class="anchor" id="affd001238ea04deb2f9ecdc660b0d6c7ae603365b2895acc018233efeb0da3d6b"></a>byteOrderMarkLE2</em>&nbsp;</td><td>
+<tr><td valign="top"><em><a class="anchor" id="a224b1564af246fe326dfbc8c3e146e33ae603365b2895acc018233efeb0da3d6b"></a>byteOrderMarkLE2</em>&nbsp;</td><td>
 </td></tr>
 </table>
 </dd>
@@ -1926,6 +1932,64 @@ template&lt;typename CharPointer &gt; </div>
 <p>Atomically swaps this pointer for a new value, returning the previous value. </p>
 
 <p>References <a class="el" href="classCharPointer__UTF16.html#a3b8f36f58c2899ba6e620965473397ab">CharPointer_UTF16()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ace1742329bcdaa7165380dd2d2c002d5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CharPointer_UTF16::isByteOrderMarkBigEndian </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>possibleByteOrder</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the first pair of bytes in this pointer are the UTF16 byte-order mark (big endian). </p>
+<p>The pointer must not be null, and must contain at least two valid bytes. </p>
+
+<p>References <a class="el" href="classCharPointer__UTF16.html#a224b1564af246fe326dfbc8c3e146e33aec96c813c427ded95e8d412690c08c9a">byteOrderMarkBE1</a>, <a class="el" href="classCharPointer__UTF16.html#a224b1564af246fe326dfbc8c3e146e33a0e9e3e062cd6caa2ddbd9861763a5aef">byteOrderMarkBE2</a>, and <a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a07380f4a63664c59377c84dda44635e7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CharPointer_UTF16::isByteOrderMarkLittleEndian </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>possibleByteOrder</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the first pair of bytes in this pointer are the UTF16 byte-order mark (little endian). </p>
+<p>The pointer must not be null, and must contain at least two valid bytes. </p>
+
+<p>References <a class="el" href="classCharPointer__UTF16.html#a224b1564af246fe326dfbc8c3e146e33ae1379594854299323a3c64115026d288">byteOrderMarkLE1</a>, <a class="el" href="classCharPointer__UTF16.html#a224b1564af246fe326dfbc8c3e146e33ae603365b2895acc018233efeb0da3d6b">byteOrderMarkLE2</a>, and <a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
 
 </div>
 </div>

@@ -81,7 +81,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
@@ -94,12 +93,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>The JUCE <a class="el" href="classString.html" title="The JUCE String class!">String</a> class!  
  <a href="classString.html#details">More...</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a32e28d7fc3a4900c319884191d90dbf0"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classCharPointer__UTF8.html">CharPointer_UTF8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a32e28d7fc3a4900c319884191d90dbf0">CharPointerType</a></td></tr>
-<tr class="memdesc:a32e28d7fc3a4900c319884191d90dbf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the character encoding type used internally to store the string.  <a href="#a32e28d7fc3a4900c319884191d90dbf0"></a><br/></td></tr>
-<tr class="separator:a32e28d7fc3a4900c319884191d90dbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0225bb76bd3527b0e9ec9663c53f873d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a0225bb76bd3527b0e9ec9663c53f873d">String</a> () noexcept</td></tr>
@@ -157,7 +150,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab6559a8751051579ef090c2c9193654e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ab6559a8751051579ef090c2c9193654e"></a><br/></td></tr>
 <tr class="separator:ab6559a8751051579ef090c2c9193654e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8ca5cb11984df03ff9697442da5ae4b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#ad8ca5cb11984df03ff9697442da5ae4b">hashCode</a> () const noexcept</td></tr>
-<tr class="memdesc:ad8ca5cb11984df03ff9697442da5ae4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a probably-unique 32-bit hashcode from this string.  <a href="#ad8ca5cb11984df03ff9697442da5ae4b"></a><br/></td></tr>
+<tr class="memdesc:ad8ca5cb11984df03ff9697442da5ae4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the character encoding type used internally to store the string.  <a href="#ad8ca5cb11984df03ff9697442da5ae4b"></a><br/></td></tr>
 <tr class="separator:ad8ca5cb11984df03ff9697442da5ae4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad71be66a9c181abae185b84f7cec5f17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#ad71be66a9c181abae185b84f7cec5f17">hashCode64</a> () const noexcept</td></tr>
 <tr class="memdesc:ad71be66a9c181abae185b84f7cec5f17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a probably-unique 64-bit hashcode from this string.  <a href="#ad71be66a9c181abae185b84f7cec5f17"></a><br/></td></tr>
@@ -186,9 +179,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5bfc4d8a1f65666048f5025e5520d070"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a5bfc4d8a1f65666048f5025e5520d070">operator+=</a> (wchar_t characterToAppend)</td></tr>
 <tr class="memdesc:a5bfc4d8a1f65666048f5025e5520d070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a character at the end of this string.  <a href="#a5bfc4d8a1f65666048f5025e5520d070"></a><br/></td></tr>
 <tr class="separator:a5bfc4d8a1f65666048f5025e5520d070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaa9572adabddf956924bf13830a7ece"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#acaa9572adabddf956924bf13830a7ece">operator+=</a> (<a class="el" href="juce__CharacterFunctions_8h.html#a7d83261f3888884bbf04a58edc2672da">juce_wchar</a> characterToAppend)</td></tr>
+<tr class="memdesc:acaa9572adabddf956924bf13830a7ece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a character at the end of this string.  <a href="#acaa9572adabddf956924bf13830a7ece"></a><br/></td></tr>
+<tr class="separator:acaa9572adabddf956924bf13830a7ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade7558187c97f7ac17e9e7ffbc8b2bb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#ade7558187c97f7ac17e9e7ffbc8b2bb2">append</a> (const <a class="el" href="classString.html">String</a> &amp;textToAppend, size_t maxCharsToTake)</td></tr>
 <tr class="memdesc:ade7558187c97f7ac17e9e7ffbc8b2bb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a string to the end of this one.  <a href="#ade7558187c97f7ac17e9e7ffbc8b2bb2"></a><br/></td></tr>
 <tr class="separator:ade7558187c97f7ac17e9e7ffbc8b2bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a429ae4319863f720265f3ef2d372d85c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a429ae4319863f720265f3ef2d372d85c">appendCharPointer</a> (const CharPointerType startOfTextToAppend, const CharPointerType endOfTextToAppend)</td></tr>
+<tr class="memdesc:a429ae4319863f720265f3ef2d372d85c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a string to the end of this one.  <a href="#a429ae4319863f720265f3ef2d372d85c"></a><br/></td></tr>
+<tr class="separator:a429ae4319863f720265f3ef2d372d85c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed53ab87e952b85d75a8157fcffdaa62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#aed53ab87e952b85d75a8157fcffdaa62">appendCharPointer</a> (const CharPointerType textToAppend)</td></tr>
+<tr class="memdesc:aed53ab87e952b85d75a8157fcffdaa62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a string to the end of this one.  <a href="#aed53ab87e952b85d75a8157fcffdaa62"></a><br/></td></tr>
+<tr class="separator:aed53ab87e952b85d75a8157fcffdaa62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa16cd3285fcbdf13c925b28c248a3ebb"><td class="memTemplParams" colspan="2">template&lt;class CharPointer &gt; </td></tr>
 <tr class="memitem:aa16cd3285fcbdf13c925b28c248a3ebb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classString.html#aa16cd3285fcbdf13c925b28c248a3ebb">appendCharPointer</a> (const CharPointer textToAppend, size_t maxCharsToTake)</td></tr>
 <tr class="memdesc:aa16cd3285fcbdf13c925b28c248a3ebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a string to the end of this one.  <a href="#aa16cd3285fcbdf13c925b28c248a3ebb"></a><br/></td></tr>
@@ -452,7 +454,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9266203eddcdfec35140fcb6e7535745"><td class="memItemLeft" align="right" valign="top"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a9266203eddcdfec35140fcb6e7535745">getHexValue64</a> () const noexcept</td></tr>
 <tr class="memdesc:a9266203eddcdfec35140fcb6e7535745"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses the string as a hexadecimal number.  <a href="#a9266203eddcdfec35140fcb6e7535745"></a><br/></td></tr>
 <tr class="separator:a9266203eddcdfec35140fcb6e7535745"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a026f5d21f882d2ffe0406ef1e4907897"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html#a32e28d7fc3a4900c319884191d90dbf0">CharPointerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a026f5d21f882d2ffe0406ef1e4907897">getCharPointer</a> () const noexcept</td></tr>
+<tr class="memitem:a026f5d21f882d2ffe0406ef1e4907897"><td class="memItemLeft" align="right" valign="top">CharPointerType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a026f5d21f882d2ffe0406ef1e4907897">getCharPointer</a> () const noexcept</td></tr>
 <tr class="memdesc:a026f5d21f882d2ffe0406ef1e4907897"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the character pointer currently being used to store this string.  <a href="#a026f5d21f882d2ffe0406ef1e4907897"></a><br/></td></tr>
 <tr class="separator:a026f5d21f882d2ffe0406ef1e4907897"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9e2c87c3ff8410e4f70a02288ece2dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCharPointer__UTF8.html">CharPointer_UTF8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#ae9e2c87c3ff8410e4f70a02288ece2dd">toUTF8</a> () const </td></tr>
@@ -540,24 +542,7 @@ Static Public Attributes</h2></td></tr>
 <div class="textblock"><p>The JUCE <a class="el" href="classString.html" title="The JUCE String class!">String</a> class! </p>
 <p>Using a reference-counted internal representation, these strings are fast and efficient, and there are methods to do just about any operation you'll ever dream of.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classStringArray.html" title="A special array for holding a list of strings.">StringArray</a>, <a class="el" href="classStringPairArray.html" title="A container for holding a set of strings which are keyed by another string.">StringPairArray</a> </dd></dl>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a32e28d7fc3a4900c319884191d90dbf0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="classCharPointer__UTF8.html">CharPointer_UTF8</a> <a class="el" href="classString.html#a32e28d7fc3a4900c319884191d90dbf0">String::CharPointerType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This is the character encoding type used internally to store the string. </p>
-<p>By setting the value of JUCE_STRING_UTF_TYPE to 8, 16, or 32, you can change the internal storage format of the <a class="el" href="classString.html" title="The JUCE String class!">String</a> class. UTF-8 uses the least space (if your strings contain few extended characters), but call operator[] involves iterating the string to find the required index. UTF-32 provides instant random access to its characters, but uses 4 bytes per character to store them. UTF-16 uses more space than UTF-8 and is also slow to index, but is the native wchar_t format used in Windows.</p>
-<p>It doesn't matter too much which format you pick, because the <a class="el" href="classString.html#ae9e2c87c3ff8410e4f70a02288ece2dd" title="Returns a pointer to a UTF-8 version of this string.">toUTF8()</a>, <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-16 version of this string.">toUTF16()</a> and <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string.">toUTF32()</a> methods let you access the string's content in any of the other formats. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a0225bb76bd3527b0e9ec9663c53f873d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1340,7 +1325,9 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generates a probably-unique 32-bit hashcode from this string. </p>
+<p>This is the character encoding type used internally to store the string. </p>
+<p>By setting the value of JUCE_STRING_UTF_TYPE to 8, 16, or 32, you can change the internal storage format of the <a class="el" href="classString.html" title="The JUCE String class!">String</a> class. UTF-8 uses the least space (if your strings contain few extended characters), but call operator[] involves iterating the string to find the required index. UTF-32 provides instant random access to its characters, but uses 4 bytes per character to store them. UTF-16 uses more space than UTF-8 and is also slow to index, but is the native wchar_t format used in Windows.</p>
+<p>It doesn't matter too much which format you pick, because the <a class="el" href="classString.html#ae9e2c87c3ff8410e4f70a02288ece2dd" title="Returns a pointer to a UTF-8 version of this string.">toUTF8()</a>, <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-16 version of this string.">toUTF16()</a> and <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string.">toUTF32()</a> methods let you access the string's content in any of the other formats.Generates a probably-unique 32-bit hashcode from this string. </p>
 
 </div>
 </div>
@@ -1528,6 +1515,24 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="acaa9572adabddf956924bf13830a7ece"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classString.html">String</a>&amp; String::operator+= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="juce__CharacterFunctions_8h.html#a7d83261f3888884bbf04a58edc2672da">juce_wchar</a>&#160;</td>
+          <td class="paramname"><em>characterToAppend</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Appends a character at the end of this string. </p>
+
+</div>
+</div>
 <a class="anchor" id="ade7558187c97f7ac17e9e7ffbc8b2bb2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1560,6 +1565,59 @@ Static Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a429ae4319863f720265f3ef2d372d85c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void String::appendCharPointer </td>
+          <td>(</td>
+          <td class="paramtype">const CharPointerType&#160;</td>
+          <td class="paramname"><em>startOfTextToAppend</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const CharPointerType&#160;</td>
+          <td class="paramname"><em>endOfTextToAppend</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Appends a string to the end of this one. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">startOfTextToAppend</td><td>the start of the string to add. This must not be a nullptr </td></tr>
+    <tr><td class="paramname">endOfTextToAppend</td><td>the end of the string to add. This must not be a nullptr </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aed53ab87e952b85d75a8157fcffdaa62"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void String::appendCharPointer </td>
+          <td>(</td>
+          <td class="paramtype">const CharPointerType&#160;</td>
+          <td class="paramname"><em>textToAppend</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Appends a string to the end of this one. </p>
 
 </div>
 </div>
@@ -3997,7 +4055,7 @@ template&lt;class CharPointer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classString.html#a32e28d7fc3a4900c319884191d90dbf0">CharPointerType</a> String::getCharPointer </td>
+          <td class="memname">CharPointerType String::getCharPointer </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

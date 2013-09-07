@@ -157,6 +157,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a232ce6c0583e57a2de19293a1d8f2b53"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a232ce6c0583e57a2de19293a1d8f2b53">getSwapInterval</a> () const </td></tr>
 <tr class="memdesc:a232ce6c0583e57a2de19293a1d8f2b53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current swap-sync interval.  <a href="#a232ce6c0583e57a2de19293a1d8f2b53"></a><br/></td></tr>
 <tr class="separator:a232ce6c0583e57a2de19293a1d8f2b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ae7fe1aa47448f75ef67f89cd9db798"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a5ae7fe1aa47448f75ef67f89cd9db798">getRenderingScale</a> () const noexcept</td></tr>
+<tr class="memdesc:a5ae7fe1aa47448f75ef67f89cd9db798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the scale factor used by the display that is being rendered.  <a href="#a5ae7fe1aa47448f75ef67f89cd9db798"></a><br/></td></tr>
+<tr class="separator:a5ae7fe1aa47448f75ef67f89cd9db798"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b9d12cc339f3f12124f4a3e54d5502c"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a9b9d12cc339f3f12124f4a3e54d5502c">getRawContext</a> () const noexcept</td></tr>
 <tr class="memdesc:a9b9d12cc339f3f12124f4a3e54d5502c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an OS-dependent handle to some kind of underlting OS-provided GL context.  <a href="#a9b9d12cc339f3f12124f4a3e54d5502c"></a><br/></td></tr>
 <tr class="separator:a9b9d12cc339f3f12124f4a3e54d5502c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -710,6 +713,33 @@ Public Attributes</h2></td></tr>
 
 <p>Returns the current swap-sync interval. </p>
 <p>See <a class="el" href="classOpenGLContext.html#a046fe0f0de71000ee940d825d5dc57e0" title="Sets whether the context checks the vertical sync before swapping.">setSwapInterval()</a> for info about the value returned. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5ae7fe1aa47448f75ef67f89cd9db798"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double OpenGLContext::getRenderingScale </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the scale factor used by the display that is being rendered. </p>
+<p>The scale is that of the display - see <a class="el" href="structDesktop_1_1Displays_1_1Display.html#a1fa73b56829f21284aaf3ba95d64c227" title="This is the scale-factor of this display.">Desktop::Displays::Display::scale</a></p>
+<p>Note that this should only be called during an <a class="el" href="classOpenGLRenderer.html#a34077b4eaeb3207814b9e4302f724912" title="Called when you should render the next openGL frame.">OpenGLRenderer::renderOpenGL()</a> callback - at other times the value it returns is undefined. </p>
 
 </div>
 </div>

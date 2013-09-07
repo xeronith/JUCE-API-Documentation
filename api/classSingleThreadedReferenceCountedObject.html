@@ -102,6 +102,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa690489ec6e529bf4588c46092d09156"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSingleThreadedReferenceCountedObject.html#aa690489ec6e529bf4588c46092d09156">decReferenceCount</a> () noexcept</td></tr>
 <tr class="memdesc:aa690489ec6e529bf4588c46092d09156"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decreases the object's reference count.  <a href="#aa690489ec6e529bf4588c46092d09156"></a><br/></td></tr>
 <tr class="separator:aa690489ec6e529bf4588c46092d09156"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a601ef52aa595fabee645c3c9c8ba2048"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSingleThreadedReferenceCountedObject.html#a601ef52aa595fabee645c3c9c8ba2048">decReferenceCountWithoutDeleting</a> () noexcept</td></tr>
+<tr class="memdesc:a601ef52aa595fabee645c3c9c8ba2048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decreases the object's reference count.  <a href="#a601ef52aa595fabee645c3c9c8ba2048"></a><br/></td></tr>
+<tr class="separator:a601ef52aa595fabee645c3c9c8ba2048"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84247db36d71ed860876941ed2045c85"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSingleThreadedReferenceCountedObject.html#a84247db36d71ed860876941ed2045c85">getReferenceCount</a> () const noexcept</td></tr>
 <tr class="memdesc:a84247db36d71ed860876941ed2045c85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the object's current reference count.  <a href="#a84247db36d71ed860876941ed2045c85"></a><br/></td></tr>
 <tr class="separator:a84247db36d71ed860876941ed2045c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,8 +120,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Adds reference-counting to an object. </p>
-<p>This is effectively a version of the <a class="el" href="classReferenceCountedObject.html" title="Adds reference-counting to an object.">ReferenceCountedObject</a> class, but which uses a non-atomic counter, and so is not thread-safe (but which will be more efficient). For more details on how to use it, see the <a class="el" href="classReferenceCountedObject.html" title="Adds reference-counting to an object.">ReferenceCountedObject</a> class notes.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classReferenceCountedObject.html" title="Adds reference-counting to an object.">ReferenceCountedObject</a>, <a class="el" href="classReferenceCountedObjectPtr.html" title="A smart-pointer class which points to a reference-counted object.">ReferenceCountedObjectPtr</a>, <a class="el" href="classReferenceCountedArray.html" title="Holds a list of objects derived from ReferenceCountedObject.">ReferenceCountedArray</a> </dd></dl>
+<p>This is effectively a version of the <a class="el" href="classReferenceCountedObject.html" title="A base class which provides methods for reference-counting.">ReferenceCountedObject</a> class, but which uses a non-atomic counter, and so is not thread-safe (but which will be more efficient). For more details on how to use it, see the <a class="el" href="classReferenceCountedObject.html" title="A base class which provides methods for reference-counting.">ReferenceCountedObject</a> class notes.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classReferenceCountedObject.html" title="A base class which provides methods for reference-counting.">ReferenceCountedObject</a>, <a class="el" href="classReferenceCountedObjectPtr.html" title="A smart-pointer class which points to a reference-counted object.">ReferenceCountedObjectPtr</a>, <a class="el" href="classReferenceCountedArray.html" title="Holds a list of objects derived from ReferenceCountedObject, or which implement basic reference-count...">ReferenceCountedArray</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a33487e345c10684a13f90bfeb6756fe3"></a>
 <div class="memitem">
@@ -222,6 +225,34 @@ Protected Member Functions</h2></td></tr>
 
 <p>Decreases the object's reference count. </p>
 <p>If the count gets to zero, the object will be deleted. </p>
+
+<p>References <a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a601ef52aa595fabee645c3c9c8ba2048"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SingleThreadedReferenceCountedObject::decReferenceCountWithoutDeleting </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Decreases the object's reference count. </p>
+<p>If the count gets to zero, the object will not be deleted, but this method will return true, allowing the caller to take care of deletion. </p>
 
 <p>References <a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
 

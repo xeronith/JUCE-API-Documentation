@@ -3,7 +3,7 @@ var searchData=
   ['editorigintime',['editOriginTime',['../structAudioPlayHead_1_1CurrentPositionInfo.html#a5a8c7375646228f378c4eb673f49a9e0',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['elements',['elements',['../classArrayAllocationBase.html#a68e9e3954a47f3a9b0721c979d4d9fe7',1,'ArrayAllocationBase::elements()'],['../classRelativePointPath.html#a975cc963b8500afa8d33dac6d7c7ac50',1,'RelativePointPath::elements()']]],
   ['elementtype',['elementType',['../classPath_1_1Iterator.html#a3b33636d181ff130a4c0e475da2824db',1,'Path::Iterator']]],
-  ['empty',['empty',['../classjuce_1_1String.html#adb71950e23edb0413a99b55962773fd9',1,'juce::String::empty()'],['../classString.html#afd02116a5571fcc8bc1e6fdabe132a85',1,'String::empty()']]],
+  ['empty',['empty',['../classString.html#afd02116a5571fcc8bc1e6fdabe132a85',1,'String']]],
   ['encodername',['encoderName',['../classOggVorbisAudioFormat.html#a1c97a40ce37de0766efdaec9b1d4fcb5',1,'OggVorbisAudioFormat']]],
   ['endkey',['endKey',['../classKeyPress.html#a54ced410db4096610651498e85e63b1e',1,'KeyPress']]],
   ['endpoint',['endPoint',['../classRelativePointPath_1_1LineTo.html#a947b4b9d2bf6208e8955eca0e6c5c66c',1,'RelativePointPath::LineTo']]],

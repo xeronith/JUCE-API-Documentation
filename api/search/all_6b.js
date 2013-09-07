@@ -2,8 +2,7 @@ var searchData=
 [
   ['keyboardfocustraverser',['KeyboardFocusTraverser',['../classKeyboardFocusTraverser.html',1,'KeyboardFocusTraverser'],['../classKeyboardFocusTraverser.html#a275c834346e37c782d74f08365f1a06f',1,'KeyboardFocusTraverser::KeyboardFocusTraverser()']]],
   ['keydownoverlaycolourid',['keyDownOverlayColourId',['../classMidiKeyboardComponent.html#a75cb05395efc61c447dc93e8873ab05eaca2ce853f7e9341311ff237d17f5485f',1,'MidiKeyboardComponent']]],
-  ['keyexists',['keyExists',['../classWindowsRegistry.html#a19b31417e3af25b77e8831e3ec2de53c',1,'WindowsRegistry']]],
-  ['keyexistswow64',['keyExistsWow64',['../classWindowsRegistry.html#a4172e98b55a578a982fdf52c945a9e4e',1,'WindowsRegistry']]],
+  ['keyexists',['keyExists',['../classWindowsRegistry.html#a5059e15bae204556dd7f702bbff72783',1,'WindowsRegistry']]],
   ['keylistener',['KeyListener',['../classKeyListener.html',1,'']]],
   ['keymappingeditorcomponent',['KeyMappingEditorComponent',['../classKeyMappingEditorComponent.html',1,'KeyMappingEditorComponent'],['../classKeyMappingEditorComponent.html#ad82af2e52efb94bd1f48aba770e068fb',1,'KeyMappingEditorComponent::KeyMappingEditorComponent()']]],
   ['keypress',['KeyPress',['../classKeyPress.html',1,'KeyPress'],['../structApplicationCommandTarget_1_1InvocationInfo.html#a733ad27cfb5ad231add1b1c82cced236',1,'ApplicationCommandTarget::InvocationInfo::keyPress()'],['../classKeyPress.html#a7d40630120c945017e8e3fbc30bb3499',1,'KeyPress::KeyPress() noexcept'],['../classKeyPress.html#a6a8910ee5ba637b23af8550eac1c301a',1,'KeyPress::KeyPress(int keyCode, ModifierKeys modifiers, juce_wchar textCharacter) noexcept'],['../classKeyPress.html#aee4f777a405880b975b96dc7738c151d',1,'KeyPress::KeyPress(int keyCode) noexcept'],['../classKeyPress.html#a748bef397e6bc4ba452a98dd67d43f97',1,'KeyPress::KeyPress(const KeyPress &amp;other) noexcept']]],

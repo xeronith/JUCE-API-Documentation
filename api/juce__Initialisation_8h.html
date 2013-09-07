@@ -78,7 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_aa1f3f1c3e8619c1228e6c765f4a0f79.html">juce</a></li><li class="navelem"><a class="el" href="dir_76ef348233cb42983cdac4f14ad655c5.html">modules</a></li><li class="navelem"><a class="el" href="dir_847c7c9d27a6947dd961e052f17bf8a3.html">juce_gui_basics</a></li><li class="navelem"><a class="el" href="dir_99170c543aec619aac67f133d0e30283.html">application</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_aa1f3f1c3e8619c1228e6c765f4a0f79.html">juce</a></li><li class="navelem"><a class="el" href="dir_76ef348233cb42983cdac4f14ad655c5.html">modules</a></li><li class="navelem"><a class="el" href="dir_6167401e009a42fa9f731e7449cbf5e3.html">juce_events</a></li><li class="navelem"><a class="el" href="dir_066c5213d5b5ad1de3df0a744a892260.html">messages</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -99,7 +99,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a10c79cf9cafd40244a741e5945878e79"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__Initialisation_8h.html#a10c79cf9cafd40244a741e5945878e79">START_JUCE_APPLICATION</a>(AppClass)&#160;&#160;&#160;juce::JUCEApplication* juce_CreateApplication() { return new AppClass(); }</td></tr>
+<tr class="memitem:a10c79cf9cafd40244a741e5945878e79"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__Initialisation_8h.html#a10c79cf9cafd40244a741e5945878e79">START_JUCE_APPLICATION</a>(AppClass)</td></tr>
+<tr class="memdesc:a10c79cf9cafd40244a741e5945878e79"><td class="mdescLeft">&#160;</td><td class="mdescRight">To start a JUCE app, use this macro: START_JUCE_APPLICATION (AppSubClass) where AppSubClass is the name of a class derived from <a class="el" href="classJUCEApplication.html" title="An instance of this class is used to specify initialisation and shutdown code for the application...">JUCEApplication</a> or <a class="el" href="classJUCEApplicationBase.html" title="Abstract base class for application classes.">JUCEApplicationBase</a>.  <a href="#a10c79cf9cafd40244a741e5945878e79"></a><br/></td></tr>
 <tr class="separator:a10c79cf9cafd40244a741e5945878e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -121,10 +122,13 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">AppClass</td><td>)</td>
-          <td>&#160;&#160;&#160;juce::JUCEApplication* juce_CreateApplication() { return new AppClass(); }</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>To start a JUCE app, use this macro: START_JUCE_APPLICATION (AppSubClass) where AppSubClass is the name of a class derived from <a class="el" href="classJUCEApplication.html" title="An instance of this class is used to specify initialisation and shutdown code for the application...">JUCEApplication</a> or <a class="el" href="classJUCEApplicationBase.html" title="Abstract base class for application classes.">JUCEApplicationBase</a>. </p>
+<p>See the <a class="el" href="classJUCEApplication.html" title="An instance of this class is used to specify initialisation and shutdown code for the application...">JUCEApplication</a> and <a class="el" href="classJUCEApplicationBase.html" title="Abstract base class for application classes.">JUCEApplicationBase</a> class documentation for more details. </p>
 
 </div>
 </div>
@@ -147,8 +151,6 @@ Functions</h2></td></tr>
 <p>Note that if you're creating a Juce DLL for Windows, you may also need to call the <a class="el" href="classProcess.html#a82a86c921a568fe5af4968de5c42adb7" title="WINDOWS ONLY - Sets a new module handle to be used by the library.">Process::setCurrentModuleInstanceHandle()</a> method.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="juce__Initialisation_8h.html#a1c949ca46c8ef9bcefbaf9256ab6ff80" title="Clears up any static data being used by Juce&#39;s GUI classes.">shutdownJuce_GUI()</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classScopedJuceInitialiser__GUI.html#a1342c78002291c0ce1cf77c38fac2c9c">ScopedJuceInitialiser_GUI::ScopedJuceInitialiser_GUI()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a1c949ca46c8ef9bcefbaf9256ab6ff80"></a>
@@ -167,8 +169,6 @@ Functions</h2></td></tr>
 <p>Clears up any static data being used by Juce's GUI classes. </p>
 <p>If you're embedding Juce into an application that uses its own event-loop rather than using the START_JUCE_APPLICATION macro, call this function in your shutdown code to clean up any juce objects that might be lying around.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="juce__Initialisation_8h.html#aa648b242fe6ecc639ac53ec9c969822f" title="Initialises Juce&#39;s GUI classes.">initialiseJuce_GUI()</a> </dd></dl>
-
-<p>Referenced by <a class="el" href="classScopedJuceInitialiser__GUI.html#a689e8564ee0ea5b806340008252a1a5f">ScopedJuceInitialiser_GUI::~ScopedJuceInitialiser_GUI()</a>.</p>
 
 </div>
 </div>

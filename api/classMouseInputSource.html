@@ -93,12 +93,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a47ef93676191649ffdc9a8b6d31b20f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a47ef93676191649ffdc9a8b6d31b20f3">MouseInputSource</a> (int index, bool isMouseDevice)</td></tr>
-<tr class="memdesc:a47ef93676191649ffdc9a8b6d31b20f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classMouseInputSource.html" title="Represents a linear source of mouse events from a mouse device or individual finger in a multi-touch ...">MouseInputSource</a>.  <a href="#a47ef93676191649ffdc9a8b6d31b20f3"></a><br/></td></tr>
-<tr class="separator:a47ef93676191649ffdc9a8b6d31b20f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a739e599b83e531d0576e7de581066939"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a739e599b83e531d0576e7de581066939">~MouseInputSource</a> ()</td></tr>
-<tr class="memdesc:a739e599b83e531d0576e7de581066939"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a739e599b83e531d0576e7de581066939"></a><br/></td></tr>
-<tr class="separator:a739e599b83e531d0576e7de581066939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8071d803ab710d0239cfcfa6ddc399d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#ae8071d803ab710d0239cfcfa6ddc399d">MouseInputSource</a> (const <a class="el" href="classMouseInputSource.html">MouseInputSource</a> &amp;) noexcept</td></tr>
+<tr class="separator:ae8071d803ab710d0239cfcfa6ddc399d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6126b51c34685e6d1cca88d6727c083"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMouseInputSource.html">MouseInputSource</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#ab6126b51c34685e6d1cca88d6727c083">operator=</a> (const <a class="el" href="classMouseInputSource.html">MouseInputSource</a> &amp;) noexcept</td></tr>
+<tr class="separator:ab6126b51c34685e6d1cca88d6727c083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5e7c3fd30aa82348a40e18c161bb0fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#ad5e7c3fd30aa82348a40e18c161bb0fd">~MouseInputSource</a> () noexcept</td></tr>
+<tr class="separator:ad5e7c3fd30aa82348a40e18c161bb0fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ac6b1ea5236f12c53b7592f55306103"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a0ac6b1ea5236f12c53b7592f55306103">operator==</a> (const <a class="el" href="classMouseInputSource.html">MouseInputSource</a> &amp;other) const noexcept</td></tr>
+<tr class="separator:a0ac6b1ea5236f12c53b7592f55306103"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a081a7cc2d0a9d4690073ffc455a736d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a081a7cc2d0a9d4690073ffc455a736d0">operator!=</a> (const <a class="el" href="classMouseInputSource.html">MouseInputSource</a> &amp;other) const noexcept</td></tr>
+<tr class="separator:a081a7cc2d0a9d4690073ffc455a736d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f3f5416c8ab8b0cdb88b0e6aadae306"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a4f3f5416c8ab8b0cdb88b0e6aadae306">isMouse</a> () const </td></tr>
 <tr class="memdesc:a4f3f5416c8ab8b0cdb88b0e6aadae306"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this object represents a normal desk-based mouse device.  <a href="#a4f3f5416c8ab8b0cdb88b0e6aadae306"></a><br/></td></tr>
 <tr class="separator:a4f3f5416c8ab8b0cdb88b0e6aadae306"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,9 +163,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a75c31f53d17ea048bf83e19e8b051ba2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a75c31f53d17ea048bf83e19e8b051ba2">canDoUnboundedMovement</a> () const noexcept</td></tr>
 <tr class="memdesc:a75c31f53d17ea048bf83e19e8b051ba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this mouse can be moved indefinitely in any direction without running out of space.  <a href="#a75c31f53d17ea048bf83e19e8b051ba2"></a><br/></td></tr>
 <tr class="separator:a75c31f53d17ea048bf83e19e8b051ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8289b45acc8783feb0d83898885a70b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a8289b45acc8783feb0d83898885a70b3">enableUnboundedMouseMovement</a> (bool isEnabled, bool keepCursorVisibleUntilOffscreen=false)</td></tr>
-<tr class="memdesc:a8289b45acc8783feb0d83898885a70b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows the mouse to move beyond the edges of the screen.  <a href="#a8289b45acc8783feb0d83898885a70b3"></a><br/></td></tr>
-<tr class="separator:a8289b45acc8783feb0d83898885a70b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac99c61d3787c3baa7661b41132e87e0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#ac99c61d3787c3baa7661b41132e87e0a">enableUnboundedMouseMovement</a> (bool isEnabled, bool keepCursorVisibleUntilOffscreen=false) const </td></tr>
+<tr class="memdesc:ac99c61d3787c3baa7661b41132e87e0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows the mouse to move beyond the edges of the screen.  <a href="#ac99c61d3787c3baa7661b41132e87e0a"></a><br/></td></tr>
+<tr class="separator:ac99c61d3787c3baa7661b41132e87e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30d09e2d2b91d5d9eca458ad0a035d30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a30d09e2d2b91d5d9eca458ad0a035d30">setScreenPosition</a> (<a class="el" href="classPoint.html">Point</a>&lt; int &gt; newPosition)</td></tr>
 <tr class="memdesc:a30d09e2d2b91d5d9eca458ad0a035d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to set this mouse pointer's screen position.  <a href="#a30d09e2d2b91d5d9eca458ad0a035d30"></a><br/></td></tr>
 <tr class="separator:a30d09e2d2b91d5d9eca458ad0a035d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,38 +176,36 @@ Public Member Functions</h2></td></tr>
 <p>Events coming from a single <a class="el" href="classMouseInputSource.html" title="Represents a linear source of mouse events from a mouse device or individual finger in a multi-touch ...">MouseInputSource</a> are always sent in a fixed and predictable order: a mouseMove will never be called without a mouseEnter having been sent beforehand, the only events that can happen between a mouseDown and its corresponding mouseUp are mouseDrags, etc. When there are multiple touches arriving from multiple MouseInputSources, their event streams may arrive in an interleaved order, so you should use the <a class="el" href="classMouseInputSource.html#ad75daa5396d854a0fa6ec7e2b698e482" title="Returns this source&#39;s index in the global list of possible sources.">getIndex()</a> method to find out which finger each event came from.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMouseEvent.html" title="Contains position and status information about a mouse event.">MouseEvent</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a47ef93676191649ffdc9a8b6d31b20f3"></a>
+<a class="anchor" id="ae8071d803ab710d0239cfcfa6ddc399d"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">MouseInputSource::MouseInputSource </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>index</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="classMouseInputSource.html">MouseInputSource</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isMouseDevice</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Creates a <a class="el" href="classMouseInputSource.html" title="Represents a linear source of mouse events from a mouse device or individual finger in a multi-touch ...">MouseInputSource</a>. </p>
-<p>You should never actually create a <a class="el" href="classMouseInputSource.html" title="Represents a linear source of mouse events from a mouse device or individual finger in a multi-touch ...">MouseInputSource</a> in your own code - the library takes care of managing these objects. </p>
-
 </div>
 </div>
-<a class="anchor" id="a739e599b83e531d0576e7de581066939"></a>
+<a class="anchor" id="ad5e7c3fd30aa82348a40e18c161bb0fd"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">MouseInputSource::~MouseInputSource </td>
@@ -212,13 +214,88 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p>Destructor. </p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ab6126b51c34685e6d1cca88d6727c083"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMouseInputSource.html">MouseInputSource</a>&amp; MouseInputSource::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMouseInputSource.html">MouseInputSource</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0ac6b1ea5236f12c53b7592f55306103"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MouseInputSource::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMouseInputSource.html">MouseInputSource</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a081a7cc2d0a9d4690073ffc455a736d0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MouseInputSource::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMouseInputSource.html">MouseInputSource</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a4f3f5416c8ab8b0cdb88b0e6aadae306"></a>
 <div class="memitem">
 <div class="memproto">
@@ -613,7 +690,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8289b45acc8783feb0d83898885a70b3"></a>
+<a class="anchor" id="ac99c61d3787c3baa7661b41132e87e0a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -632,7 +709,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">

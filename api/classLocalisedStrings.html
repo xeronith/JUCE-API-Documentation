@@ -118,6 +118,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8a37ae831572c36ae00dc0f6200b5da2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classStringPairArray.html">StringPairArray</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocalisedStrings.html#a8a37ae831572c36ae00dc0f6200b5da2">getMappings</a> () const </td></tr>
 <tr class="memdesc:a8a37ae831572c36ae00dc0f6200b5da2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides access to the actual list of mappings.  <a href="#a8a37ae831572c36ae00dc0f6200b5da2"></a><br/></td></tr>
 <tr class="separator:a8a37ae831572c36ae00dc0f6200b5da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50e7ac83c272b655123821397b87549d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocalisedStrings.html#a50e7ac83c272b655123821397b87549d">addStrings</a> (const <a class="el" href="classLocalisedStrings.html">LocalisedStrings</a> &amp;)</td></tr>
+<tr class="memdesc:a50e7ac83c272b655123821397b87549d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds and merges another set of translations into this set.  <a href="#a50e7ac83c272b655123821397b87549d"></a><br/></td></tr>
+<tr class="separator:a50e7ac83c272b655123821397b87549d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -441,6 +444,26 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Provides access to the actual list of mappings. </p>
+
+</div>
+</div>
+<a class="anchor" id="a50e7ac83c272b655123821397b87549d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LocalisedStrings::addStrings </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classLocalisedStrings.html">LocalisedStrings</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds and merges another set of translations into this set. </p>
+<p>Note that the language name and country codes of the new <a class="el" href="classLocalisedStrings.html" title="Used to convert strings to localised foreign-language versions.">LocalisedStrings</a> object must match that of this object - an assertion will be thrown if they don't match.</p>
+<p>Any existing values will have their mappings overwritten by the new ones. </p>
 
 </div>
 </div>

@@ -119,10 +119,6 @@ Macros</h2></td></tr>
 <tr class="memitem:ab17e68e410cbcdaf3074214aed490ec8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__MathsFunctions_8h.html#ab17e68e410cbcdaf3074214aed490ec8">PARAMETER_TYPE</a>(a)&#160;&#160;&#160;typename <a class="el" href="structTypeHelpers_1_1ParameterType.html">TypeHelpers::ParameterType</a>&lt;a&gt;::type</td></tr>
 <tr class="memdesc:ab17e68e410cbcdaf3074214aed490ec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">A helpful macro to simplify the use of the ParameterType template.  <a href="#ab17e68e410cbcdaf3074214aed490ec8"></a><br/></td></tr>
 <tr class="separator:ab17e68e410cbcdaf3074214aed490ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a339666bd60cc6cb0831cb79c8f1b07b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__StandardHeader_8h.html#a339666bd60cc6cb0831cb79c8f1b07b6">JUCE_UNDENORMALISE</a>(x)&#160;&#160;&#160;x += 1.0f; x -= 1.0f;</td></tr>
-<tr class="separator:a339666bd60cc6cb0831cb79c8f1b07b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab17e68e410cbcdaf3074214aed490ec8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__StandardHeader_8h.html#ab17e68e410cbcdaf3074214aed490ec8">PARAMETER_TYPE</a>(a)&#160;&#160;&#160;typename <a class="el" href="structTypeHelpers_1_1ParameterType.html">TypeHelpers::ParameterType</a>&lt;a&gt;::type</td></tr>
-<tr class="separator:ab17e68e410cbcdaf3074214aed490ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -256,6 +252,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a3cfa905495cba62bd9ad2b73d2dc3f1c"><td class="memTemplItemLeft" align="right" valign="top">IntegerType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="juce__MathsFunctions_8h.html#a3cfa905495cba62bd9ad2b73d2dc3f1c">negativeAwareModulo</a> (IntegerType dividend, const IntegerType divisor) noexcept</td></tr>
 <tr class="memdesc:a3cfa905495cba62bd9ad2b73d2dc3f1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a modulo operation, but can cope with the dividend being negative.  <a href="#a3cfa905495cba62bd9ad2b73d2dc3f1c"></a><br/></td></tr>
 <tr class="separator:a3cfa905495cba62bd9ad2b73d2dc3f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cad7dd14894030b889d9247b254f6aa"><td class="memTemplParams" colspan="2">template&lt;typename NumericType &gt; </td></tr>
+<tr class="memitem:a4cad7dd14894030b889d9247b254f6aa"><td class="memTemplItemLeft" align="right" valign="top">NumericType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="juce__MathsFunctions_8h.html#a4cad7dd14894030b889d9247b254f6aa">square</a> (NumericType n) noexcept</td></tr>
+<tr class="memdesc:a4cad7dd14894030b889d9247b254f6aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the square of its argument.  <a href="#a4cad7dd14894030b889d9247b254f6aa"></a><br/></td></tr>
+<tr class="separator:a4cad7dd14894030b889d9247b254f6aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -302,38 +302,6 @@ Variables</h2></td></tr>
 
 <p>A helpful macro to simplify the use of the ParameterType template. </p>
 <dl class="section see"><dt>See Also</dt><dd>ParameterType </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a339666bd60cc6cb0831cb79c8f1b07b6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define JUCE_UNDENORMALISE</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;x += 1.0f; x -= 1.0f;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab17e68e410cbcdaf3074214aed490ec8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define PARAMETER_TYPE</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">a</td><td>)</td>
-          <td>&#160;&#160;&#160;typename <a class="el" href="structTypeHelpers_1_1ParameterType.html">TypeHelpers::ParameterType</a>&lt;a&gt;::type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -905,7 +873,7 @@ template&lt;typename Type &gt; </div>
 </div><!-- fragment --> 
 <p>References <a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
 
-<p>Referenced by <a class="el" href="classReferenceCountedArray.html#ac9c63ba3ddc186c6e9fb0c3c97d1eb57">ReferenceCountedArray&lt; SynthesiserSound &gt;::getObjectPointer()</a>, <a class="el" href="classReferenceCountedArray.html#a8da693cf7dedfda5bb8a8e7331c4bf1f">ReferenceCountedArray&lt; SynthesiserSound &gt;::getObjectPointerUnchecked()</a>, <a class="el" href="classSparseSet.html#a77a4314241f40c4c3be84687eb2d61cb">SparseSet&lt; int &gt;::getRange()</a>, <a class="el" href="classRectangleList.html#aa38d0a40721433a143d5a5980b649030">RectangleList&lt; int &gt;::getRectangle()</a>, <a class="el" href="classArray.html#ac1cb5babc0950eb9897812b221695b3c">Array&lt; Glyph &gt;::getReference()</a>, <a class="el" href="classAudioSampleBuffer.html#a3d24f9689a2d2c5731fa8cb5b1b71799">AudioSampleBuffer::getSampleData()</a>, <a class="el" href="classOwnedArray.html#ae633303198df0e9aaa594b9d1d0b8137">OwnedArray&lt; MidiBuffer &gt;::getUnchecked()</a>, <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; Glyph &gt;::getUnchecked()</a>, <a class="el" href="classArray.html#aef96810c21931d9676c08cad82de45c7">Array&lt; Glyph &gt;::insert()</a>, <a class="el" href="classOwnedArray.html#ac56956aeefcbbaeea2f4d143eb78f633">OwnedArray&lt; MidiBuffer &gt;::insertArray()</a>, <a class="el" href="classArray.html#acb0477221ce1538611a9fcd84028b387">Array&lt; Glyph &gt;::insertArray()</a>, <a class="el" href="classArray.html#a0cadf83bcfba696c6a4adc15f4e0a78f">Array&lt; Glyph &gt;::insertMultiple()</a>, <a class="el" href="classEdgeTable.html#af2a5e19d16658853b61684af190e03f6">EdgeTable::iterate()</a>, <a class="el" href="classReferenceCountedArray.html#acd40cae01b2a34720491bf4cd462ad80">ReferenceCountedArray&lt; SynthesiserSound &gt;::move()</a>, <a class="el" href="classOwnedArray.html#ae06db3c50aaf08fd5d2021425efea9ac">OwnedArray&lt; MidiBuffer &gt;::move()</a>, <a class="el" href="classArray.html#aed7d9992d0e88297d4d92487205436e2">Array&lt; Glyph &gt;::move()</a>, <a class="el" href="classOwnedArray.html#ad358d1fb116053ba1e3c46d6177ecef6">OwnedArray&lt; MidiBuffer &gt;::operator[]()</a>, <a class="el" href="classArray.html#a9e369f019d7ba8f7587bcab1906e4087">Array&lt; Glyph &gt;::operator[]()</a>, <a class="el" href="classReferenceCountedArray.html#aea193b7f41ffc381f1c12440f997ccdd">ReferenceCountedArray&lt; SynthesiserSound &gt;::remove()</a>, <a class="el" href="classOwnedArray.html#aa5868e53b5a1b21b0c13970e41012531">OwnedArray&lt; MidiBuffer &gt;::remove()</a>, <a class="el" href="classArray.html#af36ad6bf7849a3a3557a5457458701d0">Array&lt; Glyph &gt;::remove()</a>, <a class="el" href="classReferenceCountedArray.html#a8fc0a717f91f4ff3b144f0224afdc5dd">ReferenceCountedArray&lt; SynthesiserSound &gt;::removeAndReturn()</a>, <a class="el" href="classOwnedArray.html#a702a8ced8cee58dc9f5acbcc13d6218b">OwnedArray&lt; MidiBuffer &gt;::removeAndReturn()</a>, <a class="el" href="classArray.html#a2fb91e8ec10caa9474a28c88e35f9686">Array&lt; Glyph &gt;::set()</a>, <a class="el" href="classArray.html#a8fb9db1598de3bcf85754ff2169dd7eb">Array&lt; Glyph &gt;::setUnchecked()</a>, <a class="el" href="classReferenceCountedArray.html#a53122fe07050eef2918538d0b4d90804">ReferenceCountedArray&lt; SynthesiserSound &gt;::swap()</a>, <a class="el" href="classOwnedArray.html#a8f3849590ee35cde6fb5d71e06ea4482">OwnedArray&lt; MidiBuffer &gt;::swap()</a>, and <a class="el" href="classArray.html#ae686a3e14b9134ddae4b6bd6088350e5">Array&lt; Glyph &gt;::swap()</a>.</p>
+<p>Referenced by <a class="el" href="classReferenceCountedArray.html#ac9c63ba3ddc186c6e9fb0c3c97d1eb57">ReferenceCountedArray&lt; SynthesiserSound &gt;::getObjectPointer()</a>, <a class="el" href="classReferenceCountedArray.html#a8da693cf7dedfda5bb8a8e7331c4bf1f">ReferenceCountedArray&lt; SynthesiserSound &gt;::getObjectPointerUnchecked()</a>, <a class="el" href="classSparseSet.html#a77a4314241f40c4c3be84687eb2d61cb">SparseSet&lt; int &gt;::getRange()</a>, <a class="el" href="classArray.html#ac1cb5babc0950eb9897812b221695b3c">Array&lt; Glyph &gt;::getReference()</a>, <a class="el" href="classAudioSampleBuffer.html#a3d24f9689a2d2c5731fa8cb5b1b71799">AudioSampleBuffer::getSampleData()</a>, <a class="el" href="classOwnedArray.html#ae633303198df0e9aaa594b9d1d0b8137">OwnedArray&lt; MidiBuffer &gt;::getUnchecked()</a>, <a class="el" href="classArray.html#ada77bc1217cc15d8815e2685090de379">Array&lt; Glyph &gt;::getUnchecked()</a>, <a class="el" href="classArray.html#aef96810c21931d9676c08cad82de45c7">Array&lt; Glyph &gt;::insert()</a>, <a class="el" href="classOwnedArray.html#ac56956aeefcbbaeea2f4d143eb78f633">OwnedArray&lt; MidiBuffer &gt;::insertArray()</a>, <a class="el" href="classArray.html#acb0477221ce1538611a9fcd84028b387">Array&lt; Glyph &gt;::insertArray()</a>, <a class="el" href="classArray.html#a0cadf83bcfba696c6a4adc15f4e0a78f">Array&lt; Glyph &gt;::insertMultiple()</a>, <a class="el" href="classEdgeTable.html#af2a5e19d16658853b61684af190e03f6">EdgeTable::iterate()</a>, <a class="el" href="classReferenceCountedArray.html#acd40cae01b2a34720491bf4cd462ad80">ReferenceCountedArray&lt; SynthesiserSound &gt;::move()</a>, <a class="el" href="classOwnedArray.html#ae06db3c50aaf08fd5d2021425efea9ac">OwnedArray&lt; MidiBuffer &gt;::move()</a>, <a class="el" href="classArray.html#aed7d9992d0e88297d4d92487205436e2">Array&lt; Glyph &gt;::move()</a>, <a class="el" href="classOwnedArray.html#ad358d1fb116053ba1e3c46d6177ecef6">OwnedArray&lt; MidiBuffer &gt;::operator[]()</a>, <a class="el" href="classArray.html#a9e369f019d7ba8f7587bcab1906e4087">Array&lt; Glyph &gt;::operator[]()</a>, <a class="el" href="classReferenceCountedArray.html#aea193b7f41ffc381f1c12440f997ccdd">ReferenceCountedArray&lt; SynthesiserSound &gt;::remove()</a>, <a class="el" href="classOwnedArray.html#aa5868e53b5a1b21b0c13970e41012531">OwnedArray&lt; MidiBuffer &gt;::remove()</a>, <a class="el" href="classArray.html#af36ad6bf7849a3a3557a5457458701d0">Array&lt; Glyph &gt;::remove()</a>, <a class="el" href="classReferenceCountedArray.html#a8fc0a717f91f4ff3b144f0224afdc5dd">ReferenceCountedArray&lt; SynthesiserSound &gt;::removeAndReturn()</a>, <a class="el" href="classOwnedArray.html#a702a8ced8cee58dc9f5acbcc13d6218b">OwnedArray&lt; MidiBuffer &gt;::removeAndReturn()</a>, <a class="el" href="classArray.html#a2fb91e8ec10caa9474a28c88e35f9686">Array&lt; Glyph &gt;::set()</a>, <a class="el" href="classArray.html#a8fb9db1598de3bcf85754ff2169dd7eb">Array&lt; Glyph &gt;::setUnchecked()</a>, <a class="el" href="classReferenceCountedArray.html#a53122fe07050eef2918538d0b4d90804">ReferenceCountedArray&lt; SynthesiserSound &gt;::swap()</a>, <a class="el" href="classOwnedArray.html#a8f3849590ee35cde6fb5d71e06ea4482">OwnedArray&lt; MidiBuffer &gt;::swap()</a>, and <a class="el" href="classArray.html#ae686a3e14b9134ddae4b6bd6088350e5">Array&lt; Glyph &gt;::swap()</a>.</p>
 
 </div>
 </div>
@@ -1372,6 +1340,34 @@ template&lt;typename IntegerType &gt; </div>
 <p>The divisor must be greater than zero. </p>
 
 <p>References <a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4cad7dd14894030b889d9247b254f6aa"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename NumericType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">NumericType square </td>
+          <td>(</td>
+          <td class="paramtype">NumericType&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the square of its argument. </p>
 
 </div>
 </div>

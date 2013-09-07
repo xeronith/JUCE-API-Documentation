@@ -31,7 +31,7 @@ var searchData=
   ['firebrick',['firebrick',['../classColours.html#a42927144796d42794fb69b30dce33e1e',1,'Colours']]],
   ['firstmessage',['firstMessage',['../classMidiOutput.html#aafd2e65a8fcdc67749eca25f63c0883c',1,'MidiOutput']]],
   ['flags',['flags',['../structApplicationCommandInfo.html#a45fa351a09f7a6df3e76fe466c476905',1,'ApplicationCommandInfo']]],
-  ['float_5fpi',['float_Pi',['../juce__MathsFunctions_8h.html#ac93fbc5e59d440cab26842b9c575d161',1,'float_Pi():&#160;juce_MathsFunctions.h'],['../namespacejuce.html#a7a3a0de70354de4badeac8063d198178',1,'juce::float_Pi()']]],
+  ['float_5fpi',['float_Pi',['../juce__MathsFunctions_8h.html#ac93fbc5e59d440cab26842b9c575d161',1,'juce_MathsFunctions.h']]],
   ['floralwhite',['floralwhite',['../classColours.html#a7b14b831624be80b4520225559ba5253',1,'Colours']]],
   ['folder',['folder',['../structKnownPluginList_1_1PluginTree.html#ac9560e7c8295f7967b7a4f1b62a30d1b',1,'KnownPluginList::PluginTree']]],
   ['foldername',['folderName',['../structPropertiesFile_1_1Options.html#ad5db314e117ec06d23b08aca130500cd',1,'PropertiesFile::Options']]],

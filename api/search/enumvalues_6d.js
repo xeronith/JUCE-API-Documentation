@@ -13,6 +13,7 @@ var searchData=
   ['mediumresamplingquality',['mediumResamplingQuality',['../classGraphics.html#a5da218e649d1b5ac3d67443ae77caf87a5d8dfbf84457e91eb309b1402562f2af',1,'Graphics']]],
   ['menubutton',['menuButton',['../classAppleRemoteDevice.html#a63ccce128a48e63972e2d71a8de5f8d0a4763e099e23574fe8e7b649e3c964cc9',1,'AppleRemoteDevice']]],
   ['menubutton_5flong',['menuButton_Long',['../classAppleRemoteDevice.html#a63ccce128a48e63972e2d71a8de5f8d0a0fc32b5afdcfca212c4003ea68bdbfaa',1,'AppleRemoteDevice']]],
+  ['mergingpyramix',['MergingPyramix',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a79118c5e7151a052192d3ca470baed90',1,'PluginHostType']]],
   ['middlebuttonmodifier',['middleButtonModifier',['../classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678ba332cb354a7b1cb322e97c6678d94ee22',1,'ModifierKeys']]],
   ['midiinputnode',['midiInputNode',['../classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a612fff538a6a57529626b4121934761aa6ba4fa6ffb1f9ca1025fca01a222e000',1,'AudioProcessorGraph::AudioGraphIOProcessor']]],
   ['midioutputnode',['midiOutputNode',['../classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a612fff538a6a57529626b4121934761aac88e470585a2a9265dda58a0911b1c0f',1,'AudioProcessorGraph::AudioGraphIOProcessor']]],

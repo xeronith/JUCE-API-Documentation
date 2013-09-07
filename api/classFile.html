@@ -107,20 +107,21 @@ Public Types</h2></td></tr>
 &#160;&#160;<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da8620eabc38cfbd921a52d10157463c5e">userHomeDirectory</a>, 
 <a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da72c8fbf94445ccce6b01470265c8f397">userDocumentsDirectory</a>, 
 <a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da4776bc5e304bf2857ed5ede0fbbc4060">userDesktopDirectory</a>, 
-<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da0c9f89d8dc9f9f32c9eb42428385351d">userApplicationDataDirectory</a>, 
+<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313dad0662607d7763c1940693b9f80673567">userMusicDirectory</a>, 
 <br/>
-&#160;&#160;<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da18566f0ca926c8f6db1e178ba5f403c0">commonApplicationDataDirectory</a>, 
+&#160;&#160;<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313dadcb6e6c19c350d8020615417b0505da8">userMoviesDirectory</a>, 
+<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313daa8e7ec352e54ab4efcae250eba502313">userPicturesDirectory</a>, 
+<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da0c9f89d8dc9f9f32c9eb42428385351d">userApplicationDataDirectory</a>, 
+<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da18566f0ca926c8f6db1e178ba5f403c0">commonApplicationDataDirectory</a>, 
+<br/>
+&#160;&#160;<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313dada45b7958b5fc77f30e313f8dab12b23">commonDocumentsDirectory</a>, 
 <a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da08818a8233a97db2e3c54a917adf4954">tempDirectory</a>, 
 <a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313dab960741272c75e94482f295a516aae62">currentExecutableFile</a>, 
 <a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da8292b316ce9eb8ebc0d0980b788a877c">currentApplicationFile</a>, 
 <br/>
 &#160;&#160;<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313dafdae061dc559a8e9ac3a9623d2cd8081">invokedExecutableFile</a>, 
 <a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313dafab1d75c642d3f8eb23564f1cfb408a3">hostApplicationPath</a>, 
-<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313dad4f66736251eab2cdaa21dd5a709ed21">globalApplicationsDirectory</a>, 
-<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313dad0662607d7763c1940693b9f80673567">userMusicDirectory</a>, 
-<br/>
-&#160;&#160;<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313dadcb6e6c19c350d8020615417b0505da8">userMoviesDirectory</a>, 
-<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313daa8e7ec352e54ab4efcae250eba502313">userPicturesDirectory</a>
+<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313dad4f66736251eab2cdaa21dd5a709ed21">globalApplicationsDirectory</a>
 <br/>
  }</td></tr>
 <tr class="memdesc:a3e19cafabb03c5838160263a6e76313d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A set of types of location that can be passed to the <a class="el" href="classFile.html#a2a4396bc0e6f8b0430f6f54d029899e5" title="Finds the location of a special type of file or directory, such as a home folder or documents folder...">getSpecialLocation()</a> method.  <a href="classFile.html#a3e19cafabb03c5838160263a6e76313d">More...</a><br/></td></tr>
@@ -284,9 +285,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aebd0de51f5df7da86749c90b68e5bc53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFileInputStream.html">FileInputStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#aebd0de51f5df7da86749c90b68e5bc53">createInputStream</a> () const </td></tr>
 <tr class="memdesc:aebd0de51f5df7da86749c90b68e5bc53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a stream to read from this file.  <a href="#aebd0de51f5df7da86749c90b68e5bc53"></a><br/></td></tr>
 <tr class="separator:aebd0de51f5df7da86749c90b68e5bc53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55d5c85da1368d04c9a649d0753e5962"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFileOutputStream.html">FileOutputStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a55d5c85da1368d04c9a649d0753e5962">createOutputStream</a> (int bufferSize=0x8000) const </td></tr>
-<tr class="memdesc:a55d5c85da1368d04c9a649d0753e5962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a stream to write to this file.  <a href="#a55d5c85da1368d04c9a649d0753e5962"></a><br/></td></tr>
-<tr class="separator:a55d5c85da1368d04c9a649d0753e5962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76236d56eb47e3b4ab554b09ac2872a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFileOutputStream.html">FileOutputStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a76236d56eb47e3b4ab554b09ac2872a3">createOutputStream</a> (size_t bufferSize=0x8000) const </td></tr>
+<tr class="memdesc:a76236d56eb47e3b4ab554b09ac2872a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a stream to write to this file.  <a href="#a76236d56eb47e3b4ab554b09ac2872a3"></a><br/></td></tr>
+<tr class="separator:a76236d56eb47e3b4ab554b09ac2872a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fa017212282bc314ec2eab9dce135d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a0fa017212282bc314ec2eab9dce135d0">loadFileAsData</a> (<a class="el" href="classMemoryBlock.html">MemoryBlock</a> &amp;result) const </td></tr>
 <tr class="memdesc:a0fa017212282bc314ec2eab9dce135d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a file's contents into memory as a block of binary data.  <a href="#a0fa017212282bc314ec2eab9dce135d0"></a><br/></td></tr>
 <tr class="separator:a0fa017212282bc314ec2eab9dce135d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -458,6 +459,15 @@ Static Public Attributes</h2></td></tr>
 <tr><td valign="top"><em><a class="anchor" id="a3e19cafabb03c5838160263a6e76313da4776bc5e304bf2857ed5ede0fbbc4060"></a>userDesktopDirectory</em>&nbsp;</td><td>
 <p>The folder that contains the user's desktop objects. </p>
 </td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a3e19cafabb03c5838160263a6e76313dad0662607d7763c1940693b9f80673567"></a>userMusicDirectory</em>&nbsp;</td><td>
+<p>The most likely place where a user might store their music files. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a3e19cafabb03c5838160263a6e76313dadcb6e6c19c350d8020615417b0505da8"></a>userMoviesDirectory</em>&nbsp;</td><td>
+<p>The most likely place where a user might store their movie files. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a3e19cafabb03c5838160263a6e76313daa8e7ec352e54ab4efcae250eba502313"></a>userPicturesDirectory</em>&nbsp;</td><td>
+<p>The most likely place where a user might store their picture files. </p>
+</td></tr>
 <tr><td valign="top"><em><a class="anchor" id="a3e19cafabb03c5838160263a6e76313da0c9f89d8dc9f9f32c9eb42428385351d"></a>userApplicationDataDirectory</em>&nbsp;</td><td>
 <p>The folder in which applications store their persistent user-specific settings. </p>
 <p>On Windows, this might be "\Documents and Settings\username\Application Data". On the Mac, it might be "~/Library". If you're going to store your settings in here, always create your own sub-folder to put them in, to avoid making a mess. </p>
@@ -466,6 +476,10 @@ Static Public Attributes</h2></td></tr>
 <p>An equivalent of the userApplicationDataDirectory folder that is shared by all users of the computer, rather than just the current user. </p>
 <p>On the Mac it'll be "/Library", on Windows, it could be something like "\Documents and Settings\All Users\Application Data".</p>
 <p>Depending on the setup, this folder may be read-only. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a3e19cafabb03c5838160263a6e76313dada45b7958b5fc77f30e313f8dab12b23"></a>commonDocumentsDirectory</em>&nbsp;</td><td>
+<p>A place to put documents which are shared by all users of the machine. </p>
+<p>On Windows this may be somewhere like "C:\Users\Public\Documents", on OSX it will be something like "/Users/Shared". Other OSes may have no such concept though, so be careful. </p>
 </td></tr>
 <tr><td valign="top"><em><a class="anchor" id="a3e19cafabb03c5838160263a6e76313da08818a8233a97db2e3c54a917adf4954"></a>tempDirectory</em>&nbsp;</td><td>
 <p>The folder that should be used for temporary files. </p>
@@ -492,15 +506,6 @@ Static Public Attributes</h2></td></tr>
 <tr><td valign="top"><em><a class="anchor" id="a3e19cafabb03c5838160263a6e76313dad4f66736251eab2cdaa21dd5a709ed21"></a>globalApplicationsDirectory</em>&nbsp;</td><td>
 <p>The directory in which applications normally get installed. </p>
 <p>So on windows, this would be something like "c:\program files", on the Mac "/Applications", or "/usr" on linux. </p>
-</td></tr>
-<tr><td valign="top"><em><a class="anchor" id="a3e19cafabb03c5838160263a6e76313dad0662607d7763c1940693b9f80673567"></a>userMusicDirectory</em>&nbsp;</td><td>
-<p>The most likely place where a user might store their music files. </p>
-</td></tr>
-<tr><td valign="top"><em><a class="anchor" id="a3e19cafabb03c5838160263a6e76313dadcb6e6c19c350d8020615417b0505da8"></a>userMoviesDirectory</em>&nbsp;</td><td>
-<p>The most likely place where a user might store their movie files. </p>
-</td></tr>
-<tr><td valign="top"><em><a class="anchor" id="a3e19cafabb03c5838160263a6e76313daa8e7ec352e54ab4efcae250eba502313"></a>userPicturesDirectory</em>&nbsp;</td><td>
-<p>The most likely place where a user might store their picture files. </p>
 </td></tr>
 </table>
 </dd>
@@ -1701,18 +1706,18 @@ Static Public Attributes</h2></td></tr>
 
 <p>Creates a stream to read from this file. </p>
 <dl class="section return"><dt>Returns</dt><dd>a stream that will read from this file (initially positioned at the start of the file), or nullptr if the file can't be opened for some reason </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#a55d5c85da1368d04c9a649d0753e5962" title="Creates a stream to write to this file.">createOutputStream</a>, <a class="el" href="classFile.html#a0fa017212282bc314ec2eab9dce135d0" title="Loads a file&#39;s contents into memory as a block of binary data.">loadFileAsData</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#a76236d56eb47e3b4ab554b09ac2872a3" title="Creates a stream to write to this file.">createOutputStream</a>, <a class="el" href="classFile.html#a0fa017212282bc314ec2eab9dce135d0" title="Loads a file&#39;s contents into memory as a block of binary data.">loadFileAsData</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a55d5c85da1368d04c9a649d0753e5962"></a>
+<a class="anchor" id="a76236d56eb47e3b4ab554b09ac2872a3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classFileOutputStream.html">FileOutputStream</a>* File::createOutputStream </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>bufferSize</em> = <code>0x8000</code></td><td>)</td>
           <td> const</td>
         </tr>

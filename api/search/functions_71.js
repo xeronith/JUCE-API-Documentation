@@ -5,6 +5,6 @@ var searchData=
   ['quaternion',['Quaternion',['../classQuaternion.html#ab6cfa17954ad0cf303877c8b7d578cc2',1,'Quaternion::Quaternion() noexcept'],['../classQuaternion.html#a55df57ee8430a9b1b1581ace70e105e3',1,'Quaternion::Quaternion(const Quaternion &amp;other) noexcept'],['../classQuaternion.html#a1c0a4306858134afa6ed91655880a0a4',1,'Quaternion::Quaternion(const Vector3D&lt; Type &gt; &amp;vectorPart, const Type &amp;scalarPart) noexcept'],['../classQuaternion.html#af1c1022f177cdffb91abd24fa98d465a',1,'Quaternion::Quaternion(const Type &amp;x, const Type &amp;y, const Type &amp;z, const Type &amp;w) noexcept']]],
   ['queryinterface',['queryInterface',['../classActiveXControlComponent.html#aec74d476e939d707b578c32cdd5cebd3',1,'ActiveXControlComponent']]],
   ['quicktimemoviecomponent',['QuickTimeMovieComponent',['../classQuickTimeMovieComponent.html#affdb8f0235f6256d8330c4d336818ea7',1,'QuickTimeMovieComponent']]],
-  ['quit',['quit',['../classJUCEApplication.html#a618b5238c20a1590c12ffe20d15e999a',1,'JUCEApplication']]],
-  ['quoted',['quoted',['../classjuce_1_1String.html#ab705bff8e7d864c89d6659f45710c8bb',1,'juce::String::quoted(juce_wchar quoteCharacter= &apos;&quot;&apos;) const '],['../classjuce_1_1String.html#ab705bff8e7d864c89d6659f45710c8bb',1,'juce::String::quoted(juce_wchar quoteCharacter= &apos;&quot;&apos;) const '],['../classString.html#adca0932895bcd08c3b3c489a5c564b4b',1,'String::quoted()']]]
+  ['quit',['quit',['../classJUCEApplicationBase.html#a542e212605f0aa693f687d8798998615',1,'JUCEApplicationBase']]],
+  ['quoted',['quoted',['../classString.html#adca0932895bcd08c3b3c489a5c564b4b',1,'String']]]
 ];

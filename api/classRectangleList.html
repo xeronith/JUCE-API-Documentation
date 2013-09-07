@@ -185,6 +185,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a57af41f3e264b8c1d183149a9c50f03f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a57af41f3e264b8c1d183149a9c50f03f">scaleAll</a> (ScaleType scaleFactor) noexcept</td></tr>
 <tr class="memdesc:a57af41f3e264b8c1d183149a9c50f03f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scales all the coordinates.  <a href="#a57af41f3e264b8c1d183149a9c50f03f"></a><br/></td></tr>
 <tr class="separator:a57af41f3e264b8c1d183149a9c50f03f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ada18acf295f59a9a00294205079d92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a3ada18acf295f59a9a00294205079d92">transformAll</a> (const <a class="el" href="classAffineTransform.html">AffineTransform</a> &amp;transform) noexcept</td></tr>
+<tr class="memdesc:a3ada18acf295f59a9a00294205079d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a transform to all the rectangles.  <a href="#a3ada18acf295f59a9a00294205079d92"></a><br/></td></tr>
+<tr class="separator:a3ada18acf295f59a9a00294205079d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addbe3e5c0fe15fc6783a94ea3937e934"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPath.html">Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#addbe3e5c0fe15fc6783a94ea3937e934">toPath</a> () const </td></tr>
 <tr class="memdesc:addbe3e5c0fe15fc6783a94ea3937e934"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classPath.html" title="A path is a sequence of lines and curves that may either form a closed shape or be open-ended...">Path</a> object to represent this region.  <a href="#addbe3e5c0fe15fc6783a94ea3937e934"></a><br/></td></tr>
 <tr class="separator:addbe3e5c0fe15fc6783a94ea3937e934"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -708,6 +711,8 @@ template&lt;typename ValueType&gt; </div>
 <p>Checks whether the region contains a given point. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if the point lies within one of the rectangles in the list </dd></dl>
 
+<p>Referenced by <a class="el" href="classRectangleList.html#af2e24f41ebeb7de8fd7080c8b3a91d13">RectangleList&lt; int &gt;::containsPoint()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="af2e24f41ebeb7de8fd7080c8b3a91d13"></a>
@@ -972,6 +977,35 @@ template&lt;typename ScaleType &gt; </div>
 </div><div class="memdoc">
 
 <p>Scales all the coordinates. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3ada18acf295f59a9a00294205079d92"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::transformAll </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classAffineTransform.html">AffineTransform</a> &amp;&#160;</td>
+          <td class="paramname"><em>transform</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Applies a transform to all the rectangles. </p>
+<p>Obviously this will create a mess if the transform involves any rotation or skewing. </p>
 
 </div>
 </div>
