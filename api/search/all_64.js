@@ -48,7 +48,7 @@ var searchData=
   ['deleteafterdelay',['deleteAfterDelay',['../classSplashScreen.html#ac16029be83bfde8317f47138fc830013',1,'SplashScreen']]],
   ['deleteall',['deleteAll',['../classLinkedListPointer.html#a2762ae9b67186e39883a9b1bd0a1d4af',1,'LinkedListPointer::deleteAll()'],['../classDeletedAtShutdown.html#a72ea5ccbe21f14172dbcfdcb0f3fe4e5',1,'DeletedAtShutdown::deleteAll()']]],
   ['deleteallchildelements',['deleteAllChildElements',['../classXmlElement.html#a258f03dbe9872a8f6bf7f47733cd4db8',1,'XmlElement']]],
-  ['deleteallchildelementswithtagname',['deleteAllChildElementsWithTagName',['../classXmlElement.html#ab6e3ff8e5b97a0f152d5f8883736564a',1,'XmlElement']]],
+  ['deleteallchildelementswithtagname',['deleteAllChildElementsWithTagName',['../classXmlElement.html#a0579a6747cbcf736ebf60f12075daedd',1,'XmlElement']]],
   ['deleteallchildren',['deleteAllChildren',['../classComponent.html#abc8f8338a400c20d5e941ea3a1f67f7b',1,'Component']]],
   ['deletealltextelements',['deleteAllTextElements',['../classXmlElement.html#ad321a686465bf21ae7eb785b76d5e352',1,'XmlElement']]],
   ['deleteandzero',['deleteAndZero',['../classComponent_1_1SafePointer.html#a2da79cce74d3d7b0ab1a248fcb2ca8a9',1,'Component::SafePointer::deleteAndZero()'],['../juce__Memory_8h.html#a4163b928fab6bebea5691e97c72fc4fa',1,'deleteAndZero():&#160;juce_Memory.h']]],

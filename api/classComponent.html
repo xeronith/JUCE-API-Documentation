@@ -322,9 +322,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a00c1dcf8a0a926da17daef178ca63426"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a00c1dcf8a0a926da17daef178ca63426">getIndexOfChildComponent</a> (const <a class="el" href="classComponent.html">Component</a> *child) const noexcept</td></tr>
 <tr class="memdesc:a00c1dcf8a0a926da17daef178ca63426"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of this component in the list of child components.  <a href="#a00c1dcf8a0a926da17daef178ca63426"></a><br/></td></tr>
 <tr class="separator:a00c1dcf8a0a926da17daef178ca63426"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4570dabf8089f3b70ea37e4c992ce204"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComponent.html">Component</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a4570dabf8089f3b70ea37e4c992ce204">findChildWithID</a> (const <a class="el" href="classString.html">String</a> &amp;componentID) const noexcept</td></tr>
-<tr class="memdesc:a4570dabf8089f3b70ea37e4c992ce204"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for a child component with the specified ID.  <a href="#a4570dabf8089f3b70ea37e4c992ce204"></a><br/></td></tr>
-<tr class="separator:a4570dabf8089f3b70ea37e4c992ce204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5607d97a62a8c9d8d1d28ce3b31dd764"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComponent.html">Component</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a5607d97a62a8c9d8d1d28ce3b31dd764">findChildWithID</a> (<a class="el" href="classStringRef.html">StringRef</a> componentID) const noexcept</td></tr>
+<tr class="memdesc:a5607d97a62a8c9d8d1d28ce3b31dd764"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for a child component with the specified ID.  <a href="#a5607d97a62a8c9d8d1d28ce3b31dd764"></a><br/></td></tr>
+<tr class="separator:a5607d97a62a8c9d8d1d28ce3b31dd764"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3340a63ebd9f3a9df41bc0e8fbe3bf0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a3340a63ebd9f3a9df41bc0e8fbe3bf0c">addChildComponent</a> (<a class="el" href="classComponent.html">Component</a> *child, int zOrder=-1)</td></tr>
 <tr class="memdesc:a3340a63ebd9f3a9df41bc0e8fbe3bf0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a child component to this one.  <a href="#a3340a63ebd9f3a9df41bc0e8fbe3bf0c"></a><br/></td></tr>
 <tr class="separator:a3340a63ebd9f3a9df41bc0e8fbe3bf0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -882,7 +882,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the ID string that was set by <a class="el" href="classComponent.html#ac41c215031a087064add6d3a180abd1d" title="Sets the component&#39;s ID string.">setComponentID()</a>. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classComponent.html#ac41c215031a087064add6d3a180abd1d" title="Sets the component&#39;s ID string.">setComponentID</a>, <a class="el" href="classComponent.html#a4570dabf8089f3b70ea37e4c992ce204" title="Looks for a child component with the specified ID.">findChildWithID</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classComponent.html#ac41c215031a087064add6d3a180abd1d" title="Sets the component&#39;s ID string.">setComponentID</a>, <a class="el" href="classComponent.html#a5607d97a62a8c9d8d1d28ce3b31dd764" title="Looks for a child component with the specified ID.">findChildWithID</a> </dd></dl>
 
 </div>
 </div>
@@ -902,7 +902,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Sets the component's ID string. </p>
 <p>You can retrieve the ID using <a class="el" href="classComponent.html#a93a0bfdc298b93992166b081b122665b" title="Returns the ID string that was set by setComponentID().">getComponentID()</a>. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classComponent.html#a93a0bfdc298b93992166b081b122665b" title="Returns the ID string that was set by setComponentID().">getComponentID</a>, <a class="el" href="classComponent.html#a4570dabf8089f3b70ea37e4c992ce204" title="Looks for a child component with the specified ID.">findChildWithID</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classComponent.html#a93a0bfdc298b93992166b081b122665b" title="Returns the ID string that was set by setComponentID().">getComponentID</a>, <a class="el" href="classComponent.html#a5607d97a62a8c9d8d1d28ce3b31dd764" title="Looks for a child component with the specified ID.">findChildWithID</a> </dd></dl>
 
 </div>
 </div>
@@ -2514,7 +2514,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4570dabf8089f3b70ea37e4c992ce204"></a>
+<a class="anchor" id="a5607d97a62a8c9d8d1d28ce3b31dd764"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2524,7 +2524,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classComponent.html">Component</a>* Component::findChildWithID </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classStringRef.html">StringRef</a>&#160;</td>
           <td class="paramname"><em>componentID</em></td><td>)</td>
           <td> const</td>
         </tr>

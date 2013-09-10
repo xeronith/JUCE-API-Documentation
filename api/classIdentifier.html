@@ -128,6 +128,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aed76898985fd3dd4543706eb047309f6"><td class="memItemLeft" align="right" valign="top">const String::CharPointerType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIdentifier.html#aed76898985fd3dd4543706eb047309f6">getCharPointer</a> () const noexcept</td></tr>
 <tr class="memdesc:aed76898985fd3dd4543706eb047309f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this identifier's raw string pointer.  <a href="#aed76898985fd3dd4543706eb047309f6"></a><br/></td></tr>
 <tr class="separator:aed76898985fd3dd4543706eb047309f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a874632465b5d001d1b1e9cbd06ace01f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIdentifier.html#a874632465b5d001d1b1e9cbd06ace01f">operator StringRef</a> () const noexcept</td></tr>
+<tr class="memdesc:a874632465b5d001d1b1e9cbd06ace01f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this identifier as a <a class="el" href="classStringRef.html" title="A simple class for holding temporary references to a string literal or String.">StringRef</a>.  <a href="#a874632465b5d001d1b1e9cbd06ace01f"></a><br/></td></tr>
+<tr class="separator:a874632465b5d001d1b1e9cbd06ace01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2715e2deec78691c79af8ea81d5e6628"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIdentifier.html#a2715e2deec78691c79af8ea81d5e6628">isValid</a> () const noexcept</td></tr>
 <tr class="memdesc:a2715e2deec78691c79af8ea81d5e6628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this <a class="el" href="classIdentifier.html" title="Represents a string identifier, designed for accessing properties by name.">Identifier</a> is not null.  <a href="#a2715e2deec78691c79af8ea81d5e6628"></a><br/></td></tr>
 <tr class="separator:a2715e2deec78691c79af8ea81d5e6628"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,7 +153,7 @@ Static Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a string identifier, designed for accessing properties by name. </p>
 <p><a class="el" href="classIdentifier.html" title="Represents a string identifier, designed for accessing properties by name.">Identifier</a> objects are very light and fast to copy, but slower to initialise from a string, so it's much faster to keep a static identifier object to refer to frequently-used names, rather than constructing them each time you need it.</p>
-<dl class="section see"><dt>See Also</dt><dd>NamedPropertySet, <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classNamedValueSet.html" title="Holds a set of named var objects.">NamedValueSet</a>, <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a1c1912edf41af15a4e1d51798d6bb895"></a>
 <div class="memitem">
@@ -403,6 +406,31 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns this identifier's raw string pointer. </p>
+
+</div>
+</div>
+<a class="anchor" id="a874632465b5d001d1b1e9cbd06ace01f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Identifier::operator <a class="el" href="classStringRef.html">StringRef</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns this identifier as a <a class="el" href="classStringRef.html" title="A simple class for holding temporary references to a string literal or String.">StringRef</a>. </p>
 
 </div>
 </div>

@@ -346,6 +346,7 @@ var searchData=
   ['juce_5fstringarray_2eh',['juce_StringArray.h',['../juce__StringArray_8h.html',1,'']]],
   ['juce_5fstringpairarray_2eh',['juce_StringPairArray.h',['../juce__StringPairArray_8h.html',1,'']]],
   ['juce_5fstringpool_2eh',['juce_StringPool.h',['../juce__StringPool_8h.html',1,'']]],
+  ['juce_5fstringref_2eh',['juce_StringRef.h',['../juce__StringRef_8h.html',1,'']]],
   ['juce_5fsubregionstream_2eh',['juce_SubregionStream.h',['../juce__SubregionStream_8h.html',1,'']]],
   ['juce_5fsynthesiser_2eh',['juce_Synthesiser.h',['../juce__Synthesiser_8h.html',1,'']]],
   ['juce_5fsystemaudiovolume_2eh',['juce_SystemAudioVolume.h',['../juce__SystemAudioVolume_8h.html',1,'']]],
