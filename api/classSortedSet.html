@@ -369,7 +369,7 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
   </dd>
 </dl>
 
-<p>Referenced by <a class="el" href="classSortedSet.html#afd108e9b2b728bc3ea22428add3f99e6">SortedSet&lt; ActionListener * &gt;::operator!=()</a>.</p>
+<p>Referenced by <a class="el" href="classSortedSet.html#afd108e9b2b728bc3ea22428add3f99e6">SortedSet&lt; ColourSetting &gt;::operator!=()</a>.</p>
 
 </div>
 </div>
@@ -435,7 +435,7 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
 <p>This will remove all the elements, and free any storage that the set is using. To clear it without freeing the storage, use the <a class="el" href="classSortedSet.html#a792064a68e61905a9ee6968e2cbc4ee6" title="Removes all elements from the set without freeing the array&#39;s allocated storage.">clearQuick()</a> method instead.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSortedSet.html#a792064a68e61905a9ee6968e2cbc4ee6" title="Removes all elements from the set without freeing the array&#39;s allocated storage.">clearQuick</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classSortedSet.html#a87ad10e1f49afe6fbcbf4170e84bf95e">SortedSet&lt; ActionListener * &gt;::removeValuesIn()</a>, and <a class="el" href="classSortedSet.html#a44266b927f68b51086f56a8732fd3190">SortedSet&lt; ActionListener * &gt;::removeValuesNotIn()</a>.</p>
+<p>Referenced by <a class="el" href="classSortedSet.html#a87ad10e1f49afe6fbcbf4170e84bf95e">SortedSet&lt; ColourSetting &gt;::removeValuesIn()</a>, and <a class="el" href="classSortedSet.html#a44266b927f68b51086f56a8732fd3190">SortedSet&lt; ColourSetting &gt;::removeValuesNotIn()</a>.</p>
 
 </div>
 </div>
@@ -748,7 +748,7 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the index of the object, or -1 if it's not found </dd></dl>
 
-<p>Referenced by <a class="el" href="classSortedSet.html#ae1e68e73d12e73d1cd4d63b4ee7fa791">SortedSet&lt; ActionListener * &gt;::contains()</a>, and <a class="el" href="classSortedSet.html#a21b0da9c6e547485feecc3b91d28164c">SortedSet&lt; ActionListener * &gt;::removeValue()</a>.</p>
+<p>Referenced by <a class="el" href="classSortedSet.html#ae1e68e73d12e73d1cd4d63b4ee7fa791">SortedSet&lt; ColourSetting &gt;::contains()</a>, and <a class="el" href="classSortedSet.html#a21b0da9c6e547485feecc3b91d28164c">SortedSet&lt; ColourSetting &gt;::removeValue()</a>.</p>
 
 </div>
 </div>
@@ -822,7 +822,7 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
 <dl class="section return"><dt>Returns</dt><dd>true if the value was added, or false if it already existed </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd>set, insert, addIfNotAlreadyThere, addSorted, <a class="el" href="classSortedSet.html#ad0879c462c30f89f5c09458f46b8d35f" title="Adds elements from another set to this one.">addSet</a>, <a class="el" href="classSortedSet.html#a8b84c2248ee6e7bc18a3cb6bd235e4ea" title="Adds elements from an array to this set.">addArray</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classSortedSet.html#a8b84c2248ee6e7bc18a3cb6bd235e4ea">SortedSet&lt; ActionListener * &gt;::addArray()</a>.</p>
+<p>Referenced by <a class="el" href="classSortedSet.html#a8b84c2248ee6e7bc18a3cb6bd235e4ea">SortedSet&lt; ColourSetting &gt;::addArray()</a>.</p>
 
 </div>
 </div>
@@ -870,7 +870,7 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
 </dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSortedSet.html#a861274cee3723b88dc742aef24ba65d5" title="Adds a new element to the set, (as long as it&#39;s not already in there).">add</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classSortedSet.html#ad0879c462c30f89f5c09458f46b8d35f">SortedSet&lt; ActionListener * &gt;::addSet()</a>.</p>
+<p>Referenced by <a class="el" href="classSortedSet.html#ad0879c462c30f89f5c09458f46b8d35f">SortedSet&lt; ColourSetting &gt;::addSet()</a>.</p>
 
 </div>
 </div>
@@ -1183,7 +1183,7 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
 <p>Returns the <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> that locks this array. </p>
 <p>To lock, you can call <a class="el" href="classSortedSet.html#a5a0b04e366f0a1faa768d05e400208ca" title="Returns the CriticalSection that locks this array.">getLock()</a>.enter() and <a class="el" href="classSortedSet.html#a5a0b04e366f0a1faa768d05e400208ca" title="Returns the CriticalSection that locks this array.">getLock()</a>.exit(), or preferably use an object of ScopedLockType as an RAII lock for it. </p>
 
-<p>Referenced by <a class="el" href="classSortedSet.html#a861274cee3723b88dc742aef24ba65d5">SortedSet&lt; ActionListener * &gt;::add()</a>, <a class="el" href="classSortedSet.html#a8b84c2248ee6e7bc18a3cb6bd235e4ea">SortedSet&lt; ActionListener * &gt;::addArray()</a>, <a class="el" href="classSortedSet.html#ad0879c462c30f89f5c09458f46b8d35f">SortedSet&lt; ActionListener * &gt;::addSet()</a>, <a class="el" href="classSortedSet.html#a21b0da9c6e547485feecc3b91d28164c">SortedSet&lt; ActionListener * &gt;::removeValue()</a>, <a class="el" href="classSortedSet.html#a87ad10e1f49afe6fbcbf4170e84bf95e">SortedSet&lt; ActionListener * &gt;::removeValuesIn()</a>, and <a class="el" href="classSortedSet.html#a44266b927f68b51086f56a8732fd3190">SortedSet&lt; ActionListener * &gt;::removeValuesNotIn()</a>.</p>
+<p>Referenced by <a class="el" href="classSortedSet.html#a861274cee3723b88dc742aef24ba65d5">SortedSet&lt; ColourSetting &gt;::add()</a>, <a class="el" href="classSortedSet.html#a8b84c2248ee6e7bc18a3cb6bd235e4ea">SortedSet&lt; ColourSetting &gt;::addArray()</a>, <a class="el" href="classSortedSet.html#ad0879c462c30f89f5c09458f46b8d35f">SortedSet&lt; ColourSetting &gt;::addSet()</a>, <a class="el" href="classSortedSet.html#a21b0da9c6e547485feecc3b91d28164c">SortedSet&lt; ColourSetting &gt;::removeValue()</a>, <a class="el" href="classSortedSet.html#a87ad10e1f49afe6fbcbf4170e84bf95e">SortedSet&lt; ColourSetting &gt;::removeValuesIn()</a>, and <a class="el" href="classSortedSet.html#a44266b927f68b51086f56a8732fd3190">SortedSet&lt; ColourSetting &gt;::removeValuesNotIn()</a>.</p>
 
 </div>
 </div>

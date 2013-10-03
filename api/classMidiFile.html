@@ -126,6 +126,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adc010123e7ae3e80c33645a977fade24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiFile.html#adc010123e7ae3e80c33645a977fade24">findAllTimeSigEvents</a> (<a class="el" href="classMidiMessageSequence.html">MidiMessageSequence</a> &amp;timeSigEvents) const </td></tr>
 <tr class="memdesc:adc010123e7ae3e80c33645a977fade24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a list of all the time-signature meta-events from all tracks in the midi file.  <a href="#adc010123e7ae3e80c33645a977fade24"></a><br/></td></tr>
 <tr class="separator:adc010123e7ae3e80c33645a977fade24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5458ce7db6e99712cf6e8b1e4cb008b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiFile.html#af5458ce7db6e99712cf6e8b1e4cb008b">findAllKeySigEvents</a> (<a class="el" href="classMidiMessageSequence.html">MidiMessageSequence</a> &amp;keySigEvents) const </td></tr>
+<tr class="memdesc:af5458ce7db6e99712cf6e8b1e4cb008b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a list of all the time-signature meta-events from all tracks in the midi file.  <a href="#af5458ce7db6e99712cf6e8b1e4cb008b"></a><br/></td></tr>
+<tr class="separator:af5458ce7db6e99712cf6e8b1e4cb008b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a122b40184ad0593df7d08e7691a604a7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiFile.html#a122b40184ad0593df7d08e7691a604a7">getLastTimestamp</a> () const </td></tr>
 <tr class="memdesc:a122b40184ad0593df7d08e7691a604a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the latest timestamp in any of the tracks.  <a href="#a122b40184ad0593df7d08e7691a604a7"></a><br/></td></tr>
 <tr class="separator:a122b40184ad0593df7d08e7691a604a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -249,7 +252,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Adds a midi track to the file. </p>
-<p>This will make its own internal copy of the sequence that is passed-in.</p>
+<p>This will make its own internal copy of the sequence that is passed-in. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiFile.html#a908f8db88d0740c8de225c31660d71a0" title="Returns the number of tracks in the file.">getNumTracks</a>, <a class="el" href="classMidiFile.html#a334aa932bc738914eb3e1578a7ee1d7c" title="Returns a pointer to one of the tracks in the file.">getTrack</a> </dd></dl>
 
 </div>
@@ -394,7 +397,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Makes a list of all the tempo-change meta-events from all tracks in the midi file. </p>
-<p>Useful for finding the positions of all the tempo changes in a file.</p>
+<p>Useful for finding the positions of all the tempo changes in a file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">tempoChangeEvents</td><td>a list to which all the events will be added </td></tr>
@@ -419,10 +422,34 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Makes a list of all the time-signature meta-events from all tracks in the midi file. </p>
-<p>Useful for finding the positions of all the tempo changes in a file.</p>
+<p>Useful for finding the positions of all the tempo changes in a file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">timeSigEvents</td><td>a list to which all the events will be added </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="af5458ce7db6e99712cf6e8b1e4cb008b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MidiFile::findAllKeySigEvents </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMidiMessageSequence.html">MidiMessageSequence</a> &amp;&#160;</td>
+          <td class="paramname"><em>keySigEvents</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Makes a list of all the time-signature meta-events from all tracks in the midi file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">keySigEvents</td><td>a list to which all the events will be added </td></tr>
   </table>
   </dd>
 </dl>

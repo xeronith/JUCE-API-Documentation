@@ -105,11 +105,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa7f9faa480c9ec9d61b66672425f380b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classColour.html">Colour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#aa7f9faa480c9ec9d61b66672425f380b">findColour</a> (int colourId) const noexcept</td></tr>
 <tr class="memdesc:aa7f9faa480c9ec9d61b66672425f380b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for a colour that has been registered with the given colour ID number.  <a href="#aa7f9faa480c9ec9d61b66672425f380b"></a><br/></td></tr>
 <tr class="separator:aa7f9faa480c9ec9d61b66672425f380b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a817beefa430ae0028d6bec566e151d9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a817beefa430ae0028d6bec566e151d9f">setColour</a> (int colourId, const <a class="el" href="classColour.html">Colour</a> &amp;colour) noexcept</td></tr>
-<tr class="memdesc:a817beefa430ae0028d6bec566e151d9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a colour to be used for a particular purpose.  <a href="#a817beefa430ae0028d6bec566e151d9f"></a><br/></td></tr>
-<tr class="separator:a817beefa430ae0028d6bec566e151d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a167a1e914771f32e433a0d45aaba45e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a167a1e914771f32e433a0d45aaba45e3">setColour</a> (int colourId, <a class="el" href="classColour.html">Colour</a> colour) noexcept</td></tr>
+<tr class="memdesc:a167a1e914771f32e433a0d45aaba45e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a colour to be used for a particular purpose.  <a href="#a167a1e914771f32e433a0d45aaba45e3"></a><br/></td></tr>
+<tr class="separator:a167a1e914771f32e433a0d45aaba45e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01bc0ae6a79f5e89413284856944c133"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a01bc0ae6a79f5e89413284856944c133">isColourSpecified</a> (int colourId) const noexcept</td></tr>
-<tr class="memdesc:a01bc0ae6a79f5e89413284856944c133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the specified colour ID has been explicitly set using the <a class="el" href="classLookAndFeel.html#a817beefa430ae0028d6bec566e151d9f" title="Registers a colour to be used for a particular purpose.">setColour()</a> method.  <a href="#a01bc0ae6a79f5e89413284856944c133"></a><br/></td></tr>
+<tr class="memdesc:a01bc0ae6a79f5e89413284856944c133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the specified colour ID has been explicitly set using the <a class="el" href="classLookAndFeel.html#a167a1e914771f32e433a0d45aaba45e3" title="Registers a colour to be used for a particular purpose.">setColour()</a> method.  <a href="#a01bc0ae6a79f5e89413284856944c133"></a><br/></td></tr>
 <tr class="separator:a01bc0ae6a79f5e89413284856944c133"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f6e6d84ba7ab714bdb41ad30fd36e19"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classTypeface.html#a13053be679c87b7a72963e9ce60e34c9">Typeface::Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a6f6e6d84ba7ab714bdb41ad30fd36e19">getTypefaceForFont</a> (const <a class="el" href="classFont.html">Font</a> &amp;font)</td></tr>
 <tr class="separator:a6f6e6d84ba7ab714bdb41ad30fd36e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -502,14 +502,14 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Looks for a colour that has been registered with the given colour ID number. </p>
-<p>If a colour has been set for this ID number using <a class="el" href="classLookAndFeel.html#a817beefa430ae0028d6bec566e151d9f" title="Registers a colour to be used for a particular purpose.">setColour()</a>, then it is returned. If none has been set, it will just return <a class="el" href="classColours.html#aad3910013bf00a80305c082284cd5ee2" title="ARGB = 0xff000000.">Colours::black</a>.</p>
+<p>If a colour has been set for this ID number using <a class="el" href="classLookAndFeel.html#a167a1e914771f32e433a0d45aaba45e3" title="Registers a colour to be used for a particular purpose.">setColour()</a>, then it is returned. If none has been set, it will just return <a class="el" href="classColours.html#aad3910013bf00a80305c082284cd5ee2" title="ARGB = 0xff000000.">Colours::black</a>.</p>
 <p>The colour IDs for various purposes are stored as enums in the components that they are relevent to - for an example, see <a class="el" href="classSlider.html#a1012002c53381ccc7c1fe7e604a75f44" title="A set of colour IDs to use to change the colour of various aspects of the slider.">Slider::ColourIds</a>, <a class="el" href="classLabel.html#a41756012394513222e1323bb432fa701" title="A set of colour IDs to use to change the colour of various aspects of the label.">Label::ColourIds</a>, <a class="el" href="classTextEditor.html#aa805220923c93cd808a92fff0e3fb71d" title="A set of colour IDs to use to change the colour of various aspects of the editor.">TextEditor::ColourIds</a>, <a class="el" href="classTreeView.html#abeebe6dbdc6ae466495aabc64eb51d6a" title="A set of colour IDs to use to change the colour of various aspects of the treeview.">TreeView::ColourIds</a>, etc.</p>
 <p>If you're looking up a colour for use in drawing a component, it's usually best not to call this directly, but to use the <a class="el" href="classComponent.html#a5e4c30e25faebe1d0854f96623d6d890" title="Looks for a colour that has been registered with the given colour ID number.">Component::findColour()</a> method instead. That will first check whether a suitable colour has been registered directly with the component, and will fall-back on calling the component's <a class="el" href="classLookAndFeel.html" title="LookAndFeel objects define the appearance of all the JUCE widgets, and subclasses can be used to appl...">LookAndFeel</a>'s <a class="el" href="classLookAndFeel.html#aa7f9faa480c9ec9d61b66672425f380b" title="Looks for a colour that has been registered with the given colour ID number.">findColour()</a> method if none is found.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classLookAndFeel.html#a817beefa430ae0028d6bec566e151d9f" title="Registers a colour to be used for a particular purpose.">setColour</a>, <a class="el" href="classComponent.html#a5e4c30e25faebe1d0854f96623d6d890" title="Looks for a colour that has been registered with the given colour ID number.">Component::findColour</a>, <a class="el" href="classComponent.html#a875e6cc05407cea2d6a04dced62e13cd" title="Registers a colour to be used for a particular purpose.">Component::setColour</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classLookAndFeel.html#a167a1e914771f32e433a0d45aaba45e3" title="Registers a colour to be used for a particular purpose.">setColour</a>, <a class="el" href="classComponent.html#a5e4c30e25faebe1d0854f96623d6d890" title="Looks for a colour that has been registered with the given colour ID number.">Component::findColour</a>, <a class="el" href="classComponent.html#a875e6cc05407cea2d6a04dced62e13cd" title="Registers a colour to be used for a particular purpose.">Component::setColour</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a817beefa430ae0028d6bec566e151d9f"></a>
+<a class="anchor" id="a167a1e914771f32e433a0d45aaba45e3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -525,7 +525,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classColour.html">Colour</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classColour.html">Colour</a>&#160;</td>
           <td class="paramname"><em>colour</em>&#160;</td>
         </tr>
         <tr>
@@ -569,7 +569,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns true if the specified colour ID has been explicitly set using the <a class="el" href="classLookAndFeel.html#a817beefa430ae0028d6bec566e151d9f" title="Registers a colour to be used for a particular purpose.">setColour()</a> method. </p>
+<p>Returns true if the specified colour ID has been explicitly set using the <a class="el" href="classLookAndFeel.html#a167a1e914771f32e433a0d45aaba45e3" title="Registers a colour to be used for a particular purpose.">setColour()</a> method. </p>
 
 </div>
 </div>

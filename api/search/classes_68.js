@@ -23,8 +23,8 @@ var searchData=
   ['heapblock_3c_20codedocument_3a_3aiterator_20_2a_20_3e',['HeapBlock&lt; CodeDocument::Iterator * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20codedocumentline_20_2a_20_3e',['HeapBlock&lt; CodeDocumentLine * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20codeeditorline_20_2a_20_3e',['HeapBlock&lt; CodeEditorLine * &gt;',['../classHeapBlock.html',1,'']]],
-  ['heapblock_3c_20colour_20_3e',['HeapBlock&lt; Colour &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20colourpoint_20_3e',['HeapBlock&lt; ColourPoint &gt;',['../classHeapBlock.html',1,'']]],
+  ['heapblock_3c_20coloursetting_20_3e',['HeapBlock&lt; ColourSetting &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20columninfo_20_2a_20_3e',['HeapBlock&lt; ColumnInfo * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20combobox_20_2a_20_3e',['HeapBlock&lt; ComboBox * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20commandmapping_20_2a_20_3e',['HeapBlock&lt; CommandMapping * &gt;',['../classHeapBlock.html',1,'']]],
@@ -67,7 +67,6 @@ var searchData=
   ['heapblock_3c_20midimessagesequence_20_2a_20_3e',['HeapBlock&lt; MidiMessageSequence * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20modalitem_20_2a_20_3e',['HeapBlock&lt; ModalItem * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20mouselistener_20_2a_20_3e',['HeapBlock&lt; MouseListener * &gt;',['../classHeapBlock.html',1,'']]],
-  ['heapblock_3c_20multitimercallback_20_2a_20_3e',['HeapBlock&lt; MultiTimerCallback * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20node_20_2a_20_3e',['HeapBlock&lt; Node * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20objectclass_20_2a_20_3e',['HeapBlock&lt; ObjectClass * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20panelholder_20_2a_20_3e',['HeapBlock&lt; PanelHolder * &gt;',['../classHeapBlock.html',1,'']]],
@@ -94,6 +93,7 @@ var searchData=
   ['heapblock_3c_20threadrecursioncount_20_3e',['HeapBlock&lt; ThreadRecursionCount &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20thumbdata_20_2a_20_3e',['HeapBlock&lt; ThumbData * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20thumbnailcacheentry_20_2a_20_3e',['HeapBlock&lt; ThumbnailCacheEntry * &gt;',['../classHeapBlock.html',1,'']]],
+  ['heapblock_3c_20timer_20_2a_20_3e',['HeapBlock&lt; Timer * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20timesliceclient_20_2a_20_3e',['HeapBlock&lt; TimeSliceClient * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20tokentype_20_3e',['HeapBlock&lt; TokenType &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20toolbaritemcomponent_20_2a_20_3e',['HeapBlock&lt; ToolbarItemComponent * &gt;',['../classHeapBlock.html',1,'']]],
@@ -108,6 +108,7 @@ var searchData=
   ['heapblock_3c_20void_20_2a_20_3e',['HeapBlock&lt; void * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20weakreference_3c_20component_20_3e_20_3e',['HeapBlock&lt; WeakReference&lt; Component &gt; &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20zipentryholder_20_2a_20_3e',['HeapBlock&lt; ZipEntryHolder * &gt;',['../classHeapBlock.html',1,'']]],
+  ['hexparser',['HexParser',['../structCharacterFunctions_1_1HexParser.html',1,'CharacterFunctions']]],
   ['highresolutiontimer',['HighResolutionTimer',['../classHighResolutionTimer.html',1,'']]],
   ['hyperlinkbutton',['HyperlinkButton',['../classHyperlinkButton.html',1,'']]]
 ];

@@ -10,6 +10,6 @@ var searchData=
   ['queryinterface',['queryInterface',['../classActiveXControlComponent.html#aec74d476e939d707b578c32cdd5cebd3',1,'ActiveXControlComponent']]],
   ['questionicon',['QuestionIcon',['../classAlertWindow.html#a2582d1f79937cb47a6a3764c7d9bdba3a63d1a179c412afc32f7f3c8061b238be',1,'AlertWindow']]],
   ['quicktimemoviecomponent',['QuickTimeMovieComponent',['../classQuickTimeMovieComponent.html',1,'QuickTimeMovieComponent'],['../classQuickTimeMovieComponent.html#affdb8f0235f6256d8330c4d336818ea7',1,'QuickTimeMovieComponent::QuickTimeMovieComponent()']]],
-  ['quit',['quit',['../classJUCEApplicationBase.html#a542e212605f0aa693f687d8798998615',1,'JUCEApplicationBase']]],
+  ['quit',['quit',['../classJUCEApplicationBase.html#a542e212605f0aa693f687d8798998615',1,'JUCEApplicationBase::quit()'],['../namespaceStandardApplicationCommandIDs.html#a8ce34a13722727706c8e98c64454fbf9a0e06bba45d6039ddc74f0b437d982fba',1,'StandardApplicationCommandIDs::quit()']]],
   ['quoted',['quoted',['../classString.html#adca0932895bcd08c3b3c489a5c564b4b',1,'String']]]
 ];

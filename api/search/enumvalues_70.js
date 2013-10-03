@@ -2,6 +2,7 @@ var searchData=
 [
   ['parent',['parent',['../structRelativeCoordinate_1_1StandardStrings.html#a996870bf66337348b8da0f06c647a65ba92a52dc9adf30b102a7b4a20f2876fed',1,'RelativeCoordinate::StandardStrings']]],
   ['parentcursor',['ParentCursor',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97a3364299bb07ea51c887232310feb8b36',1,'MouseCursor']]],
+  ['paste',['paste',['../namespaceStandardApplicationCommandIDs.html#a8ce34a13722727706c8e98c64454fbf9ae98071537aab261471df0788ab5405de',1,'StandardApplicationCommandIDs']]],
   ['plain',['plain',['../classFont.html#a52a35b5dc1e6f782e25283c9283bae4fa99039e6bb438434f9bccde132132dd99',1,'Font']]],
   ['playbutton',['playButton',['../classAppleRemoteDevice.html#a63ccce128a48e63972e2d71a8de5f8d0ada64dfa4c77be0c1e9450efd26db7f2d',1,'AppleRemoteDevice']]],
   ['playbuttonsleepmode',['playButtonSleepMode',['../classAppleRemoteDevice.html#a63ccce128a48e63972e2d71a8de5f8d0a57f28e98dc961f444c7db15bbd2ee8eb',1,'AppleRemoteDevice']]],

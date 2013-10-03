@@ -86,7 +86,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classAudioProcessor-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -314,6 +313,12 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a6d0c1c945bebbc967d187c0f08b42c4b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6d0c1c945bebbc967d187c0f08b42c4b">copyXmlToBinary</a> (const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;xml, juce::MemoryBlock &amp;destData)</td></tr>
+<tr class="memdesc:a6d0c1c945bebbc967d187c0f08b42c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that just converts an xml element into a binary blob.  <a href="#a6d0c1c945bebbc967d187c0f08b42c4b"></a><br/></td></tr>
+<tr class="separator:a6d0c1c945bebbc967d187c0f08b42c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af314980ac708cb8802b48317037e5b5b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#af314980ac708cb8802b48317037e5b5b">getXmlFromBinary</a> (const void *data, int sizeInBytes)</td></tr>
+<tr class="memdesc:af314980ac708cb8802b48317037e5b5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves an XML element that was stored as binary with the <a class="el" href="classAudioProcessor.html#a6d0c1c945bebbc967d187c0f08b42c4b" title="Helper function that just converts an xml element into a binary blob.">copyXmlToBinary()</a> method.  <a href="#af314980ac708cb8802b48317037e5b5b"></a><br/></td></tr>
+<tr class="separator:af314980ac708cb8802b48317037e5b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a406ae17bd699349d5da8510aa8af1b"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a2a406ae17bd699349d5da8510aa8af1b">setTypeOfNextNewPlugin</a> (<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">WrapperType</a>)</td></tr>
 <tr class="separator:a2a406ae17bd699349d5da8510aa8af1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -330,15 +335,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a8602919358f1bf8799abd0c179c5e03b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e0e6efdce297e7ae7a9a23152c55165"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a2e0e6efdce297e7ae7a9a23152c55165">sendParamChangeMessageToListeners</a> (int parameterIndex, float newValue)</td></tr>
 <tr class="separator:a2e0e6efdce297e7ae7a9a23152c55165"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
-Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:a6d0c1c945bebbc967d187c0f08b42c4b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6d0c1c945bebbc967d187c0f08b42c4b">copyXmlToBinary</a> (const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;xml, juce::MemoryBlock &amp;destData)</td></tr>
-<tr class="memdesc:a6d0c1c945bebbc967d187c0f08b42c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that just converts an xml element into a binary blob.  <a href="#a6d0c1c945bebbc967d187c0f08b42c4b"></a><br/></td></tr>
-<tr class="separator:a6d0c1c945bebbc967d187c0f08b42c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af314980ac708cb8802b48317037e5b5b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#af314980ac708cb8802b48317037e5b5b">getXmlFromBinary</a> (const void *data, int sizeInBytes)</td></tr>
-<tr class="memdesc:af314980ac708cb8802b48317037e5b5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves an XML element that was stored as binary with the <a class="el" href="classAudioProcessor.html#a6d0c1c945bebbc967d187c0f08b42c4b" title="Helper function that just converts an xml element into a binary blob.">copyXmlToBinary()</a> method.  <a href="#af314980ac708cb8802b48317037e5b5b"></a><br/></td></tr>
-<tr class="separator:af314980ac708cb8802b48317037e5b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -2300,32 +2296,6 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2a406ae17bd699349d5da8510aa8af1b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> AudioProcessor::setTypeOfNextNewPlugin </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">WrapperType</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a6cea016866e25c77a7ac5084be77bfab">StandaloneFilterWindow::createFilter()</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a6d0c1c945bebbc967d187c0f08b42c4b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2353,7 +2323,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2391,13 +2361,39 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Retrieves an XML element that was stored as binary with the <a class="el" href="classAudioProcessor.html#a6d0c1c945bebbc967d187c0f08b42c4b" title="Helper function that just converts an xml element into a binary blob.">copyXmlToBinary()</a> method. </p>
 <p>This might return nullptr if the data's unsuitable or corrupted. Otherwise it will return an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document.">XmlElement</a> object that the caller must delete when no longer needed. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2a406ae17bd699349d5da8510aa8af1b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> AudioProcessor::setTypeOfNextNewPlugin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">WrapperType</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a6cea016866e25c77a7ac5084be77bfab">StandaloneFilterWindow::createFilter()</a>.</p>
 
 </div>
 </div>

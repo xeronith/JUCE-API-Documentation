@@ -121,6 +121,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad48b272041c7561ac2fe8fc039adebc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTooltipWindow.html#ad48b272041c7561ac2fe8fc039adebc5">setMillisecondsBeforeTipAppears</a> (int newTimeMs=700) noexcept</td></tr>
 <tr class="memdesc:ad48b272041c7561ac2fe8fc039adebc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the time before the tip appears.  <a href="#ad48b272041c7561ac2fe8fc039adebc5"></a><br/></td></tr>
 <tr class="separator:ad48b272041c7561ac2fe8fc039adebc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad35b93943a622861dd83d3cade7da4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTooltipWindow.html#aad35b93943a622861dd83d3cade7da4b">displayTip</a> (<a class="el" href="classPoint.html">Point</a>&lt; int &gt; screenPosition, const <a class="el" href="classString.html">String</a> &amp;text)</td></tr>
+<tr class="memdesc:aad35b93943a622861dd83d3cade7da4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be called to manually force a tip to be shown at a particular location.  <a href="#aad35b93943a622861dd83d3cade7da4b"></a><br/></td></tr>
+<tr class="separator:aad35b93943a622861dd83d3cade7da4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a917c164d878207aceb22a1c71a541731"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTooltipWindow.html#a917c164d878207aceb22a1c71a541731">hideTip</a> ()</td></tr>
+<tr class="memdesc:a917c164d878207aceb22a1c71a541731"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be called to manually hide the tip if it's showing.  <a href="#a917c164d878207aceb22a1c71a541731"></a><br/></td></tr>
+<tr class="separator:a917c164d878207aceb22a1c71a541731"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classComponent"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classComponent')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classComponent.html">Component</a></td></tr>
 <tr class="memitem:a8775db6d1a2c1afc2e77cd3c8f39da6f inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a8775db6d1a2c1afc2e77cd3c8f39da6f">Component</a> ()</td></tr>
 <tr class="memdesc:a8775db6d1a2c1afc2e77cd3c8f39da6f inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a component.  <a href="#a8775db6d1a2c1afc2e77cd3c8f39da6f"></a><br/></td></tr>
@@ -733,8 +739,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>A set of colour IDs to use to change the colour of various aspects of the tooltip. </p>
-<p>These constants can be used either via the <a class="el" href="classComponent.html#a875e6cc05407cea2d6a04dced62e13cd" title="Registers a colour to be used for a particular purpose.">Component::setColour()</a>, or <a class="el" href="classLookAndFeel.html#a817beefa430ae0028d6bec566e151d9f" title="Registers a colour to be used for a particular purpose.">LookAndFeel::setColour()</a> methods.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classComponent.html#a875e6cc05407cea2d6a04dced62e13cd" title="Registers a colour to be used for a particular purpose.">Component::setColour</a>, <a class="el" href="classComponent.html#a5e4c30e25faebe1d0854f96623d6d890" title="Looks for a colour that has been registered with the given colour ID number.">Component::findColour</a>, <a class="el" href="classLookAndFeel.html#a817beefa430ae0028d6bec566e151d9f" title="Registers a colour to be used for a particular purpose.">LookAndFeel::setColour</a>, <a class="el" href="classLookAndFeel.html#aa7f9faa480c9ec9d61b66672425f380b" title="Looks for a colour that has been registered with the given colour ID number.">LookAndFeel::findColour</a> </dd></dl>
+<p>These constants can be used either via the <a class="el" href="classComponent.html#a875e6cc05407cea2d6a04dced62e13cd" title="Registers a colour to be used for a particular purpose.">Component::setColour()</a>, or <a class="el" href="classLookAndFeel.html#a167a1e914771f32e433a0d45aaba45e3" title="Registers a colour to be used for a particular purpose.">LookAndFeel::setColour()</a> methods.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classComponent.html#a875e6cc05407cea2d6a04dced62e13cd" title="Registers a colour to be used for a particular purpose.">Component::setColour</a>, <a class="el" href="classComponent.html#a5e4c30e25faebe1d0854f96623d6d890" title="Looks for a colour that has been registered with the given colour ID number.">Component::findColour</a>, <a class="el" href="classLookAndFeel.html#a167a1e914771f32e433a0d45aaba45e3" title="Registers a colour to be used for a particular purpose.">LookAndFeel::setColour</a>, <a class="el" href="classLookAndFeel.html#aa7f9faa480c9ec9d61b66672425f380b" title="Looks for a colour that has been registered with the given colour ID number.">LookAndFeel::findColour</a> </dd></dl>
 <dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
 <tr><td valign="top"><em><a class="anchor" id="a84c5ba04f6f39e42fdf969f1cf37f6c6a28c64d55232b2dfff730222dd0c1bcb1"></a>backgroundColourId</em>&nbsp;</td><td>
 <p>The colour to fill the background with. </p>
@@ -840,6 +846,51 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Changes the time before the tip appears. </p>
 <p>This lets you change the value that was set in the constructor. </p>
+
+</div>
+</div>
+<a class="anchor" id="aad35b93943a622861dd83d3cade7da4b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TooltipWindow::displayTip </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>screenPosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>text</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Can be called to manually force a tip to be shown at a particular location. </p>
+
+</div>
+</div>
+<a class="anchor" id="a917c164d878207aceb22a1c71a541731"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TooltipWindow::hideTip </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Can be called to manually hide the tip if it's showing. </p>
 
 </div>
 </div>

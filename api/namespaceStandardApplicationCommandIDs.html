@@ -56,6 +56,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       </li>
     </ul>
   </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="namespacemembers.html"><span>Namespace&#160;Members</span></a></li>
+    </ul>
+  </div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -72,6 +77,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">StandardApplicationCommandIDs Namespace Reference</div>  </div>
 </div><!--header-->
@@ -79,12 +86,76 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>A set of general-purpose application command IDs.  
 <a href="#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a8ce34a13722727706c8e98c64454fbf9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br/>
+&#160;&#160;<a class="el" href="namespaceStandardApplicationCommandIDs.html#a8ce34a13722727706c8e98c64454fbf9a0e06bba45d6039ddc74f0b437d982fba">quit</a> = 0x1001, 
+<a class="el" href="namespaceStandardApplicationCommandIDs.html#a8ce34a13722727706c8e98c64454fbf9a3519307963b37e47b3c0935a553c8a13">del</a> = 0x1002, 
+<a class="el" href="namespaceStandardApplicationCommandIDs.html#a8ce34a13722727706c8e98c64454fbf9ac0037bfec469a888d3a7ab1c0c222765">cut</a> = 0x1003, 
+<a class="el" href="namespaceStandardApplicationCommandIDs.html#a8ce34a13722727706c8e98c64454fbf9a3584c202667823072c928fd699725466">copy</a> = 0x1004, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceStandardApplicationCommandIDs.html#a8ce34a13722727706c8e98c64454fbf9ae98071537aab261471df0788ab5405de">paste</a> = 0x1005, 
+<a class="el" href="namespaceStandardApplicationCommandIDs.html#a8ce34a13722727706c8e98c64454fbf9a651985a70b21b1d0b7a89007fc8793df">selectAll</a> = 0x1006, 
+<a class="el" href="namespaceStandardApplicationCommandIDs.html#a8ce34a13722727706c8e98c64454fbf9acdd0c589b2b1904cde27f75185f65e4a">deselectAll</a> = 0x1007, 
+<a class="el" href="namespaceStandardApplicationCommandIDs.html#a8ce34a13722727706c8e98c64454fbf9a5b866e822eb795f30f0c77ebecc84f7f">undo</a> = 0x1008, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceStandardApplicationCommandIDs.html#a8ce34a13722727706c8e98c64454fbf9aa2a9602bedb21d34ea2b7cb620d5be1f">redo</a> = 0x1009
+<br/>
+ }</td></tr>
+<tr class="separator:a8ce34a13722727706c8e98c64454fbf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A set of general-purpose application command IDs. </p>
 <p>Because these commands are likely to be used in most apps, they're defined here to help different apps to use the same numeric values for them.</p>
 <p>Of course you don't have to use these, but some of them are used internally by Juce - e.g. the quit ID is recognised as a command by the <a class="el" href="classJUCEApplication.html" title="An instance of this class is used to specify initialisation and shutdown code for the application...">JUCEApplication</a> class.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="structApplicationCommandInfo.html" title="Holds information describing an application command.">ApplicationCommandInfo</a>, <a class="el" href="classApplicationCommandManager.html" title="One of these objects holds a list of all the commands your app can perform, and despatches these comm...">ApplicationCommandManager</a>, <a class="el" href="classApplicationCommandTarget.html" title="A command target publishes a list of command IDs that it can perform.">ApplicationCommandTarget</a>, <a class="el" href="classKeyPressMappingSet.html" title="Manages and edits a list of keypresses, which it uses to invoke the appropriate command in a Applicat...">KeyPressMappingSet</a> </dd></dl>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="a8ce34a13722727706c8e98c64454fbf9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" id="a8ce34a13722727706c8e98c64454fbf9a0e06bba45d6039ddc74f0b437d982fba"></a>quit</em>&nbsp;</td><td>
+<p>This command ID should be used to send a "Quit the App" command. </p>
+<p>This command is recognised by the <a class="el" href="classJUCEApplication.html" title="An instance of this class is used to specify initialisation and shutdown code for the application...">JUCEApplication</a> class, so if it is invoked and no other <a class="el" href="classApplicationCommandTarget.html" title="A command target publishes a list of command IDs that it can perform.">ApplicationCommandTarget</a> handles the event first, the <a class="el" href="classJUCEApplication.html" title="An instance of this class is used to specify initialisation and shutdown code for the application...">JUCEApplication</a> object will catch it and call <a class="el" href="classJUCEApplicationBase.html#aa4ae0dcc3467f4927d8365b4814b1396" title="Called when the operating system is trying to close the application.">JUCEApplicationBase::systemRequestedQuit()</a>. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a8ce34a13722727706c8e98c64454fbf9a3519307963b37e47b3c0935a553c8a13"></a>del</em>&nbsp;</td><td>
+<p>The command ID that should be used to send a "Delete" command. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a8ce34a13722727706c8e98c64454fbf9ac0037bfec469a888d3a7ab1c0c222765"></a>cut</em>&nbsp;</td><td>
+<p>The command ID that should be used to send a "Cut" command. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a8ce34a13722727706c8e98c64454fbf9a3584c202667823072c928fd699725466"></a>copy</em>&nbsp;</td><td>
+<p>The command ID that should be used to send a "Copy to clipboard" command. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a8ce34a13722727706c8e98c64454fbf9ae98071537aab261471df0788ab5405de"></a>paste</em>&nbsp;</td><td>
+<p>The command ID that should be used to send a "Paste from clipboard" command. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a8ce34a13722727706c8e98c64454fbf9a651985a70b21b1d0b7a89007fc8793df"></a>selectAll</em>&nbsp;</td><td>
+<p>The command ID that should be used to send a "Select all" command. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a8ce34a13722727706c8e98c64454fbf9acdd0c589b2b1904cde27f75185f65e4a"></a>deselectAll</em>&nbsp;</td><td>
+<p>The command ID that should be used to send a "Deselect all" command. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a8ce34a13722727706c8e98c64454fbf9a5b866e822eb795f30f0c77ebecc84f7f"></a>undo</em>&nbsp;</td><td>
+<p>The command ID that should be used to send a "undo" command. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a8ce34a13722727706c8e98c64454fbf9aa2a9602bedb21d34ea2b7cb620d5be1f"></a>redo</em>&nbsp;</td><td>
+<p>The command ID that should be used to send a "redo" command. </p>
+</td></tr>
+</table>
+</dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
 <hr class="footer"/>
 <address class="footer"><small>All content &copy Raw Material Software Ltd.</small></address><br/>
 <script type="text/javascript">

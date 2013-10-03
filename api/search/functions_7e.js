@@ -193,7 +193,7 @@ var searchData=
   ['_7ejuceapplicationbase',['~JUCEApplicationBase',['../classJUCEApplicationBase.html#a98ba445960e64ae6314626cd14659bd5',1,'JUCEApplicationBase']]],
   ['_7ekeyboardfocustraverser',['~KeyboardFocusTraverser',['../classKeyboardFocusTraverser.html#ac8dafe9d30ce2fbc9fb3163d1d16b2e7',1,'KeyboardFocusTraverser']]],
   ['_7ekeylistener',['~KeyListener',['../classKeyListener.html#a3b63a69dab82d70acb71939a4c05b869',1,'KeyListener']]],
-  ['_7ekeymappingeditorcomponent',['~KeyMappingEditorComponent',['../classKeyMappingEditorComponent.html#a8d8cddb27b23c862b2230586daebc9e0',1,'KeyMappingEditorComponent']]],
+  ['_7ekeymappingeditorcomponent',['~KeyMappingEditorComponent',['../classKeyMappingEditorComponent.html#a30b6340e01c937cdfa5e9732bdfb8ecd',1,'KeyMappingEditorComponent']]],
   ['_7ekeypressmappingset',['~KeyPressMappingSet',['../classKeyPressMappingSet.html#adae95f518172adb938d30d38cf361743',1,'KeyPressMappingSet']]],
   ['_7eknownpluginlist',['~KnownPluginList',['../classKnownPluginList.html#a62cbb85f1fe910f1197f078b90dfac61',1,'KnownPluginList']]],
   ['_7elabel',['~Label',['../classLabel.html#a39e1167a9b5827afd888780973d88894',1,'Label']]],

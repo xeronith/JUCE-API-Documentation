@@ -140,9 +140,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2eff16ff28a8802d589a233055879273"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopupMenu.html#a2eff16ff28a8802d589a233055879273">addItem</a> (int itemResultID, const <a class="el" href="classString.html">String</a> &amp;itemText, bool isEnabled=true, bool isTicked=false, const <a class="el" href="classImage.html">Image</a> &amp;iconToUse=<a class="el" href="classImage.html#af20f6e6962f885e2142520f18ca4ee17">Image::null</a>)</td></tr>
 <tr class="memdesc:a2eff16ff28a8802d589a233055879273"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a new text item for this menu to show.  <a href="#a2eff16ff28a8802d589a233055879273"></a><br/></td></tr>
 <tr class="separator:a2eff16ff28a8802d589a233055879273"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b76a06d3eafc98921e99461d88b57ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopupMenu.html#a5b76a06d3eafc98921e99461d88b57ba">addCommandItem</a> (<a class="el" href="classApplicationCommandManager.html">ApplicationCommandManager</a> *commandManager, int commandID, const <a class="el" href="classString.html">String</a> &amp;displayName=<a class="el" href="classString.html#afd02116a5571fcc8bc1e6fdabe132a85">String::empty</a>)</td></tr>
-<tr class="memdesc:a5b76a06d3eafc98921e99461d88b57ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an item that represents one of the commands in a command manager object.  <a href="#a5b76a06d3eafc98921e99461d88b57ba"></a><br/></td></tr>
-<tr class="separator:a5b76a06d3eafc98921e99461d88b57ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71b963b21039353cb78182c7e7a0ac2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopupMenu.html#a71b963b21039353cb78182c7e7a0ac2c">addCommandItem</a> (<a class="el" href="classApplicationCommandManager.html">ApplicationCommandManager</a> *commandManager, <a class="el" href="juce__ApplicationCommandID_8h.html#afd69b5d28aad07b587b693925e09308b">CommandID</a> commandID, const <a class="el" href="classString.html">String</a> &amp;displayName=<a class="el" href="classString.html#afd02116a5571fcc8bc1e6fdabe132a85">String::empty</a>)</td></tr>
+<tr class="memdesc:a71b963b21039353cb78182c7e7a0ac2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an item that represents one of the commands in a command manager object.  <a href="#a71b963b21039353cb78182c7e7a0ac2c"></a><br/></td></tr>
+<tr class="separator:a71b963b21039353cb78182c7e7a0ac2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac03d5afec064439b3fbd27c6c89baa27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopupMenu.html#ac03d5afec064439b3fbd27c6c89baa27">addColouredItem</a> (int itemResultID, const <a class="el" href="classString.html">String</a> &amp;itemText, <a class="el" href="classColour.html">Colour</a> itemTextColour, bool isEnabled=true, bool isTicked=false, const <a class="el" href="classImage.html">Image</a> &amp;iconToUse=<a class="el" href="classImage.html#af20f6e6962f885e2142520f18ca4ee17">Image::null</a>)</td></tr>
 <tr class="memdesc:ac03d5afec064439b3fbd27c6c89baa27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a text item with a special colour.  <a href="#ac03d5afec064439b3fbd27c6c89baa27"></a><br/></td></tr>
 <tr class="separator:ac03d5afec064439b3fbd27c6c89baa27"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -235,8 +235,8 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>A set of colour IDs to use to change the colour of various aspects of the menu. </p>
-<p>These constants can be used either via the <a class="el" href="classLookAndFeel.html#a817beefa430ae0028d6bec566e151d9f" title="Registers a colour to be used for a particular purpose.">LookAndFeel::setColour()</a> method for the look and feel that is set for this menu with <a class="el" href="classPopupMenu.html#a449653121fdc2a2b7f3e77d663266d00" title="Specifies a look-and-feel for the menu and any sub-menus that it has.">setLookAndFeel()</a></p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPopupMenu.html#a449653121fdc2a2b7f3e77d663266d00" title="Specifies a look-and-feel for the menu and any sub-menus that it has.">setLookAndFeel</a>, <a class="el" href="classLookAndFeel.html#a817beefa430ae0028d6bec566e151d9f" title="Registers a colour to be used for a particular purpose.">LookAndFeel::setColour</a>, <a class="el" href="classLookAndFeel.html#aa7f9faa480c9ec9d61b66672425f380b" title="Looks for a colour that has been registered with the given colour ID number.">LookAndFeel::findColour</a> </dd></dl>
+<p>These constants can be used either via the <a class="el" href="classLookAndFeel.html#a167a1e914771f32e433a0d45aaba45e3" title="Registers a colour to be used for a particular purpose.">LookAndFeel::setColour()</a> method for the look and feel that is set for this menu with <a class="el" href="classPopupMenu.html#a449653121fdc2a2b7f3e77d663266d00" title="Specifies a look-and-feel for the menu and any sub-menus that it has.">setLookAndFeel()</a></p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPopupMenu.html#a449653121fdc2a2b7f3e77d663266d00" title="Specifies a look-and-feel for the menu and any sub-menus that it has.">setLookAndFeel</a>, <a class="el" href="classLookAndFeel.html#a167a1e914771f32e433a0d45aaba45e3" title="Registers a colour to be used for a particular purpose.">LookAndFeel::setColour</a>, <a class="el" href="classLookAndFeel.html#aa7f9faa480c9ec9d61b66672425f380b" title="Looks for a colour that has been registered with the given colour ID number.">LookAndFeel::findColour</a> </dd></dl>
 <dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
 <tr><td valign="top"><em><a class="anchor" id="a0888091ddab0f599bb9d2fab28153f6baf598840a9e3f2137df45179367323b39"></a>backgroundColourId</em>&nbsp;</td><td>
 <p>The colour to fill the menu's background with. </p>
@@ -407,7 +407,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5b76a06d3eafc98921e99461d88b57ba"></a>
+<a class="anchor" id="a71b963b21039353cb78182c7e7a0ac2c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -420,7 +420,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="juce__ApplicationCommandID_8h.html#afd69b5d28aad07b587b693925e09308b">CommandID</a>&#160;</td>
           <td class="paramname"><em>commandID</em>, </td>
         </tr>
         <tr>

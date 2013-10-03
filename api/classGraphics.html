@@ -179,6 +179,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2aef23d8a0c15d4e44a43bf7f6bf3598"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a2aef23d8a0c15d4e44a43bf7f6bf3598">fillRectList</a> (const <a class="el" href="classRectangleList.html">RectangleList</a>&lt; float &gt; &amp;rectangles) const </td></tr>
 <tr class="memdesc:a2aef23d8a0c15d4e44a43bf7f6bf3598"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a set of rectangles using the current colour or brush.  <a href="#a2aef23d8a0c15d4e44a43bf7f6bf3598"></a><br/></td></tr>
 <tr class="separator:a2aef23d8a0c15d4e44a43bf7f6bf3598"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25b0360ba453ab7f8d952a4b31a9fcd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a25b0360ba453ab7f8d952a4b31a9fcd4">fillRectList</a> (const <a class="el" href="classRectangleList.html">RectangleList</a>&lt; int &gt; &amp;rectangles) const </td></tr>
+<tr class="memdesc:a25b0360ba453ab7f8d952a4b31a9fcd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a set of rectangles using the current colour or brush.  <a href="#a25b0360ba453ab7f8d952a4b31a9fcd4"></a><br/></td></tr>
+<tr class="separator:a25b0360ba453ab7f8d952a4b31a9fcd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1049a2dae8a1ae3e5e57238f2fd36a84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a1049a2dae8a1ae3e5e57238f2fd36a84">fillRoundedRectangle</a> (float x, float y, float width, float height, float cornerSize) const </td></tr>
 <tr class="memdesc:a1049a2dae8a1ae3e5e57238f2fd36a84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses the current colour or brush to fill a rectangle with rounded corners.  <a href="#a1049a2dae8a1ae3e5e57238f2fd36a84"></a><br/></td></tr>
 <tr class="separator:a1049a2dae8a1ae3e5e57238f2fd36a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1088,6 +1091,25 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void Graphics::fillRectList </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rectangles</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fills a set of rectangles using the current colour or brush. </p>
+<p>If you have a lot of rectangles to draw, it may be more efficient to create a <a class="el" href="classRectangleList.html" title="Maintains a set of rectangles as a complex region.">RectangleList</a> and use this method than to call <a class="el" href="classGraphics.html#a9ff78524c757a302ad8b9cbc4c7ba851" title="Fills a rectangle with the current colour or brush.">fillRect()</a> multiple times. </p>
+
+</div>
+</div>
+<a class="anchor" id="a25b0360ba453ab7f8d952a4b31a9fcd4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::fillRectList </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classRectangleList.html">RectangleList</a>&lt; int &gt; &amp;&#160;</td>
           <td class="paramname"><em>rectangles</em></td><td>)</td>
           <td> const</td>
         </tr>

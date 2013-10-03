@@ -109,9 +109,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acb40f07ce4ffd0bdff82533d61ca79f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter_1_1ThreadedWriter.html#acb40f07ce4ffd0bdff82533d61ca79f2">~ThreadedWriter</a> ()</td></tr>
 <tr class="memdesc:acb40f07ce4ffd0bdff82533d61ca79f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#acb40f07ce4ffd0bdff82533d61ca79f2"></a><br/></td></tr>
 <tr class="separator:acb40f07ce4ffd0bdff82533d61ca79f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f7fd51f38d723ece04adf0ff5591bbb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter_1_1ThreadedWriter.html#a8f7fd51f38d723ece04adf0ff5591bbb">write</a> (const float **data, int numSamples)</td></tr>
-<tr class="memdesc:a8f7fd51f38d723ece04adf0ff5591bbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes some incoming audio data into the FIFO.  <a href="#a8f7fd51f38d723ece04adf0ff5591bbb"></a><br/></td></tr>
-<tr class="separator:a8f7fd51f38d723ece04adf0ff5591bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75e83af285e9c0ce5d74522220821051"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter_1_1ThreadedWriter.html#a75e83af285e9c0ce5d74522220821051">write</a> (const float *const *data, int numSamples)</td></tr>
+<tr class="memdesc:a75e83af285e9c0ce5d74522220821051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes some incoming audio data into the FIFO.  <a href="#a75e83af285e9c0ce5d74522220821051"></a><br/></td></tr>
+<tr class="separator:a75e83af285e9c0ce5d74522220821051"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3dcbed2e259510fe5bdab35fff9d891"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter_1_1ThreadedWriter.html#ad3dcbed2e259510fe5bdab35fff9d891">setDataReceiver</a> (<a class="el" href="classAudioFormatWriter_1_1ThreadedWriter_1_1IncomingDataReceiver.html">IncomingDataReceiver</a> *receiver)</td></tr>
 <tr class="memdesc:ad3dcbed2e259510fe5bdab35fff9d891"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows you to specify a callback that this writer should update with the incoming data.  <a href="#ad3dcbed2e259510fe5bdab35fff9d891"></a><br/></td></tr>
 <tr class="separator:ad3dcbed2e259510fe5bdab35fff9d891"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,14 +173,14 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a8f7fd51f38d723ece04adf0ff5591bbb"></a>
+<a class="anchor" id="a75e83af285e9c0ce5d74522220821051"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool AudioFormatWriter::ThreadedWriter::write </td>
           <td>(</td>
-          <td class="paramtype">const float **&#160;</td>
+          <td class="paramtype">const float *const *&#160;</td>
           <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>

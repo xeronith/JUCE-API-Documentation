@@ -128,6 +128,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1c91c1b7758fffd3536042238f00005b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUnitTest.html#a1c91c1b7758fffd3536042238f00005b">logMessage</a> (const <a class="el" href="classString.html">String</a> &amp;message)</td></tr>
 <tr class="memdesc:a1c91c1b7758fffd3536042238f00005b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a message to the test log.  <a href="#a1c91c1b7758fffd3536042238f00005b"></a><br/></td></tr>
 <tr class="separator:a1c91c1b7758fffd3536042238f00005b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cb56b984fab3759eeca23ed5523f5fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRandom.html">Random</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUnitTest.html#a8cb56b984fab3759eeca23ed5523f5fe">getRandom</a> () const </td></tr>
+<tr class="memdesc:a8cb56b984fab3759eeca23ed5523f5fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a shared RNG that all unit tests should use.  <a href="#a8cb56b984fab3759eeca23ed5523f5fe"></a><br/></td></tr>
+<tr class="separator:a8cb56b984fab3759eeca23ed5523f5fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -258,7 +261,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Runs the test, using the specified <a class="el" href="classUnitTestRunner.html" title="Runs a set of unit tests.">UnitTestRunner</a>. </p>
-<p>You shouldn't need to call this method directly - use <a class="el" href="classUnitTestRunner.html#a7c6631acba13450d211156f0d57bd589" title="Runs a set of tests.">UnitTestRunner::runTests()</a> instead. </p>
+<p>You shouldn't need to call this method directly - use <a class="el" href="classUnitTestRunner.html#a0b06260a25f58c1e965dfc1db921f033" title="Runs a set of tests.">UnitTestRunner::runTests()</a> instead. </p>
 
 </div>
 </div>
@@ -473,6 +476,25 @@ template&lt;class ValueType &gt; </div>
 
 <p>Writes a message to the test log. </p>
 <p>This can only be called from within your <a class="el" href="classUnitTest.html#a1a95d7f09eb80442a8099663dfb92628" title="Implement this method in your subclass to actually run your tests.">runTest()</a> method. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8cb56b984fab3759eeca23ed5523f5fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classRandom.html">Random</a> UnitTest::getRandom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a shared RNG that all unit tests should use. </p>
+<p>If a test needs random numbers, it's important that when an error is found, the exact circumstances can be re-created in order to re-test the problem, by repeating the test with the same random seed value. To make this possible, the <a class="el" href="classUnitTestRunner.html" title="Runs a set of unit tests.">UnitTestRunner</a> class creates a master seed value for the run, writes this number to the log, and then this method returns a <a class="el" href="classRandom.html" title="A random number generator.">Random</a> object based on that seed. All tests should only use this method to create any <a class="el" href="classRandom.html" title="A random number generator.">Random</a> objects that they need.</p>
+<p>Note that this method will return an identical object each time it's called for a given run, so if you need several different <a class="el" href="classRandom.html" title="A random number generator.">Random</a> objects, the best way to do that is to call <a class="el" href="classRandom.html#af8a7c8f1f8aa96b761c441f34382cd4a" title="Merges this object&#39;s seed with another value.">Random::combineSeed()</a> on the result to permute it with a constant value. </p>
 
 </div>
 </div>

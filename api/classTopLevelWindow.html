@@ -99,7 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7d52a41e30bff8d342327abc4f476112"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTopLevelWindow.html#a7d52a41e30bff8d342327abc4f476112">TopLevelWindow</a> (const <a class="el" href="classString.html">String</a> &amp;name, bool <a class="el" href="classTopLevelWindow.html#ae45abf7c485a229c57f8bc234a84fc55">addToDesktop</a>)</td></tr>
+<tr class="memitem:a7d52a41e30bff8d342327abc4f476112"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTopLevelWindow.html#a7d52a41e30bff8d342327abc4f476112">TopLevelWindow</a> (const <a class="el" href="classString.html">String</a> &amp;name, bool <a class="el" href="classTopLevelWindow.html#a016b200ff582129d0aa079cb0a9bfe05">addToDesktop</a>)</td></tr>
 <tr class="memdesc:a7d52a41e30bff8d342327abc4f476112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classTopLevelWindow.html" title="A base class for top-level windows.">TopLevelWindow</a>.  <a href="#a7d52a41e30bff8d342327abc4f476112"></a><br/></td></tr>
 <tr class="separator:a7d52a41e30bff8d342327abc4f476112"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20277d9867a8e2fa56405a24b595e547"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTopLevelWindow.html#a20277d9867a8e2fa56405a24b595e547">~TopLevelWindow</a> ()</td></tr>
@@ -123,6 +123,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a18da6a0cc04d665771cfaa3137d319c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTopLevelWindow.html#a18da6a0cc04d665771cfaa3137d319c5">isUsingNativeTitleBar</a> () const noexcept</td></tr>
 <tr class="memdesc:a18da6a0cc04d665771cfaa3137d319c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the window is currently using an OS-native title bar.  <a href="#a18da6a0cc04d665771cfaa3137d319c5"></a><br/></td></tr>
 <tr class="separator:a18da6a0cc04d665771cfaa3137d319c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a016b200ff582129d0aa079cb0a9bfe05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTopLevelWindow.html#a016b200ff582129d0aa079cb0a9bfe05">addToDesktop</a> ()</td></tr>
+<tr class="memdesc:a016b200ff582129d0aa079cb0a9bfe05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the window to the desktop using the default flags.  <a href="#a016b200ff582129d0aa079cb0a9bfe05"></a><br/></td></tr>
+<tr class="separator:a016b200ff582129d0aa079cb0a9bfe05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae45abf7c485a229c57f8bc234a84fc55"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTopLevelWindow.html#ae45abf7c485a229c57f8bc234a84fc55">addToDesktop</a> (int windowStyleFlags, void *nativeWindowToAttachTo=nullptr) override</td></tr>
 <tr class="separator:ae45abf7c485a229c57f8bc234a84fc55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classComponent"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classComponent')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classComponent.html">Component</a></td></tr>
@@ -1011,6 +1014,23 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns the currently-active top level window. </p>
 <p>There might not be one, of course, so this can return nullptr. </p>
+
+</div>
+</div>
+<a class="anchor" id="a016b200ff582129d0aa079cb0a9bfe05"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TopLevelWindow::addToDesktop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds the window to the desktop using the default flags. </p>
 
 </div>
 </div>

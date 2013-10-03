@@ -123,9 +123,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a62f00db8e716c1d253d70be4c9d753a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a62f00db8e716c1d253d70be4c9d753a1">writeFromAudioSampleBuffer</a> (const <a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;source, int startSample, int numSamples)</td></tr>
 <tr class="memdesc:a62f00db8e716c1d253d70be4c9d753a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes some samples from an <a class="el" href="classAudioSampleBuffer.html" title="A multi-channel buffer of 32-bit floating point audio samples.">AudioSampleBuffer</a>.  <a href="#a62f00db8e716c1d253d70be4c9d753a1"></a><br/></td></tr>
 <tr class="separator:a62f00db8e716c1d253d70be4c9d753a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a368cbeab701e51c78335f64f4874b997"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a368cbeab701e51c78335f64f4874b997">writeFromFloatArrays</a> (const float **channels, int <a class="el" href="classAudioFormatWriter.html#af33e6836e6dbbcd774ac166453c5446c">numChannels</a>, int numSamples)</td></tr>
-<tr class="memdesc:a368cbeab701e51c78335f64f4874b997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes some samples from a set of float data channels.  <a href="#a368cbeab701e51c78335f64f4874b997"></a><br/></td></tr>
-<tr class="separator:a368cbeab701e51c78335f64f4874b997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3ceaa6f20c49a692f92b2e1603786be"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#ad3ceaa6f20c49a692f92b2e1603786be">writeFromFloatArrays</a> (const float *const *channels, int <a class="el" href="classAudioFormatWriter.html#af33e6836e6dbbcd774ac166453c5446c">numChannels</a>, int numSamples)</td></tr>
+<tr class="memdesc:ad3ceaa6f20c49a692f92b2e1603786be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes some samples from a set of float data channels.  <a href="#ad3ceaa6f20c49a692f92b2e1603786be"></a><br/></td></tr>
+<tr class="separator:ad3ceaa6f20c49a692f92b2e1603786be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae31a1427413b3ac45c7f02d7384e156e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#ae31a1427413b3ac45c7f02d7384e156e">getSampleRate</a> () const noexcept</td></tr>
 <tr class="memdesc:ae31a1427413b3ac45c7f02d7384e156e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sample rate being used.  <a href="#ae31a1427413b3ac45c7f02d7384e156e"></a><br/></td></tr>
 <tr class="separator:ae31a1427413b3ac45c7f02d7384e156e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -444,14 +444,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a368cbeab701e51c78335f64f4874b997"></a>
+<a class="anchor" id="ad3ceaa6f20c49a692f92b2e1603786be"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool AudioFormatWriter::writeFromFloatArrays </td>
           <td>(</td>
-          <td class="paramtype">const float **&#160;</td>
+          <td class="paramtype">const float *const *&#160;</td>
           <td class="paramname"><em>channels</em>, </td>
         </tr>
         <tr>

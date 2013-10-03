@@ -111,6 +111,7 @@ var searchData=
   ['softwareimagetype',['SoftwareImageType',['../classSoftwareImageType.html',1,'']]],
   ['sortedset',['SortedSet',['../classSortedSet.html',1,'']]],
   ['sortedset_3c_20actionlistener_20_2a_20_3e',['SortedSet&lt; ActionListener * &gt;',['../classSortedSet.html',1,'']]],
+  ['sortedset_3c_20coloursetting_20_3e',['SortedSet&lt; ColourSetting &gt;',['../classSortedSet.html',1,'']]],
   ['sortedset_3c_20value_20_2a_20_3e',['SortedSet&lt; Value * &gt;',['../classSortedSet.html',1,'']]],
   ['sourcedetails',['SourceDetails',['../classDragAndDropTarget_1_1SourceDetails.html',1,'DragAndDropTarget']]],
   ['sparseset',['SparseSet',['../classSparseSet.html',1,'']]],

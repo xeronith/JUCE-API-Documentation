@@ -49,7 +49,7 @@ var searchData=
   ['loadfileasstring',['loadFileAsString',['../classFile.html#aac8775e3a91375fe12ebe068194a2812',1,'File']]],
   ['loadfrom',['loadFrom',['../classAudioThumbnail.html#a488b2903fcc22f0726db73d26d02e04a',1,'AudioThumbnail::loadFrom()'],['../classAudioThumbnailBase.html#a84319e0027a1d0b98a38b51c00fa2d5c',1,'AudioThumbnailBase::loadFrom()'],['../classImageFileFormat.html#a1ce6ae82e06b40e9149d1ab73951ce1c',1,'ImageFileFormat::loadFrom(InputStream &amp;input)'],['../classImageFileFormat.html#a9e32b679760095924f3240372f2648b6',1,'ImageFileFormat::loadFrom(const File &amp;file)'],['../classImageFileFormat.html#a5a0d38a154faccbc0bbe245dadede62c',1,'ImageFileFormat::loadFrom(const void *rawData, size_t numBytesOfData)'],['../classFileBasedDocument.html#a306a20730d9affcc1cf744d8cfaacb27',1,'FileBasedDocument::loadFrom()']]],
   ['loadfromfxbfile',['loadFromFXBFile',['../classVSTPluginFormat.html#a2cda6559c2fa9cba7e0ada4ab00d5d53',1,'VSTPluginFormat']]],
-  ['loadfromhexstring',['loadFromHexString',['../classMemoryBlock.html#a9e3a187895669b56e43f94a6811d39b9',1,'MemoryBlock']]],
+  ['loadfromhexstring',['loadFromHexString',['../classMemoryBlock.html#a8440655ca6913fe607b44c6169af2273',1,'MemoryBlock']]],
   ['loadfrommemoryblock',['loadFromMemoryBlock',['../classBigInteger.html#af1ad0e8dcaaa34c7d14d01dca224a668',1,'BigInteger']]],
   ['loadfromstream',['loadFromStream',['../classCodeDocument.html#a666ae3cea6e96721b22176624bfa3881',1,'CodeDocument']]],
   ['loadfromuserspecifiedfile',['loadFromUserSpecifiedFile',['../classFileBasedDocument.html#ae9dfad2bdd9692ac31ff8cb87e97e38d',1,'FileBasedDocument']]],

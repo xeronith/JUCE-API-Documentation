@@ -120,6 +120,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0d5002b7d345f8a2dd06cb0bc251ddc5"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a0d5002b7d345f8a2dd06cb0bc251ddc5">multiply</a> (float *dest, float multiplier, int numValues) noexcept</td></tr>
 <tr class="memdesc:a0d5002b7d345f8a2dd06cb0bc251ddc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplies each of the destination values by a fixed multiplier.  <a href="#a0d5002b7d345f8a2dd06cb0bc251ddc5"></a><br/></td></tr>
 <tr class="separator:a0d5002b7d345f8a2dd06cb0bc251ddc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9ea8d3e460667b69be7c9f0e7590299"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#ac9ea8d3e460667b69be7c9f0e7590299">negate</a> (float *dest, const float *src, int numValues) noexcept</td></tr>
+<tr class="memdesc:ac9ea8d3e460667b69be7c9f0e7590299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a source vector to a destination, negating each value.  <a href="#ac9ea8d3e460667b69be7c9f0e7590299"></a><br/></td></tr>
+<tr class="separator:ac9ea8d3e460667b69be7c9f0e7590299"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6bede830cbeff0b93b6998b5b603000"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#ac6bede830cbeff0b93b6998b5b603000">convertFixedToFloat</a> (float *dest, const int *src, float multiplier, int numValues) noexcept</td></tr>
 <tr class="memdesc:ac6bede830cbeff0b93b6998b5b603000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a stream of integers to floats, multiplying each one by the given multiplier.  <a href="#ac6bede830cbeff0b93b6998b5b603000"></a><br/></td></tr>
 <tr class="separator:ac6bede830cbeff0b93b6998b5b603000"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,6 +135,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5ce3d7b606c5bc6f87bdd808f3a432c6"><td class="memItemLeft" align="right" valign="top">static float <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a5ce3d7b606c5bc6f87bdd808f3a432c6">findMaximum</a> (const float *src, int numValues) noexcept</td></tr>
 <tr class="memdesc:a5ce3d7b606c5bc6f87bdd808f3a432c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the maximum value in the given array.  <a href="#a5ce3d7b606c5bc6f87bdd808f3a432c6"></a><br/></td></tr>
 <tr class="separator:a5ce3d7b606c5bc6f87bdd808f3a432c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65f85dc11b1c553add2d46d84ba814e7"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a65f85dc11b1c553add2d46d84ba814e7">enableFlushToZeroMode</a> (bool shouldEnable) noexcept</td></tr>
+<tr class="memdesc:a65f85dc11b1c553add2d46d84ba814e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">On Intel CPUs, this method enables or disables the SSE flush-to-zero mode.  <a href="#a65f85dc11b1c553add2d46d84ba814e7"></a><br/></td></tr>
+<tr class="separator:a65f85dc11b1c553add2d46d84ba814e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A collection of simple vector operations on arrays of floats, accelerated with SIMD instructions where possible. </p>
@@ -520,6 +526,48 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac9ea8d3e460667b69be7c9f0e7590299"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::negate </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numValues</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copies a source vector to a destination, negating each value. </p>
+
+</div>
+</div>
 <a class="anchor" id="ac6bede830cbeff0b93b6998b5b603000"></a>
 <div class="memitem">
 <div class="memproto">
@@ -685,6 +733,33 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Finds the maximum value in the given array. </p>
+
+</div>
+</div>
+<a class="anchor" id="a65f85dc11b1c553add2d46d84ba814e7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::enableFlushToZeroMode </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>shouldEnable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>On Intel CPUs, this method enables or disables the SSE flush-to-zero mode. </p>
+<p>Effectively, this is a wrapper around a call to _MM_SET_FLUSH_ZERO_MODE </p>
 
 </div>
 </div>

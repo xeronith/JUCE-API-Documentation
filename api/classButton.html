@@ -159,9 +159,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8cf8327c247a9c1fa1c82c20ce69bded"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a8cf8327c247a9c1fa1c82c20ce69bded">getClickingTogglesState</a> () const noexcept</td></tr>
 <tr class="memdesc:a8cf8327c247a9c1fa1c82c20ce69bded"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this button is set to be an automatic toggle-button.  <a href="#a8cf8327c247a9c1fa1c82c20ce69bded"></a><br/></td></tr>
 <tr class="separator:a8cf8327c247a9c1fa1c82c20ce69bded"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94f39a6f954ab585bda4281c965d73e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a94f39a6f954ab585bda4281c965d73e0">setRadioGroupId</a> (int newGroupId)</td></tr>
-<tr class="memdesc:a94f39a6f954ab585bda4281c965d73e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables the button to act as a member of a mutually-exclusive group of 'radio buttons'.  <a href="#a94f39a6f954ab585bda4281c965d73e0"></a><br/></td></tr>
-<tr class="separator:a94f39a6f954ab585bda4281c965d73e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29adebc6ed27829f75b69c6ba40ef958"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a29adebc6ed27829f75b69c6ba40ef958">setRadioGroupId</a> (int newGroupId, <a class="el" href="juce__NotificationType_8h.html#a25a31a4bdc02a0d0adb743e26dd14ba9">NotificationType</a> notification=<a class="el" href="juce__NotificationType_8h.html#a25a31a4bdc02a0d0adb743e26dd14ba9ad9a3eff1d1ddebf33141da7cf581be4c">sendNotification</a>)</td></tr>
+<tr class="memdesc:a29adebc6ed27829f75b69c6ba40ef958"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables the button to act as a member of a mutually-exclusive group of 'radio buttons'.  <a href="#a29adebc6ed27829f75b69c6ba40ef958"></a><br/></td></tr>
+<tr class="separator:a29adebc6ed27829f75b69c6ba40ef958"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa20cdb24410a07136dd2ec603179972c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#aa20cdb24410a07136dd2ec603179972c">getRadioGroupId</a> () const noexcept</td></tr>
 <tr class="memdesc:aa20cdb24410a07136dd2ec603179972c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the ID of the group to which this button belongs.  <a href="#aa20cdb24410a07136dd2ec603179972c"></a><br/></td></tr>
 <tr class="separator:aa20cdb24410a07136dd2ec603179972c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,12 +174,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8a6488055955fede16492a90a8967168"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a8a6488055955fede16492a90a8967168">triggerClick</a> ()</td></tr>
 <tr class="memdesc:a8a6488055955fede16492a90a8967168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Causes the button to act as if it's been clicked.  <a href="#a8a6488055955fede16492a90a8967168"></a><br/></td></tr>
 <tr class="separator:a8a6488055955fede16492a90a8967168"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e925690da1e48ceae6f233fc6cfe4bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a1e925690da1e48ceae6f233fc6cfe4bb">setCommandToTrigger</a> (<a class="el" href="classApplicationCommandManager.html">ApplicationCommandManager</a> *commandManagerToUse, int commandID, bool generateTooltip)</td></tr>
-<tr class="memdesc:a1e925690da1e48ceae6f233fc6cfe4bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a command ID for this button to automatically invoke when it's clicked.  <a href="#a1e925690da1e48ceae6f233fc6cfe4bb"></a><br/></td></tr>
-<tr class="separator:a1e925690da1e48ceae6f233fc6cfe4bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b01e62fd4d486ef68fc3e660adb3516"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a8b01e62fd4d486ef68fc3e660adb3516">getCommandID</a> () const noexcept</td></tr>
-<tr class="memdesc:a8b01e62fd4d486ef68fc3e660adb3516"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the command ID that was set by <a class="el" href="classButton.html#a1e925690da1e48ceae6f233fc6cfe4bb" title="Sets a command ID for this button to automatically invoke when it&#39;s clicked.">setCommandToTrigger()</a>.  <a href="#a8b01e62fd4d486ef68fc3e660adb3516"></a><br/></td></tr>
-<tr class="separator:a8b01e62fd4d486ef68fc3e660adb3516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d29d9c9ab75389a170b67a364e0cb9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a3d29d9c9ab75389a170b67a364e0cb9e">setCommandToTrigger</a> (<a class="el" href="classApplicationCommandManager.html">ApplicationCommandManager</a> *commandManagerToUse, <a class="el" href="juce__ApplicationCommandID_8h.html#afd69b5d28aad07b587b693925e09308b">CommandID</a> commandID, bool generateTooltip)</td></tr>
+<tr class="memdesc:a3d29d9c9ab75389a170b67a364e0cb9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a command ID for this button to automatically invoke when it's clicked.  <a href="#a3d29d9c9ab75389a170b67a364e0cb9e"></a><br/></td></tr>
+<tr class="separator:a3d29d9c9ab75389a170b67a364e0cb9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5bcb1ff0257d8c441076228549eb2a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="juce__ApplicationCommandID_8h.html#afd69b5d28aad07b587b693925e09308b">CommandID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#ae5bcb1ff0257d8c441076228549eb2a4">getCommandID</a> () const noexcept</td></tr>
+<tr class="memdesc:ae5bcb1ff0257d8c441076228549eb2a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the command ID that was set by <a class="el" href="classButton.html#a3d29d9c9ab75389a170b67a364e0cb9e" title="Sets a command ID for this button to automatically invoke when it&#39;s clicked.">setCommandToTrigger()</a>.  <a href="#ae5bcb1ff0257d8c441076228549eb2a4"></a><br/></td></tr>
+<tr class="separator:ae5bcb1ff0257d8c441076228549eb2a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb5d0ab1c10c5f072776ae6893f22944"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#afb5d0ab1c10c5f072776ae6893f22944">addShortcut</a> (const <a class="el" href="classKeyPress.html">KeyPress</a> &amp;)</td></tr>
 <tr class="memdesc:afb5d0ab1c10c5f072776ae6893f22944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns a shortcut key to trigger the button.  <a href="#afb5d0ab1c10c5f072776ae6893f22944"></a><br/></td></tr>
 <tr class="separator:afb5d0ab1c10c5f072776ae6893f22944"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1080,7 +1080,7 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classButton.html#ae1723837340c174f0f212855d247b626" title="Returns true if the button is &#39;on&#39;.">getToggleState</a>, <a class="el" href="classButton.html#a94f39a6f954ab585bda4281c965d73e0" title="Enables the button to act as a member of a mutually-exclusive group of &#39;radio buttons&#39;.">setRadioGroupId</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classButton.html#ae1723837340c174f0f212855d247b626" title="Returns true if the button is &#39;on&#39;.">getToggleState</a>, <a class="el" href="classButton.html#a29adebc6ed27829f75b69c6ba40ef958" title="Enables the button to act as a member of a mutually-exclusive group of &#39;radio buttons&#39;.">setRadioGroupId</a> </dd></dl>
 
 </div>
 </div>
@@ -1191,7 +1191,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a94f39a6f954ab585bda4281c965d73e0"></a>
+<a class="anchor" id="a29adebc6ed27829f75b69c6ba40ef958"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1199,8 +1199,18 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">void Button::setRadioGroupId </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>newGroupId</em></td><td>)</td>
+          <td class="paramname"><em>newGroupId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="juce__NotificationType_8h.html#a25a31a4bdc02a0d0adb743e26dd14ba9">NotificationType</a>&#160;</td>
+          <td class="paramname"><em>notification</em> = <code><a class="el" href="juce__NotificationType_8h.html#a25a31a4bdc02a0d0adb743e26dd14ba9ad9a3eff1d1ddebf33141da7cf581be4c">sendNotification</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1209,6 +1219,7 @@ Additional Inherited Members</h2></td></tr>
 <p>If the group ID is set to a non-zero number, then this button will act as part of a group of buttons with the same ID, only one of which can be 'on' at the same time. Note that when it's part of a group, clicking a toggle-button that's 'on' won't turn it off.</p>
 <p>To find other buttons with the same ID, this button will search through its sibling components for ToggleButtons, so all the buttons for a particular group must be placed inside the same parent component.</p>
 <p>Set the group ID back to zero if you want it to act as a normal toggle button again.</p>
+<p>The notification argument lets you specify how other buttons should react to being turned on or off in response to this call.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classButton.html#aa20cdb24410a07136dd2ec603179972c" title="Returns the ID of the group to which this button belongs.">getRadioGroupId</a> </dd></dl>
 
 </div>
@@ -1235,7 +1246,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the ID of the group to which this button belongs. </p>
-<p>(See <a class="el" href="classButton.html#a94f39a6f954ab585bda4281c965d73e0" title="Enables the button to act as a member of a mutually-exclusive group of &#39;radio buttons&#39;.">setRadioGroupId()</a> for an explanation of this). </p>
+<p>(See <a class="el" href="classButton.html#a29adebc6ed27829f75b69c6ba40ef958" title="Enables the button to act as a member of a mutually-exclusive group of &#39;radio buttons&#39;.">setRadioGroupId()</a> for an explanation of this). </p>
 
 </div>
 </div>
@@ -1307,7 +1318,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1e925690da1e48ceae6f233fc6cfe4bb"></a>
+<a class="anchor" id="a3d29d9c9ab75389a170b67a364e0cb9e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1320,7 +1331,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="juce__ApplicationCommandID_8h.html#afd69b5d28aad07b587b693925e09308b">CommandID</a>&#160;</td>
           <td class="paramname"><em>commandID</em>, </td>
         </tr>
         <tr>
@@ -1341,11 +1352,11 @@ Additional Inherited Members</h2></td></tr>
 <p>When the button is pressed, it will use the given manager to trigger the command ID.</p>
 <p>Obviously be careful that the <a class="el" href="classApplicationCommandManager.html" title="One of these objects holds a list of all the commands your app can perform, and despatches these comm...">ApplicationCommandManager</a> doesn't get deleted before this button is. To disable the command triggering, call this method and pass nullptr as the command manager.</p>
 <p>If generateTooltip is true, then the button's tooltip will be automatically generated based on the name of this command and its current shortcut key.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classButton.html#afb5d0ab1c10c5f072776ae6893f22944" title="Assigns a shortcut key to trigger the button.">addShortcut</a>, <a class="el" href="classButton.html#a8b01e62fd4d486ef68fc3e660adb3516" title="Returns the command ID that was set by setCommandToTrigger().">getCommandID</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classButton.html#afb5d0ab1c10c5f072776ae6893f22944" title="Assigns a shortcut key to trigger the button.">addShortcut</a>, <a class="el" href="classButton.html#ae5bcb1ff0257d8c441076228549eb2a4" title="Returns the command ID that was set by setCommandToTrigger().">getCommandID</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a8b01e62fd4d486ef68fc3e660adb3516"></a>
+<a class="anchor" id="ae5bcb1ff0257d8c441076228549eb2a4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1353,7 +1364,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int Button::getCommandID </td>
+          <td class="memname"><a class="el" href="juce__ApplicationCommandID_8h.html#afd69b5d28aad07b587b693925e09308b">CommandID</a> Button::getCommandID </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1366,7 +1377,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the command ID that was set by <a class="el" href="classButton.html#a1e925690da1e48ceae6f233fc6cfe4bb" title="Sets a command ID for this button to automatically invoke when it&#39;s clicked.">setCommandToTrigger()</a>. </p>
+<p>Returns the command ID that was set by <a class="el" href="classButton.html#a3d29d9c9ab75389a170b67a364e0cb9e" title="Sets a command ID for this button to automatically invoke when it&#39;s clicked.">setCommandToTrigger()</a>. </p>
 
 </div>
 </div>
@@ -1386,7 +1397,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Assigns a shortcut key to trigger the button. </p>
 <p>The button registers itself with its top-level parent component for keypresses.</p>
-<p>Note that a different way of linking buttons to keypresses is by using the <a class="el" href="classButton.html#a1e925690da1e48ceae6f233fc6cfe4bb" title="Sets a command ID for this button to automatically invoke when it&#39;s clicked.">setCommandToTrigger()</a> method to invoke a command.</p>
+<p>Note that a different way of linking buttons to keypresses is by using the <a class="el" href="classButton.html#a3d29d9c9ab75389a170b67a364e0cb9e" title="Sets a command ID for this button to automatically invoke when it&#39;s clicked.">setCommandToTrigger()</a> method to invoke a command.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classButton.html#aa8d27148fe4dc88ffa06eecabca9bed6" title="Removes all key shortcuts that had been set for this button.">clearShortcuts</a> </dd></dl>
 
 </div>

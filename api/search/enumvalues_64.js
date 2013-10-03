@@ -3,6 +3,8 @@ var searchData=
   ['defaultflags',['defaultFlags',['../classTableHeaderComponent.html#abfee3b5ccd3289efb38e7b7dd1162831aaf583dc5f74b08d98dc901bdb91bdc9a',1,'TableHeaderComponent']]],
   ['defaultorder',['defaultOrder',['../classKnownPluginList.html#a6beabfccc86796527f663f30f3514098a095b33c1920322812d2f98874fa647c0',1,'KnownPluginList']]],
   ['defaulttextcolourid',['defaultTextColourId',['../classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596aebfaf17bcdaf7960adf28fc44355a51d',1,'CodeEditorComponent']]],
+  ['del',['del',['../namespaceStandardApplicationCommandIDs.html#a8ce34a13722727706c8e98c64454fbf9a3519307963b37e47b3c0935a553c8a13',1,'StandardApplicationCommandIDs']]],
+  ['deselectall',['deselectAll',['../namespaceStandardApplicationCommandIDs.html#a8ce34a13722727706c8e98c64454fbf9acdd0c589b2b1904cde27f75185f65e4a',1,'StandardApplicationCommandIDs']]],
   ['digidesignprotools',['DigidesignProTools',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a98abcd7b565c269a115d7f419114bb9c',1,'PluginHostType']]],
   ['digitalperformer',['DigitalPerformer',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a5fc16668f994993c5f9a7276cd840f4a',1,'PluginHostType']]],
   ['direct',['direct',['../structApplicationCommandTarget_1_1InvocationInfo.html#a87e99a7b4b51787a40700bce2a7acc22a5da64d78c06aae22ea9c1315e99f9557',1,'ApplicationCommandTarget::InvocationInfo']]],

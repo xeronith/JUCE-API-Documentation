@@ -713,8 +713,8 @@ EXCLUDE                = ../juce/modules/juce_graphics/image_formats \
                          ../juce/modules/juce_audio_processors/juce_audio_processors.cpp \
                          ../juce/modules/juce_audio_utils/juce_audio_utils.h \
                          ../juce/modules/juce_audio_utils/juce_audio_utils.cpp \
-                         ../juce/modules/juce_browser_plugin/juce_browser_plugin.h \
-                         ../juce/modules/juce_browser_plugin/juce_browser_plugin.cpp \
+                         ../juce/modules/juce_browser_plugin_client/juce_browser_plugin.h \
+                         ../juce/modules/juce_browser_plugin_client/juce_browser_plugin.cpp \
                          ../juce/modules/juce_core/juce_core.h \
                          ../juce/modules/juce_core/juce_core.cpp \
                          ../juce/modules/juce_core/native \

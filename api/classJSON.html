@@ -111,6 +111,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9614ceea2dcd1e6c9f3bba86e273d024"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJSON.html#a9614ceea2dcd1e6c9f3bba86e273d024">writeToStream</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;output, const <a class="el" href="classvar.html">var</a> &amp;objectToFormat, bool allOnOneLine=false)</td></tr>
 <tr class="memdesc:a9614ceea2dcd1e6c9f3bba86e273d024"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a JSON-formatted representation of the var object to the given stream.  <a href="#a9614ceea2dcd1e6c9f3bba86e273d024"></a><br/></td></tr>
 <tr class="separator:a9614ceea2dcd1e6c9f3bba86e273d024"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2bcb2faacb867a91a841a6d8f137f2a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJSON.html#ab2bcb2faacb867a91a841a6d8f137f2a">escapeString</a> (<a class="el" href="classStringRef.html">StringRef</a>)</td></tr>
+<tr class="memdesc:ab2bcb2faacb867a91a841a6d8f137f2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a version of a string with any extended characters escaped.  <a href="#ab2bcb2faacb867a91a841a6d8f137f2a"></a><br/></td></tr>
+<tr class="separator:ab2bcb2faacb867a91a841a6d8f137f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains static methods for converting JSON-formatted text to and from var objects. </p>
@@ -317,6 +320,32 @@ Static Public Member Functions</h2></td></tr>
 <p>Writes a JSON-formatted representation of the var object to the given stream. </p>
 <p>If allOnOneLine is true, the result will be compacted into a single line of text with no carriage-returns. If false, it will be laid-out in a more human-readable format. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classJSON.html#a2939ffbe0e0ee5a03eac1cd3f3d9a9d0" title="Returns a string which contains a JSON-formatted representation of the var object.">toString</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab2bcb2faacb867a91a841a6d8f137f2a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classString.html">String</a> JSON::escapeString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classStringRef.html">StringRef</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a version of a string with any extended characters escaped. </p>
 
 </div>
 </div>

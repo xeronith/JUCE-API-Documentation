@@ -139,9 +139,12 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a16c818c7c44f16274a7d48f14fef8a6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormat.html#a16c818c7c44f16274a7d48f14fef8a6e">AudioFormat</a> (const <a class="el" href="classString.html">String</a> &amp;formatName, const <a class="el" href="classStringArray.html">StringArray</a> &amp;fileExtensions)</td></tr>
-<tr class="memdesc:a16c818c7c44f16274a7d48f14fef8a6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classAudioFormat.html" title="Subclasses of AudioFormat are used to read and write different audio file formats.">AudioFormat</a> object.  <a href="#a16c818c7c44f16274a7d48f14fef8a6e"></a><br/></td></tr>
-<tr class="separator:a16c818c7c44f16274a7d48f14fef8a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab892573311f3dd4de30e1794d1877ae0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormat.html#ab892573311f3dd4de30e1794d1877ae0">AudioFormat</a> (<a class="el" href="classString.html">String</a> formatName, <a class="el" href="classStringArray.html">StringArray</a> fileExtensions)</td></tr>
+<tr class="memdesc:ab892573311f3dd4de30e1794d1877ae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classAudioFormat.html" title="Subclasses of AudioFormat are used to read and write different audio file formats.">AudioFormat</a> object.  <a href="#ab892573311f3dd4de30e1794d1877ae0"></a><br/></td></tr>
+<tr class="separator:ab892573311f3dd4de30e1794d1877ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca455ed30baa4047ac9c25873618c5c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormat.html#aca455ed30baa4047ac9c25873618c5c3">AudioFormat</a> (<a class="el" href="classStringRef.html">StringRef</a> formatName, <a class="el" href="classStringRef.html">StringRef</a> fileExtensions)</td></tr>
+<tr class="memdesc:aca455ed30baa4047ac9c25873618c5c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classAudioFormat.html" title="Subclasses of AudioFormat are used to read and write different audio file formats.">AudioFormat</a> object.  <a href="#aca455ed30baa4047ac9c25873618c5c3"></a><br/></td></tr>
+<tr class="separator:aca455ed30baa4047ac9c25873618c5c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Subclasses of <a class="el" href="classAudioFormat.html" title="Subclasses of AudioFormat are used to read and write different audio file formats.">AudioFormat</a> are used to read and write different audio file formats. </p>
@@ -172,7 +175,7 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a16c818c7c44f16274a7d48f14fef8a6e"></a>
+<a class="anchor" id="ab892573311f3dd4de30e1794d1877ae0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -182,13 +185,13 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">AudioFormat::AudioFormat </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classString.html">String</a>&#160;</td>
           <td class="paramname"><em>formatName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classStringArray.html">StringArray</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classStringArray.html">StringArray</a>&#160;</td>
           <td class="paramname"><em>fileExtensions</em>&#160;</td>
         </tr>
         <tr>
@@ -208,7 +211,50 @@ Protected Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">formatName</td><td>this sets the value that will be returned by <a class="el" href="classAudioFormat.html#a8b33099d624ef043f53e4b0082800abf" title="Returns the name of this format.">getFormatName()</a> </td></tr>
-    <tr><td class="paramname">fileExtensions</td><td>a zero-terminated list of file extensions - this is what will be returned by getFileExtension() </td></tr>
+    <tr><td class="paramname">fileExtensions</td><td>an array of file extensions - these will be returned by <a class="el" href="classAudioFormat.html#a1efaa8ebdc8c026fdaad727e766b311c" title="Returns all the file extensions that might apply to a file of this format.">getFileExtensions()</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aca455ed30baa4047ac9c25873618c5c3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AudioFormat::AudioFormat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classStringRef.html">StringRef</a>&#160;</td>
+          <td class="paramname"><em>formatName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classStringRef.html">StringRef</a>&#160;</td>
+          <td class="paramname"><em>fileExtensions</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates an <a class="el" href="classAudioFormat.html" title="Subclasses of AudioFormat are used to read and write different audio file formats.">AudioFormat</a> object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">formatName</td><td>this sets the value that will be returned by <a class="el" href="classAudioFormat.html#a8b33099d624ef043f53e4b0082800abf" title="Returns the name of this format.">getFormatName()</a> </td></tr>
+    <tr><td class="paramname">fileExtensions</td><td>a whitespace-separated list of file extensions - these will be returned by <a class="el" href="classAudioFormat.html#a1efaa8ebdc8c026fdaad727e766b311c" title="Returns all the file extensions that might apply to a file of this format.">getFileExtensions()</a> </td></tr>
   </table>
   </dd>
 </dl>

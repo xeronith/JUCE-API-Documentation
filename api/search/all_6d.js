@@ -80,7 +80,7 @@ var searchData=
   ['menuitemschanged',['menuItemsChanged',['../classMenuBarModel.html#aac9cef411b80f8b5ab1dc4572ec90019',1,'MenuBarModel']]],
   ['menuitemselected',['menuItemSelected',['../classMenuBarModel.html#aa64b5b9bb4ea4e7bcdc49924659936cc',1,'MenuBarModel']]],
   ['mergingpyramix',['MergingPyramix',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a79118c5e7151a052192d3ca470baed90',1,'PluginHostType']]],
-  ['message',['Message',['../classMessage.html',1,'Message'],['../classMidiMessageSequence_1_1MidiEventHolder.html#a4d9cf307bd15a6abb4e98cfe03f8f580',1,'MidiMessageSequence::MidiEventHolder::message()'],['../classMessage.html#a223b9a5452992205c5afd647dc3faa25',1,'Message::Message()']]],
+  ['message',['Message',['../classMessage.html',1,'Message'],['../classMessage.html#a223b9a5452992205c5afd647dc3faa25',1,'Message::Message()'],['../classMidiMessageSequence_1_1MidiEventHolder.html#a4d9cf307bd15a6abb4e98cfe03f8f580',1,'MidiMessageSequence::MidiEventHolder::message()']]],
   ['messagebase',['MessageBase',['../classMessageManager_1_1MessageBase.html',1,'MessageManager']]],
   ['messagebase',['MessageBase',['../classMessageManager_1_1MessageBase.html#aa6778b8af6b43e189e8e9d5136609bdc',1,'MessageManager::MessageBase']]],
   ['messagecallback',['messageCallback',['../classCallbackMessage.html#a1f72c1e680e26f44780ac9437f3450de',1,'CallbackMessage::messageCallback()'],['../classMessageManager_1_1MessageBase.html#a3cbc8f5a0aa7496a7653fa3c0fd49232',1,'MessageManager::MessageBase::messageCallback()']]],

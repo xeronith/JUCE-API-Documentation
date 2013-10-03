@@ -317,6 +317,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a13348f90ec60de09d242265d4652711c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#a13348f90ec60de09d242265d4652711c">getKeySignatureNumberOfSharpsOrFlats</a> () const noexcept</td></tr>
 <tr class="memdesc:a13348f90ec60de09d242265d4652711c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the key from a key-signature meta-event.  <a href="#a13348f90ec60de09d242265d4652711c"></a><br/></td></tr>
 <tr class="separator:a13348f90ec60de09d242265d4652711c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9388bf7192568805515545ec31fa605b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#a9388bf7192568805515545ec31fa605b">isKeySignatureMajorKey</a> () const noexcept</td></tr>
+<tr class="memdesc:a9388bf7192568805515545ec31fa605b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this key-signature event is major, or false if it's minor.  <a href="#a9388bf7192568805515545ec31fa605b"></a><br/></td></tr>
+<tr class="separator:a9388bf7192568805515545ec31fa605b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15aa1d11ffbdfbe78b2a11bf6375f4f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#a15aa1d11ffbdfbe78b2a11bf6375f4f9">isMidiChannelMetaEvent</a> () const noexcept</td></tr>
 <tr class="memdesc:a15aa1d11ffbdfbe78b2a11bf6375f4f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is a 'channel' meta-event.  <a href="#a15aa1d11ffbdfbe78b2a11bf6375f4f9"></a><br/></td></tr>
 <tr class="separator:a15aa1d11ffbdfbe78b2a11bf6375f4f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -413,6 +416,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a37f45d1509f385ab05b93c0795cc9fc1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiMessage.html">MidiMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#a37f45d1509f385ab05b93c0795cc9fc1">timeSignatureMetaEvent</a> (int numerator, int denominator)</td></tr>
 <tr class="memdesc:a37f45d1509f385ab05b93c0795cc9fc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a time-signature meta-event.  <a href="#a37f45d1509f385ab05b93c0795cc9fc1"></a><br/></td></tr>
 <tr class="separator:a37f45d1509f385ab05b93c0795cc9fc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af293098dc762316469a0bb1edfa4f53c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiMessage.html">MidiMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#af293098dc762316469a0bb1edfa4f53c">keySignatureMetaEvent</a> (int numberOfSharpsOrFlats, bool isMinorKey)</td></tr>
+<tr class="memdesc:af293098dc762316469a0bb1edfa4f53c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a key-signature meta-event.  <a href="#af293098dc762316469a0bb1edfa4f53c"></a><br/></td></tr>
+<tr class="separator:af293098dc762316469a0bb1edfa4f53c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd3fc870ce448791ea794d858062435a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiMessage.html">MidiMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#afd3fc870ce448791ea794d858062435a">midiChannelMetaEvent</a> (int channel) noexcept</td></tr>
 <tr class="memdesc:afd3fc870ce448791ea794d858062435a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a midi channel meta-event.  <a href="#afd3fc870ce448791ea794d858062435a"></a><br/></td></tr>
 <tr class="separator:afd3fc870ce448791ea794d858062435a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -995,7 +1001,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Changes the message's associated timestamp. </p>
-<p>The units for the timestamp will be application-specific - see the notes for <a class="el" href="classMidiMessage.html#a9a942c96a776e80e3c512058b29011a8" title="Returns the timestamp associated with this message.">getTimeStamp()</a>.</p>
+<p>The units for the timestamp will be application-specific - see the notes for <a class="el" href="classMidiMessage.html#a9a942c96a776e80e3c512058b29011a8" title="Returns the timestamp associated with this message.">getTimeStamp()</a>. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a49112e5cf324feff8c69e2a2d8963695" title="Adds a value to the message&#39;s timestamp.">addToTimeStamp</a>, <a class="el" href="classMidiMessage.html#a9a942c96a776e80e3c512058b29011a8" title="Returns the timestamp associated with this message.">getTimeStamp</a> </dd></dl>
 
 </div>
@@ -2958,7 +2964,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns true if this is a 'key-signature' meta-event. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a13348f90ec60de09d242265d4652711c" title="Returns the key from a key-signature meta-event.">getKeySignatureNumberOfSharpsOrFlats</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a13348f90ec60de09d242265d4652711c" title="Returns the key from a key-signature meta-event.">getKeySignatureNumberOfSharpsOrFlats</a>, <a class="el" href="classMidiMessage.html#a9388bf7192568805515545ec31fa605b" title="Returns true if this key-signature event is major, or false if it&#39;s minor.">isKeySignatureMajorKey</a> </dd></dl>
 
 </div>
 </div>
@@ -2984,6 +2990,77 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the key from a key-signature meta-event. </p>
+<p>This method must only be called if <a class="el" href="classMidiMessage.html#ae686c5d86fa7d04df268f56bbf853f23" title="Returns true if this is a &#39;key-signature&#39; meta-event.">isKeySignatureMetaEvent()</a> is true. A positive number here indicates the number of sharps in the key signature, and a negative number indicates a number of flats. So e.g. 3 = F# + C# + G#, -2 = Bb + Eb </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#ae686c5d86fa7d04df268f56bbf853f23" title="Returns true if this is a &#39;key-signature&#39; meta-event.">isKeySignatureMetaEvent</a>, <a class="el" href="classMidiMessage.html#a9388bf7192568805515545ec31fa605b" title="Returns true if this key-signature event is major, or false if it&#39;s minor.">isKeySignatureMajorKey</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a9388bf7192568805515545ec31fa605b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MidiMessage::isKeySignatureMajorKey </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if this key-signature event is major, or false if it's minor. </p>
+<p>This method must only be called if <a class="el" href="classMidiMessage.html#ae686c5d86fa7d04df268f56bbf853f23" title="Returns true if this is a &#39;key-signature&#39; meta-event.">isKeySignatureMetaEvent()</a> is true. </p>
+
+</div>
+</div>
+<a class="anchor" id="af293098dc762316469a0bb1edfa4f53c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classMidiMessage.html">MidiMessage</a> MidiMessage::keySignatureMetaEvent </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numberOfSharpsOrFlats</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isMinorKey</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a key-signature meta-event. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">numberOfSharpsOrFlats</td><td>if positive, this indicates the number of sharps in the key; if negative, the number of flats </td></tr>
+    <tr><td class="paramname">isMinorKey</td><td>if true, the key is minor; if false, it is major </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#ae686c5d86fa7d04df268f56bbf853f23" title="Returns true if this is a &#39;key-signature&#39; meta-event.">isKeySignatureMetaEvent</a> </dd></dl>
 
 </div>
@@ -3763,7 +3840,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Checks whether this is an MMC "goto" message. </p>
-<p>If it is, the parameters passed-in are set to the time that the message contains.</p>
+<p>If it is, the parameters passed-in are set to the time that the message contains. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a88a4e968bcde1ba571f3823edda75ab3" title="Creates an MMC &quot;goto&quot; message.">midiMachineControlGoto</a> </dd></dl>
 
 </div>
@@ -3813,7 +3890,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates an MMC "goto" message. </p>
-<p>This messages tells the device to go to a specific frame.</p>
+<p>This messages tells the device to go to a specific frame. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#aa9ce1a0076fb2e6c229a84bd6e2665d9" title="Checks whether this is an MMC &quot;goto&quot; message.">isMidiMachineControlGoto</a> </dd></dl>
 
 </div>

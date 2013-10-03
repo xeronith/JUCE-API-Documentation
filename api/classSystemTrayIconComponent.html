@@ -104,8 +104,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac27871e1c71277804b16c6fc91941d8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the image shown in the taskbar.  <a href="#ac27871e1c71277804b16c6fc91941d8e"></a><br/></td></tr>
 <tr class="separator:ac27871e1c71277804b16c6fc91941d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9df2a1a73814eb73b577090bce9425b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemTrayIconComponent.html#a9df2a1a73814eb73b577090bce9425b9">setIconTooltip</a> (const <a class="el" href="classString.html">String</a> &amp;tooltip)</td></tr>
-<tr class="memdesc:a9df2a1a73814eb73b577090bce9425b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the tooltip that Windows shows above the icon.  <a href="#a9df2a1a73814eb73b577090bce9425b9"></a><br/></td></tr>
+<tr class="memdesc:a9df2a1a73814eb73b577090bce9425b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the icon's tooltip (if the current OS supports this).  <a href="#a9df2a1a73814eb73b577090bce9425b9"></a><br/></td></tr>
 <tr class="separator:a9df2a1a73814eb73b577090bce9425b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc6804bb185922d2fe0d0a7b61f87ec9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemTrayIconComponent.html#acc6804bb185922d2fe0d0a7b61f87ec9">setHighlighted</a> (bool)</td></tr>
+<tr class="memdesc:acc6804bb185922d2fe0d0a7b61f87ec9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Highlights the icon (if the current OS supports this).  <a href="#acc6804bb185922d2fe0d0a7b61f87ec9"></a><br/></td></tr>
+<tr class="separator:acc6804bb185922d2fe0d0a7b61f87ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a927ae00f7d375b817520d253e4e7eb65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemTrayIconComponent.html#a927ae00f7d375b817520d253e4e7eb65">showInfoBubble</a> (const <a class="el" href="classString.html">String</a> &amp;title, const <a class="el" href="classString.html">String</a> &amp;content)</td></tr>
+<tr class="memdesc:a927ae00f7d375b817520d253e4e7eb65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a floating text bubble pointing to the icon (if the current OS supports this).  <a href="#a927ae00f7d375b817520d253e4e7eb65"></a><br/></td></tr>
+<tr class="separator:a927ae00f7d375b817520d253e4e7eb65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9e5f01b380d85df60bc76dcb07baefc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemTrayIconComponent.html#ad9e5f01b380d85df60bc76dcb07baefc">hideInfoBubble</a> ()</td></tr>
+<tr class="memdesc:ad9e5f01b380d85df60bc76dcb07baefc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hides the icon's floating text bubble (if the current OS supports this).  <a href="#ad9e5f01b380d85df60bc76dcb07baefc"></a><br/></td></tr>
+<tr class="separator:ad9e5f01b380d85df60bc76dcb07baefc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2621f9a947dce98aafd84cf9c7f0168"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemTrayIconComponent.html#ad2621f9a947dce98aafd84cf9c7f0168">getNativeHandle</a> () const </td></tr>
+<tr class="memdesc:ad2621f9a947dce98aafd84cf9c7f0168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the raw handle to whatever kind of internal OS structure is involved in showing this icon.  <a href="#ad2621f9a947dce98aafd84cf9c7f0168"></a><br/></td></tr>
+<tr class="separator:ad2621f9a947dce98aafd84cf9c7f0168"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11951b5b8c2b5ee866aa32880a30afc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemTrayIconComponent.html#a11951b5b8c2b5ee866aa32880a30afc9">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;) override</td></tr>
 <tr class="separator:a11951b5b8c2b5ee866aa32880a30afc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classComponent"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classComponent')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classComponent.html">Component</a></td></tr>
@@ -691,7 +703,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><p>On Windows and Linux only, this component sits in the taskbar tray as a small icon. </p>
 <p>To use it, just create one of these components, but don't attempt to make it visible, add it to a parent, or put it on the desktop.</p>
 <p>You can then call <a class="el" href="classSystemTrayIconComponent.html#ac27871e1c71277804b16c6fc91941d8e" title="Changes the image shown in the taskbar.">setIconImage()</a> to create an icon for it in the taskbar.</p>
-<p>To change the icon's tooltip, you can use <a class="el" href="classSystemTrayIconComponent.html#a9df2a1a73814eb73b577090bce9425b9" title="Changes the tooltip that Windows shows above the icon.">setIconTooltip()</a>.</p>
+<p>To change the icon's tooltip, you can use <a class="el" href="classSystemTrayIconComponent.html#a9df2a1a73814eb73b577090bce9425b9" title="Changes the icon&#39;s tooltip (if the current OS supports this).">setIconTooltip()</a>.</p>
 <p>To respond to mouse-events, you can override the normal <a class="el" href="classComponent.html#a8504490979c2b4a6fdf02471b03a78f6" title="Called when a mouse button is pressed.">mouseDown()</a>, <a class="el" href="classComponent.html#a9ef1d5efbd2b9c581c59ad75fb574fd4" title="Called when a mouse button is released.">mouseUp()</a>, <a class="el" href="classComponent.html#a90a5f41210643598f6fdd5013800e5d0" title="Called when a mouse button has been double-clicked on a component.">mouseDoubleClick()</a> and <a class="el" href="classComponent.html#ad2cfbadc42d5c2124f67ae181de1234e" title="Called when the mouse moves inside a component.">mouseMove()</a> methods, and although the x, y position will not be valid, you can use this to respond to clicks. Traditionally you'd use a left-click to show your application's window, and a right-click to show a pop-up menu. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a7e46f4b374a917b7d899128d1d35bcaa"></a>
@@ -759,7 +771,88 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Changes the tooltip that Windows shows above the icon. </p>
+<p>Changes the icon's tooltip (if the current OS supports this). </p>
+
+</div>
+</div>
+<a class="anchor" id="acc6804bb185922d2fe0d0a7b61f87ec9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemTrayIconComponent::setHighlighted </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Highlights the icon (if the current OS supports this). </p>
+
+</div>
+</div>
+<a class="anchor" id="a927ae00f7d375b817520d253e4e7eb65"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemTrayIconComponent::showInfoBubble </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>title</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>content</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Shows a floating text bubble pointing to the icon (if the current OS supports this). </p>
+
+</div>
+</div>
+<a class="anchor" id="ad9e5f01b380d85df60bc76dcb07baefc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemTrayIconComponent::hideInfoBubble </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Hides the icon's floating text bubble (if the current OS supports this). </p>
+
+</div>
+</div>
+<a class="anchor" id="ad2621f9a947dce98aafd84cf9c7f0168"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* SystemTrayIconComponent::getNativeHandle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the raw handle to whatever kind of internal OS structure is involved in showing this icon. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classComponentPeer.html#ab873eaa1294b49c6739a04e1edc5e85e" title="Returns the raw handle to whatever kind of window is being used.">ComponentPeer::getNativeHandle()</a> </dd></dl>
 
 </div>
 </div>

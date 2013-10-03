@@ -1104,8 +1104,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>A set of colour IDs to use to change the colour of various aspects of the slider. </p>
-<p>These constants can be used either via the <a class="el" href="classComponent.html#a875e6cc05407cea2d6a04dced62e13cd" title="Registers a colour to be used for a particular purpose.">Component::setColour()</a>, or <a class="el" href="classLookAndFeel.html#a817beefa430ae0028d6bec566e151d9f" title="Registers a colour to be used for a particular purpose.">LookAndFeel::setColour()</a> methods.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classComponent.html#a875e6cc05407cea2d6a04dced62e13cd" title="Registers a colour to be used for a particular purpose.">Component::setColour</a>, <a class="el" href="classComponent.html#a5e4c30e25faebe1d0854f96623d6d890" title="Looks for a colour that has been registered with the given colour ID number.">Component::findColour</a>, <a class="el" href="classLookAndFeel.html#a817beefa430ae0028d6bec566e151d9f" title="Registers a colour to be used for a particular purpose.">LookAndFeel::setColour</a>, <a class="el" href="classLookAndFeel.html#aa7f9faa480c9ec9d61b66672425f380b" title="Looks for a colour that has been registered with the given colour ID number.">LookAndFeel::findColour</a> </dd></dl>
+<p>These constants can be used either via the <a class="el" href="classComponent.html#a875e6cc05407cea2d6a04dced62e13cd" title="Registers a colour to be used for a particular purpose.">Component::setColour()</a>, or <a class="el" href="classLookAndFeel.html#a167a1e914771f32e433a0d45aaba45e3" title="Registers a colour to be used for a particular purpose.">LookAndFeel::setColour()</a> methods.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classComponent.html#a875e6cc05407cea2d6a04dced62e13cd" title="Registers a colour to be used for a particular purpose.">Component::setColour</a>, <a class="el" href="classComponent.html#a5e4c30e25faebe1d0854f96623d6d890" title="Looks for a colour that has been registered with the given colour ID number.">Component::findColour</a>, <a class="el" href="classLookAndFeel.html#a167a1e914771f32e433a0d45aaba45e3" title="Registers a colour to be used for a particular purpose.">LookAndFeel::setColour</a>, <a class="el" href="classLookAndFeel.html#aa7f9faa480c9ec9d61b66672425f380b" title="Looks for a colour that has been registered with the given colour ID number.">LookAndFeel::findColour</a> </dd></dl>
 <dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
 <tr><td valign="top"><em><a class="anchor" id="a1012002c53381ccc7c1fe7e604a75f44a7479f5409d832c1fc97697450c00bb57"></a>backgroundColourId</em>&nbsp;</td><td>
 <p>A colour to use to fill the slider's background. </p>
@@ -1319,7 +1319,7 @@ Additional Inherited Members</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">startAngleRadians</td><td>the angle (in radians, clockwise from the top) at which the slider's minimum value is represented </td></tr>
     <tr><td class="paramname">endAngleRadians</td><td>the angle (in radians, clockwise from the top) at which the slider's maximum value is represented. This must be greater than startAngleRadians </td></tr>
-    <tr><td class="paramname">stopAtEnd</td><td>if true, then when the slider is dragged around past the minimum or maximum, it'll stop there; if false, it'll wrap back to the opposite value </td></tr>
+    <tr><td class="paramname">stopAtEnd</td><td>determines what happens when a circular drag action rotates beyond the minimum or maximum angle. If true, the value will stop changing until the mouse moves back the way it came; if false, the value will snap back to the value nearest to the mouse. Note that this has no effect if the drag mode is vertical or horizontal. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2669,8 +2669,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Subclasses can override this to convert a text string to a value. </p>
-<p>When the user enters something into the text-entry box, this method is called to convert it to a value.</p>
-<p>The default routine just tries to convert it to a double.</p>
+<p>When the user enters something into the text-entry box, this method is called to convert it to a value. The default implementation just tries to convert it to a double.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a5a1693166d0815f812202b1a3a6eb202" title="Turns the slider&#39;s current value into a text string.">getTextFromValue</a> </dd></dl>
 
 </div>

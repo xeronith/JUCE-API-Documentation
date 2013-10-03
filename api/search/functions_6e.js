@@ -4,7 +4,7 @@ var searchData=
   ['namedvalueset',['NamedValueSet',['../classNamedValueSet.html#a7c23ef1e536e90700bde50433c839597',1,'NamedValueSet::NamedValueSet() noexcept'],['../classNamedValueSet.html#a7336357ad76cf764e20876ca430cc7f9',1,'NamedValueSet::NamedValueSet(const NamedValueSet &amp;other)']]],
   ['nativeimagetype',['NativeImageType',['../classNativeImageType.html#a55b2d128303a0a60a8a44490c64b87b2',1,'NativeImageType']]],
   ['needstobesaved',['needsToBeSaved',['../classPropertiesFile.html#af9e77e3bde952ed5face05c19cd51ed4',1,'PropertiesFile']]],
-  ['negate',['negate',['../classBigInteger.html#a2f597f0f63ffc2410423626c5a850e60',1,'BigInteger']]],
+  ['negate',['negate',['../classFloatVectorOperations.html#ac9ea8d3e460667b69be7c9f0e7590299',1,'FloatVectorOperations::negate()'],['../classBigInteger.html#a2f597f0f63ffc2410423626c5a850e60',1,'BigInteger::negate()']]],
   ['negativeawaremodulo',['negativeAwareModulo',['../juce__MathsFunctions_8h.html#a3cfa905495cba62bd9ad2b73d2dc3f1c',1,'juce_MathsFunctions.h']]],
   ['newopenglcontextcreated',['newOpenGLContextCreated',['../classOpenGLRenderer.html#a59d6279104b47109cf2042b13ae5b61d',1,'OpenGLRenderer']]],
   ['newtransaction',['newTransaction',['../classTextEditor.html#ac1cdc461e88ca484f3528d74a7e1d27c',1,'TextEditor::newTransaction()'],['../classCodeDocument.html#a507bca2d6747323276b938670584f354',1,'CodeDocument::newTransaction()']]],
@@ -24,6 +24,7 @@ var searchData=
   ['notify',['notify',['../classThread.html#ae0e6408f187557bb06c8fff07c4100b7',1,'Thread']]],
   ['nsviewcomponent',['NSViewComponent',['../classNSViewComponent.html#a47f7a2b57ee9175115e1d8c5206e191f',1,'NSViewComponent']]],
   ['nudge',['nudge',['../classAnimatedPosition.html#aa58f2a396a133f7325322b5eeb9b1d3b',1,'AnimatedPosition']]],
+  ['null',['null',['../classUuid.html#a5cf509fff17fc3042469877b4116850c',1,'Uuid']]],
   ['numchannelschanged',['numChannelsChanged',['../classAudioProcessor.html#adb83690e0bdce0710f54b28c020e8e04',1,'AudioProcessor']]],
   ['numelementsinarray',['numElementsInArray',['../juce__MathsFunctions_8h.html#a53205e331c49a67a9a7af0710d44d65e',1,'juce_MathsFunctions.h']]]
 ];

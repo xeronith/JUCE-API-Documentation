@@ -189,6 +189,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7dd01f3ecdd4c861784fd5a57c44b4de"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a7dd01f3ecdd4c861784fd5a57c44b4de">getRMSLevel</a> (int channel, int startSample, int numSamples) const noexcept</td></tr>
 <tr class="memdesc:a7dd01f3ecdd4c861784fd5a57c44b4de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the root mean squared level for a region of a channel.  <a href="#a7dd01f3ecdd4c861784fd5a57c44b4de"></a><br/></td></tr>
 <tr class="separator:a7dd01f3ecdd4c861784fd5a57c44b4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafedeb7082bd796cdd10b9d75f558640"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#aafedeb7082bd796cdd10b9d75f558640">reverse</a> (int channel, int startSample, int numSamples) const noexcept</td></tr>
+<tr class="memdesc:aafedeb7082bd796cdd10b9d75f558640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverses a part of a channel.  <a href="#aafedeb7082bd796cdd10b9d75f558640"></a><br/></td></tr>
+<tr class="separator:aafedeb7082bd796cdd10b9d75f558640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfd94a919ee6a4490f856e798bfe95f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#abfd94a919ee6a4490f856e798bfe95f1">reverse</a> (int startSample, int numSamples) const noexcept</td></tr>
+<tr class="memdesc:abfd94a919ee6a4490f856e798bfe95f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverses a part of the buffer.  <a href="#abfd94a919ee6a4490f856e798bfe95f1"></a><br/></td></tr>
+<tr class="separator:abfd94a919ee6a4490f856e798bfe95f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A multi-channel buffer of 32-bit floating point audio samples. </p>
@@ -1670,6 +1676,84 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the root mean squared level for a region of a channel. </p>
+
+</div>
+</div>
+<a class="anchor" id="aafedeb7082bd796cdd10b9d75f558640"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSampleBuffer::reverse </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>startSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numSamples</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reverses a part of a channel. </p>
+
+</div>
+</div>
+<a class="anchor" id="abfd94a919ee6a4490f856e798bfe95f1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSampleBuffer::reverse </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>startSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numSamples</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reverses a part of the buffer. </p>
 
 </div>
 </div>

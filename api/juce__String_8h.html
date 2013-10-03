@@ -220,6 +220,10 @@ traits &gt; &amp;<a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88
 &amp;<a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__String_8h.html#a54cae297934c6894de21d45e8ad935a2">operator&lt;&lt;</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;stream, const <a class="el" href="classString.html">String</a> &amp;stringToWrite)</td></tr>
 <tr class="memdesc:a54cae297934c6894de21d45e8ad935a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a string to an <a class="el" href="classOutputStream.html" title="The base class for streams that write data to some kind of destination.">OutputStream</a> as UTF8.  <a href="#a54cae297934c6894de21d45e8ad935a2"></a><br/></td></tr>
 <tr class="separator:a54cae297934c6894de21d45e8ad935a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29762fe0d24d14839db43d1dc35c26bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="juce__StandardHeader_8h.html#a65961b3bfbda0ffb83750d914cee38fb">JUCE_API</a> <a class="el" href="classOutputStream.html">OutputStream</a> <br class="typebreak"/>
+&amp;<a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__String_8h.html#a29762fe0d24d14839db43d1dc35c26bf">operator&lt;&lt;</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;stream, <a class="el" href="classStringRef.html">StringRef</a> stringToWrite)</td></tr>
+<tr class="memdesc:a29762fe0d24d14839db43d1dc35c26bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a string to an <a class="el" href="classOutputStream.html" title="The base class for streams that write data to some kind of destination.">OutputStream</a> as UTF8.  <a href="#a29762fe0d24d14839db43d1dc35c26bf"></a><br/></td></tr>
+<tr class="separator:a29762fe0d24d14839db43d1dc35c26bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ae0f6b7a1acb4a2d3060666bf04b31f4e"></a>
@@ -1434,6 +1438,34 @@ template&lt;class traits &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>stringToWrite</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes a string to an <a class="el" href="classOutputStream.html" title="The base class for streams that write data to some kind of destination.">OutputStream</a> as UTF8. </p>
+
+</div>
+</div>
+<a class="anchor" id="a29762fe0d24d14839db43d1dc35c26bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="juce__StandardHeader_8h.html#a65961b3bfbda0ffb83750d914cee38fb">JUCE_API</a> <a class="el" href="classOutputStream.html">OutputStream</a>&amp; <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classOutputStream.html">OutputStream</a> &amp;&#160;</td>
+          <td class="paramname"><em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classStringRef.html">StringRef</a>&#160;</td>
           <td class="paramname"><em>stringToWrite</em>&#160;</td>
         </tr>
         <tr>

@@ -110,9 +110,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac243852bbebb30d33264457579005875"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormatManager.html#ac243852bbebb30d33264457579005875">addFormat</a> (<a class="el" href="classAudioPluginFormat.html">AudioPluginFormat</a> *format)</td></tr>
 <tr class="memdesc:ac243852bbebb30d33264457579005875"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a format to the list.  <a href="#ac243852bbebb30d33264457579005875"></a><br/></td></tr>
 <tr class="separator:ac243852bbebb30d33264457579005875"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a246abfba112f90b88b0e537ee5b97e0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormatManager.html#a246abfba112f90b88b0e537ee5b97e0a">createPluginInstance</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;description, <a class="el" href="classString.html">String</a> &amp;errorMessage) const </td></tr>
-<tr class="memdesc:a246abfba112f90b88b0e537ee5b97e0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to load the type for this description, by trying all the formats that this manager knows about.  <a href="#a246abfba112f90b88b0e537ee5b97e0a"></a><br/></td></tr>
-<tr class="separator:a246abfba112f90b88b0e537ee5b97e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cea8462bb39841dbb78371692cd2952"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormatManager.html#a9cea8462bb39841dbb78371692cd2952">createPluginInstance</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;description, double initialSampleRate, int initialBufferSize, <a class="el" href="classString.html">String</a> &amp;errorMessage) const </td></tr>
+<tr class="memdesc:a9cea8462bb39841dbb78371692cd2952"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to load the type for this description, by trying all the formats that this manager knows about.  <a href="#a9cea8462bb39841dbb78371692cd2952"></a><br/></td></tr>
+<tr class="separator:a9cea8462bb39841dbb78371692cd2952"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa72ffaa8d7fa00a3b510a75064bcb913"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormatManager.html#aa72ffaa8d7fa00a3b510a75064bcb913">doesPluginStillExist</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;description) const </td></tr>
 <tr class="memdesc:aa72ffaa8d7fa00a3b510a75064bcb913"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks that the file or component for this plugin actually still exists.  <a href="#aa72ffaa8d7fa00a3b510a75064bcb913"></a><br/></td></tr>
 <tr class="separator:aa72ffaa8d7fa00a3b510a75064bcb913"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,7 +228,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a246abfba112f90b88b0e537ee5b97e0a"></a>
+<a class="anchor" id="a9cea8462bb39841dbb78371692cd2952"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -237,6 +237,18 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;&#160;</td>
           <td class="paramname"><em>description</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>initialSampleRate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>initialBufferSize</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

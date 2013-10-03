@@ -104,6 +104,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:addcf6a53ee6ac9d21e1e4ad1ba0bcc5d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginInstance.html#addcf6a53ee6ac9d21e1e4ad1ba0bcc5d">fillInPluginDescription</a> (<a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;description) const =0</td></tr>
 <tr class="memdesc:addcf6a53ee6ac9d21e1e4ad1ba0bcc5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills-in the appropriate parts of this plugin description object.  <a href="#addcf6a53ee6ac9d21e1e4ad1ba0bcc5d"></a><br/></td></tr>
 <tr class="separator:addcf6a53ee6ac9d21e1e4ad1ba0bcc5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab66898f8a83ea7ef38154927dbc9bc47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPluginDescription.html">PluginDescription</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginInstance.html#ab66898f8a83ea7ef38154927dbc9bc47">getPluginDescription</a> () const </td></tr>
+<tr class="memdesc:ab66898f8a83ea7ef38154927dbc9bc47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classPluginDescription.html" title="A small class to represent some facts about a particular type of plug-in.">PluginDescription</a> for this plugin.  <a href="#ab66898f8a83ea7ef38154927dbc9bc47"></a><br/></td></tr>
+<tr class="separator:ab66898f8a83ea7ef38154927dbc9bc47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49f7214074ad74ca108f3f770e8c749e"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginInstance.html#a49f7214074ad74ca108f3f770e8c749e">getPlatformSpecificData</a> ()</td></tr>
 <tr class="memdesc:a49f7214074ad74ca108f3f770e8c749e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to some kind of platform-specific data about the plugin.  <a href="#a49f7214074ad74ca108f3f770e8c749e"></a><br/></td></tr>
 <tr class="separator:a49f7214074ad74ca108f3f770e8c749e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -334,19 +337,18 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memdesc:a2e1b21b8831ac529965abffc96223dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags to indicate the type of plugin context in which a processor is being used.  <a href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">More...</a><br/></td></tr>
 <tr class="separator:a2e1b21b8831ac529965abffc96223dcf inherit pub_types_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classAudioProcessor"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classAudioProcessor')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classAudioProcessor.html">AudioProcessor</a></td></tr>
+<tr class="memitem:a6d0c1c945bebbc967d187c0f08b42c4b inherit pub_static_methods_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6d0c1c945bebbc967d187c0f08b42c4b">copyXmlToBinary</a> (const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;xml, juce::MemoryBlock &amp;destData)</td></tr>
+<tr class="memdesc:a6d0c1c945bebbc967d187c0f08b42c4b inherit pub_static_methods_classAudioProcessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that just converts an xml element into a binary blob.  <a href="#a6d0c1c945bebbc967d187c0f08b42c4b"></a><br/></td></tr>
+<tr class="separator:a6d0c1c945bebbc967d187c0f08b42c4b inherit pub_static_methods_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af314980ac708cb8802b48317037e5b5b inherit pub_static_methods_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#af314980ac708cb8802b48317037e5b5b">getXmlFromBinary</a> (const void *data, int sizeInBytes)</td></tr>
+<tr class="memdesc:af314980ac708cb8802b48317037e5b5b inherit pub_static_methods_classAudioProcessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves an XML element that was stored as binary with the <a class="el" href="classAudioProcessor.html#a6d0c1c945bebbc967d187c0f08b42c4b" title="Helper function that just converts an xml element into a binary blob.">copyXmlToBinary()</a> method.  <a href="#af314980ac708cb8802b48317037e5b5b"></a><br/></td></tr>
+<tr class="separator:af314980ac708cb8802b48317037e5b5b inherit pub_static_methods_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a406ae17bd699349d5da8510aa8af1b inherit pub_static_methods_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a2a406ae17bd699349d5da8510aa8af1b">setTypeOfNextNewPlugin</a> (<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">WrapperType</a>)</td></tr>
 <tr class="separator:a2a406ae17bd699349d5da8510aa8af1b inherit pub_static_methods_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classAudioProcessor"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classAudioProcessor')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classAudioProcessor.html">AudioProcessor</a></td></tr>
 <tr class="memitem:a7bf4a5cf41e84de51aab7ccb75d1f897 inherit pub_attribs_classAudioProcessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">WrapperType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a7bf4a5cf41e84de51aab7ccb75d1f897">wrapperType</a></td></tr>
 <tr class="memdesc:a7bf4a5cf41e84de51aab7ccb75d1f897 inherit pub_attribs_classAudioProcessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">When loaded by a plugin wrapper, this flag will be set to indicate the type of plugin within which the processor is running.  <a href="#a7bf4a5cf41e84de51aab7ccb75d1f897"></a><br/></td></tr>
 <tr class="separator:a7bf4a5cf41e84de51aab7ccb75d1f897 inherit pub_attribs_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_static_methods_classAudioProcessor"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classAudioProcessor')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classAudioProcessor.html">AudioProcessor</a></td></tr>
-<tr class="memitem:a6d0c1c945bebbc967d187c0f08b42c4b inherit pro_static_methods_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6d0c1c945bebbc967d187c0f08b42c4b">copyXmlToBinary</a> (const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;xml, juce::MemoryBlock &amp;destData)</td></tr>
-<tr class="memdesc:a6d0c1c945bebbc967d187c0f08b42c4b inherit pro_static_methods_classAudioProcessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that just converts an xml element into a binary blob.  <a href="#a6d0c1c945bebbc967d187c0f08b42c4b"></a><br/></td></tr>
-<tr class="separator:a6d0c1c945bebbc967d187c0f08b42c4b inherit pro_static_methods_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af314980ac708cb8802b48317037e5b5b inherit pro_static_methods_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#af314980ac708cb8802b48317037e5b5b">getXmlFromBinary</a> (const void *data, int sizeInBytes)</td></tr>
-<tr class="memdesc:af314980ac708cb8802b48317037e5b5b inherit pro_static_methods_classAudioProcessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves an XML element that was stored as binary with the <a class="el" href="classAudioProcessor.html#a6d0c1c945bebbc967d187c0f08b42c4b" title="Helper function that just converts an xml element into a binary blob.">copyXmlToBinary()</a> method.  <a href="#af314980ac708cb8802b48317037e5b5b"></a><br/></td></tr>
-<tr class="separator:af314980ac708cb8802b48317037e5b5b inherit pro_static_methods_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classAudioProcessor"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classAudioProcessor')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classAudioProcessor.html">AudioProcessor</a></td></tr>
 <tr class="memitem:a78d1c3e1cabecff818b93de44891d973 inherit pro_attribs_classAudioProcessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioPlayHead.html">AudioPlayHead</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a78d1c3e1cabecff818b93de44891d973">playHead</a></td></tr>
 <tr class="separator:a78d1c3e1cabecff818b93de44891d973 inherit pro_attribs_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -431,6 +433,24 @@ Additional Inherited Members</h2></td></tr>
 <p>Fills-in the appropriate parts of this plugin description object. </p>
 
 <p>Implemented in <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a9498b7769c91b076e34302426c4e361d">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab66898f8a83ea7ef38154927dbc9bc47"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPluginDescription.html">PluginDescription</a> AudioPluginInstance::getPluginDescription </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a <a class="el" href="classPluginDescription.html" title="A small class to represent some facts about a particular type of plug-in.">PluginDescription</a> for this plugin. </p>
+<p>This is just a convenience method to avoid calling fillInPluginDescription. </p>
 
 </div>
 </div>

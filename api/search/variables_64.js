@@ -42,6 +42,7 @@ var searchData=
   ['dimgrey',['dimgrey',['../classColours.html#a737012c7670ba25ccc7bee5ba96c3d2b',1,'Colours']]],
   ['displays',['displays',['../classDesktop_1_1Displays.html#af3bca6783a93f00366a068ea04c661b4',1,'Desktop::Displays']]],
   ['dodgerblue',['dodgerblue',['../classColours.html#a1a07cae34389d93d4b3817a14ef6efda',1,'Colours']]],
+  ['donotsave',['doNotSave',['../structPropertiesFile_1_1Options.html#a28680056e89b7947afe4de44c4ac26c9',1,'PropertiesFile::Options']]],
   ['double_5fpi',['double_Pi',['../juce__MathsFunctions_8h.html#aa929b9e10eedb3b7a6bd8f6ba2d9ddaa',1,'juce_MathsFunctions.h']]],
   ['downkey',['downKey',['../classKeyPress.html#aeb9a20dd50b39f66d7d778d31b6b5f88',1,'KeyPress']]],
   ['dpi',['dpi',['../structDesktop_1_1Displays_1_1Display.html#acfea525d7724fa5b442648346bff2af0',1,'Desktop::Displays::Display']]],

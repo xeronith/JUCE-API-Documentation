@@ -196,6 +196,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aff1a5bef06210af0dae0819b550ecb3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElement.html#aff1a5bef06210af0dae0819b550ecb3d">getChildByName</a> (<a class="el" href="classStringRef.html">StringRef</a> tagNameToLookFor) const noexcept</td></tr>
 <tr class="memdesc:aff1a5bef06210af0dae0819b550ecb3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first sub-element with a given tag-name.  <a href="#aff1a5bef06210af0dae0819b550ecb3d"></a><br/></td></tr>
 <tr class="separator:aff1a5bef06210af0dae0819b550ecb3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abba7899068b3758ad5eb61e15f2e395e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElement.html#abba7899068b3758ad5eb61e15f2e395e">getChildByAttribute</a> (<a class="el" href="classStringRef.html">StringRef</a> attributeName, <a class="el" href="classStringRef.html">StringRef</a> attributeValue) const noexcept</td></tr>
+<tr class="memdesc:abba7899068b3758ad5eb61e15f2e395e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first sub-element which has an attribute that matches the given value.  <a href="#abba7899068b3758ad5eb61e15f2e395e"></a><br/></td></tr>
+<tr class="separator:abba7899068b3758ad5eb61e15f2e395e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b9735dd8a98c5af71db4c532cd10a1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElement.html#a9b9735dd8a98c5af71db4c532cd10a1c">addChildElement</a> (<a class="el" href="classXmlElement.html">XmlElement</a> *newChildElement) noexcept</td></tr>
 <tr class="memdesc:a9b9735dd8a98c5af71db4c532cd10a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends an element to this element's list of children.  <a href="#a9b9735dd8a98c5af71db4c532cd10a1c"></a><br/></td></tr>
 <tr class="separator:a9b9735dd8a98c5af71db4c532cd10a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1393,7 +1396,52 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the first element with this tag name, or nullptr if none is found </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classXmlElement.html#a427991d7a5a39811a6a9b35fefe624bc" title="Returns the next of this element&#39;s siblings.">getNextElement</a>, <a class="el" href="classXmlElement.html#a9fe9798ad1997c993ee35d7580a6189e" title="Returns true if this element is a section of text.">isTextElement</a>, <a class="el" href="classXmlElement.html#ab450f0049f7ff864024ca58550a2c7b9" title="Returns the sub-element at a certain index.">getChildElement</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classXmlElement.html#a427991d7a5a39811a6a9b35fefe624bc" title="Returns the next of this element&#39;s siblings.">getNextElement</a>, <a class="el" href="classXmlElement.html#a9fe9798ad1997c993ee35d7580a6189e" title="Returns true if this element is a section of text.">isTextElement</a>, <a class="el" href="classXmlElement.html#ab450f0049f7ff864024ca58550a2c7b9" title="Returns the sub-element at a certain index.">getChildElement</a>, <a class="el" href="classXmlElement.html#abba7899068b3758ad5eb61e15f2e395e" title="Returns the first sub-element which has an attribute that matches the given value.">getChildByAttribute</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abba7899068b3758ad5eb61e15f2e395e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classXmlElement.html">XmlElement</a>* XmlElement::getChildByAttribute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classStringRef.html">StringRef</a>&#160;</td>
+          <td class="paramname"><em>attributeName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classStringRef.html">StringRef</a>&#160;</td>
+          <td class="paramname"><em>attributeValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the first sub-element which has an attribute that matches the given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">attributeName</td><td>the name of the attribute to check </td></tr>
+    <tr><td class="paramname">attributeValue</td><td>the target value of the attribute </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the first element with this attribute value, or nullptr if none is found </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classXmlElement.html#aff1a5bef06210af0dae0819b550ecb3d" title="Returns the first sub-element with a given tag-name.">getChildByName</a> </dd></dl>
 
 </div>
 </div>

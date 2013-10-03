@@ -119,9 +119,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af6c88835c362d055ec0f0694ebb2a955"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#af6c88835c362d055ec0f0694ebb2a955">findAllTypesForFile</a> (<a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; <a class="el" href="classPluginDescription.html">PluginDescription</a> &gt; &amp;, const <a class="el" href="classString.html">String</a> &amp;fileOrIdentifier) override</td></tr>
 <tr class="memdesc:af6c88835c362d055ec0f0694ebb2a955"><td class="mdescLeft">&#160;</td><td class="mdescRight">This tries to create descriptions for all the plugin types available in a binary module file.  <a href="#af6c88835c362d055ec0f0694ebb2a955"></a><br/></td></tr>
 <tr class="separator:af6c88835c362d055ec0f0694ebb2a955"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a046e704fb6fe20de25d5c728caef8387"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a046e704fb6fe20de25d5c728caef8387">createInstanceFromDescription</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;) override</td></tr>
-<tr class="memdesc:a046e704fb6fe20de25d5c728caef8387"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to recreate a type from a previously generated <a class="el" href="classPluginDescription.html" title="A small class to represent some facts about a particular type of plugin.">PluginDescription</a>.  <a href="#a046e704fb6fe20de25d5c728caef8387"></a><br/></td></tr>
-<tr class="separator:a046e704fb6fe20de25d5c728caef8387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8f2204f53e51bfedee89b1ff0f83941"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#ab8f2204f53e51bfedee89b1ff0f83941">createInstanceFromDescription</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;, double, int) override</td></tr>
+<tr class="memdesc:ab8f2204f53e51bfedee89b1ff0f83941"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to recreate a type from a previously generated <a class="el" href="classPluginDescription.html" title="A small class to represent some facts about a particular type of plug-in.">PluginDescription</a>.  <a href="#ab8f2204f53e51bfedee89b1ff0f83941"></a><br/></td></tr>
+<tr class="separator:ab8f2204f53e51bfedee89b1ff0f83941"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5df306afb3240d91d2bb625c1417a2b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a5df306afb3240d91d2bb625c1417a2b1">fileMightContainThisPluginType</a> (const <a class="el" href="classString.html">String</a> &amp;fileOrIdentifier) override</td></tr>
 <tr class="memdesc:a5df306afb3240d91d2bb625c1417a2b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Should do a quick check to see if this file or directory might be a plugin of this format.  <a href="#a5df306afb3240d91d2bb625c1417a2b1"></a><br/></td></tr>
 <tr class="separator:a5df306afb3240d91d2bb625c1417a2b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -591,7 +591,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a046e704fb6fe20de25d5c728caef8387"></a>
+<a class="anchor" id="ab8f2204f53e51bfedee89b1ff0f83941"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -602,8 +602,24 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname"><a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a>* VSTPluginFormat::createInstanceFromDescription </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;&#160;</td>
-          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td class="paramname"><em>desc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>initialSampleRate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>initialBufferSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -613,10 +629,10 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Tries to recreate a type from a previously generated <a class="el" href="classPluginDescription.html" title="A small class to represent some facts about a particular type of plugin.">PluginDescription</a>. </p>
+<p>Tries to recreate a type from a previously generated <a class="el" href="classPluginDescription.html" title="A small class to represent some facts about a particular type of plug-in.">PluginDescription</a>. </p>
 <dl class="section see"><dt>See Also</dt><dd>PluginDescription::createInstance </dd></dl>
 
-<p>Implements <a class="el" href="classAudioPluginFormat.html#a8efba8d029ae6b22a88cc6d7c84e5ec0">AudioPluginFormat</a>.</p>
+<p>Implements <a class="el" href="classAudioPluginFormat.html#a525319c20460ad04b7bd0898474fdc7e">AudioPluginFormat</a>.</p>
 
 </div>
 </div>
