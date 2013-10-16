@@ -54,6 +54,7 @@ var searchData=
   ['hasmousemovedsignificantlysincepressed',['hasMouseMovedSignificantlySincePressed',['../classMouseInputSource.html#a351f9a0c4b526c0d2702417e54fc726a',1,'MouseInputSource']]],
   ['hasmousewheel',['hasMouseWheel',['../classMouseInputSource.html#a53cae84bba54e2533e00dec6a1789b92',1,'MouseInputSource']]],
   ['hasproperty',['hasProperty',['../classDynamicObject.html#aed8e9e391f64fd8ed239ebf63c9b61c8',1,'DynamicObject::hasProperty()'],['../classValueTree.html#a291b45d9b6b877ade8eb9cdfa5590cae',1,'ValueTree::hasProperty()']]],
+  ['hassametypeas',['hasSameTypeAs',['../classvar.html#a6357525c383c7d52c43d1db7d0669f34',1,'var']]],
   ['hasseparateinputsandoutputs',['hasSeparateInputsAndOutputs',['../classAudioIODeviceType.html#ac87c3129c8e55018e968225b4a47dc74',1,'AudioIODeviceType']]],
   ['hassse',['hasSSE',['../classSystemStats.html#ad5f3b624e4b0d32db1c5702ee039a765',1,'SystemStats']]],
   ['hassse2',['hasSSE2',['../classSystemStats.html#a55e24b924d9c64e019f1efe1888d2963',1,'SystemStats']]],

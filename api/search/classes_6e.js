@@ -2,6 +2,7 @@ var searchData=
 [
   ['namedpipe',['NamedPipe',['../classNamedPipe.html',1,'']]],
   ['namedvalueset',['NamedValueSet',['../classNamedValueSet.html',1,'']]],
+  ['nativefunctionargs',['NativeFunctionArgs',['../structvar_1_1NativeFunctionArgs.html',1,'var']]],
   ['nativeimagetype',['NativeImageType',['../classNativeImageType.html',1,'']]],
   ['nativemessagebox',['NativeMessageBox',['../classNativeMessageBox.html',1,'']]],
   ['newline',['NewLine',['../classNewLine.html',1,'']]],

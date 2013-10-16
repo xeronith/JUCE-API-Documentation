@@ -34,6 +34,7 @@ var searchData=
   ['parseidentifier',['parseIdentifier',['../structCppTokeniserFunctions.html#aea69e827e335f754cb4e9c9c46a07ac5',1,'CppTokeniserFunctions']]],
   ['parsenumber',['parseNumber',['../structCppTokeniserFunctions.html#aa7d38384c966aae354723f534dae49d6',1,'CppTokeniserFunctions']]],
   ['parseoctalliteral',['parseOctalLiteral',['../structCppTokeniserFunctions.html#af3b1bfdb9719b6547c92d40e28f7ee1d',1,'CppTokeniserFunctions']]],
+  ['parsequotedstring',['parseQuotedString',['../classJSON.html#ada4d75848bea4b8d988d670996d89ab1',1,'JSON']]],
   ['parsestring',['parseString',['../classBigInteger.html#aebfbb1afffd8237ba77ae317c612a8f8',1,'BigInteger']]],
   ['parsesvgpath',['parseSVGPath',['../classDrawable.html#aebfffe1d689c9ab863c5c80526703d3f',1,'Drawable']]],
   ['paste',['paste',['../classTextEditor.html#a2a8829c00507b8747ae6ffe71b8e18cc',1,'TextEditor']]],

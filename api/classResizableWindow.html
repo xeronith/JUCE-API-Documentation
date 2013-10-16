@@ -1072,7 +1072,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>This sets the maximum and minimum sizes for the window. </p>
 <p>If the window's current size is outside these limits, it will be resized to make sure it's within them.</p>
-<p>Calling <a class="el" href="classComponent.html#a64cbeee83a441e20ed5e7acb600ae107" title="Changes the component&#39;s position and size.">setBounds()</a> on the component will bypass any size checking - it's only when the window is being resized by the user that these values are enforced.</p>
+<p>A direct call to <a class="el" href="classComponent.html#a64cbeee83a441e20ed5e7acb600ae107" title="Changes the component&#39;s position and size.">setBounds()</a> will bypass any constraint checks, but when the window is dragged by the user or resized by other indirect means, the constrainer will limit the numbers involved.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classResizableWindow.html#a538709f0111ad32b05d858a511bcd5be" title="Make the window resizable or fixed.">setResizable</a>, setFixedAspectRatio </dd></dl>
 
 </div>

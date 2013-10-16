@@ -187,6 +187,7 @@ var searchData=
   ['_7einterprocessconnectionserver',['~InterprocessConnectionServer',['../classInterprocessConnectionServer.html#ac5a60a85820e4c6344a2225b81cf630d',1,'InterprocessConnectionServer']]],
   ['_7einterprocesslock',['~InterProcessLock',['../classInterProcessLock.html#a464f2a7c6a841b37534f1d1cbe5c1571',1,'InterProcessLock']]],
   ['_7eiterator',['~Iterator',['../classMidiBuffer_1_1Iterator.html#a4b227176b60e4b8543c35da2765d7221',1,'MidiBuffer::Iterator::~Iterator()'],['../classListenerList_1_1Iterator.html#a6d090aa6025bf1955b936cfa24cf2057',1,'ListenerList::Iterator::~Iterator()'],['../classPath_1_1Iterator.html#a35875e3d45947d7815da4a769a0a44c8',1,'Path::Iterator::~Iterator()'],['../classCodeDocument_1_1Iterator.html#ab7213db89a00d17eae0f3434dedae0ee',1,'CodeDocument::Iterator::~Iterator()']]],
+  ['_7ejavascriptengine',['~JavascriptEngine',['../classJavascriptEngine.html#af7b279a3ee909a2324804a73f16a6708',1,'JavascriptEngine']]],
   ['_7ejobselector',['~JobSelector',['../classThreadPool_1_1JobSelector.html#a6fa333da0ce4d127f262a55db247cc8f',1,'ThreadPool::JobSelector']]],
   ['_7ejpegimageformat',['~JPEGImageFormat',['../classJPEGImageFormat.html#a92189a737ac849a79b0950b42bf03142',1,'JPEGImageFormat']]],
   ['_7ejuceapplication',['~JUCEApplication',['../classJUCEApplication.html#add71c71bdb57bd2cfdf159e50b8fd680',1,'JUCEApplication']]],

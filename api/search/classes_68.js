@@ -104,7 +104,6 @@ var searchData=
   ['heapblock_3c_20uint8_20_3e',['HeapBlock&lt; uint8 &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20uniformtextsection_20_2a_20_3e',['HeapBlock&lt; UniformTextSection * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20value_20_2a_20_3e',['HeapBlock&lt; Value * &gt;',['../classHeapBlock.html',1,'']]],
-  ['heapblock_3c_20var_20_3e',['HeapBlock&lt; var &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20void_20_2a_20_3e',['HeapBlock&lt; void * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20weakreference_3c_20component_20_3e_20_3e',['HeapBlock&lt; WeakReference&lt; Component &gt; &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20zipentryholder_20_2a_20_3e',['HeapBlock&lt; ZipEntryHolder * &gt;',['../classHeapBlock.html',1,'']]],

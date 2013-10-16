@@ -109,6 +109,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ba948a9d1935253f9770d848f57412f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRandom.html#a6ba948a9d1935253f9770d848f57412f">nextInt</a> (int maxValue) noexcept</td></tr>
 <tr class="memdesc:a6ba948a9d1935253f9770d848f57412f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the next random number, limited to a given range.  <a href="#a6ba948a9d1935253f9770d848f57412f"></a><br/></td></tr>
 <tr class="separator:a6ba948a9d1935253f9770d848f57412f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc9ff9c9678c94c54dcfb9e6f040b64c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRandom.html#abc9ff9c9678c94c54dcfb9e6f040b64c">nextInt</a> (<a class="el" href="classRange.html">Range</a>&lt; int &gt; range) noexcept</td></tr>
+<tr class="memdesc:abc9ff9c9678c94c54dcfb9e6f040b64c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the next random number, limited to a given range.  <a href="#abc9ff9c9678c94c54dcfb9e6f040b64c"></a><br/></td></tr>
+<tr class="separator:abc9ff9c9678c94c54dcfb9e6f040b64c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa78fa923adb76a168c5c67d072cfcef3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRandom.html#aa78fa923adb76a168c5c67d072cfcef3">nextInt64</a> () noexcept</td></tr>
 <tr class="memdesc:aa78fa923adb76a168c5c67d072cfcef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the next 64-bit random number.  <a href="#aa78fa923adb76a168c5c67d072cfcef3"></a><br/></td></tr>
 <tr class="separator:aa78fa923adb76a168c5c67d072cfcef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -276,6 +279,33 @@ Static Public Member Functions</h2></td></tr>
 <p>Returns the next random number, limited to a given range. </p>
 <p>The maxValue parameter may not be negative, or zero. </p>
 <dl class="section return"><dt>Returns</dt><dd>a random integer between 0 (inclusive) and maxValue (exclusive). </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abc9ff9c9678c94c54dcfb9e6f040b64c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Random::nextInt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classRange.html">Range</a>&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>range</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the next random number, limited to a given range. </p>
+<dl class="section return"><dt>Returns</dt><dd>a random integer between the range start (inclusive) and its end (exclusive). </dd></dl>
 
 </div>
 </div>

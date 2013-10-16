@@ -2,6 +2,7 @@ var searchData=
 [
   ['jassert',['jassert',['../juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a',1,'juce_PlatformDefs.h']]],
   ['jassertfalse',['jassertfalse',['../juce__PlatformDefs_8h.html#adc044ce5efecbecf2f5a44cd00db67b3',1,'juce_PlatformDefs.h']]],
+  ['javascriptengine',['JavascriptEngine',['../classJavascriptEngine.html',1,'JavascriptEngine'],['../classJavascriptEngine.html#a4982557880163aadbad5337751057269',1,'JavascriptEngine::JavascriptEngine()']]],
   ['jlimit',['jlimit',['../juce__MathsFunctions_8h.html#a6efeed0752de995d3bc123123f199735',1,'juce_MathsFunctions.h']]],
   ['jmax',['jmax',['../juce__MathsFunctions_8h.html#aafa7f705c9f978725910c5956d04226c',1,'jmax(const Type a, const Type b):&#160;juce_MathsFunctions.h'],['../juce__MathsFunctions_8h.html#afcbc3b08f54b224588dc59db245bbec9',1,'jmax(const Type a, const Type b, const Type c):&#160;juce_MathsFunctions.h'],['../juce__MathsFunctions_8h.html#aba21bad1517dd8777ed53ca423f4f5d3',1,'jmax(const Type a, const Type b, const Type c, const Type d):&#160;juce_MathsFunctions.h']]],
   ['jmin',['jmin',['../juce__MathsFunctions_8h.html#abc3ad3738e50ba0dadc7ac2e5535a09a',1,'jmin(const Type a, const Type b):&#160;juce_MathsFunctions.h'],['../juce__MathsFunctions_8h.html#a391795999a08aa26e06aca6009199cf1',1,'jmin(const Type a, const Type b, const Type c):&#160;juce_MathsFunctions.h'],['../juce__MathsFunctions_8h.html#a120320899f42c1e2aa87841159200e4e',1,'jmin(const Type a, const Type b, const Type c, const Type d):&#160;juce_MathsFunctions.h']]],
@@ -233,6 +234,7 @@ var searchData=
   ['juce_5finterprocesslock_2eh',['juce_InterProcessLock.h',['../juce__InterProcessLock_8h.html',1,'']]],
   ['juce_5fipaddress_2eh',['juce_IPAddress.h',['../juce__IPAddress_8h.html',1,'']]],
   ['juce_5fisfinite',['juce_isfinite',['../juce__MathsFunctions_8h.html#a6f1d1715582be5ebe0e4efc72afddce3',1,'juce_MathsFunctions.h']]],
+  ['juce_5fjavascript_2eh',['juce_Javascript.h',['../juce__Javascript_8h.html',1,'']]],
   ['juce_5fjoin_5fmacro',['JUCE_JOIN_MACRO',['../juce__PlatformDefs_8h.html#a4dac24572cf8155c09d75f34c8297a47',1,'juce_PlatformDefs.h']]],
   ['juce_5fjson_2eh',['juce_JSON.h',['../juce__JSON_8h.html',1,'']]],
   ['juce_5fjustification_2eh',['juce_Justification.h',['../juce__Justification_8h.html',1,'']]],

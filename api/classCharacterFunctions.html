@@ -194,6 +194,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9fbf57c0172b477fc8eb7ebac3f569a8"><td class="memTemplItemLeft" align="right" valign="top">static CharPointerType1&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharacterFunctions.html#a9fbf57c0172b477fc8eb7ebac3f569a8">find</a> (CharPointerType1 textToSearch, const CharPointerType2 substringToLookFor) noexcept</td></tr>
 <tr class="memdesc:a9fbf57c0172b477fc8eb7ebac3f569a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first occurrence of a substring in a string.  <a href="#a9fbf57c0172b477fc8eb7ebac3f569a8"></a><br/></td></tr>
 <tr class="separator:a9fbf57c0172b477fc8eb7ebac3f569a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af839b24f2b8dfaa83181b027880e70c9"><td class="memTemplParams" colspan="2">template&lt;typename CharPointerType &gt; </td></tr>
+<tr class="memitem:af839b24f2b8dfaa83181b027880e70c9"><td class="memTemplItemLeft" align="right" valign="top">static CharPointerType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharacterFunctions.html#af839b24f2b8dfaa83181b027880e70c9">find</a> (CharPointerType textToSearch, const <a class="el" href="juce__CharacterFunctions_8h.html#a7d83261f3888884bbf04a58edc2672da">juce_wchar</a> charToLookFor) noexcept</td></tr>
+<tr class="memdesc:af839b24f2b8dfaa83181b027880e70c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first occurrence of a substring in a string.  <a href="#af839b24f2b8dfaa83181b027880e70c9"></a><br/></td></tr>
+<tr class="separator:af839b24f2b8dfaa83181b027880e70c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a824a98ee3bef8a55a453636704a74ff8"><td class="memTemplParams" colspan="2">template&lt;typename CharPointerType1 , typename CharPointerType2 &gt; </td></tr>
 <tr class="memitem:a824a98ee3bef8a55a453636704a74ff8"><td class="memTemplItemLeft" align="right" valign="top">static int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCharacterFunctions.html#a824a98ee3bef8a55a453636704a74ff8">indexOfIgnoreCase</a> (CharPointerType1 haystack, const CharPointerType2 needle) noexcept</td></tr>
 <tr class="memdesc:a824a98ee3bef8a55a453636704a74ff8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the character index of a given substring in another string, using a case-independent match.  <a href="#a824a98ee3bef8a55a453636704a74ff8"></a><br/></td></tr>
@@ -1110,6 +1114,45 @@ template&lt;typename CharPointerType1 , typename CharPointerType2 &gt; </div>
           <td></td>
           <td class="paramtype">const CharPointerType2&#160;</td>
           <td class="paramname"><em>substringToLookFor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the first occurrence of a substring in a string. </p>
+<p>If the substring is not found, this will return a pointer to the string's null terminator. </p>
+
+</div>
+</div>
+<a class="anchor" id="af839b24f2b8dfaa83181b027880e70c9"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharPointerType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static CharPointerType CharacterFunctions::find </td>
+          <td>(</td>
+          <td class="paramtype">CharPointerType&#160;</td>
+          <td class="paramname"><em>textToSearch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="juce__CharacterFunctions_8h.html#a7d83261f3888884bbf04a58edc2672da">juce_wchar</a>&#160;</td>
+          <td class="paramname"><em>charToLookFor</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

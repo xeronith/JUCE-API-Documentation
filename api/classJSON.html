@@ -114,6 +114,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab2bcb2faacb867a91a841a6d8f137f2a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJSON.html#ab2bcb2faacb867a91a841a6d8f137f2a">escapeString</a> (<a class="el" href="classStringRef.html">StringRef</a>)</td></tr>
 <tr class="memdesc:ab2bcb2faacb867a91a841a6d8f137f2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a version of a string with any extended characters escaped.  <a href="#ab2bcb2faacb867a91a841a6d8f137f2a"></a><br/></td></tr>
 <tr class="separator:ab2bcb2faacb867a91a841a6d8f137f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada4d75848bea4b8d988d670996d89ab1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classResult.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJSON.html#ada4d75848bea4b8d988d670996d89ab1">parseQuotedString</a> (String::CharPointerType &amp;text, <a class="el" href="classvar.html">var</a> &amp;result)</td></tr>
+<tr class="memdesc:ada4d75848bea4b8d988d670996d89ab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a quoted string in <a class="el" href="classJSON.html" title="Contains static methods for converting JSON-formatted text to and from var objects.">JSON</a> format, returning the un-escaped result in the result parameter, and an error message in case the content was illegal.  <a href="#ada4d75848bea4b8d988d670996d89ab1"></a><br/></td></tr>
+<tr class="separator:ada4d75848bea4b8d988d670996d89ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains static methods for converting JSON-formatted text to and from var objects. </p>
@@ -346,6 +349,43 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a version of a string with any extended characters escaped. </p>
+
+</div>
+</div>
+<a class="anchor" id="ada4d75848bea4b8d988d670996d89ab1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classResult.html">Result</a> JSON::parseQuotedString </td>
+          <td>(</td>
+          <td class="paramtype">String::CharPointerType &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvar.html">var</a> &amp;&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parses a quoted string in <a class="el" href="classJSON.html" title="Contains static methods for converting JSON-formatted text to and from var objects.">JSON</a> format, returning the un-escaped result in the result parameter, and an error message in case the content was illegal. </p>
+<p>This advances the text parameter, leaving it positioned after the closing quote. </p>
 
 </div>
 </div>

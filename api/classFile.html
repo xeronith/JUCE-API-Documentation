@@ -225,8 +225,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adf74fb4603dfd5684a6fd68cbb5fa8ce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#adf74fb4603dfd5684a6fd68cbb5fa8ce">isHidden</a> () const </td></tr>
 <tr class="memdesc:adf74fb4603dfd5684a6fd68cbb5fa8ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this file is a hidden or system file.  <a href="#adf74fb4603dfd5684a6fd68cbb5fa8ce"></a><br/></td></tr>
 <tr class="separator:adf74fb4603dfd5684a6fd68cbb5fa8ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5b8bbd9a0dc37f20f281d8f6462f4ef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#af5b8bbd9a0dc37f20f281d8f6462f4ef">isLink</a> () const </td></tr>
+<tr class="memdesc:af5b8bbd9a0dc37f20f281d8f6462f4ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this file is a link or alias that can be followed using <a class="el" href="classFile.html#a6bbe2fbfc5436894574380b185fc2f87" title="If this file is a link or alias, this returns the file that it points to.">getLinkedTarget()</a>.  <a href="#af5b8bbd9a0dc37f20f281d8f6462f4ef"></a><br/></td></tr>
+<tr class="separator:af5b8bbd9a0dc37f20f281d8f6462f4ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bbe2fbfc5436894574380b185fc2f87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a6bbe2fbfc5436894574380b185fc2f87">getLinkedTarget</a> () const </td></tr>
-<tr class="memdesc:a6bbe2fbfc5436894574380b185fc2f87"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this file is a link, this returns the file that it points to.  <a href="#a6bbe2fbfc5436894574380b185fc2f87"></a><br/></td></tr>
+<tr class="memdesc:a6bbe2fbfc5436894574380b185fc2f87"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this file is a link or alias, this returns the file that it points to.  <a href="#a6bbe2fbfc5436894574380b185fc2f87"></a><br/></td></tr>
 <tr class="separator:a6bbe2fbfc5436894574380b185fc2f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2af6e4e6ce8d74bb39b7f3a9a6feedf2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTime.html">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a2af6e4e6ce8d74bb39b7f3a9a6feedf2">getLastModificationTime</a> () const </td></tr>
 <tr class="memdesc:a2af6e4e6ce8d74bb39b7f3a9a6feedf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the last modification time of this file.  <a href="#a2af6e4e6ce8d74bb39b7f3a9a6feedf2"></a><br/></td></tr>
@@ -1245,6 +1248,23 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="af5b8bbd9a0dc37f20f281d8f6462f4ef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool File::isLink </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if this file is a link or alias that can be followed using <a class="el" href="classFile.html#a6bbe2fbfc5436894574380b185fc2f87" title="If this file is a link or alias, this returns the file that it points to.">getLinkedTarget()</a>. </p>
+
+</div>
+</div>
 <a class="anchor" id="a6bbe2fbfc5436894574380b185fc2f87"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1258,8 +1278,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>If this file is a link, this returns the file that it points to. </p>
-<p>If this file isn't actually link, it'll just return itself. </p>
+<p>If this file is a link or alias, this returns the file that it points to. </p>
+<p>If the file isn't actually link, it'll just return itself. </p>
 
 </div>
 </div>

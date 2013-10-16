@@ -123,18 +123,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a59cee4cadee9ea933a33629237aba3b7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#a59cee4cadee9ea933a33629237aba3b7">hasMethod</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;methodName) const </td></tr>
 <tr class="memdesc:a59cee4cadee9ea933a33629237aba3b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether this object has the specified method.  <a href="#a59cee4cadee9ea933a33629237aba3b7"></a><br/></td></tr>
 <tr class="separator:a59cee4cadee9ea933a33629237aba3b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c3dcc6304b1a01bdb48fd25f64757a3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classvar.html">var</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#a8c3dcc6304b1a01bdb48fd25f64757a3">invokeMethod</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;methodName, const <a class="el" href="classvar.html">var</a> *parameters, int numParameters)</td></tr>
-<tr class="memdesc:a8c3dcc6304b1a01bdb48fd25f64757a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invokes a named method on this object.  <a href="#a8c3dcc6304b1a01bdb48fd25f64757a3"></a><br/></td></tr>
-<tr class="separator:a8c3dcc6304b1a01bdb48fd25f64757a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a466c5a99725761f2c1b6969b2f67ba96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#a466c5a99725761f2c1b6969b2f67ba96">setMethod</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;methodName, <a class="el" href="classvar.html#a97719c009a2b23429bd0d88fbb2066ca">var::MethodFunction</a> methodFunction)</td></tr>
-<tr class="memdesc:a466c5a99725761f2c1b6969b2f67ba96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up a method.  <a href="#a466c5a99725761f2c1b6969b2f67ba96"></a><br/></td></tr>
-<tr class="separator:a466c5a99725761f2c1b6969b2f67ba96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fe197fff56356d10158744ee33d2e22"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classvar.html">var</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#a8fe197fff56356d10158744ee33d2e22">invokeMethod</a> (<a class="el" href="classIdentifier.html">Identifier</a> methodName, const <a class="el" href="structvar_1_1NativeFunctionArgs.html">var::NativeFunctionArgs</a> &amp;args)</td></tr>
+<tr class="memdesc:a8fe197fff56356d10158744ee33d2e22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invokes a named method on this object.  <a href="#a8fe197fff56356d10158744ee33d2e22"></a><br/></td></tr>
+<tr class="separator:a8fe197fff56356d10158744ee33d2e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33a5deff9b3da3e4d84dfbbf5bc408d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#a33a5deff9b3da3e4d84dfbbf5bc408d5">setMethod</a> (<a class="el" href="classIdentifier.html">Identifier</a> methodName, <a class="el" href="classvar.html#aab885a8e691e15eda42ab513ca4d968d">var::NativeFunction</a> function)</td></tr>
+<tr class="memdesc:a33a5deff9b3da3e4d84dfbbf5bc408d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a method to the class.  <a href="#a33a5deff9b3da3e4d84dfbbf5bc408d5"></a><br/></td></tr>
+<tr class="separator:a33a5deff9b3da3e4d84dfbbf5bc408d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2512456cd96acf25a48af969b9269944"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#a2512456cd96acf25a48af969b9269944">clear</a> ()</td></tr>
 <tr class="memdesc:a2512456cd96acf25a48af969b9269944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all properties and methods from the object.  <a href="#a2512456cd96acf25a48af969b9269944"></a><br/></td></tr>
 <tr class="separator:a2512456cd96acf25a48af969b9269944"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88367bccf6d0520f53283812ecdc10c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNamedValueSet.html">NamedValueSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#a88367bccf6d0520f53283812ecdc10c9">getProperties</a> () noexcept</td></tr>
 <tr class="memdesc:a88367bccf6d0520f53283812ecdc10c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classNamedValueSet.html" title="Holds a set of named var objects.">NamedValueSet</a> that holds the object's properties.  <a href="#a88367bccf6d0520f53283812ecdc10c9"></a><br/></td></tr>
 <tr class="separator:a88367bccf6d0520f53283812ecdc10c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab149c5346a8edbc969f1d7a4dd161817"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classDynamicObject.html#a794f16134686a9283cd0a8c6a07d963f">Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#ab149c5346a8edbc969f1d7a4dd161817">clone</a> ()</td></tr>
+<tr class="memdesc:ab149c5346a8edbc969f1d7a4dd161817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a clone of this object.  <a href="#ab149c5346a8edbc969f1d7a4dd161817"></a><br/></td></tr>
+<tr class="separator:ab149c5346a8edbc969f1d7a4dd161817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed11473dde7a39682ae17938d53b2840"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#aed11473dde7a39682ae17938d53b2840">writeAsJSON</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;, int indentLevel, bool allOnOneLine)</td></tr>
+<tr class="memdesc:aed11473dde7a39682ae17938d53b2840"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes this object to a text stream in <a class="el" href="classJSON.html" title="Contains static methods for converting JSON-formatted text to and from var objects.">JSON</a> format.  <a href="#aed11473dde7a39682ae17938d53b2840"></a><br/></td></tr>
+<tr class="separator:aed11473dde7a39682ae17938d53b2840"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classReferenceCountedObject"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classReferenceCountedObject')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classReferenceCountedObject.html">ReferenceCountedObject</a></td></tr>
 <tr class="memitem:a878ca594f89f757d29af5a42ee51161f inherit pub_methods_classReferenceCountedObject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObject.html#a878ca594f89f757d29af5a42ee51161f">incReferenceCount</a> () noexcept</td></tr>
 <tr class="memdesc:a878ca594f89f757d29af5a42ee51161f inherit pub_methods_classReferenceCountedObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increments the object's reference count.  <a href="#a878ca594f89f757d29af5a42ee51161f"></a><br/></td></tr>
@@ -165,7 +171,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a dynamically implemented object. </p>
 <p>This class is primarily intended for wrapping scripting language objects, but could be used for other purposes.</p>
-<p>An instance of a <a class="el" href="classDynamicObject.html" title="Represents a dynamically implemented object.">DynamicObject</a> can be used to store named properties, and by subclassing <a class="el" href="classDynamicObject.html#a59cee4cadee9ea933a33629237aba3b7" title="Checks whether this object has the specified method.">hasMethod()</a> and <a class="el" href="classDynamicObject.html#a8c3dcc6304b1a01bdb48fd25f64757a3" title="Invokes a named method on this object.">invokeMethod()</a>, you can give your object methods. </p>
+<p>An instance of a <a class="el" href="classDynamicObject.html" title="Represents a dynamically implemented object.">DynamicObject</a> can be used to store named properties, and by subclassing <a class="el" href="classDynamicObject.html#a59cee4cadee9ea933a33629237aba3b7" title="Checks whether this object has the specified method.">hasMethod()</a> and <a class="el" href="classDynamicObject.html#a8fe197fff56356d10158744ee33d2e22" title="Invokes a named method on this object.">invokeMethod()</a>, you can give your object methods. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a794f16134686a9283cd0a8c6a07d963f"></a>
 <div class="memitem">
@@ -364,7 +370,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8c3dcc6304b1a01bdb48fd25f64757a3"></a>
+<a class="anchor" id="a8fe197fff56356d10158744ee33d2e22"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -374,20 +380,14 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">virtual <a class="el" href="classvar.html">var</a> DynamicObject::invokeMethod </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classIdentifier.html">Identifier</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classIdentifier.html">Identifier</a>&#160;</td>
           <td class="paramname"><em>methodName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classvar.html">var</a> *&#160;</td>
-          <td class="paramname"><em>parameters</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>numParameters</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structvar_1_1NativeFunctionArgs.html">var::NativeFunctionArgs</a> &amp;&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -408,21 +408,21 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a466c5a99725761f2c1b6969b2f67ba96"></a>
+<a class="anchor" id="a33a5deff9b3da3e4d84dfbbf5bc408d5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void DynamicObject::setMethod </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classIdentifier.html">Identifier</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classIdentifier.html">Identifier</a>&#160;</td>
           <td class="paramname"><em>methodName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classvar.html#a97719c009a2b23429bd0d88fbb2066ca">var::MethodFunction</a>&#160;</td>
-          <td class="paramname"><em>methodFunction</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="classvar.html#aab885a8e691e15eda42ab513ca4d968d">var::NativeFunction</a>&#160;</td>
+          <td class="paramname"><em>function</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -432,11 +432,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sets up a method. </p>
-<p>This is basically the same as calling setProperty (methodName, (<a class="el" href="classvar.html#a97719c009a2b23429bd0d88fbb2066ca">var::MethodFunction</a>) myFunction), but helps to avoid accidentally invoking the wrong type of var constructor. It also makes the code easier to read,</p>
-<p>The compiler will probably force you to use an explicit cast your method to a (<a class="el" href="classvar.html#a97719c009a2b23429bd0d88fbb2066ca">var::MethodFunction</a>), e.g. </p>
-<div class="fragment"><div class="line"><a class="code" href="classDynamicObject.html#a466c5a99725761f2c1b6969b2f67ba96" title="Sets up a method.">setMethod</a> (<span class="stringliteral">&quot;doSomething&quot;</span>, (<a class="code" href="classvar.html#a97719c009a2b23429bd0d88fbb2066ca">var::MethodFunction</a>) &amp;MyClass::doSomething);</div>
-</div><!-- fragment --> 
+<p>Adds a method to the class. </p>
+<p>This is basically the same as calling setProperty (methodName, (<a class="el" href="classvar.html#aab885a8e691e15eda42ab513ca4d968d">var::NativeFunction</a>) myFunction), but helps to avoid accidentally invoking the wrong type of var constructor. It also makes the code easier to read, </p>
+
 </div>
 </div>
 <a class="anchor" id="a2512456cd96acf25a48af969b9269944"></a>
@@ -478,6 +476,75 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the <a class="el" href="classNamedValueSet.html" title="Holds a set of named var objects.">NamedValueSet</a> that holds the object's properties. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab149c5346a8edbc969f1d7a4dd161817"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classDynamicObject.html#a794f16134686a9283cd0a8c6a07d963f">Ptr</a> DynamicObject::clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a clone of this object. </p>
+<p>The default implementation of this method just returns a new <a class="el" href="classDynamicObject.html" title="Represents a dynamically implemented object.">DynamicObject</a> with a (deep) copy of all of its properties. Subclasses can override this to implement their own custom copy routines. </p>
+
+</div>
+</div>
+<a class="anchor" id="aed11473dde7a39682ae17938d53b2840"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void DynamicObject::writeAsJSON </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classOutputStream.html">OutputStream</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indentLevel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>allOnOneLine</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Writes this object to a text stream in <a class="el" href="classJSON.html" title="Contains static methods for converting JSON-formatted text to and from var objects.">JSON</a> format. </p>
+<p>This method is used by <a class="el" href="classJSON.html#a2939ffbe0e0ee5a03eac1cd3f3d9a9d0" title="Returns a string which contains a JSON-formatted representation of the var object.">JSON::toString</a> and <a class="el" href="classJSON.html#a9614ceea2dcd1e6c9f3bba86e273d024" title="Writes a JSON-formatted representation of the var object to the given stream.">JSON::writeToStream</a>, and you should never need to call it directly, but it's virtual so that custom object types can stringify themselves appropriately. </p>
 
 </div>
 </div>

@@ -22,6 +22,7 @@ var searchData=
   ['referencecountedobjectptr_3c_20blockingmessage_20_3e',['ReferenceCountedObjectPtr&lt; BlockingMessage &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
   ['referencecountedobjectptr_3c_20imagepixeldata_20_3e',['ReferenceCountedObjectPtr&lt; ImagePixelData &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
   ['referencecountedobjectptr_3c_20referencecountedobject_20_3e',['ReferenceCountedObjectPtr&lt; ReferenceCountedObject &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
+  ['referencecountedobjectptr_3c_20rootobject_20_3e',['ReferenceCountedObjectPtr&lt; RootObject &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
   ['referencecountedobjectptr_3c_20sharedfontinternal_20_3e',['ReferenceCountedObjectPtr&lt; SharedFontInternal &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
   ['referencecountedobjectptr_3c_20sharedobject_20_3e',['ReferenceCountedObjectPtr&lt; SharedObject &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
   ['referencecountedobjectptr_3c_20sharedpointer_20_3e',['ReferenceCountedObjectPtr&lt; SharedPointer &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],

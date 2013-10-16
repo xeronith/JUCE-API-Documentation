@@ -2,6 +2,7 @@ var searchData=
 [
   ['namedpipe',['NamedPipe',['../classNamedPipe.html#a81946cbcb2a7d0c979f5f7e1b565b4ab',1,'NamedPipe']]],
   ['namedvalueset',['NamedValueSet',['../classNamedValueSet.html#a7c23ef1e536e90700bde50433c839597',1,'NamedValueSet::NamedValueSet() noexcept'],['../classNamedValueSet.html#a7336357ad76cf764e20876ca430cc7f9',1,'NamedValueSet::NamedValueSet(const NamedValueSet &amp;other)']]],
+  ['nativefunctionargs',['NativeFunctionArgs',['../structvar_1_1NativeFunctionArgs.html#a8ee7e2f72e487191674312e3da2e2996',1,'var::NativeFunctionArgs']]],
   ['nativeimagetype',['NativeImageType',['../classNativeImageType.html#a55b2d128303a0a60a8a44490c64b87b2',1,'NativeImageType']]],
   ['needstobesaved',['needsToBeSaved',['../classPropertiesFile.html#af9e77e3bde952ed5face05c19cd51ed4',1,'PropertiesFile']]],
   ['negate',['negate',['../classFloatVectorOperations.html#ac9ea8d3e460667b69be7c9f0e7590299',1,'FloatVectorOperations::negate()'],['../classBigInteger.html#a2f597f0f63ffc2410423626c5a850e60',1,'BigInteger::negate()']]],
@@ -13,7 +14,7 @@ var searchData=
   ['nextchar',['nextChar',['../classCodeDocument_1_1Iterator.html#a21dd834cc9809e8c64c1d351fd956735',1,'CodeDocument::Iterator::nextChar()'],['../structCppTokeniserFunctions_1_1StringIterator.html#ad59265b3d4b07ab77064446c23afa127',1,'CppTokeniserFunctions::StringIterator::nextChar()']]],
   ['nextdouble',['nextDouble',['../classRandom.html#a764eba8fe3386554268f395ff1c4e7ea',1,'Random']]],
   ['nextfloat',['nextFloat',['../classRandom.html#aec88d4e5cf44faaa038f6cfb41e96406',1,'Random']]],
-  ['nextint',['nextInt',['../classRandom.html#a69dd2014564478eb13ca41c03679c8f9',1,'Random::nextInt() noexcept'],['../classRandom.html#a6ba948a9d1935253f9770d848f57412f',1,'Random::nextInt(int maxValue) noexcept']]],
+  ['nextint',['nextInt',['../classRandom.html#a69dd2014564478eb13ca41c03679c8f9',1,'Random::nextInt() noexcept'],['../classRandom.html#a6ba948a9d1935253f9770d848f57412f',1,'Random::nextInt(int maxValue) noexcept'],['../classRandom.html#abc9ff9c9678c94c54dcfb9e6f040b64c',1,'Random::nextInt(Range&lt; int &gt; range) noexcept']]],
   ['nextint64',['nextInt64',['../classRandom.html#aa78fa923adb76a168c5c67d072cfcef3',1,'Random']]],
   ['nextlargenumber',['nextLargeNumber',['../classRandom.html#af9aacfc547bfcdba8aa2fa8f04022896',1,'Random']]],
   ['nextpoweroftwo',['nextPowerOfTwo',['../juce__MathsFunctions_8h.html#a137419534afee570f5ff25d643c77176',1,'juce_MathsFunctions.h']]],

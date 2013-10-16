@@ -127,8 +127,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aed8f27aadd82224339e2af19d73494d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the value is 1.  <a href="#aed8f27aadd82224339e2af19d73494d3"></a><br/></td></tr>
 <tr class="separator:aed8f27aadd82224339e2af19d73494d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67b4e436a4d9e7f51bc73b1d53c19eff"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigInteger.html#a67b4e436a4d9e7f51bc73b1d53c19eff">toInteger</a> () const noexcept</td></tr>
-<tr class="memdesc:a67b4e436a4d9e7f51bc73b1d53c19eff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to get the lowest bits of the value as an integer.  <a href="#a67b4e436a4d9e7f51bc73b1d53c19eff"></a><br/></td></tr>
+<tr class="memdesc:a67b4e436a4d9e7f51bc73b1d53c19eff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to get the lowest 32 bits of the value as an integer.  <a href="#a67b4e436a4d9e7f51bc73b1d53c19eff"></a><br/></td></tr>
 <tr class="separator:a67b4e436a4d9e7f51bc73b1d53c19eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb671dce311c1ed3a64f0336f4c76b19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigInteger.html#afb671dce311c1ed3a64f0336f4c76b19">toInt64</a> () const noexcept</td></tr>
+<tr class="memdesc:afb671dce311c1ed3a64f0336f4c76b19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to get the lowest 64 bits of the value as an integer.  <a href="#afb671dce311c1ed3a64f0336f4c76b19"></a><br/></td></tr>
+<tr class="separator:afb671dce311c1ed3a64f0336f4c76b19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad09deac0bc58011e211a59cd80c134f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigInteger.html#ad09deac0bc58011e211a59cd80c134f7">clear</a> ()</td></tr>
 <tr class="memdesc:ad09deac0bc58011e211a59cd80c134f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the value to 0.  <a href="#ad09deac0bc58011e211a59cd80c134f7"></a><br/></td></tr>
 <tr class="separator:ad09deac0bc58011e211a59cd80c134f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -530,7 +533,33 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Attempts to get the lowest bits of the value as an integer. </p>
+<p>Attempts to get the lowest 32 bits of the value as an integer. </p>
+<p>If the value is bigger than the integer limits, this will return only the lower bits. </p>
+
+</div>
+</div>
+<a class="anchor" id="afb671dce311c1ed3a64f0336f4c76b19"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> BigInteger::toInt64 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attempts to get the lowest 64 bits of the value as an integer. </p>
 <p>If the value is bigger than the integer limits, this will return only the lower bits. </p>
 
 </div>

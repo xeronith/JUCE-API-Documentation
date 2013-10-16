@@ -8,5 +8,6 @@ var searchData=
   ['speciallocationtype',['SpecialLocationType',['../classFile.html#a3e19cafabb03c5838160263a6e76313d',1,'File']]],
   ['standardcursortype',['StandardCursorType',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97',1,'MouseCursor']]],
   ['storageformat',['StorageFormat',['../classPropertiesFile.html#ac4d1ac9a6b624f7e0de7787de46dc05e',1,'PropertiesFile']]],
+  ['streamflags',['StreamFlags',['../classChildProcess.html#a9e7be158550b4d2a470e4cceef501892',1,'ChildProcess']]],
   ['styleflags',['StyleFlags',['../classComponentPeer.html#a94a21f91c61f8211774d6f43243a6ddc',1,'ComponentPeer']]]
 ];

@@ -189,6 +189,7 @@ var searchData=
   ['juce_5finterprocessconnectionserver_2eh',['juce_InterprocessConnectionServer.h',['../juce__InterprocessConnectionServer_8h.html',1,'']]],
   ['juce_5finterprocesslock_2eh',['juce_InterProcessLock.h',['../juce__InterProcessLock_8h.html',1,'']]],
   ['juce_5fipaddress_2eh',['juce_IPAddress.h',['../juce__IPAddress_8h.html',1,'']]],
+  ['juce_5fjavascript_2eh',['juce_Javascript.h',['../juce__Javascript_8h.html',1,'']]],
   ['juce_5fjson_2eh',['juce_JSON.h',['../juce__JSON_8h.html',1,'']]],
   ['juce_5fjustification_2eh',['juce_Justification.h',['../juce__Justification_8h.html',1,'']]],
   ['juce_5fkeyboardfocustraverser_2eh',['juce_KeyboardFocusTraverser.h',['../juce__KeyboardFocusTraverser_8h.html',1,'']]],
