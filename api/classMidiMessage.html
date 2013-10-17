@@ -467,18 +467,18 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ada3382fce97082ea6f2a9cb7c35ab336"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#ada3382fce97082ea6f2a9cb7c35ab336">getMidiNoteInHertz</a> (int noteNumber, const double frequencyOfA=440.0) noexcept</td></tr>
 <tr class="memdesc:ada3382fce97082ea6f2a9cb7c35ab336"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the frequency of a midi note number.  <a href="#ada3382fce97082ea6f2a9cb7c35ab336"></a><br/></td></tr>
 <tr class="separator:ada3382fce97082ea6f2a9cb7c35ab336"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2b7142d0355faaf6db202bf3dbe7415"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#af2b7142d0355faaf6db202bf3dbe7415">getGMInstrumentName</a> (int midiInstrumentNumber)</td></tr>
-<tr class="memdesc:af2b7142d0355faaf6db202bf3dbe7415"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the standard name of a GM instrument.  <a href="#af2b7142d0355faaf6db202bf3dbe7415"></a><br/></td></tr>
-<tr class="separator:af2b7142d0355faaf6db202bf3dbe7415"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe6272a51e788b7bef2ec13cc302c2dd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#afe6272a51e788b7bef2ec13cc302c2dd">getGMInstrumentBankName</a> (int midiBankNumber)</td></tr>
-<tr class="memdesc:afe6272a51e788b7bef2ec13cc302c2dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of a bank of GM instruments.  <a href="#afe6272a51e788b7bef2ec13cc302c2dd"></a><br/></td></tr>
-<tr class="separator:afe6272a51e788b7bef2ec13cc302c2dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5af1609a1c7bcb9742bb619586081ab6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#a5af1609a1c7bcb9742bb619586081ab6">getRhythmInstrumentName</a> (int midiNoteNumber)</td></tr>
-<tr class="memdesc:a5af1609a1c7bcb9742bb619586081ab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the standard name of a channel 10 percussion sound.  <a href="#a5af1609a1c7bcb9742bb619586081ab6"></a><br/></td></tr>
-<tr class="separator:a5af1609a1c7bcb9742bb619586081ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8996fa7c1ef6f7528fa462e4b85e70e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#ab8996fa7c1ef6f7528fa462e4b85e70e">getControllerName</a> (int controllerNumber)</td></tr>
-<tr class="memdesc:ab8996fa7c1ef6f7528fa462e4b85e70e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of a controller type number.  <a href="#ab8996fa7c1ef6f7528fa462e4b85e70e"></a><br/></td></tr>
-<tr class="separator:ab8996fa7c1ef6f7528fa462e4b85e70e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a005a9e0c239b4a2e7f8e0a0b8b31c223"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#a005a9e0c239b4a2e7f8e0a0b8b31c223">getGMInstrumentName</a> (int midiInstrumentNumber)</td></tr>
+<tr class="memdesc:a005a9e0c239b4a2e7f8e0a0b8b31c223"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the standard name of a GM instrument, or nullptr if unknown for this index.  <a href="#a005a9e0c239b4a2e7f8e0a0b8b31c223"></a><br/></td></tr>
+<tr class="separator:a005a9e0c239b4a2e7f8e0a0b8b31c223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a016dc199f3232dd46b83bb5e0d73fcee"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#a016dc199f3232dd46b83bb5e0d73fcee">getGMInstrumentBankName</a> (int midiBankNumber)</td></tr>
+<tr class="memdesc:a016dc199f3232dd46b83bb5e0d73fcee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of a bank of GM instruments, or nullptr if unknown for this bank number.  <a href="#a016dc199f3232dd46b83bb5e0d73fcee"></a><br/></td></tr>
+<tr class="separator:a016dc199f3232dd46b83bb5e0d73fcee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c9df982a077de4e45362ea57a56da3a"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#a3c9df982a077de4e45362ea57a56da3a">getRhythmInstrumentName</a> (int midiNoteNumber)</td></tr>
+<tr class="memdesc:a3c9df982a077de4e45362ea57a56da3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the standard name of a channel 10 percussion sound, or nullptr if unknown for this note number.  <a href="#a3c9df982a077de4e45362ea57a56da3a"></a><br/></td></tr>
+<tr class="separator:a3c9df982a077de4e45362ea57a56da3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a95699b23a2b077bb72f39d23e26680"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#a0a95699b23a2b077bb72f39d23e26680">getControllerName</a> (int controllerNumber)</td></tr>
+<tr class="memdesc:a0a95699b23a2b077bb72f39d23e26680"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of a controller type number, or nullptr if unknown for this controller number.  <a href="#a0a95699b23a2b077bb72f39d23e26680"></a><br/></td></tr>
+<tr class="separator:a0a95699b23a2b077bb72f39d23e26680"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Encapsulates a MIDI message. </p>
@@ -1793,7 +1793,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns true if the message is a program (patch) change message. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a9c200619411c253b661acee5660e4b76" title="Returns the new program number of a program change message.">getProgramChangeNumber</a>, <a class="el" href="classMidiMessage.html#af2b7142d0355faaf6db202bf3dbe7415" title="Returns the standard name of a GM instrument.">getGMInstrumentName</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a9c200619411c253b661acee5660e4b76" title="Returns the new program number of a program change message.">getProgramChangeNumber</a>, <a class="el" href="classMidiMessage.html#a005a9e0c239b4a2e7f8e0a0b8b31c223" title="Returns the standard name of a GM instrument, or nullptr if unknown for this index.">getGMInstrumentName</a> </dd></dl>
 
 </div>
 </div>
@@ -1820,7 +1820,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns the new program number of a program change message. </p>
 <p>If the message isn't a program change, the value returned will be nonsense.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a89035047ec5cc9b77d8d484d4a8c9a8d" title="Returns true if the message is a program (patch) change message.">isProgramChange</a>, <a class="el" href="classMidiMessage.html#af2b7142d0355faaf6db202bf3dbe7415" title="Returns the standard name of a GM instrument.">getGMInstrumentName</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a89035047ec5cc9b77d8d484d4a8c9a8d" title="Returns true if the message is a program (patch) change message.">isProgramChange</a>, <a class="el" href="classMidiMessage.html#a005a9e0c239b4a2e7f8e0a0b8b31c223" title="Returns the standard name of a GM instrument, or nullptr if unknown for this index.">getGMInstrumentName</a> </dd></dl>
 
 </div>
 </div>
@@ -1864,7 +1864,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a89035047ec5cc9b77d8d484d4a8c9a8d" title="Returns true if the message is a program (patch) change message.">isProgramChange</a>, <a class="el" href="classMidiMessage.html#af2b7142d0355faaf6db202bf3dbe7415" title="Returns the standard name of a GM instrument.">getGMInstrumentName</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a89035047ec5cc9b77d8d484d4a8c9a8d" title="Returns true if the message is a program (patch) change message.">isProgramChange</a>, <a class="el" href="classMidiMessage.html#a005a9e0c239b4a2e7f8e0a0b8b31c223" title="Returns the standard name of a GM instrument, or nullptr if unknown for this index.">getGMInstrumentName</a> </dd></dl>
 
 </div>
 </div>
@@ -2216,9 +2216,9 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the controller number of a controller message. </p>
-<p>The name of the controller can be looked up using the <a class="el" href="classMidiMessage.html#ab8996fa7c1ef6f7528fa462e4b85e70e" title="Returns the name of a controller type number.">getControllerName()</a> method.</p>
+<p>The name of the controller can be looked up using the <a class="el" href="classMidiMessage.html#a0a95699b23a2b077bb72f39d23e26680" title="Returns the name of a controller type number, or nullptr if unknown for this controller number...">getControllerName()</a> method.</p>
 <p>Note that the value returned is invalid for messages that aren't controller changes.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#ac059a2234b67e28464a519632a1b31db" title="Returns true if this is a midi controller message.">isController</a>, <a class="el" href="classMidiMessage.html#ab8996fa7c1ef6f7528fa462e4b85e70e" title="Returns the name of a controller type number.">getControllerName</a>, <a class="el" href="classMidiMessage.html#aa301aa18dace968d5ebb2f809fd52522" title="Returns the controller value from a controller message.">getControllerValue</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#ac059a2234b67e28464a519632a1b31db" title="Returns true if this is a midi controller message.">isController</a>, <a class="el" href="classMidiMessage.html#a0a95699b23a2b077bb72f39d23e26680" title="Returns the name of a controller type number, or nullptr if unknown for this controller number...">getControllerName</a>, <a class="el" href="classMidiMessage.html#aa301aa18dace968d5ebb2f809fd52522" title="Returns the controller value from a controller message.">getControllerValue</a> </dd></dl>
 
 </div>
 </div>
@@ -4131,7 +4131,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af2b7142d0355faaf6db202bf3dbe7415"></a>
+<a class="anchor" id="a005a9e0c239b4a2e7f8e0a0b8b31c223"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4139,7 +4139,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classString.html">String</a> MidiMessage::getGMInstrumentName </td>
+          <td class="memname">static const char* MidiMessage::getGMInstrumentName </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>midiInstrumentNumber</em></td><td>)</td>
@@ -4153,7 +4153,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the standard name of a GM instrument. </p>
+<p>Returns the standard name of a GM instrument, or nullptr if unknown for this index. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">midiInstrumentNumber</td><td>the program number 0 to 127 </td></tr>
@@ -4164,7 +4164,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afe6272a51e788b7bef2ec13cc302c2dd"></a>
+<a class="anchor" id="a016dc199f3232dd46b83bb5e0d73fcee"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4172,7 +4172,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classString.html">String</a> MidiMessage::getGMInstrumentBankName </td>
+          <td class="memname">static const char* MidiMessage::getGMInstrumentBankName </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>midiBankNumber</em></td><td>)</td>
@@ -4186,7 +4186,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the name of a bank of GM instruments. </p>
+<p>Returns the name of a bank of GM instruments, or nullptr if unknown for this bank number. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">midiBankNumber</td><td>the bank, 0 to 15 </td></tr>
@@ -4196,7 +4196,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5af1609a1c7bcb9742bb619586081ab6"></a>
+<a class="anchor" id="a3c9df982a077de4e45362ea57a56da3a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4204,7 +4204,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classString.html">String</a> MidiMessage::getRhythmInstrumentName </td>
+          <td class="memname">static const char* MidiMessage::getRhythmInstrumentName </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>midiNoteNumber</em></td><td>)</td>
@@ -4218,7 +4218,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the standard name of a channel 10 percussion sound. </p>
+<p>Returns the standard name of a channel 10 percussion sound, or nullptr if unknown for this note number. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">midiNoteNumber</td><td>the key number, 35 to 81 </td></tr>
@@ -4228,7 +4228,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab8996fa7c1ef6f7528fa462e4b85e70e"></a>
+<a class="anchor" id="a0a95699b23a2b077bb72f39d23e26680"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4236,7 +4236,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classString.html">String</a> MidiMessage::getControllerName </td>
+          <td class="memname">static const char* MidiMessage::getControllerName </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>controllerNumber</em></td><td>)</td>
@@ -4250,7 +4250,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the name of a controller type number. </p>
+<p>Returns the name of a controller type number, or nullptr if unknown for this controller number. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a772acb26aa7f2cdc1992210b6d2d496a" title="Returns the controller number of a controller message.">getControllerNumber</a> </dd></dl>
 
 </div>
