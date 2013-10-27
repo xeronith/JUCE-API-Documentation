@@ -202,9 +202,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9b9735dd8a98c5af71db4c532cd10a1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElement.html#a9b9735dd8a98c5af71db4c532cd10a1c">addChildElement</a> (<a class="el" href="classXmlElement.html">XmlElement</a> *newChildElement) noexcept</td></tr>
 <tr class="memdesc:a9b9735dd8a98c5af71db4c532cd10a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends an element to this element's list of children.  <a href="#a9b9735dd8a98c5af71db4c532cd10a1c"></a><br/></td></tr>
 <tr class="separator:a9b9735dd8a98c5af71db4c532cd10a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7501a69d861f61a81879b35efbb7706c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElement.html#a7501a69d861f61a81879b35efbb7706c">insertChildElement</a> (<a class="el" href="classXmlElement.html">XmlElement</a> *newChildNode, int indexToInsertAt) noexcept</td></tr>
-<tr class="memdesc:a7501a69d861f61a81879b35efbb7706c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts an element into this element's list of children.  <a href="#a7501a69d861f61a81879b35efbb7706c"></a><br/></td></tr>
-<tr class="separator:a7501a69d861f61a81879b35efbb7706c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09bf0f9afa11f1c458b40762b440a6e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElement.html#a09bf0f9afa11f1c458b40762b440a6e5">insertChildElement</a> (<a class="el" href="classXmlElement.html">XmlElement</a> *newChildElement, int indexToInsertAt) noexcept</td></tr>
+<tr class="memdesc:a09bf0f9afa11f1c458b40762b440a6e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts an element into this element's list of children.  <a href="#a09bf0f9afa11f1c458b40762b440a6e5"></a><br/></td></tr>
+<tr class="separator:a09bf0f9afa11f1c458b40762b440a6e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f2edc311084f9faab33c0c310a6915e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElement.html#a4f2edc311084f9faab33c0c310a6915e">prependChildElement</a> (<a class="el" href="classXmlElement.html">XmlElement</a> *newChildElement) noexcept</td></tr>
+<tr class="memdesc:a4f2edc311084f9faab33c0c310a6915e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts an element at the beginning of this element's list of children.  <a href="#a4f2edc311084f9faab33c0c310a6915e"></a><br/></td></tr>
+<tr class="separator:a4f2edc311084f9faab33c0c310a6915e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82ce9cbd54e2b559a2c78a3ee9165ac3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElement.html#a82ce9cbd54e2b559a2c78a3ee9165ac3">createNewChildElement</a> (const <a class="el" href="classString.html">String</a> &amp;tagName)</td></tr>
 <tr class="memdesc:a82ce9cbd54e2b559a2c78a3ee9165ac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new element with the given name and returns it, after adding it as a child element.  <a href="#a82ce9cbd54e2b559a2c78a3ee9165ac3"></a><br/></td></tr>
 <tr class="separator:a82ce9cbd54e2b559a2c78a3ee9165ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1469,11 +1472,12 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Appends an element to this element's list of children. </p>
 <p>Child elements are deleted automatically when their parent is deleted, so make sure the object that you pass in will not be deleted by anything else, and make sure it's not already the child of another element.</p>
+<p>Note that due to the <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document.">XmlElement</a> using a singly-linked-list, <a class="el" href="classXmlElement.html#a4f2edc311084f9faab33c0c310a6915e" title="Inserts an element at the beginning of this element&#39;s list of children.">prependChildElement()</a> is an O(1) operation, but <a class="el" href="classXmlElement.html#a9b9735dd8a98c5af71db4c532cd10a1c" title="Appends an element to this element&#39;s list of children.">addChildElement()</a> is an O(N) operation - so if you're adding large number of elements, you may prefer to do so in reverse order!</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classXmlElement.html#aa8ac386908cc0c1b5c1cc76bb9f6cc7c" title="Returns the first of this element&#39;s sub-elements.">getFirstChildElement</a>, <a class="el" href="classXmlElement.html#a427991d7a5a39811a6a9b35fefe624bc" title="Returns the next of this element&#39;s siblings.">getNextElement</a>, <a class="el" href="classXmlElement.html#a6de1fb43a8b1a33677f095becb212bca" title="Returns the number of sub-elements in this element.">getNumChildElements</a>, <a class="el" href="classXmlElement.html#ab450f0049f7ff864024ca58550a2c7b9" title="Returns the sub-element at a certain index.">getChildElement</a>, <a class="el" href="classXmlElement.html#ab1a572007f8cef5199dce0b5abc57f01" title="Removes a child element.">removeChildElement</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a7501a69d861f61a81879b35efbb7706c"></a>
+<a class="anchor" id="a09bf0f9afa11f1c458b40762b440a6e5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1484,7 +1488,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">void XmlElement::insertChildElement </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td>
-          <td class="paramname"><em>newChildNode</em>, </td>
+          <td class="paramname"><em>newChildElement</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1509,12 +1513,41 @@ Static Public Member Functions</h2></td></tr>
 <p>Child elements are deleted automatically when their parent is deleted, so make sure the object that you pass in will not be deleted by anything else, and make sure it's not already the child of another element.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">newChildNode</td><td>the element to add </td></tr>
+    <tr><td class="paramname">newChildElement</td><td>the element to add </td></tr>
     <tr><td class="paramname">indexToInsertAt</td><td>the index at which to insert the new element - if this is below zero, it will be added to the end of the list </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classXmlElement.html#a9b9735dd8a98c5af71db4c532cd10a1c" title="Appends an element to this element&#39;s list of children.">addChildElement</a>, <a class="el" href="classXmlElement.html#a7501a69d861f61a81879b35efbb7706c" title="Inserts an element into this element&#39;s list of children.">insertChildElement</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classXmlElement.html#a9b9735dd8a98c5af71db4c532cd10a1c" title="Appends an element to this element&#39;s list of children.">addChildElement</a>, <a class="el" href="classXmlElement.html#a09bf0f9afa11f1c458b40762b440a6e5" title="Inserts an element into this element&#39;s list of children.">insertChildElement</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4f2edc311084f9faab33c0c310a6915e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void XmlElement::prependChildElement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td>
+          <td class="paramname"><em>newChildElement</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inserts an element at the beginning of this element's list of children. </p>
+<p>Child elements are deleted automatically when their parent is deleted, so make sure the object that you pass in will not be deleted by anything else, and make sure it's not already the child of another element.</p>
+<p>Note that due to the <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document.">XmlElement</a> using a singly-linked-list, <a class="el" href="classXmlElement.html#a4f2edc311084f9faab33c0c310a6915e" title="Inserts an element at the beginning of this element&#39;s list of children.">prependChildElement()</a> is an O(1) operation, but <a class="el" href="classXmlElement.html#a9b9735dd8a98c5af71db4c532cd10a1c" title="Appends an element to this element&#39;s list of children.">addChildElement()</a> is an O(N) operation - so if you're adding large number of elements, you may prefer to do so in reverse order!</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classXmlElement.html#a9b9735dd8a98c5af71db4c532cd10a1c" title="Appends an element to this element&#39;s list of children.">addChildElement</a>, <a class="el" href="classXmlElement.html#a09bf0f9afa11f1c458b40762b440a6e5" title="Inserts an element into this element&#39;s list of children.">insertChildElement</a> </dd></dl>
 
 </div>
 </div>

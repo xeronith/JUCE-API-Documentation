@@ -46,7 +46,7 @@ var searchData=
   ['insertarray',['insertArray',['../classArray.html#acb0477221ce1538611a9fcd84028b387',1,'Array::insertArray()'],['../classOwnedArray.html#ac56956aeefcbbaeea2f4d143eb78f633',1,'OwnedArray::insertArray()']]],
   ['insertatindex',['insertAtIndex',['../classLinkedListPointer.html#ace9638977f9007c5de6d705dd0698d72',1,'LinkedListPointer']]],
   ['insertbit',['insertBit',['../classBigInteger.html#a90fc29cee61181cff82a70f5307186e8',1,'BigInteger']]],
-  ['insertchildelement',['insertChildElement',['../classXmlElement.html#a7501a69d861f61a81879b35efbb7706c',1,'XmlElement']]],
+  ['insertchildelement',['insertChildElement',['../classXmlElement.html#a09bf0f9afa11f1c458b40762b440a6e5',1,'XmlElement']]],
   ['insertmultiple',['insertMultiple',['../classArray.html#a0cadf83bcfba696c6a4adc15f4e0a78f',1,'Array']]],
   ['insertnext',['insertNext',['../classLinkedListPointer.html#aec30ea7b65a22847a91011e7a413a7f5',1,'LinkedListPointer']]],
   ['insertpoint',['insertPoint',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html#aeb4fe660bf352166e1e958dbe2273b25',1,'DrawablePath::ValueTreeWrapper::Element']]],

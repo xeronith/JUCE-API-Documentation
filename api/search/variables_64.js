@@ -18,7 +18,7 @@ var searchData=
   ['darkslategrey',['darkslategrey',['../classColours.html#a5d110e28508d1b6b94d1c6a2ca2ce0d2',1,'Colours']]],
   ['darkturquoise',['darkturquoise',['../classColours.html#a3cab3c29a15b8f727b4915512c7f0c63',1,'Colours']]],
   ['darkviolet',['darkviolet',['../classColours.html#a157085bc9d4d0bc75966b238b51a7ee3',1,'Colours']]],
-  ['data',['data',['../classImage_1_1BitmapData.html#a20783df25b604990685fe8cbb0f1cf91',1,'Image::BitmapData']]],
+  ['data',['data',['../classMidiBuffer.html#a7982121d5b53cc1dd6371898d6472de7',1,'MidiBuffer::data()'],['../classImage_1_1BitmapData.html#a20783df25b604990685fe8cbb0f1cf91',1,'Image::BitmapData::data()']]],
   ['datachunkstart',['dataChunkStart',['../classMemoryMappedAudioFormatReader.html#a50ccc5aaa756180f865ad1b6ff43bf0d',1,'MemoryMappedAudioFormatReader']]],
   ['datalength',['dataLength',['../classMemoryMappedAudioFormatReader.html#ac19c1cd6d4aff52e7820ec40e1e4d271',1,'MemoryMappedAudioFormatReader']]],
   ['datareleaser',['dataReleaser',['../classImage_1_1BitmapData.html#af6357aea98c90de8dcbbaadbd4969d2a',1,'Image::BitmapData']]],

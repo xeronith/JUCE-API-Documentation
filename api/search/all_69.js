@@ -90,7 +90,7 @@ var searchData=
   ['insertarray',['insertArray',['../classArray.html#acb0477221ce1538611a9fcd84028b387',1,'Array::insertArray()'],['../classOwnedArray.html#ac56956aeefcbbaeea2f4d143eb78f633',1,'OwnedArray::insertArray()']]],
   ['insertatindex',['insertAtIndex',['../classLinkedListPointer.html#ace9638977f9007c5de6d705dd0698d72',1,'LinkedListPointer']]],
   ['insertbit',['insertBit',['../classBigInteger.html#a90fc29cee61181cff82a70f5307186e8',1,'BigInteger']]],
-  ['insertchildelement',['insertChildElement',['../classXmlElement.html#a7501a69d861f61a81879b35efbb7706c',1,'XmlElement']]],
+  ['insertchildelement',['insertChildElement',['../classXmlElement.html#a09bf0f9afa11f1c458b40762b440a6e5',1,'XmlElement']]],
   ['insertedtext',['insertedText',['../structTextDiff_1_1Change.html#a6ddf900c18c62706054a85342c100f9a',1,'TextDiff::Change']]],
   ['insertkey',['insertKey',['../classKeyPress.html#af62c3ffd333fc440eca6596b56df48b8',1,'KeyPress']]],
   ['insertmultiple',['insertMultiple',['../classArray.html#a0cadf83bcfba696c6a4adc15f4e0a78f',1,'Array']]],
@@ -476,10 +476,10 @@ var searchData=
   ['itemtype',['ItemType',['../classSelectedItemSet.html#adac8d78df1c308ca17aa9cbfada787fa',1,'SelectedItemSet']]],
   ['iterate',['iterate',['../classEdgeTable.html#af2a5e19d16658853b61684af190e03f6',1,'EdgeTable']]],
   ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html#a4a30662a2e2d79787da4cc7ff6f7df00',1,'MidiBuffer::Iterator::Iterator()'],['../classHashMap_1_1Iterator.html#a5688b78daa1734ef6cc29b81a545fcb0',1,'HashMap::Iterator::Iterator()'],['../classListenerList_1_1Iterator.html#aec6ff5dcf548392d46dd38b26168c79d',1,'ListenerList::Iterator::Iterator()'],['../classPath_1_1Iterator.html#a53108f853b4af5f975d870f24ad79f83',1,'Path::Iterator::Iterator()'],['../classCodeDocument_1_1Iterator.html#a350e1a7a64043f010e5467a1d862830f',1,'CodeDocument::Iterator::Iterator(const CodeDocument &amp;document) noexcept'],['../classCodeDocument_1_1Iterator.html#ad96c135bfd54bedf7800255bb3b52213',1,'CodeDocument::Iterator::Iterator(const Iterator &amp;other) noexcept']]],
+  ['iterator',['Iterator',['../classListenerList_1_1Iterator.html',1,'ListenerList']]],
   ['iterator',['Iterator',['../classPath_1_1Iterator.html',1,'Path']]],
   ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html',1,'MidiBuffer']]],
-  ['iterator',['Iterator',['../classCodeDocument_1_1Iterator.html',1,'CodeDocument']]],
   ['iterator',['Iterator',['../classHashMap_1_1Iterator.html',1,'HashMap']]],
-  ['iterator',['Iterator',['../classListenerList_1_1Iterator.html',1,'ListenerList']]],
+  ['iterator',['Iterator',['../classCodeDocument_1_1Iterator.html',1,'CodeDocument']]],
   ['ivory',['ivory',['../classColours.html#a97ea5f64838c6c2d1301c32108e830d3',1,'Colours']]]
 ];

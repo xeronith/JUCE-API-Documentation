@@ -83,6 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classMidiBuffer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MidiBuffer Class Reference</div>  </div>
@@ -142,12 +143,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aafb2fe191779749350ff2e9af66b5a12"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiBuffer.html#aafb2fe191779749350ff2e9af66b5a12">getLastEventTime</a> () const noexcept</td></tr>
 <tr class="memdesc:aafb2fe191779749350ff2e9af66b5a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sample number of the last event in the buffer.  <a href="#aafb2fe191779749350ff2e9af66b5a12"></a><br/></td></tr>
 <tr class="separator:aafb2fe191779749350ff2e9af66b5a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee3b10a8f86b8489feacb62adc76adae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiBuffer.html#aee3b10a8f86b8489feacb62adc76adae">swapWith</a> (<a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;other) noexcept</td></tr>
-<tr class="memdesc:aee3b10a8f86b8489feacb62adc76adae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exchanges the contents of this buffer with another one.  <a href="#aee3b10a8f86b8489feacb62adc76adae"></a><br/></td></tr>
-<tr class="separator:aee3b10a8f86b8489feacb62adc76adae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7de76383992541bc7e66ff0738c13263"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiBuffer.html#a7de76383992541bc7e66ff0738c13263">swapWith</a> (<a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;) noexcept</td></tr>
+<tr class="memdesc:a7de76383992541bc7e66ff0738c13263"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exchanges the contents of this buffer with another one.  <a href="#a7de76383992541bc7e66ff0738c13263"></a><br/></td></tr>
+<tr class="separator:a7de76383992541bc7e66ff0738c13263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab971f45d6443204a4ac10fc79439467"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiBuffer.html#aab971f45d6443204a4ac10fc79439467">ensureSize</a> (size_t minimumNumBytes)</td></tr>
 <tr class="memdesc:aab971f45d6443204a4ac10fc79439467"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preallocates some memory for the buffer to use.  <a href="#aab971f45d6443204a4ac10fc79439467"></a><br/></td></tr>
 <tr class="separator:aab971f45d6443204a4ac10fc79439467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a7982121d5b53cc1dd6371898d6472de7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="juce__MathsFunctions_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiBuffer.html#a7982121d5b53cc1dd6371898d6472de7">data</a></td></tr>
+<tr class="memdesc:a7982121d5b53cc1dd6371898d6472de7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The raw data holding this buffer.  <a href="#a7982121d5b53cc1dd6371898d6472de7"></a><br/></td></tr>
+<tr class="separator:a7982121d5b53cc1dd6371898d6472de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Holds a sequence of time-stamped midi events. </p>
@@ -552,7 +559,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aee3b10a8f86b8489feacb62adc76adae"></a>
+<a class="anchor" id="a7de76383992541bc7e66ff0738c13263"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -563,7 +570,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void MidiBuffer::swapWith </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -595,6 +602,22 @@ Public Member Functions</h2></td></tr>
 
 <p>Preallocates some memory for the buffer to use. </p>
 <p>This helps to avoid needing to reallocate space when the buffer has messages added to it. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a7982121d5b53cc1dd6371898d6472de7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classArray.html">Array</a>&lt;<a class="el" href="juce__MathsFunctions_8h.html#adde6aaee8457bee49c2a92621fe22b79">uint8</a>&gt; MidiBuffer::data</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The raw data holding this buffer. </p>
+<p>Obviously access to this data is provided at your own risk. Its internal format could change in future, so don't write code that relies on it! </p>
 
 </div>
 </div>

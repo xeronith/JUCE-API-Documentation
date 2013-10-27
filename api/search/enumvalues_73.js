@@ -4,6 +4,7 @@ var searchData=
   ['savedok',['savedOk',['../classFileBasedDocument.html#a89d417326aed46fb561c599265e426d2aa0f8eec65cc59595a5e7d665c2a2efeb',1,'FileBasedDocument']]],
   ['savemode',['saveMode',['../classFileBrowserComponent.html#a32888a950cc0e51c8e1350f53bea43d6aca3d0a66bd4fc606ab874b3da93a4d89',1,'FileBrowserComponent']]],
   ['selectall',['selectAll',['../namespaceStandardApplicationCommandIDs.html#a8ce34a13722727706c8e98c64454fbf9a651985a70b21b1d0b7a89007fc8793df',1,'StandardApplicationCommandIDs']]],
+  ['selecteditembackgroundcolourid',['selectedItemBackgroundColourId',['../classTreeView.html#abeebe6dbdc6ae466495aabc64eb51d6aa70c4477c7945a15d0fc8e5c5f75cdb71',1,'TreeView']]],
   ['sendnotification',['sendNotification',['../juce__NotificationType_8h.html#a25a31a4bdc02a0d0adb743e26dd14ba9ad9a3eff1d1ddebf33141da7cf581be4c',1,'juce_NotificationType.h']]],
   ['sendnotificationasync',['sendNotificationAsync',['../juce__NotificationType_8h.html#a25a31a4bdc02a0d0adb743e26dd14ba9aa70e4499b93d1738b0ee53de03f7a9c4',1,'juce_NotificationType.h']]],
   ['sendnotificationsync',['sendNotificationSync',['../juce__NotificationType_8h.html#a25a31a4bdc02a0d0adb743e26dd14ba9a7d155564527e7a503eedb2be0e677e2c',1,'juce_NotificationType.h']]],

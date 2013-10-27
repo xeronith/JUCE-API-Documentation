@@ -1,7 +1,6 @@
 var searchData=
 [
   ['oggvorbisaudioformat',['OggVorbisAudioFormat',['../classOggVorbisAudioFormat.html',1,'']]],
-  ['oldschoollookandfeel',['OldSchoolLookAndFeel',['../classOldSchoolLookAndFeel.html',1,'']]],
   ['openglcontext',['OpenGLContext',['../classOpenGLContext.html',1,'']]],
   ['openglframebuffer',['OpenGLFrameBuffer',['../classOpenGLFrameBuffer.html',1,'']]],
   ['openglhelpers',['OpenGLHelpers',['../classOpenGLHelpers.html',1,'']]],

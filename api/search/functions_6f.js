@@ -5,7 +5,6 @@ var searchData=
   ['offsetall',['offsetAll',['../classRectangleList.html#a6929cdfe85b1ec2cbb87dbb4baa9e5f9',1,'RectangleList::offsetAll(Point&lt; ValueType &gt; offset) noexcept'],['../classRectangleList.html#aaf0a168997e532d714d0f1169aff4897',1,'RectangleList::offsetAll(ValueType dx, ValueType dy) noexcept']]],
   ['oggvorbisaudioformat',['OggVorbisAudioFormat',['../classOggVorbisAudioFormat.html#a069365393c5a09e13e0042f4660d8cd1',1,'OggVorbisAudioFormat']]],
   ['ok',['ok',['../classResult.html#af20c96ffa94adac90e10a8395d8c8852',1,'Result']]],
-  ['oldschoollookandfeel',['OldSchoolLookAndFeel',['../classOldSchoolLookAndFeel.html#a932c5dd22c37bafac5c0d37efcb36e4e',1,'OldSchoolLookAndFeel']]],
   ['open',['open',['../classAudioIODevice.html#a519b91efd6bf7bf88fbe85eb5510629f',1,'AudioIODevice::open()'],['../classDynamicLibrary.html#ab64b6f35270c87d0c69b422854683674',1,'DynamicLibrary::open()']]],
   ['opendevice',['openDevice',['../classAudioCDBurner.html#a31c629a961f2b988c525ebc30f3f52fd',1,'AudioCDBurner::openDevice()'],['../classMidiInput.html#ae7bb7e3f91dfe6bda7bce3e13a3efa8e',1,'MidiInput::openDevice()'],['../classMidiOutput.html#add5366efd74e5c5ee665af4592c6b15e',1,'MidiOutput::openDevice()'],['../classCameraDevice.html#a2f8b8a9815fb66b59e1622e5c19d4f6c',1,'CameraDevice::openDevice()']]],
   ['opendocument',['openDocument',['../classProcess.html#a05b430c0c6c182a044f67a9ce6144f43',1,'Process']]],

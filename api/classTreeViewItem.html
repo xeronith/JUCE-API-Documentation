@@ -118,6 +118,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a536e1e4edaf0b0a472c485050d54eb5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#a536e1e4edaf0b0a472c485050d54eb5a">addSubItem</a> (<a class="el" href="classTreeViewItem.html">TreeViewItem</a> *newItem, int insertPosition=-1)</td></tr>
 <tr class="memdesc:a536e1e4edaf0b0a472c485050d54eb5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a sub-item.  <a href="#a536e1e4edaf0b0a472c485050d54eb5a"></a><br/></td></tr>
 <tr class="separator:a536e1e4edaf0b0a472c485050d54eb5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb5e41812e3efba115ded6bf59fd4f72"><td class="memTemplParams" colspan="2">template&lt;class ElementComparator &gt; </td></tr>
+<tr class="memitem:adb5e41812e3efba115ded6bf59fd4f72"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#adb5e41812e3efba115ded6bf59fd4f72">addSubItemSorted</a> (ElementComparator &amp;comparator, <a class="el" href="classTreeViewItem.html">TreeViewItem</a> *newItem)</td></tr>
+<tr class="memdesc:adb5e41812e3efba115ded6bf59fd4f72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a sub-item with a sort-comparator, assuming that the existing items are already sorted.  <a href="#adb5e41812e3efba115ded6bf59fd4f72"></a><br/></td></tr>
+<tr class="separator:adb5e41812e3efba115ded6bf59fd4f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80b8910184619d952841a1b93d4b75c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#a80b8910184619d952841a1b93d4b75c4">removeSubItem</a> (int index, bool deleteItem=true)</td></tr>
 <tr class="memdesc:a80b8910184619d952841a1b93d4b75c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes one of the sub-items.  <a href="#a80b8910184619d952841a1b93d4b75c4"></a><br/></td></tr>
 <tr class="separator:a80b8910184619d952841a1b93d4b75c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,9 +189,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adc3e3a7c09443e28b1f48fe10b9569b2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#adc3e3a7c09443e28b1f48fe10b9569b2">paintItem</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;g, int width, int height)</td></tr>
 <tr class="memdesc:adc3e3a7c09443e28b1f48fe10b9569b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the item's contents.  <a href="#adc3e3a7c09443e28b1f48fe10b9569b2"></a><br/></td></tr>
 <tr class="separator:adc3e3a7c09443e28b1f48fe10b9569b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af88a1f11fd464d8e667d9a31d701087d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#af88a1f11fd464d8e667d9a31d701087d">paintOpenCloseButton</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, bool isMouseOver)</td></tr>
-<tr class="memdesc:af88a1f11fd464d8e667d9a31d701087d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the item's open/close button.  <a href="#af88a1f11fd464d8e667d9a31d701087d"></a><br/></td></tr>
-<tr class="separator:af88a1f11fd464d8e667d9a31d701087d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23749ce8fd2226cfe5ffda3af36a843d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#a23749ce8fd2226cfe5ffda3af36a843d">paintOpenCloseButton</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;area, <a class="el" href="classColour.html">Colour</a> backgroundColour, bool isMouseOver)</td></tr>
+<tr class="memdesc:a23749ce8fd2226cfe5ffda3af36a843d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the item's open/close button.  <a href="#a23749ce8fd2226cfe5ffda3af36a843d"></a><br/></td></tr>
+<tr class="separator:a23749ce8fd2226cfe5ffda3af36a843d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1d9a9fb29727496e4149d9f5593f16e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#ac1d9a9fb29727496e4149d9f5593f16e">paintHorizontalConnectingLine</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, const <a class="el" href="classLine.html">Line</a>&lt; float &gt; &amp;line)</td></tr>
 <tr class="memdesc:ac1d9a9fb29727496e4149d9f5593f16e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the line that connects this item to the vertical line extending below its parent.  <a href="#ac1d9a9fb29727496e4149d9f5593f16e"></a><br/></td></tr>
 <tr class="separator:ac1d9a9fb29727496e4149d9f5593f16e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -389,6 +393,43 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">newItem</td><td>the object to add to the item's sub-item list. Once added, these can be found using <a class="el" href="classTreeViewItem.html#ad12c774c2434074f795ba37a5c2d1755" title="Returns one of the item&#39;s sub-items.">getSubItem()</a>. When the items are later removed with <a class="el" href="classTreeViewItem.html#a80b8910184619d952841a1b93d4b75c4" title="Removes one of the sub-items.">removeSubItem()</a> (or when this item is deleted), they will be deleted. </td></tr>
     <tr><td class="paramname">insertPosition</td><td>the index which the new item should have when it's added. If this value is less than 0, the item will be added to the end of the list. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="adb5e41812e3efba115ded6bf59fd4f72"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ElementComparator &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void TreeViewItem::addSubItemSorted </td>
+          <td>(</td>
+          <td class="paramtype">ElementComparator &amp;&#160;</td>
+          <td class="paramname"><em>comparator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classTreeViewItem.html">TreeViewItem</a> *&#160;</td>
+          <td class="paramname"><em>newItem</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a sub-item with a sort-comparator, assuming that the existing items are already sorted. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">comparator</td><td>the comparator object for sorting - see <a class="el" href="classTreeViewItem.html#a002342e5b39ddf192d445b2bdd16d086" title="Sorts the list of sub-items using a standard array comparator.">sortSubItems()</a> for details about the methods this class must provide. </td></tr>
+    <tr><td class="paramname">newItem</td><td>the object to add to the item's sub-item list. Once added, these can be found using <a class="el" href="classTreeViewItem.html#ad12c774c2434074f795ba37a5c2d1755" title="Returns one of the item&#39;s sub-items.">getSubItem()</a>. When the items are later removed with <a class="el" href="classTreeViewItem.html#a80b8910184619d952841a1b93d4b75c4" title="Removes one of the sub-items.">removeSubItem()</a> (or when this item is deleted), they will be deleted. </td></tr>
   </table>
   </dd>
 </dl>
@@ -762,7 +803,7 @@ template&lt;class ElementComparator &gt; </div>
 </div><div class="memdoc">
 
 <p>Changes whether lines are drawn to connect any sub-items to this item. </p>
-<p>By default, line-drawing is turned on. </p>
+<p>By default, line-drawing is turned on according to <a class="el" href="structTreeView_1_1LookAndFeelMethods.html#ad7490df2393ac611eeef8b86438e5133">LookAndFeel::areLinesDrawnForTreeView()</a>. </p>
 
 </div>
 </div>
@@ -1010,7 +1051,7 @@ template&lt;class ElementComparator &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="af88a1f11fd464d8e667d9a31d701087d"></a>
+<a class="anchor" id="a23749ce8fd2226cfe5ffda3af36a843d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1026,14 +1067,14 @@ template&lt;class ElementComparator &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
+          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>area</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>height</em>, </td>
+          <td class="paramtype"><a class="el" href="classColour.html">Colour</a>&#160;</td>
+          <td class="paramname"><em>backgroundColour</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1055,7 +1096,7 @@ template&lt;class ElementComparator &gt; </div>
 </div><div class="memdoc">
 
 <p>Draws the item's open/close button. </p>
-<p>If you don't implement this method, the default behaviour is to call <a class="el" href="classLookAndFeel.html#ad6d0c9607ef95843b7db229d0df58a44" title="Draws the + or - box in a treeview.">LookAndFeel::drawTreeviewPlusMinusBox()</a>, but you can override it for custom effects. </p>
+<p>If you don't implement this method, the default behaviour is to call <a class="el" href="structTreeView_1_1LookAndFeelMethods.html#afd3c7002207226d973a7d2082dadd409">LookAndFeel::drawTreeviewPlusMinusBox()</a>, but you can override it for custom effects. You may want to override it and call the base-class implementation with a different backgroundColour parameter, if your implementation has a background colour other than the default (white). </p>
 
 </div>
 </div>

@@ -10,8 +10,8 @@ var searchData=
   ['editorigintime',['editOriginTime',['../structAudioPlayHead_1_1CurrentPositionInfo.html#a5a8c7375646228f378c4eb673f49a9e0',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['editorshown',['editorShown',['../classLabel.html#a5260dfecf51d5f4822ea7072cb2d4cb6',1,'Label']]],
   ['ejectdisk',['ejectDisk',['../classAudioCDReader.html#a41f27ce866212984e7a657f316e63e24',1,'AudioCDReader']]],
-  ['element',['Element',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html',1,'DrawablePath::ValueTreeWrapper']]],
   ['element',['Element',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html#a182bb0536be440f286655d58705ed912',1,'DrawablePath::ValueTreeWrapper::Element']]],
+  ['element',['Element',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html',1,'DrawablePath::ValueTreeWrapper']]],
   ['elementbase',['ElementBase',['../classRelativePointPath_1_1ElementBase.html#a984c9e13c832207c94420fcffc2d4de6',1,'RelativePointPath::ElementBase']]],
   ['elementbase',['ElementBase',['../classRelativePointPath_1_1ElementBase.html',1,'RelativePointPath']]],
   ['elements',['elements',['../classArrayAllocationBase.html#a68e9e3954a47f3a9b0721c979d4d9fe7',1,'ArrayAllocationBase::elements()'],['../classRelativePointPath.html#a975cc963b8500afa8d33dac6d7c7ac50',1,'RelativePointPath::elements()']]],
@@ -83,5 +83,6 @@ var searchData=
   ['extracompplacement',['extraCompPlacement',['../classTabBarButton.html#a3f80996350cf67bf9fa08e9777ae4fff',1,'TabBarButton']]],
   ['extractmidichannelmessages',['extractMidiChannelMessages',['../classMidiMessageSequence.html#aef3f5fde8115f9fd4b46603f54076038',1,'MidiMessageSequence']]],
   ['extractsysexmessages',['extractSysExMessages',['../classMidiMessageSequence.html#abf6f7bd5e449976caf1541a880d185b0',1,'MidiMessageSequence']]],
-  ['extrafunctions',['ExtraFunctions',['../classVSTPluginFormat_1_1ExtraFunctions.html',1,'VSTPluginFormat']]]
+  ['extrafunctions',['ExtraFunctions',['../classVSTPluginFormat_1_1ExtraFunctions.html',1,'VSTPluginFormat']]],
+  ['extralookandfeelbaseclasses',['ExtraLookAndFeelBaseClasses',['../structExtraLookAndFeelBaseClasses.html',1,'']]]
 ];
