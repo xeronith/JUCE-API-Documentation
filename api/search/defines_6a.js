@@ -3,7 +3,6 @@ var searchData=
   ['jassert',['jassert',['../juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a',1,'juce_PlatformDefs.h']]],
   ['jassertfalse',['jassertfalse',['../juce__PlatformDefs_8h.html#adc044ce5efecbecf2f5a44cd00db67b3',1,'juce_PlatformDefs.h']]],
   ['juce_5f32bit',['JUCE_32BIT',['../juce__TargetPlatform_8h.html#a298f3b24ad0e105ede05218dc834dd24',1,'JUCE_32BIT():&#160;juce_TargetPlatform.h'],['../juce__TargetPlatform_8h.html#a298f3b24ad0e105ede05218dc834dd24',1,'JUCE_32BIT():&#160;juce_TargetPlatform.h']]],
-  ['juce_5f64bit_5fatomics_5funavailable',['JUCE_64BIT_ATOMICS_UNAVAILABLE',['../juce__Atomic_8h.html#a1b526d9ae416f2ae30d7f84da12db6bc',1,'juce_Atomic.h']]],
   ['juce_5falign',['JUCE_ALIGN',['../juce__PlatformDefs_8h.html#acd5d010d01e78e318786ab060742acd1',1,'juce_PlatformDefs.h']]],
   ['juce_5fanalyzer_5fnoreturn',['JUCE_ANALYZER_NORETURN',['../juce__PlatformDefs_8h.html#a0a4e8406ebaae14eb87c14f02131602d',1,'juce_PlatformDefs.h']]],
   ['juce_5fandroid',['JUCE_ANDROID',['../juce__TargetPlatform_8h.html#a6fda198266d9276b5c331071dd0ba014',1,'juce_TargetPlatform.h']]],

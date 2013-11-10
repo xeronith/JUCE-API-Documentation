@@ -122,6 +122,7 @@ var searchData=
   ['standardstrings',['StandardStrings',['../structRelativeCoordinate_1_1StandardStrings.html',1,'RelativeCoordinate']]],
   ['startsubpath',['StartSubPath',['../classRelativePointPath_1_1StartSubPath.html',1,'RelativePointPath']]],
   ['state',['State',['../structCodeEditorComponent_1_1State.html',1,'CodeEditorComponent']]],
+  ['statistics',['Statistics',['../structPerformanceCounter_1_1Statistics.html',1,'PerformanceCounter']]],
   ['streamingsocket',['StreamingSocket',['../classStreamingSocket.html',1,'']]],
   ['stretchablelayoutmanager',['StretchableLayoutManager',['../classStretchableLayoutManager.html',1,'']]],
   ['stretchablelayoutresizerbar',['StretchableLayoutResizerBar',['../classStretchableLayoutResizerBar.html',1,'']]],

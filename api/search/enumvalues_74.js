@@ -43,6 +43,8 @@ var searchData=
   ['topright',['topRight',['../classJustification.html#a1f8c07756c56fe8f31ed44964e51bfbca36ad3c72f605613650333cc78d1e0b44',1,'Justification']]],
   ['toprightcornerresizecursor',['TopRightCornerResizeCursor',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97a675f05cc9819fc54c59ec30a59454321',1,'MouseCursor']]],
   ['trackcolourid',['trackColourId',['../classScrollBar.html#a5cdce553497ae1b7fc7fcd3caa805167ab32d64c0802a57b8c50d138e00a4716e',1,'ScrollBar::trackColourId()'],['../classSlider.html#a1012002c53381ccc7c1fe7e604a75f44a1a7a91f54b703cf78f028edc0ed7786b',1,'Slider::trackColourId()']]],
+  ['tracktion3',['Tracktion3',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a52cbcf5a6c5c9d2d8aca658d29b08850',1,'PluginHostType']]],
+  ['tracktiongeneric',['TracktionGeneric',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8ac2bfcb06432d1e95e9ef3a370bec88ce',1,'PluginHostType']]],
   ['trayopen',['trayOpen',['../classAudioCDBurner.html#a75c01de0b51d56d6f78a1b56ff4da846ab8a44178fa9c27bf9b55a9c56de9b448',1,'AudioCDBurner']]],
   ['twovaluehorizontal',['TwoValueHorizontal',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a2ce77695813bb317c2d1863d2e71213b',1,'Slider']]],
   ['twovaluevertical',['TwoValueVertical',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a7477c3163edc14c8740d464e523e5ac8',1,'Slider']]]

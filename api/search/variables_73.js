@@ -37,6 +37,7 @@ var searchData=
   ['stopkey',['stopKey',['../classKeyPress.html#a4ebc694e95335f25418c99eb2235d815',1,'KeyPress']]],
   ['storageformat',['storageFormat',['../structPropertiesFile_1_1Options.html#aed68b3ff89a6943aeac93af26effec2d',1,'PropertiesFile::Options']]],
   ['stringrange',['stringRange',['../classTextLayout_1_1Run.html#a5e78255b382519784f9950efeae14f57',1,'TextLayout::Run::stringRange()'],['../classTextLayout_1_1Line.html#a2980388305522b3a4595196e7bbf09a2',1,'TextLayout::Line::stringRange()']]],
+  ['strings',['strings',['../classStringArray.html#ac10f010a31e1dcd6220d278a1603e37a',1,'StringArray']]],
   ['stroke',['stroke',['../classDrawableShape_1_1FillAndStrokeState.html#a08c950337bcb50805541ad8f393969bb',1,'DrawableShape::FillAndStrokeState']]],
   ['strokepath',['strokePath',['../classDrawableShape.html#a9400e1628d38b4719c211da4158bc2ff',1,'DrawableShape']]],
   ['stroketype',['strokeType',['../classDrawableShape.html#af636e2ff4b818d2b51994291facb30f6',1,'DrawableShape']]],

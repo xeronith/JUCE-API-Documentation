@@ -16,7 +16,6 @@ var searchData=
   ['json',['JSON',['../classJSON.html',1,'']]],
   ['juce',['juce',['../namespacejuce.html',1,'']]],
   ['juce_5f32bit',['JUCE_32BIT',['../juce__TargetPlatform_8h.html#a298f3b24ad0e105ede05218dc834dd24',1,'JUCE_32BIT():&#160;juce_TargetPlatform.h'],['../juce__TargetPlatform_8h.html#a298f3b24ad0e105ede05218dc834dd24',1,'JUCE_32BIT():&#160;juce_TargetPlatform.h']]],
-  ['juce_5f64bit_5fatomics_5funavailable',['JUCE_64BIT_ATOMICS_UNAVAILABLE',['../juce__Atomic_8h.html#a1b526d9ae416f2ae30d7f84da12db6bc',1,'juce_Atomic.h']]],
   ['juce_5fabstractfifo_2eh',['juce_AbstractFifo.h',['../juce__AbstractFifo_8h.html',1,'']]],
   ['juce_5factionbroadcaster_2eh',['juce_ActionBroadcaster.h',['../juce__ActionBroadcaster_8h.html',1,'']]],
   ['juce_5factionlistener_2eh',['juce_ActionListener.h',['../juce__ActionListener_8h.html',1,'']]],

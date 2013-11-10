@@ -22,6 +22,7 @@ var searchData=
   ['topright',['topRight',['../classDrawableComposite_1_1ValueTreeWrapper.html#ab7ac1253c570eefa862e9fd70138f384',1,'DrawableComposite::ValueTreeWrapper::topRight()'],['../classDrawableImage_1_1ValueTreeWrapper.html#a76a96fe668faeb05516a5733e7f145e2',1,'DrawableImage::ValueTreeWrapper::topRight()'],['../classDrawableRectangle_1_1ValueTreeWrapper.html#a48265bf9f33a9b5a5196fb9d8dee5c18',1,'DrawableRectangle::ValueTreeWrapper::topRight()'],['../classDrawableText_1_1ValueTreeWrapper.html#a4080580131c5dafed34ad920128d3c07',1,'DrawableText::ValueTreeWrapper::topRight()'],['../classRelativeParallelogram.html#abd27c46b0528c96f90a4254b21e5b680',1,'RelativeParallelogram::topRight()']]],
   ['totalarea',['totalArea',['../structDesktop_1_1Displays_1_1Display.html#a90732ffebb1b91769b95400dec70f74f',1,'Desktop::Displays::Display']]],
   ['totalheight',['totalHeight',['../classLowLevelGraphicsPostScriptRenderer.html#a842f2dc876aeebb14cc27e3faee70735',1,'LowLevelGraphicsPostScriptRenderer']]],
+  ['totalseconds',['totalSeconds',['../structPerformanceCounter_1_1Statistics.html#af04ffab23f93875202a7df925e240e77',1,'PerformanceCounter::Statistics']]],
   ['totalwidth',['totalWidth',['../classLowLevelGraphicsPostScriptRenderer.html#a0fa5658fdc5f8c2fb801ab7dba117f84',1,'LowLevelGraphicsPostScriptRenderer']]],
   ['transform',['transform',['../classFillType.html#a6302124b870bccda6a55b13a37a69744',1,'FillType']]],
   ['transparentblack',['transparentBlack',['../classColours.html#a0ce54d7a6cbbce207c29165102d3a35f',1,'Colours']]],

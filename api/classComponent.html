@@ -398,9 +398,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af19bbc2186e3297ddd55c328e46c014b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#af19bbc2186e3297ddd55c328e46c014b">setBufferedToImage</a> (bool shouldBeBuffered)</td></tr>
 <tr class="memdesc:af19bbc2186e3297ddd55c328e46c014b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes the component use an internal buffer to optimise its redrawing.  <a href="#af19bbc2186e3297ddd55c328e46c014b"></a><br/></td></tr>
 <tr class="separator:af19bbc2186e3297ddd55c328e46c014b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cfccf9f2598b6af0f5481e982049fa6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classImage.html">Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a8cfccf9f2598b6af0f5481e982049fa6">createComponentSnapshot</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;areaToGrab, bool clipImageToComponentBounds=true)</td></tr>
-<tr class="memdesc:a8cfccf9f2598b6af0f5481e982049fa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a snapshot of part of this component.  <a href="#a8cfccf9f2598b6af0f5481e982049fa6"></a><br/></td></tr>
-<tr class="separator:a8cfccf9f2598b6af0f5481e982049fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a5c8fc0c5c69bda41a23c351e2d5164"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classImage.html">Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a9a5c8fc0c5c69bda41a23c351e2d5164">createComponentSnapshot</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;areaToGrab, bool clipImageToComponentBounds=true, float scaleFactor=1.0f)</td></tr>
+<tr class="memdesc:a9a5c8fc0c5c69bda41a23c351e2d5164"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a snapshot of part of this component.  <a href="#a9a5c8fc0c5c69bda41a23c351e2d5164"></a><br/></td></tr>
+<tr class="separator:a9a5c8fc0c5c69bda41a23c351e2d5164"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c960bd5ec5ac76d18e82b6883096714"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a2c960bd5ec5ac76d18e82b6883096714">paintEntireComponent</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;context, bool ignoreAlphaLevel)</td></tr>
 <tr class="memdesc:a2c960bd5ec5ac76d18e82b6883096714"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws this component and all its subcomponents onto the specified graphics context.  <a href="#a2c960bd5ec5ac76d18e82b6883096714"></a><br/></td></tr>
 <tr class="separator:a2c960bd5ec5ac76d18e82b6883096714"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3243,11 +3243,11 @@ template&lt;class TargetClass &gt; </div>
 <p>Setting this flag to true will cause the component to allocate an internal buffer into which it paints itself, so that when asked to redraw itself, it can use this buffer rather than actually calling the <a class="el" href="classComponent.html#a7cf1862f4af5909ea72827898114a182" title="Components can override this method to draw their content.">paint()</a> method.</p>
 <p>The buffer is kept until the <a class="el" href="classComponent.html#af3ab3eabec93dd60faf983370f3a1206" title="Marks the whole component as needing to be redrawn.">repaint()</a> method is called directly on this component (or until it is resized), when the image is invalidated and then redrawn the next time the component is painted.</p>
 <p>Note that only the drawing that happens within the component's <a class="el" href="classComponent.html#a7cf1862f4af5909ea72827898114a182" title="Components can override this method to draw their content.">paint()</a> method is drawn into the buffer, it's child components are not buffered, and nor is the <a class="el" href="classComponent.html#aa15dc77c06b5a0a4192090b4a323f79c" title="Components can override this method to draw over the top of their children.">paintOverChildren()</a> method.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classComponent.html#af3ab3eabec93dd60faf983370f3a1206" title="Marks the whole component as needing to be redrawn.">repaint</a>, <a class="el" href="classComponent.html#a7cf1862f4af5909ea72827898114a182" title="Components can override this method to draw their content.">paint</a>, <a class="el" href="classComponent.html#a8cfccf9f2598b6af0f5481e982049fa6" title="Generates a snapshot of part of this component.">createComponentSnapshot</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classComponent.html#af3ab3eabec93dd60faf983370f3a1206" title="Marks the whole component as needing to be redrawn.">repaint</a>, <a class="el" href="classComponent.html#a7cf1862f4af5909ea72827898114a182" title="Components can override this method to draw their content.">paint</a>, <a class="el" href="classComponent.html#a9a5c8fc0c5c69bda41a23c351e2d5164" title="Generates a snapshot of part of this component.">createComponentSnapshot</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a8cfccf9f2598b6af0f5481e982049fa6"></a>
+<a class="anchor" id="a9a5c8fc0c5c69bda41a23c351e2d5164"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -3261,7 +3261,13 @@ template&lt;class TargetClass &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>clipImageToComponentBounds</em> = <code>true</code>&#160;</td>
+          <td class="paramname"><em>clipImageToComponentBounds</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaleFactor</em> = <code>1.0f</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -4157,7 +4163,7 @@ template&lt;class TargetClass &gt; </div>
 <p>The <a class="el" href="classComponent.html#a7cf1862f4af5909ea72827898114a182" title="Components can override this method to draw their content.">paint()</a> method gets called when a region of a component needs redrawing, either because the component's <a class="el" href="classComponent.html#af3ab3eabec93dd60faf983370f3a1206" title="Marks the whole component as needing to be redrawn.">repaint()</a> method has been called, or because something has happened on the screen that means a section of a window needs to be redrawn.</p>
 <p>Any child components will draw themselves over whatever this method draws. If you need to paint over the top of your child components, you can also implement the <a class="el" href="classComponent.html#aa15dc77c06b5a0a4192090b4a323f79c" title="Components can override this method to draw over the top of their children.">paintOverChildren()</a> method to do this.</p>
 <p>If you want to cause a component to redraw itself, this is done asynchronously - calling the <a class="el" href="classComponent.html#af3ab3eabec93dd60faf983370f3a1206" title="Marks the whole component as needing to be redrawn.">repaint()</a> method marks a region of the component as "dirty", and the <a class="el" href="classComponent.html#a7cf1862f4af5909ea72827898114a182" title="Components can override this method to draw their content.">paint()</a> method will automatically be called sometime later, by the message thread, to paint any bits that need refreshing. In Juce (and almost all modern UI frameworks), you never redraw something synchronously.</p>
-<p>You should never need to call this method directly - to take a snapshot of the component you could use <a class="el" href="classComponent.html#a8cfccf9f2598b6af0f5481e982049fa6" title="Generates a snapshot of part of this component.">createComponentSnapshot()</a> or <a class="el" href="classComponent.html#a2c960bd5ec5ac76d18e82b6883096714" title="Draws this component and all its subcomponents onto the specified graphics context.">paintEntireComponent()</a>.</p>
+<p>You should never need to call this method directly - to take a snapshot of the component you could use <a class="el" href="classComponent.html#a9a5c8fc0c5c69bda41a23c351e2d5164" title="Generates a snapshot of part of this component.">createComponentSnapshot()</a> or <a class="el" href="classComponent.html#a2c960bd5ec5ac76d18e82b6883096714" title="Draws this component and all its subcomponents onto the specified graphics context.">paintEntireComponent()</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">g</td><td>the graphics context that must be used to do the drawing operations. </td></tr>

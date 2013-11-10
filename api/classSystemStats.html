@@ -156,6 +156,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5b230572d54a15ce412f8d5357f40649"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a5b230572d54a15ce412f8d5357f40649">getDisplayLanguage</a> ()</td></tr>
 <tr class="memdesc:a5b230572d54a15ce412f8d5357f40649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the user's display language.  <a href="#a5b230572d54a15ce412f8d5357f40649"></a><br/></td></tr>
 <tr class="separator:a5b230572d54a15ce412f8d5357f40649"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6207099299458ff24641883b01a083e5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a6207099299458ff24641883b01a083e5">getDeviceDescription</a> ()</td></tr>
+<tr class="memdesc:a6207099299458ff24641883b01a083e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will attempt to return some kind of string describing the device.  <a href="#a6207099299458ff24641883b01a083e5"></a><br/></td></tr>
+<tr class="separator:a6207099299458ff24641883b01a083e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fa9257a60a26848174b2b8bd6cbb970"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemStats.html#a2fa9257a60a26848174b2b8bd6cbb970">getNumCpus</a> () noexcept</td></tr>
 <tr class="memdesc:a2fa9257a60a26848174b2b8bd6cbb970"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of CPU cores.  <a href="#a2fa9257a60a26848174b2b8bd6cbb970"></a><br/></td></tr>
 <tr class="separator:a2fa9257a60a26848174b2b8bd6cbb970"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -555,6 +558,32 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns the user's display language. </p>
 <p>The return value is a 2 or 3 letter language code (ISO 639-1 or ISO 639-2) </p>
+
+</div>
+</div>
+<a class="anchor" id="a6207099299458ff24641883b01a083e5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classString.html">String</a> SystemStats::getDeviceDescription </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This will attempt to return some kind of string describing the device. </p>
+<p>If no description is available, it'll just return an empty string. You may want to use this for things like determining the type of phone/iPad, etc. </p>
 
 </div>
 </div>

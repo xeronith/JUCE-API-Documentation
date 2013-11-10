@@ -121,12 +121,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a60543bfd5b8889f23714e1b5cc72c44a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileBasedDocument.html#a60543bfd5b8889f23714e1b5cc72c44a">setChangedFlag</a> (bool hasChanged)</td></tr>
 <tr class="memdesc:a60543bfd5b8889f23714e1b5cc72c44a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the state of the 'changed' flag.  <a href="#a60543bfd5b8889f23714e1b5cc72c44a"></a><br/></td></tr>
 <tr class="separator:a60543bfd5b8889f23714e1b5cc72c44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a306a20730d9affcc1cf744d8cfaacb27"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileBasedDocument.html#a306a20730d9affcc1cf744d8cfaacb27">loadFrom</a> (const <a class="el" href="classFile.html">File</a> &amp;fileToLoadFrom, bool showMessageOnFailure)</td></tr>
-<tr class="memdesc:a306a20730d9affcc1cf744d8cfaacb27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to open a file.  <a href="#a306a20730d9affcc1cf744d8cfaacb27"></a><br/></td></tr>
-<tr class="separator:a306a20730d9affcc1cf744d8cfaacb27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9dfad2bdd9692ac31ff8cb87e97e38d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileBasedDocument.html#ae9dfad2bdd9692ac31ff8cb87e97e38d">loadFromUserSpecifiedFile</a> (bool showMessageOnFailure)</td></tr>
-<tr class="memdesc:ae9dfad2bdd9692ac31ff8cb87e97e38d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asks the user for a file and tries to load it.  <a href="#ae9dfad2bdd9692ac31ff8cb87e97e38d"></a><br/></td></tr>
-<tr class="separator:ae9dfad2bdd9692ac31ff8cb87e97e38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcf1958f689b229b309f7486854cc7d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classResult.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileBasedDocument.html#abcf1958f689b229b309f7486854cc7d7">loadFrom</a> (const <a class="el" href="classFile.html">File</a> &amp;fileToLoadFrom, bool showMessageOnFailure)</td></tr>
+<tr class="memdesc:abcf1958f689b229b309f7486854cc7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to open a file.  <a href="#abcf1958f689b229b309f7486854cc7d7"></a><br/></td></tr>
+<tr class="separator:abcf1958f689b229b309f7486854cc7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9d239ddcfbe0ede54b3a1051ef6d8b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classResult.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileBasedDocument.html#aa9d239ddcfbe0ede54b3a1051ef6d8b5">loadFromUserSpecifiedFile</a> (bool showMessageOnFailure)</td></tr>
+<tr class="memdesc:aa9d239ddcfbe0ede54b3a1051ef6d8b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asks the user for a file and tries to load it.  <a href="#aa9d239ddcfbe0ede54b3a1051ef6d8b5"></a><br/></td></tr>
+<tr class="separator:aa9d239ddcfbe0ede54b3a1051ef6d8b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8059227774bee831db9ca4d402c68321"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFileBasedDocument.html#a89d417326aed46fb561c599265e426d2">SaveResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileBasedDocument.html#a8059227774bee831db9ca4d402c68321">save</a> (bool askUserForFileIfNotSpecified, bool showMessageOnFailure)</td></tr>
 <tr class="memdesc:a8059227774bee831db9ca4d402c68321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to save the document to the last file it was saved or loaded from.  <a href="#a8059227774bee831db9ca4d402c68321"></a><br/></td></tr>
 <tr class="separator:a8059227774bee831db9ca4d402c68321"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -365,12 +365,12 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a306a20730d9affcc1cf744d8cfaacb27"></a>
+<a class="anchor" id="abcf1958f689b229b309f7486854cc7d7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool FileBasedDocument::loadFrom </td>
+          <td class="memname"><a class="el" href="classResult.html">Result</a> FileBasedDocument::loadFrom </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classFile.html">File</a> &amp;&#160;</td>
           <td class="paramname"><em>fileToLoadFrom</em>, </td>
@@ -391,17 +391,17 @@ Protected Member Functions</h2></td></tr>
 
 <p>Tries to open a file. </p>
 <p>If the file opens correctly, the document's file (see the <a class="el" href="classFileBasedDocument.html#ac9711c4d28ffcb0397409cfe072e203f" title="Returns the file that this document was last successfully saved or loaded from.">getFile()</a> method) is set to this new one; if it fails, the document's file is left unchanged, and optionally a message box is shown telling the user there was an error.</p>
-<dl class="section return"><dt>Returns</dt><dd>true if the new file loaded successfully </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFileBasedDocument.html#a88999864b31dbda9bb0be1e593428cef" title="This method should try to load your document from the given file.">loadDocument</a>, <a class="el" href="classFileBasedDocument.html#ae9dfad2bdd9692ac31ff8cb87e97e38d" title="Asks the user for a file and tries to load it.">loadFromUserSpecifiedFile</a> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A result indicating whether the new file loaded successfully, or the error message if it failed. </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFileBasedDocument.html#a88999864b31dbda9bb0be1e593428cef" title="This method should try to load your document from the given file.">loadDocument</a>, <a class="el" href="classFileBasedDocument.html#aa9d239ddcfbe0ede54b3a1051ef6d8b5" title="Asks the user for a file and tries to load it.">loadFromUserSpecifiedFile</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ae9dfad2bdd9692ac31ff8cb87e97e38d"></a>
+<a class="anchor" id="aa9d239ddcfbe0ede54b3a1051ef6d8b5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool FileBasedDocument::loadFromUserSpecifiedFile </td>
+          <td class="memname"><a class="el" href="classResult.html">Result</a> FileBasedDocument::loadFromUserSpecifiedFile </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>showMessageOnFailure</em></td><td>)</td>
@@ -411,9 +411,9 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Asks the user for a file and tries to load it. </p>
-<p>This will pop up a dialog box using the title, file extension and wildcard specified in the document's constructor, and asks the user for a file. If they pick one, the <a class="el" href="classFileBasedDocument.html#a306a20730d9affcc1cf744d8cfaacb27" title="Tries to open a file.">loadFrom()</a> method is used to try to load it, optionally showing a message if it fails.</p>
-<dl class="section return"><dt>Returns</dt><dd>true if a file was loaded; false if the user cancelled or if they picked a file which failed to load correctly </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFileBasedDocument.html#a306a20730d9affcc1cf744d8cfaacb27" title="Tries to open a file.">loadFrom</a> </dd></dl>
+<p>This will pop up a dialog box using the title, file extension and wildcard specified in the document's constructor, and asks the user for a file. If they pick one, the <a class="el" href="classFileBasedDocument.html#abcf1958f689b229b309f7486854cc7d7" title="Tries to open a file.">loadFrom()</a> method is used to try to load it, optionally showing a message if it fails.</p>
+<dl class="section return"><dt>Returns</dt><dd>a result indicating success; This will be a failure message if the user cancelled or if they picked a file which failed to load correctly </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFileBasedDocument.html#abcf1958f689b229b309f7486854cc7d7" title="Tries to open a file.">loadFrom</a> </dd></dl>
 
 </div>
 </div>

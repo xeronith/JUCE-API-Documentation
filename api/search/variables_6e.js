@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['name',['name',['../classAudioIODevice.html#a8f0fcd3c3672601cfd44749221452ebc',1,'AudioIODevice::name()'],['../classMidiInput.html#ac6cd3d83df95bc0e07f3a062d42972a8',1,'MidiInput::name()'],['../classPluginDescription.html#aea9757db9385b9398598bb65f07667fd',1,'PluginDescription::name()'],['../classTypeface.html#adf2787d392df086aa81c1a831d1ca3f0',1,'Typeface::name()'],['../classMarkerList_1_1Marker.html#af3b200d9580dfe7fd665ee5820a5ed0d',1,'MarkerList::Marker::name()'],['../structCodeEditorComponent_1_1ColourScheme_1_1TokenType.html#ac12c92870f85aa19da82f6ae2e75ea6a',1,'CodeEditorComponent::ColourScheme::TokenType::name()']]],
+  ['name',['name',['../classAudioIODevice.html#a8f0fcd3c3672601cfd44749221452ebc',1,'AudioIODevice::name()'],['../classMidiInput.html#ac6cd3d83df95bc0e07f3a062d42972a8',1,'MidiInput::name()'],['../classPluginDescription.html#aea9757db9385b9398598bb65f07667fd',1,'PluginDescription::name()'],['../structPerformanceCounter_1_1Statistics.html#a006372a0198101b483e7465a27b2d58a',1,'PerformanceCounter::Statistics::name()'],['../classTypeface.html#adf2787d392df086aa81c1a831d1ca3f0',1,'Typeface::name()'],['../classMarkerList_1_1Marker.html#af3b200d9580dfe7fd665ee5820a5ed0d',1,'MarkerList::Marker::name()'],['../structCodeEditorComponent_1_1ColourScheme_1_1TokenType.html#ac12c92870f85aa19da82f6ae2e75ea6a',1,'CodeEditorComponent::ColourScheme::TokenType::name()']]],
   ['nameproperty',['nameProperty',['../classMarkerList_1_1ValueTreeWrapper.html#a896618b21ad5b4670845cea9fa176920',1,'MarkerList::ValueTreeWrapper']]],
   ['navajowhite',['navajowhite',['../classColours.html#a3aae0d537d9c4103f0be6e84443bae6f',1,'Colours']]],
   ['navy',['navy',['../classColours.html#a2f4e6cbbf218f698b25a8e08c787068f',1,'Colours']]],
@@ -35,5 +35,6 @@ var searchData=
   ['numchars',['numChars',['../structCppTokeniserFunctions_1_1StringIterator.html#a87c5f347ec1afcfa2594b15892002c99',1,'CppTokeniserFunctions::StringIterator']]],
   ['numinputchannels',['numInputChannels',['../classPluginDescription.html#aae10fb65ec4fcbfcf35aed5d46b98932',1,'PluginDescription']]],
   ['numoutputchannels',['numOutputChannels',['../classPluginDescription.html#a3b04bfe9e7ede6557b7de388c70a8888',1,'PluginDescription']]],
+  ['numruns',['numRuns',['../structPerformanceCounter_1_1Statistics.html#a0bf8bbdfaa5b9d4c392bbe0fd7fb3b94',1,'PerformanceCounter::Statistics']]],
   ['numsamples',['numSamples',['../structAudioSourceChannelInfo.html#a6669c809cf3b47afa94af63d4fa48101',1,'AudioSourceChannelInfo']]]
 ];

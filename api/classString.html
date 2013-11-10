@@ -176,6 +176,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae19f504049d540cd2dd23021584143df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#ae19f504049d540cd2dd23021584143df">operator+=</a> (int numberToAppend)</td></tr>
 <tr class="memdesc:ae19f504049d540cd2dd23021584143df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a decimal number at the end of this string.  <a href="#ae19f504049d540cd2dd23021584143df"></a><br/></td></tr>
 <tr class="separator:ae19f504049d540cd2dd23021584143df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac840d82ea7c41e91823e87ec2a3e4880"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#ac840d82ea7c41e91823e87ec2a3e4880">operator+=</a> (<a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> numberToAppend)</td></tr>
+<tr class="memdesc:ac840d82ea7c41e91823e87ec2a3e4880"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a decimal number at the end of this string.  <a href="#ac840d82ea7c41e91823e87ec2a3e4880"></a><br/></td></tr>
+<tr class="separator:ac840d82ea7c41e91823e87ec2a3e4880"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9eac6350a4e708212a953fd4d7a08046"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a9eac6350a4e708212a953fd4d7a08046">operator+=</a> (char characterToAppend)</td></tr>
 <tr class="memdesc:a9eac6350a4e708212a953fd4d7a08046"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a character at the end of this string.  <a href="#a9eac6350a4e708212a953fd4d7a08046"></a><br/></td></tr>
 <tr class="separator:a9eac6350a4e708212a953fd4d7a08046"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,6 +194,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a429ae4319863f720265f3ef2d372d85c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a429ae4319863f720265f3ef2d372d85c">appendCharPointer</a> (const CharPointerType startOfTextToAppend, const CharPointerType endOfTextToAppend)</td></tr>
 <tr class="memdesc:a429ae4319863f720265f3ef2d372d85c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a string to the end of this one.  <a href="#a429ae4319863f720265f3ef2d372d85c"></a><br/></td></tr>
 <tr class="separator:a429ae4319863f720265f3ef2d372d85c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b85316a9a8ab9a4c7b771cb07e06ecd"><td class="memTemplParams" colspan="2">template&lt;class CharPointer &gt; </td></tr>
+<tr class="memitem:a9b85316a9a8ab9a4c7b771cb07e06ecd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classString.html#a9b85316a9a8ab9a4c7b771cb07e06ecd">appendCharPointer</a> (const CharPointer startOfTextToAppend, const CharPointer endOfTextToAppend)</td></tr>
+<tr class="memdesc:a9b85316a9a8ab9a4c7b771cb07e06ecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a string to the end of this one.  <a href="#a9b85316a9a8ab9a4c7b771cb07e06ecd"></a><br/></td></tr>
+<tr class="separator:a9b85316a9a8ab9a4c7b771cb07e06ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed53ab87e952b85d75a8157fcffdaa62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#aed53ab87e952b85d75a8157fcffdaa62">appendCharPointer</a> (const CharPointerType textToAppend)</td></tr>
 <tr class="memdesc:aed53ab87e952b85d75a8157fcffdaa62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a string to the end of this one.  <a href="#aed53ab87e952b85d75a8157fcffdaa62"></a><br/></td></tr>
 <tr class="separator:aed53ab87e952b85d75a8157fcffdaa62"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1510,6 +1517,24 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac840d82ea7c41e91823e87ec2a3e4880"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classString.html">String</a>&amp; String::operator+= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td>
+          <td class="paramname"><em>numberToAppend</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Appends a decimal number at the end of this string. </p>
+
+</div>
+</div>
 <a class="anchor" id="a9eac6350a4e708212a953fd4d7a08046"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1634,6 +1659,45 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a9b85316a9a8ab9a4c7b771cb07e06ecd"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharPointer &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void String::appendCharPointer </td>
+          <td>(</td>
+          <td class="paramtype">const CharPointer&#160;</td>
+          <td class="paramname"><em>startOfTextToAppend</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const CharPointer&#160;</td>
+          <td class="paramname"><em>endOfTextToAppend</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Appends a string to the end of this one. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">startOfTextToAppend</td><td>the start of the string to add. This must not be a nullptr </td></tr>
+    <tr><td class="paramname">endOfTextToAppend</td><td>the end of the string to add. This must not be a nullptr </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="el" href="juce__Memory_8h.html#a418069960514b421791c78ce44ec5e28">addBytesToPointer()</a>, <a class="el" href="classCharPointer__ASCII.html#a1e686d89f0358c21941b2302d950e29d">CharPointer_ASCII::getAddress()</a>, and <a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aed53ab87e952b85d75a8157fcffdaa62"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1708,8 +1772,6 @@ template&lt;class CharPointer &gt; </div>
 </div><div class="memdoc">
 
 <p>Appends a string to the end of this one. </p>
-
-<p>References <a class="el" href="juce__Memory_8h.html#a418069960514b421791c78ce44ec5e28">addBytesToPointer()</a>, and <a class="el" href="classCharPointer__ASCII.html#a1e686d89f0358c21941b2302d950e29d">CharPointer_ASCII::getAddress()</a>.</p>
 
 </div>
 </div>

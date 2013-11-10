@@ -109,9 +109,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4b7d074fc9555e8211e1f97c1d51c3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab26f88e24d7a98c01ad9f5e437032934"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLShaderProgram.html#ab26f88e24d7a98c01ad9f5e437032934">~OpenGLShaderProgram</a> () noexcept</td></tr>
 <tr class="separator:ab26f88e24d7a98c01ad9f5e437032934"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e6acb04b6359c5945d3c5697db7e58d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLShaderProgram.html#a6e6acb04b6359c5945d3c5697db7e58d">addShader</a> (const char *const shaderSourceCode, GLenum shaderType)</td></tr>
-<tr class="memdesc:a6e6acb04b6359c5945d3c5697db7e58d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compiles and adds a shader to this program.  <a href="#a6e6acb04b6359c5945d3c5697db7e58d"></a><br/></td></tr>
-<tr class="separator:a6e6acb04b6359c5945d3c5697db7e58d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12aed7f26db2699c2fb14a60c36edba1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLShaderProgram.html#a12aed7f26db2699c2fb14a60c36edba1">addShader</a> (<a class="el" href="classStringRef.html">StringRef</a> shaderSourceCode, GLenum shaderType)</td></tr>
+<tr class="memdesc:a12aed7f26db2699c2fb14a60c36edba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compiles and adds a shader to this program.  <a href="#a12aed7f26db2699c2fb14a60c36edba1"></a><br/></td></tr>
+<tr class="separator:a12aed7f26db2699c2fb14a60c36edba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac838f16fe860d7a66a12caff3a953aa6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLShaderProgram.html#ac838f16fe860d7a66a12caff3a953aa6">addVertexShader</a> (<a class="el" href="classStringRef.html">StringRef</a> shaderSourceCode)</td></tr>
+<tr class="memdesc:ac838f16fe860d7a66a12caff3a953aa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compiles and adds a fragment shader to this program.  <a href="#ac838f16fe860d7a66a12caff3a953aa6"></a><br/></td></tr>
+<tr class="separator:ac838f16fe860d7a66a12caff3a953aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fd34bd175ba192d2607f9766bad93ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLShaderProgram.html#a7fd34bd175ba192d2607f9766bad93ad">addFragmentShader</a> (<a class="el" href="classStringRef.html">StringRef</a> shaderSourceCode)</td></tr>
+<tr class="memdesc:a7fd34bd175ba192d2607f9766bad93ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compiles and adds a fragment shader to this program.  <a href="#a7fd34bd175ba192d2607f9766bad93ad"></a><br/></td></tr>
+<tr class="separator:a7fd34bd175ba192d2607f9766bad93ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a930959c2890c748a91cb8a72aee9814a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLShaderProgram.html#a930959c2890c748a91cb8a72aee9814a">link</a> () noexcept</td></tr>
 <tr class="memdesc:a930959c2890c748a91cb8a72aee9814a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Links all the compiled shaders into a usable program.  <a href="#a930959c2890c748a91cb8a72aee9814a"></a><br/></td></tr>
 <tr class="separator:a930959c2890c748a91cb8a72aee9814a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,14 +221,14 @@ Public Attributes</h2></td></tr>
 </div><!-- fragment --> 
 </div>
 </div>
-<a class="anchor" id="a6e6acb04b6359c5945d3c5697db7e58d"></a>
+<a class="anchor" id="a12aed7f26db2699c2fb14a60c36edba1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool OpenGLShaderProgram::addShader </td>
           <td>(</td>
-          <td class="paramtype">const char *const&#160;</td>
+          <td class="paramtype"><a class="el" href="classStringRef.html">StringRef</a>&#160;</td>
           <td class="paramname"><em>shaderSourceCode</em>, </td>
         </tr>
         <tr>
@@ -244,6 +250,44 @@ Public Attributes</h2></td></tr>
 <p>If your app is built in debug mode, this method will assert if the program fails to compile correctly.</p>
 <p>The shaderType parameter could be GL_VERTEX_SHADER, GL_FRAGMENT_SHADER, etc.</p>
 <dl class="section return"><dt>Returns</dt><dd>true if the shader compiled successfully. If not, you can call <a class="el" href="classOpenGLShaderProgram.html#a946971889421f0d006b0618aa12efc5b" title="Get the output for the last shader compilation or link that failed.">getLastError()</a> to find out what happened. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac838f16fe860d7a66a12caff3a953aa6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OpenGLShaderProgram::addVertexShader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classStringRef.html">StringRef</a>&#160;</td>
+          <td class="paramname"><em>shaderSourceCode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compiles and adds a fragment shader to this program. </p>
+<p>This is equivalent to calling <a class="el" href="classOpenGLShaderProgram.html#a12aed7f26db2699c2fb14a60c36edba1" title="Compiles and adds a shader to this program.">addShader()</a> with a type of GL_VERTEX_SHADER. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7fd34bd175ba192d2607f9766bad93ad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OpenGLShaderProgram::addFragmentShader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classStringRef.html">StringRef</a>&#160;</td>
+          <td class="paramname"><em>shaderSourceCode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compiles and adds a fragment shader to this program. </p>
+<p>This is equivalent to calling <a class="el" href="classOpenGLShaderProgram.html#a12aed7f26db2699c2fb14a60c36edba1" title="Compiles and adds a shader to this program.">addShader()</a> with a type of GL_FRAGMENT_SHADER. </p>
 
 </div>
 </div>

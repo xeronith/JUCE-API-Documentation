@@ -134,6 +134,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab00efad30db9008960012e8194a2452e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListBoxModel.html#ab00efad30db9008960012e8194a2452e">getTooltipForRow</a> (int row)</td></tr>
 <tr class="memdesc:ab00efad30db9008960012e8194a2452e"><td class="mdescLeft">&#160;</td><td class="mdescRight">You can override this to provide tool tips for specific rows.  <a href="#ab00efad30db9008960012e8194a2452e"></a><br/></td></tr>
 <tr class="separator:ab00efad30db9008960012e8194a2452e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cee39f8cb6ce1bccea45a319713b7b3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classMouseCursor.html">MouseCursor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListBoxModel.html#a1cee39f8cb6ce1bccea45a319713b7b3">getMouseCursorForRow</a> (int row)</td></tr>
+<tr class="memdesc:a1cee39f8cb6ce1bccea45a319713b7b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">You can override this to return a custom mouse cursor for each row.  <a href="#a1cee39f8cb6ce1bccea45a319713b7b3"></a><br/></td></tr>
+<tr class="separator:a1cee39f8cb6ce1bccea45a319713b7b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A subclass of this is used to drive a <a class="el" href="classListBox.html" title="A list of items that can be scrolled vertically.">ListBox</a>. </p>
@@ -589,6 +592,32 @@ Public Member Functions</h2></td></tr>
 
 <p>You can override this to provide tool tips for specific rows. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classTooltipClient.html" title="Components that want to use pop-up tooltips should implement this interface.">TooltipClient</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1cee39f8cb6ce1bccea45a319713b7b3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classMouseCursor.html">MouseCursor</a> ListBoxModel::getMouseCursorForRow </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>row</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>You can override this to return a custom mouse cursor for each row. </p>
 
 </div>
 </div>
