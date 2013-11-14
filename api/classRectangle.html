@@ -342,6 +342,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a55ba80762b504054c3aaa02ae833f350"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#a55ba80762b504054c3aaa02ae833f350">intersects</a> (const <a class="el" href="classRectangle.html">Rectangle</a> &amp;other) const noexcept</td></tr>
 <tr class="memdesc:a55ba80762b504054c3aaa02ae833f350"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if any part of another rectangle overlaps this one.  <a href="#a55ba80762b504054c3aaa02ae833f350"></a><br/></td></tr>
 <tr class="separator:a55ba80762b504054c3aaa02ae833f350"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0842c598b5a7acc86ed5eefb75248de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#ae0842c598b5a7acc86ed5eefb75248de">intersects</a> (const <a class="el" href="classLine.html">Line</a>&lt; ValueType &gt; &amp;line) const noexcept</td></tr>
+<tr class="memdesc:ae0842c598b5a7acc86ed5eefb75248de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if any part of the given line lies inside this rectangle.  <a href="#ae0842c598b5a7acc86ed5eefb75248de"></a><br/></td></tr>
+<tr class="separator:ae0842c598b5a7acc86ed5eefb75248de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28a09961d9ad8b60909fd7d946521db9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#a28a09961d9ad8b60909fd7d946521db9">getIntersection</a> (const <a class="el" href="classRectangle.html">Rectangle</a> &amp;other) const noexcept</td></tr>
 <tr class="memdesc:a28a09961d9ad8b60909fd7d946521db9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the region that is the overlap between this and another rectangle.  <a href="#a28a09961d9ad8b60909fd7d946521db9"></a><br/></td></tr>
 <tr class="separator:a28a09961d9ad8b60909fd7d946521db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1125,6 +1128,8 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns the rectangle's top-left position as a <a class="el" href="classPoint.html" title="A pair of (x, y) coordinates.">Point</a>. </p>
 
+<p>Referenced by <a class="el" href="classRectangle.html#ae0842c598b5a7acc86ed5eefb75248de">Rectangle&lt; int &gt;::intersects()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a7551d1036a0b73ffed81ff1b82a2d6b2"></a>
@@ -1151,6 +1156,8 @@ template&lt;typename ValueType&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the rectangle's top-right position as a <a class="el" href="classPoint.html" title="A pair of (x, y) coordinates.">Point</a>. </p>
+
+<p>Referenced by <a class="el" href="classRectangle.html#ae0842c598b5a7acc86ed5eefb75248de">Rectangle&lt; int &gt;::intersects()</a>.</p>
 
 </div>
 </div>
@@ -1179,6 +1186,8 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns the rectangle's bottom-left position as a <a class="el" href="classPoint.html" title="A pair of (x, y) coordinates.">Point</a>. </p>
 
+<p>Referenced by <a class="el" href="classRectangle.html#ae0842c598b5a7acc86ed5eefb75248de">Rectangle&lt; int &gt;::intersects()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a227c5996016fa75ccc9745aa72b22b97"></a>
@@ -1205,6 +1214,8 @@ template&lt;typename ValueType&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the rectangle's bottom-right position as a <a class="el" href="classPoint.html" title="A pair of (x, y) coordinates.">Point</a>. </p>
+
+<p>Referenced by <a class="el" href="classRectangle.html#ae0842c598b5a7acc86ed5eefb75248de">Rectangle&lt; int &gt;::intersects()</a>.</p>
 
 </div>
 </div>
@@ -2832,7 +2843,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns true if this coordinate is inside the rectangle. </p>
 
-<p>Referenced by <a class="el" href="classRectangleList.html#a9df83403875d4288f1aa9a9cdd3245bb">RectangleList&lt; int &gt;::add()</a>, and <a class="el" href="classRectangleList.html#a51b36fe7c75ecc84952f95b52bb7928c">RectangleList&lt; int &gt;::containsRectangle()</a>.</p>
+<p>Referenced by <a class="el" href="classRectangleList.html#a9df83403875d4288f1aa9a9cdd3245bb">RectangleList&lt; int &gt;::add()</a>, <a class="el" href="classRectangleList.html#a51b36fe7c75ecc84952f95b52bb7928c">RectangleList&lt; int &gt;::containsRectangle()</a>, and <a class="el" href="classRectangle.html#ae0842c598b5a7acc86ed5eefb75248de">Rectangle&lt; int &gt;::intersects()</a>.</p>
 
 </div>
 </div>
@@ -2986,6 +2997,34 @@ template&lt;typename ValueType&gt; </div>
 <p>Returns true if any part of another rectangle overlaps this one. </p>
 
 <p>Referenced by <a class="el" href="classRectangleList.html#a9df83403875d4288f1aa9a9cdd3245bb">RectangleList&lt; int &gt;::add()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae0842c598b5a7acc86ed5eefb75248de"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt;::intersects </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classLine.html">Line</a>&lt; ValueType &gt; &amp;&#160;</td>
+          <td class="paramname"><em>line</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if any part of the given line lies inside this rectangle. </p>
 
 </div>
 </div>
