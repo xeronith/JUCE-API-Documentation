@@ -7,7 +7,7 @@ var searchData=
   ['juce_5fanalyzer_5fnoreturn',['JUCE_ANALYZER_NORETURN',['../juce__PlatformDefs_8h.html#a0a4e8406ebaae14eb87c14f02131602d',1,'juce_PlatformDefs.h']]],
   ['juce_5fandroid',['JUCE_ANDROID',['../juce__TargetPlatform_8h.html#a6fda198266d9276b5c331071dd0ba014',1,'juce_TargetPlatform.h']]],
   ['juce_5fapi',['JUCE_API',['../juce__StandardHeader_8h.html#a65961b3bfbda0ffb83750d914cee38fb',1,'juce_StandardHeader.h']]],
-  ['juce_5fatomics_5fmac',['JUCE_ATOMICS_MAC',['../juce__Atomic_8h.html#a17506b18b29f9a6d3a797274baf66b73',1,'juce_Atomic.h']]],
+  ['juce_5fatomics_5fmac_5flegacy',['JUCE_ATOMICS_MAC_LEGACY',['../juce__Atomic_8h.html#af8e994784b4febc6f040e4d8d68a4e72',1,'juce_Atomic.h']]],
   ['juce_5fautoreleasepool',['JUCE_AUTORELEASEPOOL',['../juce__Memory_8h.html#ad73fadcd76040b11a626d5bdf833ad49',1,'juce_Memory.h']]],
   ['juce_5fbig_5fendian',['JUCE_BIG_ENDIAN',['../juce__TargetPlatform_8h.html#ae7c65e2fe39a04d255d8c723668969bd',1,'JUCE_BIG_ENDIAN():&#160;juce_TargetPlatform.h'],['../juce__TargetPlatform_8h.html#ae7c65e2fe39a04d255d8c723668969bd',1,'JUCE_BIG_ENDIAN():&#160;juce_TargetPlatform.h']]],
   ['juce_5fbreakdebugger',['juce_breakDebugger',['../juce__PlatformDefs_8h.html#a875142924cb37a18783af2e03c3feb51',1,'juce_PlatformDefs.h']]],

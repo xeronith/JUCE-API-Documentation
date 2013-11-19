@@ -161,9 +161,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a076010c009909a444f84129a69ac61d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#a076010c009909a444f84129a69ac61d4">removeTab</a> (int tabIndex)</td></tr>
 <tr class="memdesc:a076010c009909a444f84129a69ac61d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets rid of one of the tabs.  <a href="#a076010c009909a444f84129a69ac61d4"></a><br/></td></tr>
 <tr class="separator:a076010c009909a444f84129a69ac61d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb664821ffabbd76c0282ae05bec5875"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#abb664821ffabbd76c0282ae05bec5875">moveTab</a> (int currentIndex, int newIndex)</td></tr>
-<tr class="memdesc:abb664821ffabbd76c0282ae05bec5875"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves a tab to a new index in the list.  <a href="#abb664821ffabbd76c0282ae05bec5875"></a><br/></td></tr>
-<tr class="separator:abb664821ffabbd76c0282ae05bec5875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0137adff073d5dc5e4d6f558e5984ab2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#a0137adff073d5dc5e4d6f558e5984ab2">moveTab</a> (int currentIndex, int newIndex, bool animate=false)</td></tr>
+<tr class="memdesc:a0137adff073d5dc5e4d6f558e5984ab2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves a tab to a new index in the list.  <a href="#a0137adff073d5dc5e4d6f558e5984ab2"></a><br/></td></tr>
+<tr class="separator:a0137adff073d5dc5e4d6f558e5984ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cf9104837e23cdba611da68705a44e9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#a6cf9104837e23cdba611da68705a44e9">getNumTabs</a> () const </td></tr>
 <tr class="memdesc:a6cf9104837e23cdba611da68705a44e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of tabs in the bar.  <a href="#a6cf9104837e23cdba611da68705a44e9"></a><br/></td></tr>
 <tr class="separator:a6cf9104837e23cdba611da68705a44e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,6 +185,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a23d24dd7c9e527d11539a059a31f57f4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#a23d24dd7c9e527d11539a059a31f57f4">indexOfTabButton</a> (const <a class="el" href="classTabBarButton.html">TabBarButton</a> *button) const </td></tr>
 <tr class="memdesc:a23d24dd7c9e527d11539a059a31f57f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of a <a class="el" href="classTabBarButton.html" title="In a TabbedButtonBar, this component is used for each of the buttons.">TabBarButton</a> if it belongs to this bar.  <a href="#a23d24dd7c9e527d11539a059a31f57f4"></a><br/></td></tr>
 <tr class="separator:a23d24dd7c9e527d11539a059a31f57f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bd8c75d5a291dd805029be28043647f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#a8bd8c75d5a291dd805029be28043647f">getTargetBounds</a> (<a class="el" href="classTabBarButton.html">TabBarButton</a> *button) const </td></tr>
+<tr class="memdesc:a8bd8c75d5a291dd805029be28043647f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the final bounds of this button if it is currently being animated.  <a href="#a8bd8c75d5a291dd805029be28043647f"></a><br/></td></tr>
+<tr class="separator:a8bd8c75d5a291dd805029be28043647f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a11f71e857b122419ed70066b8d4cda"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html#a6a11f71e857b122419ed70066b8d4cda">currentTabChanged</a> (int newCurrentTabIndex, const <a class="el" href="classString.html">String</a> &amp;newCurrentTabName)</td></tr>
 <tr class="memdesc:a6a11f71e857b122419ed70066b8d4cda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback method to indicate the selected tab has been changed.  <a href="#a6a11f71e857b122419ed70066b8d4cda"></a><br/></td></tr>
 <tr class="separator:a6a11f71e857b122419ed70066b8d4cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1119,7 +1122,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abb664821ffabbd76c0282ae05bec5875"></a>
+<a class="anchor" id="a0137adff073d5dc5e4d6f558e5984ab2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1133,7 +1136,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>newIndex</em>&#160;</td>
+          <td class="paramname"><em>newIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>animate</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1290,6 +1299,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the index of a <a class="el" href="classTabBarButton.html" title="In a TabbedButtonBar, this component is used for each of the buttons.">TabBarButton</a> if it belongs to this bar. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8bd8c75d5a291dd805029be28043647f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classRectangle.html">Rectangle</a>&lt;int&gt; TabbedButtonBar::getTargetBounds </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classTabBarButton.html">TabBarButton</a> *&#160;</td>
+          <td class="paramname"><em>button</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the final bounds of this button if it is currently being animated. </p>
 
 </div>
 </div>

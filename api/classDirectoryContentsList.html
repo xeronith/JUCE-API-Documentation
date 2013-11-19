@@ -135,6 +135,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a13805762d1b90055cdb363bd010225b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#a13805762d1b90055cdb363bd010225b2">ignoresHiddenFiles</a> () const </td></tr>
 <tr class="memdesc:a13805762d1b90055cdb363bd010225b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if hidden files are ignored.  <a href="#a13805762d1b90055cdb363bd010225b2"></a><br/></td></tr>
 <tr class="separator:a13805762d1b90055cdb363bd010225b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad66e0f0c11c0796e219048747e92428"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#aad66e0f0c11c0796e219048747e92428">setFileFilter</a> (const <a class="el" href="classFileFilter.html">FileFilter</a> *newFileFilter)</td></tr>
+<tr class="memdesc:aad66e0f0c11c0796e219048747e92428"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the current <a class="el" href="classFileFilter.html" title="Interface for deciding which files are suitable for something.">FileFilter</a>.  <a href="#aad66e0f0c11c0796e219048747e92428"></a><br/></td></tr>
+<tr class="separator:aad66e0f0c11c0796e219048747e92428"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afabd5e3cff95833e73d6f90359cf7e63"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDirectoryContentsList.html#afabd5e3cff95833e73d6f90359cf7e63">getNumFiles</a> () const noexcept</td></tr>
 <tr class="memdesc:afabd5e3cff95833e73d6f90359cf7e63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of files currently available in the list.  <a href="#afabd5e3cff95833e73d6f90359cf7e63"></a><br/></td></tr>
 <tr class="separator:afabd5e3cff95833e73d6f90359cf7e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -446,6 +449,25 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns true if hidden files are ignored. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classDirectoryContentsList.html#ab143c4681db9f409c204d9a21ae3bced" title="Tells the list whether or not to ignore hidden files.">setIgnoresHiddenFiles</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aad66e0f0c11c0796e219048747e92428"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DirectoryContentsList::setFileFilter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classFileFilter.html">FileFilter</a> *&#160;</td>
+          <td class="paramname"><em>newFileFilter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Replaces the current <a class="el" href="classFileFilter.html" title="Interface for deciding which files are suitable for something.">FileFilter</a>. </p>
+<p>This can be nullptr to have no filter. The DirectoryContentList does not take ownership of this object - it just keeps a pointer to it, so you must manage its lifetime. Note that this only replaces the filter, it doesn't refresh the list - you'll probably want to call <a class="el" href="classDirectoryContentsList.html#ac7c096640fd74adbd9b20b38892fee48" title="Clears the list and restarts scanning the directory for files.">refresh()</a> after calling this. </p>
 
 </div>
 </div>

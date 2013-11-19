@@ -960,6 +960,7 @@ var searchData=
   ['gettagname',['getTagName',['../classXmlElement.html#a42763c064fcc57c24f0a4ec3c7de7b5c',1,'XmlElement']]],
   ['gettagnamewithoutnamespace',['getTagNameWithoutNamespace',['../classXmlElement.html#a181e055d21cb5802c707da33ac9b8edc',1,'XmlElement']]],
   ['gettaillengthseconds',['getTailLengthSeconds',['../classAudioProcessor.html#a358db82650c6423968091f8b4d22b09a',1,'AudioProcessor::getTailLengthSeconds()'],['../classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a4191c435eb3c9a1d5ac372ad5076c745',1,'AudioProcessorGraph::AudioGraphIOProcessor::getTailLengthSeconds()'],['../classAudioProcessorGraph.html#a3764ce2440c263c416787b5760b51251',1,'AudioProcessorGraph::getTailLengthSeconds()']]],
+  ['gettargetbounds',['getTargetBounds',['../classTabbedButtonBar.html#a8bd8c75d5a291dd805029be28043647f',1,'TabbedButtonBar']]],
   ['gettargetcomponent',['getTargetComponent',['../classOpenGLContext.html#a0079c44b081f30fb0ace2396a95df343',1,'OpenGLContext']]],
   ['gettargetfile',['getTargetFile',['../classTemporaryFile.html#a61bb02caa51de80e32f05b90340c2c81',1,'TemporaryFile']]],
   ['gettargetforcommand',['getTargetForCommand',['../classApplicationCommandManager.html#ab9fcbf2c2a3b58cf1a54babf906d9e84',1,'ApplicationCommandManager::getTargetForCommand()'],['../classApplicationCommandTarget.html#aee836277019ca8182636e32701d814d7',1,'ApplicationCommandTarget::getTargetForCommand()']]],
