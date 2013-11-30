@@ -104,6 +104,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acd51b4ba8d7d3a1ba33538f5542e756e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZipFile_1_1Builder.html#acd51b4ba8d7d3a1ba33538f5542e756e">addFile</a> (const <a class="el" href="classFile.html">File</a> &amp;fileToAdd, int compressionLevel, const <a class="el" href="classString.html">String</a> &amp;storedPathName=<a class="el" href="classString.html#afd02116a5571fcc8bc1e6fdabe132a85">String::empty</a>)</td></tr>
 <tr class="memdesc:acd51b4ba8d7d3a1ba33538f5542e756e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a file while should be added to the archive.  <a href="#acd51b4ba8d7d3a1ba33538f5542e756e"></a><br/></td></tr>
 <tr class="separator:acd51b4ba8d7d3a1ba33538f5542e756e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d857ec4293d11dba0dc717eb0187e6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZipFile_1_1Builder.html#a9d857ec4293d11dba0dc717eb0187e6e">addEntry</a> (<a class="el" href="classInputStream.html">InputStream</a> *streamToRead, int compressionLevel, const <a class="el" href="classString.html">String</a> &amp;storedPathName, <a class="el" href="classTime.html">Time</a> fileModificationTime)</td></tr>
+<tr class="memdesc:a9d857ec4293d11dba0dc717eb0187e6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a file while should be added to the archive.  <a href="#a9d857ec4293d11dba0dc717eb0187e6e"></a><br/></td></tr>
+<tr class="separator:a9d857ec4293d11dba0dc717eb0187e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a006051857dded0b5df8844c7f09f94d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZipFile_1_1Builder.html#a006051857dded0b5df8844c7f09f94d4">writeToStream</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;target, double *progress) const </td></tr>
 <tr class="memdesc:a006051857dded0b5df8844c7f09f94d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the zip file, writing it to the specified stream.  <a href="#a006051857dded0b5df8844c7f09f94d4"></a><br/></td></tr>
 <tr class="separator:a006051857dded0b5df8844c7f09f94d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,6 +180,55 @@ Public Member Functions</h2></td></tr>
 <p>Adds a file while should be added to the archive. </p>
 <p>The file isn't read immediately, all the files will be read later when the <a class="el" href="classZipFile_1_1Builder.html#a006051857dded0b5df8844c7f09f94d4" title="Generates the zip file, writing it to the specified stream.">writeToStream()</a> method is called.</p>
 <p>The compressionLevel can be between 0 (no compression), and 9 (maximum compression). If the storedPathName parameter is specified, you can customise the partial pathname that will be stored for this file. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9d857ec4293d11dba0dc717eb0187e6e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ZipFile::Builder::addEntry </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classInputStream.html">InputStream</a> *&#160;</td>
+          <td class="paramname"><em>streamToRead</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>compressionLevel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>storedPathName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classTime.html">Time</a>&#160;</td>
+          <td class="paramname"><em>fileModificationTime</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a file while should be added to the archive. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">streamToRead</td><td>this stream isn't read immediately - a pointer to the stream is stored, then used later when the <a class="el" href="classZipFile_1_1Builder.html#a006051857dded0b5df8844c7f09f94d4" title="Generates the zip file, writing it to the specified stream.">writeToStream()</a> method is called, and deleted by the <a class="el" href="classZipFile_1_1Builder.html" title="Used to create a new zip file.">Builder</a> object when no longer needed, so be very careful about its lifetime and the lifetime of any objects on which it depends! This must not be null. </td></tr>
+    <tr><td class="paramname">compressionLevel</td><td>this can be between 0 (no compression), and 9 (maximum compression). </td></tr>
+    <tr><td class="paramname">storedPathName</td><td>the partial pathname that will be stored for this file </td></tr>
+    <tr><td class="paramname">fileModificationTime</td><td>the timestamp that will be stored as the last modification time of this entry </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

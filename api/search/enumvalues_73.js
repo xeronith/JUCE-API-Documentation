@@ -22,6 +22,7 @@ var searchData=
   ['sortalphabetically',['sortAlphabetically',['../classKnownPluginList.html#a6beabfccc86796527f663f30f3514098a13fa4bc46bb8b6c70670f13fa2a8ad4e',1,'KnownPluginList']]],
   ['sortbycategory',['sortByCategory',['../classKnownPluginList.html#a6beabfccc86796527f663f30f3514098a2a27fc73f320a500d812f660663eee11',1,'KnownPluginList']]],
   ['sortbyfilesystemlocation',['sortByFileSystemLocation',['../classKnownPluginList.html#a6beabfccc86796527f663f30f3514098a7da9f1486befa583139ced7d449a6b9d',1,'KnownPluginList']]],
+  ['sortbyformat',['sortByFormat',['../classKnownPluginList.html#a6beabfccc86796527f663f30f3514098a72b3147bbc8e818e0ece96b463c07bcc',1,'KnownPluginList']]],
   ['sortbymanufacturer',['sortByManufacturer',['../classKnownPluginList.html#a6beabfccc86796527f663f30f3514098acf0c4ac83301f91cb2eb1ac54fb32222',1,'KnownPluginList']]],
   ['sortedbackwards',['sortedBackwards',['../classTableHeaderComponent.html#abfee3b5ccd3289efb38e7b7dd1162831aa7e7f97460075ebf9666f89dca7b9983',1,'TableHeaderComponent']]],
   ['sortedforwards',['sortedForwards',['../classTableHeaderComponent.html#abfee3b5ccd3289efb38e7b7dd1162831a87fb777f6e42c8e3c8b8234bb0291951',1,'TableHeaderComponent']]],

@@ -91,7 +91,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>A subclass of this is used to drive a <a class="el" href="classListBox.html" title="A list of items that can be scrolled vertically.">ListBox</a>.  
  <a href="classListBoxModel.html#details">More...</a></p>
 
-<p>Inherited by <a class="el" href="classFileListComponent.html">FileListComponent</a><code> [private]</code>, <a class="el" href="classFileSearchPathListComponent.html">FileSearchPathListComponent</a><code> [private]</code>, <a class="el" href="classPluginListComponent.html">PluginListComponent</a><code> [private]</code>, and <a class="el" href="classTableListBox.html">TableListBox</a><code> [private]</code>.</p>
+<p>Inherited by <a class="el" href="classFileListComponent.html">FileListComponent</a><code> [private]</code>, <a class="el" href="classFileSearchPathListComponent.html">FileSearchPathListComponent</a><code> [private]</code>, and <a class="el" href="classTableListBox.html">TableListBox</a><code> [private]</code>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -192,7 +192,7 @@ Public Member Functions</h2></td></tr>
 <p>This has to return the number of items in the list. </p>
 <dl class="section see"><dt>See Also</dt><dd>ListBox::getNumRows() </dd></dl>
 
-<p>Implemented in <a class="el" href="classTableListBox.html#a0c4ec5150a2a2ea10a100727a4d6cde2">TableListBox</a>, <a class="el" href="classPluginListComponent.html#a1bf0f91ba029cb7645a6854cc259570b">PluginListComponent</a>, and <a class="el" href="classFileSearchPathListComponent.html#a98511f87abb780e9f53f7d684fa0b20a">FileSearchPathListComponent</a>.</p>
+<p>Implemented in <a class="el" href="classTableListBox.html#a7f2fd646bd80cf649e97c2284b027794">TableListBox</a>, and <a class="el" href="classFileSearchPathListComponent.html#a98511f87abb780e9f53f7d684fa0b20a">FileSearchPathListComponent</a>.</p>
 
 </div>
 </div>
@@ -248,7 +248,7 @@ Public Member Functions</h2></td></tr>
 
 <p>This method must be implemented to draw a row of the list. </p>
 
-<p>Implemented in <a class="el" href="classTableListBox.html#ae526dd61208735758ecf91b4ac74cc6f">TableListBox</a>, <a class="el" href="classPluginListComponent.html#a916453b2ac3d1868f1ebd6d12090b064">PluginListComponent</a>, and <a class="el" href="classFileSearchPathListComponent.html#a47190b102a53d8c25eb81db64d29a2e6">FileSearchPathListComponent</a>.</p>
+<p>Implemented in <a class="el" href="classTableListBox.html#ac19910ec33fa1a0c952e8443b07c06f3">TableListBox</a>, and <a class="el" href="classFileSearchPathListComponent.html#a47190b102a53d8c25eb81db64d29a2e6">FileSearchPathListComponent</a>.</p>
 
 </div>
 </div>
@@ -299,7 +299,7 @@ Public Member Functions</h2></td></tr>
 <p>The component that your method returns will be deleted by the <a class="el" href="classListBox.html" title="A list of items that can be scrolled vertically.">ListBox</a> when it is no longer needed.</p>
 <p>Bear in mind that if you put a custom component inside the row but still want the listbox to automatically handle clicking, selection, etc, then you'll need to make sure your custom component doesn't intercept all the mouse events that land on it, e.g by using <a class="el" href="classComponent.html#ac9fdcb595c1878201a641de2e1159aec" title="Changes the default return value for the hitTest() method.">Component::setInterceptsMouseClicks()</a>. </p>
 
-<p>Reimplemented in <a class="el" href="classTableListBox.html#afb3e0d4dd6244908e273bff1e60c6408">TableListBox</a>.</p>
+<p>Reimplemented in <a class="el" href="classTableListBox.html#afea1a88c9ce306400ec99c3df655ee89">TableListBox</a>.</p>
 
 </div>
 </div>
@@ -403,7 +403,7 @@ Public Member Functions</h2></td></tr>
 <p>This can be overridden to react to the user clicking on a part of the list where there are no rows. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classListBoxModel.html#a1ffd0f1cb56fa4b5f080b22ca0e424ad" title="This can be overridden to react to the user clicking on a row.">listBoxItemClicked</a> </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classTableListBox.html#a9a2d0f92803c770378aa299516156db6">TableListBox</a>.</p>
+<p>Reimplemented in <a class="el" href="classTableListBox.html#a13e0ad262be16bb5f536f164384bc11b">TableListBox</a>.</p>
 
 </div>
 </div>
@@ -438,7 +438,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classTableListBox.html#af336c3cac04ace8c916a3cb289b69c29">TableListBox</a>, and <a class="el" href="classFileSearchPathListComponent.html#ab08231967ff065e928334f4e6b580388">FileSearchPathListComponent</a>.</p>
+<p>Reimplemented in <a class="el" href="classTableListBox.html#a93e26df8daeb57cdf9b659c7f4ed50d5">TableListBox</a>, and <a class="el" href="classFileSearchPathListComponent.html#ab08231967ff065e928334f4e6b580388">FileSearchPathListComponent</a>.</p>
 
 </div>
 </div>
@@ -473,7 +473,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classTableListBox.html#ac65e79d06d14585a157b0c265a1d4fa6">TableListBox</a>, <a class="el" href="classPluginListComponent.html#a34a6c30f451b81807ac7f396848476ec">PluginListComponent</a>, and <a class="el" href="classFileSearchPathListComponent.html#ace140fd2d45192c23045808085657b3a">FileSearchPathListComponent</a>.</p>
+<p>Reimplemented in <a class="el" href="classTableListBox.html#ae9b7978011b47044454721da340a2c09">TableListBox</a>, and <a class="el" href="classFileSearchPathListComponent.html#ace140fd2d45192c23045808085657b3a">FileSearchPathListComponent</a>.</p>
 
 </div>
 </div>
@@ -508,7 +508,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classTableListBox.html#a9b1bbaceefb1ac41ff4774e91f38b5a2">TableListBox</a>, and <a class="el" href="classFileSearchPathListComponent.html#a0668eaacb767fc7cbb07b9ccb253c49e">FileSearchPathListComponent</a>.</p>
+<p>Reimplemented in <a class="el" href="classTableListBox.html#a9abe1206de0c97feeaf3361e8531cf54">TableListBox</a>, and <a class="el" href="classFileSearchPathListComponent.html#a0668eaacb767fc7cbb07b9ccb253c49e">FileSearchPathListComponent</a>.</p>
 
 </div>
 </div>
@@ -536,7 +536,7 @@ Public Member Functions</h2></td></tr>
 <p>Override this to be informed when the list is scrolled. </p>
 <p>This might be caused by the user moving the scrollbar, or by programmatic changes to the list position. </p>
 
-<p>Reimplemented in <a class="el" href="classTableListBox.html#aec55b05f54e4cfb834b88baea4f1180b">TableListBox</a>.</p>
+<p>Reimplemented in <a class="el" href="classTableListBox.html#a17c700c7a47639fc0cd018b1e36d70b1">TableListBox</a>.</p>
 
 </div>
 </div>

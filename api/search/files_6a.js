@@ -400,6 +400,7 @@ var searchData=
   ['juce_5fvariant_2eh',['juce_Variant.h',['../juce__Variant_8h.html',1,'']]],
   ['juce_5fvector3d_2eh',['juce_Vector3D.h',['../juce__Vector3D_8h.html',1,'']]],
   ['juce_5fviewport_2eh',['juce_Viewport.h',['../juce__Viewport_8h.html',1,'']]],
+  ['juce_5fvst3pluginformat_2eh',['juce_VST3PluginFormat.h',['../juce__VST3PluginFormat_8h.html',1,'']]],
   ['juce_5fvstmidieventlist_2eh',['juce_VSTMidiEventList.h',['../juce__VSTMidiEventList_8h.html',1,'']]],
   ['juce_5fvstpluginformat_2eh',['juce_VSTPluginFormat.h',['../juce__VSTPluginFormat_8h.html',1,'']]],
   ['juce_5fwaitableevent_2eh',['juce_WaitableEvent.h',['../juce__WaitableEvent_8h.html',1,'']]],

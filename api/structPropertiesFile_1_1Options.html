@@ -171,7 +171,7 @@ Public Attributes</h2></td></tr>
 <p>This can be called to suggest a file that should be used, based on the values in this structure. </p>
 <p>So on a Mac, this will return a file called: ~/Library/[osxLibrarySubFolder]/[folderName]/[applicationName].[filenameSuffix]</p>
 <p>On Windows it'll return something like: C:\Documents and Settings\username\Application Data\[folderName]\[applicationName].[filenameSuffix]</p>
-<p>On Linux it'll return ~/.[folderName]/[applicationName].[filenameSuffix]</p>
+<p>On Linux it'll return ~/[folderName]/[applicationName].[filenameSuffix]</p>
 <p>If the folderName variable is empty, it'll use the app name for this (or omit the folder name on the Mac).</p>
 <p>The paths will also vary depending on whether commonToAllUsers is true. </p>
 

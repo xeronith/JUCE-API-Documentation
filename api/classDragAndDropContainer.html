@@ -301,7 +301,7 @@ Protected Member Functions</h2></td></tr>
 <p>Utility to find the <a class="el" href="classDragAndDropContainer.html" title="Enables drag-and-drop behaviour for a component and all its sub-components.">DragAndDropContainer</a> for a given <a class="el" href="classComponent.html" title="The base class for all JUCE user-interface objects.">Component</a>. </p>
 <p>This will search up this component's parent hierarchy looking for the first parent component which is a <a class="el" href="classDragAndDropContainer.html" title="Enables drag-and-drop behaviour for a component and all its sub-components.">DragAndDropContainer</a>.</p>
 <p>It's useful when a component wants to call startDragging but doesn't know the <a class="el" href="classDragAndDropContainer.html" title="Enables drag-and-drop behaviour for a component and all its sub-components.">DragAndDropContainer</a> it should to use.</p>
-<p>Obviously this may return 0 if it doesn't find a suitable component. </p>
+<p>Obviously this may return nullptr if it doesn't find a suitable component. </p>
 
 </div>
 </div>

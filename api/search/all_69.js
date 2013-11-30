@@ -1,6 +1,7 @@
 var searchData=
 [
   ['ibeamcursor',['IBeamCursor',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97ab6611ff9b703b9a53c45745936c66393',1,'MouseCursor']]],
+  ['icon',['icon',['../classPopupMenu_1_1MenuItemIterator.html#abccdba4d60c64ff029d489fa65a1bf11',1,'PopupMenu::MenuItemIterator']]],
   ['iconsonly',['iconsOnly',['../classToolbar.html#a20676e8832b03e18af29fd3e009d7f56ade929b3efd0d4c8f02ee2fb0bd6a7f47',1,'Toolbar']]],
   ['iconswithtext',['iconsWithText',['../classToolbar.html#a20676e8832b03e18af29fd3e009d7f56a6f4995861dcf04ad6973aa52a04d40ae',1,'Toolbar']]],
   ['id3album',['id3album',['../classOggVorbisAudioFormat.html#ab00862fe52a02021c8f34df09002a7e7',1,'OggVorbisAudioFormat']]],
@@ -264,7 +265,7 @@ var searchData=
   ['isint',['isInt',['../classvar.html#a0cc29bf1409cc5a8cbdfdf22f0b87c04',1,'var']]],
   ['isint64',['isInt64',['../classvar.html#a84d9eae9c4470eaa8238740357728e83',1,'var']]],
   ['isinterestedindragsource',['isInterestedInDragSource',['../classDragAndDropTarget.html#a53853ec7aac70f5590a590b84c3f4f12',1,'DragAndDropTarget::isInterestedInDragSource()'],['../classToolbar.html#ae1c6a81d86121f50624aa3138eb02e10',1,'Toolbar::isInterestedInDragSource()'],['../classTreeViewItem.html#a7a1d27462d3ddf1fab3dca14e16c2788',1,'TreeViewItem::isInterestedInDragSource()'],['../classTreeView.html#afbfa354c5869c63a4c101e492c28c48a',1,'TreeView::isInterestedInDragSource()']]],
-  ['isinterestedinfiledrag',['isInterestedInFileDrag',['../classPluginListComponent.html#af8051531e1a76d8c9d76bd88e0077ad4',1,'PluginListComponent::isInterestedInFileDrag()'],['../classFilenameComponent.html#a62c18fb60b1efe4913dc12e5c8da144f',1,'FilenameComponent::isInterestedInFileDrag()'],['../classFileSearchPathListComponent.html#aa3b2399586c8004e521ec1c0f5245d15',1,'FileSearchPathListComponent::isInterestedInFileDrag()'],['../classFileDragAndDropTarget.html#a44fa7f7e69dec8119c6b3a6ff9d2ddce',1,'FileDragAndDropTarget::isInterestedInFileDrag()'],['../classTreeViewItem.html#abe8b909ba44b7eac0988b2adc6257c46',1,'TreeViewItem::isInterestedInFileDrag()'],['../classTreeView.html#aef2f83d071863ec00db59450d746c3a4',1,'TreeView::isInterestedInFileDrag()']]],
+  ['isinterestedinfiledrag',['isInterestedInFileDrag',['../classFilenameComponent.html#a62c18fb60b1efe4913dc12e5c8da144f',1,'FilenameComponent::isInterestedInFileDrag()'],['../classFileSearchPathListComponent.html#aa3b2399586c8004e521ec1c0f5245d15',1,'FileSearchPathListComponent::isInterestedInFileDrag()'],['../classFileDragAndDropTarget.html#a44fa7f7e69dec8119c6b3a6ff9d2ddce',1,'FileDragAndDropTarget::isInterestedInFileDrag()'],['../classTreeViewItem.html#abe8b909ba44b7eac0988b2adc6257c46',1,'TreeViewItem::isInterestedInFileDrag()'],['../classTreeView.html#aef2f83d071863ec00db59450d746c3a4',1,'TreeView::isInterestedInFileDrag()']]],
   ['isinterestedintextdrag',['isInterestedInTextDrag',['../classTextDragAndDropTarget.html#a43d8905fbfba1fbf2e1fb1ab5d0c9183',1,'TextDragAndDropTarget']]],
   ['isinvisible',['isInvisible',['../classColourGradient.html#af335e4b881ef05022440d15a16f681da',1,'ColourGradient::isInvisible()'],['../classFillType.html#ae94ec364686ded07aa207a91fe33941d',1,'FillType::isInvisible()']]],
   ['isitalic',['isItalic',['../classFont.html#a5523f05c4ae0df0375e538d8053f0679',1,'Font']]],
@@ -476,11 +477,11 @@ var searchData=
   ['itemselectionchanged',['itemSelectionChanged',['../classTreeViewItem.html#a2b1fe5d650ef8cc31a16f1eaed03e837',1,'TreeViewItem']]],
   ['itemtype',['ItemType',['../classSelectedItemSet.html#adac8d78df1c308ca17aa9cbfada787fa',1,'SelectedItemSet']]],
   ['iterate',['iterate',['../classEdgeTable.html#af2a5e19d16658853b61684af190e03f6',1,'EdgeTable']]],
-  ['iterator',['Iterator',['../classHashMap_1_1Iterator.html',1,'HashMap']]],
   ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html',1,'MidiBuffer']]],
   ['iterator',['Iterator',['../classListenerList_1_1Iterator.html',1,'ListenerList']]],
-  ['iterator',['Iterator',['../classPath_1_1Iterator.html',1,'Path']]],
   ['iterator',['Iterator',['../classCodeDocument_1_1Iterator.html',1,'CodeDocument']]],
   ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html#a4a30662a2e2d79787da4cc7ff6f7df00',1,'MidiBuffer::Iterator::Iterator()'],['../classHashMap_1_1Iterator.html#a5688b78daa1734ef6cc29b81a545fcb0',1,'HashMap::Iterator::Iterator()'],['../classListenerList_1_1Iterator.html#aec6ff5dcf548392d46dd38b26168c79d',1,'ListenerList::Iterator::Iterator()'],['../classPath_1_1Iterator.html#a53108f853b4af5f975d870f24ad79f83',1,'Path::Iterator::Iterator()'],['../classCodeDocument_1_1Iterator.html#a350e1a7a64043f010e5467a1d862830f',1,'CodeDocument::Iterator::Iterator(const CodeDocument &amp;document) noexcept'],['../classCodeDocument_1_1Iterator.html#ad96c135bfd54bedf7800255bb3b52213',1,'CodeDocument::Iterator::Iterator(const Iterator &amp;other) noexcept']]],
+  ['iterator',['Iterator',['../classPath_1_1Iterator.html',1,'Path']]],
+  ['iterator',['Iterator',['../classHashMap_1_1Iterator.html',1,'HashMap']]],
   ['ivory',['ivory',['../classColours.html#a97ea5f64838c6c2d1301c32108e830d3',1,'Colours']]]
 ];

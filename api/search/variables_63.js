@@ -37,6 +37,5 @@ var searchData=
   ['crimson',['crimson',['../classColours.html#abd804b3fa30e3aea3908bfaef84ff7ae',1,'Colours']]],
   ['cubictoelement',['cubicToElement',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html#a5c9f1dd9bbb59220239ffa238566eb19',1,'DrawablePath::ValueTreeWrapper::Element']]],
   ['customcolour',['customColour',['../classPopupMenu_1_1MenuItemIterator.html#ab69ce90b18c954507602611d43bf9543',1,'PopupMenu::MenuItemIterator']]],
-  ['customimage',['customImage',['../classPopupMenu_1_1MenuItemIterator.html#a281b49645b5fdf4e4468d21f574d06e8',1,'PopupMenu::MenuItemIterator']]],
   ['cyan',['cyan',['../classColours.html#a0f35bbd00d593e18a4e980100e77373c',1,'Colours']]]
 ];

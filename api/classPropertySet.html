@@ -453,7 +453,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns one of the properties as an XML element. </p>
-<p>The result will a new XMLElement object that the caller must delete. If may return 0 if the key isn't found, or if the entry contains an string that isn't valid XML.</p>
+<p>The result will a new XMLElement object that the caller must delete. If may return nullptr if the key isn't found, or if the entry contains an string that isn't valid XML.</p>
 <p>If the value isn't found in this set, then this will look for it in a fallback property set (if you've specified one with the <a class="el" href="classPropertySet.html#a624ae2f6c294510397957dd0dc2e1bd2" title="Sets up a second PopertySet that will be used to look up any values that aren&#39;t set in this one...">setFallbackPropertySet()</a> method), and if it can't find one there, it'll return the default value passed-in.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">

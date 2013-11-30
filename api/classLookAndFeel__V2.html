@@ -193,9 +193,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab0fb70597eebd426cf5ce4a6c4fce36a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#ab0fb70597eebd426cf5ce4a6c4fce36a">drawPopupMenuBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height) override</td></tr>
 <tr class="memdesc:ab0fb70597eebd426cf5ce4a6c4fce36a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the background of a popup menu component.  <a href="#ab0fb70597eebd426cf5ce4a6c4fce36a"></a><br/></td></tr>
 <tr class="separator:ab0fb70597eebd426cf5ce4a6c4fce36a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3a1ef45f975626350114bc4dc3bb368"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#aa3a1ef45f975626350114bc4dc3bb368">drawPopupMenuItem</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, bool isSeparator, bool isActive, bool isHighlighted, bool isTicked, bool hasSubMenu, const <a class="el" href="classString.html">String</a> &amp;text, const <a class="el" href="classString.html">String</a> &amp;shortcutKeyText, <a class="el" href="classImage.html">Image</a> *image, const <a class="el" href="classColour.html">Colour</a> *textColour) override</td></tr>
-<tr class="memdesc:aa3a1ef45f975626350114bc4dc3bb368"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws one of the items in a popup menu.  <a href="#aa3a1ef45f975626350114bc4dc3bb368"></a><br/></td></tr>
-<tr class="separator:aa3a1ef45f975626350114bc4dc3bb368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a397e8ce8c241dbbe1702673bc83691c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#a397e8ce8c241dbbe1702673bc83691c8">drawPopupMenuItem</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;area, bool isSeparator, bool isActive, bool isHighlighted, bool isTicked, bool hasSubMenu, const <a class="el" href="classString.html">String</a> &amp;text, const <a class="el" href="classString.html">String</a> &amp;shortcutKeyText, const <a class="el" href="classDrawable.html">Drawable</a> *icon, const <a class="el" href="classColour.html">Colour</a> *textColour) override</td></tr>
+<tr class="memdesc:a397e8ce8c241dbbe1702673bc83691c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws one of the items in a popup menu.  <a href="#a397e8ce8c241dbbe1702673bc83691c8"></a><br/></td></tr>
+<tr class="separator:a397e8ce8c241dbbe1702673bc83691c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6efa1257bb689e6de99f51abbf913984"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFont.html">Font</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#a6efa1257bb689e6de99f51abbf913984">getPopupMenuFont</a> () override</td></tr>
 <tr class="memdesc:a6efa1257bb689e6de99f51abbf913984"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size and style of font to use in popup menus.  <a href="#a6efa1257bb689e6de99f51abbf913984"></a><br/></td></tr>
 <tr class="separator:a6efa1257bb689e6de99f51abbf913984"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1551,6 +1551,8 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="classLookAndFeel.html#aab2d6ec4d998a23295edf15db9264ea4">LookAndFeel</a>.</p>
 
+<p>Reimplemented in <a class="el" href="classLookAndFeel__V3.html#a7f4548429a6b816775a111cda8d655a1">LookAndFeel_V3</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ad1afb3b936b037b1a187ba25d0344888"></a>
@@ -1578,6 +1580,8 @@ Static Public Member Functions</h2></td></tr>
 <p>Returns a cross shape for use in yes/no boxes, etc. </p>
 
 <p>Implements <a class="el" href="classLookAndFeel.html#a15086002cbf1386d1988f9b34c0395c5">LookAndFeel</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classLookAndFeel__V3.html#a064814f31d79eb4fadb7dbacda579193">LookAndFeel_V3</a>.</p>
 
 </div>
 </div>
@@ -2208,7 +2212,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa3a1ef45f975626350114bc4dc3bb368"></a>
+<a class="anchor" id="a397e8ce8c241dbbe1702673bc83691c8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2224,14 +2228,8 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>height</em>, </td>
+          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>area</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2278,7 +2276,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classImage.html">Image</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classDrawable.html">Drawable</a> *&#160;</td>
           <td class="paramname"><em>icon</em>, </td>
         </tr>
         <tr>
@@ -2302,7 +2300,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Draws one of the items in a popup menu. </p>
 
-<p>Implements <a class="el" href="structPopupMenu_1_1LookAndFeelMethods.html#adc108bccec3aac8a68d6c93cbeaa8aad">PopupMenu::LookAndFeelMethods</a>.</p>
+<p>Implements <a class="el" href="structPopupMenu_1_1LookAndFeelMethods.html#a5c55a3dfd56dad4837f39041a6aef959">PopupMenu::LookAndFeelMethods</a>.</p>
 
 </div>
 </div>
