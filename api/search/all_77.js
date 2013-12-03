@@ -41,6 +41,7 @@ var searchData=
   ['windowbitsgzip',['windowBitsGZIP',['../classGZIPCompressorOutputStream.html#ae5aaccd93a4e2389b1a6aa6862b671daaaa8b14e2775fa3de96c140b001c01cf6',1,'GZIPCompressorOutputStream']]],
   ['windowbitsraw',['windowBitsRaw',['../classGZIPCompressorOutputStream.html#ae5aaccd93a4e2389b1a6aa6862b671daa5a830100618fccabd9dd5dcdd0b71276',1,'GZIPCompressorOutputStream']]],
   ['windowbitsvalues',['WindowBitsValues',['../classGZIPCompressorOutputStream.html#ae5aaccd93a4e2389b1a6aa6862b671da',1,'GZIPCompressorOutputStream']]],
+  ['windowcloserequest',['windowCloseRequest',['../classWebBrowserComponent.html#a94f735f686b6c55ba5e5996763517b8d',1,'WebBrowserComponent']]],
   ['windowhasclosebutton',['windowHasCloseButton',['../classComponentPeer.html#a94a21f91c61f8211774d6f43243a6ddca71f089a2bb2af56ccc7bb3eaf0ce46a1',1,'ComponentPeer']]],
   ['windowhasdropshadow',['windowHasDropShadow',['../classComponentPeer.html#a94a21f91c61f8211774d6f43243a6ddcaada172d23a2b21e8c364feb52e39464b',1,'ComponentPeer']]],
   ['windowhasmaximisebutton',['windowHasMaximiseButton',['../classComponentPeer.html#a94a21f91c61f8211774d6f43243a6ddcab56ba75cd98f8e630a907c3a8a4836c8',1,'ComponentPeer']]],

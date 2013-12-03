@@ -31,6 +31,7 @@ var searchData=
   ['juce_5fintel',['JUCE_INTEL',['../juce__TargetPlatform_8h.html#af1c7ad8bdab01aa04e43c5f431faf08c',1,'juce_TargetPlatform.h']]],
   ['juce_5fjoin_5fmacro',['JUCE_JOIN_MACRO',['../juce__PlatformDefs_8h.html#a4dac24572cf8155c09d75f34c8297a47',1,'juce_PlatformDefs.h']]],
   ['juce_5fleak_5fdetector',['JUCE_LEAK_DETECTOR',['../juce__LeakedObjectDetector_8h.html#ab3639a79598b35f2116f4572af0d93f1',1,'juce_LeakedObjectDetector.h']]],
+  ['juce_5flive_5fconstant',['JUCE_LIVE_CONSTANT',['../juce__LiveConstantEditor_8h.html#ae2cc503e5069bf8510953e212317abaa',1,'juce_LiveConstantEditor.h']]],
   ['juce_5flogcurrentassertion',['juce_LogCurrentAssertion',['../juce__PlatformDefs_8h.html#a003e8bb6b9c1e3bee63827de72ca76aa',1,'juce_PlatformDefs.h']]],
   ['juce_5fmac_5fatomics_5fvolatile',['JUCE_MAC_ATOMICS_VOLATILE',['../juce__Atomic_8h.html#a72cf91413b9b045ccbb73042b2c079b1',1,'juce_Atomic.h']]],
   ['juce_5fmajor_5fversion',['JUCE_MAJOR_VERSION',['../juce__StandardHeader_8h.html#ad39afa9c8302295c83a3c431c553bc8b',1,'juce_StandardHeader.h']]],

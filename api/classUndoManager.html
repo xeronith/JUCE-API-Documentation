@@ -110,12 +110,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a371dddb00a010caf5e3bb88d4009bdfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#a371dddb00a010caf5e3bb88d4009bdfb">setMaxNumberOfStoredUnits</a> (int maxNumberOfUnitsToKeep, int minimumTransactionsToKeep)</td></tr>
 <tr class="memdesc:a371dddb00a010caf5e3bb88d4009bdfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the amount of space that can be used for storing <a class="el" href="classUndoableAction.html" title="Used by the UndoManager class to store an action which can be done and undone.">UndoableAction</a> objects.  <a href="#a371dddb00a010caf5e3bb88d4009bdfb"></a><br/></td></tr>
 <tr class="separator:a371dddb00a010caf5e3bb88d4009bdfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad16c1fef7afaa7187e3b473eff03b214"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#ad16c1fef7afaa7187e3b473eff03b214">perform</a> (<a class="el" href="classUndoableAction.html">UndoableAction</a> *action, const <a class="el" href="classString.html">String</a> &amp;actionName=<a class="el" href="classString.html#afd02116a5571fcc8bc1e6fdabe132a85">String::empty</a>)</td></tr>
-<tr class="memdesc:ad16c1fef7afaa7187e3b473eff03b214"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs an action and adds it to the undo history list.  <a href="#ad16c1fef7afaa7187e3b473eff03b214"></a><br/></td></tr>
-<tr class="separator:ad16c1fef7afaa7187e3b473eff03b214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75ec9e2cf8049d1824fd7ebd60bae131"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#a75ec9e2cf8049d1824fd7ebd60bae131">beginNewTransaction</a> (const <a class="el" href="classString.html">String</a> &amp;actionName=<a class="el" href="classString.html#afd02116a5571fcc8bc1e6fdabe132a85">String::empty</a>)</td></tr>
-<tr class="memdesc:a75ec9e2cf8049d1824fd7ebd60bae131"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts a new group of actions that together will be treated as a single transaction.  <a href="#a75ec9e2cf8049d1824fd7ebd60bae131"></a><br/></td></tr>
-<tr class="separator:a75ec9e2cf8049d1824fd7ebd60bae131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac0fd1254837a0cfe0cfca5c35850cec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#aac0fd1254837a0cfe0cfca5c35850cec">perform</a> (<a class="el" href="classUndoableAction.html">UndoableAction</a> *action, const <a class="el" href="classString.html">String</a> &amp;actionName=<a class="el" href="classString.html">String</a>())</td></tr>
+<tr class="memdesc:aac0fd1254837a0cfe0cfca5c35850cec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs an action and adds it to the undo history list.  <a href="#aac0fd1254837a0cfe0cfca5c35850cec"></a><br/></td></tr>
+<tr class="separator:aac0fd1254837a0cfe0cfca5c35850cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86e1f39dd4efa535a03280cfdcb1c4e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#a86e1f39dd4efa535a03280cfdcb1c4e9">beginNewTransaction</a> (const <a class="el" href="classString.html">String</a> &amp;actionName=<a class="el" href="classString.html">String</a>())</td></tr>
+<tr class="memdesc:a86e1f39dd4efa535a03280cfdcb1c4e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts a new group of actions that together will be treated as a single transaction.  <a href="#a86e1f39dd4efa535a03280cfdcb1c4e9"></a><br/></td></tr>
+<tr class="separator:a86e1f39dd4efa535a03280cfdcb1c4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a920cca3e24c598a175d90b04765fe5bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#a920cca3e24c598a175d90b04765fe5bc">setCurrentTransactionName</a> (const <a class="el" href="classString.html">String</a> &amp;newName)</td></tr>
 <tr class="memdesc:a920cca3e24c598a175d90b04765fe5bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the name stored for the current transaction.  <a href="#a920cca3e24c598a175d90b04765fe5bc"></a><br/></td></tr>
 <tr class="separator:a920cca3e24c598a175d90b04765fe5bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,8 +181,8 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages a list of undo/redo commands. </p>
 <p>An <a class="el" href="classUndoManager.html" title="Manages a list of undo/redo commands.">UndoManager</a> object keeps a list of past actions and can use these actions to move backwards and forwards through an undo history.</p>
-<p>To use it, create subclasses of <a class="el" href="classUndoableAction.html" title="Used by the UndoManager class to store an action which can be done and undone.">UndoableAction</a> which perform all the actions you need, then when you need to actually perform an action, create one and pass it to the <a class="el" href="classUndoManager.html" title="Manages a list of undo/redo commands.">UndoManager</a>'s <a class="el" href="classUndoManager.html#ad16c1fef7afaa7187e3b473eff03b214" title="Performs an action and adds it to the undo history list.">perform()</a> method.</p>
-<p>The manager also uses the concept of 'transactions' to group the actions together - all actions performed between calls to <a class="el" href="classUndoManager.html#a75ec9e2cf8049d1824fd7ebd60bae131" title="Starts a new group of actions that together will be treated as a single transaction.">beginNewTransaction()</a> are grouped together and are all undone/redone as a group.</p>
+<p>To use it, create subclasses of <a class="el" href="classUndoableAction.html" title="Used by the UndoManager class to store an action which can be done and undone.">UndoableAction</a> which perform all the actions you need, then when you need to actually perform an action, create one and pass it to the <a class="el" href="classUndoManager.html" title="Manages a list of undo/redo commands.">UndoManager</a>'s <a class="el" href="classUndoManager.html#aac0fd1254837a0cfe0cfca5c35850cec" title="Performs an action and adds it to the undo history list.">perform()</a> method.</p>
+<p>The manager also uses the concept of 'transactions' to group the actions together - all actions performed between calls to <a class="el" href="classUndoManager.html#a86e1f39dd4efa535a03280cfdcb1c4e9" title="Starts a new group of actions that together will be treated as a single transaction.">beginNewTransaction()</a> are grouped together and are all undone/redone as a group.</p>
 <p>The <a class="el" href="classUndoManager.html" title="Manages a list of undo/redo commands.">UndoManager</a> is a <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed.">ChangeBroadcaster</a>, so listeners can register to be told when actions are performed or undone.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classUndoableAction.html" title="Used by the UndoManager class to store an action which can be done and undone.">UndoableAction</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -310,7 +310,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad16c1fef7afaa7187e3b473eff03b214"></a>
+<a class="anchor" id="aac0fd1254837a0cfe0cfca5c35850cec"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -324,7 +324,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>actionName</em> = <code><a class="el" href="classString.html#afd02116a5571fcc8bc1e6fdabe132a85">String::empty</a></code>&#160;</td>
+          <td class="paramname"><em>actionName</em> = <code><a class="el" href="classString.html">String</a>()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -343,11 +343,11 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the command succeeds - see <a class="el" href="classUndoableAction.html#a6411ef8343148b52fef4bdc0290dfe06" title="Overridden by a subclass to perform the action.">UndoableAction::perform</a> </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classUndoManager.html#a75ec9e2cf8049d1824fd7ebd60bae131" title="Starts a new group of actions that together will be treated as a single transaction.">beginNewTransaction</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classUndoManager.html#a86e1f39dd4efa535a03280cfdcb1c4e9" title="Starts a new group of actions that together will be treated as a single transaction.">beginNewTransaction</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a75ec9e2cf8049d1824fd7ebd60bae131"></a>
+<a class="anchor" id="a86e1f39dd4efa535a03280cfdcb1c4e9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -355,14 +355,14 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void UndoManager::beginNewTransaction </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>actionName</em> = <code><a class="el" href="classString.html#afd02116a5571fcc8bc1e6fdabe132a85">String::empty</a></code></td><td>)</td>
+          <td class="paramname"><em>actionName</em> = <code><a class="el" href="classString.html">String</a>()</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Starts a new group of actions that together will be treated as a single transaction. </p>
-<p>All actions that are passed to the <a class="el" href="classUndoManager.html#ad16c1fef7afaa7187e3b473eff03b214" title="Performs an action and adds it to the undo history list.">perform()</a> method between calls to this method are grouped together and undone/redone together by a single call to <a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction.">undo()</a> or <a class="el" href="classUndoManager.html#aaea507a3b9eaea3360c0e393edf69ccb" title="Tries to redo the last transaction that was undone.">redo()</a>.</p>
+<p>All actions that are passed to the <a class="el" href="classUndoManager.html#aac0fd1254837a0cfe0cfca5c35850cec" title="Performs an action and adds it to the undo history list.">perform()</a> method between calls to this method are grouped together and undone/redone together by a single call to <a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction.">undo()</a> or <a class="el" href="classUndoManager.html#aaea507a3b9eaea3360c0e393edf69ccb" title="Tries to redo the last transaction that was undone.">redo()</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">actionName</td><td>a description of the transaction that is about to be performed </td></tr>
@@ -387,7 +387,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Changes the name stored for the current transaction. </p>
-<p>Each transaction is given a name when the <a class="el" href="classUndoManager.html#a75ec9e2cf8049d1824fd7ebd60bae131" title="Starts a new group of actions that together will be treated as a single transaction.">beginNewTransaction()</a> method is called, but this can be used to change that name without starting a new transaction. </p>
+<p>Each transaction is given a name when the <a class="el" href="classUndoManager.html#a86e1f39dd4efa535a03280cfdcb1c4e9" title="Starts a new group of actions that together will be treated as a single transaction.">beginNewTransaction()</a> method is called, but this can be used to change that name without starting a new transaction. </p>
 
 </div>
 </div>
@@ -460,8 +460,8 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Tries to roll-back any actions that were added to the current transaction. </p>
-<p>This will perform an <a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction.">undo()</a> only if there are some actions in the undo list that were added after the last call to <a class="el" href="classUndoManager.html#a75ec9e2cf8049d1824fd7ebd60bae131" title="Starts a new group of actions that together will be treated as a single transaction.">beginNewTransaction()</a>.</p>
-<p>This is useful because it lets you call <a class="el" href="classUndoManager.html#a75ec9e2cf8049d1824fd7ebd60bae131" title="Starts a new group of actions that together will be treated as a single transaction.">beginNewTransaction()</a>, then perform an operation which may or may not actually perform some actions, and then call this method to get rid of any actions that might have been done without it rolling back the previous transaction if nothing was actually done.</p>
+<p>This will perform an <a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction.">undo()</a> only if there are some actions in the undo list that were added after the last call to <a class="el" href="classUndoManager.html#a86e1f39dd4efa535a03280cfdcb1c4e9" title="Starts a new group of actions that together will be treated as a single transaction.">beginNewTransaction()</a>.</p>
+<p>This is useful because it lets you call <a class="el" href="classUndoManager.html#a86e1f39dd4efa535a03280cfdcb1c4e9" title="Starts a new group of actions that together will be treated as a single transaction.">beginNewTransaction()</a>, then perform an operation which may or may not actually perform some actions, and then call this method to get rid of any actions that might have been done without it rolling back the previous transaction if nothing was actually done.</p>
 <dl class="section return"><dt>Returns</dt><dd>true if any actions were undone. </dd></dl>
 
 </div>

@@ -215,6 +215,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a46001a29fcbd7c867f0f3a42598a1495"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a46001a29fcbd7c867f0f3a42598a1495">isNotEmpty</a> () const noexcept</td></tr>
 <tr class="memdesc:a46001a29fcbd7c867f0f3a42598a1495"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the string contains at least one character.  <a href="#a46001a29fcbd7c867f0f3a42598a1495"></a><br/></td></tr>
 <tr class="separator:a46001a29fcbd7c867f0f3a42598a1495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8270e74db4c76725871abda0316d1bec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a8270e74db4c76725871abda0316d1bec">clear</a> () noexcept</td></tr>
+<tr class="memdesc:a8270e74db4c76725871abda0316d1bec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets this string to be empty.  <a href="#a8270e74db4c76725871abda0316d1bec"></a><br/></td></tr>
+<tr class="separator:a8270e74db4c76725871abda0316d1bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca8d661734f261887a8e60fffaf9aa97"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#aca8d661734f261887a8e60fffaf9aa97">equalsIgnoreCase</a> (const <a class="el" href="classString.html">String</a> &amp;other) const noexcept</td></tr>
 <tr class="memdesc:aca8d661734f261887a8e60fffaf9aa97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Case-insensitive comparison with another string.  <a href="#aca8d661734f261887a8e60fffaf9aa97"></a><br/></td></tr>
 <tr class="separator:aca8d661734f261887a8e60fffaf9aa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1828,6 +1831,33 @@ template&lt;class CharPointer &gt; </div>
 <p>Returns true if the string contains at least one character. </p>
 <p>Note that there's also an <a class="el" href="classString.html#ab31a36bda8c789ba3c0ed37bb16c978c" title="Returns true if the string contains no characters.">isEmpty()</a> method to help write readable code. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classString.html#a71ebee1094650e80b02a20040f4fdc8f" title="Returns true if this string contains any non-whitespace characters.">containsNonWhitespaceChars()</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8270e74db4c76725871abda0316d1bec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void String::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resets this string to be empty. </p>
+
+<p>Referenced by <a class="el" href="structComponentPeer_1_1DragInfo.html#a477efd4543a4b35c8d01b7c2d6db8d34">ComponentPeer::DragInfo::clear()</a>.</p>
 
 </div>
 </div>
@@ -4646,7 +4676,7 @@ template&lt;class CharPointer &gt; </div>
 <p>This is an empty string that can be used whenever one is needed. </p>
 <p>It's better to use this than <a class="el" href="classString.html#a0225bb76bd3527b0e9ec9663c53f873d" title="Creates an empty string.">String()</a> because it explains what's going on and is more efficient. </p>
 
-<p>Referenced by <a class="el" href="structComponentPeer_1_1DragInfo.html#a477efd4543a4b35c8d01b7c2d6db8d34">ComponentPeer::DragInfo::clear()</a>, <a class="el" href="classRectangle.html#aeebcebc71a8f2fb7fd216acb0bd45a55">Rectangle&lt; int &gt;::fromString()</a>, <a class="el" href="classAudioProcessorGraph.html#a2a8460a9ca99c57b70a1ef88586b654a">AudioProcessorGraph::getParameterName()</a>, <a class="el" href="classAudioProcessorGraph.html#a52665f29438df941eb74d2a490a801c4">AudioProcessorGraph::getParameterText()</a>, <a class="el" href="classAudioProcessorGraph.html#a7dc237ff7cfc72a142ee29762fd87019">AudioProcessorGraph::getProgramName()</a>, <a class="el" href="classStandaloneFilterWindow.html#a1f306718b48175832973359ba0f24319">StandaloneFilterWindow::StandaloneFilterWindow()</a>, and <a class="el" href="classStandaloneFilterWindow.html#aae64328faa7f0aa4ccc0099ebf4e84d8">StandaloneFilterWindow::~StandaloneFilterWindow()</a>.</p>
+<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a1f306718b48175832973359ba0f24319">StandaloneFilterWindow::StandaloneFilterWindow()</a>, and <a class="el" href="classStandaloneFilterWindow.html#aae64328faa7f0aa4ccc0099ebf4e84d8">StandaloneFilterWindow::~StandaloneFilterWindow()</a>.</p>
 
 </div>
 </div>

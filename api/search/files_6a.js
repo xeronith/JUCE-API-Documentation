@@ -208,6 +208,7 @@ var searchData=
   ['juce_5flinkedlistpointer_2eh',['juce_LinkedListPointer.h',['../juce__LinkedListPointer_8h.html',1,'']]],
   ['juce_5flistbox_2eh',['juce_ListBox.h',['../juce__ListBox_8h.html',1,'']]],
   ['juce_5flistenerlist_2eh',['juce_ListenerList.h',['../juce__ListenerList_8h.html',1,'']]],
+  ['juce_5fliveconstanteditor_2eh',['juce_LiveConstantEditor.h',['../juce__LiveConstantEditor_8h.html',1,'']]],
   ['juce_5flocalisedstrings_2eh',['juce_LocalisedStrings.h',['../juce__LocalisedStrings_8h.html',1,'']]],
   ['juce_5flogger_2eh',['juce_Logger.h',['../juce__Logger_8h.html',1,'']]],
   ['juce_5flookandfeel_2eh',['juce_LookAndFeel.h',['../juce__LookAndFeel_8h.html',1,'']]],

@@ -108,9 +108,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9243fb6fb5a71e6795f3bbda95f009e6"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertySet.html#a9243fb6fb5a71e6795f3bbda95f009e6">~PropertySet</a> ()</td></tr>
 <tr class="memdesc:a9243fb6fb5a71e6795f3bbda95f009e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a9243fb6fb5a71e6795f3bbda95f009e6"></a><br/></td></tr>
 <tr class="separator:a9243fb6fb5a71e6795f3bbda95f009e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab2143ec14b095f90cdffb7a85449b92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertySet.html#aab2143ec14b095f90cdffb7a85449b92">getValue</a> (<a class="el" href="classStringRef.html">StringRef</a> keyName, const <a class="el" href="classString.html">String</a> &amp;defaultReturnValue=<a class="el" href="classString.html#afd02116a5571fcc8bc1e6fdabe132a85">String::empty</a>) const noexcept</td></tr>
-<tr class="memdesc:aab2143ec14b095f90cdffb7a85449b92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the properties as a string.  <a href="#aab2143ec14b095f90cdffb7a85449b92"></a><br/></td></tr>
-<tr class="separator:aab2143ec14b095f90cdffb7a85449b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa005ac125096ad476021d347f56ff4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertySet.html#afa005ac125096ad476021d347f56ff4c">getValue</a> (<a class="el" href="classStringRef.html">StringRef</a> keyName, const <a class="el" href="classString.html">String</a> &amp;defaultReturnValue=<a class="el" href="classString.html">String</a>()) const noexcept</td></tr>
+<tr class="memdesc:afa005ac125096ad476021d347f56ff4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the properties as a string.  <a href="#afa005ac125096ad476021d347f56ff4c"></a><br/></td></tr>
+<tr class="separator:afa005ac125096ad476021d347f56ff4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02ea38c1de947931c2112bd81eb73ba1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertySet.html#a02ea38c1de947931c2112bd81eb73ba1">getIntValue</a> (<a class="el" href="classStringRef.html">StringRef</a> keyName, int defaultReturnValue=0) const noexcept</td></tr>
 <tr class="memdesc:a02ea38c1de947931c2112bd81eb73ba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the properties as an integer.  <a href="#a02ea38c1de947931c2112bd81eb73ba1"></a><br/></td></tr>
 <tr class="separator:a02ea38c1de947931c2112bd81eb73ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -257,7 +257,7 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aab2143ec14b095f90cdffb7a85449b92"></a>
+<a class="anchor" id="afa005ac125096ad476021d347f56ff4c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -274,7 +274,7 @@ Protected Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>defaultReturnValue</em> = <code><a class="el" href="classString.html#afd02116a5571fcc8bc1e6fdabe132a85">String::empty</a></code>&#160;</td>
+          <td class="paramname"><em>defaultReturnValue</em> = <code><a class="el" href="classString.html">String</a>()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -740,7 +740,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sets up a second PopertySet that will be used to look up any values that aren't set in this one. </p>
-<p>If you set this up to be a pointer to a second property set, then whenever one of the <a class="el" href="classPropertySet.html#aab2143ec14b095f90cdffb7a85449b92" title="Returns one of the properties as a string.">getValue()</a> methods fails to find an entry in this set, it will look up that value in the fallback set, and if it finds it, it will return that.</p>
+<p>If you set this up to be a pointer to a second property set, then whenever one of the <a class="el" href="classPropertySet.html#afa005ac125096ad476021d347f56ff4c" title="Returns one of the properties as a string.">getValue()</a> methods fails to find an entry in this set, it will look up that value in the fallback set, and if it finds it, it will return that.</p>
 <p>Make sure that you don't delete the fallback set while it's still being used by another set! To remove the fallback set, just call this method with a null pointer.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPropertySet.html#a1fb12c22b6568c72ed6d46dd57927e87" title="Returns the fallback property set.">getFallbackPropertySet</a> </dd></dl>
 

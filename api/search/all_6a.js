@@ -254,6 +254,8 @@ var searchData=
   ['juce_5flinkedlistpointer_2eh',['juce_LinkedListPointer.h',['../juce__LinkedListPointer_8h.html',1,'']]],
   ['juce_5flistbox_2eh',['juce_ListBox.h',['../juce__ListBox_8h.html',1,'']]],
   ['juce_5flistenerlist_2eh',['juce_ListenerList.h',['../juce__ListenerList_8h.html',1,'']]],
+  ['juce_5flive_5fconstant',['JUCE_LIVE_CONSTANT',['../juce__LiveConstantEditor_8h.html#ae2cc503e5069bf8510953e212317abaa',1,'juce_LiveConstantEditor.h']]],
+  ['juce_5fliveconstanteditor_2eh',['juce_LiveConstantEditor.h',['../juce__LiveConstantEditor_8h.html',1,'']]],
   ['juce_5flocalisedstrings_2eh',['juce_LocalisedStrings.h',['../juce__LocalisedStrings_8h.html',1,'']]],
   ['juce_5flogcurrentassertion',['juce_LogCurrentAssertion',['../juce__PlatformDefs_8h.html#a003e8bb6b9c1e3bee63827de72ca76aa',1,'juce_PlatformDefs.h']]],
   ['juce_5flogger_2eh',['juce_Logger.h',['../juce__Logger_8h.html',1,'']]],

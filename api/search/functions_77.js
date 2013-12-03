@@ -17,6 +17,7 @@ var searchData=
   ['weeks',['weeks',['../classRelativeTime.html#a08137177e3d00fcf5f07909ecebce4dc',1,'RelativeTime']]],
   ['wildcardfilefilter',['WildcardFileFilter',['../classWildcardFileFilter.html#af1f0c501f518c2dd803e77661fb42b9d',1,'WildcardFileFilter']]],
   ['willdeleteobject',['willDeleteObject',['../classOptionalScopedPointer.html#a0eb696aae75b039bc1309dc7125bda7a',1,'OptionalScopedPointer']]],
+  ['windowcloserequest',['windowCloseRequest',['../classWebBrowserComponent.html#a94f735f686b6c55ba5e5996763517b8d',1,'WebBrowserComponent']]],
   ['windowsmediaaudioformat',['WindowsMediaAudioFormat',['../classWindowsMediaAudioFormat.html#a5ee8404f972e60f9396233690df54aa6',1,'WindowsMediaAudioFormat']]],
   ['withabsolutetranslation',['withAbsoluteTranslation',['../classAffineTransform.html#a2d9c7f713d4130aa5a08c4f04c30b483',1,'AffineTransform']]],
   ['withalpha',['withAlpha',['../classColour.html#a0cd650ce4ce07bd594f3abb0c3fec5e6',1,'Colour::withAlpha(uint8 newAlpha) const noexcept'],['../classColour.html#a9d38dac3c093152c0c465116e99f2f93',1,'Colour::withAlpha(float newAlpha) const noexcept']]],

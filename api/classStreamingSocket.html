@@ -132,9 +132,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a90721593b92401ecd20aae2c68d3d446"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStreamingSocket.html#a90721593b92401ecd20aae2c68d3d446">write</a> (const void *sourceBuffer, int numBytesToWrite)</td></tr>
 <tr class="memdesc:a90721593b92401ecd20aae2c68d3d446"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes bytes to the socket from a buffer.  <a href="#a90721593b92401ecd20aae2c68d3d446"></a><br/></td></tr>
 <tr class="separator:a90721593b92401ecd20aae2c68d3d446"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67541adc1ba7214be278e0c61cc40b20"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStreamingSocket.html#a67541adc1ba7214be278e0c61cc40b20">createListener</a> (int portNumber, const <a class="el" href="classString.html">String</a> &amp;localHostName=<a class="el" href="classString.html#afd02116a5571fcc8bc1e6fdabe132a85">String::empty</a>)</td></tr>
-<tr class="memdesc:a67541adc1ba7214be278e0c61cc40b20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts this socket into "listener" mode.  <a href="#a67541adc1ba7214be278e0c61cc40b20"></a><br/></td></tr>
-<tr class="separator:a67541adc1ba7214be278e0c61cc40b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd27eafb1f4e3a1bae915e2eb72f41e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStreamingSocket.html#abd27eafb1f4e3a1bae915e2eb72f41e6">createListener</a> (int portNumber, const <a class="el" href="classString.html">String</a> &amp;localHostName=<a class="el" href="classString.html">String</a>())</td></tr>
+<tr class="memdesc:abd27eafb1f4e3a1bae915e2eb72f41e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts this socket into "listener" mode.  <a href="#abd27eafb1f4e3a1bae915e2eb72f41e6"></a><br/></td></tr>
+<tr class="separator:abd27eafb1f4e3a1bae915e2eb72f41e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97ed9152008fc7af303330a5e5357990"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classStreamingSocket.html">StreamingSocket</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStreamingSocket.html#a97ed9152008fc7af303330a5e5357990">waitForNextConnection</a> () const </td></tr>
 <tr class="memdesc:a97ed9152008fc7af303330a5e5357990"><td class="mdescLeft">&#160;</td><td class="mdescRight">When in "listener" mode, this waits for a connection and spawns it as a new socket.  <a href="#a97ed9152008fc7af303330a5e5357990"></a><br/></td></tr>
 <tr class="separator:a97ed9152008fc7af303330a5e5357990"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,7 +159,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Creates an uninitialised socket. </p>
 <p>To connect it, use the <a class="el" href="classStreamingSocket.html#a42934b3f0d68f46f29cc7bb5d1067c33" title="Tries to connect the socket to hostname:port.">connect()</a> method, after which you can <a class="el" href="classStreamingSocket.html#ac048823c044a47600f7f1036c730b934" title="Reads bytes from the socket.">read()</a> or <a class="el" href="classStreamingSocket.html#a90721593b92401ecd20aae2c68d3d446" title="Writes bytes to the socket from a buffer.">write()</a> to it.</p>
-<p>To wait for other sockets to connect to this one, the <a class="el" href="classStreamingSocket.html#a67541adc1ba7214be278e0c61cc40b20" title="Puts this socket into &quot;listener&quot; mode.">createListener()</a> method enters "listener" mode, and can be used to spawn new sockets for each connection that comes along. </p>
+<p>To wait for other sockets to connect to this one, the <a class="el" href="classStreamingSocket.html#abd27eafb1f4e3a1bae915e2eb72f41e6" title="Puts this socket into &quot;listener&quot; mode.">createListener()</a> method enters "listener" mode, and can be used to spawn new sockets for each connection that comes along. </p>
 
 </div>
 </div>
@@ -477,7 +477,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a67541adc1ba7214be278e0c61cc40b20"></a>
+<a class="anchor" id="abd27eafb1f4e3a1bae915e2eb72f41e6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -491,7 +491,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>localHostName</em> = <code><a class="el" href="classString.html#afd02116a5571fcc8bc1e6fdabe132a85">String::empty</a></code>&#160;</td>
+          <td class="paramname"><em>localHostName</em> = <code><a class="el" href="classString.html">String</a>()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -530,8 +530,8 @@ Public Member Functions</h2></td></tr>
 
 <p>When in "listener" mode, this waits for a connection and spawns it as a new socket. </p>
 <p>The object that gets returned will be owned by the caller.</p>
-<p>This method can only be called after using <a class="el" href="classStreamingSocket.html#a67541adc1ba7214be278e0c61cc40b20" title="Puts this socket into &quot;listener&quot; mode.">createListener()</a>.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classStreamingSocket.html#a67541adc1ba7214be278e0c61cc40b20" title="Puts this socket into &quot;listener&quot; mode.">createListener</a> </dd></dl>
+<p>This method can only be called after using <a class="el" href="classStreamingSocket.html#abd27eafb1f4e3a1bae915e2eb72f41e6" title="Puts this socket into &quot;listener&quot; mode.">createListener()</a>.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classStreamingSocket.html#abd27eafb1f4e3a1bae915e2eb72f41e6" title="Puts this socket into &quot;listener&quot; mode.">createListener</a> </dd></dl>
 
 </div>
 </div>

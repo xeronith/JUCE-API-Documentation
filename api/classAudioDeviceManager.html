@@ -108,9 +108,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aba2ff8bbc69b9434dfc90c3a7bc09d6a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioDeviceManager.html#aba2ff8bbc69b9434dfc90c3a7bc09d6a">~AudioDeviceManager</a> ()</td></tr>
 <tr class="memdesc:aba2ff8bbc69b9434dfc90c3a7bc09d6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#aba2ff8bbc69b9434dfc90c3a7bc09d6a"></a><br/></td></tr>
 <tr class="separator:aba2ff8bbc69b9434dfc90c3a7bc09d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5ae197084fe6b3a1d9777ee8f487621"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioDeviceManager.html#ad5ae197084fe6b3a1d9777ee8f487621">initialise</a> (int numInputChannelsNeeded, int numOutputChannelsNeeded, const <a class="el" href="classXmlElement.html">XmlElement</a> *savedState, bool selectDefaultDeviceOnFailure, const <a class="el" href="classString.html">String</a> &amp;preferredDefaultDeviceName=<a class="el" href="classString.html#afd02116a5571fcc8bc1e6fdabe132a85">String::empty</a>, const <a class="el" href="structAudioDeviceManager_1_1AudioDeviceSetup.html">AudioDeviceSetup</a> *preferredSetupOptions=0)</td></tr>
-<tr class="memdesc:ad5ae197084fe6b3a1d9777ee8f487621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens a set of audio devices ready for use.  <a href="#ad5ae197084fe6b3a1d9777ee8f487621"></a><br/></td></tr>
-<tr class="separator:ad5ae197084fe6b3a1d9777ee8f487621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77cb988833b5f77f20fb396bb39c18a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioDeviceManager.html#a77cb988833b5f77f20fb396bb39c18a8">initialise</a> (int numInputChannelsNeeded, int numOutputChannelsNeeded, const <a class="el" href="classXmlElement.html">XmlElement</a> *savedState, bool selectDefaultDeviceOnFailure, const <a class="el" href="classString.html">String</a> &amp;preferredDefaultDeviceName=<a class="el" href="classString.html">String</a>(), const <a class="el" href="structAudioDeviceManager_1_1AudioDeviceSetup.html">AudioDeviceSetup</a> *preferredSetupOptions=0)</td></tr>
+<tr class="memdesc:a77cb988833b5f77f20fb396bb39c18a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens a set of audio devices ready for use.  <a href="#a77cb988833b5f77f20fb396bb39c18a8"></a><br/></td></tr>
+<tr class="separator:a77cb988833b5f77f20fb396bb39c18a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb846b502125744f4ea04f06cde5d92c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioDeviceManager.html#abb846b502125744f4ea04f06cde5d92c">createStateXml</a> () const </td></tr>
 <tr class="memdesc:abb846b502125744f4ea04f06cde5d92c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns some XML representing the current state of the manager.  <a href="#abb846b502125744f4ea04f06cde5d92c"></a><br/></td></tr>
 <tr class="separator:abb846b502125744f4ea04f06cde5d92c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,7 +225,7 @@ Public Member Functions</h2></td></tr>
 <p>The idea is that your application will create one global instance of this object, and let it take care of creating and deleting specific types of audio devices internally. So when the device is changed, your callbacks will just keep running without having to worry about this.</p>
 <p>The manager can save and reload all of its device settings as XML, which makes it very easy for you to save and reload the audio setup of your application.</p>
 <p>And to make it easy to let the user change its settings, there's a component to do just that - the <a class="el" href="classAudioDeviceSelectorComponent.html" title="A component containing controls to let the user change the audio settings of an AudioDeviceManager ob...">AudioDeviceSelectorComponent</a> class, which contains a set of device selection/sample-rate/latency controls.</p>
-<p>To use an <a class="el" href="classAudioDeviceManager.html" title="Manages the state of some audio and midi i/o devices.">AudioDeviceManager</a>, create one, and use <a class="el" href="classAudioDeviceManager.html#ad5ae197084fe6b3a1d9777ee8f487621" title="Opens a set of audio devices ready for use.">initialise()</a> to set it up. Then call <a class="el" href="classAudioDeviceManager.html#acf3977dcc83f22b7f51091d7ff7b8aff" title="Registers an audio callback to be used.">addAudioCallback()</a> to register your audio callback with it, and use that to process your audio data.</p>
+<p>To use an <a class="el" href="classAudioDeviceManager.html" title="Manages the state of some audio and midi i/o devices.">AudioDeviceManager</a>, create one, and use <a class="el" href="classAudioDeviceManager.html#a77cb988833b5f77f20fb396bb39c18a8" title="Opens a set of audio devices ready for use.">initialise()</a> to set it up. Then call <a class="el" href="classAudioDeviceManager.html#acf3977dcc83f22b7f51091d7ff7b8aff" title="Registers an audio callback to be used.">addAudioCallback()</a> to register your audio callback with it, and use that to process your audio data.</p>
 <p>The manager also acts as a handy hub for incoming midi messages, allowing a listener to register for messages from either a specific midi device, or from whatever the current default midi input device is. The listener then doesn't have to worry about re-registering with different midi devices if they are changed or deleted.</p>
 <p>And yet another neat trick is that amount of CPU time being used is measured and available with the <a class="el" href="classAudioDeviceManager.html#ab7d067e2864f399a471b35cc83bf9a57" title="Returns the average proportion of available CPU being spent inside the audio callbacks.">getCpuUsage()</a> method.</p>
 <p>The <a class="el" href="classAudioDeviceManager.html" title="Manages the state of some audio and midi i/o devices.">AudioDeviceManager</a> is a <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed.">ChangeBroadcaster</a>, and will send a change message to listeners whenever one of its settings is changed.</p>
@@ -245,7 +245,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a default <a class="el" href="classAudioDeviceManager.html" title="Manages the state of some audio and midi i/o devices.">AudioDeviceManager</a>. </p>
-<p>Initially no audio device will be selected. You should call the <a class="el" href="classAudioDeviceManager.html#ad5ae197084fe6b3a1d9777ee8f487621" title="Opens a set of audio devices ready for use.">initialise()</a> method and register an audio callback with setAudioCallback() before it'll be able to actually make any noise. </p>
+<p>Initially no audio device will be selected. You should call the <a class="el" href="classAudioDeviceManager.html#a77cb988833b5f77f20fb396bb39c18a8" title="Opens a set of audio devices ready for use.">initialise()</a> method and register an audio callback with setAudioCallback() before it'll be able to actually make any noise. </p>
 
 </div>
 </div>
@@ -267,7 +267,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ad5ae197084fe6b3a1d9777ee8f487621"></a>
+<a class="anchor" id="a77cb988833b5f77f20fb396bb39c18a8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -299,7 +299,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>preferredDefaultDeviceName</em> = <code><a class="el" href="classString.html#afd02116a5571fcc8bc1e6fdabe132a85">String::empty</a></code>, </td>
+          <td class="paramname"><em>preferredDefaultDeviceName</em> = <code><a class="el" href="classString.html">String</a>()</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -348,7 +348,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns some XML representing the current state of the manager. </p>
-<p>This stores the current device, its samplerate, block size, etc, and can be restored later with <a class="el" href="classAudioDeviceManager.html#ad5ae197084fe6b3a1d9777ee8f487621" title="Opens a set of audio devices ready for use.">initialise()</a>.</p>
+<p>This stores the current device, its samplerate, block size, etc, and can be restored later with <a class="el" href="classAudioDeviceManager.html#a77cb988833b5f77f20fb396bb39c18a8" title="Opens a set of audio devices ready for use.">initialise()</a>.</p>
 <p>Note that this can return a null pointer if no settings have been explicitly changed (i.e. if the device manager has just been left in its default state). </p>
 
 <p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#aae64328faa7f0aa4ccc0099ebf4e84d8">StandaloneFilterWindow::~StandaloneFilterWindow()</a>.</p>
@@ -403,7 +403,7 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">newSetup</td><td>the settings that you'd like to use </td></tr>
-    <tr><td class="paramname">treatAsChosenDevice</td><td>if this is true and if the device opens correctly, these new settings will be taken as having been explicitly chosen by the user, and the next time <a class="el" href="classAudioDeviceManager.html#abb846b502125744f4ea04f06cde5d92c" title="Returns some XML representing the current state of the manager.">createStateXml()</a> is called, these settings will be returned. If it's false, then the device is treated as a temporary or default device, and a call to <a class="el" href="classAudioDeviceManager.html#abb846b502125744f4ea04f06cde5d92c" title="Returns some XML representing the current state of the manager.">createStateXml()</a> will return either the last settings that were made with treatAsChosenDevice as true, or the last XML settings that were passed into <a class="el" href="classAudioDeviceManager.html#ad5ae197084fe6b3a1d9777ee8f487621" title="Opens a set of audio devices ready for use.">initialise()</a>. </td></tr>
+    <tr><td class="paramname">treatAsChosenDevice</td><td>if this is true and if the device opens correctly, these new settings will be taken as having been explicitly chosen by the user, and the next time <a class="el" href="classAudioDeviceManager.html#abb846b502125744f4ea04f06cde5d92c" title="Returns some XML representing the current state of the manager.">createStateXml()</a> is called, these settings will be returned. If it's false, then the device is treated as a temporary or default device, and a call to <a class="el" href="classAudioDeviceManager.html#abb846b502125744f4ea04f06cde5d92c" title="Returns some XML representing the current state of the manager.">createStateXml()</a> will return either the last settings that were made with treatAsChosenDevice as true, or the last XML settings that were passed into <a class="el" href="classAudioDeviceManager.html#a77cb988833b5f77f20fb396bb39c18a8" title="Opens a set of audio devices ready for use.">initialise()</a>. </td></tr>
   </table>
   </dd>
 </dl>
