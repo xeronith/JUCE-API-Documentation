@@ -132,6 +132,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a120b8249ea838a47008e9c51f14e3586"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a120b8249ea838a47008e9c51f14e3586">setCurrentPlaybackSampleRate</a> (double newRate)</td></tr>
 <tr class="memdesc:a120b8249ea838a47008e9c51f14e3586"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the voice's reference sample rate.  <a href="#a120b8249ea838a47008e9c51f14e3586"></a><br/></td></tr>
 <tr class="separator:a120b8249ea838a47008e9c51f14e3586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0f9adb8d02f26099dea4467fd6fc170"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#ae0f9adb8d02f26099dea4467fd6fc170">isKeyDown</a> () const noexcept</td></tr>
+<tr class="memdesc:ae0f9adb8d02f26099dea4467fd6fc170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the key that triggered this voice is still held down.  <a href="#ae0f9adb8d02f26099dea4467fd6fc170"></a><br/></td></tr>
+<tr class="separator:ae0f9adb8d02f26099dea4467fd6fc170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8011b7b9c2cb7641fe99e94427a95717"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a8011b7b9c2cb7641fe99e94427a95717">isSostenutoPedalDown</a> () const noexcept</td></tr>
+<tr class="memdesc:a8011b7b9c2cb7641fe99e94427a95717"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the sostenuto pedal is currently active for this voice.  <a href="#a8011b7b9c2cb7641fe99e94427a95717"></a><br/></td></tr>
+<tr class="separator:a8011b7b9c2cb7641fe99e94427a95717"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -506,6 +512,57 @@ Protected Member Functions</h2></td></tr>
 <p>Changes the voice's reference sample rate. </p>
 <p>The rate is set so that subclasses know the output rate and can set their pitch accordingly.</p>
 <p>This method is called by the synth, and subclasses can access the current rate with the currentSampleRate member. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae0f9adb8d02f26099dea4467fd6fc170"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SynthesiserVoice::isKeyDown </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the key that triggered this voice is still held down. </p>
+<p>Note that the voice may still be playing after the key was released (e.g because the sostenuto pedal is down). </p>
+
+</div>
+</div>
+<a class="anchor" id="a8011b7b9c2cb7641fe99e94427a95717"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SynthesiserVoice::isSostenutoPedalDown </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the sostenuto pedal is currently active for this voice. </p>
 
 </div>
 </div>

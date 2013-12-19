@@ -9,6 +9,7 @@ var searchData=
   ['xmid',['xMid',['../classRectanglePlacement.html#afd5464553fd6bb41d697f3fc1d7427edad1348e06780084037a29fc0621d10392',1,'RectanglePlacement']]],
   ['xmldocument',['XmlDocument',['../classXmlDocument.html',1,'XmlDocument'],['../classXmlDocument.html#a87ad794c62c8ee9ac78961af99b2f30d',1,'XmlDocument::XmlDocument(const String &amp;documentText)'],['../classXmlDocument.html#a0bb84c6d5a591e3ab53199b081766901',1,'XmlDocument::XmlDocument(const File &amp;file)']]],
   ['xmlelement',['XmlElement',['../classXmlElement.html',1,'XmlElement'],['../classXmlElement.html#a1ef4128e361ff77d1661a16282f9b844',1,'XmlElement::XmlElement(const String &amp;tagName) noexcept'],['../classXmlElement.html#af7194adb8ea1694ab8f5a9810ae54920',1,'XmlElement::XmlElement(const XmlElement &amp;other)']]],
+  ['xmltokeniser',['XmlTokeniser',['../classXmlTokeniser.html',1,'XmlTokeniser'],['../classXmlTokeniser.html#a1eb68f27d7f5a8dbec9107fd9358df93',1,'XmlTokeniser::XmlTokeniser()']]],
   ['xoffset',['xOffset',['../structLowLevelGraphicsPostScriptRenderer_1_1SavedState.html#a10d46be69faae4c3c27ae95dfac5a713',1,'LowLevelGraphicsPostScriptRenderer::SavedState']]],
   ['xright',['xRight',['../classRectanglePlacement.html#afd5464553fd6bb41d697f3fc1d7427eda72a92773894d10ec3b4ff55b56d08915',1,'RectanglePlacement']]]
 ];

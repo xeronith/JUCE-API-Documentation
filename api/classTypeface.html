@@ -165,6 +165,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2ce51562cc51437352c4d47777185f35"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classTypeface.html#a13053be679c87b7a72963e9ce60e34c9">Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#a2ce51562cc51437352c4d47777185f35">createSystemTypefaceFor</a> (const <a class="el" href="classFont.html">Font</a> &amp;font)</td></tr>
 <tr class="memdesc:a2ce51562cc51437352c4d47777185f35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new system typeface.  <a href="#a2ce51562cc51437352c4d47777185f35"></a><br/></td></tr>
 <tr class="separator:a2ce51562cc51437352c4d47777185f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67bf5a42f6227ba6f5c9af2a23b0bb48"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classTypeface.html#a13053be679c87b7a72963e9ce60e34c9">Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#a67bf5a42f6227ba6f5c9af2a23b0bb48">createSystemTypefaceFor</a> (const void *fontFileData, size_t fontFileDataSize)</td></tr>
+<tr class="memdesc:a67bf5a42f6227ba6f5c9af2a23b0bb48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to create a font from some raw font file data (e.g.  <a href="#a67bf5a42f6227ba6f5c9af2a23b0bb48"></a><br/></td></tr>
+<tr class="separator:a67bf5a42f6227ba6f5c9af2a23b0bb48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a873c4f902b5fbfa920a4ecd3dff7ee44"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#a873c4f902b5fbfa920a4ecd3dff7ee44">setTypefaceCacheSize</a> (int numFontsToCache)</td></tr>
 <tr class="memdesc:a873c4f902b5fbfa920a4ecd3dff7ee44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the number of fonts that are cached in memory.  <a href="#a873c4f902b5fbfa920a4ecd3dff7ee44"></a><br/></td></tr>
 <tr class="separator:a873c4f902b5fbfa920a4ecd3dff7ee44"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -359,6 +362,43 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a new system typeface. </p>
+
+</div>
+</div>
+<a class="anchor" id="a67bf5a42f6227ba6f5c9af2a23b0bb48"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classTypeface.html#a13053be679c87b7a72963e9ce60e34c9">Ptr</a> Typeface::createSystemTypefaceFor </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>fontFileData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>fontFileDataSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attempts to create a font from some raw font file data (e.g. </p>
+<p>a TTF or OTF file image). The system will take its own internal copy of the data, so you can free the block once this method has returned. </p>
 
 </div>
 </div>
