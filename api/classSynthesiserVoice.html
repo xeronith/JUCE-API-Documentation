@@ -117,12 +117,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad5cbcbdb09eb7c87bcae5f9397d677a4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#ad5cbcbdb09eb7c87bcae5f9397d677a4">stopNote</a> (bool allowTailOff)=0</td></tr>
 <tr class="memdesc:ad5cbcbdb09eb7c87bcae5f9397d677a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to stop a note.  <a href="#ad5cbcbdb09eb7c87bcae5f9397d677a4"></a><br/></td></tr>
 <tr class="separator:ad5cbcbdb09eb7c87bcae5f9397d677a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf020646d149b7fb125e66a47aedef66"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#adf020646d149b7fb125e66a47aedef66">pitchWheelMoved</a> (int newValue)=0</td></tr>
-<tr class="memdesc:adf020646d149b7fb125e66a47aedef66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to let the voice know that the pitch wheel has been moved.  <a href="#adf020646d149b7fb125e66a47aedef66"></a><br/></td></tr>
-<tr class="separator:adf020646d149b7fb125e66a47aedef66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a056f7d3716e9c0654f217368c45ed6e5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a056f7d3716e9c0654f217368c45ed6e5">controllerMoved</a> (int controllerNumber, int newValue)=0</td></tr>
-<tr class="memdesc:a056f7d3716e9c0654f217368c45ed6e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to let the voice know that a midi controller has been moved.  <a href="#a056f7d3716e9c0654f217368c45ed6e5"></a><br/></td></tr>
-<tr class="separator:a056f7d3716e9c0654f217368c45ed6e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca1eda7413a8709c1fc70a9255e48e91"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#aca1eda7413a8709c1fc70a9255e48e91">pitchWheelMoved</a> (int newPitchWheelValue)=0</td></tr>
+<tr class="memdesc:aca1eda7413a8709c1fc70a9255e48e91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to let the voice know that the pitch wheel has been moved.  <a href="#aca1eda7413a8709c1fc70a9255e48e91"></a><br/></td></tr>
+<tr class="separator:aca1eda7413a8709c1fc70a9255e48e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25b23c8ce57b394d0d037eef0f314ac0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a25b23c8ce57b394d0d037eef0f314ac0">controllerMoved</a> (int controllerNumber, int newControllerValue)=0</td></tr>
+<tr class="memdesc:a25b23c8ce57b394d0d037eef0f314ac0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to let the voice know that a midi controller has been moved.  <a href="#a25b23c8ce57b394d0d037eef0f314ac0"></a><br/></td></tr>
+<tr class="separator:a25b23c8ce57b394d0d037eef0f314ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b5ada8bbf89e4be218b6ffecb770b30"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a9b5ada8bbf89e4be218b6ffecb770b30">aftertouchChanged</a> (int newAftertouchValue)</td></tr>
+<tr class="memdesc:a9b5ada8bbf89e4be218b6ffecb770b30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to let the voice know that the aftertouch has changed.  <a href="#a9b5ada8bbf89e4be218b6ffecb770b30"></a><br/></td></tr>
+<tr class="separator:a9b5ada8bbf89e4be218b6ffecb770b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4ed4a1a2017669531b4cef59a158b9a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#ad4ed4a1a2017669531b4cef59a158b9a">renderNextBlock</a> (<a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;outputBuffer, int startSample, int numSamples)=0</td></tr>
 <tr class="memdesc:ad4ed4a1a2017669531b4cef59a158b9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the next block of data for this voice.  <a href="#ad4ed4a1a2017669531b4cef59a158b9a"></a><br/></td></tr>
 <tr class="separator:ad4ed4a1a2017669531b4cef59a158b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -360,7 +363,7 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adf020646d149b7fb125e66a47aedef66"></a>
+<a class="anchor" id="aca1eda7413a8709c1fc70a9255e48e91"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -371,7 +374,7 @@ Protected Member Functions</h2></td></tr>
           <td class="memname">virtual void SynthesiserVoice::pitchWheelMoved </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>newValue</em></td><td>)</td>
+          <td class="paramname"><em>newPitchWheelValue</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -389,7 +392,7 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a056f7d3716e9c0654f217368c45ed6e5"></a>
+<a class="anchor" id="a25b23c8ce57b394d0d037eef0f314ac0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -406,7 +409,7 @@ Protected Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>newValue</em>&#160;</td>
+          <td class="paramname"><em>newControllerValue</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -425,6 +428,33 @@ Protected Member Functions</h2></td></tr>
 <p>This will be called during the rendering callback, so must be fast and thread-safe. </p>
 
 <p>Implemented in <a class="el" href="classSamplerVoice.html#a416b14c55e39696fb86fb3fa0113eafa">SamplerVoice</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9b5ada8bbf89e4be218b6ffecb770b30"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void SynthesiserVoice::aftertouchChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>newAftertouchValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called to let the voice know that the aftertouch has changed. </p>
+<p>This will be called during the rendering callback, so must be fast and thread-safe. </p>
 
 </div>
 </div>

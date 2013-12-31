@@ -152,6 +152,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae2dc8a91aff04f2e23b6ac22b4dd80a8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#ae2dc8a91aff04f2e23b6ac22b4dd80a8">handleController</a> (int midiChannel, int controllerNumber, int controllerValue)</td></tr>
 <tr class="memdesc:ae2dc8a91aff04f2e23b6ac22b4dd80a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a midi controller message to any active voices.  <a href="#ae2dc8a91aff04f2e23b6ac22b4dd80a8"></a><br/></td></tr>
 <tr class="separator:ae2dc8a91aff04f2e23b6ac22b4dd80a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae92ed64d170257574b9009b3384bde01"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#ae92ed64d170257574b9009b3384bde01">handleAftertouch</a> (int midiChannel, int midiNoteNumber, int aftertouchValue)</td></tr>
+<tr class="memdesc:ae92ed64d170257574b9009b3384bde01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends an aftertouch message.  <a href="#ae92ed64d170257574b9009b3384bde01"></a><br/></td></tr>
+<tr class="separator:ae92ed64d170257574b9009b3384bde01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a393f210a6c793d6d38221a346e961a23"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#a393f210a6c793d6d38221a346e961a23">handleSustainPedal</a> (int midiChannel, bool isDown)</td></tr>
 <tr class="memdesc:a393f210a6c793d6d38221a346e961a23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles a sustain pedal event.  <a href="#a393f210a6c793d6d38221a346e961a23"></a><br/></td></tr>
 <tr class="separator:a393f210a6c793d6d38221a346e961a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -717,6 +720,58 @@ Protected Attributes</h2></td></tr>
     <tr><td class="paramname">midiChannel</td><td>the midi channel, from 1 to 16 inclusive </td></tr>
     <tr><td class="paramname">controllerNumber</td><td>the midi controller type, as returned by <a class="el" href="classMidiMessage.html#a772acb26aa7f2cdc1992210b6d2d496a" title="Returns the controller number of a controller message.">MidiMessage::getControllerNumber()</a> </td></tr>
     <tr><td class="paramname">controllerValue</td><td>the midi controller value, between 0 and 127, as returned by <a class="el" href="classMidiMessage.html#aa301aa18dace968d5ebb2f809fd52522" title="Returns the controller value from a controller message.">MidiMessage::getControllerValue()</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae92ed64d170257574b9009b3384bde01"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Synthesiser::handleAftertouch </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>midiChannel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>midiNoteNumber</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>aftertouchValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sends an aftertouch message. </p>
+<p>This will send an aftertouch message to any voices that are playing sounds on the given midi channel and note number.</p>
+<p>This method will be called automatically according to the midi data passed into <a class="el" href="classSynthesiser.html#a6ef0f7f6a4b46a8f425dbadd976cf29f" title="Creates the next block of audio output.">renderNextBlock()</a>, but may be called explicitly too.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">midiChannel</td><td>the midi channel, from 1 to 16 inclusive </td></tr>
+    <tr><td class="paramname">midiNoteNumber</td><td>the midi note number, 0 to 127 </td></tr>
+    <tr><td class="paramname">aftertouchValue</td><td>the aftertouch value, between 0 and 127, as returned by MidiMessage::getAftertouchValue() </td></tr>
   </table>
   </dd>
 </dl>

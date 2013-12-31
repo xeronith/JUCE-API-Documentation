@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['handleaftertouch',['handleAftertouch',['../classSynthesiser.html#ae92ed64d170257574b9009b3384bde01',1,'Synthesiser']]],
   ['handleasyncupdate',['handleAsyncUpdate',['../classAsyncUpdater.html#a446f3af793131f8772329f1f8b526578',1,'AsyncUpdater::handleAsyncUpdate()'],['../classModalComponentManager.html#a47d303fb64f3ae02deb986d58bfeb893',1,'ModalComponentManager::handleAsyncUpdate()'],['../classMenuBarModel.html#a0dddd32a4b5bd42c1313751bb13f882e',1,'MenuBarModel::handleAsyncUpdate()'],['../classComboBox.html#a773b7375c6a370db67ed6fd16b4535a7',1,'ComboBox::handleAsyncUpdate()']]],
   ['handlebroughttofront',['handleBroughtToFront',['../classComponentPeer.html#a8f451c2a22a1696443ab724fa62b9708',1,'ComponentPeer']]],
   ['handlecallbackinternal',['handleCallbackInternal',['../classAppleRemoteDevice.html#a016dfb4c500b9813c935f7387872d112',1,'AppleRemoteDevice']]],

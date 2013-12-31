@@ -121,6 +121,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a50e7ac83c272b655123821397b87549d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocalisedStrings.html#a50e7ac83c272b655123821397b87549d">addStrings</a> (const <a class="el" href="classLocalisedStrings.html">LocalisedStrings</a> &amp;)</td></tr>
 <tr class="memdesc:a50e7ac83c272b655123821397b87549d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds and merges another set of translations into this set.  <a href="#a50e7ac83c272b655123821397b87549d"></a><br/></td></tr>
 <tr class="separator:a50e7ac83c272b655123821397b87549d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d31b6c45aa1317612f2bc2466357651"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocalisedStrings.html#a7d31b6c45aa1317612f2bc2466357651">setFallback</a> (<a class="el" href="classLocalisedStrings.html">LocalisedStrings</a> *fallbackStrings)</td></tr>
+<tr class="memdesc:a7d31b6c45aa1317612f2bc2466357651"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gives this object a set of strings to use as a fallback if a string isn't found.  <a href="#a7d31b6c45aa1317612f2bc2466357651"></a><br/></td></tr>
+<tr class="separator:a7d31b6c45aa1317612f2bc2466357651"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -464,6 +467,25 @@ Static Public Member Functions</h2></td></tr>
 <p>Adds and merges another set of translations into this set. </p>
 <p>Note that the language name and country codes of the new <a class="el" href="classLocalisedStrings.html" title="Used to convert strings to localised foreign-language versions.">LocalisedStrings</a> object must match that of this object - an assertion will be thrown if they don't match.</p>
 <p>Any existing values will have their mappings overwritten by the new ones. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7d31b6c45aa1317612f2bc2466357651"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LocalisedStrings::setFallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classLocalisedStrings.html">LocalisedStrings</a> *&#160;</td>
+          <td class="paramname"><em>fallbackStrings</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gives this object a set of strings to use as a fallback if a string isn't found. </p>
+<p>The object that is passed-in will be owned and deleted by this object when no longer needed. It can be nullptr to clear the existing fallback object. </p>
 
 </div>
 </div>

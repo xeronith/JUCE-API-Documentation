@@ -132,6 +132,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a45d0d2b22eb7da9f21cb63b18336de73 inherit pub_methods_classSynthesiserVoice"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSynthesiserSound.html#a602e767cdfca63dd73df1f0d5c723ef8">SynthesiserSound::Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a45d0d2b22eb7da9f21cb63b18336de73">getCurrentlyPlayingSound</a> () const noexcept</td></tr>
 <tr class="memdesc:a45d0d2b22eb7da9f21cb63b18336de73 inherit pub_methods_classSynthesiserVoice"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sound that this voice is currently playing.  <a href="#a45d0d2b22eb7da9f21cb63b18336de73"></a><br/></td></tr>
 <tr class="separator:a45d0d2b22eb7da9f21cb63b18336de73 inherit pub_methods_classSynthesiserVoice"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b5ada8bbf89e4be218b6ffecb770b30 inherit pub_methods_classSynthesiserVoice"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a9b5ada8bbf89e4be218b6ffecb770b30">aftertouchChanged</a> (int newAftertouchValue)</td></tr>
+<tr class="memdesc:a9b5ada8bbf89e4be218b6ffecb770b30 inherit pub_methods_classSynthesiserVoice"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to let the voice know that the aftertouch has changed.  <a href="#a9b5ada8bbf89e4be218b6ffecb770b30"></a><br/></td></tr>
+<tr class="separator:a9b5ada8bbf89e4be218b6ffecb770b30 inherit pub_methods_classSynthesiserVoice"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86c76ca9275f70ca743532b59e405647 inherit pub_methods_classSynthesiserVoice"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a86c76ca9275f70ca743532b59e405647">isPlayingChannel</a> (int midiChannel) const </td></tr>
 <tr class="memdesc:a86c76ca9275f70ca743532b59e405647 inherit pub_methods_classSynthesiserVoice"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the voice is currently playing a sound which is mapped to the given midi channel.  <a href="#a86c76ca9275f70ca743532b59e405647"></a><br/></td></tr>
 <tr class="separator:a86c76ca9275f70ca743532b59e405647 inherit pub_methods_classSynthesiserVoice"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -318,7 +321,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">void SamplerVoice::pitchWheelMoved </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>newValue</em></td><td>)</td>
+          <td class="paramname"><em>newPitchWheelValue</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -332,7 +335,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Called to let the voice know that the pitch wheel has been moved. </p>
 <p>This will be called during the rendering callback, so must be fast and thread-safe. </p>
 
-<p>Implements <a class="el" href="classSynthesiserVoice.html#adf020646d149b7fb125e66a47aedef66">SynthesiserVoice</a>.</p>
+<p>Implements <a class="el" href="classSynthesiserVoice.html#aca1eda7413a8709c1fc70a9255e48e91">SynthesiserVoice</a>.</p>
 
 </div>
 </div>
@@ -353,7 +356,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>newValue</em>&#160;</td>
+          <td class="paramname"><em>newControllerValue</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -371,7 +374,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Called to let the voice know that a midi controller has been moved. </p>
 <p>This will be called during the rendering callback, so must be fast and thread-safe. </p>
 
-<p>Implements <a class="el" href="classSynthesiserVoice.html#a056f7d3716e9c0654f217368c45ed6e5">SynthesiserVoice</a>.</p>
+<p>Implements <a class="el" href="classSynthesiserVoice.html#a25b23c8ce57b394d0d037eef0f314ac0">SynthesiserVoice</a>.</p>
 
 </div>
 </div>
