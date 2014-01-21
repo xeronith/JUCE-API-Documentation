@@ -145,9 +145,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad7c9243dab6ddc767350a617f1142b81"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCustomTypeface.html#ad7c9243dab6ddc767350a617f1142b81">getOutlineForGlyph</a> (int glyphNumber, <a class="el" href="classPath.html">Path</a> &amp;) override</td></tr>
 <tr class="memdesc:ad7c9243dab6ddc767350a617f1142b81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the outline for a glyph.  <a href="#ad7c9243dab6ddc767350a617f1142b81"></a><br/></td></tr>
 <tr class="separator:ad7c9243dab6ddc767350a617f1142b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace6fdcab990eecf9c12249ebb966c51b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classEdgeTable.html">EdgeTable</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCustomTypeface.html#ace6fdcab990eecf9c12249ebb966c51b">getEdgeTableForGlyph</a> (int glyphNumber, const <a class="el" href="classAffineTransform.html">AffineTransform</a> &amp;) override</td></tr>
-<tr class="memdesc:ace6fdcab990eecf9c12249ebb966c51b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new <a class="el" href="classEdgeTable.html" title="A table of horizontal scan-line segments - used for rasterising Paths.">EdgeTable</a> that contains the path for the givem glyph, with the specified transform applied.  <a href="#ace6fdcab990eecf9c12249ebb966c51b"></a><br/></td></tr>
-<tr class="separator:ace6fdcab990eecf9c12249ebb966c51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d2203069a352d8f9fbb24ecdfd56923"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classEdgeTable.html">EdgeTable</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCustomTypeface.html#a7d2203069a352d8f9fbb24ecdfd56923">getEdgeTableForGlyph</a> (int glyphNumber, const <a class="el" href="classAffineTransform.html">AffineTransform</a> &amp;, float fontHeight) override</td></tr>
+<tr class="memdesc:a7d2203069a352d8f9fbb24ecdfd56923"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new <a class="el" href="classEdgeTable.html" title="A table of horizontal scan-line segments - used for rasterising Paths.">EdgeTable</a> that contains the path for the givem glyph, with the specified transform applied.  <a href="#a7d2203069a352d8f9fbb24ecdfd56923"></a><br/></td></tr>
+<tr class="separator:a7d2203069a352d8f9fbb24ecdfd56923"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classTypeface"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classTypeface')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classTypeface.html">Typeface</a></td></tr>
 <tr class="memitem:ab1996880b3e86b59828bf070902f47f9 inherit pub_methods_classTypeface"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#ab1996880b3e86b59828bf070902f47f9">getName</a> () const noexcept</td></tr>
 <tr class="memdesc:ab1996880b3e86b59828bf070902f47f9 inherit pub_methods_classTypeface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the font family of the typeface.  <a href="#ab1996880b3e86b59828bf070902f47f9"></a><br/></td></tr>
@@ -164,6 +164,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0a0c1ba0a02a01e032c8f2fef2efe371 inherit pub_methods_classTypeface"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#a0a0c1ba0a02a01e032c8f2fef2efe371">isHinted</a> () const </td></tr>
 <tr class="memdesc:a0a0c1ba0a02a01e032c8f2fef2efe371 inherit pub_methods_classTypeface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the typeface uses hinting.  <a href="#a0a0c1ba0a02a01e032c8f2fef2efe371"></a><br/></td></tr>
 <tr class="separator:a0a0c1ba0a02a01e032c8f2fef2efe371 inherit pub_methods_classTypeface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5920548d7f8a4811a66b0e6745de14ea inherit pub_methods_classTypeface"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypeface.html#a5920548d7f8a4811a66b0e6745de14ea">applyVerticalHintingTransform</a> (float fontHeight, <a class="el" href="classPath.html">Path</a> &amp;path)</td></tr>
+<tr class="memdesc:a5920548d7f8a4811a66b0e6745de14ea inherit pub_methods_classTypeface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes an attempt at performing a good overall distortion that will scale a font of the given size to align vertically with the pixel grid.  <a href="#a5920548d7f8a4811a66b0e6745de14ea"></a><br/></td></tr>
+<tr class="separator:a5920548d7f8a4811a66b0e6745de14ea inherit pub_methods_classTypeface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classReferenceCountedObject"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classReferenceCountedObject')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classReferenceCountedObject.html">ReferenceCountedObject</a></td></tr>
 <tr class="memitem:a878ca594f89f757d29af5a42ee51161f inherit pub_methods_classReferenceCountedObject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObject.html#a878ca594f89f757d29af5a42ee51161f">incReferenceCount</a> () noexcept</td></tr>
 <tr class="memdesc:a878ca594f89f757d29af5a42ee51161f inherit pub_methods_classReferenceCountedObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increments the object's reference count.  <a href="#a878ca594f89f757d29af5a42ee51161f"></a><br/></td></tr>
@@ -789,7 +792,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ace6fdcab990eecf9c12249ebb966c51b"></a>
+<a class="anchor" id="a7d2203069a352d8f9fbb24ecdfd56923"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -806,7 +809,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classAffineTransform.html">AffineTransform</a> &amp;&#160;</td>
-          <td class="paramname"><em>transform</em>&#160;</td>
+          <td class="paramname"><em>transform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fontHeight</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -823,7 +832,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns a new <a class="el" href="classEdgeTable.html" title="A table of horizontal scan-line segments - used for rasterising Paths.">EdgeTable</a> that contains the path for the givem glyph, with the specified transform applied. </p>
 
-<p>Reimplemented from <a class="el" href="classTypeface.html#a1c021c15276d4805f2a64c100fe4dcd5">Typeface</a>.</p>
+<p>Reimplemented from <a class="el" href="classTypeface.html#a1360242b92c59fb204398ce23b59c56f">Typeface</a>.</p>
 
 </div>
 </div>

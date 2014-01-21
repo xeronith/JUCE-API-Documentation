@@ -184,6 +184,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a862c006640be0d0b28a670d8fdee1728"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardComponent.html#a862c006640be0d0b28a670d8fdee1728">getKeyStartPosition</a> (int midiNoteNumber) const </td></tr>
 <tr class="memdesc:a862c006640be0d0b28a670d8fdee1728"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the position within the component of the left-hand edge of a key.  <a href="#a862c006640be0d0b28a670d8fdee1728"></a><br/></td></tr>
 <tr class="separator:a862c006640be0d0b28a670d8fdee1728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab027e69a01c5b6c46d71f37e5e1f617c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardComponent.html#ab027e69a01c5b6c46d71f37e5e1f617c">getNoteAtPosition</a> (<a class="el" href="classPoint.html">Point</a>&lt; int &gt; position)</td></tr>
+<tr class="memdesc:ab027e69a01c5b6c46d71f37e5e1f617c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the key at a given coordinate.  <a href="#ab027e69a01c5b6c46d71f37e5e1f617c"></a><br/></td></tr>
+<tr class="separator:ab027e69a01c5b6c46d71f37e5e1f617c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24880c249ce33326d3bc1636b2b116a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardComponent.html#a24880c249ce33326d3bc1636b2b116a4">clearKeyMappings</a> ()</td></tr>
 <tr class="memdesc:a24880c249ce33326d3bc1636b2b116a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all key-mappings.  <a href="#a24880c249ce33326d3bc1636b2b116a4"></a><br/></td></tr>
 <tr class="separator:a24880c249ce33326d3bc1636b2b116a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1385,6 +1388,24 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab027e69a01c5b6c46d71f37e5e1f617c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MidiKeyboardComponent::getNoteAtPosition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the key at a given coordinate. </p>
+
+</div>
+</div>
 <a class="anchor" id="a24880c249ce33326d3bc1636b2b116a4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2148,7 +2169,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Allows text to be drawn on the white notes. </p>
-<p>By default this is used to label the C in each octave, but could be used for other things.</p>
+<p>By default this is used to label the C in each octave, but could be used for other things. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiKeyboardComponent.html#a0fa0517007dae385e61b92a938e5a030" title="This sets the octave number which is shown as the octave number for middle C.">setOctaveForMiddleC</a> </dd></dl>
 
 </div>

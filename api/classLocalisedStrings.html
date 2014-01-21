@@ -100,6 +100,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7227cbea1f200fe77615c6a39bd3a2f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocalisedStrings.html#a7227cbea1f200fe77615c6a39bd3a2f8">LocalisedStrings</a> (const <a class="el" href="classFile.html">File</a> &amp;fileToLoad, bool ignoreCaseOfKeys)</td></tr>
 <tr class="memdesc:a7227cbea1f200fe77615c6a39bd3a2f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a set of translations from a file.  <a href="#a7227cbea1f200fe77615c6a39bd3a2f8"></a><br/></td></tr>
 <tr class="separator:a7227cbea1f200fe77615c6a39bd3a2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a781d562968f3cc492816751d7b91bdfe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocalisedStrings.html#a781d562968f3cc492816751d7b91bdfe">LocalisedStrings</a> (const <a class="el" href="classLocalisedStrings.html">LocalisedStrings</a> &amp;)</td></tr>
+<tr class="separator:a781d562968f3cc492816751d7b91bdfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af19c7ad780aadf0881da80c11d4ef6c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLocalisedStrings.html">LocalisedStrings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocalisedStrings.html#af19c7ad780aadf0881da80c11d4ef6c6">operator=</a> (const <a class="el" href="classLocalisedStrings.html">LocalisedStrings</a> &amp;)</td></tr>
+<tr class="separator:af19c7ad780aadf0881da80c11d4ef6c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba56315c628fc24aee1fb9c41e0e4fca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocalisedStrings.html#aba56315c628fc24aee1fb9c41e0e4fca">~LocalisedStrings</a> ()</td></tr>
 <tr class="memdesc:aba56315c628fc24aee1fb9c41e0e4fca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#aba56315c628fc24aee1fb9c41e0e4fca"></a><br/></td></tr>
 <tr class="separator:aba56315c628fc24aee1fb9c41e0e4fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,6 +219,22 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a781d562968f3cc492816751d7b91bdfe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LocalisedStrings::LocalisedStrings </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classLocalisedStrings.html">LocalisedStrings</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="aba56315c628fc24aee1fb9c41e0e4fca"></a>
 <div class="memitem">
 <div class="memproto">
@@ -233,6 +253,22 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="af19c7ad780aadf0881da80c11d4ef6c6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classLocalisedStrings.html">LocalisedStrings</a>&amp; LocalisedStrings::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classLocalisedStrings.html">LocalisedStrings</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a4916d09e4d881362a6d35d753d902bf5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -256,7 +292,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Selects the current set of mappings to be used by the system. </p>
-<p>The object you pass in will be automatically deleted when no longer needed, so don't keep a pointer to it. You can also pass in zero to remove the current mappings.</p>
+<p>The object you pass in will be automatically deleted when no longer needed, so don't keep a pointer to it. You can also pass in nullptr to remove the current mappings.</p>
 <p>See also the <a class="el" href="juce__LocalisedStrings_8h.html#af3c28ad27b0d8fa2f615888701e32b07" title="Uses the LocalisedStrings class to translate the given string literal.">TRANS()</a> macro, which uses the current set to do its translation.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classLocalisedStrings.html#adbb25081e75842b43db17d585cf00c6d" title="Tries to translate a string using the currently selected set of mappings.">translateWithCurrentMappings</a> </dd></dl>
 

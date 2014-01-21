@@ -1,7 +1,7 @@
 var searchData=
 [
   ['namedpipe',['NamedPipe',['../classNamedPipe.html#a81946cbcb2a7d0c979f5f7e1b565b4ab',1,'NamedPipe']]],
-  ['namedvalueset',['NamedValueSet',['../classNamedValueSet.html#a7c23ef1e536e90700bde50433c839597',1,'NamedValueSet::NamedValueSet() noexcept'],['../classNamedValueSet.html#a7336357ad76cf764e20876ca430cc7f9',1,'NamedValueSet::NamedValueSet(const NamedValueSet &amp;other)']]],
+  ['namedvalueset',['NamedValueSet',['../classNamedValueSet.html#a7c23ef1e536e90700bde50433c839597',1,'NamedValueSet::NamedValueSet() noexcept'],['../classNamedValueSet.html#a024664ea8e341e70c42a0ceb83412118',1,'NamedValueSet::NamedValueSet(const NamedValueSet &amp;)']]],
   ['nativefunctionargs',['NativeFunctionArgs',['../structvar_1_1NativeFunctionArgs.html#a8ee7e2f72e487191674312e3da2e2996',1,'var::NativeFunctionArgs']]],
   ['nativeimagetype',['NativeImageType',['../classNativeImageType.html#a55b2d128303a0a60a8a44490c64b87b2',1,'NativeImageType']]],
   ['needstobesaved',['needsToBeSaved',['../classPropertiesFile.html#af9e77e3bde952ed5face05c19cd51ed4',1,'PropertiesFile']]],

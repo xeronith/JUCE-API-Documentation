@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['macaddress',['MACAddress',['../classMACAddress.html#a155b01d9d9c04fbe13ea9b821519b571',1,'MACAddress::MACAddress()'],['../classMACAddress.html#a9ab1361f2773c6840f8fc96f73000b20',1,'MACAddress::MACAddress(const MACAddress &amp;other)'],['../classMACAddress.html#aeabd33e9cbb643fc35c4caea9ed5fd41',1,'MACAddress::MACAddress(const uint8 bytes[6])']]],
+  ['macaddress',['MACAddress',['../classMACAddress.html#a155b01d9d9c04fbe13ea9b821519b571',1,'MACAddress::MACAddress()'],['../classMACAddress.html#a64a1be2404e971a341b3f8ef766ac13a',1,'MACAddress::MACAddress(const MACAddress &amp;)'],['../classMACAddress.html#aeabd33e9cbb643fc35c4caea9ed5fd41',1,'MACAddress::MACAddress(const uint8 bytes[6])']]],
   ['makeactive',['makeActive',['../classOpenGLContext.html#a318c8cc5821b9b2b2a9f726c623385f8',1,'OpenGLContext']]],
   ['makecurrentandclear',['makeCurrentAndClear',['../classOpenGLFrameBuffer.html#a7b3c717399bd4e547c7197566a4e8f4b',1,'OpenGLFrameBuffer']]],
   ['makecurrentrenderingtarget',['makeCurrentRenderingTarget',['../classOpenGLFrameBuffer.html#a12be24f97f7201217e15c938976c1d9a',1,'OpenGLFrameBuffer']]],
@@ -14,8 +14,8 @@ var searchData=
   ['malloc',['malloc',['../classHeapBlock.html#a1a196c4ebdb6a5ff9517e262b91894cf',1,'HeapBlock']]],
   ['mapentirefile',['mapEntireFile',['../classMemoryMappedAudioFormatReader.html#a857ab88ffdc45bb42ca1468ce2b17e35',1,'MemoryMappedAudioFormatReader']]],
   ['mapsectionoffile',['mapSectionOfFile',['../classMemoryMappedAudioFormatReader.html#aee6db6421fa50c948b724fd362359bf9',1,'MemoryMappedAudioFormatReader']]],
-  ['marker',['Marker',['../classMarkerList_1_1Marker.html#ad026d83d2228c9257e0269cd40ad5b51',1,'MarkerList::Marker::Marker(const Marker &amp;other)'],['../classMarkerList_1_1Marker.html#a5f504ecd66bdf1cfa2cd6350223bbc52',1,'MarkerList::Marker::Marker(const String &amp;name, const RelativeCoordinate &amp;position)']]],
-  ['markerlist',['MarkerList',['../classMarkerList.html#aec769d5fe4ed37fac5093d0b420a06c8',1,'MarkerList::MarkerList()'],['../classMarkerList.html#ade1d2b7a557c3e92846ede5550d2db2d',1,'MarkerList::MarkerList(const MarkerList &amp;other)']]],
+  ['marker',['Marker',['../classMarkerList_1_1Marker.html#a99c9190cd11eecb615d20a93c38075b3',1,'MarkerList::Marker::Marker(const Marker &amp;)'],['../classMarkerList_1_1Marker.html#a5f504ecd66bdf1cfa2cd6350223bbc52',1,'MarkerList::Marker::Marker(const String &amp;name, const RelativeCoordinate &amp;position)']]],
+  ['markerlist',['MarkerList',['../classMarkerList.html#aec769d5fe4ed37fac5093d0b420a06c8',1,'MarkerList::MarkerList()'],['../classMarkerList.html#a95679c0bfa25319d327173afc441c6bc',1,'MarkerList::MarkerList(const MarkerList &amp;)']]],
   ['markerlistbeingdeleted',['markerListBeingDeleted',['../classMarkerList_1_1Listener.html#a1366341c47f066cfb5798504fb75ff8c',1,'MarkerList::Listener::markerListBeingDeleted()'],['../classRelativeCoordinatePositionerBase.html#ad5fc1026853001dfdcbb5e7b0de4df33',1,'RelativeCoordinatePositionerBase::markerListBeingDeleted()']]],
   ['markerschanged',['markersChanged',['../classMarkerList_1_1Listener.html#ace4f10849b4f4d2d7c311ad9a2fad7c8',1,'MarkerList::Listener::markersChanged()'],['../classRelativeCoordinatePositionerBase.html#a538512e8c28ca2ee8f722e2946579818',1,'RelativeCoordinatePositionerBase::markersChanged()']]],
   ['markershavechanged',['markersHaveChanged',['../classMarkerList.html#a0b8a4773fabc9941f3b1cfd7edde342e',1,'MarkerList']]],

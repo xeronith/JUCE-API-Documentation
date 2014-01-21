@@ -236,7 +236,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Call this from your mouseDrag() callback to move the component. </p>
-<p>This will move the component, but will first check the validity of the component's new position using the checkPosition() method, which you can override if you need to enforce special positioning limits on the component.</p>
+<p>This will move the component, using the given constrainer object to check the new position.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">componentToDrag</td><td>the component that you want to drag </td></tr>

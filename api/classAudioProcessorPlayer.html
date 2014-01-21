@@ -103,14 +103,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1a0491edbdbcb7e64375c42b8b48ed64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#a1a0491edbdbcb7e64375c42b8b48ed64">setProcessor</a> (<a class="el" href="classAudioProcessor.html">AudioProcessor</a> *processorToPlay)</td></tr>
 <tr class="memdesc:a1a0491edbdbcb7e64375c42b8b48ed64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the processor that should be played.  <a href="#a1a0491edbdbcb7e64375c42b8b48ed64"></a><br/></td></tr>
 <tr class="separator:a1a0491edbdbcb7e64375c42b8b48ed64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7caf364ce349cc39c5385ebe8ccbcd9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioProcessor.html">AudioProcessor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#a7caf364ce349cc39c5385ebe8ccbcd9a">getCurrentProcessor</a> () const </td></tr>
-<tr class="memdesc:a7caf364ce349cc39c5385ebe8ccbcd9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current audio processor that is being played.  <a href="#a7caf364ce349cc39c5385ebe8ccbcd9a"></a><br/></td></tr>
-<tr class="separator:a7caf364ce349cc39c5385ebe8ccbcd9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc788f1fdedc0e774633777de68254c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMidiMessageCollector.html">MidiMessageCollector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#adc788f1fdedc0e774633777de68254c3">getMidiMessageCollector</a> ()</td></tr>
-<tr class="memdesc:adc788f1fdedc0e774633777de68254c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a midi message collector that you can pass midi messages to if you want them to be injected into the midi stream that is being sent to the processor.  <a href="#adc788f1fdedc0e774633777de68254c3"></a><br/></td></tr>
-<tr class="separator:adc788f1fdedc0e774633777de68254c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67204d078c32a0b3683646415d01d019"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#a67204d078c32a0b3683646415d01d019">audioDeviceIOCallback</a> (const float **inputChannelData, int totalNumInputChannels, float **outputChannelData, int totalNumOutputChannels, int numSamples) override</td></tr>
-<tr class="separator:a67204d078c32a0b3683646415d01d019"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45de02b2ea641894092d94d6e99c2403"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioProcessor.html">AudioProcessor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#a45de02b2ea641894092d94d6e99c2403">getCurrentProcessor</a> () const noexcept</td></tr>
+<tr class="memdesc:a45de02b2ea641894092d94d6e99c2403"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current audio processor that is being played.  <a href="#a45de02b2ea641894092d94d6e99c2403"></a><br/></td></tr>
+<tr class="separator:a45de02b2ea641894092d94d6e99c2403"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bdda7b77f76579ae526cc1f4f4a8ba7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMidiMessageCollector.html">MidiMessageCollector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#a1bdda7b77f76579ae526cc1f4f4a8ba7">getMidiMessageCollector</a> () noexcept</td></tr>
+<tr class="memdesc:a1bdda7b77f76579ae526cc1f4f4a8ba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a midi message collector that you can pass midi messages to if you want them to be injected into the midi stream that is being sent to the processor.  <a href="#a1bdda7b77f76579ae526cc1f4f4a8ba7"></a><br/></td></tr>
+<tr class="separator:a1bdda7b77f76579ae526cc1f4f4a8ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9ec99f33b14a00a4dc33d47f29576f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#aa9ec99f33b14a00a4dc33d47f29576f6">audioDeviceIOCallback</a> (const float **, int, float **, int, int) override</td></tr>
+<tr class="separator:aa9ec99f33b14a00a4dc33d47f29576f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e86ec16b53690d894d67fd7cfd7fcc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#a6e86ec16b53690d894d67fd7cfd7fcc4">audioDeviceAboutToStart</a> (<a class="el" href="classAudioIODevice.html">AudioIODevice</a> *) override</td></tr>
 <tr class="separator:a6e86ec16b53690d894d67fd7cfd7fcc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7ce7ac03e058c2fe908b98f2889c65b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorPlayer.html#ab7ce7ac03e058c2fe908b98f2889c65b">audioDeviceStopped</a> () override</td></tr>
@@ -194,15 +194,18 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sets the processor that should be played. </p>
-<p>The processor that is passed in will not be deleted or owned by this object. To stop anything playing, pass in 0 to this method. </p>
+<p>The processor that is passed in will not be deleted or owned by this object. To stop anything playing, pass a nullptr to this method. </p>
 
 <p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a0651dd09cb5395b2fe668777373821b0">StandaloneFilterWindow::resetFilter()</a>, and <a class="el" href="classStandaloneFilterWindow.html#a1f306718b48175832973359ba0f24319">StandaloneFilterWindow::StandaloneFilterWindow()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7caf364ce349cc39c5385ebe8ccbcd9a"></a>
+<a class="anchor" id="a45de02b2ea641894092d94d6e99c2403"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classAudioProcessor.html">AudioProcessor</a>* AudioProcessorPlayer::getCurrentProcessor </td>
@@ -211,15 +214,23 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns the current audio processor that is being played. </p>
 
 </div>
 </div>
-<a class="anchor" id="adc788f1fdedc0e774633777de68254c3"></a>
+<a class="anchor" id="a1bdda7b77f76579ae526cc1f4f4a8ba7"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classMidiMessageCollector.html">MidiMessageCollector</a>&amp; AudioProcessorPlayer::getMidiMessageCollector </td>
@@ -228,13 +239,18 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns a midi message collector that you can pass midi messages to if you want them to be injected into the midi stream that is being sent to the processor. </p>
 
 </div>
 </div>
-<a class="anchor" id="a67204d078c32a0b3683646415d01d019"></a>
+<a class="anchor" id="aa9ec99f33b14a00a4dc33d47f29576f6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -245,31 +261,31 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void AudioProcessorPlayer::audioDeviceIOCallback </td>
           <td>(</td>
           <td class="paramtype">const float **&#160;</td>
-          <td class="paramname"><em>inputChannelData</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>totalNumInputChannels</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float **&#160;</td>
-          <td class="paramname"><em>outputChannelData</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>totalNumOutputChannels</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>numSamples</em>&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
