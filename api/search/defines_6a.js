@@ -20,6 +20,8 @@ var searchData=
   ['juce_5fdebug',['JUCE_DEBUG',['../juce__TargetPlatform_8h.html#a5f55c9671da5cfdf8377deba11c06044',1,'juce_TargetPlatform.h']]],
   ['juce_5fdeclare_5fnon_5fcopyable',['JUCE_DECLARE_NON_COPYABLE',['../juce__PlatformDefs_8h.html#a6ab7a603bf4435c7cb286b1744366eb2',1,'juce_PlatformDefs.h']]],
   ['juce_5fdeclare_5fnon_5fcopyable_5fwith_5fleak_5fdetector',['JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR',['../juce__PlatformDefs_8h.html#a851b02724a8158a7f746c66b5758b3dd',1,'juce_PlatformDefs.h']]],
+  ['juce_5fdeclare_5fvst3_5fcom_5fquery_5fmethods',['JUCE_DECLARE_VST3_COM_QUERY_METHODS',['../juce__VST3Common_8h.html#ac28ed770da13aab54ddf2af4b4b8d754',1,'juce_VST3Common.h']]],
+  ['juce_5fdeclare_5fvst3_5fcom_5fref_5fmethods',['JUCE_DECLARE_VST3_COM_REF_METHODS',['../juce__VST3Common_8h.html#a52081291a153c4ae5db62900492eacf8',1,'juce_VST3Common.h']]],
   ['juce_5fdeclaresingleton',['juce_DeclareSingleton',['../juce__Singleton_8h.html#ac46b66c5d38d6bd3a937af241d152a44',1,'juce_Singleton.h']]],
   ['juce_5fdeclaresingleton_5fsinglethreaded',['juce_DeclareSingleton_SingleThreaded',['../juce__Singleton_8h.html#a253f51f3a9ac2b4795e2ce08b2a756d9',1,'juce_Singleton.h']]],
   ['juce_5fdeclaresingleton_5fsinglethreaded_5fminimal',['juce_DeclareSingleton_SingleThreaded_Minimal',['../juce__Singleton_8h.html#a354e37d287b39d02097f4f74be14af51',1,'juce_Singleton.h']]],
@@ -48,5 +50,6 @@ var searchData=
   ['juce_5ftry',['JUCE_TRY',['../juce__PlatformDefs_8h.html#a267fd4f83073fb084b389df70243c52e',1,'juce_PlatformDefs.h']]],
   ['juce_5fundenormalise',['JUCE_UNDENORMALISE',['../juce__MathsFunctions_8h.html#a339666bd60cc6cb0831cb79c8f1b07b6',1,'juce_MathsFunctions.h']]],
   ['juce_5fusedebuggingnewoperator',['juce_UseDebuggingNewOperator',['../juce__Memory_8h.html#a881926ad904a631336e5d4b15f05c548',1,'juce_Memory.h']]],
-  ['juce_5fversion',['JUCE_VERSION',['../juce__StandardHeader_8h.html#a8e9e97736d05e318de09b9bedab1aaa0',1,'juce_StandardHeader.h']]]
+  ['juce_5fversion',['JUCE_VERSION',['../juce__StandardHeader_8h.html#a8e9e97736d05e318de09b9bedab1aaa0',1,'juce_StandardHeader.h']]],
+  ['juceplugin_5fbuild_5fvst3',['JucePlugin_Build_VST3',['../juce__CheckSettingMacros_8h.html#aefca42b08df10a55158f182e4a468db9',1,'juce_CheckSettingMacros.h']]]
 ];

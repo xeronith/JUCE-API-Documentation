@@ -105,9 +105,10 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a50a7adf3d7d1f411ed2aa9a663bfe275"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#a50a7adf3d7d1f411ed2aa9a663bfe275">DynamicObject</a> ()</td></tr>
 <tr class="separator:a50a7adf3d7d1f411ed2aa9a663bfe275"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9141dddf35d338d5bae491cb0455583"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#af9141dddf35d338d5bae491cb0455583">~DynamicObject</a> ()</td></tr>
-<tr class="memdesc:af9141dddf35d338d5bae491cb0455583"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#af9141dddf35d338d5bae491cb0455583"></a><br/></td></tr>
-<tr class="separator:af9141dddf35d338d5bae491cb0455583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd2d04d5cb0612b22afcd6ba2a1c8f15"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#afd2d04d5cb0612b22afcd6ba2a1c8f15">DynamicObject</a> (const <a class="el" href="classDynamicObject.html">DynamicObject</a> &amp;)</td></tr>
+<tr class="separator:afd2d04d5cb0612b22afcd6ba2a1c8f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a149b612e1f0288b115178874bd0cba93"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#a149b612e1f0288b115178874bd0cba93">~DynamicObject</a> ()</td></tr>
+<tr class="separator:a149b612e1f0288b115178874bd0cba93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed8e9e391f64fd8ed239ebf63c9b61c8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#aed8e9e391f64fd8ed239ebf63c9b61c8">hasProperty</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;propertyName) const </td></tr>
 <tr class="memdesc:aed8e9e391f64fd8ed239ebf63c9b61c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the object has a property with this name.  <a href="#aed8e9e391f64fd8ed239ebf63c9b61c8"></a><br/></td></tr>
 <tr class="separator:aed8e9e391f64fd8ed239ebf63c9b61c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,6 +136,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a88367bccf6d0520f53283812ecdc10c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNamedValueSet.html">NamedValueSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#a88367bccf6d0520f53283812ecdc10c9">getProperties</a> () noexcept</td></tr>
 <tr class="memdesc:a88367bccf6d0520f53283812ecdc10c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classNamedValueSet.html" title="Holds a set of named var objects.">NamedValueSet</a> that holds the object's properties.  <a href="#a88367bccf6d0520f53283812ecdc10c9"></a><br/></td></tr>
 <tr class="separator:a88367bccf6d0520f53283812ecdc10c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98df6114a279bb62c7720fa4eb0f3566"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#a98df6114a279bb62c7720fa4eb0f3566">cloneAllProperties</a> ()</td></tr>
+<tr class="memdesc:a98df6114a279bb62c7720fa4eb0f3566"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls <a class="el" href="classvar.html#a416b317dc68ad725b3892a79e4173f86" title="Returns a deep copy of this object.">var::clone()</a> on all the properties that this object contains.  <a href="#a98df6114a279bb62c7720fa4eb0f3566"></a><br/></td></tr>
+<tr class="separator:a98df6114a279bb62c7720fa4eb0f3566"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab149c5346a8edbc969f1d7a4dd161817"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classDynamicObject.html#a794f16134686a9283cd0a8c6a07d963f">Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#ab149c5346a8edbc969f1d7a4dd161817">clone</a> ()</td></tr>
 <tr class="memdesc:ab149c5346a8edbc969f1d7a4dd161817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a clone of this object.  <a href="#ab149c5346a8edbc969f1d7a4dd161817"></a><br/></td></tr>
 <tr class="separator:ab149c5346a8edbc969f1d7a4dd161817"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,28 +205,34 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af9141dddf35d338d5bae491cb0455583"></a>
+<a class="anchor" id="afd2d04d5cb0612b22afcd6ba2a1c8f15"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual DynamicObject::~DynamicObject </td>
+          <td class="memname">DynamicObject::DynamicObject </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classDynamicObject.html">DynamicObject</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a149b612e1f0288b115178874bd0cba93"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DynamicObject::~DynamicObject </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>Destructor. </p>
 
 </div>
 </div>
@@ -476,6 +486,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the <a class="el" href="classNamedValueSet.html" title="Holds a set of named var objects.">NamedValueSet</a> that holds the object's properties. </p>
+
+</div>
+</div>
+<a class="anchor" id="a98df6114a279bb62c7720fa4eb0f3566"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DynamicObject::cloneAllProperties </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calls <a class="el" href="classvar.html#a416b317dc68ad725b3892a79e4173f86" title="Returns a deep copy of this object.">var::clone()</a> on all the properties that this object contains. </p>
 
 </div>
 </div>

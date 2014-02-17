@@ -156,6 +156,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8364ba510d676c59677c997a7f89235c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList.html#a8364ba510d676c59677c997a7f89235c">scanAndAddFile</a> (const <a class="el" href="classString.html">String</a> &amp;possiblePluginFileOrIdentifier, bool dontRescanIfAlreadyInList, <a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; <a class="el" href="classPluginDescription.html">PluginDescription</a> &gt; &amp;typesFound, <a class="el" href="classAudioPluginFormat.html">AudioPluginFormat</a> &amp;formatToUse)</td></tr>
 <tr class="memdesc:a8364ba510d676c59677c997a7f89235c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for all types that can be loaded from a given file, and adds them to the list.  <a href="#a8364ba510d676c59677c997a7f89235c"></a><br/></td></tr>
 <tr class="separator:a8364ba510d676c59677c997a7f89235c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac594126087b7b6569d622cf5caef92fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList.html#ac594126087b7b6569d622cf5caef92fb">scanFinished</a> ()</td></tr>
+<tr class="memdesc:ac594126087b7b6569d622cf5caef92fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells a custom scanner that a scan has finished, and it can release any resources.  <a href="#ac594126087b7b6569d622cf5caef92fb"></a><br/></td></tr>
+<tr class="separator:ac594126087b7b6569d622cf5caef92fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa91b773056dbfff532f0e044ab091da8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList.html#aa91b773056dbfff532f0e044ab091da8">isListingUpToDate</a> (const <a class="el" href="classString.html">String</a> &amp;possiblePluginFileOrIdentifier, <a class="el" href="classAudioPluginFormat.html">AudioPluginFormat</a> &amp;formatToUse) const </td></tr>
 <tr class="memdesc:aa91b773056dbfff532f0e044ab091da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the specified file is already known about and if it hasn't been modified since our entry was created.  <a href="#aa91b773056dbfff532f0e044ab091da8"></a><br/></td></tr>
 <tr class="separator:aa91b773056dbfff532f0e044ab091da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,8 +195,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aab81e726db7bc78b8c8515ce225781c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structKnownPluginList_1_1PluginTree.html">PluginTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList.html#aab81e726db7bc78b8c8515ce225781c9">createTree</a> (const <a class="el" href="classKnownPluginList.html#a6beabfccc86796527f663f30f3514098">SortMethod</a> sortMethod) const </td></tr>
 <tr class="memdesc:aab81e726db7bc78b8c8515ce225781c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="structKnownPluginList_1_1PluginTree.html" title="A structure that recursively holds a tree of plugins.">PluginTree</a> object containing all the known plugins.  <a href="#aab81e726db7bc78b8c8515ce225781c9"></a><br/></td></tr>
 <tr class="separator:aab81e726db7bc78b8c8515ce225781c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f21cb20413494f0d9ffb14dc79d0a98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList.html#a9f21cb20413494f0d9ffb14dc79d0a98">setCustomScanner</a> (<a class="el" href="classKnownPluginList_1_1CustomScanner.html">CustomScanner</a> *scanner)</td></tr>
-<tr class="separator:a9f21cb20413494f0d9ffb14dc79d0a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1099d02b42eabe2d99dbce1ab3393026"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList.html#a1099d02b42eabe2d99dbce1ab3393026">setCustomScanner</a> (<a class="el" href="classKnownPluginList_1_1CustomScanner.html">CustomScanner</a> *)</td></tr>
+<tr class="memdesc:a1099d02b42eabe2d99dbce1ab3393026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supplies a custom scanner to be used in future scans.  <a href="#a1099d02b42eabe2d99dbce1ab3393026"></a><br/></td></tr>
+<tr class="separator:a1099d02b42eabe2d99dbce1ab3393026"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classChangeBroadcaster"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classChangeBroadcaster')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classChangeBroadcaster.html">ChangeBroadcaster</a></td></tr>
 <tr class="memitem:a1c8ccfa186a47d58a05e7f1f1576c038 inherit pub_methods_classChangeBroadcaster"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeBroadcaster.html#a1c8ccfa186a47d58a05e7f1f1576c038">ChangeBroadcaster</a> () noexcept</td></tr>
 <tr class="memdesc:a1c8ccfa186a47d58a05e7f1f1576c038 inherit pub_methods_classChangeBroadcaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed.">ChangeBroadcaster</a>.  <a href="#a1c8ccfa186a47d58a05e7f1f1576c038"></a><br/></td></tr>
@@ -526,6 +530,23 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac594126087b7b6569d622cf5caef92fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KnownPluginList::scanFinished </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tells a custom scanner that a scan has finished, and it can release any resources. </p>
+
+</div>
+</div>
 <a class="anchor" id="aa91b773056dbfff532f0e044ab091da8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -790,7 +811,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9f21cb20413494f0d9ffb14dc79d0a98"></a>
+<a class="anchor" id="a1099d02b42eabe2d99dbce1ab3393026"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -798,11 +819,14 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void KnownPluginList::setCustomScanner </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classKnownPluginList_1_1CustomScanner.html">CustomScanner</a> *&#160;</td>
-          <td class="paramname"><em>scanner</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Supplies a custom scanner to be used in future scans. </p>
+<p>The <a class="el" href="classKnownPluginList.html" title="Manages a list of plugin types.">KnownPluginList</a> will take ownership of the object passed in. </p>
 
 </div>
 </div>

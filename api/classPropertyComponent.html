@@ -82,6 +82,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classPropertyComponent-members.html">List of all members</a>  </div>
@@ -102,6 +103,21 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPropertyComponent_1_1LookAndFeelMethods.html">LookAndFeelMethods</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstract base class is implemented by <a class="el" href="classLookAndFeel.html" title="LookAndFeel objects define the appearance of all the JUCE widgets, and subclasses can be used to appl...">LookAndFeel</a> classes.  <a href="structPropertyComponent_1_1LookAndFeelMethods.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ab0dbefdbbbaa3f69df288b6970529c5b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertyComponent.html#ab0dbefdbbbaa3f69df288b6970529c5b">ColourIds</a> { <a class="el" href="classPropertyComponent.html#ab0dbefdbbbaa3f69df288b6970529c5bacc13328b88de6630938e8dd8dc432c2e">backgroundColourId</a> = 0x1008300, 
+<a class="el" href="classPropertyComponent.html#ab0dbefdbbbaa3f69df288b6970529c5ba8c2fb4e7c4bdf509c98bac7ea8a81b5b">labelTextColourId</a> = 0x1008301
+ }</td></tr>
+<tr class="memdesc:ab0dbefdbbbaa3f69df288b6970529c5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">A set of colour IDs to use to change the colour of various aspects of the combo box.  <a href="classPropertyComponent.html#ab0dbefdbbbaa3f69df288b6970529c5b">More...</a><br/></td></tr>
+<tr class="separator:ab0dbefdbbbaa3f69df288b6970529c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classComponent"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classComponent')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classComponent.html">Component</a></td></tr>
+<tr class="memitem:a7fd775ea6b1190d5d694fdffa539dfac inherit pub_types_classComponent"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac">FocusChangeType</a> { <a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfaca350527c976c183a1543958e0698572df">focusChangedByMouseClick</a>, 
+<a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfaca1a14be78d7c4bdf7cdd9a08100bb6a43">focusChangedByTabKey</a>, 
+<a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfacad71927268411a4afe7f75bf6034add04">focusChangedDirectly</a>
+ }</td></tr>
+<tr class="memdesc:a7fd775ea6b1190d5d694fdffa539dfac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration used by the focusChanged() and <a class="el" href="classComponent.html#a36456ea9d5a14172d6e96527ec1f59c8" title="Called to indicate that this component has just lost the keyboard focus.">focusLost()</a> methods.  <a href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac">More...</a><br/></td></tr>
+<tr class="separator:a7fd775ea6b1190d5d694fdffa539dfac inherit pub_types_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -700,13 +716,6 @@ Protected Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_classComponent"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classComponent')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classComponent.html">Component</a></td></tr>
-<tr class="memitem:a7fd775ea6b1190d5d694fdffa539dfac inherit pub_types_classComponent"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac">FocusChangeType</a> { <a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfaca350527c976c183a1543958e0698572df">focusChangedByMouseClick</a>, 
-<a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfaca1a14be78d7c4bdf7cdd9a08100bb6a43">focusChangedByTabKey</a>, 
-<a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfacad71927268411a4afe7f75bf6034add04">focusChangedDirectly</a>
- }</td></tr>
-<tr class="memdesc:a7fd775ea6b1190d5d694fdffa539dfac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration used by the focusChanged() and <a class="el" href="classComponent.html#a36456ea9d5a14172d6e96527ec1f59c8" title="Called to indicate that this component has just lost the keyboard focus.">focusLost()</a> methods.  <a href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac">More...</a><br/></td></tr>
-<tr class="separator:a7fd775ea6b1190d5d694fdffa539dfac inherit pub_types_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classComponent"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classComponent')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classComponent.html">Component</a></td></tr>
 <tr class="memitem:a7030de7a58ec40e43ec902d6bb8aaf7a inherit pub_static_methods_classComponent"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classComponent.html">Component</a> *<a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a7030de7a58ec40e43ec902d6bb8aaf7a">getCurrentlyFocusedComponent</a> () noexcept</td></tr>
 <tr class="memdesc:a7030de7a58ec40e43ec902d6bb8aaf7a inherit pub_static_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the component that currently has the keyboard focus.  <a href="#a7030de7a58ec40e43ec902d6bb8aaf7a"></a><br/></td></tr>
@@ -735,7 +744,35 @@ Additional Inherited Members</h2></td></tr>
 <p>Subclasses of this are used to display a property in various forms, e.g. a <a class="el" href="classChoicePropertyComponent.html" title="A PropertyComponent that shows its value as a combo box.">ChoicePropertyComponent</a> shows its value as a combo box; a <a class="el" href="classSliderPropertyComponent.html" title="A PropertyComponent that shows its value as a slider.">SliderPropertyComponent</a> shows its value as a slider; a <a class="el" href="classTextPropertyComponent.html" title="A PropertyComponent that shows its value as editable text.">TextPropertyComponent</a> as a text box, etc.</p>
 <p>A subclass must implement the <a class="el" href="classPropertyComponent.html#a0ce62ead3836df49c63e253cf33f83c0" title="Updates the property component if the item it refers to has changed.">refresh()</a> method which will be called to tell the component to update itself, and is also responsible for calling this it when the item that it refers to is changed.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPropertyPanel.html" title="A panel that holds a list of PropertyComponent objects.">PropertyPanel</a>, <a class="el" href="classTextPropertyComponent.html" title="A PropertyComponent that shows its value as editable text.">TextPropertyComponent</a>, <a class="el" href="classSliderPropertyComponent.html" title="A PropertyComponent that shows its value as a slider.">SliderPropertyComponent</a>, <a class="el" href="classChoicePropertyComponent.html" title="A PropertyComponent that shows its value as a combo box.">ChoicePropertyComponent</a>, <a class="el" href="classButtonPropertyComponent.html" title="A PropertyComponent that contains a button.">ButtonPropertyComponent</a>, <a class="el" href="classBooleanPropertyComponent.html" title="A PropertyComponent that contains an on/off toggle button.">BooleanPropertyComponent</a> </dd></dl>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="ab0dbefdbbbaa3f69df288b6970529c5b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classPropertyComponent.html#ab0dbefdbbbaa3f69df288b6970529c5b">PropertyComponent::ColourIds</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A set of colour IDs to use to change the colour of various aspects of the combo box. </p>
+<p>These constants can be used either via the <a class="el" href="classComponent.html#a875e6cc05407cea2d6a04dced62e13cd" title="Registers a colour to be used for a particular purpose.">Component::setColour()</a>, or <a class="el" href="classLookAndFeel.html#a167a1e914771f32e433a0d45aaba45e3" title="Registers a colour to be used for a particular purpose.">LookAndFeel::setColour()</a> methods.</p>
+<p>To change the colours of the menu that pops up</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classComponent.html#a875e6cc05407cea2d6a04dced62e13cd" title="Registers a colour to be used for a particular purpose.">Component::setColour</a>, <a class="el" href="classComponent.html#a5e4c30e25faebe1d0854f96623d6d890" title="Looks for a colour that has been registered with the given colour ID number.">Component::findColour</a>, <a class="el" href="classLookAndFeel.html#a167a1e914771f32e433a0d45aaba45e3" title="Registers a colour to be used for a particular purpose.">LookAndFeel::setColour</a>, <a class="el" href="classLookAndFeel.html#aa7f9faa480c9ec9d61b66672425f380b" title="Looks for a colour that has been registered with the given colour ID number.">LookAndFeel::findColour</a> </dd></dl>
+<dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" id="ab0dbefdbbbaa3f69df288b6970529c5bacc13328b88de6630938e8dd8dc432c2e"></a>backgroundColourId</em>&nbsp;</td><td>
+<p>The background colour to fill the component with. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="ab0dbefdbbbaa3f69df288b6970529c5ba8c2fb4e7c4bdf509c98bac7ea8a81b5b"></a>labelTextColourId</em>&nbsp;</td><td>
+<p>The colour for the property's label text. </p>
+</td></tr>
+</table>
+</dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="abcc554f33995e1b424ac1a0858198f21"></a>
 <div class="memitem">
 <div class="memproto">

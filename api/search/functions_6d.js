@@ -50,6 +50,7 @@ var searchData=
   ['midichannelmetaevent',['midiChannelMetaEvent',['../classMidiMessage.html#afd3fc870ce448791ea794d858062435a',1,'MidiMessage']]],
   ['midiclock',['midiClock',['../classMidiMessage.html#ab5cd973a73b82153aea0329933a37306',1,'MidiMessage']]],
   ['midicontinue',['midiContinue',['../classMidiMessage.html#a2596bded93cb7d3d196ece8a7dee2d9b',1,'MidiMessage']]],
+  ['midieventlist',['MidiEventList',['../classMidiEventList.html#a29fc01cfd20d4ba9d397d7302c81f64a',1,'MidiEventList']]],
   ['midifile',['MidiFile',['../classMidiFile.html#a989fec6d479c0ebf68ef72224e58e894',1,'MidiFile']]],
   ['midiinput',['MidiInput',['../classMidiInput.html#a309cf3495398ff178358df1f3a7d552e',1,'MidiInput']]],
   ['midikeyboardcomponent',['MidiKeyboardComponent',['../classMidiKeyboardComponent.html#a8272936e0d5efbd6b756cfb7028597ea',1,'MidiKeyboardComponent']]],

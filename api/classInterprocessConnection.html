@@ -90,17 +90,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>Manages a simple two-way messaging connection to another process, using either a socket or a named pipe as the transport medium.  
  <a href="classInterprocessConnection.html#details">More...</a></p>
-
-<p>Inherits <a class="el" href="classThread.html">Thread</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a31dc05e077ee562d5ca96ecea09c3663"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInterprocessConnection.html#a31dc05e077ee562d5ca96ecea09c3663">InterprocessConnection</a> (bool callbacksOnMessageThread=true, <a class="el" href="juce__MathsFunctions_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> magicMessageHeaderNumber=0xf2b49e2c)</td></tr>
 <tr class="memdesc:a31dc05e077ee562d5ca96ecea09c3663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a connection.  <a href="#a31dc05e077ee562d5ca96ecea09c3663"></a><br/></td></tr>
 <tr class="separator:a31dc05e077ee562d5ca96ecea09c3663"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4e4b9a6f85226f1015c6620009456c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInterprocessConnection.html#ad4e4b9a6f85226f1015c6620009456c7">~InterprocessConnection</a> ()</td></tr>
-<tr class="memdesc:ad4e4b9a6f85226f1015c6620009456c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ad4e4b9a6f85226f1015c6620009456c7"></a><br/></td></tr>
-<tr class="separator:ad4e4b9a6f85226f1015c6620009456c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04a6ad194ee3b4a4aaac4fcd531f2a6d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInterprocessConnection.html#a04a6ad194ee3b4a4aaac4fcd531f2a6d">~InterprocessConnection</a> ()</td></tr>
+<tr class="memdesc:a04a6ad194ee3b4a4aaac4fcd531f2a6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a04a6ad194ee3b4a4aaac4fcd531f2a6d"></a><br/></td></tr>
+<tr class="separator:a04a6ad194ee3b4a4aaac4fcd531f2a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a007450a6ca6dc60bb48d384479d9a49d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInterprocessConnection.html#a007450a6ca6dc60bb48d384479d9a49d">connectToSocket</a> (const <a class="el" href="classString.html">String</a> &amp;hostName, int portNumber, int timeOutMillisecs)</td></tr>
 <tr class="memdesc:a007450a6ca6dc60bb48d384479d9a49d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to connect this object to a socket.  <a href="#a007450a6ca6dc60bb48d384479d9a49d"></a><br/></td></tr>
 <tr class="separator:a007450a6ca6dc60bb48d384479d9a49d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,80 +135,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a69549dd1bda0584d212940d3faf7457a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInterprocessConnection.html#a69549dd1bda0584d212940d3faf7457a">messageReceived</a> (const <a class="el" href="classMemoryBlock.html">MemoryBlock</a> &amp;message)=0</td></tr>
 <tr class="memdesc:a69549dd1bda0584d212940d3faf7457a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a message arrives.  <a href="#a69549dd1bda0584d212940d3faf7457a"></a><br/></td></tr>
 <tr class="separator:a69549dd1bda0584d212940d3faf7457a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_classThread"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classThread')"><img src="closed.png" alt="-"/>&#160;Private Types inherited from <a class="el" href="classThread.html">Thread</a></td></tr>
-<tr class="memitem:a077e20855a3c974c2fc6f9e7caa8412c inherit pub_types_classThread"><td class="memItemLeft" align="right" valign="top">typedef void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a077e20855a3c974c2fc6f9e7caa8412c">ThreadID</a></td></tr>
-<tr class="memdesc:a077e20855a3c974c2fc6f9e7caa8412c inherit pub_types_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">A value type used for thread IDs.  <a href="#a077e20855a3c974c2fc6f9e7caa8412c"></a><br/></td></tr>
-<tr class="separator:a077e20855a3c974c2fc6f9e7caa8412c inherit pub_types_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classThread"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classThread')"><img src="closed.png" alt="-"/>&#160;Private Member Functions inherited from <a class="el" href="classThread.html">Thread</a></td></tr>
-<tr class="memitem:ae696c3b7ca36394cd214288cee31eaba inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#ae696c3b7ca36394cd214288cee31eaba">Thread</a> (const <a class="el" href="classString.html">String</a> &amp;threadName)</td></tr>
-<tr class="memdesc:ae696c3b7ca36394cd214288cee31eaba inherit pub_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a thread.  <a href="#ae696c3b7ca36394cd214288cee31eaba"></a><br/></td></tr>
-<tr class="separator:ae696c3b7ca36394cd214288cee31eaba inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a026b23628e1727050e864e00489c0baf inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a026b23628e1727050e864e00489c0baf">~Thread</a> ()</td></tr>
-<tr class="memdesc:a026b23628e1727050e864e00489c0baf inherit pub_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a026b23628e1727050e864e00489c0baf"></a><br/></td></tr>
-<tr class="separator:a026b23628e1727050e864e00489c0baf inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5502205d727c00752f95af27a063d983 inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a5502205d727c00752f95af27a063d983">startThread</a> ()</td></tr>
-<tr class="memdesc:a5502205d727c00752f95af27a063d983 inherit pub_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the thread running.  <a href="#a5502205d727c00752f95af27a063d983"></a><br/></td></tr>
-<tr class="separator:a5502205d727c00752f95af27a063d983 inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc4aff2ceb97b0f16a0a08132315a900 inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#acc4aff2ceb97b0f16a0a08132315a900">startThread</a> (int priority)</td></tr>
-<tr class="memdesc:acc4aff2ceb97b0f16a0a08132315a900 inherit pub_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the thread with a given priority.  <a href="#acc4aff2ceb97b0f16a0a08132315a900"></a><br/></td></tr>
-<tr class="separator:acc4aff2ceb97b0f16a0a08132315a900 inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18583d51411d6a34c59b63f0adff4697 inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a18583d51411d6a34c59b63f0adff4697">stopThread</a> (int timeOutMilliseconds)</td></tr>
-<tr class="memdesc:a18583d51411d6a34c59b63f0adff4697 inherit pub_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to stop the thread running.  <a href="#a18583d51411d6a34c59b63f0adff4697"></a><br/></td></tr>
-<tr class="separator:a18583d51411d6a34c59b63f0adff4697 inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab02ad2d11a2dacfea4a78b06224a3e87 inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#ab02ad2d11a2dacfea4a78b06224a3e87">isThreadRunning</a> () const </td></tr>
-<tr class="memdesc:ab02ad2d11a2dacfea4a78b06224a3e87 inherit pub_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the thread is currently active.  <a href="#ab02ad2d11a2dacfea4a78b06224a3e87"></a><br/></td></tr>
-<tr class="separator:ab02ad2d11a2dacfea4a78b06224a3e87 inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affe168e27c6ee50b0d10522810772268 inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#affe168e27c6ee50b0d10522810772268">signalThreadShouldExit</a> ()</td></tr>
-<tr class="memdesc:affe168e27c6ee50b0d10522810772268 inherit pub_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a flag to tell the thread it should stop.  <a href="#affe168e27c6ee50b0d10522810772268"></a><br/></td></tr>
-<tr class="separator:affe168e27c6ee50b0d10522810772268 inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a8fdce313d3c0db6c5adbb78c4352b4 inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a0a8fdce313d3c0db6c5adbb78c4352b4">threadShouldExit</a> () const </td></tr>
-<tr class="memdesc:a0a8fdce313d3c0db6c5adbb78c4352b4 inherit pub_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether the thread has been told to stop running.  <a href="#a0a8fdce313d3c0db6c5adbb78c4352b4"></a><br/></td></tr>
-<tr class="separator:a0a8fdce313d3c0db6c5adbb78c4352b4 inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a277e5e91d52626bbdac85b44972dd46a inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a277e5e91d52626bbdac85b44972dd46a">waitForThreadToExit</a> (int timeOutMilliseconds) const </td></tr>
-<tr class="memdesc:a277e5e91d52626bbdac85b44972dd46a inherit pub_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits for the thread to stop.  <a href="#a277e5e91d52626bbdac85b44972dd46a"></a><br/></td></tr>
-<tr class="separator:a277e5e91d52626bbdac85b44972dd46a inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0975d9ee9f403f5f82287fcce4a7168f inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a0975d9ee9f403f5f82287fcce4a7168f">setPriority</a> (int priority)</td></tr>
-<tr class="memdesc:a0975d9ee9f403f5f82287fcce4a7168f inherit pub_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the thread's priority.  <a href="#a0975d9ee9f403f5f82287fcce4a7168f"></a><br/></td></tr>
-<tr class="separator:a0975d9ee9f403f5f82287fcce4a7168f inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a614605563fceeac6f03d507bc35bdce4 inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a614605563fceeac6f03d507bc35bdce4">setAffinityMask</a> (<a class="el" href="juce__MathsFunctions_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> affinityMask)</td></tr>
-<tr class="memdesc:a614605563fceeac6f03d507bc35bdce4 inherit pub_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the affinity mask for the thread.  <a href="#a614605563fceeac6f03d507bc35bdce4"></a><br/></td></tr>
-<tr class="separator:a614605563fceeac6f03d507bc35bdce4 inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17aca9c9609310f830298d6a0206d18d inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a17aca9c9609310f830298d6a0206d18d">wait</a> (int timeOutMilliseconds) const </td></tr>
-<tr class="memdesc:a17aca9c9609310f830298d6a0206d18d inherit pub_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes the thread wait for a notification.  <a href="#a17aca9c9609310f830298d6a0206d18d"></a><br/></td></tr>
-<tr class="separator:a17aca9c9609310f830298d6a0206d18d inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0e6408f187557bb06c8fff07c4100b7 inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#ae0e6408f187557bb06c8fff07c4100b7">notify</a> () const </td></tr>
-<tr class="memdesc:ae0e6408f187557bb06c8fff07c4100b7 inherit pub_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wakes up the thread.  <a href="#ae0e6408f187557bb06c8fff07c4100b7"></a><br/></td></tr>
-<tr class="separator:ae0e6408f187557bb06c8fff07c4100b7 inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39ca822734b9b20ab32eeba774c9a803 inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classThread.html#a077e20855a3c974c2fc6f9e7caa8412c">ThreadID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a39ca822734b9b20ab32eeba774c9a803">getThreadId</a> () const noexcept</td></tr>
-<tr class="memdesc:a39ca822734b9b20ab32eeba774c9a803 inherit pub_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the ID of this thread.  <a href="#a39ca822734b9b20ab32eeba774c9a803"></a><br/></td></tr>
-<tr class="separator:a39ca822734b9b20ab32eeba774c9a803 inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88d88d5b8246418b568a1e6d50dddeb2 inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a88d88d5b8246418b568a1e6d50dddeb2">getThreadName</a> () const </td></tr>
-<tr class="memdesc:a88d88d5b8246418b568a1e6d50dddeb2 inherit pub_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of the thread.  <a href="#a88d88d5b8246418b568a1e6d50dddeb2"></a><br/></td></tr>
-<tr class="separator:a88d88d5b8246418b568a1e6d50dddeb2 inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_static_methods_classThread"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classThread')"><img src="closed.png" alt="-"/>&#160;Static Private Member Functions inherited from <a class="el" href="classThread.html">Thread</a></td></tr>
-<tr class="memitem:a9a777202bb5aa9ce7f57605674b100f4 inherit pub_static_methods_classThread"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a9a777202bb5aa9ce7f57605674b100f4">setCurrentThreadPriority</a> (int priority)</td></tr>
-<tr class="memdesc:a9a777202bb5aa9ce7f57605674b100f4 inherit pub_static_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the priority of the caller thread.  <a href="#a9a777202bb5aa9ce7f57605674b100f4"></a><br/></td></tr>
-<tr class="separator:a9a777202bb5aa9ce7f57605674b100f4 inherit pub_static_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac21eb5ae8c32bc2ecacba904f3411802 inherit pub_static_methods_classThread"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#ac21eb5ae8c32bc2ecacba904f3411802">setCurrentThreadAffinityMask</a> (<a class="el" href="juce__MathsFunctions_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> affinityMask)</td></tr>
-<tr class="memdesc:ac21eb5ae8c32bc2ecacba904f3411802 inherit pub_static_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the affinity mask for the caller thread.  <a href="#ac21eb5ae8c32bc2ecacba904f3411802"></a><br/></td></tr>
-<tr class="separator:ac21eb5ae8c32bc2ecacba904f3411802 inherit pub_static_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ee1ddee32aa82ac90bc567cb7427926 inherit pub_static_methods_classThread"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a4ee1ddee32aa82ac90bc567cb7427926">sleep</a> (int milliseconds)</td></tr>
-<tr class="separator:a4ee1ddee32aa82ac90bc567cb7427926 inherit pub_static_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf47a344b3b715e49ffcbc6119c72cdc inherit pub_static_methods_classThread"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#aaf47a344b3b715e49ffcbc6119c72cdc">yield</a> ()</td></tr>
-<tr class="memdesc:aaf47a344b3b715e49ffcbc6119c72cdc inherit pub_static_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Yields the calling thread's current time-slot.  <a href="#aaf47a344b3b715e49ffcbc6119c72cdc"></a><br/></td></tr>
-<tr class="separator:aaf47a344b3b715e49ffcbc6119c72cdc inherit pub_static_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd4762b20144186ffc28280cedd224e9 inherit pub_static_methods_classThread"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classThread.html#a077e20855a3c974c2fc6f9e7caa8412c">ThreadID</a> <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#abd4762b20144186ffc28280cedd224e9">getCurrentThreadId</a> ()</td></tr>
-<tr class="memdesc:abd4762b20144186ffc28280cedd224e9 inherit pub_static_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an id that identifies the caller thread.  <a href="#abd4762b20144186ffc28280cedd224e9"></a><br/></td></tr>
-<tr class="separator:abd4762b20144186ffc28280cedd224e9 inherit pub_static_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40a9f45ea3ff9a7d39a50f78059640cd inherit pub_static_methods_classThread"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classThread.html">Thread</a> *<a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a40a9f45ea3ff9a7d39a50f78059640cd">getCurrentThread</a> ()</td></tr>
-<tr class="memdesc:a40a9f45ea3ff9a7d39a50f78059640cd inherit pub_static_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the thread object that is currently running.  <a href="#a40a9f45ea3ff9a7d39a50f78059640cd"></a><br/></td></tr>
-<tr class="separator:a40a9f45ea3ff9a7d39a50f78059640cd inherit pub_static_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ba2a683ea8111c08db83092360b7226 inherit pub_static_methods_classThread"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a8ba2a683ea8111c08db83092360b7226">setCurrentThreadName</a> (const <a class="el" href="classString.html">String</a> &amp;newThreadName)</td></tr>
-<tr class="memdesc:a8ba2a683ea8111c08db83092360b7226 inherit pub_static_methods_classThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the name of the caller thread.  <a href="#a8ba2a683ea8111c08db83092360b7226"></a><br/></td></tr>
-<tr class="separator:a8ba2a683ea8111c08db83092360b7226 inherit pub_static_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages a simple two-way messaging connection to another process, using either a socket or a named pipe as the transport medium. </p>
@@ -255,17 +179,25 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad4e4b9a6f85226f1015c6620009456c7"></a>
+<a class="anchor" id="a04a6ad194ee3b4a4aaac4fcd531f2a6d"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">InterprocessConnection::~InterprocessConnection </td>
+          <td class="memname">virtual InterprocessConnection::~InterprocessConnection </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Destructor. </p>

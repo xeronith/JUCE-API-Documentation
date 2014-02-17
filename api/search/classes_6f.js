@@ -19,8 +19,8 @@ var searchData=
   ['optionalscopedpointer_3c_20inputstream_20_3e',['OptionalScopedPointer&lt; InputStream &gt;',['../classOptionalScopedPointer.html',1,'']]],
   ['optionalscopedpointer_3c_20outputstream_20_3e',['OptionalScopedPointer&lt; OutputStream &gt;',['../classOptionalScopedPointer.html',1,'']]],
   ['optionalscopedpointer_3c_20positionableaudiosource_20_3e',['OptionalScopedPointer&lt; PositionableAudioSource &gt;',['../classOptionalScopedPointer.html',1,'']]],
-  ['options',['Options',['../structPropertiesFile_1_1Options.html',1,'PropertiesFile']]],
   ['options',['Options',['../classPopupMenu_1_1Options.html',1,'PopupMenu']]],
+  ['options',['Options',['../structPropertiesFile_1_1Options.html',1,'PropertiesFile']]],
   ['outputstream',['OutputStream',['../classOutputStream.html',1,'']]],
   ['ownedarray',['OwnedArray',['../classOwnedArray.html',1,'']]],
   ['ownedarray_3c_20actionset_20_3e',['OwnedArray&lt; ActionSet &gt;',['../classOwnedArray.html',1,'']]],
@@ -75,5 +75,6 @@ var searchData=
   ['ownedarray_3c_20toolbaritemcomponent_20_3e',['OwnedArray&lt; ToolbarItemComponent &gt;',['../classOwnedArray.html',1,'']]],
   ['ownedarray_3c_20treeviewitem_20_3e',['OwnedArray&lt; TreeViewItem &gt;',['../classOwnedArray.html',1,'']]],
   ['ownedarray_3c_20typehandler_20_3e',['OwnedArray&lt; TypeHandler &gt;',['../classOwnedArray.html',1,'']]],
+  ['ownedarray_3c_20uniformtextsection_20_3e',['OwnedArray&lt; UniformTextSection &gt;',['../classOwnedArray.html',1,'']]],
   ['ownedarray_3c_20zipentryholder_20_3e',['OwnedArray&lt; ZipEntryHolder &gt;',['../classOwnedArray.html',1,'']]]
 ];

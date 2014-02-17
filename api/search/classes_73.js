@@ -36,6 +36,8 @@ var searchData=
   ['scopedpointer_3c_20colourspaceview_20_3e',['ScopedPointer&lt; ColourSpaceView &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20combobox_20_3e',['ScopedPointer&lt; ComboBox &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20component_20_3e',['ScopedPointer&lt; Component &gt;',['../classScopedPointer.html',1,'']]],
+  ['scopedpointer_3c_20connection_20_3e',['ScopedPointer&lt; Connection &gt;',['../classScopedPointer.html',1,'']]],
+  ['scopedpointer_3c_20connectionthread_20_3e',['ScopedPointer&lt; ConnectionThread &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20customscanner_20_3e',['ScopedPointer&lt; CustomScanner &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20directorycontentsdisplaycomponent_20_3e',['ScopedPointer&lt; DirectoryContentsDisplayComponent &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20directorycontentslist_20_3e',['ScopedPointer&lt; DirectoryContentsList &gt;',['../classScopedPointer.html',1,'']]],

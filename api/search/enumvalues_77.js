@@ -38,6 +38,7 @@ var searchData=
   ['wrappertype_5fstandalone',['wrapperType_Standalone',['../classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfaad6832e63028f039a818f3eed72cf06f',1,'AudioProcessor']]],
   ['wrappertype_5fundefined',['wrapperType_Undefined',['../classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfaeb155b5982c79f733c4bee215678fc97',1,'AudioProcessor']]],
   ['wrappertype_5fvst',['wrapperType_VST',['../classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa5313891416ab9b1b2ae5db6b673e4061',1,'AudioProcessor']]],
+  ['wrappertype_5fvst3',['wrapperType_VST3',['../classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfac12c7f266e9f234367307597b332fa10',1,'AudioProcessor']]],
   ['writablediskpresent',['writableDiskPresent',['../classAudioCDBurner.html#a75c01de0b51d56d6f78a1b56ff4da846ab2074d30eb1882e6cfc92b6f4ff24c31',1,'AudioCDBurner']]],
   ['writeonly',['writeOnly',['../classImage_1_1BitmapData.html#aef68f9fb2440dd6a56a3c0b8c8b6fc13a5cf46bf61ad8fd0449364d4e0a0eeac7',1,'Image::BitmapData']]]
 ];

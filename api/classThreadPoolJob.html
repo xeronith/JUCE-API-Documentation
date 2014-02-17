@@ -83,6 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classThreadPoolJob-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ThreadPoolJob Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -126,6 +127,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acf58a7de172ae74d6ebb4a9fb59ed4d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPoolJob.html#acf58a7de172ae74d6ebb4a9fb59ed4d3">signalJobShouldExit</a> ()</td></tr>
 <tr class="memdesc:acf58a7de172ae74d6ebb4a9fb59ed4d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calling this will cause the <a class="el" href="classThreadPoolJob.html#a441a94cba7ec96242fd7268371d9c5ea" title="Returns true if something is trying to interrupt this job and make it stop.">shouldExit()</a> method to return true, and the job should (if it's been implemented correctly) stop as soon as possible.  <a href="#acf58a7de172ae74d6ebb4a9fb59ed4d3"></a><br/></td></tr>
 <tr class="separator:acf58a7de172ae74d6ebb4a9fb59ed4d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ac9524c73da9de5444dd13d5936e238ee"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classThreadPoolJob.html">ThreadPoolJob</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPoolJob.html#ac9524c73da9de5444dd13d5936e238ee">getCurrentThreadPoolJob</a> ()</td></tr>
+<tr class="memdesc:ac9524c73da9de5444dd13d5936e238ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the calling thread is being invoked inside a <a class="el" href="classThreadPoolJob.html#aec49c01680e563257c79088dc87bc0d9" title="Peforms the actual work that this job needs to do.">runJob()</a> method, this will return the <a class="el" href="classThreadPoolJob.html" title="A task that is executed by a ThreadPool object.">ThreadPoolJob</a> that it belongs to.  <a href="#ac9524c73da9de5444dd13d5936e238ee"></a><br/></td></tr>
+<tr class="separator:ac9524c73da9de5444dd13d5936e238ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A task that is executed by a <a class="el" href="classThreadPool.html" title="A set of threads that will run a list of jobs.">ThreadPool</a> object. </p>
@@ -344,6 +351,31 @@ Public Member Functions</h2></td></tr>
 
 <p>Calling this will cause the <a class="el" href="classThreadPoolJob.html#a441a94cba7ec96242fd7268371d9c5ea" title="Returns true if something is trying to interrupt this job and make it stop.">shouldExit()</a> method to return true, and the job should (if it's been implemented correctly) stop as soon as possible. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThreadPoolJob.html#a441a94cba7ec96242fd7268371d9c5ea" title="Returns true if something is trying to interrupt this job and make it stop.">shouldExit()</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac9524c73da9de5444dd13d5936e238ee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classThreadPoolJob.html">ThreadPoolJob</a>* ThreadPoolJob::getCurrentThreadPoolJob </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If the calling thread is being invoked inside a <a class="el" href="classThreadPoolJob.html#aec49c01680e563257c79088dc87bc0d9" title="Peforms the actual work that this job needs to do.">runJob()</a> method, this will return the <a class="el" href="classThreadPoolJob.html" title="A task that is executed by a ThreadPool object.">ThreadPoolJob</a> that it belongs to. </p>
 
 </div>
 </div>

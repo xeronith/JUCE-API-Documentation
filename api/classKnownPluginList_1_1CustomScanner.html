@@ -101,6 +101,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3af43036c1db3c52075e5cb268f34631"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList_1_1CustomScanner.html#a3af43036c1db3c52075e5cb268f34631">findPluginTypesFor</a> (<a class="el" href="classAudioPluginFormat.html">AudioPluginFormat</a> &amp;format, <a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; <a class="el" href="classPluginDescription.html">PluginDescription</a> &gt; &amp;result, const <a class="el" href="classString.html">String</a> &amp;fileOrIdentifier)=0</td></tr>
 <tr class="memdesc:a3af43036c1db3c52075e5cb268f34631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to load the given file and find a list of plugins in it.  <a href="#a3af43036c1db3c52075e5cb268f34631"></a><br/></td></tr>
 <tr class="separator:a3af43036c1db3c52075e5cb268f34631"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cd070fa9301148afe02672e67d075a6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList_1_1CustomScanner.html#a0cd070fa9301148afe02672e67d075a6">scanFinished</a> ()</td></tr>
+<tr class="memdesc:a0cd070fa9301148afe02672e67d075a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a scan has finished, to allow clean-up of resources.  <a href="#a0cd070fa9301148afe02672e67d075a6"></a><br/></td></tr>
+<tr class="separator:a0cd070fa9301148afe02672e67d075a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae540e81f211be934d0a628e25f80bf96"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKnownPluginList_1_1CustomScanner.html#ae540e81f211be934d0a628e25f80bf96">shouldExit</a> () const noexcept</td></tr>
+<tr class="memdesc:ae540e81f211be934d0a628e25f80bf96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the current scan should be abandoned.  <a href="#ae540e81f211be934d0a628e25f80bf96"></a><br/></td></tr>
+<tr class="separator:ae540e81f211be934d0a628e25f80bf96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a8c25f60710b16529a0f27371c6a93d72"></a>
@@ -182,6 +188,57 @@ Public Member Functions</h2></td></tr>
 
 <p>Attempts to load the given file and find a list of plugins in it. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if the plugin loaded, false if it crashed </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0cd070fa9301148afe02672e67d075a6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void KnownPluginList::CustomScanner::scanFinished </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when a scan has finished, to allow clean-up of resources. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae540e81f211be934d0a628e25f80bf96"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KnownPluginList::CustomScanner::shouldExit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the current scan should be abandoned. </p>
+<p>Any blocking methods should check this value repeatedly and return if if becomes true. </p>
 
 </div>
 </div>

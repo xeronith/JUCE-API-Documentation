@@ -160,8 +160,8 @@ class HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToU
 <p>The types of the key and value objects are set as template parameters. You can also specify a class to supply a hash function that converts a key value into an hashed integer. This class must have the form:</p>
 <div class="fragment"><div class="line"><span class="keyword">struct </span>MyHashGenerator</div>
 <div class="line">{</div>
-<div class="line">    <span class="keywordtype">int</span> generateHash (MyKeyType key, <span class="keywordtype">int</span> upperLimit)</div>
-<div class="line">    {</div>
+<div class="line">    <span class="keywordtype">int</span> generateHash (MyKeyType key, <span class="keywordtype">int</span> upperLimit)<span class="keyword"> const</span></div>
+<div class="line"><span class="keyword">    </span>{</div>
 <div class="line">        <span class="comment">// The function must return a value 0 &lt;= x &lt; upperLimit</span></div>
 <div class="line">        <span class="keywordflow">return</span> someFunctionOfMyKeyType (key) % upperLimit;</div>
 <div class="line">    }</div>

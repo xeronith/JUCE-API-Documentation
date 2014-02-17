@@ -152,6 +152,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a303a37db4dba801f04374f1b4c2f76d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#a303a37db4dba801f04374f1b4c2f76d0">drawText</a> (const <a class="el" href="classString.html">String</a> &amp;text, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;area, <a class="el" href="classJustification.html">Justification</a> justificationType, bool useEllipsesIfTooBig) const </td></tr>
 <tr class="memdesc:a303a37db4dba801f04374f1b4c2f76d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a line of text within a specified rectangle.  <a href="#a303a37db4dba801f04374f1b4c2f76d0"></a><br/></td></tr>
 <tr class="separator:a303a37db4dba801f04374f1b4c2f76d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad53860b39d452d930c43fa1a8065fcc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#ad53860b39d452d930c43fa1a8065fcc0">drawText</a> (const <a class="el" href="classString.html">String</a> &amp;text, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;area, <a class="el" href="classJustification.html">Justification</a> justificationType, bool useEllipsesIfTooBig) const </td></tr>
+<tr class="memdesc:ad53860b39d452d930c43fa1a8065fcc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a line of text within a specified rectangle.  <a href="#ad53860b39d452d930c43fa1a8065fcc0"></a><br/></td></tr>
+<tr class="separator:ad53860b39d452d930c43fa1a8065fcc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe090a548fd6156246446102f4f4a960"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGraphics.html#afe090a548fd6156246446102f4f4a960">drawFittedText</a> (const <a class="el" href="classString.html">String</a> &amp;text, int x, int y, int width, int height, <a class="el" href="classJustification.html">Justification</a> justificationFlags, int maximumNumberOfLines, float minimumHorizontalScale=0.7f) const </td></tr>
 <tr class="memdesc:afe090a548fd6156246446102f4f4a960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to draw a text string inside a given space.  <a href="#afe090a548fd6156246446102f4f4a960"></a><br/></td></tr>
 <tr class="separator:afe090a548fd6156246446102f4f4a960"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -781,6 +784,48 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>area</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classJustification.html">Justification</a>&#160;</td>
+          <td class="paramname"><em>justificationType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>useEllipsesIfTooBig</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draws a line of text within a specified rectangle. </p>
+<p>The text will be positioned within the rectangle based on the justification flags passed-in. If the string is too long to fit inside the rectangle, it will either be truncated or will have ellipsis added to its end (if the useEllipsesIfTooBig flag is true).</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classGraphics.html#a26aeb5bf3f4b96e2734e89f0833dd074" title="Draws a one-line text string.">drawSingleLineText</a>, <a class="el" href="classGraphics.html#afe090a548fd6156246446102f4f4a960" title="Tries to draw a text string inside a given space.">drawFittedText</a>, <a class="el" href="classGraphics.html#a37c017a9d2f32bcd677f61f5de97ab9a" title="Draws text across multiple lines.">drawMultiLineText</a>, <a class="el" href="classGlyphArrangement.html#ada407e56eab976b046f880729411771f" title="Adds some multi-line text, breaking lines at word-boundaries if they are too wide.">GlyphArrangement::addJustifiedText</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad53860b39d452d930c43fa1a8065fcc0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::drawText </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; &amp;&#160;</td>
           <td class="paramname"><em>area</em>, </td>
         </tr>
         <tr>

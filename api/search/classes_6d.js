@@ -21,6 +21,7 @@ var searchData=
   ['messagemanagerlock',['MessageManagerLock',['../classMessageManagerLock.html',1,'']]],
   ['midibuffer',['MidiBuffer',['../classMidiBuffer.html',1,'']]],
   ['midieventholder',['MidiEventHolder',['../classMidiMessageSequence_1_1MidiEventHolder.html',1,'MidiMessageSequence']]],
+  ['midieventlist',['MidiEventList',['../classMidiEventList.html',1,'']]],
   ['midifile',['MidiFile',['../classMidiFile.html',1,'']]],
   ['midiinput',['MidiInput',['../classMidiInput.html',1,'']]],
   ['midiinputcallback',['MidiInputCallback',['../classMidiInputCallback.html',1,'']]],

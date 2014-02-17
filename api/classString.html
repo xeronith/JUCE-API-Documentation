@@ -658,7 +658,7 @@ Static Public Attributes</h2></td></tr>
 <p>Creates a string from a string of 8-bit ascii characters. </p>
 <p>The string passed-in must not contain any characters with a value above 127, because these can't be converted to unicode without knowing the original encoding that was used to create the string. If you attempt to pass-in values above 127, you'll get an assertion.</p>
 <p>To create strings with extended characters from UTF-8, you should explicitly call <a class="el" href="classString.html" title="The JUCE String class!">String</a> (<a class="el" href="classCharPointer__UTF8.html" title="Wraps a pointer to a null-terminated UTF-8 character string, and provides various methods to operate ...">CharPointer_UTF8</a> ("my utf8 string..")). It's *highly* recommended that you use UTF-8 with escape characters in your source code to represent extended characters, because there's no other way to represent unicode strings in a way that isn't dependent on the compiler, source code editor and platform.</p>
-<p>This will use up the the first maxChars characters of the string (or less if the string is actually shorter). </p>
+<p>This will use up to the first maxChars characters of the string (or less if the string is actually shorter). </p>
 
 </div>
 </div>
