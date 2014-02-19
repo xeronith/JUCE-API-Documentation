@@ -251,13 +251,12 @@ var searchData=
   ['roundtoint',['roundToInt',['../juce__MathsFunctions_8h.html#afe8eb86381d389f4ba9f9931a38e1a44',1,'juce_MathsFunctions.h']]],
   ['roundtointaccurate',['roundToIntAccurate',['../juce__MathsFunctions_8h.html#a7d50b878ef3d055bfbd7acdeefd14b4f',1,'juce_MathsFunctions.h']]],
   ['rsakey',['RSAKey',['../classRSAKey.html#a2a1894882100da6c8c70f8911089ef4d',1,'RSAKey::RSAKey()'],['../classRSAKey.html#a8658a7cfe77c3565033efbd6706ee6ae',1,'RSAKey::RSAKey(const String &amp;stringRepresentation)']]],
-  ['run',['run',['../classMidiOutput.html#a2bf9b6ec2474fd3192f92b14806f05bf',1,'MidiOutput::run()'],['../classThread.html#aae90dfabab3e1776cf01a26e7ee3a620',1,'Thread::run()'],['../classTextLayout_1_1Run.html#a80912a38013f0ba4b116a8b8be55455c',1,'TextLayout::Run::Run() noexcept'],['../classTextLayout_1_1Run.html#a3c228b9d44e780b3ada848d4e8b8ab0f',1,'TextLayout::Run::Run(const Run &amp;)'],['../classTextLayout_1_1Run.html#ab53068ea8b382a413c65c3bcc8be6f2c',1,'TextLayout::Run::Run(Range&lt; int &gt; stringRange, int numGlyphsToPreallocate)']]],
+  ['run',['Run',['../classTextLayout_1_1Run.html#a80912a38013f0ba4b116a8b8be55455c',1,'TextLayout::Run::Run() noexcept'],['../classTextLayout_1_1Run.html#a3c228b9d44e780b3ada848d4e8b8ab0f',1,'TextLayout::Run::Run(const Run &amp;)'],['../classTextLayout_1_1Run.html#ab53068ea8b382a413c65c3bcc8be6f2c',1,'TextLayout::Run::Run(Range&lt; int &gt; stringRange, int numGlyphsToPreallocate)'],['../classMidiOutput.html#a2bf9b6ec2474fd3192f92b14806f05bf',1,'MidiOutput::run()'],['../classThread.html#aae90dfabab3e1776cf01a26e7ee3a620',1,'Thread::run()']]],
   ['runalltests',['runAllTests',['../classUnitTestRunner.html#a1ba728a212df4926b0784fb1dda6659e',1,'UnitTestRunner']]],
   ['rundispatchloop',['runDispatchLoop',['../classMessageManager.html#a3084a3a75717db0f7f05604f2956ff65',1,'MessageManager']]],
   ['rundispatchloopuntil',['runDispatchLoopUntil',['../classMessageManager.html#a0ddde5289b71c37a3a4a4bb9d673a0de',1,'MessageManager']]],
   ['runjob',['runJob',['../classThreadPoolJob.html#aec49c01680e563257c79088dc87bc0d9',1,'ThreadPoolJob']]],
   ['runmodal',['runModal',['../structDialogWindow_1_1LaunchOptions.html#a22a6deb2f2f4b87a0190fdc4a0025d82',1,'DialogWindow::LaunchOptions']]],
   ['runtest',['runTest',['../classUnitTest.html#a1a95d7f09eb80442a8099663dfb92628',1,'UnitTest']]],
-  ['runtests',['runTests',['../classUnitTestRunner.html#a0b06260a25f58c1e965dfc1db921f033',1,'UnitTestRunner']]],
-  ['runthread',['runThread',['../classThreadWithProgressWindow.html#a5337ebd946038ac2a2dc36b7939db9cd',1,'ThreadWithProgressWindow']]]
+  ['runtests',['runTests',['../classUnitTestRunner.html#a0b06260a25f58c1e965dfc1db921f033',1,'UnitTestRunner']]]
 ];
