@@ -410,6 +410,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae6e0123d262c36aad45471dd85ed47d6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiMessage.html">MidiMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#ae6e0123d262c36aad45471dd85ed47d6">endOfTrack</a> () noexcept</td></tr>
 <tr class="memdesc:ae6e0123d262c36aad45471dd85ed47d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an end-of-track meta-event.  <a href="#ae6e0123d262c36aad45471dd85ed47d6"></a><br/></td></tr>
 <tr class="separator:ae6e0123d262c36aad45471dd85ed47d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a428ecbd96b14b60326c6c8b8863e0fd4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiMessage.html">MidiMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#a428ecbd96b14b60326c6c8b8863e0fd4">textMetaEvent</a> (int type, <a class="el" href="classStringRef.html">StringRef</a> text)</td></tr>
+<tr class="memdesc:a428ecbd96b14b60326c6c8b8863e0fd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a text meta-event.  <a href="#a428ecbd96b14b60326c6c8b8863e0fd4"></a><br/></td></tr>
+<tr class="separator:a428ecbd96b14b60326c6c8b8863e0fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9166392943b1905b39dc816aca1aa99"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiMessage.html">MidiMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#af9166392943b1905b39dc816aca1aa99">tempoMetaEvent</a> (int microsecondsPerQuarterNote) noexcept</td></tr>
 <tr class="memdesc:af9166392943b1905b39dc816aca1aa99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a tempo meta-event.  <a href="#af9166392943b1905b39dc816aca1aa99"></a><br/></td></tr>
 <tr class="separator:af9166392943b1905b39dc816aca1aa99"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1121,7 +1124,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Changes the message's midi channel. </p>
-<p>This won't do anything for non-channel messages like sysexes.</p>
+<p>This won't do anything for non-channel messages like sysexes. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">newChannelNumber</td><td>the channel number to change it to, in the range 1 to 16 </td></tr>
@@ -1180,7 +1183,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a pointer to the sysex data inside the message. </p>
-<p>If this event isn't a sysex event, it'll return 0.</p>
+<p>If this event isn't a sysex event, it'll return 0. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#afb6ff5014531a80589756228fe637aaa" title="Returns the size of the sysex data.">getSysExDataSize</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classMidiEventList.html#a9108b044536cf05b165390116718d398">MidiEventList::toEventList()</a>.</p>
@@ -1209,7 +1212,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the size of the sysex data. </p>
-<p>This value excludes the 0xf0 header byte and the 0xf7 at the end.</p>
+<p>This value excludes the 0xf0 header byte and the 0xf7 at the end. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a473aec9f7d86b602e407e6d488122fd7" title="Returns a pointer to the sysex data inside the message.">getSysExData</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classMidiEventList.html#a9108b044536cf05b165390116718d398">MidiEventList::toEventList()</a>.</p>
@@ -1486,7 +1489,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the midi note number for note-on and note-off messages. </p>
-<p>If the message isn't a note-on or off, the value returned is undefined.</p>
+<p>If the message isn't a note-on or off, the value returned is undefined. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#af66814dee34738882ba39d8796b77be0" title="Returns true if this message is a &#39;key-up&#39; event.">isNoteOff</a>, <a class="el" href="classMidiMessage.html#aff9cacd221a092d203249a2c7435d9dc" title="Returns the name of a midi note number.">getMidiNoteName</a>, <a class="el" href="classMidiMessage.html#ada3382fce97082ea6f2a9cb7c35ab336" title="Returns the frequency of a midi note number.">getMidiNoteInHertz</a>, <a class="el" href="classMidiMessage.html#a47583c88bed0ca4b30b0f86bc2afb48c" title="Changes the midi note number of a note-on or note-off message.">setNoteNumber</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classMidiEventList.html#a9108b044536cf05b165390116718d398">MidiEventList::toEventList()</a>.</p>
@@ -1842,7 +1845,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the new program number of a program change message. </p>
-<p>If the message isn't a program change, the value returned will be nonsense.</p>
+<p>If the message isn't a program change, the value returned is undefined. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a89035047ec5cc9b77d8d484d4a8c9a8d" title="Returns true if the message is a program (patch) change message.">isProgramChange</a>, <a class="el" href="classMidiMessage.html#a005a9e0c239b4a2e7f8e0a0b8b31c223" title="Returns the standard name of a GM instrument, or nullptr if unknown for this index.">getGMInstrumentName</a> </dd></dl>
 
 </div>
@@ -2245,8 +2248,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the controller number of a controller message. </p>
-<p>The name of the controller can be looked up using the <a class="el" href="classMidiMessage.html#a0a95699b23a2b077bb72f39d23e26680" title="Returns the name of a controller type number, or nullptr if unknown for this controller number...">getControllerName()</a> method.</p>
-<p>Note that the value returned is invalid for messages that aren't controller changes.</p>
+<p>The name of the controller can be looked up using the <a class="el" href="classMidiMessage.html#a0a95699b23a2b077bb72f39d23e26680" title="Returns the name of a controller type number, or nullptr if unknown for this controller number...">getControllerName()</a> method. Note that the value returned is invalid for messages that aren't controller changes.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#ac059a2234b67e28464a519632a1b31db" title="Returns true if this is a midi controller message.">isController</a>, <a class="el" href="classMidiMessage.html#a0a95699b23a2b077bb72f39d23e26680" title="Returns the name of a controller type number, or nullptr if unknown for this controller number...">getControllerName</a>, <a class="el" href="classMidiMessage.html#aa301aa18dace968d5ebb2f809fd52522" title="Returns the controller value from a controller message.">getControllerValue</a> </dd></dl>
 
 </div>
@@ -2273,8 +2275,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the controller value from a controller message. </p>
-<p>A value 0 to 127 is returned to indicate the new controller position.</p>
-<p>Note that the value returned is invalid for messages that aren't controller changes.</p>
+<p>A value 0 to 127 is returned to indicate the new controller position. Note that the value returned is invalid for messages that aren't controller changes.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#ac059a2234b67e28464a519632a1b31db" title="Returns true if this is a midi controller message.">isController</a>, <a class="el" href="classMidiMessage.html#a772acb26aa7f2cdc1992210b6d2d496a" title="Returns the controller number of a controller message.">getControllerNumber</a> </dd></dl>
 
 </div>
@@ -2755,6 +2756,42 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns the text from a text meta-event. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#afb44a1c54810b707eb0f6e108d3060f1" title="Returns true if this is a &#39;text&#39; meta-event.">isTextMetaEvent</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a428ecbd96b14b60326c6c8b8863e0fd4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classMidiMessage.html">MidiMessage</a> MidiMessage::textMetaEvent </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classStringRef.html">StringRef</a>&#160;</td>
+          <td class="paramname"><em>text</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a text meta-event. </p>
 
 </div>
 </div>
@@ -3538,7 +3575,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the sequence number of a quarter-frame midi timecode message. </p>
-<p>This will be a value between 0 and 7.</p>
+<p>This will be a value between 0 and 7. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a948318bbf7471f8e4ab857c43004b34c" title="Returns true if this is a quarter-frame midi timecode message.">isQuarterFrame</a>, <a class="el" href="classMidiMessage.html#acd7704a0c68987326fdd4127f77a9976" title="Returns the value from a quarter-frame message.">getQuarterFrameValue</a>, <a class="el" href="classMidiMessage.html#ab21def5ca28557f4d7df31c8425c3386" title="Creates a quarter-frame MTC message.">quarterFrame</a> </dd></dl>
 
 </div>

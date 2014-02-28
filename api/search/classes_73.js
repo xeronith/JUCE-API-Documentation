@@ -72,7 +72,6 @@ var searchData=
   ['scopedpointer_3c_20mouselistener_20_3e',['ScopedPointer&lt; MouseListener &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20multipleinstancehandler_20_3e',['ScopedPointer&lt; MultipleInstanceHandler &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20namedpipe_20_3e',['ScopedPointer&lt; NamedPipe &gt;',['../classScopedPointer.html',1,'']]],
-  ['scopedpointer_3c_20opengltexture_20_3e',['ScopedPointer&lt; OpenGLTexture &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20outputstream_20_3e',['ScopedPointer&lt; OutputStream &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20panelsizes_20_3e',['ScopedPointer&lt; PanelSizes &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20pimpl_20_3e',['ScopedPointer&lt; Pimpl &gt;',['../classScopedPointer.html',1,'']]],

@@ -84,7 +84,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classOpenGLShaderProgram-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">OpenGLShaderProgram Class Reference</div>  </div>
@@ -105,8 +104,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4b7d074fc9555e8211e1f97c1d51c3db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLShaderProgram.html#a4b7d074fc9555e8211e1f97c1d51c3db">OpenGLShaderProgram</a> (const <a class="el" href="classOpenGLContext.html">OpenGLContext</a> &amp;context) noexcept</td></tr>
-<tr class="separator:a4b7d074fc9555e8211e1f97c1d51c3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81fff5197993fb407b9d61d98e994ec6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLShaderProgram.html#a81fff5197993fb407b9d61d98e994ec6">OpenGLShaderProgram</a> (const <a class="el" href="classOpenGLContext.html">OpenGLContext</a> &amp;) noexcept</td></tr>
+<tr class="separator:a81fff5197993fb407b9d61d98e994ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab26f88e24d7a98c01ad9f5e437032934"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLShaderProgram.html#ab26f88e24d7a98c01ad9f5e437032934">~OpenGLShaderProgram</a> () noexcept</td></tr>
 <tr class="separator:ab26f88e24d7a98c01ad9f5e437032934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12aed7f26db2699c2fb14a60c36edba1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLShaderProgram.html#a12aed7f26db2699c2fb14a60c36edba1">addShader</a> (<a class="el" href="classStringRef.html">StringRef</a> shaderSourceCode, GLenum shaderType)</td></tr>
@@ -127,23 +126,23 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a13af8ca28514261f1ca5252300d3c620"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLShaderProgram.html#a13af8ca28514261f1ca5252300d3c620">use</a> () const noexcept</td></tr>
 <tr class="memdesc:a13af8ca28514261f1ca5252300d3c620"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects this program into the current context.  <a href="#a13af8ca28514261f1ca5252300d3c620"></a><br/></td></tr>
 <tr class="separator:a13af8ca28514261f1ca5252300d3c620"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b18c65417e9c8021025a2e00a9ccc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLShaderProgram.html#a83b18c65417e9c8021025a2e00a9ccc5">release</a> () noexcept</td></tr>
+<tr class="memdesc:a83b18c65417e9c8021025a2e00a9ccc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the program.  <a href="#a83b18c65417e9c8021025a2e00a9ccc5"></a><br/></td></tr>
+<tr class="separator:a83b18c65417e9c8021025a2e00a9ccc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aa285b091a1940a0351964d5a7a6420"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLShaderProgram.html#a2aa285b091a1940a0351964d5a7a6420">getProgramID</a> () const noexcept</td></tr>
+<tr class="memdesc:a2aa285b091a1940a0351964d5a7a6420"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ID number of the compiled program.  <a href="#a2aa285b091a1940a0351964d5a7a6420"></a><br/></td></tr>
+<tr class="separator:a2aa285b091a1940a0351964d5a7a6420"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a77d9d36da09b9cc5b19439bb1215886b"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLShaderProgram.html#a77d9d36da09b9cc5b19439bb1215886b">getLanguageVersion</a> ()</td></tr>
 <tr class="memdesc:a77d9d36da09b9cc5b19439bb1215886b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the version of GLSL that the current context supports.  <a href="#a77d9d36da09b9cc5b19439bb1215886b"></a><br/></td></tr>
 <tr class="separator:a77d9d36da09b9cc5b19439bb1215886b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a38ef3b4dabb242d53c470fe5464895c9"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLShaderProgram.html#a38ef3b4dabb242d53c470fe5464895c9">programID</a></td></tr>
-<tr class="memdesc:a38ef3b4dabb242d53c470fe5464895c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ID number of the compiled program.  <a href="#a38ef3b4dabb242d53c470fe5464895c9"></a><br/></td></tr>
-<tr class="separator:a38ef3b4dabb242d53c470fe5464895c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages an OpenGL shader program. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a4b7d074fc9555e8211e1f97c1d51c3db"></a>
+<a class="anchor" id="a81fff5197993fb407b9d61d98e994ec6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -154,7 +153,7 @@ Public Attributes</h2></td></tr>
           <td class="memname">OpenGLShaderProgram::OpenGLShaderProgram </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classOpenGLContext.html">OpenGLContext</a> &amp;&#160;</td>
-          <td class="paramname"><em>context</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -368,15 +367,50 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a38ef3b4dabb242d53c470fe5464895c9"></a>
+<a class="anchor" id="a83b18c65417e9c8021025a2e00a9ccc5"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GLuint OpenGLShaderProgram::programID</td>
+          <td class="memname">void OpenGLShaderProgram::release </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deletes the program. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2aa285b091a1940a0351964d5a7a6420"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLuint OpenGLShaderProgram::getProgramID </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>The ID number of the compiled program. </p>

@@ -29,6 +29,7 @@ var searchData=
   ['textinputrequired',['textInputRequired',['../classComponentPeer.html#a82515329f9fa90587531439e4d481abd',1,'ComponentPeer']]],
   ['textinputtarget',['TextInputTarget',['../classTextInputTarget.html#a49747e7bca27c213004a89460543b139',1,'TextInputTarget']]],
   ['textlayout',['TextLayout',['../classTextLayout.html#ad3d06a6b81095f80ab31f0beecf706fe',1,'TextLayout::TextLayout()'],['../classTextLayout.html#a98abb8c75101bef8c14ee7d521cff350',1,'TextLayout::TextLayout(const TextLayout &amp;)']]],
+  ['textmetaevent',['textMetaEvent',['../classMidiMessage.html#a428ecbd96b14b60326c6c8b8863e0fd4',1,'MidiMessage']]],
   ['textpropertycomponent',['TextPropertyComponent',['../classTextPropertyComponent.html#ab11b2849c68bcf275f931e2b847389b0',1,'TextPropertyComponent::TextPropertyComponent(const String &amp;propertyName, int maxNumChars, bool isMultiLine)'],['../classTextPropertyComponent.html#acd3ee1e753b1f854efd8d58f8b1d2fe9',1,'TextPropertyComponent::TextPropertyComponent(const Value &amp;valueToControl, const String &amp;propertyName, int maxNumChars, bool isMultiLine)']]],
   ['textwaschanged',['textWasChanged',['../classLabel.html#a2bc26840c05560b6c17a719c0a2537b7',1,'Label']]],
   ['textwasedited',['textWasEdited',['../classLabel.html#ac25aabade178c65badaaf2773e0c26b4',1,'Label']]],

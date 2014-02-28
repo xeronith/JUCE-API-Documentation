@@ -64,6 +64,7 @@ var searchData=
   ['withalpha',['withAlpha',['../classColour.html#a0cd650ce4ce07bd594f3abb0c3fec5e6',1,'Colour::withAlpha(uint8 newAlpha) const noexcept'],['../classColour.html#a9d38dac3c093152c0c465116e99f2f93',1,'Colour::withAlpha(float newAlpha) const noexcept']]],
   ['withbottom',['withBottom',['../classRectangle.html#ad1afaef68c7e102e68e7aee989893a7d',1,'Rectangle']]],
   ['withbrightness',['withBrightness',['../classColour.html#a3854dde3b298ff71d7c1a5b93393ca29',1,'Colour']]],
+  ['withcentre',['withCentre',['../classRectangle.html#aee926067b59cedf12aa717fe2c001820',1,'Rectangle']]],
   ['withend',['withEnd',['../classRange.html#a9287e31c3329ff73598414814a015574',1,'Range']]],
   ['withextrakerningfactor',['withExtraKerningFactor',['../classFont.html#a1f5951b14ebdedafc548f0ee2b69fcba',1,'Font']]],
   ['withfileextension',['withFileExtension',['../classFile.html#ae84337989b37fa922ae2af28ff243096',1,'File']]],

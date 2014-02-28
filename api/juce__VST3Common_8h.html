@@ -113,6 +113,8 @@ Macros</h2></td></tr>
 <tr class="separator:ac28ed770da13aab54ddf2af4b4b8d754"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7743ac8d73c366076ad2f36ad5531890"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__VST3Common_8h.html#a7743ac8d73c366076ad2f36ad5531890">TEST_FOR_AND_RETURN_IF_VALID</a>(ClassType)</td></tr>
 <tr class="separator:a7743ac8d73c366076ad2f36ad5531890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4114a16c4961d119170a1ffd5356750"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__VST3Common_8h.html#af4114a16c4961d119170a1ffd5356750">TEST_FOR_COMMON_BASE_AND_RETURN_IF_VALID</a>(CommonClassType, SourceClassType)</td></tr>
+<tr class="separator:af4114a16c4961d119170a1ffd5356750"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -177,6 +179,38 @@ Functions</h2></td></tr>
 <div class="line">    { \</div>
 <div class="line">        addRef(); \</div>
 <div class="line">        *obj = <span class="keyword">dynamic_cast&lt;</span>ClassType*<span class="keyword">&gt;</span> (<span class="keyword">this</span>); \</div>
+<div class="line">        return Steinberg::kResultOk; \</div>
+<div class="line">    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af4114a16c4961d119170a1ffd5356750"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TEST_FOR_COMMON_BASE_AND_RETURN_IF_VALID</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">CommonClassType, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">SourceClassType&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (doUIDsMatch (iid, CommonClassType::iid)) \</div>
+<div class="line">    { \</div>
+<div class="line">        addRef(); \</div>
+<div class="line">        *obj = (CommonClassType*) static_cast&lt;SourceClassType*&gt; (<span class="keyword">this</span>); \</div>
 <div class="line">        return Steinberg::kResultOk; \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->

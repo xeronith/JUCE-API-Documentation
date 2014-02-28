@@ -129,19 +129,25 @@ Typedefs</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Automatically locks and unlocks a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> object. </p>
-<p>Use one of these as a local variable to provide RAII-based locking of a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>.</p>
+<p>You can use a ScopedLock as a local variable to provide RAII-based locking of a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>.</p>
 <p>e.g. </p>
-<div class="fragment"><div class="line"><a class="code" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> myCriticalSection;</div>
-<div class="line"></div>
-<div class="line"><span class="keywordflow">for</span> (;;)</div>
+<div class="fragment"><div class="line"><span class="keyword">struct </span>MyObject</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">const</span> <a class="code" href="classGenericScopedLock.html" title="Automatically locks and unlocks a mutex object.">ScopedLock</a> myScopedLock (myCriticalSection);</div>
-<div class="line">    <span class="comment">// myCriticalSection is now locked</span></div>
+<div class="line">    <a class="code" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> objectLock;</div>
 <div class="line"></div>
-<div class="line">    ...do some stuff...</div>
+<div class="line">    <span class="comment">// assuming that this example function will be called by multiple threads</span></div>
+<div class="line">    <span class="keywordtype">void</span> foo()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keyword">const</span> <a class="code" href="classGenericScopedLock.html" title="Automatically locks and unlocks a mutex object.">ScopedLock</a> myScopedLock (objectLock);</div>
 <div class="line"></div>
-<div class="line">    <span class="comment">// myCriticalSection gets unlocked here.</span></div>
-<div class="line">}</div>
+<div class="line">        <span class="comment">// objectLock is now locked..</span></div>
+<div class="line"></div>
+<div class="line">        ...do some thread-safe work here...</div>
+<div class="line"></div>
+<div class="line">        <span class="comment">// ..and objectLock gets unlocked here, as myScopedLock goes out of</span></div>
+<div class="line">        <span class="comment">// scope at the end of the block</span></div>
+<div class="line">    }</div>
+<div class="line">};</div>
 </div><!-- fragment --><dl class="section see"><dt>See Also</dt><dd><a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>, <a class="el" href="juce__CriticalSection_8h.html#a4cc435f24ace2a8f59b488ed66d9cf2c" title="Automatically unlocks and re-locks a CriticalSection object.">ScopedUnlock</a> </dd></dl>
 
 </div>
@@ -160,29 +166,29 @@ Typedefs</h2></td></tr>
 <p>This is the reverse of a ScopedLock object - instead of locking the critical section for the lifetime of this object, it unlocks it.</p>
 <p>Make sure you don't try to unlock critical sections that aren't actually locked!</p>
 <p>e.g. </p>
-<div class="fragment"><div class="line"><a class="code" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> myCriticalSection;</div>
-<div class="line"></div>
-<div class="line"><span class="keywordflow">for</span> (;;)</div>
+<div class="fragment"><div class="line"><span class="keyword">struct </span>MyObject</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">const</span> <a class="code" href="classGenericScopedLock.html" title="Automatically locks and unlocks a mutex object.">ScopedLock</a> myScopedLock (myCriticalSection);</div>
-<div class="line">    <span class="comment">// myCriticalSection is now locked</span></div>
+<div class="line">    <a class="code" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> objectLock;</div>
 <div class="line"></div>
-<div class="line">    ... <span class="keywordflow">do</span> some stuff with it locked ..</div>
-<div class="line"></div>
-<div class="line">    <span class="keywordflow">while</span> (xyz)</div>
+<div class="line">    <span class="keywordtype">void</span> foo()</div>
 <div class="line">    {</div>
-<div class="line">        ... <span class="keywordflow">do</span> some stuff with it locked ..</div>
+<div class="line">        {</div>
+<div class="line">            <span class="keyword">const</span> <a class="code" href="classGenericScopedLock.html" title="Automatically locks and unlocks a mutex object.">ScopedLock</a> myScopedLock (objectLock);</div>
 <div class="line"></div>
-<div class="line">        <span class="keyword">const</span> <a class="code" href="classGenericScopedUnlock.html" title="Automatically unlocks and re-locks a mutex object.">ScopedUnlock</a> unlocker (myCriticalSection);</div>
+<div class="line">            <span class="comment">// objectLock is now locked..</span></div>
 <div class="line"></div>
-<div class="line">        <span class="comment">// myCriticalSection is now unlocked for the remainder of this block,</span></div>
-<div class="line">        <span class="comment">// and re-locked at the end.</span></div>
+<div class="line">            {</div>
+<div class="line">                <a class="code" href="classGenericScopedUnlock.html" title="Automatically unlocks and re-locks a mutex object.">ScopedUnlock</a> myUnlocker (objectLock);</div>
 <div class="line"></div>
-<div class="line">        ...do some stuff with it unlocked ...</div>
+<div class="line">                <span class="comment">// ..and now unlocked..</span></div>
+<div class="line">            }</div>
+<div class="line"></div>
+<div class="line">            <span class="comment">// ..and now locked again..</span></div>
+<div class="line">        }</div>
+<div class="line"></div>
+<div class="line">        <span class="comment">// ..and finally unlocked.</span></div>
 <div class="line">    }</div>
-<div class="line"></div>
-<div class="line">    <span class="comment">// myCriticalSection gets unlocked here.</span></div>
-<div class="line">}</div>
+<div class="line">};</div>
 </div><!-- fragment --><dl class="section see"><dt>See Also</dt><dd><a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>, <a class="el" href="juce__CriticalSection_8h.html#acedaa6fb1373c96d2d15e7a617a5cec8" title="Automatically locks and unlocks a CriticalSection object.">ScopedLock</a> </dd></dl>
 
 </div>
@@ -200,26 +206,26 @@ Typedefs</h2></td></tr>
 <p>Automatically tries to lock and unlock a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> object. </p>
 <p>Use one of these as a local variable to control access to a <a class="el" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a>.</p>
 <p>e.g. </p>
-<div class="fragment"><div class="line"><a class="code" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> myCriticalSection;</div>
-<div class="line"></div>
-<div class="line"><span class="keywordflow">for</span> (;;)</div>
+<div class="fragment"><div class="line"><span class="keyword">struct </span>MyObject</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">const</span> <a class="code" href="classGenericScopedTryLock.html" title="Automatically locks and unlocks a mutex object.">ScopedTryLock</a> myScopedTryLock (myCriticalSection);</div>
+<div class="line">    <a class="code" href="classCriticalSection.html" title="A re-entrant mutex.">CriticalSection</a> objectLock;</div>
 <div class="line"></div>
-<div class="line">    <span class="comment">// Unlike using a ScopedLock, this may fail to actually get the lock, so you</span></div>
-<div class="line">    <span class="comment">// should test this with the isLocked() method before doing your thread-unsafe</span></div>
-<div class="line">    <span class="comment">// action..</span></div>
-<div class="line">    <span class="keywordflow">if</span> (myScopedTryLock.isLocked())</div>
+<div class="line">    <span class="keywordtype">void</span> foo()</div>
 <div class="line">    {</div>
-<div class="line">       ...do some stuff...</div>
-<div class="line">    }</div>
-<div class="line">    <span class="keywordflow">else</span></div>
-<div class="line">    {</div>
-<div class="line">        ..our attempt at locking failed because another thread had already locked it..</div>
-<div class="line">    }</div>
+<div class="line">        <span class="keyword">const</span> <a class="code" href="classGenericScopedTryLock.html" title="Automatically locks and unlocks a mutex object.">ScopedTryLock</a> myScopedTryLock (objectLock);</div>
 <div class="line"></div>
-<div class="line">    <span class="comment">// myCriticalSection gets unlocked here (if it was locked)</span></div>
-<div class="line">}</div>
+<div class="line">        <span class="comment">// Unlike using a ScopedLock, this may fail to actually get the lock, so you</span></div>
+<div class="line">        <span class="comment">// must call the isLocked() method before making any assumptions..</span></div>
+<div class="line">        <span class="keywordflow">if</span> (myScopedTryLock.isLocked())</div>
+<div class="line">        {</div>
+<div class="line">           ...safely <span class="keywordflow">do</span> some work...</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">else</span></div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// If we get here, then our attempt at locking failed because another thread had already locked it..</span></div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">};</div>
 </div><!-- fragment --><dl class="section see"><dt>See Also</dt><dd><a class="el" href="classCriticalSection.html#a2c12101da7ebf8455de49652f377d313" title="Attempts to lock this critical section without blocking.">CriticalSection::tryEnter</a>, <a class="el" href="juce__CriticalSection_8h.html#acedaa6fb1373c96d2d15e7a617a5cec8" title="Automatically locks and unlocks a CriticalSection object.">ScopedLock</a>, <a class="el" href="juce__CriticalSection_8h.html#a4cc435f24ace2a8f59b488ed66d9cf2c" title="Automatically unlocks and re-locks a CriticalSection object.">ScopedUnlock</a>, <a class="el" href="classScopedReadLock.html" title="Automatically locks and unlocks a ReadWriteLock object.">ScopedReadLock</a> </dd></dl>
 
 </div>

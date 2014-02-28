@@ -139,6 +139,12 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:ab6d7dff67151c029b9cb53fc40b4412f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position of the slider's text-entry box.  <a href="classSlider.html#ab6d7dff67151c029b9cb53fc40b4412f">More...</a><br/></td></tr>
 <tr class="separator:ab6d7dff67151c029b9cb53fc40b4412f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42fd96ac0f5dca7e6942022c9a75cbde"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a42fd96ac0f5dca7e6942022c9a75cbde">DragMode</a> { <a class="el" href="classSlider.html#a42fd96ac0f5dca7e6942022c9a75cbdea4ac7f9448a8823e0537588615cf71271">notDragging</a>, 
+<a class="el" href="classSlider.html#a42fd96ac0f5dca7e6942022c9a75cbdead37417ff73089a45f77534d75e1a1647">absoluteDrag</a>, 
+<a class="el" href="classSlider.html#a42fd96ac0f5dca7e6942022c9a75cbdeab6cd67202d007534532a43f4eeeef153">velocityDrag</a>
+ }</td></tr>
+<tr class="memdesc:a42fd96ac0f5dca7e6942022c9a75cbde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes the type of mouse-dragging that is happening when a value is being changed.  <a href="classSlider.html#a42fd96ac0f5dca7e6942022c9a75cbde">More...</a><br/></td></tr>
+<tr class="separator:a42fd96ac0f5dca7e6942022c9a75cbde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ceaddd29269b6ec5a41f35bbb2ff74a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a0ceaddd29269b6ec5a41f35bbb2ff74a">IncDecButtonMode</a> { <a class="el" href="classSlider.html#a0ceaddd29269b6ec5a41f35bbb2ff74aabc5b1657cd94c709c9086a463b1d7094">incDecButtonsNotDraggable</a>, 
 <a class="el" href="classSlider.html#a0ceaddd29269b6ec5a41f35bbb2ff74aa4877104d807899962ee036571ca93f52">incDecButtonsDraggable_AutoDirection</a>, 
 <a class="el" href="classSlider.html#a0ceaddd29269b6ec5a41f35bbb2ff74aa19d0b1bdc13c1c673e382045c023868b">incDecButtonsDraggable_Horizontal</a>, 
@@ -200,7 +206,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9bf33100be78b96ce03cd2c50f613cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current sensitivity value set by <a class="el" href="classSlider.html#a4bdd8cdb79dcdb06b1e97a21ff2a6c4b" title="Sets the distance the mouse has to move to drag the slider across the full extent of its range...">setMouseDragSensitivity()</a>.  <a href="#a9bf33100be78b96ce03cd2c50f613cb8"></a><br/></td></tr>
 <tr class="separator:a9bf33100be78b96ce03cd2c50f613cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59b616e79738d3adb83093dc532822d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a59b616e79738d3adb83093dc532822d0">setVelocityBasedMode</a> (bool isVelocityBased)</td></tr>
-<tr class="memdesc:a59b616e79738d3adb83093dc532822d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the way the the mouse is used when dragging the slider.  <a href="#a59b616e79738d3adb83093dc532822d0"></a><br/></td></tr>
+<tr class="memdesc:a59b616e79738d3adb83093dc532822d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the way the mouse is used when dragging the slider.  <a href="#a59b616e79738d3adb83093dc532822d0"></a><br/></td></tr>
 <tr class="separator:a59b616e79738d3adb83093dc532822d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a807ee244e5a714a8db257e102ec5496d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a807ee244e5a714a8db257e102ec5496d">getVelocityBasedMode</a> () const noexcept</td></tr>
 <tr class="memdesc:a807ee244e5a714a8db257e102ec5496d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if velocity-based mode is active.  <a href="#a807ee244e5a714a8db257e102ec5496d"></a><br/></td></tr>
@@ -364,9 +370,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a566a2ce3de4d712b1c19408674f5ab15"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a566a2ce3de4d712b1c19408674f5ab15">getPositionOfValue</a> (double value)</td></tr>
 <tr class="memdesc:a566a2ce3de4d712b1c19408674f5ab15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the X or Y coordinate of a value along the slider's length.  <a href="#a566a2ce3de4d712b1c19408674f5ab15"></a><br/></td></tr>
 <tr class="separator:a566a2ce3de4d712b1c19408674f5ab15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5177f26b97f9f6ea320b7831c268301e"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a5177f26b97f9f6ea320b7831c268301e">snapValue</a> (double attemptedValue, bool userIsDragging)</td></tr>
-<tr class="memdesc:a5177f26b97f9f6ea320b7831c268301e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be overridden to allow the slider to snap to user-definable values.  <a href="#a5177f26b97f9f6ea320b7831c268301e"></a><br/></td></tr>
-<tr class="separator:a5177f26b97f9f6ea320b7831c268301e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8ce89d390ea3de9ab58aae59db1d03b"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#aa8ce89d390ea3de9ab58aae59db1d03b">snapValue</a> (double attemptedValue, <a class="el" href="classSlider.html#a42fd96ac0f5dca7e6942022c9a75cbde">DragMode</a> dragMode)</td></tr>
+<tr class="memdesc:aa8ce89d390ea3de9ab58aae59db1d03b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be overridden to allow the slider to snap to user-definable values.  <a href="#aa8ce89d390ea3de9ab58aae59db1d03b"></a><br/></td></tr>
+<tr class="separator:aa8ce89d390ea3de9ab58aae59db1d03b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acec04f6f7cca814b66c23ae5cf4a7b6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#acec04f6f7cca814b66c23ae5cf4a7b6a">updateText</a> ()</td></tr>
 <tr class="memdesc:acec04f6f7cca814b66c23ae5cf4a7b6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be called to force the text box to update its contents.  <a href="#acec04f6f7cca814b66c23ae5cf4a7b6a"></a><br/></td></tr>
 <tr class="separator:acec04f6f7cca814b66c23ae5cf4a7b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -480,10 +486,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a46966e291496184832581614c4b85369 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the region of this component that's not obscured by other, opaque components.  <a href="#a46966e291496184832581614c4b85369"></a><br/></td></tr>
 <tr class="separator:a46966e291496184832581614c4b85369 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a6907c2907bab645de49c096c00fd50 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a0a6907c2907bab645de49c096c00fd50">getScreenX</a> () const </td></tr>
-<tr class="memdesc:a0a6907c2907bab645de49c096c00fd50 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this component's x coordinate relative the the screen's top-left origin.  <a href="#a0a6907c2907bab645de49c096c00fd50"></a><br/></td></tr>
+<tr class="memdesc:a0a6907c2907bab645de49c096c00fd50 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this component's x coordinate relative the screen's top-left origin.  <a href="#a0a6907c2907bab645de49c096c00fd50"></a><br/></td></tr>
 <tr class="separator:a0a6907c2907bab645de49c096c00fd50 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d3bf0e97527b4fcdb6d0593b191c9d5 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a9d3bf0e97527b4fcdb6d0593b191c9d5">getScreenY</a> () const </td></tr>
-<tr class="memdesc:a9d3bf0e97527b4fcdb6d0593b191c9d5 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this component's y coordinate relative the the screen's top-left origin.  <a href="#a9d3bf0e97527b4fcdb6d0593b191c9d5"></a><br/></td></tr>
+<tr class="memdesc:a9d3bf0e97527b4fcdb6d0593b191c9d5 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this component's y coordinate relative the screen's top-left origin.  <a href="#a9d3bf0e97527b4fcdb6d0593b191c9d5"></a><br/></td></tr>
 <tr class="separator:a9d3bf0e97527b4fcdb6d0593b191c9d5 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27d728d223948282634429c3ad6f0a6c inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a27d728d223948282634429c3ad6f0a6c">getScreenPosition</a> () const </td></tr>
 <tr class="memdesc:a27d728d223948282634429c3ad6f0a6c inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the position of this component's top-left corner relative to the screen's top-left.  <a href="#a27d728d223948282634429c3ad6f0a6c"></a><br/></td></tr>
@@ -1076,6 +1082,34 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a42fd96ac0f5dca7e6942022c9a75cbde"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classSlider.html#a42fd96ac0f5dca7e6942022c9a75cbde">Slider::DragMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Describes the type of mouse-dragging that is happening when a value is being changed. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#aa8ce89d390ea3de9ab58aae59db1d03b" title="This can be overridden to allow the slider to snap to user-definable values.">snapValue</a> </dd></dl>
+<dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" id="a42fd96ac0f5dca7e6942022c9a75cbdea4ac7f9448a8823e0537588615cf71271"></a>notDragging</em>&nbsp;</td><td>
+<p>Dragging is not active. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a42fd96ac0f5dca7e6942022c9a75cbdead37417ff73089a45f77534d75e1a1647"></a>absoluteDrag</em>&nbsp;</td><td>
+<p>The dragging corresponds directly to the value that is displayed. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a42fd96ac0f5dca7e6942022c9a75cbdeab6cd67202d007534532a43f4eeeef153"></a>velocityDrag</em>&nbsp;</td><td>
+<p>The dragging value change is relative to the velocity of the mouse mouvement. </p>
+</td></tr>
+</table>
+</dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a0ceaddd29269b6ec5a41f35bbb2ff74a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1263,7 +1297,7 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a6fad4379a38262e28820213c7ffd26fb" title="Changes the properties of a rotary slider.">setRotaryParameters</a>, <a class="el" href="classSlider.html#a59b616e79738d3adb83093dc532822d0" title="Changes the way the the mouse is used when dragging the slider.">setVelocityBasedMode</a>, </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a6fad4379a38262e28820213c7ffd26fb" title="Changes the properties of a rotary slider.">setRotaryParameters</a>, <a class="el" href="classSlider.html#a59b616e79738d3adb83093dc532822d0" title="Changes the way the mouse is used when dragging the slider.">setVelocityBasedMode</a>, </dd></dl>
 
 </div>
 </div>
@@ -1393,7 +1427,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Changes the way the the mouse is used when dragging the slider. </p>
+<p>Changes the way the mouse is used when dragging the slider. </p>
 <p>If true, this will turn on velocity-sensitive dragging, so that the faster the mouse moves, the bigger the movement to the slider. This helps when making accurate adjustments if the slider's range is quite large.</p>
 <p>If false, the slider will just try to snap to wherever the mouse is. </p>
 
@@ -1421,7 +1455,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns true if velocity-based mode is active. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a59b616e79738d3adb83093dc532822d0" title="Changes the way the the mouse is used when dragging the slider.">setVelocityBasedMode</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a59b616e79738d3adb83093dc532822d0" title="Changes the way the mouse is used when dragging the slider.">setVelocityBasedMode</a> </dd></dl>
 
 </div>
 </div>
@@ -1462,7 +1496,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Changes aspects of the scaling used when in velocity-sensitive mode. </p>
-<p>These apply when you've used <a class="el" href="classSlider.html#a59b616e79738d3adb83093dc532822d0" title="Changes the way the the mouse is used when dragging the slider.">setVelocityBasedMode()</a> to turn on velocity mode, or if you're holding down ctrl.</p>
+<p>These apply when you've used <a class="el" href="classSlider.html#a59b616e79738d3adb83093dc532822d0" title="Changes the way the mouse is used when dragging the slider.">setVelocityBasedMode()</a> to turn on velocity mode, or if you're holding down ctrl.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">sensitivity</td><td>higher values than 1.0 increase the range of acceleration used </td></tr>
@@ -2838,7 +2872,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5177f26b97f9f6ea320b7831c268301e"></a>
+<a class="anchor" id="aa8ce89d390ea3de9ab58aae59db1d03b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2854,8 +2888,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>userIsDragging</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="classSlider.html#a42fd96ac0f5dca7e6942022c9a75cbde">DragMode</a>&#160;</td>
+          <td class="paramname"><em>dragMode</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2875,7 +2909,7 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">attemptedValue</td><td>the value the user is trying to enter </td></tr>
-    <tr><td class="paramname">userIsDragging</td><td>true if the user is dragging with the mouse; false if they are entering the value using the text box </td></tr>
+    <tr><td class="paramname">dragMode</td><td>indicates whether the user is dragging with the mouse; notDragging if they are entering the value using the text box or other non-dragging interaction </td></tr>
   </table>
   </dd>
 </dl>

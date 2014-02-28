@@ -41,7 +41,5 @@ var searchData=
   ['forestgreen',['forestgreen',['../classColours.html#a34c336f65b06cb988f89bddc14a5041e',1,'Colours']]],
   ['framerate',['frameRate',['../structAudioPlayHead_1_1CurrentPositionInfo.html#aca5544d9204e4fedfdf6088dcdf339aa',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['freezemode',['freezeMode',['../structReverb_1_1Parameters.html#a394c3bfbd67ad681222410952dbed0c6',1,'Reverb::Parameters']]],
-  ['fuchsia',['fuchsia',['../classColours.html#a612e521b7168865f48fc7d1612658a79',1,'Colours']]],
-  ['fullheightproportion',['fullHeightProportion',['../classOpenGLTextureFromImage.html#a6ed4364b74838dd77850d37a86aa58b6',1,'OpenGLTextureFromImage']]],
-  ['fullwidthproportion',['fullWidthProportion',['../classOpenGLTextureFromImage.html#aa4ed56bf93012c120ed64c2101ab1fe0',1,'OpenGLTextureFromImage']]]
+  ['fuchsia',['fuchsia',['../classColours.html#a612e521b7168865f48fc7d1612658a79',1,'Colours']]]
 ];

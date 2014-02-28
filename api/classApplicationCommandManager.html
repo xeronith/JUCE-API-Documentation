@@ -169,7 +169,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:add1c985aacfb09c72d038e88ce91341a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for a suitable command target based on which Components have the keyboard focus.  <a href="#add1c985aacfb09c72d038e88ce91341a"></a><br/></td></tr>
 <tr class="separator:add1c985aacfb09c72d038e88ce91341a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49f4fca677c284452cd148b010958332"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classApplicationCommandTarget.html">ApplicationCommandTarget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApplicationCommandManager.html#a49f4fca677c284452cd148b010958332">findTargetForComponent</a> (<a class="el" href="classComponent.html">Component</a> *)</td></tr>
-<tr class="memdesc:a49f4fca677c284452cd148b010958332"><td class="mdescLeft">&#160;</td><td class="mdescRight">Examines this component and all its parents in turn, looking for the first one which is a <a class="el" href="classApplicationCommandTarget.html" title="A command target publishes a list of command IDs that it can perform.">ApplicationCommandTarget</a>.  <a href="#a49f4fca677c284452cd148b010958332"></a><br/></td></tr>
+<tr class="memdesc:a49f4fca677c284452cd148b010958332"><td class="mdescLeft">&#160;</td><td class="mdescRight">Examines this component and all its parents in turn, looking for the first one which is an <a class="el" href="classApplicationCommandTarget.html" title="A command target publishes a list of command IDs that it can perform.">ApplicationCommandTarget</a>.  <a href="#a49f4fca677c284452cd148b010958332"></a><br/></td></tr>
 <tr class="separator:a49f4fca677c284452cd148b010958332"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -213,7 +213,7 @@ Additional Inherited Members</h2></td></tr>
 <li>Register each type of command using <a class="el" href="classApplicationCommandManager.html#ac3f8c831583499556579848779e030cf" title="Adds all the commands that this target publishes to the manager&#39;s list.">ApplicationCommandManager::registerAllCommandsForTarget()</a>, or <a class="el" href="classApplicationCommandManager.html#a151be8c30a8339675ad5dcba5a5c4e62" title="Adds a command to the list of registered commands.">ApplicationCommandManager::registerCommand()</a>.</li>
 </ul>
 <ul>
-<li>If you want key-presses to trigger your commands, use the <a class="el" href="classApplicationCommandManager.html#a5fea4f129e149062866c0313b29ba976" title="Returns the manager&#39;s internal set of key mappings.">ApplicationCommandManager::getKeyMappings()</a> method to access the key-mapper object, which you will need to register as a key-listener in whatever top-level component you're using. See the <a class="el" href="classKeyPressMappingSet.html" title="Manages and edits a list of keypresses, which it uses to invoke the appropriate command in a Applicat...">KeyPressMappingSet</a> class for more help about setting this up.</li>
+<li>If you want key-presses to trigger your commands, use the <a class="el" href="classApplicationCommandManager.html#a5fea4f129e149062866c0313b29ba976" title="Returns the manager&#39;s internal set of key mappings.">ApplicationCommandManager::getKeyMappings()</a> method to access the key-mapper object, which you will need to register as a key-listener in whatever top-level component you're using. See the <a class="el" href="classKeyPressMappingSet.html" title="Manages and edits a list of keypresses, which it uses to invoke the appropriate command in an Applica...">KeyPressMappingSet</a> class for more help about setting this up.</li>
 </ul>
 <ul>
 <li>Use methods such as <a class="el" href="classPopupMenu.html#a71b963b21039353cb78182c7e7a0ac2c" title="Adds an item that represents one of the commands in a command manager object.">PopupMenu::addCommandItem()</a> or <a class="el" href="classButton.html#a3d29d9c9ab75389a170b67a364e0cb9e" title="Sets a command ID for this button to automatically invoke when it&#39;s clicked.">Button::setCommandToTrigger()</a> to cause these commands to be invoked automatically.</li>
@@ -284,7 +284,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Clears the current list of all commands. </p>
-<p>Note that this will also clear the contents of the <a class="el" href="classKeyPressMappingSet.html" title="Manages and edits a list of keypresses, which it uses to invoke the appropriate command in a Applicat...">KeyPressMappingSet</a>. </p>
+<p>Note that this will also clear the contents of the <a class="el" href="classKeyPressMappingSet.html" title="Manages and edits a list of keypresses, which it uses to invoke the appropriate command in an Applica...">KeyPressMappingSet</a>. </p>
 
 </div>
 </div>
@@ -561,8 +561,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the manager's internal set of key mappings. </p>
-<p>This object can be used to edit the keypresses. To actually link this object up to invoke commands when a key is pressed, see the comments for the <a class="el" href="classKeyPressMappingSet.html" title="Manages and edits a list of keypresses, which it uses to invoke the appropriate command in a Applicat...">KeyPressMappingSet</a> class.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classKeyPressMappingSet.html" title="Manages and edits a list of keypresses, which it uses to invoke the appropriate command in a Applicat...">KeyPressMappingSet</a> </dd></dl>
+<p>This object can be used to edit the keypresses. To actually link this object up to invoke commands when a key is pressed, see the comments for the <a class="el" href="classKeyPressMappingSet.html" title="Manages and edits a list of keypresses, which it uses to invoke the appropriate command in an Applica...">KeyPressMappingSet</a> class.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classKeyPressMappingSet.html" title="Manages and edits a list of keypresses, which it uses to invoke the appropriate command in an Applica...">KeyPressMappingSet</a> </dd></dl>
 
 </div>
 </div>
@@ -781,7 +781,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Looks for a suitable command target based on which Components have the keyboard focus. </p>
 <p>This is used by the default implementation of ApplicationCommandTarget::getFirstCommandTarget(), but is exposed here in case it's useful.</p>
-<p>It tries to pick the best <a class="el" href="classApplicationCommandTarget.html" title="A command target publishes a list of command IDs that it can perform.">ApplicationCommandTarget</a> by looking at focused components, top level windows, etc., and using the <a class="el" href="classApplicationCommandManager.html#a49f4fca677c284452cd148b010958332" title="Examines this component and all its parents in turn, looking for the first one which is a Application...">findTargetForComponent()</a> method. </p>
+<p>It tries to pick the best <a class="el" href="classApplicationCommandTarget.html" title="A command target publishes a list of command IDs that it can perform.">ApplicationCommandTarget</a> by looking at focused components, top level windows, etc., and using the <a class="el" href="classApplicationCommandManager.html#a49f4fca677c284452cd148b010958332" title="Examines this component and all its parents in turn, looking for the first one which is an Applicatio...">findTargetForComponent()</a> method. </p>
 
 </div>
 </div>
@@ -807,7 +807,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Examines this component and all its parents in turn, looking for the first one which is a <a class="el" href="classApplicationCommandTarget.html" title="A command target publishes a list of command IDs that it can perform.">ApplicationCommandTarget</a>. </p>
+<p>Examines this component and all its parents in turn, looking for the first one which is an <a class="el" href="classApplicationCommandTarget.html" title="A command target publishes a list of command IDs that it can perform.">ApplicationCommandTarget</a>. </p>
 <p>Returns the first <a class="el" href="classApplicationCommandTarget.html" title="A command target publishes a list of command IDs that it can perform.">ApplicationCommandTarget</a> that it finds, or nullptr if none of them implement that class. </p>
 
 </div>
