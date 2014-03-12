@@ -115,6 +115,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a19e7a01bb331faba5196e3aa3df07e40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCallOutBox.html#a19e7a01bb331faba5196e3aa3df07e40">updatePosition</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;newAreaToPointTo, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;newAreaToFitIn)</td></tr>
 <tr class="memdesc:a19e7a01bb331faba5196e3aa3df07e40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the position and size of the box.  <a href="#a19e7a01bb331faba5196e3aa3df07e40"></a><br/></td></tr>
 <tr class="separator:a19e7a01bb331faba5196e3aa3df07e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4249288a642041f5311528e3f1d7d06e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCallOutBox.html#a4249288a642041f5311528e3f1d7d06e">dismiss</a> ()</td></tr>
+<tr class="memdesc:a4249288a642041f5311528e3f1d7d06e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Posts a message which will dismiss the callout box asynchronously.  <a href="#a4249288a642041f5311528e3f1d7d06e"></a><br/></td></tr>
+<tr class="separator:a4249288a642041f5311528e3f1d7d06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb855fb08a18a20c93c2a7e4be96eef0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCallOutBox.html#abb855fb08a18a20c93c2a7e4be96eef0">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;) override</td></tr>
 <tr class="separator:abb855fb08a18a20c93c2a7e4be96eef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af20578de71eec8f927c9386c0ae198c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCallOutBox.html#af20578de71eec8f927c9386c0ae198c5">resized</a> () override</td></tr>
@@ -878,6 +881,24 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a4249288a642041f5311528e3f1d7d06e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CallOutBox::dismiss </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Posts a message which will dismiss the callout box asynchronously. </p>
+<p>NB: it's safe to call this method from any thread. </p>
 
 </div>
 </div>

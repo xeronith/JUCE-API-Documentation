@@ -1,6 +1,7 @@
 var searchData=
 [
   ['defaultflags',['defaultFlags',['../classTableHeaderComponent.html#abfee3b5ccd3289efb38e7b7dd1162831aaf583dc5f74b08d98dc901bdb91bdc9a',1,'TableHeaderComponent']]],
+  ['defaultglversion',['defaultGLVersion',['../classOpenGLContext.html#a3a6b8eeed7dbc7c7c649528252c07d02abfbb3238e2943fa532a03e1473ac1baf',1,'OpenGLContext']]],
   ['defaultorder',['defaultOrder',['../classKnownPluginList.html#a6beabfccc86796527f663f30f3514098a095b33c1920322812d2f98874fa647c0',1,'KnownPluginList']]],
   ['defaulttextcolourid',['defaultTextColourId',['../classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596aebfaf17bcdaf7960adf28fc44355a51d',1,'CodeEditorComponent']]],
   ['del',['del',['../namespaceStandardApplicationCommandIDs.html#a8ce34a13722727706c8e98c64454fbf9a3519307963b37e47b3c0935a553c8a13',1,'StandardApplicationCommandIDs']]],

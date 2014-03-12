@@ -51,6 +51,7 @@ var searchData=
   ['directshowcomponent',['DirectShowComponent',['../classDirectShowComponent.html#af377e8270137e9905e93963acc49c2ea',1,'DirectShowComponent']]],
   ['disconnect',['disconnect',['../classInterprocessConnection.html#a16959b067e088c75663fcff8633d600f',1,'InterprocessConnection']]],
   ['disconnectnode',['disconnectNode',['../classAudioProcessorGraph.html#a8fb912ad3add171eb08c6e58a66e1687',1,'AudioProcessorGraph']]],
+  ['dismiss',['dismiss',['../classCallOutBox.html#a4249288a642041f5311528e3f1d7d06e',1,'CallOutBox']]],
   ['dismissallactivemenus',['dismissAllActiveMenus',['../classPopupMenu.html#a16f1d36e74b8dcf83738b1fcbdbe8166',1,'PopupMenu']]],
   ['dismisspendingtextinput',['dismissPendingTextInput',['../classComponentPeer.html#a279443ef9e2343320577655775e2e827',1,'ComponentPeer']]],
   ['dispatcher',['dispatcher',['../classVSTPluginFormat.html#af962a3675a27c0fd972f8d9feaee3902',1,'VSTPluginFormat']]],

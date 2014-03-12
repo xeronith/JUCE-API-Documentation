@@ -111,6 +111,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a00fbc75bec5de51e5c7a65dc1c324cb5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWindowsMediaAudioFormat.html#a00fbc75bec5de51e5c7a65dc1c324cb5">canDoMono</a> () override</td></tr>
 <tr class="memdesc:a00fbc75bec5de51e5c7a65dc1c324cb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the format can do 1-channel audio.  <a href="#a00fbc75bec5de51e5c7a65dc1c324cb5"></a><br/></td></tr>
 <tr class="separator:a00fbc75bec5de51e5c7a65dc1c324cb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a918b34df9fc4618125db89e565cc50d6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWindowsMediaAudioFormat.html#a918b34df9fc4618125db89e565cc50d6">isCompressed</a> () override</td></tr>
+<tr class="memdesc:a918b34df9fc4618125db89e565cc50d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the format uses compressed data.  <a href="#a918b34df9fc4618125db89e565cc50d6"></a><br/></td></tr>
+<tr class="separator:a918b34df9fc4618125db89e565cc50d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a345ffefc3156cdc4f8b3aa394302dd4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioFormatReader.html">AudioFormatReader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWindowsMediaAudioFormat.html#a345ffefc3156cdc4f8b3aa394302dd4a">createReaderFor</a> (<a class="el" href="classInputStream.html">InputStream</a> *, bool deleteStreamIfOpeningFails) override</td></tr>
 <tr class="memdesc:a345ffefc3156cdc4f8b3aa394302dd4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to create an object that can read from a stream containing audio data in this format.  <a href="#a345ffefc3156cdc4f8b3aa394302dd4a"></a><br/></td></tr>
 <tr class="separator:a345ffefc3156cdc4f8b3aa394302dd4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,9 +133,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1bb639929ca98b8e34183d568c380c79 inherit pub_methods_classAudioFormat"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormat.html#a1bb639929ca98b8e34183d568c380c79">canHandleFile</a> (const <a class="el" href="classFile.html">File</a> &amp;fileToTest)</td></tr>
 <tr class="memdesc:a1bb639929ca98b8e34183d568c380c79 inherit pub_methods_classAudioFormat"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this the given file can be read by this format.  <a href="#a1bb639929ca98b8e34183d568c380c79"></a><br/></td></tr>
 <tr class="separator:a1bb639929ca98b8e34183d568c380c79 inherit pub_methods_classAudioFormat"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a507f233bee0df2059b74d032460de870 inherit pub_methods_classAudioFormat"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormat.html#a507f233bee0df2059b74d032460de870">isCompressed</a> ()</td></tr>
-<tr class="memdesc:a507f233bee0df2059b74d032460de870 inherit pub_methods_classAudioFormat"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the format uses compressed data.  <a href="#a507f233bee0df2059b74d032460de870"></a><br/></td></tr>
-<tr class="separator:a507f233bee0df2059b74d032460de870 inherit pub_methods_classAudioFormat"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5140c58d4c58d5949a0792604a976c8 inherit pub_methods_classAudioFormat"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormat.html#af5140c58d4c58d5949a0792604a976c8">getQualityOptions</a> ()</td></tr>
 <tr class="memdesc:af5140c58d4c58d5949a0792604a976c8 inherit pub_methods_classAudioFormat"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of different qualities that can be used when writing.  <a href="#af5140c58d4c58d5949a0792604a976c8"></a><br/></td></tr>
 <tr class="separator:af5140c58d4c58d5949a0792604a976c8 inherit pub_methods_classAudioFormat"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -290,6 +290,33 @@ Additional Inherited Members</h2></td></tr>
 <p>Returns true if the format can do 1-channel audio. </p>
 
 <p>Implements <a class="el" href="classAudioFormat.html#a40fc3d0b8ce9fe7b3dd87dfd1c57e72d">AudioFormat</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a918b34df9fc4618125db89e565cc50d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool WindowsMediaAudioFormat::isCompressed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the format uses compressed data. </p>
+
+<p>Reimplemented from <a class="el" href="classAudioFormat.html#a507f233bee0df2059b74d032460de870">AudioFormat</a>.</p>
 
 </div>
 </div>

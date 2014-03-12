@@ -96,7 +96,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a24e0205b0375cff235d64cc33d8c8550"><td class="memItemLeft" align="right" valign="top">typedef bool(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a24e0205b0375cff235d64cc33d8c8550">OpenStreamProgressCallback</a> )(void *context, int bytesSent, int totalBytes)</td></tr>
-<tr class="memdesc:a24e0205b0375cff235d64cc33d8c8550"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback function can be used by the <a class="el" href="classURL.html#af01708ef530d2c3864d2fea4aa757e44" title="Attempts to open a stream that can read from this URL.">createInputStream()</a> method.  <a href="#a24e0205b0375cff235d64cc33d8c8550"></a><br/></td></tr>
+<tr class="memdesc:a24e0205b0375cff235d64cc33d8c8550"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback function can be used by the <a class="el" href="classURL.html#a48a8140f0f776e0a5fb7f6fb89b590e9" title="Attempts to open a stream that can read from this URL.">createInputStream()</a> method.  <a href="#a24e0205b0375cff235d64cc33d8c8550"></a><br/></td></tr>
 <tr class="separator:a24e0205b0375cff235d64cc33d8c8550"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -149,20 +149,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3974f5b9d28d360ac657df3b42082f5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>, with a GET or POST parameter added to the end.  <a href="#a3974f5b9d28d360ac657df3b42082f5d"></a><br/></td></tr>
 <tr class="separator:a3974f5b9d28d360ac657df3b42082f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a341a3e78e1b831a33cf5a8a191573725"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classURL.html">URL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a341a3e78e1b831a33cf5a8a191573725">withFileToUpload</a> (const <a class="el" href="classString.html">String</a> &amp;parameterName, const <a class="el" href="classFile.html">File</a> &amp;fileToUpload, const <a class="el" href="classString.html">String</a> &amp;mimeType) const </td></tr>
-<tr class="memdesc:a341a3e78e1b831a33cf5a8a191573725"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of this URl, with a file-upload type parameter added to it.  <a href="#a341a3e78e1b831a33cf5a8a191573725"></a><br/></td></tr>
+<tr class="memdesc:a341a3e78e1b831a33cf5a8a191573725"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>, with a file-upload type parameter added to it.  <a href="#a341a3e78e1b831a33cf5a8a191573725"></a><br/></td></tr>
 <tr class="separator:a341a3e78e1b831a33cf5a8a191573725"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f3ceab4f85a42a811b57328e09584c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classURL.html">URL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a5f3ceab4f85a42a811b57328e09584c5">withDataToUpload</a> (const <a class="el" href="classString.html">String</a> &amp;parameterName, const <a class="el" href="classString.html">String</a> &amp;filename, const <a class="el" href="classMemoryBlock.html">MemoryBlock</a> &amp;fileContentToUpload, const <a class="el" href="classString.html">String</a> &amp;mimeType) const </td></tr>
+<tr class="memdesc:a5f3ceab4f85a42a811b57328e09584c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>, with a file-upload type parameter added to it.  <a href="#a5f3ceab4f85a42a811b57328e09584c5"></a><br/></td></tr>
+<tr class="separator:a5f3ceab4f85a42a811b57328e09584c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10a2d1604d0a3d86381a4b142624c662"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classStringArray.html">StringArray</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a10a2d1604d0a3d86381a4b142624c662">getParameterNames</a> () const noexcept</td></tr>
 <tr class="memdesc:a10a2d1604d0a3d86381a4b142624c662"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an array of the names of all the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>'s parameters.  <a href="#a10a2d1604d0a3d86381a4b142624c662"></a><br/></td></tr>
 <tr class="separator:a10a2d1604d0a3d86381a4b142624c662"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61b5ddfaf16fd5ba305c22ccd13ee7ee"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classStringArray.html">StringArray</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a61b5ddfaf16fd5ba305c22ccd13ee7ee">getParameterValues</a> () const noexcept</td></tr>
 <tr class="memdesc:a61b5ddfaf16fd5ba305c22ccd13ee7ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an array of the values of all the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>'s parameters.  <a href="#a61b5ddfaf16fd5ba305c22ccd13ee7ee"></a><br/></td></tr>
 <tr class="separator:a61b5ddfaf16fd5ba305c22ccd13ee7ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cc39c1f6c4457e980062b3c23b51b17"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classStringPairArray.html">StringPairArray</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a0cc39c1f6c4457e980062b3c23b51b17">getFilesToUpload</a> () const </td></tr>
-<tr class="memdesc:a0cc39c1f6c4457e980062b3c23b51b17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the set of files that should be uploaded as part of a POST operation.  <a href="#a0cc39c1f6c4457e980062b3c23b51b17"></a><br/></td></tr>
-<tr class="separator:a0cc39c1f6c4457e980062b3c23b51b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a055846868f227b034a3999f19a887b20"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classStringPairArray.html">StringPairArray</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a055846868f227b034a3999f19a887b20">getMimeTypesOfUploadFiles</a> () const </td></tr>
-<tr class="memdesc:a055846868f227b034a3999f19a887b20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the set of mime types associated with each of the upload files.  <a href="#a055846868f227b034a3999f19a887b20"></a><br/></td></tr>
-<tr class="separator:a055846868f227b034a3999f19a887b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fe9f66a50ff9f6d6d1bcb47ad3ead2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classURL.html">URL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a9fe9f66a50ff9f6d6d1bcb47ad3ead2a">withPOSTData</a> (const <a class="el" href="classString.html">String</a> &amp;postData) const </td></tr>
 <tr class="memdesc:a9fe9f66a50ff9f6d6d1bcb47ad3ead2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>, with a block of data to send as the POST data.  <a href="#a9fe9f66a50ff9f6d6d1bcb47ad3ead2a"></a><br/></td></tr>
 <tr class="separator:a9fe9f66a50ff9f6d6d1bcb47ad3ead2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,9 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab56bf9814dfe828db465582b3af50c69"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#ab56bf9814dfe828db465582b3af50c69">launchInDefaultBrowser</a> () const </td></tr>
 <tr class="memdesc:ab56bf9814dfe828db465582b3af50c69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to launch the system's default browser to open the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>.  <a href="#ab56bf9814dfe828db465582b3af50c69"></a><br/></td></tr>
 <tr class="separator:ab56bf9814dfe828db465582b3af50c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af01708ef530d2c3864d2fea4aa757e44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputStream.html">InputStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#af01708ef530d2c3864d2fea4aa757e44">createInputStream</a> (bool usePostCommand, <a class="el" href="classURL.html#a24e0205b0375cff235d64cc33d8c8550">OpenStreamProgressCallback</a> *progressCallback=nullptr, void *progressCallbackContext=nullptr, <a class="el" href="classString.html">String</a> extraHeaders=<a class="el" href="classString.html">String</a>(), int connectionTimeOutMs=0, <a class="el" href="classStringPairArray.html">StringPairArray</a> *responseHeaders=nullptr) const </td></tr>
-<tr class="memdesc:af01708ef530d2c3864d2fea4aa757e44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to open a stream that can read from this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>.  <a href="#af01708ef530d2c3864d2fea4aa757e44"></a><br/></td></tr>
-<tr class="separator:af01708ef530d2c3864d2fea4aa757e44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48a8140f0f776e0a5fb7f6fb89b590e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputStream.html">InputStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a48a8140f0f776e0a5fb7f6fb89b590e9">createInputStream</a> (bool usePostCommand, <a class="el" href="classURL.html#a24e0205b0375cff235d64cc33d8c8550">OpenStreamProgressCallback</a> *progressCallback=nullptr, void *progressCallbackContext=nullptr, <a class="el" href="classString.html">String</a> extraHeaders=<a class="el" href="classString.html">String</a>(), int connectionTimeOutMs=0, <a class="el" href="classStringPairArray.html">StringPairArray</a> *responseHeaders=nullptr, int *statusCode=nullptr) const </td></tr>
+<tr class="memdesc:a48a8140f0f776e0a5fb7f6fb89b590e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to open a stream that can read from this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>.  <a href="#a48a8140f0f776e0a5fb7f6fb89b590e9"></a><br/></td></tr>
+<tr class="separator:a48a8140f0f776e0a5fb7f6fb89b590e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade18c87d31c10cb7fea4453afeee2de6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#ade18c87d31c10cb7fea4453afeee2de6">readEntireBinaryStream</a> (<a class="el" href="classMemoryBlock.html">MemoryBlock</a> &amp;destData, bool usePostCommand=false) const </td></tr>
 <tr class="memdesc:ade18c87d31c10cb7fea4453afeee2de6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to download the entire contents of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a> into a binary data block.  <a href="#ade18c87d31c10cb7fea4453afeee2de6"></a><br/></td></tr>
 <tr class="separator:ade18c87d31c10cb7fea4453afeee2de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -217,7 +214,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>This callback function can be used by the <a class="el" href="classURL.html#af01708ef530d2c3864d2fea4aa757e44" title="Attempts to open a stream that can read from this URL.">createInputStream()</a> method. </p>
+<p>This callback function can be used by the <a class="el" href="classURL.html#a48a8140f0f776e0a5fb7f6fb89b590e9" title="Attempts to open a stream that can read from this URL.">createInputStream()</a> method. </p>
 <p>It allows your app to receive progress updates during a lengthy POST operation. If you want to continue the operation, this should return true, or false to abort. </p>
 
 </div>
@@ -556,9 +553,52 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a copy of this URl, with a file-upload type parameter added to it. </p>
+<p>Returns a copy of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>, with a file-upload type parameter added to it. </p>
 <p>When performing a POST where one of your parameters is a binary file, this lets you specify the file.</p>
-<p>Note that the filename is stored, but the file itself won't actually be read until this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a> is later used to create a network input stream. </p>
+<p>Note that the filename is stored, but the file itself won't actually be read until this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a> is later used to create a network input stream. If you want to upload data from memory, use <a class="el" href="classURL.html#a5f3ceab4f85a42a811b57328e09584c5" title="Returns a copy of this URL, with a file-upload type parameter added to it.">withDataToUpload()</a>.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classURL.html#a5f3ceab4f85a42a811b57328e09584c5" title="Returns a copy of this URL, with a file-upload type parameter added to it.">withDataToUpload</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5f3ceab4f85a42a811b57328e09584c5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classURL.html">URL</a> URL::withDataToUpload </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>parameterName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMemoryBlock.html">MemoryBlock</a> &amp;&#160;</td>
+          <td class="paramname"><em>fileContentToUpload</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>mimeType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a copy of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>, with a file-upload type parameter added to it. </p>
+<p>When performing a POST where one of your parameters is a binary file, this lets you specify the file content. Note that the filename parameter should not be a full path, it's just the last part of the filename.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classURL.html#a341a3e78e1b831a33cf5a8a191573725" title="Returns a copy of this URL, with a file-upload type parameter added to it.">withFileToUpload</a> </dd></dl>
 
 </div>
 </div>
@@ -619,41 +659,6 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0cc39c1f6c4457e980062b3c23b51b17"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classStringPairArray.html">StringPairArray</a>&amp; URL::getFilesToUpload </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the set of files that should be uploaded as part of a POST operation. </p>
-<p>This is the set of files that were added to the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a> with the <a class="el" href="classURL.html#a341a3e78e1b831a33cf5a8a191573725" title="Returns a copy of this URl, with a file-upload type parameter added to it.">withFileToUpload()</a> method. </p>
-
-</div>
-</div>
-<a class="anchor" id="a055846868f227b034a3999f19a887b20"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classStringPairArray.html">StringPairArray</a>&amp; URL::getMimeTypesOfUploadFiles </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the set of mime types associated with each of the upload files. </p>
-
-</div>
-</div>
 <a class="anchor" id="a9fe9f66a50ff9f6d6d1bcb47ad3ead2a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -671,7 +676,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Returns a copy of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>, with a block of data to send as the POST data. </p>
 <p>If you're setting the POST data, be careful not to have any parameters set as well, otherwise it'll all get thrown in together, and might not have the desired effect.</p>
 <p>If the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a> already contains some POST data, this will replace it, rather than being appended to it.</p>
-<p>This data will only be used if you specify a post operation when you call <a class="el" href="classURL.html#af01708ef530d2c3864d2fea4aa757e44" title="Attempts to open a stream that can read from this URL.">createInputStream()</a>. </p>
+<p>This data will only be used if you specify a post operation when you call <a class="el" href="classURL.html#a48a8140f0f776e0a5fb7f6fb89b590e9" title="Attempts to open a stream that can read from this URL.">createInputStream()</a>. </p>
 
 </div>
 </div>
@@ -772,7 +777,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af01708ef530d2c3864d2fea4aa757e44"></a>
+<a class="anchor" id="a48a8140f0f776e0a5fb7f6fb89b590e9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -810,7 +815,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classStringPairArray.html">StringPairArray</a> *&#160;</td>
-          <td class="paramname"><em>responseHeaders</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>responseHeaders</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>statusCode</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -828,7 +839,8 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">progressCallbackContext</td><td>if a callback is specified, this value will be passed to the function </td></tr>
     <tr><td class="paramname">extraHeaders</td><td>if not empty, this string is appended onto the headers that are used for the request. It must therefore be a valid set of HTML header directives, separated by newlines. </td></tr>
     <tr><td class="paramname">connectionTimeOutMs</td><td>if 0, this will use whatever default setting the OS chooses. If a negative number, it will be infinite. Otherwise it specifies a time in milliseconds. </td></tr>
-    <tr><td class="paramname">responseHeaders</td><td>if this is non-zero, all the (key, value) pairs received as headers in the response will be stored in this array </td></tr>
+    <tr><td class="paramname">responseHeaders</td><td>if this is non-null, all the (key, value) pairs received as headers in the response will be stored in this array </td></tr>
+    <tr><td class="paramname">statusCode</td><td>if this is non-null, it will get set to the http status code, if one is known, or 0 if a code isn't available </td></tr>
   </table>
   </dd>
 </dl>

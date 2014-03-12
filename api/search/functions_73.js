@@ -375,6 +375,7 @@ var searchData=
   ['setopaque',['setOpaque',['../classComponent.html#a7320d543cba40183c894474ab78798ea',1,'Component']]],
   ['setopen',['setOpen',['../classTreeViewItem.html#ae1d86e63026471f8edea97f7dc5fd05f',1,'TreeViewItem']]],
   ['setopenclosebuttonsvisible',['setOpenCloseButtonsVisible',['../classTreeView.html#abe04eaa5b5df3a1d37187d002c174e24',1,'TreeView']]],
+  ['setopenglversionrequired',['setOpenGLVersionRequired',['../classOpenGLContext.html#a45a3bcd0cfcf94796ed43113a1866315',1,'OpenGLContext']]],
   ['setoptionsbuttontext',['setOptionsButtonText',['../classPluginListComponent.html#a0bb67479d0034ea9901088401a03281a',1,'PluginListComponent']]],
   ['setorientation',['setOrientation',['../classMidiKeyboardComponent.html#a9d57fd0840c352b1db80c258b5d54fdf',1,'MidiKeyboardComponent::setOrientation()'],['../classScrollBar.html#a5676d739d423d3daeeffd3d4176ef8ef',1,'ScrollBar::setOrientation()'],['../classTabbedButtonBar.html#af3ab3b5919eae222903e948ca85e3bd9',1,'TabbedButtonBar::setOrientation()'],['../classTabbedComponent.html#ad982540d7f5a188fa012550971ebb4d5',1,'TabbedComponent::setOrientation()']]],
   ['setorientationsenabled',['setOrientationsEnabled',['../classDesktop.html#a4c4e91683ca8ffef6724650b90b17293',1,'Desktop']]],

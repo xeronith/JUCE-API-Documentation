@@ -81,6 +81,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
@@ -93,6 +94,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Creates an OpenGL context, which can be attached to a component.  
  <a href="classOpenGLContext.html#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a3a6b8eeed7dbc7c7c649528252c07d02"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a3a6b8eeed7dbc7c7c649528252c07d02">OpenGLVersion</a> { <a class="el" href="classOpenGLContext.html#a3a6b8eeed7dbc7c7c649528252c07d02abfbb3238e2943fa532a03e1473ac1baf">defaultGLVersion</a> = 0, 
+<a class="el" href="classOpenGLContext.html#a3a6b8eeed7dbc7c7c649528252c07d02a360335be2efbcff04897b872de9b8e45">openGL3_2</a>
+ }</td></tr>
+<tr class="memdesc:a3a6b8eeed7dbc7c7c649528252c07d02"><td class="mdescLeft">&#160;</td><td class="mdescRight">OpenGL versions, used by <a class="el" href="classOpenGLContext.html#a45a3bcd0cfcf94796ed43113a1866315" title="Sets a preference for the version of GL that this context should use, if possible.">setOpenGLVersionRequired()</a>.  <a href="classOpenGLContext.html#a3a6b8eeed7dbc7c7c649528252c07d02">More...</a><br/></td></tr>
+<tr class="separator:a3a6b8eeed7dbc7c7c649528252c07d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9be23e3642f28848a26cd00669f0b4d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a9be23e3642f28848a26cd00669f0b4d7">OpenGLContext</a> ()</td></tr>
@@ -127,6 +136,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab0bb8babf0f652ea2b7b10f0fec9f6e7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#ab0bb8babf0f652ea2b7b10f0fec9f6e7">areShadersAvailable</a> () const </td></tr>
 <tr class="memdesc:ab0bb8babf0f652ea2b7b10f0fec9f6e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if shaders can be used in this context.  <a href="#ab0bb8babf0f652ea2b7b10f0fec9f6e7"></a><br/></td></tr>
 <tr class="separator:ab0bb8babf0f652ea2b7b10f0fec9f6e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45a3bcd0cfcf94796ed43113a1866315"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a45a3bcd0cfcf94796ed43113a1866315">setOpenGLVersionRequired</a> (<a class="el" href="classOpenGLContext.html#a3a6b8eeed7dbc7c7c649528252c07d02">OpenGLVersion</a>) noexcept</td></tr>
+<tr class="memdesc:a45a3bcd0cfcf94796ed43113a1866315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a preference for the version of GL that this context should use, if possible.  <a href="#a45a3bcd0cfcf94796ed43113a1866315"></a><br/></td></tr>
+<tr class="separator:a45a3bcd0cfcf94796ed43113a1866315"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa4cf6bbdb662b106cd44c203b8abb1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#aaa4cf6bbdb662b106cd44c203b8abb1a">setComponentPaintingEnabled</a> (bool shouldPaintComponent) noexcept</td></tr>
 <tr class="memdesc:aaa4cf6bbdb662b106cd44c203b8abb1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or disables the use of the GL context to perform 2D rendering of the component to which it is attached.  <a href="#aaa4cf6bbdb662b106cd44c203b8abb1a"></a><br/></td></tr>
 <tr class="separator:aaa4cf6bbdb662b106cd44c203b8abb1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,7 +203,30 @@ Public Attributes</h2></td></tr>
 <p>To provide threaded rendering, you can supply an <a class="el" href="classOpenGLRenderer.html" title="A base class that should be implemented by classes which want to render openGL on a background thread...">OpenGLRenderer</a> object that will be used to render each frame.</p>
 <p>Before your target component or <a class="el" href="classOpenGLRenderer.html" title="A base class that should be implemented by classes which want to render openGL on a background thread...">OpenGLRenderer</a> is deleted, you MUST call <a class="el" href="classOpenGLContext.html#a7504aa8928c854732090ee9583e9f37d" title="Detaches the context from its target component and deletes any native resources.">detach()</a> or delete the <a class="el" href="classOpenGLContext.html" title="Creates an OpenGL context, which can be attached to a component.">OpenGLContext</a> to allow the background thread to stop and the native resources to be freed safely.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOpenGLRenderer.html" title="A base class that should be implemented by classes which want to render openGL on a background thread...">OpenGLRenderer</a> </dd></dl>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="a3a6b8eeed7dbc7c7c649528252c07d02"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classOpenGLContext.html#a3a6b8eeed7dbc7c7c649528252c07d02">OpenGLContext::OpenGLVersion</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>OpenGL versions, used by <a class="el" href="classOpenGLContext.html#a45a3bcd0cfcf94796ed43113a1866315" title="Sets a preference for the version of GL that this context should use, if possible.">setOpenGLVersionRequired()</a>. </p>
+<dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" id="a3a6b8eeed7dbc7c7c649528252c07d02abfbb3238e2943fa532a03e1473ac1baf"></a>defaultGLVersion</em>&nbsp;</td><td>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a3a6b8eeed7dbc7c7c649528252c07d02a360335be2efbcff04897b872de9b8e45"></a>openGL3_2</em>&nbsp;</td><td>
+</td></tr>
+</table>
+</dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a9be23e3642f28848a26cd00669f0b4d7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -436,6 +471,33 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns true if shaders can be used in this context. </p>
+
+</div>
+</div>
+<a class="anchor" id="a45a3bcd0cfcf94796ed43113a1866315"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenGLContext::setOpenGLVersionRequired </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classOpenGLContext.html#a3a6b8eeed7dbc7c7c649528252c07d02">OpenGLVersion</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets a preference for the version of GL that this context should use, if possible. </p>
+<p>Some platforms may ignore this value. </p>
 
 </div>
 </div>
