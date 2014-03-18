@@ -15,7 +15,7 @@ var searchData=
   ['needs_5ftrans',['NEEDS_TRANS',['../juce__LocalisedStrings_8h.html#afeb9a504a09d3e5d1148fb0c40413ae2',1,'juce_LocalisedStrings.h']]],
   ['needstobesaved',['needsToBeSaved',['../classPropertiesFile.html#af9e77e3bde952ed5face05c19cd51ed4',1,'PropertiesFile']]],
   ['needtoclip',['needToClip',['../classLowLevelGraphicsPostScriptRenderer.html#a75772619fb8c5d185cd82b48ee46822e',1,'LowLevelGraphicsPostScriptRenderer']]],
-  ['negate',['negate',['../classFloatVectorOperations.html#ac9ea8d3e460667b69be7c9f0e7590299',1,'FloatVectorOperations::negate()'],['../classBigInteger.html#a2f597f0f63ffc2410423626c5a850e60',1,'BigInteger::negate()']]],
+  ['negate',['negate',['../classFloatVectorOperations.html#ac9ea8d3e460667b69be7c9f0e7590299',1,'FloatVectorOperations::negate(float *dest, const float *src, int numValues) noexcept'],['../classFloatVectorOperations.html#a32ea0fd222be354458651ed99739adf1',1,'FloatVectorOperations::negate(double *dest, const double *src, int numValues) noexcept'],['../classBigInteger.html#a2f597f0f63ffc2410423626c5a850e60',1,'BigInteger::negate()']]],
   ['negativeawaremodulo',['negativeAwareModulo',['../juce__MathsFunctions_8h.html#a3cfa905495cba62bd9ad2b73d2dc3f1c',1,'juce_MathsFunctions.h']]],
   ['newline',['NewLine',['../classNewLine.html',1,'NewLine'],['../juce__NewLine_8h.html#abd231b88341c3e2c328178d34f3ce8fb',1,'newLine():&#160;juce_NewLine.h']]],
   ['newopenglcontextcreated',['newOpenGLContextCreated',['../classOpenGLRenderer.html#a59d6279104b47109cf2042b13ae5b61d',1,'OpenGLRenderer']]],

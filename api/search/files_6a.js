@@ -413,6 +413,7 @@ var searchData=
   ['juce_5fweakreference_2eh',['juce_WeakReference.h',['../juce__WeakReference_8h.html',1,'']]],
   ['juce_5fwebbrowsercomponent_2eh',['juce_WebBrowserComponent.h',['../juce__WebBrowserComponent_8h.html',1,'']]],
   ['juce_5fwildcardfilefilter_2eh',['juce_WildcardFileFilter.h',['../juce__WildcardFileFilter_8h.html',1,'']]],
+  ['juce_5fwindowshooks_2eh',['juce_WindowsHooks.h',['../juce__WindowsHooks_8h.html',1,'']]],
   ['juce_5fwindowsmediaaudioformat_2eh',['juce_WindowsMediaAudioFormat.h',['../juce__WindowsMediaAudioFormat_8h.html',1,'']]],
   ['juce_5fwindowsregistry_2eh',['juce_WindowsRegistry.h',['../juce__WindowsRegistry_8h.html',1,'']]],
   ['juce_5fxmlcodetokeniser_2eh',['juce_XMLCodeTokeniser.h',['../juce__XMLCodeTokeniser_8h.html',1,'']]],

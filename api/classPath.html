@@ -245,6 +245,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2ee3f81a2712d4c31f59f1a8edba4111"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#a2ee3f81a2712d4c31f59f1a8edba4111">swapWithPath</a> (<a class="el" href="classPath.html">Path</a> &amp;) noexcept</td></tr>
 <tr class="memdesc:a2ee3f81a2712d4c31f59f1a8edba4111"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps the contents of this path with another one.  <a href="#a2ee3f81a2712d4c31f59f1a8edba4111"></a><br/></td></tr>
 <tr class="separator:a2ee3f81a2712d4c31f59f1a8edba4111"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aead99ae2d7abf0063362eac7a8e9e776"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#aead99ae2d7abf0063362eac7a8e9e776">preallocateSpace</a> (int numExtraCoordsToMakeSpaceFor)</td></tr>
+<tr class="memdesc:aead99ae2d7abf0063362eac7a8e9e776"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preallocates enough space for adding the given number of coordinates to the path.  <a href="#aead99ae2d7abf0063362eac7a8e9e776"></a><br/></td></tr>
+<tr class="separator:aead99ae2d7abf0063362eac7a8e9e776"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afad2558a4296d94b9f5640281ec3c0c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#afad2558a4296d94b9f5640281ec3c0c3">applyTransform</a> (const <a class="el" href="classAffineTransform.html">AffineTransform</a> &amp;transform) noexcept</td></tr>
 <tr class="memdesc:afad2558a4296d94b9f5640281ec3c0c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a 2D transform to all the vertices in the path.  <a href="#afad2558a4296d94b9f5640281ec3c0c3"></a><br/></td></tr>
 <tr class="separator:afad2558a4296d94b9f5640281ec3c0c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2058,6 +2061,25 @@ template&lt;typename ValueType &gt; </div>
 
 <p>Swaps the contents of this path with another one. </p>
 <p>The internal data of the two paths is swapped over, so this is much faster than copying it to a temp variable and back. </p>
+
+</div>
+</div>
+<a class="anchor" id="aead99ae2d7abf0063362eac7a8e9e776"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Path::preallocateSpace </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numExtraCoordsToMakeSpaceFor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Preallocates enough space for adding the given number of coordinates to the path. </p>
+<p>If you're about to add a large number of lines or curves to the path, it can make the task much more efficient to call this first and avoid costly reallocations as the structure grows. The actual value to pass is a bit tricky to calculate because the space required depends on what you're adding - e.g. each <a class="el" href="classPath.html#a6cfdf1dea900089ffee8eea61385062e" title="Adds a line from the shape&#39;s last position to a new end-point.">lineTo()</a> or <a class="el" href="classPath.html#a9c24222b2226b0e082069dbf789dca07" title="Begins a new subpath with a given starting position.">startNewSubPath()</a> will require 3 coords (x, y and a type marker). Each <a class="el" href="classPath.html#ab50510cf385b9ea3fe64fef6be45f85b" title="Adds a quadratic bezier curve from the shape&#39;s last position to a new position.">quadraticTo()</a> will need 5, and a <a class="el" href="classPath.html#a654df5afb3c113c0f6c5391a88d21811" title="Adds a cubic bezier curve from the shape&#39;s last position to a new position.">cubicTo()</a> will require 7. Closing a sub-path will require 1. </p>
 
 </div>
 </div>

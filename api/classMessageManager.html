@@ -126,7 +126,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa64162d4d9711b2c299e66775b57f414"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the ID of the current message thread, as set by <a class="el" href="classMessageManager.html#af94f78debd3b3d70acade65f50c5058e" title="Called to tell the manager that the current thread is the one that&#39;s running the dispatch loop...">setCurrentThreadAsMessageThread()</a>.  <a href="#aa64162d4d9711b2c299e66775b57f414"></a><br/></td></tr>
 <tr class="separator:aa64162d4d9711b2c299e66775b57f414"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebd4b8896d7b6bdfa34d3cd8eb2e1777"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageManager.html#aebd4b8896d7b6bdfa34d3cd8eb2e1777">currentThreadHasLockedMessageManager</a> () const noexcept</td></tr>
-<tr class="memdesc:aebd4b8896d7b6bdfa34d3cd8eb2e1777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the caller thread has currenltly got the message manager locked.  <a href="#aebd4b8896d7b6bdfa34d3cd8eb2e1777"></a><br/></td></tr>
+<tr class="memdesc:aebd4b8896d7b6bdfa34d3cd8eb2e1777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the caller thread has currently got the message manager locked.  <a href="#aebd4b8896d7b6bdfa34d3cd8eb2e1777"></a><br/></td></tr>
 <tr class="separator:aebd4b8896d7b6bdfa34d3cd8eb2e1777"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4ee5d1cae2b55eb45507b491489e5de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageManager.html#ad4ee5d1cae2b55eb45507b491489e5de">registerBroadcastListener</a> (<a class="el" href="classActionListener.html">ActionListener</a> *listener)</td></tr>
 <tr class="memdesc:ad4ee5d1cae2b55eb45507b491489e5de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a listener to get told about broadcast messages.  <a href="#ad4ee5d1cae2b55eb45507b491489e5de"></a><br/></td></tr>
@@ -444,7 +444,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns true if the caller thread has currenltly got the message manager locked. </p>
+<p>Returns true if the caller thread has currently got the message manager locked. </p>
 <p>see the <a class="el" href="classMessageManagerLock.html" title="Used to make sure that the calling thread has exclusive access to the message loop.">MessageManagerLock</a> class for more info about this.</p>
 <p>This will be true if the caller is the message thread, because that automatically gains a lock while a message is being dispatched. </p>
 

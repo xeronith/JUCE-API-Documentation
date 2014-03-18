@@ -5,7 +5,7 @@ var searchData=
   ['nativefunctionargs',['NativeFunctionArgs',['../structvar_1_1NativeFunctionArgs.html#a8ee7e2f72e487191674312e3da2e2996',1,'var::NativeFunctionArgs']]],
   ['nativeimagetype',['NativeImageType',['../classNativeImageType.html#a55b2d128303a0a60a8a44490c64b87b2',1,'NativeImageType']]],
   ['needstobesaved',['needsToBeSaved',['../classPropertiesFile.html#af9e77e3bde952ed5face05c19cd51ed4',1,'PropertiesFile']]],
-  ['negate',['negate',['../classFloatVectorOperations.html#ac9ea8d3e460667b69be7c9f0e7590299',1,'FloatVectorOperations::negate()'],['../classBigInteger.html#a2f597f0f63ffc2410423626c5a850e60',1,'BigInteger::negate()']]],
+  ['negate',['negate',['../classFloatVectorOperations.html#ac9ea8d3e460667b69be7c9f0e7590299',1,'FloatVectorOperations::negate(float *dest, const float *src, int numValues) noexcept'],['../classFloatVectorOperations.html#a32ea0fd222be354458651ed99739adf1',1,'FloatVectorOperations::negate(double *dest, const double *src, int numValues) noexcept'],['../classBigInteger.html#a2f597f0f63ffc2410423626c5a850e60',1,'BigInteger::negate()']]],
   ['negativeawaremodulo',['negativeAwareModulo',['../juce__MathsFunctions_8h.html#a3cfa905495cba62bd9ad2b73d2dc3f1c',1,'juce_MathsFunctions.h']]],
   ['newopenglcontextcreated',['newOpenGLContextCreated',['../classOpenGLRenderer.html#a59d6279104b47109cf2042b13ae5b61d',1,'OpenGLRenderer']]],
   ['newtransaction',['newTransaction',['../classTextEditor.html#ac1cdc461e88ca484f3528d74a7e1d27c',1,'TextEditor::newTransaction()'],['../classCodeDocument.html#a507bca2d6747323276b938670584f354',1,'CodeDocument::newTransaction()']]],

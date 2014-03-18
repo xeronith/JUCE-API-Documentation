@@ -177,9 +177,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8f959a32929508ffe32febfd6b23b067"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a8f959a32929508ffe32febfd6b23b067">copyFromWithRamp</a> (int destChannel, int destStartSample, const float *source, int numSamples, float startGain, float endGain) noexcept</td></tr>
 <tr class="memdesc:a8f959a32929508ffe32febfd6b23b067"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies samples from an array of floats into one of the channels, applying a gain ramp.  <a href="#a8f959a32929508ffe32febfd6b23b067"></a><br/></td></tr>
 <tr class="separator:a8f959a32929508ffe32febfd6b23b067"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8437ba95ed483c8a9de8be252e9869fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a8437ba95ed483c8a9de8be252e9869fe">findMinMax</a> (int channel, int startSample, int numSamples, float &amp;minVal, float &amp;maxVal) const noexcept</td></tr>
-<tr class="memdesc:a8437ba95ed483c8a9de8be252e9869fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the highest and lowest sample values in a given range.  <a href="#a8437ba95ed483c8a9de8be252e9869fe"></a><br/></td></tr>
-<tr class="separator:a8437ba95ed483c8a9de8be252e9869fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4b1e7dcc3f4a6073b8bf07f21c20b2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRange.html">Range</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#af4b1e7dcc3f4a6073b8bf07f21c20b2e">findMinMax</a> (int channel, int startSample, int numSamples) const noexcept</td></tr>
+<tr class="memdesc:af4b1e7dcc3f4a6073b8bf07f21c20b2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classRange.html" title="A general-purpose range object, that simply represents any linear range with a start and end point...">Range</a> indicating the lowest and highest sample values in a given section.  <a href="#af4b1e7dcc3f4a6073b8bf07f21c20b2e"></a><br/></td></tr>
+<tr class="separator:af4b1e7dcc3f4a6073b8bf07f21c20b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a480f1b14860eae3e0643db5f2330587d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a480f1b14860eae3e0643db5f2330587d">getMagnitude</a> (int channel, int startSample, int numSamples) const noexcept</td></tr>
 <tr class="memdesc:a480f1b14860eae3e0643db5f2330587d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the highest absolute sample value within a region of a channel.  <a href="#a480f1b14860eae3e0643db5f2330587d"></a><br/></td></tr>
 <tr class="separator:a480f1b14860eae3e0643db5f2330587d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1499,7 +1499,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8437ba95ed483c8a9de8be252e9869fe"></a>
+<a class="anchor" id="af4b1e7dcc3f4a6073b8bf07f21c20b2e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1507,7 +1507,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioSampleBuffer::findMinMax </td>
+          <td class="memname"><a class="el" href="classRange.html">Range</a>&lt;float&gt; AudioSampleBuffer::findMinMax </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>channel</em>, </td>
@@ -1522,19 +1522,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>numSamples</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float &amp;&#160;</td>
-          <td class="paramname"><em>minVal</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float &amp;&#160;</td>
-          <td class="paramname"><em>maxVal</em>&#160;</td>
+          <td class="paramname"><em>numSamples</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1549,14 +1537,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Finds the highest and lowest sample values in a given range. </p>
+<p>Returns a <a class="el" href="classRange.html" title="A general-purpose range object, that simply represents any linear range with a start and end point...">Range</a> indicating the lowest and highest sample values in a given section. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">channel</td><td>the channel to read from </td></tr>
     <tr><td class="paramname">startSample</td><td>the start sample within the channel </td></tr>
     <tr><td class="paramname">numSamples</td><td>the number of samples to check </td></tr>
-    <tr><td class="paramname">minVal</td><td>on return, the lowest value that was found </td></tr>
-    <tr><td class="paramname">maxVal</td><td>on return, the highest value that was found </td></tr>
   </table>
   </dd>
 </dl>

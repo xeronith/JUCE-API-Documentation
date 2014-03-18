@@ -110,6 +110,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6004f344c666ff693af0b3cc773379e4"><td class="memItemLeft" align="right" valign="top">static void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLHelpers.html#a6004f344c666ff693af0b3cc773379e4">getExtensionFunction</a> (const char *functionName)</td></tr>
 <tr class="memdesc:a6004f344c666ff693af0b3cc773379e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the address of a named GL extension function.  <a href="#a6004f344c666ff693af0b3cc773379e4"></a><br/></td></tr>
 <tr class="separator:a6004f344c666ff693af0b3cc773379e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac27428c0cc85d3fb8a05f51d7d37c54a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLHelpers.html#ac27428c0cc85d3fb8a05f51d7d37c54a">translateVertexShaderToV3</a> (const <a class="el" href="classString.html">String</a> &amp;)</td></tr>
+<tr class="memdesc:ac27428c0cc85d3fb8a05f51d7d37c54a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes some simple textual changes to a shader program to try to convert old GLSL keywords to their v3 equivalents.  <a href="#ac27428c0cc85d3fb8a05f51d7d37c54a"></a><br/></td></tr>
+<tr class="separator:ac27428c0cc85d3fb8a05f51d7d37c54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21361ca2e48b2b290363722d5e2990a2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLHelpers.html#a21361ca2e48b2b290363722d5e2990a2">translateFragmentShaderToV3</a> (const <a class="el" href="classString.html">String</a> &amp;)</td></tr>
+<tr class="memdesc:a21361ca2e48b2b290363722d5e2990a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes some simple textual changes to a shader program to try to convert old GLSL keywords to their v3 equivalents.  <a href="#a21361ca2e48b2b290363722d5e2990a2"></a><br/></td></tr>
+<tr class="separator:a21361ca2e48b2b290363722d5e2990a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A set of miscellaneous openGL helper functions. </p>
@@ -263,6 +269,60 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the address of a named GL extension function. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac27428c0cc85d3fb8a05f51d7d37c54a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classString.html">String</a> OpenGLHelpers::translateVertexShaderToV3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Makes some simple textual changes to a shader program to try to convert old GLSL keywords to their v3 equivalents. </p>
+<p>Before doing this, the function will check whether the current context is actually using a later version of the language, and if not it will not make any changes. Obviously this is not a real parser, so will only work on simple code! </p>
+
+</div>
+</div>
+<a class="anchor" id="a21361ca2e48b2b290363722d5e2990a2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classString.html">String</a> OpenGLHelpers::translateFragmentShaderToV3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Makes some simple textual changes to a shader program to try to convert old GLSL keywords to their v3 equivalents. </p>
+<p>Before doing this, the function will check whether the current context is actually using a later version of the language, and if not it will not make any changes. Obviously this is not a real parser, so will only work on simple code! </p>
 
 </div>
 </div>

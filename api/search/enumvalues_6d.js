@@ -5,6 +5,7 @@ var searchData=
   ['macosx_5f10_5f6',['MacOSX_10_6',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaa23c2a4b9a33a4b5dccb9d89491aff8ca',1,'SystemStats']]],
   ['macosx_5f10_5f7',['MacOSX_10_7',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaa73d61823d6a922d10c2f85b796de7a44',1,'SystemStats']]],
   ['macosx_5f10_5f8',['MacOSX_10_8',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaa61eb1fabeb6408094768af66ae88b877',1,'SystemStats']]],
+  ['macosx_5f10_5f9',['MacOSX_10_9',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaac277e46154ed3bb3ad5c8564dc81aa7a',1,'SystemStats']]],
   ['magixsamplitude',['MagixSamplitude',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a93ac4b1eea045db98d9ab7fbcd7207c0',1,'PluginHostType']]],
   ['maximisebutton',['maximiseButton',['../classDocumentWindow.html#a104d68bc145157c6ce79169a36fc3c31a84fe4bbe25739fe241f2e6128e7a51c9',1,'DocumentWindow']]],
   ['maximisedwindowswithtabs',['MaximisedWindowsWithTabs',['../classMultiDocumentPanel.html#a493599178acb0ddea50f7059faa4f8f3abefd8f86bfe674ec6c95337947d3754c',1,'MultiDocumentPanel']]],
