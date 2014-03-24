@@ -117,15 +117,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a088de80118f6107423317ae8842df80f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a088de80118f6107423317ae8842df80f">getNumSamples</a> () const noexcept</td></tr>
 <tr class="memdesc:a088de80118f6107423317ae8842df80f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of samples allocated in each of the buffer's channels.  <a href="#a088de80118f6107423317ae8842df80f"></a><br/></td></tr>
 <tr class="separator:a088de80118f6107423317ae8842df80f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d24f9689a2d2c5731fa8cb5b1b71799"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a3d24f9689a2d2c5731fa8cb5b1b71799">getSampleData</a> (const int channelNumber) const noexcept</td></tr>
-<tr class="memdesc:a3d24f9689a2d2c5731fa8cb5b1b71799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer one of the buffer's channels.  <a href="#a3d24f9689a2d2c5731fa8cb5b1b71799"></a><br/></td></tr>
-<tr class="separator:a3d24f9689a2d2c5731fa8cb5b1b71799"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4ac8c89207c658426c511258959dccd"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#ab4ac8c89207c658426c511258959dccd">getSampleData</a> (const int channelNumber, const int sampleOffset) const noexcept</td></tr>
-<tr class="memdesc:ab4ac8c89207c658426c511258959dccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to a sample in one of the buffer's channels.  <a href="#ab4ac8c89207c658426c511258959dccd"></a><br/></td></tr>
-<tr class="separator:ab4ac8c89207c658426c511258959dccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5517bf7c927e36d412515b8982dc6e26"><td class="memItemLeft" align="right" valign="top">float **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a5517bf7c927e36d412515b8982dc6e26">getArrayOfChannels</a> () const noexcept</td></tr>
-<tr class="memdesc:a5517bf7c927e36d412515b8982dc6e26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an array of pointers to the channels in the buffer.  <a href="#a5517bf7c927e36d412515b8982dc6e26"></a><br/></td></tr>
-<tr class="separator:a5517bf7c927e36d412515b8982dc6e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cc6f0ba6d7d82d39f2913cbfe6c8659"><td class="memItemLeft" align="right" valign="top">const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a4cc6f0ba6d7d82d39f2913cbfe6c8659">getReadPointer</a> (int channelNumber) const noexcept</td></tr>
+<tr class="memdesc:a4cc6f0ba6d7d82d39f2913cbfe6c8659"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to an array of read-only samples in one of the buffer's channels.  <a href="#a4cc6f0ba6d7d82d39f2913cbfe6c8659"></a><br/></td></tr>
+<tr class="separator:a4cc6f0ba6d7d82d39f2913cbfe6c8659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e8d8c50beda1bfc283743019ffa2727"><td class="memItemLeft" align="right" valign="top">const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a7e8d8c50beda1bfc283743019ffa2727">getReadPointer</a> (int channelNumber, int sampleIndex) const noexcept</td></tr>
+<tr class="memdesc:a7e8d8c50beda1bfc283743019ffa2727"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to an array of read-only samples in one of the buffer's channels.  <a href="#a7e8d8c50beda1bfc283743019ffa2727"></a><br/></td></tr>
+<tr class="separator:a7e8d8c50beda1bfc283743019ffa2727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d6292d548080770a526cbe7256a2d4b"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a4d6292d548080770a526cbe7256a2d4b">getWritePointer</a> (int channelNumber) noexcept</td></tr>
+<tr class="memdesc:a4d6292d548080770a526cbe7256a2d4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a writeable pointer to one of the buffer's channels.  <a href="#a4d6292d548080770a526cbe7256a2d4b"></a><br/></td></tr>
+<tr class="separator:a4d6292d548080770a526cbe7256a2d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9307a8d0bac169e7f35002c52b203a8"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#ae9307a8d0bac169e7f35002c52b203a8">getWritePointer</a> (int channelNumber, int sampleIndex) noexcept</td></tr>
+<tr class="memdesc:ae9307a8d0bac169e7f35002c52b203a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a writeable pointer to one of the buffer's channels.  <a href="#ae9307a8d0bac169e7f35002c52b203a8"></a><br/></td></tr>
+<tr class="separator:ae9307a8d0bac169e7f35002c52b203a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd1170260292b6a5f5f9b4e3643d6b49"><td class="memItemLeft" align="right" valign="top">const float **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#afd1170260292b6a5f5f9b4e3643d6b49">getArrayOfReadPointers</a> () const noexcept</td></tr>
+<tr class="memdesc:afd1170260292b6a5f5f9b4e3643d6b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an array of pointers to the channels in the buffer.  <a href="#afd1170260292b6a5f5f9b4e3643d6b49"></a><br/></td></tr>
+<tr class="separator:afd1170260292b6a5f5f9b4e3643d6b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43f132ea43333474903b9c329c030138"><td class="memItemLeft" align="right" valign="top">float **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a43f132ea43333474903b9c329c030138">getArrayOfWritePointers</a> () noexcept</td></tr>
+<tr class="memdesc:a43f132ea43333474903b9c329c030138"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an array of pointers to the channels in the buffer.  <a href="#a43f132ea43333474903b9c329c030138"></a><br/></td></tr>
+<tr class="separator:a43f132ea43333474903b9c329c030138"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f915a98cbf1ebd177eeec995263a081"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a7f915a98cbf1ebd177eeec995263a081">setSize</a> (int newNumChannels, int newNumSamples, bool keepExistingContent=false, bool clearExtraSpace=false, bool avoidReallocating=false) noexcept</td></tr>
 <tr class="memdesc:a7f915a98cbf1ebd177eeec995263a081"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the buffer's size or number of channels.  <a href="#a7f915a98cbf1ebd177eeec995263a081"></a><br/></td></tr>
 <tr class="separator:a7f915a98cbf1ebd177eeec995263a081"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,6 +150,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2f387024724b383ed277b5a137a236be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a2f387024724b383ed277b5a137a236be">clear</a> (int channel, int startSample, int numSamples) noexcept</td></tr>
 <tr class="memdesc:a2f387024724b383ed277b5a137a236be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears a specified region of just one channel.  <a href="#a2f387024724b383ed277b5a137a236be"></a><br/></td></tr>
 <tr class="separator:a2f387024724b383ed277b5a137a236be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1d40c594834fa7e98f6cf568a167f5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#aa1d40c594834fa7e98f6cf568a167f5a">hasBeenCleared</a> () const noexcept</td></tr>
+<tr class="memdesc:aa1d40c594834fa7e98f6cf568a167f5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the buffer has been entirely cleared.  <a href="#aa1d40c594834fa7e98f6cf568a167f5a"></a><br/></td></tr>
+<tr class="separator:aa1d40c594834fa7e98f6cf568a167f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec0d47af1e543740fc8d749221e3844a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#aec0d47af1e543740fc8d749221e3844a">getSample</a> (int channel, int sampleIndex) const noexcept</td></tr>
+<tr class="memdesc:aec0d47af1e543740fc8d749221e3844a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a sample from the buffer.  <a href="#aec0d47af1e543740fc8d749221e3844a"></a><br/></td></tr>
+<tr class="separator:aec0d47af1e543740fc8d749221e3844a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf3f74dbf63659ae528cdc1f9b19d2a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#adf3f74dbf63659ae528cdc1f9b19d2a7">setSample</a> (int destChannel, int destSample, float newValue) noexcept</td></tr>
+<tr class="memdesc:adf3f74dbf63659ae528cdc1f9b19d2a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a sample in the buffer.  <a href="#adf3f74dbf63659ae528cdc1f9b19d2a7"></a><br/></td></tr>
+<tr class="separator:adf3f74dbf63659ae528cdc1f9b19d2a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9d27ccd1b66518ffd4d590ea8e9468b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#ac9d27ccd1b66518ffd4d590ea8e9468b">addSample</a> (int destChannel, int destSample, float valueToAdd) noexcept</td></tr>
+<tr class="memdesc:ac9d27ccd1b66518ffd4d590ea8e9468b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a value to a sample in the buffer.  <a href="#ac9d27ccd1b66518ffd4d590ea8e9468b"></a><br/></td></tr>
+<tr class="separator:ac9d27ccd1b66518ffd4d590ea8e9468b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b7d95cdb58d77184329c9d51f0f4a08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioSampleBuffer.html#a6b7d95cdb58d77184329c9d51f0f4a08">applyGain</a> (int channel, int startSample, int numSamples, float gain) noexcept</td></tr>
 <tr class="memdesc:a6b7d95cdb58d77184329c9d51f0f4a08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a gain multiple to a region of one channel.  <a href="#a6b7d95cdb58d77184329c9d51f0f4a08"></a><br/></td></tr>
 <tr class="separator:a6b7d95cdb58d77184329c9d51f0f4a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -449,9 +470,9 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the number of channels of audio data that this buffer contains. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioSampleBuffer.html#a3d24f9689a2d2c5731fa8cb5b1b71799" title="Returns a pointer one of the buffer&#39;s channels.">getSampleData</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd>getSampleData </dd></dl>
 
-<p>Referenced by <a class="el" href="namespaceVST3BufferExchange.html#a6d089c16c7bb47f49d38c8eda0c71a6c">VST3BufferExchange::associateBufferTo()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceVST3BufferExchange.html#a73b9fb312e8d047c2b9861c28e2f6c53">VST3BufferExchange::associateBufferTo()</a>.</p>
 
 </div>
 </div>
@@ -477,11 +498,11 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the number of samples allocated in each of the buffer's channels. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioSampleBuffer.html#a3d24f9689a2d2c5731fa8cb5b1b71799" title="Returns a pointer one of the buffer&#39;s channels.">getSampleData</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd>getSampleData </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a3d24f9689a2d2c5731fa8cb5b1b71799"></a>
+<a class="anchor" id="a4cc6f0ba6d7d82d39f2913cbfe6c8659"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -489,9 +510,9 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float* AudioSampleBuffer::getSampleData </td>
+          <td class="memname">const float* AudioSampleBuffer::getReadPointer </td>
           <td>(</td>
-          <td class="paramtype">const int&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>channelNumber</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -503,16 +524,14 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer one of the buffer's channels. </p>
-<p>For speed, this doesn't check whether the channel number is out of range, so be careful when using it! </p>
+<p>Returns a pointer to an array of read-only samples in one of the buffer's channels. </p>
+<p>For speed, this doesn't check whether the channel number is out of range, so be careful when using it! If you need to write to the data, do NOT call this method and const_cast the result! Instead, you must call getWritePointer so that the buffer knows you're planning on modifying the data. </p>
 
 <p>References <a class="el" href="juce__MathsFunctions_8h.html#a73c8f4283f104ebb3b9e026e5f487f1d">isPositiveAndBelow()</a>, and <a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceVST3BufferExchange.html#a6d089c16c7bb47f49d38c8eda0c71a6c">VST3BufferExchange::associateBufferTo()</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="ab4ac8c89207c658426c511258959dccd"></a>
+<a class="anchor" id="a7e8d8c50beda1bfc283743019ffa2727"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -520,16 +539,16 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float* AudioSampleBuffer::getSampleData </td>
+          <td class="memname">const float* AudioSampleBuffer::getReadPointer </td>
           <td>(</td>
-          <td class="paramtype">const int&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>channelNumber</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>sampleOffset</em>&#160;</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sampleIndex</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -544,14 +563,14 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to a sample in one of the buffer's channels. </p>
-<p>For speed, this doesn't check whether the channel and sample number are out-of-range, so be careful when using it! </p>
+<p>Returns a pointer to an array of read-only samples in one of the buffer's channels. </p>
+<p>For speed, this doesn't check whether the channel number or index are out of range, so be careful when using it! If you need to write to the data, do NOT call this method and const_cast the result! Instead, you must call getWritePointer so that the buffer knows you're planning on modifying the data. </p>
 
 <p>References <a class="el" href="juce__MathsFunctions_8h.html#a73c8f4283f104ebb3b9e026e5f487f1d">isPositiveAndBelow()</a>, and <a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5517bf7c927e36d412515b8982dc6e26"></a>
+<a class="anchor" id="a4d6292d548080770a526cbe7256a2d4b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -559,10 +578,106 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float** AudioSampleBuffer::getArrayOfChannels </td>
+          <td class="memname">float* AudioSampleBuffer::getWritePointer </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channelNumber</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a writeable pointer to one of the buffer's channels. </p>
+<p>For speed, this doesn't check whether the channel number is out of range, so be careful when using it! Note that if you're not planning on writing to the data, you should always use getReadPointer instead. </p>
+
+<p>References <a class="el" href="juce__MathsFunctions_8h.html#a73c8f4283f104ebb3b9e026e5f487f1d">isPositiveAndBelow()</a>, and <a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
+
+<p>Referenced by <a class="el" href="namespaceVST3BufferExchange.html#a73b9fb312e8d047c2b9861c28e2f6c53">VST3BufferExchange::associateBufferTo()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae9307a8d0bac169e7f35002c52b203a8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float* AudioSampleBuffer::getWritePointer </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channelNumber</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sampleIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a writeable pointer to one of the buffer's channels. </p>
+<p>For speed, this doesn't check whether the channel number or index are out of range, so be careful when using it! Note that if you're not planning on writing to the data, you should use getReadPointer instead. </p>
+
+<p>References <a class="el" href="juce__MathsFunctions_8h.html#a73c8f4283f104ebb3b9e026e5f487f1d">isPositiveAndBelow()</a>, and <a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afd1170260292b6a5f5f9b4e3643d6b49"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float** AudioSampleBuffer::getArrayOfReadPointers </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an array of pointers to the channels in the buffer. </p>
+<p>Don't modify any of the pointers that are returned, and bear in mind that these will become invalid if the buffer is resized. </p>
+
+</div>
+</div>
+<a class="anchor" id="a43f132ea43333474903b9c329c030138"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float** AudioSampleBuffer::getArrayOfWritePointers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -790,6 +905,155 @@ Public Member Functions</h2></td></tr>
 
 <p>Clears a specified region of just one channel. </p>
 <p>For speed, this doesn't check whether the channel and sample number are in-range, so be careful! </p>
+
+</div>
+</div>
+<a class="anchor" id="aa1d40c594834fa7e98f6cf568a167f5a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AudioSampleBuffer::hasBeenCleared </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the buffer has been entirely cleared. </p>
+<p>Note that this does not actually measure the contents of the buffer - it simply returns a flag that is set when the buffer is cleared, and which is reset whenever functions like <a class="el" href="classAudioSampleBuffer.html#a4d6292d548080770a526cbe7256a2d4b" title="Returns a writeable pointer to one of the buffer&#39;s channels.">getWritePointer()</a> are invoked. That means the method does not take any time, but it may return false negatives when in fact the buffer is still empty. </p>
+
+</div>
+</div>
+<a class="anchor" id="aec0d47af1e543740fc8d749221e3844a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AudioSampleBuffer::getSample </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sampleIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a sample from the buffer. </p>
+<p>The channel and index are not checked - they are expected to be in-range. If not, an assertion will be thrown, but in a release build, you're into 'undefined behaviour' territory. </p>
+
+</div>
+</div>
+<a class="anchor" id="adf3f74dbf63659ae528cdc1f9b19d2a7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSampleBuffer::setSample </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>destChannel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>destSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>newValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets a sample in the buffer. </p>
+<p>The channel and index are not checked - they are expected to be in-range. If not, an assertion will be thrown, but in a release build, you're into 'undefined behaviour' territory. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac9d27ccd1b66518ffd4d590ea8e9468b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSampleBuffer::addSample </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>destChannel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>destSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>valueToAdd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds a value to a sample in the buffer. </p>
+<p>The channel and index are not checked - they are expected to be in-range. If not, an assertion will be thrown, but in a release build, you're into 'undefined behaviour' territory. </p>
 
 </div>
 </div>

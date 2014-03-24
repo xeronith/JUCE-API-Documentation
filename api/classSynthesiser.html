@@ -176,6 +176,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:af1e89b81afbd33e270cdf1fdd257ae03"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classSynthesiserVoice.html">SynthesiserVoice</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#af1e89b81afbd33e270cdf1fdd257ae03">findFreeVoice</a> (<a class="el" href="classSynthesiserSound.html">SynthesiserSound</a> *soundToPlay, const bool stealIfNoneAvailable) const </td></tr>
 <tr class="memdesc:af1e89b81afbd33e270cdf1fdd257ae03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches through the voices to find one that's not currently playing, and which can play the given sound.  <a href="#af1e89b81afbd33e270cdf1fdd257ae03"></a><br/></td></tr>
 <tr class="separator:af1e89b81afbd33e270cdf1fdd257ae03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecda1b7cc873d69ee356d93db0788450"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classSynthesiserVoice.html">SynthesiserVoice</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#aecda1b7cc873d69ee356d93db0788450">findVoiceToSteal</a> (<a class="el" href="classSynthesiserSound.html">SynthesiserSound</a> *soundToPlay) const </td></tr>
+<tr class="memdesc:aecda1b7cc873d69ee356d93db0788450"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chooses a voice that is most suitable for being re-used.  <a href="#aecda1b7cc873d69ee356d93db0788450"></a><br/></td></tr>
+<tr class="separator:aecda1b7cc873d69ee356d93db0788450"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7004a46197236e29ae67916f8932d0a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#a7004a46197236e29ae67916f8932d0a4">startVoice</a> (<a class="el" href="classSynthesiserVoice.html">SynthesiserVoice</a> *voice, <a class="el" href="classSynthesiserSound.html">SynthesiserSound</a> *sound, int midiChannel, int midiNoteNumber, float velocity)</td></tr>
 <tr class="memdesc:a7004a46197236e29ae67916f8932d0a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts a specified voice playing a particular sound.  <a href="#a7004a46197236e29ae67916f8932d0a4"></a><br/></td></tr>
 <tr class="separator:a7004a46197236e29ae67916f8932d0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -982,6 +985,33 @@ Protected Attributes</h2></td></tr>
 <p>Searches through the voices to find one that's not currently playing, and which can play the given sound. </p>
 <p>Returns nullptr if all voices are busy and stealing isn't enabled.</p>
 <p>This can be overridden to implement custom voice-stealing algorithms. </p>
+
+</div>
+</div>
+<a class="anchor" id="aecda1b7cc873d69ee356d93db0788450"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classSynthesiserVoice.html">SynthesiserVoice</a>* Synthesiser::findVoiceToSteal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSynthesiserSound.html">SynthesiserSound</a> *&#160;</td>
+          <td class="paramname"><em>soundToPlay</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Chooses a voice that is most suitable for being re-used. </p>
+<p>The default method returns the one that has been playing for the longest, but you may want to override this and do something more cunning instead. </p>
 
 </div>
 </div>

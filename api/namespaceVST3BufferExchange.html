@@ -94,9 +94,9 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6d089c16c7bb47f49d38c8eda0c71a6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceVST3BufferExchange.html#a6d089c16c7bb47f49d38c8eda0c71a6c">associateBufferTo</a> (Steinberg::Vst::AudioBusBuffers &amp;vstBuffers, <a class="el" href="namespaceVST3BufferExchange.html#a91edf3f9dfed559a49a817696af76544">Bus</a> &amp;bus, const <a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;buffer, int numChannels, int channelStartOffset, int sampleOffset=0) noexcept</td></tr>
-<tr class="memdesc:a6d089c16c7bb47f49d38c8eda0c71a6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns a series of <a class="el" href="classAudioSampleBuffer.html" title="A multi-channel buffer of 32-bit floating point audio samples.">AudioSampleBuffer</a>'s channels to an AudioBusBuffers'.  <a href="#a6d089c16c7bb47f49d38c8eda0c71a6c"></a><br/></td></tr>
-<tr class="separator:a6d089c16c7bb47f49d38c8eda0c71a6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73b9fb312e8d047c2b9861c28e2f6c53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceVST3BufferExchange.html#a73b9fb312e8d047c2b9861c28e2f6c53">associateBufferTo</a> (Steinberg::Vst::AudioBusBuffers &amp;vstBuffers, <a class="el" href="namespaceVST3BufferExchange.html#a91edf3f9dfed559a49a817696af76544">Bus</a> &amp;bus, <a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;buffer, int numChannels, int channelStartOffset, int sampleOffset=0) noexcept</td></tr>
+<tr class="memdesc:a73b9fb312e8d047c2b9861c28e2f6c53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns a series of <a class="el" href="classAudioSampleBuffer.html" title="A multi-channel buffer of 32-bit floating point audio samples.">AudioSampleBuffer</a>'s channels to an AudioBusBuffers'.  <a href="#a73b9fb312e8d047c2b9861c28e2f6c53"></a><br/></td></tr>
+<tr class="separator:a73b9fb312e8d047c2b9861c28e2f6c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a class="anchor" id="a91edf3f9dfed559a49a817696af76544"></a>
@@ -124,7 +124,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a6d089c16c7bb47f49d38c8eda0c71a6c"></a>
+<a class="anchor" id="a73b9fb312e8d047c2b9861c28e2f6c53"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -146,7 +146,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;&#160;</td>
           <td class="paramname"><em>buffer</em>, </td>
         </tr>
         <tr>
@@ -183,7 +183,7 @@ Functions</h2></td></tr>
 <p>Assigns a series of <a class="el" href="classAudioSampleBuffer.html" title="A multi-channel buffer of 32-bit floating point audio samples.">AudioSampleBuffer</a>'s channels to an AudioBusBuffers'. </p>
 <dl class="section warning"><dt>Warning</dt><dd>For speed, does not check the channel count and offsets according to the <a class="el" href="classAudioSampleBuffer.html" title="A multi-channel buffer of 32-bit floating point audio samples.">AudioSampleBuffer</a> </dd></dl>
 
-<p>References <a class="el" href="classArray.html#a52da22e285e44171b6d6fa785a7d536a">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::add()</a>, <a class="el" href="classArray.html#a96bcb7013ec2d56da8b918da7fc0809c">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::clearQuick()</a>, <a class="el" href="classAudioSampleBuffer.html#a9ca619848ad4a981449ed92d7ba8bf71">AudioSampleBuffer::getNumChannels()</a>, <a class="el" href="classArray.html#a4c5c3e5ab20d17d6d5757e53773ba2ff">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getRawDataPointer()</a>, <a class="el" href="classAudioSampleBuffer.html#a3d24f9689a2d2c5731fa8cb5b1b71799">AudioSampleBuffer::getSampleData()</a>, and <a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
+<p>References <a class="el" href="classArray.html#a52da22e285e44171b6d6fa785a7d536a">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::add()</a>, <a class="el" href="classArray.html#a96bcb7013ec2d56da8b918da7fc0809c">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::clearQuick()</a>, <a class="el" href="classAudioSampleBuffer.html#a9ca619848ad4a981449ed92d7ba8bf71">AudioSampleBuffer::getNumChannels()</a>, <a class="el" href="classArray.html#a4c5c3e5ab20d17d6d5757e53773ba2ff">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getRawDataPointer()</a>, <a class="el" href="classAudioSampleBuffer.html#a4d6292d548080770a526cbe7256a2d4b">AudioSampleBuffer::getWritePointer()</a>, and <a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
 
 </div>
 </div>

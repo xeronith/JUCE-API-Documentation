@@ -14,7 +14,7 @@ var searchData=
   ['temporaryfile',['TemporaryFile',['../classTemporaryFile.html#a65662b1103831b0dfa323547284724c4',1,'TemporaryFile::TemporaryFile(const String &amp;suffix=String(), int optionFlags=0)'],['../classTemporaryFile.html#a7039b78139b7d1c0661a4e1307929127',1,'TemporaryFile::TemporaryFile(const File &amp;targetFile, int optionFlags=0)'],['../classTemporaryFile.html#acccfa18e501075be52d80c99443694cb',1,'TemporaryFile::TemporaryFile(const File &amp;targetFile, const File &amp;temporaryFile)']]],
   ['terminate',['terminate',['../classProcess.html#a2bf38d88851f9bb8e2cc8fd66f4affc3',1,'Process']]],
   ['testflags',['testFlags',['../classJustification.html#afdcebb7ecc5434a82f7e282d9f17c39f',1,'Justification::testFlags()'],['../classRectanglePlacement.html#aa1e542a01a80f5f7a53399dd2ee385a6',1,'RectanglePlacement::testFlags()'],['../classModifierKeys.html#af45a4e42e28ad7a89679898d644fc38b',1,'ModifierKeys::testFlags()']]],
-  ['textbutton',['TextButton',['../classTextButton.html#a3cf94c7f0c6fdc469a30f3623fd2235c',1,'TextButton']]],
+  ['textbutton',['TextButton',['../classTextButton.html#a375f0ed0d1e5a4845648582fedd89085',1,'TextButton::TextButton()'],['../classTextButton.html#afa2b8bd6f4c69cd0fa9315edf791ad8a',1,'TextButton::TextButton(const String &amp;buttonName, const String &amp;toolTip=String::empty)']]],
   ['textchanged',['textChanged',['../classTextEditor.html#a34e3b8ad5395d493da6fee6ce9775dc1',1,'TextEditor']]],
   ['textdiff',['TextDiff',['../classTextDiff.html#a3d5bbdb193c431b7145e477954a35de8',1,'TextDiff']]],
   ['textdragenter',['textDragEnter',['../classTextDragAndDropTarget.html#a1512abd580d1c2c4098dafebafb837ec',1,'TextDragAndDropTarget']]],
