@@ -224,7 +224,7 @@ var searchData=
   ['copytexture',['copyTexture',['../classOpenGLContext.html#ac0bf3594cb79029af5ee5eb66a14f152',1,'OpenGLContext']]],
   ['copyto',['copyTo',['../classMemoryBlock.html#aacda2afa6101956c2c66ebca93c42c36',1,'MemoryBlock']]],
   ['copytoarray',['copyToArray',['../classLinkedListPointer.html#a2474d1f6e6156e9d5ffdcd3bb873b7c9',1,'LinkedListPointer']]],
-  ['copytoclipboard',['copyToClipboard',['../classTextEditor.html#a6765bf476a80e6e69351a4971466be6f',1,'TextEditor::copyToClipboard()'],['../classCodeEditorComponent.html#a5402fb1564c7681df6c2f8e16e0d4a99',1,'CodeEditorComponent::copyToClipboard()']]],
+  ['copytoclipboard',['copyToClipboard',['../classTextEditor.html#a6765bf476a80e6e69351a4971466be6f',1,'TextEditor::copyToClipboard()'],['../classCodeEditorComponent.html#a532ad67ec851021d4018bca1facec84b',1,'CodeEditorComponent::copyToClipboard()']]],
   ['copytoutf16',['copyToUTF16',['../classString.html#afa37808ed30e583f84bef142c2c9478d',1,'String']]],
   ['copytoutf32',['copyToUTF32',['../classString.html#a9ed1dd6451ad425adecb1e085b281e0b',1,'String']]],
   ['copytoutf8',['copyToUTF8',['../classString.html#a7f0b4a4704bda8f1a22a0078fb19ae06',1,'String']]],
@@ -351,5 +351,5 @@ var searchData=
   ['customscanner',['CustomScanner',['../classKnownPluginList_1_1CustomScanner.html#a8c25f60710b16529a0f27371c6a93d72',1,'KnownPluginList::CustomScanner']]],
   ['customtypeface',['CustomTypeface',['../classCustomTypeface.html#ab55fd08f0ab46d6121f7a3947c69440e',1,'CustomTypeface::CustomTypeface()'],['../classCustomTypeface.html#aa08aa5740c635671d23b4005387dd073',1,'CustomTypeface::CustomTypeface(InputStream &amp;serialisedTypefaceStream)']]],
   ['cut',['cut',['../classTextEditor.html#acbdfebceaf8ba07a6242078c2da7473c',1,'TextEditor']]],
-  ['cuttoclipboard',['cutToClipboard',['../classTextEditor.html#aa2591b146a4707830cbd607323fd77e3',1,'TextEditor::cutToClipboard()'],['../classCodeEditorComponent.html#ad5d2d2bdd8a8d6afa11f64472d1ab2db',1,'CodeEditorComponent::cutToClipboard()']]]
+  ['cuttoclipboard',['cutToClipboard',['../classTextEditor.html#aa2591b146a4707830cbd607323fd77e3',1,'TextEditor::cutToClipboard()'],['../classCodeEditorComponent.html#a60686c10d3af6fe89db87a5f738805b8',1,'CodeEditorComponent::cutToClipboard()']]]
 ];

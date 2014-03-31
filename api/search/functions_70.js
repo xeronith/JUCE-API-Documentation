@@ -38,7 +38,7 @@ var searchData=
   ['parsestring',['parseString',['../classBigInteger.html#aebfbb1afffd8237ba77ae317c612a8f8',1,'BigInteger']]],
   ['parsesvgpath',['parseSVGPath',['../classDrawable.html#aebfffe1d689c9ab863c5c80526703d3f',1,'Drawable']]],
   ['paste',['paste',['../classTextEditor.html#a2a8829c00507b8747ae6ffe71b8e18cc',1,'TextEditor']]],
-  ['pastefromclipboard',['pasteFromClipboard',['../classTextEditor.html#a15edfe8b94924ad79c517b5810955f35',1,'TextEditor::pasteFromClipboard()'],['../classCodeEditorComponent.html#a27d07e635b848cebdca7dfe388245a21',1,'CodeEditorComponent::pasteFromClipboard()']]],
+  ['pastefromclipboard',['pasteFromClipboard',['../classTextEditor.html#a15edfe8b94924ad79c517b5810955f35',1,'TextEditor::pasteFromClipboard()'],['../classCodeEditorComponent.html#a2a8019e9717cb043530ed35300cebe0a',1,'CodeEditorComponent::pasteFromClipboard()']]],
   ['path',['Path',['../classPath.html#af26cfab021ddf49af73da3b2beca85ac',1,'Path::Path()'],['../classPath.html#aabf51b70a75823c1f32e56973e4406b6',1,'Path::Path(const Path &amp;)']]],
   ['pathchanged',['pathChanged',['../classDrawableShape.html#aa21557f80e4dbfede45bead0d53bf10c',1,'DrawableShape']]],
   ['pathflatteningiterator',['PathFlatteningIterator',['../classPathFlatteningIterator.html#a4f77a3104caf90823cad4c9cfdc9f358',1,'PathFlatteningIterator']]],

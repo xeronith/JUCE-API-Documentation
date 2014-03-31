@@ -357,6 +357,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for an active instance of a plugin. </p>
 <p>This derives from the <a class="el" href="classAudioProcessor.html" title="Base class for audio processing filters or plugins.">AudioProcessor</a> class, and adds some extra functionality that helps when wrapping dynamically loaded plugins.</p>
+<p>This class is not needed when writing plugins, and you should never need to derive your own sub-classes from it. The plugin hosting classes use it internally and will return <a class="el" href="classAudioPluginInstance.html" title="Base class for an active instance of a plugin.">AudioPluginInstance</a> objects which wrap external plugins.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessor.html" title="Base class for audio processing filters or plugins.">AudioProcessor</a>, <a class="el" href="classAudioPluginFormat.html" title="The base class for a type of plugin format, such as VST, AudioUnit, LADSPA, etc.">AudioPluginFormat</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="adfede30a4e4f8debd321785322a472b7"></a>

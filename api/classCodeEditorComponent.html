@@ -207,12 +207,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2fbd2473cca409c0faa16ad5d7493878"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac283e6cf9449007138c21a84f07eaf0d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ac283e6cf9449007138c21a84f07eaf0d">deleteWhitespaceBackwardsToTabStop</a> ()</td></tr>
 <tr class="separator:ac283e6cf9449007138c21a84f07eaf0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5402fb1564c7681df6c2f8e16e0d4a99"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a5402fb1564c7681df6c2f8e16e0d4a99">copyToClipboard</a> ()</td></tr>
-<tr class="separator:a5402fb1564c7681df6c2f8e16e0d4a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5d2d2bdd8a8d6afa11f64472d1ab2db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#ad5d2d2bdd8a8d6afa11f64472d1ab2db">cutToClipboard</a> ()</td></tr>
-<tr class="separator:ad5d2d2bdd8a8d6afa11f64472d1ab2db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27d07e635b848cebdca7dfe388245a21"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a27d07e635b848cebdca7dfe388245a21">pasteFromClipboard</a> ()</td></tr>
-<tr class="separator:a27d07e635b848cebdca7dfe388245a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a532ad67ec851021d4018bca1facec84b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a532ad67ec851021d4018bca1facec84b">copyToClipboard</a> ()</td></tr>
+<tr class="separator:a532ad67ec851021d4018bca1facec84b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60686c10d3af6fe89db87a5f738805b8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a60686c10d3af6fe89db87a5f738805b8">cutToClipboard</a> ()</td></tr>
+<tr class="separator:a60686c10d3af6fe89db87a5f738805b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a8019e9717cb043530ed35300cebe0a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#a2a8019e9717cb043530ed35300cebe0a">pasteFromClipboard</a> ()</td></tr>
+<tr class="separator:a2a8019e9717cb043530ed35300cebe0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9a84573dbbe88fe4c1cf0691e4246ba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#af9a84573dbbe88fe4c1cf0691e4246ba">undo</a> ()</td></tr>
 <tr class="separator:af9a84573dbbe88fe4c1cf0691e4246ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af21b33268573e1f76ef4edd07f8c9163"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeEditorComponent.html#af21b33268573e1f76ef4edd07f8c9163">redo</a> ()</td></tr>
@@ -1609,47 +1609,71 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5402fb1564c7681df6c2f8e16e0d4a99"></a>
+<a class="anchor" id="a532ad67ec851021d4018bca1facec84b"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool CodeEditorComponent::copyToClipboard </td>
+          <td class="memname">virtual bool CodeEditorComponent::copyToClipboard </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="ad5d2d2bdd8a8d6afa11f64472d1ab2db"></a>
+<a class="anchor" id="a60686c10d3af6fe89db87a5f738805b8"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool CodeEditorComponent::cutToClipboard </td>
+          <td class="memname">virtual bool CodeEditorComponent::cutToClipboard </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a27d07e635b848cebdca7dfe388245a21"></a>
+<a class="anchor" id="a2a8019e9717cb043530ed35300cebe0a"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool CodeEditorComponent::pasteFromClipboard </td>
+          <td class="memname">virtual bool CodeEditorComponent::pasteFromClipboard </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

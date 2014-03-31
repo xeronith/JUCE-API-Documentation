@@ -2,7 +2,7 @@ var searchData=
 [
   ['keyboardfocustraverser',['KeyboardFocusTraverser',['../classKeyboardFocusTraverser.html',1,'KeyboardFocusTraverser'],['../classKeyboardFocusTraverser.html#a275c834346e37c782d74f08365f1a06f',1,'KeyboardFocusTraverser::KeyboardFocusTraverser()']]],
   ['keydownoverlaycolourid',['keyDownOverlayColourId',['../classMidiKeyboardComponent.html#a75cb05395efc61c447dc93e8873ab05eaca2ce853f7e9341311ff237d17f5485f',1,'MidiKeyboardComponent']]],
-  ['keyexists',['keyExists',['../classWindowsRegistry.html#a5059e15bae204556dd7f702bbff72783',1,'WindowsRegistry']]],
+  ['keyexists',['keyExists',['../classWindowsRegistry.html#a0d58ee97b4dfd8fab8e1d8949d308fe0',1,'WindowsRegistry']]],
   ['keylistener',['KeyListener',['../classKeyListener.html',1,'']]],
   ['keymappingeditorcomponent',['KeyMappingEditorComponent',['../classKeyMappingEditorComponent.html',1,'KeyMappingEditorComponent'],['../classKeyMappingEditorComponent.html#ad82af2e52efb94bd1f48aba770e068fb',1,'KeyMappingEditorComponent::KeyMappingEditorComponent()']]],
   ['keymappingeditorcomponentmethods',['KeyMappingEditorComponentMethods',['../structExtraLookAndFeelBaseClasses_1_1KeyMappingEditorComponentMethods.html',1,'ExtraLookAndFeelBaseClasses']]],

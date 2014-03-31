@@ -229,6 +229,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a34ab2052eaf915ea4dc39e1c1555aece"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComboBox.html#a34ab2052eaf915ea4dc39e1c1555aece">setTooltip</a> (const <a class="el" href="classString.html">String</a> &amp;newTooltip) override</td></tr>
 <tr class="memdesc:a34ab2052eaf915ea4dc39e1c1555aece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gives the <a class="el" href="classComboBox.html" title="A component that lets the user choose from a drop-down list of choices.">ComboBox</a> a tooltip.  <a href="#a34ab2052eaf915ea4dc39e1c1555aece"></a><br/></td></tr>
 <tr class="separator:a34ab2052eaf915ea4dc39e1c1555aece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ea185eac89f6a6136a4c7ae651ba475"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComboBox.html#a2ea185eac89f6a6136a4c7ae651ba475">setScrollWheelEnabled</a> (bool enabled) noexcept</td></tr>
+<tr class="memdesc:a2ea185eac89f6a6136a4c7ae651ba475"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be used to allow the scroll-wheel to nudge the chosen item.  <a href="#a2ea185eac89f6a6136a4c7ae651ba475"></a><br/></td></tr>
+<tr class="separator:a2ea185eac89f6a6136a4c7ae651ba475"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8db239b93e77646b61f3646bc223844b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComboBox.html#a8db239b93e77646b61f3646bc223844b">labelTextChanged</a> (<a class="el" href="classLabel.html">Label</a> *) override</td></tr>
 <tr class="separator:a8db239b93e77646b61f3646bc223844b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adeabe2c0edc2170647ba741a8938aa2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComboBox.html#adeabe2c0edc2170647ba741a8938aa2c">enablementChanged</a> () override</td></tr>
@@ -1720,6 +1723,33 @@ Additional Inherited Members</h2></td></tr>
 <p>Gives the <a class="el" href="classComboBox.html" title="A component that lets the user choose from a drop-down list of choices.">ComboBox</a> a tooltip. </p>
 
 <p>Reimplemented from <a class="el" href="classSettableTooltipClient.html#aa374ef7cc0eea80f3922f5d584da79e9">SettableTooltipClient</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2ea185eac89f6a6136a4c7ae651ba475"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ComboBox::setScrollWheelEnabled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This can be used to allow the scroll-wheel to nudge the chosen item. </p>
+<p>By default it's disabled, and I'd recommend leaving it disabled if there's any chance that the control might be inside a scrollable list or viewport. </p>
 
 </div>
 </div>
