@@ -335,6 +335,7 @@ var searchData=
   ['juce_5fselecteditemset_2eh',['juce_SelectedItemSet.h',['../juce__SelectedItemSet_8h.html',1,'']]],
   ['juce_5fsha256_2eh',['juce_SHA256.h',['../juce__SHA256_8h.html',1,'']]],
   ['juce_5fshapebutton_2eh',['juce_ShapeButton.h',['../juce__ShapeButton_8h.html',1,'']]],
+  ['juce_5fsharedresourcepointer_2eh',['juce_SharedResourcePointer.h',['../juce__SharedResourcePointer_8h.html',1,'']]],
   ['juce_5fsingleton_2eh',['juce_Singleton.h',['../juce__Singleton_8h.html',1,'']]],
   ['juce_5fslider_2eh',['juce_Slider.h',['../juce__Slider_8h.html',1,'']]],
   ['juce_5fsliderpropertycomponent_2eh',['juce_SliderPropertyComponent.h',['../juce__SliderPropertyComponent_8h.html',1,'']]],

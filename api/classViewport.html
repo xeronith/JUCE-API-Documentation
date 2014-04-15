@@ -150,9 +150,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a63e8ebc196483253df8573bb0034bf39"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a63e8ebc196483253df8573bb0034bf39">viewedComponentChanged</a> (<a class="el" href="classComponent.html">Component</a> *newComponent)</td></tr>
 <tr class="memdesc:a63e8ebc196483253df8573bb0034bf39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback method that is called when the viewed component is added, removed or swapped.  <a href="#a63e8ebc196483253df8573bb0034bf39"></a><br/></td></tr>
 <tr class="separator:a63e8ebc196483253df8573bb0034bf39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a814864377939d99f76c121d182275f34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a814864377939d99f76c121d182275f34">setScrollBarsShown</a> (bool showVerticalScrollbarIfNeeded, bool showHorizontalScrollbarIfNeeded)</td></tr>
-<tr class="memdesc:a814864377939d99f76c121d182275f34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns scrollbars on or off.  <a href="#a814864377939d99f76c121d182275f34"></a><br/></td></tr>
-<tr class="separator:a814864377939d99f76c121d182275f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4b846094f30a0a72bd707dee545ec20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#ab4b846094f30a0a72bd707dee545ec20">setScrollBarsShown</a> (bool showVerticalScrollbarIfNeeded, bool showHorizontalScrollbarIfNeeded, bool allowVerticalScrollingWithoutScrollbar=false, bool allowHorizontalScrollingWithoutScrollbar=false)</td></tr>
+<tr class="memdesc:ab4b846094f30a0a72bd707dee545ec20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns scrollbars on or off.  <a href="#ab4b846094f30a0a72bd707dee545ec20"></a><br/></td></tr>
+<tr class="separator:ab4b846094f30a0a72bd707dee545ec20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a395dad79d93fef08652fda138d70e345"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a395dad79d93fef08652fda138d70e345">isVerticalScrollBarShown</a> () const noexcept</td></tr>
 <tr class="memdesc:a395dad79d93fef08652fda138d70e345"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the vertical scrollbar is enabled.  <a href="#a395dad79d93fef08652fda138d70e345"></a><br/></td></tr>
 <tr class="separator:a395dad79d93fef08652fda138d70e345"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1285,7 +1285,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a814864377939d99f76c121d182275f34"></a>
+<a class="anchor" id="ab4b846094f30a0a72bd707dee545ec20"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1299,7 +1299,19 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>showHorizontalScrollbarIfNeeded</em>&#160;</td>
+          <td class="paramname"><em>showHorizontalScrollbarIfNeeded</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>allowVerticalScrollingWithoutScrollbar</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>allowHorizontalScrollingWithoutScrollbar</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1310,7 +1322,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Turns scrollbars on or off. </p>
-<p>If set to false, the scrollbars won't ever appear. When true (the default) they will appear only when needed. </p>
+<p>If set to false, the scrollbars won't ever appear. When true (the default) they will appear only when needed.</p>
+<p>The allowVerticalScrollingWithoutScrollbar parameters allow you to enable mouse-wheel scrolling even when there the scrollbars are hidden. When the scrollbars are visible, these parameters are ignored. </p>
 
 </div>
 </div>
@@ -1336,7 +1349,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>True if the vertical scrollbar is enabled. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classViewport.html#a814864377939d99f76c121d182275f34" title="Turns scrollbars on or off.">setScrollBarsShown</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classViewport.html#ab4b846094f30a0a72bd707dee545ec20" title="Turns scrollbars on or off.">setScrollBarsShown</a> </dd></dl>
 
 </div>
 </div>
@@ -1362,7 +1375,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>True if the horizontal scrollbar is enabled. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classViewport.html#a814864377939d99f76c121d182275f34" title="Turns scrollbars on or off.">setScrollBarsShown</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classViewport.html#ab4b846094f30a0a72bd707dee545ec20" title="Turns scrollbars on or off.">setScrollBarsShown</a> </dd></dl>
 
 </div>
 </div>

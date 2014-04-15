@@ -190,6 +190,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeff939e673b49a4ea4a22c607d851e4d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classColour.html#aeff939e673b49a4ea4a22c607d851e4d">getBrightness</a> () const noexcept</td></tr>
 <tr class="memdesc:aeff939e673b49a4ea4a22c607d851e4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the colour's brightness component.  <a href="#aeff939e673b49a4ea4a22c607d851e4d"></a><br/></td></tr>
 <tr class="separator:aeff939e673b49a4ea4a22c607d851e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf7ef04250abe052b566e3849914c04d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classColour.html#adf7ef04250abe052b566e3849914c04d">getPerceivedBrightness</a> () const noexcept</td></tr>
+<tr class="memdesc:adf7ef04250abe052b566e3849914c04d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a skewed brightness value, adjusted to better reflect the way the human eye responds to different colour channels.  <a href="#adf7ef04250abe052b566e3849914c04d"></a><br/></td></tr>
+<tr class="separator:adf7ef04250abe052b566e3849914c04d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f59eb28e10446aefd7b7b504641195d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classColour.html#a8f59eb28e10446aefd7b7b504641195d">getHSB</a> (float &amp;hue, float &amp;saturation, float &amp;brightness) const noexcept</td></tr>
 <tr class="memdesc:a8f59eb28e10446aefd7b7b504641195d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the colour's hue, saturation and brightness components all at once.  <a href="#a8f59eb28e10446aefd7b7b504641195d"></a><br/></td></tr>
 <tr class="separator:a8f59eb28e10446aefd7b7b504641195d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1400,6 +1403,32 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns the colour's brightness component. </p>
 <p>The value returned is in the range 0.0 to 1.0 </p>
+
+</div>
+</div>
+<a class="anchor" id="adf7ef04250abe052b566e3849914c04d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Colour::getPerceivedBrightness </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a skewed brightness value, adjusted to better reflect the way the human eye responds to different colour channels. </p>
+<p>This makes it better than <a class="el" href="classColour.html#aeff939e673b49a4ea4a22c607d851e4d" title="Returns the colour&#39;s brightness component.">getBrightness()</a> for comparing differences in brightness. </p>
 
 </div>
 </div>

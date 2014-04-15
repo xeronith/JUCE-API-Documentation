@@ -338,6 +338,7 @@ var searchData=
   ['_7esettabletooltipclient',['~SettableTooltipClient',['../classSettableTooltipClient.html#aaae46e35635da9cada96bb173f9ddda0',1,'SettableTooltipClient']]],
   ['_7esha256',['~SHA256',['../classSHA256.html#ada631ca14154b07d447d9acf4316fe0b',1,'SHA256']]],
   ['_7eshapebutton',['~ShapeButton',['../classShapeButton.html#a5a3275bba2b41d705d107236ea28e251',1,'ShapeButton']]],
+  ['_7esharedresourcepointer',['~SharedResourcePointer',['../classSharedResourcePointer.html#a47c04d52fa4de0490c3d3873dbc2ecf2',1,'SharedResourcePointer']]],
   ['_7esinglethreadedreferencecountedobject',['~SingleThreadedReferenceCountedObject',['../classSingleThreadedReferenceCountedObject.html#abf19dff5e45014675c24ab5c5235cb90',1,'SingleThreadedReferenceCountedObject']]],
   ['_7eslider',['~Slider',['../classSlider.html#aaca12abbe07a83f925d66339aa332028',1,'Slider']]],
   ['_7esliderpropertycomponent',['~SliderPropertyComponent',['../classSliderPropertyComponent.html#a62dca91705c2af7c440327ebf4f9b627',1,'SliderPropertyComponent']]],
