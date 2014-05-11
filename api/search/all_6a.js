@@ -453,6 +453,7 @@ var searchData=
   ['juce_5ftooltipclient_2eh',['juce_TooltipClient.h',['../juce__TooltipClient_8h.html',1,'']]],
   ['juce_5ftooltipwindow_2eh',['juce_TooltipWindow.h',['../juce__TooltipWindow_8h.html',1,'']]],
   ['juce_5ftoplevelwindow_2eh',['juce_TopLevelWindow.h',['../juce__TopLevelWindow_8h.html',1,'']]],
+  ['juce_5ftracktionmarketplacestatus_2eh',['juce_TracktionMarketplaceStatus.h',['../juce__TracktionMarketplaceStatus_8h.html',1,'']]],
   ['juce_5ftreeview_2eh',['juce_TreeView.h',['../juce__TreeView_8h.html',1,'']]],
   ['juce_5ftry',['JUCE_TRY',['../juce__PlatformDefs_8h.html#a267fd4f83073fb084b389df70243c52e',1,'juce_PlatformDefs.h']]],
   ['juce_5ftypeface_2eh',['juce_Typeface.h',['../juce__Typeface_8h.html',1,'']]],

@@ -121,6 +121,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3e398829cf3016f4f370b21330686d1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModalComponentManager.html#a3e398829cf3016f4f370b21330686d1b">bringModalComponentsToFront</a> (bool topOneShouldGrabFocus=true)</td></tr>
 <tr class="memdesc:a3e398829cf3016f4f370b21330686d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Brings any modal components to the front.  <a href="#a3e398829cf3016f4f370b21330686d1b"></a><br/></td></tr>
 <tr class="separator:a3e398829cf3016f4f370b21330686d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a634c1a1fedcea4eeec1a17e778fa2aea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModalComponentManager.html#a634c1a1fedcea4eeec1a17e778fa2aea">cancelAllModalComponents</a> ()</td></tr>
+<tr class="memdesc:a634c1a1fedcea4eeec1a17e778fa2aea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls exitModalState (0) on any components that are currently modal.  <a href="#a634c1a1fedcea4eeec1a17e778fa2aea"></a><br/></td></tr>
+<tr class="separator:a634c1a1fedcea4eeec1a17e778fa2aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60dd56d888e33d633d06f878562a59e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModalComponentManager.html#a60dd56d888e33d633d06f878562a59e6">juce_DeclareSingleton_SingleThreaded_Minimal</a> (<a class="el" href="classModalComponentManager.html">ModalComponentManager</a>)</td></tr>
 <tr class="separator:a60dd56d888e33d633d06f878562a59e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -337,6 +340,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Brings any modal components to the front. </p>
+
+</div>
+</div>
+<a class="anchor" id="a634c1a1fedcea4eeec1a17e778fa2aea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ModalComponentManager::cancelAllModalComponents </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calls exitModalState (0) on any components that are currently modal. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if any components were modal; false if nothing needed cancelling </dd></dl>
 
 </div>
 </div>

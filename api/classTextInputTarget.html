@@ -81,6 +81,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classTextInputTarget-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -93,6 +94,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>Inherited by <a class="el" href="classCodeEditorComponent.html">CodeEditorComponent</a>, and <a class="el" href="classTextEditor.html">TextEditor</a>.</p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a097550317e3bf2aee470a20540b9edc7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7">VirtualKeyboardType</a> { <br/>
+&#160;&#160;<a class="el" href="classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7a11c126feb4e4a2a3f7695fbf8bfedf47">textKeyboard</a> = 0, 
+<a class="el" href="classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7ad6a4c6dad692fe4625b23d7ff5a7a5af">numericKeyboard</a>, 
+<a class="el" href="classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7aa10922a2c8f4cdf0e1af8f761374dbf9">urlKeyboard</a>, 
+<a class="el" href="classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7a5cb8da15324fce23d70f1bd1eae86ff8">emailAddressKeyboard</a>, 
+<br/>
+&#160;&#160;<a class="el" href="classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7a7b7dc41224aef43f9585fc49e2a92567">phoneNumberKeyboard</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:a097550317e3bf2aee470a20540b9edc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">A set of possible on-screen keyboard types, for use in the <a class="el" href="classTextInputTarget.html#a71072392a8f3455c0da8b43f8c249f43" title="Returns the target&#39;s preference for the type of keyboard that would be most appropriate.">getKeyboardType()</a> method.  <a href="classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7">More...</a><br/></td></tr>
+<tr class="separator:a097550317e3bf2aee470a20540b9edc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a49747e7bca27c213004a89460543b139"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#a49747e7bca27c213004a89460543b139">TextInputTarget</a> ()</td></tr>
@@ -121,11 +136,43 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afeb7bb2e326dbefacc31d181004a6c9e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#afeb7bb2e326dbefacc31d181004a6c9e">getCaretRectangle</a> ()=0</td></tr>
 <tr class="memdesc:afeb7bb2e326dbefacc31d181004a6c9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the position of the caret, relative to the component's origin.  <a href="#afeb7bb2e326dbefacc31d181004a6c9e"></a><br/></td></tr>
 <tr class="separator:afeb7bb2e326dbefacc31d181004a6c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71072392a8f3455c0da8b43f8c249f43"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7">VirtualKeyboardType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#a71072392a8f3455c0da8b43f8c249f43">getKeyboardType</a> ()</td></tr>
+<tr class="memdesc:a71072392a8f3455c0da8b43f8c249f43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the target's preference for the type of keyboard that would be most appropriate.  <a href="#a71072392a8f3455c0da8b43f8c249f43"></a><br/></td></tr>
+<tr class="separator:a71072392a8f3455c0da8b43f8c249f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An abstract base class which can be implemented by components that function as text editors. </p>
 <p>This class allows different types of text editor component to provide a uniform interface, which can be used by things like OS-specific input methods, on-screen keyboards, etc. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="a097550317e3bf2aee470a20540b9edc7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7">TextInputTarget::VirtualKeyboardType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A set of possible on-screen keyboard types, for use in the <a class="el" href="classTextInputTarget.html#a71072392a8f3455c0da8b43f8c249f43" title="Returns the target&#39;s preference for the type of keyboard that would be most appropriate.">getKeyboardType()</a> method. </p>
+<dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" id="a097550317e3bf2aee470a20540b9edc7a11c126feb4e4a2a3f7695fbf8bfedf47"></a>textKeyboard</em>&nbsp;</td><td>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a097550317e3bf2aee470a20540b9edc7ad6a4c6dad692fe4625b23d7ff5a7a5af"></a>numericKeyboard</em>&nbsp;</td><td>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a097550317e3bf2aee470a20540b9edc7aa10922a2c8f4cdf0e1af8f761374dbf9"></a>urlKeyboard</em>&nbsp;</td><td>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a097550317e3bf2aee470a20540b9edc7a5cb8da15324fce23d70f1bd1eae86ff8"></a>emailAddressKeyboard</em>&nbsp;</td><td>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a097550317e3bf2aee470a20540b9edc7a7b7dc41224aef43f9585fc49e2a92567"></a>phoneNumberKeyboard</em>&nbsp;</td><td>
+</td></tr>
+</table>
+</dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a49747e7bca27c213004a89460543b139"></a>
 <div class="memitem">
 <div class="memproto">
@@ -359,6 +406,32 @@ Public Member Functions</h2></td></tr>
 <p>Returns the position of the caret, relative to the component's origin. </p>
 
 <p>Implemented in <a class="el" href="classTextEditor.html#a27a162ec36d9b4b196b2b9f01f916d24">TextEditor</a>, and <a class="el" href="classCodeEditorComponent.html#a540848e9b8ecf8f69176c12404f0be0e">CodeEditorComponent</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a71072392a8f3455c0da8b43f8c249f43"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7">VirtualKeyboardType</a> TextInputTarget::getKeyboardType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the target's preference for the type of keyboard that would be most appropriate. </p>
+<p>This may be ignored, depending on the capabilities of the OS. </p>
 
 </div>
 </div>

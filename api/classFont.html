@@ -260,13 +260,13 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:affc37b5ccde3bccea8108d25307b2fe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a typeface font family that represents the default sans-serif font.  <a href="#affc37b5ccde3bccea8108d25307b2fe5"></a><br/></td></tr>
 <tr class="separator:affc37b5ccde3bccea8108d25307b2fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85320a4e022c86097ad17e844fab13c6"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFont.html#a85320a4e022c86097ad17e844fab13c6">getDefaultSerifFontName</a> ()</td></tr>
-<tr class="memdesc:a85320a4e022c86097ad17e844fab13c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a typeface font family that represents the default sans-serif font.  <a href="#a85320a4e022c86097ad17e844fab13c6"></a><br/></td></tr>
+<tr class="memdesc:a85320a4e022c86097ad17e844fab13c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a typeface font family that represents the default serif font.  <a href="#a85320a4e022c86097ad17e844fab13c6"></a><br/></td></tr>
 <tr class="separator:a85320a4e022c86097ad17e844fab13c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa515d2236ce4c270785e5391ac3c8514"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFont.html#aa515d2236ce4c270785e5391ac3c8514">getDefaultMonospacedFontName</a> ()</td></tr>
-<tr class="memdesc:aa515d2236ce4c270785e5391ac3c8514"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a typeface font family that represents the default sans-serif font.  <a href="#aa515d2236ce4c270785e5391ac3c8514"></a><br/></td></tr>
+<tr class="memdesc:aa515d2236ce4c270785e5391ac3c8514"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a typeface font family that represents the default monospaced font.  <a href="#aa515d2236ce4c270785e5391ac3c8514"></a><br/></td></tr>
 <tr class="separator:aa515d2236ce4c270785e5391ac3c8514"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f0dad8086009fad6e3d43b72442dc6a"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFont.html#a7f0dad8086009fad6e3d43b72442dc6a">getDefaultStyle</a> ()</td></tr>
-<tr class="memdesc:a7f0dad8086009fad6e3d43b72442dc6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a typeface font style that represents the default sans-serif font.  <a href="#a7f0dad8086009fad6e3d43b72442dc6a"></a><br/></td></tr>
+<tr class="memdesc:a7f0dad8086009fad6e3d43b72442dc6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a font style name that represents the default style.  <a href="#a7f0dad8086009fad6e3d43b72442dc6a"></a><br/></td></tr>
 <tr class="separator:a7f0dad8086009fad6e3d43b72442dc6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46b174245c0324ceab50fbeec45cc288"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classTypeface.html#a13053be679c87b7a72963e9ce60e34c9">Typeface::Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFont.html#a46b174245c0324ceab50fbeec45cc288">getDefaultTypefaceForFont</a> (const <a class="el" href="classFont.html">Font</a> &amp;font)</td></tr>
 <tr class="memdesc:a46b174245c0324ceab50fbeec45cc288"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default system typeface for the given font.  <a href="#a46b174245c0324ceab50fbeec45cc288"></a><br/></td></tr>
@@ -635,7 +635,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Changes the font family of the typeface. </p>
 <p>e.g. "Arial", "Courier", etc.</p>
-<p>This may also be set to <a class="el" href="classFont.html#affc37b5ccde3bccea8108d25307b2fe5" title="Returns a typeface font family that represents the default sans-serif font.">Font::getDefaultSansSerifFontName()</a>, <a class="el" href="classFont.html#a85320a4e022c86097ad17e844fab13c6" title="Returns a typeface font family that represents the default sans-serif font.">Font::getDefaultSerifFontName()</a>, or <a class="el" href="classFont.html#aa515d2236ce4c270785e5391ac3c8514" title="Returns a typeface font family that represents the default sans-serif font.">Font::getDefaultMonospacedFontName()</a>, which are not actual platform-specific font family names, but are generic font family names that are used to represent the various default fonts. If you need to know the exact typeface font family being used, you can call <a class="el" href="classFont.html#a7b3902ae5dde1ad8cd5f5cd5c6fb3960" title="Returns the typeface used by this font.">Font::getTypeface()</a>-&gt;getName(), which will give you the platform-specific font family.</p>
+<p>This may also be set to <a class="el" href="classFont.html#affc37b5ccde3bccea8108d25307b2fe5" title="Returns a typeface font family that represents the default sans-serif font.">Font::getDefaultSansSerifFontName()</a>, <a class="el" href="classFont.html#a85320a4e022c86097ad17e844fab13c6" title="Returns a typeface font family that represents the default serif font.">Font::getDefaultSerifFontName()</a>, or <a class="el" href="classFont.html#aa515d2236ce4c270785e5391ac3c8514" title="Returns a typeface font family that represents the default monospaced font.">Font::getDefaultMonospacedFontName()</a>, which are not actual platform-specific font family names, but are generic font family names that are used to represent the various default fonts. If you need to know the exact typeface font family being used, you can call <a class="el" href="classFont.html#a7b3902ae5dde1ad8cd5f5cd5c6fb3960" title="Returns the typeface used by this font.">Font::getTypeface()</a>-&gt;getName(), which will give you the platform-specific font family.</p>
 <p>If a suitable font isn't found on the machine, it'll just use a default instead. </p>
 
 </div>
@@ -663,7 +663,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns the font family of the typeface that this font uses. </p>
 <p>e.g. "Arial", "Courier", etc.</p>
-<p>This may also be set to <a class="el" href="classFont.html#affc37b5ccde3bccea8108d25307b2fe5" title="Returns a typeface font family that represents the default sans-serif font.">Font::getDefaultSansSerifFontName()</a>, <a class="el" href="classFont.html#a85320a4e022c86097ad17e844fab13c6" title="Returns a typeface font family that represents the default sans-serif font.">Font::getDefaultSerifFontName()</a>, or <a class="el" href="classFont.html#aa515d2236ce4c270785e5391ac3c8514" title="Returns a typeface font family that represents the default sans-serif font.">Font::getDefaultMonospacedFontName()</a>, which are not actual platform-specific font family names, but are generic font familiy names that are used to represent the various default fonts.</p>
+<p>This may also be set to <a class="el" href="classFont.html#affc37b5ccde3bccea8108d25307b2fe5" title="Returns a typeface font family that represents the default sans-serif font.">Font::getDefaultSansSerifFontName()</a>, <a class="el" href="classFont.html#a85320a4e022c86097ad17e844fab13c6" title="Returns a typeface font family that represents the default serif font.">Font::getDefaultSerifFontName()</a>, or <a class="el" href="classFont.html#aa515d2236ce4c270785e5391ac3c8514" title="Returns a typeface font family that represents the default monospaced font.">Font::getDefaultMonospacedFontName()</a>, which are not actual platform-specific font family names, but are generic font familiy names that are used to represent the various default fonts.</p>
 <p>If you need to know the exact typeface font family being used, you can call <a class="el" href="classFont.html#a7b3902ae5dde1ad8cd5f5cd5c6fb3960" title="Returns the typeface used by this font.">Font::getTypeface()</a>-&gt;getName(), which will give you the platform-specific font family. </p>
 
 </div>
@@ -774,7 +774,7 @@ Static Public Member Functions</h2></td></tr>
 <p>This is also the typeface that will be used when a font is created without specifying any typeface details.</p>
 <p>Note that this method just returns a generic placeholder string that means "the default
 sans-serif font" - it's not the actual font family of this font.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFont.html#a79a3169e0685ade146aefe20b2250745" title="Changes the font family of the typeface.">setTypefaceName</a>, <a class="el" href="classFont.html#a85320a4e022c86097ad17e844fab13c6" title="Returns a typeface font family that represents the default sans-serif font.">getDefaultSerifFontName</a>, <a class="el" href="classFont.html#aa515d2236ce4c270785e5391ac3c8514" title="Returns a typeface font family that represents the default sans-serif font.">getDefaultMonospacedFontName</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFont.html#a79a3169e0685ade146aefe20b2250745" title="Changes the font family of the typeface.">setTypefaceName</a>, <a class="el" href="classFont.html#a85320a4e022c86097ad17e844fab13c6" title="Returns a typeface font family that represents the default serif font.">getDefaultSerifFontName</a>, <a class="el" href="classFont.html#aa515d2236ce4c270785e5391ac3c8514" title="Returns a typeface font family that represents the default monospaced font.">getDefaultMonospacedFontName</a> </dd></dl>
 
 </div>
 </div>
@@ -799,10 +799,10 @@ sans-serif font" - it's not the actual font family of this font.</p>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a typeface font family that represents the default sans-serif font. </p>
+<p>Returns a typeface font family that represents the default serif font. </p>
 <p>Note that this method just returns a generic placeholder string that means "the default
 serif font" - it's not the actual font family of this font.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFont.html#a79a3169e0685ade146aefe20b2250745" title="Changes the font family of the typeface.">setTypefaceName</a>, <a class="el" href="classFont.html#affc37b5ccde3bccea8108d25307b2fe5" title="Returns a typeface font family that represents the default sans-serif font.">getDefaultSansSerifFontName</a>, <a class="el" href="classFont.html#aa515d2236ce4c270785e5391ac3c8514" title="Returns a typeface font family that represents the default sans-serif font.">getDefaultMonospacedFontName</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFont.html#a79a3169e0685ade146aefe20b2250745" title="Changes the font family of the typeface.">setTypefaceName</a>, <a class="el" href="classFont.html#affc37b5ccde3bccea8108d25307b2fe5" title="Returns a typeface font family that represents the default sans-serif font.">getDefaultSansSerifFontName</a>, <a class="el" href="classFont.html#aa515d2236ce4c270785e5391ac3c8514" title="Returns a typeface font family that represents the default monospaced font.">getDefaultMonospacedFontName</a> </dd></dl>
 
 </div>
 </div>
@@ -827,10 +827,10 @@ serif font" - it's not the actual font family of this font.</p>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a typeface font family that represents the default sans-serif font. </p>
+<p>Returns a typeface font family that represents the default monospaced font. </p>
 <p>Note that this method just returns a generic placeholder string that means "the default
 monospaced font" - it's not the actual font family of this font.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFont.html#a79a3169e0685ade146aefe20b2250745" title="Changes the font family of the typeface.">setTypefaceName</a>, <a class="el" href="classFont.html#affc37b5ccde3bccea8108d25307b2fe5" title="Returns a typeface font family that represents the default sans-serif font.">getDefaultSansSerifFontName</a>, <a class="el" href="classFont.html#a85320a4e022c86097ad17e844fab13c6" title="Returns a typeface font family that represents the default sans-serif font.">getDefaultSerifFontName</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFont.html#a79a3169e0685ade146aefe20b2250745" title="Changes the font family of the typeface.">setTypefaceName</a>, <a class="el" href="classFont.html#affc37b5ccde3bccea8108d25307b2fe5" title="Returns a typeface font family that represents the default sans-serif font.">getDefaultSansSerifFontName</a>, <a class="el" href="classFont.html#a85320a4e022c86097ad17e844fab13c6" title="Returns a typeface font family that represents the default serif font.">getDefaultSerifFontName</a> </dd></dl>
 
 </div>
 </div>
@@ -855,9 +855,9 @@ monospaced font" - it's not the actual font family of this font.</p>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a typeface font style that represents the default sans-serif font. </p>
+<p>Returns a font style name that represents the default style. </p>
 <p>Note that this method just returns a generic placeholder string that means "the default
-font style" - it's not the actual font style of this font.</p>
+font style" - it's not the actual name of the font style of any particular font.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFont.html#a844b7f87922aabf01971921f44d2662f" title="Changes the font style of the typeface.">setTypefaceStyle</a> </dd></dl>
 
 </div>

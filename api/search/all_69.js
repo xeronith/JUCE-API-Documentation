@@ -445,6 +445,7 @@ var searchData=
   ['isunboundedmousemovementenabled',['isUnboundedMouseMovementEnabled',['../classMouseInputSource.html#a753f2a0b122b9aba12ca576ab450fd00',1,'MouseInputSource']]],
   ['isundefined',['isUndefined',['../classvar.html#a58414b1c59b412ccb4be79f41595d8be',1,'var']]],
   ['isunderlined',['isUnderlined',['../classFont.html#a8246621b771e73832156cad3c1ba66d6',1,'Font']]],
+  ['isunlocked',['isUnlocked',['../structTracktionMarketplaceStatus.html#a5a4cb70f9bf40edd4bad08aa4a63705b',1,'TracktionMarketplaceStatus']]],
   ['isupdatepending',['isUpdatePending',['../classAsyncUpdater.html#a93c63f13659fc5acd41c3ec9b252bf01',1,'AsyncUpdater']]],
   ['isuppercase',['isUpperCase',['../classCharacterFunctions.html#a6533e82213f7bc97d84f5509cfe21225',1,'CharacterFunctions::isUpperCase()'],['../classCharPointer__ASCII.html#a8ca8fe31c732a98f4d8d1e71e308ce2f',1,'CharPointer_ASCII::isUpperCase()'],['../classCharPointer__UTF16.html#a0010de47cf9f0c4fe7d0f33931c666af',1,'CharPointer_UTF16::isUpperCase()'],['../classCharPointer__UTF32.html#acb9c7c6eb40147ba6e6159baea2877b7',1,'CharPointer_UTF32::isUpperCase()'],['../classCharPointer__UTF8.html#a7c04fb1ce2e2a69d88f458787b53991b',1,'CharPointer_UTF8::isUpperCase()']]],
   ['isusingnativealertwindows',['isUsingNativeAlertWindows',['../classLookAndFeel.html#a08905a5fe3fa51ec2cd99010a1042007',1,'LookAndFeel']]],
@@ -485,11 +486,11 @@ var searchData=
   ['itemselectionchanged',['itemSelectionChanged',['../classTreeViewItem.html#a2b1fe5d650ef8cc31a16f1eaed03e837',1,'TreeViewItem']]],
   ['itemtype',['ItemType',['../classSelectedItemSet.html#adac8d78df1c308ca17aa9cbfada787fa',1,'SelectedItemSet']]],
   ['iterate',['iterate',['../classEdgeTable.html#af2a5e19d16658853b61684af190e03f6',1,'EdgeTable']]],
-  ['iterator',['Iterator',['../classHashMap_1_1Iterator.html',1,'HashMap']]],
-  ['iterator',['Iterator',['../classCodeDocument_1_1Iterator.html',1,'CodeDocument']]],
-  ['iterator',['Iterator',['../classListenerList_1_1Iterator.html',1,'ListenerList']]],
   ['iterator',['Iterator',['../classPath_1_1Iterator.html',1,'Path']]],
-  ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html#a4a30662a2e2d79787da4cc7ff6f7df00',1,'MidiBuffer::Iterator::Iterator()'],['../classHashMap_1_1Iterator.html#a5688b78daa1734ef6cc29b81a545fcb0',1,'HashMap::Iterator::Iterator()'],['../classListenerList_1_1Iterator.html#aec6ff5dcf548392d46dd38b26168c79d',1,'ListenerList::Iterator::Iterator()'],['../classPath_1_1Iterator.html#a53108f853b4af5f975d870f24ad79f83',1,'Path::Iterator::Iterator()'],['../classCodeDocument_1_1Iterator.html#a350e1a7a64043f010e5467a1d862830f',1,'CodeDocument::Iterator::Iterator(const CodeDocument &amp;document) noexcept'],['../classCodeDocument_1_1Iterator.html#ae4ccddcd44ec79ac604a0abf4c5ea1e5',1,'CodeDocument::Iterator::Iterator(const Iterator &amp;) noexcept']]],
+  ['iterator',['Iterator',['../classCodeDocument_1_1Iterator.html',1,'CodeDocument']]],
+  ['iterator',['Iterator',['../classHashMap_1_1Iterator.html',1,'HashMap']]],
   ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html',1,'MidiBuffer']]],
+  ['iterator',['Iterator',['../classListenerList_1_1Iterator.html',1,'ListenerList']]],
+  ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html#a4a30662a2e2d79787da4cc7ff6f7df00',1,'MidiBuffer::Iterator::Iterator()'],['../classHashMap_1_1Iterator.html#a5688b78daa1734ef6cc29b81a545fcb0',1,'HashMap::Iterator::Iterator()'],['../classListenerList_1_1Iterator.html#aec6ff5dcf548392d46dd38b26168c79d',1,'ListenerList::Iterator::Iterator()'],['../classPath_1_1Iterator.html#a53108f853b4af5f975d870f24ad79f83',1,'Path::Iterator::Iterator()'],['../classCodeDocument_1_1Iterator.html#a350e1a7a64043f010e5467a1d862830f',1,'CodeDocument::Iterator::Iterator(const CodeDocument &amp;document) noexcept'],['../classCodeDocument_1_1Iterator.html#ae4ccddcd44ec79ac604a0abf4c5ea1e5',1,'CodeDocument::Iterator::Iterator(const Iterator &amp;) noexcept']]],
   ['ivory',['ivory',['../classColours.html#a97ea5f64838c6c2d1301c32108e830d3',1,'Colours']]]
 ];

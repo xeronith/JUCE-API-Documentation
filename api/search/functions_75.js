@@ -23,7 +23,7 @@ var searchData=
   ['updatecomponentfromstate',['updateComponentFromState',['../classComponentBuilder_1_1TypeHandler.html#a8ca3a127f43eef2849300856a2a0017a',1,'ComponentBuilder::TypeHandler']]],
   ['updatecontent',['updateContent',['../classListBox.html#a3e8cb20434a462c1a102cf62e112e16d',1,'ListBox']]],
   ['updatehostdisplay',['updateHostDisplay',['../classAudioProcessor.html#ab53b860c69380cb34e466b60a3bce3f2',1,'AudioProcessor']]],
-  ['updatematchedpairs',['updateMatchedPairs',['../classMidiMessageSequence.html#a00ec5acfb0da6ce7cf402163f634ac54',1,'MidiMessageSequence']]],
+  ['updatematchedpairs',['updateMatchedPairs',['../classMidiMessageSequence.html#a84c73c931fad6357ea81af0323109606',1,'MidiMessageSequence']]],
   ['updatemousecursor',['updateMouseCursor',['../classComponent.html#a03057aba4ac79272f105e8839582309c',1,'Component']]],
   ['updateposition',['updatePosition',['../classCallOutBox.html#a19e7a01bb331faba5196e3aa3df07e40',1,'CallOutBox']]],
   ['updatetext',['updateText',['../classSlider.html#acec04f6f7cca814b66c23ae5cf4a7b6a',1,'Slider']]],

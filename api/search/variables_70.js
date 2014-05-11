@@ -17,9 +17,11 @@ var searchData=
   ['pink',['pink',['../classColours.html#aa959194b957e4113dcdc9ec488464229',1,'Colours']]],
   ['pixelformat',['pixelFormat',['../classImage_1_1BitmapData.html#aae26ad39defa124117e3a7d8da499e6b',1,'Image::BitmapData::pixelFormat()'],['../classImagePixelData.html#a7af8920b587eebc3d94a0883375ca08f',1,'ImagePixelData::pixelFormat()']]],
   ['pixelstride',['pixelStride',['../classImage_1_1BitmapData.html#a7fc1d9da2a609dd67e8e9ad70e5f38f0',1,'Image::BitmapData']]],
+  ['player',['player',['../classStandalonePluginHolder.html#a7dd25ebd12047b7c040f4128f4690c52',1,'StandalonePluginHolder']]],
   ['playhead',['playHead',['../classAudioProcessor.html#a78d1c3e1cabecff818b93de44891d973',1,'AudioProcessor']]],
   ['playkey',['playKey',['../classKeyPress.html#a08e1a3281e1a772f1e6227f70d117622',1,'KeyPress']]],
   ['pluginformatname',['pluginFormatName',['../classPluginDescription.html#a619a03af08e3904725e0255a28388a19',1,'PluginDescription']]],
+  ['pluginholder',['pluginHolder',['../classStandaloneFilterWindow.html#a0cd5d5012b0b1b0119da68b5e100fe69',1,'StandaloneFilterWindow']]],
   ['plugins',['plugins',['../structKnownPluginList_1_1PluginTree.html#a6e1ef3fe0e6dbfd59363889dceed0ef7',1,'KnownPluginList::PluginTree']]],
   ['plum',['plum',['../classColours.html#ac02c6bea8fac05b5c050a3ec6b4fd924',1,'Colours']]],
   ['point1',['point1',['../classColourGradient.html#ac016d8472f6ce47c16d1df1e49c39dfc',1,'ColourGradient::point1()'],['../classDrawablePath_1_1ValueTreeWrapper.html#aea7b6ab1d84a3a683d07bd40ad82d0bc',1,'DrawablePath::ValueTreeWrapper::point1()']]],
@@ -34,6 +36,7 @@ var searchData=
   ['ppqpositionoflastbarstart',['ppqPositionOfLastBarStart',['../structAudioPlayHead_1_1CurrentPositionInfo.html#ad7967e1315115628cb35f93f389a3448',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['preferredheight',['preferredHeight',['../classPropertyComponent.html#ae912e7f6c12e76cf3dc2a9f0d210e4ed',1,'PropertyComponent']]],
   ['processlock',['processLock',['../classIIRFilter.html#ab20e1698e56ae7426fcbd1f22157a695',1,'IIRFilter::processLock()'],['../structPropertiesFile_1_1Options.html#a65881e8a7c6e90fbaca03dd2f00a34a7',1,'PropertiesFile::Options::processLock()']]],
+  ['processor',['processor',['../classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434',1,'StandalonePluginHolder']]],
   ['properties',['properties',['../classAudioProcessorGraph_1_1Node.html#afc706ebfb3beddad1c5bc16bc7fa2a2e',1,'AudioProcessorGraph::Node']]],
   ['purple',['purple',['../classColours.html#ae3a4c80eb100c23650cec3d19320b40b',1,'Colours']]]
 ];

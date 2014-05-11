@@ -150,15 +150,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad640f4583b4c76cffaff3082b50cc505"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classJustification.html">Justification</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#ad640f4583b4c76cffaff3082b50cc505">getJustificationType</a> () const noexcept</td></tr>
 <tr class="memdesc:ad640f4583b4c76cffaff3082b50cc505"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of justification, as set in <a class="el" href="classLabel.html#a9d857b984a1762b70424f4893efe99d2" title="Sets the style of justification to be used for positioning the text.">setJustificationType()</a>.  <a href="#ad640f4583b4c76cffaff3082b50cc505"></a><br/></td></tr>
 <tr class="separator:ad640f4583b4c76cffaff3082b50cc505"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9299ad0f357b8264fea2ff8de4dc2eda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#a9299ad0f357b8264fea2ff8de4dc2eda">setBorderSize</a> (int horizontalBorder, int verticalBorder)</td></tr>
-<tr class="memdesc:a9299ad0f357b8264fea2ff8de4dc2eda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the gap that is left between the edge of the component and the text.  <a href="#a9299ad0f357b8264fea2ff8de4dc2eda"></a><br/></td></tr>
-<tr class="separator:a9299ad0f357b8264fea2ff8de4dc2eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9848a728108a77d164a061fabbda75f1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#a9848a728108a77d164a061fabbda75f1">getHorizontalBorderSize</a> () const noexcept</td></tr>
-<tr class="memdesc:a9848a728108a77d164a061fabbda75f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the horizontal gap being left around the text.  <a href="#a9848a728108a77d164a061fabbda75f1"></a><br/></td></tr>
-<tr class="separator:a9848a728108a77d164a061fabbda75f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a503e3b2631d88dfaa01033ef6c84f2e3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#a503e3b2631d88dfaa01033ef6c84f2e3">getVerticalBorderSize</a> () const noexcept</td></tr>
-<tr class="memdesc:a503e3b2631d88dfaa01033ef6c84f2e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the vertical gap being left around the text.  <a href="#a503e3b2631d88dfaa01033ef6c84f2e3"></a><br/></td></tr>
-<tr class="separator:a503e3b2631d88dfaa01033ef6c84f2e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad48c4e405722b36328ec68ff7fb7cf42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#ad48c4e405722b36328ec68ff7fb7cf42">setBorderSize</a> (<a class="el" href="classBorderSize.html">BorderSize</a>&lt; int &gt; newBorderSize)</td></tr>
+<tr class="memdesc:ad48c4e405722b36328ec68ff7fb7cf42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the border that is left between the edge of the component and the text.  <a href="#ad48c4e405722b36328ec68ff7fb7cf42"></a><br/></td></tr>
+<tr class="separator:ad48c4e405722b36328ec68ff7fb7cf42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9799b134639a23c75ac4659e622fde21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classBorderSize.html">BorderSize</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#a9799b134639a23c75ac4659e622fde21">getBorderSize</a> () const noexcept</td></tr>
+<tr class="memdesc:a9799b134639a23c75ac4659e622fde21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the border to be left around the text.  <a href="#a9799b134639a23c75ac4659e622fde21"></a><br/></td></tr>
+<tr class="separator:a9799b134639a23c75ac4659e622fde21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c2397c0da1249f9e27e2279e0f2d4eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#a3c2397c0da1249f9e27e2279e0f2d4eb">attachToComponent</a> (<a class="el" href="classComponent.html">Component</a> *owner, bool onLeft)</td></tr>
 <tr class="memdesc:a3c2397c0da1249f9e27e2279e0f2d4eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes this label "stick to" another component.  <a href="#a3c2397c0da1249f9e27e2279e0f2d4eb"></a><br/></td></tr>
 <tr class="separator:a3c2397c0da1249f9e27e2279e0f2d4eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1105,36 +1102,26 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9299ad0f357b8264fea2ff8de4dc2eda"></a>
+<a class="anchor" id="ad48c4e405722b36328ec68ff7fb7cf42"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void Label::setBorderSize </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>horizontalBorder</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="classBorderSize.html">BorderSize</a>&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>newBorderSize</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>verticalBorder</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Changes the gap that is left between the edge of the component and the text. </p>
+<p>Changes the border that is left between the edge of the component and the text. </p>
 <p>By default there's a small gap left at the sides of the component to allow for the drawing of the border, but you can change this if necessary. </p>
 
 </div>
 </div>
-<a class="anchor" id="a9848a728108a77d164a061fabbda75f1"></a>
+<a class="anchor" id="a9799b134639a23c75ac4659e622fde21"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1142,7 +1129,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int Label::getHorizontalBorderSize </td>
+          <td class="memname"><a class="el" href="classBorderSize.html">BorderSize</a>&lt;int&gt; Label::getBorderSize </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1155,32 +1142,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the size of the horizontal gap being left around the text. </p>
-
-</div>
-</div>
-<a class="anchor" id="a503e3b2631d88dfaa01033ef6c84f2e3"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Label::getVerticalBorderSize </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the size of the vertical gap being left around the text. </p>
+<p>Returns the size of the border to be left around the text. </p>
 
 </div>
 </div>

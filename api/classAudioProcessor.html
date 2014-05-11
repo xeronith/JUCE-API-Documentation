@@ -403,7 +403,6 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor. </p>
-<p>You can also do your initialisation tasks in the initialiseFilterInfo() call, which will be made after this object has been created. </p>
 
 </div>
 </div>
@@ -716,7 +715,7 @@ Protected Attributes</h2></td></tr>
 <p>If writing a plugin, your configuration macros should specify the number of channels that your filter would prefer to have, and this method lets you know how many the host is actually using.</p>
 <p>Note that this method is only valid during or after the <a class="el" href="classAudioProcessor.html#ac7ebd6fb3dd06bd023159c590e3a7d2a" title="Called before playback starts, to let the filter prepare itself.">prepareToPlay()</a> method call. Until that point, the number of channels will be unknown. </p>
 
-<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#ab6b2829788f62cd54abe1670e86f26bd">StandaloneFilterWindow::showAudioSettingsDialog()</a>, and <a class="el" href="classStandaloneFilterWindow.html#a1f306718b48175832973359ba0f24319">StandaloneFilterWindow::StandaloneFilterWindow()</a>.</p>
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#a306a3e5f2e5e88aa658642a7eabd81c2">StandalonePluginHolder::reloadAudioDeviceState()</a>, and <a class="el" href="classStandalonePluginHolder.html#a5e24139925518f20b67a3d6f74bfb00c">StandalonePluginHolder::showAudioSettingsDialog()</a>.</p>
 
 </div>
 </div>
@@ -745,7 +744,7 @@ Protected Attributes</h2></td></tr>
 <p>If writing a plugin, your configuration macros should specify the number of channels that your filter would prefer to have, and this method lets you know how many the host is actually using.</p>
 <p>Note that this method is only valid during or after the <a class="el" href="classAudioProcessor.html#ac7ebd6fb3dd06bd023159c590e3a7d2a" title="Called before playback starts, to let the filter prepare itself.">prepareToPlay()</a> method call. Until that point, the number of channels will be unknown. </p>
 
-<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#ab6b2829788f62cd54abe1670e86f26bd">StandaloneFilterWindow::showAudioSettingsDialog()</a>, and <a class="el" href="classStandaloneFilterWindow.html#a1f306718b48175832973359ba0f24319">StandaloneFilterWindow::StandaloneFilterWindow()</a>.</p>
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#a306a3e5f2e5e88aa658642a7eabd81c2">StandalonePluginHolder::reloadAudioDeviceState()</a>, and <a class="el" href="classStandalonePluginHolder.html#a5e24139925518f20b67a3d6f74bfb00c">StandalonePluginHolder::showAudioSettingsDialog()</a>.</p>
 
 </div>
 </div>
@@ -1341,8 +1340,6 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns the active editor, or if there isn't one, it will create one. </p>
 <p>This may call <a class="el" href="classAudioProcessor.html#a103fc8a8666b7d31b472e017262be84d" title="Creates the filter&#39;s UI.">createEditor()</a> internally to create the component. </p>
-
-<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a0651dd09cb5395b2fe668777373821b0">StandaloneFilterWindow::resetFilter()</a>, and <a class="el" href="classStandaloneFilterWindow.html#a1f306718b48175832973359ba0f24319">StandaloneFilterWindow::StandaloneFilterWindow()</a>.</p>
 
 </div>
 </div>
@@ -1977,7 +1974,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classAudioProcessorGraph.html#a1371f0e94a109532264ce55fe76e681a">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a31eb871c51e9fdc84470605f01e4dee4">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
 
-<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#aefd4918d57d297110fb85b84a18e1153">StandaloneFilterWindow::saveState()</a>, and <a class="el" href="classStandaloneFilterWindow.html#aae64328faa7f0aa4ccc0099ebf4e84d8">StandaloneFilterWindow::~StandaloneFilterWindow()</a>.</p>
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#ac28981bbac45dbae6c1fdf617a824c17">StandalonePluginHolder::askUserToSaveState()</a>, and <a class="el" href="classStandalonePluginHolder.html#a9319c6c7e9368f0d2fb1d31b0f2b2816">StandalonePluginHolder::savePluginState()</a>.</p>
 
 </div>
 </div>
@@ -2049,7 +2046,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classAudioProcessorGraph.html#ad1953b78a5b717d234ba953c016ce26c">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a06926974db8fe8d6d73acb239742e4e6">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
 
-<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a8c425537a6d18a08cf81a9478c2335aa">StandaloneFilterWindow::loadState()</a>, and <a class="el" href="classStandaloneFilterWindow.html#a1f306718b48175832973359ba0f24319">StandaloneFilterWindow::StandaloneFilterWindow()</a>.</p>
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#ab55d4cd652306a2a344be38464a48358">StandalonePluginHolder::askUserToLoadState()</a>, and <a class="el" href="classStandalonePluginHolder.html#adfdf093b9b5ab101d2f76d5fa957c6eb">StandalonePluginHolder::reloadPluginState()</a>.</p>
 
 </div>
 </div>
@@ -2241,7 +2238,7 @@ Protected Attributes</h2></td></tr>
 
 <p>This is called by the processor to specify its details before being played. </p>
 
-<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a1f306718b48175832973359ba0f24319">StandaloneFilterWindow::StandaloneFilterWindow()</a>.</p>
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#a30f10dff307e43c287b6fd85f5bb2196">StandalonePluginHolder::createPlugin()</a>.</p>
 
 </div>
 </div>
@@ -2268,6 +2265,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Not for public use - this is called before deleting an editor component. </p>
+
+<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a9c570b6b027a99d746a31f1b7e72f1e8">StandaloneFilterWindow::deleteEditorComp()</a>.</p>
 
 </div>
 </div>
@@ -2396,7 +2395,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a6cea016866e25c77a7ac5084be77bfab">StandaloneFilterWindow::createFilter()</a>.</p>
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#a30f10dff307e43c287b6fd85f5bb2196">StandalonePluginHolder::createPlugin()</a>.</p>
 
 </div>
 </div>

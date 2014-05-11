@@ -50,6 +50,7 @@ var searchData=
   ['find',['find',['../classCharacterFunctions.html#a9fbf57c0172b477fc8eb7ebac3f569a8',1,'CharacterFunctions::find(CharPointerType1 textToSearch, const CharPointerType2 substringToLookFor) noexcept'],['../classCharacterFunctions.html#af839b24f2b8dfaa83181b027880e70c9',1,'CharacterFunctions::find(CharPointerType textToSearch, const juce_wchar charToLookFor) noexcept']]],
   ['findalladdresses',['findAllAddresses',['../classIPAddress.html#a2424aa8366d381e689ddb22e716f8960',1,'IPAddress::findAllAddresses()'],['../classMACAddress.html#a85000063afc46f503a7a22d13cc49e3a',1,'MACAddress::findAllAddresses()']]],
   ['findallkeysigevents',['findAllKeySigEvents',['../classMidiFile.html#af5458ce7db6e99712cf6e8b1e4cb008b',1,'MidiFile']]],
+  ['findallowedmachineids',['findAllowedMachineIDs',['../structTracktionMarketplaceStatus.html#af91ee550be5ded4740ea63040eb1ef6d',1,'TracktionMarketplaceStatus']]],
   ['findalltempoevents',['findAllTempoEvents',['../classMidiFile.html#aab69b7b893078ffe67bc810f2685492d',1,'MidiFile']]],
   ['findalltimesigevents',['findAllTimeSigEvents',['../classMidiFile.html#adc010123e7ae3e80c33645a977fade24',1,'MidiFile']]],
   ['findalltypefacenames',['findAllTypefaceNames',['../classFont.html#a8dd330a501635eb452c07c0f3e937c31',1,'Font']]],

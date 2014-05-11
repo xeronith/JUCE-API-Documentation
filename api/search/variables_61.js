@@ -34,7 +34,6 @@ var searchData=
   ['argb',['argb',['../classPixelARGB.html#ac9d2f6638200b9edec4f50f23ecaabdc',1,'PixelARGB']]],
   ['arguments',['arguments',['../structvar_1_1NativeFunctionArgs.html#a6c898b57ab92fb3084a78a4713ae2065',1,'var::NativeFunctionArgs']]],
   ['ascent',['ascent',['../classCustomTypeface.html#ab5c74224ec102b6990481b658d189ac4',1,'CustomTypeface::ascent()'],['../classTextLayout_1_1Line.html#ac356b4c8bd159161ac80438457471d7d',1,'TextLayout::Line::ascent()']]],
-  ['asyncupdater',['asyncUpdater',['../classValue_1_1ValueSource.html#a0ad27090d315fce1200982bca8b3ecca',1,'Value::ValueSource']]],
   ['attributeid',['attributeID',['../structOpenGLShaderProgram_1_1Attribute.html#a6b26b5a68acd30c40d2eb18861178f71',1,'OpenGLShaderProgram::Attribute']]],
   ['averageseconds',['averageSeconds',['../structPerformanceCounter_1_1Statistics.html#a1ddbe61fd1a766973cc19d9c3432a4c6',1,'PerformanceCounter::Statistics']]],
   ['azure',['azure',['../classColours.html#a5171f883b75e70b30df3b3b1746a8521',1,'Colours']]]

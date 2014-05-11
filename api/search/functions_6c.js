@@ -61,7 +61,6 @@ var searchData=
   ['loadnewthumb',['loadNewThumb',['../classAudioThumbnailCache.html#a70a034bb9341604fe41b7bcfe613ba12',1,'AudioThumbnailCache']]],
   ['loadpathfromdata',['loadPathFromData',['../classPath.html#a1f89b06ebcaac3150d8e6a1483ce1e28',1,'Path']]],
   ['loadpathfromstream',['loadPathFromStream',['../classPath.html#a00e0e38020c035feb29e498a0ab93433',1,'Path']]],
-  ['loadstate',['loadState',['../classStandaloneFilterWindow.html#a8c425537a6d18a08cf81a9478c2335aa',1,'StandaloneFilterWindow']]],
   ['loadthumb',['loadThumb',['../classAudioThumbnailCache.html#a0c02c3ed2e7868c20e9d77c16915d818',1,'AudioThumbnailCache']]],
   ['local',['local',['../classIPAddress.html#aefebd293079518fb114bc38168e704eb',1,'IPAddress']]],
   ['localareatoglobal',['localAreaToGlobal',['../classComponent.html#a9ad906ec22da2091eed7b65b21dc4ee9',1,'Component']]],

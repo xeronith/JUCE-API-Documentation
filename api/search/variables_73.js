@@ -11,6 +11,7 @@ var searchData=
   ['seashell',['seashell',['../classColours.html#a59caf9dbbe04dd428b7253273ec14ca3',1,'Colours']]],
   ['separator',['separator',['../classFile.html#a03d104ec7dd9600dbfb8cfdd25585135',1,'File']]],
   ['separatorstring',['separatorString',['../classFile.html#a66e8bff47d42f5b093b88eacacb573ce',1,'File']]],
+  ['settings',['settings',['../classStandalonePluginHolder.html#a79c6f72171985e47fe6190c7bbd21d5a',1,'StandalonePluginHolder']]],
   ['shortname',['shortName',['../structApplicationCommandInfo.html#a2da18de634cf7794fcd0b26e4121e3ec',1,'ApplicationCommandInfo']]],
   ['sienna',['sienna',['../classColours.html#aef8c3caf18a816ecc8180ca9d639ab3c',1,'Colours']]],
   ['silver',['silver',['../classColours.html#ac171c2c4d749ed079e56de4fe35ba2a3',1,'Colours']]],
