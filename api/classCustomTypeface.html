@@ -287,7 +287,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Loads a typeface from a previously saved stream. </p>
-<p>The stream must have been created by <a class="el" href="classCustomTypeface.html#ab5f4f1bed4814397104d57cab666ca1a" title="Saves this typeface as a Juce-formatted font file.">writeToStream()</a>. </p>
+<p>The stream must have been created by <a class="el" href="classCustomTypeface.html#ab5f4f1bed4814397104d57cab666ca1a" title="Saves this typeface as a Juce-formatted font file.">writeToStream()</a>.</p>
+<p>NOTE! Since this class was written, support was added for loading real font files from memory, so for most people, using <a class="el" href="classTypeface.html#a2ce51562cc51437352c4d47777185f35" title="Creates a new system typeface.">Typeface::createSystemTypefaceFor()</a> to load a real font is more appropriate than using this class to store it in a proprietary format.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classCustomTypeface.html#ab5f4f1bed4814397104d57cab666ca1a" title="Saves this typeface as a Juce-formatted font file.">writeToStream</a> </dd></dl>
 
 </div>
@@ -594,7 +595,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Saves this typeface as a Juce-formatted font file. </p>
 <p>A <a class="el" href="classCustomTypeface.html" title="A typeface that can be populated with custom glyphs.">CustomTypeface</a> can be created to reload the data that is written - see the <a class="el" href="classCustomTypeface.html" title="A typeface that can be populated with custom glyphs.">CustomTypeface</a> constructor.</p>
-<p>NOTE! Since this class was written, support was added for loading real font files from memory, so for most people, using <a class="el" href="classTypeface.html#a2ce51562cc51437352c4d47777185f35" title="Creates a new system typeface.">Typeface::createSystemTypefaceFor()</a> to load a real font is more appropriate than using this class to store it in a proprietory format. </p>
+<p>NOTE! Since this class was written, support was added for loading real font files from memory, so for most people, using <a class="el" href="classTypeface.html#a2ce51562cc51437352c4d47777185f35" title="Creates a new system typeface.">Typeface::createSystemTypefaceFor()</a> to load a real font is more appropriate than using this class to store it in a proprietary format. </p>
 
 </div>
 </div>

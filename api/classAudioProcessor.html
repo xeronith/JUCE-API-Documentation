@@ -242,6 +242,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeb6c777ad229e3415314d3f66efba7b4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#aeb6c777ad229e3415314d3f66efba7b4">getParameterLabel</a> (int index) const </td></tr>
 <tr class="memdesc:aeb6c777ad229e3415314d3f66efba7b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some plugin types may be able to return a label string for a parameter's units.  <a href="#aeb6c777ad229e3415314d3f66efba7b4"></a><br/></td></tr>
 <tr class="separator:aeb6c777ad229e3415314d3f66efba7b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16cfd3c20c0d6a63b40e3bdf27d7588c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a16cfd3c20c0d6a63b40e3bdf27d7588c">isParameterOrientationInverted</a> (int index) const </td></tr>
+<tr class="memdesc:a16cfd3c20c0d6a63b40e3bdf27d7588c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be overridden to tell the host that particular parameters operate in the reverse direction.  <a href="#a16cfd3c20c0d6a63b40e3bdf27d7588c"></a><br/></td></tr>
+<tr class="separator:a16cfd3c20c0d6a63b40e3bdf27d7588c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e4d173766f679763fe9484ba733ca38"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a4e4d173766f679763fe9484ba733ca38">setParameter</a> (int parameterIndex, float newValue)=0</td></tr>
 <tr class="memdesc:a4e4d173766f679763fe9484ba733ca38"><td class="mdescLeft">&#160;</td><td class="mdescRight">The host will call this method to change the value of one of the filter's parameters.  <a href="#a4e4d173766f679763fe9484ba733ca38"></a><br/></td></tr>
 <tr class="separator:a4e4d173766f679763fe9484ba733ca38"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1610,6 +1613,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a16cfd3c20c0d6a63b40e3bdf27d7588c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AudioProcessor::isParameterOrientationInverted </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This can be overridden to tell the host that particular parameters operate in the reverse direction. </p>
+<p>(Not all plugin formats or hosts will actually use this information). </p>
+
+</div>
+</div>
 <a class="anchor" id="a4e4d173766f679763fe9484ba733ca38"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1731,8 +1761,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Should return true if this parameter is a "meta" parameter. </p>
-<p>A meta-parameter is a parameter that changes other params. It is used by some hosts (e.g. AudioUnit hosts).</p>
-<p>By default this returns false. </p>
+<p>A meta-parameter is a parameter that changes other params. It is used by some hosts (e.g. AudioUnit hosts). By default this returns false. </p>
 
 </div>
 </div>

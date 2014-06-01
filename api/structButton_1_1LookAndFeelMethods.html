@@ -103,10 +103,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:add9b7cc6398a726eaa4510ba8eb3742f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefc3e78ac99a5fe1e4da24ce3ba0b917"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structButton_1_1LookAndFeelMethods.html#aefc3e78ac99a5fe1e4da24ce3ba0b917">drawButtonBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, <a class="el" href="classButton.html">Button</a> &amp;, const <a class="el" href="classColour.html">Colour</a> &amp;backgroundColour, bool isMouseOverButton, bool isButtonDown)=0</td></tr>
 <tr class="separator:aefc3e78ac99a5fe1e4da24ce3ba0b917"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77d4b472725056ac706a0002d7da2802"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classFont.html">Font</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structButton_1_1LookAndFeelMethods.html#a77d4b472725056ac706a0002d7da2802">getTextButtonFont</a> (<a class="el" href="classTextButton.html">TextButton</a> &amp;)=0</td></tr>
-<tr class="separator:a77d4b472725056ac706a0002d7da2802"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1e327769f9ab05e4c8637baac266425"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structButton_1_1LookAndFeelMethods.html#ad1e327769f9ab05e4c8637baac266425">changeTextButtonWidthToFitText</a> (<a class="el" href="classTextButton.html">TextButton</a> &amp;, int newHeight)=0</td></tr>
-<tr class="separator:ad1e327769f9ab05e4c8637baac266425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6733c9a1d59cea5a0fc45054beb44b1b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classFont.html">Font</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structButton_1_1LookAndFeelMethods.html#a6733c9a1d59cea5a0fc45054beb44b1b">getTextButtonFont</a> (<a class="el" href="classTextButton.html">TextButton</a> &amp;, int buttonHeight)=0</td></tr>
+<tr class="separator:a6733c9a1d59cea5a0fc45054beb44b1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80e1caa329bc236e08955069ba6164f4"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structButton_1_1LookAndFeelMethods.html#a80e1caa329bc236e08955069ba6164f4">getTextButtonWidthToFitText</a> (<a class="el" href="classTextButton.html">TextButton</a> &amp;, int buttonHeight)=0</td></tr>
+<tr class="separator:a80e1caa329bc236e08955069ba6164f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad66d06555c26ea08fc69290cbdc6b431"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structButton_1_1LookAndFeelMethods.html#ad66d06555c26ea08fc69290cbdc6b431">drawButtonText</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, <a class="el" href="classTextButton.html">TextButton</a> &amp;, bool isMouseOverButton, bool isButtonDown)=0</td></tr>
 <tr class="memdesc:ad66d06555c26ea08fc69290cbdc6b431"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the text for a <a class="el" href="classTextButton.html" title="A button that uses the standard lozenge-shaped background with a line of text on it.">TextButton</a>.  <a href="#ad66d06555c26ea08fc69290cbdc6b431"></a><br/></td></tr>
 <tr class="separator:ad66d06555c26ea08fc69290cbdc6b431"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,11 +197,11 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLookAndFeel__V2.html#ab51abdb70f7b6f1c1603c33b635f6529">LookAndFeel_V2</a>, <a class="el" href="classLookAndFeel__V1.html#a416e5a168cb8f74d248dddff979c2915">LookAndFeel_V1</a>, and <a class="el" href="classLookAndFeel__V3.html#ad61c38252a3344c0367064a0383cd6a9">LookAndFeel_V3</a>.</p>
+<p>Implemented in <a class="el" href="classLookAndFeel__V2.html#ad3ebbc9a47266d694cf8e2df69efb584">LookAndFeel_V2</a>, <a class="el" href="classLookAndFeel__V1.html#a416e5a168cb8f74d248dddff979c2915">LookAndFeel_V1</a>, and <a class="el" href="classLookAndFeel__V3.html#ad61c38252a3344c0367064a0383cd6a9">LookAndFeel_V3</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a77d4b472725056ac706a0002d7da2802"></a>
+<a class="anchor" id="a6733c9a1d59cea5a0fc45054beb44b1b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -212,39 +212,13 @@ Public Member Functions</h2></td></tr>
           <td class="memname">virtual <a class="el" href="classFont.html">Font</a> Button::LookAndFeelMethods::getTextButtonFont </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classTextButton.html">TextButton</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classLookAndFeel__V2.html#a21e6452a42946eba01d19a22ac4f02bc">LookAndFeel_V2</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad1e327769f9ab05e4c8637baac266425"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Button::LookAndFeelMethods::changeTextButtonWidthToFitText </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classTextButton.html">TextButton</a> &amp;&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>newHeight</em>&#160;</td>
+          <td class="paramname"><em>buttonHeight</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -259,7 +233,43 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLookAndFeel__V2.html#a7110d4e32df5064e4f4ae52ede6a9b87">LookAndFeel_V2</a>.</p>
+<p>Implemented in <a class="el" href="classLookAndFeel__V2.html#a256b261cab5ddb423432701fd65848db">LookAndFeel_V2</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a80e1caa329bc236e08955069ba6164f4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int Button::LookAndFeelMethods::getTextButtonWidthToFitText </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classTextButton.html">TextButton</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>buttonHeight</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classLookAndFeel__V2.html#ac504ed7063a8213b539e973e456d06b3">LookAndFeel_V2</a>.</p>
 
 </div>
 </div>
@@ -309,7 +319,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Draws the text for a <a class="el" href="classTextButton.html" title="A button that uses the standard lozenge-shaped background with a line of text on it.">TextButton</a>. </p>
 
-<p>Implemented in <a class="el" href="classLookAndFeel__V2.html#a8a80448925ce02eacdc41ad5b9053563">LookAndFeel_V2</a>.</p>
+<p>Implemented in <a class="el" href="classLookAndFeel__V2.html#afc80d6b673590a29f99aab46748a5f93">LookAndFeel_V2</a>.</p>
 
 </div>
 </div>
@@ -359,7 +369,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Draws the contents of a standard <a class="el" href="classToggleButton.html" title="A button that can be toggled on/off.">ToggleButton</a>. </p>
 
-<p>Implemented in <a class="el" href="classLookAndFeel__V2.html#a1c23b2b41d99aedff59598c751bd139a">LookAndFeel_V2</a>, and <a class="el" href="classLookAndFeel__V1.html#ae09e2b7b31afe687e26917cd123c8805">LookAndFeel_V1</a>.</p>
+<p>Implemented in <a class="el" href="classLookAndFeel__V2.html#ad2a0d9eb1e8a3cee3917a3f0623c6e56">LookAndFeel_V2</a>, and <a class="el" href="classLookAndFeel__V1.html#ae09e2b7b31afe687e26917cd123c8805">LookAndFeel_V1</a>.</p>
 
 </div>
 </div>

@@ -49,7 +49,7 @@ var searchData=
   ['adddocument',['addDocument',['../classMultiDocumentPanel.html#a92a4b424c5d8eee7fb859e5a2e71bdad',1,'MultiDocumentPanel']]],
   ['addedto',['addedTo',['../classBorderSize.html#a17696eaf86dcf3115724d8aac530b3dd',1,'BorderSize']]],
   ['addelement',['addElement',['../classRelativePointPath.html#a8c6fd911def77df783dfd16b8c086049',1,'RelativePointPath']]],
-  ['addellipse',['addEllipse',['../classPath.html#a7514c5eaa928b64121490a7f0ce3088c',1,'Path']]],
+  ['addellipse',['addEllipse',['../classPath.html#a7514c5eaa928b64121490a7f0ce3088c',1,'Path::addEllipse(float x, float y, float width, float height)'],['../classPath.html#a34e131589e312853641df2fd6ca22579',1,'Path::addEllipse(Rectangle&lt; float &gt; area)']]],
   ['addentry',['addEntry',['../classZipFile_1_1Builder.html#a9d857ec4293d11dba0dc717eb0187e6e',1,'ZipFile::Builder']]],
   ['addescapechars',['addEscapeChars',['../classURL.html#ac2726988a2b4c249ece1dea4216aa381',1,'URL']]],
   ['addevent',['addEvent',['../classMidiBuffer.html#aee453648cab2b625eb222c40ec5fc37f',1,'MidiBuffer::addEvent(const MidiMessage &amp;midiMessage, int sampleNumber)'],['../classMidiBuffer.html#a196179c4d682c97aef13e18c1cf13f02',1,'MidiBuffer::addEvent(const void *rawMidiData, int maxBytesOfMidiData, int sampleNumber)'],['../classMidiMessageSequence.html#abcfb3b7334ccd8bf72fc95e5019cddd6',1,'MidiMessageSequence::addEvent()'],['../classMidiEventList.html#af1860baf47d3fc7436eabd8e22393fae',1,'MidiEventList::addEvent()']]],

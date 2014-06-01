@@ -39,7 +39,6 @@ var searchData=
   ['handletabkey',['handleTabKey',['../classCodeEditorComponent.html#a7efe69631b0e73a50d42c117fa35c7b8',1,'CodeEditorComponent']]],
   ['handleupdatenowifneeded',['handleUpdateNowIfNeeded',['../classAsyncUpdater.html#a5f65e2ad091e96ce4e3979d2b701bc85',1,'AsyncUpdater']]],
   ['handleuserclosingwindow',['handleUserClosingWindow',['../classComponentPeer.html#a13b9987266c93f3e73148c7c3e83da64',1,'ComponentPeer']]],
-  ['handleuserregistrationcomplete',['handleUserRegistrationComplete',['../structTracktionMarketplaceStatus.html#ad9c57888dc4d643f5d56628993e0dd0a',1,'TracktionMarketplaceStatus']]],
   ['has3dnow',['has3DNow',['../classSystemStats.html#a1879ae7e393b289d3f5a62f673bfc031',1,'SystemStats']]],
   ['hasalphachannel',['hasAlphaChannel',['../classImage.html#abb862a4402074ef0dc0382e2c6267a32',1,'Image']]],
   ['hasattribute',['hasAttribute',['../classXmlElement.html#a261f32c557ef6c15b20ebe622ed8aec1',1,'XmlElement']]],

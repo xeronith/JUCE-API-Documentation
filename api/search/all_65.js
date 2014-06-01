@@ -8,7 +8,7 @@ var searchData=
   ['editorabouttobehidden',['editorAboutToBeHidden',['../classLabel.html#a94b4571677d5ac3c0ebfc7d171aa9ba6',1,'Label']]],
   ['editorbeingdeleted',['editorBeingDeleted',['../classAudioProcessor.html#a78f4b83d4f5c8625cf1df93288142642',1,'AudioProcessor']]],
   ['editorigintime',['editOriginTime',['../structAudioPlayHead_1_1CurrentPositionInfo.html#a5a8c7375646228f378c4eb673f49a9e0',1,'AudioPlayHead::CurrentPositionInfo']]],
-  ['editorshown',['editorShown',['../classLabel.html#a5260dfecf51d5f4822ea7072cb2d4cb6',1,'Label']]],
+  ['editorshown',['editorShown',['../classLabel_1_1Listener.html#a866d1ed026607e27ead95eb7a8dc948f',1,'Label::Listener::editorShown()'],['../classLabel.html#a5260dfecf51d5f4822ea7072cb2d4cb6',1,'Label::editorShown()']]],
   ['ejectdisk',['ejectDisk',['../classAudioCDReader.html#a41f27ce866212984e7a657f316e63e24',1,'AudioCDReader']]],
   ['element',['Element',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html#a182bb0536be440f286655d58705ed912',1,'DrawablePath::ValueTreeWrapper::Element']]],
   ['element',['Element',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html',1,'DrawablePath::ValueTreeWrapper']]],

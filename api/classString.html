@@ -514,6 +514,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adbd232e1d2a0f160837ffe08a716cf30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#adbd232e1d2a0f160837ffe08a716cf30">convertToPrecomposedUnicode</a> () const </td></tr>
 <tr class="memdesc:adbd232e1d2a0f160837ffe08a716cf30"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAC ONLY - Returns a copy of this string in which any decomposed unicode characters have been converted to their precomposed equivalents.  <a href="#adbd232e1d2a0f160837ffe08a716cf30"></a><br/></td></tr>
 <tr class="separator:adbd232e1d2a0f160837ffe08a716cf30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab144d2ca61fae33e9fc6a8037dba7a7a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#ab144d2ca61fae33e9fc6a8037dba7a7a">getReferenceCount</a> () const noexcept</td></tr>
+<tr class="memdesc:ab144d2ca61fae33e9fc6a8037dba7a7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of <a class="el" href="classString.html" title="The JUCE String class!">String</a> objects which are currently sharing the same internal data as this one.  <a href="#ab144d2ca61fae33e9fc6a8037dba7a7a"></a><br/></td></tr>
+<tr class="separator:ab144d2ca61fae33e9fc6a8037dba7a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -1803,7 +1806,7 @@ template&lt;class CharPointer &gt; </div>
 <p>Note that there's also an <a class="el" href="classString.html#a46001a29fcbd7c867f0f3a42598a1495" title="Returns true if the string contains at least one character.">isNotEmpty()</a> method to help write readable code. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classString.html#a71ebee1094650e80b02a20040f4fdc8f" title="Returns true if this string contains any non-whitespace characters.">containsNonWhitespaceChars()</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#a5a8cd39a398b0b62838a4ec62778429e">StandalonePluginHolder::getFilePatterns()</a>, and <a class="el" href="structComponentPeer_1_1DragInfo.html#a06d2c54a7b17a8ba2136595f86a111f9">ComponentPeer::DragInfo::isEmpty()</a>.</p>
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#a5a8cd39a398b0b62838a4ec62778429e">StandalonePluginHolder::getFilePatterns()</a>, <a class="el" href="structComponentPeer_1_1DragInfo.html#a06d2c54a7b17a8ba2136595f86a111f9">ComponentPeer::DragInfo::isEmpty()</a>, and <a class="el" href="classIdentifier.html#a7917ad4ed89e4442b950a7fcf37df170">Identifier::isNull()</a>.</p>
 
 </div>
 </div>
@@ -1831,6 +1834,8 @@ template&lt;class CharPointer &gt; </div>
 <p>Returns true if the string contains at least one character. </p>
 <p>Note that there's also an <a class="el" href="classString.html#ab31a36bda8c789ba3c0ed37bb16c978c" title="Returns true if the string contains no characters.">isEmpty()</a> method to help write readable code. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classString.html#a71ebee1094650e80b02a20040f4fdc8f" title="Returns true if this string contains any non-whitespace characters.">containsNonWhitespaceChars()</a> </dd></dl>
+
+<p>Referenced by <a class="el" href="classIdentifier.html#a2715e2deec78691c79af8ea81d5e6628">Identifier::isValid()</a>.</p>
 
 </div>
 </div>
@@ -1989,8 +1994,6 @@ template&lt;class CharPointer &gt; </div>
 
 <p>Case-sensitive comparison with another string. </p>
 <dl class="section return"><dt>Returns</dt><dd>0 if the two strings are identical; negative if this string comes before the other one alphabetically, or positive if it comes after it. </dd></dl>
-
-<p>Referenced by <a class="el" href="classIdentifier.html#a6eb6d01ea80b5e6e3bae0b1de374db00">Identifier::operator!=()</a>, and <a class="el" href="classIdentifier.html#a89d4fadd40a2585d49c4f5fc00c3b9e3">Identifier::operator==()</a>.</p>
 
 </div>
 </div>
@@ -4222,6 +4225,8 @@ template&lt;class CharPointer &gt; </div>
 <p>Returns the character pointer currently being used to store this string. </p>
 <p>Because it returns a reference to the string's internal data, the pointer that is returned must not be stored anywhere, as it can be deleted whenever the string changes. </p>
 
+<p>Referenced by <a class="el" href="classIdentifier.html#a7993832a5f43fb629065b7d5308b0866">Identifier::getCharPointer()</a>, <a class="el" href="classIdentifier.html#ae5ef972983c99050e88f3e29cd5e4a4f">Identifier::operator String::CharPointerType()</a>, <a class="el" href="classIdentifier.html#a17d85cb4c9086dc0c3de8c5e1495c6a4">Identifier::operator!=()</a>, and <a class="el" href="classIdentifier.html#a78af6f4a1dcc52d147bc80eab4cf65b2">Identifier::operator==()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ae9e2c87c3ff8410e4f70a02288ece2dd"></a>
@@ -4261,6 +4266,8 @@ template&lt;class CharPointer &gt; </div>
 <p>Because it returns a reference to the string's internal data, the pointer that is returned must not be stored anywhere, as it can be deleted whenever the string changes.</p>
 <p>To find out how many bytes you need to store this string as UTF-8, you can call <a class="el" href="classCharPointer__UTF8.html#af70d66750ea1b8be02f613592319059e" title="Returns the number of bytes that would be needed to represent the given unicode character in this enc...">CharPointer_UTF8::getBytesRequiredFor</a> (myString.getCharPointer())</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classString.html#a026f5d21f882d2ffe0406ef1e4907897" title="Returns the character pointer currently being used to store this string.">getCharPointer</a>, <a class="el" href="classString.html#ae9e2c87c3ff8410e4f70a02288ece2dd" title="Returns a pointer to a UTF-8 version of this string.">toUTF8</a>, <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-16 version of this string.">toUTF16</a>, <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string.">toUTF32</a> </dd></dl>
+
+<p>Referenced by <a class="el" href="juce__String_8h.html#aeb8f16cdf7cbd9d5c2d9863767c6a300">operator&lt;&lt;()</a>.</p>
 
 </div>
 </div>
@@ -4320,6 +4327,8 @@ template&lt;class CharPointer &gt; </div>
 <p>Because it returns a reference to the string's internal data, the pointer that is returned must not be stored anywhere, as it can be deleted whenever the string changes.</p>
 <p>Bear in mind that the wchar_t type is different on different platforms, so on Windows, this will be equivalent to calling <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-16 version of this string.">toUTF16()</a>, on unix it'll be the same as calling <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string.">toUTF32()</a>, etc.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classString.html#a026f5d21f882d2ffe0406ef1e4907897" title="Returns the character pointer currently being used to store this string.">getCharPointer</a>, <a class="el" href="classString.html#ae9e2c87c3ff8410e4f70a02288ece2dd" title="Returns a pointer to a UTF-8 version of this string.">toUTF8</a>, <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-16 version of this string.">toUTF16</a>, <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string.">toUTF32</a> </dd></dl>
+
+<p>Referenced by <a class="el" href="juce__String_8h.html#a658d972ca79f5270ac88b18de27f505e">operator&lt;&lt;()</a>.</p>
 
 </div>
 </div>
@@ -4653,6 +4662,31 @@ template&lt;class CharPointer &gt; </div>
 </div><div class="memdoc">
 
 <p>MAC ONLY - Returns a copy of this string in which any decomposed unicode characters have been converted to their precomposed equivalents. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab144d2ca61fae33e9fc6a8037dba7a7a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int String::getReferenceCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of <a class="el" href="classString.html" title="The JUCE String class!">String</a> objects which are currently sharing the same internal data as this one. </p>
 
 </div>
 </div>

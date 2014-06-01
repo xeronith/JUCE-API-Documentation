@@ -167,6 +167,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab8871c0f3b0639e0408582b354b28247"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODevice.html#ab8871c0f3b0639e0408582b354b28247">showControlPanel</a> ()</td></tr>
 <tr class="memdesc:ab8871c0f3b0639e0408582b354b28247"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a device-specific control panel if there is one.  <a href="#ab8871c0f3b0639e0408582b354b28247"></a><br/></td></tr>
 <tr class="separator:ab8871c0f3b0639e0408582b354b28247"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a413f736464f6fdfe09dbd31f17afa0b0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODevice.html#a413f736464f6fdfe09dbd31f17afa0b0">setAudioPreprocessingEnabled</a> (bool shouldBeEnabled)</td></tr>
+<tr class="memdesc:a413f736464f6fdfe09dbd31f17afa0b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">On devices which support it, this allows automatic gain control or other mic processing to be disabled.  <a href="#a413f736464f6fdfe09dbd31f17afa0b0"></a><br/></td></tr>
+<tr class="separator:a413f736464f6fdfe09dbd31f17afa0b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -884,6 +887,33 @@ Protected Attributes</h2></td></tr>
 
 <p>Shows a device-specific control panel if there is one. </p>
 <p>This should only be called for devices which return true from <a class="el" href="classAudioIODevice.html#a61f6654ab66f66e60e30bc7e5b08647b" title="True if this device can show a pop-up control panel for editing its settings.">hasControlPanel()</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a413f736464f6fdfe09dbd31f17afa0b0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AudioIODevice::setAudioPreprocessingEnabled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>shouldBeEnabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>On devices which support it, this allows automatic gain control or other mic processing to be disabled. </p>
+<p>If the device doesn't support this operation, it'll return false. </p>
 
 </div>
 </div>

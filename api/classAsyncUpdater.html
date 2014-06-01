@@ -91,7 +91,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Has a callback method that is triggered asynchronously.  
  <a href="classAsyncUpdater.html#details">More...</a></p>
 
-<p>Inherited by <a class="el" href="classApplicationCommandManager.html">ApplicationCommandManager</a><code> [private]</code>, <a class="el" href="classAudioProcessorGraph.html">AudioProcessorGraph</a><code> [private]</code>, ChangeBroadcaster::ChangeBroadcasterCallback, <a class="el" href="classComboBox.html">ComboBox</a><code> [private]</code>, <a class="el" href="classDesktop.html">Desktop</a><code> [private]</code>, <a class="el" href="classFilenameComponent.html">FilenameComponent</a><code> [private]</code>, <a class="el" href="classMenuBarModel.html">MenuBarModel</a><code> [private]</code>, <a class="el" href="classModalComponentManager.html">ModalComponentManager</a><code> [private]</code>, <a class="el" href="classScrollBar.html">ScrollBar</a>, and <a class="el" href="classTableHeaderComponent.html">TableHeaderComponent</a><code> [private]</code>.</p>
+<p>Inherited by <a class="el" href="classApplicationCommandManager.html">ApplicationCommandManager</a><code> [private]</code>, <a class="el" href="classAudioProcessorGraph.html">AudioProcessorGraph</a><code> [private]</code>, ChangeBroadcaster::ChangeBroadcasterCallback, <a class="el" href="classComboBox.html">ComboBox</a><code> [private]</code>, <a class="el" href="classDesktop.html">Desktop</a><code> [private]</code>, <a class="el" href="classFilenameComponent.html">FilenameComponent</a><code> [private]</code>, <a class="el" href="classMenuBarModel.html">MenuBarModel</a><code> [private]</code>, <a class="el" href="classModalComponentManager.html">ModalComponentManager</a><code> [private]</code>, <a class="el" href="classScrollBar.html">ScrollBar</a>, <a class="el" href="classTableHeaderComponent.html">TableHeaderComponent</a><code> [private]</code>, and <a class="el" href="classValue_1_1ValueSource.html">Value::ValueSource</a><code> [private]</code>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -209,7 +209,7 @@ Public Member Functions</h2></td></tr>
 
 <p>This will stop any pending updates from happening. </p>
 <p>If called after <a class="el" href="classAsyncUpdater.html#a4eece806c6ba9f591382fed54c5983b2" title="Causes the callback to be triggered at a later time.">triggerAsyncUpdate()</a> and before the <a class="el" href="classAsyncUpdater.html#a446f3af793131f8772329f1f8b526578" title="Called back to do whatever your class needs to do.">handleAsyncUpdate()</a> callback happens, this will cancel the <a class="el" href="classAsyncUpdater.html#a446f3af793131f8772329f1f8b526578" title="Called back to do whatever your class needs to do.">handleAsyncUpdate()</a> callback.</p>
-<p>Note that this method simply cancels the next callback - if a callback is already in progress on a different thread, this won't block until it finishes, so there's no guarantee that the callback isn't still running when you return from </p>
+<p>Note that this method simply cancels the next callback - if a callback is already in progress on a different thread, this won't block until the callback finishes, so there's no guarantee that the callback isn't still running when the method returns. </p>
 
 </div>
 </div>

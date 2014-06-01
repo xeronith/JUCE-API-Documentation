@@ -358,6 +358,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad89f3ea5b240342e0cc09881919cb7bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#ad89f3ea5b240342e0cc09881919cb7bb">setInputFilter</a> (<a class="el" href="classTextEditor_1_1InputFilter.html">InputFilter</a> *newFilter, bool takeOwnership)</td></tr>
 <tr class="memdesc:ad89f3ea5b240342e0cc09881919cb7bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets an input filter that should be applied to this editor.  <a href="#ad89f3ea5b240342e0cc09881919cb7bb"></a><br/></td></tr>
 <tr class="separator:ad89f3ea5b240342e0cc09881919cb7bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8311307f8a92b5578a528eccf8cbafa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTextEditor_1_1InputFilter.html">InputFilter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#a8311307f8a92b5578a528eccf8cbafa0">getInputFilter</a> () const noexcept</td></tr>
+<tr class="memdesc:a8311307f8a92b5578a528eccf8cbafa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current <a class="el" href="classTextEditor_1_1InputFilter.html" title="Base class for input filters that can be applied to a TextEditor to restrict the text that can be ent...">InputFilter</a>, as set by <a class="el" href="classTextEditor.html#ad89f3ea5b240342e0cc09881919cb7bb" title="Sets an input filter that should be applied to this editor.">setInputFilter()</a>.  <a href="#a8311307f8a92b5578a528eccf8cbafa0"></a><br/></td></tr>
+<tr class="separator:a8311307f8a92b5578a528eccf8cbafa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af101f034f249b577345b948d4d3db21c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextEditor.html#af101f034f249b577345b948d4d3db21c">setInputRestrictions</a> (int maxTextLength, const <a class="el" href="classString.html">String</a> &amp;allowedCharacters=<a class="el" href="classString.html#afd02116a5571fcc8bc1e6fdabe132a85">String::empty</a>)</td></tr>
 <tr class="memdesc:af101f034f249b577345b948d4d3db21c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets limits on the characters that can be entered.  <a href="#af101f034f249b577345b948d4d3db21c"></a><br/></td></tr>
 <tr class="separator:af101f034f249b577345b948d4d3db21c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2657,6 +2660,31 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Sets an input filter that should be applied to this editor. </p>
 <p>The filter can be nullptr, to remove any existing filters. If takeOwnership is true, then the filter will be owned and deleted by the editor when no longer needed. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8311307f8a92b5578a528eccf8cbafa0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classTextEditor_1_1InputFilter.html">InputFilter</a>* TextEditor::getInputFilter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the current <a class="el" href="classTextEditor_1_1InputFilter.html" title="Base class for input filters that can be applied to a TextEditor to restrict the text that can be ent...">InputFilter</a>, as set by <a class="el" href="classTextEditor.html#ad89f3ea5b240342e0cc09881919cb7bb" title="Sets an input filter that should be applied to this editor.">setInputFilter()</a>. </p>
 
 </div>
 </div>

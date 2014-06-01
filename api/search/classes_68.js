@@ -68,6 +68,7 @@ var searchData=
   ['heapblock_3c_20midimessagesequence_20_2a_20_3e',['HeapBlock&lt; MidiMessageSequence * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20modalitem_20_2a_20_3e',['HeapBlock&lt; ModalItem * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20mouselistener_20_2a_20_3e',['HeapBlock&lt; MouseListener * &gt;',['../classHeapBlock.html',1,'']]],
+  ['heapblock_3c_20namedvalue_20_3e',['HeapBlock&lt; NamedValue &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20node_20_2a_20_3e',['HeapBlock&lt; Node * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20objectclass_20_2a_20_3e',['HeapBlock&lt; ObjectClass * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20panelholder_20_2a_20_3e',['HeapBlock&lt; PanelHolder * &gt;',['../classHeapBlock.html',1,'']]],
