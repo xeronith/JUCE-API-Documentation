@@ -167,6 +167,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a36fcdc9874414f34b173a2421a75c971"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDrawable.html">Drawable</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#a36fcdc9874414f34b173a2421a75c971">getDownImage</a> () const noexcept</td></tr>
 <tr class="memdesc:a36fcdc9874414f34b173a2421a75c971"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the image that the button will use when the mouse is held down on it.  <a href="#a36fcdc9874414f34b173a2421a75c971"></a><br/></td></tr>
 <tr class="separator:a36fcdc9874414f34b173a2421a75c971"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a458cb2e43dc021e5c59cccfc71ddff97"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#a458cb2e43dc021e5c59cccfc71ddff97">getImageBounds</a> () const </td></tr>
+<tr class="memdesc:a458cb2e43dc021e5c59cccfc71ddff97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be overridden to specify a custom position for the image within the button.  <a href="#a458cb2e43dc021e5c59cccfc71ddff97"></a><br/></td></tr>
+<tr class="separator:a458cb2e43dc021e5c59cccfc71ddff97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac18941a86b68ed899cd85081170b4af7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#ac18941a86b68ed899cd85081170b4af7">paintButton</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, bool isMouseOverButton, bool isButtonDown) override</td></tr>
 <tr class="separator:ac18941a86b68ed899cd85081170b4af7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb246419a6e6a07d9a82d97b18408953"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawableButton.html#adb246419a6e6a07d9a82d97b18408953">buttonStateChanged</a> () override</td></tr>
@@ -391,12 +394,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a69c87aead08da3027f60f9438f1cc4b2 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a69c87aead08da3027f60f9438f1cc4b2">getLocalPoint</a> (const <a class="el" href="classComponent.html">Component</a> *sourceComponent, <a class="el" href="classPoint.html">Point</a>&lt; int &gt; pointRelativeToSourceComponent) const </td></tr>
 <tr class="memdesc:a69c87aead08da3027f60f9438f1cc4b2 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a point to be relative to this component's coordinate space.  <a href="#a69c87aead08da3027f60f9438f1cc4b2"></a><br/></td></tr>
 <tr class="separator:a69c87aead08da3027f60f9438f1cc4b2 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee9413b254c48420ca212d542d023a36 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#aee9413b254c48420ca212d542d023a36">getLocalPoint</a> (const <a class="el" href="classComponent.html">Component</a> *sourceComponent, <a class="el" href="classPoint.html">Point</a>&lt; float &gt; pointRelativeToSourceComponent) const </td></tr>
+<tr class="memdesc:aee9413b254c48420ca212d542d023a36 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a point to be relative to this component's coordinate space.  <a href="#aee9413b254c48420ca212d542d023a36"></a><br/></td></tr>
+<tr class="separator:aee9413b254c48420ca212d542d023a36 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad430b1614d5cca921dc344641b584675 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#ad430b1614d5cca921dc344641b584675">getLocalArea</a> (const <a class="el" href="classComponent.html">Component</a> *sourceComponent, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;areaRelativeToSourceComponent) const </td></tr>
 <tr class="memdesc:ad430b1614d5cca921dc344641b584675 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a rectangle to be relative to this component's coordinate space.  <a href="#ad430b1614d5cca921dc344641b584675"></a><br/></td></tr>
 <tr class="separator:ad430b1614d5cca921dc344641b584675 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a275a896a2d25a6eb1624ba33345ab2cb inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a275a896a2d25a6eb1624ba33345ab2cb">localPointToGlobal</a> (<a class="el" href="classPoint.html">Point</a>&lt; int &gt; localPoint) const </td></tr>
 <tr class="memdesc:a275a896a2d25a6eb1624ba33345ab2cb inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a point relative to this component's top-left into a screen coordinate.  <a href="#a275a896a2d25a6eb1624ba33345ab2cb"></a><br/></td></tr>
 <tr class="separator:a275a896a2d25a6eb1624ba33345ab2cb inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaec6ae5420b38f9ea7448a1b015d78c5 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#aaec6ae5420b38f9ea7448a1b015d78c5">localPointToGlobal</a> (<a class="el" href="classPoint.html">Point</a>&lt; float &gt; localPoint) const </td></tr>
+<tr class="memdesc:aaec6ae5420b38f9ea7448a1b015d78c5 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a point relative to this component's top-left into a screen coordinate.  <a href="#aaec6ae5420b38f9ea7448a1b015d78c5"></a><br/></td></tr>
+<tr class="separator:aaec6ae5420b38f9ea7448a1b015d78c5 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ad906ec22da2091eed7b65b21dc4ee9 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a9ad906ec22da2091eed7b65b21dc4ee9">localAreaToGlobal</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;localArea) const </td></tr>
 <tr class="memdesc:a9ad906ec22da2091eed7b65b21dc4ee9 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a rectangle from this component's coordinate space to a screen coordinate.  <a href="#a9ad906ec22da2091eed7b65b21dc4ee9"></a><br/></td></tr>
 <tr class="separator:a9ad906ec22da2091eed7b65b21dc4ee9 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1223,6 +1232,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the image that the button will use when the mouse is held down on it. </p>
+
+</div>
+</div>
+<a class="anchor" id="a458cb2e43dc021e5c59cccfc71ddff97"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classRectangle.html">Rectangle</a>&lt;float&gt; DrawableButton::getImageBounds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Can be overridden to specify a custom position for the image within the button. </p>
 
 </div>
 </div>

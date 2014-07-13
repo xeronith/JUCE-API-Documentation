@@ -11,7 +11,7 @@ var searchData=
   ['seashell',['seashell',['../classColours.html#a59caf9dbbe04dd428b7253273ec14ca3',1,'Colours']]],
   ['separator',['separator',['../classFile.html#a03d104ec7dd9600dbfb8cfdd25585135',1,'File']]],
   ['separatorstring',['separatorString',['../classFile.html#a66e8bff47d42f5b093b88eacacb573ce',1,'File']]],
-  ['settings',['settings',['../classStandalonePluginHolder.html#a79c6f72171985e47fe6190c7bbd21d5a',1,'StandalonePluginHolder']]],
+  ['settings',['settings',['../classStandalonePluginHolder.html#a58375e902a8f0e9d079ff54abf763ac5',1,'StandalonePluginHolder']]],
   ['shortname',['shortName',['../structApplicationCommandInfo.html#a2da18de634cf7794fcd0b26e4121e3ec',1,'ApplicationCommandInfo']]],
   ['sienna',['sienna',['../classColours.html#aef8c3caf18a816ecc8180ca9d639ab3c',1,'Colours']]],
   ['silver',['silver',['../classColours.html#ac171c2c4d749ed079e56de4fe35ba2a3',1,'Colours']]],
@@ -49,6 +49,7 @@ var searchData=
   ['subfolders',['subFolders',['../structKnownPluginList_1_1PluginTree.html#a46a202981e3ec6943e51ddbe2866a8d0',1,'KnownPluginList::PluginTree']]],
   ['submenu',['subMenu',['../classPopupMenu_1_1MenuItemIterator.html#afb6d899fe8d2ac3244c81df9c5f41868',1,'PopupMenu::MenuItemIterator']]],
   ['subpathindex',['subPathIndex',['../classPathFlatteningIterator.html#a96ac386608cfe18dde7de5a433aac417',1,'PathFlatteningIterator']]],
+  ['succeeded',['succeeded',['../structTracktionMarketplaceStatus_1_1UnlockResult.html#a264b2da005c2b7b9b80d1dcc94266b9e',1,'TracktionMarketplaceStatus::UnlockResult']]],
   ['symbolname',['symbolName',['../structExpression_1_1Symbol.html#a8ea461b91478b99e10a04956c38f5d68',1,'Expression::Symbol']]],
   ['symmetricmode',['symmetricMode',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html#ad46a5846bf7817ae1524974836fc7d9b',1,'DrawablePath::ValueTreeWrapper::Element']]]
 ];

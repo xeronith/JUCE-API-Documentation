@@ -737,6 +737,7 @@ EXCLUDE                = ../juce/modules/juce_graphics/image_formats \
                          ../juce/modules/juce_opengl/juce_opengl.h \
                          ../juce/modules/juce_opengl/juce_opengl.cpp \
                          ../juce/modules/juce_opengl/native \
+                         ../juce/modules/juce_tracktion_marketplace/juce_tracktion_marketplace.h \
                          ../juce/modules/juce_video/juce_video.h \
                          ../juce/modules/juce_video/juce_video.cpp \
                          ../juce/modules/juce_video/native

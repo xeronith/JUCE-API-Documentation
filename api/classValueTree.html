@@ -235,6 +235,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acdace65667e5bb2036310b4a91dd3a87"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classValueTree.html#acdace65667e5bb2036310b4a91dd3a87">sort</a> (ElementComparator &amp;comparator, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager, bool retainOrderOfEquivalentItems)</td></tr>
 <tr class="memdesc:acdace65667e5bb2036310b4a91dd3a87"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method uses a comparator object to sort the tree's children into order.  <a href="#acdace65667e5bb2036310b4a91dd3a87"></a><br/></td></tr>
 <tr class="separator:acdace65667e5bb2036310b4a91dd3a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade7c3497b915a14168d347b20258122d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ade7c3497b915a14168d347b20258122d">getReferenceCount</a> () const noexcept</td></tr>
+<tr class="memdesc:ade7c3497b915a14168d347b20258122d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the total number of references to the shared underlying data structure that this <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> is using.  <a href="#ade7c3497b915a14168d347b20258122d"></a><br/></td></tr>
+<tr class="separator:ade7c3497b915a14168d347b20258122d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -1431,6 +1434,31 @@ template&lt;typename ElementComparator &gt; </div>
 </dl>
 
 <p>References <a class="el" href="classOwnedArray.html#a04a21a831320e2ce76bee8ad881e1d90">OwnedArray&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::sort()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ade7c3497b915a14168d347b20258122d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ValueTree::getReferenceCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the total number of references to the shared underlying data structure that this <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> is using. </p>
 
 </div>
 </div>

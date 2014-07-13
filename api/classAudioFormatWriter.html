@@ -114,6 +114,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a60dc79a5cd9ed0307ea04637ed25ea8b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a60dc79a5cd9ed0307ea04637ed25ea8b">write</a> (const int **samplesToWrite, int numSamples)=0</td></tr>
 <tr class="memdesc:a60dc79a5cd9ed0307ea04637ed25ea8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a set of samples to the audio stream.  <a href="#a60dc79a5cd9ed0307ea04637ed25ea8b"></a><br/></td></tr>
 <tr class="separator:a60dc79a5cd9ed0307ea04637ed25ea8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac83a728db8d8abf6cf39a3bd34390a6a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#ac83a728db8d8abf6cf39a3bd34390a6a">flush</a> ()</td></tr>
+<tr class="memdesc:ac83a728db8d8abf6cf39a3bd34390a6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some formats may support a flush operation that makes sure the file is in a valid state before carrying on.  <a href="#ac83a728db8d8abf6cf39a3bd34390a6a"></a><br/></td></tr>
+<tr class="separator:ac83a728db8d8abf6cf39a3bd34390a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a691c94e9609383c915af71cbf760db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a3a691c94e9609383c915af71cbf760db">writeFromAudioReader</a> (<a class="el" href="classAudioFormatReader.html">AudioFormatReader</a> &amp;reader, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> startSample, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> numSamplesToRead)</td></tr>
 <tr class="memdesc:a3a691c94e9609383c915af71cbf760db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a section of samples from an <a class="el" href="classAudioFormatReader.html" title="Reads samples from an audio file stream.">AudioFormatReader</a>, and writes these to the output.  <a href="#a3a691c94e9609383c915af71cbf760db"></a><br/></td></tr>
 <tr class="separator:a3a691c94e9609383c915af71cbf760db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -326,6 +329,32 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="ac83a728db8d8abf6cf39a3bd34390a6a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AudioFormatWriter::flush </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Some formats may support a flush operation that makes sure the file is in a valid state before carrying on. </p>
+<p>If supported, this means that by calling flush periodically when writing data to a large file, then it should still be left in a readable state if your program crashes. It goes without saying that this method must be called from the same thread that's calling <a class="el" href="classAudioFormatWriter.html#a60dc79a5cd9ed0307ea04637ed25ea8b" title="Writes a set of samples to the audio stream.">write()</a>! If the format supports flushing and the operation succeeds, this returns true. </p>
 
 </div>
 </div>

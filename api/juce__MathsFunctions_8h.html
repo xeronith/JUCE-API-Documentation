@@ -232,6 +232,8 @@ Functions</h2></td></tr>
 <tr class="memitem:afe8eb86381d389f4ba9f9931a38e1a44"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="juce__MathsFunctions_8h.html#afe8eb86381d389f4ba9f9931a38e1a44">roundToInt</a> (const FloatType value) noexcept</td></tr>
 <tr class="memdesc:afe8eb86381d389f4ba9f9931a38e1a44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast floating-point-to-integer conversion.  <a href="#afe8eb86381d389f4ba9f9931a38e1a44"></a><br/></td></tr>
 <tr class="separator:afe8eb86381d389f4ba9f9931a38e1a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae02a3e54ffb64eaf971ff845d54c9b02"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__MathsFunctions_8h.html#ae02a3e54ffb64eaf971ff845d54c9b02">roundToInt</a> (int value) noexcept</td></tr>
+<tr class="separator:ae02a3e54ffb64eaf971ff845d54c9b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d50b878ef3d055bfbd7acdeefd14b4f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__MathsFunctions_8h.html#a7d50b878ef3d055bfbd7acdeefd14b4f">roundToIntAccurate</a> (const double value) noexcept</td></tr>
 <tr class="memdesc:a7d50b878ef3d055bfbd7acdeefd14b4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast floating-point-to-integer conversion.  <a href="#a7d50b878ef3d055bfbd7acdeefd14b4f"></a><br/></td></tr>
 <tr class="separator:a7d50b878ef3d055bfbd7acdeefd14b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1163,7 +1165,31 @@ template&lt;typename FloatType &gt; </div>
 <p>This is faster than using the normal c++ cast to convert a float to an int, and it will round the value to the nearest integer, rather than rounding it down like the normal cast does.</p>
 <p>Note that this routine gets its speed at the expense of some accuracy, and when rounding values whose floating point component is exactly 0.5, odd numbers and even numbers will be rounded up or down differently. </p>
 
-<p>Referenced by <a class="el" href="juce__MathsFunctions_8h.html#aa93b4dcb7316e52b5852b6b0109fe216">roundDoubleToInt()</a>, <a class="el" href="juce__MathsFunctions_8h.html#abf62a9bf70ca904f80cdc33ee5ab6264">roundFloatToInt()</a>, and <a class="el" href="juce__MathsFunctions_8h.html#a7d50b878ef3d055bfbd7acdeefd14b4f">roundToIntAccurate()</a>.</p>
+<p>Referenced by <a class="el" href="juce__MathsFunctions_8h.html#aa93b4dcb7316e52b5852b6b0109fe216">roundDoubleToInt()</a>, <a class="el" href="juce__MathsFunctions_8h.html#abf62a9bf70ca904f80cdc33ee5ab6264">roundFloatToInt()</a>, <a class="el" href="classPoint.html#af39678668338302ac5972a1093902657">Point&lt; int &gt;::roundToInt()</a>, and <a class="el" href="juce__MathsFunctions_8h.html#a7d50b878ef3d055bfbd7acdeefd14b4f">roundToIntAccurate()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae02a3e54ffb64eaf971ff845d54c9b02"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int roundToInt </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

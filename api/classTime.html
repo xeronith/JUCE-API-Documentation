@@ -166,12 +166,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad89ac95bff6956f148e7abd3ca2d03d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTime.html#ad89ac95bff6956f148e7abd3ca2d03d6">formatted</a> (const <a class="el" href="classString.html">String</a> &amp;format) const </td></tr>
 <tr class="memdesc:ad89ac95bff6956f148e7abd3ca2d03d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts this date/time to a string with a user-defined format.  <a href="#ad89ac95bff6956f148e7abd3ca2d03d6"></a><br/></td></tr>
 <tr class="separator:ad89ac95bff6956f148e7abd3ca2d03d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afba2d2163547a155e3d433294f2ab1d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTime.html">Time</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTime.html#afba2d2163547a155e3d433294f2ab1d2">operator+=</a> (<a class="el" href="classRelativeTime.html">RelativeTime</a> delta)</td></tr>
-<tr class="memdesc:afba2d2163547a155e3d433294f2ab1d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a <a class="el" href="classRelativeTime.html" title="A relative measure of time.">RelativeTime</a> to this time.  <a href="#afba2d2163547a155e3d433294f2ab1d2"></a><br/></td></tr>
-<tr class="separator:afba2d2163547a155e3d433294f2ab1d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66f3917fb7dae065520907e735aafc00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTime.html">Time</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTime.html#a66f3917fb7dae065520907e735aafc00">operator-=</a> (<a class="el" href="classRelativeTime.html">RelativeTime</a> delta)</td></tr>
-<tr class="memdesc:a66f3917fb7dae065520907e735aafc00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtracts a <a class="el" href="classRelativeTime.html" title="A relative measure of time.">RelativeTime</a> from this time.  <a href="#a66f3917fb7dae065520907e735aafc00"></a><br/></td></tr>
-<tr class="separator:a66f3917fb7dae065520907e735aafc00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ae50bafc704991aaa22d867c4dfe22f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTime.html">Time</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTime.html#a5ae50bafc704991aaa22d867c4dfe22f">operator+=</a> (<a class="el" href="classRelativeTime.html">RelativeTime</a> delta) noexcept</td></tr>
+<tr class="memdesc:a5ae50bafc704991aaa22d867c4dfe22f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a <a class="el" href="classRelativeTime.html" title="A relative measure of time.">RelativeTime</a> to this time.  <a href="#a5ae50bafc704991aaa22d867c4dfe22f"></a><br/></td></tr>
+<tr class="separator:a5ae50bafc704991aaa22d867c4dfe22f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a405b8d0c039448bc00d4d8b6a86eadc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTime.html">Time</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTime.html#a405b8d0c039448bc00d4d8b6a86eadc1">operator-=</a> (<a class="el" href="classRelativeTime.html">RelativeTime</a> delta) noexcept</td></tr>
+<tr class="memdesc:a405b8d0c039448bc00d4d8b6a86eadc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtracts a <a class="el" href="classRelativeTime.html" title="A relative measure of time.">RelativeTime</a> from this time.  <a href="#a405b8d0c039448bc00d4d8b6a86eadc1"></a><br/></td></tr>
+<tr class="separator:a405b8d0c039448bc00d4d8b6a86eadc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af97c92a87fc52d71c386f496096bea04"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTime.html#af97c92a87fc52d71c386f496096bea04">setSystemTimeToThisTime</a> () const </td></tr>
 <tr class="memdesc:af97c92a87fc52d71c386f496096bea04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to set the computer's clock.  <a href="#af97c92a87fc52d71c386f496096bea04"></a><br/></td></tr>
 <tr class="separator:af97c92a87fc52d71c386f496096bea04"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -214,6 +214,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a1690ac880d53fa9c2c76b2b5f67e776f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTime.html#a1690ac880d53fa9c2c76b2b5f67e776f">secondsToHighResolutionTicks</a> (double seconds) noexcept</td></tr>
 <tr class="memdesc:a1690ac880d53fa9c2c76b2b5f67e776f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a number seconds into high-resolution ticks.  <a href="#a1690ac880d53fa9c2c76b2b5f67e776f"></a><br/></td></tr>
 <tr class="separator:a1690ac880d53fa9c2c76b2b5f67e776f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bcdd6953120779dfba089902a91983d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classTime.html">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTime.html#a4bcdd6953120779dfba089902a91983d">getCompilationDate</a> ()</td></tr>
+<tr class="memdesc:a4bcdd6953120779dfba089902a91983d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classTime.html" title="Holds an absolute date and time.">Time</a> based on the value of the __DATE__ macro when this module was compiled.  <a href="#a4bcdd6953120779dfba089902a91983d"></a><br/></td></tr>
+<tr class="separator:a4bcdd6953120779dfba089902a91983d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Holds an absolute date and time. </p>
@@ -967,9 +970,12 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afba2d2163547a155e3d433294f2ab1d2"></a>
+<a class="anchor" id="a5ae50bafc704991aaa22d867c4dfe22f"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classTime.html">Time</a>&amp; Time::operator+= </td>
@@ -979,15 +985,23 @@ Static Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Adds a <a class="el" href="classRelativeTime.html" title="A relative measure of time.">RelativeTime</a> to this time. </p>
 
 </div>
 </div>
-<a class="anchor" id="a66f3917fb7dae065520907e735aafc00"></a>
+<a class="anchor" id="a405b8d0c039448bc00d4d8b6a86eadc1"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classTime.html">Time</a>&amp; Time::operator-= </td>
@@ -997,6 +1011,11 @@ Static Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Subtracts a <a class="el" href="classRelativeTime.html" title="A relative measure of time.">RelativeTime</a> from this time. </p>
@@ -1347,6 +1366,31 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Converts a number seconds into high-resolution ticks. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classTime.html#af33d7295da41f2d645d8a5e93f1cfe45" title="Returns the current high-resolution counter&#39;s tick-count.">getHighResolutionTicks</a>, <a class="el" href="classTime.html#a71124045a6a77003fc8d838d79688977" title="Returns the resolution of the high-resolution counter in ticks per second.">getHighResolutionTicksPerSecond</a>, <a class="el" href="classTime.html#a3c4d54513d5d2be78a790cfd0b8c0493" title="Converts a number of high-resolution ticks into seconds.">highResolutionTicksToSeconds</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4bcdd6953120779dfba089902a91983d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classTime.html">Time</a> Time::getCompilationDate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a <a class="el" href="classTime.html" title="Holds an absolute date and time.">Time</a> based on the value of the __DATE__ macro when this module was compiled. </p>
 
 </div>
 </div>

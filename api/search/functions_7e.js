@@ -394,6 +394,8 @@ var searchData=
   ['_7etooltipclient',['~TooltipClient',['../classTooltipClient.html#a1bc2223e107e4122d251f5b90049140c',1,'TooltipClient']]],
   ['_7etooltipwindow',['~TooltipWindow',['../classTooltipWindow.html#a0200afb94084ac46d3f8a054402a58a0',1,'TooltipWindow']]],
   ['_7etoplevelwindow',['~TopLevelWindow',['../classTopLevelWindow.html#a20277d9867a8e2fa56405a24b595e547',1,'TopLevelWindow']]],
+  ['_7etracktionmarketplacestatus',['~TracktionMarketplaceStatus',['../classTracktionMarketplaceStatus.html#a4e2cda339d35698ab2d79f34c2d7f2e7',1,'TracktionMarketplaceStatus']]],
+  ['_7etracktionmarketplaceunlockform',['~TracktionMarketplaceUnlockForm',['../classTracktionMarketplaceUnlockForm.html#a3f8fd59bb4fdedc0f27f46ba88317262',1,'TracktionMarketplaceUnlockForm']]],
   ['_7etreeview',['~TreeView',['../classTreeView.html#a9131ac3d332c721b2aa8e3202e7cc305',1,'TreeView']]],
   ['_7etreeviewitem',['~TreeViewItem',['../classTreeViewItem.html#a096327dbe3300e99a80eff28f0e20a14',1,'TreeViewItem']]],
   ['_7etypeface',['~Typeface',['../classTypeface.html#ae3f6929dec75f834504478b6ab33dcbd',1,'Typeface']]],

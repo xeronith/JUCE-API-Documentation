@@ -372,6 +372,7 @@ var searchData=
   ['isunboundedmousemovementenabled',['isUnboundedMouseMovementEnabled',['../classMouseInputSource.html#a753f2a0b122b9aba12ca576ab450fd00',1,'MouseInputSource']]],
   ['isundefined',['isUndefined',['../classvar.html#a58414b1c59b412ccb4be79f41595d8be',1,'var']]],
   ['isunderlined',['isUnderlined',['../classFont.html#a8246621b771e73832156cad3c1ba66d6',1,'Font']]],
+  ['isunlocked',['isUnlocked',['../classTracktionMarketplaceStatus.html#a8851cc8202f6abb53e1ddd5eb55c557e',1,'TracktionMarketplaceStatus']]],
   ['isupdatepending',['isUpdatePending',['../classAsyncUpdater.html#a93c63f13659fc5acd41c3ec9b252bf01',1,'AsyncUpdater']]],
   ['isuppercase',['isUpperCase',['../classCharacterFunctions.html#a6533e82213f7bc97d84f5509cfe21225',1,'CharacterFunctions::isUpperCase()'],['../classCharPointer__ASCII.html#a8ca8fe31c732a98f4d8d1e71e308ce2f',1,'CharPointer_ASCII::isUpperCase()'],['../classCharPointer__UTF16.html#a0010de47cf9f0c4fe7d0f33931c666af',1,'CharPointer_UTF16::isUpperCase()'],['../classCharPointer__UTF32.html#acb9c7c6eb40147ba6e6159baea2877b7',1,'CharPointer_UTF32::isUpperCase()'],['../classCharPointer__UTF8.html#a7c04fb1ce2e2a69d88f458787b53991b',1,'CharPointer_UTF8::isUpperCase()']]],
   ['isusingnativealertwindows',['isUsingNativeAlertWindows',['../classLookAndFeel.html#a08905a5fe3fa51ec2cd99010a1042007',1,'LookAndFeel']]],

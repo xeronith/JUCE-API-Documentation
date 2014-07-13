@@ -7,6 +7,7 @@ var searchData=
   ['encodername',['encoderName',['../classOggVorbisAudioFormat.html#a1c97a40ce37de0766efdaec9b1d4fcb5',1,'OggVorbisAudioFormat']]],
   ['endkey',['endKey',['../classKeyPress.html#a54ced410db4096610651498e85e63b1e',1,'KeyPress']]],
   ['endpoint',['endPoint',['../classRelativePointPath_1_1LineTo.html#a947b4b9d2bf6208e8955eca0e6c5c66c',1,'RelativePointPath::LineTo']]],
+  ['errormessage',['errorMessage',['../structTracktionMarketplaceStatus_1_1UnlockResult.html#a2c8f81d7020604bb20525248a9acadd4',1,'TracktionMarketplaceStatus::UnlockResult']]],
   ['escapekey',['escapeKey',['../classKeyPress.html#a565ec13ad662d05392b609fad31b8f01',1,'KeyPress']]],
   ['escapekeytriggersclosebutton',['escapeKeyTriggersCloseButton',['../structDialogWindow_1_1LaunchOptions.html#a65c71187b9ebcfa96056aa1bbc77534a',1,'DialogWindow::LaunchOptions']]],
   ['eventcomponent',['eventComponent',['../classMouseEvent.html#a33c37dc970ab4c24e9e5b2c33e568d9e',1,'MouseEvent']]],

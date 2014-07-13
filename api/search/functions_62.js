@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['backgroundclicked',['backgroundClicked',['../classListBoxModel.html#a7b5d369b12c2a23a8d87600978f7e2f0',1,'ListBoxModel::backgroundClicked()'],['../classTableListBoxModel.html#ab0fdbd2e308ab507fd5ab14cbb1594bf',1,'TableListBoxModel::backgroundClicked()'],['../classTableListBox.html#a13e0ad262be16bb5f536f164384bc11b',1,'TableListBox::backgroundClicked()']]],
+  ['backgroundclicked',['backgroundClicked',['../classListBoxModel.html#aa81d02ba605aafaee3ed21bc57f3a985',1,'ListBoxModel::backgroundClicked()'],['../classTableListBoxModel.html#af31c6c676bb85789dff16226f3493c6b',1,'TableListBoxModel::backgroundClicked()'],['../classTableListBox.html#aebcd0043fdb8ff5ffb9249e0061de544',1,'TableListBox::backgroundClicked()']]],
   ['bailoutchecker',['BailOutChecker',['../classComponent_1_1BailOutChecker.html#a81634845f2a6f4c10572038f57420fd6',1,'Component::BailOutChecker']]],
   ['begin',['begin',['../classAudioFormatManager.html#a831cac74ca82dcdea9a8328f7a1550d8',1,'AudioFormatManager::begin()'],['../classKnownPluginList.html#ae2d094830d3adc5fa79e078b979d5be3',1,'KnownPluginList::begin()'],['../classArray.html#a5aeb6bdbca7a057c6fe483f2a9c89ef5',1,'Array::begin()'],['../classOwnedArray.html#ae68d94c70c6c25246336bb30ba63d27c',1,'OwnedArray::begin()'],['../classReferenceCountedArray.html#a32aac83fe214508e442f1de390ff8e54',1,'ReferenceCountedArray::begin()'],['../classSortedSet.html#a4546d1c39aca9b8105b1934c0546774b',1,'SortedSet::begin()'],['../classStringArray.html#a8b297798829a0196e0c45abf75b7cc4c',1,'StringArray::begin()'],['../classRectangleList.html#ac4a757a9274fb76b001bbbe97dc0a6b4',1,'RectangleList::begin()'],['../classSelectedItemSet.html#a8820df35449af865aaecf107cad4a653',1,'SelectedItemSet::begin()']]],
   ['begindrag',['beginDrag',['../classAnimatedPosition.html#a3378dd6b200539ef684f5d8031a4f69a',1,'AnimatedPosition']]],
@@ -12,8 +12,8 @@ var searchData=
   ['begintransparencylayer',['beginTransparencyLayer',['../classGraphics.html#ab8d8ee1c6bb810074eff904fd3c21fc4',1,'Graphics::beginTransparencyLayer()'],['../classLowLevelGraphicsContext.html#a7779642c9e50269e96906915f8dd833d',1,'LowLevelGraphicsContext::beginTransparencyLayer()'],['../classLowLevelGraphicsPostScriptRenderer.html#aade6567b6bbde44f598f0c216cca1821',1,'LowLevelGraphicsPostScriptRenderer::beginTransparencyLayer()']]],
   ['beginwaitingforsocket',['beginWaitingForSocket',['../classInterprocessConnectionServer.html#a12aa4180243cdb01725237da25d2230d',1,'InterprocessConnectionServer']]],
   ['between',['between',['../classRange.html#aa0165f9820b176b5df903e19c8a2a88b',1,'Range']]],
-  ['bigendian24bit',['bigEndian24Bit',['../classByteOrder.html#ad72e043d415b645588d98c32639e08eb',1,'ByteOrder']]],
-  ['bigendian24bittochars',['bigEndian24BitToChars',['../classByteOrder.html#a177a764d5be8e92157f01e28695d63da',1,'ByteOrder']]],
+  ['bigendian24bit',['bigEndian24Bit',['../classByteOrder.html#a0dffd4f0e34fdd69453104e89996507d',1,'ByteOrder']]],
+  ['bigendian24bittochars',['bigEndian24BitToChars',['../classByteOrder.html#af30f589309d051d2e3476c4c62a698b0',1,'ByteOrder']]],
   ['bigendianint',['bigEndianInt',['../classByteOrder.html#aca1a20a5825bcbef1f7b6920e3eee99f',1,'ByteOrder']]],
   ['bigendianint64',['bigEndianInt64',['../classByteOrder.html#af7c126f0a1015a0c9f5b91aac2991620',1,'ByteOrder']]],
   ['bigendianshort',['bigEndianShort',['../classByteOrder.html#a7716b1b156320f4668d93142c69d7a3b',1,'ByteOrder']]],

@@ -112,9 +112,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a75e83af285e9c0ce5d74522220821051"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter_1_1ThreadedWriter.html#a75e83af285e9c0ce5d74522220821051">write</a> (const float *const *data, int numSamples)</td></tr>
 <tr class="memdesc:a75e83af285e9c0ce5d74522220821051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes some incoming audio data into the FIFO.  <a href="#a75e83af285e9c0ce5d74522220821051"></a><br/></td></tr>
 <tr class="separator:a75e83af285e9c0ce5d74522220821051"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3dcbed2e259510fe5bdab35fff9d891"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter_1_1ThreadedWriter.html#ad3dcbed2e259510fe5bdab35fff9d891">setDataReceiver</a> (<a class="el" href="classAudioFormatWriter_1_1ThreadedWriter_1_1IncomingDataReceiver.html">IncomingDataReceiver</a> *receiver)</td></tr>
-<tr class="memdesc:ad3dcbed2e259510fe5bdab35fff9d891"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows you to specify a callback that this writer should update with the incoming data.  <a href="#ad3dcbed2e259510fe5bdab35fff9d891"></a><br/></td></tr>
-<tr class="separator:ad3dcbed2e259510fe5bdab35fff9d891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9af3b0ff01f3e62427c0526087f5ab3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter_1_1ThreadedWriter.html#af9af3b0ff01f3e62427c0526087f5ab3">setDataReceiver</a> (<a class="el" href="classAudioFormatWriter_1_1ThreadedWriter_1_1IncomingDataReceiver.html">IncomingDataReceiver</a> *)</td></tr>
+<tr class="memdesc:af9af3b0ff01f3e62427c0526087f5ab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows you to specify a callback that this writer should update with the incoming data.  <a href="#af9af3b0ff01f3e62427c0526087f5ab3"></a><br/></td></tr>
+<tr class="separator:af9af3b0ff01f3e62427c0526087f5ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed11ea43682211de3bc3c2f86799686f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter_1_1ThreadedWriter.html#aed11ea43682211de3bc3c2f86799686f">setFlushInterval</a> (int numSamplesPerFlush) noexcept</td></tr>
+<tr class="memdesc:aed11ea43682211de3bc3c2f86799686f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets how many samples should be written before calling the <a class="el" href="classAudioFormatWriter.html#ac83a728db8d8abf6cf39a3bd34390a6a" title="Some formats may support a flush operation that makes sure the file is in a valid state before carryi...">AudioFormatWriter::flush</a> method.  <a href="#aed11ea43682211de3bc3c2f86799686f"></a><br/></td></tr>
+<tr class="separator:aed11ea43682211de3bc3c2f86799686f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides a FIFO for an <a class="el" href="classAudioFormatWriter.html" title="Writes samples to an audio file stream.">AudioFormatWriter</a>, allowing you to push incoming data into a buffer which will be flushed to disk by a background thread. </p>
@@ -204,7 +207,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad3dcbed2e259510fe5bdab35fff9d891"></a>
+<a class="anchor" id="af9af3b0ff01f3e62427c0526087f5ab3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -212,7 +215,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void AudioFormatWriter::ThreadedWriter::setDataReceiver </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioFormatWriter_1_1ThreadedWriter_1_1IncomingDataReceiver.html">IncomingDataReceiver</a> *&#160;</td>
-          <td class="paramname"><em>receiver</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -221,6 +224,33 @@ Public Member Functions</h2></td></tr>
 <p>Allows you to specify a callback that this writer should update with the incoming data. </p>
 <p>The receiver will be cleared and will the writer will begin adding data to it as the data arrives. Pass a null pointer to remove the current receiver.</p>
 <p>The object passed-in must not be deleted while this writer is still using it. </p>
+
+</div>
+</div>
+<a class="anchor" id="aed11ea43682211de3bc3c2f86799686f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioFormatWriter::ThreadedWriter::setFlushInterval </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numSamplesPerFlush</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets how many samples should be written before calling the <a class="el" href="classAudioFormatWriter.html#ac83a728db8d8abf6cf39a3bd34390a6a" title="Some formats may support a flush operation that makes sure the file is in a valid state before carryi...">AudioFormatWriter::flush</a> method. </p>
+<p>Set this to 0 to disable flushing (this is the default). </p>
 
 </div>
 </div>

@@ -151,6 +151,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0052d25ba400cf3e01f5f5bc95e03ce4"><td class="memTemplParams" colspan="2">template&lt;typename Iterator &gt; </td></tr>
 <tr class="memitem:a0052d25ba400cf3e01f5f5bc95e03ce4"><td class="memTemplItemLeft" align="right" valign="top">static int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structCppTokeniserFunctions.html#a0052d25ba400cf3e01f5f5bc95e03ce4">readNextToken</a> (Iterator &amp;source)</td></tr>
 <tr class="separator:a0052d25ba400cf3e01f5f5bc95e03ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec2241fa18131c4d828d1a953f942b32"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCppTokeniserFunctions.html#aec2241fa18131c4d828d1a953f942b32">writeEscapeChars</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;out, const char *utf8, const int numBytesToRead, const int maxCharsOnLine, const bool breakAtNewLines, const bool replaceSingleQuotes, const bool allowStringBreaks)</td></tr>
+<tr class="memdesc:aec2241fa18131c4d828d1a953f942b32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a UTF8 string and writes it to a stream using standard C++ escape sequences for any non-ascii bytes.  <a href="#aec2241fa18131c4d828d1a953f942b32"></a><br/></td></tr>
+<tr class="separator:aec2241fa18131c4d828d1a953f942b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0af79aca7fefba85524844c4b201803a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCppTokeniserFunctions.html#a0af79aca7fefba85524844c4b201803a">addEscapeChars</a> (const <a class="el" href="classString.html">String</a> &amp;s)</td></tr>
+<tr class="memdesc:a0af79aca7fefba85524844c4b201803a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a string and returns a version of it where standard C++ escape sequences have been used to replace any non-ascii bytes.  <a href="#a0af79aca7fefba85524844c4b201803a"></a><br/></td></tr>
+<tr class="separator:a0af79aca7fefba85524844c4b201803a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class containing some basic functions for simple tokenising of C++ code. </p>
@@ -726,6 +732,109 @@ template&lt;typename Iterator &gt; </div>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="structCppTokeniserFunctions.html#a13364f0e29c090497fa4b9971c55ed09">isIdentifierStart()</a>, <a class="el" href="structCppTokeniserFunctions.html#aea69e827e335f754cb4e9c9c46a07ac5">parseIdentifier()</a>, <a class="el" href="structCppTokeniserFunctions.html#aa7d38384c966aae354723f534dae49d6">parseNumber()</a>, <a class="el" href="structCppTokeniserFunctions.html#acc20b010695f2ea7cba36da65c606219">skipComment()</a>, <a class="el" href="structCppTokeniserFunctions.html#a537b688c16a211d4826bcccf338aad79">skipIfNextCharMatches()</a>, <a class="el" href="structCppTokeniserFunctions.html#a905f50dc9cdd44e54772c3ab69538338">skipPreprocessorLine()</a>, <a class="el" href="structCppTokeniserFunctions.html#a8c64db97036cde3a9774945c39361ea5">skipQuotedString()</a>, <a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257a290668e5b4167e765b849c977c697384">CPlusPlusCodeTokeniser::tokenType_bracket</a>, <a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257a7052a5bb03e836c04d591110776f201e">CPlusPlusCodeTokeniser::tokenType_comment</a>, <a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257a96ec7cd93a85eb494ff478b2531ca6dc">CPlusPlusCodeTokeniser::tokenType_error</a>, <a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257a539da9fffe49f181c22173b47d57fdb2">CPlusPlusCodeTokeniser::tokenType_operator</a>, <a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257a0f86221be32d125f9827b9439c545702">CPlusPlusCodeTokeniser::tokenType_preprocessor</a>, <a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257aa2ac45a2c81f2d202df78cb9ab01c311">CPlusPlusCodeTokeniser::tokenType_punctuation</a>, and <a class="el" href="classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257aa21476a798b64fd4fef6961e258df548">CPlusPlusCodeTokeniser::tokenType_string</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aec2241fa18131c4d828d1a953f942b32"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CppTokeniserFunctions::writeEscapeChars </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classOutputStream.html">OutputStream</a> &amp;&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>utf8</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>numBytesToRead</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>maxCharsOnLine</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>breakAtNewLines</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>replaceSingleQuotes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>allowStringBreaks</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Takes a UTF8 string and writes it to a stream using standard C++ escape sequences for any non-ascii bytes. </p>
+<p>Although not strictly a tokenising function, this is still a function that often comes in handy when working with C++ code!</p>
+<p>Note that <a class="el" href="structCppTokeniserFunctions.html#a0af79aca7fefba85524844c4b201803a" title="Takes a string and returns a version of it where standard C++ escape sequences have been used to repl...">addEscapeChars()</a> is easier to use than this function if you're working with Strings.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structCppTokeniserFunctions.html#a0af79aca7fefba85524844c4b201803a" title="Takes a string and returns a version of it where standard C++ escape sequences have been used to repl...">addEscapeChars</a> </dd></dl>
+
+<p>References <a class="el" href="classCharacterFunctions.html#a3f97549ff81aee8415076f99b4adb310">CharacterFunctions::getHexDigitValue()</a>, <a class="el" href="juce__NewLine_8h.html#abd231b88341c3e2c328178d34f3ce8fb">newLine</a>, and <a class="el" href="classString.html#af8791d592b21b466cf040c1728b92dac">String::toHexString()</a>.</p>
+
+<p>Referenced by <a class="el" href="structCppTokeniserFunctions.html#a0af79aca7fefba85524844c4b201803a">addEscapeChars()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0af79aca7fefba85524844c4b201803a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classString.html">String</a> CppTokeniserFunctions::addEscapeChars </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Takes a string and returns a version of it where standard C++ escape sequences have been used to replace any non-ascii bytes. </p>
+<p>Although not strictly a tokenising function, this is still a function that often comes in handy when working with C++ code!</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structCppTokeniserFunctions.html#aec2241fa18131c4d828d1a953f942b32" title="Takes a UTF8 string and writes it to a stream using standard C++ escape sequences for any non-ascii b...">writeEscapeChars</a> </dd></dl>
+
+<p>References <a class="el" href="classString.html#a8a80cdeb14adeea1bf04d431a9333757">String::toRawUTF8()</a>, <a class="el" href="classMemoryOutputStream.html#a4260170787b7fe3ddf47468625898549">MemoryOutputStream::toString()</a>, and <a class="el" href="structCppTokeniserFunctions.html#aec2241fa18131c4d828d1a953f942b32">writeEscapeChars()</a>.</p>
 
 </div>
 </div>

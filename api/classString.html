@@ -242,9 +242,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5583f2341626093e2c373497e2d9758a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a5583f2341626093e2c373497e2d9758a">compareIgnoreCase</a> (const <a class="el" href="classString.html">String</a> &amp;other) const noexcept</td></tr>
 <tr class="memdesc:a5583f2341626093e2c373497e2d9758a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Case-insensitive comparison with another string.  <a href="#a5583f2341626093e2c373497e2d9758a"></a><br/></td></tr>
 <tr class="separator:a5583f2341626093e2c373497e2d9758a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae00df4891c6be7ecda6b1a8f9b202f90"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#ae00df4891c6be7ecda6b1a8f9b202f90">compareLexicographically</a> (const <a class="el" href="classString.html">String</a> &amp;other) const noexcept</td></tr>
-<tr class="memdesc:ae00df4891c6be7ecda6b1a8f9b202f90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lexicographic comparison with another string.  <a href="#ae00df4891c6be7ecda6b1a8f9b202f90"></a><br/></td></tr>
-<tr class="separator:ae00df4891c6be7ecda6b1a8f9b202f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a967d5b434003ffec97a31ab47a149c3c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a967d5b434003ffec97a31ab47a149c3c">compareNatural</a> (<a class="el" href="classStringRef.html">StringRef</a> other) const noexcept</td></tr>
+<tr class="memdesc:a967d5b434003ffec97a31ab47a149c3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two strings, taking into account textual characteristics like numbers and spaces.  <a href="#a967d5b434003ffec97a31ab47a149c3c"></a><br/></td></tr>
+<tr class="separator:a967d5b434003ffec97a31ab47a149c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab93de8ae7eb05cd79ae7d3d263525855"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#ab93de8ae7eb05cd79ae7d3d263525855">startsWith</a> (<a class="el" href="classStringRef.html">StringRef</a> text) const noexcept</td></tr>
 <tr class="memdesc:ab93de8ae7eb05cd79ae7d3d263525855"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests whether the string begins with another string.  <a href="#ab93de8ae7eb05cd79ae7d3d263525855"></a><br/></td></tr>
 <tr class="separator:ab93de8ae7eb05cd79ae7d3d263525855"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2078,7 +2078,7 @@ template&lt;class CharPointer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ae00df4891c6be7ecda6b1a8f9b202f90"></a>
+<a class="anchor" id="a967d5b434003ffec97a31ab47a149c3c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2086,9 +2086,9 @@ template&lt;class CharPointer &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int String::compareLexicographically </td>
+          <td class="memname">int String::compareNatural </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classStringRef.html">StringRef</a>&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -2100,8 +2100,8 @@ template&lt;class CharPointer &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Lexicographic comparison with another string. </p>
-<p>The comparison used here is case-insensitive and ignores leading non-alphanumeric characters, making it good for sorting human-readable strings.</p>
+<p>Compares two strings, taking into account textual characteristics like numbers and spaces. </p>
+<p>This comparison is case-insensitive and can detect words and embedded numbers in the strings, making it good for sorting human-readable lists of things like filenames.</p>
 <dl class="section return"><dt>Returns</dt><dd>0 if the two strings are identical; negative if this string comes before the other one alphabetically, or positive if it comes after it. </dd></dl>
 
 </div>
@@ -4097,6 +4097,8 @@ template&lt;class CharPointer &gt; </div>
 
 <p>Creates a string representing this 32-bit value in hexadecimal. </p>
 
+<p>Referenced by <a class="el" href="structCppTokeniserFunctions.html#aec2241fa18131c4d828d1a953f942b32">CppTokeniserFunctions::writeEscapeChars()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a4d4129cbdaaa1ead05285c46290e0329"></a>
@@ -4267,7 +4269,7 @@ template&lt;class CharPointer &gt; </div>
 <p>To find out how many bytes you need to store this string as UTF-8, you can call <a class="el" href="classCharPointer__UTF8.html#af70d66750ea1b8be02f613592319059e" title="Returns the number of bytes that would be needed to represent the given unicode character in this enc...">CharPointer_UTF8::getBytesRequiredFor</a> (myString.getCharPointer())</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classString.html#a026f5d21f882d2ffe0406ef1e4907897" title="Returns the character pointer currently being used to store this string.">getCharPointer</a>, <a class="el" href="classString.html#ae9e2c87c3ff8410e4f70a02288ece2dd" title="Returns a pointer to a UTF-8 version of this string.">toUTF8</a>, <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-16 version of this string.">toUTF16</a>, <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string.">toUTF32</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="juce__String_8h.html#aeb8f16cdf7cbd9d5c2d9863767c6a300">operator&lt;&lt;()</a>.</p>
+<p>Referenced by <a class="el" href="structCppTokeniserFunctions.html#a0af79aca7fefba85524844c4b201803a">CppTokeniserFunctions::addEscapeChars()</a>, and <a class="el" href="juce__String_8h.html#aeb8f16cdf7cbd9d5c2d9863767c6a300">operator&lt;&lt;()</a>.</p>
 
 </div>
 </div>

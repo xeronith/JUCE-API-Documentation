@@ -155,7 +155,7 @@ var searchData=
   ['floattype',['FloatType',['../classPoint.html#a81e5862bbe44912a39cb87042bea7c5b',1,'Point']]],
   ['floatvectoroperations',['FloatVectorOperations',['../classFloatVectorOperations.html',1,'']]],
   ['floralwhite',['floralwhite',['../classColours.html#a7b14b831624be80b4520225559ba5253',1,'Colours']]],
-  ['flush',['flush',['../classFileOutputStream.html#afc63785b8744278d51814c4892207414',1,'FileOutputStream::flush()'],['../classMemoryOutputStream.html#a9f055142557e0a5974e938252cb90c65',1,'MemoryOutputStream::flush()'],['../classOutputStream.html#a2b731aef87084c3779bea292f85e800d',1,'OutputStream::flush()'],['../classGZIPCompressorOutputStream.html#ac5a33ac0aa774dfe5cfd66d50a0c5fb0',1,'GZIPCompressorOutputStream::flush()']]],
+  ['flush',['flush',['../classAudioFormatWriter.html#ac83a728db8d8abf6cf39a3bd34390a6a',1,'AudioFormatWriter::flush()'],['../classFileOutputStream.html#afc63785b8744278d51814c4892207414',1,'FileOutputStream::flush()'],['../classMemoryOutputStream.html#a9f055142557e0a5974e938252cb90c65',1,'MemoryOutputStream::flush()'],['../classOutputStream.html#a2b731aef87084c3779bea292f85e800d',1,'OutputStream::flush()'],['../classGZIPCompressorOutputStream.html#ac5a33ac0aa774dfe5cfd66d50a0c5fb0',1,'GZIPCompressorOutputStream::flush()']]],
   ['focuschangedbymouseclick',['focusChangedByMouseClick',['../classComponent.html#a7fd775ea6b1190d5d694fdffa539dfaca350527c976c183a1543958e0698572df',1,'Component']]],
   ['focuschangedbytabkey',['focusChangedByTabKey',['../classComponent.html#a7fd775ea6b1190d5d694fdffa539dfaca1a14be78d7c4bdf7cdd9a08100bb6a43',1,'Component']]],
   ['focuschangeddirectly',['focusChangedDirectly',['../classComponent.html#a7fd775ea6b1190d5d694fdffa539dfacad71927268411a4afe7f75bf6034add04',1,'Component']]],

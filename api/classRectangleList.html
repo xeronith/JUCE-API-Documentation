@@ -197,6 +197,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1b2d14e1b7ec911471559b32de41b277"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRectangleList.html#ad9d8b465737335563551e5f224fad32f">RectangleType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a1b2d14e1b7ec911471559b32de41b277">end</a> () const noexcept</td></tr>
 <tr class="memdesc:a1b2d14e1b7ec911471559b32de41b277"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard method for iterating the rectangles in the list.  <a href="#a1b2d14e1b7ec911471559b32de41b277"></a><br/></td></tr>
 <tr class="separator:a1b2d14e1b7ec911471559b32de41b277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e3dc4d6f8830bc50173021613cf128"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangleList.html#a60e3dc4d6f8830bc50173021613cf128">ensureStorageAllocated</a> (int minNumRectangles)</td></tr>
+<tr class="memdesc:a60e3dc4d6f8830bc50173021613cf128"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increases the internal storage to hold a minimum number of rectangles.  <a href="#a60e3dc4d6f8830bc50173021613cf128"></a><br/></td></tr>
+<tr class="separator:a60e3dc4d6f8830bc50173021613cf128"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename ValueType&gt;<br/>
@@ -1083,6 +1086,28 @@ template&lt;typename ValueType&gt; </div>
 <p>Standard method for iterating the rectangles in the list. </p>
 
 <p>Referenced by <a class="el" href="classRectangleList.html#a891b5bcbaebafbc1dfc120fbe1b71129">RectangleList&lt; int &gt;::add()</a>, and <a class="el" href="classRectangleList.html#a569c52b5100c4c7ec1c9915cdbcf2576">RectangleList&lt; int &gt;::clipTo()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a60e3dc4d6f8830bc50173021613cf128"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classRectangleList.html">RectangleList</a>&lt; ValueType &gt;::ensureStorageAllocated </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>minNumRectangles</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Increases the internal storage to hold a minimum number of rectangles. </p>
+<p>Calling this before adding a large number of rectangles means that the array won't have to keep dynamically resizing itself as the elements are added, and it'll therefore be more efficient. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a43d61929a72c859191859f02e35d2058" title="Increases the array&#39;s internal storage to hold a minimum number of elements.">Array::ensureStorageAllocated</a> </dd></dl>
 
 </div>
 </div>

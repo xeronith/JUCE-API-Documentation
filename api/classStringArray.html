@@ -215,6 +215,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ff31dc08e6e33f3ba95ebdc296e3659"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#a4ff31dc08e6e33f3ba95ebdc296e3659">sort</a> (bool ignoreCase)</td></tr>
 <tr class="memdesc:a4ff31dc08e6e33f3ba95ebdc296e3659"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the array into alphabetical order.  <a href="#a4ff31dc08e6e33f3ba95ebdc296e3659"></a><br/></td></tr>
 <tr class="separator:a4ff31dc08e6e33f3ba95ebdc296e3659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1705d74b47e764f80e273f1a98bf91cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#a1705d74b47e764f80e273f1a98bf91cf">sortNatural</a> ()</td></tr>
+<tr class="memdesc:a1705d74b47e764f80e273f1a98bf91cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the array using extra language-aware rules to do a better job of comparing words containing spaces and numbers.  <a href="#a1705d74b47e764f80e273f1a98bf91cf"></a><br/></td></tr>
+<tr class="separator:a1705d74b47e764f80e273f1a98bf91cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebd425623aa9e8a4dd8d09b8e6eac0db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringArray.html#aebd425623aa9e8a4dd8d09b8e6eac0db">ensureStorageAllocated</a> (int minNumElements)</td></tr>
 <tr class="memdesc:aebd425623aa9e8a4dd8d09b8e6eac0db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increases the array's internal storage to hold a minimum number of elements.  <a href="#aebd425623aa9e8a4dd8d09b8e6eac0db"></a><br/></td></tr>
 <tr class="separator:aebd425623aa9e8a4dd8d09b8e6eac0db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -613,7 +616,7 @@ Public Attributes</h2></td></tr>
 
 <p>Returns the number of strings in the array. </p>
 
-<p>Referenced by <a class="el" href="structComponentPeer_1_1DragInfo.html#a06d2c54a7b17a8ba2136595f86a111f9">ComponentPeer::DragInfo::isEmpty()</a>.</p>
+<p>Referenced by <a class="el" href="structComponentPeer_1_1DragInfo.html#a06d2c54a7b17a8ba2136595f86a111f9">ComponentPeer::DragInfo::isEmpty()</a>, and <a class="el" href="classTracktionMarketplaceKeyGeneration.html#a2cf1c8be635bc5ce7ee0d49d4fbc4b06">TracktionMarketplaceKeyGeneration::keyGenerationAppMain()</a>.</p>
 
 </div>
 </div>
@@ -813,6 +816,8 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Appends a string at the end of the array. </p>
+
+<p>Referenced by <a class="el" href="classTracktionMarketplaceKeyGeneration.html#a2cf1c8be635bc5ce7ee0d49d4fbc4b06">TracktionMarketplaceKeyGeneration::keyGenerationAppMain()</a>.</p>
 
 </div>
 </div>
@@ -1507,6 +1512,24 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a1705d74b47e764f80e273f1a98bf91cf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StringArray::sortNatural </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sorts the array using extra language-aware rules to do a better job of comparing words containing spaces and numbers. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classString.html#a967d5b434003ffec97a31ab47a149c3c" title="Compares two strings, taking into account textual characteristics like numbers and spaces...">String::compareNatural()</a> </dd></dl>
 
 </div>
 </div>

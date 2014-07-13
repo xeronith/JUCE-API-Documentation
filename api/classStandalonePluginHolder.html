@@ -95,9 +95,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6f55ad9126e2bc5a0ea9008b9cb1951a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStandalonePluginHolder.html#a6f55ad9126e2bc5a0ea9008b9cb1951a">StandalonePluginHolder</a> (<a class="el" href="classPropertySet.html">PropertySet</a> *settingsToUse)</td></tr>
-<tr class="memdesc:a6f55ad9126e2bc5a0ea9008b9cb1951a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an instance of the default plugin.  <a href="#a6f55ad9126e2bc5a0ea9008b9cb1951a"></a><br/></td></tr>
-<tr class="separator:a6f55ad9126e2bc5a0ea9008b9cb1951a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadb93fcf73e25b123edba8f60741b61e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStandalonePluginHolder.html#aadb93fcf73e25b123edba8f60741b61e">StandalonePluginHolder</a> (<a class="el" href="classPropertySet.html">PropertySet</a> *settingsToUse, bool takeOwnershipOfSettings)</td></tr>
+<tr class="memdesc:aadb93fcf73e25b123edba8f60741b61e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an instance of the default plugin.  <a href="#aadb93fcf73e25b123edba8f60741b61e"></a><br/></td></tr>
+<tr class="separator:aadb93fcf73e25b123edba8f60741b61e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc938be61ef777b39a13bcefc18f1480"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStandalonePluginHolder.html#afc938be61ef777b39a13bcefc18f1480">~StandalonePluginHolder</a> ()</td></tr>
 <tr class="separator:afc938be61ef777b39a13bcefc18f1480"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30f10dff307e43c287b6fd85f5bb2196"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStandalonePluginHolder.html#a30f10dff307e43c287b6fd85f5bb2196">createPlugin</a> ()</td></tr>
@@ -133,8 +133,9 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a79c6f72171985e47fe6190c7bbd21d5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classScopedPointer.html">ScopedPointer</a>&lt; <a class="el" href="classPropertySet.html">PropertySet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStandalonePluginHolder.html#a79c6f72171985e47fe6190c7bbd21d5a">settings</a></td></tr>
-<tr class="separator:a79c6f72171985e47fe6190c7bbd21d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58375e902a8f0e9d079ff54abf763ac5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOptionalScopedPointer.html">OptionalScopedPointer</a><br class="typebreak"/>
+&lt; <a class="el" href="classPropertySet.html">PropertySet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStandalonePluginHolder.html#a58375e902a8f0e9d079ff54abf763ac5">settings</a></td></tr>
+<tr class="separator:a58375e902a8f0e9d079ff54abf763ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa971bb76e4bc1cb996c8d300f9947434"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classScopedPointer.html">ScopedPointer</a>&lt; <a class="el" href="classAudioProcessor.html">AudioProcessor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434">processor</a></td></tr>
 <tr class="separator:aa971bb76e4bc1cb996c8d300f9947434"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fb1eb9dcabd5f5d6e2c52a44296e017"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioDeviceManager.html">AudioDeviceManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStandalonePluginHolder.html#a6fb1eb9dcabd5f5d6e2c52a44296e017">deviceManager</a></td></tr>
@@ -146,7 +147,7 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><p>An object that creates and plays a standalone instance of an <a class="el" href="classAudioProcessor.html" title="Base class for audio processing filters or plugins.">AudioProcessor</a>. </p>
 <p>The object will create your processor using the same <a class="el" href="juce__StandaloneFilterWindow_8h.html#a803761ea8219833514254308e552a8d3">createPluginFilter()</a> function that the other plugin wrappers use, and will run it through the computer's audio/MIDI devices using <a class="el" href="classAudioDeviceManager.html" title="Manages the state of some audio and midi i/o devices.">AudioDeviceManager</a> and <a class="el" href="classAudioProcessorPlayer.html" title="An AudioIODeviceCallback object which streams audio through an AudioProcessor.">AudioProcessorPlayer</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a6f55ad9126e2bc5a0ea9008b9cb1951a"></a>
+<a class="anchor" id="aadb93fcf73e25b123edba8f60741b61e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -154,8 +155,18 @@ Public Attributes</h2></td></tr>
           <td class="memname">StandalonePluginHolder::StandalonePluginHolder </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPropertySet.html">PropertySet</a> *&#160;</td>
-          <td class="paramname"><em>settingsToUse</em></td><td>)</td>
+          <td class="paramname"><em>settingsToUse</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>takeOwnershipOfSettings</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -200,7 +211,7 @@ Public Attributes</h2></td></tr>
 
 <p>References <a class="el" href="juce__StandaloneFilterWindow_8h.html#a803761ea8219833514254308e552a8d3">createPluginFilter()</a>, <a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>, <a class="el" href="classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434">processor</a>, <a class="el" href="classAudioProcessor.html#a8648014377dc6ee0476ceb45da113346">AudioProcessor::setPlayConfigDetails()</a>, <a class="el" href="classAudioProcessor.html#a2a406ae17bd699349d5da8510aa8af1b">AudioProcessor::setTypeOfNextNewPlugin()</a>, <a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfaad6832e63028f039a818f3eed72cf06f">AudioProcessor::wrapperType_Standalone</a>, and <a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfaeb155b5982c79f733c4bee215678fc97">AudioProcessor::wrapperType_Undefined</a>.</p>
 
-<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a7fcc3628b8e48d4f0a72fa268a86046f">StandaloneFilterWindow::resetToDefaultState()</a>, and <a class="el" href="classStandalonePluginHolder.html#a6f55ad9126e2bc5a0ea9008b9cb1951a">StandalonePluginHolder()</a>.</p>
+<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a7fcc3628b8e48d4f0a72fa268a86046f">StandaloneFilterWindow::resetToDefaultState()</a>, and <a class="el" href="classStandalonePluginHolder.html#aadb93fcf73e25b123edba8f60741b61e">StandalonePluginHolder()</a>.</p>
 
 </div>
 </div>
@@ -267,7 +278,7 @@ Public Attributes</h2></td></tr>
 
 <p>Pops up a dialog letting the user save the processor's state to a file. </p>
 
-<p>References <a class="el" href="classMemoryBlock.html#ae3473f5770e3a31357c6eeb04f9cc7e8">MemoryBlock::getData()</a>, <a class="el" href="classStandalonePluginHolder.html#a5a8cd39a398b0b62838a4ec62778429e">getFilePatterns()</a>, <a class="el" href="classMemoryBlock.html#a7192f6e8a3f06c4476ddca1fe2ed7bfb">MemoryBlock::getSize()</a>, <a class="el" href="classFile.html#a2a4396bc0e6f8b0430f6f54d029899e5">File::getSpecialLocation()</a>, <a class="el" href="classAudioProcessor.html#a5d79591b367a7c0516e4ef4d1d6c32b2">AudioProcessor::getStateInformation()</a>, <a class="el" href="classPropertySet.html#afa005ac125096ad476021d347f56ff4c">PropertySet::getValue()</a>, <a class="el" href="classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434">processor</a>, <a class="el" href="classStandalonePluginHolder.html#a79c6f72171985e47fe6190c7bbd21d5a">settings</a>, <a class="el" href="juce__LocalisedStrings_8h.html#af3c28ad27b0d8fa2f615888701e32b07">TRANS</a>, <a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da72c8fbf94445ccce6b01470265c8f397">File::userDocumentsDirectory</a>, and <a class="el" href="classAlertWindow.html#a2582d1f79937cb47a6a3764c7d9bdba3a8af24c68ddba14cc97687e2b2b75f373">AlertWindow::WarningIcon</a>.</p>
+<p>References <a class="el" href="classMemoryBlock.html#ae3473f5770e3a31357c6eeb04f9cc7e8">MemoryBlock::getData()</a>, <a class="el" href="classStandalonePluginHolder.html#a5a8cd39a398b0b62838a4ec62778429e">getFilePatterns()</a>, <a class="el" href="classMemoryBlock.html#a7192f6e8a3f06c4476ddca1fe2ed7bfb">MemoryBlock::getSize()</a>, <a class="el" href="classFile.html#a2a4396bc0e6f8b0430f6f54d029899e5">File::getSpecialLocation()</a>, <a class="el" href="classAudioProcessor.html#a5d79591b367a7c0516e4ef4d1d6c32b2">AudioProcessor::getStateInformation()</a>, <a class="el" href="classPropertySet.html#afa005ac125096ad476021d347f56ff4c">PropertySet::getValue()</a>, <a class="el" href="classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434">processor</a>, <a class="el" href="classStandalonePluginHolder.html#a58375e902a8f0e9d079ff54abf763ac5">settings</a>, <a class="el" href="juce__LocalisedStrings_8h.html#af3c28ad27b0d8fa2f615888701e32b07">TRANS</a>, <a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da72c8fbf94445ccce6b01470265c8f397">File::userDocumentsDirectory</a>, and <a class="el" href="classAlertWindow.html#a2582d1f79937cb47a6a3764c7d9bdba3a8af24c68ddba14cc97687e2b2b75f373">AlertWindow::WarningIcon</a>.</p>
 
 <p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a43c03f9f453434a560a44011c9cd357e">StandaloneFilterWindow::buttonClicked()</a>.</p>
 
@@ -289,7 +300,7 @@ Public Attributes</h2></td></tr>
 
 <p>Pops up a dialog letting the user re-load the processor's state from a file. </p>
 
-<p>References <a class="el" href="classMemoryBlock.html#ae3473f5770e3a31357c6eeb04f9cc7e8">MemoryBlock::getData()</a>, <a class="el" href="classStandalonePluginHolder.html#a5a8cd39a398b0b62838a4ec62778429e">getFilePatterns()</a>, <a class="el" href="classMemoryBlock.html#a7192f6e8a3f06c4476ddca1fe2ed7bfb">MemoryBlock::getSize()</a>, <a class="el" href="classFile.html#a2a4396bc0e6f8b0430f6f54d029899e5">File::getSpecialLocation()</a>, <a class="el" href="classPropertySet.html#afa005ac125096ad476021d347f56ff4c">PropertySet::getValue()</a>, <a class="el" href="classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434">processor</a>, <a class="el" href="classAudioProcessor.html#a6154837fea67c594a9b35c487894df27">AudioProcessor::setStateInformation()</a>, <a class="el" href="classStandalonePluginHolder.html#a79c6f72171985e47fe6190c7bbd21d5a">settings</a>, <a class="el" href="juce__LocalisedStrings_8h.html#af3c28ad27b0d8fa2f615888701e32b07">TRANS</a>, <a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da72c8fbf94445ccce6b01470265c8f397">File::userDocumentsDirectory</a>, and <a class="el" href="classAlertWindow.html#a2582d1f79937cb47a6a3764c7d9bdba3a8af24c68ddba14cc97687e2b2b75f373">AlertWindow::WarningIcon</a>.</p>
+<p>References <a class="el" href="classMemoryBlock.html#ae3473f5770e3a31357c6eeb04f9cc7e8">MemoryBlock::getData()</a>, <a class="el" href="classStandalonePluginHolder.html#a5a8cd39a398b0b62838a4ec62778429e">getFilePatterns()</a>, <a class="el" href="classMemoryBlock.html#a7192f6e8a3f06c4476ddca1fe2ed7bfb">MemoryBlock::getSize()</a>, <a class="el" href="classFile.html#a2a4396bc0e6f8b0430f6f54d029899e5">File::getSpecialLocation()</a>, <a class="el" href="classPropertySet.html#afa005ac125096ad476021d347f56ff4c">PropertySet::getValue()</a>, <a class="el" href="classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434">processor</a>, <a class="el" href="classAudioProcessor.html#a6154837fea67c594a9b35c487894df27">AudioProcessor::setStateInformation()</a>, <a class="el" href="classStandalonePluginHolder.html#a58375e902a8f0e9d079ff54abf763ac5">settings</a>, <a class="el" href="juce__LocalisedStrings_8h.html#af3c28ad27b0d8fa2f615888701e32b07">TRANS</a>, <a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da72c8fbf94445ccce6b01470265c8f397">File::userDocumentsDirectory</a>, and <a class="el" href="classAlertWindow.html#a2582d1f79937cb47a6a3764c7d9bdba3a8af24c68ddba14cc97687e2b2b75f373">AlertWindow::WarningIcon</a>.</p>
 
 <p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a43c03f9f453434a560a44011c9cd357e">StandaloneFilterWindow::buttonClicked()</a>.</p>
 
@@ -310,7 +321,7 @@ Public Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classStandalonePluginHolder.html#a7dd25ebd12047b7c040f4128f4690c52">player</a>, <a class="el" href="classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434">processor</a>, and <a class="el" href="classAudioProcessorPlayer.html#a1a0491edbdbcb7e64375c42b8b48ed64">AudioProcessorPlayer::setProcessor()</a>.</p>
 
-<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a7fcc3628b8e48d4f0a72fa268a86046f">StandaloneFilterWindow::resetToDefaultState()</a>, and <a class="el" href="classStandalonePluginHolder.html#a6f55ad9126e2bc5a0ea9008b9cb1951a">StandalonePluginHolder()</a>.</p>
+<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a7fcc3628b8e48d4f0a72fa268a86046f">StandaloneFilterWindow::resetToDefaultState()</a>, and <a class="el" href="classStandalonePluginHolder.html#aadb93fcf73e25b123edba8f60741b61e">StandalonePluginHolder()</a>.</p>
 
 </div>
 </div>
@@ -367,7 +378,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classAudioDeviceManager.html#abb846b502125744f4ea04f06cde5d92c">AudioDeviceManager::createStateXml()</a>, <a class="el" href="classStandalonePluginHolder.html#a6fb1eb9dcabd5f5d6e2c52a44296e017">deviceManager</a>, <a class="el" href="classStandalonePluginHolder.html#a79c6f72171985e47fe6190c7bbd21d5a">settings</a>, and <a class="el" href="classPropertySet.html#a696515de52c7310117e7914a02b58e57">PropertySet::setValue()</a>.</p>
+<p>References <a class="el" href="classAudioDeviceManager.html#abb846b502125744f4ea04f06cde5d92c">AudioDeviceManager::createStateXml()</a>, <a class="el" href="classStandalonePluginHolder.html#a6fb1eb9dcabd5f5d6e2c52a44296e017">deviceManager</a>, <a class="el" href="classStandalonePluginHolder.html#a58375e902a8f0e9d079ff54abf763ac5">settings</a>, and <a class="el" href="classPropertySet.html#a696515de52c7310117e7914a02b58e57">PropertySet::setValue()</a>.</p>
 
 </div>
 </div>
@@ -384,7 +395,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classStandalonePluginHolder.html#a6fb1eb9dcabd5f5d6e2c52a44296e017">deviceManager</a>, <a class="el" href="classAudioProcessor.html#ae8fda9da6062e47181544a9ac25baaea">AudioProcessor::getNumInputChannels()</a>, <a class="el" href="classAudioProcessor.html#ad628a9699d9b6c9859c8240e21ec9d90">AudioProcessor::getNumOutputChannels()</a>, <a class="el" href="classPropertySet.html#a9c724f3a34655a3c28593c8ad3171f38">PropertySet::getXmlValue()</a>, <a class="el" href="classAudioDeviceManager.html#a4c6d8a76a270a6e4ca0537093f447b44">AudioDeviceManager::initialise()</a>, <a class="el" href="classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434">processor</a>, and <a class="el" href="classStandalonePluginHolder.html#a79c6f72171985e47fe6190c7bbd21d5a">settings</a>.</p>
+<p>References <a class="el" href="classStandalonePluginHolder.html#a6fb1eb9dcabd5f5d6e2c52a44296e017">deviceManager</a>, <a class="el" href="classAudioProcessor.html#ae8fda9da6062e47181544a9ac25baaea">AudioProcessor::getNumInputChannels()</a>, <a class="el" href="classAudioProcessor.html#ad628a9699d9b6c9859c8240e21ec9d90">AudioProcessor::getNumOutputChannels()</a>, <a class="el" href="classPropertySet.html#a9c724f3a34655a3c28593c8ad3171f38">PropertySet::getXmlValue()</a>, <a class="el" href="classAudioDeviceManager.html#a4c6d8a76a270a6e4ca0537093f447b44">AudioDeviceManager::initialise()</a>, <a class="el" href="classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434">processor</a>, and <a class="el" href="classStandalonePluginHolder.html#a58375e902a8f0e9d079ff54abf763ac5">settings</a>.</p>
 
 </div>
 </div>
@@ -401,7 +412,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classAudioProcessor.html#a5d79591b367a7c0516e4ef4d1d6c32b2">AudioProcessor::getStateInformation()</a>, <a class="el" href="classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434">processor</a>, <a class="el" href="classStandalonePluginHolder.html#a79c6f72171985e47fe6190c7bbd21d5a">settings</a>, <a class="el" href="classPropertySet.html#a696515de52c7310117e7914a02b58e57">PropertySet::setValue()</a>, and <a class="el" href="classMemoryBlock.html#a69724db38afce62092e39171edc77fea">MemoryBlock::toBase64Encoding()</a>.</p>
+<p>References <a class="el" href="classAudioProcessor.html#a5d79591b367a7c0516e4ef4d1d6c32b2">AudioProcessor::getStateInformation()</a>, <a class="el" href="classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434">processor</a>, <a class="el" href="classStandalonePluginHolder.html#a58375e902a8f0e9d079ff54abf763ac5">settings</a>, <a class="el" href="classPropertySet.html#a696515de52c7310117e7914a02b58e57">PropertySet::setValue()</a>, and <a class="el" href="classMemoryBlock.html#a69724db38afce62092e39171edc77fea">MemoryBlock::toBase64Encoding()</a>.</p>
 
 </div>
 </div>
@@ -418,24 +429,24 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classMemoryBlock.html#ae9b274b678bd4bdbfb64fec6c1c35e58">MemoryBlock::fromBase64Encoding()</a>, <a class="el" href="classMemoryBlock.html#ae3473f5770e3a31357c6eeb04f9cc7e8">MemoryBlock::getData()</a>, <a class="el" href="classMemoryBlock.html#a7192f6e8a3f06c4476ddca1fe2ed7bfb">MemoryBlock::getSize()</a>, <a class="el" href="classPropertySet.html#afa005ac125096ad476021d347f56ff4c">PropertySet::getValue()</a>, <a class="el" href="classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434">processor</a>, <a class="el" href="classAudioProcessor.html#a6154837fea67c594a9b35c487894df27">AudioProcessor::setStateInformation()</a>, and <a class="el" href="classStandalonePluginHolder.html#a79c6f72171985e47fe6190c7bbd21d5a">settings</a>.</p>
+<p>References <a class="el" href="classMemoryBlock.html#ae9b274b678bd4bdbfb64fec6c1c35e58">MemoryBlock::fromBase64Encoding()</a>, <a class="el" href="classMemoryBlock.html#ae3473f5770e3a31357c6eeb04f9cc7e8">MemoryBlock::getData()</a>, <a class="el" href="classMemoryBlock.html#a7192f6e8a3f06c4476ddca1fe2ed7bfb">MemoryBlock::getSize()</a>, <a class="el" href="classPropertySet.html#afa005ac125096ad476021d347f56ff4c">PropertySet::getValue()</a>, <a class="el" href="classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434">processor</a>, <a class="el" href="classAudioProcessor.html#a6154837fea67c594a9b35c487894df27">AudioProcessor::setStateInformation()</a>, and <a class="el" href="classStandalonePluginHolder.html#a58375e902a8f0e9d079ff54abf763ac5">settings</a>.</p>
 
-<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#a6f55ad9126e2bc5a0ea9008b9cb1951a">StandalonePluginHolder()</a>.</p>
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#aadb93fcf73e25b123edba8f60741b61e">StandalonePluginHolder()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a79c6f72171985e47fe6190c7bbd21d5a"></a>
+<a class="anchor" id="a58375e902a8f0e9d079ff54abf763ac5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classScopedPointer.html">ScopedPointer</a>&lt;<a class="el" href="classPropertySet.html">PropertySet</a>&gt; StandalonePluginHolder::settings</td>
+          <td class="memname"><a class="el" href="classOptionalScopedPointer.html">OptionalScopedPointer</a>&lt;<a class="el" href="classPropertySet.html">PropertySet</a>&gt; StandalonePluginHolder::settings</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#ab55d4cd652306a2a344be38464a48358">askUserToLoadState()</a>, <a class="el" href="classStandalonePluginHolder.html#ac28981bbac45dbae6c1fdf617a824c17">askUserToSaveState()</a>, <a class="el" href="classStandalonePluginHolder.html#a306a3e5f2e5e88aa658642a7eabd81c2">reloadAudioDeviceState()</a>, <a class="el" href="classStandalonePluginHolder.html#adfdf093b9b5ab101d2f76d5fa957c6eb">reloadPluginState()</a>, <a class="el" href="classStandaloneFilterWindow.html#a7fcc3628b8e48d4f0a72fa268a86046f">StandaloneFilterWindow::resetToDefaultState()</a>, <a class="el" href="classStandalonePluginHolder.html#a3591021b8495b1d2dddb6ff9a2405209">saveAudioDeviceState()</a>, <a class="el" href="classStandalonePluginHolder.html#a9319c6c7e9368f0d2fb1d31b0f2b2816">savePluginState()</a>, <a class="el" href="classStandaloneFilterWindow.html#a1f306718b48175832973359ba0f24319">StandaloneFilterWindow::StandaloneFilterWindow()</a>, and <a class="el" href="classStandaloneFilterWindow.html#aae64328faa7f0aa4ccc0099ebf4e84d8">StandaloneFilterWindow::~StandaloneFilterWindow()</a>.</p>
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#ab55d4cd652306a2a344be38464a48358">askUserToLoadState()</a>, <a class="el" href="classStandalonePluginHolder.html#ac28981bbac45dbae6c1fdf617a824c17">askUserToSaveState()</a>, <a class="el" href="classStandalonePluginHolder.html#a306a3e5f2e5e88aa658642a7eabd81c2">reloadAudioDeviceState()</a>, <a class="el" href="classStandalonePluginHolder.html#adfdf093b9b5ab101d2f76d5fa957c6eb">reloadPluginState()</a>, <a class="el" href="classStandaloneFilterWindow.html#a7fcc3628b8e48d4f0a72fa268a86046f">StandaloneFilterWindow::resetToDefaultState()</a>, <a class="el" href="classStandalonePluginHolder.html#a3591021b8495b1d2dddb6ff9a2405209">saveAudioDeviceState()</a>, <a class="el" href="classStandalonePluginHolder.html#a9319c6c7e9368f0d2fb1d31b0f2b2816">savePluginState()</a>, <a class="el" href="classStandaloneFilterWindow.html#a8cda61582ce8dfd440514d835651a77e">StandaloneFilterWindow::StandaloneFilterWindow()</a>, and <a class="el" href="classStandaloneFilterWindow.html#aae64328faa7f0aa4ccc0099ebf4e84d8">StandaloneFilterWindow::~StandaloneFilterWindow()</a>.</p>
 
 </div>
 </div>

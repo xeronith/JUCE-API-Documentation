@@ -23,6 +23,7 @@ var searchData=
   ['scopedpointer_3c_20audiosource_20_3e',['ScopedPointer&lt; AudioSource &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20behindfronttabcomp_20_3e',['ScopedPointer&lt; BehindFrontTabComp &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20bitmapdatareleaser_20_3e',['ScopedPointer&lt; BitmapDataReleaser &gt;',['../classScopedPointer.html',1,'']]],
+  ['scopedpointer_3c_20bubblemessagecomponent_20_3e',['ScopedPointer&lt; BubbleMessageComponent &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20buffer_20_3e',['ScopedPointer&lt; Buffer &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20button_20_3e',['ScopedPointer&lt; Button &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20buttonlistenerproxy_20_3e',['ScopedPointer&lt; ButtonListenerProxy &gt;',['../classScopedPointer.html',1,'']]],

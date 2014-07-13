@@ -16,6 +16,7 @@ var searchData=
   ['imageopacity',['imageOpacity',['../classDrawableShape_1_1FillAndStrokeState.html#a5103d236724f9a2757d7ae78f058dbf6',1,'DrawableShape::FillAndStrokeState']]],
   ['indianred',['indianred',['../classColours.html#a5a356968d2d4f49b369afa56c0ec3f43',1,'Colours']]],
   ['indigo',['indigo',['../classColours.html#a087ca459fcd267cdda383c5bf5ab0f0e',1,'Colours']]],
+  ['informativemessage',['informativeMessage',['../structTracktionMarketplaceStatus_1_1UnlockResult.html#ac0070a3ab0ae92dd84f15b70d726b882',1,'TracktionMarketplaceStatus::UnlockResult']]],
   ['input',['input',['../classAudioFormatReader.html#a81797ede6915ec762408d8ed23ec4d10',1,'AudioFormatReader']]],
   ['inputchannels',['inputChannels',['../structAudioDeviceManager_1_1AudioDeviceSetup.html#a9365767334c0819bb45754100c743fae',1,'AudioDeviceManager::AudioDeviceSetup']]],
   ['inputdevicename',['inputDeviceName',['../structAudioDeviceManager_1_1AudioDeviceSetup.html#af1c134f5280bec722facace7c9fa0f1d',1,'AudioDeviceManager::AudioDeviceSetup']]],
