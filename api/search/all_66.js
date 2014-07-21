@@ -145,7 +145,7 @@ var searchData=
   ['firebrick',['firebrick',['../classColours.html#a42927144796d42794fb69b30dce33e1e',1,'Colours']]],
   ['firstmessage',['firstMessage',['../classMidiOutput.html#aafd2e65a8fcdc67749eca25f63c0883c',1,'MidiOutput']]],
   ['flacaudioformat',['FlacAudioFormat',['../classFlacAudioFormat.html',1,'FlacAudioFormat'],['../classFlacAudioFormat.html#a767df3502e290183216370447d1dc7ee',1,'FlacAudioFormat::FlacAudioFormat()']]],
-  ['flags',['Flags',['../classJustification.html#a1f8c07756c56fe8f31ed44964e51bfbc',1,'Justification::Flags()'],['../classRectanglePlacement.html#afd5464553fd6bb41d697f3fc1d7427ed',1,'RectanglePlacement::Flags()'],['../classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678b',1,'ModifierKeys::Flags()'],['../structApplicationCommandInfo.html#a45fa351a09f7a6df3e76fe466c476905',1,'ApplicationCommandInfo::flags()']]],
+  ['flags',['flags',['../structApplicationCommandInfo.html#a45fa351a09f7a6df3e76fe466c476905',1,'ApplicationCommandInfo::flags()'],['../classJustification.html#a1f8c07756c56fe8f31ed44964e51bfbc',1,'Justification::Flags()'],['../classRectanglePlacement.html#afd5464553fd6bb41d697f3fc1d7427ed',1,'RectanglePlacement::Flags()'],['../classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678b',1,'ModifierKeys::Flags()']]],
   ['flexiblespacerid',['flexibleSpacerId',['../classToolbarItemFactory.html#a415ffaa38b6306574ad6777ccf6d2ac4acfa608a9b717b6c24dcdfb9ba378f1cc',1,'ToolbarItemFactory']]],
   ['fliprowselection',['flipRowSelection',['../classListBox.html#adb559ca08ef51c4a81160a235172eae8',1,'ListBox']]],
   ['float32be',['float32BE',['../classAudioDataConverters.html#ab61072a75ca010290e4c03efc8078a50a967b624b78df07208abf588c3c87636c',1,'AudioDataConverters']]],
