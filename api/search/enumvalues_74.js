@@ -21,6 +21,7 @@ var searchData=
   ['textkeyboard',['textKeyboard',['../classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7a11c126feb4e4a2a3f7695fbf8bfedf47',1,'TextInputTarget']]],
   ['textlabelcolourid',['textLabelColourId',['../classMidiKeyboardComponent.html#a75cb05395efc61c447dc93e8873ab05ead3e09ed20f7c6c46a687e2c2e4f90fc5',1,'MidiKeyboardComponent']]],
   ['textonly',['textOnly',['../classToolbar.html#a20676e8832b03e18af29fd3e009d7f56a98e59ac60f43fabf47900bb5978252b2',1,'Toolbar']]],
+  ['textwheneditingcolourid',['textWhenEditingColourId',['../classLabel.html#a41756012394513222e1323bb432fa701adb6284340066b8c4d9ea389087c7d69d',1,'Label']]],
   ['threevaluehorizontal',['ThreeValueHorizontal',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888ad74f46a4848b6c1b3e3cc59da103f504',1,'Slider']]],
   ['threevaluevertical',['ThreeValueVertical',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888aa2c50364a9dd891a0e5e8022570c8e13',1,'Slider']]],
   ['thumbcolourid',['thumbColourId',['../classScrollBar.html#a5cdce553497ae1b7fc7fcd3caa805167a3b2685adf5143eb1c382b71cbed677ce',1,'ScrollBar::thumbColourId()'],['../classSlider.html#a1012002c53381ccc7c1fe7e604a75f44aee563b22e0033b0ed4f38e5296889835',1,'Slider::thumbColourId()']]],

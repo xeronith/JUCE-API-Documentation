@@ -200,7 +200,7 @@ var searchData=
   ['removesound',['removeSound',['../classSynthesiser.html#a4e90dec472345cac6c827fb402fd382f',1,'Synthesiser']]],
   ['removestring',['removeString',['../classStringArray.html#a9abe22d7414300712049474acede134f',1,'StringArray']]],
   ['removesubitem',['removeSubItem',['../classTreeViewItem.html#a80b8910184619d952841a1b93d4b75c4',1,'TreeViewItem']]],
-  ['removetab',['removeTab',['../classTabbedButtonBar.html#a076010c009909a444f84129a69ac61d4',1,'TabbedButtonBar::removeTab()'],['../classTabbedComponent.html#ac9a7f7fc03a69fa286772fb0589d9388',1,'TabbedComponent::removeTab()']]],
+  ['removetab',['removeTab',['../classTabbedButtonBar.html#a80a563cb755458b76f8a127ab1eb61fc',1,'TabbedButtonBar::removeTab()'],['../classTabbedComponent.html#ac9a7f7fc03a69fa286772fb0589d9388',1,'TabbedComponent::removeTab()']]],
   ['removethumb',['removeThumb',['../classAudioThumbnailCache.html#afd26c87085118697efd805fd57b26b99',1,'AudioThumbnailCache']]],
   ['removetimesliceclient',['removeTimeSliceClient',['../classTimeSliceThread.html#a07b538bee2ba11da5b66bd59af25f153',1,'TimeSliceThread']]],
   ['removetoolbaritem',['removeToolbarItem',['../classToolbar.html#a458f8ab507f5c63b4cb0ab82f8e59ae0',1,'Toolbar']]],
