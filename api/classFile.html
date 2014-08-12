@@ -777,7 +777,7 @@ Static Public Attributes</h2></td></tr>
 <p>If you just want the file's name, you should use <a class="el" href="classFile.html#aef4bc6319861669081767d0efcd427db" title="Returns the last section of the pathname.">getFileName()</a> or <a class="el" href="classFile.html#a93ab669b92bba0ca0517c2b54e98242a" title="Returns the last part of the filename, without its file extension.">getFileNameWithoutExtension()</a>.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#aef4bc6319861669081767d0efcd427db" title="Returns the last section of the pathname.">getFileName</a>, <a class="el" href="classFile.html#a634ce2ebe99d6d64b18b9d557b389350" title="Creates a relative path that refers to a file relatively to a given directory.">getRelativePathFrom</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classPluginHostType.html#a6060f772f5cb2c53589c1acc43815426">PluginHostType::getHostPath()</a>.</p>
+<p>Referenced by <a class="el" href="classPluginHostType.html#a6060f772f5cb2c53589c1acc43815426">PluginHostType::getHostPath()</a>, and <a class="el" href="classStandalonePluginHolder.html#a51b7121cdd9169e12d633fd09930ad86">StandalonePluginHolder::setLastFile()</a>.</p>
 
 </div>
 </div>
@@ -1796,6 +1796,8 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the file could all be read into memory </dd></dl>
 
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#ab55d4cd652306a2a344be38464a48358">StandalonePluginHolder::askUserToLoadState()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="aac8775e3a91375fe12ebe068194a2812"></a>
@@ -1894,6 +1896,8 @@ Static Public Attributes</h2></td></tr>
 <p>A nice feature of this method is that it's safe - instead of deleting the file first and then re-writing it, it creates a new temporary file, writes the data to that, and then moves the new file to replace the existing file. This means that if the power gets pulled out or something crashes, you're a lot less likely to end up with a corrupted or unfinished file..</p>
 <p>Returns true if the operation succeeds, or false if it fails.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#a7908b0272d7564eb1f5a7505a5bc7351" title="Appends a string to the end of the file.">appendText</a> </dd></dl>
+
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#ac28981bbac45dbae6c1fdf617a824c17">StandalonePluginHolder::askUserToSaveState()</a>.</p>
 
 </div>
 </div>
@@ -2217,7 +2221,7 @@ Static Public Attributes</h2></td></tr>
 <p>Finds the location of a special type of file or directory, such as a home folder or documents folder. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313d" title="A set of types of location that can be passed to the getSpecialLocation() method.">SpecialLocationType</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#ab55d4cd652306a2a344be38464a48358">StandalonePluginHolder::askUserToLoadState()</a>, <a class="el" href="classStandalonePluginHolder.html#ac28981bbac45dbae6c1fdf617a824c17">StandalonePluginHolder::askUserToSaveState()</a>, and <a class="el" href="classPluginHostType.html#a6060f772f5cb2c53589c1acc43815426">PluginHostType::getHostPath()</a>.</p>
+<p>Referenced by <a class="el" href="classPluginHostType.html#a6060f772f5cb2c53589c1acc43815426">PluginHostType::getHostPath()</a>, and <a class="el" href="classStandalonePluginHolder.html#aaca32e54224860534ac5580306dd475c">StandalonePluginHolder::getLastFile()</a>.</p>
 
 </div>
 </div>
@@ -2526,6 +2530,8 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This static constant is used for referring to an 'invalid' file. </p>
+
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#aaca32e54224860534ac5580306dd475c">StandalonePluginHolder::getLastFile()</a>.</p>
 
 </div>
 </div>

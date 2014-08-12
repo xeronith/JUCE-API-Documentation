@@ -188,6 +188,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa0165f9820b176b5df903e19c8a2a88b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classRange.html">Range</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#aa0165f9820b176b5df903e19c8a2a88b">between</a> (const ValueType position1, const ValueType position2) noexcept</td></tr>
 <tr class="memdesc:aa0165f9820b176b5df903e19c8a2a88b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the range that lies between two positions (in either order).  <a href="#aa0165f9820b176b5df903e19c8a2a88b"></a><br/></td></tr>
 <tr class="separator:aa0165f9820b176b5df903e19c8a2a88b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf34bee3fb884edeea097dc4ca1f5362"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classRange.html">Range</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#adf34bee3fb884edeea097dc4ca1f5362">withStartAndLength</a> (const ValueType startValue, const ValueType length) noexcept</td></tr>
+<tr class="memdesc:adf34bee3fb884edeea097dc4ca1f5362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a range with a given start and length.  <a href="#adf34bee3fb884edeea097dc4ca1f5362"></a><br/></td></tr>
+<tr class="separator:adf34bee3fb884edeea097dc4ca1f5362"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7d026bfc44eaa1dc8725fd13bfe8d77"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classRange.html">Range</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#ad7d026bfc44eaa1dc8725fd13bfe8d77">emptyRange</a> (const ValueType start) noexcept</td></tr>
 <tr class="memdesc:ad7d026bfc44eaa1dc8725fd13bfe8d77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a range with the specified start position and a length of zero.  <a href="#ad7d026bfc44eaa1dc8725fd13bfe8d77"></a><br/></td></tr>
 <tr class="separator:ad7d026bfc44eaa1dc8725fd13bfe8d77"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,7 +231,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Constructs an empty range. </p>
 
-<p>Referenced by <a class="el" href="classRange.html#aa0165f9820b176b5df903e19c8a2a88b">Range&lt; int64 &gt;::between()</a>, <a class="el" href="classRange.html#ad7d026bfc44eaa1dc8725fd13bfe8d77">Range&lt; int64 &gt;::emptyRange()</a>, <a class="el" href="classRange.html#a1b18340b1278144ba21569ead4ffe292">Range&lt; int64 &gt;::findMinAndMax()</a>, <a class="el" href="classRange.html#a682ee4799e0be0dc3eb9a0da774e871c">Range&lt; int64 &gt;::getIntersectionWith()</a>, <a class="el" href="classRange.html#ad7e2ae9bfcb620d68c7ce51e06c925b0">Range&lt; int64 &gt;::getUnionWith()</a>, <a class="el" href="classRange.html#a5ea22f43dcf5400fa812ef86f0b2b237">Range&lt; int64 &gt;::movedToEndAt()</a>, <a class="el" href="classRange.html#ac43518af962bee4118ff13df4f176cf6">Range&lt; int64 &gt;::movedToStartAt()</a>, <a class="el" href="classRange.html#a5df07a0205fb16865411244b5c6fbe83">Range&lt; int64 &gt;::operator+()</a>, <a class="el" href="classRange.html#a41de372355de47a0f991f8079add45bf">Range&lt; int64 &gt;::operator-()</a>, <a class="el" href="classRange.html#a9287e31c3329ff73598414814a015574">Range&lt; int64 &gt;::withEnd()</a>, <a class="el" href="classRange.html#af1c3c27187978044ce66611d572cbd60">Range&lt; int64 &gt;::withLength()</a>, and <a class="el" href="classRange.html#a967f3f5dca8f6c21b809b800c5617969">Range&lt; int64 &gt;::withStart()</a>.</p>
+<p>Referenced by <a class="el" href="classRange.html#aa0165f9820b176b5df903e19c8a2a88b">Range&lt; int64 &gt;::between()</a>, <a class="el" href="classRange.html#ad7d026bfc44eaa1dc8725fd13bfe8d77">Range&lt; int64 &gt;::emptyRange()</a>, <a class="el" href="classRange.html#a1b18340b1278144ba21569ead4ffe292">Range&lt; int64 &gt;::findMinAndMax()</a>, <a class="el" href="classRange.html#a682ee4799e0be0dc3eb9a0da774e871c">Range&lt; int64 &gt;::getIntersectionWith()</a>, <a class="el" href="classRange.html#ad7e2ae9bfcb620d68c7ce51e06c925b0">Range&lt; int64 &gt;::getUnionWith()</a>, <a class="el" href="classRange.html#a5ea22f43dcf5400fa812ef86f0b2b237">Range&lt; int64 &gt;::movedToEndAt()</a>, <a class="el" href="classRange.html#ac43518af962bee4118ff13df4f176cf6">Range&lt; int64 &gt;::movedToStartAt()</a>, <a class="el" href="classRange.html#a5df07a0205fb16865411244b5c6fbe83">Range&lt; int64 &gt;::operator+()</a>, <a class="el" href="classRange.html#a41de372355de47a0f991f8079add45bf">Range&lt; int64 &gt;::operator-()</a>, <a class="el" href="classRange.html#a9287e31c3329ff73598414814a015574">Range&lt; int64 &gt;::withEnd()</a>, <a class="el" href="classRange.html#af1c3c27187978044ce66611d572cbd60">Range&lt; int64 &gt;::withLength()</a>, <a class="el" href="classRange.html#a967f3f5dca8f6c21b809b800c5617969">Range&lt; int64 &gt;::withStart()</a>, and <a class="el" href="classRange.html#adf34bee3fb884edeea097dc4ca1f5362">Range&lt; int64 &gt;::withStartAndLength()</a>.</p>
 
 </div>
 </div>
@@ -362,6 +365,44 @@ template&lt;typename ValueType&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the range that lies between two positions (in either order). </p>
+
+</div>
+</div>
+<a class="anchor" id="adf34bee3fb884edeea097dc4ca1f5362"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classRange.html">Range</a> <a class="el" href="classRange.html">Range</a>&lt; ValueType &gt;::withStartAndLength </td>
+          <td>(</td>
+          <td class="paramtype">const ValueType&#160;</td>
+          <td class="paramname"><em>startValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ValueType&#160;</td>
+          <td class="paramname"><em>length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a range with a given start and length. </p>
 
 </div>
 </div>

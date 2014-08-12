@@ -255,6 +255,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a452c0964666dc96b97c20475f258a54c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa032947d2e79144f4607cc61cda3f6bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListBox.html#aa032947d2e79144f4607cc61cda3f6bb">colourChanged</a> () override</td></tr>
 <tr class="separator:aa032947d2e79144f4607cc61cda3f6bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63ecfa3bd387a5d55dd33af67903cd9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListBox.html#a63ecfa3bd387a5d55dd33af67903cd9d">parentHierarchyChanged</a> () override</td></tr>
+<tr class="separator:a63ecfa3bd387a5d55dd33af67903cd9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae812d8ed4df3b8439d4b139c2a9f195d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListBox.html#ae812d8ed4df3b8439d4b139c2a9f195d">startDragAndDrop</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;, const <a class="el" href="classvar.html">var</a> &amp;dragDescription, bool allowDraggingToOtherWindows)</td></tr>
 <tr class="separator:ae812d8ed4df3b8439d4b139c2a9f195d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classComponent"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classComponent')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classComponent.html">Component</a></td></tr>
@@ -505,9 +507,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2fc08a04c79abc21d65c70855b792ab9 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a2fc08a04c79abc21d65c70855b792ab9">isParentOf</a> (const <a class="el" href="classComponent.html">Component</a> *possibleChild) const noexcept</td></tr>
 <tr class="memdesc:a2fc08a04c79abc21d65c70855b792ab9 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether a component is anywhere inside this component or its children.  <a href="#a2fc08a04c79abc21d65c70855b792ab9"></a><br/></td></tr>
 <tr class="separator:a2fc08a04c79abc21d65c70855b792ab9 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83f298a05d7f26a6e50e45dd37eb6313 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a83f298a05d7f26a6e50e45dd37eb6313">parentHierarchyChanged</a> ()</td></tr>
-<tr class="memdesc:a83f298a05d7f26a6e50e45dd37eb6313 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to indicate that the component's parents have changed.  <a href="#a83f298a05d7f26a6e50e45dd37eb6313"></a><br/></td></tr>
-<tr class="separator:a83f298a05d7f26a6e50e45dd37eb6313 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bbc6da3479a1c3f6e711f4caf9edafb inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a2bbc6da3479a1c3f6e711f4caf9edafb">childrenChanged</a> ()</td></tr>
 <tr class="memdesc:a2bbc6da3479a1c3f6e711f4caf9edafb inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subclasses can use this callback to be told when children are added or removed, or when their z-order changes.  <a href="#a2bbc6da3479a1c3f6e711f4caf9edafb"></a><br/></td></tr>
 <tr class="separator:a2bbc6da3479a1c3f6e711f4caf9edafb inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2143,6 +2142,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classComponent.html#adfab11b32c622b327a823c6565f637f4">Component</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a63ecfa3bd387a5d55dd33af67903cd9d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ListBox::parentHierarchyChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classComponent.html#a83f298a05d7f26a6e50e45dd37eb6313">Component</a>.</p>
 
 </div>
 </div>

@@ -25,7 +25,7 @@ var searchData=
   ['launchindefaultbrowser',['launchInDefaultBrowser',['../classURL.html#ab56bf9814dfe828db465582b3af50c69',1,'URL']]],
   ['launchoptions',['LaunchOptions',['../structDialogWindow_1_1LaunchOptions.html',1,'DialogWindow']]],
   ['launchoptions',['LaunchOptions',['../structDialogWindow_1_1LaunchOptions.html#a801f59545b377317060adddc492ba4bf',1,'DialogWindow::LaunchOptions']]],
-  ['launchslaveprocess',['launchSlaveProcess',['../classChildProcessMaster.html#a4fdc5efe76079849a638b29dfded6b75',1,'ChildProcessMaster']]],
+  ['launchslaveprocess',['launchSlaveProcess',['../classChildProcessMaster.html#aeab6bde2d763b7d8b407f3ec2ebb5f4e',1,'ChildProcessMaster']]],
   ['launchthread',['launchThread',['../classThreadWithProgressWindow.html#aea90dbf6e0fccf56ea8008dae26985ad',1,'ThreadWithProgressWindow']]],
   ['lavender',['lavender',['../classColours.html#a42bdd3828e3e453f1aacd8e129d7ba4c',1,'Colours']]],
   ['lavenderblush',['lavenderblush',['../classColours.html#a189b1d3e8c5a8f324de759efc8325496',1,'Colours']]],

@@ -104,6 +104,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a30f10dff307e43c287b6fd85f5bb2196"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a54b6add344f0c443c8dba671bb6f0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStandalonePluginHolder.html#a9a54b6add344f0c443c8dba671bb6f0e">deletePlugin</a> ()</td></tr>
 <tr class="separator:a9a54b6add344f0c443c8dba671bb6f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaca32e54224860534ac5580306dd475c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStandalonePluginHolder.html#aaca32e54224860534ac5580306dd475c">getLastFile</a> () const </td></tr>
+<tr class="separator:aaca32e54224860534ac5580306dd475c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51b7121cdd9169e12d633fd09930ad86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStandalonePluginHolder.html#a51b7121cdd9169e12d633fd09930ad86">setLastFile</a> (const <a class="el" href="classFileChooser.html">FileChooser</a> &amp;fc)</td></tr>
+<tr class="separator:a51b7121cdd9169e12d633fd09930ad86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac28981bbac45dbae6c1fdf617a824c17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStandalonePluginHolder.html#ac28981bbac45dbae6c1fdf617a824c17">askUserToSaveState</a> (const <a class="el" href="classString.html">String</a> &amp;fileSuffix=<a class="el" href="classString.html">String</a>())</td></tr>
 <tr class="memdesc:ac28981bbac45dbae6c1fdf617a824c17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pops up a dialog letting the user save the processor's state to a file.  <a href="#ac28981bbac45dbae6c1fdf617a824c17"></a><br/></td></tr>
 <tr class="separator:ac28981bbac45dbae6c1fdf617a824c17"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -262,6 +266,45 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aaca32e54224860534ac5580306dd475c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classFile.html">File</a> StandalonePluginHolder::getLastFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classFile.html#a2a4396bc0e6f8b0430f6f54d029899e5">File::getSpecialLocation()</a>, <a class="el" href="classPropertySet.html#afa005ac125096ad476021d347f56ff4c">PropertySet::getValue()</a>, <a class="el" href="classFile.html#abdcef33a1c846d17b4405e0939358364">File::nonexistent</a>, <a class="el" href="classStandalonePluginHolder.html#a58375e902a8f0e9d079ff54abf763ac5">settings</a>, and <a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da72c8fbf94445ccce6b01470265c8f397">File::userDocumentsDirectory</a>.</p>
+
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#ab55d4cd652306a2a344be38464a48358">askUserToLoadState()</a>, and <a class="el" href="classStandalonePluginHolder.html#ac28981bbac45dbae6c1fdf617a824c17">askUserToSaveState()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a51b7121cdd9169e12d633fd09930ad86"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StandalonePluginHolder::setLastFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classFileChooser.html">FileChooser</a> &amp;&#160;</td>
+          <td class="paramname"><em>fc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classFile.html#a317effd2ea56513feec717102676a718">File::getFullPathName()</a>, <a class="el" href="classFileChooser.html#a83beadbc2806f8c8945d672af96fc671">FileChooser::getResult()</a>, <a class="el" href="classStandalonePluginHolder.html#a58375e902a8f0e9d079ff54abf763ac5">settings</a>, and <a class="el" href="classPropertySet.html#a696515de52c7310117e7914a02b58e57">PropertySet::setValue()</a>.</p>
+
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#ab55d4cd652306a2a344be38464a48358">askUserToLoadState()</a>, and <a class="el" href="classStandalonePluginHolder.html#ac28981bbac45dbae6c1fdf617a824c17">askUserToSaveState()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ac28981bbac45dbae6c1fdf617a824c17"></a>
 <div class="memitem">
 <div class="memproto">
@@ -278,7 +321,7 @@ Public Attributes</h2></td></tr>
 
 <p>Pops up a dialog letting the user save the processor's state to a file. </p>
 
-<p>References <a class="el" href="classMemoryBlock.html#ae3473f5770e3a31357c6eeb04f9cc7e8">MemoryBlock::getData()</a>, <a class="el" href="classStandalonePluginHolder.html#a5a8cd39a398b0b62838a4ec62778429e">getFilePatterns()</a>, <a class="el" href="classMemoryBlock.html#a7192f6e8a3f06c4476ddca1fe2ed7bfb">MemoryBlock::getSize()</a>, <a class="el" href="classFile.html#a2a4396bc0e6f8b0430f6f54d029899e5">File::getSpecialLocation()</a>, <a class="el" href="classAudioProcessor.html#a5d79591b367a7c0516e4ef4d1d6c32b2">AudioProcessor::getStateInformation()</a>, <a class="el" href="classPropertySet.html#afa005ac125096ad476021d347f56ff4c">PropertySet::getValue()</a>, <a class="el" href="classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434">processor</a>, <a class="el" href="classStandalonePluginHolder.html#a58375e902a8f0e9d079ff54abf763ac5">settings</a>, <a class="el" href="juce__LocalisedStrings_8h.html#af3c28ad27b0d8fa2f615888701e32b07">TRANS</a>, <a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da72c8fbf94445ccce6b01470265c8f397">File::userDocumentsDirectory</a>, and <a class="el" href="classAlertWindow.html#a2582d1f79937cb47a6a3764c7d9bdba3a8af24c68ddba14cc97687e2b2b75f373">AlertWindow::WarningIcon</a>.</p>
+<p>References <a class="el" href="classFileChooser.html#a1ccbbb48aefc471ea70c34f9ab18fcd1">FileChooser::browseForFileToSave()</a>, <a class="el" href="classMemoryBlock.html#ae3473f5770e3a31357c6eeb04f9cc7e8">MemoryBlock::getData()</a>, <a class="el" href="classStandalonePluginHolder.html#a5a8cd39a398b0b62838a4ec62778429e">getFilePatterns()</a>, <a class="el" href="classStandalonePluginHolder.html#aaca32e54224860534ac5580306dd475c">getLastFile()</a>, <a class="el" href="classFileChooser.html#a83beadbc2806f8c8945d672af96fc671">FileChooser::getResult()</a>, <a class="el" href="classMemoryBlock.html#a7192f6e8a3f06c4476ddca1fe2ed7bfb">MemoryBlock::getSize()</a>, <a class="el" href="classAudioProcessor.html#a5d79591b367a7c0516e4ef4d1d6c32b2">AudioProcessor::getStateInformation()</a>, <a class="el" href="classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434">processor</a>, <a class="el" href="classFile.html#ac1828d341ded515c7606984aabd4614f">File::replaceWithData()</a>, <a class="el" href="classStandalonePluginHolder.html#a51b7121cdd9169e12d633fd09930ad86">setLastFile()</a>, <a class="el" href="juce__LocalisedStrings_8h.html#af3c28ad27b0d8fa2f615888701e32b07">TRANS</a>, and <a class="el" href="classAlertWindow.html#a2582d1f79937cb47a6a3764c7d9bdba3a8af24c68ddba14cc97687e2b2b75f373">AlertWindow::WarningIcon</a>.</p>
 
 <p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a43c03f9f453434a560a44011c9cd357e">StandaloneFilterWindow::buttonClicked()</a>.</p>
 
@@ -300,7 +343,7 @@ Public Attributes</h2></td></tr>
 
 <p>Pops up a dialog letting the user re-load the processor's state from a file. </p>
 
-<p>References <a class="el" href="classMemoryBlock.html#ae3473f5770e3a31357c6eeb04f9cc7e8">MemoryBlock::getData()</a>, <a class="el" href="classStandalonePluginHolder.html#a5a8cd39a398b0b62838a4ec62778429e">getFilePatterns()</a>, <a class="el" href="classMemoryBlock.html#a7192f6e8a3f06c4476ddca1fe2ed7bfb">MemoryBlock::getSize()</a>, <a class="el" href="classFile.html#a2a4396bc0e6f8b0430f6f54d029899e5">File::getSpecialLocation()</a>, <a class="el" href="classPropertySet.html#afa005ac125096ad476021d347f56ff4c">PropertySet::getValue()</a>, <a class="el" href="classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434">processor</a>, <a class="el" href="classAudioProcessor.html#a6154837fea67c594a9b35c487894df27">AudioProcessor::setStateInformation()</a>, <a class="el" href="classStandalonePluginHolder.html#a58375e902a8f0e9d079ff54abf763ac5">settings</a>, <a class="el" href="juce__LocalisedStrings_8h.html#af3c28ad27b0d8fa2f615888701e32b07">TRANS</a>, <a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da72c8fbf94445ccce6b01470265c8f397">File::userDocumentsDirectory</a>, and <a class="el" href="classAlertWindow.html#a2582d1f79937cb47a6a3764c7d9bdba3a8af24c68ddba14cc97687e2b2b75f373">AlertWindow::WarningIcon</a>.</p>
+<p>References <a class="el" href="classFileChooser.html#a546ef74bcd139b67a90e4459cd591d21">FileChooser::browseForFileToOpen()</a>, <a class="el" href="classMemoryBlock.html#ae3473f5770e3a31357c6eeb04f9cc7e8">MemoryBlock::getData()</a>, <a class="el" href="classStandalonePluginHolder.html#a5a8cd39a398b0b62838a4ec62778429e">getFilePatterns()</a>, <a class="el" href="classStandalonePluginHolder.html#aaca32e54224860534ac5580306dd475c">getLastFile()</a>, <a class="el" href="classFileChooser.html#a83beadbc2806f8c8945d672af96fc671">FileChooser::getResult()</a>, <a class="el" href="classMemoryBlock.html#a7192f6e8a3f06c4476ddca1fe2ed7bfb">MemoryBlock::getSize()</a>, <a class="el" href="classFile.html#a0fa017212282bc314ec2eab9dce135d0">File::loadFileAsData()</a>, <a class="el" href="classStandalonePluginHolder.html#aa971bb76e4bc1cb996c8d300f9947434">processor</a>, <a class="el" href="classStandalonePluginHolder.html#a51b7121cdd9169e12d633fd09930ad86">setLastFile()</a>, <a class="el" href="classAudioProcessor.html#a6154837fea67c594a9b35c487894df27">AudioProcessor::setStateInformation()</a>, <a class="el" href="juce__LocalisedStrings_8h.html#af3c28ad27b0d8fa2f615888701e32b07">TRANS</a>, and <a class="el" href="classAlertWindow.html#a2582d1f79937cb47a6a3764c7d9bdba3a8af24c68ddba14cc97687e2b2b75f373">AlertWindow::WarningIcon</a>.</p>
 
 <p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a43c03f9f453434a560a44011c9cd357e">StandaloneFilterWindow::buttonClicked()</a>.</p>
 
@@ -446,7 +489,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#ab55d4cd652306a2a344be38464a48358">askUserToLoadState()</a>, <a class="el" href="classStandalonePluginHolder.html#ac28981bbac45dbae6c1fdf617a824c17">askUserToSaveState()</a>, <a class="el" href="classStandalonePluginHolder.html#a306a3e5f2e5e88aa658642a7eabd81c2">reloadAudioDeviceState()</a>, <a class="el" href="classStandalonePluginHolder.html#adfdf093b9b5ab101d2f76d5fa957c6eb">reloadPluginState()</a>, <a class="el" href="classStandaloneFilterWindow.html#a7fcc3628b8e48d4f0a72fa268a86046f">StandaloneFilterWindow::resetToDefaultState()</a>, <a class="el" href="classStandalonePluginHolder.html#a3591021b8495b1d2dddb6ff9a2405209">saveAudioDeviceState()</a>, <a class="el" href="classStandalonePluginHolder.html#a9319c6c7e9368f0d2fb1d31b0f2b2816">savePluginState()</a>, <a class="el" href="classStandaloneFilterWindow.html#a8cda61582ce8dfd440514d835651a77e">StandaloneFilterWindow::StandaloneFilterWindow()</a>, and <a class="el" href="classStandaloneFilterWindow.html#aae64328faa7f0aa4ccc0099ebf4e84d8">StandaloneFilterWindow::~StandaloneFilterWindow()</a>.</p>
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#aaca32e54224860534ac5580306dd475c">getLastFile()</a>, <a class="el" href="classStandalonePluginHolder.html#a306a3e5f2e5e88aa658642a7eabd81c2">reloadAudioDeviceState()</a>, <a class="el" href="classStandalonePluginHolder.html#adfdf093b9b5ab101d2f76d5fa957c6eb">reloadPluginState()</a>, <a class="el" href="classStandaloneFilterWindow.html#a7fcc3628b8e48d4f0a72fa268a86046f">StandaloneFilterWindow::resetToDefaultState()</a>, <a class="el" href="classStandalonePluginHolder.html#a3591021b8495b1d2dddb6ff9a2405209">saveAudioDeviceState()</a>, <a class="el" href="classStandalonePluginHolder.html#a9319c6c7e9368f0d2fb1d31b0f2b2816">savePluginState()</a>, <a class="el" href="classStandalonePluginHolder.html#a51b7121cdd9169e12d633fd09930ad86">setLastFile()</a>, <a class="el" href="classStandaloneFilterWindow.html#a8cda61582ce8dfd440514d835651a77e">StandaloneFilterWindow::StandaloneFilterWindow()</a>, and <a class="el" href="classStandaloneFilterWindow.html#aae64328faa7f0aa4ccc0099ebf4e84d8">StandaloneFilterWindow::~StandaloneFilterWindow()</a>.</p>
 
 </div>
 </div>

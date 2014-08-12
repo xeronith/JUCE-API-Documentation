@@ -107,6 +107,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af868951e30847cecd5f0729cecab722c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResamplingAudioSource.html#af868951e30847cecd5f0729cecab722c">getResamplingRatio</a> () const noexcept</td></tr>
 <tr class="memdesc:af868951e30847cecd5f0729cecab722c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current resampling ratio.  <a href="#af868951e30847cecd5f0729cecab722c"></a><br/></td></tr>
 <tr class="separator:af868951e30847cecd5f0729cecab722c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e2e1dc2dcd41959bc9a425092eb03ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResamplingAudioSource.html#a0e2e1dc2dcd41959bc9a425092eb03ad">flushBuffers</a> ()</td></tr>
+<tr class="memdesc:a0e2e1dc2dcd41959bc9a425092eb03ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears any buffers and filters that the resampler is using.  <a href="#a0e2e1dc2dcd41959bc9a425092eb03ad"></a><br/></td></tr>
+<tr class="separator:a0e2e1dc2dcd41959bc9a425092eb03ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fff0f513472ac19bade8f5c12cf4cfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResamplingAudioSource.html#a9fff0f513472ac19bade8f5c12cf4cfb">prepareToPlay</a> (int samplesPerBlockExpected, double sampleRate) override</td></tr>
 <tr class="memdesc:a9fff0f513472ac19bade8f5c12cf4cfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the source to prepare for playing.  <a href="#a9fff0f513472ac19bade8f5c12cf4cfb"></a><br/></td></tr>
 <tr class="separator:a9fff0f513472ac19bade8f5c12cf4cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,6 +243,23 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns the current resampling ratio. </p>
 <p>This is the value that was set by <a class="el" href="classResamplingAudioSource.html#aa7d888e41873f6e395baa1eb179c15ad" title="Changes the resampling ratio.">setResamplingRatio()</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0e2e1dc2dcd41959bc9a425092eb03ad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ResamplingAudioSource::flushBuffers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clears any buffers and filters that the resampler is using. </p>
 
 </div>
 </div>

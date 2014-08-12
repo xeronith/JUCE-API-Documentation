@@ -200,9 +200,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac61949900870c9f6dca63d53ee68f7a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ac61949900870c9f6dca63d53ee68f7a0">isNonRealtime</a> () const noexcept</td></tr>
 <tr class="memdesc:ac61949900870c9f6dca63d53ee68f7a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the processor is being run in an offline mode for rendering.  <a href="#ac61949900870c9f6dca63d53ee68f7a0"></a><br/></td></tr>
 <tr class="separator:ac61949900870c9f6dca63d53ee68f7a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a989baaa3a9a6863d651c956ce1e5a680"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a989baaa3a9a6863d651c956ce1e5a680">setNonRealtime</a> (bool <a class="el" href="classAudioProcessor.html#ac61949900870c9f6dca63d53ee68f7a0">isNonRealtime</a>) noexcept</td></tr>
-<tr class="memdesc:a989baaa3a9a6863d651c956ce1e5a680"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the host to tell this processor whether it's being used in a non-realtime capacity for offline rendering or bouncing.  <a href="#a989baaa3a9a6863d651c956ce1e5a680"></a><br/></td></tr>
-<tr class="separator:a989baaa3a9a6863d651c956ce1e5a680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac419b4487f3c8ade182189e5b19e7c2c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ac419b4487f3c8ade182189e5b19e7c2c">setNonRealtime</a> (bool <a class="el" href="classAudioProcessor.html#ac61949900870c9f6dca63d53ee68f7a0">isNonRealtime</a>) noexcept</td></tr>
+<tr class="memdesc:ac419b4487f3c8ade182189e5b19e7c2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the host to tell this processor whether it's being used in a non-realtime capacity for offline rendering or bouncing.  <a href="#ac419b4487f3c8ade182189e5b19e7c2c"></a><br/></td></tr>
+<tr class="separator:ac419b4487f3c8ade182189e5b19e7c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a103fc8a8666b7d31b472e017262be84d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classAudioProcessorEditor.html">AudioProcessorEditor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a103fc8a8666b7d31b472e017262be84d">createEditor</a> ()=0</td></tr>
 <tr class="memdesc:a103fc8a8666b7d31b472e017262be84d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the filter's UI.  <a href="#a103fc8a8666b7d31b472e017262be84d"></a><br/></td></tr>
 <tr class="separator:a103fc8a8666b7d31b472e017262be84d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1206,11 +1206,11 @@ Protected Attributes</h2></td></tr>
 <p>Returns true if the processor is being run in an offline mode for rendering. </p>
 <p>If the processor is being run live on realtime signals, this returns false. If the mode is unknown, this will assume it's realtime and return false.</p>
 <p>This value may be unreliable until the <a class="el" href="classAudioProcessor.html#ac7ebd6fb3dd06bd023159c590e3a7d2a" title="Called before playback starts, to let the filter prepare itself.">prepareToPlay()</a> method has been called, and could change each time <a class="el" href="classAudioProcessor.html#ac7ebd6fb3dd06bd023159c590e3a7d2a" title="Called before playback starts, to let the filter prepare itself.">prepareToPlay()</a> is called.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessor.html#a989baaa3a9a6863d651c956ce1e5a680" title="Called by the host to tell this processor whether it&#39;s being used in a non-realtime capacity for offl...">setNonRealtime()</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessor.html#ac419b4487f3c8ade182189e5b19e7c2c" title="Called by the host to tell this processor whether it&#39;s being used in a non-realtime capacity for offl...">setNonRealtime()</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a989baaa3a9a6863d651c956ce1e5a680"></a>
+<a class="anchor" id="ac419b4487f3c8ade182189e5b19e7c2c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1218,7 +1218,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioProcessor::setNonRealtime </td>
+          <td class="memname">virtual void AudioProcessor::setNonRealtime </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>isNonRealtime</em></td><td>)</td>
@@ -1227,7 +1227,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

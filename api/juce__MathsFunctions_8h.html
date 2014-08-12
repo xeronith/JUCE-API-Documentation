@@ -250,6 +250,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a137419534afee570f5ff25d643c77176"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__MathsFunctions_8h.html#a137419534afee570f5ff25d643c77176">nextPowerOfTwo</a> (int n) noexcept</td></tr>
 <tr class="memdesc:a137419534afee570f5ff25d643c77176"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the smallest power-of-two which is equal to or greater than the given integer.  <a href="#a137419534afee570f5ff25d643c77176"></a><br/></td></tr>
 <tr class="separator:a137419534afee570f5ff25d643c77176"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd3358fc8d07a10a7c621f9875cfb7b9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__MathsFunctions_8h.html#afd3358fc8d07a10a7c621f9875cfb7b9">countNumberOfBits</a> (<a class="el" href="juce__MathsFunctions_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a> n) noexcept</td></tr>
+<tr class="memdesc:afd3358fc8d07a10a7c621f9875cfb7b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of bits in a 32-bit integer.  <a href="#afd3358fc8d07a10a7c621f9875cfb7b9"></a><br/></td></tr>
+<tr class="separator:afd3358fc8d07a10a7c621f9875cfb7b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9b7a29be913ebfbc11e7e9839e19fb6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__MathsFunctions_8h.html#aa9b7a29be913ebfbc11e7e9839e19fb6">countNumberOfBits</a> (<a class="el" href="juce__MathsFunctions_8h.html#a29940ae63ec06c9998bba873e25407ad">uint64</a> n) noexcept</td></tr>
+<tr class="memdesc:aa9b7a29be913ebfbc11e7e9839e19fb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of bits in a 64-bit integer.  <a href="#aa9b7a29be913ebfbc11e7e9839e19fb6"></a><br/></td></tr>
+<tr class="separator:aa9b7a29be913ebfbc11e7e9839e19fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cfa905495cba62bd9ad2b73d2dc3f1c"><td class="memTemplParams" colspan="2">template&lt;typename IntegerType &gt; </td></tr>
 <tr class="memitem:a3cfa905495cba62bd9ad2b73d2dc3f1c"><td class="memTemplItemLeft" align="right" valign="top">IntegerType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="juce__MathsFunctions_8h.html#a3cfa905495cba62bd9ad2b73d2dc3f1c">negativeAwareModulo</a> (IntegerType dividend, const IntegerType divisor) noexcept</td></tr>
 <tr class="memdesc:a3cfa905495cba62bd9ad2b73d2dc3f1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a modulo operation, but can cope with the dividend being negative.  <a href="#a3cfa905495cba62bd9ad2b73d2dc3f1c"></a><br/></td></tr>
@@ -1325,6 +1331,62 @@ template&lt;typename IntegerType &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the smallest power-of-two which is equal to or greater than the given integer. </p>
+
+</div>
+</div>
+<a class="anchor" id="afd3358fc8d07a10a7c621f9875cfb7b9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int countNumberOfBits </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="juce__MathsFunctions_8h.html#a1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of bits in a 32-bit integer. </p>
+
+<p>Referenced by <a class="el" href="juce__MathsFunctions_8h.html#aa9b7a29be913ebfbc11e7e9839e19fb6">countNumberOfBits()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa9b7a29be913ebfbc11e7e9839e19fb6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int countNumberOfBits </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="juce__MathsFunctions_8h.html#a29940ae63ec06c9998bba873e25407ad">uint64</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of bits in a 64-bit integer. </p>
+
+<p>References <a class="el" href="juce__MathsFunctions_8h.html#afd3358fc8d07a10a7c621f9875cfb7b9">countNumberOfBits()</a>.</p>
 
 </div>
 </div>

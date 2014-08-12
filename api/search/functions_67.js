@@ -519,6 +519,7 @@ var searchData=
   ['getlastdocumentopened',['getLastDocumentOpened',['../classFileBasedDocument.html#a5d71efccf45d29de2c2dcbb801e8021a',1,'FileBasedDocument']]],
   ['getlasterror',['getLastError',['../classAudioIODevice.html#a4cfb59b5782efabcb31b225a69bd9b12',1,'AudioIODevice::getLastError()'],['../classOpenGLShaderProgram.html#a946971889421f0d006b0618aa12efc5b',1,'OpenGLShaderProgram::getLastError()']]],
   ['getlasteventtime',['getLastEventTime',['../classMidiBuffer.html#aafb2fe191779749350ff2e9af66b5a12',1,'MidiBuffer']]],
+  ['getlastfile',['getLastFile',['../classStandalonePluginHolder.html#aaca32e54224860534ac5580306dd475c',1,'StandalonePluginHolder']]],
   ['getlastfocusedsubcomponent',['getLastFocusedSubcomponent',['../classComponentPeer.html#ab57f08253f973580a2eae92e859aa345',1,'ComponentPeer']]],
   ['getlastindex',['getLastIndex',['../classAudioCDReader.html#a88a1359ce7a1f358ab736d0f52f9a8c1',1,'AudioCDReader']]],
   ['getlastmodificationtime',['getLastModificationTime',['../classFile.html#a2af6e4e6ce8d74bb39b7f3a9a6feedf2',1,'File']]],

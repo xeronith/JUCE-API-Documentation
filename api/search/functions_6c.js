@@ -14,7 +14,7 @@ var searchData=
   ['launchasynchronously',['launchAsynchronously',['../classCallOutBox.html#a55dd3c214fc70d1ee94a3e501b85e02d',1,'CallOutBox']]],
   ['launchindefaultbrowser',['launchInDefaultBrowser',['../classURL.html#ab56bf9814dfe828db465582b3af50c69',1,'URL']]],
   ['launchoptions',['LaunchOptions',['../structDialogWindow_1_1LaunchOptions.html#a801f59545b377317060adddc492ba4bf',1,'DialogWindow::LaunchOptions']]],
-  ['launchslaveprocess',['launchSlaveProcess',['../classChildProcessMaster.html#a4fdc5efe76079849a638b29dfded6b75',1,'ChildProcessMaster']]],
+  ['launchslaveprocess',['launchSlaveProcess',['../classChildProcessMaster.html#aeab6bde2d763b7d8b407f3ec2ebb5f4e',1,'ChildProcessMaster']]],
   ['launchthread',['launchThread',['../classThreadWithProgressWindow.html#aea90dbf6e0fccf56ea8008dae26985ad',1,'ThreadWithProgressWindow']]],
   ['layoutcomponents',['layOutComponents',['../classStretchableLayoutManager.html#a8276cd18109ff9bb5220b1d91dad1c90',1,'StretchableLayoutManager']]],
   ['layoutfilebrowsercomponent',['layoutFileBrowserComponent',['../structFileBrowserComponent_1_1LookAndFeelMethods.html#a4a95e3d406af1c06a040db56701daa7e',1,'FileBrowserComponent::LookAndFeelMethods::layoutFileBrowserComponent()'],['../classLookAndFeel__V2.html#ab4aafa08b43adc287dd3f5dd1b0e42f5',1,'LookAndFeel_V2::layoutFileBrowserComponent()']]],

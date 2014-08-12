@@ -33,7 +33,7 @@ var searchData=
   ['readint64',['readInt64',['../classInputStream.html#a58941fd7cf4279e49d4697750f837a56',1,'InputStream']]],
   ['readint64bigendian',['readInt64BigEndian',['../classInputStream.html#a8894f1c01c6e0de4b5dd9b9c1fe06c4b',1,'InputStream']]],
   ['readintbigendian',['readIntBigEndian',['../classInputStream.html#a84ab1bcc547eee621c4c6c2502af808d',1,'InputStream']]],
-  ['readintomemoryblock',['readIntoMemoryBlock',['../classInputStream.html#a126afb4d61c4c1e9c843a75dfe612185',1,'InputStream']]],
+  ['readintomemoryblock',['readIntoMemoryBlock',['../classInputStream.html#a7708d25af96e8d8b937a4642dcf55a23',1,'InputStream']]],
   ['readlines',['readLines',['../classFile.html#a155785c6bd5e36a11be9c2451f8bb8f2',1,'File']]],
   ['readmaxlevels',['readMaxLevels',['../classAudioFormatReader.html#aa6393d5cb57b6a03cb7544df495d86b6',1,'AudioFormatReader::readMaxLevels()'],['../classAudioSubsectionReader.html#a6224a5b7fbb41ae1ff6d7fcb1a262325',1,'AudioSubsectionReader::readMaxLevels()']]],
   ['readnextline',['readNextLine',['../classInputStream.html#af16acc8f2fd769adb559a781ece8e903',1,'InputStream']]],
