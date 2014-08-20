@@ -248,7 +248,7 @@ var searchData=
   ['audioplugininstance',['AudioPluginInstance',['../classAudioPluginInstance.html#a728172a1e902b7ab16c5d2b580a93e79',1,'AudioPluginInstance']]],
   ['audioprocessor',['AudioProcessor',['../classAudioProcessor.html#a8602919358f1bf8799abd0c179c5e03b',1,'AudioProcessor']]],
   ['audioprocessorchanged',['audioProcessorChanged',['../classAudioProcessorListener.html#aa639a646573153b1ecf666506318abd4',1,'AudioProcessorListener']]],
-  ['audioprocessoreditor',['AudioProcessorEditor',['../classAudioProcessorEditor.html#a41b85015301423c716bb96e703b3e688',1,'AudioProcessorEditor']]],
+  ['audioprocessoreditor',['AudioProcessorEditor',['../classAudioProcessorEditor.html#a213530cf58bc4e47354ed1a65520adbb',1,'AudioProcessorEditor::AudioProcessorEditor(AudioProcessor &amp;) noexcept'],['../classAudioProcessorEditor.html#af4d621c9ed4398b3c55eb416dc9a569e',1,'AudioProcessorEditor::AudioProcessorEditor(AudioProcessor *) noexcept']]],
   ['audioprocessorgraph',['AudioProcessorGraph',['../classAudioProcessorGraph.html#a8d33e2e949c97a1a37b47e39bbe43f7a',1,'AudioProcessorGraph']]],
   ['audioprocessorparameterchanged',['audioProcessorParameterChanged',['../classAudioProcessorListener.html#aa08a28d958759256aecd0f4af8a826f4',1,'AudioProcessorListener']]],
   ['audioprocessorparameterchangegesturebegin',['audioProcessorParameterChangeGestureBegin',['../classAudioProcessorListener.html#a38075b5e4654a8c50e135eee40c74f2e',1,'AudioProcessorListener']]],

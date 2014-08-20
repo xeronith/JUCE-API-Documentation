@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['parametercontrolhighlightinfo',['ParameterControlHighlightInfo',['../structAudioProcessorEditor_1_1ParameterControlHighlightInfo.html',1,'AudioProcessorEditor']]],
   ['parameters',['Parameters',['../structReverb_1_1Parameters.html',1,'Reverb']]],
   ['parametertype',['ParameterType',['../structTypeHelpers_1_1ParameterType.html',1,'TypeHelpers']]],
   ['parseerror',['ParseError',['../classExpression_1_1ParseError.html',1,'Expression']]],

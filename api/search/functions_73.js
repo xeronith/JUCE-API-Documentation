@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['safepointer',['SafePointer',['../classComponent_1_1SafePointer.html#ad6a7f801bacd0a414469ca82db229488',1,'Component::SafePointer::SafePointer() noexcept'],['../classComponent_1_1SafePointer.html#a59adeff87298df1cff664b308d5143de',1,'Component::SafePointer::SafePointer(ComponentType *const component)'],['../classComponent_1_1SafePointer.html#a96bcb2f2303c429243030be224244f36',1,'Component::SafePointer::SafePointer(const SafePointer &amp;other) noexcept']]],
+  ['safepointer',['SafePointer',['../classComponent_1_1SafePointer.html#ad6a7f801bacd0a414469ca82db229488',1,'Component::SafePointer::SafePointer() noexcept'],['../classComponent_1_1SafePointer.html#abb19a109404b9c591c2ddd340cd6da04',1,'Component::SafePointer::SafePointer(ComponentType *component)'],['../classComponent_1_1SafePointer.html#a96bcb2f2303c429243030be224244f36',1,'Component::SafePointer::SafePointer(const SafePointer &amp;other) noexcept']]],
   ['samplersound',['SamplerSound',['../classSamplerSound.html#ad26e044243f4802000b8dcbb6dd15cee',1,'SamplerSound']]],
   ['samplervoice',['SamplerVoice',['../classSamplerVoice.html#aa1614529f047ba46473645216f58d9ac',1,'SamplerVoice']]],
   ['sampletofilepos',['sampleToFilePos',['../classMemoryMappedAudioFormatReader.html#a7a2fef8b3633ab717fede24ed46b414f',1,'MemoryMappedAudioFormatReader']]],
@@ -169,6 +169,7 @@ var searchData=
   ['setcontentnonowned',['setContentNonOwned',['../classResizableWindow.html#ad6c44adc91ca926e9c0a6ecb4cf1bfa7',1,'ResizableWindow']]],
   ['setcontentowned',['setContentOwned',['../classResizableWindow.html#a97940f07b6014bac018cbe9330abc769',1,'ResizableWindow']]],
   ['setcontinuousrepainting',['setContinuousRepainting',['../classOpenGLContext.html#a7c305575ef3337ae64940db3c00abdc6',1,'OpenGLContext']]],
+  ['setcontrolhighlight',['setControlHighlight',['../classAudioProcessorEditor.html#a069f6bb43b3f613ac952cbb04e0b443f',1,'AudioProcessorEditor']]],
   ['setcontrolpoint',['setControlPoint',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html#ae67ec069b9614c5e9b3a63cc86ed0ba9',1,'DrawablePath::ValueTreeWrapper::Element']]],
   ['setcornersize',['setCornerSize',['../classDrawableRectangle.html#a1aa94bb3b7d2ff53760e0287f4217c82',1,'DrawableRectangle::setCornerSize()'],['../classDrawableRectangle_1_1ValueTreeWrapper.html#a800c92b165c53698e3ba489c37143427',1,'DrawableRectangle::ValueTreeWrapper::setCornerSize()']]],
   ['setcreationtime',['setCreationTime',['../classFile.html#ab21ad7981f0afab524171e10d8122657',1,'File']]],

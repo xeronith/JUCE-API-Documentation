@@ -174,25 +174,25 @@ Protected Member Functions</h2></td></tr>
 <div class="line">    MyJUCEApp()  {}</div>
 <div class="line">    ~MyJUCEApp() {}</div>
 <div class="line"></div>
-<div class="line">    <span class="keywordtype">void</span> <a class="code" href="classJUCEApplicationBase.html#ad584bed05116674a1e68f60a1ac546f5" title="Called when the application starts.">initialise</a> (<span class="keyword">const</span> <a class="code" href="classString.html" title="The JUCE String class!">String</a>&amp; commandLine)</div>
-<div class="line">    {</div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code" href="classJUCEApplicationBase.html#ad584bed05116674a1e68f60a1ac546f5" title="Called when the application starts.">initialise</a> (<span class="keyword">const</span> <a class="code" href="classString.html" title="The JUCE String class!">String</a>&amp; commandLine)<span class="keyword"> override</span></div>
+<div class="line"><span class="keyword">    </span>{</div>
 <div class="line">        myMainWindow = <span class="keyword">new</span> MyApplicationWindow();</div>
 <div class="line">        myMainWindow-&gt;setBounds (100, 100, 400, 500);</div>
 <div class="line">        myMainWindow-&gt;setVisible (<span class="keyword">true</span>);</div>
 <div class="line">    }</div>
 <div class="line"></div>
-<div class="line">    <span class="keywordtype">void</span> <a class="code" href="classJUCEApplicationBase.html#a318021f86bf379caeb4cb27c32f0f229">shutdown</a>()</div>
-<div class="line">    {</div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code" href="classJUCEApplicationBase.html#a318021f86bf379caeb4cb27c32f0f229">shutdown</a>()<span class="keyword"> override</span></div>
+<div class="line"><span class="keyword">    </span>{</div>
 <div class="line">        myMainWindow = <span class="keyword">nullptr</span>;</div>
 <div class="line">    }</div>
 <div class="line"></div>
-<div class="line">    <span class="keyword">const</span> <a class="code" href="classString.html" title="The JUCE String class!">String</a> <a class="code" href="classJUCEApplicationBase.html#afa035ff6f164652542e7084f56f940fe" title="Returns the application&#39;s name.">getApplicationName</a>()</div>
-<div class="line">    {</div>
+<div class="line">    <span class="keyword">const</span> <a class="code" href="classString.html" title="The JUCE String class!">String</a> <a class="code" href="classJUCEApplicationBase.html#afa035ff6f164652542e7084f56f940fe" title="Returns the application&#39;s name.">getApplicationName</a>()<span class="keyword"> override</span></div>
+<div class="line"><span class="keyword">    </span>{</div>
 <div class="line">        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Super JUCE-o-matic&quot;</span>;</div>
 <div class="line">    }</div>
 <div class="line"></div>
-<div class="line">    <span class="keyword">const</span> <a class="code" href="classString.html" title="The JUCE String class!">String</a> <a class="code" href="classJUCEApplicationBase.html#a364c4e6df0c1b21f38a95be61589978c" title="Returns the application&#39;s version number.">getApplicationVersion</a>()</div>
-<div class="line">    {</div>
+<div class="line">    <span class="keyword">const</span> <a class="code" href="classString.html" title="The JUCE String class!">String</a> <a class="code" href="classJUCEApplicationBase.html#a364c4e6df0c1b21f38a95be61589978c" title="Returns the application&#39;s version number.">getApplicationVersion</a>()<span class="keyword"> override</span></div>
+<div class="line"><span class="keyword">    </span>{</div>
 <div class="line">        <span class="keywordflow">return</span> <span class="stringliteral">&quot;1.0&quot;</span>;</div>
 <div class="line">    }</div>
 <div class="line"></div>

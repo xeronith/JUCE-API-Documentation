@@ -50,6 +50,7 @@ var searchData=
   ['submenu',['subMenu',['../classPopupMenu_1_1MenuItemIterator.html#afb6d899fe8d2ac3244c81df9c5f41868',1,'PopupMenu::MenuItemIterator']]],
   ['subpathindex',['subPathIndex',['../classPathFlatteningIterator.html#a96ac386608cfe18dde7de5a433aac417',1,'PathFlatteningIterator']]],
   ['succeeded',['succeeded',['../structTracktionMarketplaceStatus_1_1UnlockResult.html#a264b2da005c2b7b9b80d1dcc94266b9e',1,'TracktionMarketplaceStatus::UnlockResult']]],
+  ['suggestedcolour',['suggestedColour',['../structAudioProcessorEditor_1_1ParameterControlHighlightInfo.html#ae06159d036b60b93709ac4a5553af0ba',1,'AudioProcessorEditor::ParameterControlHighlightInfo']]],
   ['symbolname',['symbolName',['../structExpression_1_1Symbol.html#a8ea461b91478b99e10a04956c38f5d68',1,'Expression::Symbol']]],
   ['symmetricmode',['symmetricMode',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html#ad46a5846bf7817ae1524974836fc7d9b',1,'DrawablePath::ValueTreeWrapper::Element']]]
 ];

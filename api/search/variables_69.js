@@ -28,6 +28,7 @@ var searchData=
   ['iscustomcomponent',['isCustomComponent',['../classPopupMenu_1_1MenuItemIterator.html#a01ff00f5ed747469652ab57f7baba10d',1,'PopupMenu::MenuItemIterator']]],
   ['isdirectory',['isDirectory',['../structDirectoryContentsList_1_1FileInfo.html#a493b51197cd6cc4042d9c8b13a0dbdab',1,'DirectoryContentsList::FileInfo']]],
   ['isenabled',['isEnabled',['../classPopupMenu_1_1MenuItemIterator.html#aea11ebbb2a4b53e733a53364bf706270',1,'PopupMenu::MenuItemIterator']]],
+  ['ishighlighted',['isHighlighted',['../structAudioProcessorEditor_1_1ParameterControlHighlightInfo.html#a7f442332239058eabeaeaa73be17889a',1,'AudioProcessorEditor::ParameterControlHighlightInfo']]],
   ['isinstrument',['isInstrument',['../classPluginDescription.html#ada0d12fe7d191f7cd315721f7b965720',1,'PluginDescription']]],
   ['iskeydown',['isKeyDown',['../structApplicationCommandTarget_1_1InvocationInfo.html#a40f339e15279d78b003e3598f11c1424',1,'ApplicationCommandTarget::InvocationInfo']]],
   ['islooping',['isLooping',['../structAudioPlayHead_1_1CurrentPositionInfo.html#a69d7734277c893a624b2ea7392cb96e5',1,'AudioPlayHead::CurrentPositionInfo']]],

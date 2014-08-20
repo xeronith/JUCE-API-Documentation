@@ -160,7 +160,7 @@ var searchData=
   ['isdraggingtopedge',['isDraggingTopEdge',['../classResizableBorderComponent_1_1Zone.html#af1d582e7d92a1c51ef8a469df85ad680',1,'ResizableBorderComponent::Zone']]],
   ['isdraggingwholeobject',['isDraggingWholeObject',['../classResizableBorderComponent_1_1Zone.html#a34c629632747476411260528c91eaf14',1,'ResizableBorderComponent::Zone']]],
   ['isdropshadowenabled',['isDropShadowEnabled',['../classTopLevelWindow.html#a910577a0e16f9e80cca0ac41f61e6299',1,'TopLevelWindow']]],
-  ['isduplicateof',['isDuplicateOf',['../classPluginDescription.html#ad92a173ac6878934071fe6e9a9ad1d03',1,'PluginDescription']]],
+  ['isduplicateof',['isDuplicateOf',['../classPluginDescription.html#acf20e29a869f64b9273a1840f7c5fba4',1,'PluginDescription']]],
   ['isdynamic',['isDynamic',['../classDrawableShape_1_1RelativeFillType.html#a8ce46992fd13ddf094e6a19dd5502fc8',1,'DrawableShape::RelativeFillType::isDynamic()'],['../classRelativeCoordinate.html#adcbadfb50b0b41f27af344ff6db39f50',1,'RelativeCoordinate::isDynamic()'],['../classRelativeParallelogram.html#ae5cf41bc893ffc476d1e30f9c8c31046',1,'RelativeParallelogram::isDynamic()'],['../classRelativePoint.html#a73e22eaec4e0925ed75f86207921faa4',1,'RelativePoint::isDynamic()'],['../classRelativePointPath_1_1ElementBase.html#affd90037e32b259b0bb6ce20fa34528c',1,'RelativePointPath::ElementBase::isDynamic()'],['../classRelativeRectangle.html#a13428846edd533fe4b8ad9a3cce912a3',1,'RelativeRectangle::isDynamic()']]],
   ['iseditable',['isEditable',['../classLabel.html#a4531c2784a8896eaa50d6461ccc764c2',1,'Label']]],
   ['iseditableondoubleclick',['isEditableOnDoubleClick',['../classLabel.html#a05a999148537f67b9cb676f3940bb3f7',1,'Label']]],
