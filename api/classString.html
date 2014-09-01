@@ -516,10 +516,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3c9d0c0fa36976d1714e84ecd4be1156"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps the contents of this string with another one.  <a href="#a3c9d0c0fa36976d1714e84ecd4be1156"></a><br/></td></tr>
 <tr class="separator:a3c9d0c0fa36976d1714e84ecd4be1156"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d3927f416d704b9d1878b379aafdc84"><td class="memItemLeft" align="right" valign="top">CFStringRef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a3d3927f416d704b9d1878b379aafdc84">toCFString</a> () const </td></tr>
-<tr class="memdesc:a3d3927f416d704b9d1878b379aafdc84"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAC ONLY - Converts this string to a CFString.  <a href="#a3d3927f416d704b9d1878b379aafdc84"></a><br/></td></tr>
+<tr class="memdesc:a3d3927f416d704b9d1878b379aafdc84"><td class="mdescLeft">&#160;</td><td class="mdescRight">OSX ONLY - Converts this string to a CFString.  <a href="#a3d3927f416d704b9d1878b379aafdc84"></a><br/></td></tr>
 <tr class="separator:a3d3927f416d704b9d1878b379aafdc84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbd232e1d2a0f160837ffe08a716cf30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#adbd232e1d2a0f160837ffe08a716cf30">convertToPrecomposedUnicode</a> () const </td></tr>
-<tr class="memdesc:adbd232e1d2a0f160837ffe08a716cf30"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAC ONLY - Returns a copy of this string in which any decomposed unicode characters have been converted to their precomposed equivalents.  <a href="#adbd232e1d2a0f160837ffe08a716cf30"></a><br/></td></tr>
+<tr class="memdesc:adbd232e1d2a0f160837ffe08a716cf30"><td class="mdescLeft">&#160;</td><td class="mdescRight">OSX ONLY - Returns a copy of this string in which any decomposed unicode characters have been converted to their precomposed equivalents.  <a href="#adbd232e1d2a0f160837ffe08a716cf30"></a><br/></td></tr>
 <tr class="separator:adbd232e1d2a0f160837ffe08a716cf30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab144d2ca61fae33e9fc6a8037dba7a7a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#ab144d2ca61fae33e9fc6a8037dba7a7a">getReferenceCount</a> () const noexcept</td></tr>
 <tr class="memdesc:ab144d2ca61fae33e9fc6a8037dba7a7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of <a class="el" href="classString.html" title="The JUCE String class!">String</a> objects which are currently sharing the same internal data as this one.  <a href="#ab144d2ca61fae33e9fc6a8037dba7a7a"></a><br/></td></tr>
@@ -555,7 +555,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa0116dc51d7bdd363d14c72bba60060a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classString.html" title="The JUCE String class!">String</a> from a UTF-8 encoded buffer.  <a href="#aa0116dc51d7bdd363d14c72bba60060a"></a><br/></td></tr>
 <tr class="separator:aa0116dc51d7bdd363d14c72bba60060a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a080d955ce1e06ea976077db710bb83a6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a080d955ce1e06ea976077db710bb83a6">fromCFString</a> (CFStringRef cfString)</td></tr>
-<tr class="memdesc:a080d955ce1e06ea976077db710bb83a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAC ONLY - Creates a <a class="el" href="classString.html" title="The JUCE String class!">String</a> from an OSX CFString.  <a href="#a080d955ce1e06ea976077db710bb83a6"></a><br/></td></tr>
+<tr class="memdesc:a080d955ce1e06ea976077db710bb83a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">OSX ONLY - Creates a <a class="el" href="classString.html" title="The JUCE String class!">String</a> from an OSX CFString.  <a href="#a080d955ce1e06ea976077db710bb83a6"></a><br/></td></tr>
 <tr class="separator:a080d955ce1e06ea976077db710bb83a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
@@ -4650,7 +4650,7 @@ template&lt;class CharPointer &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>MAC ONLY - Creates a <a class="el" href="classString.html" title="The JUCE String class!">String</a> from an OSX CFString. </p>
+<p>OSX ONLY - Creates a <a class="el" href="classString.html" title="The JUCE String class!">String</a> from an OSX CFString. </p>
 
 </div>
 </div>
@@ -4667,7 +4667,7 @@ template&lt;class CharPointer &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>MAC ONLY - Converts this string to a CFString. </p>
+<p>OSX ONLY - Converts this string to a CFString. </p>
 <p>Remember that you must use CFRelease() to free the returned string when you're finished with it. </p>
 
 </div>
@@ -4685,7 +4685,7 @@ template&lt;class CharPointer &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>MAC ONLY - Returns a copy of this string in which any decomposed unicode characters have been converted to their precomposed equivalents. </p>
+<p>OSX ONLY - Returns a copy of this string in which any decomposed unicode characters have been converted to their precomposed equivalents. </p>
 
 </div>
 </div>

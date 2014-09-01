@@ -129,12 +129,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad4ed4a1a2017669531b4cef59a158b9a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#ad4ed4a1a2017669531b4cef59a158b9a">renderNextBlock</a> (<a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;outputBuffer, int startSample, int numSamples)=0</td></tr>
 <tr class="memdesc:ad4ed4a1a2017669531b4cef59a158b9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the next block of data for this voice.  <a href="#ad4ed4a1a2017669531b4cef59a158b9a"></a><br/></td></tr>
 <tr class="separator:ad4ed4a1a2017669531b4cef59a158b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31a423708524f139af52bd5771006b14"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a31a423708524f139af52bd5771006b14">setCurrentPlaybackSampleRate</a> (double newRate)</td></tr>
+<tr class="memdesc:a31a423708524f139af52bd5771006b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the voice's reference sample rate.  <a href="#a31a423708524f139af52bd5771006b14"></a><br/></td></tr>
+<tr class="separator:a31a423708524f139af52bd5771006b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86c76ca9275f70ca743532b59e405647"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a86c76ca9275f70ca743532b59e405647">isPlayingChannel</a> (int midiChannel) const </td></tr>
 <tr class="memdesc:a86c76ca9275f70ca743532b59e405647"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the voice is currently playing a sound which is mapped to the given midi channel.  <a href="#a86c76ca9275f70ca743532b59e405647"></a><br/></td></tr>
 <tr class="separator:a86c76ca9275f70ca743532b59e405647"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a120b8249ea838a47008e9c51f14e3586"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a120b8249ea838a47008e9c51f14e3586">setCurrentPlaybackSampleRate</a> (double newRate)</td></tr>
-<tr class="memdesc:a120b8249ea838a47008e9c51f14e3586"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the voice's reference sample rate.  <a href="#a120b8249ea838a47008e9c51f14e3586"></a><br/></td></tr>
-<tr class="separator:a120b8249ea838a47008e9c51f14e3586"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0f9adb8d02f26099dea4467fd6fc170"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#ae0f9adb8d02f26099dea4467fd6fc170">isKeyDown</a> () const noexcept</td></tr>
 <tr class="memdesc:ae0f9adb8d02f26099dea4467fd6fc170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the key that triggered this voice is still held down.  <a href="#ae0f9adb8d02f26099dea4467fd6fc170"></a><br/></td></tr>
 <tr class="separator:ae0f9adb8d02f26099dea4467fd6fc170"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -509,6 +509,34 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a31a423708524f139af52bd5771006b14"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void SynthesiserVoice::setCurrentPlaybackSampleRate </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>newRate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Changes the voice's reference sample rate. </p>
+<p>The rate is set so that subclasses know the output rate and can set their pitch accordingly.</p>
+<p>This method is called by the synth, and subclasses can access the current rate with the currentSampleRate member. </p>
+
+</div>
+</div>
 <a class="anchor" id="a86c76ca9275f70ca743532b59e405647"></a>
 <div class="memitem">
 <div class="memproto">
@@ -525,26 +553,6 @@ Protected Member Functions</h2></td></tr>
 
 <p>Returns true if the voice is currently playing a sound which is mapped to the given midi channel. </p>
 <p>If it's not currently playing, this will return false. </p>
-
-</div>
-</div>
-<a class="anchor" id="a120b8249ea838a47008e9c51f14e3586"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SynthesiserVoice::setCurrentPlaybackSampleRate </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>newRate</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Changes the voice's reference sample rate. </p>
-<p>The rate is set so that subclasses know the output rate and can set their pitch accordingly.</p>
-<p>This method is called by the synth, and subclasses can access the current rate with the currentSampleRate member. </p>
 
 </div>
 </div>

@@ -117,6 +117,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a76b621162d046224e14943782c42e090"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatReader.html#a76b621162d046224e14943782c42e090">read</a> (<a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> *buffer, int startSampleInDestBuffer, int numSamples, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> readerStartSample, bool useReaderLeftChan, bool useReaderRightChan)</td></tr>
 <tr class="memdesc:a76b621162d046224e14943782c42e090"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a section of an <a class="el" href="classAudioSampleBuffer.html" title="A multi-channel buffer of 32-bit floating point audio samples.">AudioSampleBuffer</a> from this reader.  <a href="#a76b621162d046224e14943782c42e090"></a><br/></td></tr>
 <tr class="separator:a76b621162d046224e14943782c42e090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafdf75471df1ce853785ecd5fe74b9f7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatReader.html#aafdf75471df1ce853785ecd5fe74b9f7">readMaxLevels</a> (<a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> startSample, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> numSamples, <a class="el" href="classRange.html">Range</a>&lt; float &gt; *results, int numChannelsToRead)</td></tr>
+<tr class="memdesc:aafdf75471df1ce853785ecd5fe74b9f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the highest and lowest sample levels from a section of the audio stream.  <a href="#aafdf75471df1ce853785ecd5fe74b9f7"></a><br/></td></tr>
+<tr class="separator:aafdf75471df1ce853785ecd5fe74b9f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6393d5cb57b6a03cb7544df495d86b6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatReader.html#aa6393d5cb57b6a03cb7544df495d86b6">readMaxLevels</a> (<a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> startSample, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> numSamples, float &amp;lowestLeft, float &amp;highestLeft, float &amp;lowestRight, float &amp;highestRight)</td></tr>
 <tr class="memdesc:aa6393d5cb57b6a03cb7544df495d86b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the highest and lowest sample levels from a section of the audio stream.  <a href="#aa6393d5cb57b6a03cb7544df495d86b6"></a><br/></td></tr>
 <tr class="separator:aa6393d5cb57b6a03cb7544df495d86b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -317,7 +320,7 @@ Static Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the operation succeeded, false if there was an error. Note that reading sections of data beyond the extent of the stream isn't an error - the reader should just return zeros for these regions </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#aa6393d5cb57b6a03cb7544df495d86b6" title="Finds the highest and lowest sample levels from a section of the audio stream.">readMaxLevels</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#aafdf75471df1ce853785ecd5fe74b9f7" title="Finds the highest and lowest sample levels from a section of the audio stream.">readMaxLevels</a> </dd></dl>
 
 </div>
 </div>
@@ -371,6 +374,65 @@ Static Protected Member Functions</h2></td></tr>
 
 <p>Fills a section of an <a class="el" href="classAudioSampleBuffer.html" title="A multi-channel buffer of 32-bit floating point audio samples.">AudioSampleBuffer</a> from this reader. </p>
 <p>This will convert the reader's fixed- or floating-point data to the buffer's floating-point format, and will try to intelligently cope with mismatches between the number of channels in the reader and the buffer. </p>
+
+</div>
+</div>
+<a class="anchor" id="aafdf75471df1ce853785ecd5fe74b9f7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AudioFormatReader::readMaxLevels </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td>
+          <td class="paramname"><em>startSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td>
+          <td class="paramname"><em>numSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classRange.html">Range</a>&lt; float &gt; *&#160;</td>
+          <td class="paramname"><em>results</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numChannelsToRead</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the highest and lowest sample levels from a section of the audio stream. </p>
+<p>This will read a block of samples from the stream, and measure the highest and lowest sample levels from the channels in that section, returning these as normalised floating-point levels.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">startSample</td><td>the offset into the audio stream to start reading from. It's ok for this to be beyond the start or end of the stream. </td></tr>
+    <tr><td class="paramname">numSamples</td><td>how many samples to read </td></tr>
+    <tr><td class="paramname">results</td><td>this array will be filled with <a class="el" href="classRange.html" title="A general-purpose range object, that simply represents any linear range with a start and end point...">Range</a> values for each channel. The array must contain numChannels elements. </td></tr>
+    <tr><td class="paramname">numChannelsToRead</td><td>the number of channels of data to scan. This must be more than zero, but not more than the total number of channels that the reader contains </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#afe581e23098c90f1fb187fdff68d3481" title="Reads samples from the stream.">read</a> </dd></dl>
 
 </div>
 </div>

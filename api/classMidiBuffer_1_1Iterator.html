@@ -231,8 +231,8 @@ Public Member Functions</h2></td></tr>
 <p>Retrieves a copy of the next event from the buffer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">result</td><td>on return, this will be the message (the <a class="el" href="classMidiMessage.html" title="Encapsulates a MIDI message.">MidiMessage</a>'s timestamp is not set) </td></tr>
-    <tr><td class="paramname">samplePosition</td><td>on return, this will be the position of the event </td></tr>
+    <tr><td class="paramname">result</td><td>on return, this will be the message. The <a class="el" href="classMidiMessage.html" title="Encapsulates a MIDI message.">MidiMessage</a>'s timestamp is set to the same value as samplePosition. </td></tr>
+    <tr><td class="paramname">samplePosition</td><td>on return, this will be the position of the event, as a sample index in the buffer </td></tr>
   </table>
   </dd>
 </dl>
@@ -285,7 +285,7 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">midiData</td><td>on return, this pointer will be set to a block of data containing the midi message. Note that to make it fast, this is a pointer directly into the <a class="el" href="classMidiBuffer.html" title="Holds a sequence of time-stamped midi events.">MidiBuffer</a>'s internal data, so is only valid temporarily until the <a class="el" href="classMidiBuffer.html" title="Holds a sequence of time-stamped midi events.">MidiBuffer</a> is altered. </td></tr>
     <tr><td class="paramname">numBytesOfMidiData</td><td>on return, this is the number of bytes of data used by the midi message </td></tr>
-    <tr><td class="paramname">samplePosition</td><td>on return, this will be the position of the event </td></tr>
+    <tr><td class="paramname">samplePosition</td><td>on return, this will be the position of the event, as a sample index in the buffer </td></tr>
   </table>
   </dd>
 </dl>

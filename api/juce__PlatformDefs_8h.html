@@ -130,6 +130,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a7fab1bb48f05df367f0a57bc6cf3d12f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#a7fab1bb48f05df367f0a57bc6cf3d12f">JUCE_STRINGIFY</a>(item)&#160;&#160;&#160;JUCE_STRINGIFY_MACRO_HELPER (item)</td></tr>
 <tr class="memdesc:a7fab1bb48f05df367f0a57bc6cf3d12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handy C macro for stringifying any symbol, rather than just a macro parameter.  <a href="#a7fab1bb48f05df367f0a57bc6cf3d12f"></a><br/></td></tr>
 <tr class="separator:a7fab1bb48f05df367f0a57bc6cf3d12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cde62e24a0b5fd34e82402175587739"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#a8cde62e24a0b5fd34e82402175587739">JUCE_COMPILER_WARNING</a>(message)&#160;&#160;&#160;_Pragma(<a class="el" href="juce__PlatformDefs_8h.html#a7fab1bb48f05df367f0a57bc6cf3d12f">JUCE_STRINGIFY</a> (JUCE_WARNING_HELPER (message)));</td></tr>
+<tr class="memdesc:a8cde62e24a0b5fd34e82402175587739"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro allows you to emit a custom compiler warning message.  <a href="#a8cde62e24a0b5fd34e82402175587739"></a><br/></td></tr>
+<tr class="separator:a8cde62e24a0b5fd34e82402175587739"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a267fd4f83073fb084b389df70243c52e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#a267fd4f83073fb084b389df70243c52e">JUCE_TRY</a></td></tr>
 <tr class="separator:a267fd4f83073fb084b389df70243c52e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76b33d944e52097017e10dbc10de503b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#a76b33d944e52097017e10dbc10de503b">JUCE_CATCH_EXCEPTION</a></td></tr>
@@ -423,6 +426,26 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 
 <p>A handy C macro for stringifying any symbol, rather than just a macro parameter. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8cde62e24a0b5fd34e82402175587739"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JUCE_COMPILER_WARNING</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">message</td><td>)</td>
+          <td>&#160;&#160;&#160;_Pragma(<a class="el" href="juce__PlatformDefs_8h.html#a7fab1bb48f05df367f0a57bc6cf3d12f">JUCE_STRINGIFY</a> (JUCE_WARNING_HELPER (message)));</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This macro allows you to emit a custom compiler warning message. </p>
+<p>Very handy for marking bits of code as "to-do" items, or for shaming code written by your co-workers in a way that's hard to ignore.</p>
+<p>GCC and Clang provide the #warning directive, but MSVC doesn't, so this macro is a cross-compiler way to get the same functionality as #warning. </p>
 
 </div>
 </div>

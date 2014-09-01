@@ -164,9 +164,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab543d69d50273a8adce9b54b145a28eb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#ab543d69d50273a8adce9b54b145a28eb">handleSoftPedal</a> (int midiChannel, bool isDown)</td></tr>
 <tr class="memdesc:ab543d69d50273a8adce9b54b145a28eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be overridden to handle soft pedal events.  <a href="#ab543d69d50273a8adce9b54b145a28eb"></a><br/></td></tr>
 <tr class="separator:ab543d69d50273a8adce9b54b145a28eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a7d7d7efeb1ad90488d36c35c530f10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#a4a7d7d7efeb1ad90488d36c35c530f10">setCurrentPlaybackSampleRate</a> (double sampleRate)</td></tr>
-<tr class="memdesc:a4a7d7d7efeb1ad90488d36c35c530f10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the synthesiser what the sample rate is for the audio it's being used to render.  <a href="#a4a7d7d7efeb1ad90488d36c35c530f10"></a><br/></td></tr>
-<tr class="separator:a4a7d7d7efeb1ad90488d36c35c530f10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0d6808e5a22bc3a56a68dab1f106ab8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#ae0d6808e5a22bc3a56a68dab1f106ab8">setCurrentPlaybackSampleRate</a> (double sampleRate)</td></tr>
+<tr class="memdesc:ae0d6808e5a22bc3a56a68dab1f106ab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the synthesiser what the sample rate is for the audio it's being used to render.  <a href="#ae0d6808e5a22bc3a56a68dab1f106ab8"></a><br/></td></tr>
+<tr class="separator:ae0d6808e5a22bc3a56a68dab1f106ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ef0f7f6a4b46a8f425dbadd976cf29f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#a6ef0f7f6a4b46a8f425dbadd976cf29f">renderNextBlock</a> (<a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;outputAudio, const <a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;inputMidi, int startSample, int numSamples)</td></tr>
 <tr class="memdesc:a6ef0f7f6a4b46a8f425dbadd976cf29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the next block of audio output.  <a href="#a6ef0f7f6a4b46a8f425dbadd976cf29f"></a><br/></td></tr>
 <tr class="separator:a6ef0f7f6a4b46a8f425dbadd976cf29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,7 +206,7 @@ Protected Attributes</h2></td></tr>
 <p>Then you can use the <a class="el" href="classSynthesiser.html#a0806a426d99a36367c714b7d433d4d4e" title="Adds a new voice to the synth.">addVoice()</a> and <a class="el" href="classSynthesiser.html#ac76a3fe3505d18da550eddec5d151cab" title="Adds a new sound to the synthesiser.">addSound()</a> methods to give the synthesiser a set of sounds, and a set of voices it can use to play them. If you only give it one voice it will be monophonic - the more voices it has, the more polyphony it'll have available.</p>
 <p>Then repeatedly call the <a class="el" href="classSynthesiser.html#a6ef0f7f6a4b46a8f425dbadd976cf29f" title="Creates the next block of audio output.">renderNextBlock()</a> method to produce the audio. Any midi events that go in will be scanned for note on/off messages, and these are used to start and stop the voices playing the appropriate sounds.</p>
 <p>While it's playing, you can also cause notes to be triggered by calling the <a class="el" href="classSynthesiser.html#a488dbf4f02973011c95656eefc1fb862" title="Triggers a note-on event.">noteOn()</a>, <a class="el" href="classSynthesiser.html#a3fbf0e129c3e48b67b71b6438fc07fbc" title="Triggers a note-off event.">noteOff()</a> and other controller methods.</p>
-<p>Before rendering, be sure to call the <a class="el" href="classSynthesiser.html#a4a7d7d7efeb1ad90488d36c35c530f10" title="Tells the synthesiser what the sample rate is for the audio it&#39;s being used to render.">setCurrentPlaybackSampleRate()</a> to tell it what the target playback rate is. This value is passed on to the voices so that they can pitch their output correctly. </p>
+<p>Before rendering, be sure to call the <a class="el" href="classSynthesiser.html#ae0d6808e5a22bc3a56a68dab1f106ab8" title="Tells the synthesiser what the sample rate is for the audio it&#39;s being used to render.">setCurrentPlaybackSampleRate()</a> to tell it what the target playback rate is. This value is passed on to the voices so that they can pitch their output correctly. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a8c313d6f1fa875790e5c79dc621ee437"></a>
 <div class="memitem">
@@ -889,18 +889,26 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4a7d7d7efeb1ad90488d36c35c530f10"></a>
+<a class="anchor" id="ae0d6808e5a22bc3a56a68dab1f106ab8"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Synthesiser::setCurrentPlaybackSampleRate </td>
+          <td class="memname">virtual void Synthesiser::setCurrentPlaybackSampleRate </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>sampleRate</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Tells the synthesiser what the sample rate is for the audio it's being used to render. </p>
