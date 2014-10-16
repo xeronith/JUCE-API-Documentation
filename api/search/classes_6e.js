@@ -7,5 +7,6 @@ var searchData=
   ['nativemessagebox',['NativeMessageBox',['../classNativeMessageBox.html',1,'']]],
   ['newline',['NewLine',['../classNewLine.html',1,'']]],
   ['node',['Node',['../classAudioProcessorGraph_1_1Node.html',1,'AudioProcessorGraph']]],
+  ['normalisablerange',['NormalisableRange',['../classNormalisableRange.html',1,'']]],
   ['nsviewcomponent',['NSViewComponent',['../classNSViewComponent.html',1,'']]]
 ];

@@ -5,6 +5,7 @@ var searchData=
   ['elementtype',['elementType',['../classPath_1_1Iterator.html#a3b33636d181ff130a4c0e475da2824db',1,'Path::Iterator']]],
   ['empty',['empty',['../classString.html#afd02116a5571fcc8bc1e6fdabe132a85',1,'String']]],
   ['encodername',['encoderName',['../classOggVorbisAudioFormat.html#a1c97a40ce37de0766efdaec9b1d4fcb5',1,'OggVorbisAudioFormat']]],
+  ['end',['end',['../classNormalisableRange.html#aa8aba814e8121157ba79ccbf03152b82',1,'NormalisableRange']]],
   ['endkey',['endKey',['../classKeyPress.html#a54ced410db4096610651498e85e63b1e',1,'KeyPress']]],
   ['endpoint',['endPoint',['../classRelativePointPath_1_1LineTo.html#a947b4b9d2bf6208e8955eca0e6c5c66c',1,'RelativePointPath::LineTo']]],
   ['errormessage',['errorMessage',['../structTracktionMarketplaceStatus_1_1UnlockResult.html#a2c8f81d7020604bb20525248a9acadd4',1,'TracktionMarketplaceStatus::UnlockResult']]],

@@ -338,6 +338,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab53b860c69380cb34e466b60a3bce3f2 inherit pub_methods_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ab53b860c69380cb34e466b60a3bce3f2">updateHostDisplay</a> ()</td></tr>
 <tr class="memdesc:ab53b860c69380cb34e466b60a3bce3f2 inherit pub_methods_classAudioProcessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">The filter can call this when something (apart from a parameter value) has changed.  <a href="#ab53b860c69380cb34e466b60a3bce3f2"></a><br/></td></tr>
 <tr class="separator:ab53b860c69380cb34e466b60a3bce3f2 inherit pub_methods_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae686ddf13e3e8f6008cb7b4c41704aba inherit pub_methods_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ae686ddf13e3e8f6008cb7b4c41704aba">addParameter</a> (<a class="el" href="classAudioProcessorParameter.html">AudioProcessorParameter</a> *)</td></tr>
+<tr class="memdesc:ae686ddf13e3e8f6008cb7b4c41704aba inherit pub_methods_classAudioProcessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a parameter to the list.  <a href="#ae686ddf13e3e8f6008cb7b4c41704aba"></a><br/></td></tr>
+<tr class="separator:ae686ddf13e3e8f6008cb7b4c41704aba inherit pub_methods_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cc35c3439f44d55ca068d1144a3bea7 inherit pub_methods_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classOwnedArray.html">OwnedArray</a><br class="typebreak"/>
+&lt; <a class="el" href="classAudioProcessorParameter.html">AudioProcessorParameter</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a1cc35c3439f44d55ca068d1144a3bea7">getParameters</a> () const noexcept</td></tr>
+<tr class="memdesc:a1cc35c3439f44d55ca068d1144a3bea7 inherit pub_methods_classAudioProcessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current list of parameters.  <a href="#a1cc35c3439f44d55ca068d1144a3bea7"></a><br/></td></tr>
+<tr class="separator:a1cc35c3439f44d55ca068d1144a3bea7 inherit pub_methods_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8f9774ef205e4b19174f2de7664928f inherit pub_methods_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#aa8f9774ef205e4b19174f2de7664928f">getCurrentProgramStateInformation</a> (juce::MemoryBlock &amp;destData)</td></tr>
 <tr class="memdesc:aa8f9774ef205e4b19174f2de7664928f inherit pub_methods_classAudioProcessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">The host will call this method if it wants to save the state of just the filter's current program.  <a href="#aa8f9774ef205e4b19174f2de7664928f"></a><br/></td></tr>
 <tr class="separator:aa8f9774ef205e4b19174f2de7664928f inherit pub_methods_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -389,6 +396,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memdesc:a2e1b21b8831ac529965abffc96223dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags to indicate the type of plugin context in which a processor is being used.  <a href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">More...</a><br/></td></tr>
 <tr class="separator:a2e1b21b8831ac529965abffc96223dcf inherit pub_types_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classAudioProcessor"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classAudioProcessor')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classAudioProcessor.html">AudioProcessor</a></td></tr>
+<tr class="memitem:a39a78126e8b9abb65e4198a02ca41b7d inherit pub_static_methods_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a39a78126e8b9abb65e4198a02ca41b7d">getDefaultNumParameterSteps</a> () noexcept</td></tr>
+<tr class="memdesc:a39a78126e8b9abb65e4198a02ca41b7d inherit pub_static_methods_classAudioProcessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default number of steps for a parameter.  <a href="#a39a78126e8b9abb65e4198a02ca41b7d"></a><br/></td></tr>
+<tr class="separator:a39a78126e8b9abb65e4198a02ca41b7d inherit pub_static_methods_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d0c1c945bebbc967d187c0f08b42c4b inherit pub_static_methods_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6d0c1c945bebbc967d187c0f08b42c4b">copyXmlToBinary</a> (const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;xml, juce::MemoryBlock &amp;destData)</td></tr>
 <tr class="memdesc:a6d0c1c945bebbc967d187c0f08b42c4b inherit pub_static_methods_classAudioProcessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that just converts an xml element into a binary blob.  <a href="#a6d0c1c945bebbc967d187c0f08b42c4b"></a><br/></td></tr>
 <tr class="separator:a6d0c1c945bebbc967d187c0f08b42c4b inherit pub_static_methods_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1376,7 +1386,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>This must return the correct value immediately after the object has been created, and mustn't change the number of parameters later. </p>
 
-<p>Implements <a class="el" href="classAudioProcessor.html#ad6b6bab11612f3af64dbace66c8990f8">AudioProcessor</a>.</p>
+<p>Reimplemented from <a class="el" href="classAudioProcessor.html#ac7b802374ba30b719f34570ab6f07c21">AudioProcessor</a>.</p>
 
 </div>
 </div>
@@ -1404,7 +1414,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns the name of a particular parameter. </p>
 
-<p>Implements <a class="el" href="classAudioProcessor.html#ab25b03cba4e0ec2f6eac32e7341960c7">AudioProcessor</a>.</p>
+<p>Reimplemented from <a class="el" href="classAudioProcessor.html#a9ae35eca716774ae1fd750d60c52885e">AudioProcessor</a>.</p>
 
 </div>
 </div>
@@ -1434,7 +1444,7 @@ Additional Inherited Members</h2></td></tr>
 <p>The host will expect the value returned to be between 0 and 1.0.</p>
 <p>This could be called quite frequently, so try to make your code efficient. It's also likely to be called by non-UI threads, so the code in here should be thread-aware. </p>
 
-<p>Implements <a class="el" href="classAudioProcessor.html#a27473b6db976c8ee59f570870ea5fde3">AudioProcessor</a>.</p>
+<p>Reimplemented from <a class="el" href="classAudioProcessor.html#aa4b04d76a2d80c08f0d762f0fa6b715c">AudioProcessor</a>.</p>
 
 </div>
 </div>
@@ -1462,7 +1472,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns the value of a parameter as a text string. </p>
 
-<p>Implements <a class="el" href="classAudioProcessor.html#a97bb7a26a396cc437fcecde38a70d6b9">AudioProcessor</a>.</p>
+<p>Reimplemented from <a class="el" href="classAudioProcessor.html#adfc2bb4a053ea9997dadbb681a636cb0">AudioProcessor</a>.</p>
 
 </div>
 </div>
@@ -1503,7 +1513,7 @@ Additional Inherited Members</h2></td></tr>
 <p>If you want to set the value of a parameter internally, e.g. from your editor component, then don't call this directly - instead, use the <a class="el" href="classAudioProcessor.html#ab09a26934acb4d7fe3f71448aeb80f18" title="Your filter can call this when it needs to change one of its parameters.">setParameterNotifyingHost()</a> method, which will also send a message to the host telling it about the change. If the message isn't sent, the host won't be able to automate your parameters properly.</p>
 <p>The value passed will be between 0 and 1.0. </p>
 
-<p>Implements <a class="el" href="classAudioProcessor.html#a4e4d173766f679763fe9484ba733ca38">AudioProcessor</a>.</p>
+<p>Reimplemented from <a class="el" href="classAudioProcessor.html#adafe6e16f7ae33645dbbafcb21014e50">AudioProcessor</a>.</p>
 
 </div>
 </div>

@@ -118,6 +118,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4249288a642041f5311528e3f1d7d06e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCallOutBox.html#a4249288a642041f5311528e3f1d7d06e">dismiss</a> ()</td></tr>
 <tr class="memdesc:a4249288a642041f5311528e3f1d7d06e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Posts a message which will dismiss the callout box asynchronously.  <a href="#a4249288a642041f5311528e3f1d7d06e"></a><br/></td></tr>
 <tr class="separator:a4249288a642041f5311528e3f1d7d06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28c85c1cfc76bb0801e287950ec8ce45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCallOutBox.html#a28c85c1cfc76bb0801e287950ec8ce45">setDismissalMouseClicksAreAlwaysConsumed</a> (bool shouldAlwaysBeConsumed) noexcept</td></tr>
+<tr class="memdesc:a28c85c1cfc76bb0801e287950ec8ce45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the mouse events for clicks outside the calloutbox are consumed, or allowed to arrive at the other component that they were aimed at.  <a href="#a28c85c1cfc76bb0801e287950ec8ce45"></a><br/></td></tr>
+<tr class="separator:a28c85c1cfc76bb0801e287950ec8ce45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb855fb08a18a20c93c2a7e4be96eef0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCallOutBox.html#abb855fb08a18a20c93c2a7e4be96eef0">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;) override</td></tr>
 <tr class="separator:abb855fb08a18a20c93c2a7e4be96eef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af20578de71eec8f927c9386c0ae198c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCallOutBox.html#af20578de71eec8f927c9386c0ae198c5">resized</a> () override</td></tr>
@@ -904,6 +907,33 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Posts a message which will dismiss the callout box asynchronously. </p>
 <p>NB: it's safe to call this method from any thread. </p>
+
+</div>
+</div>
+<a class="anchor" id="a28c85c1cfc76bb0801e287950ec8ce45"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CallOutBox::setDismissalMouseClicksAreAlwaysConsumed </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>shouldAlwaysBeConsumed</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determines whether the mouse events for clicks outside the calloutbox are consumed, or allowed to arrive at the other component that they were aimed at. </p>
+<p>By default this is false, so that when you click on something outside the calloutbox, that event will also be sent to the component that was clicked on. If you set it to true, then the first click will always just dismiss the box and not be sent to anything else. </p>
 
 </div>
 </div>

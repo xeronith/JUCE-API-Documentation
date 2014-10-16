@@ -1157,7 +1157,8 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document.">XmlElement</a> that holds a complete image of this node and all its children. </p>
-<p>If this node is invalid, this may return nullptr. Otherwise, the XML that is produced can be used to recreate a similar node by calling <a class="el" href="classValueTree.html#a0d2f1bdd6313e53f256ed015986f837a" title="Tries to recreate a node from its XML representation.">fromXml()</a> </p>
+<p>If this node is invalid, this may return nullptr. Otherwise, the XML that is produced can be used to recreate a similar node by calling <a class="el" href="classValueTree.html#a0d2f1bdd6313e53f256ed015986f837a" title="Tries to recreate a node from its XML representation.">fromXml()</a>.</p>
+<p>The caller must delete the object that is returned.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#a0d2f1bdd6313e53f256ed015986f837a" title="Tries to recreate a node from its XML representation.">fromXml</a> </dd></dl>
 
 </div>

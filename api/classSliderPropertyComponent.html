@@ -865,7 +865,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Creates the property component. </p>
 <p>The ranges, interval and skew factor are passed to the <a class="el" href="classSlider.html" title="A slider control for changing a value.">Slider</a> component.</p>
-<p>If you need to customise the slider in other ways, your constructor can access the slider member variable and change it directly. </p>
+<p>If you need to customise the slider in other ways, your constructor can access the slider member variable and change it directly.</p>
+<p>Note that if you call this constructor then you must use the <a class="el" href="classValue.html" title="Represents a shared variant value.">Value</a> to interact with the value, and you can't override the class with your own setValue or getValue methods. If you want to use those methods, call the other constructor instead. </p>
 
 </div>
 </div>

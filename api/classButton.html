@@ -204,9 +204,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3505896887d6b7fbb31c75cd7562b1ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a3505896887d6b7fbb31c75cd7562b1ab">setTooltip</a> (const <a class="el" href="classString.html">String</a> &amp;newTooltip) override</td></tr>
 <tr class="memdesc:a3505896887d6b7fbb31c75cd7562b1ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the tooltip for this button.  <a href="#a3505896887d6b7fbb31c75cd7562b1ab"></a><br/></td></tr>
 <tr class="separator:a3505896887d6b7fbb31c75cd7562b1ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfdd087e15e4267a08d70fdc19105c1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#adfdd087e15e4267a08d70fdc19105c1f">getTooltip</a> () override</td></tr>
-<tr class="memdesc:adfdd087e15e4267a08d70fdc19105c1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the tooltip set by <a class="el" href="classButton.html#a3505896887d6b7fbb31c75cd7562b1ab" title="Sets the tooltip for this button.">setTooltip()</a>, or the description corresponding to the currently mapped command if one is enabled (see setCommandToTrigger).  <a href="#adfdd087e15e4267a08d70fdc19105c1f"></a><br/></td></tr>
-<tr class="separator:adfdd087e15e4267a08d70fdc19105c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17ae41254e2d68b1570ef5027d796ac3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a17ae41254e2d68b1570ef5027d796ac3">setConnectedEdges</a> (int connectedEdgeFlags)</td></tr>
 <tr class="memdesc:a17ae41254e2d68b1570ef5027d796ac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hints about which edges of the button might be connected to adjoining buttons.  <a href="#a17ae41254e2d68b1570ef5027d796ac3"></a><br/></td></tr>
 <tr class="separator:a17ae41254e2d68b1570ef5027d796ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,6 +225,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a75f6aee61f3803d1c38da9e47e31a892"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a75f6aee61f3803d1c38da9e47e31a892">setState</a> (<a class="el" href="classButton.html#ad8312db93093c21df8b1d2be74ae1957">ButtonState</a> newState)</td></tr>
 <tr class="memdesc:a75f6aee61f3803d1c38da9e47e31a892"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be used to force the button into a particular state.  <a href="#a75f6aee61f3803d1c38da9e47e31a892"></a><br/></td></tr>
 <tr class="separator:a75f6aee61f3803d1c38da9e47e31a892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c62bbd9ae76cc3843e06c45f36d5b86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classButton.html#ad8312db93093c21df8b1d2be74ae1957">ButtonState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a2c62bbd9ae76cc3843e06c45f36d5b86">getState</a> () const noexcept</td></tr>
+<tr class="memdesc:a2c62bbd9ae76cc3843e06c45f36d5b86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the button's current over/down/up state.  <a href="#a2c62bbd9ae76cc3843e06c45f36d5b86"></a><br/></td></tr>
+<tr class="separator:a2c62bbd9ae76cc3843e06c45f36d5b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32acb042d424bd3978d9a040a510851d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a32acb042d424bd3978d9a040a510851d">JUCE_DEPRECATED</a> (void <a class="el" href="classButton.html#a063753c2ce6b9016456ebe353298b342">setToggleState</a>(bool, bool))</td></tr>
 <tr class="separator:a32acb042d424bd3978d9a040a510851d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classComponent"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classComponent')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classComponent.html">Component</a></td></tr>
@@ -756,6 +756,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaae46e35635da9cada96bb173f9ddda0 inherit pub_methods_classSettableTooltipClient"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSettableTooltipClient.html#aaae46e35635da9cada96bb173f9ddda0">~SettableTooltipClient</a> ()</td></tr>
 <tr class="memdesc:aaae46e35635da9cada96bb173f9ddda0 inherit pub_methods_classSettableTooltipClient"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#aaae46e35635da9cada96bb173f9ddda0"></a><br/></td></tr>
 <tr class="separator:aaae46e35635da9cada96bb173f9ddda0 inherit pub_methods_classSettableTooltipClient"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad29ec316daeb9e424dc0813b11d38791 inherit pub_methods_classSettableTooltipClient"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSettableTooltipClient.html#ad29ec316daeb9e424dc0813b11d38791">getTooltip</a> ()</td></tr>
+<tr class="memdesc:ad29ec316daeb9e424dc0813b11d38791 inherit pub_methods_classSettableTooltipClient"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the tooltip assigned to this object.  <a href="#ad29ec316daeb9e424dc0813b11d38791"></a><br/></td></tr>
+<tr class="separator:ad29ec316daeb9e424dc0813b11d38791 inherit pub_methods_classSettableTooltipClient"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classTooltipClient"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classTooltipClient')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classTooltipClient.html">TooltipClient</a></td></tr>
 <tr class="memitem:a1bc2223e107e4122d251f5b90049140c inherit pub_methods_classTooltipClient"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTooltipClient.html#a1bc2223e107e4122d251f5b90049140c">~TooltipClient</a> ()</td></tr>
 <tr class="memdesc:a1bc2223e107e4122d251f5b90049140c inherit pub_methods_classTooltipClient"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a1bc2223e107e4122d251f5b90049140c"></a><br/></td></tr>
@@ -1563,33 +1566,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adfdd087e15e4267a08d70fdc19105c1f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classString.html">String</a> Button::getTooltip </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the tooltip set by <a class="el" href="classButton.html#a3505896887d6b7fbb31c75cd7562b1ab" title="Sets the tooltip for this button.">setTooltip()</a>, or the description corresponding to the currently mapped command if one is enabled (see setCommandToTrigger). </p>
-
-<p>Reimplemented from <a class="el" href="classSettableTooltipClient.html#ad29ec316daeb9e424dc0813b11d38791">SettableTooltipClient</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a17ae41254e2d68b1570ef5027d796ac3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1756,6 +1732,31 @@ Additional Inherited Members</h2></td></tr>
 <p>Can be used to force the button into a particular state. </p>
 <p>This only changes the button's appearance, it won't trigger a click, or stop any mouse-clicks from happening.</p>
 <p>The state that you set here will only last until it is automatically changed when the mouse enters or exits the button, or the mouse-button is pressed or released. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2c62bbd9ae76cc3843e06c45f36d5b86"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classButton.html#ad8312db93093c21df8b1d2be74ae1957">ButtonState</a> Button::getState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the button's current over/down/up state. </p>
 
 </div>
 </div>

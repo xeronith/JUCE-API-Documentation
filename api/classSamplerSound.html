@@ -107,12 +107,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa684e03887c9f213102ce7a0557e6f89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSamplerSound.html#aa684e03887c9f213102ce7a0557e6f89">getAudioData</a> () const noexcept</td></tr>
 <tr class="memdesc:aa684e03887c9f213102ce7a0557e6f89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the audio sample data.  <a href="#aa684e03887c9f213102ce7a0557e6f89"></a><br/></td></tr>
 <tr class="separator:aa684e03887c9f213102ce7a0557e6f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8ba147af6fd1175aa76242e5e6d2435"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSamplerSound.html#ac8ba147af6fd1175aa76242e5e6d2435">appliesToNote</a> (const int midiNoteNumber) override</td></tr>
-<tr class="memdesc:ac8ba147af6fd1175aa76242e5e6d2435"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this sound should be played when a given midi note is pressed.  <a href="#ac8ba147af6fd1175aa76242e5e6d2435"></a><br/></td></tr>
-<tr class="separator:ac8ba147af6fd1175aa76242e5e6d2435"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a319362ea6f5cffb53bd5b933f6a82bae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSamplerSound.html#a319362ea6f5cffb53bd5b933f6a82bae">appliesToChannel</a> (const int midiChannel) override</td></tr>
-<tr class="memdesc:a319362ea6f5cffb53bd5b933f6a82bae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the sound should be triggered by midi events on a given channel.  <a href="#a319362ea6f5cffb53bd5b933f6a82bae"></a><br/></td></tr>
-<tr class="separator:a319362ea6f5cffb53bd5b933f6a82bae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac579ceea6ee78e6dae8026b4b9b33038"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSamplerSound.html#ac579ceea6ee78e6dae8026b4b9b33038">appliesToNote</a> (int midiNoteNumber) override</td></tr>
+<tr class="memdesc:ac579ceea6ee78e6dae8026b4b9b33038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this sound should be played when a given midi note is pressed.  <a href="#ac579ceea6ee78e6dae8026b4b9b33038"></a><br/></td></tr>
+<tr class="separator:ac579ceea6ee78e6dae8026b4b9b33038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f69ffcba849228995ab63d93439a339"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSamplerSound.html#a6f69ffcba849228995ab63d93439a339">appliesToChannel</a> (int midiChannel) override</td></tr>
+<tr class="memdesc:a6f69ffcba849228995ab63d93439a339"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the sound should be triggered by midi events on a given channel.  <a href="#a6f69ffcba849228995ab63d93439a339"></a><br/></td></tr>
+<tr class="separator:a6f69ffcba849228995ab63d93439a339"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classSynthesiserSound"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classSynthesiserSound')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classSynthesiserSound.html">SynthesiserSound</a></td></tr>
 <tr class="memitem:a1565fcdfa4362d7b25c29178b4d39b76 inherit pub_methods_classSynthesiserSound"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserSound.html#a1565fcdfa4362d7b25c29178b4d39b76">~SynthesiserSound</a> ()</td></tr>
 <tr class="memdesc:a1565fcdfa4362d7b25c29178b4d39b76 inherit pub_methods_classSynthesiserSound"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a1565fcdfa4362d7b25c29178b4d39b76"></a><br/></td></tr>
@@ -209,7 +209,7 @@ Additional Inherited Members</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">name</td><td>a name for the sample </td></tr>
     <tr><td class="paramname">source</td><td>the audio to load. This object can be safely deleted by the caller after this constructor returns </td></tr>
-    <tr><td class="paramname">midiNotes</td><td>the set of midi keys that this sound should be played on. This is used by the <a class="el" href="classSynthesiserSound.html#aba3bfbf894573d983c828226f0caa866" title="Returns true if this sound should be played when a given midi note is pressed.">SynthesiserSound::appliesToNote()</a> method </td></tr>
+    <tr><td class="paramname">midiNotes</td><td>the set of midi keys that this sound should be played on. This is used by the <a class="el" href="classSynthesiserSound.html#abc192aba46964c8539206db1e6f6f747" title="Returns true if this sound should be played when a given midi note is pressed.">SynthesiserSound::appliesToNote()</a> method </td></tr>
     <tr><td class="paramname">midiNoteForNormalPitch</td><td>the midi note at which the sample should be played with its natural rate. All other notes will be pitched up or down relative to this one </td></tr>
     <tr><td class="paramname">attackTimeSecs</td><td>the attack (fade-in) time, in seconds </td></tr>
     <tr><td class="paramname">releaseTimeSecs</td><td>the decay (fade-out) time, in seconds </td></tr>
@@ -289,7 +289,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac8ba147af6fd1175aa76242e5e6d2435"></a>
+<a class="anchor" id="ac579ceea6ee78e6dae8026b4b9b33038"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -299,7 +299,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">bool SamplerSound::appliesToNote </td>
           <td>(</td>
-          <td class="paramtype">const int&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>midiNoteNumber</em></td><td>)</td>
           <td></td>
         </tr>
@@ -314,11 +314,11 @@ Additional Inherited Members</h2></td></tr>
 <p>Returns true if this sound should be played when a given midi note is pressed. </p>
 <p>The <a class="el" href="classSynthesiser.html" title="Base class for a musical device that can play sounds.">Synthesiser</a> will use this information when deciding which sounds to trigger for a given note. </p>
 
-<p>Implements <a class="el" href="classSynthesiserSound.html#aba3bfbf894573d983c828226f0caa866">SynthesiserSound</a>.</p>
+<p>Implements <a class="el" href="classSynthesiserSound.html#abc192aba46964c8539206db1e6f6f747">SynthesiserSound</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a319362ea6f5cffb53bd5b933f6a82bae"></a>
+<a class="anchor" id="a6f69ffcba849228995ab63d93439a339"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -328,7 +328,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">bool SamplerSound::appliesToChannel </td>
           <td>(</td>
-          <td class="paramtype">const int&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>midiChannel</em></td><td>)</td>
           <td></td>
         </tr>
@@ -343,7 +343,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Returns true if the sound should be triggered by midi events on a given channel. </p>
 <p>The <a class="el" href="classSynthesiser.html" title="Base class for a musical device that can play sounds.">Synthesiser</a> will use this information when deciding which sounds to trigger for a given note. </p>
 
-<p>Implements <a class="el" href="classSynthesiserSound.html#a8d8563fe005747b7204af21338031577">SynthesiserSound</a>.</p>
+<p>Implements <a class="el" href="classSynthesiserSound.html#a3910c5fd83df051b05925bbddf4960cd">SynthesiserSound</a>.</p>
 
 </div>
 </div>

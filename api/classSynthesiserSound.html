@@ -110,12 +110,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1565fcdfa4362d7b25c29178b4d39b76"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserSound.html#a1565fcdfa4362d7b25c29178b4d39b76">~SynthesiserSound</a> ()</td></tr>
 <tr class="memdesc:a1565fcdfa4362d7b25c29178b4d39b76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a1565fcdfa4362d7b25c29178b4d39b76"></a><br/></td></tr>
 <tr class="separator:a1565fcdfa4362d7b25c29178b4d39b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba3bfbf894573d983c828226f0caa866"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserSound.html#aba3bfbf894573d983c828226f0caa866">appliesToNote</a> (const int midiNoteNumber)=0</td></tr>
-<tr class="memdesc:aba3bfbf894573d983c828226f0caa866"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this sound should be played when a given midi note is pressed.  <a href="#aba3bfbf894573d983c828226f0caa866"></a><br/></td></tr>
-<tr class="separator:aba3bfbf894573d983c828226f0caa866"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d8563fe005747b7204af21338031577"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserSound.html#a8d8563fe005747b7204af21338031577">appliesToChannel</a> (const int midiChannel)=0</td></tr>
-<tr class="memdesc:a8d8563fe005747b7204af21338031577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the sound should be triggered by midi events on a given channel.  <a href="#a8d8563fe005747b7204af21338031577"></a><br/></td></tr>
-<tr class="separator:a8d8563fe005747b7204af21338031577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc192aba46964c8539206db1e6f6f747"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserSound.html#abc192aba46964c8539206db1e6f6f747">appliesToNote</a> (int midiNoteNumber)=0</td></tr>
+<tr class="memdesc:abc192aba46964c8539206db1e6f6f747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this sound should be played when a given midi note is pressed.  <a href="#abc192aba46964c8539206db1e6f6f747"></a><br/></td></tr>
+<tr class="separator:abc192aba46964c8539206db1e6f6f747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3910c5fd83df051b05925bbddf4960cd"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserSound.html#a3910c5fd83df051b05925bbddf4960cd">appliesToChannel</a> (int midiChannel)=0</td></tr>
+<tr class="memdesc:a3910c5fd83df051b05925bbddf4960cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the sound should be triggered by midi events on a given channel.  <a href="#a3910c5fd83df051b05925bbddf4960cd"></a><br/></td></tr>
+<tr class="separator:a3910c5fd83df051b05925bbddf4960cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classReferenceCountedObject"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classReferenceCountedObject')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classReferenceCountedObject.html">ReferenceCountedObject</a></td></tr>
 <tr class="memitem:a878ca594f89f757d29af5a42ee51161f inherit pub_methods_classReferenceCountedObject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObject.html#a878ca594f89f757d29af5a42ee51161f">incReferenceCount</a> () noexcept</td></tr>
 <tr class="memdesc:a878ca594f89f757d29af5a42ee51161f inherit pub_methods_classReferenceCountedObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increments the object's reference count.  <a href="#a878ca594f89f757d29af5a42ee51161f"></a><br/></td></tr>
@@ -215,7 +215,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aba3bfbf894573d983c828226f0caa866"></a>
+<a class="anchor" id="abc192aba46964c8539206db1e6f6f747"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -225,7 +225,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual bool SynthesiserSound::appliesToNote </td>
           <td>(</td>
-          <td class="paramtype">const int&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>midiNoteNumber</em></td><td>)</td>
           <td></td>
         </tr>
@@ -240,11 +240,11 @@ Protected Member Functions</h2></td></tr>
 <p>Returns true if this sound should be played when a given midi note is pressed. </p>
 <p>The <a class="el" href="classSynthesiser.html" title="Base class for a musical device that can play sounds.">Synthesiser</a> will use this information when deciding which sounds to trigger for a given note. </p>
 
-<p>Implemented in <a class="el" href="classSamplerSound.html#ac8ba147af6fd1175aa76242e5e6d2435">SamplerSound</a>.</p>
+<p>Implemented in <a class="el" href="classSamplerSound.html#ac579ceea6ee78e6dae8026b4b9b33038">SamplerSound</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8d8563fe005747b7204af21338031577"></a>
+<a class="anchor" id="a3910c5fd83df051b05925bbddf4960cd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -254,7 +254,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual bool SynthesiserSound::appliesToChannel </td>
           <td>(</td>
-          <td class="paramtype">const int&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>midiChannel</em></td><td>)</td>
           <td></td>
         </tr>
@@ -269,7 +269,7 @@ Protected Member Functions</h2></td></tr>
 <p>Returns true if the sound should be triggered by midi events on a given channel. </p>
 <p>The <a class="el" href="classSynthesiser.html" title="Base class for a musical device that can play sounds.">Synthesiser</a> will use this information when deciding which sounds to trigger for a given note. </p>
 
-<p>Implemented in <a class="el" href="classSamplerSound.html#a319362ea6f5cffb53bd5b933f6a82bae">SamplerSound</a>.</p>
+<p>Implemented in <a class="el" href="classSamplerSound.html#a6f69ffcba849228995ab63d93439a339">SamplerSound</a>.</p>
 
 </div>
 </div>

@@ -23,6 +23,7 @@ var searchData=
   ['totalheight',['totalHeight',['../classLowLevelGraphicsPostScriptRenderer.html#a842f2dc876aeebb14cc27e3faee70735',1,'LowLevelGraphicsPostScriptRenderer']]],
   ['totalseconds',['totalSeconds',['../structPerformanceCounter_1_1Statistics.html#af04ffab23f93875202a7df925e240e77',1,'PerformanceCounter::Statistics']]],
   ['totalwidth',['totalWidth',['../classLowLevelGraphicsPostScriptRenderer.html#a0fa5658fdc5f8c2fb801ab7dba117f84',1,'LowLevelGraphicsPostScriptRenderer']]],
+  ['tracktionloopinfo',['tracktionLoopInfo',['../classWavAudioFormat.html#a3ffa718b58838dc49c9bb5314b5373ae',1,'WavAudioFormat']]],
   ['transform',['transform',['../classFillType.html#a6302124b870bccda6a55b13a37a69744',1,'FillType']]],
   ['transparentblack',['transparentBlack',['../classColours.html#a0ce54d7a6cbbce207c29165102d3a35f',1,'Colours']]],
   ['transparentwhite',['transparentWhite',['../classColours.html#a9188c880171c8f146d40801c304c25b2',1,'Colours']]],

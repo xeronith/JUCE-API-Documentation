@@ -40,6 +40,7 @@ var searchData=
   ['_7eaudioprocessoreditor',['~AudioProcessorEditor',['../classAudioProcessorEditor.html#a097320aae2fae460cfd0c01fc8e9ccb0',1,'AudioProcessorEditor']]],
   ['_7eaudioprocessorgraph',['~AudioProcessorGraph',['../classAudioProcessorGraph.html#acd8a5defb48ec3344ad412e489aa58fb',1,'AudioProcessorGraph']]],
   ['_7eaudioprocessorlistener',['~AudioProcessorListener',['../classAudioProcessorListener.html#a255083443e5612f75ae3ab98bde7deb1',1,'AudioProcessorListener']]],
+  ['_7eaudioprocessorparameter',['~AudioProcessorParameter',['../classAudioProcessorParameter.html#a30e812a7e141bb25f509980d7d11d27b',1,'AudioProcessorParameter']]],
   ['_7eaudioprocessorplayer',['~AudioProcessorPlayer',['../classAudioProcessorPlayer.html#ad029b9ad85fd3aac440cdc019d190498',1,'AudioProcessorPlayer']]],
   ['_7eaudiosamplebuffer',['~AudioSampleBuffer',['../classAudioSampleBuffer.html#afcae7ee7063f685434930f44b313544d',1,'AudioSampleBuffer']]],
   ['_7eaudiosource',['~AudioSource',['../classAudioSource.html#a38b04f6bf7ea63b6cf465213c164623b',1,'AudioSource']]],

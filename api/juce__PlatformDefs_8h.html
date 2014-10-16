@@ -103,13 +103,16 @@ Macros</h2></td></tr>
 <tr class="separator:a875142924cb37a18783af2e03c3feb51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a4e8406ebaae14eb87c14f02131602d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#a0a4e8406ebaae14eb87c14f02131602d">JUCE_ANALYZER_NORETURN</a></td></tr>
 <tr class="separator:a0a4e8406ebaae14eb87c14f02131602d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5335262a7d74113caa4edd740bded17d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#a5335262a7d74113caa4edd740bded17d">DBG</a>(dbgtext)&#160;&#160;&#160;{ juce::String tempDbgBuf; tempDbgBuf &lt;&lt; dbgtext; juce::Logger::outputDebugString (tempDbgBuf); }</td></tr>
+<tr class="memitem:a62531e75ce4a0d69e517c12eb21a1a64"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#a62531e75ce4a0d69e517c12eb21a1a64">MACRO_WITH_FORCED_SEMICOLON</a>(x)&#160;&#160;&#160;do { x } while (false)</td></tr>
+<tr class="memdesc:a62531e75ce4a0d69e517c12eb21a1a64"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the good old C++ trick for creating a macro that forces the user to put a semicolon after it when they use it.  <a href="#a62531e75ce4a0d69e517c12eb21a1a64"></a><br/></td></tr>
+<tr class="separator:a62531e75ce4a0d69e517c12eb21a1a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5335262a7d74113caa4edd740bded17d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#a5335262a7d74113caa4edd740bded17d">DBG</a>(dbgtext)&#160;&#160;&#160;<a class="el" href="juce__PlatformDefs_8h.html#a62531e75ce4a0d69e517c12eb21a1a64">MACRO_WITH_FORCED_SEMICOLON</a> (juce::String tempDbgBuf; tempDbgBuf &lt;&lt; dbgtext; juce::Logger::outputDebugString (tempDbgBuf);)</td></tr>
 <tr class="memdesc:a5335262a7d74113caa4edd740bded17d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a string to the standard error stream.  <a href="#a5335262a7d74113caa4edd740bded17d"></a><br/></td></tr>
 <tr class="separator:a5335262a7d74113caa4edd740bded17d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc044ce5efecbecf2f5a44cd00db67b3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#adc044ce5efecbecf2f5a44cd00db67b3">jassertfalse</a>&#160;&#160;&#160;{ <a class="el" href="juce__PlatformDefs_8h.html#a003e8bb6b9c1e3bee63827de72ca76aa">juce_LogCurrentAssertion</a>; if (juce::juce_isRunningUnderDebugger()) <a class="el" href="juce__PlatformDefs_8h.html#a875142924cb37a18783af2e03c3feb51">juce_breakDebugger</a>; <a class="el" href="juce__PlatformDefs_8h.html#a0a4e8406ebaae14eb87c14f02131602d">JUCE_ANALYZER_NORETURN</a> }</td></tr>
+<tr class="memitem:adc044ce5efecbecf2f5a44cd00db67b3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#adc044ce5efecbecf2f5a44cd00db67b3">jassertfalse</a>&#160;&#160;&#160;<a class="el" href="juce__PlatformDefs_8h.html#a62531e75ce4a0d69e517c12eb21a1a64">MACRO_WITH_FORCED_SEMICOLON</a> (<a class="el" href="juce__PlatformDefs_8h.html#a003e8bb6b9c1e3bee63827de72ca76aa">juce_LogCurrentAssertion</a>; if (juce::juce_isRunningUnderDebugger()) <a class="el" href="juce__PlatformDefs_8h.html#a875142924cb37a18783af2e03c3feb51">juce_breakDebugger</a>; <a class="el" href="juce__PlatformDefs_8h.html#a0a4e8406ebaae14eb87c14f02131602d">JUCE_ANALYZER_NORETURN</a>)</td></tr>
 <tr class="memdesc:adc044ce5efecbecf2f5a44cd00db67b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will always cause an assertion failure.  <a href="#adc044ce5efecbecf2f5a44cd00db67b3"></a><br/></td></tr>
 <tr class="separator:adc044ce5efecbecf2f5a44cd00db67b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f96ab6751237979b907a54f52a7296a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>(expression)&#160;&#160;&#160;{ if (! (expression)) <a class="el" href="juce__PlatformDefs_8h.html#adc044ce5efecbecf2f5a44cd00db67b3">jassertfalse</a>; }</td></tr>
+<tr class="memitem:a1f96ab6751237979b907a54f52a7296a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#a1f96ab6751237979b907a54f52a7296a">jassert</a>(expression)&#160;&#160;&#160;<a class="el" href="juce__PlatformDefs_8h.html#a62531e75ce4a0d69e517c12eb21a1a64">MACRO_WITH_FORCED_SEMICOLON</a> (if (! (expression)) <a class="el" href="juce__PlatformDefs_8h.html#adc044ce5efecbecf2f5a44cd00db67b3">jassertfalse</a>;)</td></tr>
 <tr class="memdesc:a1f96ab6751237979b907a54f52a7296a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Platform-independent assertion macro.  <a href="#a1f96ab6751237979b907a54f52a7296a"></a><br/></td></tr>
 <tr class="separator:a1f96ab6751237979b907a54f52a7296a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0eb872d7ee75ed5bb25589dd175af725"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#a0eb872d7ee75ed5bb25589dd175af725">static_jassert</a>(expression)&#160;&#160;&#160;juce::JuceStaticAssert&lt;expression&gt;::dummy();</td></tr>
@@ -225,6 +228,24 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a62531e75ce4a0d69e517c12eb21a1a64"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MACRO_WITH_FORCED_SEMICOLON</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;do { x } while (false)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This is the good old C++ trick for creating a macro that forces the user to put a semicolon after it when they use it. </p>
+
+</div>
+</div>
 <a class="anchor" id="a5335262a7d74113caa4edd740bded17d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -234,7 +255,7 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">dbgtext</td><td>)</td>
-          <td>&#160;&#160;&#160;{ juce::String tempDbgBuf; tempDbgBuf &lt;&lt; dbgtext; juce::Logger::outputDebugString (tempDbgBuf); }</td>
+          <td>&#160;&#160;&#160;<a class="el" href="juce__PlatformDefs_8h.html#a62531e75ce4a0d69e517c12eb21a1a64">MACRO_WITH_FORCED_SEMICOLON</a> (juce::String tempDbgBuf; tempDbgBuf &lt;&lt; dbgtext; juce::Logger::outputDebugString (tempDbgBuf);)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -252,7 +273,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define jassertfalse&#160;&#160;&#160;{ <a class="el" href="juce__PlatformDefs_8h.html#a003e8bb6b9c1e3bee63827de72ca76aa">juce_LogCurrentAssertion</a>; if (juce::juce_isRunningUnderDebugger()) <a class="el" href="juce__PlatformDefs_8h.html#a875142924cb37a18783af2e03c3feb51">juce_breakDebugger</a>; <a class="el" href="juce__PlatformDefs_8h.html#a0a4e8406ebaae14eb87c14f02131602d">JUCE_ANALYZER_NORETURN</a> }</td>
+          <td class="memname">#define jassertfalse&#160;&#160;&#160;<a class="el" href="juce__PlatformDefs_8h.html#a62531e75ce4a0d69e517c12eb21a1a64">MACRO_WITH_FORCED_SEMICOLON</a> (<a class="el" href="juce__PlatformDefs_8h.html#a003e8bb6b9c1e3bee63827de72ca76aa">juce_LogCurrentAssertion</a>; if (juce::juce_isRunningUnderDebugger()) <a class="el" href="juce__PlatformDefs_8h.html#a875142924cb37a18783af2e03c3feb51">juce_breakDebugger</a>; <a class="el" href="juce__PlatformDefs_8h.html#a0a4e8406ebaae14eb87c14f02131602d">JUCE_ANALYZER_NORETURN</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -274,7 +295,7 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">expression</td><td>)</td>
-          <td>&#160;&#160;&#160;{ if (! (expression)) <a class="el" href="juce__PlatformDefs_8h.html#adc044ce5efecbecf2f5a44cd00db67b3">jassertfalse</a>; }</td>
+          <td>&#160;&#160;&#160;<a class="el" href="juce__PlatformDefs_8h.html#a62531e75ce4a0d69e517c12eb21a1a64">MACRO_WITH_FORCED_SEMICOLON</a> (if (! (expression)) <a class="el" href="juce__PlatformDefs_8h.html#adc044ce5efecbecf2f5a44cd00db67b3">jassertfalse</a>;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

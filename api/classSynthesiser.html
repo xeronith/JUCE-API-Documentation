@@ -140,9 +140,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a488dbf4f02973011c95656eefc1fb862"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#a488dbf4f02973011c95656eefc1fb862">noteOn</a> (int midiChannel, int midiNoteNumber, float velocity)</td></tr>
 <tr class="memdesc:a488dbf4f02973011c95656eefc1fb862"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers a note-on event.  <a href="#a488dbf4f02973011c95656eefc1fb862"></a><br/></td></tr>
 <tr class="separator:a488dbf4f02973011c95656eefc1fb862"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fbf0e129c3e48b67b71b6438fc07fbc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#a3fbf0e129c3e48b67b71b6438fc07fbc">noteOff</a> (int midiChannel, int midiNoteNumber, bool allowTailOff)</td></tr>
-<tr class="memdesc:a3fbf0e129c3e48b67b71b6438fc07fbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers a note-off event.  <a href="#a3fbf0e129c3e48b67b71b6438fc07fbc"></a><br/></td></tr>
-<tr class="separator:a3fbf0e129c3e48b67b71b6438fc07fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af67d93a1499cbd875c6187cbd4add517"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#af67d93a1499cbd875c6187cbd4add517">noteOff</a> (int midiChannel, int midiNoteNumber, float velocity, bool allowTailOff)</td></tr>
+<tr class="memdesc:af67d93a1499cbd875c6187cbd4add517"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers a note-off event.  <a href="#af67d93a1499cbd875c6187cbd4add517"></a><br/></td></tr>
+<tr class="separator:af67d93a1499cbd875c6187cbd4add517"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac39e7b038c545b92e9f69b47bce54934"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#ac39e7b038c545b92e9f69b47bce54934">allNotesOff</a> (int midiChannel, bool allowTailOff)</td></tr>
 <tr class="memdesc:ac39e7b038c545b92e9f69b47bce54934"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns off all notes.  <a href="#ac39e7b038c545b92e9f69b47bce54934"></a><br/></td></tr>
 <tr class="separator:ac39e7b038c545b92e9f69b47bce54934"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,15 +170,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ef0f7f6a4b46a8f425dbadd976cf29f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#a6ef0f7f6a4b46a8f425dbadd976cf29f">renderNextBlock</a> (<a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;outputAudio, const <a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;inputMidi, int startSample, int numSamples)</td></tr>
 <tr class="memdesc:a6ef0f7f6a4b46a8f425dbadd976cf29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the next block of audio output.  <a href="#a6ef0f7f6a4b46a8f425dbadd976cf29f"></a><br/></td></tr>
 <tr class="separator:a6ef0f7f6a4b46a8f425dbadd976cf29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af48b8565967d86777ac5229559635bd6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#af48b8565967d86777ac5229559635bd6">getSampleRate</a> () const noexcept</td></tr>
+<tr class="memdesc:af48b8565967d86777ac5229559635bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current target sample rate at which rendering is being done.  <a href="#af48b8565967d86777ac5229559635bd6"></a><br/></td></tr>
+<tr class="separator:af48b8565967d86777ac5229559635bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:af1e89b81afbd33e270cdf1fdd257ae03"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classSynthesiserVoice.html">SynthesiserVoice</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#af1e89b81afbd33e270cdf1fdd257ae03">findFreeVoice</a> (<a class="el" href="classSynthesiserSound.html">SynthesiserSound</a> *soundToPlay, const bool stealIfNoneAvailable) const </td></tr>
-<tr class="memdesc:af1e89b81afbd33e270cdf1fdd257ae03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches through the voices to find one that's not currently playing, and which can play the given sound.  <a href="#af1e89b81afbd33e270cdf1fdd257ae03"></a><br/></td></tr>
-<tr class="separator:af1e89b81afbd33e270cdf1fdd257ae03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecda1b7cc873d69ee356d93db0788450"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classSynthesiserVoice.html">SynthesiserVoice</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#aecda1b7cc873d69ee356d93db0788450">findVoiceToSteal</a> (<a class="el" href="classSynthesiserSound.html">SynthesiserSound</a> *soundToPlay) const </td></tr>
-<tr class="memdesc:aecda1b7cc873d69ee356d93db0788450"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chooses a voice that is most suitable for being re-used.  <a href="#aecda1b7cc873d69ee356d93db0788450"></a><br/></td></tr>
-<tr class="separator:aecda1b7cc873d69ee356d93db0788450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10531f81813bc0d6f8726a89e2985ea8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#a10531f81813bc0d6f8726a89e2985ea8">renderVoices</a> (<a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;outputAudio, int startSample, int numSamples)</td></tr>
+<tr class="memdesc:a10531f81813bc0d6f8726a89e2985ea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the voices for the given range.  <a href="#a10531f81813bc0d6f8726a89e2985ea8"></a><br/></td></tr>
+<tr class="separator:a10531f81813bc0d6f8726a89e2985ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77120192430fe61d730d3e41fccdca75"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classSynthesiserVoice.html">SynthesiserVoice</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#a77120192430fe61d730d3e41fccdca75">findFreeVoice</a> (<a class="el" href="classSynthesiserSound.html">SynthesiserSound</a> *soundToPlay, int midiChannel, int midiNoteNumber, bool stealIfNoneAvailable) const </td></tr>
+<tr class="memdesc:a77120192430fe61d730d3e41fccdca75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches through the voices to find one that's not currently playing, and which can play the given sound.  <a href="#a77120192430fe61d730d3e41fccdca75"></a><br/></td></tr>
+<tr class="separator:a77120192430fe61d730d3e41fccdca75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c0aac3256c5adf8c1956a14da9f9bf6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classSynthesiserVoice.html">SynthesiserVoice</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#a3c0aac3256c5adf8c1956a14da9f9bf6">findVoiceToSteal</a> (<a class="el" href="classSynthesiserSound.html">SynthesiserSound</a> *soundToPlay, int midiChannel, int midiNoteNumber) const </td></tr>
+<tr class="memdesc:a3c0aac3256c5adf8c1956a14da9f9bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chooses a voice that is most suitable for being re-used.  <a href="#a3c0aac3256c5adf8c1956a14da9f9bf6"></a><br/></td></tr>
+<tr class="separator:a3c0aac3256c5adf8c1956a14da9f9bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7004a46197236e29ae67916f8932d0a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#a7004a46197236e29ae67916f8932d0a4">startVoice</a> (<a class="el" href="classSynthesiserVoice.html">SynthesiserVoice</a> *voice, <a class="el" href="classSynthesiserSound.html">SynthesiserSound</a> *sound, int midiChannel, int midiNoteNumber, float velocity)</td></tr>
 <tr class="memdesc:a7004a46197236e29ae67916f8932d0a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts a specified voice playing a particular sound.  <a href="#a7004a46197236e29ae67916f8932d0a4"></a><br/></td></tr>
 <tr class="separator:a7004a46197236e29ae67916f8932d0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,7 +211,7 @@ Protected Attributes</h2></td></tr>
 <p>To create a synthesiser, you'll need to create a subclass of <a class="el" href="classSynthesiserSound.html" title="Describes one of the sounds that a Synthesiser can play.">SynthesiserSound</a> to describe each sound available to your synth, and a subclass of <a class="el" href="classSynthesiserVoice.html" title="Represents a voice that a Synthesiser can use to play a SynthesiserSound.">SynthesiserVoice</a> which can play back one of these sounds.</p>
 <p>Then you can use the <a class="el" href="classSynthesiser.html#a0806a426d99a36367c714b7d433d4d4e" title="Adds a new voice to the synth.">addVoice()</a> and <a class="el" href="classSynthesiser.html#ac76a3fe3505d18da550eddec5d151cab" title="Adds a new sound to the synthesiser.">addSound()</a> methods to give the synthesiser a set of sounds, and a set of voices it can use to play them. If you only give it one voice it will be monophonic - the more voices it has, the more polyphony it'll have available.</p>
 <p>Then repeatedly call the <a class="el" href="classSynthesiser.html#a6ef0f7f6a4b46a8f425dbadd976cf29f" title="Creates the next block of audio output.">renderNextBlock()</a> method to produce the audio. Any midi events that go in will be scanned for note on/off messages, and these are used to start and stop the voices playing the appropriate sounds.</p>
-<p>While it's playing, you can also cause notes to be triggered by calling the <a class="el" href="classSynthesiser.html#a488dbf4f02973011c95656eefc1fb862" title="Triggers a note-on event.">noteOn()</a>, <a class="el" href="classSynthesiser.html#a3fbf0e129c3e48b67b71b6438fc07fbc" title="Triggers a note-off event.">noteOff()</a> and other controller methods.</p>
+<p>While it's playing, you can also cause notes to be triggered by calling the <a class="el" href="classSynthesiser.html#a488dbf4f02973011c95656eefc1fb862" title="Triggers a note-on event.">noteOn()</a>, <a class="el" href="classSynthesiser.html#af67d93a1499cbd875c6187cbd4add517" title="Triggers a note-off event.">noteOff()</a> and other controller methods.</p>
 <p>Before rendering, be sure to call the <a class="el" href="classSynthesiser.html#ae0d6808e5a22bc3a56a68dab1f106ab8" title="Tells the synthesiser what the sample rate is for the audio it&#39;s being used to render.">setCurrentPlaybackSampleRate()</a> to tell it what the target playback rate is. This value is passed on to the voices so that they can pitch their output correctly. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a8c313d6f1fa875790e5c79dc621ee437"></a>
@@ -222,7 +228,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a new synthesiser. </p>
-<p>You'll need to add some sounds and voices before it'll make any sound.. </p>
+<p>You'll need to add some sounds and voices before it'll make any sound. </p>
 
 </div>
 </div>
@@ -470,7 +476,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>If set to true, then the synth will try to take over an existing voice if it runs out and needs to play another note. </p>
-<p>The value of this boolean is passed into <a class="el" href="classSynthesiser.html#af1e89b81afbd33e270cdf1fdd257ae03" title="Searches through the voices to find one that&#39;s not currently playing, and which can play the given so...">findFreeVoice()</a>, so the result will depend on the implementation of this method. </p>
+<p>The value of this boolean is passed into <a class="el" href="classSynthesiser.html#a77120192430fe61d730d3e41fccdca75" title="Searches through the voices to find one that&#39;s not currently playing, and which can play the given so...">findFreeVoice()</a>, so the result will depend on the implementation of this method. </p>
 
 </div>
 </div>
@@ -546,7 +552,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3fbf0e129c3e48b67b71b6438fc07fbc"></a>
+<a class="anchor" id="af67d93a1499cbd875c6187cbd4add517"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -564,6 +570,12 @@ Protected Attributes</h2></td></tr>
           <td></td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>midiNoteNumber</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>velocity</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -958,7 +970,76 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af1e89b81afbd33e270cdf1fdd257ae03"></a>
+<a class="anchor" id="af48b8565967d86777ac5229559635bd6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Synthesiser::getSampleRate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the current target sample rate at which rendering is being done. </p>
+<p>Subclasses may need to know this so that they can pitch things correctly. </p>
+
+</div>
+</div>
+<a class="anchor" id="a10531f81813bc0d6f8726a89e2985ea8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Synthesiser::renderVoices </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>outputAudio</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>startSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numSamples</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Renders the voices for the given range. </p>
+<p>By default this just calls <a class="el" href="classSynthesiser.html#a6ef0f7f6a4b46a8f425dbadd976cf29f" title="Creates the next block of audio output.">renderNextBlock()</a> on each voice, but you may need to override it to handle custom cases. </p>
+
+</div>
+</div>
+<a class="anchor" id="a77120192430fe61d730d3e41fccdca75"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -974,7 +1055,19 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const bool&#160;</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>midiChannel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>midiNoteNumber</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>stealIfNoneAvailable</em>&#160;</td>
         </tr>
         <tr>
@@ -992,11 +1085,11 @@ Protected Attributes</h2></td></tr>
 
 <p>Searches through the voices to find one that's not currently playing, and which can play the given sound. </p>
 <p>Returns nullptr if all voices are busy and stealing isn't enabled.</p>
-<p>This can be overridden to implement custom voice-stealing algorithms. </p>
+<p>To implement a custom note-stealing algorithm, you can either override this method, or (preferably) override <a class="el" href="classSynthesiser.html#a3c0aac3256c5adf8c1956a14da9f9bf6" title="Chooses a voice that is most suitable for being re-used.">findVoiceToSteal()</a>. </p>
 
 </div>
 </div>
-<a class="anchor" id="aecda1b7cc873d69ee356d93db0788450"></a>
+<a class="anchor" id="a3c0aac3256c5adf8c1956a14da9f9bf6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1007,8 +1100,24 @@ Protected Attributes</h2></td></tr>
           <td class="memname">virtual <a class="el" href="classSynthesiserVoice.html">SynthesiserVoice</a>* Synthesiser::findVoiceToSteal </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classSynthesiserSound.html">SynthesiserSound</a> *&#160;</td>
-          <td class="paramname"><em>soundToPlay</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>soundToPlay</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>midiChannel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>midiNoteNumber</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -1019,7 +1128,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Chooses a voice that is most suitable for being re-used. </p>
-<p>The default method returns the one that has been playing for the longest, but you may want to override this and do something more cunning instead. </p>
+<p>The default method will attempt to find the oldest voice that isn't the bottom or top note being played. If that's not suitable for your synth, you can override this method and do something more cunning instead. </p>
 
 </div>
 </div>

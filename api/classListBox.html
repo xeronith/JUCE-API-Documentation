@@ -129,9 +129,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3e8cb20434a462c1a102cf62e112e16d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListBox.html#a3e8cb20434a462c1a102cf62e112e16d">updateContent</a> ()</td></tr>
 <tr class="memdesc:a3e8cb20434a462c1a102cf62e112e16d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Causes the list to refresh its content.  <a href="#a3e8cb20434a462c1a102cf62e112e16d"></a><br/></td></tr>
 <tr class="separator:a3e8cb20434a462c1a102cf62e112e16d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9647c445c0cd064c37247bc004738bdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListBox.html#a9647c445c0cd064c37247bc004738bdc">setMultipleSelectionEnabled</a> (bool shouldBeEnabled)</td></tr>
-<tr class="memdesc:a9647c445c0cd064c37247bc004738bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns on multiple-selection of rows.  <a href="#a9647c445c0cd064c37247bc004738bdc"></a><br/></td></tr>
-<tr class="separator:a9647c445c0cd064c37247bc004738bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9582ec297c14961573f0f4eb62e0036d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListBox.html#a9582ec297c14961573f0f4eb62e0036d">setMultipleSelectionEnabled</a> (bool shouldBeEnabled) noexcept</td></tr>
+<tr class="memdesc:a9582ec297c14961573f0f4eb62e0036d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns on multiple-selection of rows.  <a href="#a9582ec297c14961573f0f4eb62e0036d"></a><br/></td></tr>
+<tr class="separator:a9582ec297c14961573f0f4eb62e0036d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5786085edf1fe73417049e74c4c7823"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListBox.html#af5786085edf1fe73417049e74c4c7823">setClickingTogglesRowSelection</a> (bool <a class="el" href="classListBox.html#adb559ca08ef51c4a81160a235172eae8">flipRowSelection</a>) noexcept</td></tr>
+<tr class="memdesc:af5786085edf1fe73417049e74c4c7823"><td class="mdescLeft">&#160;</td><td class="mdescRight">If enabled, this makes the listbox flip the selection status of each row that the user clicks, without affecting other selected rows.  <a href="#af5786085edf1fe73417049e74c4c7823"></a><br/></td></tr>
+<tr class="separator:af5786085edf1fe73417049e74c4c7823"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaff40d6a0a564eda13a1a34d5daca15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListBox.html#aaaff40d6a0a564eda13a1a34d5daca15">setMouseMoveSelectsRows</a> (bool shouldSelect)</td></tr>
 <tr class="memdesc:aaaff40d6a0a564eda13a1a34d5daca15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes the list react to mouse moves by selecting the row that the mouse if over.  <a href="#aaaff40d6a0a564eda13a1a34d5daca15"></a><br/></td></tr>
 <tr class="separator:aaaff40d6a0a564eda13a1a34d5daca15"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -976,9 +979,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9647c445c0cd064c37247bc004738bdc"></a>
+<a class="anchor" id="a9582ec297c14961573f0f4eb62e0036d"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ListBox::setMultipleSelectionEnabled </td>
@@ -988,11 +994,43 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Turns on multiple-selection of rows. </p>
 <p>By default this is disabled.</p>
 <p>When your row component gets clicked you'll need to call the <a class="el" href="classListBox.html#a2e7c7e7fb931c36ee9e41a2d99a9eca9" title="Multiply-selects rows based on the modifier keys.">selectRowsBasedOnModifierKeys()</a> method to tell the list that it's been clicked and to get it to do the appropriate selection based on whether the ctrl/shift keys are held down. </p>
+
+</div>
+</div>
+<a class="anchor" id="af5786085edf1fe73417049e74c4c7823"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ListBox::setClickingTogglesRowSelection </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>flipRowSelection</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If enabled, this makes the listbox flip the selection status of each row that the user clicks, without affecting other selected rows. </p>
+<p>(This only has an effect if multiple selection is also enabled). If not enabled, you can still get the same row-flipping behaviour by holding down CMD or CTRL when clicking. </p>
 
 </div>
 </div>

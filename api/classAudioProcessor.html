@@ -215,18 +215,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0e06519ec925a8da3180df1a7a34f3eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioProcessorEditor.html">AudioProcessorEditor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a0e06519ec925a8da3180df1a7a34f3eb">createEditorIfNeeded</a> ()</td></tr>
 <tr class="memdesc:a0e06519ec925a8da3180df1a7a34f3eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the active editor, or if there isn't one, it will create one.  <a href="#a0e06519ec925a8da3180df1a7a34f3eb"></a><br/></td></tr>
 <tr class="separator:a0e06519ec925a8da3180df1a7a34f3eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6b6bab11612f3af64dbace66c8990f8"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ad6b6bab11612f3af64dbace66c8990f8">getNumParameters</a> ()=0</td></tr>
-<tr class="memdesc:ad6b6bab11612f3af64dbace66c8990f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This must return the correct value immediately after the object has been created, and mustn't change the number of parameters later.  <a href="#ad6b6bab11612f3af64dbace66c8990f8"></a><br/></td></tr>
-<tr class="separator:ad6b6bab11612f3af64dbace66c8990f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab25b03cba4e0ec2f6eac32e7341960c7"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ab25b03cba4e0ec2f6eac32e7341960c7">getParameterName</a> (int parameterIndex)=0</td></tr>
-<tr class="memdesc:ab25b03cba4e0ec2f6eac32e7341960c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of a particular parameter.  <a href="#ab25b03cba4e0ec2f6eac32e7341960c7"></a><br/></td></tr>
-<tr class="separator:ab25b03cba4e0ec2f6eac32e7341960c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27473b6db976c8ee59f570870ea5fde3"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a27473b6db976c8ee59f570870ea5fde3">getParameter</a> (int parameterIndex)=0</td></tr>
-<tr class="memdesc:a27473b6db976c8ee59f570870ea5fde3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the host to find out the value of one of the filter's parameters.  <a href="#a27473b6db976c8ee59f570870ea5fde3"></a><br/></td></tr>
-<tr class="separator:a27473b6db976c8ee59f570870ea5fde3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97bb7a26a396cc437fcecde38a70d6b9"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a97bb7a26a396cc437fcecde38a70d6b9">getParameterText</a> (int parameterIndex)=0</td></tr>
-<tr class="memdesc:a97bb7a26a396cc437fcecde38a70d6b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of a parameter as a text string.  <a href="#a97bb7a26a396cc437fcecde38a70d6b9"></a><br/></td></tr>
-<tr class="separator:a97bb7a26a396cc437fcecde38a70d6b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7b802374ba30b719f34570ab6f07c21"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ac7b802374ba30b719f34570ab6f07c21">getNumParameters</a> ()</td></tr>
+<tr class="memdesc:ac7b802374ba30b719f34570ab6f07c21"><td class="mdescLeft">&#160;</td><td class="mdescRight">This must return the correct value immediately after the object has been created, and mustn't change the number of parameters later.  <a href="#ac7b802374ba30b719f34570ab6f07c21"></a><br/></td></tr>
+<tr class="separator:ac7b802374ba30b719f34570ab6f07c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ae35eca716774ae1fd750d60c52885e"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a9ae35eca716774ae1fd750d60c52885e">getParameterName</a> (int parameterIndex)</td></tr>
+<tr class="memdesc:a9ae35eca716774ae1fd750d60c52885e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of a particular parameter.  <a href="#a9ae35eca716774ae1fd750d60c52885e"></a><br/></td></tr>
+<tr class="separator:a9ae35eca716774ae1fd750d60c52885e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4b04d76a2d80c08f0d762f0fa6b715c"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#aa4b04d76a2d80c08f0d762f0fa6b715c">getParameter</a> (int parameterIndex)</td></tr>
+<tr class="memdesc:aa4b04d76a2d80c08f0d762f0fa6b715c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the host to find out the value of one of the filter's parameters.  <a href="#aa4b04d76a2d80c08f0d762f0fa6b715c"></a><br/></td></tr>
+<tr class="separator:aa4b04d76a2d80c08f0d762f0fa6b715c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfc2bb4a053ea9997dadbb681a636cb0"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#adfc2bb4a053ea9997dadbb681a636cb0">getParameterText</a> (int parameterIndex)</td></tr>
+<tr class="memdesc:adfc2bb4a053ea9997dadbb681a636cb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of a parameter as a text string.  <a href="#adfc2bb4a053ea9997dadbb681a636cb0"></a><br/></td></tr>
+<tr class="separator:adfc2bb4a053ea9997dadbb681a636cb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a443c3bc95aaac71abe669bb6b5833b7f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a443c3bc95aaac71abe669bb6b5833b7f">getParameterName</a> (int parameterIndex, int maximumStringLength)</td></tr>
 <tr class="memdesc:a443c3bc95aaac71abe669bb6b5833b7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of a parameter as a text string with a preferred maximum length.  <a href="#a443c3bc95aaac71abe669bb6b5833b7f"></a><br/></td></tr>
 <tr class="separator:a443c3bc95aaac71abe669bb6b5833b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -245,9 +245,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a16cfd3c20c0d6a63b40e3bdf27d7588c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a16cfd3c20c0d6a63b40e3bdf27d7588c">isParameterOrientationInverted</a> (int index) const </td></tr>
 <tr class="memdesc:a16cfd3c20c0d6a63b40e3bdf27d7588c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be overridden to tell the host that particular parameters operate in the reverse direction.  <a href="#a16cfd3c20c0d6a63b40e3bdf27d7588c"></a><br/></td></tr>
 <tr class="separator:a16cfd3c20c0d6a63b40e3bdf27d7588c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e4d173766f679763fe9484ba733ca38"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a4e4d173766f679763fe9484ba733ca38">setParameter</a> (int parameterIndex, float newValue)=0</td></tr>
-<tr class="memdesc:a4e4d173766f679763fe9484ba733ca38"><td class="mdescLeft">&#160;</td><td class="mdescRight">The host will call this method to change the value of one of the filter's parameters.  <a href="#a4e4d173766f679763fe9484ba733ca38"></a><br/></td></tr>
-<tr class="separator:a4e4d173766f679763fe9484ba733ca38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adafe6e16f7ae33645dbbafcb21014e50"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#adafe6e16f7ae33645dbbafcb21014e50">setParameter</a> (int parameterIndex, float newValue)</td></tr>
+<tr class="memdesc:adafe6e16f7ae33645dbbafcb21014e50"><td class="mdescLeft">&#160;</td><td class="mdescRight">The host will call this method to change the value of one of the filter's parameters.  <a href="#adafe6e16f7ae33645dbbafcb21014e50"></a><br/></td></tr>
+<tr class="separator:adafe6e16f7ae33645dbbafcb21014e50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab09a26934acb4d7fe3f71448aeb80f18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ab09a26934acb4d7fe3f71448aeb80f18">setParameterNotifyingHost</a> (int parameterIndex, float newValue)</td></tr>
 <tr class="memdesc:ab09a26934acb4d7fe3f71448aeb80f18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Your filter can call this when it needs to change one of its parameters.  <a href="#ab09a26934acb4d7fe3f71448aeb80f18"></a><br/></td></tr>
 <tr class="separator:ab09a26934acb4d7fe3f71448aeb80f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -266,6 +266,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab53b860c69380cb34e466b60a3bce3f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ab53b860c69380cb34e466b60a3bce3f2">updateHostDisplay</a> ()</td></tr>
 <tr class="memdesc:ab53b860c69380cb34e466b60a3bce3f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The filter can call this when something (apart from a parameter value) has changed.  <a href="#ab53b860c69380cb34e466b60a3bce3f2"></a><br/></td></tr>
 <tr class="separator:ab53b860c69380cb34e466b60a3bce3f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae686ddf13e3e8f6008cb7b4c41704aba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ae686ddf13e3e8f6008cb7b4c41704aba">addParameter</a> (<a class="el" href="classAudioProcessorParameter.html">AudioProcessorParameter</a> *)</td></tr>
+<tr class="memdesc:ae686ddf13e3e8f6008cb7b4c41704aba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a parameter to the list.  <a href="#ae686ddf13e3e8f6008cb7b4c41704aba"></a><br/></td></tr>
+<tr class="separator:ae686ddf13e3e8f6008cb7b4c41704aba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cc35c3439f44d55ca068d1144a3bea7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classOwnedArray.html">OwnedArray</a><br class="typebreak"/>
+&lt; <a class="el" href="classAudioProcessorParameter.html">AudioProcessorParameter</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a1cc35c3439f44d55ca068d1144a3bea7">getParameters</a> () const noexcept</td></tr>
+<tr class="memdesc:a1cc35c3439f44d55ca068d1144a3bea7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current list of parameters.  <a href="#a1cc35c3439f44d55ca068d1144a3bea7"></a><br/></td></tr>
+<tr class="separator:a1cc35c3439f44d55ca068d1144a3bea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a510123768a99f32ff4a23d0458e15e13"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a510123768a99f32ff4a23d0458e15e13">getNumPrograms</a> ()=0</td></tr>
 <tr class="memdesc:a510123768a99f32ff4a23d0458e15e13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of preset programs the filter supports.  <a href="#a510123768a99f32ff4a23d0458e15e13"></a><br/></td></tr>
 <tr class="separator:a510123768a99f32ff4a23d0458e15e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -317,6 +324,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a39a78126e8b9abb65e4198a02ca41b7d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a39a78126e8b9abb65e4198a02ca41b7d">getDefaultNumParameterSteps</a> () noexcept</td></tr>
+<tr class="memdesc:a39a78126e8b9abb65e4198a02ca41b7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default number of steps for a parameter.  <a href="#a39a78126e8b9abb65e4198a02ca41b7d"></a><br/></td></tr>
+<tr class="separator:a39a78126e8b9abb65e4198a02ca41b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d0c1c945bebbc967d187c0f08b42c4b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6d0c1c945bebbc967d187c0f08b42c4b">copyXmlToBinary</a> (const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;xml, juce::MemoryBlock &amp;destData)</td></tr>
 <tr class="memdesc:a6d0c1c945bebbc967d187c0f08b42c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that just converts an xml element into a binary blob.  <a href="#a6d0c1c945bebbc967d187c0f08b42c4b"></a><br/></td></tr>
 <tr class="separator:a6d0c1c945bebbc967d187c0f08b42c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1346,7 +1356,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad6b6bab11612f3af64dbace66c8990f8"></a>
+<a class="anchor" id="ac7b802374ba30b719f34570ab6f07c21"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1362,18 +1372,18 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>This must return the correct value immediately after the object has been created, and mustn't change the number of parameters later. </p>
 
-<p>Implemented in <a class="el" href="classAudioProcessorGraph.html#a689c7a0e16af432e240db298cd8fcc6c">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a7cf2796c833f2faec48f347a0f0ac470">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
+<p>Reimplemented in <a class="el" href="classAudioProcessorGraph.html#a689c7a0e16af432e240db298cd8fcc6c">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a7cf2796c833f2faec48f347a0f0ac470">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab25b03cba4e0ec2f6eac32e7341960c7"></a>
+<a class="anchor" id="a9ae35eca716774ae1fd750d60c52885e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1390,18 +1400,18 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Returns the name of a particular parameter. </p>
 
-<p>Implemented in <a class="el" href="classAudioProcessorGraph.html#a2a8460a9ca99c57b70a1ef88586b654a">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#adff96858f5729d7a7ffad377b0bc62a4">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
+<p>Reimplemented in <a class="el" href="classAudioProcessorGraph.html#a2a8460a9ca99c57b70a1ef88586b654a">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#adff96858f5729d7a7ffad377b0bc62a4">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a27473b6db976c8ee59f570870ea5fde3"></a>
+<a class="anchor" id="aa4b04d76a2d80c08f0d762f0fa6b715c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1418,7 +1428,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1427,11 +1437,11 @@ Protected Attributes</h2></td></tr>
 <p>The host will expect the value returned to be between 0 and 1.0.</p>
 <p>This could be called quite frequently, so try to make your code efficient. It's also likely to be called by non-UI threads, so the code in here should be thread-aware. </p>
 
-<p>Implemented in <a class="el" href="classAudioProcessorGraph.html#a59a500045c3465fd77b1e760d8611070">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#aa7cc15b92ec1e9719fd558f767dfa487">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
+<p>Reimplemented in <a class="el" href="classAudioProcessorGraph.html#a59a500045c3465fd77b1e760d8611070">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#aa7cc15b92ec1e9719fd558f767dfa487">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a97bb7a26a396cc437fcecde38a70d6b9"></a>
+<a class="anchor" id="adfc2bb4a053ea9997dadbb681a636cb0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1448,14 +1458,14 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Returns the value of a parameter as a text string. </p>
 
-<p>Implemented in <a class="el" href="classAudioProcessorGraph.html#a52665f29438df941eb74d2a490a801c4">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a09bf3652ad6969b553814446b7c14b4a">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
+<p>Reimplemented in <a class="el" href="classAudioProcessorGraph.html#a52665f29438df941eb74d2a490a801c4">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a09bf3652ad6969b553814446b7c14b4a">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
 
 </div>
 </div>
@@ -1492,7 +1502,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the name of a parameter as a text string with a preferred maximum length. </p>
-<p>If you want to provide customised short versions of your parameter names that will look better in constrained spaces (e.g. the displays on hardware controller devices or mixing desks) then you should implement this method. If you don't override it, the default implementation will call <a class="el" href="classAudioProcessor.html#a97bb7a26a396cc437fcecde38a70d6b9" title="Returns the value of a parameter as a text string.">getParameterText(int)</a>, and truncate the result. </p>
+<p>If you want to provide customised short versions of your parameter names that will look better in constrained spaces (e.g. the displays on hardware controller devices or mixing desks) then you should implement this method. If you don't override it, the default implementation will call <a class="el" href="classAudioProcessor.html#adfc2bb4a053ea9997dadbb681a636cb0" title="Returns the value of a parameter as a text string.">getParameterText(int)</a>, and truncate the result. </p>
 
 </div>
 </div>
@@ -1529,7 +1539,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the value of a parameter as a text string with a preferred maximum length. </p>
-<p>If you want to provide customised short versions of your parameter values that will look better in constrained spaces (e.g. the displays on hardware controller devices or mixing desks) then you should implement this method. If you don't override it, the default implementation will call <a class="el" href="classAudioProcessor.html#a97bb7a26a396cc437fcecde38a70d6b9" title="Returns the value of a parameter as a text string.">getParameterText(int)</a>, and truncate the result. </p>
+<p>If you want to provide customised short versions of your parameter values that will look better in constrained spaces (e.g. the displays on hardware controller devices or mixing desks) then you should implement this method. If you don't override it, the default implementation will call <a class="el" href="classAudioProcessor.html#adfc2bb4a053ea9997dadbb681a636cb0" title="Returns the value of a parameter as a text string.">getParameterText(int)</a>, and truncate the result. </p>
 
 </div>
 </div>
@@ -1556,7 +1566,33 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the number of discrete steps that this parameter can represent. </p>
-<p>The default return value if you don't implement this method is 0x7fffffff. If your parameter is boolean, then you may want to make this return 2. The value that is returned may or may not be used, depending on the host. </p>
+<p>The default return value if you don't implement this method is <a class="el" href="classAudioProcessor.html#a39a78126e8b9abb65e4198a02ca41b7d" title="Returns the default number of steps for a parameter.">AudioProcessor::getDefaultNumParameterSteps()</a>. If your parameter is boolean, then you may want to make this return 2. The value that is returned may or may not be used, depending on the host. </p>
+
+</div>
+</div>
+<a class="anchor" id="a39a78126e8b9abb65e4198a02ca41b7d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int AudioProcessor::getDefaultNumParameterSteps </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the default number of steps for a parameter. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessor.html#a0a07b5efc95b686b57256b16c22eec7f" title="Returns the number of discrete steps that this parameter can represent.">getParameterNumSteps</a> </dd></dl>
 
 </div>
 </div>
@@ -1640,7 +1676,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4e4d173766f679763fe9484ba733ca38"></a>
+<a class="anchor" id="adafe6e16f7ae33645dbbafcb21014e50"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1667,7 +1703,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1677,7 +1713,7 @@ Protected Attributes</h2></td></tr>
 <p>If you want to set the value of a parameter internally, e.g. from your editor component, then don't call this directly - instead, use the <a class="el" href="classAudioProcessor.html#ab09a26934acb4d7fe3f71448aeb80f18" title="Your filter can call this when it needs to change one of its parameters.">setParameterNotifyingHost()</a> method, which will also send a message to the host telling it about the change. If the message isn't sent, the host won't be able to automate your parameters properly.</p>
 <p>The value passed will be between 0 and 1.0. </p>
 
-<p>Implemented in <a class="el" href="classAudioProcessorGraph.html#a8b97fd964424095327b5f8f4ab70d6a6">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a66e83c73c358c6180c3e732961225cd4">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
+<p>Reimplemented in <a class="el" href="classAudioProcessorGraph.html#a8b97fd964424095327b5f8f4ab70d6a6">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a66e83c73c358c6180c3e732961225cd4">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
 
 </div>
 </div>
@@ -1706,7 +1742,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Your filter can call this when it needs to change one of its parameters. </p>
-<p>This could happen when the editor or some other internal operation changes a parameter. This method will call the <a class="el" href="classAudioProcessor.html#a4e4d173766f679763fe9484ba733ca38" title="The host will call this method to change the value of one of the filter&#39;s parameters.">setParameter()</a> method to change the value, and will then send a message to the host telling it about the change.</p>
+<p>This could happen when the editor or some other internal operation changes a parameter. This method will call the <a class="el" href="classAudioProcessor.html#adafe6e16f7ae33645dbbafcb21014e50" title="The host will call this method to change the value of one of the filter&#39;s parameters.">setParameter()</a> method to change the value, and will then send a message to the host telling it about the change.</p>
 <p>Note that to make sure the host correctly handles automation, you should call the <a class="el" href="classAudioProcessor.html#ad082383dc1b0e4f648bb4edaf61cf385" title="Sends a signal to the host to tell it that the user is about to start changing this parameter...">beginParameterChangeGesture()</a> and <a class="el" href="classAudioProcessor.html#a4205962ffb34852cfc1ef1476050dd68" title="Tells the host that the user has finished changing this parameter.">endParameterChangeGesture()</a> methods to tell the host when the user has started and stopped changing the parameter. </p>
 
 </div>
@@ -1820,6 +1856,50 @@ Protected Attributes</h2></td></tr>
 
 <p>The filter can call this when something (apart from a parameter value) has changed. </p>
 <p>It sends a hint to the host that something like the program, number of parameters, etc, has changed, and that it should update itself. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae686ddf13e3e8f6008cb7b4c41704aba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioProcessor::addParameter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAudioProcessorParameter.html">AudioProcessorParameter</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a parameter to the list. </p>
+<p>The parameter object will be managed and deleted automatically by the list when no longer needed. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1cc35c3439f44d55ca068d1144a3bea7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classOwnedArray.html">OwnedArray</a>&lt;<a class="el" href="classAudioProcessorParameter.html">AudioProcessorParameter</a>&gt;&amp; AudioProcessor::getParameters </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the current list of parameters. </p>
 
 </div>
 </div>

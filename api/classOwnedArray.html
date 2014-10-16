@@ -1458,7 +1458,7 @@ template&lt;class ElementComparator &gt; </div>
 
 <p>Sorts the elements in the array. </p>
 <p>This will use a comparator object to sort the elements into order. The object passed must have a method of the form: </p>
-<div class="fragment"><div class="line"><span class="keywordtype">int</span> compareElements (ElementType first, ElementType second);</div>
+<div class="fragment"><div class="line"><span class="keywordtype">int</span> compareElements (ElementType* first, ElementType* second);</div>
 </div><!-- fragment --><p>..and this method must return:</p>
 <ul>
 <li>a value of &lt; 0 if the first comes before the second</li>
