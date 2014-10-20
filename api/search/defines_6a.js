@@ -26,7 +26,7 @@ var searchData=
   ['juce_5fdeclaresingleton',['juce_DeclareSingleton',['../juce__Singleton_8h.html#ac46b66c5d38d6bd3a937af241d152a44',1,'juce_Singleton.h']]],
   ['juce_5fdeclaresingleton_5fsinglethreaded',['juce_DeclareSingleton_SingleThreaded',['../juce__Singleton_8h.html#a253f51f3a9ac2b4795e2ce08b2a756d9',1,'juce_Singleton.h']]],
   ['juce_5fdeclaresingleton_5fsinglethreaded_5fminimal',['juce_DeclareSingleton_SingleThreaded_Minimal',['../juce__Singleton_8h.html#a354e37d287b39d02097f4f74be14af51',1,'juce_Singleton.h']]],
-  ['juce_5fdeleted_5ffunction',['JUCE_DELETED_FUNCTION',['../juce__PlatformDefs_8h.html#a1bd79588ea529f27e89c255c0ebd7be3',1,'juce_PlatformDefs.h']]],
+  ['juce_5fdeleted_5ffunction',['JUCE_DELETED_FUNCTION',['../juce__CompilerSupport_8h.html#a1bd79588ea529f27e89c255c0ebd7be3',1,'juce_CompilerSupport.h']]],
   ['juce_5fdeprecated',['JUCE_DEPRECATED',['../juce__PlatformDefs_8h.html#af25d2cb3e6d1124146f7f1fcd8648016',1,'juce_PlatformDefs.h']]],
   ['juce_5fdeprecated_5fwith_5fbody',['JUCE_DEPRECATED_WITH_BODY',['../juce__PlatformDefs_8h.html#ae6b75a90b7c83090e15a53b54555a078',1,'juce_PlatformDefs.h']]],
   ['juce_5fimplementsingleton',['juce_ImplementSingleton',['../juce__Singleton_8h.html#a514301c5c269b87e3a3e3da3a6640f8f',1,'juce_Singleton.h']]],

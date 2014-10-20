@@ -158,8 +158,6 @@ Macros</h2></td></tr>
 <tr class="memitem:ab78bf674b269119c2890d4bea40082b5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#ab78bf674b269119c2890d4bea40082b5">JUCE_MODAL_LOOPS_PERMITTED</a>&#160;&#160;&#160;1</td></tr>
 <tr class="memdesc:ab78bf674b269119c2890d4bea40082b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some operating environments don't provide a modal loop mechanism, so this flag can be used to disable any functions that try to run a modal loop.  <a href="#ab78bf674b269119c2890d4bea40082b5"></a><br/></td></tr>
 <tr class="separator:ab78bf674b269119c2890d4bea40082b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bd79588ea529f27e89c255c0ebd7be3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__PlatformDefs_8h.html#a1bd79588ea529f27e89c255c0ebd7be3">JUCE_DELETED_FUNCTION</a></td></tr>
-<tr class="separator:a1bd79588ea529f27e89c255c0ebd7be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="af0b3f78ca801d88a7912f4c6bbf50e58"></a>
@@ -342,7 +340,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">className (<span class="keyword">const</span> className&amp;) <a class="code" href="juce__PlatformDefs_8h.html#a1bd79588ea529f27e89c255c0ebd7be3">JUCE_DELETED_FUNCTION</a>;\</div>
+<b>Value:</b><div class="fragment"><div class="line">className (<span class="keyword">const</span> className&amp;) <a class="code" href="juce__CompilerSupport_8h.html#a1bd79588ea529f27e89c255c0ebd7be3" title="This macro can be placed after a method declaration to allow the use of the C++11 feature &quot;= delete&quot; ...">JUCE_DELETED_FUNCTION</a>;\</div>
 <div class="line">    className&amp; operator= (const className&amp;) JUCE_DELETED_FUNCTION;</div>
 </div><!-- fragment -->
 <p>This is a shorthand macro for declaring stubs for a class's copy constructor and operator=. </p>
@@ -396,8 +394,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keyword">private</span>: \</div>
-<div class="line">    static <span class="keywordtype">void</span>* <span class="keyword">operator</span> <span class="keyword">new</span> (size_t) <a class="code" href="juce__PlatformDefs_8h.html#a1bd79588ea529f27e89c255c0ebd7be3">JUCE_DELETED_FUNCTION</a>; \</div>
-<div class="line">    static <span class="keywordtype">void</span> <span class="keyword">operator</span> <span class="keyword">delete</span> (<span class="keywordtype">void</span>*) <a class="code" href="juce__PlatformDefs_8h.html#a1bd79588ea529f27e89c255c0ebd7be3">JUCE_DELETED_FUNCTION</a>;</div>
+<div class="line">    static <span class="keywordtype">void</span>* <span class="keyword">operator</span> <span class="keyword">new</span> (size_t) <a class="code" href="juce__CompilerSupport_8h.html#a1bd79588ea529f27e89c255c0ebd7be3" title="This macro can be placed after a method declaration to allow the use of the C++11 feature &quot;= delete&quot; ...">JUCE_DELETED_FUNCTION</a>; \</div>
+<div class="line">    static <span class="keywordtype">void</span> <span class="keyword">operator</span> <span class="keyword">delete</span> (<span class="keywordtype">void</span>*) <a class="code" href="juce__CompilerSupport_8h.html#a1bd79588ea529f27e89c255c0ebd7be3" title="This macro can be placed after a method declaration to allow the use of the C++11 feature &quot;= delete&quot; ...">JUCE_DELETED_FUNCTION</a>;</div>
 </div><!-- fragment -->
 <p>This macro can be added to class definitions to disable the use of new/delete to allocate the object on the heap, forcing it to only be used as a stack or member variable. </p>
 
@@ -607,18 +605,6 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Some operating environments don't provide a modal loop mechanism, so this flag can be used to disable any functions that try to run a modal loop. </p>
-
-</div>
-</div>
-<a class="anchor" id="a1bd79588ea529f27e89c255c0ebd7be3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define JUCE_DELETED_FUNCTION</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
