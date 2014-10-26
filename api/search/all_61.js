@@ -99,7 +99,7 @@ var searchData=
   ['addkerningpair',['addKerningPair',['../classCustomTypeface.html#ababca5dbbddb414180c1ebae0e639992',1,'CustomTypeface']]],
   ['addkeylistener',['addKeyListener',['../classComponent.html#a4ec1b609c39c54434f746cefffa6ce3f',1,'Component']]],
   ['addkeypress',['addKeyPress',['../classKeyPressMappingSet.html#ac2adbad788cddf223990617e00fbd7f1',1,'KeyPressMappingSet']]],
-  ['addline',['addLine',['../classTextLayout.html#a662a71df817d68a7cf748ce6a056f8d5',1,'TextLayout']]],
+  ['addline',['addLine',['../classTextLayout.html#a243161ed10d86a9d17c046c275989d21',1,'TextLayout']]],
   ['addlineoftext',['addLineOfText',['../classGlyphArrangement.html#a0ace103d7c4b6600dcea7aff1f26811d',1,'GlyphArrangement']]],
   ['addlines',['addLines',['../classStringArray.html#adb4313d5c407f2902c4a93b681f16446',1,'StringArray']]],
   ['addlinesegment',['addLineSegment',['../classPath.html#a93c4d70100bed1ea07518fea36267035',1,'Path']]],

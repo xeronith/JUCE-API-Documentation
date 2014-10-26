@@ -255,6 +255,7 @@ var searchData=
   ['_7emidioutput',['~MidiOutput',['../classMidiOutput.html#a16d9a275e984ebaa7e87f56234d0d9fe',1,'MidiOutput']]],
   ['_7emixeraudiosource',['~MixerAudioSource',['../classMixerAudioSource.html#acecfacbc1ce17d659e96ae4c39ac6f07',1,'MixerAudioSource']]],
   ['_7emodalcomponentmanager',['~ModalComponentManager',['../classModalComponentManager.html#a02e3e222650d2b03105246b012e3b640',1,'ModalComponentManager']]],
+  ['_7emountedvolumelistchangedetector',['~MountedVolumeListChangeDetector',['../classMountedVolumeListChangeDetector.html#a6cbefd72d4f139f814b7a9340bb3dbe5',1,'MountedVolumeListChangeDetector']]],
   ['_7emousecursor',['~MouseCursor',['../classMouseCursor.html#a7ceae294b75ec60291604f81efd1509d',1,'MouseCursor']]],
   ['_7emouseevent',['~MouseEvent',['../classMouseEvent.html#a2fb97aee455a770a0bbd916c1504d02c',1,'MouseEvent']]],
   ['_7emouseinactivitydetector',['~MouseInactivityDetector',['../classMouseInactivityDetector.html#ade7d22c8971f90f878fec2837cd05a26',1,'MouseInactivityDetector']]],

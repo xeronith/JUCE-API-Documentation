@@ -468,6 +468,7 @@ var searchData=
   ['isvertical',['isVertical',['../classLine.html#acf1d4f45d3f48b6d3540e19ecd9897c5',1,'Line::isVertical()'],['../classResizableEdgeComponent.html#ae282b5d542d717f6b043f61d7283ca6a',1,'ResizableEdgeComponent::isVertical()'],['../classScrollBar.html#a3e3ffc36d969185c06382f98996de425',1,'ScrollBar::isVertical()'],['../classTabbedButtonBar.html#a934df0eba879391671c70e884e06414c',1,'TabbedButtonBar::isVertical()'],['../classSlider.html#a105d005078031e28d8e23d52d194bcde',1,'Slider::isVertical()'],['../classToolbar.html#a2d55c4ec24c2341c7b47714534ed5e98',1,'Toolbar::isVertical()']]],
   ['isverticalscrollbarshown',['isVerticalScrollBarShown',['../classViewport.html#a395dad79d93fef08652fda138d70e345',1,'Viewport']]],
   ['isvisible',['isVisible',['../classComponent.html#a7ffb3de137ac4028e430a445c62a2d01',1,'Component']]],
+  ['isvoiceactive',['isVoiceActive',['../classSynthesiserVoice.html#a044669944c2660af21936687c78848d7',1,'SynthesiserVoice']]],
   ['isvoid',['isVoid',['../classvar.html#a09897cacaba26ba74e1f93a617fabed7',1,'var']]],
   ['iswaveburner',['isWaveBurner',['../classPluginHostType.html#a375b6011c769dfb0001c9b9a429c2b9a',1,'PluginHostType']]],
   ['iswavelab',['isWavelab',['../classPluginHostType.html#a52fdad69a0dedce71fec4ff7195110ed',1,'PluginHostType']]],
@@ -494,9 +495,9 @@ var searchData=
   ['iterate',['iterate',['../classEdgeTable.html#af2a5e19d16658853b61684af190e03f6',1,'EdgeTable']]],
   ['iterator',['Iterator',['../classListenerList_1_1Iterator.html',1,'ListenerList']]],
   ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html#a4a30662a2e2d79787da4cc7ff6f7df00',1,'MidiBuffer::Iterator::Iterator()'],['../classHashMap_1_1Iterator.html#a5688b78daa1734ef6cc29b81a545fcb0',1,'HashMap::Iterator::Iterator()'],['../classListenerList_1_1Iterator.html#aec6ff5dcf548392d46dd38b26168c79d',1,'ListenerList::Iterator::Iterator()'],['../classPath_1_1Iterator.html#a53108f853b4af5f975d870f24ad79f83',1,'Path::Iterator::Iterator()'],['../classCodeDocument_1_1Iterator.html#a350e1a7a64043f010e5467a1d862830f',1,'CodeDocument::Iterator::Iterator(const CodeDocument &amp;document) noexcept'],['../classCodeDocument_1_1Iterator.html#ae4ccddcd44ec79ac604a0abf4c5ea1e5',1,'CodeDocument::Iterator::Iterator(const Iterator &amp;) noexcept']]],
+  ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html',1,'MidiBuffer']]],
   ['iterator',['Iterator',['../classPath_1_1Iterator.html',1,'Path']]],
   ['iterator',['Iterator',['../classHashMap_1_1Iterator.html',1,'HashMap']]],
   ['iterator',['Iterator',['../classCodeDocument_1_1Iterator.html',1,'CodeDocument']]],
-  ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html',1,'MidiBuffer']]],
   ['ivory',['ivory',['../classColours.html#a97ea5f64838c6c2d1301c32108e830d3',1,'Colours']]]
 ];

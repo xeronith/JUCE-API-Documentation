@@ -117,6 +117,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae1faf9289de24cdeb1d42289754601e6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#ae1faf9289de24cdeb1d42289754601e6">stopNote</a> (float velocity, bool allowTailOff)=0</td></tr>
 <tr class="memdesc:ae1faf9289de24cdeb1d42289754601e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to stop a note.  <a href="#ae1faf9289de24cdeb1d42289754601e6"></a><br/></td></tr>
 <tr class="separator:ae1faf9289de24cdeb1d42289754601e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a044669944c2660af21936687c78848d7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a044669944c2660af21936687c78848d7">isVoiceActive</a> () const </td></tr>
+<tr class="memdesc:a044669944c2660af21936687c78848d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this voice is currently busy playing a sound.  <a href="#a044669944c2660af21936687c78848d7"></a><br/></td></tr>
+<tr class="separator:a044669944c2660af21936687c78848d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca1eda7413a8709c1fc70a9255e48e91"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#aca1eda7413a8709c1fc70a9255e48e91">pitchWheelMoved</a> (int newPitchWheelValue)=0</td></tr>
 <tr class="memdesc:aca1eda7413a8709c1fc70a9255e48e91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to let the voice know that the pitch wheel has been moved.  <a href="#aca1eda7413a8709c1fc70a9255e48e91"></a><br/></td></tr>
 <tr class="separator:aca1eda7413a8709c1fc70a9255e48e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -374,6 +377,32 @@ Protected Member Functions</h2></td></tr>
 <p>If allowTailOff is true and the voice decides to do a tail-off, then it's allowed to begin fading out its sound, and it can stop playing until it's finished. As soon as it finishes playing (during the rendering callback), it must make sure that it calls <a class="el" href="classSynthesiserVoice.html#a55d1e7a062f8dc9a6cd78526b0da049c" title="Resets the state of this voice after a sound has finished playing.">clearCurrentNote()</a>. </p>
 
 <p>Implemented in <a class="el" href="classSamplerVoice.html#ae123962ddd9c090cc53c702544a21e27">SamplerVoice</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a044669944c2660af21936687c78848d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool SynthesiserVoice::isVoiceActive </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if this voice is currently busy playing a sound. </p>
+<p>By default this just checks the <a class="el" href="classSynthesiserVoice.html#ac7e8ff1dc70d3ff90b4a96dae9dd7757" title="Returns the midi note that this voice is currently playing.">getCurrentlyPlayingNote()</a> value, but can be overridden for more advanced checking. </p>
 
 </div>
 </div>

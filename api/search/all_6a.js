@@ -305,6 +305,7 @@ var searchData=
   ['juce_5fmodal_5floops_5fpermitted',['JUCE_MODAL_LOOPS_PERMITTED',['../juce__PlatformDefs_8h.html#ab78bf674b269119c2890d4bea40082b5',1,'juce_PlatformDefs.h']]],
   ['juce_5fmodalcomponentmanager_2eh',['juce_ModalComponentManager.h',['../juce__ModalComponentManager_8h.html',1,'']]],
   ['juce_5fmodifierkeys_2eh',['juce_ModifierKeys.h',['../juce__ModifierKeys_8h.html',1,'']]],
+  ['juce_5fmountedvolumelistchangedetector_2eh',['juce_MountedVolumeListChangeDetector.h',['../juce__MountedVolumeListChangeDetector_8h.html',1,'']]],
   ['juce_5fmousecursor_2eh',['juce_MouseCursor.h',['../juce__MouseCursor_8h.html',1,'']]],
   ['juce_5fmouseevent_2eh',['juce_MouseEvent.h',['../juce__MouseEvent_8h.html',1,'']]],
   ['juce_5fmouseinactivitydetector_2eh',['juce_MouseInactivityDetector.h',['../juce__MouseInactivityDetector_8h.html',1,'']]],

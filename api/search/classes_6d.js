@@ -36,6 +36,7 @@ var searchData=
   ['modalcallbackfunction',['ModalCallbackFunction',['../classModalCallbackFunction.html',1,'']]],
   ['modalcomponentmanager',['ModalComponentManager',['../classModalComponentManager.html',1,'']]],
   ['modifierkeys',['ModifierKeys',['../classModifierKeys.html',1,'']]],
+  ['mountedvolumelistchangedetector',['MountedVolumeListChangeDetector',['../classMountedVolumeListChangeDetector.html',1,'']]],
   ['mousecursor',['MouseCursor',['../classMouseCursor.html',1,'']]],
   ['mouseevent',['MouseEvent',['../classMouseEvent.html',1,'']]],
   ['mouseinactivitydetector',['MouseInactivityDetector',['../classMouseInactivityDetector.html',1,'']]],

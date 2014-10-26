@@ -250,6 +250,7 @@ var searchData=
   ['juce_5fmixeraudiosource_2eh',['juce_MixerAudioSource.h',['../juce__MixerAudioSource_8h.html',1,'']]],
   ['juce_5fmodalcomponentmanager_2eh',['juce_ModalComponentManager.h',['../juce__ModalComponentManager_8h.html',1,'']]],
   ['juce_5fmodifierkeys_2eh',['juce_ModifierKeys.h',['../juce__ModifierKeys_8h.html',1,'']]],
+  ['juce_5fmountedvolumelistchangedetector_2eh',['juce_MountedVolumeListChangeDetector.h',['../juce__MountedVolumeListChangeDetector_8h.html',1,'']]],
   ['juce_5fmousecursor_2eh',['juce_MouseCursor.h',['../juce__MouseCursor_8h.html',1,'']]],
   ['juce_5fmouseevent_2eh',['juce_MouseEvent.h',['../juce__MouseEvent_8h.html',1,'']]],
   ['juce_5fmouseinactivitydetector_2eh',['juce_MouseInactivityDetector.h',['../juce__MouseInactivityDetector_8h.html',1,'']]],

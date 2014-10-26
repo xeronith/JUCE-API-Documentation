@@ -391,6 +391,7 @@ var searchData=
   ['isvertical',['isVertical',['../classLine.html#acf1d4f45d3f48b6d3540e19ecd9897c5',1,'Line::isVertical()'],['../classResizableEdgeComponent.html#ae282b5d542d717f6b043f61d7283ca6a',1,'ResizableEdgeComponent::isVertical()'],['../classScrollBar.html#a3e3ffc36d969185c06382f98996de425',1,'ScrollBar::isVertical()'],['../classTabbedButtonBar.html#a934df0eba879391671c70e884e06414c',1,'TabbedButtonBar::isVertical()'],['../classSlider.html#a105d005078031e28d8e23d52d194bcde',1,'Slider::isVertical()'],['../classToolbar.html#a2d55c4ec24c2341c7b47714534ed5e98',1,'Toolbar::isVertical()']]],
   ['isverticalscrollbarshown',['isVerticalScrollBarShown',['../classViewport.html#a395dad79d93fef08652fda138d70e345',1,'Viewport']]],
   ['isvisible',['isVisible',['../classComponent.html#a7ffb3de137ac4028e430a445c62a2d01',1,'Component']]],
+  ['isvoiceactive',['isVoiceActive',['../classSynthesiserVoice.html#a044669944c2660af21936687c78848d7',1,'SynthesiserVoice']]],
   ['isvoid',['isVoid',['../classvar.html#a09897cacaba26ba74e1f93a617fabed7',1,'var']]],
   ['iswaveburner',['isWaveBurner',['../classPluginHostType.html#a375b6011c769dfb0001c9b9a429c2b9a',1,'PluginHostType']]],
   ['iswavelab',['isWavelab',['../classPluginHostType.html#a52fdad69a0dedce71fec4ff7195110ed',1,'PluginHostType']]],
