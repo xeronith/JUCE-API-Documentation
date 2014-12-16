@@ -36,7 +36,7 @@ var searchData=
   ['descriptivename',['descriptiveName',['../classPluginDescription.html#a93ddf8b86e68316fc4746eb89c00b52c',1,'PluginDescription']]],
   ['destchannelindex',['destChannelIndex',['../structAudioProcessorGraph_1_1Connection.html#a542e23f5e9b746d2b13485545cce791e',1,'AudioProcessorGraph::Connection']]],
   ['destnodeid',['destNodeId',['../structAudioProcessorGraph_1_1Connection.html#a7f1b8d717bcb7f30c1ebc45e553ba20a',1,'AudioProcessorGraph::Connection']]],
-  ['devicemanager',['deviceManager',['../classStandalonePluginHolder.html#a6fb1eb9dcabd5f5d6e2c52a44296e017',1,'StandalonePluginHolder::deviceManager()'],['../classAudioDeviceSelectorComponent.html#a1d55ccd0985a42f37b5683f609b65386',1,'AudioDeviceSelectorComponent::deviceManager()']]],
+  ['devicemanager',['deviceManager',['../classStandalonePluginHolder.html#a6fb1eb9dcabd5f5d6e2c52a44296e017',1,'StandalonePluginHolder::deviceManager()'],['../classAudioAppComponent.html#a7c6fe5879b27390cefd4aacf1201c745',1,'AudioAppComponent::deviceManager()'],['../classAudioDeviceSelectorComponent.html#a1d55ccd0985a42f37b5683f609b65386',1,'AudioDeviceSelectorComponent::deviceManager()']]],
   ['dialogbackgroundcolour',['dialogBackgroundColour',['../structDialogWindow_1_1LaunchOptions.html#a301462bfb1591667490f392113225083',1,'DialogWindow::LaunchOptions']]],
   ['dialogtitle',['dialogTitle',['../structDialogWindow_1_1LaunchOptions.html#ac9b19e68e10b4d64b2bb9c37b460afbf',1,'DialogWindow::LaunchOptions']]],
   ['dimgrey',['dimgrey',['../classColours.html#a737012c7670ba25ccc7bee5ba96c3d2b',1,'Colours']]],

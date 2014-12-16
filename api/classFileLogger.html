@@ -124,6 +124,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:addb33c331b16dca4b732558b44c1fab7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileLogger.html#addb33c331b16dca4b732558b44c1fab7">getSystemLogFileFolder</a> ()</td></tr>
 <tr class="memdesc:addb33c331b16dca4b732558b44c1fab7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an OS-specific folder where log-files should be stored.  <a href="#addb33c331b16dca4b732558b44c1fab7"></a><br/></td></tr>
 <tr class="separator:addb33c331b16dca4b732558b44c1fab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0224c141681c9fd2ec850aed189b65f8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileLogger.html#a0224c141681c9fd2ec850aed189b65f8">trimFileSize</a> (const <a class="el" href="classFile.html">File</a> &amp;file, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> maxFileSize)</td></tr>
+<tr class="memdesc:a0224c141681c9fd2ec850aed189b65f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a utility function which removes lines from the start of a text file to make sure that its total size is below the given size.  <a href="#a0224c141681c9fd2ec850aed189b65f8"></a><br/></td></tr>
+<tr class="separator:a0224c141681c9fd2ec850aed189b65f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classLogger"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classLogger')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classLogger.html">Logger</a></td></tr>
 <tr class="memitem:a5855a0341fc4f6ceb5418879fd685277 inherit pub_static_methods_classLogger"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogger.html#a5855a0341fc4f6ceb5418879fd685277">setCurrentLogger</a> (<a class="el" href="classLogger.html">Logger</a> *newLogger) noexcept</td></tr>
 <tr class="memdesc:a5855a0341fc4f6ceb5418879fd685277 inherit pub_static_methods_classLogger"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the current logging class to use.  <a href="#a5855a0341fc4f6ceb5418879fd685277"></a><br/></td></tr>
@@ -404,6 +407,42 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classLogger.html#a5855a0341fc4f6ceb5418879fd685277" title="Sets the current logging class to use.">setCurrentLogger</a> </dd></dl>
 
 <p>Implements <a class="el" href="classLogger.html#ab2ef7f6552d425bf729b7d1a7ed5160f">Logger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0224c141681c9fd2ec850aed189b65f8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void FileLogger::trimFileSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classFile.html">File</a> &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td>
+          <td class="paramname"><em>maxFileSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is a utility function which removes lines from the start of a text file to make sure that its total size is below the given size. </p>
 
 </div>
 </div>

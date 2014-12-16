@@ -112,6 +112,7 @@ var searchData=
   ['trimcharactersatend',['trimCharactersAtEnd',['../classString.html#a43b272afe8e764cb0546d094f22b8162',1,'String']]],
   ['trimcharactersatstart',['trimCharactersAtStart',['../classString.html#ac80770a27fd6b233e0cefc750f7f42e0',1,'String']]],
   ['trimend',['trimEnd',['../classString.html#a87ccf2ec72c1a478e69d44495c367194',1,'String']]],
+  ['trimfilesize',['trimFileSize',['../classFileLogger.html#a0224c141681c9fd2ec850aed189b65f8',1,'FileLogger']]],
   ['trimstart',['trimStart',['../classString.html#afc8c1ef8badb8787ca6057506ad9b742',1,'String']]],
   ['truncate',['truncate',['../classFileOutputStream.html#a663c7e264306c74ed58f2639acec5797',1,'FileOutputStream']]],
   ['tryenter',['tryEnter',['../classCriticalSection.html#a2c12101da7ebf8455de49652f377d313',1,'CriticalSection::tryEnter()'],['../classDummyCriticalSection.html#a55f19ff3a0b0f91a1d025939d1c03a3c',1,'DummyCriticalSection::tryEnter()'],['../classSpinLock.html#a4581a24b50dad1a9803b19f65af70aaf',1,'SpinLock::tryEnter()']]],

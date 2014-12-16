@@ -206,6 +206,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1508e0d3dd2048dc5304721bee6ee2c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#a1508e0d3dd2048dc5304721bee6ee2c1">addTriangle</a> (float x1, float y1, float x2, float y2, float x3, float y3)</td></tr>
 <tr class="memdesc:a1508e0d3dd2048dc5304721bee6ee2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a triangle to the path.  <a href="#a1508e0d3dd2048dc5304721bee6ee2c1"></a><br/></td></tr>
 <tr class="separator:a1508e0d3dd2048dc5304721bee6ee2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5916146ffb0f70bbba6a4c72b7f0c3f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#a5916146ffb0f70bbba6a4c72b7f0c3f1">addTriangle</a> (<a class="el" href="classPoint.html">Point</a>&lt; float &gt; point1, <a class="el" href="classPoint.html">Point</a>&lt; float &gt; point2, <a class="el" href="classPoint.html">Point</a>&lt; float &gt; point3)</td></tr>
+<tr class="memdesc:a5916146ffb0f70bbba6a4c72b7f0c3f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a triangle to the path.  <a href="#a5916146ffb0f70bbba6a4c72b7f0c3f1"></a><br/></td></tr>
+<tr class="separator:a5916146ffb0f70bbba6a4c72b7f0c3f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aced2dafcb8a12f73fcffe032def577be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#aced2dafcb8a12f73fcffe032def577be">addQuadrilateral</a> (float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4)</td></tr>
 <tr class="memdesc:aced2dafcb8a12f73fcffe032def577be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a quadrilateral to the path.  <a href="#aced2dafcb8a12f73fcffe032def577be"></a><br/></td></tr>
 <tr class="separator:aced2dafcb8a12f73fcffe032def577be"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1416,6 +1419,42 @@ template&lt;typename ValueType &gt; </div>
           <td></td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>y3</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a triangle to the path. </p>
+<p>The triangle is added as a new closed sub-path. (Any currently open paths will be left open).</p>
+<p>Note that whether the vertices are specified in clockwise or anticlockwise order will affect how the triangle is filled when it overlaps other shapes (the winding order setting will affect this of course). </p>
+
+</div>
+</div>
+<a class="anchor" id="a5916146ffb0f70bbba6a4c72b7f0c3f1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Path::addTriangle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; float &gt;&#160;</td>
+          <td class="paramname"><em>point1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; float &gt;&#160;</td>
+          <td class="paramname"><em>point2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; float &gt;&#160;</td>
+          <td class="paramname"><em>point3</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

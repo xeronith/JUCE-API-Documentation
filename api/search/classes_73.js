@@ -96,6 +96,7 @@ var searchData=
   ['scopedpointer_3c_20tablemodel_20_3e',['ScopedPointer&lt; TableModel &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20targetgrouphighlight_20_3e',['ScopedPointer&lt; TargetGroupHighlight &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20texteditor_20_3e',['ScopedPointer&lt; TextEditor &gt;',['../classScopedPointer.html',1,'']]],
+  ['scopedpointer_3c_20timer_20_3e',['ScopedPointer&lt; Timer &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20toplevelitem_20_3e',['ScopedPointer&lt; TopLevelItem &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20treeviewport_20_3e',['ScopedPointer&lt; TreeViewport &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20viewport_20_3e',['ScopedPointer&lt; Viewport &gt;',['../classScopedPointer.html',1,'']]],

@@ -93,7 +93,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Makes repeated callbacks to a virtual method at a specified time interval.  
  <a href="classTimer.html#details">More...</a></p>
 
-<p>Inherited by <a class="el" href="classAnimatedPosition.html">AnimatedPosition&lt; Behaviour &gt;</a><code> [private]</code>, <a class="el" href="classBubbleMessageComponent.html">BubbleMessageComponent</a><code> [private]</code>, <a class="el" href="classCaretComponent.html">CaretComponent</a><code> [private]</code>, <a class="el" href="classComponentAnimator.html">ComponentAnimator</a><code> [private]</code>, <a class="el" href="classDesktop.html">Desktop</a><code> [private]</code>, <a class="el" href="classImagePreviewComponent.html">ImagePreviewComponent</a><code> [private]</code>, <a class="el" href="classMenuBarComponent.html">MenuBarComponent</a><code> [private]</code>, <a class="el" href="classMidiKeyboardComponent.html">MidiKeyboardComponent</a><code> [private]</code>, <a class="el" href="classMouseInactivityDetector.html">MouseInactivityDetector</a><code> [private]</code>, <a class="el" href="classProgressBar.html">ProgressBar</a><code> [private]</code>, <a class="el" href="classPropertiesFile.html">PropertiesFile</a><code> [private]</code>, <a class="el" href="classScrollBar.html">ScrollBar</a><code> [private]</code>, <a class="el" href="classSplashScreen.html">SplashScreen</a><code> [private]</code>, <a class="el" href="classThreadWithProgressWindow.html">ThreadWithProgressWindow</a><code> [private]</code>, and <a class="el" href="classTooltipWindow.html">TooltipWindow</a><code> [private]</code>.</p>
+<p>Inherited by <a class="el" href="classAnimatedAppComponent.html">AnimatedAppComponent</a><code> [private]</code>, <a class="el" href="classAnimatedPosition.html">AnimatedPosition&lt; Behaviour &gt;</a><code> [private]</code>, <a class="el" href="classBubbleMessageComponent.html">BubbleMessageComponent</a><code> [private]</code>, <a class="el" href="classCaretComponent.html">CaretComponent</a><code> [private]</code>, <a class="el" href="classComponentAnimator.html">ComponentAnimator</a><code> [private]</code>, <a class="el" href="classDesktop.html">Desktop</a><code> [private]</code>, <a class="el" href="classImagePreviewComponent.html">ImagePreviewComponent</a><code> [private]</code>, <a class="el" href="classMenuBarComponent.html">MenuBarComponent</a><code> [private]</code>, <a class="el" href="classMidiKeyboardComponent.html">MidiKeyboardComponent</a><code> [private]</code>, <a class="el" href="classMouseInactivityDetector.html">MouseInactivityDetector</a><code> [private]</code>, <a class="el" href="classProgressBar.html">ProgressBar</a><code> [private]</code>, <a class="el" href="classPropertiesFile.html">PropertiesFile</a><code> [private]</code>, <a class="el" href="classScrollBar.html">ScrollBar</a><code> [private]</code>, <a class="el" href="classSplashScreen.html">SplashScreen</a><code> [private]</code>, <a class="el" href="classThreadWithProgressWindow.html">ThreadWithProgressWindow</a><code> [private]</code>, and <a class="el" href="classTooltipWindow.html">TooltipWindow</a><code> [private]</code>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -106,11 +106,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3b1a51ac348c56a55fcef4570214f057"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTimer.html#a3b1a51ac348c56a55fcef4570214f057">startTimer</a> (int intervalInMilliseconds) noexcept</td></tr>
 <tr class="memdesc:a3b1a51ac348c56a55fcef4570214f057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the timer and sets the length of interval required.  <a href="#a3b1a51ac348c56a55fcef4570214f057"></a><br/></td></tr>
 <tr class="separator:a3b1a51ac348c56a55fcef4570214f057"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a457efb22cb11b8518b18a0e8f02d818b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTimer.html#a457efb22cb11b8518b18a0e8f02d818b">startTimerHz</a> (int timerFrequencyHz) noexcept</td></tr>
+<tr class="memdesc:a457efb22cb11b8518b18a0e8f02d818b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the timer with an interval specified in Hertz.  <a href="#a457efb22cb11b8518b18a0e8f02d818b"></a><br/></td></tr>
+<tr class="separator:a457efb22cb11b8518b18a0e8f02d818b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab918b8c1f80bf1de92dd1a5878f498bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTimer.html#ab918b8c1f80bf1de92dd1a5878f498bd">stopTimer</a> () noexcept</td></tr>
 <tr class="memdesc:ab918b8c1f80bf1de92dd1a5878f498bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops the timer.  <a href="#ab918b8c1f80bf1de92dd1a5878f498bd"></a><br/></td></tr>
 <tr class="separator:ab918b8c1f80bf1de92dd1a5878f498bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11b80f425e27ea9899e05b104e2df07a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTimer.html#a11b80f425e27ea9899e05b104e2df07a">isTimerRunning</a> () const noexcept</td></tr>
-<tr class="memdesc:a11b80f425e27ea9899e05b104e2df07a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the timer has been started.  <a href="#a11b80f425e27ea9899e05b104e2df07a"></a><br/></td></tr>
+<tr class="memdesc:a11b80f425e27ea9899e05b104e2df07a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the timer is currently running.  <a href="#a11b80f425e27ea9899e05b104e2df07a"></a><br/></td></tr>
 <tr class="separator:a11b80f425e27ea9899e05b104e2df07a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3515b6e7a1e3777965e35686eaeb2da7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTimer.html#a3515b6e7a1e3777965e35686eaeb2da7">getTimerInterval</a> () const noexcept</td></tr>
 <tr class="memdesc:a3515b6e7a1e3777965e35686eaeb2da7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the timer's interval.  <a href="#a3515b6e7a1e3777965e35686eaeb2da7"></a><br/></td></tr>
@@ -276,6 +279,33 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
+</div>
+</div>
+<a class="anchor" id="a457efb22cb11b8518b18a0e8f02d818b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Timer::startTimerHz </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>timerFrequencyHz</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Starts the timer with an interval specified in Hertz. </p>
+<p>This is effectively the same as calling startTimer (1000 / timerFrequencyHz). </p>
+
 <p>Referenced by <a class="el" href="classAnimatedPosition.html#a31520fda363c37afac010416dab7707f">AnimatedPosition&lt; Behaviour &gt;::endDrag()</a>, and <a class="el" href="classAnimatedPosition.html#aa58f2a396a133f7325322b5eeb9b1d3b">AnimatedPosition&lt; Behaviour &gt;::nudge()</a>.</p>
 
 </div>
@@ -330,8 +360,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Checks if the timer has been started. </p>
-<dl class="section return"><dt>Returns</dt><dd>true if the timer is running. </dd></dl>
+<p>Returns true if the timer is currently running. </p>
 
 </div>
 </div>

@@ -17,6 +17,7 @@ var searchData=
   ['unittestrunner',['UnitTestRunner',['../classUnitTestRunner.html#ae0e3c870085be83f4821127b99269d78',1,'UnitTestRunner']]],
   ['unpremultiply',['unpremultiply',['../classPixelARGB.html#a6270aec4f8b98a22f3487be2b8db4dc2',1,'PixelARGB::unpremultiply()'],['../classPixelRGB.html#a43bd818ac8d55e02b8b3e14cc865a1b7',1,'PixelRGB::unpremultiply()'],['../classPixelAlpha.html#a739f660b3d4b93d86bf99e791aea1999',1,'PixelAlpha::unpremultiply()']]],
   ['unquoted',['unquoted',['../classString.html#a3f11c24fd2d9f5d2ba5d964a7f69dd63',1,'String']]],
+  ['update',['update',['../classAnimatedAppComponent.html#a52d801c9046583cce9cdea2811cad364',1,'AnimatedAppComponent']]],
   ['updateallitempositions',['updateAllItemPositions',['../classToolbar.html#a754c6bad431c7e3a2fa35c6edda41ab5',1,'Toolbar']]],
   ['updatebounds',['updateBounds',['../classComponentPeer.html#a9c0ef89ac8f2a9b8906a7dbe3e4cabe7',1,'ComponentPeer']]],
   ['updatechildcomponents',['updateChildComponents',['../classComponentBuilder.html#ada58c44d9f924f56b43f9552c537f30a',1,'ComponentBuilder']]],

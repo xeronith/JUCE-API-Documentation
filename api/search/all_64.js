@@ -93,7 +93,7 @@ var searchData=
   ['destroy',['destroy',['../structContainerDeletePolicy.html#adff767e9533d0e7bdd8bc914d21eb01a',1,'ContainerDeletePolicy']]],
   ['desttype',['DestType',['../structAudioFormatReader_1_1ReadHelper.html#a0084d44db12183607466fe09e4829f67',1,'AudioFormatReader::ReadHelper::DestType()'],['../structAudioFormatWriter_1_1WriteHelper.html#a5b7c59617fd96d69dee0062368e7f3e0',1,'AudioFormatWriter::WriteHelper::DestType()']]],
   ['detach',['detach',['../classOpenGLContext.html#a7504aa8928c854732090ee9583e9f37d',1,'OpenGLContext']]],
-  ['devicemanager',['deviceManager',['../classStandalonePluginHolder.html#a6fb1eb9dcabd5f5d6e2c52a44296e017',1,'StandalonePluginHolder::deviceManager()'],['../classAudioDeviceSelectorComponent.html#a1d55ccd0985a42f37b5683f609b65386',1,'AudioDeviceSelectorComponent::deviceManager()']]],
+  ['devicemanager',['deviceManager',['../classStandalonePluginHolder.html#a6fb1eb9dcabd5f5d6e2c52a44296e017',1,'StandalonePluginHolder::deviceManager()'],['../classAudioAppComponent.html#a7c6fe5879b27390cefd4aacf1201c745',1,'AudioAppComponent::deviceManager()'],['../classAudioDeviceSelectorComponent.html#a1d55ccd0985a42f37b5683f609b65386',1,'AudioDeviceSelectorComponent::deviceManager()']]],
   ['dialogbackgroundcolour',['dialogBackgroundColour',['../structDialogWindow_1_1LaunchOptions.html#a301462bfb1591667490f392113225083',1,'DialogWindow::LaunchOptions']]],
   ['dialogtitle',['dialogTitle',['../structDialogWindow_1_1LaunchOptions.html#ac9b19e68e10b4d64b2bb9c37b460afbf',1,'DialogWindow::LaunchOptions']]],
   ['dialogwindow',['DialogWindow',['../classDialogWindow.html',1,'DialogWindow'],['../classDialogWindow.html#a30c37c6a684edc50b8b63ec72ddd2793',1,'DialogWindow::DialogWindow()']]],

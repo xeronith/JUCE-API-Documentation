@@ -125,6 +125,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a94f735f686b6c55ba5e5996763517b8d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWebBrowserComponent.html#a94f735f686b6c55ba5e5996763517b8d">windowCloseRequest</a> ()</td></tr>
 <tr class="memdesc:a94f735f686b6c55ba5e5996763517b8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback occurs when a script or other activity in the browser asks for the window to be closed.  <a href="#a94f735f686b6c55ba5e5996763517b8d"></a><br/></td></tr>
 <tr class="separator:a94f735f686b6c55ba5e5996763517b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d441e5a7f31ea77ac0a013482de4442"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWebBrowserComponent.html#a3d441e5a7f31ea77ac0a013482de4442">newWindowAttemptingToLoad</a> (const <a class="el" href="classString.html">String</a> &amp;newURL)</td></tr>
+<tr class="memdesc:a3d441e5a7f31ea77ac0a013482de4442"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback occurs when the browser attempts to load a <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a> in a new window.  <a href="#a3d441e5a7f31ea77ac0a013482de4442"></a><br/></td></tr>
+<tr class="separator:a3d441e5a7f31ea77ac0a013482de4442"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45057a2af002dee5e327faa6d3576d19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWebBrowserComponent.html#a45057a2af002dee5e327faa6d3576d19">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;) override</td></tr>
 <tr class="separator:a45057a2af002dee5e327faa6d3576d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cb3ce4059be47375aa3e25836277ccc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWebBrowserComponent.html#a5cb3ce4059be47375aa3e25836277ccc">resized</a> () override</td></tr>
@@ -133,6 +136,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aebd1e2e27af2ff9ee86ae459f2a0d406"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad268bcdb0288fdba6fbeb5023532ccfa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWebBrowserComponent.html#ad268bcdb0288fdba6fbeb5023532ccfa">visibilityChanged</a> () override</td></tr>
 <tr class="separator:ad268bcdb0288fdba6fbeb5023532ccfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0353e28029daad4a95144e0a7706c84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWebBrowserComponent.html#af0353e28029daad4a95144e0a7706c84">focusGained</a> (<a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac">FocusChangeType</a>) override</td></tr>
+<tr class="separator:af0353e28029daad4a95144e0a7706c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classComponent"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classComponent')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classComponent.html">Component</a></td></tr>
 <tr class="memitem:a5ee1827aaa22388d22da5200b70eeeee inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a5ee1827aaa22388d22da5200b70eeeee">Component</a> () noexcept</td></tr>
 <tr class="memdesc:a5ee1827aaa22388d22da5200b70eeeee inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a component.  <a href="#a5ee1827aaa22388d22da5200b70eeeee"></a><br/></td></tr>
@@ -567,9 +572,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4145c1c28dd2ae42b19c9c3e0a6aba7b inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a4145c1c28dd2ae42b19c9c3e0a6aba7b">modifierKeysChanged</a> (const <a class="el" href="classModifierKeys.html">ModifierKeys</a> &amp;modifiers)</td></tr>
 <tr class="memdesc:a4145c1c28dd2ae42b19c9c3e0a6aba7b inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a modifier key is pressed or released.  <a href="#a4145c1c28dd2ae42b19c9c3e0a6aba7b"></a><br/></td></tr>
 <tr class="separator:a4145c1c28dd2ae42b19c9c3e0a6aba7b inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a408d41f1499a2ebdd4bbc8d4004c7727 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a408d41f1499a2ebdd4bbc8d4004c7727">focusGained</a> (<a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac">FocusChangeType</a> cause)</td></tr>
-<tr class="memdesc:a408d41f1499a2ebdd4bbc8d4004c7727 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to indicate that this component has just acquired the keyboard focus.  <a href="#a408d41f1499a2ebdd4bbc8d4004c7727"></a><br/></td></tr>
-<tr class="separator:a408d41f1499a2ebdd4bbc8d4004c7727 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36456ea9d5a14172d6e96527ec1f59c8 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a36456ea9d5a14172d6e96527ec1f59c8">focusLost</a> (<a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac">FocusChangeType</a> cause)</td></tr>
 <tr class="memdesc:a36456ea9d5a14172d6e96527ec1f59c8 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to indicate that this component has just lost the keyboard focus.  <a href="#a36456ea9d5a14172d6e96527ec1f59c8"></a><br/></td></tr>
 <tr class="separator:a36456ea9d5a14172d6e96527ec1f59c8 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -955,6 +957,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a3d441e5a7f31ea77ac0a013482de4442"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void WebBrowserComponent::newWindowAttemptingToLoad </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>newURL</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This callback occurs when the browser attempts to load a <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a> in a new window. </p>
+<p>This won't actually load the window but gives you a chance to either launch a new window yourself or just load the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a> into the current window with <a class="el" href="classWebBrowserComponent.html#a703f3232f580d72125dea4db8e5a0512" title="Sends the browser to a particular URL.">goToURL()</a>. </p>
+
+</div>
+</div>
 <a class="anchor" id="a45057a2af002dee5e327faa6d3576d19"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1053,6 +1082,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classComponent.html#a3859d7aacb18fd51b2fc3e0c51680d1c">Component</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af0353e28029daad4a95144e0a7706c84"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WebBrowserComponent::focusGained </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac">FocusChangeType</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classComponent.html#a408d41f1499a2ebdd4bbc8d4004c7727">Component</a>.</p>
 
 </div>
 </div>

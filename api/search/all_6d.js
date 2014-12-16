@@ -1,6 +1,7 @@
 var searchData=
 [
   ['macaddress',['MACAddress',['../classMACAddress.html',1,'MACAddress'],['../classMACAddress.html#a155b01d9d9c04fbe13ea9b821519b571',1,'MACAddress::MACAddress()'],['../classMACAddress.html#a64a1be2404e971a341b3f8ef766ac13a',1,'MACAddress::MACAddress(const MACAddress &amp;)'],['../classMACAddress.html#aeabd33e9cbb643fc35c4caea9ed5fd41',1,'MACAddress::MACAddress(const uint8 bytes[6])']]],
+  ['macosx_5f10_5f10',['MacOSX_10_10',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaacd0e709dec55d23e96ac9fc93438c61b',1,'SystemStats']]],
   ['macosx_5f10_5f4',['MacOSX_10_4',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaa1ce7cc1fe386e7fa87013cbddf52543f',1,'SystemStats']]],
   ['macosx_5f10_5f5',['MacOSX_10_5',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaa12c47314def418879ea14c9d7b3c7245',1,'SystemStats']]],
   ['macosx_5f10_5f6',['MacOSX_10_6',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaa23c2a4b9a33a4b5dccb9d89491aff8ca',1,'SystemStats']]],
@@ -83,7 +84,7 @@ var searchData=
   ['menuitemschanged',['menuItemsChanged',['../classMenuBarModel.html#aac9cef411b80f8b5ab1dc4572ec90019',1,'MenuBarModel']]],
   ['menuitemselected',['menuItemSelected',['../classMenuBarModel.html#aa64b5b9bb4ea4e7bcdc49924659936cc',1,'MenuBarModel']]],
   ['mergingpyramix',['MergingPyramix',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a79118c5e7151a052192d3ca470baed90',1,'PluginHostType']]],
-  ['message',['Message',['../classMessage.html',1,'Message'],['../classMessage.html#a223b9a5452992205c5afd647dc3faa25',1,'Message::Message()'],['../classMidiMessageSequence_1_1MidiEventHolder.html#a4d9cf307bd15a6abb4e98cfe03f8f580',1,'MidiMessageSequence::MidiEventHolder::message()']]],
+  ['message',['Message',['../classMessage.html',1,'Message'],['../classMidiMessageSequence_1_1MidiEventHolder.html#a4d9cf307bd15a6abb4e98cfe03f8f580',1,'MidiMessageSequence::MidiEventHolder::message()'],['../classMessage.html#a223b9a5452992205c5afd647dc3faa25',1,'Message::Message()']]],
   ['messagebase',['MessageBase',['../classMessageManager_1_1MessageBase.html',1,'MessageManager']]],
   ['messagebase',['MessageBase',['../classMessageManager_1_1MessageBase.html#aa6778b8af6b43e189e8e9d5136609bdc',1,'MessageManager::MessageBase']]],
   ['messagecallback',['messageCallback',['../classCallbackMessage.html#a1f72c1e680e26f44780ac9437f3450de',1,'CallbackMessage::messageCallback()'],['../classMessageManager_1_1MessageBase.html#a3cbc8f5a0aa7496a7653fa3c0fd49232',1,'MessageManager::MessageBase::messageCallback()']]],
@@ -144,7 +145,7 @@ var searchData=
   ['mmc_5frewind',['mmc_rewind',['../classMidiMessage.html#aa95b060274257522d1af40794ad1631da8ab7de3ea5e060435d0d420630cdd40b',1,'MidiMessage']]],
   ['mmc_5fstop',['mmc_stop',['../classMidiMessage.html#aa95b060274257522d1af40794ad1631da155f2d18fc89378f6cc9c4982db67bac',1,'MidiMessage']]],
   ['modalcallbackfunction',['ModalCallbackFunction',['../classModalCallbackFunction.html',1,'']]],
-  ['modalcomponentmanager',['ModalComponentManager',['../classModalComponentManager.html',1,'ModalComponentManager'],['../classModalComponentManager.html#aaf0be23075467f26330a77781e1f3ed9',1,'ModalComponentManager::ModalComponentManager()']]],
+  ['modalcomponentmanager',['ModalComponentManager',['../classModalComponentManager.html',1,'']]],
   ['modalstatefinished',['modalStateFinished',['../classModalComponentManager_1_1Callback.html#ad44cd3225753579084bdb3ba7bd8e625',1,'ModalComponentManager::Callback']]],
   ['mode',['mode',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html#a911a7f8c73d60b650f815e64f6d2684f',1,'DrawablePath::ValueTreeWrapper::Element']]],
   ['modificationtime',['modificationTime',['../structDirectoryContentsList_1_1FileInfo.html#a35f194ff92e35671d7616d1d9e1524b7',1,'DirectoryContentsList::FileInfo']]],

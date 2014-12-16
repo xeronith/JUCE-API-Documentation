@@ -151,6 +151,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3974f5b9d28d360ac657df3b42082f5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classURL.html">URL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a3974f5b9d28d360ac657df3b42082f5d">withParameter</a> (const <a class="el" href="classString.html">String</a> &amp;parameterName, const <a class="el" href="classString.html">String</a> &amp;parameterValue) const </td></tr>
 <tr class="memdesc:a3974f5b9d28d360ac657df3b42082f5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>, with a GET or POST parameter added to the end.  <a href="#a3974f5b9d28d360ac657df3b42082f5d"></a><br/></td></tr>
 <tr class="separator:a3974f5b9d28d360ac657df3b42082f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff10c968ce8319434aeef4200fd3847b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classURL.html">URL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#aff10c968ce8319434aeef4200fd3847b">withParameters</a> (const <a class="el" href="classStringPairArray.html">StringPairArray</a> &amp;parametersToAdd) const </td></tr>
+<tr class="memdesc:aff10c968ce8319434aeef4200fd3847b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>, with a set of GET or POST parameters added.  <a href="#aff10c968ce8319434aeef4200fd3847b"></a><br/></td></tr>
+<tr class="separator:aff10c968ce8319434aeef4200fd3847b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a341a3e78e1b831a33cf5a8a191573725"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classURL.html">URL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a341a3e78e1b831a33cf5a8a191573725">withFileToUpload</a> (const <a class="el" href="classString.html">String</a> &amp;parameterName, const <a class="el" href="classFile.html">File</a> &amp;fileToUpload, const <a class="el" href="classString.html">String</a> &amp;mimeType) const </td></tr>
 <tr class="memdesc:a341a3e78e1b831a33cf5a8a191573725"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>, with a file-upload type parameter added to it.  <a href="#a341a3e78e1b831a33cf5a8a191573725"></a><br/></td></tr>
 <tr class="separator:a341a3e78e1b831a33cf5a8a191573725"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -548,6 +551,26 @@ Static Public Member Functions</h2></td></tr>
 <p>Any control characters in the value will be encoded.</p>
 <p>e.g. calling "withParameter ("amount", "some fish") for the url "www.fish.com" would produce a new url whose toString(true) method would return "www.fish.com?amount=some+fish".</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classURL.html#a10a2d1604d0a3d86381a4b142624c662" title="Returns an array of the names of all the URL&#39;s parameters.">getParameterNames</a>, <a class="el" href="classURL.html#a61b5ddfaf16fd5ba305c22ccd13ee7ee" title="Returns an array of the values of all the URL&#39;s parameters.">getParameterValues</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aff10c968ce8319434aeef4200fd3847b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classURL.html">URL</a> URL::withParameters </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classStringPairArray.html">StringPairArray</a> &amp;&#160;</td>
+          <td class="paramname"><em>parametersToAdd</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a copy of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>, with a set of GET or POST parameters added. </p>
+<p>This is a convenience method, equivalent to calling withParameter for each value. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classURL.html#a3974f5b9d28d360ac657df3b42082f5d" title="Returns a copy of this URL, with a GET or POST parameter added to the end.">withParameter</a> </dd></dl>
 
 </div>
 </div>

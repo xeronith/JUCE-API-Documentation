@@ -130,7 +130,7 @@ Static Public Member Functions</h2></td></tr>
 <p>The parser will parse DTDs to load external entities but won't check the document for validity against the DTD.</p>
 <p>e.g. </p>
 <div class="fragment"><div class="line"><a class="code" href="classXmlDocument.html" title="Parses a text-based XML document and creates an XmlElement object from it.">XmlDocument</a> myDocument (<a class="code" href="classFile.html" title="Represents a local file or directory.">File</a> (<span class="stringliteral">&quot;myfile.xml&quot;</span>));</div>
-<div class="line"><a class="code" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document.">XmlElement</a>* mainElement = myDocument.getDocumentElement();</div>
+<div class="line"><a class="code" href="classScopedPointer.html">ScopedPointer&lt;XmlElement&gt;</a> mainElement (myDocument.getDocumentElement());</div>
 <div class="line"></div>
 <div class="line"><span class="keywordflow">if</span> (mainElement == <span class="keyword">nullptr</span>)</div>
 <div class="line">{</div>
@@ -141,9 +141,9 @@ Static Public Member Functions</h2></td></tr>
 <div class="line">    ..use the element</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>Or you can use the static helper methods for quick parsing..</p>
-<div class="fragment"><div class="line"><a class="code" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document.">XmlElement</a>* xml = <a class="code" href="classXmlDocument.html#ae14f9fc62e978ce7246922a84a568f20" title="A handy static method that parses a file.">XmlDocument::parse</a> (myXmlFile);</div>
+<div class="fragment"><div class="line"><a class="code" href="classScopedPointer.html">ScopedPointer&lt;XmlElement&gt;</a> xml (<a class="code" href="classXmlDocument.html#ae14f9fc62e978ce7246922a84a568f20" title="A handy static method that parses a file.">XmlDocument::parse</a> (myXmlFile));</div>
 <div class="line"></div>
-<div class="line"><span class="keywordflow">if</span> (xml != <span class="keyword">nullptr</span> &amp;&amp; xml-&gt;<a class="code" href="classXmlElement.html#ac50bc4ce0db92b84baf4baf1b9c4de1d" title="Tests whether this element has a particular tag name.">hasTagName</a> (<span class="stringliteral">&quot;foobar&quot;</span>))</div>
+<div class="line"><span class="keywordflow">if</span> (xml != <span class="keyword">nullptr</span> &amp;&amp; xml-&gt;hasTagName (<span class="stringliteral">&quot;foobar&quot;</span>))</div>
 <div class="line">{</div>
 <div class="line">    ...etc</div>
 </div><!-- fragment --><dl class="section see"><dt>See Also</dt><dd><a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document.">XmlElement</a> </dd></dl>

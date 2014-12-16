@@ -222,6 +222,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaa0a3838942816c19fbffbffeb687272"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#aaa0a3838942816c19fbffbffeb687272">setReadOnly</a> (bool shouldBeReadOnly, bool applyRecursively=false) const </td></tr>
 <tr class="memdesc:aaa0a3838942816c19fbffbffeb687272"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the write-permission of a file or directory.  <a href="#aaa0a3838942816c19fbffbffeb687272"></a><br/></td></tr>
 <tr class="separator:aaa0a3838942816c19fbffbffeb687272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff4831339fdfec0ad2a54be970b83e31"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#aff4831339fdfec0ad2a54be970b83e31">setExecutePermission</a> (bool shouldBeExecutable) const </td></tr>
+<tr class="memdesc:aff4831339fdfec0ad2a54be970b83e31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the execute-permissions of a file.  <a href="#aff4831339fdfec0ad2a54be970b83e31"></a><br/></td></tr>
+<tr class="separator:aff4831339fdfec0ad2a54be970b83e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf74fb4603dfd5684a6fd68cbb5fa8ce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#adf74fb4603dfd5684a6fd68cbb5fa8ce">isHidden</a> () const </td></tr>
 <tr class="memdesc:adf74fb4603dfd5684a6fd68cbb5fa8ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this file is a hidden or system file.  <a href="#adf74fb4603dfd5684a6fd68cbb5fa8ce"></a><br/></td></tr>
 <tr class="separator:adf74fb4603dfd5684a6fd68cbb5fa8ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1230,6 +1233,31 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if it manages to change the file's permissions. </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#a11825b7fffe497f31c15c4a35e1e0353" title="Checks whether a file can be created or written to.">hasWriteAccess</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aff4831339fdfec0ad2a54be970b83e31"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool File::setExecutePermission </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>shouldBeExecutable</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Changes the execute-permissions of a file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">shouldBeExecutable</td><td>whether to add or remove execute-permission </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if it manages to change the file's permissions. </dd></dl>
 
 </div>
 </div>

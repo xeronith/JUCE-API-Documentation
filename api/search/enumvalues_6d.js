@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['macosx_5f10_5f10',['MacOSX_10_10',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaacd0e709dec55d23e96ac9fc93438c61b',1,'SystemStats']]],
   ['macosx_5f10_5f4',['MacOSX_10_4',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaa1ce7cc1fe386e7fa87013cbddf52543f',1,'SystemStats']]],
   ['macosx_5f10_5f5',['MacOSX_10_5',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaa12c47314def418879ea14c9d7b3c7245',1,'SystemStats']]],
   ['macosx_5f10_5f6',['MacOSX_10_6',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaa23c2a4b9a33a4b5dccb9d89491aff8ca',1,'SystemStats']]],

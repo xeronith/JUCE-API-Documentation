@@ -135,12 +135,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a31a423708524f139af52bd5771006b14"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a31a423708524f139af52bd5771006b14">setCurrentPlaybackSampleRate</a> (double newRate)</td></tr>
 <tr class="memdesc:a31a423708524f139af52bd5771006b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the voice's reference sample rate.  <a href="#a31a423708524f139af52bd5771006b14"></a><br/></td></tr>
 <tr class="separator:a31a423708524f139af52bd5771006b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcf916eea8d11a986d308223e1ebb4d1"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#abcf916eea8d11a986d308223e1ebb4d1">isPlayingChannel</a> (int midiChannel) const </td></tr>
+<tr class="memdesc:abcf916eea8d11a986d308223e1ebb4d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the voice is currently playing a sound which is mapped to the given midi channel.  <a href="#abcf916eea8d11a986d308223e1ebb4d1"></a><br/></td></tr>
+<tr class="separator:abcf916eea8d11a986d308223e1ebb4d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a149385fe43164bbfd2659391aebc7ee4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a149385fe43164bbfd2659391aebc7ee4">getSampleRate</a> () const noexcept</td></tr>
 <tr class="memdesc:a149385fe43164bbfd2659391aebc7ee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current target sample rate at which rendering is being done.  <a href="#a149385fe43164bbfd2659391aebc7ee4"></a><br/></td></tr>
 <tr class="separator:a149385fe43164bbfd2659391aebc7ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86c76ca9275f70ca743532b59e405647"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a86c76ca9275f70ca743532b59e405647">isPlayingChannel</a> (int midiChannel) const </td></tr>
-<tr class="memdesc:a86c76ca9275f70ca743532b59e405647"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the voice is currently playing a sound which is mapped to the given midi channel.  <a href="#a86c76ca9275f70ca743532b59e405647"></a><br/></td></tr>
-<tr class="separator:a86c76ca9275f70ca743532b59e405647"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0f9adb8d02f26099dea4467fd6fc170"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#ae0f9adb8d02f26099dea4467fd6fc170">isKeyDown</a> () const noexcept</td></tr>
 <tr class="memdesc:ae0f9adb8d02f26099dea4467fd6fc170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the key that triggered this voice is still held down.  <a href="#ae0f9adb8d02f26099dea4467fd6fc170"></a><br/></td></tr>
 <tr class="separator:ae0f9adb8d02f26099dea4467fd6fc170"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -577,6 +577,33 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="abcf916eea8d11a986d308223e1ebb4d1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool SynthesiserVoice::isPlayingChannel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>midiChannel</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the voice is currently playing a sound which is mapped to the given midi channel. </p>
+<p>If it's not currently playing, this will return false. </p>
+
+</div>
+</div>
 <a class="anchor" id="a149385fe43164bbfd2659391aebc7ee4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -600,25 +627,6 @@ Protected Member Functions</h2></td></tr>
 
 <p>Returns the current target sample rate at which rendering is being done. </p>
 <p>Subclasses may need to know this so that they can pitch things correctly. </p>
-
-</div>
-</div>
-<a class="anchor" id="a86c76ca9275f70ca743532b59e405647"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool SynthesiserVoice::isPlayingChannel </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>midiChannel</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns true if the voice is currently playing a sound which is mapped to the given midi channel. </p>
-<p>If it's not currently playing, this will return false. </p>
 
 </div>
 </div>
