@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['i',['i',['../structFFT_1_1Complex.html#a19a9cf233a26fc6c1abaed083222de4a',1,'FFT::Complex']]],
   ['icon',['icon',['../classPopupMenu_1_1MenuItemIterator.html#abccdba4d60c64ff029d489fa65a1bf11',1,'PopupMenu::MenuItemIterator']]],
   ['id3album',['id3album',['../classOggVorbisAudioFormat.html#ab00862fe52a02021c8f34df09002a7e7',1,'OggVorbisAudioFormat']]],
   ['id3artist',['id3artist',['../classOggVorbisAudioFormat.html#ac88645d7fd07e48cd71ee8ad7b559e95',1,'OggVorbisAudioFormat']]],
@@ -22,8 +23,8 @@ var searchData=
   ['inputdevicename',['inputDeviceName',['../structAudioDeviceManager_1_1AudioDeviceSetup.html#af1c134f5280bec722facace7c9fa0f1d',1,'AudioDeviceManager::AudioDeviceSetup']]],
   ['insertedtext',['insertedText',['../structTextDiff_1_1Change.html#a6ddf900c18c62706054a85342c100f9a',1,'TextDiff::Change']]],
   ['insertkey',['insertKey',['../classKeyPress.html#af62c3ffd333fc440eca6596b56df48b8',1,'KeyPress']]],
-  ['internal',['internal',['../classMidiInput.html#a2dafd2f0852e544ae9ea2f2a34c90762',1,'MidiInput::internal()'],['../classMidiOutput.html#a0910f2de4bc5576874b5c6716d336c86',1,'MidiOutput::internal()']]],
   ['interval',['interval',['../classNormalisableRange.html#a7717c3a5ebfe5ac44ab7d55ad63e5354',1,'NormalisableRange']]],
+  ['intvalue',['intValue',['../classjuce_1_1OSCArgument.html#aef93868ed870a812b4fb07a1b6dea690',1,'juce::OSCArgument::intValue()'],['../classOSCArgument.html#a81c635349763982a84322406534f1375',1,'OSCArgument::intValue()']]],
   ['invalid',['invalid',['../classValueTree.html#af49e8bf1c5072d0722dff9ef81b84f68',1,'ValueTree']]],
   ['invocationmethod',['invocationMethod',['../structApplicationCommandTarget_1_1InvocationInfo.html#a4e4ea7fee8feb65189634b26003e0fbb',1,'ApplicationCommandTarget::InvocationInfo']]],
   ['iscustomcomponent',['isCustomComponent',['../classPopupMenu_1_1MenuItemIterator.html#a01ff00f5ed747469652ab57f7baba10d',1,'PopupMenu::MenuItemIterator']]],

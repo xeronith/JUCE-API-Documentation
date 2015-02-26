@@ -159,6 +159,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a00287415638fc8b33d1a165a3a294cff"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a00287415638fc8b33d1a165a3a294cff">addWithMultiply</a> (double *dest, const double *src, double multiplier, int numValues) noexcept</td></tr>
 <tr class="memdesc:a00287415638fc8b33d1a165a3a294cff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplies each source value by the given multiplier, then adds it to the destination value.  <a href="#a00287415638fc8b33d1a165a3a294cff"></a><br/></td></tr>
 <tr class="separator:a00287415638fc8b33d1a165a3a294cff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bc9175313f7f8bd0cf7d504520b6a52"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a1bc9175313f7f8bd0cf7d504520b6a52">addWithMultiply</a> (float *dest, const float *src1, const float *src2, int num) noexcept</td></tr>
+<tr class="memdesc:a1bc9175313f7f8bd0cf7d504520b6a52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplies each source1 value by the corresponding source2 value, then adds it to the destination value.  <a href="#a1bc9175313f7f8bd0cf7d504520b6a52"></a><br/></td></tr>
+<tr class="separator:a1bc9175313f7f8bd0cf7d504520b6a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35ef8fa562cb2a7c086e0c687a405119"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a35ef8fa562cb2a7c086e0c687a405119">addWithMultiply</a> (double *dest, const double *src1, const double *src2, int num) noexcept</td></tr>
+<tr class="memdesc:a35ef8fa562cb2a7c086e0c687a405119"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplies each source1 value by the corresponding source2 value, then adds it to the destination value.  <a href="#a35ef8fa562cb2a7c086e0c687a405119"></a><br/></td></tr>
+<tr class="separator:a35ef8fa562cb2a7c086e0c687a405119"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa655bab2fa60a261dbd8d540c71e23f4"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#aa655bab2fa60a261dbd8d540c71e23f4">multiply</a> (float *dest, const float *src, int numValues) noexcept</td></tr>
 <tr class="memdesc:aa655bab2fa60a261dbd8d540c71e23f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplies the destination values by the source values.  <a href="#aa655bab2fa60a261dbd8d540c71e23f4"></a><br/></td></tr>
 <tr class="separator:aa655bab2fa60a261dbd8d540c71e23f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,6 +198,36 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac6bede830cbeff0b93b6998b5b603000"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#ac6bede830cbeff0b93b6998b5b603000">convertFixedToFloat</a> (float *dest, const int *src, float multiplier, int numValues) noexcept</td></tr>
 <tr class="memdesc:ac6bede830cbeff0b93b6998b5b603000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a stream of integers to floats, multiplying each one by the given multiplier.  <a href="#ac6bede830cbeff0b93b6998b5b603000"></a><br/></td></tr>
 <tr class="separator:ac6bede830cbeff0b93b6998b5b603000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa42b4603c0a21aa4c93cde3daba84c3c"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#aa42b4603c0a21aa4c93cde3daba84c3c">min</a> (float *dest, const float *src, float comp, int num) noexcept</td></tr>
+<tr class="memdesc:aa42b4603c0a21aa4c93cde3daba84c3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Each element of dest will be the minimum of the corresponding element of the source array and the given comp value.  <a href="#aa42b4603c0a21aa4c93cde3daba84c3c"></a><br/></td></tr>
+<tr class="separator:aa42b4603c0a21aa4c93cde3daba84c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93ecba1d7986cd09f55afa10a0fda433"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a93ecba1d7986cd09f55afa10a0fda433">min</a> (double *dest, const double *src, double comp, int num) noexcept</td></tr>
+<tr class="memdesc:a93ecba1d7986cd09f55afa10a0fda433"><td class="mdescLeft">&#160;</td><td class="mdescRight">Each element of dest will be the minimum of the corresponding element of the source array and the given comp value.  <a href="#a93ecba1d7986cd09f55afa10a0fda433"></a><br/></td></tr>
+<tr class="separator:a93ecba1d7986cd09f55afa10a0fda433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc11116bd9bac4abcd5b4e8cc30cff1a"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#acc11116bd9bac4abcd5b4e8cc30cff1a">min</a> (float *dest, const float *src1, const float *src2, int num) noexcept</td></tr>
+<tr class="memdesc:acc11116bd9bac4abcd5b4e8cc30cff1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Each element of dest will be the minimum of the corresponding source1 and source2 values.  <a href="#acc11116bd9bac4abcd5b4e8cc30cff1a"></a><br/></td></tr>
+<tr class="separator:acc11116bd9bac4abcd5b4e8cc30cff1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9224474ad1cea16562b2a82bf0c19ea6"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a9224474ad1cea16562b2a82bf0c19ea6">min</a> (double *dest, const double *src1, const double *src2, int num) noexcept</td></tr>
+<tr class="memdesc:a9224474ad1cea16562b2a82bf0c19ea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Each element of dest will be the minimum of the corresponding source1 and source2 values.  <a href="#a9224474ad1cea16562b2a82bf0c19ea6"></a><br/></td></tr>
+<tr class="separator:a9224474ad1cea16562b2a82bf0c19ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55d161a9071b91740f6b96435fe93e65"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a55d161a9071b91740f6b96435fe93e65">max</a> (float *dest, const float *src, float comp, int num) noexcept</td></tr>
+<tr class="memdesc:a55d161a9071b91740f6b96435fe93e65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Each element of dest will be the maximum of the corresponding element of the source array and the given comp value.  <a href="#a55d161a9071b91740f6b96435fe93e65"></a><br/></td></tr>
+<tr class="separator:a55d161a9071b91740f6b96435fe93e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd11c8fda6694a12611f7df44f890a14"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#abd11c8fda6694a12611f7df44f890a14">max</a> (double *dest, const double *src, double comp, int num) noexcept</td></tr>
+<tr class="memdesc:abd11c8fda6694a12611f7df44f890a14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Each element of dest will be the maximum of the corresponding element of the source array and the given comp value.  <a href="#abd11c8fda6694a12611f7df44f890a14"></a><br/></td></tr>
+<tr class="separator:abd11c8fda6694a12611f7df44f890a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab76622b229704008d50e53caaa14b68"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#aab76622b229704008d50e53caaa14b68">max</a> (float *dest, const float *src1, const float *src2, int num) noexcept</td></tr>
+<tr class="memdesc:aab76622b229704008d50e53caaa14b68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Each element of dest will be the maximum of the corresponding source1 and source2 values.  <a href="#aab76622b229704008d50e53caaa14b68"></a><br/></td></tr>
+<tr class="separator:aab76622b229704008d50e53caaa14b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5568a93bc2fc32e85cf1a4b4882bdc4c"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a5568a93bc2fc32e85cf1a4b4882bdc4c">max</a> (double *dest, const double *src1, const double *src2, int num) noexcept</td></tr>
+<tr class="memdesc:a5568a93bc2fc32e85cf1a4b4882bdc4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Each element of dest will be the maximum of the corresponding source1 and source2 values.  <a href="#a5568a93bc2fc32e85cf1a4b4882bdc4c"></a><br/></td></tr>
+<tr class="separator:a5568a93bc2fc32e85cf1a4b4882bdc4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a572fb76624c3a2cb1b4bcacdb8a2d00b"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a572fb76624c3a2cb1b4bcacdb8a2d00b">clip</a> (float *dest, const float *src, float low, float high, int num) noexcept</td></tr>
+<tr class="memdesc:a572fb76624c3a2cb1b4bcacdb8a2d00b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Each element of dest is calculated by hard clipping the corresponding src element so that it is in the range specified by the arguments low and high.  <a href="#a572fb76624c3a2cb1b4bcacdb8a2d00b"></a><br/></td></tr>
+<tr class="separator:a572fb76624c3a2cb1b4bcacdb8a2d00b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afec773ea3b77c863f3eb1a7fc5946793"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#afec773ea3b77c863f3eb1a7fc5946793">clip</a> (double *dest, const double *src, double low, double high, int num) noexcept</td></tr>
+<tr class="memdesc:afec773ea3b77c863f3eb1a7fc5946793"><td class="mdescLeft">&#160;</td><td class="mdescRight">Each element of dest is calculated by hard clipping the corresponding src element so that it is in the range specified by the arguments low and high.  <a href="#afec773ea3b77c863f3eb1a7fc5946793"></a><br/></td></tr>
+<tr class="separator:afec773ea3b77c863f3eb1a7fc5946793"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64fab4fdbde9d2604ee37a66e7a0024b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classRange.html">Range</a>&lt; float &gt; <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a64fab4fdbde9d2604ee37a66e7a0024b">findMinAndMax</a> (const float *src, int numValues) noexcept</td></tr>
 <tr class="memdesc:a64fab4fdbde9d2604ee37a66e7a0024b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the miniumum and maximum values in the given array.  <a href="#a64fab4fdbde9d2604ee37a66e7a0024b"></a><br/></td></tr>
 <tr class="separator:a64fab4fdbde9d2604ee37a66e7a0024b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1190,6 +1226,102 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a1bc9175313f7f8bd0cf7d504520b6a52"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::addWithMultiply </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>src1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>src2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Multiplies each source1 value by the corresponding source2 value, then adds it to the destination value. </p>
+
+</div>
+</div>
+<a class="anchor" id="a35ef8fa562cb2a7c086e0c687a405119"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::addWithMultiply </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>src1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>src2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Multiplies each source1 value by the corresponding source2 value, then adds it to the destination value. </p>
+
+</div>
+</div>
 <a class="anchor" id="aa655bab2fa60a261dbd8d540c71e23f4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1679,6 +1811,498 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Converts a stream of integers to floats, multiplying each one by the given multiplier. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa42b4603c0a21aa4c93cde3daba84c3c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::min </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>comp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Each element of dest will be the minimum of the corresponding element of the source array and the given comp value. </p>
+
+</div>
+</div>
+<a class="anchor" id="a93ecba1d7986cd09f55afa10a0fda433"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::min </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>comp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Each element of dest will be the minimum of the corresponding element of the source array and the given comp value. </p>
+
+</div>
+</div>
+<a class="anchor" id="acc11116bd9bac4abcd5b4e8cc30cff1a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::min </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>src1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>src2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Each element of dest will be the minimum of the corresponding source1 and source2 values. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9224474ad1cea16562b2a82bf0c19ea6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::min </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>src1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>src2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Each element of dest will be the minimum of the corresponding source1 and source2 values. </p>
+
+</div>
+</div>
+<a class="anchor" id="a55d161a9071b91740f6b96435fe93e65"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::max </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>comp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Each element of dest will be the maximum of the corresponding element of the source array and the given comp value. </p>
+
+</div>
+</div>
+<a class="anchor" id="abd11c8fda6694a12611f7df44f890a14"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::max </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>comp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Each element of dest will be the maximum of the corresponding element of the source array and the given comp value. </p>
+
+</div>
+</div>
+<a class="anchor" id="aab76622b229704008d50e53caaa14b68"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::max </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>src1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>src2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Each element of dest will be the maximum of the corresponding source1 and source2 values. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5568a93bc2fc32e85cf1a4b4882bdc4c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::max </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>src1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>src2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Each element of dest will be the maximum of the corresponding source1 and source2 values. </p>
+
+</div>
+</div>
+<a class="anchor" id="a572fb76624c3a2cb1b4bcacdb8a2d00b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::clip </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>low</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>high</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Each element of dest is calculated by hard clipping the corresponding src element so that it is in the range specified by the arguments low and high. </p>
+
+</div>
+</div>
+<a class="anchor" id="afec773ea3b77c863f3eb1a7fc5946793"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::clip </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>low</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>high</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Each element of dest is calculated by hard clipping the corresponding src element so that it is in the range specified by the arguments low and high. </p>
 
 </div>
 </div>

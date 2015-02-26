@@ -206,7 +206,7 @@ Static Protected Member Functions</h2></td></tr>
 <p>Creates an <a class="el" href="classAudioFormatReader.html" title="Reads samples from an audio file stream.">AudioFormatReader</a> object. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">sourceStream</td><td>the stream to read from - this will be deleted by this object when it is no longer needed. (Some specialised readers might not use this parameter and can leave it as 0). </td></tr>
+    <tr><td class="paramname">sourceStream</td><td>the stream to read from - this will be deleted by this object when it is no longer needed. (Some specialised readers might not use this parameter and can leave it as nullptr). </td></tr>
     <tr><td class="paramname">formatName</td><td>the description that will be returned by the <a class="el" href="classAudioFormatReader.html#ae90256289d171f649fd83d2070b4ae32" title="Returns a description of what type of format this is.">getFormatName()</a> method </td></tr>
   </table>
   </dd>
@@ -434,6 +434,8 @@ Static Protected Member Functions</h2></td></tr>
 </dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#afe581e23098c90f1fb187fdff68d3481" title="Reads samples from the stream.">read</a> </dd></dl>
 
+<p>Reimplemented in <a class="el" href="classAudioSubsectionReader.html#aaf1151c9dd37fb13e276518d39a6121f">AudioSubsectionReader</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="aa6393d5cb57b6a03cb7544df495d86b6"></a>
@@ -506,8 +508,6 @@ Static Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioFormatReader.html#afe581e23098c90f1fb187fdff68d3481" title="Reads samples from the stream.">read</a> </dd></dl>
-
-<p>Reimplemented in <a class="el" href="classAudioSubsectionReader.html#a6224a5b7fbb41ae1ff6d7fcb1a262325">AudioSubsectionReader</a>.</p>
 
 </div>
 </div>

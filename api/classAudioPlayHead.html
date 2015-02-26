@@ -237,7 +237,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Fills-in the given structure with details about the transport's position at the start of the current processing block. </p>
-<p>This method must ONLY be called from within your <a class="el" href="classAudioProcessor.html#a7d8c56f45dfd03b507e120eeca7435dd" title="Renders the next block.">AudioProcessor::processBlock()</a> method. Calling it at any other time will probably cause a nasty crash. </p>
+<p>You can ONLY call this from your processBlock() method! Calling it at other times will produce undefined behaviour, as the host may not have any context in which a time would make sense, and some hosts will almost certainly have multithreading issues if it's not called on the audio thread. </p>
 
 </div>
 </div>

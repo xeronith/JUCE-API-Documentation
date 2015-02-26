@@ -182,10 +182,8 @@ Public Attributes</h2></td></tr>
 <p>This will create a dialog based on the settings in this structure, launch it modally, and return immediately. The window that is returned will be automatically deleted when the modal state is terminated.</p>
 <p>When the dialog's close button is clicked, it'll automatically terminate its modal state, but you can also do this programmatically by calling exitModalState (returnValue) on the <a class="el" href="classDialogWindow.html" title="A dialog-box style window.">DialogWindow</a>.</p>
 <p>If your content component needs to find the dialog window that it is contained in, a quick trick is to do this: </p>
-<div class="fragment"><div class="line">Dialogwindow* dw = contentComponent-&gt;findParentComponentOfClass&lt;<a class="code" href="classDialogWindow.html" title="A dialog-box style window.">DialogWindow</a>&gt;();</div>
-<div class="line"></div>
-<div class="line"><span class="keywordflow">if</span> (dw != <span class="keyword">nullptr</span>)</div>
-<div class="line">    dw-&gt;<a class="code" href="classComponent.html#a686e2440370ff4a97c7a7851907be650" title="Ends a component&#39;s modal state.">exitModalState</a> (1234);</div>
+<div class="fragment"><div class="line"><span class="keywordflow">if</span> (<a class="code" href="classDialogWindow.html" title="A dialog-box style window.">DialogWindow</a>* dw = contentComponent-&gt;<a class="code" href="classComponent.html#a015b46a3de96f2de006437c04fec7378" title="Searches the parent components for a component of a specified class.">findParentComponentOfClass</a>&lt;<a class="code" href="classDialogWindow.html" title="A dialog-box style window.">DialogWindow</a>&gt;())</div>
+<div class="line">    dw-&gt;exitModalState (1234);</div>
 </div><!-- fragment --> 
 <p>Referenced by <a class="el" href="classStandalonePluginHolder.html#a5e24139925518f20b67a3d6f74bfb00c">StandalonePluginHolder::showAudioSettingsDialog()</a>.</p>
 

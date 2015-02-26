@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['r',['r',['../structFFT_1_1Complex.html#aacf60a9d5fb15df15ba49171e337bf90',1,'FFT::Complex']]],
   ['radial',['radial',['../classDrawableShape_1_1FillAndStrokeState.html#a35b2d94ae6a13721f581b582400007bb',1,'DrawableShape::FillAndStrokeState']]],
   ['radius',['radius',['../structDropShadow.html#a96cbbc37579f9a2627f342a7dc6be568',1,'DropShadow']]],
   ['range',['range',['../classAttributedString_1_1Attribute.html#aadd39f43e26b6c0a36dca6bf36537818',1,'AttributedString::Attribute']]],

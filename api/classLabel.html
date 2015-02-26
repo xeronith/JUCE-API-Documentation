@@ -177,6 +177,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab0d9138c10c41be554779d0c41aff70d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#ab0d9138c10c41be554779d0c41aff70d">getMinimumHorizontalScale</a> () const noexcept</td></tr>
 <tr class="memdesc:ab0d9138c10c41be554779d0c41aff70d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies the amount that the font can be squashed horizontally.  <a href="#ab0d9138c10c41be554779d0c41aff70d"></a><br/></td></tr>
 <tr class="separator:ab0d9138c10c41be554779d0c41aff70d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24803c95b633f0828f5496bb0aff0b83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#a24803c95b633f0828f5496bb0aff0b83">setKeyboardType</a> (<a class="el" href="classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7">TextInputTarget::VirtualKeyboardType</a> type) noexcept</td></tr>
+<tr class="memdesc:a24803c95b633f0828f5496bb0aff0b83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a keyboard type for use when the text editor is shown.  <a href="#a24803c95b633f0828f5496bb0aff0b83"></a><br/></td></tr>
+<tr class="separator:a24803c95b633f0828f5496bb0aff0b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05dc02ef40bf0244c928bff8c7cf904e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLabel.html#a05dc02ef40bf0244c928bff8c7cf904e">addListener</a> (<a class="el" href="classLabel_1_1Listener.html">Listener</a> *listener)</td></tr>
 <tr class="memdesc:a05dc02ef40bf0244c928bff8c7cf904e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a listener that will be called when the label's text changes.  <a href="#a05dc02ef40bf0244c928bff8c7cf904e"></a><br/></td></tr>
 <tr class="separator:a05dc02ef40bf0244c928bff8c7cf904e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -443,7 +446,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a72ee4d44ce3b3954e8a00e5225201b6d inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all this component's children.  <a href="#a72ee4d44ce3b3954e8a00e5225201b6d"></a><br/></td></tr>
 <tr class="separator:a72ee4d44ce3b3954e8a00e5225201b6d inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc8f8338a400c20d5e941ea3a1f67f7b inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#abc8f8338a400c20d5e941ea3a1f67f7b">deleteAllChildren</a> ()</td></tr>
-<tr class="memdesc:abc8f8338a400c20d5e941ea3a1f67f7b inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all this component's children, and deletes them.  <a href="#abc8f8338a400c20d5e941ea3a1f67f7b"></a><br/></td></tr>
+<tr class="memdesc:abc8f8338a400c20d5e941ea3a1f67f7b inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes and deletes all of this component's children.  <a href="#abc8f8338a400c20d5e941ea3a1f67f7b"></a><br/></td></tr>
 <tr class="separator:abc8f8338a400c20d5e941ea3a1f67f7b inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4d430194f6637607b1af8631d7166e7 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComponent.html">Component</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#ac4d430194f6637607b1af8631d7166e7">getParentComponent</a> () const noexcept</td></tr>
 <tr class="memdesc:ac4d430194f6637607b1af8631d7166e7 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the component which this component is inside.  <a href="#ac4d430194f6637607b1af8631d7166e7"></a><br/></td></tr>
@@ -1294,6 +1297,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Specifies the amount that the font can be squashed horizontally. </p>
+
+</div>
+</div>
+<a class="anchor" id="a24803c95b633f0828f5496bb0aff0b83"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Label::setKeyboardType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7">TextInputTarget::VirtualKeyboardType</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set a keyboard type for use when the text editor is shown. </p>
 
 </div>
 </div>

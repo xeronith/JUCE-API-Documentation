@@ -83,8 +83,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classMidiOutput-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MidiOutput Class Reference</div>  </div>
@@ -98,24 +96,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a16d9a275e984ebaa7e87f56234d0d9fe"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a16d9a275e984ebaa7e87f56234d0d9fe">~MidiOutput</a> ()</td></tr>
-<tr class="memdesc:a16d9a275e984ebaa7e87f56234d0d9fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a16d9a275e984ebaa7e87f56234d0d9fe"></a><br/></td></tr>
-<tr class="separator:a16d9a275e984ebaa7e87f56234d0d9fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2f80c5930a244636efad59e6ba0f7b5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#ac2f80c5930a244636efad59e6ba0f7b5">sendMessageNow</a> (const <a class="el" href="classMidiMessage.html">MidiMessage</a> &amp;message)</td></tr>
-<tr class="memdesc:ac2f80c5930a244636efad59e6ba0f7b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes this device output a midi message.  <a href="#ac2f80c5930a244636efad59e6ba0f7b5"></a><br/></td></tr>
-<tr class="separator:ac2f80c5930a244636efad59e6ba0f7b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a023c7c703b5231048767a2ab1d24193d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a023c7c703b5231048767a2ab1d24193d">sendBlockOfMessages</a> (const <a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;buffer, double millisecondCounterToStartAt, double samplesPerSecondForBuffer)</td></tr>
-<tr class="memdesc:a023c7c703b5231048767a2ab1d24193d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This lets you supply a block of messages that will be sent out at some point in the future.  <a href="#a023c7c703b5231048767a2ab1d24193d"></a><br/></td></tr>
-<tr class="separator:a023c7c703b5231048767a2ab1d24193d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a964ebc950ee7c10f4f024f29a75ef1ef"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a964ebc950ee7c10f4f024f29a75ef1ef">clearAllPendingMessages</a> ()</td></tr>
-<tr class="memdesc:a964ebc950ee7c10f4f024f29a75ef1ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets rid of any midi messages that had been added by <a class="el" href="classMidiOutput.html#a023c7c703b5231048767a2ab1d24193d" title="This lets you supply a block of messages that will be sent out at some point in the future...">sendBlockOfMessages()</a>.  <a href="#a964ebc950ee7c10f4f024f29a75ef1ef"></a><br/></td></tr>
-<tr class="separator:a964ebc950ee7c10f4f024f29a75ef1ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8313c8ebdfc4c8425c7919643ce0085"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#aa8313c8ebdfc4c8425c7919643ce0085">startBackgroundThread</a> ()</td></tr>
-<tr class="memdesc:aa8313c8ebdfc4c8425c7919643ce0085"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts up a background thread so that the device can send blocks of data.  <a href="#aa8313c8ebdfc4c8425c7919643ce0085"></a><br/></td></tr>
-<tr class="separator:aa8313c8ebdfc4c8425c7919643ce0085"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc5bad6deaa1df0c842155990434f68b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#adc5bad6deaa1df0c842155990434f68b">stopBackgroundThread</a> ()</td></tr>
-<tr class="memdesc:adc5bad6deaa1df0c842155990434f68b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops the background thread, and clears any pending midi events.  <a href="#adc5bad6deaa1df0c842155990434f68b"></a><br/></td></tr>
-<tr class="separator:adc5bad6deaa1df0c842155990434f68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a2e715734b8b6bcf096eca26893125e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a5a2e715734b8b6bcf096eca26893125e">~MidiOutput</a> ()</td></tr>
+<tr class="memdesc:a5a2e715734b8b6bcf096eca26893125e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a5a2e715734b8b6bcf096eca26893125e"></a><br/></td></tr>
+<tr class="separator:a5a2e715734b8b6bcf096eca26893125e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19c8d64553e0787c920f5b140f7267e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a19c8d64553e0787c920f5b140f7267e9">sendMessageNow</a> (const <a class="el" href="classMidiMessage.html">MidiMessage</a> &amp;message)</td></tr>
+<tr class="memdesc:a19c8d64553e0787c920f5b140f7267e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes this device output a midi message.  <a href="#a19c8d64553e0787c920f5b140f7267e9"></a><br/></td></tr>
+<tr class="separator:a19c8d64553e0787c920f5b140f7267e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1356a3303e8f56389ea52f98b56577b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a1356a3303e8f56389ea52f98b56577b6">sendBlockOfMessages</a> (const <a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;buffer, double millisecondCounterToStartAt, double samplesPerSecondForBuffer)</td></tr>
+<tr class="memdesc:a1356a3303e8f56389ea52f98b56577b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This lets you supply a block of messages that will be sent out at some point in the future.  <a href="#a1356a3303e8f56389ea52f98b56577b6"></a><br/></td></tr>
+<tr class="separator:a1356a3303e8f56389ea52f98b56577b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a93ddda8444806f3daf69c1486ae5be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a9a93ddda8444806f3daf69c1486ae5be">clearAllPendingMessages</a> ()</td></tr>
+<tr class="memdesc:a9a93ddda8444806f3daf69c1486ae5be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets rid of any midi messages that had been added by <a class="el" href="classMidiOutput.html#a1356a3303e8f56389ea52f98b56577b6" title="This lets you supply a block of messages that will be sent out at some point in the future...">sendBlockOfMessages()</a>.  <a href="#a9a93ddda8444806f3daf69c1486ae5be"></a><br/></td></tr>
+<tr class="separator:a9a93ddda8444806f3daf69c1486ae5be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4037a74a2ba5206ea12bc706132e9c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#ab4037a74a2ba5206ea12bc706132e9c6">startBackgroundThread</a> ()</td></tr>
+<tr class="memdesc:ab4037a74a2ba5206ea12bc706132e9c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts up a background thread so that the device can send blocks of data.  <a href="#ab4037a74a2ba5206ea12bc706132e9c6"></a><br/></td></tr>
+<tr class="separator:ab4037a74a2ba5206ea12bc706132e9c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a250a8b0691928959e09b84f7bc7593a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a250a8b0691928959e09b84f7bc7593a1">stopBackgroundThread</a> ()</td></tr>
+<tr class="memdesc:a250a8b0691928959e09b84f7bc7593a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops the background thread, and clears any pending midi events.  <a href="#a250a8b0691928959e09b84f7bc7593a1"></a><br/></td></tr>
+<tr class="separator:a250a8b0691928959e09b84f7bc7593a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -131,23 +129,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a04169caa4a0c533c57a55357f2e13cc8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiOutput.html">MidiOutput</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a04169caa4a0c533c57a55357f2e13cc8">createNewDevice</a> (const <a class="el" href="classString.html">String</a> &amp;deviceName)</td></tr>
 <tr class="memdesc:a04169caa4a0c533c57a55357f2e13cc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will try to create a new midi output device (Not available on Windows).  <a href="#a04169caa4a0c533c57a55357f2e13cc8"></a><br/></td></tr>
 <tr class="separator:a04169caa4a0c533c57a55357f2e13cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:ac16764b0d7153689f406d2d38cf332b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#ac16764b0d7153689f406d2d38cf332b9">MidiOutput</a> ()</td></tr>
-<tr class="separator:ac16764b0d7153689f406d2d38cf332b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bf9b6ec2474fd3192f92b14806f05bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a2bf9b6ec2474fd3192f92b14806f05bf">run</a> () override</td></tr>
-<tr class="memdesc:a2bf9b6ec2474fd3192f92b14806f05bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be implemented to perform the thread's actual code.  <a href="#a2bf9b6ec2474fd3192f92b14806f05bf"></a><br/></td></tr>
-<tr class="separator:a2bf9b6ec2474fd3192f92b14806f05bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a0910f2de4bc5576874b5c6716d336c86"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a0910f2de4bc5576874b5c6716d336c86">internal</a></td></tr>
-<tr class="separator:a0910f2de4bc5576874b5c6716d336c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0ebae21888c365aa2fadc2aa8eb27c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCriticalSection.html">CriticalSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#af0ebae21888c365aa2fadc2aa8eb27c0">lock</a></td></tr>
-<tr class="separator:af0ebae21888c365aa2fadc2aa8eb27c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafd2e65a8fcdc67749eca25f63c0883c"><td class="memItemLeft" align="right" valign="top">PendingMessage *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#aafd2e65a8fcdc67749eca25f63c0883c">firstMessage</a></td></tr>
-<tr class="separator:aafd2e65a8fcdc67749eca25f63c0883c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -228,51 +209,20 @@ Additional Inherited Members</h2></td></tr>
 <p>To create one of these, use the static <a class="el" href="classMidiOutput.html#a59a303f5b44aa772903984818b6b7275" title="Returns a list of the available midi output devices.">getDevices()</a> method to get a list of the available output devices, then use the <a class="el" href="classMidiOutput.html#add5366efd74e5c5ee665af4592c6b15e" title="Tries to open one of the midi output devices.">openDevice()</a> method to try to open one.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiInput.html" title="Represents a midi input device.">MidiInput</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a16d9a275e984ebaa7e87f56234d0d9fe"></a>
+<a class="anchor" id="a5a2e715734b8b6bcf096eca26893125e"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual MidiOutput::~MidiOutput </td>
+          <td class="memname">MidiOutput::~MidiOutput </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Destructor. </p>
-
-</div>
-</div>
-<a class="anchor" id="ac16764b0d7153689f406d2d38cf332b9"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MidiOutput::MidiOutput </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -399,26 +349,18 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac2f80c5930a244636efad59e6ba0f7b5"></a>
+<a class="anchor" id="a19c8d64553e0787c920f5b140f7267e9"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void MidiOutput::sendMessageNow </td>
+          <td class="memname">void MidiOutput::sendMessageNow </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMidiMessage.html">MidiMessage</a> &amp;&#160;</td>
           <td class="paramname"><em>message</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Makes this device output a midi message. </p>
@@ -426,15 +368,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a023c7c703b5231048767a2ab1d24193d"></a>
+<a class="anchor" id="a1356a3303e8f56389ea52f98b56577b6"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void MidiOutput::sendBlockOfMessages </td>
+          <td class="memname">void MidiOutput::sendBlockOfMessages </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;&#160;</td>
           <td class="paramname"><em>buffer</em>, </td>
@@ -457,185 +396,66 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>This lets you supply a block of messages that will be sent out at some point in the future. </p>
 <p>The <a class="el" href="classMidiOutput.html" title="Controls a physical MIDI output device.">MidiOutput</a> class has an internal thread that can send out timestamped messages - this appends a set of messages to its internal buffer, ready for sending.</p>
-<p>This will only work if you've already started the thread with <a class="el" href="classMidiOutput.html#aa8313c8ebdfc4c8425c7919643ce0085" title="Starts up a background thread so that the device can send blocks of data.">startBackgroundThread()</a>.</p>
-<p>A time is supplied, at which the block of messages should be sent. This time uses the same time base as <a class="el" href="classTime.html#a8aa2b95bb1fc2fd7a2df29736bad3a37" title="Returns the number of millisecs since a fixed event (usually system startup).">Time::getMillisecondCounter()</a>, and must be in the future.</p>
+<p>This will only work if you've already started the thread with <a class="el" href="classMidiOutput.html#ab4037a74a2ba5206ea12bc706132e9c6" title="Starts up a background thread so that the device can send blocks of data.">startBackgroundThread()</a>.</p>
+<p>A time is specified, at which the block of messages should be sent. This time uses the same time base as <a class="el" href="classTime.html#a8aa2b95bb1fc2fd7a2df29736bad3a37" title="Returns the number of millisecs since a fixed event (usually system startup).">Time::getMillisecondCounter()</a>, and must be in the future.</p>
 <p>The samplesPerSecondForBuffer parameter indicates the number of samples per second used by the <a class="el" href="classMidiBuffer.html" title="Holds a sequence of time-stamped midi events.">MidiBuffer</a>. Each event in a <a class="el" href="classMidiBuffer.html" title="Holds a sequence of time-stamped midi events.">MidiBuffer</a> has a sample position, and the samplesPerSecondForBuffer value is needed to convert this sample position to a real time. </p>
 
 </div>
 </div>
-<a class="anchor" id="a964ebc950ee7c10f4f024f29a75ef1ef"></a>
+<a class="anchor" id="a9a93ddda8444806f3daf69c1486ae5be"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void MidiOutput::clearAllPendingMessages </td>
+          <td class="memname">void MidiOutput::clearAllPendingMessages </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Gets rid of any midi messages that had been added by <a class="el" href="classMidiOutput.html#a023c7c703b5231048767a2ab1d24193d" title="This lets you supply a block of messages that will be sent out at some point in the future...">sendBlockOfMessages()</a>. </p>
+<p>Gets rid of any midi messages that had been added by <a class="el" href="classMidiOutput.html#a1356a3303e8f56389ea52f98b56577b6" title="This lets you supply a block of messages that will be sent out at some point in the future...">sendBlockOfMessages()</a>. </p>
 
 </div>
 </div>
-<a class="anchor" id="aa8313c8ebdfc4c8425c7919643ce0085"></a>
+<a class="anchor" id="ab4037a74a2ba5206ea12bc706132e9c6"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void MidiOutput::startBackgroundThread </td>
+          <td class="memname">void MidiOutput::startBackgroundThread </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Starts up a background thread so that the device can send blocks of data. </p>
-<p>Call this to get the device ready, before using <a class="el" href="classMidiOutput.html#a023c7c703b5231048767a2ab1d24193d" title="This lets you supply a block of messages that will be sent out at some point in the future...">sendBlockOfMessages()</a>. </p>
+<p>Call this to get the device ready, before using <a class="el" href="classMidiOutput.html#a1356a3303e8f56389ea52f98b56577b6" title="This lets you supply a block of messages that will be sent out at some point in the future...">sendBlockOfMessages()</a>. </p>
 
 </div>
 </div>
-<a class="anchor" id="adc5bad6deaa1df0c842155990434f68b"></a>
+<a class="anchor" id="a250a8b0691928959e09b84f7bc7593a1"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void MidiOutput::stopBackgroundThread </td>
+          <td class="memname">void MidiOutput::stopBackgroundThread </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Stops the background thread, and clears any pending midi events. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiOutput.html#aa8313c8ebdfc4c8425c7919643ce0085" title="Starts up a background thread so that the device can send blocks of data.">startBackgroundThread</a> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a2bf9b6ec2474fd3192f92b14806f05bf"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MidiOutput::run </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Must be implemented to perform the thread's actual code. </p>
-<p>Remember that the thread must regularly check the <a class="el" href="classThread.html#a0a8fdce313d3c0db6c5adbb78c4352b4" title="Checks whether the thread has been told to stop running.">threadShouldExit()</a> method whilst running, and if this returns true it should return from the <a class="el" href="classMidiOutput.html#a2bf9b6ec2474fd3192f92b14806f05bf" title="Must be implemented to perform the thread&#39;s actual code.">run()</a> method as soon as possible to avoid being forcibly killed.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThread.html#a0a8fdce313d3c0db6c5adbb78c4352b4" title="Checks whether the thread has been told to stop running.">threadShouldExit</a>, <a class="el" href="classThread.html#a5502205d727c00752f95af27a063d983" title="Starts the thread running.">startThread</a> </dd></dl>
-
-<p>Implements <a class="el" href="classThread.html#aae90dfabab3e1776cf01a26e7ee3a620">Thread</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a0910f2de4bc5576874b5c6716d336c86"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void* MidiOutput::internal</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af0ebae21888c365aa2fadc2aa8eb27c0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classCriticalSection.html">CriticalSection</a> MidiOutput::lock</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aafd2e65a8fcdc67749eca25f63c0883c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">PendingMessage* MidiOutput::firstMessage</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiOutput.html#ab4037a74a2ba5206ea12bc706132e9c6" title="Starts up a background thread so that the device can send blocks of data.">startBackgroundThread</a> </dd></dl>
 
 </div>
 </div>

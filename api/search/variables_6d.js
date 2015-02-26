@@ -25,7 +25,7 @@ var searchData=
   ['mediumturquoise',['mediumturquoise',['../classColours.html#a108a3b570a3e24157b157445502e0c36',1,'Colours']]],
   ['mediumvioletred',['mediumvioletred',['../classColours.html#aca989bc73fc042848610a8d841a817cc',1,'Colours']]],
   ['message',['message',['../classMidiMessageSequence_1_1MidiEventHolder.html#a4d9cf307bd15a6abb4e98cfe03f8f580',1,'MidiMessageSequence::MidiEventHolder']]],
-  ['messages',['messages',['../structUnitTestRunner_1_1TestResult.html#ae94f7a271e7f4a5725939036156595bb',1,'UnitTestRunner::TestResult']]],
+  ['messages',['messages',['../structUnitTestRunner_1_1TestResult.html#ae94f7a271e7f4a5725939036156595bb',1,'UnitTestRunner::TestResult::messages()'],['../classjuce_1_1OSCBundle.html#ab035125db10c68210b4a76516779fdc9',1,'juce::OSCBundle::messages()'],['../classOSCBundle.html#ab8e1b9d475502733507cd36db8b7c858',1,'OSCBundle::messages()']]],
   ['metadatavalues',['metadataValues',['../classAudioFormatReader.html#a8dfe48ed0e171928185c716811f5ecdb',1,'AudioFormatReader']]],
   ['midichannelindex',['midiChannelIndex',['../classAudioProcessorGraph.html#acde235cdad97d2bba6dd828ceeb7c4e9',1,'AudioProcessorGraph']]],
   ['mididatabase64',['midiDataBase64',['../classCoreAudioFormat.html#a6a78852cc234c7fc83ab18c92662feb6',1,'CoreAudioFormat']]],

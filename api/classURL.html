@@ -96,7 +96,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a24e0205b0375cff235d64cc33d8c8550"><td class="memItemLeft" align="right" valign="top">typedef bool(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a24e0205b0375cff235d64cc33d8c8550">OpenStreamProgressCallback</a> )(void *context, int bytesSent, int totalBytes)</td></tr>
-<tr class="memdesc:a24e0205b0375cff235d64cc33d8c8550"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback function can be used by the <a class="el" href="classURL.html#a48a8140f0f776e0a5fb7f6fb89b590e9" title="Attempts to open a stream that can read from this URL.">createInputStream()</a> method.  <a href="#a24e0205b0375cff235d64cc33d8c8550"></a><br/></td></tr>
+<tr class="memdesc:a24e0205b0375cff235d64cc33d8c8550"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback function can be used by the <a class="el" href="classURL.html#a9c6e60f8708ccfb8b23fb5037d3d9d14" title="Attempts to open a stream that can read from this URL.">createInputStream()</a> method.  <a href="#a24e0205b0375cff235d64cc33d8c8550"></a><br/></td></tr>
 <tr class="separator:a24e0205b0375cff235d64cc33d8c8550"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -175,9 +175,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab56bf9814dfe828db465582b3af50c69"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#ab56bf9814dfe828db465582b3af50c69">launchInDefaultBrowser</a> () const </td></tr>
 <tr class="memdesc:ab56bf9814dfe828db465582b3af50c69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to launch the system's default browser to open the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>.  <a href="#ab56bf9814dfe828db465582b3af50c69"></a><br/></td></tr>
 <tr class="separator:ab56bf9814dfe828db465582b3af50c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48a8140f0f776e0a5fb7f6fb89b590e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputStream.html">InputStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a48a8140f0f776e0a5fb7f6fb89b590e9">createInputStream</a> (bool usePostCommand, <a class="el" href="classURL.html#a24e0205b0375cff235d64cc33d8c8550">OpenStreamProgressCallback</a> *progressCallback=nullptr, void *progressCallbackContext=nullptr, <a class="el" href="classString.html">String</a> extraHeaders=<a class="el" href="classString.html">String</a>(), int connectionTimeOutMs=0, <a class="el" href="classStringPairArray.html">StringPairArray</a> *responseHeaders=nullptr, int *statusCode=nullptr) const </td></tr>
-<tr class="memdesc:a48a8140f0f776e0a5fb7f6fb89b590e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to open a stream that can read from this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>.  <a href="#a48a8140f0f776e0a5fb7f6fb89b590e9"></a><br/></td></tr>
-<tr class="separator:a48a8140f0f776e0a5fb7f6fb89b590e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c6e60f8708ccfb8b23fb5037d3d9d14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputStream.html">InputStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a9c6e60f8708ccfb8b23fb5037d3d9d14">createInputStream</a> (bool usePostCommand, <a class="el" href="classURL.html#a24e0205b0375cff235d64cc33d8c8550">OpenStreamProgressCallback</a> *progressCallback=nullptr, void *progressCallbackContext=nullptr, <a class="el" href="classString.html">String</a> extraHeaders=<a class="el" href="classString.html">String</a>(), int connectionTimeOutMs=0, <a class="el" href="classStringPairArray.html">StringPairArray</a> *responseHeaders=nullptr, int *statusCode=nullptr, int numRedirectsToFollow=5) const </td></tr>
+<tr class="memdesc:a9c6e60f8708ccfb8b23fb5037d3d9d14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to open a stream that can read from this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>.  <a href="#a9c6e60f8708ccfb8b23fb5037d3d9d14"></a><br/></td></tr>
+<tr class="separator:a9c6e60f8708ccfb8b23fb5037d3d9d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade18c87d31c10cb7fea4453afeee2de6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#ade18c87d31c10cb7fea4453afeee2de6">readEntireBinaryStream</a> (<a class="el" href="classMemoryBlock.html">MemoryBlock</a> &amp;destData, bool usePostCommand=false) const </td></tr>
 <tr class="memdesc:ade18c87d31c10cb7fea4453afeee2de6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to download the entire contents of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a> into a binary data block.  <a href="#ade18c87d31c10cb7fea4453afeee2de6"></a><br/></td></tr>
 <tr class="separator:ade18c87d31c10cb7fea4453afeee2de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,7 +220,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>This callback function can be used by the <a class="el" href="classURL.html#a48a8140f0f776e0a5fb7f6fb89b590e9" title="Attempts to open a stream that can read from this URL.">createInputStream()</a> method. </p>
+<p>This callback function can be used by the <a class="el" href="classURL.html#a9c6e60f8708ccfb8b23fb5037d3d9d14" title="Attempts to open a stream that can read from this URL.">createInputStream()</a> method. </p>
 <p>It allows your app to receive progress updates during a lengthy POST operation. If you want to continue the operation, this should return true, or false to abort. </p>
 
 </div>
@@ -727,7 +727,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Returns a copy of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a>, with a block of data to send as the POST data. </p>
 <p>If you're setting the POST data, be careful not to have any parameters set as well, otherwise it'll all get thrown in together, and might not have the desired effect.</p>
 <p>If the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it.">URL</a> already contains some POST data, this will replace it, rather than being appended to it.</p>
-<p>This data will only be used if you specify a post operation when you call <a class="el" href="classURL.html#a48a8140f0f776e0a5fb7f6fb89b590e9" title="Attempts to open a stream that can read from this URL.">createInputStream()</a>. </p>
+<p>This data will only be used if you specify a post operation when you call <a class="el" href="classURL.html#a9c6e60f8708ccfb8b23fb5037d3d9d14" title="Attempts to open a stream that can read from this URL.">createInputStream()</a>. </p>
 
 </div>
 </div>
@@ -828,7 +828,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a48a8140f0f776e0a5fb7f6fb89b590e9"></a>
+<a class="anchor" id="a9c6e60f8708ccfb8b23fb5037d3d9d14"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -872,7 +872,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>statusCode</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>statusCode</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numRedirectsToFollow</em> = <code>5</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -892,6 +898,7 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">connectionTimeOutMs</td><td>if 0, this will use whatever default setting the OS chooses. If a negative number, it will be infinite. Otherwise it specifies a time in milliseconds. </td></tr>
     <tr><td class="paramname">responseHeaders</td><td>if this is non-null, all the (key, value) pairs received as headers in the response will be stored in this array </td></tr>
     <tr><td class="paramname">statusCode</td><td>if this is non-null, it will get set to the http status code, if one is known, or 0 if a code isn't available </td></tr>
+    <tr><td class="paramname">numRedirectsToFollow</td><td>specifies the number of redirects that will be followed before returning a response (ignored for Android which follows up to 5 redirects) </td></tr>
   </table>
   </dd>
 </dl>

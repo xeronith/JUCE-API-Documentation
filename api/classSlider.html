@@ -309,12 +309,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a846b68f0fe1624563399e540e38b4609"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a846b68f0fe1624563399e540e38b4609">removeListener</a> (<a class="el" href="classSlider_1_1Listener.html">Listener</a> *listener)</td></tr>
 <tr class="memdesc:a846b68f0fe1624563399e540e38b4609"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a previously-registered listener.  <a href="#a846b68f0fe1624563399e540e38b4609"></a><br/></td></tr>
 <tr class="separator:a846b68f0fe1624563399e540e38b4609"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2a3be00576cc708efbd58c98ee4cf51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#ab2a3be00576cc708efbd58c98ee4cf51">setDoubleClickReturnValue</a> (bool isDoubleClickEnabled, double valueToSetOnDoubleClick)</td></tr>
-<tr class="memdesc:ab2a3be00576cc708efbd58c98ee4cf51"><td class="mdescLeft">&#160;</td><td class="mdescRight">This lets you choose whether double-clicking moves the slider to a given position.  <a href="#ab2a3be00576cc708efbd58c98ee4cf51"></a><br/></td></tr>
-<tr class="separator:ab2a3be00576cc708efbd58c98ee4cf51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a68020b86485a6fc38e5124f31591b2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a0a68020b86485a6fc38e5124f31591b2">getDoubleClickReturnValue</a> (bool &amp;<a class="el" href="classComponent.html#a0e12726e34fdd284f036922597914bb3">isEnabled</a>) const </td></tr>
-<tr class="memdesc:a0a68020b86485a6fc38e5124f31591b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the values last set by <a class="el" href="classSlider.html#ab2a3be00576cc708efbd58c98ee4cf51" title="This lets you choose whether double-clicking moves the slider to a given position.">setDoubleClickReturnValue()</a> method.  <a href="#a0a68020b86485a6fc38e5124f31591b2"></a><br/></td></tr>
-<tr class="separator:a0a68020b86485a6fc38e5124f31591b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac22497e650b01ac15fcc992a2494e272"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#ac22497e650b01ac15fcc992a2494e272">setDoubleClickReturnValue</a> (bool shouldDoubleClickBeEnabled, double valueToSetOnDoubleClick)</td></tr>
+<tr class="memdesc:ac22497e650b01ac15fcc992a2494e272"><td class="mdescLeft">&#160;</td><td class="mdescRight">This lets you choose whether double-clicking moves the slider to a given position.  <a href="#ac22497e650b01ac15fcc992a2494e272"></a><br/></td></tr>
+<tr class="separator:ac22497e650b01ac15fcc992a2494e272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accd2423167e9b726cb006848b96ab351"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#accd2423167e9b726cb006848b96ab351">getDoubleClickReturnValue</a> () const noexcept</td></tr>
+<tr class="memdesc:accd2423167e9b726cb006848b96ab351"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the values last set by <a class="el" href="classSlider.html#ac22497e650b01ac15fcc992a2494e272" title="This lets you choose whether double-clicking moves the slider to a given position.">setDoubleClickReturnValue()</a> method.  <a href="#accd2423167e9b726cb006848b96ab351"></a><br/></td></tr>
+<tr class="separator:accd2423167e9b726cb006848b96ab351"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad603b9b073cd1a8df35de2884c22f630"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#ad603b9b073cd1a8df35de2884c22f630">isDoubleClickReturnEnabled</a> () const noexcept</td></tr>
+<tr class="memdesc:ad603b9b073cd1a8df35de2884c22f630"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if double-clicking to reset to a default value is enabled.  <a href="#ad603b9b073cd1a8df35de2884c22f630"></a><br/></td></tr>
+<tr class="separator:ad603b9b073cd1a8df35de2884c22f630"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab41e52ab8941619028a8d57103975029"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#ab41e52ab8941619028a8d57103975029">setChangeNotificationOnlyOnRelease</a> (bool onlyNotifyOnRelease)</td></tr>
 <tr class="memdesc:ab41e52ab8941619028a8d57103975029"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the slider whether to keep sending change messages while the user is dragging the slider.  <a href="#ab41e52ab8941619028a8d57103975029"></a><br/></td></tr>
 <tr class="separator:ab41e52ab8941619028a8d57103975029"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -384,6 +387,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a105d005078031e28d8e23d52d194bcde"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a105d005078031e28d8e23d52d194bcde">isVertical</a> () const noexcept</td></tr>
 <tr class="memdesc:a105d005078031e28d8e23d52d194bcde"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the slider moves vertically.  <a href="#a105d005078031e28d8e23d52d194bcde"></a><br/></td></tr>
 <tr class="separator:a105d005078031e28d8e23d52d194bcde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc48bff087378f8be0e6164e449d655e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#adc48bff087378f8be0e6164e449d655e">isRotary</a> () const noexcept</td></tr>
+<tr class="memdesc:adc48bff087378f8be0e6164e449d655e"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the slider is in a rotary mode.  <a href="#adc48bff087378f8be0e6164e449d655e"></a><br/></td></tr>
+<tr class="separator:adc48bff087378f8be0e6164e449d655e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a443749317634c0080d522d090ae991a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a443749317634c0080d522d090ae991a5">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;) override</td></tr>
 <tr class="separator:a443749317634c0080d522d090ae991a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1aaa7af33f6f90a40fbf70a2bbdebc6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a1aaa7af33f6f90a40fbf70a2bbdebc6d">resized</a> () override</td></tr>
@@ -641,7 +647,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a72ee4d44ce3b3954e8a00e5225201b6d inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all this component's children.  <a href="#a72ee4d44ce3b3954e8a00e5225201b6d"></a><br/></td></tr>
 <tr class="separator:a72ee4d44ce3b3954e8a00e5225201b6d inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc8f8338a400c20d5e941ea3a1f67f7b inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#abc8f8338a400c20d5e941ea3a1f67f7b">deleteAllChildren</a> ()</td></tr>
-<tr class="memdesc:abc8f8338a400c20d5e941ea3a1f67f7b inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all this component's children, and deletes them.  <a href="#abc8f8338a400c20d5e941ea3a1f67f7b"></a><br/></td></tr>
+<tr class="memdesc:abc8f8338a400c20d5e941ea3a1f67f7b inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes and deletes all of this component's children.  <a href="#abc8f8338a400c20d5e941ea3a1f67f7b"></a><br/></td></tr>
 <tr class="separator:abc8f8338a400c20d5e941ea3a1f67f7b inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4d430194f6637607b1af8631d7166e7 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComponent.html">Component</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#ac4d430194f6637607b1af8631d7166e7">getParentComponent</a> () const noexcept</td></tr>
 <tr class="memdesc:ac4d430194f6637607b1af8631d7166e7 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the component which this component is inside.  <a href="#ac4d430194f6637607b1af8631d7166e7"></a><br/></td></tr>
@@ -2376,7 +2382,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab2a3be00576cc708efbd58c98ee4cf51"></a>
+<a class="anchor" id="ac22497e650b01ac15fcc992a2494e272"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2384,7 +2390,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">void Slider::setDoubleClickReturnValue </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isDoubleClickEnabled</em>, </td>
+          <td class="paramname"><em>shouldDoubleClickBeEnabled</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2402,27 +2408,59 @@ Additional Inherited Members</h2></td></tr>
 
 <p>This lets you choose whether double-clicking moves the slider to a given position. </p>
 <p>By default this is turned off, but it's handy if you want a double-click to act as a quick way of resetting a slider. Just pass in the value you want it to go to when double-clicked.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a0a68020b86485a6fc38e5124f31591b2" title="Returns the values last set by setDoubleClickReturnValue() method.">getDoubleClickReturnValue</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#accd2423167e9b726cb006848b96ab351" title="Returns the values last set by setDoubleClickReturnValue() method.">getDoubleClickReturnValue</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a0a68020b86485a6fc38e5124f31591b2"></a>
+<a class="anchor" id="accd2423167e9b726cb006848b96ab351"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">double Slider::getDoubleClickReturnValue </td>
           <td>(</td>
-          <td class="paramtype">bool &amp;&#160;</td>
-          <td class="paramname"><em>isEnabled</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Returns the values last set by <a class="el" href="classSlider.html#ab2a3be00576cc708efbd58c98ee4cf51" title="This lets you choose whether double-clicking moves the slider to a given position.">setDoubleClickReturnValue()</a> method. </p>
-<p>Sets isEnabled to true if double-click is enabled, and returns the value that was set.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#ab2a3be00576cc708efbd58c98ee4cf51" title="This lets you choose whether double-clicking moves the slider to a given position.">setDoubleClickReturnValue</a> </dd></dl>
+<p>Returns the values last set by <a class="el" href="classSlider.html#ac22497e650b01ac15fcc992a2494e272" title="This lets you choose whether double-clicking moves the slider to a given position.">setDoubleClickReturnValue()</a> method. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#ac22497e650b01ac15fcc992a2494e272" title="This lets you choose whether double-clicking moves the slider to a given position.">setDoubleClickReturnValue</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad603b9b073cd1a8df35de2884c22f630"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Slider::isDoubleClickReturnEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if double-clicking to reset to a default value is enabled. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#ac22497e650b01ac15fcc992a2494e272" title="This lets you choose whether double-clicking moves the slider to a given position.">setDoubleClickReturnValue</a> </dd></dl>
 
 </div>
 </div>
@@ -3007,6 +3045,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>True if the slider moves vertically. </p>
+
+</div>
+</div>
+<a class="anchor" id="adc48bff087378f8be0e6164e449d655e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Slider::isRotary </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True if the slider is in a rotary mode. </p>
 
 </div>
 </div>

@@ -123,9 +123,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a99abf7cb8b65cc81060113d854aa9735"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConcertinaPanel.html#a99abf7cb8b65cc81060113d854aa9735">setPanelSize</a> (<a class="el" href="classComponent.html">Component</a> *panelComponent, int newHeight, bool animate)</td></tr>
 <tr class="memdesc:a99abf7cb8b65cc81060113d854aa9735"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes one of the panels.  <a href="#a99abf7cb8b65cc81060113d854aa9735"></a><br/></td></tr>
 <tr class="separator:a99abf7cb8b65cc81060113d854aa9735"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16b938d66a2239279f9ad56a547a8f34"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConcertinaPanel.html#a16b938d66a2239279f9ad56a547a8f34">expandPanelFully</a> (<a class="el" href="classComponent.html">Component</a> *panelComponent, const bool animate)</td></tr>
-<tr class="memdesc:a16b938d66a2239279f9ad56a547a8f34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to make one of the panels full-height.  <a href="#a16b938d66a2239279f9ad56a547a8f34"></a><br/></td></tr>
-<tr class="separator:a16b938d66a2239279f9ad56a547a8f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a597cebdba709414a2f07ef076ee659b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConcertinaPanel.html#a597cebdba709414a2f07ef076ee659b1">expandPanelFully</a> (<a class="el" href="classComponent.html">Component</a> *panelComponent, bool animate)</td></tr>
+<tr class="memdesc:a597cebdba709414a2f07ef076ee659b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to make one of the panels full-height.  <a href="#a597cebdba709414a2f07ef076ee659b1"></a><br/></td></tr>
+<tr class="separator:a597cebdba709414a2f07ef076ee659b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5574d0d41278fd51113b82256bfd4453"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConcertinaPanel.html#a5574d0d41278fd51113b82256bfd4453">setMaximumPanelSize</a> (<a class="el" href="classComponent.html">Component</a> *panelComponent, int maximumSize)</td></tr>
 <tr class="memdesc:a5574d0d41278fd51113b82256bfd4453"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a maximum size for one of the panels.  <a href="#a5574d0d41278fd51113b82256bfd4453"></a><br/></td></tr>
 <tr class="separator:a5574d0d41278fd51113b82256bfd4453"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -365,7 +365,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a72ee4d44ce3b3954e8a00e5225201b6d inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all this component's children.  <a href="#a72ee4d44ce3b3954e8a00e5225201b6d"></a><br/></td></tr>
 <tr class="separator:a72ee4d44ce3b3954e8a00e5225201b6d inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc8f8338a400c20d5e941ea3a1f67f7b inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#abc8f8338a400c20d5e941ea3a1f67f7b">deleteAllChildren</a> ()</td></tr>
-<tr class="memdesc:abc8f8338a400c20d5e941ea3a1f67f7b inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all this component's children, and deletes them.  <a href="#abc8f8338a400c20d5e941ea3a1f67f7b"></a><br/></td></tr>
+<tr class="memdesc:abc8f8338a400c20d5e941ea3a1f67f7b inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes and deletes all of this component's children.  <a href="#abc8f8338a400c20d5e941ea3a1f67f7b"></a><br/></td></tr>
 <tr class="separator:abc8f8338a400c20d5e941ea3a1f67f7b inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4d430194f6637607b1af8631d7166e7 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComponent.html">Component</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#ac4d430194f6637607b1af8631d7166e7">getParentComponent</a> () const noexcept</td></tr>
 <tr class="memdesc:ac4d430194f6637607b1af8631d7166e7 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the component which this component is inside.  <a href="#ac4d430194f6637607b1af8631d7166e7"></a><br/></td></tr>
@@ -909,7 +909,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a16b938d66a2239279f9ad56a547a8f34"></a>
+<a class="anchor" id="a597cebdba709414a2f07ef076ee659b1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -922,7 +922,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const bool&#160;</td>
+          <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>animate</em>&#160;</td>
         </tr>
         <tr>

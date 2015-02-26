@@ -108,12 +108,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abd937fd4a9a57124ff6c68bd49ce9b67"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree_1_1Listener.html#abd937fd4a9a57124ff6c68bd49ce9b67">valueTreeChildAdded</a> (<a class="el" href="classValueTree.html">ValueTree</a> &amp;parentTree, <a class="el" href="classValueTree.html">ValueTree</a> &amp;childWhichHasBeenAdded)=0</td></tr>
 <tr class="memdesc:abd937fd4a9a57124ff6c68bd49ce9b67"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called when a child sub-tree is added.  <a href="#abd937fd4a9a57124ff6c68bd49ce9b67"></a><br/></td></tr>
 <tr class="separator:abd937fd4a9a57124ff6c68bd49ce9b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d333d132218dcc301ec2754117e8587"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree_1_1Listener.html#a8d333d132218dcc301ec2754117e8587">valueTreeChildRemoved</a> (<a class="el" href="classValueTree.html">ValueTree</a> &amp;parentTree, <a class="el" href="classValueTree.html">ValueTree</a> &amp;childWhichHasBeenRemoved)=0</td></tr>
-<tr class="memdesc:a8d333d132218dcc301ec2754117e8587"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called when a child sub-tree is removed.  <a href="#a8d333d132218dcc301ec2754117e8587"></a><br/></td></tr>
-<tr class="separator:a8d333d132218dcc301ec2754117e8587"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cad448902df4f53a4e2056411cd738a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree_1_1Listener.html#a0cad448902df4f53a4e2056411cd738a">valueTreeChildOrderChanged</a> (<a class="el" href="classValueTree.html">ValueTree</a> &amp;parentTreeWhoseChildrenHaveMoved)=0</td></tr>
-<tr class="memdesc:a0cad448902df4f53a4e2056411cd738a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called when a tree's children have been re-shuffled.  <a href="#a0cad448902df4f53a4e2056411cd738a"></a><br/></td></tr>
-<tr class="separator:a0cad448902df4f53a4e2056411cd738a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af398254dea149b4cce8b4dd77f0f9f50"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree_1_1Listener.html#af398254dea149b4cce8b4dd77f0f9f50">valueTreeChildRemoved</a> (<a class="el" href="classValueTree.html">ValueTree</a> &amp;parentTree, <a class="el" href="classValueTree.html">ValueTree</a> &amp;childWhichHasBeenRemoved, int indexFromWhichChildWasRemoved)=0</td></tr>
+<tr class="memdesc:af398254dea149b4cce8b4dd77f0f9f50"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called when a child sub-tree is removed.  <a href="#af398254dea149b4cce8b4dd77f0f9f50"></a><br/></td></tr>
+<tr class="separator:af398254dea149b4cce8b4dd77f0f9f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0926793951c23e37218ff7a88f97680"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree_1_1Listener.html#aa0926793951c23e37218ff7a88f97680">valueTreeChildOrderChanged</a> (<a class="el" href="classValueTree.html">ValueTree</a> &amp;parentTreeWhoseChildrenHaveMoved, int oldIndex, int newIndex)=0</td></tr>
+<tr class="memdesc:aa0926793951c23e37218ff7a88f97680"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called when a tree's children have been re-shuffled.  <a href="#aa0926793951c23e37218ff7a88f97680"></a><br/></td></tr>
+<tr class="separator:aa0926793951c23e37218ff7a88f97680"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a597ebac03d1095a618843fdcc3573b21"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree_1_1Listener.html#a597ebac03d1095a618843fdcc3573b21">valueTreeParentChanged</a> (<a class="el" href="classValueTree.html">ValueTree</a> &amp;treeWhoseParentHasChanged)=0</td></tr>
 <tr class="memdesc:a597ebac03d1095a618843fdcc3573b21"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called when a tree has been added or removed from a parent node.  <a href="#a597ebac03d1095a618843fdcc3573b21"></a><br/></td></tr>
 <tr class="separator:a597ebac03d1095a618843fdcc3573b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -226,7 +226,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8d333d132218dcc301ec2754117e8587"></a>
+<a class="anchor" id="af398254dea149b4cce8b4dd77f0f9f50"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -243,7 +243,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td>
-          <td class="paramname"><em>childWhichHasBeenRemoved</em>&#160;</td>
+          <td class="paramname"><em>childWhichHasBeenRemoved</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indexFromWhichChildWasRemoved</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -263,7 +269,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0cad448902df4f53a4e2056411cd738a"></a>
+<a class="anchor" id="aa0926793951c23e37218ff7a88f97680"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -274,8 +280,24 @@ Public Member Functions</h2></td></tr>
           <td class="memname">virtual void ValueTree::Listener::valueTreeChildOrderChanged </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td>
-          <td class="paramname"><em>parentTreeWhoseChildrenHaveMoved</em></td><td>)</td>
+          <td class="paramname"><em>parentTreeWhoseChildrenHaveMoved</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>oldIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>newIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>

@@ -29,6 +29,7 @@ var searchData=
   ['colourscheme',['ColourScheme',['../structCodeEditorComponent_1_1ColourScheme.html',1,'CodeEditorComponent']]],
   ['colourselector',['ColourSelector',['../classColourSelector.html',1,'']]],
   ['combobox',['ComboBox',['../classComboBox.html',1,'']]],
+  ['complex',['Complex',['../structFFT_1_1Complex.html',1,'FFT']]],
   ['component',['Component',['../classComponent.html',1,'']]],
   ['componentanimator',['ComponentAnimator',['../classComponentAnimator.html',1,'']]],
   ['componentboundsconstrainer',['ComponentBoundsConstrainer',['../classComponentBoundsConstrainer.html',1,'']]],

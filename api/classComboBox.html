@@ -208,6 +208,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a46d401e92f606ef7ffa081d5e0bdb609"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComboBox.html#a46d401e92f606ef7ffa081d5e0bdb609">showPopup</a> ()</td></tr>
 <tr class="memdesc:a46d401e92f606ef7ffa081d5e0bdb609"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pops up the combo box's list.  <a href="#a46d401e92f606ef7ffa081d5e0bdb609"></a><br/></td></tr>
 <tr class="separator:a46d401e92f606ef7ffa081d5e0bdb609"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68c3355b300f275af9962d772665fd53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComboBox.html#a68c3355b300f275af9962d772665fd53">hidePopup</a> ()</td></tr>
+<tr class="memdesc:a68c3355b300f275af9962d772665fd53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hides the combo box's popup list, if it's currently visible.  <a href="#a68c3355b300f275af9962d772665fd53"></a><br/></td></tr>
+<tr class="separator:a68c3355b300f275af9962d772665fd53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a033d1799a5327fcdae0ecf9a364f0914"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComboBox.html#a033d1799a5327fcdae0ecf9a364f0914">isPopupActive</a> () const noexcept</td></tr>
+<tr class="memdesc:a033d1799a5327fcdae0ecf9a364f0914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the popup menu is currently being shown.  <a href="#a033d1799a5327fcdae0ecf9a364f0914"></a><br/></td></tr>
+<tr class="separator:a033d1799a5327fcdae0ecf9a364f0914"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcf6a2f97151604222ca60f3bcab4679"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComboBox.html#afcf6a2f97151604222ca60f3bcab4679">addItemsToMenu</a> (<a class="el" href="classPopupMenu.html">PopupMenu</a> &amp;) const </td></tr>
 <tr class="memdesc:afcf6a2f97151604222ca60f3bcab4679"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the items in this <a class="el" href="classComboBox.html" title="A component that lets the user choose from a drop-down list of choices.">ComboBox</a> to the given menu.  <a href="#afcf6a2f97151604222ca60f3bcab4679"></a><br/></td></tr>
 <tr class="separator:afcf6a2f97151604222ca60f3bcab4679"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -512,7 +518,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a72ee4d44ce3b3954e8a00e5225201b6d inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all this component's children.  <a href="#a72ee4d44ce3b3954e8a00e5225201b6d"></a><br/></td></tr>
 <tr class="separator:a72ee4d44ce3b3954e8a00e5225201b6d inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc8f8338a400c20d5e941ea3a1f67f7b inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#abc8f8338a400c20d5e941ea3a1f67f7b">deleteAllChildren</a> ()</td></tr>
-<tr class="memdesc:abc8f8338a400c20d5e941ea3a1f67f7b inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all this component's children, and deletes them.  <a href="#abc8f8338a400c20d5e941ea3a1f67f7b"></a><br/></td></tr>
+<tr class="memdesc:abc8f8338a400c20d5e941ea3a1f67f7b inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes and deletes all of this component's children.  <a href="#abc8f8338a400c20d5e941ea3a1f67f7b"></a><br/></td></tr>
 <tr class="separator:abc8f8338a400c20d5e941ea3a1f67f7b inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4d430194f6637607b1af8631d7166e7 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComponent.html">Component</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#ac4d430194f6637607b1af8631d7166e7">getParentComponent</a> () const noexcept</td></tr>
 <tr class="memdesc:ac4d430194f6637607b1af8631d7166e7 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the component which this component is inside.  <a href="#ac4d430194f6637607b1af8631d7166e7"></a><br/></td></tr>
@@ -1602,6 +1608,48 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Pops up the combo box's list. </p>
 <p>This is virtual so that you can override it with your own custom popup mechanism if you need some really unusual behaviour. </p>
+
+</div>
+</div>
+<a class="anchor" id="a68c3355b300f275af9962d772665fd53"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ComboBox::hidePopup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Hides the combo box's popup list, if it's currently visible. </p>
+
+</div>
+</div>
+<a class="anchor" id="a033d1799a5327fcdae0ecf9a364f0914"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ComboBox::isPopupActive </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the popup menu is currently being shown. </p>
 
 </div>
 </div>
