@@ -234,7 +234,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Performs an in-place forward transform on a block of real data. </p>
-<p>The size of the array passed in must be 2 * <a class="el" href="classFFT.html#ad31b8261ecd82dda721df4705b57940f" title="Returns the number of data points that this FFT was created to work with.">getSize()</a>, and the first half should contain your raw input sample data. On return, the array will contain complex frequency + phase data, and can be passed to <a class="el" href="classFFT.html#a879d3e58058eb37b81f647fa8d9f63ff" title="Performs an in-place forward transform on a block of real data.">performRealOnlyForwardTransform()</a> in order to convert it back to reals. </p>
+<p>The size of the array passed in must be 2 * <a class="el" href="classFFT.html#ad31b8261ecd82dda721df4705b57940f" title="Returns the number of data points that this FFT was created to work with.">getSize()</a>, and the first half should contain your raw input sample data. On return, the array will contain complex frequency + phase data, and can be passed to <a class="el" href="classFFT.html#a8713f9b3a469d255b21229904d78fd94" title="Performs a reverse operation to data created in performRealOnlyForwardTransform().">performRealOnlyInverseTransform()</a> in order to convert it back to reals. </p>
 
 </div>
 </div>

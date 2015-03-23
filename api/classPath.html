@@ -227,6 +227,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6c09cddf0316e722af69129c6738be34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#a6c09cddf0316e722af69129c6738be34">addPieSegment</a> (float x, float y, float width, float height, float fromRadians, float toRadians, float innerCircleProportionalSize)</td></tr>
 <tr class="memdesc:a6c09cddf0316e722af69129c6738be34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a "pie-chart" shape to the path.  <a href="#a6c09cddf0316e722af69129c6738be34"></a><br/></td></tr>
 <tr class="separator:a6c09cddf0316e722af69129c6738be34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf811f4a472bb525e05ec7e5c72c8d85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#aaf811f4a472bb525e05ec7e5c72c8d85">addPieSegment</a> (<a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt; segmentBounds, float fromRadians, float toRadians, float innerCircleProportionalSize)</td></tr>
+<tr class="memdesc:aaf811f4a472bb525e05ec7e5c72c8d85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a "pie-chart" shape to the path.  <a href="#aaf811f4a472bb525e05ec7e5c72c8d85"></a><br/></td></tr>
+<tr class="separator:aaf811f4a472bb525e05ec7e5c72c8d85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93c4d70100bed1ea07518fea36267035"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPath.html#a93c4d70100bed1ea07518fea36267035">addLineSegment</a> (const <a class="el" href="classLine.html">Line</a>&lt; float &gt; &amp;line, float lineThickness)</td></tr>
 <tr class="memdesc:a93c4d70100bed1ea07518fea36267035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a line with a specified thickness.  <a href="#a93c4d70100bed1ea07518fea36267035"></a><br/></td></tr>
 <tr class="separator:a93c4d70100bed1ea07518fea36267035"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1814,7 +1817,59 @@ template&lt;typename ValueType &gt; </div>
     <tr><td class="paramname">height</td><td>the height of the rectangle in which the elliptical outline fits </td></tr>
     <tr><td class="paramname">fromRadians</td><td>the angle (clockwise) in radians at which to start the arc segment (where 0 is the top-centre of the ellipse) </td></tr>
     <tr><td class="paramname">toRadians</td><td>the angle (clockwise) in radians at which to end the arc segment (where 0 is the top-centre of the ellipse) </td></tr>
-    <tr><td class="paramname">innerCircleProportionalSize</td><td>if this is &gt; 0, then the pie will be drawn as a curved band around a hollow ellipse at its centre, where this value indicates the inner ellipse's size with respect to the outer one.</td></tr>
+    <tr><td class="paramname">innerCircleProportionalSize</td><td>if this is &gt; 0, then the pie will be drawn as a curved band around a hollow ellipse at its centre, where this value indicates the inner ellipse's size with respect to the outer one. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPath.html#a1486b650a586f1be84e2decc47bcc844" title="Adds an elliptical arc to the current path.">addArc</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aaf811f4a472bb525e05ec7e5c72c8d85"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Path::addPieSegment </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt;&#160;</td>
+          <td class="paramname"><em>segmentBounds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fromRadians</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>toRadians</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>innerCircleProportionalSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a "pie-chart" shape to the path. </p>
+<p>The shape is added as a new sub-path. (Any currently open paths will be left open).</p>
+<p>Note that when specifying the start and end angles, the curve will be drawn either clockwise or anti-clockwise according to whether the end angle is greater than the start. This means that sometimes you may need to use values greater than 2*Pi for the end angle.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">segmentBounds</td><td>the outer rectangle in which the elliptical outline fits </td></tr>
+    <tr><td class="paramname">fromRadians</td><td>the angle (clockwise) in radians at which to start the arc segment (where 0 is the top-centre of the ellipse) </td></tr>
+    <tr><td class="paramname">toRadians</td><td>the angle (clockwise) in radians at which to end the arc segment (where 0 is the top-centre of the ellipse) </td></tr>
+    <tr><td class="paramname">innerCircleProportionalSize</td><td>if this is &gt; 0, then the pie will be drawn as a curved band around a hollow ellipse at its centre, where this value indicates the inner ellipse's size with respect to the outer one. </td></tr>
   </table>
   </dd>
 </dl>

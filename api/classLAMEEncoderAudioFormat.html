@@ -489,7 +489,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Tries to create an object that can write to a stream with this audio format. </p>
 <p>The writer object that is returned can be used to write to the stream, and should then be deleted by the caller.</p>
-<p>If the stream can't be created for some reason (e.g. the parameters passed in here aren't suitable), this will return 0.</p>
+<p>If the stream can't be created for some reason (e.g. the parameters passed in here aren't suitable), this will return nullptr.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">streamToWriteTo</td><td>the stream that the data will go to - this will be deleted by the <a class="el" href="classAudioFormatWriter.html" title="Writes samples to an audio file stream.">AudioFormatWriter</a> object when it's no longer needed. If no <a class="el" href="classAudioFormatWriter.html" title="Writes samples to an audio file stream.">AudioFormatWriter</a> can be created by this method, the stream will NOT be deleted, so that the caller can re-use it to try to open a different format, etc </td></tr>

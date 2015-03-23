@@ -1369,7 +1369,7 @@ Protected Member Functions</h2></td></tr>
 <p>Returns one of the custom components in the dialog box. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">index</td><td>a value 0 to (<a class="el" href="classAlertWindow.html#af2526e588df3d21a77959e77ec97c4ff" title="Returns the number of custom components in the dialog box.">getNumCustomComponents()</a> - 1). Out-of-range indexes will return 0 </td></tr>
+    <tr><td class="paramname">index</td><td>a value 0 to (<a class="el" href="classAlertWindow.html#af2526e588df3d21a77959e77ec97c4ff" title="Returns the number of custom components in the dialog box.">getNumCustomComponents()</a> - 1). Out-of-range indexes will return nullptr </td></tr>
   </table>
   </dd>
 </dl>
@@ -1395,7 +1395,7 @@ Protected Member Functions</h2></td></tr>
 <p>Note that this won't delete it, it just removes the component from the window</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">index</td><td>a value 0 to (<a class="el" href="classAlertWindow.html#af2526e588df3d21a77959e77ec97c4ff" title="Returns the number of custom components in the dialog box.">getNumCustomComponents()</a> - 1). Out-of-range indexes will return 0 </td></tr>
+    <tr><td class="paramname">index</td><td>a value 0 to (<a class="el" href="classAlertWindow.html#af2526e588df3d21a77959e77ec97c4ff" title="Returns the number of custom components in the dialog box.">getNumCustomComponents()</a> - 1). Out-of-range indexes will return nullptr </td></tr>
   </table>
   </dd>
 </dl>
@@ -1490,6 +1490,8 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#ab55d4cd652306a2a344be38464a48358">StandalonePluginHolder::askUserToLoadState()</a>, and <a class="el" href="classStandalonePluginHolder.html#ac28981bbac45dbae6c1fdf617a824c17">StandalonePluginHolder::askUserToSaveState()</a>.</p>
 
 </div>
 </div>

@@ -164,6 +164,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab543d69d50273a8adce9b54b145a28eb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#ab543d69d50273a8adce9b54b145a28eb">handleSoftPedal</a> (int midiChannel, bool isDown)</td></tr>
 <tr class="memdesc:ab543d69d50273a8adce9b54b145a28eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be overridden to handle soft pedal events.  <a href="#ab543d69d50273a8adce9b54b145a28eb"></a><br/></td></tr>
 <tr class="separator:ab543d69d50273a8adce9b54b145a28eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a542e7ea8aaed30728dfa72a898ae1a9f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#a542e7ea8aaed30728dfa72a898ae1a9f">handleProgramChange</a> (int midiChannel, int programNumber)</td></tr>
+<tr class="memdesc:a542e7ea8aaed30728dfa72a898ae1a9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be overridden to handle an incoming program change message.  <a href="#a542e7ea8aaed30728dfa72a898ae1a9f"></a><br/></td></tr>
+<tr class="separator:a542e7ea8aaed30728dfa72a898ae1a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0d6808e5a22bc3a56a68dab1f106ab8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#ae0d6808e5a22bc3a56a68dab1f106ab8">setCurrentPlaybackSampleRate</a> (double sampleRate)</td></tr>
 <tr class="memdesc:ae0d6808e5a22bc3a56a68dab1f106ab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the synthesiser what the sample rate is for the audio it's being used to render.  <a href="#ae0d6808e5a22bc3a56a68dab1f106ab8"></a><br/></td></tr>
 <tr class="separator:ae0d6808e5a22bc3a56a68dab1f106ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -898,6 +901,43 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Can be overridden to handle soft pedal events. </p>
+
+</div>
+</div>
+<a class="anchor" id="a542e7ea8aaed30728dfa72a898ae1a9f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Synthesiser::handleProgramChange </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>midiChannel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>programNumber</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Can be overridden to handle an incoming program change message. </p>
+<p>The base class implementation of this has no effect, but you may want to make your own synth react to program changes. </p>
 
 </div>
 </div>

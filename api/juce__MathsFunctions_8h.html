@@ -113,7 +113,7 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a339666bd60cc6cb0831cb79c8f1b07b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__MathsFunctions_8h.html#a339666bd60cc6cb0831cb79c8f1b07b6">JUCE_UNDENORMALISE</a>(x)&#160;&#160;&#160;x += 1.0f; x -= 1.0f;</td></tr>
+<tr class="memitem:a339666bd60cc6cb0831cb79c8f1b07b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__MathsFunctions_8h.html#a339666bd60cc6cb0831cb79c8f1b07b6">JUCE_UNDENORMALISE</a>(x)&#160;&#160;&#160;{ (x) += 0.1f; (x) -= 0.1f; }</td></tr>
 <tr class="memdesc:a339666bd60cc6cb0831cb79c8f1b07b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro can be applied to a float variable to check whether it contains a denormalised value, and to normalise it if necessary.  <a href="#a339666bd60cc6cb0831cb79c8f1b07b6"></a><br/></td></tr>
 <tr class="separator:a339666bd60cc6cb0831cb79c8f1b07b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab17e68e410cbcdaf3074214aed490ec8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__MathsFunctions_8h.html#ab17e68e410cbcdaf3074214aed490ec8">PARAMETER_TYPE</a>(a)&#160;&#160;&#160;typename <a class="el" href="structTypeHelpers_1_1ParameterType.html">TypeHelpers::ParameterType</a>&lt;a&gt;::type</td></tr>
@@ -284,7 +284,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;x += 1.0f; x -= 1.0f;</td>
+          <td>&#160;&#160;&#160;{ (x) += 0.1f; (x) -= 0.1f; }</td>
         </tr>
       </table>
 </div><div class="memdoc">

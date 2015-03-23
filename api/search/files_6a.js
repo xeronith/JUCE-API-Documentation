@@ -418,6 +418,7 @@ var searchData=
   ['juce_5fuuid_2eh',['juce_Uuid.h',['../juce__Uuid_8h.html',1,'']]],
   ['juce_5fvalue_2eh',['juce_Value.h',['../juce__Value_8h.html',1,'']]],
   ['juce_5fvaluetree_2eh',['juce_ValueTree.h',['../juce__ValueTree_8h.html',1,'']]],
+  ['juce_5fvaluetreesynchroniser_2eh',['juce_ValueTreeSynchroniser.h',['../juce__ValueTreeSynchroniser_8h.html',1,'']]],
   ['juce_5fvariant_2eh',['juce_Variant.h',['../juce__Variant_8h.html',1,'']]],
   ['juce_5fvector3d_2eh',['juce_Vector3D.h',['../juce__Vector3D_8h.html',1,'']]],
   ['juce_5fviewport_2eh',['juce_Viewport.h',['../juce__Viewport_8h.html',1,'']]],

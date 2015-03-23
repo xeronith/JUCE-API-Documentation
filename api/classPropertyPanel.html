@@ -110,9 +110,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a304e2a044d426e027a3b98856f83fcde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertyPanel.html#a304e2a044d426e027a3b98856f83fcde">addProperties</a> (const <a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="classPropertyComponent.html">PropertyComponent</a> * &gt; &amp;newPropertyComponents)</td></tr>
 <tr class="memdesc:a304e2a044d426e027a3b98856f83fcde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a set of properties to the panel.  <a href="#a304e2a044d426e027a3b98856f83fcde"></a><br/></td></tr>
 <tr class="separator:a304e2a044d426e027a3b98856f83fcde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55ed5f17f69921324a75c32c9540f4d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertyPanel.html#a55ed5f17f69921324a75c32c9540f4d8">addSection</a> (const <a class="el" href="classString.html">String</a> &amp;sectionTitle, const <a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="classPropertyComponent.html">PropertyComponent</a> * &gt; &amp;newPropertyComponents, bool shouldSectionInitiallyBeOpen=true)</td></tr>
-<tr class="memdesc:a55ed5f17f69921324a75c32c9540f4d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a set of properties to the panel.  <a href="#a55ed5f17f69921324a75c32c9540f4d8"></a><br/></td></tr>
-<tr class="separator:a55ed5f17f69921324a75c32c9540f4d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad462331c2b616c4760a3d974383aabb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertyPanel.html#ad462331c2b616c4760a3d974383aabb1">addSection</a> (const <a class="el" href="classString.html">String</a> &amp;sectionTitle, const <a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="classPropertyComponent.html">PropertyComponent</a> * &gt; &amp;newPropertyComponents, bool shouldSectionInitiallyBeOpen=true, int indexToInsertAt=-1)</td></tr>
+<tr class="memdesc:ad462331c2b616c4760a3d974383aabb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a set of properties to the panel.  <a href="#ad462331c2b616c4760a3d974383aabb1"></a><br/></td></tr>
+<tr class="separator:ad462331c2b616c4760a3d974383aabb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4879227d607dc41ac4f767f27299570c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertyPanel.html#a4879227d607dc41ac4f767f27299570c">refreshAll</a> () const </td></tr>
 <tr class="memdesc:a4879227d607dc41ac4f767f27299570c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the refresh() method of all PropertyComponents in the panel.  <a href="#a4879227d607dc41ac4f767f27299570c"></a><br/></td></tr>
 <tr class="separator:a4879227d607dc41ac4f767f27299570c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,6 +134,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1fe2441419859069d012425dd137dc47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertyPanel.html#a1fe2441419859069d012425dd137dc47">setSectionEnabled</a> (int sectionIndex, bool shouldBeEnabled)</td></tr>
 <tr class="memdesc:a1fe2441419859069d012425dd137dc47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or disables one of the sections.  <a href="#a1fe2441419859069d012425dd137dc47"></a><br/></td></tr>
 <tr class="separator:a1fe2441419859069d012425dd137dc47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a294b75e52e40abe16e01020ea78774b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertyPanel.html#a294b75e52e40abe16e01020ea78774b0">removeSection</a> (int sectionIndex)</td></tr>
+<tr class="memdesc:a294b75e52e40abe16e01020ea78774b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove one of the sections using the section index.  <a href="#a294b75e52e40abe16e01020ea78774b0"></a><br/></td></tr>
+<tr class="separator:a294b75e52e40abe16e01020ea78774b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64d64045e5da843e3c4b159adec28420"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertyPanel.html#a64d64045e5da843e3c4b159adec28420">getOpennessState</a> () const </td></tr>
 <tr class="memdesc:a64d64045e5da843e3c4b159adec28420"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the current state of open/closed sections so it can be restored later.  <a href="#a64d64045e5da843e3c4b159adec28420"></a><br/></td></tr>
 <tr class="separator:a64d64045e5da843e3c4b159adec28420"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,9 +146,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0f20bbec2111121821004b62634baf21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertyPanel.html#a0f20bbec2111121821004b62634baf21">setMessageWhenEmpty</a> (const <a class="el" href="classString.html">String</a> &amp;newMessage)</td></tr>
 <tr class="memdesc:a0f20bbec2111121821004b62634baf21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a message to be displayed when there are no properties in the panel.  <a href="#a0f20bbec2111121821004b62634baf21"></a><br/></td></tr>
 <tr class="separator:a0f20bbec2111121821004b62634baf21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9189da1201b13604026aecf257e6f9e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertyPanel.html#ae9189da1201b13604026aecf257e6f9e">getMessageWhenEmpty</a> () const </td></tr>
-<tr class="memdesc:ae9189da1201b13604026aecf257e6f9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the message that is displayed when there are no properties.  <a href="#ae9189da1201b13604026aecf257e6f9e"></a><br/></td></tr>
-<tr class="separator:ae9189da1201b13604026aecf257e6f9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae277c460481b0cce24363e251640a7e6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertyPanel.html#ae277c460481b0cce24363e251640a7e6">getMessageWhenEmpty</a> () const noexcept</td></tr>
+<tr class="memdesc:ae277c460481b0cce24363e251640a7e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the message that is displayed when there are no properties.  <a href="#ae277c460481b0cce24363e251640a7e6"></a><br/></td></tr>
+<tr class="separator:ae277c460481b0cce24363e251640a7e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8146e80447608d743a7e1d63e30947cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertyPanel.html#a8146e80447608d743a7e1d63e30947cf">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;) override</td></tr>
 <tr class="separator:a8146e80447608d743a7e1d63e30947cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18b47c93593de5405c8fe5e4c6445644"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPropertyPanel.html#a18b47c93593de5405c8fe5e4c6445644">resized</a> () override</td></tr>
@@ -738,7 +741,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A panel that holds a list of <a class="el" href="classPropertyComponent.html" title="A base class for a component that goes in a PropertyPanel and displays one of an item&#39;s properties...">PropertyComponent</a> objects. </p>
 <p>This panel displays a list of PropertyComponents, and allows them to be organised into collapsible sections.</p>
-<p>To use, simply create one of these and add your properties to it with <a class="el" href="classPropertyPanel.html#a304e2a044d426e027a3b98856f83fcde" title="Adds a set of properties to the panel.">addProperties()</a> or <a class="el" href="classPropertyPanel.html#a55ed5f17f69921324a75c32c9540f4d8" title="Adds a set of properties to the panel.">addSection()</a>.</p>
+<p>To use, simply create one of these and add your properties to it with <a class="el" href="classPropertyPanel.html#a304e2a044d426e027a3b98856f83fcde" title="Adds a set of properties to the panel.">addProperties()</a> or <a class="el" href="classPropertyPanel.html#ad462331c2b616c4760a3d974383aabb1" title="Adds a set of properties to the panel.">addSection()</a>.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPropertyComponent.html" title="A base class for a component that goes in a PropertyPanel and displays one of an item&#39;s properties...">PropertyComponent</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a765b12e87a55fc10508a6ce1933a7951"></a>
@@ -827,11 +830,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Adds a set of properties to the panel. </p>
 <p>The components in the list will be owned by this object and will be automatically deleted later on when no longer needed.</p>
-<p>These properties are added without them being inside a named section. If you want them to be kept together in a collapsible section, use <a class="el" href="classPropertyPanel.html#a55ed5f17f69921324a75c32c9540f4d8" title="Adds a set of properties to the panel.">addSection()</a> instead. </p>
+<p>These properties are added without them being inside a named section. If you want them to be kept together in a collapsible section, use <a class="el" href="classPropertyPanel.html#ad462331c2b616c4760a3d974383aabb1" title="Adds a set of properties to the panel.">addSection()</a> instead. </p>
 
 </div>
 </div>
-<a class="anchor" id="a55ed5f17f69921324a75c32c9540f4d8"></a>
+<a class="anchor" id="ad462331c2b616c4760a3d974383aabb1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -851,7 +854,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>shouldSectionInitiallyBeOpen</em> = <code>true</code>&#160;</td>
+          <td class="paramname"><em>shouldSectionInitiallyBeOpen</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indexToInsertAt</em> = <code>-1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -862,7 +871,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Adds a set of properties to the panel. </p>
-<p>These properties are added at the bottom of the list, under a section heading with a plus/minus button that allows it to be opened and closed.</p>
+<p>These properties are added under a section heading with a plus/minus button that allows it to be opened and closed. If indexToInsertAt is &lt; 0 then it will be added at the end of the list, or before the given index if the index is non-zero.</p>
 <p>The components in the list will be owned by this object and will be automatically deleted later on when no longer needed.</p>
 <p>To add properies without them being in a section, use <a class="el" href="classPropertyPanel.html#a304e2a044d426e027a3b98856f83fcde" title="Adds a set of properties to the panel.">addProperties()</a>. </p>
 
@@ -933,7 +942,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a list of all the names of sections in the panel. </p>
-<p>These are the sections that have been added with <a class="el" href="classPropertyPanel.html#a55ed5f17f69921324a75c32c9540f4d8" title="Adds a set of properties to the panel.">addSection()</a>. </p>
+<p>These are the sections that have been added with <a class="el" href="classPropertyPanel.html#ad462331c2b616c4760a3d974383aabb1" title="Adds a set of properties to the panel.">addSection()</a>. </p>
 
 </div>
 </div>
@@ -1014,6 +1023,25 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a294b75e52e40abe16e01020ea78774b0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PropertyPanel::removeSection </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sectionIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove one of the sections using the section index. </p>
+<p>The index is from 0 up to the number of items returned by <a class="el" href="classPropertyPanel.html#a62970c587b749da9e7847b453536ebc6" title="Returns a list of all the names of sections in the panel.">getSectionNames()</a>. </p>
+
+</div>
+</div>
 <a class="anchor" id="a64d64045e5da843e3c4b159adec28420"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1072,9 +1100,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae9189da1201b13604026aecf257e6f9e"></a>
+<a class="anchor" id="ae277c460481b0cce24363e251640a7e6"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="classString.html">String</a>&amp; PropertyPanel::getMessageWhenEmpty </td>
@@ -1083,6 +1114,11 @@ Additional Inherited Members</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns the message that is displayed when there are no properties. </p>

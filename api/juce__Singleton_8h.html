@@ -136,7 +136,7 @@ Macros</h2></td></tr>
 <p>To use this, add the line juce_DeclareSingleton (MyClass, doNotRecreateAfterDeletion) to the class's definition.</p>
 <p>Then put a macro juce_ImplementSingleton (MyClass) along with the class's implementation code.</p>
 <p>It's also a very good idea to also add the call clearSingletonInstance() in your class's destructor, in case it is deleted by other means than deleteInstance()</p>
-<p>Clients can then call the static method MyClass::getInstance() to get a pointer to the singleton, or MyClass::getInstanceWithoutCreating() which will return 0 if no instance currently exists.</p>
+<p>Clients can then call the static method MyClass::getInstance() to get a pointer to the singleton, or MyClass::getInstanceWithoutCreating() which will return nullptr if no instance currently exists.</p>
 <p>e.g. </p>
 <div class="fragment"><div class="line"><span class="keyword">class </span>MySingleton</div>
 <div class="line">{</div>
