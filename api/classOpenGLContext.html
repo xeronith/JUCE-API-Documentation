@@ -181,6 +181,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac0bf3594cb79029af5ee5eb66a14f152"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#ac0bf3594cb79029af5ee5eb66a14f152">copyTexture</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;targetClipArea, const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;anchorPosAndTextureSize, int contextWidth, int contextHeight, bool textureOriginIsBottomLeft)</td></tr>
 <tr class="memdesc:ac0bf3594cb79029af5ee5eb66a14f152"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the currently selected texture into this context at its original size.  <a href="#ac0bf3594cb79029af5ee5eb66a14f152"></a><br/></td></tr>
 <tr class="separator:ac0bf3594cb79029af5ee5eb66a14f152"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eb85ffda148dac618e28fae654aab0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a1eb85ffda148dac618e28fae654aab0a">setImageCacheSize</a> (size_t cacheSizeBytes) noexcept</td></tr>
+<tr class="memdesc:a1eb85ffda148dac618e28fae654aab0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the amount of GPU memory that the internal cache for Images is allowed to use.  <a href="#a1eb85ffda148dac618e28fae654aab0a"></a><br/></td></tr>
+<tr class="separator:a1eb85ffda148dac618e28fae654aab0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a370e786a96eac9fa8486eff23ab2da9c"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a370e786a96eac9fa8486eff23ab2da9c">getImageCacheSize</a> () const noexcept</td></tr>
+<tr class="memdesc:a370e786a96eac9fa8486eff23ab2da9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the amount of GPU memory that the internal cache for Images is allowed to use.  <a href="#a370e786a96eac9fa8486eff23ab2da9c"></a><br/></td></tr>
+<tr class="separator:a370e786a96eac9fa8486eff23ab2da9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -916,6 +922,57 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a1eb85ffda148dac618e28fae654aab0a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenGLContext::setImageCacheSize </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>cacheSizeBytes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Changes the amount of GPU memory that the internal cache for Images is allowed to use. </p>
+
+</div>
+</div>
+<a class="anchor" id="a370e786a96eac9fa8486eff23ab2da9c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t OpenGLContext::getImageCacheSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the amount of GPU memory that the internal cache for Images is allowed to use. </p>
 
 </div>
 </div>

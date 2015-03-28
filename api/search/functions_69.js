@@ -138,6 +138,7 @@ var searchData=
   ['iscontrolopen',['isControlOpen',['../classActiveXControlComponent.html#a867c83a3cd08dcea5c94ac0fd25abc6e',1,'ActiveXControlComponent']]],
   ['isctrldown',['isCtrlDown',['../classModifierKeys.html#a06514fc0170112636f4582b1f997de39',1,'ModifierKeys']]],
   ['iscubase',['isCubase',['../classPluginHostType.html#a53d84c0cc0837d8be7587cefc66eff38',1,'PluginHostType']]],
+  ['iscubase7orlater',['isCubase7orLater',['../classPluginHostType.html#a508d0701cd138cda49634005031915df',1,'PluginHostType']]],
   ['iscubasebridged',['isCubaseBridged',['../classPluginHostType.html#a0100b8f60844c4f03e67cb17522c3d1e',1,'PluginHostType']]],
   ['iscurrentlyblockedbyanothermodalcomponent',['isCurrentlyBlockedByAnotherModalComponent',['../classComponent.html#ad18ec802aa575cf016a7c62f12e0edf9',1,'Component']]],
   ['iscurrentlydown',['isCurrentlyDown',['../classKeyPress.html#abbe7f5207ac72fbda3be3ac287c16a88',1,'KeyPress']]],

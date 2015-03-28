@@ -101,8 +101,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad951f0d7f1a9b752e2e3276f34b0b415"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTooltipWindow_1_1LookAndFeelMethods.html#ad951f0d7f1a9b752e2e3276f34b0b415">~LookAndFeelMethods</a> ()</td></tr>
 <tr class="separator:ad951f0d7f1a9b752e2e3276f34b0b415"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62f620ea1cd91b9847007027383cef7a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTooltipWindow_1_1LookAndFeelMethods.html#a62f620ea1cd91b9847007027383cef7a">getTooltipSize</a> (const <a class="el" href="classString.html">String</a> &amp;tipText, int &amp;width, int &amp;height)=0</td></tr>
-<tr class="separator:a62f620ea1cd91b9847007027383cef7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeca0a514a44df60b371692ae5da8fc83"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTooltipWindow_1_1LookAndFeelMethods.html#aeca0a514a44df60b371692ae5da8fc83">getTooltipBounds</a> (const <a class="el" href="classString.html">String</a> &amp;tipText, <a class="el" href="classPoint.html">Point</a>&lt; int &gt; screenPos, <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; parentArea)=0</td></tr>
+<tr class="memdesc:aeca0a514a44df60b371692ae5da8fc83"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the bounds for a tooltip at the given screen coordinate, constrained within the given desktop area.  <a href="#aeca0a514a44df60b371692ae5da8fc83"></a><br/></td></tr>
+<tr class="separator:aeca0a514a44df60b371692ae5da8fc83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb1f238df8c5ae6e4201985f50ffd8f2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTooltipWindow_1_1LookAndFeelMethods.html#aeb1f238df8c5ae6e4201985f50ffd8f2">drawTooltip</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, const <a class="el" href="classString.html">String</a> &amp;text, int width, int height)=0</td></tr>
 <tr class="separator:aeb1f238df8c5ae6e4201985f50ffd8f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -133,7 +134,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a62f620ea1cd91b9847007027383cef7a"></a>
+<a class="anchor" id="aeca0a514a44df60b371692ae5da8fc83"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -141,7 +142,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void TooltipWindow::LookAndFeelMethods::getTooltipSize </td>
+          <td class="memname">virtual <a class="el" href="classRectangle.html">Rectangle</a>&lt;int&gt; TooltipWindow::LookAndFeelMethods::getTooltipBounds </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
           <td class="paramname"><em>tipText</em>, </td>
@@ -149,14 +150,14 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int &amp;&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>screenPos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int &amp;&#160;</td>
-          <td class="paramname"><em>height</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>parentArea</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -171,7 +172,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classLookAndFeel__V2.html#ae72f4912dfc75ef3b29a66cb72558694">LookAndFeel_V2</a>.</p>
+<p>returns the bounds for a tooltip at the given screen coordinate, constrained within the given desktop area. </p>
+
+<p>Implemented in <a class="el" href="classLookAndFeel__V2.html#a6af715d801db915d661e103603a2e721">LookAndFeel_V2</a>.</p>
 
 </div>
 </div>

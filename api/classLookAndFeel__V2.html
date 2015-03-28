@@ -252,8 +252,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0aa4080c8487a4617da6337c14596966"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9dbd7c1125462a1d3c8ea548f3f7fa3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#af9dbd7c1125462a1d3c8ea548f3f7fa3">getSliderPopupPlacement</a> (<a class="el" href="classSlider.html">Slider</a> &amp;) override</td></tr>
 <tr class="separator:af9dbd7c1125462a1d3c8ea548f3f7fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae72f4912dfc75ef3b29a66cb72558694"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#ae72f4912dfc75ef3b29a66cb72558694">getTooltipSize</a> (const <a class="el" href="classString.html">String</a> &amp;tipText, int &amp;width, int &amp;height) override</td></tr>
-<tr class="separator:ae72f4912dfc75ef3b29a66cb72558694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6af715d801db915d661e103603a2e721"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#a6af715d801db915d661e103603a2e721">getTooltipBounds</a> (const <a class="el" href="classString.html">String</a> &amp;tipText, <a class="el" href="classPoint.html">Point</a>&lt; int &gt; screenPos, <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; parentArea) override</td></tr>
+<tr class="memdesc:a6af715d801db915d661e103603a2e721"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the bounds for a tooltip at the given screen coordinate, constrained within the given desktop area.  <a href="#a6af715d801db915d661e103603a2e721"></a><br/></td></tr>
+<tr class="separator:a6af715d801db915d661e103603a2e721"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a562db08c89200d6232c92e5b89d33d7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#a562db08c89200d6232c92e5b89d33d7d">drawTooltip</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, const <a class="el" href="classString.html">String</a> &amp;text, int width, int height) override</td></tr>
 <tr class="separator:a562db08c89200d6232c92e5b89d33d7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf8e525e887962916aa1e2b4d6c85c9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classButton.html">Button</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#aaf8e525e887962916aa1e2b4d6c85c9c">createFilenameComponentBrowseButton</a> (const <a class="el" href="classString.html">String</a> &amp;text) override</td></tr>
@@ -3527,7 +3528,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae72f4912dfc75ef3b29a66cb72558694"></a>
+<a class="anchor" id="a6af715d801db915d661e103603a2e721"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3535,7 +3536,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void LookAndFeel_V2::getTooltipSize </td>
+          <td class="memname"><a class="el" href="classRectangle.html">Rectangle</a>&lt;int&gt; LookAndFeel_V2::getTooltipBounds </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
           <td class="paramname"><em>tipText</em>, </td>
@@ -3543,14 +3544,14 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int &amp;&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
+          <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>screenPos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int &amp;&#160;</td>
-          <td class="paramname"><em>height</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>parentArea</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3565,7 +3566,9 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="structTooltipWindow_1_1LookAndFeelMethods.html#a62f620ea1cd91b9847007027383cef7a">TooltipWindow::LookAndFeelMethods</a>.</p>
+<p>returns the bounds for a tooltip at the given screen coordinate, constrained within the given desktop area. </p>
+
+<p>Implements <a class="el" href="structTooltipWindow_1_1LookAndFeelMethods.html#aeca0a514a44df60b371692ae5da8fc83">TooltipWindow::LookAndFeelMethods</a>.</p>
 
 </div>
 </div>

@@ -607,9 +607,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a16a0c88e82e5b71ed8cc7c7b3de37cb2 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a16a0c88e82e5b71ed8cc7c7b3de37cb2">mouseExit</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;event) override</td></tr>
 <tr class="memdesc:a16a0c88e82e5b71ed8cc7c7b3de37cb2 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the mouse moves out of a component.  <a href="#a16a0c88e82e5b71ed8cc7c7b3de37cb2"></a><br/></td></tr>
 <tr class="separator:a16a0c88e82e5b71ed8cc7c7b3de37cb2 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ef1d5efbd2b9c581c59ad75fb574fd4 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a9ef1d5efbd2b9c581c59ad75fb574fd4">mouseUp</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;event) override</td></tr>
-<tr class="memdesc:a9ef1d5efbd2b9c581c59ad75fb574fd4 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a mouse button is released.  <a href="#a9ef1d5efbd2b9c581c59ad75fb574fd4"></a><br/></td></tr>
-<tr class="separator:a9ef1d5efbd2b9c581c59ad75fb574fd4 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90a5f41210643598f6fdd5013800e5d0 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a90a5f41210643598f6fdd5013800e5d0">mouseDoubleClick</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;event) override</td></tr>
 <tr class="memdesc:a90a5f41210643598f6fdd5013800e5d0 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a mouse button has been double-clicked on a component.  <a href="#a90a5f41210643598f6fdd5013800e5d0"></a><br/></td></tr>
 <tr class="separator:a90a5f41210643598f6fdd5013800e5d0 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -761,6 +758,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a061e907019fb970e205063572e3cf933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88f1ec87e42f7bea6ba4e7d8dd68737e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResizableWindow.html#a88f1ec87e42f7bea6ba4e7d8dd68737e">mouseDrag</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;) override</td></tr>
 <tr class="separator:a88f1ec87e42f7bea6ba4e7d8dd68737e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fa6ed7d0c4ad350327816c559b3468b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResizableWindow.html#a9fa6ed7d0c4ad350327816c559b3468b">mouseUp</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;) override</td></tr>
+<tr class="separator:a9fa6ed7d0c4ad350327816c559b3468b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae314150a8f5a5aab3ba5383679c83b0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResizableWindow.html#ae314150a8f5a5aab3ba5383679c83b0d">lookAndFeelChanged</a> () override</td></tr>
 <tr class="separator:ae314150a8f5a5aab3ba5383679c83b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdb8203a8fa46c5e4cb5c2e57dcd00c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResizableWindow.html#acdb8203a8fa46c5e4cb5c2e57dcd00c0">childBoundsChanged</a> (<a class="el" href="classComponent.html">Component</a> *) override</td></tr>
@@ -1651,6 +1650,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classComponent.html#a32ebd26be9c9bc56dd942071227d799d">Component</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9fa6ed7d0c4ad350327816c559b3468b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ResizableWindow::mouseUp </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classComponent.html#a9ef1d5efbd2b9c581c59ad75fb574fd4">Component</a>.</p>
 
 </div>
 </div>

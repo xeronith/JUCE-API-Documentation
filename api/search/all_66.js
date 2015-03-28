@@ -153,7 +153,6 @@ var searchData=
   ['float_5fpi',['float_Pi',['../juce__MathsFunctions_8h.html#ac93fbc5e59d440cab26842b9c575d161',1,'juce_MathsFunctions.h']]],
   ['floatingwindows',['FloatingWindows',['../classMultiDocumentPanel.html#a493599178acb0ddea50f7059faa4f8f3aa9d0aa1885d047c950adf06e10b47014',1,'MultiDocumentPanel']]],
   ['floattype',['FloatType',['../classPoint.html#a81e5862bbe44912a39cb87042bea7c5b',1,'Point']]],
-  ['floatvalue',['floatValue',['../classjuce_1_1OSCArgument.html#ab863d1ef074a11c439e0f1d284e088bb',1,'juce::OSCArgument::floatValue()'],['../classOSCArgument.html#a06d50d41bc6431efb38f4221eccc5809',1,'OSCArgument::floatValue()']]],
   ['floatvectoroperations',['FloatVectorOperations',['../classFloatVectorOperations.html',1,'']]],
   ['floralwhite',['floralwhite',['../classColours.html#a7b14b831624be80b4520225559ba5253',1,'Colours']]],
   ['flush',['flush',['../classAudioFormatWriter.html#ac83a728db8d8abf6cf39a3bd34390a6a',1,'AudioFormatWriter::flush()'],['../classFileOutputStream.html#afc63785b8744278d51814c4892207414',1,'FileOutputStream::flush()'],['../classMemoryOutputStream.html#a9f055142557e0a5974e938252cb90c65',1,'MemoryOutputStream::flush()'],['../classOutputStream.html#a2b731aef87084c3779bea292f85e800d',1,'OutputStream::flush()'],['../classGZIPCompressorOutputStream.html#ac5a33ac0aa774dfe5cfd66d50a0c5fb0',1,'GZIPCompressorOutputStream::flush()']]],

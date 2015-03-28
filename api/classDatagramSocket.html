@@ -129,6 +129,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa6d0fb81186112263c99e88b498f58ed"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatagramSocket.html#aa6d0fb81186112263c99e88b498f58ed">read</a> (void *destBuffer, int maxBytesToRead, bool blockUntilSpecifiedAmountHasArrived)</td></tr>
 <tr class="memdesc:aa6d0fb81186112263c99e88b498f58ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads bytes from the socket.  <a href="#aa6d0fb81186112263c99e88b498f58ed"></a><br/></td></tr>
 <tr class="separator:aa6d0fb81186112263c99e88b498f58ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2892273260493656ecd8ba86b8920f47"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatagramSocket.html#a2892273260493656ecd8ba86b8920f47">read</a> (void *destBuffer, int maxBytesToRead, bool blockUntilSpecifiedAmountHasArrived, <a class="el" href="classString.html">String</a> &amp;senderIPAddress)</td></tr>
+<tr class="memdesc:a2892273260493656ecd8ba86b8920f47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads bytes from the socket and return the IP address of the sender.  <a href="#a2892273260493656ecd8ba86b8920f47"></a><br/></td></tr>
+<tr class="separator:a2892273260493656ecd8ba86b8920f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3b8aced314e792eb0b9205c9edb83cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatagramSocket.html#ae3b8aced314e792eb0b9205c9edb83cf">write</a> (const void *sourceBuffer, int numBytesToWrite)</td></tr>
 <tr class="memdesc:ae3b8aced314e792eb0b9205c9edb83cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes bytes to the socket from a buffer.  <a href="#ae3b8aced314e792eb0b9205c9edb83cf"></a><br/></td></tr>
 <tr class="separator:ae3b8aced314e792eb0b9205c9edb83cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -453,6 +456,49 @@ Public Member Functions</h2></td></tr>
 <p>Reads bytes from the socket. </p>
 <p>If blockUntilSpecifiedAmountHasArrived is true, the method will block until maxBytesToRead bytes have been read, (or until an error occurs). If this flag is false, the method will return as much data as is currently available without blocking.</p>
 <dl class="section return"><dt>Returns</dt><dd>the number of bytes read, or -1 if there was an error. </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classDatagramSocket.html#a773fbe9241d1c57e4ced45317f876b58" title="Waits until the socket is ready for reading or writing.">waitUntilReady</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2892273260493656ecd8ba86b8920f47"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DatagramSocket::read </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>destBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxBytesToRead</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>blockUntilSpecifiedAmountHasArrived</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>senderIPAddress</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads bytes from the socket and return the IP address of the sender. </p>
+<p>If blockUntilSpecifiedAmountHasArrived is true, the method will block until maxBytesToRead bytes have been read, (or until an error occurs). If this flag is false, the method will return as much data as is currently available without blocking.</p>
+<dl class="section return"><dt>Returns</dt><dd>the number of bytes read, or -1 if there was an error. On a successful result, the senderIPAddress value will be set to the IP of the sender. </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classDatagramSocket.html#a773fbe9241d1c57e4ced45317f876b58" title="Waits until the socket is ready for reading or writing.">waitUntilReady</a> </dd></dl>
 
 </div>

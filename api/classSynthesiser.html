@@ -176,6 +176,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af48b8565967d86777ac5229559635bd6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#af48b8565967d86777ac5229559635bd6">getSampleRate</a> () const noexcept</td></tr>
 <tr class="memdesc:af48b8565967d86777ac5229559635bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current target sample rate at which rendering is being done.  <a href="#af48b8565967d86777ac5229559635bd6"></a><br/></td></tr>
 <tr class="separator:af48b8565967d86777ac5229559635bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36ec952997dd56cceb00904a7be69140"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiser.html#a36ec952997dd56cceb00904a7be69140">setMinimumRenderingSubdivisionSize</a> (int numSamples) noexcept</td></tr>
+<tr class="memdesc:a36ec952997dd56cceb00904a7be69140"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a minimum limit on the size to which audio sub-blocks will be divided when rendering.  <a href="#a36ec952997dd56cceb00904a7be69140"></a><br/></td></tr>
+<tr class="separator:a36ec952997dd56cceb00904a7be69140"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -1033,6 +1036,35 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns the current target sample rate at which rendering is being done. </p>
 <p>Subclasses may need to know this so that they can pitch things correctly. </p>
+
+</div>
+</div>
+<a class="anchor" id="a36ec952997dd56cceb00904a7be69140"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Synthesiser::setMinimumRenderingSubdivisionSize </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numSamples</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets a minimum limit on the size to which audio sub-blocks will be divided when rendering. </p>
+<p>When rendering, the audio blocks that are passed into <a class="el" href="classSynthesiser.html#a6ef0f7f6a4b46a8f425dbadd976cf29f" title="Creates the next block of audio output.">renderNextBlock()</a> will be split up into smaller blocks that lie between all the incoming midi messages, and it is these smaller sub-blocks that are rendered with multiple calls to <a class="el" href="classSynthesiser.html#a10531f81813bc0d6f8726a89e2985ea8" title="Renders the voices for the given range.">renderVoices()</a>.</p>
+<p>Obviously in a pathological case where there are midi messages on every sample, then <a class="el" href="classSynthesiser.html#a10531f81813bc0d6f8726a89e2985ea8" title="Renders the voices for the given range.">renderVoices()</a> could be called once per sample and lead to poor performance, so this setting allows you to set a lower limit on the block size.</p>
+<p>The default setting is 32, which means that midi messages are accurate to about &lt; 1ms accuracy, which is probably fine for most purposes, but you may want to increase or decrease this value for your synth. </p>
 
 </div>
 </div>

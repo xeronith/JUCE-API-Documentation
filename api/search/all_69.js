@@ -126,7 +126,6 @@ var searchData=
   ['intersectsline',['intersectsLine',['../classPath.html#a58919b7e0a5d57558c75d8814c31ef0e',1,'Path']]],
   ['intersectsrectangle',['intersectsRectangle',['../classRectangleList.html#a44184b9834cc99cda85a6d8778519ac0',1,'RectangleList']]],
   ['interval',['interval',['../classNormalisableRange.html#a7717c3a5ebfe5ac44ab7d55ad63e5354',1,'NormalisableRange']]],
-  ['intvalue',['intValue',['../classjuce_1_1OSCArgument.html#aef93868ed870a812b4fb07a1b6dea690',1,'juce::OSCArgument::intValue()'],['../classOSCArgument.html#a81c635349763982a84322406534f1375',1,'OSCArgument::intValue()']]],
   ['invalid',['invalid',['../classValueTree.html#af49e8bf1c5072d0722dff9ef81b84f68',1,'ValueTree']]],
   ['invalidate',['invalidate',['../classCachedComponentImage.html#ae056a7e4c692db8196e58657342e52e0',1,'CachedComponentImage']]],
   ['invalidateall',['invalidateAll',['../classCachedComponentImage.html#a65cc82fa3020cb440e55f33313bc6897',1,'CachedComponentImage']]],
@@ -203,6 +202,7 @@ var searchData=
   ['iscontrolopen',['isControlOpen',['../classActiveXControlComponent.html#a867c83a3cd08dcea5c94ac0fd25abc6e',1,'ActiveXControlComponent']]],
   ['isctrldown',['isCtrlDown',['../classModifierKeys.html#a06514fc0170112636f4582b1f997de39',1,'ModifierKeys']]],
   ['iscubase',['isCubase',['../classPluginHostType.html#a53d84c0cc0837d8be7587cefc66eff38',1,'PluginHostType']]],
+  ['iscubase7orlater',['isCubase7orLater',['../classPluginHostType.html#a508d0701cd138cda49634005031915df',1,'PluginHostType']]],
   ['iscubasebridged',['isCubaseBridged',['../classPluginHostType.html#a0100b8f60844c4f03e67cb17522c3d1e',1,'PluginHostType']]],
   ['iscurrentlyblockedbyanothermodalcomponent',['isCurrentlyBlockedByAnotherModalComponent',['../classComponent.html#ad18ec802aa575cf016a7c62f12e0edf9',1,'Component']]],
   ['iscurrentlydown',['isCurrentlyDown',['../classKeyPress.html#abbe7f5207ac72fbda3be3ac287c16a88',1,'KeyPress']]],
@@ -498,10 +498,10 @@ var searchData=
   ['itemtype',['ItemType',['../classSelectedItemSet.html#adac8d78df1c308ca17aa9cbfada787fa',1,'SelectedItemSet']]],
   ['iterate',['iterate',['../classEdgeTable.html#af2a5e19d16658853b61684af190e03f6',1,'EdgeTable']]],
   ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html',1,'MidiBuffer']]],
+  ['iterator',['Iterator',['../classCodeDocument_1_1Iterator.html',1,'CodeDocument']]],
   ['iterator',['Iterator',['../classListenerList_1_1Iterator.html',1,'ListenerList']]],
   ['iterator',['Iterator',['../classPath_1_1Iterator.html',1,'Path']]],
   ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html#a4a30662a2e2d79787da4cc7ff6f7df00',1,'MidiBuffer::Iterator::Iterator()'],['../classHashMap_1_1Iterator.html#a5688b78daa1734ef6cc29b81a545fcb0',1,'HashMap::Iterator::Iterator()'],['../classListenerList_1_1Iterator.html#aec6ff5dcf548392d46dd38b26168c79d',1,'ListenerList::Iterator::Iterator()'],['../classPath_1_1Iterator.html#a53108f853b4af5f975d870f24ad79f83',1,'Path::Iterator::Iterator()'],['../classCodeDocument_1_1Iterator.html#a350e1a7a64043f010e5467a1d862830f',1,'CodeDocument::Iterator::Iterator(const CodeDocument &amp;document) noexcept'],['../classCodeDocument_1_1Iterator.html#ae4ccddcd44ec79ac604a0abf4c5ea1e5',1,'CodeDocument::Iterator::Iterator(const Iterator &amp;) noexcept']]],
-  ['iterator',['Iterator',['../classCodeDocument_1_1Iterator.html',1,'CodeDocument']]],
   ['iterator',['Iterator',['../classHashMap_1_1Iterator.html',1,'HashMap']]],
   ['ivory',['ivory',['../classColours.html#a97ea5f64838c6c2d1301c32108e830d3',1,'Colours']]]
 ];
