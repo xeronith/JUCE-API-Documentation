@@ -224,12 +224,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa4b04d76a2d80c08f0d762f0fa6b715c"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#aa4b04d76a2d80c08f0d762f0fa6b715c">getParameter</a> (int parameterIndex)</td></tr>
 <tr class="memdesc:aa4b04d76a2d80c08f0d762f0fa6b715c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the host to find out the value of one of the filter's parameters.  <a href="#aa4b04d76a2d80c08f0d762f0fa6b715c"></a><br/></td></tr>
 <tr class="separator:aa4b04d76a2d80c08f0d762f0fa6b715c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfc2bb4a053ea9997dadbb681a636cb0"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#adfc2bb4a053ea9997dadbb681a636cb0">getParameterText</a> (int parameterIndex)</td></tr>
-<tr class="memdesc:adfc2bb4a053ea9997dadbb681a636cb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of a parameter as a text string.  <a href="#adfc2bb4a053ea9997dadbb681a636cb0"></a><br/></td></tr>
-<tr class="separator:adfc2bb4a053ea9997dadbb681a636cb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a443c3bc95aaac71abe669bb6b5833b7f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a443c3bc95aaac71abe669bb6b5833b7f">getParameterName</a> (int parameterIndex, int maximumStringLength)</td></tr>
 <tr class="memdesc:a443c3bc95aaac71abe669bb6b5833b7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of a parameter as a text string with a preferred maximum length.  <a href="#a443c3bc95aaac71abe669bb6b5833b7f"></a><br/></td></tr>
 <tr class="separator:a443c3bc95aaac71abe669bb6b5833b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfc2bb4a053ea9997dadbb681a636cb0"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#adfc2bb4a053ea9997dadbb681a636cb0">getParameterText</a> (int parameterIndex)</td></tr>
+<tr class="memdesc:adfc2bb4a053ea9997dadbb681a636cb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of a parameter as a text string.  <a href="#adfc2bb4a053ea9997dadbb681a636cb0"></a><br/></td></tr>
+<tr class="separator:adfc2bb4a053ea9997dadbb681a636cb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51062b0669b31253a99a36615b68c5f1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a51062b0669b31253a99a36615b68c5f1">getParameterText</a> (int parameterIndex, int maximumStringLength)</td></tr>
 <tr class="memdesc:a51062b0669b31253a99a36615b68c5f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of a parameter as a text string with a preferred maximum length.  <a href="#a51062b0669b31253a99a36615b68c5f1"></a><br/></td></tr>
 <tr class="separator:a51062b0669b31253a99a36615b68c5f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -321,10 +321,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a32373cce07683bdd38cf3b01eb1c4bdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a32373cce07683bdd38cf3b01eb1c4bdc">setSpeakerArrangement</a> (const <a class="el" href="classString.html">String</a> &amp;inputs, const <a class="el" href="classString.html">String</a> &amp;outputs)</td></tr>
 <tr class="memdesc:a32373cce07683bdd38cf3b01eb1c4bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not for public use - this is called to initialise the processor before playing.  <a href="#a32373cce07683bdd38cf3b01eb1c4bdc"></a><br/></td></tr>
 <tr class="separator:a32373cce07683bdd38cf3b01eb1c4bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b8c1173436016802c9ae356f68dbe69"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a3b8c1173436016802c9ae356f68dbe69">valueFromString</a> (int parameterIndex, const <a class="el" href="classString.html">String</a> &amp;text, float &amp;value) const </td></tr>
-<tr class="separator:a3b8c1173436016802c9ae356f68dbe69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad47f2e67f841b51c674b0f500cbf74a4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ad47f2e67f841b51c674b0f500cbf74a4">stringFromValue</a> (int index, float value, int maxLen, <a class="el" href="classString.html">String</a> &amp;result) const </td></tr>
-<tr class="separator:ad47f2e67f841b51c674b0f500cbf74a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -1385,6 +1381,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This must return the correct value immediately after the object has been created, and mustn't change the number of parameters later. </p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use the <a class="el" href="classAudioProcessorParameter.html" title="An abstract base class for parameter objects that can be added to an AudioProcessor.">AudioProcessorParameter</a> class instead to manage your parameters. </p>
 
 </div>
 </div>
@@ -1411,6 +1408,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the name of a particular parameter. </p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use the <a class="el" href="classAudioProcessorParameter.html" title="An abstract base class for parameter objects that can be added to an AudioProcessor.">AudioProcessorParameter</a> class instead to manage your parameters. </p>
 
 </div>
 </div>
@@ -1438,33 +1436,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Called by the host to find out the value of one of the filter's parameters. </p>
 <p>The host will expect the value returned to be between 0 and 1.0.</p>
-<p>This could be called quite frequently, so try to make your code efficient. It's also likely to be called by non-UI threads, so the code in here should be thread-aware. </p>
-
-</div>
-</div>
-<a class="anchor" id="adfc2bb4a053ea9997dadbb681a636cb0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual const <a class="el" href="classString.html">String</a> AudioProcessor::getParameterText </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>parameterIndex</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the value of a parameter as a text string. </p>
+<p>This could be called quite frequently, so try to make your code efficient. It's also likely to be called by non-UI threads, so the code in here should be thread-aware.</p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use the <a class="el" href="classAudioProcessorParameter.html" title="An abstract base class for parameter objects that can be added to an AudioProcessor.">AudioProcessorParameter</a> class instead to manage your parameters. </p>
 
 </div>
 </div>
@@ -1501,7 +1474,35 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the name of a parameter as a text string with a preferred maximum length. </p>
-<p>If you want to provide customised short versions of your parameter names that will look better in constrained spaces (e.g. the displays on hardware controller devices or mixing desks) then you should implement this method. If you don't override it, the default implementation will call <a class="el" href="classAudioProcessor.html#adfc2bb4a053ea9997dadbb681a636cb0" title="Returns the value of a parameter as a text string.">getParameterText(int)</a>, and truncate the result. </p>
+<p>If you want to provide customised short versions of your parameter names that will look better in constrained spaces (e.g. the displays on hardware controller devices or mixing desks) then you should implement this method. If you don't override it, the default implementation will call <a class="el" href="classAudioProcessor.html#adfc2bb4a053ea9997dadbb681a636cb0" title="Returns the value of a parameter as a text string.">getParameterText(int)</a>, and truncate the result.</p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#ac4d06247b0f466d5350b62d45c42080c" title="Returns the name to display for this parameter, which should be made to fit within the given string l...">AudioProcessorParameter::getName()</a> instead. </p>
+
+</div>
+</div>
+<a class="anchor" id="adfc2bb4a053ea9997dadbb681a636cb0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const <a class="el" href="classString.html">String</a> AudioProcessor::getParameterText </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>parameterIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the value of a parameter as a text string. </p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#aa5bd8a255ef5dd285787ab0b5a7a7d76" title="Returns a textual version of the supplied parameter value.">AudioProcessorParameter::getText()</a> instead. </p>
 
 </div>
 </div>
@@ -1538,7 +1539,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the value of a parameter as a text string with a preferred maximum length. </p>
-<p>If you want to provide customised short versions of your parameter values that will look better in constrained spaces (e.g. the displays on hardware controller devices or mixing desks) then you should implement this method. If you don't override it, the default implementation will call <a class="el" href="classAudioProcessor.html#adfc2bb4a053ea9997dadbb681a636cb0" title="Returns the value of a parameter as a text string.">getParameterText(int)</a>, and truncate the result. </p>
+<p>If you want to provide customised short versions of your parameter values that will look better in constrained spaces (e.g. the displays on hardware controller devices or mixing desks) then you should implement this method. If you don't override it, the default implementation will call <a class="el" href="classAudioProcessor.html#adfc2bb4a053ea9997dadbb681a636cb0" title="Returns the value of a parameter as a text string.">getParameterText(int)</a>, and truncate the result.</p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#aa5bd8a255ef5dd285787ab0b5a7a7d76" title="Returns a textual version of the supplied parameter value.">AudioProcessorParameter::getText()</a> instead. </p>
 
 </div>
 </div>
@@ -1565,7 +1567,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the number of discrete steps that this parameter can represent. </p>
-<p>The default return value if you don't implement this method is <a class="el" href="classAudioProcessor.html#a39a78126e8b9abb65e4198a02ca41b7d" title="Returns the default number of steps for a parameter.">AudioProcessor::getDefaultNumParameterSteps()</a>. If your parameter is boolean, then you may want to make this return 2. The value that is returned may or may not be used, depending on the host. </p>
+<p>The default return value if you don't implement this method is <a class="el" href="classAudioProcessor.html#a39a78126e8b9abb65e4198a02ca41b7d" title="Returns the default number of steps for a parameter.">AudioProcessor::getDefaultNumParameterSteps()</a>. If your parameter is boolean, then you may want to make this return 2. The value that is returned may or may not be used, depending on the host.</p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#a4707ab253ff2585a12f3e4a42958e0d6" title="Returns the number of discrete interval steps that this parameter&#39;s range should be quantised into...">AudioProcessorParameter::getNumSteps()</a> instead. </p>
 
 </div>
 </div>
@@ -1591,6 +1594,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the default number of steps for a parameter. </p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#a4707ab253ff2585a12f3e4a42958e0d6" title="Returns the number of discrete interval steps that this parameter&#39;s range should be quantised into...">AudioProcessorParameter::getNumSteps()</a> instead. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessor.html#a0a07b5efc95b686b57256b16c22eec7f" title="Returns the number of discrete steps that this parameter can represent.">getParameterNumSteps</a> </dd></dl>
 
 </div>
@@ -1618,7 +1622,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the default value for the parameter. </p>
-<p>By default, this just returns 0. The value that is returned may or may not be used, depending on the host. </p>
+<p>By default, this just returns 0. The value that is returned may or may not be used, depending on the host.</p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#ae33d8ce958178cff49604d5ab55ce0c9" title="This should return the default value for this parameter.">AudioProcessorParameter::getDefaultValue()</a> instead. </p>
 
 </div>
 </div>
@@ -1645,6 +1650,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Some plugin types may be able to return a label string for a parameter's units. </p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#a1413a29855168b5e0ca5a1cd648d352a" title="Some parameters may be able to return a label string for their units.">AudioProcessorParameter::getLabel()</a> instead. </p>
 
 </div>
 </div>
@@ -1671,7 +1677,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This can be overridden to tell the host that particular parameters operate in the reverse direction. </p>
-<p>(Not all plugin formats or hosts will actually use this information). </p>
+<p>(Not all plugin formats or hosts will actually use this information).</p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#a4059d9e8fdee3e0f06bb9b088157130e" title="This can be overridden to tell the host that this parameter operates in the reverse direction...">AudioProcessorParameter::isOrientationInverted()</a> instead. </p>
 
 </div>
 </div>
@@ -1710,7 +1717,8 @@ Protected Attributes</h2></td></tr>
 <p>The host will call this method to change the value of one of the filter's parameters. </p>
 <p>The host may call this at any time, including during the audio processing callback, so the filter has to process this very fast and avoid blocking.</p>
 <p>If you want to set the value of a parameter internally, e.g. from your editor component, then don't call this directly - instead, use the <a class="el" href="classAudioProcessor.html#ab09a26934acb4d7fe3f71448aeb80f18" title="Your filter can call this when it needs to change one of its parameters.">setParameterNotifyingHost()</a> method, which will also send a message to the host telling it about the change. If the message isn't sent, the host won't be able to automate your parameters properly.</p>
-<p>The value passed will be between 0 and 1.0. </p>
+<p>The value passed will be between 0 and 1.0.</p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#ab7c0b4f8caace42d38c71ff620cf8182" title="The host will call this method to change the value of one of the filter&#39;s parameters.">AudioProcessorParameter::setValue()</a> instead. </p>
 
 </div>
 </div>
@@ -1740,7 +1748,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Your filter can call this when it needs to change one of its parameters. </p>
 <p>This could happen when the editor or some other internal operation changes a parameter. This method will call the <a class="el" href="classAudioProcessor.html#adafe6e16f7ae33645dbbafcb21014e50" title="The host will call this method to change the value of one of the filter&#39;s parameters.">setParameter()</a> method to change the value, and will then send a message to the host telling it about the change.</p>
-<p>Note that to make sure the host correctly handles automation, you should call the <a class="el" href="classAudioProcessor.html#ad082383dc1b0e4f648bb4edaf61cf385" title="Sends a signal to the host to tell it that the user is about to start changing this parameter...">beginParameterChangeGesture()</a> and <a class="el" href="classAudioProcessor.html#a4205962ffb34852cfc1ef1476050dd68" title="Tells the host that the user has finished changing this parameter.">endParameterChangeGesture()</a> methods to tell the host when the user has started and stopped changing the parameter. </p>
+<p>Note that to make sure the host correctly handles automation, you should call the <a class="el" href="classAudioProcessor.html#ad082383dc1b0e4f648bb4edaf61cf385" title="Sends a signal to the host to tell it that the user is about to start changing this parameter...">beginParameterChangeGesture()</a> and <a class="el" href="classAudioProcessor.html#a4205962ffb34852cfc1ef1476050dd68" title="Tells the host that the user has finished changing this parameter.">endParameterChangeGesture()</a> methods to tell the host when the user has started and stopped changing the parameter.</p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#ac9b67f35339db50d2bd9a026d89390e1" title="Your filter can call this when it needs to change one of its parameters.">AudioProcessorParameter::setValueNotifyingHost()</a> instead. </p>
 
 </div>
 </div>
@@ -1767,7 +1776,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns true if the host can automate this parameter. </p>
-<p>By default, this returns true for all parameters. </p>
+<p>By default, this returns true for all parameters.</p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#a1114c7cca3bfde9ab668191a41b27641" title="Returns true if the host can automate this parameter.">AudioProcessorParameter::isAutomatable()</a> instead. </p>
 
 </div>
 </div>
@@ -1794,7 +1804,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Should return true if this parameter is a "meta" parameter. </p>
-<p>A meta-parameter is a parameter that changes other params. It is used by some hosts (e.g. AudioUnit hosts). By default this returns false. </p>
+<p>A meta-parameter is a parameter that changes other params. It is used by some hosts (e.g. AudioUnit hosts). By default this returns false.</p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#a2ed01ae575f42e4bf9cffd76dc43dc4f" title="Should return true if this parameter is a &quot;meta&quot; parameter.">AudioProcessorParameter::isMetaParameter()</a> instead. </p>
 
 </div>
 </div>
@@ -1814,7 +1825,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Sends a signal to the host to tell it that the user is about to start changing this parameter. </p>
 <p>This allows the host to know when a parameter is actively being held by the user, and it may use this information to help it record automation.</p>
-<p>If you call this, it must be matched by a later call to <a class="el" href="classAudioProcessor.html#a4205962ffb34852cfc1ef1476050dd68" title="Tells the host that the user has finished changing this parameter.">endParameterChangeGesture()</a>. </p>
+<p>If you call this, it must be matched by a later call to <a class="el" href="classAudioProcessor.html#a4205962ffb34852cfc1ef1476050dd68" title="Tells the host that the user has finished changing this parameter.">endParameterChangeGesture()</a>.</p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#aae70f0cce34b664206323bc277096ddc" title="Sends a signal to the host to tell it that the user is about to start changing this parameter...">AudioProcessorParameter::beginChangeGesture()</a> instead. </p>
 
 </div>
 </div>
@@ -1834,7 +1846,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Tells the host that the user has finished changing this parameter. </p>
 <p>This allows the host to know when a parameter is actively being held by the user, and it may use this information to help it record automation.</p>
-<p>A call to this method must follow a call to <a class="el" href="classAudioProcessor.html#ad082383dc1b0e4f648bb4edaf61cf385" title="Sends a signal to the host to tell it that the user is about to start changing this parameter...">beginParameterChangeGesture()</a>. </p>
+<p>A call to this method must follow a call to <a class="el" href="classAudioProcessor.html#ad082383dc1b0e4f648bb4edaf61cf385" title="Sends a signal to the host to tell it that the user is about to start changing this parameter...">beginParameterChangeGesture()</a>.</p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#a50c2a826a7aa77dbe0e55e77a93d061e" title="Tells the host that the user has finished changing this parameter.">AudioProcessorParameter::endChangeGesture()</a> instead. </p>
 
 </div>
 </div>
@@ -2504,76 +2517,6 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classStandalonePluginHolder.html#acb689ebcf4c02da40c76b0cd1b3e556f">StandalonePluginHolder::createPlugin()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3b8c1173436016802c9ae356f68dbe69"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool AudioProcessor::valueFromString </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>parameterIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>text</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float &amp;&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ad47f2e67f841b51c674b0f500cbf74a4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool AudioProcessor::stringFromValue </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>index</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>maxLen</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classString.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>result</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
