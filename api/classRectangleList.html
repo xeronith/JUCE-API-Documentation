@@ -437,7 +437,8 @@ template&lt;typename ValueType&gt; </div>
 </div><div class="memdoc">
 
 <p>Merges a new rectangle into the list. </p>
-<p>The rectangle being added will first be clipped to remove any parts of it that overlap existing rectangles in the list, and adjacent rectangles will be merged into it. </p>
+<p>The rectangle being added will first be clipped to remove any parts of it that overlap existing rectangles in the list, and adjacent rectangles will be merged into it.</p>
+<p>The rectangle can have any size and may be empty, but if it's floating point then it's expected to not contain any INF values. </p>
 
 <p>Referenced by <a class="el" href="classRectangleList.html#ac89368b777082d6f8151f2c0c51b2068">RectangleList&lt; int &gt;::add()</a>.</p>
 
@@ -503,7 +504,8 @@ template&lt;typename ValueType&gt; </div>
 </div><div class="memdoc">
 
 <p>Dumbly adds a rectangle to the list without checking for overlaps. </p>
-<p>This simply adds the rectangle to the end, it doesn't merge it or remove any overlapping bits. </p>
+<p>This simply adds the rectangle to the end, it doesn't merge it or remove any overlapping bits.</p>
+<p>The rectangle can have any size and may be empty, but if it's floating point then it's expected to not contain any INF values. </p>
 
 <p>Referenced by <a class="el" href="classRectangleList.html#a15df0830ea3741a45339658f585e36d9">RectangleList&lt; int &gt;::RectangleList()</a>.</p>
 

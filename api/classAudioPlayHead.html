@@ -237,6 +237,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Fills-in the given structure with details about the transport's position at the start of the current processing block. </p>
+<p>If this method returns false then the current play head position is not available and the given structure will be undefined.</p>
 <p>You can ONLY call this from your processBlock() method! Calling it at other times will produce undefined behaviour, as the host may not have any context in which a time would make sense, and some hosts will almost certainly have multithreading issues if it's not called on the audio thread. </p>
 
 </div>

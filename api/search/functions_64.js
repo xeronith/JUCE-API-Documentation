@@ -1,7 +1,7 @@
 var searchData=
 [
   ['darker',['darker',['../classColour.html#a9910d9b8385825a87ea0d62d96115872',1,'Colour']]],
-  ['datagramsocket',['DatagramSocket',['../classDatagramSocket.html#ac150b23e3a6be740ae9c3281cff23b73',1,'DatagramSocket']]],
+  ['datagramsocket',['DatagramSocket',['../classDatagramSocket.html#af2fea92879c30d16256752076c5473e4',1,'DatagramSocket']]],
   ['days',['days',['../classRelativeTime.html#a97b1773403606835c173f26a0a03f5e6',1,'RelativeTime']]],
   ['deactivatecurrentcontext',['deactivateCurrentContext',['../classOpenGLContext.html#a5a3ece9be728d97e0343ae17a71f6562',1,'OpenGLContext']]],
   ['decibelstogain',['decibelsToGain',['../classDecibels.html#a4bc3a6fd3f361e9c64bd055ba8fa1238',1,'Decibels']]],

@@ -5,6 +5,7 @@ var searchData=
   ['defaultglversion',['defaultGLVersion',['../classOpenGLContext.html#a3a6b8eeed7dbc7c7c649528252c07d02abfbb3238e2943fa532a03e1473ac1baf',1,'OpenGLContext']]],
   ['defaultorder',['defaultOrder',['../classKnownPluginList.html#a6beabfccc86796527f663f30f3514098a095b33c1920322812d2f98874fa647c0',1,'KnownPluginList']]],
   ['defaulttextcolourid',['defaultTextColourId',['../classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596aebfaf17bcdaf7960adf28fc44355a51d',1,'CodeEditorComponent']]],
+  ['deflateformat',['deflateFormat',['../classGZIPDecompressorInputStream.html#a293d005b03d528a89ec13cfb07e31f94adbc6da051e28e255c2574026684fc2b0',1,'GZIPDecompressorInputStream']]],
   ['del',['del',['../namespaceStandardApplicationCommandIDs.html#a8ce34a13722727706c8e98c64454fbf9a3519307963b37e47b3c0935a553c8a13',1,'StandardApplicationCommandIDs']]],
   ['deselectall',['deselectAll',['../namespaceStandardApplicationCommandIDs.html#a8ce34a13722727706c8e98c64454fbf9acdd0c589b2b1904cde27f75185f65e4a',1,'StandardApplicationCommandIDs']]],
   ['digidesignprotools',['DigidesignProTools',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a98abcd7b565c269a115d7f419114bb9c',1,'PluginHostType']]],

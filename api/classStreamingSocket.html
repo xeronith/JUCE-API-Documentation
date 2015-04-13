@@ -102,6 +102,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa0788414f9c3f08d1c5adddf5481e17a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStreamingSocket.html#aa0788414f9c3f08d1c5adddf5481e17a">bindToPort</a> (int localPortNumber)</td></tr>
 <tr class="memdesc:aa0788414f9c3f08d1c5adddf5481e17a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds the socket to the specified local port.  <a href="#aa0788414f9c3f08d1c5adddf5481e17a"></a><br/></td></tr>
 <tr class="separator:aa0788414f9c3f08d1c5adddf5481e17a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4138f041b6875937b1910a2be0f1b5f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStreamingSocket.html#ad4138f041b6875937b1910a2be0f1b5f">getBoundPort</a> () const noexcept</td></tr>
+<tr class="memdesc:ad4138f041b6875937b1910a2be0f1b5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the local port number to which this socket is currently bound.  <a href="#ad4138f041b6875937b1910a2be0f1b5f"></a><br/></td></tr>
+<tr class="separator:ad4138f041b6875937b1910a2be0f1b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42934b3f0d68f46f29cc7bb5d1067c33"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStreamingSocket.html#a42934b3f0d68f46f29cc7bb5d1067c33">connect</a> (const <a class="el" href="classString.html">String</a> &amp;remoteHostname, int remotePortNumber, int timeOutMillisecs=3000)</td></tr>
 <tr class="memdesc:a42934b3f0d68f46f29cc7bb5d1067c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to connect the socket to hostname:port.  <a href="#a42934b3f0d68f46f29cc7bb5d1067c33"></a><br/></td></tr>
 <tr class="separator:a42934b3f0d68f46f29cc7bb5d1067c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,6 +200,32 @@ Public Member Functions</h2></td></tr>
 
 <p>Binds the socket to the specified local port. </p>
 <dl class="section return"><dt>Returns</dt><dd>true on success; false may indicate that another socket is already bound on the same port </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad4138f041b6875937b1910a2be0f1b5f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int StreamingSocket::getBoundPort </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the local port number to which this socket is currently bound. </p>
+<p>This is useful if you need to know to which port the OS has actually bound your socket when calling the constructor or bindToPort with zero as the localPortNumber argument. Returns -1 if the function fails. </p>
 
 </div>
 </div>

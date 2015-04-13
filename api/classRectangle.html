@@ -117,6 +117,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad079632253a625cf014bc52cf26485f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#ad079632253a625cf014bc52cf26485f4">isEmpty</a> () const noexcept</td></tr>
 <tr class="memdesc:ad079632253a625cf014bc52cf26485f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the rectangle's width or height are zero or less.  <a href="#ad079632253a625cf014bc52cf26485f4"></a><br/></td></tr>
 <tr class="separator:ad079632253a625cf014bc52cf26485f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a089755ce60af99f576e28317d5302531"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#a089755ce60af99f576e28317d5302531">isFinite</a> () const noexcept</td></tr>
+<tr class="memdesc:a089755ce60af99f576e28317d5302531"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the rectangle's values are all finite numbers, i.e.  <a href="#a089755ce60af99f576e28317d5302531"></a><br/></td></tr>
+<tr class="separator:a089755ce60af99f576e28317d5302531"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b8223fb659d6c7f95a72e8d3fbe793d"><td class="memItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#a4b8223fb659d6c7f95a72e8d3fbe793d">getX</a> () const noexcept</td></tr>
 <tr class="memdesc:a4b8223fb659d6c7f95a72e8d3fbe793d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the x coordinate of the rectangle's left-hand-side.  <a href="#a4b8223fb659d6c7f95a72e8d3fbe793d"></a><br/></td></tr>
 <tr class="separator:a4b8223fb659d6c7f95a72e8d3fbe793d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -735,6 +738,36 @@ template&lt;typename ValueType&gt; </div>
 <p>Returns true if the rectangle's width or height are zero or less. </p>
 
 <p>Referenced by <a class="el" href="classRectangleList.html#a9df83403875d4288f1aa9a9cdd3245bb">RectangleList&lt; int &gt;::add()</a>, <a class="el" href="classRectangleList.html#a3ec4544b91f3a935000c5c3fe2d89d69">RectangleList&lt; int &gt;::addWithoutMerging()</a>, <a class="el" href="classRectangleList.html#ae270885963acca0dcd78d80158605f1a">RectangleList&lt; int &gt;::clipTo()</a>, <a class="el" href="classRectangleList.html#a42f68746a56cddd16eb4800aa367b59e">RectangleList&lt; int &gt;::getIntersectionWith()</a>, and <a class="el" href="classRectangle.html#af8cd7e93ec67369fd194202a27e992c1">Rectangle&lt; int &gt;::getUnion()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a089755ce60af99f576e28317d5302531"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt;::isFinite </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the rectangle's values are all finite numbers, i.e. </p>
+<p>not NaN or infinity. </p>
+
+<p>Referenced by <a class="el" href="classRectangleList.html#a9df83403875d4288f1aa9a9cdd3245bb">RectangleList&lt; int &gt;::add()</a>, <a class="el" href="classRectangleList.html#a3ec4544b91f3a935000c5c3fe2d89d69">RectangleList&lt; int &gt;::addWithoutMerging()</a>, <a class="el" href="classRectangleList.html#ae270885963acca0dcd78d80158605f1a">RectangleList&lt; int &gt;::clipTo()</a>, and <a class="el" href="classRectangleList.html#a42f68746a56cddd16eb4800aa367b59e">RectangleList&lt; int &gt;::getIntersectionWith()</a>.</p>
 
 </div>
 </div>

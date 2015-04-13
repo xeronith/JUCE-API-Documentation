@@ -129,6 +129,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9b5ada8bbf89e4be218b6ffecb770b30"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a9b5ada8bbf89e4be218b6ffecb770b30">aftertouchChanged</a> (int newAftertouchValue)</td></tr>
 <tr class="memdesc:a9b5ada8bbf89e4be218b6ffecb770b30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to let the voice know that the aftertouch has changed.  <a href="#a9b5ada8bbf89e4be218b6ffecb770b30"></a><br/></td></tr>
 <tr class="separator:a9b5ada8bbf89e4be218b6ffecb770b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ec285dd9db207415f64ac83efe86859"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a5ec285dd9db207415f64ac83efe86859">channelPressureChanged</a> (int newChannelPressureValue)</td></tr>
+<tr class="memdesc:a5ec285dd9db207415f64ac83efe86859"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to let the voice know that the channel pressure has changed.  <a href="#a5ec285dd9db207415f64ac83efe86859"></a><br/></td></tr>
+<tr class="separator:a5ec285dd9db207415f64ac83efe86859"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4ed4a1a2017669531b4cef59a158b9a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#ad4ed4a1a2017669531b4cef59a158b9a">renderNextBlock</a> (<a class="el" href="classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;outputBuffer, int startSample, int numSamples)=0</td></tr>
 <tr class="memdesc:ad4ed4a1a2017669531b4cef59a158b9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the next block of data for this voice.  <a href="#ad4ed4a1a2017669531b4cef59a158b9a"></a><br/></td></tr>
 <tr class="separator:ad4ed4a1a2017669531b4cef59a158b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -497,6 +500,33 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Called to let the voice know that the aftertouch has changed. </p>
+<p>This will be called during the rendering callback, so must be fast and thread-safe. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5ec285dd9db207415f64ac83efe86859"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void SynthesiserVoice::channelPressureChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>newChannelPressureValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called to let the voice know that the channel pressure has changed. </p>
 <p>This will be called during the rendering callback, so must be fast and thread-safe. </p>
 
 </div>

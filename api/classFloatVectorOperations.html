@@ -195,6 +195,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a32ea0fd222be354458651ed99739adf1"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a32ea0fd222be354458651ed99739adf1">negate</a> (double *dest, const double *src, int numValues) noexcept</td></tr>
 <tr class="memdesc:a32ea0fd222be354458651ed99739adf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a source vector to a destination, negating each value.  <a href="#a32ea0fd222be354458651ed99739adf1"></a><br/></td></tr>
 <tr class="separator:a32ea0fd222be354458651ed99739adf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dff842371bb11e03ec29233765a9996"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a7dff842371bb11e03ec29233765a9996">abs</a> (float *dest, const float *src, int numValues) noexcept</td></tr>
+<tr class="memdesc:a7dff842371bb11e03ec29233765a9996"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a source vector to a destination, taking the absolute of each value.  <a href="#a7dff842371bb11e03ec29233765a9996"></a><br/></td></tr>
+<tr class="separator:a7dff842371bb11e03ec29233765a9996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98870adab184d5543850921d8ba70b48"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a98870adab184d5543850921d8ba70b48">abs</a> (double *dest, const double *src, int numValues) noexcept</td></tr>
+<tr class="memdesc:a98870adab184d5543850921d8ba70b48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a source vector to a destination, taking the absolute of each value.  <a href="#a98870adab184d5543850921d8ba70b48"></a><br/></td></tr>
+<tr class="separator:a98870adab184d5543850921d8ba70b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6bede830cbeff0b93b6998b5b603000"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#ac6bede830cbeff0b93b6998b5b603000">convertFixedToFloat</a> (float *dest, const int *src, float multiplier, int numValues) noexcept</td></tr>
 <tr class="memdesc:ac6bede830cbeff0b93b6998b5b603000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a stream of integers to floats, multiplying each one by the given multiplier.  <a href="#ac6bede830cbeff0b93b6998b5b603000"></a><br/></td></tr>
 <tr class="separator:ac6bede830cbeff0b93b6998b5b603000"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1763,6 +1769,90 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Copies a source vector to a destination, negating each value. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7dff842371bb11e03ec29233765a9996"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::abs </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numValues</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copies a source vector to a destination, taking the absolute of each value. </p>
+
+</div>
+</div>
+<a class="anchor" id="a98870adab184d5543850921d8ba70b48"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="juce__PlatformDefs_8h.html#af0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::abs </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numValues</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copies a source vector to a destination, taking the absolute of each value. </p>
 
 </div>
 </div>

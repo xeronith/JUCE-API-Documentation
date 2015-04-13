@@ -157,7 +157,7 @@ Public Member Functions</h2></td></tr>
 <div class="line">    <span class="keywordtype">void</span> readFromFifo (<span class="keywordtype">int</span>* someData, <span class="keywordtype">int</span> numItems)</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keywordtype">int</span> start1, size1, start2, size2;</div>
-<div class="line">        abstractFifo.prepareToRead (numSamples, start1, size1, start2, size2);</div>
+<div class="line">        abstractFifo.prepareToRead (numItems, start1, size1, start2, size2);</div>
 <div class="line"></div>
 <div class="line">        <span class="keywordflow">if</span> (size1 &gt; 0)</div>
 <div class="line">            copySomeData (someData, myBuffer + start1, size1);</div>

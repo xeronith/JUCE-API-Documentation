@@ -2,6 +2,7 @@ var searchData=
 [
   ['abortburn',['abortBurn',['../classAudioCDBurner.html#a085b0ceaf4cd982d6bb1e95dd18752f7',1,'AudioCDBurner']]],
   ['abouttoscanvstshellplugin',['aboutToScanVSTShellPlugin',['../classVSTPluginFormat.html#a6277efa1639b851939014d07ffcc84d4',1,'VSTPluginFormat']]],
+  ['abs',['abs',['../classFloatVectorOperations.html#a7dff842371bb11e03ec29233765a9996',1,'FloatVectorOperations::abs(float *dest, const float *src, int numValues) noexcept'],['../classFloatVectorOperations.html#a98870adab184d5543850921d8ba70b48',1,'FloatVectorOperations::abs(double *dest, const double *src, int numValues) noexcept']]],
   ['abs64',['abs64',['../juce__MathsFunctions_8h.html#aeb0dad8278fdd49dd101532e47852148',1,'juce_MathsFunctions.h']]],
   ['abstractfifo',['AbstractFifo',['../classAbstractFifo.html#accd680c366b4b8ca4f30ee8fb2b37b75',1,'AbstractFifo']]],
   ['acceptsmidi',['acceptsMidi',['../classAudioProcessor.html#ae482a0c2928bfe77de821e6824ffaee6',1,'AudioProcessor::acceptsMidi()'],['../classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a32af37c599689a815ec647ab77a182cb',1,'AudioProcessorGraph::AudioGraphIOProcessor::acceptsMidi()'],['../classAudioProcessorGraph.html#a653c9237a655d4c4b1da4be847ebbf43',1,'AudioProcessorGraph::acceptsMidi()']]],

@@ -81,6 +81,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classGZIPDecompressorInputStream-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -93,11 +94,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>Inherits <a class="el" href="classInputStream.html">InputStream</a>.</p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a293d005b03d528a89ec13cfb07e31f94"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGZIPDecompressorInputStream.html#a293d005b03d528a89ec13cfb07e31f94">Format</a> { <a class="el" href="classGZIPDecompressorInputStream.html#a293d005b03d528a89ec13cfb07e31f94a38e3cd57b01d42c10cd866e71343f742">zlibFormat</a> = 0, 
+<a class="el" href="classGZIPDecompressorInputStream.html#a293d005b03d528a89ec13cfb07e31f94adbc6da051e28e255c2574026684fc2b0">deflateFormat</a>, 
+<a class="el" href="classGZIPDecompressorInputStream.html#a293d005b03d528a89ec13cfb07e31f94a1a578314b467b8f06a116da9d8cc52eb">gzipFormat</a>
+ }</td></tr>
+<tr class="separator:a293d005b03d528a89ec13cfb07e31f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1f3e3e868fcac072d0d5cc49bde278f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGZIPDecompressorInputStream.html#a1f3e3e868fcac072d0d5cc49bde278f0">GZIPDecompressorInputStream</a> (<a class="el" href="classInputStream.html">InputStream</a> *sourceStream, bool deleteSourceWhenDestroyed, bool noWrap=false, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> uncompressedStreamLength=-1)</td></tr>
-<tr class="memdesc:a1f3e3e868fcac072d0d5cc49bde278f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a decompressor stream.  <a href="#a1f3e3e868fcac072d0d5cc49bde278f0"></a><br/></td></tr>
-<tr class="separator:a1f3e3e868fcac072d0d5cc49bde278f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a212aeebd5a55b921b0ce5475d756d79a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGZIPDecompressorInputStream.html#a212aeebd5a55b921b0ce5475d756d79a">GZIPDecompressorInputStream</a> (<a class="el" href="classInputStream.html">InputStream</a> *sourceStream, bool deleteSourceWhenDestroyed, <a class="el" href="classGZIPDecompressorInputStream.html#a293d005b03d528a89ec13cfb07e31f94">Format</a> sourceFormat=<a class="el" href="classGZIPDecompressorInputStream.html#a293d005b03d528a89ec13cfb07e31f94a38e3cd57b01d42c10cd866e71343f742">zlibFormat</a>, <a class="el" href="juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> uncompressedStreamLength=-1)</td></tr>
+<tr class="memdesc:a212aeebd5a55b921b0ce5475d756d79a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a decompressor stream.  <a href="#a212aeebd5a55b921b0ce5475d756d79a"></a><br/></td></tr>
+<tr class="separator:a212aeebd5a55b921b0ce5475d756d79a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3beb8232d0d81935fa78d75e30ba8e01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGZIPDecompressorInputStream.html#a3beb8232d0d81935fa78d75e30ba8e01">GZIPDecompressorInputStream</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;sourceStream)</td></tr>
 <tr class="memdesc:a3beb8232d0d81935fa78d75e30ba8e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a decompressor stream.  <a href="#a3beb8232d0d81935fa78d75e30ba8e01"></a><br/></td></tr>
 <tr class="separator:a3beb8232d0d81935fa78d75e30ba8e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,8 +200,31 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><p>This stream will decompress a source-stream using zlib. </p>
 <p>Tip: if you're reading lots of small items from one of these streams, you can increase the performance enormously by passing it through a <a class="el" href="classBufferedInputStream.html" title="Wraps another input stream, and reads from it using an intermediate buffer.">BufferedInputStream</a>, so that it has to read larger blocks less often.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classGZIPCompressorOutputStream.html" title="A stream which uses zlib to compress the data written into it.">GZIPCompressorOutputStream</a> </dd></dl>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a1f3e3e868fcac072d0d5cc49bde278f0"></a>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="a293d005b03d528a89ec13cfb07e31f94"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classGZIPDecompressorInputStream.html#a293d005b03d528a89ec13cfb07e31f94">GZIPDecompressorInputStream::Format</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" id="a293d005b03d528a89ec13cfb07e31f94a38e3cd57b01d42c10cd866e71343f742"></a>zlibFormat</em>&nbsp;</td><td>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a293d005b03d528a89ec13cfb07e31f94adbc6da051e28e255c2574026684fc2b0"></a>deflateFormat</em>&nbsp;</td><td>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="a293d005b03d528a89ec13cfb07e31f94a1a578314b467b8f06a116da9d8cc52eb"></a>gzipFormat</em>&nbsp;</td><td>
+</td></tr>
+</table>
+</dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a212aeebd5a55b921b0ce5475d756d79a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -211,8 +243,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>noWrap</em> = <code>false</code>, </td>
+          <td class="paramtype"><a class="el" href="classGZIPDecompressorInputStream.html#a293d005b03d528a89ec13cfb07e31f94">Format</a>&#160;</td>
+          <td class="paramname"><em>sourceFormat</em> = <code><a class="el" href="classGZIPDecompressorInputStream.html#a293d005b03d528a89ec13cfb07e31f94a38e3cd57b01d42c10cd866e71343f742">zlibFormat</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -233,7 +265,7 @@ Additional Inherited Members</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">sourceStream</td><td>the stream to read from </td></tr>
     <tr><td class="paramname">deleteSourceWhenDestroyed</td><td>whether or not to delete the source stream when this object is destroyed </td></tr>
-    <tr><td class="paramname">noWrap</td><td>this is used internally by the <a class="el" href="classZipFile.html" title="Decodes a ZIP file from a stream.">ZipFile</a> class and should be ignored by user applications </td></tr>
+    <tr><td class="paramname">sourceFormat</td><td>can be used to select which of the supported formats the data is expected to be in </td></tr>
     <tr><td class="paramname">uncompressedStreamLength</td><td>if the creator knows the length that the uncompressed stream will be, then it can supply this value, which will be returned by <a class="el" href="classGZIPDecompressorInputStream.html#a42cdcb3cd546cb0cbbffe52f8763a5c0" title="Returns the total number of bytes available for reading in this stream.">getTotalLength()</a> </td></tr>
   </table>
   </dd>
